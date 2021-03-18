@@ -16,19 +16,19 @@ Known issues:
 
 Translators:
 
-Simplified Chinese (简体中文) - Translated by ReHou (BenHou#8636), reviewed by Chair#2384
-Japanese (日本語) - Translated by frzn (frzn#1030), reviewed by KnockerOut#5087, Minaaami🐈#8830, nns
-French (FRANÇAIS) - Translated by Chwoubaka (Chwoubaka#3009)
-Korean (한국어) - Translated by Dojin. (dojin#0001)
-Spanish (Español) - Translated by Nightmare#5968, reviewed by MGVoltJesk#6249
-Portuguese (Português)
-German (Deutsch)
+- Simplified Chinese (简体中文) - Translated by ReHou (BenHou#8636), reviewed by Chair#2384
+- Japanese (日本語) - Translated by frzn (frzn#1030), reviewed by KnockerOut#5087, Minaaami🐈#8830, nns
+- French (FRANÇAIS) - Translated by Chwoubaka (Chwoubaka#3009)
+- Korean (한국어) - Translated by Dojin. (dojin#0001)
+- Spanish (Español) - Translated by Nightmare#5968, reviewed by MGVoltJesk#6249
+- Portuguese (Português)
+- German (Deutsch)
 
 As of patch v3.7.4, the following languages have been added to the game:
 
-English
-Spanish
-German
-Korean
-Portuguese
-Japanese
+- English
+- Spanish
+- German
+- Korean
+- Portuguese
+- Japanese
