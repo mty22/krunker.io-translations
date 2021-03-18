@@ -1,18 +1,19 @@
 This repo contains all the language files for Krunker.io
 
-If you wish to translate, you must find a buddy to work with for cross referencing.
+If you wish to translate, feel free to grab a copy of en.js (English), find a buddy and translate where possible.
 
 If you find an issue, please make sure that you create an issue:
 
 https://github.com/mty22/Krunker-Languages/issues
 
-Please submit a pull request to change or add.
+It's also worth having a once over for common issues.
 
-Contact frzn#1030 on Discord for assistance.
+If you are ready to push a change, please submit a pull request or ontact frzn#1030 on Discord or @frznmatt on Twitter for assistance.
 
 
 Known issues:
 - Issue with grammar https://github.com/mty22/Krunker-Languages/issues/1
+
 
 Translators:
 
@@ -24,6 +25,7 @@ Translators:
 - Portuguese (Português)
 - German (Deutsch)
 
+
 As of patch v3.7.4, the following languages have been added to the game:
 
 - English
@@ -32,3 +34,9 @@ As of patch v3.7.4, the following languages have been added to the game:
 - Korean
 - Portuguese
 - Japanese
+
+Pending:
+
+- Simplified Chinese
+- French
+
