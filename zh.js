@@ -1,4 +1,3 @@
-// Simplified Chinese (简体中文) - Translated by ReHou (Discord: BenHou#8636):
 module.exports = `
     menu.btn.ranked 排位 
     menu.btn.shop 商店 

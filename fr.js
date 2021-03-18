@@ -1,4 +1,3 @@
-// French (FRANÇAIS - contact Chwoubaka#3009 on Discord for translations):
 module.exports = `
     menu.btn.ranked Classée
     menu.btn.shop Boutique
