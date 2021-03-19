@@ -33,7 +33,7 @@ generic.off 끄기
 generic.defeat 패배
 generic.victory 승리
 generic.matchover 매치 종료
-generic.matchaband 상대가 매치를 나갔습니다
+generic.matchaband 상대가 게임을 나갔습니다.
 generic.follow 팔로우
 generic.unfollow 언팔로우
 generic.followers 팔로워
@@ -60,17 +60,17 @@ generic.accuracy 명중률
 player.waiting 플레이어 기다리는 중
 player.died 죽었습니다
 player.killed 나를 죽인 플레이어 -
-player.killstreak {0}님 {1} 연속 처치
+player.killstreak {0}님이 {1}명 연속 처치 중입니다.
 player.inactive 장시간 활동하지 않아 게임에서 제외되었습니다.
 player.disconnect 연결 끊기
-timer.end {0}초 후 다음 라운드가 시작합니다
+timer.end {0}초 후 다음 라운드가 시작합니다.
 leaderboard.empty 빈 로비
 popup.checkpoint 체크포인트!
 app.play 플레이하려면 클릭하세요
-app.play.controller 플레이하려면 START를 누르세요
+app.play.controller 플레이하려면 START를 누르세요.
 purchase.error 오류가 발생했습니다
 purchase.error.click 여기</a>를 눌러서 다시 시도하세요!
-purchase.error.limit 일일 거래 한도를 초과했습니다
+purchase.error.limit 일일 거래 한도를 초과했습니다.
 settings.reset 초기화
 settings.reset.confirm 설정을 초기화할까요?
 settings.import 설정 불러오기
@@ -78,8 +78,8 @@ settings.export 설정 저장하기
 settings.none 설정을 찾지 못하였습니다.
 settings.backup 설정 백업
 settings.controls.change 조작키 설정
-settings.controls.press 아무 키나 누르십시오
-settings.local.header 언어 설정 <span id="requiresRestart"><span style="color: #eb5656">*</span>크런커 재시작 필요</span>
+settings.controls.press 아무 키나 누르십시오.
+settings.local.header 언어 설정 <span id="requiresRestart"><span style="color: #eb5656">*</span>Krunker 재시작 필요</span>
 settings.local.region 기본 지역
 settings.local.lang 언어
 settings.network.header 네트워크
@@ -109,7 +109,7 @@ settings.quality.mapDet 맵 디테일
 settings.quality.noTex 텍스처 끄기
 settings.quality.partdist 입자 렌더링 거리
 settings.quality.renderdist 렌더 거리
-settings.quality.antiAlias 안티에일리어싱
+settings.quality.antiAlias 계단 현상 방지
 settings.quality.shadows 그림자
 settings.quality.softShad 부드러운 그림자
 settings.quality.highResShad 고해상도 그림자
@@ -270,7 +270,7 @@ settings.viewmodel.yOff 무기 Y축 위치
 settings.viewmodel.zOff 무기 Z축 위치
 settings.viewmodel.yOffADS 무기 조준 Y축 위치
 settings.viewmodel.adsFovMlt 무기 조준 배율
-settings.editing.header UI 효과 편집
+settings.editing.header 인터페이스 효과
 settings.editing.health.high HUD HP 정상 색상
 settings.editing.health.low HUD HP 낮음 색상
 settings.editing.speedLines 속도 효과선
@@ -282,9 +282,9 @@ settings.editing.score.shadow 점수 팝업 그림자
 settings.editing.scoreOffX 점수 팝업 X축 위치
 settings.editing.scoreOffY 점수 팝업 Y축 위치
 settings.editing.saturation 그래픽 채도
-settings.editing.menuSaturation UI 채도
+settings.editing.menuSaturation 인터페이스 채도
 settings.editing.hue 그래픽 색상
-settings.editing.menuHue UI 색상
+settings.editing.menuHue 인터페이스 색상
 settings.editing.vignette 화면 테두리 어둡게 하기
 settings.editing.feedLimit 킬로그 제한
 settings.editing.depth 깊이 지도
@@ -322,7 +322,7 @@ settings.mods.damage.paste 피해량 오버레이 이미지 URL
 settings.mods.overlay 게임 오버레이 이미지
 settings.mods.overlay.paste 게임 오버레이 이미지 URL
 windows.settings.header 게임 설정
-windows.mail.header 크런커 메일
+windows.mail.header Krunker 메일
 windows.servers.header 서버
 windows.servers.none 참가할 수 있는 게임이 없습니다.
 windows.servers.host + 게임 만들기
@@ -360,12 +360,12 @@ windows.mods.load.header 모드 적용
 windows.mods.publish 모드 업로드
 windows.mods.viewer 뷰어
 windows.account.header 계정
-windows.account.recover 계정 복구는 <a>krunker@yendis.ch</a>로 이메일을 보내십시오
+windows.account.recover 계정 복구는 <a>krunker@yendis.ch</a>로 이메일을 보내십시오.
 windows.class.header 클래스 선택
-windows.controls.header 조작법 바꾸기,
+windows.controls.header 조작법 바꾸기
 windows.controls.forward 앞
 windows.controls.backward 뒤
-windows.controls.left 좌,
+windows.controls.left 좌
 windows.controls.right 우
 windows.controls.reload 재장전
 windows.controls.aim 조준
@@ -385,20 +385,20 @@ windows.controls.board 리더보드
 windows.controls.interact 주 사용하기
 windows.controls.interactSec 부 사용하기
 windows.controls.drop 무기 떨어뜨리기
-windows.controls.wepVis 무기 보이기 토글
+windows.controls.wepVis 무기 보이기 전환
 windows.controls.streak0 연속 처치 1
 windows.controls.streak1 연속 처치 2
 windows.controls.streak2 연속 처치 3
 windows.controls.streak3 연속 처치 4
 windows.controls.streak4 연속 처치 5
 windows.controls.premium0 벽 통과
-windows.controls.premium1 만능 모드
+windows.controls.premium1 무적 모드
 windows.controls.premium2 자살
 windows.controls.premium3 즉사 모드
 windows.host.header 커스텀 게임 만들기
 windows.host.maps 서버 설정
 windows.host.cmaps 커뮤니티 게임
-windows.host.raw 가공되지 않은 게임 데이터
+windows.host.raw 텍스트 게임 데이터
 windows.host.modes 게임 모드 선택
 windows.host.classes 클래스 선택
 windows.host.settings 서버 설정
@@ -436,25 +436,25 @@ windows.clans.join 클랜 가입
 windows.clans.login 하고 클랜을 만들고 가입하세요!
 windows.store.header 상점
 windows.store.spin {0} 스핀
-windows.store.agree KR을 구매하면 {0}이용약관에 동의하는 것으로 간주합니다
+windows.store.agree KR을 구매하면 {0}이용약관에 동의하는 것으로 간주합니다.
 windows.store.purchase KR 구매
 windows.store.voucher KR 바우처 코드 입력
 windows.store.voucherinfo 특정 스트리머와 이벤트를 통해서 KR 바우처 코드를 얻으세요!
 windows.store.market 마켓
-windows.store.market2 크런커 마켓
+windows.store.market2 Krunker 마켓
 windows.store.premium 프리미엄 구독
-windows.store.premium2 크런커 프리미엄
-windows.store.buyP 크런커 프리미엄으로 표시 이름을 바꾸고 더 많은 혜택을 누리세요!
+windows.store.premium2 Krunker 프리미엄
+windows.store.buyP Krunker 프리미엄으로 표시 이름을 바꾸고 더 많은 혜택을 누리세요!
 windows.store.buy 아이템을 사고팔 때는
 windows.store.wheels 경품 뽑기
 windows.store.unlock 새 무기 스킨과 아이템을 얻으세요!
 windows.store.amount {0} KR이 계정에 있습니다
 windows.store.login 해서 마켓에서 아이템을 사고파세요!
 windows.store.purchasing 구매 중...
-windows.store.unboxed {0}{1} 구매 완료
+windows.store.unboxed {0}님이 {1} 아이템을 뽑았습니다.
 windows.skin.header 스킨 선택
 windows.hat.header 모자 선택
-windows.back.header 망토 선택
+windows.back.header 몸통 선택
 windows.waist.header 허리 선택
 windows.face.header 얼굴 선택
 windows.melee.header 근접무기 선택
@@ -483,14 +483,14 @@ windows.secondary.unlocked 잠금 해제됨
 windows.secondary.req {0}레벨 필요
 windows.advertise.header 광고하기
 windows.support.header 고객지원
-windows.players.header 플레이어 목록t
+windows.players.header 플레이어 목록
 windows.players.none 현재 플레이어가 없습니다...
 windows.join.header 참가
-windows.join.code 게임 URL이나 코드를 입력하세요
+windows.join.code 게임 URL이나 코드를 입력하세요.
 windows.client.header 클라이언트
-windows.client.windows 윈도우
+windows.client.windows Windows
 windows.client.mac macOS
-windows.client.linux 리눅스
+windows.client.linux Linux
 windows.ranked.header 랭크
 windows.ranked.login 해서 랭크 게임에 참가하세요!
 windows.ranked.level 랭크 게임을 하려면 최소<span color="black">{0}레벨</span>이어야 합니다! 지금 당신은 <span color="black">{1}레벨</span>입니다.
@@ -499,8 +499,8 @@ windows.ranked.mode.r2v2 2 vs 2
 windows.ranked.mode.r4v4 4 vs 4
 windows.chall.header 챌린지
 windows.chall.login 해서 챌린지에 도전하세요!
-thumbnail.upload.limit 썸네일 업로드 실패. 최대 {0}KB까지 가능합니다
-image.upload.limit 이미지 업로드 실패. 최대 {0}KB까지 가능합니다
+thumbnail.upload.limit 썸네일 업로드 실패. 최대 {0}KB까지 가능합니다.
+image.upload.limit 이미지 업로드 실패. 최대 {0}KB까지 가능합니다.
 thumbnail.upload.error 썸네일 오류
 mod.extracting 모드 추출 중... {0}/{1}
 mod.disabled 모드가 비활성화되어 있습니다.
@@ -513,15 +513,15 @@ matchmaker.updating 업데이트중...
 matchmaker.invalid 게임을 찾을 수 없습니다.
 matchmaker.none 서버 용량이 가득 찼습니다.
 adblocker 무료 KR을 받으려면 광고 차단기를 끄세요.
-ad-failed 광고를 받아오지 못하였습니다. 나중에 다시 시도하세요
+ad-failed 광고를 받아오지 못하였습니다. 나중에 다시 시도하세요.
 streamers.views 시청자 {0}명
 streamers.none 생방송이 없습니다!
-error.extentions 확장 프로그램을 사용하고 있다면 비활성화 해보십시오
-error.seek 다른 게임을 찾아보려면 here를 클릭하세요
+error.extentions 확장 프로그램을 사용하고 있다면 비활성화 해보십시오.
+error.seek 다른 게임을 찾아보려면 here를 클릭하세요.
 custom.map.upload.limit 실패했습니다. 맵 데이터는 50만 글자 이내여야 합니다.
-custom.map.missing 최소 하나의 맵을 선택하세요
-custom.mode.missing 최소 하나의 게임 모드를 선택하세요
-custom.class.missing 최소 하나의 클래스를 선택하세요
+custom.map.missing 최소 하나의 맵을 선택하세요.
+custom.mode.missing 최소 하나의 게임 모드를 선택하세요.
+custom.class.missing 최소 하나의 클래스를 선택하세요.
 server.config.maxPlayers 최대 플레이어 수
 server.config.minPlayers 최소 플레이어 수
 server.config.lives 목숨
@@ -565,9 +565,9 @@ server.config.disableB 경계 비활성화
 server.config.throwMel 근접무기 던지기
 social.login 로그인/회원가입
 social.login.failed 로그인 실패
-social.login.buy 구매하려면 로그인하세요
-social.login.sell 판매하려면 로그인하세요
-social.login.gift KR을 주려면 로그인하세요
+social.login.buy 구매하려면 로그인하세요.
+social.login.sell 판매하려면 로그인하세요.
+social.login.gift KR을 주려면 로그인하세요.
 social.login.proccessing 로그인 중...
 social.since 첫 등록일
 social.user.maps 이 유저의 게임
@@ -582,27 +582,27 @@ social.market.list 아이템 게시하기
 social.market.unlist 게시 취소하기
 social.market.unlisting 게시 취소 중...
 social.market.posting 아이템 게시 중...
-social.market.req {0}레벨 이상이어야 합니다
+social.market.req {0}레벨 이상이어야 합니다.
 social.market.cant KR이 부족합니다
 social.market.purchase 구매
 social.market.fee 게시 수수료 없음
-social.market.failed 실패했습니다. 다시 해보십시오
+social.market.failed 실패했습니다. 다시 해보십시오.
 social.market.head 머리 아이템
-social.market.back 망토 아이템
+social.market.back 몸통 아이템
 social.market.waist 허리 아이템
 social.market.face 얼굴 아이템
 social.market.melee 근접무기 아이템
 social.market.spray 스프레이 아이템
 social.market.dye 염료 아이템
-social.market.none 찾은 아이템이 없습니다
+social.market.none 찾은 아이템이 없습니다.
 social.market.login 먼저 로그인하십시오.
-social.market.grace {0}초 후에 준비됩니다
+social.market.grace {0}초 후에 준비됩니다.
 social.market.sort 필터/정렬
 social.market.filter 검색
 social.market.sort2 정렬
 social.market.price.high 가격 내림차순
 social.trading.submitting 트레이드 보내는 중...
-social.market.gift.amount 선물할 양
+social.market.gift.amount 선물할
 social.market.fee.gift 수수료 없음
 social.market.gift KR 선물하기
 social.market.gift.msg 문자 남기기
