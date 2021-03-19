@@ -21,7 +21,7 @@ You can see what key:values (read: language content) is missing by running this 
 
 This will omit files in the format of "<lang>_MISSING_KEYS.txt". Feel free to cherry pick the items based on the language you know, and enter it into your respective "<lang>.js" file.
 
-This script will also be frequently run, and at a glance..you'll be able to see what is missing by checking: STATS_MISSING_KEYS.txt
+This script will also be frequently run, and at a glance..you'll be able to see what is missing by checking: SUMMARY_MISSING_KEYS.txt
 
 If you do translate any missing content, please make sure that the missing keys are placed within their respective positions within the file (eg. check for the location within en.js)
 
