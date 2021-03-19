@@ -5,4 +5,4 @@
    86 MISSING/kr_MISSING_KEYS.txt
   425 MISSING/pr_MISSING_KEYS.txt
   426 MISSING/de_MISSING_KEYS.txt
-Please check README.md, and look at 'MISSING/' folder for more info!
+Please check README.md, and look at https://github.com/mty22/krunker.io-translations/tree/main/MISSING for more info!

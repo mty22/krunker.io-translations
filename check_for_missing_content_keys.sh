@@ -24,13 +24,14 @@ for key in $(awk '{print$1}' $default_file | egrep -v '(module.exports|`;)' | so
 		fi
 	done
 done
+
 echo -ne "------------------------ All keys and files have been checked! ------------------------\r"
 
 # Post checks
 if [ "$missing_content" == "true" ]; then
 	echo -e "\n==> Missing content was found, please see the following files:\n"
 	wc -l MISSING/*_MISSING_KEYS.txt | sort -nk1 | grep -v total | tee SUMMARY_MISSING_KEYS.txt
-	echo "Please check README.md, and look at 'MISSING/' folder for more info!" >> SUMMARY_MISSING_KEYS.txt
+	echo "Please check README.md, and look at https://github.com/mty22/krunker.io-translations/tree/main/MISSING for more info!" >> SUMMARY_MISSING_KEYS.txt
 else
 	echo -e "==> Looks like we're up to date!"
 fi
