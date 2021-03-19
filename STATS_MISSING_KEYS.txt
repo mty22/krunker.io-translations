@@ -1,7 +1,8 @@
-   85 es_MISSING_KEYS.txt
-   85 fr_MISSING_KEYS.txt
-   85 jp_MISSING_KEYS.txt
-   85 zh_MISSING_KEYS.txt
-   86 kr_MISSING_KEYS.txt
-  425 pr_MISSING_KEYS.txt
-  426 de_MISSING_KEYS.txt
+   85 MISSING/es_MISSING_KEYS.txt
+   85 MISSING/fr_MISSING_KEYS.txt
+   85 MISSING/jp_MISSING_KEYS.txt
+   85 MISSING/zh_MISSING_KEYS.txt
+   86 MISSING/kr_MISSING_KEYS.txt
+  425 MISSING/pr_MISSING_KEYS.txt
+  426 MISSING/de_MISSING_KEYS.txt
+Please check README.md, and look at 'MISSING/' folder for more info!
