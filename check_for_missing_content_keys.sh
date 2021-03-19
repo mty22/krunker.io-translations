@@ -12,7 +12,6 @@ rm -fv *_MISSING_KEYS.txt
 
 # Loop through all keys in $default_file
 for key in $(awk '{print$1}' $default_file | egrep -v '(module.exports|`;)' | sort | uniq); do
-
 	# Loop through all *.js files (excluding $default_file), grep specifically for the key and check the result of grep.
 	for js_file in $(find . -type f -name '*.js' -not -name $default_file); do
 		base_file=$(basename -- "$js_file")
