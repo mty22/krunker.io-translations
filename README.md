@@ -21,7 +21,7 @@ Translators:
 - Japanese (日本語) - Translated by frzn (frzn#1030), reviewed by KnockerOut#5087, Minaaami🐈#8830, nns
 - French (FRANÇAIS) - Translated by Chwoubaka (Chwoubaka#3009), reviewed by Atzelord (atzelord#0712)
 - Korean (한국어) - Translated by Dojin. (dojin#0001), reviewed by goonmandu (apinklover#0933)
-- Spanish (Español) - Translated by nightz#6678, reviewed by MGVoltJesk#0001
+- Spanish (Español) - Translated by MGVoltJesk#0001 and Translated and Reviewed by nightz#6678
 - Portuguese (Português)
 - German (Deutsch)
 
