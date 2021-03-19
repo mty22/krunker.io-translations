@@ -519,7 +519,7 @@ streamers.views {0}人が観戦中
 streamers.none Twitchの配信はありません！
 error.extentions 拡張機能がある場合は無効にしてください。
 error.seek クリックして新しいゲームを探してください
-custom.map.upload.limit 失敗しました。ゲームデータは500000文字に制限されています。
+custom.map.upload.limit 失敗しました。ゲームデータは500kbに制限されています。
 custom.map.missing 1つ以上のゲーム／マップを選択してください
 custom.mode.missing 1つ以上のモードを選択してください
 custom.class.missing 1つ以上のクラスを選択してください
