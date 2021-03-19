@@ -19,7 +19,7 @@ for key in $(awk '{print$1}' $default_file | egrep -v '(module.exports|`;)' | so
 		echo -ne "==> Checking $base_file for key ----->  $key  <-----\r"
 		if [ "$(grep -w -c $key $js_file)" == "0" ]; then
 			out_file=$(echo $base_file | sed -e 's/.js/_MISSING_KEYS.txt/g')
-			echo "$(grep $key $default_file)" >> MISSING/$out_file
+			echo "$(grep $key $default_file)" >> MISSING/${out_file}
 			missing_content="true"
 		fi
 	done
