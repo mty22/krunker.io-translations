@@ -1,7 +1,7 @@
 #!/bin/bash
 # The purpose of this script is to take the default English language file (en.js), and check all other files for missing translations or content.
 # Missing content will be omitted to MISSING/*_MISSING_KEYS.txt
-# A summary of what is missing will be omitted to: 
+# A summary of what is missing will be omitted to: SUMMARY_MISSING_KEYS.txt
 # Written by github.com/mty22
 
 # Variables
