@@ -1,0 +1,426 @@
+ad-failed Ad Failed to Load. Try again.
+app.play.mobile TAP TO PLAY
+app.spectate CLICK TO SPECTATE
+app.spectate.mobile TAP TO SPECTATE
+app.spectate.controller START to SPECTATE
+app.spectate.controller START to SPECTATE
+app.spectate.mobile TAP TO SPECTATE
+custom.map.upload.limit Failed. 500k Character Game Data Limit
+generic.games.lost Games Lost
+generic.lose Losses
+generic.matchaband MATCH ABANDONED
+generic.matchover MATCH OVER
+generic.random Random
+image.upload.limit Failed. {0}kb Image Limit
+matchmaker.invalid Game not found.
+matchmaker.updating GAME UPDATING
+menu.btn.ranked Ranked
+server.config.airStrf Air Strafing
+server.config.bDrop Bullet Drop
+server.config.disableB Disable Borders
+server.config.fiRat Fire Rate
+server.config.fixMov Fixed Movement
+server.config.forceC Force Mode Classes
+server.config.forceSpawn Auto Respawn Time
+server.config.headshotOnly Headshots Only
+server.config.hitBoxPad Hitbox Padding
+server.config.hpRegen Health Regen
+server.config.keepTScore Keep Team Score
+server.config.krRewards KR Rewards
+server.config.logTim Log Time (Race, Parkour)
+server.config.maxPS 40 Player Server
+server.config.nameTeam3 Team 3 Name
+server.config.nameTeam4 Team 4 Name
+server.config.nameTeam5 Team 5 Name
+server.config.noCosm Disable Cosmetics
+server.config.noReload No Reload
+server.config.noSecondary Disable Secondaries
+server.config.noStreaks Disable Streaks
+server.config.objtvTime Objective Time
+server.config.promServ Promote Server
+server.config.requireCaptcha Require Captcha
+server.config.reSpd Reload Speed
+server.config.scoreLimit Score Limit
+server.config.slidSpd Slide Speed
+server.config.slidTime Slide Time
+server.config.t1Dmg Team 1 Damage
+server.config.t2Dmg Team 2 Damage
+server.config.t3Dmg Team 3 Damage
+server.config.t4Dmg Team 4 Damage
+server.config.t5Dmg Team 5 Damage
+server.config.throwMel Throwable Melees
+server.config.tickRI High Tickrate
+server.config.wallJP Wall Jumping Power
+server.config.warmupTime Warmup Time
+settings.audio.ambient Ambient Volume
+settings.audio.asset Asset Volume
+settings.audio.dialogue Action Volume
+settings.audio.player Player Volume
+settings.audio.skin Cosmetics Volume
+settings.audio.ui UI Volume
+settings.audio.weps Weapon Volume
+settings.backup Backup Settings
+settings.chat.chat Show Chat Box
+settings.chat.chat.all Always
+settings.chat.chat.focus While Focused
+settings.chat.chatOp Chat Opacity
+settings.chat.chatBGOp Chat BG Opacity
+settings.chat.chatHeight Chat Height
+settings.chat.chatTimer Chat Timer (s)
+settings.chat.chatTextOutline Chat Text Outline
+settings.chat.chatFilter Profanity Filter
+settings.chat.chat.all Always
+settings.chat.chatBGOp Chat BG Opacity
+settings.chat.chatFilter Profanity Filter
+settings.chat.chat.focus While Focused
+settings.chat.chatHeight Chat Height
+settings.chat.chatOp Chat Opacity
+settings.chat.chatTextOutline Chat Text Outline
+settings.chat.chatTimer Chat Timer (s)
+settings.chat.header Chat
+settings.chat.messages Show Player Messages
+settings.chat.unboxings Show Unboxings
+settings.controller.aimsensX Aim X Sensitivity
+settings.controller.aimsensY Aim Y Sensitivity
+settings.controller.deadZoneL Dead Zone (Left)
+settings.controller.deadZoneR Dead Zone (Right)
+settings.controller.disableCons Disable Controllers
+settings.controller.gradSpeed Gradual Speed
+settings.controller.header Controller
+settings.controller.invert Invert Y-Axis
+settings.controller.sensitivityX X Sensitivity
+settings.controller.sensitivityY Y Sensitivity
+settings.controller.triggerThres Trigger Threshold
+settings.controller.vibration Vibration
+settings.crosshair.dot Dot
+settings.crosshair.gap Gap
+settings.crosshair.opacity.custom Custom Opacity
+settings.crosshair.opacity.use Use Custom Opacity
+settings.crosshair.shadow.color Shadow Color
+settings.crosshair.shadow.thickness Shadow Thickness
+settings.crosshair.type.5 Precision
+settings.dev.extraBan Extra Ban Info
+settings.dev.forceRegen Always Regenerate Player
+settings.dev.forceUpdate Force Update Skins
+settings.dev.header Developer
+settings.editing.feedLimit Killfeed Limit
+settings.editing.health.high HUD Health High
+settings.editing.health.low HUD Health Low
+settings.editing.hue Color Hue (In-game)
+settings.editing.menuHue Color Hue (UI)
+settings.editing.menuSaturation Saturation (UI)
+settings.editing.prog.color Progress Bar Color
+settings.editing.progOffX Progress Bar X Offset
+settings.editing.progOffY Progress Bar Y Offset
+settings.editing.prog.opacity Progress Bar Opacity
+settings.editing.progRot Progress Bar Rotation
+settings.editing.prog.scale Progress Bar Scale
+settings.editing.prog.shadow Progress Bar Shadow
+settings.editing.saturation Saturation (In-game)
+settings.editing.score.color Popup Score Color
+settings.editing.scoreOffX Popup Score X Offset
+settings.editing.scoreOffY Popup Score Y Offset
+settings.editing.score.scale Popup Score Scale
+settings.editing.score.shadow Popup Score Shadow
+settings.editing.score.show Show Popup Score
+settings.editing.spdLinesCol Speed Lines Color
+settings.editing.speedLines Speed Lines
+settings.editing.tracercol Bullet Tracers
+settings.editing.tracer Bullet Tracers
+settings.editing.tracer.offset Tracer Offset
+settings.editing.tracercol Bullet Tracers
+settings.editing.tracer.offset Tracer Offset
+settings.editing.vignette Vignette
+settings.experimental.aimFreezeFix Aim Freeze Fix
+settings.experimental.header Experimental
+settings.experimental.mouseFlickFix Mouse Flick Fix
+settings.experimental.shaderRendering Instance Rendering
+settings.export Export
+settings.gameplay.aimsensX Aim X Sensitivity
+settings.gameplay.aimsensY Aim Y Sensitivity
+settings.gameplay.scrollDir Scroll Direction
+settings.gameplay.sensitivityX X Sensitivity
+settings.gameplay.sensitivityY Y Sensitivity
+settings.gameprivacy.anon Anonymous Mode
+settings.gameprivacy.header Gameplay Privacy
+settings.gameprivacy.hideGameTitle Hide Game Title
+settings.gameprivacy.streamer Streamer Mode
+settings.hitmarker.animD Anim Size
+settings.hitmarker.animS Anim Speed
+settings.hitmarker.color Color
+settings.hitmarker.custom Hitmarker Image
+settings.hitmarker.custom.paste Hitmarker Image URL
+settings.hitmarker.custom.paste Hitmarker Image URL
+settings.hitmarker.header Hitmarker
+settings.hitmarker.hitm Show
+settings.hitmarker.hitmFad Fade Speed
+settings.hitmarker.hitmFad Fade Speed
+settings.hitmarker.kcolor Kill Color
+settings.hitmarker.leng Length
+settings.hitmarker.opacity Opacity
+settings.hitmarker.spacing Spacing
+settings.hitmarker.thickness Thickness
+settings.import Import
+settings.interface.critCol Crit Color
+settings.interface.dmg Show Damage
+settings.interface.dmgCol Damage Color
+settings.interface.dmgScale Damage Scale
+settings.interface.dmgCol Damage Color
+settings.interface.dmgScale Damage Scale
+settings.interface.healthColE Nametag Health Color Enemy
+settings.interface.healthColT Nametag Health Color Team
+settings.interface.healthNum Nametag Health Number
+settings.interface.hideNames Nametag Display
+settings.interface.hideNames.team Team Only
+settings.interface.hideNames.enemy Enemy Only
+settings.interface.hideNames.all Everyone
+settings.interface.hideNames.all Everyone
+settings.interface.hideNames.enemy Enemy Only
+settings.interface.hideNames.team Team Only
+settings.interface.hitColor Hit Indicator Color
+settings.interface.hitInd Show Hit Indicators
+settings.interface.kd Show K/D Counter
+settings.interface.killf Show Kill Feed
+settings.interface.medals Show Medals
+settings.interface.nametagOpac Nametag Opacity
+settings.interface.nametagStyle Nametag Style
+settings.interface.nametagStyle.health Health Only
+settings.interface.nametagStyle.name Name Only
+settings.interface.nametagStyle.nameLvl Name & Level Only
+settings.interface.nametagStyle.all Everything
+settings.interface.nametagStyle.all Everything
+settings.interface.nametagStyle.health Health Only
+settings.interface.nametagStyle.name Name Only
+settings.interface.nametagStyle.nameLvl Name & Level Only
+settings.interface.nametagStyle.nameLvl Name & Level Only
+settings.interface.net-stats Show Network Stats
+settings.interface.oldBrowser Use Old Browser
+settings.interface.rarityanim Disable Rarity Animations
+settings.interface.scale UI Scale
+settings.interface.scoreboard Use Old Scoreboard
+settings.interface.score Show Score Counter
+settings.interface.scoreboard Use Old Scoreboard
+settings.interface.showPfp Show Profile Pictures
+settings.interface.showTradeMsg Show Trade Messages
+settings.interface.spectators Show Spectator Counter
+settings.interface.speed Show Movement Speed
+settings.interface.speedOffX Speed X Offset
+settings.interface.speedOffY Speed Y Offset
+settings.interface.speedOpacity Speed Opacity
+settings.interface.speedScale Speed Scale
+settings.interface.speedColor Speed Color (Current)
+settings.interface.speedColorMax Speed Color (Max)
+settings.interface.speedColor Speed Color (Current)
+settings.interface.speedColorMax Speed Color (Max)
+settings.interface.speedColorMax Speed Color (Max)
+settings.interface.speedOffX Speed X Offset
+settings.interface.speedOffY Speed Y Offset
+settings.interface.speedOpacity Speed Opacity
+settings.interface.speedScale Speed Scale
+settings.interface.streak Show Streak Counter
+settings.interface.xpBarCol XP Bar Color
+settings.interface.xpBarOpac XP Bar Opacity
+settings.local.header Localization <span id="requiresRestart"><span style="color: #eb5656">*</span> requires restart</span>
+settings.local.lang Language
+settings.local.region Default Region
+settings.mobile.aimsensX Aim X Sensitivity
+settings.mobile.aimsensY Aim Y Sensitivity
+settings.mobile.gradSpeed Gradual Speed
+settings.mobile.header Mobile
+settings.mobile.invert Invert Y-Axis
+settings.mobile.sensitivityX X Sensitivity
+settings.mobile.sensitivityY Y Sensitivity
+settings.mobile.vibration Vibration
+settings.mods.ammo Ammo Icon Image
+settings.mods.ammo.paste Ammo Icon Image URL
+settings.mods.ammo.paste Ammo Icon Image URL
+settings.mods.borderCol Scope Borders
+settings.mods.borderOpac Scope Borders Opacity
+settings.mods.damage Damage Overlay Image
+settings.mods.damage.paste Damage Overlay Image URL
+settings.mods.damage.paste Damage Overlay Image URL
+settings.mods.deaths Deaths Icon Image
+settings.mods.deaths.paste Deaths Icon Image URL
+settings.mods.deaths.paste Deaths Icon Image URL
+settings.mods.dot.height Reticle Image Height
+settings.mods.dot.width Reticle Image Width
+settings.mods.kills Kills Icon Image
+settings.mods.kills.paste Kills Icon Image URL
+settings.mods.kills.paste Kills Icon Image URL
+settings.mods.logo Allow Logo Changes
+settings.mods.overlay Game Overlay Image
+settings.mods.overlay.paste Game Overlay Image URL
+settings.mods.overlay.paste Game Overlay Image URL
+settings.mods.scope.height Scope Image Height
+settings.mods.scope.opacity Scope Opacity
+settings.mods.scope.width Scope Image Width
+settings.mods.streak Streak Counter Icon Image
+settings.mods.streak.paste Streak Counter Icon Image URL
+settings.mods.streak.paste Streak Counter Icon Image URL
+settings.mods.timer Timer Icon Image
+settings.mods.timer.paste Timer Icon Image URL
+settings.mods.timer.paste Timer Icon Image URL
+settings.mods.usedamage Use Damage Overlay
+settings.network.header Network
+settings.network.lagComp Lag Compensation
+settings.network.netRerouting Auto Routing (Affects Ping)
+settings.network.sendRate High Tickrate
+settings.none No settings found
+settings.popup.freeKRPop Show Free KR Popup
+settings.popup.header Popups
+settings.post.bloom Bloom
+settings.post.bloomThreshold Bloom Threshold
+settings.post.bloomStrength Bloom Strength
+settings.post.bloomRadius Bloom Radius
+settings.post.bloomRadius Bloom Radius
+settings.post.bloomStrength Bloom Strength
+settings.post.bloomThreshold Bloom Threshold
+settings.post.header Post Processing
+settings.post.post Post Processing
+settings.post.ssao SSAO
+settings.post.ssaoRadius SSAO Radius
+settings.post.ssaoRadius SSAO Radius
+settings.quality.ambient Ambient Shading
+settings.quality.ambientOld Old Shading (When Possible)
+settings.quality.ambientOld Old Shading (When Possible)
+settings.quality.antiAlias Antialiasing
+settings.quality.aspectRatio Aspect Ratio
+settings.quality.flap Sniper Flap
+settings.quality.highResShad High-Res Shadows
+settings.quality.lighting Lighting
+settings.quality.lowSpec Low Spec
+settings.quality.mapDet Map Details
+settings.quality.noTex No Textures
+settings.quality.objectAnim Object Animations
+settings.quality.partdist Particle Distance
+settings.quality.reflection Reflection Quality
+settings.quality.rendDst Render Distance
+settings.quality.renderdist Render Distance
+settings.quality.rendGamma Gamma
+settings.quality.screenShake Screen Shake
+settings.quality.shadows Shadows
+settings.quality.shadowsDynamic Dynamic Shadows
+settings.quality.shadowsDynamic Dynamic Shadows
+settings.quality.showExplo Show Explosions
+settings.quality.softShad Soft Shadows
+settings.quality.textureAnim Texture Animations
+settings.quality.updRate Frame Cap
+settings.quality.weaponShine Weapons Shine
+settings.quality.yourTrails Your Trails
+settings.serverb.defaultRegionOnly Default Region Only
+settings.serverb.header Server Browser
+settings.serverb.oldBrowser Legacy Browser
+settings.social.region Region Stats
+settings.viewmodel.adsFovMlt ADS FOV Power
+settings.viewmodel.aimAnim Weapon Aim Animation
+settings.viewmodel.bobbing Weapon Bobbing
+settings.viewmodel.fov Field of View
+settings.viewmodel.fps Weapon FOV
+settings.viewmodel.header View Model
+settings.viewmodel.leaning Weapon Leaning
+settings.viewmodel.leftHand Left Handed
+settings.viewmodel.rot Weapon Rotation
+settings.viewmodel.roundArms Rounded Arms
+settings.viewmodel.show.ads Hide Weapon on ADS
+settings.viewmodel.show.hands Show Hands
+settings.viewmodel.show.melee Show Melee
+settings.viewmodel.show.primary Show Primary
+settings.viewmodel.show.secondary Show Secondary
+settings.viewmodel.toggleAim Toggle Aim
+settings.viewmodel.weapReloadY Weapon Reload Y
+settings.viewmodel.weapSwapY Weapon Swap Y
+settings.viewmodel.xOff Weapon X Offset
+settings.viewmodel.yOff Weapon Y Offset
+settings.viewmodel.yOffADS Weapon ADS Y Offset
+settings.viewmodel.yOffADS Weapon ADS Y Offset
+settings.viewmodel.zOff Weapon Z Offset
+social.login.gift Login to Gift
+social.market.dye Dye Item
+social.market.face Face Item
+social.market.fee.gift No Fee
+social.market.gift.amount Gift Amount in
+social.market.gift Gift KR
+social.market.gift.msg Leave a message
+social.market.gift.amount Gift Amount in
+social.market.gift.msg Leave a message
+social.market.login You must be logged in.
+social.market.melee Melee Item
+social.market.pet Pet Item
+social.market.shoe Shoe Item
+social.market.sort2 Sort
+social.market.spray Spray Item
+social.market.waist Waist Item
+social.mods.none No Mods found...
+social.trading.submitting Submitting Offer...
+windows.attach.header Select Attachment
+windows.chall.header Challenges
+windows.chall.login to complete challenges!
+windows.changelog.header Changelog
+windows.clans.login to create and join a clan!
+windows.controls.board Leaderboard
+windows.controls.confirm Confirm Interact
+windows.controls.equip Equipment
+windows.controls.interactSec Secondary Interact
+windows.controls.melee Melee Weapon
+windows.controls.premium0 Noclip
+windows.controls.premium1 Godmode
+windows.controls.premium2 Kill
+windows.controls.premium3 Smite
+windows.controls.pretend Hide Game
+windows.controls.prim Primary Weapon
+windows.controls.reset Reset Position (Race & Parkour)
+windows.controls.shoot Shoot
+windows.controls.streak0 Streak 1
+windows.controls.streak1 Streak 2
+windows.controls.streak2 Streak 3
+windows.controls.streak3 Streak 4
+windows.controls.streak4 Streak 5
+windows.controls.swap Secondary Weapon
+windows.controls.wepVis Toggle Weapon Visibility
+windows.dye.default Default Dye
+windows.dye.header Select Dye
+windows.dye.spin Dye
+windows.face.header Select Face
+windows.host.rehost Start Game (Bring Players)
+windows.loadout.color.chat Chat Name Color
+windows.loadout.color.hair Hair Color
+windows.loadout.color.skin Skin Color
+windows.loadout.dye Dye
+windows.loadout.face Face
+windows.loadout.flag Country Flag
+windows.loadout.pet Pet
+windows.loadout.primary.attach Attachment
+windows.loadout.primary.reticle Reticle
+windows.loadout.primary.scope Scope
+windows.loadout.secondary.skin Secondary Skin
+windows.loadout.shoe Shoes
+windows.loadout.stat Killcard Stat
+windows.loadout.waist Waist
+windows.mail.header Krunker Mail
+windows.melee.header Select Melee
+windows.mods.load.header Load Mods
+windows.mods.none No Mods found
+windows.premium.header Premium
+windows.ranked.header Ranked
+windows.ranked.level You must be at least <span color="black">level {0}</span> to play in ranked games! Right now you are at <span color="black">level {1}</span>.
+windows.ranked.login to play in ranked games!
+windows.ranked.mode.r1v1 Solo
+windows.ranked.mode.r2v2 Duo
+windows.ranked.mode.r4v4 Quad
+windows.reticle.header Select Reticle
+windows.reticle.req Req lvl {0}
+windows.reticle.unlocked Unlocked at lvl {0}
+windows.scope.header Select Scope
+windows.servers.priority Region Priority
+windows.servers.social {0} on Social
+windows.spray.spin Spray
+windows.store.buyP Choose a Display name & more with
+windows.store.premium Purchase Premium
+windows.store.premium2 Krunker Premium
+windows.store.premium2 Krunker Premium
+windows.store.voucher Redeem Voucher
+windows.store.voucherinfo Get Vouchers from certain Streamers & Events
+windows.store.voucherinfo Get Vouchers from certain Streamers & Events
+windows.support.header Support
+windows.trade.header Trading
+windows.waist.header Select Waist

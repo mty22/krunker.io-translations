@@ -1,0 +1,85 @@
+app.play.mobile TAP TO PLAY
+app.spectate CLICK TO SPECTATE
+app.spectate.mobile TAP TO SPECTATE
+app.spectate.controller START to SPECTATE
+app.spectate.controller START to SPECTATE
+app.spectate.mobile TAP TO SPECTATE
+server.config.fixMov Fixed Movement
+server.config.forceC Force Mode Classes
+server.config.keepTScore Keep Team Score
+server.config.krRewards KR Rewards
+server.config.logTim Log Time (Race, Parkour)
+server.config.nameTeam3 Team 3 Name
+server.config.nameTeam4 Team 4 Name
+server.config.nameTeam5 Team 5 Name
+server.config.noCosm Disable Cosmetics
+server.config.objtvTime Objective Time
+server.config.slidSpd Slide Speed
+server.config.t1Dmg Team 1 Damage
+server.config.t2Dmg Team 2 Damage
+server.config.t3Dmg Team 3 Damage
+server.config.t4Dmg Team 4 Damage
+server.config.t5Dmg Team 5 Damage
+settings.audio.asset Asset Volume
+settings.audio.dialogue Action Volume
+settings.audio.skin Cosmetics Volume
+settings.controller.disableCons Disable Controllers
+settings.dev.extraBan Extra Ban Info
+settings.dev.forceRegen Always Regenerate Player
+settings.dev.forceUpdate Force Update Skins
+settings.dev.header Developer
+settings.editing.prog.color Progress Bar Color
+settings.editing.progOffX Progress Bar X Offset
+settings.editing.progOffY Progress Bar Y Offset
+settings.editing.prog.opacity Progress Bar Opacity
+settings.editing.progRot Progress Bar Rotation
+settings.editing.prog.scale Progress Bar Scale
+settings.editing.prog.shadow Progress Bar Shadow
+settings.editing.tracer.offset Tracer Offset
+settings.experimental.mouseFlickFix Mouse Flick Fix
+settings.experimental.shaderRendering Instance Rendering
+settings.gameprivacy.hideGameTitle Hide Game Title
+settings.interface.kd Show K/D Counter
+settings.interface.showTradeMsg Show Trade Messages
+settings.mods.borderCol Scope Borders
+settings.mods.borderOpac Scope Borders Opacity
+settings.mods.scope.height Scope Image Height
+settings.mods.scope.opacity Scope Opacity
+settings.mods.scope.width Scope Image Width
+settings.popup.freeKRPop Show Free KR Popup
+settings.popup.header Popups
+settings.post.bloom Bloom
+settings.post.bloomThreshold Bloom Threshold
+settings.post.bloomStrength Bloom Strength
+settings.post.bloomRadius Bloom Radius
+settings.post.bloomRadius Bloom Radius
+settings.post.bloomStrength Bloom Strength
+settings.post.bloomThreshold Bloom Threshold
+settings.post.header Post Processing
+settings.post.post Post Processing
+settings.post.ssao SSAO
+settings.post.ssaoRadius SSAO Radius
+settings.post.ssaoRadius SSAO Radius
+settings.quality.ambientOld Old Shading (When Possible)
+settings.quality.reflection Reflection Quality
+settings.quality.rendGamma Gamma
+settings.quality.showExplo Show Explosions
+settings.serverb.defaultRegionOnly Default Region Only
+settings.serverb.header Server Browser
+settings.serverb.oldBrowser Legacy Browser
+settings.social.region Region Stats
+settings.viewmodel.roundArms Rounded Arms
+settings.viewmodel.toggleAim Toggle Aim
+settings.viewmodel.weapReloadY Weapon Reload Y
+settings.viewmodel.weapSwapY Weapon Swap Y
+social.market.pet Pet Item
+social.market.shoe Shoe Item
+windows.controls.confirm Confirm Interact
+windows.controls.pretend Hide Game
+windows.controls.reset Reset Position (Race & Parkour)
+windows.loadout.pet Pet
+windows.loadout.primary.scope Scope
+windows.loadout.shoe Shoes
+windows.premium.header Premium
+windows.scope.header Select Scope
+windows.trade.header Trading

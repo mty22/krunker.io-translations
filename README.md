@@ -31,7 +31,7 @@ Known issues
 - Issue with grammar https://github.com/mty22/Krunker-Languages/issues/1
 
 
-Translators
+Translators and reviewers
 ------
 - Simplified Chinese (简体中文) - Translated by ReHou (BenHou#8636), reviewed by Chair#2384
 - Japanese (日本語) - Translated by frzn (frzn#1030), reviewed by KnockerOut#5087, Minaaami🐈#8830, nns
