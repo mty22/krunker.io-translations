@@ -1,0 +1,13 @@
+# This will automatically add specific users to reviewers for whatever file(s) are being changed.
+
+# Default / all
+* @mty22
+
+# Japanese
+jp.js @mty22
+
+# Korean
+kr.js @dojinshi @YuniQ152
+
+# Spanish
+es.js @xlNightmare
