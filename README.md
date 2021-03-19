@@ -8,7 +8,7 @@ If you find an issue, please make sure that you create an issue:
 
 https://github.com/mty22/Krunker-Languages/issues
 
-If you are ready to push a change, please submit a pull request or ontact frzn#1030 on Discord or @frznmatt on Twitter for assistance.
+If you are ready to push a change, please submit a pull request or contact frzn#1030 on Discord or @frznmatt on Twitter for assistance.
 
 You're also welcome to modify CODEOWNERS file if you wish to be added as a default reviewer.
 
