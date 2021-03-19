@@ -46,7 +46,7 @@ generic.clan クラン
 generic.games.played 総参加ゲーム数
 generic.games.won 総勝利ゲーム数
 generic.games.lost 総敗北ゲーム数
-generic.timep 総プレイ時間'
+generic.timep 総プレイ時間
 generic.kills 総キル数
 generic.deaths 総デス数
 generic.kdr KDR
@@ -102,7 +102,7 @@ settings.chat.chatTimer チャットタイマー
 settings.chat.chatTextOutline チャット文字輪郭線表示
 settings.chat.chatFilter 英語NGワードフィルタ
 settings.quality.header パフォーマンス
-settings.quality.updRate フレーム制限
+settings.quality.updRate フレームレート制限
 settings.quality.rendDst レンダリング距離
 settings.quality.res 解像度
 settings.quality.part パーティクル
@@ -113,7 +113,7 @@ settings.quality.renderdist レンダリング距離
 settings.quality.antiAlias アンチエイリアス
 settings.quality.shadows シャドウ
 settings.quality.softShad ソフトシャドウ
-settings.quality.highResShad 高シャドウディティール
+settings.quality.highResShad 高解像度シャドウ
 settings.quality.shadowsDynamic ダイナミックシャドウ
 settings.quality.trails 他プレイヤーの弾道
 settings.quality.yourTrails 自分の弾道
@@ -123,7 +123,7 @@ settings.quality.lowSpec 低スペック
 settings.quality.ambient シェーディング (環境光)
 settings.quality.textureAnim テクスチャアニメーション
 settings.quality.objectAnim オブジェクトアニメーション
-settings.quality.screenShake スクリーン振動
+settings.quality.screenShake 画面の振動
 settings.quality.weaponShine 武器の輝き
 settings.quality.lighting 照明
 settings.quality.aspectRatio アスペクト比
@@ -151,9 +151,9 @@ settings.interface.kills キルカウンターを表示
 settings.interface.streak キルストリークカウンターを表示
 settings.interface.score スコアカウンターを表示
 settings.interface.spectators 観戦者カウンターを表示
-settings.interface.speed 移動速度を表示
-settings.interface.speedOffX 速度表示X座標
-settings.interface.speedOffY 速度表示Y座標
+settings.interface.speed 移動スピードを表示
+settings.interface.speedOffX スピード表示X座標
+settings.interface.speedOffY スピード表示Y座標
 settings.interface.speedOpacity スピード不透明度
 settings.interface.speedScale スピードスケール
 settings.interface.speedColor スピード色 (現在)
@@ -250,8 +250,8 @@ settings.audio.header オーディオ
 settings.audio.sound マスターボリューム
 settings.audio.ambient 環境音ボリューム
 settings.audio.voice ボイスチャットボリューム
-settings.audio.weps ウェポンボリューム
-settings.audio.player プレーヤーボリューム
+settings.audio.weps 銃声ボリューム
+settings.audio.player プレイヤーボリューム
 settings.audio.ui UIボリューム
 settings.viewmodel.header モデル表示
 settings.viewmodel.fov 視野 (FOV)
@@ -504,7 +504,7 @@ thumbnail.upload.limit 失敗しました。サムネイルサイズ制限は{0}
 image.upload.limit 失敗しました。画像サイズ制限は{0}kbです
 thumbnail.upload.error サムネイルエラー
 mod.extracting 抽出中 {0}/{1}
-mod.disabled MODが無効
+mod.disabled MODが無効になっています
 mod.error MODエラー!
 mod.loading MODをロード中...
 mod.invalid 無効なMODファイル!
@@ -513,13 +513,13 @@ matchmaker.full2 このゲームは満員です
 matchmaker.updating ゲーム更新中
 matchmaker.invalid ゲームが見つかりません
 matchmaker.none サーバー数が最大です
-adblocker 無料のKRを受け取るには、広告ブロッカーを無効にしてください
+adblocker 無料でKRを受け取るには、広告ブロッカーを無効にしてください
 ad-failed 広告の読み込みに失敗しました。後でもう一度試してください
 streamers.views {0}人が観戦中
 streamers.none Twitchの配信はありません！
 error.extentions 拡張機能がある場合は無効にしてください。
 error.seek クリックして新しいゲームを探してください
-custom.map.upload.limit 失敗しました。ゲームデータは500kb文字に制限されています。
+custom.map.upload.limit 失敗しました。ゲームデータは500kbに制限されています。
 custom.map.missing 1つ以上のゲーム／マップを選択してください
 custom.mode.missing 1つ以上のモードを選択してください
 custom.class.missing 1つ以上のクラスを選択してください
