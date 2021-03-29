@@ -143,8 +143,8 @@ settings.quality.rendGamma Gamma
 settings.quality.lighting 조명
 settings.quality.showExplo Show Explosions
 settings.quality.aspectRatio 화면 비율
-settings.post.header Post Processing
-settings.post.post Post Processing
+settings.post.header 포스트 프로세싱
+settings.post.post 포스트 프로세싱
 settings.post.bloom Bloom
 settings.post.bloomThreshold Bloom Threshold
 settings.post.bloomStrength Bloom Strength
