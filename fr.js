@@ -143,8 +143,8 @@ settings.quality.rendGamma Gamma
 settings.quality.lighting Luminosité
 settings.quality.showExplo Show Explosions
 settings.quality.aspectRatio Ratio d'affichage
-settings.post.header Post Processing
-settings.post.post Post Processing
+settings.post.header Post-traitement
+settings.post.post Post-traitement
 settings.post.bloom Bloom
 settings.post.bloomThreshold Bloom Threshold
 settings.post.bloomStrength Bloom Strength
