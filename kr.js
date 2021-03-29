@@ -21,7 +21,7 @@ generic.save 저장
 generic.load 불러오기
 generic.search 검색
 generic.leave 나가기
-generic.default Default
+generic.default 기본
 generic.submit 제출
 generic.create 게임 만들기
 generic.random 무작위
@@ -67,19 +67,19 @@ player.disconnect 연결 끊기
 timer.end {0}초 후 다음 라운드가 시작합니다.
 leaderboard.empty 빈 로비
 popup.checkpoint 체크포인트!
-app.play 플레이하려면 클릭하세요
-app.spectate CLICK TO SPECTATE
-app.play.mobile TAP TO PLAY
-app.spectate.mobile TAP TO SPECTATE
+app.play 플레이하려면 클릭하세요.
+app.spectate 관전하려면 클릭하세요.
+app.play.mobile 플레이하려면 누르세요.
+app.spectate.mobile 관전하려면 누르세요.
 app.play.controller 플레이하려면 START를 누르세요.
-app.spectate.controller START to SPECTATE
+app.spectate.controller 관전하려면 START를 누르세요.
 purchase.error 오류가 발생했습니다
 purchase.error.click 여기</a>를 눌러서 다시 시도하세요!
 purchase.error.limit 일일 거래 한도를 초과했습니다.
 settings.reset 초기화
 settings.reset.confirm 설정을 초기화할까요?
-settings.import 설정 불러오기
-settings.export 설정 저장하기
+settings.import 불러오기
+settings.export 내보내기
 settings.none 설정을 찾지 못하였습니다.
 settings.backup 설정 백업
 settings.controls.change 조작키 설정
@@ -91,12 +91,12 @@ settings.network.header 네트워크
 settings.network.sendRate 높은 틱레이트
 settings.network.netRerouting 자동 라우팅 (핑에 영향을 줍니다)
 settings.network.lagComp 지연 시간 보정
-settings.popup.header Popups
-settings.popup.freeKRPop Show Free KR Popup
+settings.popup.header 팝업
+settings.popup.freeKRPop 무료 KR 팝업 보이기
 settings.experimental.header 실험적 설정
 settings.experimental.aimFreezeFix 에임 멈춤 현상 해결
-settings.experimental.mouseFlickFix Mouse Flick Fix
-settings.experimental.shaderRendering Instance Rendering
+settings.experimental.mouseFlickFix 마우스 순간이동 문제 해결
+settings.experimental.shaderRendering 인스턴스 렌더링
 settings.dev.header Developer
 settings.dev.forceUpdate Force Update Skins
 settings.dev.forceRegen Always Regenerate Player
@@ -122,7 +122,7 @@ settings.quality.mapDet 맵 디테일
 settings.quality.noTex 텍스처 끄기
 settings.quality.partdist 입자 렌더링 거리
 settings.quality.renderdist 렌더 거리
-settings.quality.reflection Reflection Quality
+settings.quality.reflection 반사 품질
 settings.quality.antiAlias 계단 현상 방지
 settings.quality.shadows 그림자
 settings.quality.softShad 부드러운 그림자
@@ -134,23 +134,23 @@ settings.quality.mflash 총구 섬광
 settings.quality.flap 스나이퍼 스코프 덮개
 settings.quality.lowSpec 저사양 모드
 settings.quality.ambient 환경 광원 셰이딩
-settings.quality.ambientOld Old Shading (When Possible)
+settings.quality.ambientOld 구 셰이딩 사용 (가능한 경우)
 settings.quality.textureAnim 텍스처 애니메이션
 settings.quality.objectAnim 물체 애니메이션
 settings.quality.screenShake 화면 흔들림
 settings.quality.weaponShine 무기 광택
-settings.quality.rendGamma Gamma
+settings.quality.rendGamma 감마
 settings.quality.lighting 조명
-settings.quality.showExplo Show Explosions
+settings.quality.showExplo 폭발 효과
 settings.quality.aspectRatio 화면 비율
 settings.post.header 포스트 프로세싱
 settings.post.post 포스트 프로세싱
-settings.post.bloom Bloom
-settings.post.bloomThreshold Bloom Threshold
-settings.post.bloomStrength Bloom Strength
-settings.post.bloomRadius Bloom Radius
-settings.post.ssao SSAO
-settings.post.ssaoRadius SSAO Radius
+settings.post.bloom 블룸
+settings.post.bloomThreshold 블룸 임계점
+settings.post.bloomStrength 블룸 강도
+settings.post.bloomRadius 블룸 반경
+settings.post.ssao 화면 공간 반사
+settings.post.ssaoRadius 화면 공간 반사 반경
 settings.interface.hitInd 히트마커 표시
 settings.interface.hitColor 히트마커 색상
 settings.interface.dmg 피해량 표시
@@ -163,7 +163,7 @@ settings.interface.scoreboard 구 스코어보드 사용
 settings.interface.oldBrowser 구 서버 탐색기 사용
 settings.interface.rarityanim 희귀도 애니메이션 끄기
 settings.interface.showPfp 프로필 사진 표시
-settings.interface.showTradeMsg Show Trade Messages
+settings.interface.showTradeMsg 트레이드 메시지 표시
 settings.interface.hp 동적 HP 막대
 settings.interface.dmgScale 피해량 숫자 크기
 settings.interface.killf 킬로그 표시
@@ -171,14 +171,14 @@ settings.interface.ping 지연 시간 표시
 settings.interface.net-stats 네트워크 통계 표시
 settings.interface.fps FPS 표시
 settings.interface.deaths 죽음 수 표시
-settings.interface.kd Show K/D Counter
+settings.interface.kd KDR 수 표시
 settings.interface.kills 처치 수 표시
 settings.interface.streak 연속 처치 수 표시
 settings.interface.score 점수 표시
 settings.interface.spectators 관전자 수 표시
 settings.interface.speed 이동 속도 표시
-settings.interface.speedOffX 이동 속도 X축 위치
-settings.interface.speedOffY 이동 속도 Y축 위치
+settings.interface.speedOffX 이동 속도 좌우 위치
+settings.interface.speedOffY 이동 속도 상하 위치
 settings.interface.speedOpacity 이동 속도 불투명도
 settings.interface.speedScale 이동 속도 크기
 settings.interface.speedColor  현재 속도 색상
@@ -240,13 +240,13 @@ settings.onKillS.style.0 기본
 settings.onKillS.style.1 해상도 축소
 settings.onKillS.style.2 FOV 축소
 settings.onKillS.style.3 FOV 확대
-settings.serverb.header Server Browser
-settings.serverb.oldBrowser Legacy Browser
-settings.serverb.defaultRegionOnly Default Region Only
+settings.serverb.header 서버 탐색기
+settings.serverb.oldBrowser 구 서버 탐색기 사용 (목록을 서버 위치 기준으로 분류)
+settings.serverb.defaultRegionOnly 기본 지역만 보이기
 settings.gameprivacy.header 게임플레이 프라이버시
 settings.gameprivacy.streamer 스트리머 모드
 settings.gameprivacy.anon 익명 모드
-settings.gameprivacy.hideGameTitle Hide Game Title
+settings.gameprivacy.hideGameTitle 게임 숨기기 제목
 settings.gameplay.header 게임플레이
 settings.gameplay.sensitivityX 좌우 감도
 settings.gameplay.sensitivityY 상하 감도
@@ -258,7 +258,7 @@ settings.gameplay.onkillS 처치 시
 settings.gameplay.scrollDir 스크롤 방향
 settings.controller.header 게임패드
 settings.controller.sensitivityX 좌우 감도
-settings.controller.disableCons Disable Controllers
+settings.controller.disableCons 컨트롤러 비활성화
 settings.controller.sensitivityY 상하 감도
 settings.controller.aimsensX 조준 좌우 감도
 settings.controller.aimsensY 조준 상하 감도
@@ -282,10 +282,10 @@ settings.audio.ambient 환경 음량
 settings.audio.voice 음성 음량
 settings.audio.weps 무기 음량
 settings.audio.player 플레이어 음량
-settings.audio.skin Cosmetics Volume
+settings.audio.skin 외형 아이템 음량
 settings.audio.ui 인터페이스 음량
-settings.audio.asset Asset Volume
-settings.audio.dialogue Action Volume
+settings.audio.asset 애셋 음량
+settings.audio.dialogue 동작 음량
 settings.viewmodel.header 무기 모델
 settings.viewmodel.fov 시야각 (FOV)
 settings.viewmodel.fps 무기 시야각
@@ -293,20 +293,20 @@ settings.viewmodel.bobbing 무기 흔들림
 settings.viewmodel.leaning 무기 기울기
 settings.viewmodel.show.primary 주무기 보이기
 settings.viewmodel.show.secondary 보조무기 보이기
-settings.viewmodel.roundArms Rounded Arms
+settings.viewmodel.roundArms 둥근 팔
 settings.viewmodel.show.melee 근접무기 보이기
 settings.viewmodel.show.ads 조준 시 무기 숨기기
-settings.viewmodel.toggleAim Toggle Aim
+settings.viewmodel.toggleAim 조준 전환
 settings.viewmodel.show.hands 손 보이기
 settings.viewmodel.leftHand 왼손잡이 모드
 settings.viewmodel.aimAnim 무기 조준 애니메이션
 settings.viewmodel.rot 무기 회전
-settings.viewmodel.xOff 무기 X축 위치
-settings.viewmodel.yOff 무기 Y축 위치
-settings.viewmodel.zOff 무기 Z축 위치
-settings.viewmodel.weapSwapY Weapon Swap Y
-settings.viewmodel.weapReloadY Weapon Reload Y
-settings.viewmodel.yOffADS 무기 조준 Y축 위치
+settings.viewmodel.xOff 무기 좌우 위치
+settings.viewmodel.yOff 무기 상하 위치
+settings.viewmodel.zOff 무기 전후 위치
+settings.viewmodel.weapSwapY 무기 전환 상하 위치
+settings.viewmodel.weapReloadY 무기 재장전 상하 위치
+settings.viewmodel.yOffADS 무기 조준 상하 위치
 settings.viewmodel.adsFovMlt 무기 조준 배율
 settings.editing.header 인터페이스 효과
 settings.editing.health.high HUD HP 정상 색상
@@ -317,15 +317,15 @@ settings.editing.score.color 점수 팝업 색상
 settings.editing.score.show 점수 팝업 보이기
 settings.editing.score.scale 점수 팝업 크기
 settings.editing.score.shadow 점수 팝업 그림자
-settings.editing.scoreOffX 점수 팝업 X축 위치
-settings.editing.scoreOffY 점수 팝업 Y축 위치
-settings.editing.prog.color Progress Bar Color
-settings.editing.prog.opacity Progress Bar Opacity
-settings.editing.prog.scale Progress Bar Scale
-settings.editing.prog.shadow Progress Bar Shadow
-settings.editing.progOffX Progress Bar X Offset
-settings.editing.progOffY Progress Bar Y Offset
-settings.editing.progRot Progress Bar Rotation
+settings.editing.scoreOffX 점수 팝업 좌우 위치
+settings.editing.scoreOffY 점수 팝업 상하 위치
+settings.editing.prog.color 진행 막대 색상
+settings.editing.prog.opacity 진행 막대 불투명도
+settings.editing.prog.scale 진행 막대 크기
+settings.editing.prog.shadow 진행 막대 그림자
+settings.editing.progOffX 진행 막대 좌우 위치
+settings.editing.progOffY 진행 막대 상하 위치
+settings.editing.progRot 진행 막대 회전
 settings.editing.saturation 그래픽 채도
 settings.editing.menuSaturation 인터페이스 채도
 settings.editing.hue 그래픽 색상
@@ -336,20 +336,20 @@ settings.editing.depth 깊이 지도
 settings.editing.green 크로마 키
 settings.editing.tracercol 예광탄 색상
 settings.editing.tracer 예광탄
-settings.editing.tracer.offset Tracer Offset
+settings.editing.tracer.offset 예광탄 출발 위치
 settings.shaders.header 셰이더 입력
 settings.mods.header 사용자 설정
 settings.mods.load 모드 사용
 settings.mods.logo 로고 변경 혀용
 settings.mods.auto 모드 자동 적용
 settings.mods.borders 스나이퍼 스코프 경계
-settings.mods.borderCol Scope Borders
-settings.mods.borderOpac Scope Borders Opacity
+settings.mods.borderCol 스코프 테두리
+settings.mods.borderOpac 스코프 테두리 불투명도
 settings.mods.scope 스코프 이미지
 settings.mods.scope.paste 스코프 이미지 URL
-settings.mods.scope.opacity Scope Opacity
-settings.mods.scope.width Scope Image Width
-settings.mods.scope.height Scope Image Height
+settings.mods.scope.opacity 스코프 불투명도
+settings.mods.scope.width 스코프 이미지 너비
+settings.mods.scope.height 스코프 이미지 높이
 settings.mods.dot 십자선 이미지
 settings.mods.dot.width 십자선 이미지 너비
 settings.mods.dot.height 십자선 이미지 높이
@@ -387,21 +387,21 @@ windows.loadout.class 클래스
 windows.loadout.primary 주무기
 windows.loadout.primary.attach 장착품
 windows.loadout.primary.reticle 조준 십자선
-windows.loadout.primary.scope Scope
+windows.loadout.primary.scope 스코프
 windows.loadout.secondary 보조무기
 windows.loadout.secondary.skin 보조무기 스킨
 windows.loadout.melee 근접 무기
 windows.loadout.hat 모자
 windows.loadout.body 몸통
 windows.loadout.waist 허리
-windows.loadout.shoe Shoes
+windows.loadout.shoe 신발
 windows.loadout.face 얼굴
 windows.loadout.spray 스프레이
 windows.loadout.color.skin 피부 색상
 windows.loadout.color.chat 채팅창 이름 색상
 windows.loadout.color.hair 머리카락 색상
 windows.loadout.dye 염료
-windows.loadout.pet Pet
+windows.loadout.pet 펫
 windows.loadout.stat 처치 카드에 보여질 스탯
 windows.loadout.flag 국기
 windows.mods.drop 모드 파일을 여기에 드래그 또는 클릭
@@ -439,7 +439,7 @@ windows.controls.list 플레이어 목록
 windows.controls.board 리더보드
 windows.controls.interact 주 사용하기
 windows.controls.interactSec 부 사용하기
-windows.controls.confirm Confirm Interact
+windows.controls.confirm 사용하기 확인
 windows.controls.drop 무기 떨어뜨리기
 windows.controls.wepVis 무기 보이기 전환
 windows.controls.streak0 연속 처치 1
@@ -451,8 +451,8 @@ windows.controls.premium0 벽 통과
 windows.controls.premium1 무적 모드
 windows.controls.premium2 자살
 windows.controls.premium3 즉사 모드
-windows.controls.reset Reset Position (Race & Parkour)
-windows.controls.pretend Hide Game
+windows.controls.reset 위치 초기화 (Race, Parkour 모드 전용)
+windows.controls.pretend 게임 숨기기
 windows.host.header 커스텀 게임 만들기
 windows.host.maps 서버 설정
 windows.host.cmaps 커뮤니티 게임
@@ -510,9 +510,9 @@ windows.store.amount {0} KR이 계정에 있습니다
 windows.store.login 해서 마켓에서 아이템을 사고파세요!
 windows.store.purchasing 구매 중...
 windows.store.unboxed {0}님이 {1} 아이템을 뽑았습니다.
-windows.trade.header Trading
-windows.scope.header Select Scope
-windows.premium.header Premium
+windows.trade.header 트레이드 중
+windows.scope.header 스코프 선택
+windows.premium.header 프리미엄
 windows.skin.header 스킨 선택
 windows.hat.header 모자 선택
 windows.back.header 몸통 선택
@@ -555,9 +555,9 @@ windows.client.linux Linux
 windows.ranked.header 랭크
 windows.ranked.login 해서 랭크 게임에 참가하세요!
 windows.ranked.level 랭크 게임을 하려면 최소<span color="black">{0}레벨</span>이어야 합니다! 지금 당신은 <span color="black">{1}레벨</span>입니다.
-windows.ranked.mode.r1v1 1 vs 1
-windows.ranked.mode.r2v2 2 vs 2
-windows.ranked.mode.r4v4 4 vs 4
+windows.ranked.mode.r1v1 1대1
+windows.ranked.mode.r2v2 2대2
+windows.ranked.mode.r4v4 4대4
 windows.chall.header 챌린지
 windows.chall.login 해서 챌린지에 도전하세요!
 thumbnail.upload.limit 썸네일 업로드 실패. 최대 {0}KB까지 가능합니다.
@@ -579,7 +579,7 @@ streamers.views 시청자 {0}명
 streamers.none 생방송이 없습니다!
 error.extentions 확장 프로그램을 사용하고 있다면 비활성화 해보십시오.
 error.seek 다른 게임을 찾아보려면 here를 클릭하세요.
-custom.map.upload.limit 실패했습니다. 맵 데이터는 50만 글자 이내여야 합니다.
+custom.map.upload.limit 실패했습니다. 맵 데이터는 500KB 이내여야 합니다.
 custom.map.missing 최소 하나의 맵을 선택하세요.
 custom.mode.missing 최소 하나의 게임 모드를 선택하세요.
 custom.class.missing 최소 하나의 클래스를 선택하세요.
@@ -599,19 +599,19 @@ server.config.fiRat 연사 속도
 server.config.reSpd 재장전 시간
 server.config.slidTime 슬라이딩 시간
 server.config.fixMov Fixed Movement
-server.config.slidSpd Slide Speed
+server.config.slidSpd 슬라이드 속도
 server.config.healthMlt HP 배수
 server.config.impulseMlt 무기 반동 배수
 server.config.nameTeam1 1팀 이름
 server.config.nameTeam2 2팀 이름
-server.config.nameTeam3 Team 3 Name
-server.config.nameTeam4 Team 4 Name
-server.config.nameTeam5 Team 5 Name
-server.config.t1Dmg Team 1 Damage
-server.config.t2Dmg Team 2 Damage
-server.config.t3Dmg Team 3 Damage
-server.config.t4Dmg Team 4 Damage
-server.config.t5Dmg Team 5 Damage
+server.config.nameTeam3 3팀 이름
+server.config.nameTeam4 4팀 이름
+server.config.nameTeam5 5팀 이름
+server.config.t1Dmg 1팀 피해량 배수
+server.config.t2Dmg 2팀 피해량 배수
+server.config.t3Dmg 3팀 피해량 배수
+server.config.t4Dmg 4팀 피해량 배수
+server.config.t5Dmg 5팀 피해량 배수
 server.config.selTeam 참가 시 팀 선택
 server.config.allowSpect 관전 중
 server.config.killRewards 킬 점수
@@ -627,19 +627,19 @@ server.config.requireCaptcha Captcha 요구하기
 server.config.nameTags 이름표 숨기기
 server.config.noReload 재장전 없음
 server.config.private 비공개
-server.config.krRewards KR Rewards
+server.config.krRewards KR 보상
 server.config.warmupTime 준비 시간
-server.config.objtvTime Objective Time
+server.config.objtvTime 거점 변경 시간
 server.config.forceSpawn 강제 리스폰 시간
 server.config.scoreLimit 점수 제한
-server.config.keepTScore Keep Team Score
-server.config.forceC Force Mode Classes
-server.config.logTim Log Time (Race, Parkour)
+server.config.keepTScore 팀 점수 유지
+server.config.forceC 게임 모드 클래스 강제 적용
+server.config.logTim 시간 기록 (Race, Parkour 전용)
 server.config.hitBoxPad 히트박스 크기
 server.config.hpRegen HP 재생
 server.config.disableB 경계 비활성화
 server.config.throwMel 근접무기 던지기
-server.config.noCosm Disable Cosmetics
+server.config.noCosm 외형 아이템 비활성화
 social.login 로그인/회원가입
 social.login.failed 로그인 실패
 social.login.buy 구매하려면 로그인하세요.
@@ -668,8 +668,8 @@ social.market.head 머리 아이템
 social.market.back 몸통 아이템
 social.market.waist 허리 아이템
 social.market.face 얼굴 아이템
-social.market.shoe Shoe Item
-social.market.pet Pet Item
+social.market.shoe 신발 아이템
+social.market.pet 펫 아이템
 social.market.melee 근접무기 아이템
 social.market.spray 스프레이 아이템
 social.market.dye 염료 아이템
