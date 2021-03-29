@@ -171,7 +171,7 @@ settings.interface.ping 지연 시간 표시
 settings.interface.net-stats 네트워크 통계 표시
 settings.interface.fps FPS 표시
 settings.interface.deaths 죽음 수 표시
-settings.interface.kd KDR 수 표시
+settings.interface.kd KDR 표시
 settings.interface.kills 처치 수 표시
 settings.interface.streak 연속 처치 수 표시
 settings.interface.score 점수 표시
@@ -241,12 +241,12 @@ settings.onKillS.style.1 해상도 축소
 settings.onKillS.style.2 FOV 축소
 settings.onKillS.style.3 FOV 확대
 settings.serverb.header 서버 탐색기
-settings.serverb.oldBrowser 구 서버 탐색기 사용 (목록을 서버 위치 기준으로 분류)
+settings.serverb.oldBrowser 구 서버 탐색기 사용
 settings.serverb.defaultRegionOnly 기본 지역만 보이기
 settings.gameprivacy.header 게임플레이 프라이버시
 settings.gameprivacy.streamer 스트리머 모드
 settings.gameprivacy.anon 익명 모드
-settings.gameprivacy.hideGameTitle 게임 숨기기 제목
+settings.gameprivacy.hideGameTitle 게임 제목 숨기기
 settings.gameplay.header 게임플레이
 settings.gameplay.sensitivityX 좌우 감도
 settings.gameplay.sensitivityY 상하 감도
@@ -258,7 +258,7 @@ settings.gameplay.onkillS 처치 시
 settings.gameplay.scrollDir 스크롤 방향
 settings.controller.header 게임패드
 settings.controller.sensitivityX 좌우 감도
-settings.controller.disableCons 컨트롤러 비활성화
+settings.controller.disableCons 게임패드 비활성화
 settings.controller.sensitivityY 상하 감도
 settings.controller.aimsensX 조준 좌우 감도
 settings.controller.aimsensY 조준 상하 감도
@@ -336,7 +336,7 @@ settings.editing.depth 깊이 지도
 settings.editing.green 크로마 키
 settings.editing.tracercol 예광탄 색상
 settings.editing.tracer 예광탄
-settings.editing.tracer.offset 예광탄 출발 위치
+settings.editing.tracer.offset 예광탄 시작점 위치
 settings.shaders.header 셰이더 입력
 settings.mods.header 사용자 설정
 settings.mods.load 모드 사용
