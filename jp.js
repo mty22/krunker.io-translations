@@ -143,8 +143,8 @@ settings.quality.rendGamma Gamma
 settings.quality.lighting 照明
 settings.quality.showExplo Show Explosions
 settings.quality.aspectRatio アスペクト比
-settings.post.header Post Processing
-settings.post.post Post Processing
+settings.post.header ポストプロセシング
+settings.post.post ポストプロセシング
 settings.post.bloom Bloom
 settings.post.bloomThreshold Bloom Threshold
 settings.post.bloomStrength Bloom Strength
