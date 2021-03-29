@@ -29,9 +29,8 @@ generic.failed Error
 generic.success Éxito!
 generic.name Nombre
 generic.level Nivel
-generic.score Puntuación
+generic.score Score
 generic.off Apagado
-generic.score Puntuación
 generic.defeat DERROTA
 generic.victory VICTORIA
 generic.matchover PARTIDA TERMINADA
@@ -69,7 +68,11 @@ timer.end Siguiente ronda en {0}
 leaderboard.empty Sala vacía
 popup.checkpoint Punto de control!
 app.play CLICK PARA JUGAR
+app.spectate CLICK TO SPECTATE
+app.play.mobile TAP TO PLAY
+app.spectate.mobile TAP TO SPECTATE
 app.play.controller PRESIONE INICIO
+app.spectate.controller START to SPECTATE
 purchase.error HA OCURRIDO UN ERROR
 purchase.error.click Haz click aquí </a> y prueba de nuevo!
 purchase.error.limit Has superado tu límite de transacciones diarias
@@ -88,8 +91,16 @@ settings.network.header Conexión
 settings.network.sendRate Alto tickrate
 settings.network.netRerouting Enrutamiento automático (Afecta el ping)
 settings.network.lagComp Compensación de lag
+settings.popup.header Popups
+settings.popup.freeKRPop Show Free KR Popup
 settings.experimental.header Experimental
 settings.experimental.aimFreezeFix Arreglo de congelamiento al apuntar.
+settings.experimental.mouseFlickFix Mouse Flick Fix
+settings.experimental.shaderRendering Instance Rendering
+settings.dev.header Developer
+settings.dev.forceUpdate Force Update Skins
+settings.dev.forceRegen Always Regenerate Player
+settings.dev.extraBan Extra Ban Info
 settings.chat.header Chat
 settings.chat.chat Mostrar chat
 settings.chat.chat.all Siempre
@@ -111,6 +122,7 @@ settings.quality.mapDet Detalles de mapas
 settings.quality.noTex Sin texturas
 settings.quality.partdist Distancia de partículas
 settings.quality.renderdist Distancia de renderizado
+settings.quality.reflection Reflection Quality
 settings.quality.antiAlias Suavizado de bordes
 settings.quality.shadows Sombras
 settings.quality.softShad Sombras suaves
@@ -122,13 +134,23 @@ settings.quality.mflash Fogonazo de arma
 settings.quality.flap Solapa de francotirador
 settings.quality.lowSpec Bajo rendimiento
 settings.quality.ambient Sombreado ambiental
+settings.quality.ambientOld Old Shading (When Possible)
 settings.quality.textureAnim Animaciones de texturas
 settings.quality.objectAnim Animaciones de objetos
 settings.quality.screenShake Temblor de pantalla
 settings.quality.weaponShine Brillo de armas
+settings.quality.rendGamma Gamma
 settings.quality.lighting Iluminación de ambiente
+settings.quality.showExplo Show Explosions
 settings.quality.aspectRatio Relación de aspecto
-settings.quality.post Post-Procesado
+settings.post.header Post-Procesado
+settings.post.post Post-Procesado
+settings.post.bloom Bloom
+settings.post.bloomThreshold Bloom Threshold
+settings.post.bloomStrength Bloom Strength
+settings.post.bloomRadius Bloom Radius
+settings.post.ssao SSAO
+settings.post.ssaoRadius SSAO Radius
 settings.interface.hitInd Mostrar Hitmarker
 settings.interface.hitColor Color de Hitmarker
 settings.interface.dmg Mostrar daño
@@ -141,6 +163,7 @@ settings.interface.scoreboard Usar el viejo tablero de puntaciones
 settings.interface.oldBrowser Usar el navegador antiguo
 settings.interface.rarityanim Desactivar animaciones de rareza
 settings.interface.showPfp Mostrar fotos de perfil
+settings.interface.showTradeMsg Show Trade Messages
 settings.interface.hp Barras de salud dinámicas
 settings.interface.dmgScale Escala de daño
 settings.interface.killf Mostrar bajas de jugadores
@@ -148,6 +171,7 @@ settings.interface.ping Mostrar ping
 settings.interface.net-stats Mostrar estadísticas de conexión
 settings.interface.fps Mostrar FPS
 settings.interface.deaths Mostrar contador de muertes
+settings.interface.kd Show K/D Counter
 settings.interface.kills Mostrar el contador de bajas
 settings.interface.streak Mostrar rachas de bajas.
 settings.interface.score Mostrar el contador de puntos
@@ -216,9 +240,13 @@ settings.onKillS.style.0 Predeterminado
 settings.onKillS.style.1 Reducir resolución
 settings.onKillS.style.2 Reducir campo de visión
 settings.onKillS.style.3 Aumentar campo de visión
+settings.serverb.header Server Browser
+settings.serverb.oldBrowser Legacy Browser
+settings.serverb.defaultRegionOnly Default Region Only
 settings.gameprivacy.header Privacidad de jugabilidad
 settings.gameprivacy.streamer Modo streamer
 settings.gameprivacy.anon Modo anónimo
+settings.gameprivacy.hideGameTitle Hide Game Title
 settings.gameplay.header Jugabilidad
 settings.gameplay.sensitivityX Sensibilidad X
 settings.gameplay.sensitivityY Sensiblidad Y
@@ -230,6 +258,7 @@ settings.gameplay.onkillS En baja
 settings.gameplay.scrollDir Dirección de scroll
 settings.controller.header Mando
 settings.controller.sensitivityX Sensibilidad X
+settings.controller.disableCons Disable Controllers
 settings.controller.sensitivityY Sensibilidad Y
 settings.controller.aimsensX Sensibilidad de apuntado X
 settings.controller.aimsensY Sensibilidad de apuntado Y
@@ -253,7 +282,10 @@ settings.audio.ambient Volumen de ambientación
 settings.audio.voice Volumen de chat de voz
 settings.audio.weps Volumen de armas
 settings.audio.player Volumen de jugadores
+settings.audio.skin Cosmetics Volume
 settings.audio.ui Volumen de la interfaz
+settings.audio.asset Asset Volume
+settings.audio.dialogue Action Volume
 settings.viewmodel.header Visualizador de modelo
 settings.viewmodel.fov Campo de visión
 settings.viewmodel.fps Campo de visión de arma
@@ -261,8 +293,10 @@ settings.viewmodel.bobbing Balanceo de arma
 settings.viewmodel.leaning Inclinación de arma
 settings.viewmodel.show.primary Mostrar primaria
 settings.viewmodel.show.secondary Mostrar secundaria
+settings.viewmodel.roundArms Rounded Arms
 settings.viewmodel.show.melee Mostrar arma cuerpo-a-cuerpo
 settings.viewmodel.show.ads Ocultar arma al apuntar
+settings.viewmodel.toggleAim Toggle Aim
 settings.viewmodel.show.hands Mostrar manos
 settings.viewmodel.leftHand Modo Zurdo
 settings.viewmodel.aimAnim Animación al apuntar arma
@@ -270,6 +304,8 @@ settings.viewmodel.rot Rotación de arma
 settings.viewmodel.xOff Ubicación de arma en eje X
 settings.viewmodel.yOff Ubicación de arma en eje Y
 settings.viewmodel.zOff Ubicación de arma en eje Z
+settings.viewmodel.weapSwapY Weapon Swap Y
+settings.viewmodel.weapReloadY Weapon Reload Y
 settings.viewmodel.yOffADS Ubicación de arma al apuntar en eje Y
 settings.viewmodel.adsFovMlt Intensidad del campo de visión al apuntar
 settings.editing.header Edición de interfaz
@@ -283,6 +319,13 @@ settings.editing.score.scale Escala de puntos emergentes
 settings.editing.score.shadow Sombra de puntos emergentes
 settings.editing.scoreOffX Ubicación de puntos emergentes del eje X
 settings.editing.scoreOffY Ubicación de puntos emergentes del eje Y
+settings.editing.prog.color Progress Bar Color
+settings.editing.prog.opacity Progress Bar Opacity
+settings.editing.prog.scale Progress Bar Scale
+settings.editing.prog.shadow Progress Bar Shadow
+settings.editing.progOffX Progress Bar X Offset
+settings.editing.progOffY Progress Bar Y Offset
+settings.editing.progRot Progress Bar Rotation
 settings.editing.saturation Saturación (En el juego)
 settings.editing.menuSaturation Saturación (Interfaz)
 settings.editing.hue Matiz de color (En el juego)
@@ -293,14 +336,20 @@ settings.editing.depth Profundidad de mapa
 settings.editing.green Pantalla verde
 settings.editing.tracercol Color de rastros de balas
 settings.editing.tracer Rastros de balas
+settings.editing.tracer.offset Tracer Offset
 settings.shaders.header Entradas de shaders
 settings.mods.header Mods
 settings.mods.load Cargar mods
 settings.mods.logo Permitir cambios al logo
 settings.mods.auto Auto-cargar mods
 settings.mods.borders Bordes de mirilla
+settings.mods.borderCol Scope Borders
+settings.mods.borderOpac Scope Borders Opacity
 settings.mods.scope Imagen de mirilla
 settings.mods.scope.paste URL de imagen de mirilla
+settings.mods.scope.opacity Scope Opacity
+settings.mods.scope.width Scope Image Width
+settings.mods.scope.height Scope Image Height
 settings.mods.dot Imagen de retícula
 settings.mods.dot.width Ancho de imagen de la retícula
 settings.mods.dot.height Altura de imagen de la retícula
@@ -323,6 +372,7 @@ settings.mods.damage Imagen de capa de daño
 settings.mods.damage.paste URL de capa de daño
 settings.mods.overlay Imagen de capa del juego
 settings.mods.overlay.paste URL de capa del juego
+settings.social.region Region Stats
 windows.settings.header Ajustes de juego
 windows.mail.header Correo de krunker
 windows.servers.header Servidores
@@ -337,18 +387,21 @@ windows.loadout.class Clase
 windows.loadout.primary Arma Primaria
 windows.loadout.primary.attach Accesorio
 windows.loadout.primary.reticle Retícula
+windows.loadout.primary.scope Scope
 windows.loadout.secondary Arma Secundaria
 windows.loadout.secondary.skin Skin de arma secundaria
 windows.loadout.melee Arma cuerpo-a-cuerpo
 windows.loadout.hat Sombreros
 windows.loadout.body Accesorios de Cuerpo
 windows.loadout.waist Accesorios de Cintura
+windows.loadout.shoe Shoes
 windows.loadout.face Caras
 windows.loadout.spray Grafitti
 windows.loadout.color.skin Color de piel
 windows.loadout.color.chat Color de nombres en el chat
 windows.loadout.color.hair Color de cabello
 windows.loadout.dye Colorante
+windows.loadout.pet Pet
 windows.loadout.stat Estadística en tarjeta
 windows.loadout.flag Bandera de país
 windows.mods.drop arrastra el archivo de mod .zip aquí o haz click
@@ -386,6 +439,7 @@ windows.controls.list Lista de jugadores
 windows.controls.board Tabla de clasificaciones
 windows.controls.interact Interactuar
 windows.controls.interactSec Interacción secundaria
+windows.controls.confirm Confirm Interact
 windows.controls.drop Soltar
 windows.controls.wepVis Alternar visibilidad de arma
 windows.controls.streak0 Racha 1
@@ -397,6 +451,8 @@ windows.controls.premium0 Noclip
 windows.controls.premium1 Godmode
 windows.controls.premium2 Kill
 windows.controls.premium3 Smite
+windows.controls.reset Reset Position (Race & Parkour)
+windows.controls.pretend Hide Game
 windows.host.header Crear partida personalizada
 windows.host.maps Configurar partida
 windows.host.cmaps Mapas de la comunidad
@@ -454,6 +510,9 @@ windows.store.amount {0} KR en tu cuenta
 windows.store.login para comprar y desbloquear objetos de la tienda!
 windows.store.purchasing Comprando...
 windows.store.unboxed {0}{1} abrió
+windows.trade.header Trading
+windows.scope.header Select Scope
+windows.premium.header Premium
 windows.skin.header Seleccione Skin
 windows.hat.header Seleccione sombrero
 windows.back.header Seleccione accesorio de espalda
@@ -539,10 +598,20 @@ server.config.strafeSpd Velocidad de strafe
 server.config.fiRat Cadencia de fuego
 server.config.reSpd Velocidad de recarga
 server.config.slidTime Tiempo de deslizamiento
+server.config.fixMov Fixed Movement
+server.config.slidSpd Slide Speed
 server.config.healthMlt Multiplicador de salud
 server.config.impulseMlt Impulso de arma
 server.config.nameTeam1 Nombre del equipo 1
 server.config.nameTeam2 Nombre del equipo 2
+server.config.nameTeam3 Team 3 Name
+server.config.nameTeam4 Team 4 Name
+server.config.nameTeam5 Team 5 Name
+server.config.t1Dmg Team 1 Damage
+server.config.t2Dmg Team 2 Damage
+server.config.t3Dmg Team 3 Damage
+server.config.t4Dmg Team 4 Damage
+server.config.t5Dmg Team 5 Damage
 server.config.selTeam Seleccionar equipos
 server.config.allowSpect Permitir espectadores
 server.config.killRewards Recompensas de bajas
@@ -558,13 +627,19 @@ server.config.requireCaptcha Requiere captcha
 server.config.nameTags Ocultar nombres
 server.config.noReload No recargar
 server.config.private Privado
+server.config.krRewards KR Rewards
 server.config.warmupTime Tiempo de calentamiento
+server.config.objtvTime Objective Time
 server.config.forceSpawn Tiempo de reaparición automática
 server.config.scoreLimit Límite de puntos
+server.config.keepTScore Keep Team Score
+server.config.forceC Force Mode Classes
+server.config.logTim Log Time (Race, Parkour)
 server.config.hitBoxPad Escala de hitbox
 server.config.hpRegen Regeneración de salud
 server.config.disableB Deshabilitar bordes
 server.config.throwMel Armas cuerpo-a-cuerpo lanzables
+server.config.noCosm Disable Cosmetics
 social.login Iniciar Sesión/Registrarse
 social.login.failed Error al iniciar sesión
 social.login.buy Inicia sesión para comprar
@@ -593,6 +668,8 @@ social.market.head Objeto de cabeza
 social.market.back Objeto de espalda
 social.market.waist Objeto de cintura
 social.market.face Caras
+social.market.shoe Shoe Item
+social.market.pet Pet Item
 social.market.melee Arma cuerpo-a-cuerpo
 social.market.spray Grafittis
 social.market.dye Colorantes
