@@ -21,6 +21,7 @@ generic.save 저장
 generic.load 불러오기
 generic.search 검색
 generic.leave 나가기
+generic.default Default
 generic.submit 제출
 generic.create 게임 만들기
 generic.random 무작위
@@ -67,7 +68,11 @@ timer.end {0}초 후 다음 라운드가 시작합니다.
 leaderboard.empty 빈 로비
 popup.checkpoint 체크포인트!
 app.play 플레이하려면 클릭하세요
+app.spectate CLICK TO SPECTATE
+app.play.mobile TAP TO PLAY
+app.spectate.mobile TAP TO SPECTATE
 app.play.controller 플레이하려면 START를 누르세요.
+app.spectate.controller START to SPECTATE
 purchase.error 오류가 발생했습니다
 purchase.error.click 여기</a>를 눌러서 다시 시도하세요!
 purchase.error.limit 일일 거래 한도를 초과했습니다.
@@ -86,8 +91,16 @@ settings.network.header 네트워크
 settings.network.sendRate 높은 틱레이트
 settings.network.netRerouting 자동 라우팅 (핑에 영향을 줍니다)
 settings.network.lagComp 지연 시간 보정
+settings.popup.header Popups
+settings.popup.freeKRPop Show Free KR Popup
 settings.experimental.header 실험적 설정
 settings.experimental.aimFreezeFix 에임 멈춤 현상 해결
+settings.experimental.mouseFlickFix Mouse Flick Fix
+settings.experimental.shaderRendering Instance Rendering
+settings.dev.header Developer
+settings.dev.forceUpdate Force Update Skins
+settings.dev.forceRegen Always Regenerate Player
+settings.dev.extraBan Extra Ban Info
 settings.chat.header 채팅
 settings.chat.chat 채팅창 표시
 settings.chat.chat.all 항상
@@ -109,6 +122,7 @@ settings.quality.mapDet 맵 디테일
 settings.quality.noTex 텍스처 끄기
 settings.quality.partdist 입자 렌더링 거리
 settings.quality.renderdist 렌더 거리
+settings.quality.reflection Reflection Quality
 settings.quality.antiAlias 계단 현상 방지
 settings.quality.shadows 그림자
 settings.quality.softShad 부드러운 그림자
@@ -120,13 +134,23 @@ settings.quality.mflash 총구 섬광
 settings.quality.flap 스나이퍼 스코프 덮개
 settings.quality.lowSpec 저사양 모드
 settings.quality.ambient 환경 광원 셰이딩
+settings.quality.ambientOld Old Shading (When Possible)
 settings.quality.textureAnim 텍스처 애니메이션
 settings.quality.objectAnim 물체 애니메이션
 settings.quality.screenShake 화면 흔들림
 settings.quality.weaponShine 무기 광택
+settings.quality.rendGamma Gamma
 settings.quality.lighting 조명
+settings.quality.showExplo Show Explosions
 settings.quality.aspectRatio 화면 비율
-settings.quality.post 포스트 프로세싱
+settings.post.header Post Processing
+settings.post.post Post Processing
+settings.post.bloom Bloom
+settings.post.bloomThreshold Bloom Threshold
+settings.post.bloomStrength Bloom Strength
+settings.post.bloomRadius Bloom Radius
+settings.post.ssao SSAO
+settings.post.ssaoRadius SSAO Radius
 settings.interface.hitInd 히트마커 표시
 settings.interface.hitColor 히트마커 색상
 settings.interface.dmg 피해량 표시
@@ -139,6 +163,7 @@ settings.interface.scoreboard 구 스코어보드 사용
 settings.interface.oldBrowser 구 서버 탐색기 사용
 settings.interface.rarityanim 희귀도 애니메이션 끄기
 settings.interface.showPfp 프로필 사진 표시
+settings.interface.showTradeMsg Show Trade Messages
 settings.interface.hp 동적 HP 막대
 settings.interface.dmgScale 피해량 숫자 크기
 settings.interface.killf 킬로그 표시
@@ -146,6 +171,7 @@ settings.interface.ping 지연 시간 표시
 settings.interface.net-stats 네트워크 통계 표시
 settings.interface.fps FPS 표시
 settings.interface.deaths 죽음 수 표시
+settings.interface.kd Show K/D Counter
 settings.interface.kills 처치 수 표시
 settings.interface.streak 연속 처치 수 표시
 settings.interface.score 점수 표시
@@ -214,9 +240,13 @@ settings.onKillS.style.0 기본
 settings.onKillS.style.1 해상도 축소
 settings.onKillS.style.2 FOV 축소
 settings.onKillS.style.3 FOV 확대
+settings.serverb.header Server Browser
+settings.serverb.oldBrowser Legacy Browser
+settings.serverb.defaultRegionOnly Default Region Only
 settings.gameprivacy.header 게임플레이 프라이버시
 settings.gameprivacy.streamer 스트리머 모드
 settings.gameprivacy.anon 익명 모드
+settings.gameprivacy.hideGameTitle Hide Game Title
 settings.gameplay.header 게임플레이
 settings.gameplay.sensitivityX 좌우 감도
 settings.gameplay.sensitivityY 상하 감도
@@ -228,6 +258,7 @@ settings.gameplay.onkillS 처치 시
 settings.gameplay.scrollDir 스크롤 방향
 settings.controller.header 게임패드
 settings.controller.sensitivityX 좌우 감도
+settings.controller.disableCons Disable Controllers
 settings.controller.sensitivityY 상하 감도
 settings.controller.aimsensX 조준 좌우 감도
 settings.controller.aimsensY 조준 상하 감도
@@ -251,7 +282,10 @@ settings.audio.ambient 환경 음량
 settings.audio.voice 음성 음량
 settings.audio.weps 무기 음량
 settings.audio.player 플레이어 음량
+settings.audio.skin Cosmetics Volume
 settings.audio.ui 인터페이스 음량
+settings.audio.asset Asset Volume
+settings.audio.dialogue Action Volume
 settings.viewmodel.header 무기 모델
 settings.viewmodel.fov 시야각 (FOV)
 settings.viewmodel.fps 무기 시야각
@@ -259,8 +293,10 @@ settings.viewmodel.bobbing 무기 흔들림
 settings.viewmodel.leaning 무기 기울기
 settings.viewmodel.show.primary 주무기 보이기
 settings.viewmodel.show.secondary 보조무기 보이기
+settings.viewmodel.roundArms Rounded Arms
 settings.viewmodel.show.melee 근접무기 보이기
 settings.viewmodel.show.ads 조준 시 무기 숨기기
+settings.viewmodel.toggleAim Toggle Aim
 settings.viewmodel.show.hands 손 보이기
 settings.viewmodel.leftHand 왼손잡이 모드
 settings.viewmodel.aimAnim 무기 조준 애니메이션
@@ -268,6 +304,8 @@ settings.viewmodel.rot 무기 회전
 settings.viewmodel.xOff 무기 X축 위치
 settings.viewmodel.yOff 무기 Y축 위치
 settings.viewmodel.zOff 무기 Z축 위치
+settings.viewmodel.weapSwapY Weapon Swap Y
+settings.viewmodel.weapReloadY Weapon Reload Y
 settings.viewmodel.yOffADS 무기 조준 Y축 위치
 settings.viewmodel.adsFovMlt 무기 조준 배율
 settings.editing.header 인터페이스 효과
@@ -281,6 +319,13 @@ settings.editing.score.scale 점수 팝업 크기
 settings.editing.score.shadow 점수 팝업 그림자
 settings.editing.scoreOffX 점수 팝업 X축 위치
 settings.editing.scoreOffY 점수 팝업 Y축 위치
+settings.editing.prog.color Progress Bar Color
+settings.editing.prog.opacity Progress Bar Opacity
+settings.editing.prog.scale Progress Bar Scale
+settings.editing.prog.shadow Progress Bar Shadow
+settings.editing.progOffX Progress Bar X Offset
+settings.editing.progOffY Progress Bar Y Offset
+settings.editing.progRot Progress Bar Rotation
 settings.editing.saturation 그래픽 채도
 settings.editing.menuSaturation 인터페이스 채도
 settings.editing.hue 그래픽 색상
@@ -291,14 +336,20 @@ settings.editing.depth 깊이 지도
 settings.editing.green 크로마 키
 settings.editing.tracercol 예광탄 색상
 settings.editing.tracer 예광탄
+settings.editing.tracer.offset Tracer Offset
 settings.shaders.header 셰이더 입력
 settings.mods.header 사용자 설정
 settings.mods.load 모드 사용
 settings.mods.logo 로고 변경 혀용
 settings.mods.auto 모드 자동 적용
 settings.mods.borders 스나이퍼 스코프 경계
+settings.mods.borderCol Scope Borders
+settings.mods.borderOpac Scope Borders Opacity
 settings.mods.scope 스코프 이미지
 settings.mods.scope.paste 스코프 이미지 URL
+settings.mods.scope.opacity Scope Opacity
+settings.mods.scope.width Scope Image Width
+settings.mods.scope.height Scope Image Height
 settings.mods.dot 십자선 이미지
 settings.mods.dot.width 십자선 이미지 너비
 settings.mods.dot.height 십자선 이미지 높이
@@ -321,6 +372,7 @@ settings.mods.damage 피해량 오버레이 이미지
 settings.mods.damage.paste 피해량 오버레이 이미지 URL
 settings.mods.overlay 게임 오버레이 이미지
 settings.mods.overlay.paste 게임 오버레이 이미지 URL
+settings.social.region Region Stats
 windows.settings.header 게임 설정
 windows.mail.header Krunker 메일
 windows.servers.header 서버
@@ -335,18 +387,21 @@ windows.loadout.class 클래스
 windows.loadout.primary 주무기
 windows.loadout.primary.attach 장착품
 windows.loadout.primary.reticle 조준 십자선
+windows.loadout.primary.scope Scope
 windows.loadout.secondary 보조무기
 windows.loadout.secondary.skin 보조무기 스킨
 windows.loadout.melee 근접 무기
 windows.loadout.hat 모자
 windows.loadout.body 몸통
 windows.loadout.waist 허리
+windows.loadout.shoe Shoes
 windows.loadout.face 얼굴
 windows.loadout.spray 스프레이
 windows.loadout.color.skin 피부 색상
 windows.loadout.color.chat 채팅창 이름 색상
 windows.loadout.color.hair 머리카락 색상
 windows.loadout.dye 염료
+windows.loadout.pet Pet
 windows.loadout.stat 처치 카드에 보여질 스탯
 windows.loadout.flag 국기
 windows.mods.drop 모드 파일을 여기에 드래그 또는 클릭
@@ -384,6 +439,7 @@ windows.controls.list 플레이어 목록
 windows.controls.board 리더보드
 windows.controls.interact 주 사용하기
 windows.controls.interactSec 부 사용하기
+windows.controls.confirm Confirm Interact
 windows.controls.drop 무기 떨어뜨리기
 windows.controls.wepVis 무기 보이기 전환
 windows.controls.streak0 연속 처치 1
@@ -395,6 +451,8 @@ windows.controls.premium0 벽 통과
 windows.controls.premium1 무적 모드
 windows.controls.premium2 자살
 windows.controls.premium3 즉사 모드
+windows.controls.reset Reset Position (Race & Parkour)
+windows.controls.pretend Hide Game
 windows.host.header 커스텀 게임 만들기
 windows.host.maps 서버 설정
 windows.host.cmaps 커뮤니티 게임
@@ -452,6 +510,9 @@ windows.store.amount {0} KR이 계정에 있습니다
 windows.store.login 해서 마켓에서 아이템을 사고파세요!
 windows.store.purchasing 구매 중...
 windows.store.unboxed {0}님이 {1} 아이템을 뽑았습니다.
+windows.trade.header Trading
+windows.scope.header Select Scope
+windows.premium.header Premium
 windows.skin.header 스킨 선택
 windows.hat.header 모자 선택
 windows.back.header 몸통 선택
@@ -537,10 +598,20 @@ server.config.strafeSpd 좌우 이동 속도
 server.config.fiRat 연사 속도
 server.config.reSpd 재장전 시간
 server.config.slidTime 슬라이딩 시간
+server.config.fixMov Fixed Movement
+server.config.slidSpd Slide Speed
 server.config.healthMlt HP 배수
 server.config.impulseMlt 무기 반동 배수
 server.config.nameTeam1 1팀 이름
 server.config.nameTeam2 2팀 이름
+server.config.nameTeam3 Team 3 Name
+server.config.nameTeam4 Team 4 Name
+server.config.nameTeam5 Team 5 Name
+server.config.t1Dmg Team 1 Damage
+server.config.t2Dmg Team 2 Damage
+server.config.t3Dmg Team 3 Damage
+server.config.t4Dmg Team 4 Damage
+server.config.t5Dmg Team 5 Damage
 server.config.selTeam 참가 시 팀 선택
 server.config.allowSpect 관전 중
 server.config.killRewards 킬 점수
@@ -556,13 +627,19 @@ server.config.requireCaptcha Captcha 요구하기
 server.config.nameTags 이름표 숨기기
 server.config.noReload 재장전 없음
 server.config.private 비공개
+server.config.krRewards KR Rewards
 server.config.warmupTime 준비 시간
+server.config.objtvTime Objective Time
 server.config.forceSpawn 강제 리스폰 시간
 server.config.scoreLimit 점수 제한
+server.config.keepTScore Keep Team Score
+server.config.forceC Force Mode Classes
+server.config.logTim Log Time (Race, Parkour)
 server.config.hitBoxPad 히트박스 크기
 server.config.hpRegen HP 재생
 server.config.disableB 경계 비활성화
 server.config.throwMel 근접무기 던지기
+server.config.noCosm Disable Cosmetics
 social.login 로그인/회원가입
 social.login.failed 로그인 실패
 social.login.buy 구매하려면 로그인하세요.
@@ -591,6 +668,8 @@ social.market.head 머리 아이템
 social.market.back 몸통 아이템
 social.market.waist 허리 아이템
 social.market.face 얼굴 아이템
+social.market.shoe Shoe Item
+social.market.pet Pet Item
 social.market.melee 근접무기 아이템
 social.market.spray 스프레이 아이템
 social.market.dye 염료 아이템
