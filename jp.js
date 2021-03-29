@@ -584,7 +584,7 @@ social.market.unlist リストから外す
 social.market.unlisting リストから外しています...
 social.market.posting 投稿中...
 social.market.req レベル{0}が必要
-social.market.cant': "KRが足りません",
+social.market.cant KRが足りません
 social.market.purchase 購入
 social.market.fee 手数料なし
 social.market.failed 失敗しました。もう一度試してください.
