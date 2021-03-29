@@ -19,6 +19,11 @@ if [ ! -s "$langfile" ]; then
 	exit 1
 fi
 
+if [ "$langfile" == "$basefile" ]; then
+	echo "Error: You can't rebuild $basefile"
+	exit 1
+fi
+
 # Confirmation before moving forward..
 read -p "Please note that if changes are detected, $langfile will be re-built, meaning any changes you've made will be lost (unless committed). Happy to proceed? [y/n] " verify
 if [[ "$verify" != [yY] ]]; then
