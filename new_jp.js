@@ -19,7 +19,7 @@ generic.select 選択
 generic.delete 削除
 generic.save セーブ
 generic.load ロード
-generic.search 検索
+generic.search Search
 generic.leave 退出
 generic.default デフォルト
 generic.submit 送信
@@ -68,7 +68,11 @@ timer.end 次ラウンドまであと{0}秒
 leaderboard.empty 空のロビー
 popup.checkpoint チェックポイント!
 app.play クリックしてプレイ
+app.spectate CLICK TO SPECTATE
+app.play.mobile TAP TO PLAY
+app.spectate.mobile TAP TO SPECTATE
 app.play.controller スタートを押してください
+app.spectate.controller START to SPECTATE
 purchase.error エラーが発生しました
 purchase.error.click ここをクリック</a>して、もう一度試してください！
 purchase.error.limit 1日の取引限度額を超えている可能性があります
@@ -87,8 +91,16 @@ settings.network.header ネットワーク
 settings.network.sendRate 高ティックレート
 settings.network.netRerouting 自動ルーティング (pingに影響します)
 settings.network.lagComp ラグ補正
+settings.popup.header Popups
+settings.popup.freeKRPop Show Free KR Popup
 settings.experimental.header テスト中の設定
 settings.experimental.aimFreezeFix エイム中のフリーズを修正
+settings.experimental.mouseFlickFix Mouse Flick Fix
+settings.experimental.shaderRendering Instance Rendering
+settings.dev.header Developer
+settings.dev.forceUpdate Force Update Skins
+settings.dev.forceRegen Always Regenerate Player
+settings.dev.extraBan Extra Ban Info
 settings.chat.header チャット
 settings.chat.chat チャットボックスを表示
 settings.chat.chat.all 常時
@@ -110,6 +122,7 @@ settings.quality.mapDet マップ詳細
 settings.quality.noTex テクスチャなし
 settings.quality.partdist パーティクル距離
 settings.quality.renderdist レンダリング距離
+settings.quality.reflection Reflection Quality
 settings.quality.antiAlias アンチエイリアス
 settings.quality.shadows シャドウ
 settings.quality.softShad ソフトシャドウ
@@ -121,13 +134,23 @@ settings.quality.mflash マズルフラッシュ
 settings.quality.flap スナイパーフラップ
 settings.quality.lowSpec 低スペック
 settings.quality.ambient シェーディング (環境光)
+settings.quality.ambientOld Old Shading (When Possible)
 settings.quality.textureAnim テクスチャアニメーション
 settings.quality.objectAnim オブジェクトアニメーション
 settings.quality.screenShake 画面の振動
 settings.quality.weaponShine 武器の輝き
+settings.quality.rendGamma Gamma
 settings.quality.lighting 照明
+settings.quality.showExplo Show Explosions
 settings.quality.aspectRatio アスペクト比
-settings.quality.post ポストプロセシング
+settings.post.header Post Processing
+settings.post.post Post Processing
+settings.post.bloom Bloom
+settings.post.bloomThreshold Bloom Threshold
+settings.post.bloomStrength Bloom Strength
+settings.post.bloomRadius Bloom Radius
+settings.post.ssao SSAO
+settings.post.ssaoRadius SSAO Radius
 settings.interface.hitInd ヒットマーカーを表示
 settings.interface.hitColor ヒットマーカーの色
 settings.interface.dmg ダメージを表示
@@ -140,6 +163,7 @@ settings.interface.scoreboard 古いスコアボードを使用
 settings.interface.oldBrowser 古いブラウザを使用
 settings.interface.rarityanim レアアイテムアニメーション
 settings.interface.showPfp プロフィール画像を表示
+settings.interface.showTradeMsg Show Trade Messages
 settings.interface.hp ダイナミックHPバー
 settings.interface.dmgScale ダメージスケール
 settings.interface.killf キルフィードを表示
@@ -147,6 +171,7 @@ settings.interface.ping pingを表示
 settings.interface.net-stats ネットワーク統計を表示
 settings.interface.fps FPSを表示
 settings.interface.deaths デスカウンターを表示
+settings.interface.kd Show K/D Counter
 settings.interface.kills キルカウンターを表示
 settings.interface.streak キルストリークカウンターを表示
 settings.interface.score スコアカウンターを表示
@@ -215,9 +240,13 @@ settings.onKillS.style.0 デフォルト
 settings.onKillS.style.1 解像度を下げる
 settings.onKillS.style.2 FOVを下げる
 settings.onKillS.style.3 FOVを上げる
+settings.serverb.header Server Browser
+settings.serverb.oldBrowser Legacy Browser
+settings.serverb.defaultRegionOnly Default Region Only
 settings.gameprivacy.header ゲームプレイプライバシー
 settings.gameprivacy.streamer 配信モード
 settings.gameprivacy.anon 匿名モード
+settings.gameprivacy.hideGameTitle Hide Game Title
 settings.gameplay.header ゲームプレイ
 settings.gameplay.sensitivityX X感度
 settings.gameplay.sensitivityY Y感度
@@ -229,6 +258,7 @@ settings.gameplay.onkillS オンキル
 settings.gameplay.scrollDir スクロール方向
 settings.controller.header コントローラー
 settings.controller.sensitivityX X感度
+settings.controller.disableCons Disable Controllers
 settings.controller.sensitivityY Y感度
 settings.controller.aimsensX エイム時X感度
 settings.controller.aimsensY エイム時Y感度
@@ -252,7 +282,10 @@ settings.audio.ambient 環境音ボリューム
 settings.audio.voice ボイスチャットボリューム
 settings.audio.weps 銃声ボリューム
 settings.audio.player プレイヤーボリューム
+settings.audio.skin Cosmetics Volume
 settings.audio.ui UIボリューム
+settings.audio.asset Asset Volume
+settings.audio.dialogue Action Volume
 settings.viewmodel.header モデル表示
 settings.viewmodel.fov 視野 (FOV)
 settings.viewmodel.fps 武器FOV
@@ -260,8 +293,10 @@ settings.viewmodel.bobbing 武器の揺れ
 settings.viewmodel.leaning 武器の傾き
 settings.viewmodel.show.primary メイン武器表示
 settings.viewmodel.show.secondary サブ武器表示
+settings.viewmodel.roundArms Rounded Arms
 settings.viewmodel.show.melee ナイフを表示
 settings.viewmodel.show.ads ADS時に武器を隠す
+settings.viewmodel.toggleAim Toggle Aim
 settings.viewmodel.show.hands 手を表示
 settings.viewmodel.leftHand 左利きモード
 settings.viewmodel.aimAnim エイムアニメーション
@@ -269,6 +304,8 @@ settings.viewmodel.rot 武器回転
 settings.viewmodel.xOff 武器表示X座標
 settings.viewmodel.yOff 武器表示Y座標
 settings.viewmodel.zOff 武器表示Z座標
+settings.viewmodel.weapSwapY Weapon Swap Y
+settings.viewmodel.weapReloadY Weapon Reload Y
 settings.viewmodel.yOffADS ADS時のY座標
 settings.viewmodel.adsFovMlt ADS時のFOV倍率
 settings.editing.header 編集
@@ -282,6 +319,13 @@ settings.editing.score.scale ポップアップスコアスケール
 settings.editing.score.shadow ポップアップスコアの影
 settings.editing.scoreOffX ポップアップスコアX座標
 settings.editing.scoreOffY ポップアップスコアY座標
+settings.editing.prog.color Progress Bar Color
+settings.editing.prog.opacity Progress Bar Opacity
+settings.editing.prog.scale Progress Bar Scale
+settings.editing.prog.shadow Progress Bar Shadow
+settings.editing.progOffX Progress Bar X Offset
+settings.editing.progOffY Progress Bar Y Offset
+settings.editing.progRot Progress Bar Rotation
 settings.editing.saturation 彩度 (ゲーム内)
 settings.editing.menuSaturation 彩度 (UI)
 settings.editing.hue 色相 (ゲーム内)
@@ -292,14 +336,20 @@ settings.editing.depth マップの深さ
 settings.editing.green グリーンスクリーン
 settings.editing.tracercol 弾丸の色
 settings.editing.tracer 弾丸の色
+settings.editing.tracer.offset Tracer Offset
 settings.shaders.header シェーダー入力
 settings.mods.header カスタマイズ
 settings.mods.load MODをロード
 settings.mods.logo ロゴの変更を許可
 settings.mods.auto MODを自動ロード
 settings.mods.borders スコープボーダー
+settings.mods.borderCol Scope Borders
+settings.mods.borderOpac Scope Borders Opacity
 settings.mods.scope スコープ画像
 settings.mods.scope.paste スコープ画像URL
+settings.mods.scope.opacity Scope Opacity
+settings.mods.scope.width Scope Image Width
+settings.mods.scope.height Scope Image Height
 settings.mods.dot レティクル画像
 settings.mods.dot.width レティクル画像幅
 settings.mods.dot.height レティクル画像高さ
@@ -322,6 +372,7 @@ settings.mods.damage ダメージオーバーレイ画像
 settings.mods.damage.paste ダメージオーバーレイ画像URL
 settings.mods.overlay ゲームオーバーレイ画像
 settings.mods.overlay.paste ゲームオーバーレイ画像URL
+settings.social.region Region Stats
 windows.settings.header ゲーム設定
 windows.mail.header Krunkerメール
 windows.servers.header サーバー
@@ -336,18 +387,21 @@ windows.loadout.class クラス
 windows.loadout.primary メイン武器
 windows.loadout.primary.attach アタッチメント
 windows.loadout.primary.reticle レティクル
+windows.loadout.primary.scope Scope
 windows.loadout.secondary サブ武器
 windows.loadout.secondary.skin サブ武器スキン
 windows.loadout.melee 近接武器
 windows.loadout.hat 帽子
 windows.loadout.body 体
 windows.loadout.waist 腰
+windows.loadout.shoe Shoes
 windows.loadout.face 顔
 windows.loadout.spray スプレー
 windows.loadout.color.skin 肌色
 windows.loadout.color.chat チャット名の色
 windows.loadout.color.hair 髪色
 windows.loadout.dye 服装
+windows.loadout.pet Pet
 windows.loadout.stat キルカードの統計
 windows.loadout.flag 国旗
 windows.mods.drop ここにMODファイルをドロップするか、クリックしてください
@@ -384,7 +438,8 @@ windows.controls.voice 声
 windows.controls.list プレイヤーリスト
 windows.controls.board リーダーボード
 windows.controls.interact アクションボタン
-windows.controls.interactSec サブアクションボタン
+windows.controls.interactSec Secondary Interact
+windows.controls.confirm Confirm Interact
 windows.controls.drop 落とす
 windows.controls.wepVis 武器表示切り替え
 windows.controls.streak0 ストリーク1
@@ -396,6 +451,8 @@ windows.controls.premium0 ノークリップ
 windows.controls.premium1 ゴッドモード
 windows.controls.premium2 キル
 windows.controls.premium3 スマイト
+windows.controls.reset Reset Position (Race & Parkour)
+windows.controls.pretend Hide Game
 windows.host.header カスタムゲームを作る
 windows.host.maps サーバー設定
 windows.host.cmaps コミュニティゲーム
@@ -453,6 +510,9 @@ windows.store.amount アカウントに{0}KRあります
 windows.store.login してストアのアイテム購入・アンロックする!
 windows.store.purchasing 購入中...
 windows.store.unboxed {0}さんが{1}を獲得しました
+windows.trade.header Trading
+windows.scope.header Select Scope
+windows.premium.header Premium
 windows.skin.header スキンを選択
 windows.hat.header 帽子を選択
 windows.back.header 背中アイテムを選択
@@ -538,10 +598,20 @@ server.config.strafeSpd ストレイフ速度
 server.config.fiRat 連射速度
 server.config.reSpd リロード速度
 server.config.slidTime スライド時間
+server.config.fixMov Fixed Movement
+server.config.slidSpd Slide Speed
 server.config.healthMlt HP倍率
 server.config.impulseMlt 発砲時の跳ね返り率
 server.config.nameTeam1 チーム1の名前
 server.config.nameTeam2 チーム2の名前
+server.config.nameTeam3 Team 3 Name
+server.config.nameTeam4 Team 4 Name
+server.config.nameTeam5 Team 5 Name
+server.config.t1Dmg Team 1 Damage
+server.config.t2Dmg Team 2 Damage
+server.config.t3Dmg Team 3 Damage
+server.config.t4Dmg Team 4 Damage
+server.config.t5Dmg Team 5 Damage
 server.config.selTeam チームを選択
 server.config.allowSpect 観戦モード
 server.config.killRewards キルリワード
@@ -557,13 +627,19 @@ server.config.requireCaptcha Captchaが必要
 server.config.nameTags ネームタグを非表示
 server.config.noReload リロード禁止
 server.config.private プライベート
+server.config.krRewards KR Rewards
 server.config.warmupTime ウォームアップ時間 (分)
+server.config.objtvTime Objective Time
 server.config.forceSpawn 自動リスポーン時間
 server.config.scoreLimit スコア制限
+server.config.keepTScore Keep Team Score
+server.config.forceC Force Mode Classes
+server.config.logTim Log Time (Race, Parkour)
 server.config.hitBoxPad ヒットボックススケール
 server.config.hpRegen HP回復
 server.config.disableB ボーダー無効
 server.config.throwMel 投げナイフ
+server.config.noCosm Disable Cosmetics
 social.login ログイン/登録
 social.login.failed ログインに失敗しました
 social.login.buy ログインして購入
@@ -584,7 +660,7 @@ social.market.unlist リストから外す
 social.market.unlisting リストから外しています...
 social.market.posting 投稿中...
 social.market.req レベル{0}が必要
-social.market.cant KRが足りません
+social.market.cant Can't Afford
 social.market.purchase 購入
 social.market.fee 手数料なし
 social.market.failed 失敗しました。もう一度試してください.
@@ -592,6 +668,8 @@ social.market.head 頭アイテム
 social.market.back 背中アイテム
 social.market.waist 腰アイテム
 social.market.face 顔アイテム
+social.market.shoe Shoe Item
+social.market.pet Pet Item
 social.market.melee 近接アイテム
 social.market.spray スプレーアイテム
 social.market.dye 服装アイテム
