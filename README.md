@@ -12,6 +12,7 @@ If you are ready to push a change, please submit a pull request or contact frzn#
 
 You're also welcome to modify CODEOWNERS file if you wish to be added as a default reviewer.
 
+KR rewards and Krunker account verification is awarded based on contribution levels.
 
 Missing content/translations
 ------
