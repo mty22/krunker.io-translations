@@ -29,7 +29,7 @@ module.exports = `
     generic.success 成功! 
     generic.name 名字 
     generic.level 等级 
-generic.score Score
+generic.score 得分
     generic.off 关 
     generic.defeat 失败 
     generic.victory 胜利 
@@ -143,8 +143,8 @@ settings.quality.rendGamma Gamma
     settings.quality.lighting 光照效果 
 settings.quality.showExplo Show Explosions
     settings.quality.aspectRatio 屏幕高宽比 
-settings.post.header Post Processing
-settings.post.post Post Processing
+settings.post.header 后期处理
+settings.post.post 后期处理
 settings.post.bloom Bloom
 settings.post.bloomThreshold Bloom Threshold
 settings.post.bloomStrength Bloom Strength
