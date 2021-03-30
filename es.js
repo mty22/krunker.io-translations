@@ -29,7 +29,7 @@ generic.failed Error
 generic.success Éxito!
 generic.name Nombre
 generic.level Nivel
-generic.score Score
+generic.score Puntuación
 generic.off Apagado
 generic.defeat DERROTA
 generic.victory VICTORIA
@@ -68,11 +68,11 @@ timer.end Siguiente ronda en {0}
 leaderboard.empty Sala vacía
 popup.checkpoint Punto de control!
 app.play CLICK PARA JUGAR
-app.spectate CLICK TO SPECTATE
-app.play.mobile TAP TO PLAY
-app.spectate.mobile TAP TO SPECTATE
+app.spectate CLICK PARA ESPECTEAR
+app.play.mobile PRESIONE PARA JUGAR
+app.spectate.mobile PRESIONA PARA ESPECTEAR
 app.play.controller PRESIONE INICIO
-app.spectate.controller START to SPECTATE
+app.spectate.controller PRESIONA START PARA ESPECTEAR
 purchase.error HA OCURRIDO UN ERROR
 purchase.error.click Haz click aquí </a> y prueba de nuevo!
 purchase.error.limit Has superado tu límite de transacciones diarias
@@ -92,15 +92,15 @@ settings.network.sendRate Alto tickrate
 settings.network.netRerouting Enrutamiento automático (Afecta el ping)
 settings.network.lagComp Compensación de lag
 settings.popup.header Popups
-settings.popup.freeKRPop Show Free KR Popup
+settings.popup.freeKRPop Mostrar Popup de KR Gratis
 settings.experimental.header Experimental
-settings.experimental.aimFreezeFix Arreglo de congelamiento al apuntar.
-settings.experimental.mouseFlickFix Mouse Flick Fix
-settings.experimental.shaderRendering Instance Rendering
-settings.dev.header Developer
-settings.dev.forceUpdate Force Update Skins
-settings.dev.forceRegen Always Regenerate Player
-settings.dev.extraBan Extra Ban Info
+settings.experimental.aimFreezeFix Arreglo de congelamiento al apuntar
+settings.experimental.mouseFlickFix Arreglo de Mouse Flick
+settings.experimental.shaderRendering Renderización de Instancias
+settings.dev.header Desarrollador
+settings.dev.forceUpdate Forzar Actualización de Skins
+settings.dev.forceRegen Siempre Regenerar al Jugador
+settings.dev.extraBan Información Extra de Baneo
 settings.chat.header Chat
 settings.chat.chat Mostrar chat
 settings.chat.chat.all Siempre
@@ -121,36 +121,36 @@ settings.quality.part Partículas
 settings.quality.mapDet Detalles de mapas
 settings.quality.noTex Sin texturas
 settings.quality.partdist Distancia de partículas
-settings.quality.renderdist Distancia de renderizado
-settings.quality.reflection Reflection Quality
+settings.quality.renderdist Distancia de Renderizado
+settings.quality.reflection Calidad De Reflexiones
 settings.quality.antiAlias Suavizado de bordes
 settings.quality.shadows Sombras
 settings.quality.softShad Sombras suaves
-settings.quality.highResShad Sombras sofisticadas
+settings.quality.highResShad Sombras sofisticadas 
 settings.quality.shadowsDynamic Sombras dinámicas
 settings.quality.trails Estela de balas
 settings.quality.yourTrails Tus estelas
 settings.quality.mflash Fogonazo de arma
 settings.quality.flap Solapa de francotirador
 settings.quality.lowSpec Bajo rendimiento
-settings.quality.ambient Sombreado ambiental
-settings.quality.ambientOld Old Shading (When Possible)
+settings.quality.ambient Sombreado Ambiental
+settings.quality.ambientOld Sombreado Antiguo (Cuando sea Posible)
 settings.quality.textureAnim Animaciones de texturas
 settings.quality.objectAnim Animaciones de objetos
 settings.quality.screenShake Temblor de pantalla
 settings.quality.weaponShine Brillo de armas
-settings.quality.rendGamma Gamma
+settings.quality.rendGamma Gama
 settings.quality.lighting Iluminación de ambiente
-settings.quality.showExplo Show Explosions
+settings.quality.showExplo Mostrar Explosiones
 settings.quality.aspectRatio Relación de aspecto
 settings.post.header Post-Procesado
 settings.post.post Post-Procesado
-settings.post.bloom Bloom
-settings.post.bloomThreshold Bloom Threshold
-settings.post.bloomStrength Bloom Strength
-settings.post.bloomRadius Bloom Radius
+settings.post.bloom Resplandor
+settings.post.bloomThreshold Umbral de Resplandor
+settings.post.bloomStrength Fuerza de Resplandor
+settings.post.bloomRadius Radio de Resplandor
 settings.post.ssao SSAO
-settings.post.ssaoRadius SSAO Radius
+settings.post.ssaoRadius Radio de SSAO
 settings.interface.hitInd Mostrar Hitmarker
 settings.interface.hitColor Color de Hitmarker
 settings.interface.dmg Mostrar daño
@@ -163,7 +163,7 @@ settings.interface.scoreboard Usar el viejo tablero de puntaciones
 settings.interface.oldBrowser Usar el navegador antiguo
 settings.interface.rarityanim Desactivar animaciones de rareza
 settings.interface.showPfp Mostrar fotos de perfil
-settings.interface.showTradeMsg Show Trade Messages
+settings.interface.showTradeMsg Mostrar mensajes de Trading
 settings.interface.hp Barras de salud dinámicas
 settings.interface.dmgScale Escala de daño
 settings.interface.killf Mostrar bajas de jugadores
@@ -171,7 +171,7 @@ settings.interface.ping Mostrar ping
 settings.interface.net-stats Mostrar estadísticas de conexión
 settings.interface.fps Mostrar FPS
 settings.interface.deaths Mostrar contador de muertes
-settings.interface.kd Show K/D Counter
+settings.interface.kd Mostrar Contador de KDR
 settings.interface.kills Mostrar el contador de bajas
 settings.interface.streak Mostrar rachas de bajas.
 settings.interface.score Mostrar el contador de puntos
@@ -240,127 +240,127 @@ settings.onKillS.style.0 Predeterminado
 settings.onKillS.style.1 Reducir resolución
 settings.onKillS.style.2 Reducir campo de visión
 settings.onKillS.style.3 Aumentar campo de visión
-settings.serverb.header Server Browser
-settings.serverb.oldBrowser Legacy Browser
-settings.serverb.defaultRegionOnly Default Region Only
-settings.gameprivacy.header Privacidad de jugabilidad
-settings.gameprivacy.streamer Modo streamer
-settings.gameprivacy.anon Modo anónimo
-settings.gameprivacy.hideGameTitle Hide Game Title
+settings.serverb.header Navegador de Servidores
+settings.serverb.oldBrowser Navegador Antiguo
+settings.serverb.defaultRegionOnly Solo región por Defecto
+settings.gameprivacy.header Privacidad de Jugabilidad
+settings.gameprivacy.streamer Modo Streamer
+settings.gameprivacy.anon Modo Anónimo
+settings.gameprivacy.hideGameTitle Esconder Título del Juego
 settings.gameplay.header Jugabilidad
 settings.gameplay.sensitivityX Sensibilidad X
 settings.gameplay.sensitivityY Sensiblidad Y
-settings.gameplay.aimsensX Sensibilidad de apuntado X
-settings.gameplay.aimsensY Sensibilidad de apuntado Y
-settings.gameplay.challenge Modo desafío
+settings.gameplay.aimsensX Sensibilidad de Apuntado X
+settings.gameplay.aimsensY Sensibilidad de Apuntado Y
+settings.gameplay.challenge Modo Desafío
 settings.gameplay.invert Invertir Eje-Y
-settings.gameplay.onkillS En baja
-settings.gameplay.scrollDir Dirección de scroll
+settings.gameplay.onkillS En Baja
+settings.gameplay.scrollDir Dirección de Scroll
 settings.controller.header Mando
 settings.controller.sensitivityX Sensibilidad X
-settings.controller.disableCons Disable Controllers
+settings.controller.disableCons Deshabilitar Mandos
 settings.controller.sensitivityY Sensibilidad Y
-settings.controller.aimsensX Sensibilidad de apuntado X
-settings.controller.aimsensY Sensibilidad de apuntado Y
-settings.controller.deadZoneL Ángulo muerto de stick (Izquierdo)
-settings.controller.deadZoneR Ángulo muerto de stick (Derecho)
-settings.controller.triggerThres Retraso de gatillo
+settings.controller.aimsensX Sensibilidad de Apuntado X
+settings.controller.aimsensY Sensibilidad de Apuntado Y
+settings.controller.deadZoneL Ángulo muerto de Stick (Izquierdo)
+settings.controller.deadZoneR Ángulo muerto de Stick (Derecho)
+settings.controller.triggerThres Retraso de Gatillo
 settings.controller.vibration Vibración
-settings.controller.gradSpeed Velocidad gradual
+settings.controller.gradSpeed Velocidad Gradual
 settings.controller.invert Invertir Eje-Y
 settings.mobile.header Móvil
 settings.mobile.sensitivityX Sensibilidad X
 settings.mobile.sensitivityY Sensibilidad Y
-settings.mobile.aimsensX Sensibilidad de apuntado X
-settings.mobile.aimsensY Sensibilidad de apuntado Y
+settings.mobile.aimsensX Sensibilidad de Apuntado X
+settings.mobile.aimsensY Sensibilidad de Apuntado Y
 settings.mobile.vibration Vibración
-settings.mobile.gradSpeed Velocidad gradual
+settings.mobile.gradSpeed Velocidad Gradual
 settings.mobile.invert Invertir Eje-Y
 settings.audio.header Audio
-settings.audio.sound Volumen principal
-settings.audio.ambient Volumen de ambientación
-settings.audio.voice Volumen de chat de voz
-settings.audio.weps Volumen de armas
-settings.audio.player Volumen de jugadores
-settings.audio.skin Cosmetics Volume
-settings.audio.ui Volumen de la interfaz
-settings.audio.asset Asset Volume
-settings.audio.dialogue Action Volume
-settings.viewmodel.header Visualizador de modelo
-settings.viewmodel.fov Campo de visión
-settings.viewmodel.fps Campo de visión de arma
-settings.viewmodel.bobbing Balanceo de arma
-settings.viewmodel.leaning Inclinación de arma
-settings.viewmodel.show.primary Mostrar primaria
-settings.viewmodel.show.secondary Mostrar secundaria
-settings.viewmodel.roundArms Rounded Arms
-settings.viewmodel.show.melee Mostrar arma cuerpo-a-cuerpo
-settings.viewmodel.show.ads Ocultar arma al apuntar
-settings.viewmodel.toggleAim Toggle Aim
-settings.viewmodel.show.hands Mostrar manos
+settings.audio.sound Volumen Principal
+settings.audio.ambient Volumen de Ambientación
+settings.audio.voice Volumen de Chat de voz
+settings.audio.weps Volumen de Armas
+settings.audio.player Volumen de Jugadores
+settings.audio.skin Volumen de Cosmeticos
+settings.audio.ui Volumen de la Interfaz
+settings.audio.asset Volumen de Assets
+settings.audio.dialogue Volumen de Acción
+settings.viewmodel.header Visualizador de Modelos
+settings.viewmodel.fov Campo de Visión
+settings.viewmodel.fps Campo de visión de Arma
+settings.viewmodel.bobbing Balanceo de Arma
+settings.viewmodel.leaning Inclinación de Arma
+settings.viewmodel.show.primary Mostrar Primaria
+settings.viewmodel.show.secondary Mostrar Secundaria
+settings.viewmodel.roundArms Manos Redondas
+settings.viewmodel.show.melee Mostrar arma Cuerpo-a-cuerpo
+settings.viewmodel.show.ads Ocultar arma al Apuntar
+settings.viewmodel.toggleAim Alternar Apuntado
+settings.viewmodel.show.hands Mostrar Manos
 settings.viewmodel.leftHand Modo Zurdo
-settings.viewmodel.aimAnim Animación al apuntar arma
-settings.viewmodel.rot Rotación de arma
-settings.viewmodel.xOff Ubicación de arma en eje X
-settings.viewmodel.yOff Ubicación de arma en eje Y
-settings.viewmodel.zOff Ubicación de arma en eje Z
+settings.viewmodel.aimAnim Animación al apuntar Arma
+settings.viewmodel.rot Rotación de Arma
+settings.viewmodel.xOff Ubicación de Arma en X
+settings.viewmodel.yOff Ubicación de Arma en Y
+settings.viewmodel.zOff Ubicación de Arma en Z
 settings.viewmodel.weapSwapY Weapon Swap Y
-settings.viewmodel.weapReloadY Weapon Reload Y
-settings.viewmodel.yOffADS Ubicación de arma al apuntar en eje Y
-settings.viewmodel.adsFovMlt Intensidad del campo de visión al apuntar
-settings.editing.header Edición de interfaz
-settings.editing.health.high Salud de HUD alta
-settings.editing.health.low Salud de HUD baja
-settings.editing.speedLines Líneas de velocidad
-settings.editing.spdLinesCol Color de líneas de velocidad
-settings.editing.score.color Color de puntos emergentes
-settings.editing.score.show Mostrar puntos emergentes
-settings.editing.score.scale Escala de puntos emergentes
-settings.editing.score.shadow Sombra de puntos emergentes
-settings.editing.scoreOffX Ubicación de puntos emergentes del eje X
-settings.editing.scoreOffY Ubicación de puntos emergentes del eje Y
-settings.editing.prog.color Progress Bar Color
-settings.editing.prog.opacity Progress Bar Opacity
-settings.editing.prog.scale Progress Bar Scale
-settings.editing.prog.shadow Progress Bar Shadow
-settings.editing.progOffX Progress Bar X Offset
-settings.editing.progOffY Progress Bar Y Offset
-settings.editing.progRot Progress Bar Rotation
+settings.viewmodel.weapReloadY Recarga de Arma en Y
+settings.viewmodel.yOffADS Ubicación de arma al Apuntar en Y
+settings.viewmodel.adsFovMlt Intensidad del campo de visión al Apuntar
+settings.editing.header Edición de Interfaz
+settings.editing.health.high Salud de HUD Alta
+settings.editing.health.low Salud de HUD Baja
+settings.editing.speedLines Líneas de Velocidad
+settings.editing.spdLinesCol Color de líneas de Velocidad
+settings.editing.score.color Color de puntos Emergentes
+settings.editing.score.show Mostrar puntos Emergentes
+settings.editing.score.scale Escala de puntos Emergentes
+settings.editing.score.shadow Sombra de puntos Emergentes
+settings.editing.scoreOffX Ubicación de puntos Emergentes en X
+settings.editing.scoreOffY Ubicación de puntos Emergentes en Y
+settings.editing.prog.color Color de barra de Progreso
+settings.editing.prog.opacity Opacidad de barra de Progreso
+settings.editing.prog.scale Escala de barra de Progreso
+settings.editing.prog.shadow Sombra de Barra de Progreso
+settings.editing.progOffX Ubicación X de la Barra de Progreso
+settings.editing.progOffY Ubicación Y de la Barra de Progreso
+settings.editing.progRot Rotación de Barra de Progreso
 settings.editing.saturation Saturación (En el juego)
 settings.editing.menuSaturation Saturación (Interfaz)
-settings.editing.hue Matiz de color (En el juego)
-settings.editing.menuHue Matiz de color (Interfaz)
+settings.editing.hue Matiz de Color (En el juego)
+settings.editing.menuHue Matiz de Color (Interfaz)
 settings.editing.vignette Viñeta
-settings.editing.feedLimit Límite de killfeed
-settings.editing.depth Profundidad de mapa
-settings.editing.green Pantalla verde
-settings.editing.tracercol Color de rastros de balas
-settings.editing.tracer Rastros de balas
-settings.editing.tracer.offset Tracer Offset
+settings.editing.feedLimit Límite de Killfeed
+settings.editing.depth Profundidad de Mapa
+settings.editing.green Pantalla Verde
+settings.editing.tracercol Color de rastros de Balas
+settings.editing.tracer Rastros de Balas
+settings.editing.tracer.offset Offset de Rastros de Balas
 settings.shaders.header Entradas de shaders
 settings.mods.header Mods
 settings.mods.load Cargar mods
 settings.mods.logo Permitir cambios al logo
-settings.mods.auto Auto-cargar mods
-settings.mods.borders Bordes de mirilla
-settings.mods.borderCol Scope Borders
-settings.mods.borderOpac Scope Borders Opacity
-settings.mods.scope Imagen de mirilla
-settings.mods.scope.paste URL de imagen de mirilla
-settings.mods.scope.opacity Scope Opacity
-settings.mods.scope.width Scope Image Width
-settings.mods.scope.height Scope Image Height
-settings.mods.dot Imagen de retícula
-settings.mods.dot.width Ancho de imagen de la retícula
-settings.mods.dot.height Altura de imagen de la retícula
-settings.mods.dot.paste URL de imagen de retícula
-settings.mods.endmessage Mensaje al finalizar la partida
-settings.mods.profile Imagen de perfil
-settings.mods.profile.paste URL de imagen de perfil
-settings.mods.ammo Imagen de munición
-settings.mods.ammo.paste URL de imagen de munición
-settings.mods.kills Imagen de bajas
-settings.mods.kills.paste URL de imagen de bajas
+settings.mods.auto Auto-cargar Mods
+settings.mods.borders Bordes de Mirilla
+settings.mods.borderCol Bordes de Mira
+settings.mods.borderOpac Opacidad de bordes de Mira
+settings.mods.scope Imagen de Mirilla
+settings.mods.scope.paste URL de imagen de Mirilla
+settings.mods.scope.opacity Opacidad de Mira 
+settings.mods.scope.width Ancho de Mira
+settings.mods.scope.height Altura de Mira
+settings.mods.dot Imagen de Retícula
+settings.mods.dot.width Ancho de imagen de la Retícula
+settings.mods.dot.height Altura de imagen de la Retícula
+settings.mods.dot.paste URL de imagen de Retícula
+settings.mods.endmessage Mensaje al finalizar la Partida
+settings.mods.profile Imagen de Perfil
+settings.mods.profile.paste URL de imagen de Perfil
+settings.mods.ammo Imagen de Munición
+settings.mods.ammo.paste URL de imagen de Munición
+settings.mods.kills Imagen de Bajas
+settings.mods.kills.paste URL de imagen de Bajas
 settings.mods.deaths Imagen de muertes
 settings.mods.deaths.paste URL de imagen de muertes
 settings.mods.streak Imagen de rachas de bajas
@@ -372,7 +372,7 @@ settings.mods.damage Imagen de capa de daño
 settings.mods.damage.paste URL de capa de daño
 settings.mods.overlay Imagen de capa del juego
 settings.mods.overlay.paste URL de capa del juego
-settings.social.region Region Stats
+settings.social.region Estadisticas de Región
 windows.settings.header Ajustes de juego
 windows.mail.header Correo de krunker
 windows.servers.header Servidores
@@ -387,21 +387,21 @@ windows.loadout.class Clase
 windows.loadout.primary Arma Primaria
 windows.loadout.primary.attach Accesorio
 windows.loadout.primary.reticle Retícula
-windows.loadout.primary.scope Scope
+windows.loadout.primary.scope Mira
 windows.loadout.secondary Arma Secundaria
 windows.loadout.secondary.skin Skin de arma secundaria
 windows.loadout.melee Arma cuerpo-a-cuerpo
 windows.loadout.hat Sombreros
 windows.loadout.body Accesorios de Cuerpo
 windows.loadout.waist Accesorios de Cintura
-windows.loadout.shoe Shoes
+windows.loadout.shoe Zapatos
 windows.loadout.face Caras
 windows.loadout.spray Grafitti
 windows.loadout.color.skin Color de piel
 windows.loadout.color.chat Color de nombres en el chat
 windows.loadout.color.hair Color de cabello
 windows.loadout.dye Colorante
-windows.loadout.pet Pet
+windows.loadout.pet Mascota
 windows.loadout.stat Estadística en tarjeta
 windows.loadout.flag Bandera de país
 windows.mods.drop arrastra el archivo de mod .zip aquí o haz click
@@ -439,7 +439,7 @@ windows.controls.list Lista de jugadores
 windows.controls.board Tabla de clasificaciones
 windows.controls.interact Interactuar
 windows.controls.interactSec Interacción secundaria
-windows.controls.confirm Confirm Interact
+windows.controls.confirm Confirmar Interacción
 windows.controls.drop Soltar
 windows.controls.wepVis Alternar visibilidad de arma
 windows.controls.streak0 Racha 1
@@ -451,8 +451,8 @@ windows.controls.premium0 Noclip
 windows.controls.premium1 Godmode
 windows.controls.premium2 Kill
 windows.controls.premium3 Smite
-windows.controls.reset Reset Position (Race & Parkour)
-windows.controls.pretend Hide Game
+windows.controls.reset Reiniciar Posición (Race & Parkour)
+windows.controls.pretend Esconder Juego
 windows.host.header Crear partida personalizada
 windows.host.maps Configurar partida
 windows.host.cmaps Mapas de la comunidad
@@ -511,8 +511,8 @@ windows.store.login para comprar y desbloquear objetos de la tienda!
 windows.store.purchasing Comprando...
 windows.store.unboxed {0}{1} abrió
 windows.trade.header Trading
-windows.scope.header Select Scope
-windows.premium.header Premium
+windows.scope.header Seleccionar Mira
+windows.premium.header Premiun
 windows.skin.header Seleccione Skin
 windows.hat.header Seleccione sombrero
 windows.back.header Seleccione accesorio de espalda
@@ -598,20 +598,20 @@ server.config.strafeSpd Velocidad de strafe
 server.config.fiRat Cadencia de fuego
 server.config.reSpd Velocidad de recarga
 server.config.slidTime Tiempo de deslizamiento
-server.config.fixMov Fixed Movement
-server.config.slidSpd Slide Speed
+server.config.fixMov Movimiento Arreglado
+server.config.slidSpd Velocidad de Deslizamiento
 server.config.healthMlt Multiplicador de salud
 server.config.impulseMlt Impulso de arma
-server.config.nameTeam1 Nombre del equipo 1
-server.config.nameTeam2 Nombre del equipo 2
-server.config.nameTeam3 Team 3 Name
-server.config.nameTeam4 Team 4 Name
-server.config.nameTeam5 Team 5 Name
-server.config.t1Dmg Team 1 Damage
-server.config.t2Dmg Team 2 Damage
-server.config.t3Dmg Team 3 Damage
-server.config.t4Dmg Team 4 Damage
-server.config.t5Dmg Team 5 Damage
+server.config.nameTeam1 Nombre del Equipo 1
+server.config.nameTeam2 Nombre del Equipo 2
+server.config.nameTeam3 Nombre del Equipo 3
+server.config.nameTeam4 Nombre del Equipo 4
+server.config.nameTeam5 Nombre del Equipo 5
+server.config.t1Dmg Daño del Equipo 1
+server.config.t2Dmg Daño del Equipo 2
+server.config.t3Dmg Daño del Equipo 3
+server.config.t4Dmg Daño del Equipo 4
+server.config.t5Dmg Daño del Equipo 5
 server.config.selTeam Seleccionar equipos
 server.config.allowSpect Permitir espectadores
 server.config.killRewards Recompensas de bajas
@@ -627,19 +627,19 @@ server.config.requireCaptcha Requiere captcha
 server.config.nameTags Ocultar nombres
 server.config.noReload No recargar
 server.config.private Privado
-server.config.krRewards KR Rewards
+server.config.krRewards Recompensas de KR
 server.config.warmupTime Tiempo de calentamiento
-server.config.objtvTime Objective Time
+server.config.objtvTime Tiempo de Objetivo
 server.config.forceSpawn Tiempo de reaparición automática
 server.config.scoreLimit Límite de puntos
-server.config.keepTScore Keep Team Score
-server.config.forceC Force Mode Classes
-server.config.logTim Log Time (Race, Parkour)
+server.config.keepTScore Mantener Puntaje de Equipo
+server.config.forceC Forzar Clases
+server.config.logTim Tiempo (Race, Parkour)
 server.config.hitBoxPad Escala de hitbox
 server.config.hpRegen Regeneración de salud
 server.config.disableB Deshabilitar bordes
 server.config.throwMel Armas cuerpo-a-cuerpo lanzables
-server.config.noCosm Disable Cosmetics
+server.config.noCosm Deshabilitar Comesticos
 social.login Iniciar Sesión/Registrarse
 social.login.failed Error al iniciar sesión
 social.login.buy Inicia sesión para comprar
@@ -668,8 +668,8 @@ social.market.head Objeto de cabeza
 social.market.back Objeto de espalda
 social.market.waist Objeto de cintura
 social.market.face Caras
-social.market.shoe Shoe Item
-social.market.pet Pet Item
+social.market.shoe Zapatos
+social.market.pet Mascotas
 social.market.melee Arma cuerpo-a-cuerpo
 social.market.spray Grafittis
 social.market.dye Colorantes
