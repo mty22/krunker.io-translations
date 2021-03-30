@@ -134,7 +134,7 @@ settings.quality.mflash Fogonazo de arma
 settings.quality.flap Solapa de francotirador
 settings.quality.lowSpec Bajo rendimiento
 settings.quality.ambient Sombreado Ambiental
-settings.quality.ambientOld Sombreado Antiguo(Cuando sea Posible)
+settings.quality.ambientOld Sombreado Antiguo (Cuando sea Posible)
 settings.quality.textureAnim Animaciones de texturas
 settings.quality.objectAnim Animaciones de objetos
 settings.quality.screenShake Temblor de pantalla
