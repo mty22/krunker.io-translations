@@ -67,12 +67,12 @@ player.disconnect 연결 끊기
 timer.end {0}초 후 다음 라운드가 시작합니다.
 leaderboard.empty 빈 로비
 popup.checkpoint 체크포인트!
-app.play 플레이하려면 클릭하세요.
-app.spectate 관전하려면 클릭하세요.
-app.play.mobile 플레이하려면 누르세요.
-app.spectate.mobile 관전하려면 누르세요.
-app.play.controller 플레이하려면 START를 누르세요.
-app.spectate.controller 관전하려면 START를 누르세요.
+app.play 플레이하려면 클릭하세요
+app.spectate 관전하려면 클릭하세요
+app.play.mobile 플레이하려면 누르세요
+app.spectate.mobile 관전하려면 누르세요
+app.play.controller 플레이하려면 START를 누르세요
+app.spectate.controller 관전하려면 START를 누르세요
 purchase.error 오류가 발생했습니다
 purchase.error.click 여기</a>를 눌러서 다시 시도하세요!
 purchase.error.limit 일일 거래 한도를 초과했습니다.
