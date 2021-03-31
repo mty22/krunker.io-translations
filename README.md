@@ -34,7 +34,7 @@ Contributers
 - Spanish (Español) - Translated by MGVoltJesk#0001 and nightz#6678, reviews also by nightz#6678
 - Portuguese (Português)
 - German (Deutsch) - Translated by Sidney
-- Finnish - Translated by Jypa (Jypa#0001)
+- Finnish - Translated by Jypa (Jypa#0001), reviewed by Entasy (Entasy#7837)
 
 Current Krunker language support
 ------
