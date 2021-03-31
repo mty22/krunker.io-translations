@@ -52,3 +52,4 @@ Pending to be added to Krunker
 ------
 - Simplified Chinese
 - French
+- Finnish
