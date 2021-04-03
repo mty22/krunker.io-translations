@@ -35,6 +35,7 @@ Contributers
 - Portuguese (Português)
 - German (Deutsch) - Translated by Sidney, Bodeneinheit (bodeneinheit#5830) and Fuderal (Fuderal#7252)
 - Finnish (Suomen kieli) - Translated by Jypa (Jypa#0001), reviewed by Entasy (Entasy#7837)
+- Hindi (हिन्दी) - Translated by BitES (BitES#7783), Milerobloxfan (myul#4951) and Shrekajerk (shrekajerk#2387)
 
 Current Krunker language support
 ------
