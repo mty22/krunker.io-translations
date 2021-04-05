@@ -64,7 +64,7 @@ player.killed Killed By // This needs to remain in English due to grammar issues
 player.killstreak {0} on a {1} Kill Streak // This needs to remain in English due to grammar issues.
 player.inactive 一定時間操作がなかったためゲームから切断されました
 player.disconnect 回線が切断されました
-timer.end 次ラウンドまであと{0}秒
+timer.end 次のラウンドまであと{0}秒
 leaderboard.empty 空のロビー
 popup.checkpoint チェックポイント!
 app.play クリックしてプレイ
