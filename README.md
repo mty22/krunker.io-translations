@@ -2,23 +2,32 @@ Info
 ------
 This repo contains all the language files for Krunker.io
 
-If you wish to translate, feel free to grab a copy of en.js (English), find a buddy and translate where possible.
 
-If you find an issue, please make sure that you create an issue:
+Before translating Krunker into another language, please search for an existing issue to see if another person is working on it:
 
-https://github.com/mty22/Krunker-Languages/issues
+https://github.com/mty22/krunker.io-translations/issues
 
-If you are ready to push a change, please submit a pull request or contact frzn#1030 on Discord or @frznmatt on Twitter for assistance.
+If you can't find anything, then please create an issue before commencing work!
+
+Once approval is given, feel free to grab a copy of en.js (English), find a buddy and translate where possible.
+
+If you find bugs or changes, please feel free to either:
+
+ 1) Raise an issue and wait for someone to fix it.
+ 2) Fix it yourself, and submit a Pull Request for it to be merged back into the parent repo (if you get stuck here, contact frzn#1030 on Discord or @frznmatt on Twitter for assistance).
 
 You're also welcome to modify CODEOWNERS file if you wish to be added as a default reviewer.
 
-KR rewards and Krunker account verification is awarded based on contribution levels.
+
+KR rewards and Krunker account verification is awarded based on contribution levels, typically from 500KR to 50,000KR. See: https://github.com/mty22/krunker.io-translations/blob/main/kr_payouts.csv
+
 
 Missing content/translations
 ------
 All of the items are in a key:value format, and from time to time Krunker developers will update en.js and not other language files (as they're native English speakers).
 
 All of the non-English language files will be periodically rebuilt using via https://github.com/mty22/krunker.io-translations/blob/main/rebuild_lang_file.sh
+
 
 Known issues
 ------
@@ -39,17 +48,14 @@ Contributers
 Current Krunker language support
 ------
 
-As of Krunker patch v3.7.7, the following languages have been added to the game:
+As of Krunker patch v3.8.0, the following languages have been added to the game:
 
-- English
-- Spanish
-- German
-- Korean
-- Portuguese
-- Japanese
-
-Pending to be added to Krunker
-------
-- Simplified Chinese
-- French
-- Finnish
+- English (https://github.com/mty22/krunker.io-translations/blob/main/en.js)
+- Spanish (https://github.com/mty22/krunker.io-translations/blob/main/es.js)
+- German (https://github.com/mty22/krunker.io-translations/blob/main/de.js)
+- Korean (https://github.com/mty22/krunker.io-translations/blob/main/kr.js) 
+- Portuguese (https://github.com/mty22/krunker.io-translations/blob/main/pr.js)
+- Japanese (https://github.com/mty22/krunker.io-translations/blob/main/jp.js)
+- Simplified Chinese (https://github.com/mty22/krunker.io-translations/blob/main/zh.js)
+- French (https://github.com/mty22/krunker.io-translations/blob/main/fr.js)
+- Finnish (https://github.com/mty22/krunker.io-translations/blob/main/fi.js)
