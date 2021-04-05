@@ -60,7 +60,7 @@ generic.login ログイン
 generic.accuracy 命中率
 player.waiting 他のプレーヤーを待っています
 player.died 死亡しました
-player.killed Killed By
+player.killed Killed By // This needs to remain in English due to grammar issues. I want this to be "Killed by {0}."
 player.killstreak {0} on a {1} Kill Streak // This needs to remain in English due to grammar issues.
 player.inactive 一定時間操作がなかったためゲームから切断されました
 player.disconnect 回線が切断されました
