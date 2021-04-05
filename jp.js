@@ -92,14 +92,14 @@ settings.network.sendRate 高ティックレート
 settings.network.netRerouting 自動ルーティング (pingに影響します)
 settings.network.lagComp ラグ補正
 settings.popup.header ポップアップ
-settings.popup.freeKRPop Free KRのポップアップを表示する
+settings.popup.freeKRPop Free KRのポップアップを表示
 settings.experimental.header テスト中の設定
 settings.experimental.aimFreezeFix エイム中のフリーズを修正
 settings.experimental.mouseFlickFix エイム飛びの補正
 settings.experimental.shaderRendering インスタンスレンダリング
 settings.dev.header 開発者
-settings.dev.forceUpdate 強制的にスキンをアップデートする
-settings.dev.forceRegen 常にプレイヤーを再生成する
+settings.dev.forceUpdate 強制的にスキンをアップデート
+settings.dev.forceRegen 常にプレイヤーを再生成
 settings.dev.extraBan 詳細なBAN情報
 settings.chat.header チャット
 settings.chat.chat チャットボックスを表示
@@ -163,7 +163,7 @@ settings.interface.scoreboard 古いスコアボードを使用
 settings.interface.oldBrowser 古いブラウザを使用
 settings.interface.rarityanim レアアイテムアニメーション
 settings.interface.showPfp プロフィール画像を表示
-settings.interface.showTradeMsg トレードメッセージを表示する
+settings.interface.showTradeMsg トレードメッセージを表示
 settings.interface.hp ダイナミックHPバー
 settings.interface.dmgScale ダメージスケール
 settings.interface.killf キルフィードを表示
