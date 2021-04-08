@@ -214,7 +214,7 @@ settings.crosshair.style.4 Wypełniony kwadrat
 settings.crosshair.image Zjęcie
 settings.crosshair.image.paste Zdjęcie celownika
 settings.crosshair.always Zawsze wyświelaj
-settings.crosshair.color Kolo
+settings.crosshair.color Kolor
 settings.crosshair.shadow.color Kolor cienia
 settings.crosshair.shadow.thickness Grubość cienia
 settings.crosshair.size Wielkość
@@ -437,9 +437,9 @@ windows.controls.chat Czat
 windows.controls.voice Głos
 windows.controls.list Lista graczy
 windows.controls.board Tabela wyników
-windows.controls.interact Oddziaływanie
-windows.controls.interactSec Drugie oddziaływanie
-windows.controls.confirm Potwierdź oddziaływanie
+windows.controls.interact Działanie
+windows.controls.interactSec Drugie działanie
+windows.controls.confirm Potwierdź działanie
 windows.controls.drop Upuść
 windows.controls.wepVis Przełącz widoczność broni
 windows.controls.streak0 Seria 1
@@ -451,7 +451,7 @@ windows.controls.premium0 Noclip
 windows.controls.premium1 Tryb boga
 windows.controls.premium2 Zabicie
 windows.controls.premium3 Porażenie
-windows.controls.reset Resetuj pozycje (Parkour i wyścigi)
+windows.controls.reset Resetuj pozycję (Parkour i wyścigi)
 windows.controls.pretend Ukryj grę
 windows.host.header Hostuj niestandardową grę
 windows.host.maps Ustaw serwer
@@ -470,9 +470,9 @@ windows.spray.default Darmowy sprej
 windows.spray.spin Sprej
 windows.maps.header Niestandardowe gry
 windows.maps.none Nie znaleziono gier!
-windows.maps.name Nazwa Gry
+windows.maps.name Nazwa gry
 windows.maps.editor Edytor gier
-windows.maps.publish Opublikuj gier
+windows.maps.publish Opublikuj grę
 windows.maps.community Społeczność Dev
 windows.publish.map.header Opublikuj lub zaaktualizuj grę
 windows.publish.map.thumbnail Bez miniaturki
@@ -487,7 +487,7 @@ windows.clans.members Członkowie ({0})
 windows.clans.requests Prośby dołączenia
 windows.clans.requests.none Brak próśb dołączenia
 windows.clans.page [{0}] strona klanu
-windows.clans.create Stwórcz klan
+windows.clans.create Stwórz klan
 windows.clans.name Nazwa klanu
 windows.clans.view Pokaż klany
 windows.clans.join Dołącz do klanu
@@ -509,14 +509,14 @@ windows.store.unlock Odblokuj nowe skiny i przedmioty
 windows.store.amount {0} KR na koncie
 windows.store.login aby kupować i odblokowywać nowe przedmioty w sklepie!
 windows.store.purchasing Kupowanie...
-windows.store.unboxed {0}{1} odpakowano
+windows.store.unboxed Odpakowano {0}{1}
 windows.trade.header Handlowanie
 windows.scope.header Wybierz lunetę
 windows.premium.header Premium
 windows.skin.header Wybierz skin
 windows.hat.header Wybierz kapelusz
 windows.back.header Wybierz tył
-windows.waist.header Wybierz talie
+windows.waist.header Wybierz talię
 windows.face.header Wybierz twarz
 windows.melee.header Wybierz broń białą
 windows.attach.header Wybierz dodatek
@@ -554,7 +554,7 @@ windows.client.mac Instalator macOS
 windows.client.linux Instalator Linux
 windows.ranked.header Rankowane
 windows.ranked.login by grać rankowane gry!
-windows.ranked.level Musisz mieć co najmniej <span color="black">poziom {0}</span> aby grać rankowane gry! Teraz masz <span color="black">poziom {1}</span>.
+windows.ranked.level Musisz mieć co najmniej <span color="black">{0} poziom</span> aby grać rankowane gry! Teraz masz <span color="black">{1} poziom</span>.
 windows.ranked.mode.r1v1 Solo
 windows.ranked.mode.r2v2 Duo
 windows.ranked.mode.r4v4 Quad
@@ -599,7 +599,7 @@ server.config.fiRat Prędkość strzelania
 server.config.reSpd Prędkość przeładowania
 server.config.slidTime Długość ślizgania
 server.config.fixMov Ustalony ruch
-server.config.slidSpd Prędkość slizgania
+server.config.slidSpd Prędkość ślizgania
 server.config.healthMlt Ilość HP
 server.config.impulseMlt Impuls broni
 server.config.nameTeam1 Nazwa drużyny 1
@@ -612,7 +612,7 @@ server.config.t2Dmg Obrażenia drużyny 2
 server.config.t3Dmg Obrażenia drużyny 3
 server.config.t4Dmg Obrażenia drużyny 4
 server.config.t5Dmg Obrażenia drużyny 5
-server.config.selTeam Wybier drużyne
+server.config.selTeam Wybierz drużyne
 server.config.allowSpect Obserwowanie
 server.config.killRewards Nagrody za zabójstwa
 server.config.headshotOnly Tylko strzały w głowę
@@ -633,7 +633,7 @@ server.config.objtvTime Czas miejsca celu
 server.config.forceSpawn Czas automatycznego odrodzenia
 server.config.scoreLimit Limit wyniku
 server.config.keepTScore Zatrzymaj wynik zespołu
-server.config.forceC Wymuś klasy tryby
+server.config.forceC Wymuś klasy trybu
 server.config.logTim Czas logów (Wyścig, Parkour)
 server.config.hitBoxPad Hitbox Padding
 server.config.hpRegen Regeneracja życia
