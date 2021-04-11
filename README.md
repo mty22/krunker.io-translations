@@ -21,8 +21,8 @@ You're also welcome to modify CODEOWNERS file if you wish to be added as a defau
 
 KR rewards and Krunker account verification is awarded based on contribution levels, typically from 500KR to 50,000KR.
 
-Payouts guide: https://github.com/mty22/krunker.io-translations/blob/main/kr_payment_guide.txt
-Payouts csv: https://github.com/mty22/krunker.io-translations/blob/main/kr_payouts.csv
+- Payouts guide: https://github.com/mty22/krunker.io-translations/blob/main/kr_payment_guide.txt
+- Payouts csv: https://github.com/mty22/krunker.io-translations/blob/main/kr_payouts.csv
 
 
 Missing content/translations
