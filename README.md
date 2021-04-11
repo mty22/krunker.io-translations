@@ -22,7 +22,7 @@ You're also welcome to modify CODEOWNERS file if you wish to be added as a defau
 KR rewards and Krunker account verification is awarded based on contribution levels, typically from 500KR to 50,000KR.
 
 - Payouts guide: https://github.com/mty22/krunker.io-translations/blob/main/kr_payment_guide.txt
-- Payouts csv: https://github.com/mty22/krunker.io-translations/blob/main/kr_payouts.csv
+- Payouts sent (csv): https://github.com/mty22/krunker.io-translations/blob/main/kr_payouts.csv
 
 
 Missing content/translations
@@ -35,7 +35,7 @@ All of the non-English language files will be periodically rebuilt using via htt
 Known issues
 ------
 - Issue with grammar https://github.com/mty22/Krunker-Languages/issues/1
-
+- Issue with Arabic language https://github.com/mty22/krunker.io-translations/issues/2
 
 Contributers
 ------
