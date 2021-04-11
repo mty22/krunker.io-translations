@@ -1,0 +1,20 @@
+Please see this file as a *guide* for KR payments around changes within Krunker’s language files. For simplicity, we will work based on pull requests (PR).
+
+If there are multiple pull requests fixing existing issues from the same person, pull requests may be aggregated together to prevent abuse of payments.
+
+KR will be sent to the user submitting the pull request, unless pre-arranged (ie. KR is being split between players based on work breakdowns).
+
+Changes to payments may be made at any point in time where required.
+
+Abuse of this payment system will not be tolerated.
+
+-----
+New translation - 50,000 KR per pull request + account verification based on workload breakdown
+
+Major changes - 25,000  KR to 35,000 KR per pull request
+
+General changes - 5,000 KR to 25,000 KR per pull request
+
+Minor changes - 500 KR to 5,500 KR per pull request
+-----
+

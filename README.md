@@ -9,7 +9,7 @@ https://github.com/mty22/krunker.io-translations/issues
 
 If you can't find anything, then please create an issue before commencing work!
 
-Once approval is given, feel free to grab a copy of en.js (English), find a buddy and translate where possible.
+**Once approval is given**, feel free to grab a copy of en.js (English), find a buddy and translate where possible. If you work on a language translation without approval, you may not be eligible for KR Payment(s).
 
 If you find bugs or changes, please feel free to either:
 
@@ -19,7 +19,10 @@ If you find bugs or changes, please feel free to either:
 You're also welcome to modify CODEOWNERS file if you wish to be added as a default reviewer.
 
 
-KR rewards and Krunker account verification is awarded based on contribution levels, typically from 500KR to 50,000KR. See: https://github.com/mty22/krunker.io-translations/blob/main/kr_payouts.csv
+KR rewards and Krunker account verification is awarded based on contribution levels, typically from 500KR to 50,000KR.
+
+Payouts guide: https://github.com/mty22/krunker.io-translations/blob/main/kr_payment_guide.txt
+Payouts csv: https://github.com/mty22/krunker.io-translations/blob/main/kr_payouts.csv
 
 
 Missing content/translations
