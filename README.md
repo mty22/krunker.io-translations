@@ -37,7 +37,7 @@ Known issues
 - Issue with grammar https://github.com/mty22/Krunker-Languages/issues/1
 - Issue with Arabic language https://github.com/mty22/krunker.io-translations/issues/2
 
-Contributers
+Contributors
 ------
 - Simplified Chinese (简体中文) - Translated by ReHou (BenHou#8636), reviewed by Chair#2384
 - Japanese (日本語) - Translated by frzn (frzn#1030), reviewed by KnockerOut#5087, Minaaami🐈#8830, nns
@@ -56,7 +56,7 @@ As of Krunker patch v3.8.0, the following languages have been added to the game:
 - English (https://github.com/mty22/krunker.io-translations/blob/main/en.js)
 - Spanish (https://github.com/mty22/krunker.io-translations/blob/main/es.js)
 - German (https://github.com/mty22/krunker.io-translations/blob/main/de.js)
-- Korean (https://github.com/mty22/krunker.io-translations/blob/main/kr.js) 
+- Korean (https://github.com/mty22/krunker.io-translations/blob/main/kr.js)
 - Portuguese (https://github.com/mty22/krunker.io-translations/blob/main/pr.js)
 - Japanese (https://github.com/mty22/krunker.io-translations/blob/main/jp.js)
 - Simplified Chinese (https://github.com/mty22/krunker.io-translations/blob/main/zh.js)
