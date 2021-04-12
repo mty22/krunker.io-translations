@@ -31,7 +31,7 @@ KR rewards and Krunker account verification is awarded based on contribution lev
 - Payouts guide: https://github.com/mty22/krunker.io-translations/blob/main/kr_payment_guide.txt
 - Payouts sent (csv): https://github.com/mty22/krunker.io-translations/blob/main/kr_payouts.csv
 
-We will also assign the Translator Contributor role in Krunker Bunker Discord!
+We will also assign the Translator Contributor role in Krunker Bunker Discord with a unique colour (#994b87)!
 
 
 Missing content/translations
