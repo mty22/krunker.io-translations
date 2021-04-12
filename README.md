@@ -3,6 +3,9 @@ Info
 This repo contains all the language files for Krunker.io
 
 
+Not sure on how to use GitHub? Check out https://lab.github.com/githubtraining/introduction-to-github
+
+
 Before translating Krunker into another language, please search for an existing issue to see if another person is working on it:
 
 https://github.com/mty22/krunker.io-translations/issues
