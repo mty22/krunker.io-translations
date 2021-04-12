@@ -74,20 +74,8 @@ Contributors
 - [Korean](https://github.com/mty22/krunker.io-translations/blob/main/kr.js) (한국어) - Translated by [GoonMandu](https://krunker.io/social.html?p=GoonMandu) (apinklover#0933) and [dojin](https://krunker.io/social.html?p=profile&q=dojin.) (dojin#0001)
 - [Spanish](https://github.com/mty22/krunker.io-translations/blob/main/es.js) (Español) - Translated by [nightz](https://krunker.io/social.html?p=profile&q=xlNightmare) (nightz#6678), reviewed by [MGVoltJesk](https://krunker.io/social.html?p=profile&q=MGVoltJesk) (MGVoltJesk#8000), [cesar](https://krunker.io/social.html?p=profile&q=AMOLAPIJA) (cesar#9999) and [Aby3](https://krunker.io/social.html?p=profile&q=Aby3) (Aby3#7380)
 - [Portuguese](https://github.com/mty22/krunker.io-translations/blob/main/pr.js) (Português) - [Unknown](https://c8.idle.host/sadpepe.png) :(
-- [German](https://github.com/mty22/krunker.io-translations/blob/main/de.js) (Deutsch) - Translated by [Sidney](https://krunker.io/social.html?p=profile&q=Sidney), [Bodeneinheit](https://krunker.io/social.html?p=profile&q=Bodeneinheit) (bodeneinheit#5830) and [Fuderal](https://krunker.io/social.html?p=profile&q=zzzrobinzzz) (Fuderal#7252)
+- [German](https://github.com/mty22/krunker.io-translations/blob/main/de.js) (Deutsch) - Translated by [Sidney](https://krunker.io/social.html?p=profile&q=Sidney), [Bodeneinheit](https://krunker.io/social.html?p=profile&q=Bodeneinheit) (bodeneinheit#5830) and [Fuderal](https://krunker.io/social.html?p=profile&q=zzzrobinzzz) (Fuderal#7252
 - [Finnish](https://github.com/mty22/krunker.io-translations/blob/main/fi.js) (Suomen kieli) - Translated by [Jypa](https://krunker.io/social.html?p=profile&q=Jypa) (Jypa#0001), reviewed by [Entasy](https://krunker.io/social.html?p=profile&q=Entasy) (Entasy#7837)
-
-=======
-- Simplified Chinese (简体中文) - Translated by ReHou (BenHou#8636), reviewed by Chair#2384
-- Japanese (日本語) - Translated by frzn (frzn#1030), reviewed by KnockerOut#5087, Minaaami🐈#8830, nns
-- French (FRANÇAIS) - Translated by Chwoubaka (Chwoubaka#3009), reviewed by Atzelord (atzelord#0712)
-- Korean (한국어) - Translated by GoonMandu (apinklover#0933) and Dojin. (dojin#0001)
-- Spanish (Español) - Translated by MGVoltJesk#0001 and nightz#6678, reviews also by nightz#6678
-- Portuguese (Português)
-- German (Deutsch) - Translated by Sidney, Bodeneinheit (bodeneinheit#5830) and Fuderal (Fuderal#7252)
-- Finnish (Suomen kieli) - Translated by Jypa (Jypa#0001), reviewed by Entasy (Entasy#7837)
-- Hindi (हिन्दी) - Translated by BitES (BitES#7783), Milerobloxfan (myul#4951) and Shrekajerk (shrekajerk#2387)
->>>>>>> Update ReadME.md
 
 Current Krunker language support
 ------
