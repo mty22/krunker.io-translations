@@ -399,7 +399,7 @@ windows.loadout.secondary サブ武器
 windows.loadout.secondary.skin サブ武器スキン
 windows.loadout.melee 近接武器
 windows.loadout.hat 帽子
-windows.loadout.back 体
+windows.loadout.back Body
 windows.loadout.waist 腰
 windows.loadout.shoe 靴
 windows.loadout.face 顔
