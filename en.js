@@ -730,7 +730,7 @@ stats.sprays Sprays Placed
 windows.host.default.settings Enabling Default Settings allows for storing Player Progress and Highscores
 windows.host.default.commands *Host Commands are Disabled in this mode: /noclip /god /smite etc
 windows.host.rewards Enabling KR Rewards forces the Server to use Default Settings & allows players to earn KR from the map funds:
-windows.store.wheels Try your luck and spin for a chance to win some new skins!
+windows.store.wheels.sub Try your luck and spin for a chance to win some new skins!
 windows.store.currency * Prices in USD can be converted to your local currency at an exchange rate defined by the payment provider or bank
 windows.store.creator Consider Support your favorite Content Creator by using a Creator Code
 windows.chall.customs Challenges can't be completed in Custom Matches
