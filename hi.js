@@ -1,11 +1,11 @@
 module.exports = `
-menu.btn.ranked वें स्थान पर
+menu.btn.ranked रैंक का खेल
 menu.btn.shop दुकान
 menu.btn.social हब
 menu.btn.maps खेल
 menu.btn.mods मॉड
-menu.btn.settings समायोजन
-menu.btn.customize अनुकूलित करें
+menu.btn.settings सेटिंग
+menu.btn.customize रूप बदले
 menu.btn.invite आमंत्रण
 menu.btn.invite.clicked कॉपी
 menu.btn.join ज्वाइन
@@ -17,14 +17,14 @@ generic.none कुछ भी नहीं
 generic.connecting कनेक्टिंग...
 generic.select चयन करें
 generic.delete हटाएं
-generic.save सहेजें
+generic.save रूप बदले
 generic.load लोड
 generic.search खोजिए
 generic.leave छोड़ो
 generic.default डिफ़ॉल्ट
 generic.submit सबमिट करें
 generic.create बनाएँ
-generic.random यादृच्छिक
+generic.random रैंडम
 generic.failed असफल
 generic.success सफलता
 generic.name नाम
@@ -42,12 +42,12 @@ generic.following निम्नलिखित
 generic.games खेल
 generic.wins जीत
 generic.lose घाटा
-generic.clan कबीले
-generic.games.played खेल खेला
+generic.clan क्लैन
+generic.games.played खेले गये खेल
 generic.games.won खेल जीते
-generic.games.lost खेल खोया
-generic.timep समय खेला
-generic.kills मारता
+generic.games.lost खेल हारे
+generic.timep कितना समय खेला
+generic.kills हत्या
 generic.deaths मौतें
 generic.kdr KDR
 generic.time समय
@@ -62,24 +62,24 @@ player.waiting खिलाड़ियों का इंतजार
 player.died तुम मर गए
 player.killed द्वारा मारे गए
 player.killstreak {0} एक {1} मार लकीर पर
-player.inactive निष्क्रियता के लिए लात मारी
+player.inactive इनैक्टिव
 player.disconnect डिस्कनेक्ट
 timer.end अगले दौर में {0}
 leaderboard.empty खाली लॉबी
-popup.checkpoint चौकी!
+popup.checkpoint चैकपौइंट
 app.play खेलने के लिए क्लिक करें
-app.spectate करने के लिए क्लिक करें जुड़ना
+app.spectate स्पैक्टेट करे
 app.play.mobile खेलने के लिए टैप करें
-app.spectate.mobile नल करने के लिए SPECTATE
+app.spectate.mobile स्पैक्टेट करे
 app.play.controller प्रेस शुरू
-app.spectate.controller शुरू करने के लिए SPECTATE
-purchase.error त्रुटि हुई
+app.spectate.controller स्पैक्टेट करे
+purchase.error ऐरर
 purchase.error.click यहां क्लिक करें  </a> और फिर से प्रयास करें!
-purchase.error.limit आप अपनी दैनिक लेनदेन सीमा को पार कर सकते हैं
+purchase.error.limit आप अपनी दैनिक लेनदेन सीमा को पार कर चुकें हैं
 settings.reset रीसेट
 settings.reset.confirm क्या आप वाकई अपनी सभी सेटिंग्स रीसेट करना चाहते हैं?
-settings.import आयात
-settings.export निर्यात
+settings.import इम्पोर्ट
+settings.export ऐक्सपोर्ट
 settings.none कोई सेटिंग नहीं मिली
 settings.backup बैकअप सेटिंग्स
 settings.controls.change Keybinds
@@ -90,13 +90,13 @@ settings.local.lang भाषा
 settings.network.header नेटवर्क
 settings.network.sendRate उच्च Tickrate
 settings.network.netRerouting ऑटो रूटिंग (पिंग को प्रभावित करता है)
-settings.network.lagComp अंतराल मुआवजा
+settings.network.lagComp लैग मुआवजा
 settings.popup.header पॉपअप
 settings.popup.freeKRPop नि: शुल्क KR पॉपअप
 settings.experimental.header प्रायोगिक
 settings.experimental.aimFreezeFix फ्रीज फिक्स उद्देश्य
 settings.experimental.mouseFlickFix माउस झटका तय
-settings.experimental.shaderRendering उदाहरण प्रतिपादन
+settings.experimental.shaderRendering शेडर रैडंर
 settings.dev.header डेवलपर
 settings.dev.forceUpdate बल अद्यतन खाल
 settings.dev.forceRegen हमेशा खिलाड़ी को पुनर्जीवित करें
@@ -164,15 +164,15 @@ settings.interface.oldBrowser पुराने ब्राउज़र का
 settings.interface.rarityanim दुर्लभता एनिमेशन अक्षम करें
 settings.interface.showPfp प्रोफ़ाइल चित्र दिखाएँ
 settings.interface.showTradeMsg व्यापार संदेश दिखाएँ
-settings.interface.hp गतिशील हिमाचल प्रदेश सलाखों
+settings.interface.hp HP
 settings.interface.dmgScale नुकसान का पैमाना
 settings.interface.killf मार फ़ीड दिखाएँ
 settings.interface.ping पिंग दिखाएँ
 settings.interface.net-stats नेटवर्क आँकड़े दिखाएँ
 settings.interface.fps एफपीएस दिखाएँ
 settings.interface.deaths मौत काउंटर दिखाएँ
-settings.interface.kd कश्मीर / डी काउंटर दिखाएँ
-settings.interface.kills मार डालो काउंटर दिखाएँ
+settings.interface.kd हत्या/मौत का काउंटर दिखाएँ
+settings.interface.kills हत्या का काउंटर दिखाएँ
 settings.interface.streak स्ट्रीक काउंटर दिखाएँ
 settings.interface.score स्कोर काउंटर दिखाएँ
 settings.interface.spectators दर्शक काउंटर दिखाएँ
@@ -241,44 +241,44 @@ settings.onKillS.style.1 कम संकल्प
 settings.onKillS.style.2 कम ऍफ़ ओह वी
 settings.onKillS.style.3 बढ़ाना ऍफ़ ओह वी
 settings.serverb.header सर्वर खोजना
-settings.serverb.oldBrowser विरासत ब्राउज़र
+settings.serverb.oldBrowser पुराना ब्राउज़र
 settings.serverb.defaultRegionOnly सिर्फ चूक जगह
 settings.gameprivacy.header खेल एकांत
 settings.gameprivacy.streamer स्ट्रीमर मोड
 settings.gameprivacy.anon गुमनाम मोड
 settings.gameprivacy.hideGameTitle छुपाना खेल शीर्षक
 settings.gameplay.header खेल
-settings.gameplay.sensitivityX एक्स संवेदनशील
-settings.gameplay.sensitivityY वाऐ संवेदनशील
-settings.gameplay.aimsensX लक्ष्य एक्स संवेदनशील
-settings.gameplay.aimsensY लक्ष्य वाऐ संवेदनशील
-settings.gameplay.challenge आव्हान मोड
-settings.gameplay.invert इन्वर्ट वाऐ-एक्सिस
+settings.gameplay.sensitivityX X-संवेदनशीलता
+settings.gameplay.sensitivityY Y-संवेदनशीलता
+settings.gameplay.aimsensX लक्ष्य X-संवेदनशीलता
+settings.gameplay.aimsensY लक्ष्य Y-संवेदनशीलता
+settings.gameplay.challenge चैलेंज मोड
+settings.gameplay.invert इन्वर्ट Y-एक्सिस
 settings.gameplay.onkillS मारने पर
 settings.gameplay.scrollDir स्क्रॉल दिशा
 settings.controller.header कन्ट्रोलर
-settings.controller.sensitivityX एक्स संवेदनशील
-settings.controller.disableCons अक्षम कन्ट्रोलरस
-settings.controller.sensitivityY वाऐ संवेदनशील
-settings.controller.aimsensX Aim एक्स संवेदनशील
-settings.controller.aimsensY Aim वाऐ संवेदनशील
+settings.controller.sensitivityX X-संवेदनशीलता
+settings.controller.disableCons डिसेबल कन्ट्रोलरस
+settings.controller.sensitivityY Y-संवेदनशीलता
+settings.controller.aimsensX लक्ष्य X-संवेदनशीलता
+settings.controller.aimsensY लक्ष्य Y-संवेदनशीलता
 settings.controller.deadZoneL डेड जोन (बाएं)
 settings.controller.deadZoneR डेड जोन (दाएं)
 settings.controller.triggerThres ट्रिगर थ्रेसहोल्ड
 settings.controller.vibration कंपन
 settings.controller.gradSpeed ग्रेजुअल स्पीड
-settings.controller.invert इन्वर्ट वाऐ-एक्सिस
+settings.controller.invert इन्वर्ट Y-एक्सिस
 settings.mobile.header मोबाइल
-settings.mobile.sensitivityX एक्स संवेदनशील
-settings.mobile.sensitivityY वाऐ संवेदनशील
-settings.mobile.aimsensX Aim एक्स संवेदनशील
-settings.mobile.aimsensY Aim वाऐ संवेदनशील
+settings.mobile.sensitivityX X- संवेदनशीलता
+settings.mobile.sensitivityY Y- संवेदनशीलता
+settings.mobile.aimsensX लक्ष्य X-संवेदनशीलता
+settings.mobile.aimsensY लक्ष्य Y-संवेदनशीलता
 settings.mobile.vibration कंपन
 settings.mobile.gradSpeed ग्रेजुअल स्पीड
-settings.mobile.invert इन्वर्ट वाऐ-एक्सिस
+settings.mobile.invert इन्वर्ट Y-एक्सिस
 settings.audio.header ऑडीओ
 settings.audio.sound मास्टर वॉल्यूम
-settings.audio.ambient व्यापक वॉल्यूम
+settings.audio.ambient एम्बियेन्ट वॉल्यूम
 settings.audio.voice वाणी वॉल्यूम
 settings.audio.weps हथियार वॉल्यूम
 settings.audio.player प्लेयर वॉल्यूम
@@ -287,94 +287,94 @@ settings.audio.ui यू.आय. वॉल्यूम
 settings.audio.asset ऐसेट वॉल्यूम
 settings.audio.dialogue कार्य वॉल्यूम
 settings.viewmodel.header व्यू मॉडल
-settings.viewmodel.fov देखने के क्षेत्र
-settings.viewmodel.fps हथियार ऍफ़ ओह वी
+settings.viewmodel.fov FOV
+settings.viewmodel.fps FPS
 settings.viewmodel.bobbing हथियार बोब्बिंग
 settings.viewmodel.leaning हथियार लीनिंग
 settings.viewmodel.show.primary प्राथमिक दिखाओ
 settings.viewmodel.show.secondary माध्यमिक दिखाओ
 settings.viewmodel.roundArms गोल हाथ
-settings.viewmodel.show.melee शो मैलै
-settings.viewmodel.show.ads ऐ दी इस पर,हथियार छिपाना
+settings.viewmodel.show.melee मिली दिखाओ
+settings.viewmodel.show.ads ADS दिखाओ
 settings.viewmodel.toggleAim टॉगल लक्ष्य
 settings.viewmodel.show.hands हाथ दिखाओ
 settings.viewmodel.leftHand बाएं हाथ से
 settings.viewmodel.aimAnim हथियार लक्ष्य एनीमेशन
 settings.viewmodel.rot हथियार रोटेशन
-settings.viewmodel.xOff हथियार एक्स ओफ़्सेट
-settings.viewmodel.yOff हथियार वाऐ ओफ़्सेट
-settings.viewmodel.zOff हथियार  ज़ी ओफ़्सेट
-settings.viewmodel.weapSwapY हथियार विनिमय वाऐ
+settings.viewmodel.xOff हथियार X-ऑफसेट
+settings.viewmodel.yOff हथियार Y-ऑफसेट
+settings.viewmodel.zOff हथियार Z-ऑफसेट
+settings.viewmodel.weapSwapY हथियार स्वाप-Y
 settings.viewmodel.weapReloadY हथियार रीलोड वाऐ
-settings.viewmodel.yOffADS हथियार ऐ दी इस वाऐ ओफ़्सेट
-settings.viewmodel.adsFovMlt ऐ दी इस देखने के क्षेत्र का शक्ति
+settings.viewmodel.yOffADS हथियार ADS Y-ऑफसेट
+settings.viewmodel.adsFovMlt ADS FOV की शक्ति
 settings.editing.header एडिटिंग
 settings.editing.health.high हड़ हेल्थ उच्च
 settings.editing.health.low हड़ हेल्थ कम
 settings.editing.speedLines तेज़ी लाइन्स
 settings.editing.spdLinesCol तेज़ी लाइन्स रंग
 settings.editing.score.color पॉपअप स्कोर रंग
-settings.editing.score.show पॉपअप स्कोर दिखाना
+settings.editing.score.show पॅापअप स्कोर दिखाओ
 settings.editing.score.scale पॉपअप स्कोर स्केल
 settings.editing.score.shadow पॉपअप स्कोर छाया
-settings.editing.scoreOffX पॉपअप स्कोर एक्स ओफ़्सेट
-settings.editing.scoreOffY पॉपअप स्कोर वाऐ ओफ़्सेट
+settings.editing.scoreOffX पॉपअप स्कोर X-ऑफसेट
+settings.editing.scoreOffY पॉपअप स्कोर Y-ऑफसेट
 settings.editing.prog.color प्रोग्रेस बार रंग
-settings.editing.prog.opacity प्रोग्रेस बार अस्पष्टता
+settings.editing.prog.opacity प्रोग्रेस बार ओपेसिटी
 settings.editing.prog.scale प्रोग्रेस बार स्केल
 settings.editing.prog.shadow प्रोग्रेस बार छाया
-settings.editing.progOffX प्रोग्रेस बार एक्स ओफ़्सेट
-settings.editing.progOffY प्रोग्रेस बार वाऐ ओफ़्सेट
+settings.editing.progOffX प्रोग्रेस बार X-ऑफसेट
+settings.editing.progOffY प्रोग्रेस बार Y-ऑफसेट
 settings.editing.progRot प्रोग्रेस बार रोटेशन
-settings.editing.saturation परिपूर्णता (खेल में)
-settings.editing.menuSaturation परिपूर्णता (यू आय)
+settings.editing.saturation सेचुरेशन
+settings.editing.menuSaturation सेचुरेशन (UI)
 settings.editing.hue रंग (खेल में)
-settings.editing.menuHue रंग  (यू आय)
+settings.editing.menuHue रंग (UI)
 settings.editing.vignette विग्नेट
 settings.editing.feedLimit किलफीड सीमा
 settings.editing.depth डेप्थ मैप
 settings.editing.green ग्रीन स्क्रीन
 settings.editing.tracercol बुलेट  ट्रेसर का रंग
 settings.editing.tracer बुलेट  ट्रेसर
-settings.editing.tracer.offset ट्रेसर ओफ़्सेट
-settings.shaders.header शदर इनपुट्स
+settings.editing.tracer.offset ट्रेसर ऑफसेट
+settings.shaders.header शेडर इनपुट्स
 settings.mods.header अनुकूलन
 settings.mods.load लोड मोड्स
 settings.mods.logo लोगो परिवर्तन की अनुमति दें
 settings.mods.auto ऑटो-लोड मॉड
 settings.mods.borders स्कोप बॉर्डर्स
 settings.mods.borderCol बॉर्डर्स रंग
-settings.mods.borderOpac स्कोप बॉर्डर्स अस्पष्टता
+settings.mods.borderOpac स्कोप बॉर्डर्स ओपेसिटी
 settings.mods.scope स्कोप इमेज
-settings.mods.scope.paste स्कोप इमेज यूआरएल
-settings.mods.scope.opacity स्कोप अस्पष्टता
+settings.mods.scope.paste स्कोप इमेज URL
+settings.mods.scope.opacity स्कोप ओपेसिटी
 settings.mods.scope.width स्कोप इमेज चौड़ाई
 settings.mods.scope.height स्कोप इमेज ऊंचाई
 settings.mods.dot रीतिकाल इमेज
 settings.mods.dot.width रीतिकाल इमेज चौड़ाई
 settings.mods.dot.height रीतिकाल इमेज ऊंचाई
-settings.mods.dot.paste रीतिकाल यूआरएल
+settings.mods.dot.paste रीतिकाल URL
 settings.mods.endmessage मैच अंत संदेश
 settings.mods.profile प्रोफाइल इमेज
-settings.mods.profile.paste प्रोफाइल इमेज यूआरएल
+settings.mods.profile.paste प्रोफाइल इमेज URL
 settings.mods.ammo अम्मॉ आइकॉन इमेज
-settings.mods.ammo.paste अम्मॉ आइकॉन इमेज यूआरएल
+settings.mods.ammo.paste अम्मॉ आइकॉन इमेज URL
 settings.mods.kills किल्क आइकॉन इमेज
-settings.mods.kills.paste किल्क आइकॉन इमेज यूआरएल
+settings.mods.kills.paste हत्या आइकॉन इमेज URL
 settings.mods.deaths मौतें आइकॉन इमेज
-settings.mods.deaths.paste मौतें आइकॉन इमेज यूआरएल
+settings.mods.deaths.paste मौतें आइकॉन इमेज URL
 settings.mods.streak स्ट्रीक काउंटर आइकॉन इमेज
-settings.mods.streak.paste स्ट्रीक काउंटर आइकॉन इमेज यूआरएल
+settings.mods.streak.paste स्ट्रीक काउंटर आइकॉन इमेज URL
 settings.mods.timer टाइमर आइकॉन इमेज
-settings.mods.timer.paste टाइमर आइकॉन इमेज यूआरएल
+settings.mods.timer.paste टाइमर आइकॉन इमेज URL
 settings.mods.usedamage डैमेज ओवरलेस का उपयोग करें
 settings.mods.damage डैमेज ओवरलेस इमेज
-settings.mods.damage.paste डैमेज ओवरलेस इमेज यूआरएल
+settings.mods.damage.paste डैमेज ओवरलेस इमेज URL
 settings.mods.overlay खेल ओवरले इमेज
-settings.mods.overlay.paste खेल ओवरले इमेज यूआरएल
+settings.mods.overlay.paste खेल ओवरले इमेज URL
 settings.social.region रीजन स्टैट्स
 windows.settings.header खेल समायोजन
-windows.mail.header क्रांकार मेल
+windows.mail.header क्रन्कर मेल
 windows.servers.header सर्वर
 windows.servers.none कोई मिलनसार खेल नहीं मिला...
 windows.servers.host + होस्ट गेम
@@ -390,7 +390,7 @@ windows.loadout.primary.reticle रीतिकाल
 windows.loadout.primary.scope स्कोप
 windows.loadout.secondary सेकेंडरी
 windows.loadout.secondary.skin सेकेंडरी स्किन
-windows.loadout.melee हाथापाई
+windows.loadout.melee मिली
 windows.loadout.hat हैट आइटम
 windows.loadout.body बॉडी आइटम
 windows.loadout.waist कमर आइटम
@@ -405,7 +405,7 @@ windows.loadout.pet पेट
 windows.loadout.stat किलकार्ड स्टेट
 windows.loadout.flag देश का झंडा
 windows.mods.drop यहाँ मॉड फ़ाइल ड्रॉप या क्लिक करें
-windows.mods.paste पेस्ट मॉड यूआरएल
+windows.mods.paste पेस्ट मॉड URL
 windows.mods.load मॉड लोड करे
 windows.mods.none कोई मॉड नहीं मिला
 windows.mods.header मॉड मैनेजर
@@ -415,13 +415,13 @@ windows.mods.load.header लोड मॉड
 windows.mods.publish मॉड पब्लिश करे
 windows.mods.viewer व्यूअर
 windows.account.header लेखा
-windows.account.recover अकाउंट बचने के लिए  <a>krunker@yendis.ch</a> से संपर्क करें
+windows.account.recover अकाउंट के लिए  <a>krunker@yendis.ch</a> से संपर्क करें
 windows.class.header क्लास चुनें
 windows.controls.header नियंत्रण बदलें
 windows.controls.forward आगे
 windows.controls.backward पीछे
 windows.controls.left बाएं
-windows.controls.right सही
+windows.controls.right दाईं 
 windows.controls.reload रीलोड
 windows.controls.aim लक्ष्य
 windows.controls.shoot गोली मार
@@ -431,7 +431,7 @@ windows.controls.jump जम्प
 windows.controls.crouch झुकना
 windows.controls.prim प्राइमरी हथियार
 windows.controls.swap सेकेंडरी हथियार
-windows.controls.melee हाथापाई हथियार
+windows.controls.melee मिली हथियार
 windows.controls.equip सामग्री
 windows.controls.chat बातचीत
 windows.controls.voice वाणी
@@ -450,7 +450,7 @@ windows.controls.streak4 स्ट्रीक 5
 windows.controls.premium0 नोक्लिप
 windows.controls.premium1 गोड़मोड़े
 windows.controls.premium2 मार
-windows.controls.premium3 समेट
+windows.controls.premium3 स्माईट
 windows.controls.reset रीसेट स्थिति (रेस & पार्कोर)
 windows.controls.pretend खेल छिपे
 windows.host.header मेज़बान कस्टम खेल
@@ -465,14 +465,14 @@ windows.host.preset.load प्रीसेट लोड हो रहा है
 windows.host.preset.name प्रीसेट नाम
 windows.host.start खेल शुरू
 windows.host.rehost खेल शुरू (खिलाड़ियों लाओ)
-windows.spray.header फुहार का चयन करें
-windows.spray.default नि: शुल्क फुहार
+windows.spray.header स्प्रे का चयन करें
+windows.spray.default नि: शुल्क स्प्रे
 windows.spray.spin फुहार
 windows.maps.header कस्टम्स खेल
 windows.maps.none कोई खेल नहीं मिला!
 windows.maps.name खेल नाम
 windows.maps.editor खेल रचनाकार
-windows.maps.publish खेल प्रकाशित करें
+windows.maps.publish खेल पब्लिश करें
 windows.maps.community रचनाकार समुदाय
 windows.publish.map.header खेल प्रकाशित करें या खेल अद्यतन करें
 windows.publish.map.thumbnail थंबनेल नहीं
@@ -480,22 +480,22 @@ windows.publish.map.paste खेल डेटा चिपकाएँ
 windows.publish.map.update खेल प्रकाशित करें /अद्यतन करें
 windows.publish.map.login खेल बनाने और अपलोड करने के लिए!
 windows.theatre.header थिएटर मोड
-windows.theatre.record अभिलेखबद्ध करना सक्षम करें
+windows.theatre.record रिकॉर्ड करना सक्षम करें
 windows.theatre.key रिकॉर्ड की
-windows.clans.header कुलों
+windows.clans.header क्लैन्स
 windows.clans.members सदस्यों ({0})
 windows.clans.requests अनुरोध
 windows.clans.requests.none कोई अनुरोध नहीं है
-windows.clans.page [{0}] कुल पेज
-windows.clans.create कुल बनाए
-windows.clans.name कुल का नाम
-windows.clans.view कुल दिखाए
-windows.clans.join कुल में जुड़िये
-windows.clans.login कुल बनाने और जुड़ने के लिए!
+windows.clans.page [ {0} ] क्लैन्स पेज
+windows.clans.create क्लैन बनाए
+windows.clans.name क्लैन का नाम
+windows.clans.view क्लैन दिखाए
+windows.clans.join क्लैन में जुड़िये
+windows.clans.login क्लैन बनाने और जुड़ने के लिए!
 windows.store.header बाज़ार
 windows.store.spin {0} घुमाए
 windows.store.agree क्रय करके आप {0}शर्तों से सहमत होते हैं
-windows.store.purchase के आर ख़रीदये 
+windows.store.purchase KR ख़रीदये 
 windows.store.voucher वाउचर एवज कीजिये
 windows.store.voucherinfo कुछ स्ट्रीमर और आयोजन से वाउचर प्राप्त कीजिये
 windows.store.market बाजार
@@ -506,7 +506,7 @@ windows.store.buyP प्रदर्शित होने वाला ना�
 windows.store.buy आइटम ख़रीदे और बेचे यहाँ
 windows.store.wheels पुरस्कार पहिया
 windows.store.unlock हथियार की खाल और आइटम खोले
-windows.store.amount {0} खाते में के आर
+windows.store.amount {0} खाते में KR
 windows.store.login बाजार से आइटम खोलने और खरीदने के लिए!
 windows.store.purchasing खरीद रहे है...
 windows.store.unboxed {0}{1} अनबॉक्सड
@@ -518,7 +518,7 @@ windows.hat.header टोपी चुने
 windows.back.header बैक चुने
 windows.waist.header कमर चुने
 windows.face.header चेहरा चुने
-windows.melee.header चाकू चुने
+windows.melee.header मिली चुने
 windows.attach.header अटैचमेंट चुने  
 windows.reticle.header रेटिक्ल चुने
 windows.reticle.unlocked स्तर {0} पर खोले
@@ -536,7 +536,7 @@ windows.mods.community.none कोई मोड़ नहीं मिला
 windows.publish.mod.header मोड़ प्रकाशित करे 
 windows.publish.mod.thumbnail थंबनेल नहीं है 
 windows.publish.mod.name मोड़ का नाम
-windows.publish.mod.paste मोड़ यूआरएल
+windows.publish.mod.paste मोड़ URL
 windows.publish.mod.update प्रकाशित करें /अद्यतन करें 
 windows.publish.mod.login मोड्स बनाने और प्रकाशित करने के लिए!
 windows.secondary.header सेकेंडरी चुने 
@@ -547,37 +547,37 @@ windows.support.header सप्पोर्ट
 windows.players.header खिलाड़ियों की सूची
 windows.players.none वर्तमान में कोई खिलाडी नहीं है ...
 windows.join.header जुड़िये 
-windows.join.code खेल जोड़िये यूआरएल/कोड 
+windows.join.code खेल जोड़िये URL/कोड
 windows.client.header क्लाइंट 
-windows.client.windows विंडोज इंस्टालर 
-windows.client.mac मेक ओ एस इंस्टालर   
-windows.client.linux लिनक्स इंस्टालर 
+windows.client.windows Windows इंस्टालर  
+windows.client.mac Mac OS इंस्टालर   
+windows.client.linux Linux इंस्टालर
 windows.ranked.header रैन्क्ड
 windows.ranked.login रैन्क्ड खेल खेलने के लिए !
 windows.ranked.level आप कम से कम <span color="black">स्तर  {0}</span> के होने चाहिए रैन्क्ड खेल खेलने के लिए ! अभी आपका  <span color="black">स्तर {1}</span>.
-windows.ranked.mode.r1v1 एकल
-windows.ranked.mode.r2v2 जोड़ी
-windows.ranked.mode.r4v4 चतुर्गुण
+windows.ranked.mode.r1v1 1v1
+windows.ranked.mode.r2v2 2v2
+windows.ranked.mode.r4v4 4v4
 windows.chall.header चुनौतियां 
 windows.chall.login चुनौतियों ख़तम करने के लिए!
 thumbnail.upload.limit Failed. {0}केबी सीमा थंबनेल 
 image.upload.limit Failed. {0}केबी चित्र सीमा    
-thumbnail.upload.error थंबनेल त्रुटि
+thumbnail.upload.error थंबनेल ऐरर
 mod.extracting extracting {0}/{1}
 mod.disabled मोड्स निर्योग्य
-mod.error मोड़ त्रुटि!
+mod.error मोड़ ऐरर!
 mod.loading मोड़ लोड हो रहा है ...
 mod.invalid अमान्य मोड़ फाइल!
 matchmaker.full भरा हुआ
 matchmaker.full2 खेल भरा हुआ है.
-matchmaker.updating खेल अद्यतन हो रहा है
+matchmaker.updating खेल अप्डेट हो रहा है
 matchmaker.invalid खेल नहीं मिला.
 matchmaker.none सर्वर अधिकतम क्षमता पर है
-adblocker एड ब्लॉकर अक्षम करे मुक्त क्रंकीस के लिए.
+adblocker एड ब्लॉकर बन्द करे मुक्त क्रंकीस के लिए.
 ad-failed विज्ञापन लोड करने में विफल. पुनः प्रयास करें.
 streamers.views {0} दर्शक
 streamers.none कोई सक्रिय स्ट्रीम नहीं है!
-error.extentions अगर आपके पास कोई एक्सटेंशन है, फिर उसे अक्षम करें
+error.extentions अगर आपके पास कोई एक्सटेंशन है, फिर उसे बन्द करें
 error.seek क्लिक करके नया खेल ढूंढने की कोशिश करे
 custom.map.upload.limit Failed. 5 लाख करैक्टर गेम डाटा सीमा
 custom.map.missing कम से कम एक खेल या नक्शा चुने
@@ -587,10 +587,10 @@ server.config.maxPlayers खिलाडी
 server.config.minPlayers कम से कम खिलाडी
 server.config.lives प्राण
 server.config.gameTime मिनट
-server.config.gravMlt गुरुत्वाकर्षण
+server.config.gravMlt ग्रैविटी
 server.config.tickRI उच्च टिक रेट
 server.config.maxPS 40 खिलाड़ियों का सर्वर
-server.config.promServ सर्वर को प्रोत्साहित करे
+server.config.promServ सर्वर को प्रोमोट करे
 server.config.jumpMlt कूदने का बल
 server.config.airStrf हवा मे स्ट्रेफिंग
 server.config.deltaMlt समय पैमाना
@@ -627,7 +627,7 @@ server.config.requireCaptcha कॅप्टचा की आवश्यकत�
 server.config.nameTags नाम के टैग छुपाए
 server.config.noReload रीलोड नहीं है
 server.config.private निजी
-server.config.krRewards के आर के पुरस्कार
+server.config.krRewards KR पुरस्कार
 server.config.warmupTime वार्मअप का समय
 server.config.objtvTime उद्देश्य का समय
 server.config.forceSpawn स्वतः रेस्पॉन समय
@@ -671,9 +671,9 @@ social.market.face कमर की आइटम
 social.market.shoe जूते की आइटम
 social.market.pet पेट की आइटम
 social.market.melee चाकू की आइटम
-social.market.spray फुहार की आइटम
-social.market.dye फुहार की आइटम
-social.market.none फुहार की आइटम
+social.market.spray स्प्रे की आइटम
+social.market.dye डाई की आइटम
+social.market.none none
 social.market.login लॉग इन होना आवश्यक है.
 social.market.grace {0} में तैयार
 social.market.sort छन्न करे/छांटे
@@ -683,6 +683,6 @@ social.market.price.high अधिकतम कीमत
 social.trading.submitting प्रस्ताव...
 social.market.gift.amount में भेट भेजने की राशि
 social.market.fee.gift निः शुल्क
-social.market.gift के.आर भेट करे
+social.market.gift KR भेट करे
 social.market.gift.msg सन्देश छोड़े
 `;
