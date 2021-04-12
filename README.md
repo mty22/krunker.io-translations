@@ -51,7 +51,7 @@ Contributors
 Current Krunker language support
 ------
 
-As of Krunker patch v3.8.0, the following languages have been added to the game:
+As of Krunker patch v3.8.1, the following languages have been added to the game:
 
 - English (https://github.com/mty22/krunker.io-translations/blob/main/en.js)
 - Spanish (https://github.com/mty22/krunker.io-translations/blob/main/es.js)
