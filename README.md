@@ -52,7 +52,7 @@ Contributors
 - Japanese (日本語) - Translated by frzn (frzn#1030), reviewed by KnockerOut#5087, Minaaami🐈#8830, nns
 - French (FRANÇAIS) - Translated by Chwoubaka (Chwoubaka#3009), reviewed by Atzelord (atzelord#0712)
 - Korean (한국어) - Translated by GoonMandu (apinklover#0933) and Dojin. (dojin#0001)
-- Spanish (Español) - Translated by nightz#6678, reviews by both nightz and cesar#9999
+- Spanish (Español) - Translated by nightz#6678, reviewed by MGVoltJesk#8000 and cesar#9999
 - Portuguese (Português)
 - German (Deutsch) - Translated by Sidney, Bodeneinheit (bodeneinheit#5830) and Fuderal (Fuderal#7252)
 - Finnish (Suomen kieli) - Translated by Jypa (Jypa#0001), reviewed by Entasy (Entasy#7837)
