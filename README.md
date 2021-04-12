@@ -21,7 +21,7 @@ Project Discussion on Discord can be found in #krunker-translation-project chann
 If you find bugs or changes, please feel free to either:
 
  1) Raise an issue and wait for someone to fix it.
- 2) Fix it yourself, and submit a Pull Request for it to be merged back into the parent repo (if you get stuck here, contact frzn#1030 on Discord or @frznmatt on Twitter for assistance).
+ 2) Raise an issue, **comment on it**, assign it to your self and fix it yourself, and submit a Pull Request for it to be merged back into the parent repo (if you get stuck here, contact frzn#1030 on Discord or @frznmatt on Twitter for assistance).
 
 You're also welcome to modify CODEOWNERS file if you wish to be added as a default reviewer.
 
