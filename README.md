@@ -14,6 +14,10 @@ If you can't find anything, then please create an issue before commencing work!
 
 **Once approval is given**, feel free to grab a copy of en.js (English), find a buddy and translate where possible. If you work on a language translation without approval, you may not be eligible for KR Payment(s).
 
+
+Project Discussion on Discord can be found in #krunker-translation-project channel in Krunker Bunker (https://discord.gg/krunker).
+
+
 If you find bugs or changes, please feel free to either:
 
  1) Raise an issue and wait for someone to fix it.
@@ -26,6 +30,8 @@ KR rewards and Krunker account verification is awarded based on contribution lev
 
 - Payouts guide: https://github.com/mty22/krunker.io-translations/blob/main/kr_payment_guide.txt
 - Payouts sent (csv): https://github.com/mty22/krunker.io-translations/blob/main/kr_payouts.csv
+
+We will also assign the Translator Contributor role in Krunker Bunker Discord!
 
 
 Missing content/translations
