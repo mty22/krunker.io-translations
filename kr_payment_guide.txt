@@ -9,12 +9,14 @@ Changes to payments may be made at any point in time where required.
 Abuse of this payment system will not be tolerated.
 
 -----
-New translation - 50,000 KR per pull request + account verification based on workload breakdown
+New translation - 50,000 KR per pull request + account verification based on workload breakdown (typically 500+ lines/changes)
 
-Major changes - 25,000  KR to 35,000 KR per pull request
+Major changes - 25,000  KR to 35,000 KR per pull request (typically 249 to 499 lines/changes)
 
-General changes - 5,000 KR to 25,000 KR per pull request
+General changes - 5,000 KR to 25,000 KR per pull request (typically 50 to 249 lines/changes)
 
-Minor changes - 500 KR to 5,500 KR per pull request
+Minor changes - 500 KR to 5,500 KR per pull request (typically 1 to 49 lines/changes)
+
+Bug fixes - 100 KR to 500 KR per pull requests (typically 1 to 10 lines/changes)
 -----
 
