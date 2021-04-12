@@ -713,8 +713,8 @@ account.banned.appeal もしアカウントのBANについて異議申し立て�
 account.delete アカウント削除のリクエストがされた場合、14日以内にキャンセルされなければアカウントと関連するすべてのデータは永久に削除されます
 account.delete.request 本当にアカウント削除をリクエストしますか？
 account.delete.cancel 本当にアカウント削除のリクエストを取り消しますか？
-spin.free.available 無料でKRがもらえます！
-spin.free.claim このスピンは試合終了後から一時間に一回だけ回すことが出来ます
+spin.free.available フリーKRが利用可能です！
+spin.free.claim このスピンは試合終了後、一時間に一回回すことが出来ます
 spin.free.disable このポップアップは設定から非表示にすることが出来ます
 mod.reset.0 リスポーン後から有効になります
 mod.reset.1 マップのオブジェクトはリセットされません
@@ -731,7 +731,7 @@ windows.host.default.settings デフォルト設定を有効にすることで�
 windows.host.default.commands *ホストコマンド(/noclip /god /smite 等)はこのモードでは無効化されています
 windows.host.rewards KR報酬を有効にした場合デフォルト設定の使用が強制され、プレイヤーがこのマップの資産からKR報酬を入手することが出来るようになります:
 windows.store.wheels.sub 新しいスキンを手に入れるためにスピンで運試しをしましょう！
-windows.store.currency * 米ドルでの金額表記はあなたが在住している国の通貨に変換され、その際の両替レートは支払いサービスや銀行が定めたものによります
+windows.store.currency * 米ドルでの金額表記はあなたの国の通貨に変換され、その際の両替レートは支払いサービスや銀行が定めたものによります
 windows.store.creator クリエイターコードを使ってあなたのお気に入りのクリエイターを支援しましょう
 windows.chall.customs カスタムマッチ内でチャレンジをクリアすることは出来ません
 twitch.link 本当にtwitchアカウントとリンクしますか？
@@ -741,7 +741,7 @@ windows.clan.delete 本当にこのクランを削除しますか？
 windows.clan.kick 本当に{0}をこのクランからキックしますか？
 windows.store.premium.purchase 本当に{0}日分のプレミアムを購入しますか？
 windows.playerlist.ban 本当に{0}をこのゲームからBANしますか？
-windows.playerlist.flag 本当にこのゲームに{0}のフラグを立てますか？
-windows.playerlist.unflag 本当にこのゲームの{0}のフラグを解除しますか？
+windows.playerlist.flag 本当に{0}にハッカータグを付けますか？
+windows.playerlist.unflag 本当に{0}のハッカータグを解除しますか？
 windows.playerlist.punish 本当に{0}にアクションを起こしますか？
 `;
