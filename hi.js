@@ -61,7 +61,7 @@ generic.accuracy सटीकता
 player.waiting खिलाड़ियों का इंतजार
 player.died तुम मर गए
 player.killed द्वारा मारे गए
-player.killstreak {0} एक {1} मार लकीर पर
+player.killstreak {0} on a {1} Kill Streak
 player.inactive इनैक्टिव
 player.disconnect डिस्कनेक्ट
 timer.end अगले दौर में {0}
