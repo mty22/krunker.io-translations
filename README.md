@@ -1,5 +1,4 @@
 <div align="center">
-<br>
 <a href="https://krunker.io" target="_blank"><img src="https://c8.idle.host/img/Translation_Projekt.png"></a>
 <br>
 </div>
