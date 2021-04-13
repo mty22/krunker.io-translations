@@ -4,7 +4,7 @@
 </div>
 
 
-<div align="center">Info</div>
+Info
 ------
 
 This repo contains all the language files for [krunker.io](https://krunker.io)
@@ -39,14 +39,14 @@ We will also assign the Translator Contributor role in [Krunker Bunker](https://
 If you need any assistance, please reach out to Translator Contributors in [Krunker Bunker](https://discord.gg/krunker) Discord, or reach out to frzn on [Twitter](https://twitter.com/frznmatt) or Discord (frzn#1030) for further assistance.
 
 
-<div align="center">Known issues</div>
+Known issues
 ------
 - [Issue with grammar](https://github.com/mty22/Krunker-Languages/issues/1) 
 - [Issue with Arabic language](https://github.com/mty22/krunker.io-translations/issues/2)
 
 
 
-<div align="center">Contributors</div>
+Contributors
 ------
 - [Simplified Chinese](https://github.com/mty22/krunker.io-translations/blob/main/zh.js) (简体中文) - Translated by [ReHou](https://krunker.io/social.html?p=profile&q=ReHou) (BenHou#8636), reviewed by [Chair](https://krunker.io/social.html?p=profile&q=AnimeWeebTrash) (Chair#2384)
 - [Japanese](https://github.com/mty22/krunker.io-translations/blob/main/jp.js) (日本語) - Translated by [frzn](https://krunker.io/social.html?p=frzn) (frzn#1030), reviewed by [KnockerOut](https://krunker.io/social.html?p=profile&q=KnockerOut) (KnockerOut#5087), Minaaami🐈#8830, [nns](https://krunker.io/social.html?p=profile&q=nns__Twitch)
@@ -58,7 +58,7 @@ If you need any assistance, please reach out to Translator Contributors in [Krun
 - [Finnish](https://github.com/mty22/krunker.io-translations/blob/main/fi.js) (Suomen kieli) - Translated by [Jypa](https://krunker.io/social.html?p=profile&q=Jypa) (Jypa#0001), reviewed by [Entasy](https://krunker.io/social.html?p=profile&q=Entasy) (Entasy#7837)
 
 
-<div align="center">Current Krunker language support</div>
+Current Krunker language support
 ------
 
 As of Krunker version [v3.8.1](https://krunker.io/docs/versions.txt), the following languages have been added to the game:
