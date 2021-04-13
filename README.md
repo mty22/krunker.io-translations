@@ -1,5 +1,5 @@
 <div align="center">
-<a href="https://krunker.io" target="_blank"><img src="https://c8.idle.host/img/krunker_translation_logo.png" width="200" height="200"></a>
+<a href="https://krunker.io" target="_blank"><img src="https://c8.idle.host/img/Translation_Projekt.png"></a>
 <p>Krunker Translation Project</p>
 </div>
 
@@ -72,3 +72,7 @@ As of Krunker version [v3.8.1](https://krunker.io/docs/versions.txt), the follow
 - [Simplified Chinese](https://github.com/mty22/krunker.io-translations/blob/main/zh.js)
 - [French](https://github.com/mty22/krunker.io-translations/blob/main/fr.js)
 - [Finnish](https://github.com/mty22/krunker.io-translations/blob/main/fi.js)
+------
+<div align="center">
+<a href="https://krunker.io" target="_blank"><img src="https://c8.idle.host/img/krunker_translation_logo.png" width="200" height="200"></a>
+</div>
