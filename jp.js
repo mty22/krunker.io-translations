@@ -326,13 +326,13 @@ settings.editing.prog.shadow 進捗バーの影
 settings.editing.progOffX 進捗バーX座標
 settings.editing.progOffY 進捗バーY座標
 settings.editing.progRot 進捗バーの角度
-settings.editing.progm.color Charge Bar Color
-settings.editing.progm.opacity Charge Bar Opacity
-settings.editing.progm.scale Charge Bar Scale
-settings.editing.progm.shadow Charge Bar Shadow
-settings.editing.progmOffX Charge Bar X Offset
-settings.editing.progmOffY Charge Bar Y Offset
-settings.editing.progmRot Charge Bar Rotation
+settings.editing.progm.color バーの色
+settings.editing.progm.opacity バーの透明度
+settings.editing.progm.scale バーの大きさ
+settings.editing.progm.shadow バーの影
+settings.editing.progmOffX バーX座標
+settings.editing.progmOffY バーY座標
+settings.editing.progmRot バーの角度
 settings.editing.saturation 彩度 (ゲーム内)
 settings.editing.menuSaturation 彩度 (UI)
 settings.editing.hue 色相 (ゲーム内)
@@ -632,11 +632,11 @@ server.config.bDrop 弾道落下
 server.config.thirdPerson 三人称視点
 server.config.requireCaptcha Captchaが必要
 server.config.nameTags ネームタグを非表示
-server.config.kCams Kill Cams
+server.config.kCams キルカメラ
 server.config.noReload リロード禁止
 server.config.private プライベート
 server.config.krRewards KR報酬
-server.config.forceDefault Force Default Settings
+server.config.forceDefault 強制的にデフォルトの設定を使用
 server.config.warmupTime ウォームアップ時間 (分)
 server.config.objtvTime オブジェクトごとの時間
 server.config.forceSpawn 自動リスポーン時間
@@ -694,54 +694,54 @@ social.market.gift.amount ギフト額
 social.market.fee.gift 手数料なし
 social.market.gift KR をギフトする
 social.market.gift.msg メッセージを残す
-respawn.auto Auto Respawning in {0}
-custom.host.ranked Can't host match while in ranked.
-funds.insufficient Insufficient Funds
-funds.out It appears you have run out of Krunkies.
-custom.passcode.long Password too long
-custom.passcode.input Enter Server Password to join
-custom.tryagain Please try again.
-purchase.kr.success Added {0} KR to your account
-limited.purchase.ask Are you sure you want to purchase [{0}] for {1} KR?
-limited.purchase.success Added {0} to your inventory
-pretend.exit press [{0}] again to exit
-settings.loaded Settings Loaded
-settings.loaded.none No settings found
-account.login.required Must be logged in
-account.banned.hack This account has been banned for Hacking.
-account.banned.appeal If you want to appeal your ban, contact:
-account.delete You may request to delete your account, if the request is not cancelled within 14 days the account and all associated data will be permanently removed.
-account.delete.request Are you sure you want to request an account deletion?
-account.delete.cancel Are you sure you want to cancel account deletion?
-spin.free.available FREE KR AVAILABLE!
-spin.free.claim This spin is available to claim once per Hour after completing a match.
-spin.free.disable These Popups can be disabled in General Settings
-mod.reset.0 Will take effect after respawning.
-mod.reset.1 Map Objects dont get reset
-windows.profile.picture Change Picture
-stats.assists Assists
-stats.nukes Nukes
-stats.melee Melee
-stats.fistkills Beatdowns
-stats.thrownkills Bullseyes
-stats.headshots Headshots
-stats.wallbangs Wallbangs
-stats.sprays Sprays Placed
-windows.host.default.settings Enabling Default Settings allows for storing Player Progress and Highscores
-windows.host.default.commands *Host Commands are Disabled in this mode: /noclip /god /smite etc
-windows.host.rewards Enabling KR Rewards forces the Server to use Default Settings & allows players to earn KR from the map funds:
-windows.store.wheels.sub Try your luck and spin for a chance to win some new skins!
-windows.store.currency * Prices in USD can be converted to your local currency at an exchange rate defined by the payment provider or bank
-windows.store.creator Consider Support your favorite Content Creator by using a Creator Code
-windows.chall.customs Challenges can't be completed in Custom Matches
-twitch.link Are you sure you want to link a twitch account?
-twitch.unlink Are you sure you want to unlink your twitch account?
-windows.clan.leave Are you sure you want to leave the clan?
-windows.clan.delete Are you sure you want to delete the clan?
-windows.clan.kick Are you sure you want kick {0} from the clan?
-windows.store.premium.purchase Are you sure you want to purchase {0} days of Premium?
-windows.playerlist.ban Are you sure you want ban {0} from this game?
-windows.playerlist.flag Are you sure you want to Flag {0}?
-windows.playerlist.unflag Are you sure you want to Unflag {0}?
-windows.playerlist.punish Are you sure you want to take action on {0}?
+respawn.auto {0}秒後に自動リスポーンします
+custom.host.ranked ランクマッチ中にゲームをホストすることは出来ません
+funds.insufficient 資金不足です
+funds.out KRを使い切りました
+custom.passcode.long パスワードが長すぎます
+custom.passcode.input 参加するにはパスワードを入力してください
+custom.tryagain もう一度やり直してください
+purchase.kr.success {0}KRをあなたのアカウントに追加しました
+limited.purchase.ask [{0}]を{1}KRで購入しますか？
+limited.purchase.success {0}をインベントリに追加しました
+pretend.exit もう一度[{0}]を押してゲームから離れる
+settings.loaded 設定を読み込みました
+settings.loaded.none 設定が見つかりません
+account.login.required ログインが必要です
+account.banned.hack このアカウントはチート行為によってBANされました
+account.banned.appeal もしアカウントのBANについて異議申し立てがある場合はこちらへ:
+account.delete アカウント削除のリクエストがされた場合、14日以内にキャンセルされなければアカウントと関連するすべてのデータは永久に削除されます
+account.delete.request 本当にアカウント削除をリクエストしますか？
+account.delete.cancel 本当にアカウント削除のリクエストを取り消しますか？
+spin.free.available フリーKRが利用可能です！
+spin.free.claim このスピンは試合終了後、一時間に一回回すことが出来ます
+spin.free.disable このポップアップは設定から非表示にすることが出来ます
+mod.reset.0 リスポーン後から有効になります
+mod.reset.1 マップのオブジェクトはリセットされません
+windows.profile.picture 写真を変更
+stats.assists アシスト
+stats.nukes ニューク
+stats.melee 近接武器キル
+stats.fistkills 拳キル
+stats.thrownkills 投げナイフキル
+stats.headshots ヘッドショット
+stats.wallbangs 壁抜きキル
+stats.sprays スプレー回数
+windows.host.default.settings デフォルト設定を有効にすることでプレイヤーの進捗とハイスコアを保存することが出来ます
+windows.host.default.commands *ホストコマンド(/noclip /god /smite 等)はこのモードでは無効化されています
+windows.host.rewards KR報酬を有効にした場合デフォルト設定の使用が強制され、プレイヤーがこのマップの資産からKR報酬を入手することが出来るようになります:
+windows.store.wheels.sub 新しいスキンを手に入れるためにスピンで運試しをしましょう！
+windows.store.currency * 米ドルでの金額表記はあなたの国の通貨に変換され、その際の両替レートは支払いサービスや銀行が定めたものによります
+windows.store.creator クリエイターコードを使ってあなたのお気に入りのクリエイターを支援しましょう
+windows.chall.customs カスタムマッチ内でチャレンジをクリアすることは出来ません
+twitch.link 本当にtwitchアカウントとリンクしますか？
+twitch.unlink 本当にtwitchアカウントとのリンクを解除しますか？
+windows.clan.leave 本当にこのクランを離れますか？
+windows.clan.delete 本当にこのクランを削除しますか？
+windows.clan.kick 本当に{0}をこのクランからキックしますか？
+windows.store.premium.purchase 本当に{0}日分のプレミアムを購入しますか？
+windows.playerlist.ban 本当に{0}をこのゲームからBANしますか？
+windows.playerlist.flag 本当に{0}にハッカータグを付けますか？
+windows.playerlist.unflag 本当に{0}のハッカータグを解除しますか？
+windows.playerlist.punish 本当に{0}にアクションを起こしますか？
 `;
