@@ -669,7 +669,7 @@ social.market.unlist Deslistar
 social.market.unlisting Deslistando objeto...
 social.market.posting Listando objeto...
 social.market.req nivel {0} requerido
-social.market.cant No puedes afordar esto
+social.market.cant No puedes comprar esto
 social.market.purchase Comprar
 social.market.fee No hay cuota por listar
 social.market.failed Error. Inténtalo de nuevo
@@ -694,34 +694,34 @@ social.market.gift.amount Cantidad a regalar en
 social.market.fee.gift Sin cuota
 social.market.gift Regalar KR
 social.market.gift.msg Dejar un mensaje
-respawn.auto Auto Respawning in {0}
+respawn.auto Auto Respawn en {0}
 custom.host.ranked Can't host match while in ranked.
-funds.insufficient Insufficient Funds
-funds.out It appears you have run out of Krunkies.
-custom.passcode.long Password too long
-custom.passcode.input Enter Server Password to join
-custom.tryagain Please try again.
-purchase.kr.success Added {0} KR to your account
-limited.purchase.ask Are you sure you want to purchase [{0}] for {1} KR?
-limited.purchase.success Added {0} to your inventory
-pretend.exit press [{0}] again to exit
-settings.loaded Settings Loaded
-settings.loaded.none No settings found
-account.login.required Must be logged in
-account.banned.hack This account has been banned for Hacking.
-account.banned.appeal If you want to appeal your ban, contact:
+funds.insufficient Fondos insuficientes
+funds.out Vaya , parece que no tienes Krunkies.
+custom.passcode.longla contraseña es muy larga
+custom.passcode.input Ingresa la contraseña del servidor
+custom.tryagain Porfavor intenta de Nuevo.
+purchase.kr.success Añadidos {0} KR a tu cuenta
+limited.purchase.ask Estas seguro de comprar [{0}] por {1} KR?
+limited.purchase.success añadido {0} a tu inventario
+pretend.exit presiona [{0}] para salir
+settings.loaded SConfiguraciones Cargadas
+settings.loaded.none No se encontraron configuraciones
+account.login.required Necesitas haber iniciado sesion
+account.banned.hack Esta cuenta fue suspendida por uso de hacks.
+account.banned.appeal si quieres apelar tu suspencion, contacta:
 account.delete You may request to delete your account, if the request is not cancelled within 14 days the account and all associated data will be permanently removed.
 account.delete.request Are you sure you want to request an account deletion?
-account.delete.cancel Are you sure you want to cancel account deletion?
-spin.free.available FREE KR AVAILABLE!
+account.delete.cancel Estas seguro de cancelar la eliminacion de cuenta?
+spin.free.available KR gratis Diponible!
 spin.free.claim This spin is available to claim once per Hour after completing a match.
 spin.free.disable These Popups can be disabled in General Settings
-mod.reset.0 Will take effect after respawning.
+mod.reset.0 Tomara efecto despues de respawnear.
 mod.reset.1 Map Objects dont get reset
 windows.profile.picture Change Picture
-stats.assists Assists
-stats.nukes Nukes
-stats.melee Melee
+stats.assists Asistencias
+stats.nukes nucleares
+stats.melee Cuerpo a cuerpo
 stats.fistkills Beatdowns
 stats.thrownkills Bullseyes
 stats.headshots Headshots
@@ -734,12 +734,12 @@ windows.store.wheels.sub Try your luck and spin for a chance to win some new ski
 windows.store.currency * Prices in USD can be converted to your local currency at an exchange rate defined by the payment provider or bank
 windows.store.creator Consider Support your favorite Content Creator by using a Creator Code
 windows.chall.customs Challenges can't be completed in Custom Matches
-twitch.link Are you sure you want to link a twitch account?
-twitch.unlink Are you sure you want to unlink your twitch account?
-windows.clan.leave Are you sure you want to leave the clan?
-windows.clan.delete Are you sure you want to delete the clan?
-windows.clan.kick Are you sure you want kick {0} from the clan?
-windows.store.premium.purchase Are you sure you want to purchase {0} days of Premium?
+twitch.link Quieres vincular tu cuenta de twitch?
+twitch.unlink Estas seguro de querer desvincular tu cuenta de twitch?
+windows.clan.leave Quieres abandonar el clan?
+windows.clan.delete Quieres eliminar el clan?
+windows.clan.kick Seguro que quieres votar a  {0} del  clan?
+windows.store.premium.purchase Quieres comprar {0} dias de  Premium?
 windows.playerlist.ban Are you sure you want ban {0} from this game?
 windows.playerlist.flag Are you sure you want to Flag {0}?
 windows.playerlist.unflag Are you sure you want to Unflag {0}?
