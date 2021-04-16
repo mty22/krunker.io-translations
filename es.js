@@ -710,27 +710,26 @@ settings.loaded.none No se encontraron configuraciones
 account.login.required Necesitas haber iniciado sesion
 account.banned.hack Esta cuenta fue suspendida por uso de hacks.
 account.banned.appeal si quieres apelar tu suspencion, contacta:
-account.delete You may request to delete your account, if the request is not cancelled within 14 days the account and all associated data will be permanently removed.
-account.delete.request Are you sure you want to request an account deletion?
+account.delete Puedes solicitar la eliminación de su cuenta, si la solicitud no se cancela dentro de los 14 días, la cuenta y todos los datos asociados se eliminarán permanentemente.
 account.delete.cancel Estas seguro de cancelar la eliminacion de cuenta?
 spin.free.available KR gratis Diponible!
-spin.free.claim This spin is available to claim once per Hour after completing a match.
-spin.free.disable These Popups can be disabled in General Settings
+spin.free.claim Este spin esta disponible para cajear una hora despues de cada partida.
+spin.free.disable Estas ventanas emergentes pueden ser desactivadas en las Configuraciones Generales. 
 mod.reset.0 Tomara efecto despues de respawnear.
 mod.reset.1 Map Objects dont get reset
 windows.profile.picture Change Picture
 stats.assists Asistencias
 stats.nukes nucleares
 stats.melee Cuerpo a cuerpo
-stats.fistkills Beatdowns
+stats.fistkills Palizas
 stats.thrownkills Bullseyes
-stats.headshots Headshots
-stats.wallbangs Wallbangs
-stats.sprays Sprays Placed
+stats.headshots Tiros a la cabeza
+stats.wallbangs Tiros atraves de la pared
+stats.sprays Sprays Colocados
 windows.host.default.settings Enabling Default Settings allows for storing Player Progress and Highscores
 windows.host.default.commands *Host Commands are Disabled in this mode: /noclip /god /smite etc
 windows.host.rewards Enabling KR Rewards forces the Server to use Default Settings & allows players to earn KR from the map funds:
-windows.store.wheels.sub Try your luck and spin for a chance to win some new skins!
+windows.store.wheels.sub Prueba tu suerte en un spin para ganar nuevas Skins!
 windows.store.currency * Prices in USD can be converted to your local currency at an exchange rate defined by the payment provider or bank
 windows.store.creator Consider Support your favorite Content Creator by using a Creator Code
 windows.chall.customs Challenges can't be completed in Custom Matches
@@ -740,7 +739,7 @@ windows.clan.leave Quieres abandonar el clan?
 windows.clan.delete Quieres eliminar el clan?
 windows.clan.kick Seguro que quieres votar a  {0} del  clan?
 windows.store.premium.purchase Quieres comprar {0} dias de  Premium?
-windows.playerlist.ban Are you sure you want ban {0} from this game?
+windows.playerlist.ban Estas seguro de que quieres banear a  {0} del juego?
 windows.playerlist.flag Are you sure you want to Flag {0}?
 windows.playerlist.unflag Are you sure you want to Unflag {0}?
 windows.playerlist.punish Are you sure you want to take action on {0}?
