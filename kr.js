@@ -326,7 +326,7 @@ settings.editing.prog.shadow 진행 막대 그림자
 settings.editing.progOffX 진행 막대 좌우 위치
 settings.editing.progOffY 진행 막대 상하 위치
 settings.editing.progRot 진행 막대 회전
-settings.editing.progm.color Charge Bar Color 충전 바 a
+settings.editing.progm.color Charge Bar Color 충전 바 색상
 settings.editing.progm.opacity Charge Bar Opacity 충전 바 불투명도
 settings.editing.progm.scale Charge Bar Scale 충전 바 크기
 settings.editing.progm.shadow Charge Bar Shadow 충전 바 그림자
