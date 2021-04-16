@@ -326,13 +326,13 @@ settings.editing.prog.shadow 진행 막대 그림자
 settings.editing.progOffX 진행 막대 좌우 위치
 settings.editing.progOffY 진행 막대 상하 위치
 settings.editing.progRot 진행 막대 회전
-settings.editing.progm.color Charge Bar Color
-settings.editing.progm.opacity Charge Bar Opacity
-settings.editing.progm.scale Charge Bar Scale
-settings.editing.progm.shadow Charge Bar Shadow
-settings.editing.progmOffX Charge Bar X Offset
-settings.editing.progmOffY Charge Bar Y Offset
-settings.editing.progmRot Charge Bar Rotation
+settings.editing.progm.color 충전 막대 색상
+settings.editing.progm.opacity 충전 막대 불투명도
+settings.editing.progm.scale 충전 막대 크기
+settings.editing.progm.shadow 충전 막대 그림자
+settings.editing.progmOffX 충전 막대 좌우 위치
+settings.editing.progmOffY 충전 막대 상하 위치
+settings.editing.progmRot 충전 막대 회전
 settings.editing.saturation 그래픽 채도
 settings.editing.menuSaturation 인터페이스 채도
 settings.editing.hue 그래픽 색상
@@ -471,7 +471,7 @@ windows.host.preset 호스트 프리셋
 windows.host.preset.load 프리셋 적용 중...
 windows.host.preset.name 프리셋 이름
 windows.host.start 게임 시작하기
-windows.host.rehost 게임 시작하기 (플레이어 데리고 오기)
+windows.host.rehost 게임 시작하기 (기존 플레이어 유지하기)
 windows.spray.header 스프레이 선택
 windows.spray.default 기본 스프레이
 windows.spray.spin 스프레이
@@ -516,7 +516,7 @@ windows.store.unlock 새 무기 스킨과 아이템을 얻으세요!
 windows.store.amount {0} KR이 계정에 있습니다
 windows.store.login 해서 마켓에서 아이템을 사고파세요!
 windows.store.purchasing 구매 중...
-windows.store.unboxed {0}님이 {1} 아이템을 뽑았습니다.
+windows.store.unboxed {0}님의 {1} 스핀 결과:
 windows.trade.header 트레이드 중
 windows.scope.header 스코프 선택
 windows.premium.header 프리미엄
@@ -552,7 +552,7 @@ windows.secondary.req {0}레벨 필요
 windows.advertise.header 광고하기
 windows.support.header 고객지원
 windows.players.header 플레이어 목록
-windows.players.none 현재 플레이어가 없습니다...
+windows.players.none 플레이어가 없습니다.
 windows.join.header 참가
 windows.join.code 게임 URL이나 코드를 입력하세요.
 windows.client.header 클라이언트
@@ -561,7 +561,7 @@ windows.client.mac macOS
 windows.client.linux Linux
 windows.ranked.header 랭크
 windows.ranked.login 해서 랭크 게임에 참가하세요!
-windows.ranked.level 랭크 게임을 하려면 최소<span color="black">{0}레벨</span>이어야 합니다! 지금 당신은 <span color="black">{1}레벨</span>입니다.
+windows.ranked.level 랭크 게임은 <span color="black">{0}레벨</span>에 잠금 해제됩니다. 당신은 아직 <span color="black">{1}레벨</span>입니다.
 windows.ranked.mode.r1v1 1대1
 windows.ranked.mode.r2v2 2대2
 windows.ranked.mode.r4v4 4대4
@@ -575,18 +575,18 @@ mod.disabled 모드가 비활성화되어 있습니다.
 mod.error 모드 오류!
 mod.loading 모드 적용 중...
 mod.invalid 유효하지 않은 모드 파일입니다!
-matchmaker.full 가득 찼습니다.
-matchmaker.full2 게임이 가득 찼습니다..
+matchmaker.full 가득 참
+matchmaker.full2 가득 찬 게임입니다.
 matchmaker.updating 업데이트중...
 matchmaker.invalid 게임을 찾을 수 없습니다.
-matchmaker.none 서버 용량이 가득 찼습니다.
+matchmaker.none 남은 서버 용량이 없습니다.
 adblocker 무료 KR을 받으려면 광고 차단기를 끄세요.
-ad-failed 광고를 받아오지 못하였습니다. 나중에 다시 시도하세요.
+ad-failed 광고를 받아오지 못했습니다. 나중에 다시 시도하세요.
 streamers.views 시청자 {0}명
 streamers.none 생방송이 없습니다!
 error.extentions 확장 프로그램을 사용하고 있다면 비활성화 해보십시오.
 error.seek 다른 게임을 찾아보려면 here를 클릭하세요.
-custom.map.upload.limit 실패했습니다. 맵 데이터는 500KB 이내여야 합니다.
+custom.map.upload.limit 실패. 맵 데이터는 500KB 이내여야 합니다.
 custom.map.missing 최소 하나의 맵을 선택하세요.
 custom.mode.missing 최소 하나의 게임 모드를 선택하세요.
 custom.class.missing 최소 하나의 클래스를 선택하세요.
@@ -597,7 +597,7 @@ server.config.gameTime 진행 시간
 server.config.gravMlt 중력
 server.config.tickRI 높은 틱레이트
 server.config.maxPS 40명 서버
-server.config.promServ 서버 노출시키기
+server.config.promServ 서버 홍보하기
 server.config.jumpMlt 점프 강도
 server.config.airStrf 공중 좌우 이동
 server.config.deltaMlt 시간 스케일
@@ -605,7 +605,7 @@ server.config.strafeSpd 좌우 이동 속도
 server.config.fiRat 연사 속도
 server.config.reSpd 재장전 시간
 server.config.slidTime 슬라이딩 시간
-server.config.fixMov Fixed Movement
+server.config.fixMov 고정된 음직임
 server.config.slidSpd 슬라이드 속도
 server.config.healthMlt HP 배수
 server.config.impulseMlt 무기 반동 배수
@@ -628,15 +628,15 @@ server.config.noStreaks 연속 처치 비활성화
 server.config.canSlide 슬라이딩 활성화
 server.config.wallJP 벽 점프 강도
 server.config.autoJump 자동 점프
-server.config.bDrop 낙차
-server.config.thirdPerson 3인칭
+server.config.bDrop 총알 낙차
+server.config.thirdPerson 3인칭 시점
 server.config.requireCaptcha Captcha 요구하기
 server.config.nameTags 이름표 숨기기
-server.config.kCams Kill Cams
+server.config.kCams 데스 캠
 server.config.noReload 재장전 없음
 server.config.private 비공개
 server.config.krRewards KR 보상
-server.config.forceDefault Force Default Settings
+server.config.forceDefault 기본 설정 강제 적용하기
 server.config.warmupTime 준비 시간
 server.config.objtvTime 거점 변경 시간
 server.config.forceSpawn 강제 리스폰 시간
@@ -655,13 +655,13 @@ social.login.buy 구매하려면 로그인하세요.
 social.login.sell 판매하려면 로그인하세요.
 social.login.gift KR을 주려면 로그인하세요.
 social.login.proccessing 로그인 중...
-social.since 첫 등록일
-social.user.maps 이 유저의 게임
-social.user.mods 이 유저의 모드
+social.since 등록일
+social.user.maps 유저 게임
+social.user.mods 유저 모드
 social.maps.none 찾은 게임이 없습니다...
 social.mods.none 찾은 모드가 없습니다...
 social.market.price.low 가격 오름차순
-social.market.price.list 가격 정렬 방법
+social.market.price.list 게시 가격
 social.market.searching 검색 중...
 social.market.listed {0} 전에 게시됨
 social.market.list 아이템 게시하기
@@ -669,10 +669,10 @@ social.market.unlist 게시 취소하기
 social.market.unlisting 게시 취소 중...
 social.market.posting 아이템 게시 중...
 social.market.req {0}레벨 이상이어야 합니다.
-social.market.cant KR이 부족합니다
+social.market.cant KR이 부족합니다.
 social.market.purchase 구매
 social.market.fee 게시 수수료 없음
-social.market.failed 실패했습니다. 다시 해보십시오.
+social.market.failed 실패했습니다. 다시 시도하세요.
 social.market.head 머리 아이템
 social.market.back 몸통 아이템
 social.market.waist 허리 아이템
@@ -694,54 +694,54 @@ social.market.gift.amount 선물할
 social.market.fee.gift 수수료 없음
 social.market.gift KR 선물하기
 social.market.gift.msg 문자 남기기
-respawn.auto Auto Respawning in {0}
-custom.host.ranked Can't host match while in ranked.
-funds.insufficient Insufficient Funds
-funds.out It appears you have run out of Krunkies.
-custom.passcode.long Password too long
-custom.passcode.input Enter Server Password to join
-custom.tryagain Please try again.
-purchase.kr.success Added {0} KR to your account
-limited.purchase.ask Are you sure you want to purchase [{0}] for {1} KR?
-limited.purchase.success Added {0} to your inventory
-pretend.exit press [{0}] again to exit
-settings.loaded Settings Loaded
-settings.loaded.none No settings found
-account.login.required Must be logged in
-account.banned.hack This account has been banned for Hacking.
-account.banned.appeal If you want to appeal your ban, contact:
-account.delete You may request to delete your account, if the request is not cancelled within 14 days the account and all associated data will be permanently removed.
-account.delete.request Are you sure you want to request an account deletion?
-account.delete.cancel Are you sure you want to cancel account deletion?
-spin.free.available FREE KR AVAILABLE!
-spin.free.claim This spin is available to claim once per Hour after completing a match.
-spin.free.disable These Popups can be disabled in General Settings
-mod.reset.0 Will take effect after respawning.
-mod.reset.1 Map Objects dont get reset
-windows.profile.picture Change Picture
-stats.assists Assists
-stats.nukes Nukes
-stats.melee Melee
-stats.fistkills Beatdowns
-stats.thrownkills Bullseyes
-stats.headshots Headshots
-stats.wallbangs Wallbangs
-stats.sprays Sprays Placed
-windows.host.default.settings Enabling Default Settings allows for storing Player Progress and Highscores
-windows.host.default.commands *Host Commands are Disabled in this mode: /noclip /god /smite etc
-windows.host.rewards Enabling KR Rewards forces the Server to use Default Settings & allows players to earn KR from the map funds:
-windows.store.wheels.sub Try your luck and spin for a chance to win some new skins!
-windows.store.currency * Prices in USD can be converted to your local currency at an exchange rate defined by the payment provider or bank
-windows.store.creator Consider Support your favorite Content Creator by using a Creator Code
-windows.chall.customs Challenges can't be completed in Custom Matches
-twitch.link Are you sure you want to link a twitch account?
-twitch.unlink Are you sure you want to unlink your twitch account?
-windows.clan.leave Are you sure you want to leave the clan?
-windows.clan.delete Are you sure you want to delete the clan?
-windows.clan.kick Are you sure you want kick {0} from the clan?
-windows.store.premium.purchase Are you sure you want to purchase {0} days of Premium?
-windows.playerlist.ban Are you sure you want ban {0} from this game?
-windows.playerlist.flag Are you sure you want to Flag {0}?
-windows.playerlist.unflag Are you sure you want to Unflag {0}?
-windows.playerlist.punish Are you sure you want to take action on {0}?
+respawn.auto {0} 후 리스폰
+custom.host.ranked 랭크전 플레이 중에는 게임을 호스트 할 수 없습니다.
+funds.insufficient KR이 부족합니다.
+funds.out KR이 부족합니다.
+custom.passcode.long 암호가 너무 깁니다.
+custom.passcode.input 게임에 참가하려면 암호를 입력하십시오.
+custom.tryagain 다시 시도하세요.
+purchase.kr.success 계정에 {0} KR을 추가했습니다.
+limited.purchase.ask [{0}]을/를 {1} KR로 구매하시겠습니까?
+limited.purchase.success 인벤토리에 {0}을/를 추가했습니다.
+pretend.exit [{0}] 버튼을 다시 눌러서 종료합니다.
+settings.loaded 설정 불러오기 완료
+settings.loaded.none 설정 검색 결과 없음
+account.login.required 로그인해야 합니다.
+account.banned.hack 이 계정은 해킹 신고로 영구 정지되었습니다.
+account.banned.appeal 정지 처분을 반박하려면 다음 주소로 이메일을 보내십시오:
+account.delete 계정 삭제를 요청할 수 있으며, 삭제 요청 후 14일 이내에 삭제 철회 요청이 없을 경우 해당 계정과 관련된 모든 데이터가 사라집니다.
+account.delete.request 정말로 계정 삭제를 요청하시겠습니까?
+account.delete.cancel 정말로 계정 삭제 철회를 요청하시겠습니까?
+spin.free.available 무료 KR을 이용 가능합니다!
+spin.free.claim 이 스핀은 1시간마다 한번씩, 적어도 한 게임을 마쳐야 돌릴 수 있습니다.
+spin.free.disable 일반 설정에서 이 팝업을 끌 수 있습니다.
+mod.reset.0 리스폰 후 적용됩니다.
+mod.reset.1 맵 물체는 재설정되지 않습니다.
+windows.profile.picture 사진 변경하기
+stats.assists 어시스트
+stats.nukes 뉴크
+stats.melee 근접 처치
+stats.fistkills 주먹 처치
+stats.thrownkills 투척 처치
+stats.headshots 헤드샷 처치
+stats.wallbangs 벽 뚫고 처치
+stats.sprays 뿌린 스프레이
+windows.host.default.settings 기본 설정으로 진행하면 고득점 기록과 플레이어 진행도를 저장할 수 있습니다.
+windows.host.default.commands (/noclip, /god, /smite와 같은 호스트 명령어는 비활성화됩니다)
+windows.host.rewards Enabling KR 보상은 서버가 기본 설정을 사용하도록 강제하고, 플레이어들이 맵 잔고에서 KR 보상을 받을 수 있게 합니다.
+windows.store.wheels.sub 스핀을 돌려서 스킨 뽑기 운을 시험해 보세요!
+windows.store.currency (미국 달러 가격은 결제 서비스 제공자나 은행이 공시하는 환율에 따라 환전됩니다)
+windows.store.creator 크리에이터 코드를 사용하여 좋아하는 크리에이터를 후원하세요
+windows.chall.customs 사용자 지정 게임에서는 챌린지를 진행할 수 없습니다
+twitch.link 정말 트위치 계정을 연동하시겠습니까?
+twitch.unlink 정말 트위치 계정을 연동 취소하시겠습니까?
+windows.clan.leave 정말 클랜을 탈퇴하시겠습니까?
+windows.clan.delete 정말 클랜을 삭제하시겠습니까?
+windows.clan.kick 정말 {0}님을 클랜에서 추방하시겠습니까?
+windows.store.premium.purchase 정말 크런커 프리미엄 {0}일을 구매하시겠습니까? 
+windows.playerlist.ban 정말 {0}님을 이 게임에서 제외시키겠습니까?
+windows.playerlist.flag 정말 {0}님을 수상함 표시하시겠습니까?
+windows.playerlist.unflag 정말 {0}님의 수상함 표시를 취소하시겠습니까?
+windows.playerlist.punish 정말 {0}님을 제재하시겠습니까?
 `;
