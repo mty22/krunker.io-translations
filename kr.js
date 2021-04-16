@@ -326,13 +326,13 @@ settings.editing.prog.shadow 진행 막대 그림자
 settings.editing.progOffX 진행 막대 좌우 위치
 settings.editing.progOffY 진행 막대 상하 위치
 settings.editing.progRot 진행 막대 회전
-settings.editing.progm.color Charge Bar Color
-settings.editing.progm.opacity Charge Bar Opacity
-settings.editing.progm.scale Charge Bar Scale
-settings.editing.progm.shadow Charge Bar Shadow
-settings.editing.progmOffX Charge Bar X Offset
-settings.editing.progmOffY Charge Bar Y Offset
-settings.editing.progmRot Charge Bar Rotation
+settings.editing.progm.color Charge Bar Color 충전 바 a
+settings.editing.progm.opacity Charge Bar Opacity 충전 바 불투명도
+settings.editing.progm.scale Charge Bar Scale 충전 바 크기
+settings.editing.progm.shadow Charge Bar Shadow 충전 바 그림자
+settings.editing.progmOffX Charge Bar X Offset 충전 바 좌우 위치
+settings.editing.progmOffY Charge Bar Y Offset 충전 바 상하 위치
+settings.editing.progmRot Charge Bar Rotation 충전 바 회전
 settings.editing.saturation 그래픽 채도
 settings.editing.menuSaturation 인터페이스 채도
 settings.editing.hue 그래픽 색상
@@ -581,7 +581,7 @@ matchmaker.updating 업데이트중...
 matchmaker.invalid 게임을 찾을 수 없습니다.
 matchmaker.none 서버 용량이 가득 찼습니다.
 adblocker 무료 KR을 받으려면 광고 차단기를 끄세요.
-ad-failed 광고를 받아오지 못하였습니다. 나중에 다시 시도하세요.
+ad-failed 광고를  못하였습니다. 나중에 다시 시도하세요.
 streamers.views 시청자 {0}명
 streamers.none 생방송이 없습니다!
 error.extentions 확장 프로그램을 사용하고 있다면 비활성화 해보십시오.
@@ -697,10 +697,10 @@ social.market.gift.msg 문자 남기기
 respawn.auto 자동 리스폰 {0} 후
 custom.host.ranked 랭크전 준비중 게임 만들기 불가
 funds.insufficient 자본 불충분
-funds.out 이런, KR이 떨어져 버렸네요.
-custom.passcode.long 비밀번호 길이가 너무 길어요!
+funds.out KR이 부족한 것으로 .
+custom.passcode.long 비밀번호가 너무 길음
 custom.passcode.input 참가를 위해 서버 비밀번호를 입력하세요
-custom.tryagain 다시 시도해 주세요
+custom.tryagain 다시 시도해 주십시오
 purchase.kr.success {0} KR을 계정에 추가하였습니다
 limited.purchase.ask [{0}] for {1} KR? [{0}]을 {1} KR로 구매하시겠습니까?
 limited.purchase.success {0}을 인벤토리에 추가하였습니다
@@ -708,7 +708,7 @@ pretend.exit 나가려면 [{0}]을 다시 누르세요
 settings.loaded 세팅 로딩 완료
 settings.loaded.none 세팅 입력 존재하지 않음
 account.login.required 로그인 필요
-account.banned.hack 해킹을 이용한 계정임.
+account.banned.hack 해킹으로 밴을 당한 계정임.
 account.banned.appeal 밴에 이의제기를 하려면, 여기에 연락을 취하세요:
 account.delete 계정의 완전삭제를 요청할 수 있고, 14일 내에 요청이 취소되지 않는다면 모든 연관정보가 영구적으로 삭제될 것입니다.
 account.delete.request 계정의 완전삭제를 요청하시겠습니까?
@@ -729,11 +729,11 @@ stats.wallbangs 관통 킬
 stats.sprays 스프레이 수
 windows.host.default.settings 기본 세팅을 허용하면 플레이어의 능력치와 최고점을 보관할 수 있다
 windows.host.default.commands *게임 호스트 명령어는 이 형식에서는 사용할 수 없습니다: /noclip /god /smite 등 
-windows.host.rewards KR 보상을 허용하면 서버 내에서 기본 세팅을 사용하게 됩니다 & 맵 기부금에서 KR을 벌 수 있게 합니다:
-windows.store.wheels.sub 새 스킨을 얻을 수 있는 스핀을 통해 당신의 운을 시험해보세요!
-windows.store.currency * 달러 단위는 거래 플랫폼이나 특정 은행에 따라 당신의 지역 통화로 변환될 수 있습니다.
-windows.store.creator 당신의 최애 크리에이터를 위해 크리에이터 코드를 써봐요!
-windows.chall.customs 커스텀 게임에선 도전을 진행할 수 없습니다
+windows.host.rewards KR 보상을 허용하면 서버 내에서 기본 세팅을 강제합니다 & 맵 기부금에서 KR을 벌 수 있게 합니다:
+windows.store.wheels.sub 새 스킨을 얻을 수 있는 기회인 스핀을 통해 당신의 운을 시험해보세요
+windows.store.currency * 달러 단위는 거래 플랫폼이나 사용 은행에 따라 당신의 지역 통화로 변환될 수 있습니다.
+windows.store.creator 당신의 최애 크리에이터를 위해 크리에이터 코드를 쓰는 것을 고려하세요
+windows.chall.customs 사용자 지정 게임에선 챌린지를 진행할 수 없습니다
 twitch.link 트위치 계정을 연동하겠습니까?
 twitch.unlink 트위치 계정의 연동을 해제시키겠습니까?
 windows.clan.leave 클랜을 탈퇴하시겠습니까?
