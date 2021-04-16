@@ -507,141 +507,141 @@ windows.store.voucher Koristi Vaučer
 windows.store.voucherinfo Dobijte Vaučer od određenih streamer-a i događaja
 windows.store.market Tržište
 windows.store.market2 Krunker Market
-windows.store.premium Purchase Premium
+windows.store.premium Kupi Premium
 windows.store.premium2 Krunker Premium
 windows.store.buyP Choose a Display name & more with
-windows.store.buy Buy and Sell Items on the
-windows.store.wheels Prize Wheels
-windows.store.unlock Unlock new weapon skins and items
-windows.store.amount {0} KR in account
-windows.store.login to buy and unlock items from the store!
-windows.store.purchasing Purchasing...
-windows.store.unboxed {0}{1} unboxed
-windows.trade.header Trading
-windows.scope.header Select Scope
+windows.store.buy Kupujte i prodajte stvari sa
+windows.store.wheels Nagradni kotačići
+windows.store.unlock Otključajte nove skinove i iteme
+windows.store.amount {0} KR na računu
+windows.store.login da kupuješ i otključaš iteme sa tržišta!
+windows.store.purchasing Kupovanje...
+windows.store.unboxed {0}{1} otvorio je
+windows.trade.header Razmjena
+windows.scope.header Izaberi optiku
 windows.premium.header Premium
-windows.skin.header Select Skin
-windows.hat.header Select Hat
-windows.back.header Select Back
-windows.waist.header Select Waist
-windows.face.header Select Face
-windows.melee.header Select Melee
-windows.attach.header Select Attachment
-windows.reticle.header Select Reticle
-windows.reticle.unlocked Unlocked at lvl {0}
-windows.reticle.req Req lvl {0}
-windows.dye.header Select Dye
-windows.dye.default Default Dye
-windows.dye.spin Dye
-windows.changelog.header Changelog
-windows.mods.community.header Community Mods
-windows.mods.community.fav Your Favorites
-windows.mods.community.new New Mods
-windows.mods.community.hot Hot
-windows.mods.community.name Mod Name
-windows.mods.community.none No Mods found
-windows.publish.mod.header Publish Mod
-windows.publish.mod.thumbnail No Thumbnail
-windows.publish.mod.name Mod Name
-windows.publish.mod.paste Mod Url
-windows.publish.mod.update Publish/Update
-windows.publish.mod.login to create and upload mods!
-windows.secondary.header Select Secondary
-windows.secondary.unlocked Unlocked
-windows.secondary.req Req lvl {0}
-windows.advertise.header Advertise
-windows.support.header Support
-windows.players.header Player List
-windows.players.none No players currently...
-windows.join.header Join
-windows.join.code Enter Game URL/Code
-windows.client.header Client
-windows.client.windows Windows Installer
-windows.client.mac macOS Installer
-windows.client.linux Linux Installer
-windows.ranked.header Ranked
-windows.ranked.login to play in ranked games!
-windows.ranked.level You must be at least <span color="black">level {0}</span> to play in ranked games! Right now you are at <span color="black">level {1}</span>.
+windows.skin.header Odaberi Skin
+windows.hat.header Odaberi Kapu
+windows.back.header Odaberi Back
+windows.waist.header Odaberi Struk
+windows.face.header Odaberi Facu
+windows.melee.header Odaberi Melee
+windows.attach.header Odaberi Dodatak
+windows.reticle.header Odaberi Mrežu
+windows.reticle.unlocked Otključano na razini {0}
+windows.reticle.req Potrebna razina {0}
+windows.dye.header Odaberi Tintu
+windows.dye.default Zadana Tinta
+windows.dye.spin Tinta
+windows.changelog.header Izmjene
+windows.mods.community.header Modovi zajednice
+windows.mods.community.fav Tvoji favoriti
+windows.mods.community.new Novi Modovi
+windows.mods.community.hot Trending
+windows.mods.community.name Ime Moda
+windows.mods.community.none Nisu Pronađeni Modovi
+windows.publish.mod.header Objavi Mod
+windows.publish.mod.thumbnail Nema Minijature
+windows.publish.mod.name Ime Moda
+windows.publish.mod.paste URL Moda
+windows.publish.mod.update Objavi/Ažuriraj
+windows.publish.mod.login da praviš i objavljuješ modove!
+windows.secondary.header Izaberi sekundarno oružje!
+windows.secondary.unlocked Otključano
+windows.secondary.req Potrebna razina {0}
+windows.advertise.header Promoviši
+windows.support.header Podrži
+windows.players.header Lista Igrača
+windows.players.none Trenutno nema igrača...
+windows.join.header Pridruži se
+windows.join.code Unesi URL/Kod meča
+windows.client.header Klijent
+windows.client.windows Windows Instaler
+windows.client.mac macOS Instaler
+windows.client.linux Linux Instaler
+windows.ranked.header Rangirana igra
+windows.ranked.login da igraš rangirane mečeve!
+windows.ranked.level Morate biti barem <span color="black">razina {0}</span> da igrate rangirane igre! Trenutno ste <span color="black">razina {1}</span>.
 windows.ranked.mode.r1v1 Solo
 windows.ranked.mode.r2v2 Duo
 windows.ranked.mode.r4v4 Quad
-windows.chall.header Challenges
-windows.chall.login to complete challenges!
-thumbnail.upload.limit Failed. {0}kb Thumbnail Limit
-image.upload.limit Failed. {0}kb Image Limit
-thumbnail.upload.error Thumbnail Error
+windows.chall.header Izazovi
+windows.chall.login da radite izazove!
+thumbnail.upload.limit Neuspjeh. {0}kb limit minijature
+image.upload.limit Neuspjeh. {0}kb limit slike
+thumbnail.upload.error Greška sa minijaturom
 mod.extracting extracting {0}/{1}
-mod.disabled mods disabled
-mod.error mod error!
-mod.loading loading mod...
-mod.invalid invalid mod file!
-matchmaker.full FULL
-matchmaker.full2 Game is full.
-matchmaker.updating GAME UPDATING
-matchmaker.invalid Game not found.
-matchmaker.none Servers are at Max Capacity
-adblocker Disable your ad blocker to receive free Krunkies.
-ad-failed Ad Failed to Load. Try again.
-streamers.views {0} viewers
-streamers.none No active streams!
-error.extentions If you have any extensions, disable them
-error.seek Try seeking a new game by clicking
+mod.disabled mods onemogućeni
+mod.error greška sa modom
+mod.loading učitavanje moda...
+mod.invalid nepravilan mod fajl!
+matchmaker.full PUN MEČ
+matchmaker.full2 Igra je puna.
+matchmaker.updating IGRA SE AŽURIRA
+matchmaker.invalid Igra nije pronađena.
+matchmaker.none Server su maksimalnog kapaciteta.
+adblocker Isključite vaš AD Blocker da dobijete besplatan KR!
+ad-failed Reklama nije uspjela da se učita. Pokušajte ponovo.
+streamers.views {0} gledaoca.
+streamers.none Nema aktivnih stream-ova!
+error.extentions Ako imate aktivnih proširenja, isključite ih
+error.seek Pokušajte nači novi meč klikom
 custom.map.upload.limit Failed. 500k Character Game Data Limit
-custom.map.missing Select at least one Game or Map
-custom.mode.missing Select at least one Mode
-custom.class.missing Select at least one Class
-server.config.maxPlayers Players
-server.config.minPlayers Min Players
-server.config.lives Lives
-server.config.gameTime Minutes
-server.config.gravMlt Gravity
-server.config.tickRI High Tickrate
-server.config.maxPS 40 Player Server
-server.config.promServ Promote Server
-server.config.jumpMlt Jump Force
+custom.map.missing Odaberite barem jednu Igru ili Mapu
+custom.mode.missing Izaberite bar jedan mod
+custom.class.missing Izaberite barem jednu klasu
+server.config.maxPlayers Igrači
+server.config.minPlayers Minimalno igrača
+server.config.lives Života
+server.config.gameTime Minute
+server.config.gravMlt Gravitacija
+server.config.tickRI Visok Tickrate
+server.config.maxPS Server sa 40 igrača
+server.config.promServ Promoviši server
+server.config.jumpMlt Snaga Skoka
 server.config.airStrf Air Strafing
 server.config.deltaMlt Time Scale
 server.config.strafeSpd Strafe Speed
-server.config.fiRat Fire Rate
+server.config.fiRat Brzina Pucanja
 server.config.reSpd Reload Speed
 server.config.slidTime Slide Time
 server.config.fixMov Fixed Movement
 server.config.slidSpd Slide Speed
 server.config.healthMlt Health Multiplier
 server.config.impulseMlt Weapon Impulse
-server.config.nameTeam1 Team 1 Name
-server.config.nameTeam2 Team 2 Name
-server.config.nameTeam3 Team 3 Name
-server.config.nameTeam4 Team 4 Name
-server.config.nameTeam5 Team 5 Name
-server.config.t1Dmg Team 1 Damage
-server.config.t2Dmg Team 2 Damage
-server.config.t3Dmg Team 3 Damage
-server.config.t4Dmg Team 4 Damage
-server.config.t5Dmg Team 5 Damage
-server.config.selTeam Select Team
-server.config.allowSpect Spectating
-server.config.killRewards Kill Rewards
-server.config.headshotOnly Headshots Only
-server.config.noSecondary Disable Secondaries
-server.config.noStreaks Disable Streaks
+server.config.nameTeam1 Tim 1 Ime
+server.config.nameTeam2 Tim 2 Ime
+server.config.nameTeam3 Tim 3 Ime
+server.config.nameTeam4 Tim 4 Ime
+server.config.nameTeam5 Tim 5 Ime
+server.config.t1Dmg Tim 1 Damage
+server.config.t2Dmg Tim 2 Damage
+server.config.t3Dmg Tim 3 Damage
+server.config.t4Dmg Tim 4 Damage
+server.config.t5Dmg Tim 5 Damage
+server.config.selTeam Odaberi Tim
+server.config.allowSpect Posmatranje
+server.config.killRewards Kill Nagrade
+server.config.headshotOnly Samo Headshots
+server.config.noSecondary Onemogući sekundarno oružje
+server.config.noStreaks Onemogući Streaks
 server.config.canSlide Sliding
 server.config.wallJP Wall Jumping Power
-server.config.autoJump Auto Jump
-server.config.bDrop Bullet Drop
-server.config.thirdPerson 3rd Person
-server.config.requireCaptcha Require Captcha
-server.config.nameTags Hide Nametags
+server.config.autoJump Auto Skok
+server.config.bDrop Pad metaka
+server.config.thirdPerson Treće lice
+server.config.requireCaptcha Zahtjevaj Captcha
+server.config.nameTags Sakrij Imena
 server.config.kCams Kill Cams
 server.config.noReload No Reload
-server.config.private Private
-server.config.krRewards KR Rewards
-server.config.forceDefault Force Default Settings
-server.config.warmupTime Warmup Time
-server.config.objtvTime Objective Time
-server.config.forceSpawn Auto Respawn Time
-server.config.scoreLimit Score Limit
-server.config.keepTScore Keep Team Score
+server.config.private Privatno
+server.config.krRewards KR Nagrade
+server.config.forceDefault Zahtjevav zadane postavke
+server.config.warmupTime Vrijeme Zagrijavanja
+server.config.objtvTime Objective Vrijeme
+server.config.forceSpawn Auto Respawn Vrijeme
+server.config.scoreLimit Limit Poena
+server.config.keepTScore Tim Zadrži poene
 server.config.forceC Force Mode Classes
 server.config.logTim Log Time (Race, Parkour)
 server.config.hitBoxPad Hitbox Padding
