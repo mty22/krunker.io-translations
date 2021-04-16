@@ -97,10 +97,10 @@ settings.experimental.header 실험적 설정
 settings.experimental.aimFreezeFix 에임 멈춤 현상 해결
 settings.experimental.mouseFlickFix 마우스 순간이동 문제 해결
 settings.experimental.shaderRendering 인스턴스 렌더링
-settings.dev.header Developer
-settings.dev.forceUpdate Force Update Skins
-settings.dev.forceRegen Always Regenerate Player
-settings.dev.extraBan Extra Ban Info
+settings.dev.header 개발자
+settings.dev.forceUpdate 스킨 강제 업데이트
+settings.dev.forceRegen 플레이어 항상 치유하기
+settings.dev.extraBan 추가 영구 정지 
 settings.chat.header 채팅
 settings.chat.chat 채팅창 표시
 settings.chat.chat.all 항상
@@ -594,7 +594,7 @@ server.config.maxPlayers 최대 플레이어 수
 server.config.minPlayers 최소 플레이어 수
 server.config.lives 목숨
 server.config.gameTime 진행 시간
-server.config.gravMlt 중력
+server.config.gravMlt 중력 배수
 server.config.tickRI 높은 틱레이트
 server.config.maxPS 40명 서버
 server.config.promServ 서버 홍보하기
@@ -658,8 +658,8 @@ social.login.proccessing 로그인 중...
 social.since 등록일
 social.user.maps 유저 게임
 social.user.mods 유저 모드
-social.maps.none 찾은 게임이 없습니다...
-social.mods.none 찾은 모드가 없습니다...
+social.maps.none 찾은 게임이 없습니다.
+social.mods.none 찾은 모드가 없습니다.
 social.market.price.low 가격 오름차순
 social.market.price.list 게시 가격
 social.market.searching 검색 중...
@@ -741,7 +741,7 @@ windows.clan.delete 정말 클랜을 삭제하시겠습니까?
 windows.clan.kick 정말 {0}님을 클랜에서 추방하시겠습니까?
 windows.store.premium.purchase 정말 크런커 프리미엄 {0}일을 구매하시겠습니까? 
 windows.playerlist.ban 정말 {0}님을 이 게임에서 제외시키겠습니까?
-windows.playerlist.flag 정말 {0}님에 해커태그를 다시겠습니까?
-windows.playerlist.unflag 정말 {0}님의 해커태그를 취소하시겠습니까?
+windows.playerlist.flag 정말 {0}님에 해커 태그를 다시겠습니까?
+windows.playerlist.unflag 정말 {0}님의 해커 태그를 취소하시겠습니까?
 windows.playerlist.punish 정말 {0}님을 제재하시겠습니까?
 `;
