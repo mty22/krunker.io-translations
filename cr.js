@@ -1,271 +1,271 @@
 module.exports = `
 menu.btn.ranked Ranked
-menu.btn.shop Shop
+menu.btn.shop Trgovina
 menu.btn.social Hub
-menu.btn.maps Games
-menu.btn.mods Mods
-menu.btn.settings Settings
+menu.btn.maps Igre
+menu.btn.mods Modovi
+menu.btn.settings Postavke
 menu.btn.customize Customize
-menu.btn.invite Invite
-menu.btn.invite.clicked Copied
-menu.btn.join Join
-menu.btn.host Host Game
-menu.btn.browser Servers
-generic.wait Please wait...
-generic.loading LOADING...
-generic.none None
-generic.connecting CONNECTING...
-generic.select Select
-generic.delete Delete
-generic.save Save
-generic.load Load
-generic.search Search
-generic.leave Leave
-generic.default Default
-generic.submit Submit
-generic.create Create
-generic.random Random
-generic.failed Failed
-generic.success Success!
-generic.name Name
-generic.level Level
-generic.score Score
-generic.off Off
-generic.defeat DEFEAT
-generic.victory VICTORY
-generic.matchover MATCH OVER
-generic.matchaband MATCH ABANDONED
-generic.follow Follow
-generic.unfollow Unfollow
-generic.followers Followers
-generic.following following
-generic.games Games
-generic.wins Wins
-generic.lose Losses
-generic.clan Clan
-generic.games.played Games Played
-generic.games.won Games Won
-generic.games.lost Games Lost
-generic.timep Time Played
-generic.kills Kills
-generic.deaths Deaths
+menu.btn.invite Pozovi
+menu.btn.invite.clicked Kopirano
+menu.btn.join Pridruži se
+menu.btn.host Kreiraj igru
+menu.btn.browser Serveri
+generic.wait Molimo pričekajte...
+generic.loading UČITAVANJE...
+generic.none Ništa
+generic.connecting POVEZIVANJE...
+generic.select Odaberi
+generic.delete Obriši
+generic.save Spremi
+generic.load Učitaj
+generic.search Pretraži
+generic.leave Napusti
+generic.default Zadano
+generic.submit Podnesi
+generic.create Kreiraj
+generic.random Nasumično
+generic.failed Neuspjeh
+generic.success Uspjeh!
+generic.name Ime
+generic.level Razina
+generic.score Bodovi
+generic.off Isključeno
+generic.defeat PORAZ
+generic.victory POBJEDA
+generic.matchover MEČ ZAVRŠEN
+generic.matchaband MEČ NAPUŠTEN
+generic.follow Prati
+generic.unfollow Prestani pratiti
+generic.followers Pratioci
+generic.following Praćenje
+generic.games Igre
+generic.wins Pobjede
+generic.lose Gubitci
+generic.clan Klan
+generic.games.played Igrano mečeva
+generic.games.won Dobivenih mečevan
+generic.games.lost Izgubljeni mečevi
+generic.timep Vrijeme igrano
+generic.kills Ubistava
+generic.deaths Smrti
 generic.kdr KDR
-generic.time Time
-generic.logout Logout
-generic.logout.sessions Logout of all Sessions
-generic.username Enter Username
-generic.password Enter Password
-generic.register Register
-generic.login Login
-generic.accuracy Accuracy
-player.waiting waiting for players
-player.died You died
-player.killed Killed By
-player.killstreak {0} on a {1} Kill Streak
-player.inactive Kicked for inactivity
-player.disconnect DISCONNECTED
-timer.end Next Round in {0}
-leaderboard.empty Empty Lobby
+generic.time Vrijeme
+generic.logout Odjavite se
+generic.logout.sessions Odjavite se iz svih sesija
+generic.username Unesite korisničko ime
+generic.password Unesite zaporku
+generic.register Registriraj se
+generic.login Uloguj se
+generic.accuracy Preciznost
+player.waiting čekanje na igrače
+player.died Umrli ste
+player.killed Ubio vas
+player.killstreak {0} je na nizu od {1} ubistava!
+player.inactive Izbačeni zbog neaktivnosti.
+player.disconnect ODVEZANO
+timer.end Sledeća runda za {0}
+leaderboard.empty Prazan meč
 popup.checkpoint Checkpoint!
-app.play CLICK TO PLAY
-app.spectate CLICK TO SPECTATE
-app.play.mobile TAP TO PLAY
-app.spectate.mobile TAP TO SPECTATE
-app.play.controller PRESS START
-app.spectate.controller START to SPECTATE
-purchase.error Error occurred
-purchase.error.click click here</a> and try again!
-purchase.error.limit You may have exceeded your daily transaction limit
-settings.reset Reset
-settings.reset.confirm Are you sure you want to reset all your settings?
-settings.import Import
-settings.export Export
-settings.none No settings found
-settings.backup Backup Settings
-settings.controls.change Keybinds
-settings.controls.press Press any Key
-settings.local.header Localization <span id="requiresRestart"><span style="color: #eb5656">*</span> requires restart</span>
-settings.local.region Default Region
-settings.local.lang Language
-settings.network.header Network
-settings.network.sendRate High Tickrate
-settings.network.netRerouting Auto Routing (Affects Ping)
-settings.network.lagComp Lag Compensation
-settings.popup.header Popups
-settings.popup.freeKRPop Show Free KR Popup
-settings.experimental.header Experimental
-settings.experimental.aimFreezeFix Aim Freeze Fix
-settings.experimental.mouseFlickFix Mouse Flick Fix
+app.play Klikni da igraš!
+app.spectate KLINKI DA POSMATRAŠ
+app.play.mobile SITNSI DA IGRAŠ
+app.spectate.mobile STISNI DA POSMATRAŠ
+app.play.controller STISNI START
+app.spectate.controller START da POSMATRAŠ
+purchase.error Desila se grešla
+purchase.error.click klikni ovdje </a> da pokušaš ponovo!
+purchase.error.limit Možda ste nadmašili vašu razinu dnevnog raspologanja!
+settings.reset Resetuj
+settings.reset.confirm Da li ste sigurni da želite resetovati sve vaše postavke?
+settings.import Uvezi
+settings.export Izvezi
+settings.none Nismo pronašli postavke
+settings.backup Rezerviši postavke
+settings.controls.change Postavke tipkovnice
+settings.controls.press Stisnite bilo koju tipku
+settings.local.header Lokalizacija <span id="requiresRestart"><span style="color: #eb5656">*</span> zahtjeva ponovno pokretanje</span>
+settings.local.region Zadana regija
+settings.local.lang Jezik
+settings.network.header Mreža
+settings.network.sendRate Visok tikrate
+settings.network.netRerouting Automatsko usmjeravanje (utječe na ping)
+settings.network.lagComp Lag naknada
+settings.popup.header Skočni prozori
+settings.popup.freeKRPop Prikaži Free KR skočni prozor
+settings.experimental.header Eksperimentalno
+settings.experimental.aimFreezeFix Aim Freeze Popravka
+settings.experimental.mouseFlickFix Mouse Flick Popravka
 settings.experimental.shaderRendering Instance Rendering
-settings.dev.header Developer
-settings.dev.forceUpdate Force Update Skins
-settings.dev.forceRegen Always Regenerate Player
-settings.dev.extraBan Extra Ban Info
-settings.chat.header Chat
-settings.chat.chat Show Chat Box
-settings.chat.chat.all Always
-settings.chat.chat.focus While Focused
-settings.chat.messages Show Player Messages
-settings.chat.unboxings Show Unboxings
-settings.chat.chatOp Chat Opacity
-settings.chat.chatBGOp Chat BG Opacity
-settings.chat.chatHeight Chat Height
-settings.chat.chatTimer Chat Timer (s)
-settings.chat.chatTextOutline Chat Text Outline
-settings.chat.chatFilter Profanity Filter
-settings.quality.header Performance
-settings.quality.updRate Frame Cap
-settings.quality.rendDst Render Distance
-settings.quality.res Resolution
-settings.quality.part Particles
-settings.quality.mapDet Map Details
-settings.quality.noTex No Textures
-settings.quality.partdist Particle Distance
-settings.quality.renderdist Render Distance
-settings.quality.reflection Reflection Quality
+settings.dev.header Programer
+settings.dev.forceUpdate Prisilno ažuriraj skinove
+settings.dev.forceRegen Uvijek regeneriraj igrača
+settings.dev.extraBan Dodatne informacije o zabrani
+settings.chat.header Čet
+settings.chat.chat Pokaži čet prozor
+settings.chat.chat.all Uvijek
+settings.chat.chat.focus Dok je fokusiran
+settings.chat.messages Pokaži Poruke Igrača
+settings.chat.unboxings Pokaži unboxing
+settings.chat.chatOp Prozirnost četa
+settings.chat.chatBGOp Prozirnost pozadine četa
+settings.chat.chatHeight Visina četa
+settings.chat.chatTimer Tajmer četa (s)
+settings.chat.chatTextOutline Obris teksta u četu
+settings.chat.chatFilter Filter nepristojnosti
+settings.quality.header Performanse
+settings.quality.updRate Zaključavanje FPS
+settings.quality.rendDst Daljina učitavanja
+settings.quality.res Rezolucija
+settings.quality.part Čestice
+settings.quality.mapDet Detalji mape
+settings.quality.noTex Bez Teksutra
+settings.quality.partdist Daljina čestica
+settings.quality.renderdist Daljina učitavanja
+settings.quality.reflection Kvalitet odraza
 settings.quality.antiAlias Antialiasing
-settings.quality.shadows Shadows
-settings.quality.softShad Soft Shadows
-settings.quality.highResShad High-Res Shadows
-settings.quality.shadowsDynamic Dynamic Shadows
-settings.quality.trails Bullet Trails
-settings.quality.yourTrails Your Trails
-settings.quality.mflash Muzzle Flash
-settings.quality.flap Sniper Flap
-settings.quality.lowSpec Low Spec
-settings.quality.ambient Ambient Shading
-settings.quality.ambientOld Old Shading (When Possible)
-settings.quality.textureAnim Texture Animations
-settings.quality.objectAnim Object Animations
-settings.quality.screenShake Screen Shake
-settings.quality.weaponShine Weapons Shine
-settings.quality.rendGamma Gamma
-settings.quality.lighting Lighting
-settings.quality.showExplo Show Explosions
-settings.quality.aspectRatio Aspect Ratio
-settings.post.header Post Processing
-settings.post.post Post Processing
-settings.post.bloom Bloom
-settings.post.bloomThreshold Bloom Threshold
-settings.post.bloomStrength Bloom Strength
-settings.post.bloomRadius Bloom Radius
+settings.quality.shadows Sijenke
+settings.quality.softShad Blage sijenke
+settings.quality.highResShad Sijenke visoke rezolucije
+settings.quality.shadowsDynamic Dinamične Sijenke
+settings.quality.trails Tragovi metaka
+settings.quality.yourTrails Tvoji tragovi
+settings.quality.mflash Bljesak njuške
+settings.quality.flap Snajperski zaklopac
+settings.quality.lowSpec Slabe speficikacije
+settings.quality.ambient Ambijentalno Sjenjenje
+settings.quality.ambientOld Staro Sjenjne (U većini slučajeva)
+settings.quality.textureAnim Animacije Textura
+settings.quality.objectAnim Animacije Objekata
+settings.quality.screenShake Tresenje Ekrana
+settings.quality.weaponShine Saj Oružja
+settings.quality.rendGamma Gama
+settings.quality.lighting Rasvjeta
+settings.quality.showExplo Pokaži Eksplozije
+settings.quality.aspectRatio Omjer Slike
+settings.post.header Naknadna obrada
+settings.post.post Naknadna obrada
+settings.post.bloom Cvjetanje
+settings.post.bloomThreshold Količina cvjetanja
+settings.post.bloomStrength Jačina cvjetanja
+settings.post.bloomRadius Radius cvjetanja
 settings.post.ssao SSAO
 settings.post.ssaoRadius SSAO Radius
-settings.interface.hitInd Show Hit Indicators
-settings.interface.hitColor Hit Indicator Color
-settings.interface.dmg Show Damage
-settings.interface.dmgCol Damage Color
-settings.interface.critCol Crit Color
-settings.interface.header Interface
-settings.interface.scale UI Scale
-settings.interface.ui Show UI
-settings.interface.scoreboard Use Old Scoreboard
-settings.interface.oldBrowser Use Old Browser
-settings.interface.rarityanim Disable Rarity Animations
-settings.interface.showPfp Show Profile Pictures
-settings.interface.showTradeMsg Show Trade Messages
-settings.interface.hp Dynamic HP Bars
-settings.interface.dmgScale Damage Scale
-settings.interface.killf Show Kill Feed
-settings.interface.ping Show Ping
-settings.interface.net-stats Show Network Stats
-settings.interface.fps Show FPS
-settings.interface.deaths Show Death Counter
-settings.interface.kd Show K/D Counter
-settings.interface.kills Show Kill Counter
-settings.interface.streak Show Streak Counter
-settings.interface.score Show Score Counter
-settings.interface.spectators Show Spectator Counter
-settings.interface.speed Show Movement Speed
-settings.interface.speedOffX Speed X Offset
-settings.interface.speedOffY Speed Y Offset
-settings.interface.speedOpacity Speed Opacity
-settings.interface.speedScale Speed Scale
-settings.interface.speedColor Speed Color (Current)
-settings.interface.speedColorMax Speed Color (Max)
-settings.interface.medals Show Medals
-settings.interface.hideNames Nametag Display
-settings.interface.hideNames.team Team Only
-settings.interface.hideNames.enemy Enemy Only
-settings.interface.hideNames.all Everyone
-settings.interface.nametagStyle Nametag Style
-settings.interface.nametagOpac Nametag Opacity
-settings.interface.nametagStyle.health Health Only
-settings.interface.nametagStyle.name Name Only
-settings.interface.nametagStyle.nameLvl Name & Level Only
-settings.interface.nametagStyle.all Everything
-settings.interface.healthNum Nametag Health Number
-settings.interface.healthColT Nametag Health Color Team
-settings.interface.healthColE Nametag Health Color Enemy
-settings.interface.xpBarCol XP Bar Color
-settings.interface.xpBarOpac XP Bar Opacity
-settings.crosshair.header Crosshair
-settings.crosshair.type Type
-settings.crosshair.type.2 Custom
-settings.crosshair.type.3 Layered
-settings.crosshair.type.4 Image
-settings.crosshair.type.5 Precision
-settings.crosshair.style Style
-settings.crosshair.style.0 Cross
-settings.crosshair.style.1 Hollow Circle
-settings.crosshair.style.2 Solid Circle
-settings.crosshair.style.3 Hollow Square
-settings.crosshair.style.4 Solid Square
-settings.crosshair.image Image
-settings.crosshair.image.paste Crosshair Image
-settings.crosshair.always Always Show
-settings.crosshair.color Color
-settings.crosshair.shadow.color Shadow Color
-settings.crosshair.shadow.thickness Shadow Thickness
-settings.crosshair.size Size
-settings.crosshair.thickness Thickness
-settings.crosshair.gap Gap
-settings.crosshair.dot Dot
-settings.crosshair.opacity.use Use Custom Opacity
-settings.crosshair.opacity.custom Custom Opacity
-settings.hitmarker.header Hitmarker
-settings.hitmarker.color Color
-settings.hitmarker.kcolor Kill Color
-settings.hitmarker.thickness Thickness
-settings.hitmarker.opacity Opacity
-settings.hitmarker.leng Length
-settings.hitmarker.spacing Spacing
-settings.hitmarker.animD Anim Size
-settings.hitmarker.animS Anim Speed
-settings.hitmarker.hitm Show
-settings.hitmarker.hitmFad Fade Speed
-settings.hitmarker.custom Hitmarker Image
-settings.hitmarker.custom.paste Hitmarker Image URL
-settings.onKillS.style.0 Default
-settings.onKillS.style.1 Reduce Resolution
-settings.onKillS.style.2 Reduce FOV
-settings.onKillS.style.3 Increase FOV
-settings.serverb.header Server Browser
-settings.serverb.oldBrowser Legacy Browser
-settings.serverb.defaultRegionOnly Default Region Only
-settings.gameprivacy.header Gameplay Privacy
-settings.gameprivacy.streamer Streamer Mode
-settings.gameprivacy.anon Anonymous Mode
+settings.interface.hitInd Pokaži indikatore pogodka
+settings.interface.hitColor Boja indikatora pogodka
+settings.interface.dmg Prikaži štetu
+settings.interface.dmgCol Boja prikaza štete
+settings.interface.critCol Crit boja
+settings.interface.header Sučelje
+settings.interface.scale UI veličina
+settings.interface.ui Prikaži UI
+settings.interface.scoreboard Koristi staru tabelu
+settings.interface.oldBrowser Koristi stari pretraživač
+settings.interface.rarityanim Onemogući Animacije rijetkosti
+settings.interface.showPfp Prikaži Profilne Fotografije
+settings.interface.showTradeMsg Prikaži Trade Poruke
+settings.interface.hp Dinamični HP pokazivač
+settings.interface.dmgScale Veličina pokazatelja štete
+settings.interface.killf Pokaži prikaz ubijanja
+settings.interface.ping Prikaži Ping
+settings.interface.net-stats Prikaži mrežni status
+settings.interface.fps Prikaži FPS
+settings.interface.deaths Prikaži Brojač Smrti
+settings.interface.kd Prikaži K/D Brojač
+settings.interface.kills Prikaži Kill Brojač
+settings.interface.streak Prikaži Brojač Kill Niza
+settings.interface.score Prikaži Brojač bodova
+settings.interface.spectators Prikaži Brojač Posmatrača
+settings.interface.speed Prikaži Brzinu Kretanja
+settings.interface.speedOffX Prikaz Brzine X Pomak
+settings.interface.speedOffY Prikaz Brzine Y Pomak
+settings.interface.speedOpacity Prozirnost Prikaza Brzine
+settings.interface.speedScale Veličina Prikaza Brzine 
+settings.interface.speedColor Boja Prikaza Brzine (Trenutna)
+settings.interface.speedColorMax Boja Prikaza Brzine (Maksimalna)
+settings.interface.medals Prikaži medalje
+settings.interface.hideNames Prikaz oznaka s imenom 
+settings.interface.hideNames.team Samo tim
+settings.interface.hideNames.enemy Samo neprijatelji
+settings.interface.hideNames.all Svi
+settings.interface.nametagStyle Stil oznake sa imenom
+settings.interface.nametagOpac Prozirnost oznake sa imenom
+settings.interface.nametagStyle.health Samo HP
+settings.interface.nametagStyle.name Samo ime
+settings.interface.nametagStyle.nameLvl Samo ime i razina
+settings.interface.nametagStyle.all Sve
+settings.interface.healthNum Nametag Broj HP
+settings.interface.healthColT Nametag Health boja tima
+settings.interface.healthColE Nametag Health boja neprijatelja
+settings.interface.xpBarCol Boja XP Bar-a
+settings.interface.xpBarOpac Prozirnost XP Bar-a
+settings.crosshair.header Nišan
+settings.crosshair.type Tip
+settings.crosshair.type.2 Prilagođeni
+settings.crosshair.type.3 Slojeviti
+settings.crosshair.type.4 Slika
+settings.crosshair.type.5 Preciznost
+settings.crosshair.style Stil
+settings.crosshair.style.0 Križ
+settings.crosshair.style.1 Šuplji krug 
+settings.crosshair.style.2 Puni krug
+settings.crosshair.style.3 Šuplji kvadrat
+settings.crosshair.style.4 Puni kvadrat
+settings.crosshair.image Slika
+settings.crosshair.image.paste Slika nišana
+settings.crosshair.always Uvijek prikazuj
+settings.crosshair.color Boja
+settings.crosshair.shadow.color Boja sjene
+settings.crosshair.shadow.thickness Debljina sjene
+settings.crosshair.size Veličina
+settings.crosshair.thickness Debljina
+settings.crosshair.gap Razmak
+settings.crosshair.dot Točka
+settings.crosshair.opacity.use Koristi prilagođenu prozirnost
+settings.crosshair.opacity.custom Prilagođena prozirnost
+settings.hitmarker.header Indikator pogodka
+settings.hitmarker.color Boja
+settings.hitmarker.kcolor Boja ubistva
+settings.hitmarker.thickness Debljina
+settings.hitmarker.opacity Prozirnost
+settings.hitmarker.leng Duljina
+settings.hitmarker.spacing Razmak
+settings.hitmarker.animD Veličina Animacije
+settings.hitmarker.animS Brzina Animacije
+settings.hitmarker.hitm Prikaži
+settings.hitmarker.hitmFad Brzina blijeđenja
+settings.hitmarker.custom Slika indikatora pogodka
+settings.hitmarker.custom.paste URL indikatora pogodka
+settings.onKillS.style.0 Zadano
+settings.onKillS.style.1 Smanji rezoluciju
+settings.onKillS.style.2 Smanji FOV
+settings.onKillS.style.3 Povećaj FOV
+settings.serverb.header Pretraživač servera
+settings.serverb.oldBrowser Legacy Pretraživač
+settings.serverb.defaultRegionOnly Samo zadana regija
+settings.gameprivacy.header Privatnost igranja
+settings.gameprivacy.streamer Streamer Mod
+settings.gameprivacy.anon Anonimni Mod
 settings.gameprivacy.hideGameTitle Hide Game Title
-settings.gameplay.header Gameplay
+settings.gameplay.header Igra
 settings.gameplay.sensitivityX X Sensitivity
 settings.gameplay.sensitivityY Y Sensitivity
 settings.gameplay.aimsensX Aim X Sensitivity
 settings.gameplay.aimsensY Aim Y Sensitivity
-settings.gameplay.challenge Challenge Mode
-settings.gameplay.invert Invert Y-Axis
+settings.gameplay.challenge Challenged Mod
+settings.gameplay.invert Invertuj Y-Axis
 settings.gameplay.onkillS On Kill
 settings.gameplay.scrollDir Scroll Direction
-settings.controller.header Controller
+settings.controller.header Kontroler
 settings.controller.sensitivityX X Sensitivity
-settings.controller.disableCons Disable Controllers
+settings.controller.disableCons Onemogući kontroler
 settings.controller.sensitivityY Y Sensitivity
 settings.controller.aimsensX Aim X Sensitivity
 settings.controller.aimsensY Aim Y Sensitivity
-settings.controller.deadZoneL Dead Zone (Left)
-settings.controller.deadZoneR Dead Zone (Right)
+settings.controller.deadZoneL Dead Zone (Lijevo)
+settings.controller.deadZoneR Dead Zone (Desno)
 settings.controller.triggerThres Trigger Threshold
-settings.controller.vibration Vibration
+settings.controller.vibration Vibracija
 settings.controller.gradSpeed Gradual Speed
 settings.controller.invert Invert Y-Axis
 settings.mobile.header Mobile
@@ -273,65 +273,65 @@ settings.mobile.sensitivityX X Sensitivity
 settings.mobile.sensitivityY Y Sensitivity
 settings.mobile.aimsensX Aim X Sensitivity
 settings.mobile.aimsensY Aim Y Sensitivity
-settings.mobile.vibration Vibration
+settings.mobile.vibration Vibracija
 settings.mobile.gradSpeed Gradual Speed
 settings.mobile.invert Invert Y-Axis
-settings.audio.header Audio
-settings.audio.sound Master Volume
-settings.audio.ambient Ambient Volume
-settings.audio.voice Voice Volume
-settings.audio.weps Weapon Volume
-settings.audio.player Player Volume
-settings.audio.skin Cosmetics Volume
-settings.audio.ui UI Volume
-settings.audio.asset Asset Volume
-settings.audio.dialogue Action Volume
-settings.viewmodel.header View Model
+settings.audio.header Zvuk
+settings.audio.sound Master
+settings.audio.ambient Ambijent 
+settings.audio.voice Glas
+settings.audio.weps Oružje
+settings.audio.player Igrač
+settings.audio.skin Kozmetika
+settings.audio.ui UI Zvuk
+settings.audio.asset Zvukovi aseta
+settings.audio.dialogue Akcija
+settings.viewmodel.header Pregled igre
 settings.viewmodel.fov Field of View
-settings.viewmodel.fps Weapon FOV
-settings.viewmodel.bobbing Weapon Bobbing
-settings.viewmodel.leaning Weapon Leaning
-settings.viewmodel.show.primary Show Primary
-settings.viewmodel.show.secondary Show Secondary
-settings.viewmodel.roundArms Rounded Arms
-settings.viewmodel.show.melee Show Melee
-settings.viewmodel.show.ads Hide Weapon on ADS
-settings.viewmodel.toggleAim Toggle Aim
-settings.viewmodel.show.hands Show Hands
-settings.viewmodel.leftHand Left Handed
-settings.viewmodel.aimAnim Weapon Aim Animation
-settings.viewmodel.rot Weapon Rotation
-settings.viewmodel.xOff Weapon X Offset
-settings.viewmodel.yOff Weapon Y Offset
-settings.viewmodel.zOff Weapon Z Offset
-settings.viewmodel.weapSwapY Weapon Swap Y
-settings.viewmodel.weapReloadY Weapon Reload Y
-settings.viewmodel.yOffADS Weapon ADS Y Offset
-settings.viewmodel.adsFovMlt ADS FOV Power
-settings.editing.header Editing
-settings.editing.health.high HUD Health High
-settings.editing.health.low HUD Health Low
-settings.editing.speedLines Speed Lines
-settings.editing.spdLinesCol Speed Lines Color
-settings.editing.score.color Popup Score Color
-settings.editing.score.show Show Popup Score
-settings.editing.score.scale Popup Score Scale
-settings.editing.score.shadow Popup Score Shadow
-settings.editing.scoreOffX Popup Score X Offset
-settings.editing.scoreOffY Popup Score Y Offset
-settings.editing.prog.color Progress Bar Color
-settings.editing.prog.opacity Progress Bar Opacity
-settings.editing.prog.scale Progress Bar Scale
-settings.editing.prog.shadow Progress Bar Shadow
-settings.editing.progOffX Progress Bar X Offset
-settings.editing.progOffY Progress Bar Y Offset
-settings.editing.progRot Progress Bar Rotation
-settings.editing.progm.color Charge Bar Color
-settings.editing.progm.opacity Charge Bar Opacity
-settings.editing.progm.scale Charge Bar Scale
-settings.editing.progm.shadow Charge Bar Shadow
-settings.editing.progmOffX Charge Bar X Offset
-settings.editing.progmOffY Charge Bar Y Offset
+settings.viewmodel.fps FOV Oružja
+settings.viewmodel.bobbing Skakutanje Oružja
+settings.viewmodel.leaning Košenje Oružja
+settings.viewmodel.show.primary Pokaži Primarno Oružje
+settings.viewmodel.show.secondary Pokaži Sekundarno Oružje
+settings.viewmodel.roundArms Zaobljene Ruke
+settings.viewmodel.show.melee Prikaži Melee
+settings.viewmodel.show.ads Sakrij oružje pri ADS
+settings.viewmodel.toggleAim Toggle nišan
+settings.viewmodel.show.hands Prikaži Ruke
+settings.viewmodel.leftHand Ljevak
+settings.viewmodel.aimAnim Animacija nišana
+settings.viewmodel.rot Rotacija Oružja
+settings.viewmodel.xOff X Pomak Oružja
+settings.viewmodel.yOff Y Pomak Oružja
+settings.viewmodel.zOff Z Pomak Oružja
+settings.viewmodel.weapSwapY Zamjena oružja Y
+settings.viewmodel.weapReloadY Ponovno punjenje oružja Y
+settings.viewmodel.yOffADS ADS Y Pomak Oružja
+settings.viewmodel.adsFovMlt ADS FOV Snaga
+settings.editing.header Uređivanje
+settings.editing.health.high HUD HP Visok
+settings.editing.health.low HUD HP Nizak
+settings.editing.speedLines Linije Brzine
+settings.editing.spdLinesCol Boja linija brzine
+settings.editing.score.color Boja skočnih poena
+settings.editing.score.show Prikaži skočne poene
+settings.editing.score.scale Veličina skočnih poena
+settings.editing.score.shadow Sjena skočnih poena
+settings.editing.scoreOffX X Pomak skočnih poena
+settings.editing.scoreOffY Y Pomak skočnih poena
+settings.editing.prog.color Boja linije napretka
+settings.editing.prog.opacity Prozirnost linije napretka
+settings.editing.prog.scale Veličina linije napretka
+settings.editing.prog.shadow Prikaži liniju napretka
+settings.editing.progOffX X Pomak linije napretka 
+settings.editing.progOffY Y Pomak linije napretka
+settings.editing.progRot Rotacija linije napretka
+settings.editing.progm.color Boja linije punjenja
+settings.editing.progm.opacity Prozirnost linije punjenja
+settings.editing.progm.scale Veličina linije punjenja
+settings.editing.progm.shadow Sjena linije punjenja
+settings.editing.progmOffX X Pomak linije punjenja
+settings.editing.progmOffY Y Pomak linije punjenja
 settings.editing.progmRot Charge Bar Rotation
 settings.editing.saturation Saturation (In-game)
 settings.editing.menuSaturation Saturation (UI)
