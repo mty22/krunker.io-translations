@@ -741,7 +741,7 @@ windows.clan.delete 정말 클랜을 삭제하시겠습니까?
 windows.clan.kick 정말 {0}님을 클랜에서 추방하시겠습니까?
 windows.store.premium.purchase 정말 크런커 프리미엄 {0}일을 구매하시겠습니까? 
 windows.playerlist.ban 정말 {0}님을 이 게임에서 제외시키겠습니까?
-windows.playerlist.flag 정말 {0}님을 수상함 표시하시겠습니까?
-windows.playerlist.unflag 정말 {0}님의 수상함 표시를 취소하시겠습니까?
+windows.playerlist.flag 정말 {0}님에 해커태그를 다시겠습니까?
+windows.playerlist.unflag 정말 {0}님의 해커태그를 취소하시겠습니까?
 windows.playerlist.punish 정말 {0}님을 제재하시겠습니까?
 `;
