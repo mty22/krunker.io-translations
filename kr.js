@@ -100,7 +100,7 @@ settings.experimental.shaderRendering 인스턴스 렌더링
 settings.dev.header 개발자
 settings.dev.forceUpdate 스킨 강제 업데이트
 settings.dev.forceRegen 플레이어 항상 치유하기
-settings.dev.extraBan 추가 영구 정지 
+settings.dev.extraBan 영구 정지 추가 정보
 settings.chat.header 채팅
 settings.chat.chat 채팅창 표시
 settings.chat.chat.all 항상
