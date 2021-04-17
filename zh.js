@@ -1,5 +1,5 @@
 module.exports = `
-menu.btn.ranked 排位 
+menu.btn.ranked 排位比赛 
 menu.btn.shop 商店 
 menu.btn.social 社区 
 menu.btn.maps 游戏 
