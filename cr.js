@@ -354,13 +354,13 @@ settings.mods.borderCol Ivice Optike
 settings.mods.borderOpac Prozirnost Ivica Optike
 settings.mods.scope Slika Optike
 settings.mods.scope.paste URL Slike Optike
-settings.mods.scope.opacity Prozirnost Oprike
+settings.mods.scope.opacity Prozirnost Optike
 settings.mods.scope.width Širina Slike Optike
 settings.mods.scope.height Dužina Slike Optike
-settings.mods.dot Slika mreže
+settings.mods.dot Slika Meže
 settings.mods.dot.width Širina Slike Mreže
 settings.mods.dot.height Dužina Slike Mreže
-settings.mods.dot.paste URL mreže
+settings.mods.dot.paste URL Meže
 settings.mods.endmessage Poruka na kraju meča
 settings.mods.profile Profilna Slika
 settings.mods.profile.paste URL Profilne Slike
@@ -372,8 +372,8 @@ settings.mods.deaths Ikona Smrti
 settings.mods.deaths.paste URL Ikone Smrti
 settings.mods.streak Ikona Brojača Kill Niza
 settings.mods.streak.paste URL Brojača Kill Niza
-settings.mods.timer Ikona tajmera
-settings.mods.timer.paste URL Ikone tajmera
+settings.mods.timer Ikona Tajmera
+settings.mods.timer.paste URL Ikone Tajmera
 settings.mods.usedamage Koristi Damage Overlay
 settings.mods.damage Slika Damage Overlay-a
 settings.mods.damage.paste URL Slike Damage Overlay-a
