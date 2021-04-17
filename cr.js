@@ -638,41 +638,41 @@ server.config.private Privatno
 server.config.krRewards KR Nagrade
 server.config.forceDefault Zahtjevav zadane postavke
 server.config.warmupTime Vrijeme Zagrijavanja
-server.config.objtvTime Objective Vrijeme
+server.config.objtvTime Vrijeme Cilja
 server.config.forceSpawn Auto Respawn Vrijeme
 server.config.scoreLimit Limit Poena
 server.config.keepTScore Tim Zadrži poene
-server.config.forceC Force Mode Classes
-server.config.logTim Log Time (Race, Parkour)
+server.config.forceC Prisili Klase Određene Igre
+server.config.logTim Log Vrijeme (Race, Parkour)
 server.config.hitBoxPad Hitbox Padding
-server.config.hpRegen Health Regen
-server.config.disableB Disable Borders
+server.config.hpRegen HP Regeneracija
+server.config.disableB Onemogući Granice
 server.config.throwMel Throwable Melees
-server.config.noCosm Disable Cosmetics
-social.login Login/Register
-social.login.failed Login Failed
-social.login.buy Login to Buy
-social.login.sell Login to Sell
-social.login.gift Login to Gift
-social.login.proccessing Logging in...
-social.since Since
-social.user.maps User Games
-social.user.mods User Mods
-social.maps.none No Games found...
-social.mods.none No Mods found...
-social.market.price.low Lowest Price
-social.market.price.list List Price in
-social.market.searching Searching
-social.market.listed listed {0} ago
-social.market.list List Item
-social.market.unlist Unlist
-social.market.unlisting Unlisting Item...
-social.market.posting Posting Item...
-social.market.req lvl {0} required
-social.market.cant Can't Afford
-social.market.purchase Purchase
-social.market.fee No List Fee
-social.market.failed Failed. Try Again
+server.config.noCosm Onemogući Kozmetiku
+social.login Uloguj se/Registriraj se
+social.login.failed Prijava nije uspjela
+social.login.buy Prijavite se za kupnju
+social.login.sell Prijavite se za prodaju
+social.login.gift Prijavite se da biste poklonili
+social.login.proccessing Prijavljivanje..
+social.since Od
+social.user.maps Korisničke Igre
+social.user.mods Korisnički Modovi
+social.maps.none Nisu Pronađene Igre...
+social.mods.none Nisu Pronađeni Modovi
+social.market.price.low Najniža Cijena
+social.market.price.list Kataloška cijena u
+social.market.searching Traženje
+social.market.listed objavljeno prije {0} 
+social.market.list Objavi item
+social.market.unlist Ukloni item
+social.market.unlisting Uklanjanje Item-a...
+social.market.posting Postavljanje Item...
+social.market.req potrebna razina {0} 
+social.market.cant Ne možeš priuštiti
+social.market.purchase Kupi
+social.market.fee Bez naknade
+social.market.failed Neuspješno. Pokušaj opet
 social.market.head Head Item
 social.market.back Back Item
 social.market.waist Waist Item
@@ -682,66 +682,66 @@ social.market.pet Pet Item
 social.market.melee Melee Item
 social.market.spray Spray Item
 social.market.dye Dye Item
-social.market.none No Items Found
-social.market.login You must be logged in.
-social.market.grace ready in {0}
-social.market.sort Filter/Sort
-social.market.filter Search
-social.market.sort2 Sort
-social.market.price.high Highest Price
-social.trading.submitting Submitting Offer...
-social.market.gift.amount Gift Amount in
-social.market.fee.gift No Fee
-social.market.gift Gift KR
-social.market.gift.msg Leave a message
-respawn.auto Auto Respawning in {0}
-custom.host.ranked Can't host match while in ranked.
-funds.insufficient Insufficient Funds
-funds.out It appears you have run out of Krunkies.
-custom.passcode.long Password too long
-custom.passcode.input Enter Server Password to join
-custom.tryagain Please try again.
-purchase.kr.success Added {0} KR to your account
-limited.purchase.ask Are you sure you want to purchase [{0}] for {1} KR?
-limited.purchase.success Added {0} to your inventory
-pretend.exit press [{0}] again to exit
-settings.loaded Settings Loaded
-settings.loaded.none No settings found
-account.login.required Must be logged in
-account.banned.hack This account has been banned for Hacking.
-account.banned.appeal If you want to appeal your ban, contact:
-account.delete You may request to delete your account, if the request is not cancelled within 14 days the account and all associated data will be permanently removed.
-account.delete.request Are you sure you want to request an account deletion?
-account.delete.cancel Are you sure you want to cancel account deletion?
-spin.free.available FREE KR AVAILABLE!
-spin.free.claim This spin is available to claim once per Hour after completing a match.
-spin.free.disable These Popups can be disabled in General Settings
-mod.reset.0 Will take effect after respawning.
-mod.reset.1 Map Objects dont get reset
-windows.profile.picture Change Picture
-stats.assists Assists
+social.market.none Nisu pronađeni item-i
+social.market.login Morate biti ulogovani.
+social.market.grace spreman za {0}
+social.market.sort Filtriraj/Sortiraj
+social.market.filter Pretraži
+social.market.sort2 Sortiraj
+social.market.price.high Najviša cijena
+social.trading.submitting Ponuda...
+social.market.gift.amount Pokloni iznos od
+social.market.fee.gift Nema Naknade
+social.market.gift Pokloni KR
+social.market.gift.msg Ostavite poruku
+respawn.auto Auto Respawn za {0}
+custom.host.ranked Ne možete hostati meč dok ste u rangiranoj igri.
+funds.insufficient Nedovoljni KR
+funds.out Izgleda da vam je ponestalo KR.
+custom.passcode.long Zaporka preduga.
+custom.passcode.input Unesite zaporku servera da bi pristupili igri.
+custom.tryagain Molimo pokušajte opet.
+purchase.kr.success Dodano {0} KR Vašem računu.
+limited.purchase.ask Da li ste sigurni da želiti kupit[{0}] za {1} KR?
+limited.purchase.success Dodali smo {0} vašem inventaru.
+pretend.exit stisnite [{0}] ponovo da napustite.
+settings.loaded Postavke Učitane
+settings.loaded.none Nismo pronašli postavke
+account.login.required Morate biti ulogovani.
+account.banned.hack Ovaj račun je banovan zbog hakiranja.
+account.banned.appeal Ako želite da apelujete vaš ban, kontaktirajte:
+account.delete Možete zatražiti brisanje vašeg računa, ako ne poništite odluku unutar 14 dana vaš račun i svi povezani podatci će biti trajno obrisani.
+account.delete.request Da li ste sigurni da želite podnijeti zahtjev za brisanje računa?
+account.delete.cancel Da li ste sigurni da želite otkazati brisanje računa?
+spin.free.available DOSTUPAN BESPLATNI KR!
+spin.free.claim Ovaj spin je dostupan svaki sat poslije jednog meča.
+spin.free.disable Ovi skočni prozori se mogu onemogućiti u postavkama.
+mod.reset.0 Stupa na snagu nakon respawna.
+mod.reset.1 Objekti na mapi se ne resetuju.
+windows.profile.picture Promijeni sliku
+stats.assists Assits
 stats.nukes Nukes
 stats.melee Melee
 stats.fistkills Beatdowns
 stats.thrownkills Bullseyes
 stats.headshots Headshots
 stats.wallbangs Wallbangs
-stats.sprays Sprays Placed
-windows.host.default.settings Enabling Default Settings allows for storing Player Progress and Highscores
-windows.host.default.commands *Host Commands are Disabled in this mode: /noclip /god /smite etc
-windows.host.rewards Enabling KR Rewards forces the Server to use Default Settings & allows players to earn KR from the map funds:
-windows.store.wheels.sub Try your luck and spin for a chance to win some new skins!
-windows.store.currency * Prices in USD can be converted to your local currency at an exchange rate defined by the payment provider or bank
-windows.store.creator Consider Support your favorite Content Creator by using a Creator Code
-windows.chall.customs Challenges can't be completed in Custom Matches
-twitch.link Are you sure you want to link a twitch account?
-twitch.unlink Are you sure you want to unlink your twitch account?
-windows.clan.leave Are you sure you want to leave the clan?
-windows.clan.delete Are you sure you want to delete the clan?
-windows.clan.kick Are you sure you want kick {0} from the clan?
-windows.store.premium.purchase Are you sure you want to purchase {0} days of Premium?
-windows.playerlist.ban Are you sure you want ban {0} from this game?
-windows.playerlist.flag Are you sure you want to Flag {0}?
-windows.playerlist.unflag Are you sure you want to Unflag {0}?
-windows.playerlist.punish Are you sure you want to take action on {0}?
+stats.sprays Sprejova postavljeno
+windows.host.default.settings Omogućavanje zadanih postavki omogućuje pohranu napretka igrača i najboljih rezultata
+windows.host.default.commands *Host komande su onemogućene u ovoj igri: /noclip /god /smite etc
+windows.host.rewards Omogućavanje KR nagrada prisiljava igrače da koriste zadane postavke i omogućuje igračima da zarade KR od sredstava pohranjenih u mapi:
+windows.store.wheels.sub Okušajte sreću i zavrtite kotačić za šansu da osvojite nove skinove!
+windows.store.currency * Cijene u USD-u mogu se pretvoriti u vašu lokalnu valutu određenu lokalninm Payment provajderom ili bankom.
+windows.store.creator Koristite Creator kod da podržite vašeg omiljenog Content Creator-a. 
+windows.chall.customs Izazovi se ne mogu raditi u Custom igrama.
+twitch.link Jeste li sigurni da želite povezati Twitch račun?
+twitch.unlink Jeste li sigurni da želiti odjaviti Twitch račun?
+windows.clan.leave Jeste li sigurni da želite napusiti klan?
+windows.clan.delete Jeste li sigurni da želite obrisati klan?
+windows.clan.kick Jeste li sigurni da želite izbaciti {0} iz klana?
+windows.store.premium.purchase Jeste li sigurni da želite kupiti {0} dana Premium-a?
+windows.playerlist.ban Jeste li sigurni da želite banovati {0} iz ove igre?
+windows.playerlist.flag Jeste li sigurni da želite označiti {0}?
+windows.playerlist.unflag Jeste li sigurni da želite Unflag {0}?
+windows.playerlist.punish Jeste li sigurni da želite poduzeti akciju na {0}?
 `;
