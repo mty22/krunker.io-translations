@@ -252,7 +252,7 @@ settings.gameplay.sensitivityX X Sensitivity
 settings.gameplay.sensitivityY Y Sensitivity
 settings.gameplay.aimsensX Aim X Sensitivity
 settings.gameplay.aimsensY Aim Y Sensitivity
-settings.gameplay.challenge Challenged Mod
+settings.gameplay.challenge Challenge Mod
 settings.gameplay.invert Invertuj Y-Axis
 settings.gameplay.onkillS On Kill
 settings.gameplay.scrollDir Scroll Direction
@@ -267,7 +267,7 @@ settings.controller.deadZoneR Dead Zone (Desno)
 settings.controller.triggerThres Trigger Threshold
 settings.controller.vibration Vibracija
 settings.controller.gradSpeed Gradual Speed
-settings.controller.invert Invert Y-Axis
+settings.controller.invert Invertuj Y-Axis
 settings.mobile.header Mobile
 settings.mobile.sensitivityX X Sensitivity
 settings.mobile.sensitivityY Y Sensitivity
@@ -667,7 +667,7 @@ social.market.listed objavljeno prije {0}
 social.market.list Objavi item
 social.market.unlist Ukloni item
 social.market.unlisting Uklanjanje Item-a...
-social.market.posting Postavljanje Item...
+social.market.posting Postavljanje Item-a...
 social.market.req potrebna razina {0} 
 social.market.cant Ne možeš priuštiti
 social.market.purchase Kupi
@@ -741,7 +741,7 @@ windows.clan.delete Jeste li sigurni da želite obrisati klan?
 windows.clan.kick Jeste li sigurni da želite izbaciti {0} iz klana?
 windows.store.premium.purchase Jeste li sigurni da želite kupiti {0} dana Premium-a?
 windows.playerlist.ban Jeste li sigurni da želite banovati {0} iz ove igre?
-windows.playerlist.flag Jeste li sigurni da želite označiti {0}?
-windows.playerlist.unflag Jeste li sigurni da želite Unflag {0}?
+windows.playerlist.flag Jeste li sigurni da želite banovati {0}?
+windows.playerlist.unflag Jeste li sigurni da želite unboanovati {0}?
 windows.playerlist.punish Jeste li sigurni da želite poduzeti akciju na {0}?
 `;
