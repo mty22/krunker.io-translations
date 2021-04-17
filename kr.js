@@ -326,13 +326,13 @@ settings.editing.prog.shadow 진행 막대 그림자
 settings.editing.progOffX 진행 막대 좌우 위치
 settings.editing.progOffY 진행 막대 상하 위치
 settings.editing.progRot 진행 막대 회전
-settings.editing.progm.color Charge Bar Color 충전 바 색상
-settings.editing.progm.opacity Charge Bar Opacity 충전 바 불투명도
-settings.editing.progm.scale Charge Bar Scale 충전 바 크기
-settings.editing.progm.shadow Charge Bar Shadow 충전 바 그림자
-settings.editing.progmOffX Charge Bar X Offset 충전 바 좌우 위치
-settings.editing.progmOffY Charge Bar Y Offset 충전 바 상하 위치
-settings.editing.progmRot Charge Bar Rotation 충전 바 회전
+settings.editing.progm.color Charge Bar Color 충전 막대 색상
+settings.editing.progm.opacity Charge Bar Opacity 충전 막대 불투명도
+settings.editing.progm.scale Charge Bar Scale 충전 막대 크기
+settings.editing.progm.shadow Charge Bar Shadow 충전 막대 그림자
+settings.editing.progmOffX Charge Bar X Offset 충전 막대 좌우 위치
+settings.editing.progmOffY Charge Bar Y Offset 충전 막대 상하 위치
+settings.editing.progmRot Charge Bar Rotation 충전  회전
 settings.editing.saturation 그래픽 채도
 settings.editing.menuSaturation 인터페이스 채도
 settings.editing.hue 그래픽 색상
@@ -581,7 +581,7 @@ matchmaker.updating 업데이트중...
 matchmaker.invalid 게임을 찾을 수 없습니다.
 matchmaker.none 서버 용량이 가득 찼습니다.
 adblocker 무료 KR을 받으려면 광고 차단기를 끄세요.
-ad-failed 광고를 로딩하지 못하였습니다. 나중에 다시 시도하세요.
+ad-failed 광고를 지 못하였습니다. 나중에 다시 시도하세요.
 streamers.views 시청자 {0}명
 streamers.none 생방송이 없습니다!
 error.extentions 확장 프로그램을 사용하고 있다면 비활성화 해보십시오.
@@ -715,11 +715,11 @@ account.delete.request 계정의 완전삭제를 요청하시겠습니까?
 account.delete.cancel 계정의 완전삭제 요청을 취소하시겠습니까?
 spin.free.available 무료 KR 받기!
 spin.free.claim 이 스핀은 한 시간마다 한 매치를 끝낸 후에 얻을 수 있습니다.
-spin.free.disable 이 팝업들은 General 세팅에서 차단할 수 있습니다.
+spin.free.disable 이 팝업들은  세팅에서 차단할 수 있습니다.
 mod.reset.0 리스폰 후 영향을 줌.
-mod.reset.1 맵 오브젝트는 리셋의 영향을 받지 않음
+mod.reset.1 맵 물체는 새로고침의 영향을 받지 않음
 windows.profile.picture 사진 교체
-stats.assists 어시스트
+stats.assists 
 stats.nukes 뉴크
 stats.melee 근접 킬
 stats.fistkills 격투 킬
