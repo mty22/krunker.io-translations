@@ -1,252 +1,252 @@
 module.exports = `
-	menu.btn.ranked Игра на рейтинг
-	menu.btn.shop Магазин
-	menu.btn.social Сообщество
-	menu.btn.maps Игры
-	menu.btn.mods Моды
-	menu.btn.settings Настройки
-	menu.btn.customize Кастомизация
-	menu.btn.invite Приглашение
-	menu.btn.invite.clicked Скопировано
-	menu.btn.join Присоединиться
-	menu.btn.host Запустить игру
-	menu.btn.browser Серверы
-	generic.wait Пожалуйста подождите…
-	generic.loading Загрузка...
-	generic.none Ничего
-	generic.connecting Соединение...
-	generic.select Выбрать
-	generic.delete Удалить
-	generic.save Сохранить
-	generic.load Загрузить
-	generic.search Поиск
-	generic.leave Покинуть
-	generic.default По умолчанию
-	generic.submit Отправить
-	generic.create Создать
-	generic.random Случайный
-	generic.failed Ошибка
-	generic.success Успех!
-	generic.name Имя
-	generic.level Уровень
-	generic.score Очки
-	generic.off Выключен
-	generic.defeat Поражение
-	generic.victory Победа
-	generic.matchover Матч завершен 
-	generic.matchaband Матч заброшен
-	generic.follow Подписаться
-	generic.unfollow Отписаться
-	generic.followers Подписчики
-	generic.following Подписки
-	generic.games Игры
-	generic.wins Победы
-	generic.lose Поражения
-	generic.clan Клан
-	generic.games.played Игр сыграно
-	generic.games.won Игры выиграно
-	generic.games.lost Игр проиграно
-	generic.timep Время в игре
-	generic.kills Убийства
-	generic.deaths Смерти
-	generic.kdr Полиция
-	generic.time Время
-	generic.logout Выйти
-	generic.logout.sessions Выход со всех устройств
-	generic.username Введите имя
-	generic.password Введите пароль
-	generic.register Регистрация
-	generic.login Войти
-	generic.accuracy Аккуратность
-	player.waiting Ожидание игроков
-	player.died Вы умерли
-	player.killed Убиты
-	player.killstreak {0} В серии убийств {1} 
-	player.inactive Удален за неактивность
-	player.disconnect Отключение
-	timer.end Следующий раунд через {0}
-	leaderboard.empty Пустая карта
-	popup.checkpoint Сохранение!
-	app.play Нажмите для игры
-	app.spectate Нажмите для наблюдения
-	app.play.mobile Нажмите для игры
-	app.spectate.mobile Нажмите для наблюдения
-	app.play.controller Нажмите старт
-	app.spectate.controller Начать наблюдение
-	purchase.error Произошла ошибка
-	purchase.error.click Нажмите здесь</a> и попробуйте снова!
-	purchase.error.limit Вы вероятно превысили дневной лимит транзакций
-	settings.reset Сброс
-	settings.reset.confirm Вы уверены, что хотите обнулить ваши настройки?
-	settings.import Ввести настройки
-	settings.export Скачать настройки
-	settings.none Настройки не найдены
-	settings.backup Резервные настройки
-	settings.controls.change Управление
-	settings.controls.press Нажмите любую клавишу
-	settings.local.header Локализация <span id="requiresRestart"><span style="color: #eb5656">*</span> требует перезапуска</span>
-	settings.local.region Регион по умолчанию
-	settings.local.lang Язык
-	settings.network.header Настройки сети
-	settings.network.sendRate Высокий тикрейт
-	settings.network.netRerouting Автоматическая маршрутизация(Влияет на пинг)
-	settings.network.lagComp Компенсация задержки
-	settings.popup.header Всплывающие окна
-	settings.popup.freeKRPop Показывать окно бесплатных KR
-	settings.experimental.header Экспериментальные
-	settings.experimental.aimFreezeFix Исправление подвисания цели
-	settings.experimental.mouseFlickFix Исправление случайных фликов мыши
-	settings.experimental.shaderRendering Рендеринг на расстоянии
-	settings.dev.header Настройки разработчика
-	settings.dev.forceUpdate Принудительное обновление скинов
-	settings.dev.forceRegen Всегда лечить игрока
-	settings.dev.extraBan Дополнительная информация о бане
-	settings.chat.header Чат
-	settings.chat.chat Show Показать окно чата
-	settings.chat.chat.all Всегда
-	settings.chat.chat.focus Пока сфокусирован
-	settings.chat.messages Показывать сообщения игроков
-	settings.chat.unboxings Показывать открытия
-	settings.chat.chatOp Непрозрачность чата
-	settings.chat.chatBGOp Непрозрачность BG чата
-	settings.chat.chatHeight Высота чата
-	settings.chat.chatTimer Время сообщения в чате (с)
-	settings.chat.chatTextOutline Текст чата
-	settings.chat.chatFilter Фильтр ненормативной лексики
-	settings.quality.header Производительность
-	settings.quality.updRate Ограничение кадров
-	settings.quality.rendDst Расстояние отрисовки 
-	settings.quality.res Разрешение
-	settings.quality.part Частицы
-	settings.quality.mapDet Детали карты
-	settings.quality.noTex Выключить текстуры
-	settings.quality.partdist Расстояние между частицами
-	settings.quality.renderdist Расстояние отрисовки
-	settings.quality.reflection Качество изображения
-	settings.quality.antiAlias Сглаживание
-	settings.quality.shadows Тени
-	settings.quality.softShad Мягкие тени
-	settings.quality.highResShad Тени в высоком разрешении
-	settings.quality.shadowsDynamic Динамические тени
-	settings.quality.trails Следы от пуль
-	settings.quality.yourTrails Твои следы от пуль
-	settings.quality.mflash Вспышка от выстрела
-	settings.quality.flap Крышечка от прицела 
-	settings.quality.lowSpec Низкие характеристики
-	settings.quality.ambient Окружающее затенение
-	settings.quality.ambientOld Старое затенение (Когда возможно)
-	settings.quality.textureAnim Анимации текстур
-	settings.quality.objectAnim Анимации объектов
-	settings.quality.screenShake Тряска экрана
-	settings.quality.weaponShine Сияние оружия
-	settings.quality.rendGamma Цветовая гамма
-	settings.quality.lighting Освещение
-	settings.quality.showExplo Показать взрывы
-	settings.quality.aspectRatio Соотношение сторон
-	settings.post.header Главная постобработка
-	settings.post.post Вторичная постобработка
-	settings.post.bloom Растения
-	settings.post.bloomThreshold Предел растений
-	settings.post.bloomStrength Мощность растений
-	settings.post.bloomRadius Радиус растений
-	settings.post.ssao Освещение SSAO
-	settings.post.ssaoRadius Радиус освещения SSAO 
-	settings.interface.hitInd Показывать индикатор попаданий
-	settings.interface.hitColor Цвет индикатора попадания
-	settings.interface.dmg Показывать урон
-	settings.interface.dmgCol Цвет урона
-	settings.interface.critCol Цвет критического урона
-	settings.interface.header Интерфейс
-	settings.interface.scale Масштаб интерфейса
-	settings.interface.ui Показывать интерфейс
-	settings.interface.scoreboard Использовать старую доску очков
-	settings.interface.oldBrowser Использовать старый браузер
-	settings.interface.rarityanim Отключить анимацию редкости
-	settings.interface.showPfp Показывать изображение профиля
-	settings.interface.showTradeMsg Показывать сообщения трейдов
-	settings.interface.hp Динамическая полоса здоровья
-	settings.interface.dmgScale Масштаб повреждений
-	settings.interface.killf Показывать убийства подряд
-	settings.interface.ping Показывать PING
-	settings.interface.net-stats Показывать сетевую статистику
-	settings.interface.fps Показывать FPS
-	settings.interface.deaths Показывать счетчик смертей
-	settings.interface.kd Показывать соотношение убийств к смертям
-	settings.interface.kills Показывать счетчик убийств
-	settings.interface.streak Показывать убийства подряд
-	settings.interface.score Показывать количество набранных очков
-	settings.interface.spectators Показать счетчик зрителей
-	settings.interface.speed Показать скорость движения
-	settings.interface.speedOffX Расположение счетчика скорости по оси Х
-	settings.interface.speedOffY Расположение счетчика скорости по оси У
-	settings.interface.speedOpacity Непрозрачность счетчика скорости
-	settings.interface.speedScale Размер символов на счетчике скорости
-	settings.interface.speedColor Цвет счетчика скорости (Текущий)
-	settings.interface.speedColorMax Цвет счетчика скорости (Максимальный)
-	settings.interface.medals Показывать медали
-	settings.interface.hideNames Отображение имен
-	settings.interface.hideNames.team Только команды
-	settings.interface.hideNames.enemy Только врагов
-	settings.interface.hideNames.all Всех
-	settings.interface.nametagStyle Стиль имени
-	settings.interface.nametagOpac Непрозрачность имени
-	settings.interface.nametagStyle.health Только здоровье
-	settings.interface.nametagStyle.name Только имя
-	settings.interface.nametagStyle.nameLvl Только имя и уровень
-	settings.interface.nametagStyle.all Все
-	settings.interface.healthNum Имя количество здоровья
-	settings.interface.healthColT Имя здоровье цвет члена команды
-	settings.interface.healthColE Имя здоровье цвет противника 
-	settings.interface.xpBarCol Цвет панели опыта
-	settings.interface.xpBarOpac Прозрачность панели опыта
-	settings.crosshair.header Прицел
-	settings.crosshair.type Тип
-	settings.crosshair.type.2 Пользовательский
-	settings.crosshair.type.3 Многослойный
-	settings.crosshair.type.4 Изображение
-	settings.crosshair.type.5 Отчетливость
-	settings.crosshair.style Стиль
-	settings.crosshair.style.0 Перекрестие
-	settings.crosshair.style.1 Пустой круг
-	settings.crosshair.style.2 Сплошной круг
-	settings.crosshair.style.3 Полый квадрат
-	settings.crosshair.style.4 Сплошной квадрат
-	settings.crosshair.image Изображение
-	settings.crosshair.image.paste Изображение перекрестия
-	settings.crosshair.always Всегда показывать
-	settings.crosshair.color Цвет
-	settings.crosshair.shadow.color Цвет тени
-	settings.crosshair.shadow.thickness Толщина тени
-	settings.crosshair.size Размер
-	settings.crosshair.thickness Толщина
-	settings.crosshair.gap Зазор
-	settings.crosshair.dot Точка
-	settings.crosshair.opacity.use Использовать настраиваемому прозрачность
-	settings.crosshair.opacity.custom Пользовательская прозрачность
-	settings.hitmarker.header Индикатор попадания
-	settings.hitmarker.color Цвет
-	settings.hitmarker.kcolor Цвет убийства
-	settings.hitmarker.thickness Толщина
-	settings.hitmarker.opacity Непрозрачность
-	settings.hitmarker.leng Длинна
-	settings.hitmarker.spacing Интервал
-	settings.hitmarker.animD Размер анимации
-	settings.hitmarker.animS Скорость анимации
-	settings.hitmarker.hitm Показывать
-	settings.hitmarker.hitmFad Скорость затухания
-	settings.hitmarker.custom Изображение индикатора попадания
-	settings.hitmarker.custom.paste URL изображения индикатора попадания
-	settings.onKillS.style.0 По умолчанию
-	settings.onKillS.style.1 Уменьшить разрешение
-	settings.onKillS.style.2 Уменьшить угол обзора
-	settings.onKillS.style.3 Увеличить угол обзора
-	settings.serverb.header Обозреватель сервера
-	settings.serverb.oldBrowser Устаревший браузер
-	settings.serverb.defaultRegionOnly Только регион выбранный по умолчанию
-	settings.gameprivacy.header Конфиденциальность игрового процесса
-	settings.gameprivacy.streamer Режим стримера
-	settings.gameprivacy.anon Анонимный режим
-	settings.gameprivacy.hideGameTitle Скрыть название игры
+menu.btn.ranked Игра на рейтинг
+menu.btn.shop Магазин
+menu.btn.social Сообщество
+menu.btn.maps Игры
+menu.btn.mods Моды
+menu.btn.settings Настройки
+menu.btn.customize Кастомизация
+menu.btn.invite Приглашение
+menu.btn.invite.clicked Скопировано
+menu.btn.join Присоединиться
+menu.btn.host Запустить игру
+menu.btn.browser Серверы
+generic.wait Пожалуйста подождите…
+generic.loading Загрузка...
+generic.none Ничего
+generic.connecting Соединение...
+generic.select Выбрать
+generic.delete Удалить
+generic.save Сохранить
+generic.load Загрузить
+generic.search Поиск
+generic.leave Покинуть
+generic.default По умолчанию
+generic.submit Отправить
+generic.create Создать
+generic.random Случайный
+generic.failed Ошибка
+generic.success Успех!
+generic.name Имя
+generic.level Уровень
+generic.score Очки
+generic.off Выключен
+generic.defeat Поражение
+generic.victory Победа
+generic.matchover Матч завершен 
+generic.matchaband Матч заброшен
+generic.follow Подписаться
+generic.unfollow Отписаться
+generic.followers Подписчики
+generic.following Подписки
+generic.games Игры
+generic.wins Победы
+generic.lose Поражения
+generic.clan Клан
+generic.games.played Игр сыграно
+generic.games.won Игры выиграно
+generic.games.lost Игр проиграно
+generic.timep Время в игре
+generic.kills Убийства
+generic.deaths Смерти
+generic.kdr Полиция
+generic.time Время
+generic.logout Выйти
+generic.logout.sessions Выход со всех устройств
+generic.username Введите имя
+generic.password Введите пароль
+generic.register Регистрация
+generic.login Войти
+generic.accuracy Аккуратность
+player.waiting Ожидание игроков
+player.died Вы умерли
+player.killed Убиты
+player.killstreak {0} В серии убийств {1} 
+player.inactive Удален за неактивность
+player.disconnect Отключение
+timer.end Следующий раунд через {0}
+leaderboard.empty Пустая карта
+popup.checkpoint Сохранение!
+app.play Нажмите для игры
+app.spectate Нажмите для наблюдения
+app.play.mobile Нажмите для игры
+app.spectate.mobile Нажмите для наблюдения
+app.play.controller Нажмите старт
+app.spectate.controller Начать наблюдение
+purchase.error Произошла ошибка
+purchase.error.click Нажмите здесь</a> и попробуйте снова!
+purchase.error.limit Вы вероятно превысили дневной лимит транзакций
+settings.reset Сброс
+settings.reset.confirm Вы уверены, что хотите обнулить ваши настройки?
+settings.import Ввести настройки
+settings.export Скачать настройки
+settings.none Настройки не найдены
+settings.backup Резервные настройки
+settings.controls.change Управление
+settings.controls.press Нажмите любую клавишу
+settings.local.header Локализация <span id="requiresRestart"><span style="color: #eb5656">*</span> требует перезапуска</span>
+settings.local.region Регион по умолчанию
+settings.local.lang Язык
+settings.network.header Настройки сети
+settings.network.sendRate Высокий тикрейт
+settings.network.netRerouting Автоматическая маршрутизация(Влияет на пинг)
+settings.network.lagComp Компенсация задержки
+settings.popup.header Всплывающие окна
+settings.popup.freeKRPop Показывать окно бесплатных KR
+settings.experimental.header Экспериментальные
+settings.experimental.aimFreezeFix Исправление подвисания цели
+settings.experimental.mouseFlickFix Исправление случайных фликов мыши
+settings.experimental.shaderRendering Рендеринг на расстоянии
+settings.dev.header Настройки разработчика
+settings.dev.forceUpdate Принудительное обновление скинов
+settings.dev.forceRegen Всегда лечить игрока
+settings.dev.extraBan Дополнительная информация о бане
+settings.chat.header Чат
+settings.chat.chat Show Показать окно чата
+settings.chat.chat.all Всегда
+settings.chat.chat.focus Пока сфокусирован
+settings.chat.messages Показывать сообщения игроков
+settings.chat.unboxings Показывать открытия
+settings.chat.chatOp Непрозрачность чата
+settings.chat.chatBGOp Непрозрачность BG чата
+settings.chat.chatHeight Высота чата
+settings.chat.chatTimer Время сообщения в чате (с)
+settings.chat.chatTextOutline Текст чата
+settings.chat.chatFilter Фильтр ненормативной лексики
+settings.quality.header Производительность
+settings.quality.updRate Ограничение кадров
+settings.quality.rendDst Расстояние отрисовки 
+settings.quality.res Разрешение
+settings.quality.part Частицы
+settings.quality.mapDet Детали карты
+settings.quality.noTex Выключить текстуры
+settings.quality.partdist Расстояние между частицами
+settings.quality.renderdist Расстояние отрисовки
+settings.quality.reflection Качество изображения
+settings.quality.antiAlias Сглаживание
+settings.quality.shadows Тени
+settings.quality.softShad Мягкие тени
+settings.quality.highResShad Тени в высоком разрешении
+settings.quality.shadowsDynamic Динамические тени
+settings.quality.trails Следы от пуль
+settings.quality.yourTrails Твои следы от пуль
+settings.quality.mflash Вспышка от выстрела
+settings.quality.flap Крышечка от прицела 
+settings.quality.lowSpec Низкие характеристики
+settings.quality.ambient Окружающее затенение
+settings.quality.ambientOld Старое затенение (Когда возможно)
+settings.quality.textureAnim Анимации текстур
+settings.quality.objectAnim Анимации объектов
+settings.quality.screenShake Тряска экрана
+settings.quality.weaponShine Сияние оружия
+settings.quality.rendGamma Цветовая гамма
+settings.quality.lighting Освещение
+settings.quality.showExplo Показать взрывы
+settings.quality.aspectRatio Соотношение сторон
+settings.post.header Главная постобработка
+settings.post.post Вторичная постобработка
+settings.post.bloom Растения
+settings.post.bloomThreshold Предел растений
+settings.post.bloomStrength Мощность растений
+settings.post.bloomRadius Радиус растений
+settings.post.ssao Освещение SSAO
+settings.post.ssaoRadius Радиус освещения SSAO 
+settings.interface.hitInd Показывать индикатор попаданий
+settings.interface.hitColor Цвет индикатора попадания
+settings.interface.dmg Показывать урон
+settings.interface.dmgCol Цвет урона
+settings.interface.critCol Цвет критического урона
+settings.interface.header Интерфейс
+settings.interface.scale Масштаб интерфейса
+settings.interface.ui Показывать интерфейс
+settings.interface.scoreboard Использовать старую доску очков
+settings.interface.oldBrowser Использовать старый браузер
+settings.interface.rarityanim Отключить анимацию редкости
+settings.interface.showPfp Показывать изображение профиля
+settings.interface.showTradeMsg Показывать сообщения трейдов
+settings.interface.hp Динамическая полоса здоровья
+settings.interface.dmgScale Масштаб повреждений
+settings.interface.killf Показывать убийства подряд
+settings.interface.ping Показывать PING
+settings.interface.net-stats Показывать сетевую статистику
+settings.interface.fps Показывать FPS
+settings.interface.deaths Показывать счетчик смертей
+settings.interface.kd Показывать соотношение убийств к смертям
+settings.interface.kills Показывать счетчик убийств
+settings.interface.streak Показывать убийства подряд
+settings.interface.score Показывать количество набранных очков
+settings.interface.spectators Показать счетчик зрителей
+settings.interface.speed Показать скорость движения
+settings.interface.speedOffX Расположение счетчика скорости по оси Х
+settings.interface.speedOffY Расположение счетчика скорости по оси У
+settings.interface.speedOpacity Непрозрачность счетчика скорости
+settings.interface.speedScale Размер символов на счетчике скорости
+settings.interface.speedColor Цвет счетчика скорости (Текущий)
+settings.interface.speedColorMax Цвет счетчика скорости (Максимальный)
+settings.interface.medals Показывать медали
+settings.interface.hideNames Отображение имен
+settings.interface.hideNames.team Только команды
+settings.interface.hideNames.enemy Только врагов
+settings.interface.hideNames.all Всех
+settings.interface.nametagStyle Стиль имени
+settings.interface.nametagOpac Непрозрачность имени
+settings.interface.nametagStyle.health Только здоровье
+settings.interface.nametagStyle.name Только имя
+settings.interface.nametagStyle.nameLvl Только имя и уровень
+settings.interface.nametagStyle.all Все
+settings.interface.healthNum Имя количество здоровья
+settings.interface.healthColT Имя здоровье цвет члена команды
+settings.interface.healthColE Имя здоровье цвет противника 
+settings.interface.xpBarCol Цвет панели опыта
+settings.interface.xpBarOpac Прозрачность панели опыта
+settings.crosshair.header Прицел
+settings.crosshair.type Тип
+settings.crosshair.type.2 Пользовательский
+settings.crosshair.type.3 Многослойный
+settings.crosshair.type.4 Изображение
+settings.crosshair.type.5 Отчетливость
+settings.crosshair.style Стиль
+settings.crosshair.style.0 Перекрестие
+settings.crosshair.style.1 Пустой круг
+settings.crosshair.style.2 Сплошной круг
+settings.crosshair.style.3 Полый квадрат
+settings.crosshair.style.4 Сплошной квадрат
+settings.crosshair.image Изображение
+settings.crosshair.image.paste Изображение перекрестия
+settings.crosshair.always Всегда показывать
+settings.crosshair.color Цвет
+settings.crosshair.shadow.color Цвет тени
+settings.crosshair.shadow.thickness Толщина тени
+settings.crosshair.size Размер
+settings.crosshair.thickness Толщина
+settings.crosshair.gap Зазор
+settings.crosshair.dot Точка
+settings.crosshair.opacity.use Использовать настраиваемому прозрачность
+settings.crosshair.opacity.custom Пользовательская прозрачность
+settings.hitmarker.header Индикатор попадания
+settings.hitmarker.color Цвет
+settings.hitmarker.kcolor Цвет убийства
+settings.hitmarker.thickness Толщина
+settings.hitmarker.opacity Непрозрачность
+settings.hitmarker.leng Длинна
+settings.hitmarker.spacing Интервал
+settings.hitmarker.animD Размер анимации
+settings.hitmarker.animS Скорость анимации
+settings.hitmarker.hitm Показывать
+settings.hitmarker.hitmFad Скорость затухания
+settings.hitmarker.custom Изображение индикатора попадания
+settings.hitmarker.custom.paste URL изображения индикатора попадания
+settings.onKillS.style.0 По умолчанию
+settings.onKillS.style.1 Уменьшить разрешение
+settings.onKillS.style.2 Уменьшить угол обзора
+settings.onKillS.style.3 Увеличить угол обзора
+settings.serverb.header Обозреватель сервера
+settings.serverb.oldBrowser Устаревший браузер
+settings.serverb.defaultRegionOnly Только регион выбранный по умолчанию
+settings.gameprivacy.header Конфиденциальность игрового процесса
+settings.gameprivacy.streamer Режим стримера
+settings.gameprivacy.anon Анонимный режим
+settings.gameprivacy.hideGameTitle Скрыть название игры
 settings.gameplay.header Геймплей
 settings.gameplay.sensitivityX Чувствительность мыши по горизонтали
 settings.gameplay.sensitivityY Чувствительность мыши по вертикали
@@ -496,254 +496,252 @@ windows.clans.requests.none Нет Запросов
 windows.clans.page [{0}] Страница Клана
 windows.clans.create Создать Клан
 windows.clans.name Имя Клана
-windows.clans.name Имя клана
-	windows.clans.view Просмотр Кланов
-	windows.clans.join Присоединиться в клан
-	windows.clans.login чтобы создать и присоединиться в клан
-	windows.store.header Магазин
-	windows.store.spin {0} Вращение
-	windows.store.agree Совершая покупку, Вы соглашаетесь с Условиями {0}
-	windows.store.purchase Покупка KR
-	windows.store.voucher Выкупить купон
-	windows.store.voucherinfo Получайте Купоны от определенных Стримеров и Мероприятий
-	windows.store.market Торговая площадка
-	windows.store.market2 Рынок Krunker
-	windows.store.premium Купить премиум
-	windows.store.premium2 Krunker премиум
-	windows.store.buyP Выберите Отображаемое имя и многое другое с помощью
-	windows.store.buy Покупайте и продавайте предметы на
-	windows.store.wheels Призовые спины
-	windows.store.unlock Разблокируйте новые скины на оружия и предметы
-	windows.store.amount {0} KR на аккаунте
-	windows.store.login чтобы купить и разблокировать предметы с магазина!
-	windows.store.purchasing Покупка...
-	windows.store.unboxed {0}{1} распаковал(а)
-	windows.trade.header Торговля
-	windows.scope.header Выберите прицел
-	windows.premium.header Премиум
-	windows.skin.header Выберите скин
-	windows.hat.header Выберите шляпу
-	windows.back.header Выберите предмет на спину
-	windows.waist.header Выберите предмет на талию
-	windows.face.header Выберите предмет на лицо
-	windows.melee.header Выберите нож
-	windows.attach.header Выберите вложение
-	windows.reticle.header Выберите сетку
-	windows.reticle.unlocked Разблокировал(а) на уровне {0}
-	windows.reticle.req Требуется уровень {0}
-	windows.dye.header Выберите окрас
-	windows.dye.default Стандартный окрас
-	windows.dye.spin Окрас
-	windows.changelog.header Журнал изменений
-	windows.mods.community.header Модификации сообщества
-	windows.mods.community.fav Ваше избранное
-	windows.mods.community.new Новые модификации
-	windows.mods.community.hot Горячее
-	windows.mods.community.name Название модификации
-	windows.mods.community.none Моды не найдены
-	windows.publish.mod.header Опубликовать модификацию
-	windows.publish.mod.thumbnail Нет уменьшенного изображения
-	windows.publish.mod.name Название мода
-	windows.publish.mod.paste URL модификации
-	windows.publish.mod.update Опубликовать/Обновить
-	windows.publish.mod.login чтобы создать и загрузить модификации!
-	windows.secondary.header Выберите вторичное оружие
-	windows.secondary.unlocked Разблокировано
-	windows.secondary.req Требуется уровень {0}
-	windows.advertise.header Объявление
-	windows.support.header Поддержка
-	windows.players.header Список игроков
-	windows.players.none В настоящее время нет игроков ...
-	windows.join.header Присоединиться
-	windows.join.code Введите URL/Код игры
-	windows.client.header Клиент
-	windows.client.windows Установщик Windows
-	windows.client.mac macOS Установщик
-	windows.client.linux Установщик Linux
-	windows.ranked.header Рейтинговый матч
-	windows.ranked.login чтобы играть в рейтинговые матчи!
-	windows.ranked.level Вы должны быть как минимум <span color="black">level {0}</span> чтобы играть в рейтинговые матчи! Прямо сейчас Вы на <span color="black">level {1}</span>.
-	windows.ranked.mode.r1v1 Одиночный
-	windows.ranked.mode.r2v2 Вдвоём
-	windows.ranked.mode.r4v4 Вчетвером
-	windows.chall.header Испытания
-	windows.chall.login чтобы выполнять испытания!
-	thumbnail.upload.limit Провалено. Ограничение для миниатюр: {0} КБ
-	image.upload.limit Провалено. Ограничение изображения {0} КБ
-	thumbnail.upload.error Ошибка превью
-	mod.extracting извлечение {0}/{1}
-	mod.disabled модификации отключены
-	mod.error ошибка модификации!
-	mod.loading Загрузка модификации...
-	mod.invalid неверный файл модификации!
-	matchmaker.full ЗАПОЛНЕНО
-	matchmaker.full2 Игра заполнена.
-	matchmaker.updating ИГРА ОБНОВЛЯЕТСЯ
-	matchmaker.invalid Игра не найдена.
-	matchmaker.none Максимальная вместимость серверов
-	adblocker Отключите свой блокировщик рекламы, чтобы получить бесплатные Krunkies.
-	ad-failed Объявление не удалось загрузить. Попробуйте еще раз.
-	streamers.views {0} зрители
-	streamers.none Нет активных стримов!
-	error.extentions Если у вас есть расширения, отключите их
-	error.seek Попробуйте найти новую игру, нажав
-	custom.map.upload.limit Провалено. Лимит игровых данных для персонажей 500k
-	custom.map.missing Выберите, как минимум, одну игру или карту
-	custom.mode.missing Выберите, как минимум, одну режим
-	custom.class.missing Выберите, как минимум, один класс
-	server.config.maxPlayers Игроки
-	server.config.minPlayers Минимальное количество Игроков
-	server.config.lives Жизни
-	server.config.gameTime Минуты
-	server.config.gravMlt Гравитация
-	server.config.tickRI Высокий тикрейт
-	server.config.maxPS Сервер на 40 игроков
-	server.config.promServ Продвинуть сервер
-	server.config.jumpMlt Сила прыжка
-	server.config.airStrf Воздушный штурм
-	server.config.deltaMlt Шкала времени
-	server.config.strafeSpd Скорость стрейфа
-	server.config.fiRat Скорострельность
-	server.config.reSpd Скорость перезарядки
-	server.config.slidTime Время скольжения
-	server.config.fixMov Исправленное движение
-	server.config.slidSpd Скорость скольжения
-	server.config.healthMlt Множитель здоровья
-	server.config.impulseMlt Импульс оружия
-	server.config.nameTeam1 Название Команды 1
-	server.config.nameTeam2 Название Команды 2
-	server.config.nameTeam3 Название Команды 3
-	server.config.nameTeam4 Название Команды 4
-	server.config.nameTeam5 Название Команды 5
-	server.config.t1Dmg Урон Команды 1
-	server.config.t2Dmg Урон Команды 2
-	server.config.t3Dmg Урон Команды 3
-	server.config.t4Dmg Урон Команды 4
-	server.config.t5Dmg Урон Команды 5
-	server.config.selTeam Выбор команды
-	server.config.allowSpect Наблюдение
-	server.config.killRewards Награды за убийства
-	server.config.headshotOnly Только Выстрелы в голову
-	server.config.noSecondary Отключить Вторичное
-	server.config.noStreaks Отключить Серии
-	server.config.canSlide Скольжение
-	server.config.wallJP Сила прыжка от стены
-	server.config.autoJump Авто Прыжок
-	server.config.bDrop Падение Пули
-	server.config.thirdPerson Третье лицо
-	server.config.requireCaptcha Требуется Captcha
-	server.config.nameTags Скрыть Бейджи
-	server.config.kCams Камеры убийств
-	server.config.noReload Без перезарядки
-	server.config.private Частно
-	server.config.krRewards KR Награды
-	server.config.forceDefault Принудительно установить настройки по умолчанию
-	server.config.warmupTime Время разминки
-	server.config.objtvTime Объективное время
-	server.config.forceSpawn Время автоматического возрождения
-	server.config.scoreLimit Предел очков
-	server.config.keepTScore Сохранить счет команды
-	server.config.forceC Классы принудительного режима
-	server.config.logTim Журнал времени (гонки, паркур)
-	server.config.hitBoxPad Набивка ХитБоксов
-	server.config.hpRegen Восстановление здоровья
-	server.config.disableB Отключить границы
-	server.config.throwMel Метательное ближнее оружие
-	server.config.noCosm Отключить косметику
-	social.login Авторизация/Регистрация
-	social.login.failed Не удалось авторизоваться
-	social.login.buy Авторизуйтесь, чтобы купить
-	social.login.sell Авторизуйтесь, чтобы продать
-	social.login.gift Авторизуйтесь, чтобы подарить
-	social.login.proccessing Авторизация...
-	social.since со времени
-	social.user.maps Пользовательские игры
-	social.user.mods Пользовательские модификации
-	social.maps.none Игр не найдено...
-	social.mods.none Модификации не найдены...
-	social.market.price.low Низшая цена
-	social.market.price.list Прейскурантная цена в
-	social.market.searching Поиск
-	social.market.listed добавил в список {0} назад
-	social.market.list Элемент списка
-	social.market.unlist Исключить из списка
-	social.market.unlisting Исключение из списка...
-	social.market.posting Публикация товара...
-	social.market.req Требуется уровень {0}
-	social.market.cant Не можете позволить
-	social.market.purchase Купить
-	social.market.fee Нет комиссии за список
-	social.market.failed Провалено. Попробуйте ещё раз
-	social.market.head Головной элемент
-	social.market.back Предмет на спину
-	social.market.waist Предмет на талию
-	social.market.face Предмет на лицо
-	social.market.shoe Предмет на обувь
-	social.market.pet Предмет Питомца
-	social.market.melee Оружие ближнего боя
-	social.market.spray Спрей
-	social.market.dye Окрас
-	social.market.none Предметов не найдено
-	social.market.login Вы должны быть зарегистрированы.
-	social.market.grace готово через {0}
-	social.market.sort Фильтр/Сортировка
-	social.market.filter Поиск
-	social.market.sort2 Сортировка
-	social.market.price.high Самая высокая цена
-	social.trading.submitting Отправка предложения...
-	social.market.gift.amount Сумма подарка в
-	social.market.fee.gift Без комиссии
-	social.market.gift Подарить KR
-	social.market.gift.msg Оставить сообщение
-	respawn.auto Авто возрождение через {0}
-	custom.host.ranked Вы не можете захостить игру, пока вы находитесь в рейтинговом матче.
-	funds.insufficient Недостаточно средств
-	funds.out Похоже, у вас закончились Krunkies.
-	custom.passcode.long Пароль слишком длинный
-	custom.passcode.input Введите пароль сервера, чтобы присоединиться
-	custom.tryagain Пожалуйста, попробуйте снова
-	purchase.kr.success Добавлено {0} KR на вашу учётную запись
-	limited.purchase.ask Вы уверены, что хотите купить [{0}] за {1} KR?
-	limited.purchase.success Добавлено {0} в ваш инвентарь
-	pretend.exit Нажмите [{0}] снова, чтобы выйти
-	settings.loaded Настройки загружены
-	settings.loaded.none Настройки не найдены
-	account.login.required Вы должны авторизоваться
-	account.banned.hack Эта учетная запись заблокирована за Читерство.
-	account.banned.appeal Если вы хотите обжаловать свой бан, свяжитесь с нами:
-	account.delete Вы можете запросить удаление своей учетной записи, если запрос не будет отменен в течение 14 дней, учетная запись и все связанные данные будут удалены без возможности восстановления.
-	account.delete.request Вы уверены, что хотите запросить удаление учетной записи?
-	account.delete.cancel Вы уверены, что хотите отменить удаление аккаунта?
-	spin.free.available БЕСПЛАТНЫЕ KR ДОСТУПНЫ!
-	spin.free.claim Это вращение можно использовать один раз в час после завершения матча.
-	spin.free.disable Эти всплывающие окна можно отключить в Главных Настройках
-	mod.reset.0 Вступит в силу после возрождения.
-	mod.reset.1 Объекты карты не сбрасываются
-	windows.profile.picture Изменить картинку
-	stats.assists Поддержка
-	stats.nukes Атомные бомбы
-	stats.melee Ближнее оружие
-	stats.fistkills Убийства с кулаков
-	stats.thrownkills Броски ножём
-	stats.headshots Выстрелу в голову
-	stats.wallbangs Выстрелы через стену
-	stats.sprays Граффити размещено
-	windows.host.default.settings Включение настроек по умолчанию позволяет сохранять прогресс игрока и его баллы.
-	windows.host.default.commands *Команды хоста отключены в этом режиме: /noclip /god /smite и т.д.
-	windows.host.rewards Включение вознаграждений KR заставляет сервер использовать настройки по умолчанию и позволяет игрокам зарабатывать KR из средств карты:
-	windows.store.wheels.sub Испытайте удачу и раскрутите, чтобы получить шанс выиграть новые скины!
-	windows.store.currency * Цены в долларах США могут быть конвертированы в вашу местную валюту по обменному курсу, установленному платежной системой или банком.
-	windows.store.creator Подумайте о том, чтобы поддержать вашего любимого создателя контента с помощью кода создателя
-	windows.chall.customs Испытания не могут быть выполнены в пользовательских матчах
-	twitch.link Вы уверены, что хотите привязать аккаунт Twitch?
-	twitch.unlink Вы уверены, что хотите отключить свою учетную запись Twitch?
-	windows.clan.leave Вы уверены, что хотите выйти из клана?
-	windows.clan.delete Вы уверены, что хотите удалить клан?
-	windows.clan.kick Вы действительно хотите исключить {0} из клана?
-	windows.store.premium.purchase Вы действительно хотите приобрести {0} дней Премиум-подписки?
-	windows.playerlist.ban Вы действительно хотите запретить пользователю {0} участвовать в этой игре?
-	windows.playerlist.flag Вы действительно хотите пожаловаться на {0}?
-	windows.playerlist.unflag Вы уверены, что хотите снять отметку {0}?
-	windows.playerlist.punish Вы действительно хотите принять меры в отношении {0}?
+windows.clans.view Просмотр Кланов
+windows.clans.join Присоединиться в клан
+windows.clans.login чтобы создать и присоединиться в клан
+windows.store.header Магазин
+windows.store.spin {0} Вращение
+windows.store.agree Совершая покупку, Вы соглашаетесь с Условиями {0}
+windows.store.purchase Покупка KR
+windows.store.voucher Выкупить купон
+windows.store.voucherinfo Получайте Купоны от определенных Стримеров и Мероприятий
+windows.store.market Торговая площадка
+windows.store.market2 Рынок Krunker
+windows.store.premium Купить премиум
+windows.store.premium2 Krunker премиум
+windows.store.buyP Выберите Отображаемое имя и многое другое с помощью
+windows.store.buy Покупайте и продавайте предметы на
+windows.store.wheels Призовые спины
+windows.store.unlock Разблокируйте новые скины на оружия и предметы
+windows.store.amount {0} KR на аккаунте
+windows.store.login чтобы купить и разблокировать предметы с магазина!
+windows.store.purchasing Покупка...
+windows.store.unboxed {0}{1} распаковал(а)
+windows.trade.header Торговля
+windows.scope.header Выберите прицел
+windows.premium.header Премиум
+windows.skin.header Выберите скин
+windows.hat.header Выберите шляпу
+windows.back.header Выберите предмет на спину
+windows.waist.header Выберите предмет на талию
+windows.face.header Выберите предмет на лицо
+windows.melee.header Выберите нож
+windows.attach.header Выберите вложение
+windows.reticle.header Выберите сетку
+windows.reticle.unlocked Разблокировал(а) на уровне {0}
+windows.reticle.req Требуется уровень {0}
+windows.dye.header Выберите окрас
+windows.dye.default Стандартный окрас
+windows.dye.spin Окрас
+windows.changelog.header Журнал изменений
+windows.mods.community.header Модификации сообщества
+windows.mods.community.fav Ваше избранное
+windows.mods.community.new Новые модификации
+windows.mods.community.hot Горячее
+windows.mods.community.name Название модификации
+windows.mods.community.none Моды не найдены
+windows.publish.mod.header Опубликовать модификацию
+windows.publish.mod.thumbnail Нет уменьшенного изображения
+windows.publish.mod.name Название мода
+windows.publish.mod.paste URL модификации
+windows.publish.mod.update Опубликовать/Обновить
+windows.publish.mod.login чтобы создать и загрузить модификации!
+windows.secondary.header Выберите вторичное оружие
+windows.secondary.unlocked Разблокировано
+windows.secondary.req Требуется уровень {0}
+windows.advertise.header Объявление
+windows.support.header Поддержка
+windows.players.header Список игроков
+windows.players.none В настоящее время нет игроков ...
+windows.join.header Присоединиться
+windows.join.code Введите URL/Код игры
+windows.client.header Клиент
+windows.client.windows Установщик Windows
+windows.client.mac macOS Установщик
+windows.client.linux Установщик Linux
+windows.ranked.header Рейтинговый матч
+windows.ranked.login чтобы играть в рейтинговые матчи!
+windows.ranked.level Вы должны быть как минимум <span color="black">level {0}</span> чтобы играть в рейтинговые матчи! Прямо сейчас Вы на <span color="black">level {1}</span>.
+windows.ranked.mode.r1v1 Одиночный
+windows.ranked.mode.r2v2 Вдвоём
+windows.ranked.mode.r4v4 Вчетвером
+windows.chall.header Испытания
+windows.chall.login чтобы выполнять испытания!
+thumbnail.upload.limit Провалено. Ограничение для миниатюр: {0} КБ
+image.upload.limit Провалено. Ограничение изображения {0} КБ
+thumbnail.upload.error Ошибка превью
+mod.extracting извлечение {0}/{1}
+mod.disabled модификации отключены
+mod.error ошибка модификации!
+mod.loading Загрузка модификации...
+mod.invalid неверный файл модификации!
+matchmaker.full ЗАПОЛНЕНО
+matchmaker.full2 Игра заполнена.
+matchmaker.updating ИГРА ОБНОВЛЯЕТСЯ
+matchmaker.invalid Игра не найдена.
+matchmaker.none Максимальная вместимость серверов
+adblocker Отключите свой блокировщик рекламы, чтобы получить бесплатные Krunkies.
+ad-failed Объявление не удалось загрузить. Попробуйте еще раз.
+streamers.views {0} зрители
+streamers.none Нет активных стримов!
+error.extentions Если у вас есть расширения, отключите их
+error.seek Попробуйте найти новую игру, нажав
+custom.map.upload.limit Провалено. Лимит игровых данных для персонажей 500k
+custom.map.missing Выберите, как минимум, одну игру или карту
+custom.mode.missing Выберите, как минимум, одну режим
+custom.class.missing Выберите, как минимум, один класс
+server.config.maxPlayers Игроки
+server.config.minPlayers Минимальное количество Игроков
+server.config.lives Жизни
+server.config.gameTime Минуты
+server.config.gravMlt Гравитация
+server.config.tickRI Высокий тикрейт
+server.config.maxPS Сервер на 40 игроков
+server.config.promServ Продвинуть сервер
+server.config.jumpMlt Сила прыжка
+server.config.airStrf Воздушный штурм
+server.config.deltaMlt Шкала времени
+server.config.strafeSpd Скорость стрейфа
+server.config.fiRat Скорострельность
+server.config.reSpd Скорость перезарядки
+server.config.slidTime Время скольжения
+server.config.fixMov Исправленное движение
+server.config.slidSpd Скорость скольжения
+server.config.healthMlt Множитель здоровья
+server.config.impulseMlt Импульс оружия
+server.config.nameTeam1 Название Команды 1
+server.config.nameTeam2 Название Команды 2
+server.config.nameTeam3 Название Команды 3
+server.config.nameTeam4 Название Команды 4
+server.config.nameTeam5 Название Команды 5
+server.config.t1Dmg Урон Команды 1
+server.config.t2Dmg Урон Команды 2
+server.config.t3Dmg Урон Команды 3
+server.config.t4Dmg Урон Команды 4
+server.config.t5Dmg Урон Команды 5
+server.config.selTeam Выбор команды
+server.config.allowSpect Наблюдение
+server.config.killRewards Награды за убийства
+server.config.headshotOnly Только Выстрелы в голову
+server.config.noSecondary Отключить Вторичное
+server.config.noStreaks Отключить Серии
+server.config.canSlide Скольжение
+server.config.wallJP Сила прыжка от стены
+server.config.autoJump Авто Прыжок
+server.config.bDrop Падение Пули
+server.config.thirdPerson Третье лицо
+server.config.requireCaptcha Требуется Captcha
+server.config.nameTags Скрыть Бейджи
+server.config.kCams Камеры убийств
+server.config.noReload Без перезарядки
+server.config.private Частно
+server.config.krRewards KR Награды
+server.config.forceDefault Принудительно установить настройки по умолчанию
+server.config.warmupTime Время разминки
+server.config.objtvTime Объективное время
+server.config.forceSpawn Время автоматического возрождения
+server.config.scoreLimit Предел очков
+server.config.keepTScore Сохранить счет команды
+server.config.forceC Классы принудительного режима
+server.config.logTim Журнал времени (гонки, паркур)
+server.config.hitBoxPad Набивка ХитБоксов
+server.config.hpRegen Восстановление здоровья
+server.config.disableB Отключить границы
+server.config.throwMel Метательное ближнее оружие
+server.config.noCosm Отключить косметику
+social.login Авторизация/Регистрация
+social.login.failed Не удалось авторизоваться
+social.login.buy Авторизуйтесь, чтобы купить
+social.login.sell Авторизуйтесь, чтобы продать
+social.login.gift Авторизуйтесь, чтобы подарить
+social.login.proccessing Авторизация...
+social.since со времени
+social.user.maps Пользовательские игры
+social.user.mods Пользовательские модификации
+social.maps.none Игр не найдено...
+social.mods.none Модификации не найдены...
+social.market.price.low Низшая цена
+social.market.price.list Прейскурантная цена в
+social.market.searching Поиск
+social.market.listed добавил в список {0} назад
+social.market.list Элемент списка
+social.market.unlist Исключить из списка
+social.market.unlisting Исключение из списка...
+social.market.posting Публикация товара...
+social.market.req Требуется уровень {0}
+social.market.cant Не можете позволить
+social.market.purchase Купить
+social.market.fee Нет комиссии за список
+social.market.failed Провалено. Попробуйте ещё раз
+social.market.head Головной элемент
+social.market.back Предмет на спину
+social.market.waist Предмет на талию
+social.market.face Предмет на лицо
+social.market.shoe Предмет на обувь
+social.market.pet Предмет Питомца
+social.market.melee Оружие ближнего боя
+social.market.spray Спрей
+social.market.dye Окрас
+social.market.none Предметов не найдено
+social.market.login Вы должны быть зарегистрированы.
+social.market.grace готово через {0}
+social.market.sort Фильтр/Сортировка
+social.market.filter Поиск
+social.market.sort2 Сортировка
+social.market.price.high Самая высокая цена
+social.trading.submitting Отправка предложения...
+social.market.gift.amount Сумма подарка в
+social.market.fee.gift Без комиссии
+social.market.gift Подарить KR
+social.market.gift.msg Оставить сообщение
+respawn.auto Авто возрождение через {0}
+custom.host.ranked Вы не можете захостить игру, пока вы находитесь в рейтинговом матче.
+funds.insufficient Недостаточно средств
+funds.out Похоже, у вас закончились Krunkies.
+custom.passcode.long Пароль слишком длинный
+custom.passcode.input Введите пароль сервера, чтобы присоединиться
+custom.tryagain Пожалуйста, попробуйте снова
+purchase.kr.success Добавлено {0} KR на вашу учётную запись
+limited.purchase.ask Вы уверены, что хотите купить [{0}] за {1} KR?
+limited.purchase.success Добавлено {0} в ваш инвентарь
+pretend.exit Нажмите [{0}] снова, чтобы выйти
+settings.loaded Настройки загружены
+settings.loaded.none Настройки не найдены
+account.login.required Вы должны авторизоваться
+account.banned.hack Эта учетная запись заблокирована за Читерство.
+account.banned.appeal Если вы хотите обжаловать свой бан, свяжитесь с нами:
+account.delete Вы можете запросить удаление своей учетной записи, если запрос не будет отменен в течение 14 дней, учетная запись и все связанные данные будут удалены без возможности восстановления.
+account.delete.request Вы уверены, что хотите запросить удаление учетной записи?
+account.delete.cancel Вы уверены, что хотите отменить удаление аккаунта?
+spin.free.available БЕСПЛАТНЫЕ KR ДОСТУПНЫ!
+spin.free.claim Это вращение можно использовать один раз в час после завершения матча.
+spin.free.disable Эти всплывающие окна можно отключить в Главных Настройках
+mod.reset.0 Вступит в силу после возрождения.
+mod.reset.1 Объекты карты не сбрасываются
+windows.profile.picture Изменить картинку
+stats.assists Поддержка
+stats.nukes Атомные бомбы
+stats.melee Ближнее оружие
+stats.fistkills Убийства с кулаков
+stats.thrownkills Броски ножём
+stats.headshots Выстрелу в голову
+stats.wallbangs Выстрелы через стену
+stats.sprays Граффити размещено
+windows.host.default.settings Включение настроек по умолчанию позволяет сохранять прогресс игрока и его баллы.
+windows.host.default.commands *Команды хоста отключены в этом режиме: /noclip /god /smite и т.д.
+windows.host.rewards Включение вознаграждений KR заставляет сервер использовать настройки по умолчанию и позволяет игрокам зарабатывать KR из средств карты:
+windows.store.wheels.sub Испытайте удачу и раскрутите, чтобы получить шанс выиграть новые скины!
+windows.store.currency * Цены в долларах США могут быть конвертированы в вашу местную валюту по обменному курсу, установленному платежной системой или банком.
+windows.store.creator Подумайте о том, чтобы поддержать вашего любимого создателя контента с помощью кода создателя
+windows.chall.customs Испытания не могут быть выполнены в пользовательских матчах
+twitch.link Вы уверены, что хотите привязать аккаунт Twitch?
+twitch.unlink Вы уверены, что хотите отключить свою учетную запись Twitch?
+windows.clan.leave Вы уверены, что хотите выйти из клана?
+windows.clan.delete Вы уверены, что хотите удалить клан?
+windows.clan.kick Вы действительно хотите исключить {0} из клана?
+windows.store.premium.purchase Вы действительно хотите приобрести {0} дней Премиум-подписки?
+windows.playerlist.ban Вы действительно хотите запретить пользователю {0} участвовать в этой игре?
+windows.playerlist.flag Вы действительно хотите пожаловаться на {0}?
+windows.playerlist.unflag Вы уверены, что хотите снять отметку {0}?
+windows.playerlist.punish Вы действительно хотите принять меры в отношении {0}?
 `;
-
