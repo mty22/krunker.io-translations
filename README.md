@@ -31,7 +31,7 @@ If you are done with the translation submit a pull request like this:
 5. When it's done, go to the pull reqests section at the original project and press **New Pull Request**
 6. At the compare section you have to press the blue text **compare across forks**
 7. There are 2 buttons "main:something" and "compare:something" you need to select your repository at the "compare:something" part
-8. Add some text like "Rebuild *2 letter abbreviation of your language*.js *Your language* based on en.js (v3.8.1)"
+8. Add some title like "Rebuild *2 letter abbreviation of your language*.js *Your language* based on en.js (v3.8.1)"
 9. Submit the pull request
 
 
