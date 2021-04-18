@@ -22,6 +22,19 @@ If you can't find anything, then please [create an issue](https://github.com/mty
 
 **Once approval is given**, feel free to grab a copy of the [English](https://github.com/mty22/krunker.io-translations/blob/main/en.js) language file, find a buddy and translate where possible. If you work on a language translation without approval, you may not be eligible for KR Payment(s).
 
+If you are done with the translation submit a pull request like this:
+
+1. Go to the project site: https://github.com/mty22/krunker.io-translations
+2. In the top right corner press **fork**
+3. This will "copy" the project to your own profile, so there will be a same repository
+4. You have to add the translation file to **your repository (main branch)**
+5. When it's done, go to the pull reqests section at the original project and press **New Pull Request**
+6. At the compare section you have to press the blue text **compare across forks**
+7. There are 2 buttons "main:something" and "compare:something" you need to select your repository at the "compare:something" part
+8. Add some text like "Rebuild *2 letter abbreviation of your language*.js *Your language* based on en.js (v3.8.1)"
+9. Submit the pull request
+
+
 If you find bugs or changes, please feel free to either:
 
  1) Raise an issue and wait for someone to fix it.
