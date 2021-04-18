@@ -720,7 +720,7 @@ mod.reset.0 リスポーン後から有効になります
 mod.reset.1 マップのオブジェクトはリセットされません
 windows.profile.picture 写真を変更
 stats.assists アシスト
-stats.nukes ニューク
+stats.nukes 核爆弾数
 stats.melee 近接武器キル
 stats.fistkills 拳キル
 stats.thrownkills 投げナイフキル
