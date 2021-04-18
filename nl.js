@@ -740,7 +740,7 @@ windows.clan.leave Weet je zeker dat je de clan wilt verlaten?
 windows.clan.delete Weet je zeker dat je de clan wilt verwijderen?
 windows.clan.kick Weet je zeker dat je {0} wilt kicken van de clan?
 windows.store.premium.purchase Weet je zeker dat je {0} dagen Premium wilt kopen?
-windows.playerlist.ban Weet je zeker dat je {0} wilt bannen van deze game?
+windows.playerlist.ban Weet je zeker dat je {0} wilt verbannen van deze game?
 windows.playerlist.flag Weet je zeker dat je {0} wilt markeren?
 windows.playerlist.unflag Weet je zeker dat je {0} wilt onmarkeren?
 windows.playerlist.punish Weet je zeker dat je actie wilt ondernemen op {0}?
