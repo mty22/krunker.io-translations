@@ -695,7 +695,7 @@ social.market.fee.gift Sin cuota
 social.market.gift Regalar KR
 social.market.gift.msg Dejar un mensaje
 respawn.auto Auto Respawn en {0}
-custom.host.ranked Can't host match while in ranked.
+custom.host.ranked No puedes hostear una partida si estas en una partida Clasificatoria.
 funds.insufficient Fondos insuficientes
 funds.out Vaya , parece que no tienes Krunkies.
 custom.passcode.longla contraseña es muy larga
@@ -705,7 +705,7 @@ purchase.kr.success Añadidos {0} KR a tu cuenta
 limited.purchase.ask Estas seguro de comprar [{0}] por {1} KR?
 limited.purchase.success añadido {0} a tu inventario
 pretend.exit presiona [{0}] para salir
-settings.loaded SConfiguraciones Cargadas
+settings.loaded Configuraciones Cargadas
 settings.loaded.none No se encontraron configuraciones
 account.login.required Necesitas haber iniciado sesion
 account.banned.hack Esta cuenta fue suspendida por uso de hacks.
@@ -713,7 +713,7 @@ account.banned.appeal si quieres apelar tu suspencion, contacta:
 account.delete Puedes solicitar la eliminación de su cuenta, si la solicitud no se cancela dentro de los 14 días, la cuenta y todos los datos asociados se eliminarán permanentemente.
 account.delete.cancel Estas seguro de cancelar la eliminacion de cuenta?
 spin.free.available KR gratis Diponible!
-spin.free.claim Este spin esta disponible para cajear una hora despues de cada partida.
+spin.free.claim Este spin esta disponible para canjear una hora despues de cada partida.
 spin.free.disable Estas ventanas emergentes pueden ser desactivadas en las Configuraciones Generales. 
 mod.reset.0 Tomara efecto despues de respawnear.
 mod.reset.1 Map Objects dont get reset
@@ -724,15 +724,15 @@ stats.melee Cuerpo a cuerpo
 stats.fistkills Palizas
 stats.thrownkills Bullseyes
 stats.headshots Tiros a la cabeza
-stats.wallbangs Tiros atraves de la pared
+stats.wallbangs Muertes atraves de la pared
 stats.sprays Sprays Colocados
-windows.host.default.settings Enabling Default Settings allows for storing Player Progress and Highscores
-windows.host.default.commands *Host Commands are Disabled in this mode: /noclip /god /smite etc
+windows.host.default.settings Habilitar las configuraciones por defecto permite a los jugadores y guardar su progreso y puntajes mas altos
+windows.host.default.commands *Los comandos de hosteo estan deshabilitados para este modo : /noclip /god /smite etc
 windows.host.rewards Enabling KR Rewards forces the Server to use Default Settings & allows players to earn KR from the map funds:
 windows.store.wheels.sub Prueba tu suerte en un spin para ganar nuevas Skins!
-windows.store.currency * Prices in USD can be converted to your local currency at an exchange rate defined by the payment provider or bank
-windows.store.creator Consider Support your favorite Content Creator by using a Creator Code
-windows.chall.customs Challenges can't be completed in Custom Matches
+windows.store.currency *Precios en usd pueden ser convertidos a tu moneda local y a un tipo de cambio definido por el tipo de pago o el banco
+windows.store.creator Considera apoyar a tu creador de contenido favorito usando su codigo de creador
+windows.chall.customs No se pueden completar los Challenges mientras estas en una partida Personalizada
 twitch.link Quieres vincular tu cuenta de twitch?
 twitch.unlink Estas seguro de querer desvincular tu cuenta de twitch?
 windows.clan.leave Quieres abandonar el clan?
@@ -740,7 +740,7 @@ windows.clan.delete Quieres eliminar el clan?
 windows.clan.kick Seguro que quieres votar a  {0} del  clan?
 windows.store.premium.purchase Quieres comprar {0} dias de  Premium?
 windows.playerlist.ban Estas seguro de que quieres banear a  {0} del juego?
-windows.playerlist.flag Are you sure you want to Flag {0}?
-windows.playerlist.unflag Are you sure you want to Unflag {0}?
+windows.playerlist.flag Estas seguro de querer marcar a {0}?
+windows.playerlist.unflag Estas seguro de querer desmarcar a  {0}?
 windows.playerlist.punish Are you sure you want to take action on {0}?
 `;
