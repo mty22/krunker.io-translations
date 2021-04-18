@@ -14,13 +14,20 @@ Project information and discussion on Discord can be found in [Krunker Bunker](h
 Not sure on how to use GitHub? Have a look at this [Introduction to GitHub](https://lab.github.com/githubtraining/introduction-to-github) tutorial as it may answer many common questions!
 
 
-**Before translating Krunker into another language**, please search for an [existing issue](https://github.com/mty22/krunker.io-translations/issues) to see if another person is working on it.
+**Before translating Krunker into another language**, please search for an [existing issue](https://github.com/mty22/krunker.io-translations/issues) to see if another person is working on it, or if there's previously answered questions that may help you here!
 
+Here's an example of searching for issues related to "Spanish":
+
+<div align="center">
+<a href="https://github.com/mty22/krunker.io-translations/issues?q=Spanish" target="_blank"><img src="https://c8.idle.host/img/github-search-feature.jpg"></a>
+<br>
+</div>
 
 If you can't find anything, then please [create an issue](https://github.com/mty22/krunker.io-translations/issues/new) before commencing work!
 
-
 **Once approval is given**, feel free to grab a copy of the [English](https://github.com/mty22/krunker.io-translations/blob/main/en.js) language file, find a buddy and translate where possible. If you work on a language translation without approval, you may not be eligible for KR Payment(s).
+
+Languages worked on without approval will still likely be accepted, although it may not be added to the game. We will keep a copy of the language on this git repository for future use. If it is added to the game, we'll reach out to the person who submitted the pull request, and compensate accordingly!
 
 If you find bugs or changes, please feel free to either:
 
@@ -29,8 +36,7 @@ If you find bugs or changes, please feel free to either:
 
 You're also welcome to modify [CODEOWNERS](https://github.com/mty22/krunker.io-translations/blob/main/CODEOWNERS) file if you wish to be added as a default reviewer.
 
-
-KR rewards and Krunker account verification is awarded based on contribution levels, typically from 500KR to 50,000KR. If you are curious, have a look at both [Payouts guide](https://github.com/mty22/krunker.io-translations/blob/main/kr_payment_guide.txt) and [Payouts sent](https://github.com/mty22/krunker.io-translations/blob/main/kr_payouts.csv).
+KR rewards and Krunker account verification is typically awarded based on contribution levels, typically from 500KR to 50,000KR. If you are curious, have a look at both [Payouts guide](https://github.com/mty22/krunker.io-translations/blob/main/kr_payment_guide.txt) and [Payouts sent](https://github.com/mty22/krunker.io-translations/blob/main/kr_payouts.csv).
 
 We will also assign the Translator Contributor role in [Krunker Bunker](https://discord.gg/krunker) Discord with a unique colour!
 
@@ -41,7 +47,7 @@ If you need any assistance, please reach out to Translator Contributors in [Krun
 
 Known issues
 ------
-- [Issue with grammar](https://github.com/mty22/Krunker-Languages/issues/1) 
+- [Issue with grammar](https://github.com/mty22/Krunker-Languages/issues/1)
 - [Issue with Arabic language](https://github.com/mty22/krunker.io-translations/issues/2)
 
 
@@ -61,7 +67,7 @@ Contributors
 Current Krunker language support
 ------
 
-As of Krunker version [v3.8.1](https://krunker.io/docs/versions.txt), the following languages have been added to the game:
+As of Krunker version [v3.8.2](https://krunker.io/docs/versions.txt), the following languages have been added to the game:
 
 - [English](https://github.com/mty22/krunker.io-translations/blob/main/en.js)
 - [Spanish](https://github.com/mty22/krunker.io-translations/blob/main/es.js)
@@ -73,6 +79,3 @@ As of Krunker version [v3.8.1](https://krunker.io/docs/versions.txt), the follow
 - [French](https://github.com/mty22/krunker.io-translations/blob/main/fr.js)
 - [Finnish](https://github.com/mty22/krunker.io-translations/blob/main/fi.js)
 ------
-<div align="center">
-<a href="https://krunker.io" target="_blank"><img src="https://c8.idle.host/img/krunker_translation_logo.png" width="200" height="200"></a>
-</div>
