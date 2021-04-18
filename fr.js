@@ -719,10 +719,10 @@ spin.free.disable Ces Popups peuvent etre désactivées dans les paramétres gé
 mod.reset.0 Fera effet aprés avoir réapparu.
 mod.reset.1 Les objets de la carte ne se rénitialisent pas
 windows.profile.picture Changer l'image
-stats.assists Aides a élimintaion
+stats.assists Aides a élimination
 stats.nukes Nukes
 stats.melee Mêlée
-stats.fistkills Premiers sangs
+stats.fistkills éliminations au poings
 stats.thrownkills Précision
 stats.headshots Tir a la tête
 stats.wallbangs Pénétration
