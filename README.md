@@ -67,15 +67,15 @@ Known issues
 
 Contributors
 ------
-<<<<<<< HEAD
 - [Simplified Chinese](https://github.com/mty22/krunker.io-translations/blob/main/zh.js) (简体中文) - Translated by [ReHou](https://krunker.io/social.html?p=profile&q=ReHou) (BenHou#8636), reviewed by [Chair](https://krunker.io/social.html?p=profile&q=AnimeWeebTrash) (Chair#2384)
 - [Japanese](https://github.com/mty22/krunker.io-translations/blob/main/jp.js) (日本語) - Translated by [frzn](https://krunker.io/social.html?p=frzn) (frzn#1030), reviewed by [KnockerOut](https://krunker.io/social.html?p=profile&q=KnockerOut) (KnockerOut#5087), Minaaami🐈#8830, [nns](https://krunker.io/social.html?p=profile&q=nns__Twitch)
 - [French](https://github.com/mty22/krunker.io-translations/blob/main/fr.js) (Français) - Translated by [Chwoubaka](https://krunker.io/social.html?p=Chwoubaka) (Chwoubaka#3009), reviewed by [Atzelord](https://krunker.io/social.html?p=profile&q=Atzelord) (atzelord#0712)
 - [Korean](https://github.com/mty22/krunker.io-translations/blob/main/kr.js) (한국어) - Translated by [GoonMandu](https://krunker.io/social.html?p=GoonMandu) (apinklover#0933) and [dojin](https://krunker.io/social.html?p=profile&q=dojin.) (dojin#0001)
 - [Spanish](https://github.com/mty22/krunker.io-translations/blob/main/es.js) (Español) - Translated by [nightz](https://krunker.io/social.html?p=profile&q=xlNightmare) (nightz#6678), reviewed by [MGVoltJesk](https://krunker.io/social.html?p=profile&q=MGVoltJesk) (MGVoltJesk#8000), [cesar](https://krunker.io/social.html?p=profile&q=AMOLAPIJA) (cesar#9999) and [Aby3](https://krunker.io/social.html?p=profile&q=Aby3) (Aby3#7380)
 - [Portuguese](https://github.com/mty22/krunker.io-translations/blob/main/pr.js) (Português) - [Unknown](https://c8.idle.host/sadpepe.png) :(
-- [German](https://github.com/mty22/krunker.io-translations/blob/main/de.js) (Deutsch) - Translated by [Sidney](https://krunker.io/social.html?p=profile&q=Sidney), [Bodeneinheit](https://krunker.io/social.html?p=profile&q=Bodeneinheit) (bodeneinheit#5830) and [Fuderal](https://krunker.io/social.html?p=profile&q=zzzrobinzzz) (Fuderal#7252
+- [German](https://github.com/mty22/krunker.io-translations/blob/main/de.js) (Deutsch) - Translated by [Sidney](https://krunker.io/social.html?p=profile&q=Sidney), [Bodeneinheit](https://krunker.io/social.html?p=profile&q=Bodeneinheit) (bodeneinheit#5830) and [Fuderal](https://krunker.io/social.html?p=profile&q=zzzrobinzzz) (Fuderal#7252)
 - [Finnish](https://github.com/mty22/krunker.io-translations/blob/main/fi.js) (Suomen kieli) - Translated by [Jypa](https://krunker.io/social.html?p=profile&q=Jypa) (Jypa#0001), reviewed by [Entasy](https://krunker.io/social.html?p=profile&q=Entasy) (Entasy#7837)
+- [Hindi](https://github.com/mty22/krunker.io-translations/blob/main/hi.js) (हिन्दी) - Translated by [BitES](https://krunker.io/social.html?p=profile&q=BitES) (BitES#7783), [MileRobloxFan](https://krunker.io/social.html?p=profile&q=milethebot) (myul#4951), [Shrekajerk](https://krunker.io/social.html?p=profile&q=le_hem) (shrekajerk#2387), [HistoriFy](https://krunker.io/social.html?p=profile&q=HistoriFy), [ZEUDE](https://krunker.io/social.html?p=profile&q=zeude)
 
 Current Krunker language support
 ------
