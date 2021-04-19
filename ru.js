@@ -120,7 +120,7 @@ settings.quality.res Разрешение
 settings.quality.part Частицы
 settings.quality.mapDet Детали карты
 settings.quality.noTex Выключить текстуры
-settings.quality.partdist Расстояние между частицами
+settings.quality.partdist Расстояние отрисовки частиц
 settings.quality.renderdist Расстояние отрисовки
 settings.quality.reflection Качество изображения
 settings.quality.antiAlias Сглаживание
@@ -478,7 +478,7 @@ windows.spray.spin Спрей
 windows.maps.header Пользовательские Игры
 windows.maps.none Игр не найдено!
 windows.maps.name Название Игры
-windows.maps.editor Редактор Игр
+windows.maps.editor Редактор
 windows.maps.publish Опубликовать Игру
 windows.maps.community Сообщество Разработчиков
 windows.publish.map.header Опубликовать или Обновить Игру
@@ -500,7 +500,7 @@ windows.clans.view Просмотр Кланов
 windows.clans.join Присоединиться в клан
 windows.clans.login чтобы создать и присоединиться в клан
 windows.store.header Магазин
-windows.store.spin {0} Вращение
+windows.store.spin {0} Спин
 windows.store.agree Совершая покупку, Вы соглашаетесь с Условиями {0}
 windows.store.purchase Покупка KR
 windows.store.voucher Выкупить купон
@@ -567,8 +567,8 @@ windows.ranked.mode.r2v2 Вдвоём
 windows.ranked.mode.r4v4 Вчетвером
 windows.chall.header Испытания
 windows.chall.login чтобы выполнять испытания!
-thumbnail.upload.limit Провалено. Ограничение для миниатюр: {0} КБ
-image.upload.limit Провалено. Ограничение изображения {0} КБ
+thumbnail.upload.limit Ошибка. Ограничение для миниатюр: {0} КБ
+image.upload.limit Ошибка. Ограничение изображения {0} КБ
 thumbnail.upload.error Ошибка превью
 mod.extracting извлечение {0}/{1}
 mod.disabled модификации отключены
