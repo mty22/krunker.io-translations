@@ -711,31 +711,31 @@ account.login.required Du musst eingeloggt sein
 account.banned.hack Dieser Account wurde für Hacking gebannt
 account.banned.appeal Um einen Entbannungsantrag zu stellen kontaktiere:
 account.delete Du kannst die Löschung deines Accounts hier beantragen, wird die Anforderung nicht innerhalb von 14 Tagen zurückgezogen wird der Account und alle Daten permanent gelöscht.
-account.delete.request Bist du dir sicher dass du eine Accountlöschung beantragen willst?
-account.delete.cancel Bist du dir sicher das du die Beantragung zur Accountlöschung zurückziehen willst?
+account.delete.request Bist du dir sicher dass du eine Accountlöschung beantragen möchtest?
+account.delete.cancel Bist du dir sicher das du die Beantragung zur Accountlöschung zurückziehen möchtest?
 spin.free.available GRATIS KR VERFÜGBAR!
-spin.free.claim Du kannst diesen spin jede Stunde nach absolvieren eines matchs einlösen.
+spin.free.claim Du kannst dieses Glücksrad jede Stunde nach absolvieren eines Spiels einlösen.
 spin.free.disable Diese Popups können in den generellen Einstellungen ausgeschalten werden.
 mod.reset.0 Respawne um Effekt zu nehmen
 mod.reset.1 Karten Objekte werden nicht zurückgesetzt
 windows.profile.picture Bild ändern
 stats.assists Assists
 stats.nukes Nukes
-stats.melee Nahkampf
+stats.melee Nahkampf-Kills
 stats.fistkills Niedergeschlagen
-stats.thrownkills Wurfmesser
+stats.thrownkills Wurfmesser-Kills
 stats.headshots Kopfschüsse
 stats.wallbangs Wallbangs
-stats.sprays Graffiti platziert
-windows.host.default.settings Enabling Default Settings allows for storing Player Progress and Highscores
+stats.sprays Platzierte Graffitis
+windows.host.default.settings Durch aktivieren der Standardeinstellungen, können Spielerfortschritte und Höchstwerte gespeichert werden.
 windows.host.default.commands *Host Befehle sind in diesem Modus deaktiviert: /noclip /god /smite etc
 windows.host.rewards KR Belohnungen einzuschalten zwingt den Server Standart Einstellungen zu verwenden und erlaubt Spielern KR von der Map Kasse zu verdienen
-windows.store.wheels.sub Versuche dein Glück und dreh den Spin für die Chance auf coole Skins
-windows.store.currency * Preise in USD können zu deiner Lokalen Währung umgewandelt werden. Diese Währungsumrechnung ist von deiner Zahlungsanbieter oder Bank bestimmt.
-windows.store.creator Überleg dir einen Crator Code zu benutzem um deinen lieblingscreator zu unterstützen
-windows.chall.customs Herausforderungen können nicht in privaten Spielen gemacht werden
-twitch.link Bist du dir sicher dass du diesen Twitch account mit deinem Profil verlinken willst?
-twitch.unlink Bist du dir sicher dass du deinen Twitch Account von deinem Profil entfernen willst?
+windows.store.wheels.sub Versuche dein Glück und drehe am Glücksrad für eine Chance auf einige neue Skins
+windows.store.currency * Preise in USD können zu deiner lokalen Währung umgewandelt werden. Diese Währungsumrechnung ist von deinem Zahlungsanbieter oder deiner Bank bestimmt.
+windows.store.creator Überlege dir einen Creator Code zu benutzen, um deinen Lieblingscreator zu unterstützen.
+windows.chall.customs Herausforderungen können nur in offiziellen Spielen erledigt werden.
+twitch.link Bist du dir sicher, dass du diesen Twitch-Account mit deinem Profil verlinken möchtest?
+twitch.unlink Bist du dir sicher, dass du deinen Twitch-Account von deinem Profil entfernen möchtest?
 windows.clan.leave Bist du dir sicher dass du den Clan verlassen willst?
 windows.clan.delete Bist du dir sicher dass du den Clan löschen willst?
 windows.clan.kick Bist du dir sicher dass du {0} aus dem Clan entfernen willst?
