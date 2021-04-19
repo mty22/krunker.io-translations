@@ -1,0 +1,27 @@
+Please see this file as a *guide* for KR payments around changes within Krunker’s language files. For simplicity, we will work based on pull requests (PR).
+
+If there are multiple pull requests fixing existing issues from the same person, pull requests may be aggregated together to prevent abuse of payments.
+
+KR will be sent to the user submitting the pull request, unless pre-arranged (ie. KR is being split between players based on work breakdowns).
+
+Account verification is typically reserved for new translations where one or two people have solemnly worked on a pre-approved translation, providing quality work with little to no errors during the review process.
+
+Account verification is also reserved for users who continuously contribute to the Translation project while providing quality work with little to no errors during the review process and assist others when help is required.
+
+Regular contributors will more than likely receive the middle to upper end of the KR payments when demonstrating similar qualities as what is reserved for Account verification users.
+
+Changes to payments may be made at any point in time where required.
+
+Abuse of this payment system will not be tolerated.
+
+-----
+New translation - 50,000 KR per pull request + Krunker account verification based on workload breakdown (typically 500+ lines/changes), see notes above regarding verification.
+
+Major changes - 25,000  KR to 35,000 KR per pull request (typically 249 to 499 lines/changes)
+
+General changes - 5,000 KR to 25,000 KR per pull request (typically 50 to 249 lines/changes)
+
+Minor changes - 500 KR to 5,500 KR per pull request (typically 1 to 49 lines/changes)
+
+Bug fixes - 100 KR to 500 KR per pull requests (typically 1 to 10 lines/changes)
+-----

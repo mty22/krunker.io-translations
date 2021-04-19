@@ -326,6 +326,13 @@ settings.editing.prog.shadow Progress Bar Shadow
 settings.editing.progOffX Progress Bar X Offset
 settings.editing.progOffY Progress Bar Y Offset
 settings.editing.progRot Progress Bar Rotation
+settings.editing.progm.color Charge Bar Color
+settings.editing.progm.opacity Charge Bar Opacity
+settings.editing.progm.scale Charge Bar Scale
+settings.editing.progm.shadow Charge Bar Shadow
+settings.editing.progmOffX Charge Bar X Offset
+settings.editing.progmOffY Charge Bar Y Offset
+settings.editing.progmRot Charge Bar Rotation
 settings.editing.saturation Saturation (In-game)
 settings.editing.menuSaturation Saturation (UI)
 settings.editing.hue Color Hue (In-game)
@@ -392,7 +399,7 @@ windows.loadout.secondary Secondary
 windows.loadout.secondary.skin Secondary Skin
 windows.loadout.melee Melee
 windows.loadout.hat Hat
-windows.loadout.body Body
+windows.loadout.back Body
 windows.loadout.waist Waist
 windows.loadout.shoe Shoes
 windows.loadout.face Face
@@ -625,9 +632,11 @@ server.config.bDrop Bullet Drop
 server.config.thirdPerson 3rd Person
 server.config.requireCaptcha Require Captcha
 server.config.nameTags Hide Nametags
+server.config.kCams Kill Cams
 server.config.noReload No Reload
 server.config.private Private
 server.config.krRewards KR Rewards
+server.config.forceDefault Force Default Settings
 server.config.warmupTime Warmup Time
 server.config.objtvTime Objective Time
 server.config.forceSpawn Auto Respawn Time
@@ -685,4 +694,54 @@ social.market.gift.amount Gift Amount in
 social.market.fee.gift No Fee
 social.market.gift Gift KR
 social.market.gift.msg Leave a message
+respawn.auto Auto Respawning in {0}
+custom.host.ranked Can't host match while in ranked.
+funds.insufficient Insufficient Funds
+funds.out It appears you have run out of Krunkies.
+custom.passcode.long Password too long
+custom.passcode.input Enter Server Password to join
+custom.tryagain Please try again.
+purchase.kr.success Added {0} KR to your account
+limited.purchase.ask Are you sure you want to purchase [{0}] for {1} KR?
+limited.purchase.success Added {0} to your inventory
+pretend.exit press [{0}] again to exit
+settings.loaded Settings Loaded
+settings.loaded.none No settings found
+account.login.required Must be logged in
+account.banned.hack This account has been banned for Hacking.
+account.banned.appeal If you want to appeal your ban, contact:
+account.delete You may request to delete your account, if the request is not cancelled within 14 days the account and all associated data will be permanently removed.
+account.delete.request Are you sure you want to request an account deletion?
+account.delete.cancel Are you sure you want to cancel account deletion?
+spin.free.available FREE KR AVAILABLE!
+spin.free.claim This spin is available to claim once per Hour after completing a match.
+spin.free.disable These Popups can be disabled in General Settings
+mod.reset.0 Will take effect after respawning.
+mod.reset.1 Map Objects dont get reset
+windows.profile.picture Change Picture
+stats.assists Assists
+stats.nukes Nukes
+stats.melee Melee
+stats.fistkills Beatdowns
+stats.thrownkills Bullseyes
+stats.headshots Headshots
+stats.wallbangs Wallbangs
+stats.sprays Sprays Placed
+windows.host.default.settings Enabling Default Settings allows for storing Player Progress and Highscores
+windows.host.default.commands *Host Commands are Disabled in this mode: /noclip /god /smite etc
+windows.host.rewards Enabling KR Rewards forces the Server to use Default Settings & allows players to earn KR from the map funds:
+windows.store.wheels.sub Try your luck and spin for a chance to win some new skins!
+windows.store.currency * Prices in USD can be converted to your local currency at an exchange rate defined by the payment provider or bank
+windows.store.creator Consider Support your favorite Content Creator by using a Creator Code
+windows.chall.customs Challenges can't be completed in Custom Matches
+twitch.link Are you sure you want to link a twitch account?
+twitch.unlink Are you sure you want to unlink your twitch account?
+windows.clan.leave Are you sure you want to leave the clan?
+windows.clan.delete Are you sure you want to delete the clan?
+windows.clan.kick Are you sure you want kick {0} from the clan?
+windows.store.premium.purchase Are you sure you want to purchase {0} days of Premium?
+windows.playerlist.ban Are you sure you want ban {0} from this game?
+windows.playerlist.flag Are you sure you want to Flag {0}?
+windows.playerlist.unflag Are you sure you want to Unflag {0}?
+windows.playerlist.punish Are you sure you want to take action on {0}?
 `;
