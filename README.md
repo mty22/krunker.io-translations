@@ -13,7 +13,7 @@ Project information and discussion on Discord can be found in [Krunker Bunker](h
 
 Not sure on how to use GitHub? Have a look at this [Introduction to GitHub](https://lab.github.com/githubtraining/introduction-to-github) tutorial as it may answer many common questions!
 
-Understand the basics of GitHub and want to know how to start contributing? Check out [this article](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo) on forking a GitHub repository, or [syncing a forked repository](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork).
+Check out [this article](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo) on forking a GitHub repository, or [syncing a forked repository](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork).
 
 **Before translating Krunker into another language**, please search for an [existing issue](https://github.com/mty22/krunker.io-translations/issues) to see if another person is working on it, or if there's previously answered questions that may help you here!
 
@@ -28,17 +28,19 @@ If you can't find anything, then please [create an issue](https://github.com/mty
 
 **Once approval is given**, feel free to grab a copy of the [English](https://github.com/mty22/krunker.io-translations/blob/main/en.js) language file, find a buddy and translate where possible. If you work on a language translation without approval, you may not be eligible for KR Payment(s).
 
-If you are done with the translation submit a pull request like this:
+Once you've completed your changes, please submit a [Pull Request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork):
 
-1. Go to the project site: https://github.com/mty22/krunker.io-translations
-2. In the top right corner press **fork**
-3. This will "copy" the project to your own profile, so there will be a same repository
-4. You have to add the translation file to **your repository (main branch)**
-5. When it's done, go to the pull reqests section at the original project and press **New Pull Request**
-6. At the compare section you have to press the blue text **compare across forks**
-7. There are 2 buttons "main:something" and "compare:something" you need to select your repository at the "compare:something" part
-8. Add some title like "Rebuild *2 letter abbreviation of your language*.js *Your language* based on en.js (v3.8.1)"
-9. Submit the pull request
+Already done the first 3 steps and you need to resync your GitHub repository? Check out this guide on [syncing a forked repository](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork).
+
+1. Go to the GitHub repository: https://github.com/mty22/krunker.io-translations
+2. In the top right corner, click **Fork**. See [this article](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo) for more information.
+3. This will fork (copy) the GitHub repository into your own GitHub repository which allows you to work on it.
+4. You have to add the translation file(s) into **your GitHub repository** (main branch).
+5. When it's done, go to the Pull Reqests section at the original project and press **New Pull Request**.
+6. At the compare section you have to press the blue text **compare across forks**.
+7. There are 2 buttons "main:something" and "compare:something" you need to select your repository at the "compare:something" part.
+8. Add some title like "Update *2 letter abbreviation of your language*.js *Your language* based on en.js (v3.8.1)".
+9. Submit the pull request.
 
 Languages worked on without approval will still likely be accepted, although it may not be added to the game. We will keep a copy of the language on this git repository for future use. If it is added to the game, we'll reach out to the person who submitted the pull request, and compensate accordingly!
 
