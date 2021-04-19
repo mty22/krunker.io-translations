@@ -326,13 +326,13 @@ settings.editing.prog.shadow Sombra de Barra de Progreso
 settings.editing.progOffX Ubicación X de la Barra de Progreso
 settings.editing.progOffY Ubicación Y de la Barra de Progreso
 settings.editing.progRot Rotación de Barra de Progreso
-settings.editing.progm.color Charge Bar Color
-settings.editing.progm.opacity Charge Bar Opacity
-settings.editing.progm.scale Charge Bar Scale
-settings.editing.progm.shadow Charge Bar Shadow
-settings.editing.progmOffX Charge Bar X Offset
-settings.editing.progmOffY Charge Bar Y Offset
-settings.editing.progmRot Charge Bar Rotation
+settings.editing.progm.color Cambiar Color de la Barra
+settings.editing.progm.opacity Cambiar Opacidad de la Barra
+settings.editing.progm.scale Cambiar Escala de la Barra
+settings.editing.progm.shadow Cambiar Sombra de La Barra
+settings.editing.progmOffX Ubicación X De la Barra de Carga
+settings.editing.progmOffY Ubicación Y De la Barra de Carga
+settings.editing.progmRot Cambiar Rotación de la Barra
 settings.editing.saturation Saturación (En el juego)
 settings.editing.menuSaturation Saturación (Interfaz)
 settings.editing.hue Matiz de Color (En el juego)
@@ -632,11 +632,11 @@ server.config.bDrop Caída de bala
 server.config.thirdPerson Tercera persona
 server.config.requireCaptcha Requiere captcha
 server.config.nameTags Ocultar nombres
-server.config.kCams Kill Cams
+server.config.kCams Camara de Muertes
 server.config.noReload No recargar
 server.config.private Privado
 server.config.krRewards Recompensas de KR
-server.config.forceDefault Force Default Settings
+server.config.forceDefault Forzar Configuraciones por Defecto
 server.config.warmupTime Tiempo de calentamiento
 server.config.objtvTime Tiempo de Objetivo
 server.config.forceSpawn Tiempo de reaparición automática
@@ -669,7 +669,7 @@ social.market.unlist Deslistar
 social.market.unlisting Deslistando objeto...
 social.market.posting Listando objeto...
 social.market.req nivel {0} requerido
-social.market.cant No puedes comprar esto
+social.market.cant No puedes afordar esto
 social.market.purchase Comprar
 social.market.fee No hay cuota por listar
 social.market.failed Error. Inténtalo de nuevo
@@ -690,57 +690,58 @@ social.market.filter Buscar
 social.market.sort2 Ordenar
 social.market.price.high Precio más alto
 social.trading.submitting Enviando oferta...
-social.market.gift.amount Cantidad a regalar en
+social.market.gift.amount Cantidad de KR a Regalar
 social.market.fee.gift Sin cuota
 social.market.gift Regalar KR
 social.market.gift.msg Dejar un mensaje
-respawn.auto Auto Respawn en {0}
-custom.host.ranked No puedes hostear una partida si estas en una partida Clasificatoria.
-funds.insufficient Fondos insuficientes
+respawn.auto Auto Reaparición en {0}
+custom.host.ranked No se puede crear una partida mientras estas en Competitivo
+funds.insufficient Fondos Insuficientes
 funds.out Vaya , parece que no tienes Krunkies.
-custom.passcode.longla contraseña es muy larga
-custom.passcode.input Ingresa la contraseña del servidor
-custom.tryagain Porfavor intenta de Nuevo.
-purchase.kr.success Añadidos {0} KR a tu cuenta
+custom.passcode.long Contraseña demasiado Larga.
+custom.passcode.input Ingresa la contraseña del servidor.
+custom.tryagain Porfavor intenta denuevo.
+purchase.kr.success Añadidos {0} KR A tu Cuenta.
 limited.purchase.ask Estas seguro de comprar [{0}] por {1} KR?
-limited.purchase.success añadido {0} a tu inventario
-pretend.exit presiona [{0}] para salir
+limited.purchase.success Añadido {0} KR A tu Inventario.
+pretend.exit Presiona {0} Denuevo para Salir.
 settings.loaded Configuraciones Cargadas
-settings.loaded.none No se encontraron configuraciones
-account.login.required Necesitas haber iniciado sesion
-account.banned.hack Esta cuenta fue suspendida por uso de hacks.
-account.banned.appeal si quieres apelar tu suspencion, contacta:
+settings.loaded.none Ninguna Configuración Encontrada.
+account.login.required Necesitas una Sesión Iniciada
+account.banned.hack Esta cuenta ha sido suspendida permanentemente por Trampas.
+account.banned.appeal Si quieres apelar tu suspención, Contacta:
 account.delete Puedes solicitar la eliminación de su cuenta, si la solicitud no se cancela dentro de los 14 días, la cuenta y todos los datos asociados se eliminarán permanentemente.
-account.delete.cancel Estas seguro de cancelar la eliminacion de cuenta?
-spin.free.available KR gratis Diponible!
-spin.free.claim Este spin esta disponible para canjear una hora despues de cada partida.
-spin.free.disable Estas ventanas emergentes pueden ser desactivadas en las Configuraciones Generales. 
-mod.reset.0 Tomara efecto despues de respawnear.
-mod.reset.1 Map Objects dont get reset
-windows.profile.picture Change Picture
+account.delete.request Estas seguro de solicitar la eliminación de tu cuenta?
+account.delete.cancel Estas seguro de cancelar la eliminación de tu cuenta?
+in.free.available KR GRATIS DISPONIBLE!
+spin.free.claim  Este spin esta disponible para canjear una hora despues de cada partida.
+spin.free.disable Estos anuncios pueden ser desactivados en las configuraciones generales.
+mod.reset.0 Tomara efecto luego de Reaparecer.
+mod.reset.1 Map Los objetos de mapas no se Resetean.
+windows.profile.picture Cambiar Imagen
 stats.assists Asistencias
-stats.nukes nucleares
-stats.melee Cuerpo a cuerpo
-stats.fistkills Palizas
-stats.thrownkills Bullseyes
-stats.headshots Tiros a la cabeza
-stats.wallbangs Muertes atraves de la pared
+stats.nukes Nucleares
+stats.melee Bajas con Cuchillo
+stats.fistkills Bajas con Puños
+stats.thrownkills Bajas con Cuchillo Arrojadizo
+stats.headshots Tiros en la Cabeza
+stats.wallbangs Bajas a través de Paredes
 stats.sprays Sprays Colocados
 windows.host.default.settings Habilitar las configuraciones por defecto permite a los jugadores y guardar su progreso y puntajes mas altos
 windows.host.default.commands *Los comandos de hosteo estan deshabilitados para este modo : /noclip /god /smite etc
-windows.host.rewards Enabling KR Rewards forces the Server to use Default Settings & allows players to earn KR from the map funds:
-windows.store.wheels.sub Prueba tu suerte en un spin para ganar nuevas Skins!
-windows.store.currency *Precios en usd pueden ser convertidos a tu moneda local y a un tipo de cambio definido por el tipo de pago o el banco
-windows.store.creator Considera apoyar a tu creador de contenido favorito usando su codigo de creador
-windows.chall.customs No se pueden completar los Challenges mientras estas en una partida Personalizada
-twitch.link Quieres vincular tu cuenta de twitch?
-twitch.unlink Estas seguro de querer desvincular tu cuenta de twitch?
-windows.clan.leave Quieres abandonar el clan?
-windows.clan.delete Quieres eliminar el clan?
-windows.clan.kick Seguro que quieres votar a  {0} del  clan?
-windows.store.premium.purchase Quieres comprar {0} dias de  Premium?
-windows.playerlist.ban Estas seguro de que quieres banear a  {0} del juego?
-windows.playerlist.flag Estas seguro de querer marcar a {0}?
-windows.playerlist.unflag Estas seguro de querer desmarcar a  {0}?
-windows.playerlist.punish Are you sure you want to take action on {0}?
+windows.host.rewards Activando Recompenzas de KR Forza al servidor a usar configuraciones por defecto y permite a los jugadores ganar recompenzas de los fondos del mapa:
+windows.store.wheels.sub Prueba tu suerte y gira para ganar nuevas Skins!
+windows.store.currency * Prices in USD can be converted to your local currency at an exchange rate defined by the payment provider or bank
+windows.store.creator Considera Apoyar a tu Creador de Contenido Favorito usando su Codigo de Creador
+windows.chall.customs Los desafiós no se pueden completar en partidas personalizadas.
+twitch.link Estas seguro de que quieres vincular esta cuenta de twitch?
+twitch.unlink Estas seguro de que quieres desvincular tu cuenta de twitch?
+windows.clan.leave Estas seguro de que Quieres Abandonar el Clan?
+windows.clan.delete Estas seguro de que Quieres Borrar el Clan?
+windows.clan.kick Estas seguro de que quieres expulsar a {0} del clan?
+windows.store.premium.purchase Estas seguro de que quieres Comprar {0} dias de Premium?
+windows.playerlist.ban Estas seguro de que quieres Banear {0} de esta partida?
+windows.playerlist.flag Estas seguro de que quieres Suspender a {0} ? 
+windows.playerlist.unflag Estas seguro de que quieres remover la suspención de {0}?
+windows.playerlist.punish Estas seguro de que quieres tomar acciones en {0}?
 `;
