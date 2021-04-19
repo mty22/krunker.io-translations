@@ -1,6 +1,6 @@
 module.exports = `
-menu.btn.ranked 排位 
-menu.btn.shop 商店 
+menu.btn.ranked 排位赛 
+menu.btn.shop 商城 
 menu.btn.social 社区 
 menu.btn.maps 游戏 
 menu.btn.mods MOD 
@@ -151,19 +151,19 @@ settings.post.bloomStrength Bloom Strength
 settings.post.bloomRadius Bloom Radius
 settings.post.ssao SSAO
 settings.post.ssaoRadius SSAO Radius
-settings.interface.hitInd 伤害指示器 
-settings.interface.hitColor 伤害指示颜色 
+settings.interface.hitInd 受击提示 
+settings.interface.hitColor 受击提示颜色 
 settings.interface.dmg 显示伤害 
 settings.interface.dmgCol 伤害颜色 
 settings.interface.critCol 暴击颜色 
 settings.interface.header 界面 
 settings.interface.scale 用户界面比例 
 settings.interface.ui 显示用户界面 
-settings.interface.scoreboard 使用旧版计分板
-settings.interface.oldBrowser 使用旧版浏览器 
-settings.interface.rarityanim 禁用稀有物品动画,
+settings.interface.scoreboard 使用经典计分板
+settings.interface.oldBrowser 使用经典服务器浏览器 
+settings.interface.rarityanim 禁用稀有物品动画
 settings.interface.showPfp 显示用户图标 
-settings.interface.showTradeMsg Show Trade Messages
+settings.interface.showTradeMsg Show Trade Messages 显示交易消息
 settings.interface.hp 动态血条(HP) 
 settings.interface.dmgScale 伤害显示比例 
 settings.interface.killf 显示击杀列表 
@@ -171,7 +171,7 @@ settings.interface.ping 显示延迟(PING)
 settings.interface.net-stats 显示网络状况 
 settings.interface.fps 显示帧率(FPS) 
 settings.interface.deaths 显示死亡数 
-settings.interface.kd Show K/D Counter
+settings.interface.kd Show K/D Counter 显示K/D
 settings.interface.kills 显示击杀数 
 settings.interface.streak 显示连杀数 
 settings.interface.score 显示分数 
@@ -319,20 +319,20 @@ settings.editing.score.scale 弹出得分倍率
 settings.editing.score.shadow 弹出得分阴影 
 settings.editing.scoreOffX 弹出得分X轴坐标 
 settings.editing.scoreOffY 弹出得分Y轴坐标 
-settings.editing.prog.color Progress Bar Color
-settings.editing.prog.opacity Progress Bar Opacity
-settings.editing.prog.scale Progress Bar Scale
-settings.editing.prog.shadow Progress Bar Shadow
-settings.editing.progOffX Progress Bar X Offset
-settings.editing.progOffY Progress Bar Y Offset
-settings.editing.progRot Progress Bar Rotation
-settings.editing.progm.color Charge Bar Color
-settings.editing.progm.opacity Charge Bar Opacity
-settings.editing.progm.scale Charge Bar Scale
-settings.editing.progm.shadow Charge Bar Shadow
-settings.editing.progmOffX Charge Bar X Offset
-settings.editing.progmOffY Charge Bar Y Offset
-settings.editing.progmRot Charge Bar Rotation
+settings.editing.prog.color Progress Bar Color 经验条颜色
+settings.editing.prog.opacity Progress Bar Opacity 进度条透明度
+settings.editing.prog.scale Progress Bar Scale 进度条大小
+settings.editing.prog.shadow Progress Bar Shadow 进度条阴影
+settings.editing.progOffX Progress Bar X Offset 进度条水平位置
+settings.editing.progOffY Progress Bar Y Offset 进度条垂直位置
+settings.editing.progRot Progress Bar Rotation 进度条角度
+settings.editing.progm.color Charge Bar Color 蓄力条颜色
+settings.editing.progm.opacity Charge Bar Opacity 蓄力条透明度
+settings.editing.progm.scale Charge Bar Scale 蓄力条大小
+settings.editing.progm.shadow Charge Bar Shadow 蓄力条阴影
+settings.editing.progmOffX Charge Bar X Offset 蓄力条水平位置
+settings.editing.progmOffY Charge Bar Y Offset 蓄力条垂直位置
+settings.editing.progmRot Charge Bar Rotation 蓄力条角度
 settings.editing.saturation 饱和度 (游戏中) 
 settings.editing.menuSaturation 饱和度 (用户界面) 
 settings.editing.hue 色调 (游戏中) 
@@ -350,13 +350,13 @@ settings.mods.load 加载MOD
 settings.mods.logo 允许变更Logo 
 settings.mods.auto 自动加载MOD 
 settings.mods.borders 瞄准镜边界 
-settings.mods.borderCol Scope Borders
-settings.mods.borderOpac Scope Borders Opacity
-settings.mods.scope 瞄准镜图标 
-settings.mods.scope.paste 瞄准镜图标网址 
-settings.mods.scope.opacity Scope Opacity
-settings.mods.scope.width Scope Image Width
-settings.mods.scope.height Scope Image Height
+settings.mods.borderCol 狙击镜
+settings.mods.borderOpac Scope Borders Opacity 狙击镜边界透明度
+settings.mods.scope 狙击镜图标 
+settings.mods.scope.paste 狙击镜图标网址 
+settings.mods.scope.opacity Scope Opacity 狙击镜透明度
+settings.mods.scope.width Scope Image Width 狙击镜宽度
+settings.mods.scope.height Scope Image Height 狙击镜高度
 settings.mods.dot 准星图标 
 settings.mods.dot.width 准星图标宽度 
 settings.mods.dot.height 准星图标高度 
@@ -379,7 +379,7 @@ settings.mods.damage 受伤屏幕效果图标
 settings.mods.damage.paste 受伤屏幕效果网址 
 settings.mods.overlay 游戏结束图标 
 settings.mods.overlay.paste 游戏叠层图片网址 
-settings.social.region Region Stats
+settings.social.region Region Stats 
 windows.settings.header 游戏设定 
 windows.mail.header Krunker邮箱 
 windows.servers.header 服务器 
@@ -394,21 +394,21 @@ windows.loadout.class 角色
 windows.loadout.primary 主武器 
 windows.loadout.primary.attach 配件 
 windows.loadout.primary.reticle 准星 
-windows.loadout.primary.scope Scope
+windows.loadout.primary.scope 狙击瞄准镜
 windows.loadout.secondary 副武器 
 windows.loadout.secondary.skin 副武器皮肤 
 windows.loadout.melee 近战武器 
-windows.loadout.hat 帽子 
+windows.loadout.hat 头部 
 windows.loadout.back 身体 
 windows.loadout.waist 腰部 
-windows.loadout.shoe Shoes
-windows.loadout.face 面部 
+windows.loadout.shoe 鞋子
+windows.loadout.face 表情 
 windows.loadout.spray 涂鸦 
 windows.loadout.color.skin 皮肤颜色 
-windows.loadout.color.chat 聊天名字颜色 
+windows.loadout.color.chat 用户名颜色 
 windows.loadout.color.hair 头发颜色 
 windows.loadout.dye 服装 
-windows.loadout.pet Pet
+windows.loadout.pet 宠物
 windows.loadout.stat 击杀统计卡 
 windows.loadout.flag 国家旗帜 
 windows.mods.drop 将MOD文件放在此处或单击 
@@ -420,7 +420,7 @@ windows.mods.guide MOD指南
 windows.mods.list MOD列表 
 windows.mods.load.header 加载MOD 
 windows.mods.publish 发布MOD 
-windows.mods.viewer 观看者 
+windows.mods.viewer 皮肤浏览器 
 windows.account.header 帐户 
 windows.account.recover 联系 <a>krunker@yendis.ch</a> 找回账号密码 
 windows.class.header 选择角色 
@@ -667,22 +667,22 @@ social.market.listed {0}前上架
 social.market.list 上架物品 
 social.market.unlist 下架物品 
 social.market.unlisting 下架物品中... 
-social.market.posting 发布中... 
+social.market.posting 发布物品中... 
 social.market.req 需要至少{0}级 
-social.market.cant KR不足以支付
+social.market.cant KR不足
 social.market.purchase 购买 
 social.market.fee 无上架费用 
 social.market.failed 失败. 请稍后重试 
-social.market.head 头部饰品 
+social.market.head 头饰 
 social.market.back 背部饰品 
 social.market.waist 腰部饰品 
-social.market.face 面部饰品 
-social.market.shoe Shoe Item
-social.market.pet Pet Item
+social.market.face 表情 
+social.market.shoe Shoe Item 鞋子
+social.market.pet Pet Item 宠物
 social.market.melee 近战武器 
-social.market.spray 涂鸦物品 
-social.market.dye 服装物品 
-social.market.none 没有找到物品 
+social.market.spray 涂鸦 
+social.market.dye 服装 
+social.market.none 没有找到该物品 
 social.market.login 您必须先登录.
 social.market.grace {0}秒后生效 
 social.market.sort 筛选/排序 
@@ -694,54 +694,54 @@ social.market.gift.amount 赠送金额
 social.market.fee.gift 无费用 
 social.market.gift 赠送KR 
 social.market.gift.msg 留言 
-respawn.auto Auto Respawning in {0}
-custom.host.ranked Can't host match while in ranked.
-funds.insufficient Insufficient Funds
+respawn.auto Auto Respawning in {0} 您将会在｛0｝秒内重生
+custom.host.ranked Can't host match while in ranked. 排位赛正在进行，暂时不能开设房间
+funds.insufficient Insufficient Funds 
 funds.out It appears you have run out of Krunkies.
-custom.passcode.long Password too long
-custom.passcode.input Enter Server Password to join
-custom.tryagain Please try again.
+custom.passcode.long Password too long 密码过长
+custom.passcode.input Enter Server Password to join 请输入房间密码
+custom.tryagain Please try again. 请重试
 purchase.kr.success Added {0} KR to your account
 limited.purchase.ask Are you sure you want to purchase [{0}] for {1} KR?
 limited.purchase.success Added {0} to your inventory
 pretend.exit press [{0}] again to exit
 settings.loaded Settings Loaded
-settings.loaded.none No settings found
-account.login.required Must be logged in
-account.banned.hack This account has been banned for Hacking.
-account.banned.appeal If you want to appeal your ban, contact:
+settings.loaded.none No settings found 
+account.login.required Must be logged in 必须登录
+account.banned.hack This account has been banned for Hacking. 此账号已因为使用外挂被封号。
+account.banned.appeal If you want to appeal your ban, contact: 如果您认为您被误封，请联系：
 account.delete You may request to delete your account, if the request is not cancelled within 14 days the account and all associated data will be permanently removed.
-account.delete.request Are you sure you want to request an account deletion?
-account.delete.cancel Are you sure you want to cancel account deletion?
-spin.free.available FREE KR AVAILABLE!
-spin.free.claim This spin is available to claim once per Hour after completing a match.
-spin.free.disable These Popups can be disabled in General Settings
+account.delete.request Are you sure you want to request an account deletion? 您确定您要请求删除该账号吗？
+account.delete.cancel Are you sure you want to cancel account deletion? 您确定您要取消删除该账号吗？
+spin.free.available FREE KR AVAILABLE! 
+spin.free.claim This spin is available to claim once per Hour after completing a match. 该转盘仅可在每小时完成一场比赛后使用一次
+spin.free.disable These Popups can be disabled in General Settings 
 mod.reset.0 Will take effect after respawning.
 mod.reset.1 Map Objects dont get reset
-windows.profile.picture Change Picture
-stats.assists Assists
-stats.nukes Nukes
-stats.melee Melee
-stats.fistkills Beatdowns
-stats.thrownkills Bullseyes
-stats.headshots Headshots
-stats.wallbangs Wallbangs
-stats.sprays Sprays Placed
+windows.profile.picture Change Picture 更改头像
+stats.assists Assists 助攻次数
+stats.nukes Nukes 使用核弹次数
+stats.melee Melee 近战武器击杀次数
+stats.fistkills Beatdowns 空手击杀次数
+stats.thrownkills Bullseyes 近战武器投掷击杀次数
+stats.headshots Headshots 爆头次数
+stats.wallbangs Wallbangs 穿墙次数
+stats.sprays Sprays Placed 涂鸦次数
 windows.host.default.settings Enabling Default Settings allows for storing Player Progress and Highscores
-windows.host.default.commands *Host Commands are Disabled in this mode: /noclip /god /smite etc
+windows.host.default.commands *Host Commands are Disabled in this mode: /noclip /god /smite etc 房主专用指令已关闭：/noclip， /god， /smite， 等等
 windows.host.rewards Enabling KR Rewards forces the Server to use Default Settings & allows players to earn KR from the map funds:
 windows.store.wheels.sub Try your luck and spin for a chance to win some new skins!
-windows.store.currency * Prices in USD can be converted to your local currency at an exchange rate defined by the payment provider or bank
+windows.store.currency * Prices in USD can be converted to your local currency at an exchange rate defined by the payment provider or bank 
 windows.store.creator Consider Support your favorite Content Creator by using a Creator Code
 windows.chall.customs Challenges can't be completed in Custom Matches
-twitch.link Are you sure you want to link a twitch account?
-twitch.unlink Are you sure you want to unlink your twitch account?
-windows.clan.leave Are you sure you want to leave the clan?
-windows.clan.delete Are you sure you want to delete the clan?
-windows.clan.kick Are you sure you want kick {0} from the clan?
+twitch.link Are you sure you want to link a twitch account? 您确定您要链接您的Twitch账号吗？
+twitch.unlink Are you sure you want to unlink your twitch account? 您确定您要取消链接您的Twitch账号吗？
+windows.clan.leave Are you sure you want to leave the clan? 您确定您要离开此战队吗？
+windows.clan.delete Are you sure you want to delete the clan? 您确定您要删除此战队吗？
+windows.clan.kick Are you sure you want kick {0} from the clan? 您确定您要将｛0｝从此战队踢出吗？
 windows.store.premium.purchase Are you sure you want to purchase {0} days of Premium?
 windows.playerlist.ban Are you sure you want ban {0} from this game?
-windows.playerlist.flag Are you sure you want to Flag {0}?
-windows.playerlist.unflag Are you sure you want to Unflag {0}?
-windows.playerlist.punish Are you sure you want to take action on {0}?
+windows.playerlist.flag Are you sure you want to Flag {0}? 您确定您要标记｛0｝吗？
+windows.playerlist.unflag Are you sure you want to Unflag {0}? 您确定您要取消标记｛0｝吗？
+windows.playerlist.punish Are you sure you want to take action on {0}? 
 `;
