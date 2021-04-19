@@ -89,7 +89,7 @@ settings.local.region Регион по умолчанию
 settings.local.lang Язык
 settings.network.header Настройки сети
 settings.network.sendRate Высокий тикрейт
-settings.network.netRerouting Автоматическая маршрутизация(Влияет на пинг)
+settings.network.netRerouting Автоматическая маршрутизация (Влияет на пинг)
 settings.network.lagComp Компенсация задержки
 settings.popup.header Всплывающие окна
 settings.popup.freeKRPop Показывать окно бесплатных KR
@@ -102,7 +102,7 @@ settings.dev.forceUpdate Принудительное обновление ск�
 settings.dev.forceRegen Всегда лечить игрока
 settings.dev.extraBan Дополнительная информация о бане
 settings.chat.header Чат
-settings.chat.chat Show Показать окно чата
+settings.chat.chat Показать окно чата
 settings.chat.chat.all Всегда
 settings.chat.chat.focus Пока сфокусирован
 settings.chat.messages Показывать сообщения игроков
@@ -145,10 +145,10 @@ settings.quality.showExplo Показать взрывы
 settings.quality.aspectRatio Соотношение сторон
 settings.post.header Главная постобработка
 settings.post.post Вторичная постобработка
-settings.post.bloom Растения
-settings.post.bloomThreshold Предел растений
-settings.post.bloomStrength Мощность растений
-settings.post.bloomRadius Радиус растений
+settings.post.bloom Свечение
+settings.post.bloomThreshold Предел свечения
+settings.post.bloomStrength Мощность свечения
+settings.post.bloomRadius Радиус свечения
 settings.post.ssao Освещение SSAO
 settings.post.ssaoRadius Радиус освещения SSAO 
 settings.interface.hitInd Показывать индикатор попаданий
@@ -165,7 +165,7 @@ settings.interface.rarityanim Отключить анимацию редкост
 settings.interface.showPfp Показывать изображение профиля
 settings.interface.showTradeMsg Показывать сообщения трейдов
 settings.interface.hp Динамическая полоса здоровья
-settings.interface.dmgScale Масштаб повреждений
+settings.interface.dmgScale Масштаб информации о наносимом уроне
 settings.interface.killf Показывать убийства подряд
 settings.interface.ping Показывать PING
 settings.interface.net-stats Показывать сетевую статистику
@@ -219,9 +219,9 @@ settings.crosshair.shadow.color Цвет тени
 settings.crosshair.shadow.thickness Толщина тени
 settings.crosshair.size Размер
 settings.crosshair.thickness Толщина
-settings.crosshair.gap Зазор
+settings.crosshair.gap Пространство
 settings.crosshair.dot Точка
-settings.crosshair.opacity.use Использовать настраиваемому прозрачность
+settings.crosshair.opacity.use Использовать настраиваемую прозрачность
 settings.crosshair.opacity.custom Пользовательская прозрачность
 settings.hitmarker.header Индикатор попадания
 settings.hitmarker.color Цвет
@@ -240,9 +240,9 @@ settings.onKillS.style.0 По умолчанию
 settings.onKillS.style.1 Уменьшить разрешение
 settings.onKillS.style.2 Уменьшить угол обзора
 settings.onKillS.style.3 Увеличить угол обзора
-settings.serverb.header Обозреватель сервера
+settings.serverb.header Обозреватель серверов
 settings.serverb.oldBrowser Устаревший браузер
-settings.serverb.defaultRegionOnly Только регион выбранный по умолчанию
+settings.serverb.defaultRegionOnly Только регион, выбранный по умолчанию
 settings.gameprivacy.header Конфиденциальность игрового процесса
 settings.gameprivacy.streamer Режим стримера
 settings.gameprivacy.anon Анонимный режим
@@ -420,7 +420,7 @@ windows.mods.guide Руководство по Модификациям
 windows.mods.list Список модов
 windows.mods.load.header Загрузить Моды
 windows.mods.publish Опубликовать Мод
-windows.mods.viewer Осмотр
+windows.mods.viewer Обзор
 windows.account.header Аккаунт
 windows.account.recover Чтобы восстановить аккаунт, свяжитесь с <a>krunker@yendis.ch</a>
 windows.class.header Выбрать Класс
@@ -473,7 +473,7 @@ windows.host.preset.name Название Пресета
 windows.host.start Начать Игру
 windows.host.rehost Начать Игру (Привести Игроков)
 windows.spray.header Выбрать Спрей
-windows.spray.default Основной Спрей
+windows.spray.default Стандартный Спрей
 windows.spray.spin Спрей
 windows.maps.header Пользовательские Игры
 windows.maps.none Игр не найдено!
@@ -526,7 +526,7 @@ windows.back.header Выберите предмет на спину
 windows.waist.header Выберите предмет на талию
 windows.face.header Выберите предмет на лицо
 windows.melee.header Выберите нож
-windows.attach.header Выберите вложение
+windows.attach.header Выберите дополнительную часть
 windows.reticle.header Выберите сетку
 windows.reticle.unlocked Разблокировал(а) на уровне {0}
 windows.reticle.req Требуется уровень {0}
@@ -586,7 +586,7 @@ streamers.views {0} зрители
 streamers.none Нет активных стримов!
 error.extentions Если у вас есть расширения, отключите их
 error.seek Попробуйте найти новую игру, нажав
-custom.map.upload.limit Провалено. Лимит игровых данных для персонажей 500k
+custom.map.upload.limit Ошибка. Лимит игровых данных для персонажей - 500k
 custom.map.missing Выберите, как минимум, одну игру или карту
 custom.mode.missing Выберите, как минимум, одну режим
 custom.class.missing Выберите, как минимум, один класс
@@ -599,7 +599,7 @@ server.config.tickRI Высокий тикрейт
 server.config.maxPS Сервер на 40 игроков
 server.config.promServ Продвинуть сервер
 server.config.jumpMlt Сила прыжка
-server.config.airStrf Воздушный штурм
+server.config.airStrf Стрейфинг в воздухе
 server.config.deltaMlt Шкала времени
 server.config.strafeSpd Скорость стрейфа
 server.config.fiRat Скорострельность
@@ -623,7 +623,7 @@ server.config.selTeam Выбор команды
 server.config.allowSpect Наблюдение
 server.config.killRewards Награды за убийства
 server.config.headshotOnly Только Выстрелы в голову
-server.config.noSecondary Отключить Вторичное
+server.config.noSecondary Отключить Вторичное оружие
 server.config.noStreaks Отключить Серии
 server.config.canSlide Скольжение
 server.config.wallJP Сила прыжка от стены
@@ -631,14 +631,14 @@ server.config.autoJump Авто Прыжок
 server.config.bDrop Падение Пули
 server.config.thirdPerson Третье лицо
 server.config.requireCaptcha Требуется Captcha
-server.config.nameTags Скрыть Бейджи
+server.config.nameTags Скрыть Имена
 server.config.kCams Камеры убийств
 server.config.noReload Без перезарядки
-server.config.private Частно
+server.config.private Приватный сервер
 server.config.krRewards KR Награды
 server.config.forceDefault Принудительно установить настройки по умолчанию
 server.config.warmupTime Время разминки
-server.config.objtvTime Объективное время
+server.config.objtvTime Время длительности точки
 server.config.forceSpawn Время автоматического возрождения
 server.config.scoreLimit Предел очков
 server.config.keepTScore Сохранить счет команды
@@ -647,7 +647,7 @@ server.config.logTim Журнал времени (гонки, паркур)
 server.config.hitBoxPad Набивка ХитБоксов
 server.config.hpRegen Восстановление здоровья
 server.config.disableB Отключить границы
-server.config.throwMel Метательное ближнее оружие
+server.config.throwMel Метание ближнего оружия
 server.config.noCosm Отключить косметику
 social.login Авторизация/Регистрация
 social.login.failed Не удалось авторизоваться
@@ -669,10 +669,10 @@ social.market.unlist Исключить из списка
 social.market.unlisting Исключение из списка...
 social.market.posting Публикация товара...
 social.market.req Требуется уровень {0}
-social.market.cant Не можете позволить
+social.market.cant Недостаточно средств
 social.market.purchase Купить
-social.market.fee Нет комиссии за список
-social.market.failed Провалено. Попробуйте ещё раз
+social.market.fee Нет комиссии
+social.market.failed Ошибка. Попробуйте ещё раз
 social.market.head Головной элемент
 social.market.back Предмет на спину
 social.market.waist Предмет на талию
@@ -714,23 +714,23 @@ account.delete Вы можете запросить удаление своей 
 account.delete.request Вы уверены, что хотите запросить удаление учетной записи?
 account.delete.cancel Вы уверены, что хотите отменить удаление аккаунта?
 spin.free.available БЕСПЛАТНЫЕ KR ДОСТУПНЫ!
-spin.free.claim Это вращение можно использовать один раз в час после завершения матча.
+spin.free.claim Этот спин можно использовать один раз в час после завершения матча.
 spin.free.disable Эти всплывающие окна можно отключить в Главных Настройках
 mod.reset.0 Вступит в силу после возрождения.
 mod.reset.1 Объекты карты не сбрасываются
 windows.profile.picture Изменить картинку
 stats.assists Поддержка
 stats.nukes Атомные бомбы
-stats.melee Ближнее оружие
+stats.melee Убийства ближним оружием
 stats.fistkills Убийства с кулаков
 stats.thrownkills Броски ножём
-stats.headshots Выстрелу в голову
+stats.headshots Выстрелы в голову
 stats.wallbangs Выстрелы через стену
 stats.sprays Граффити размещено
 windows.host.default.settings Включение настроек по умолчанию позволяет сохранять прогресс игрока и его баллы.
 windows.host.default.commands *Команды хоста отключены в этом режиме: /noclip /god /smite и т.д.
 windows.host.rewards Включение вознаграждений KR заставляет сервер использовать настройки по умолчанию и позволяет игрокам зарабатывать KR из средств карты:
-windows.store.wheels.sub Испытайте удачу и раскрутите, чтобы получить шанс выиграть новые скины!
+windows.store.wheels.sub Испытайте удачу и откройте, чтобы получить шанс выиграть новые скины!
 windows.store.currency * Цены в долларах США могут быть конвертированы в вашу местную валюту по обменному курсу, установленному платежной системой или банком.
 windows.store.creator Подумайте о том, чтобы поддержать вашего любимого создателя контента с помощью кода создателя
 windows.chall.customs Испытания не могут быть выполнены в пользовательских матчах
