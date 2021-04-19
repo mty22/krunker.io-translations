@@ -13,8 +13,6 @@ Project information and discussion on Discord can be found in [Krunker Bunker](h
 
 Not sure on how to use GitHub? Have a look at this [Introduction to GitHub](https://lab.github.com/githubtraining/introduction-to-github) tutorial as it may answer many common questions!
 
-Check out [this article](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo) on forking a GitHub repository, or [syncing a forked repository](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork).
-
 **Before translating Krunker into another language**, please search for an [existing issue](https://github.com/mty22/krunker.io-translations/issues) to see if another person is working on it, or if there's previously answered questions that may help you here!
 
 Here's an example of searching for issues related to "Spanish":
@@ -93,4 +91,3 @@ As of Krunker version [v3.8.2](https://krunker.io/docs/versions.txt), the follow
 - [Simplified Chinese](https://github.com/mty22/krunker.io-translations/blob/main/zh.js)
 - [French](https://github.com/mty22/krunker.io-translations/blob/main/fr.js)
 - [Finnish](https://github.com/mty22/krunker.io-translations/blob/main/fi.js)
-------
