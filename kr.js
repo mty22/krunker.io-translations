@@ -730,7 +730,7 @@ stats.sprays 스프레이 수
 windows.host.default.settings 기본 설정을 사용하면 플레이어 진행률과 최고 점수를 저장할 수 있습니다
 windows.host.default.commands /noclip, /god, /smite와 같은 호스트 명령어는 비활성화됩니다 
 windows.host.rewards KR 보상을 허용하면 서버 내에서 기본 설정을 강제합니다 & 맵 자본에서 KR을 벌 수 있게 합니다
-windows.store.wheels.sub 새 스킨을 얻을 기회인 스핀을 통해 당신의 운을 시험해보세요
+windows.store.wheels.sub 스핀을 돌려 운을 시험하고 새 스킨을 얻을 기회를 노려보세요!
 windows.store.currency * 미국 달러(USD)로 표시된 가격은 결제 제공업체나 은행에서 정한 환율에 따라 현지 통화로 환전될 수 있습니다.
 windows.store.creator 당신이 가장 좋아하는 크리에이터를 위해 크리에이터 코드를 쓰는 것을 고려하세요
 windows.chall.customs 사용자 지정 게임에서는 챌린지를 진행할 수 없습니다
