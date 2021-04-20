@@ -125,7 +125,7 @@ settings.quality.renderdist Render Afstand
 settings.quality.reflection Reflectie Kwaliteit
 settings.quality.antiAlias Antialiasing
 settings.quality.shadows Schaduw
-settings.quality.softShad Zachte Schaduw
+settings.quality.softShad Zachte Schaduwen
 settings.quality.highResShad High-Res Schaduwen
 settings.quality.shadowsDynamic Dynamische Schaduwen
 settings.quality.trails Kogel Sporen
