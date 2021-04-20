@@ -501,7 +501,7 @@ windows.clans.join 클랜 가입
 windows.clans.login 하고 클랜을 만들고 가입하세요!
 windows.store.header 상점
 windows.store.spin {0} 스핀
-windows.store.agree KR을 구매하면 {0}이용약관에 동의하는 것으로 간주합니다.
+windows.store.agree KR을 구매하면 {0}이용약관에 동의하는 것으로 간주합니다
 windows.store.purchase KR 구매
 windows.store.voucher KR 바우처 코드 입력
 windows.store.voucherinfo 특정 스트리머와 이벤트를 통해서 KR 바우처 코드를 얻으세요!
