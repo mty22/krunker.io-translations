@@ -249,7 +249,7 @@ settings.gameprivacy.anon Anonieme Modus
 settings.gameprivacy.hideGameTitle Verstop Game Titel
 settings.gameplay.header Gameplay
 settings.gameplay.sensitivityX X Gevoeligheid
-settings.gameplay.sensitivityY Y Govoeligheid
+settings.gameplay.sensitivityY Y Gevoeligheid
 settings.gameplay.aimsensX Aim X Gevoeligheid
 settings.gameplay.aimsensY Aim Y Gevoeligheid
 settings.gameplay.challenge Uitdagings Modus
