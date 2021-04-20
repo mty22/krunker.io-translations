@@ -517,7 +517,7 @@ windows.store.amount {0} KR in account
 windows.store.login om items uit de winkel te kopen en te ontgrendelen!
 windows.store.purchasing Inkoop ...
 windows.store.unboxed {0} {1} geopend
-windows.trade.header Traden
+windows.trade.header Ruilen
 windows.scope.header Selecteer Scope
 windows.premium.header Premium
 windows.skin.header Selecteer Skin
