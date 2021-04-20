@@ -675,7 +675,7 @@ social.market.fee Geen List Fee
 social.market.failed Mislukt. Probeer Opnieuw
 social.market.head Hoofd Item
 social.market.back Rug Item
-social.market.waist Waist Item
+social.market.waist Taille item
 social.market.face Gezicht Item
 social.market.shoe Schoen Item
 social.market.pet Huisdier Item
