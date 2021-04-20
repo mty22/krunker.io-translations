@@ -124,7 +124,7 @@ settings.quality.partdist Particle Afstand
 settings.quality.renderdist Render Afstand
 settings.quality.reflection Reflectie Kwaliteit
 settings.quality.antiAlias Antialiasing
-settings.quality.shadows Schaduw
+settings.quality.shadows Schaduwen
 settings.quality.softShad Zachte Schaduwen
 settings.quality.highResShad High-Res Schaduwen
 settings.quality.shadowsDynamic Dynamische Schaduwen
