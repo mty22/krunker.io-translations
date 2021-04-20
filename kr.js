@@ -694,7 +694,7 @@ social.market.gift.amount 선물할
 social.market.fee.gift 수수료 없음
 social.market.gift KR 선물하기
 social.market.gift.msg 문자 남기기
-respawn.auto {0} 후 리스폰
+respawn.auto {0}초 후 리스폰됩니다
 custom.host.ranked 랭크전 플레이 중에는 게임을 호스트 할 수 없습니다.
 funds.insufficient KR이 부족합니다.
 funds.out KR이 부족합니다.
@@ -709,12 +709,12 @@ settings.loaded 설정 불러오기 완료
 settings.loaded.none 설정 검색 결과 없음
 account.login.required 로그인해야 합니다.
 account.banned.hack 이 계정은 해킹 신고로 영구 정지되었습니다.
-account.banned.appeal 정지 처분을 반박하려면 다음 주소로 이메일을 보내십시오:
-account.delete 계정 삭제를 요청할 수 있으며, 삭제 요청 후 14일 이내에 삭제 철회 요청이 없을 경우 해당 계정과 관련된 모든 데이터가 사라집니다.
+account.banned.appeal 정지 처분에 이의를 제기하려면 다음 주소로 이메일을 보내십시오:
+account.delete 계정 삭제를 요청할 수 있으며, 삭제 요청 후 14일 이내에 삭제 철회 요청이 없을 경우 해당 계정과 관련된 모든 데이터가 삭제됩니다.
 account.delete.request 정말로 계정 삭제를 요청하시겠습니까?
 account.delete.cancel 정말로 계정 삭제 철회를 요청하시겠습니까?
-spin.free.available 무료 KR을 이용 가능합니다!
-spin.free.claim 이 스핀은 1시간마다 한번씩, 적어도 한 게임을 마쳐야 돌릴 수 있습니다.
+spin.free.available 무료 KR을 이용할 수 있습니다!
+spin.free.claim 이 스핀은 1시간마다 한번씩, 한 게임을 마쳐야 돌릴 수 있습니다.
 spin.free.disable 일반 설정에서 이 팝업을 끌 수 있습니다.
 mod.reset.0 리스폰 후 적용됩니다.
 mod.reset.1 맵 물체는 재설정되지 않습니다.
@@ -723,13 +723,13 @@ stats.assists 어시스트
 stats.nukes 뉴크
 stats.melee 근접 처치
 stats.fistkills 주먹 처치
-stats.thrownkills 투척 처치
+stats.thrownkills 근접 투척 처치
 stats.headshots 헤드샷 처치
 stats.wallbangs 벽 뚫고 처치
 stats.sprays 뿌린 스프레이
 windows.host.default.settings 기본 설정으로 진행하면 고득점 기록과 플레이어 진행도를 저장할 수 있습니다.
 windows.host.default.commands (/noclip, /god, /smite와 같은 호스트 명령어는 비활성화됩니다)
-windows.host.rewards Enabling KR 보상은 서버가 기본 설정을 사용하도록 강제하고, 플레이어들이 맵 잔고에서 KR 보상을 받을 수 있게 합니다.
+windows.host.rewards KR 보상은 서버가 기본 설정을 사용하도록 강제하고, 플레이어들이 맵 잔고에서 KR 보상을 받을 수 있게 합니다.
 windows.store.wheels.sub 스핀을 돌려서 스킨 뽑기 운을 시험해 보세요!
 windows.store.currency (미국 달러 가격은 결제 서비스 제공자나 은행이 공시하는 환율에 따라 환전됩니다)
 windows.store.creator 크리에이터 코드를 사용하여 좋아하는 크리에이터를 후원하세요
@@ -739,9 +739,9 @@ twitch.unlink 정말 트위치 계정을 연동 취소하시겠습니까?
 windows.clan.leave 정말 클랜을 탈퇴하시겠습니까?
 windows.clan.delete 정말 클랜을 삭제하시겠습니까?
 windows.clan.kick 정말 {0}님을 클랜에서 추방하시겠습니까?
-windows.store.premium.purchase 정말 크런커 프리미엄 {0}일을 구매하시겠습니까? 
+windows.store.premium.purchase 정말 {0}일치의 크런커 프리미엄을 구매하시겠습니까? 
 windows.playerlist.ban 정말 {0}님을 이 게임에서 제외시키겠습니까?
-windows.playerlist.flag 정말 {0}님에 해커 태그를 다시겠습니까?
+windows.playerlist.flag 정말 {0}님에게 해커 태그를 다시겠습니까?
 windows.playerlist.unflag 정말 {0}님의 해커 태그를 취소하시겠습니까?
 windows.playerlist.punish 정말 {0}님을 제재하시겠습니까?
 `;
