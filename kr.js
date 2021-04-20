@@ -728,7 +728,7 @@ stats.headshots 헤드샷
 stats.wallbangs 관통 처치
 stats.sprays 스프레이 수
 windows.host.default.settings 기본 설정을 허용하면 플레이어의 능력치와 최고점을 보관할 수 있다
-windows.host.default.commands *게임 호스트 명령어는 이 형식에서는 사용할 수 없습니다 /noclip /god /smite 등 
+windows.host.default.commands /noclip, /god, /smite와 같은 호스트 명령어는 비활성화됩니다 
 windows.host.rewards KR 보상을 허용하면 서버 내에서 기본 설정을 강제합니다 & 맵 자본에서 KR을 벌 수 있게 합니다
 windows.store.wheels.sub 새 스킨을 얻을 기회인 스핀을 통해 당신의 운을 시험해보세요
 windows.store.currency * 달러 단위는 거래 플랫폼이나 사용 은행에 따라 당신의 지역 통화로 변환될 수 있습니다.
