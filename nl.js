@@ -685,7 +685,7 @@ social.market.dye Kleurstof Item
 social.market.none Geen Items Gevonden
 social.market.login Je moet ingelogd zijn.
 social.market.grace gereed in {0}
-social.market.sort Filteer/Sorteer
+social.market.sort Filter/Sorteer
 social.market.filter Zoeken
 social.market.sort2 Sorteer
 social.market.price.high Hoogste Prijs
