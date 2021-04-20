@@ -252,7 +252,7 @@ settings.gameplay.sensitivityX X Gevoeligheid
 settings.gameplay.sensitivityY Y Govoeligheid
 settings.gameplay.aimsensX Aim X Gevoeligheid
 settings.gameplay.aimsensY Aim Y Gevoeligheid
-settings.gameplay.challenge Challenge Modus
+settings.gameplay.challenge Uitdagings Modus
 settings.gameplay.invert Keer X-axis om
 settings.gameplay.onkillS On Kills
 settings.gameplay.scrollDir Scroll Richting
