@@ -632,7 +632,7 @@ server.config.bDrop Caída de bala
 server.config.thirdPerson Tercera persona
 server.config.requireCaptcha Requiere captcha
 server.config.nameTags Ocultar nombres
-server.config.kCams Camara de Muertes
+server.config.kCams Cámara de Muertes
 server.config.noReload No recargar
 server.config.private Privado
 server.config.krRewards Recompensas de KR
@@ -697,26 +697,26 @@ social.market.gift.msg Dejar un mensaje
 respawn.auto Auto Reaparición en {0}
 custom.host.ranked No se puede crear una partida mientras estas en Competitivo
 funds.insufficient Fondos Insuficientes
-funds.out Vaya , parece que no tienes Krunkies.
+funds.out Vaya, parece que no tienes Krunkies.
 custom.passcode.long Contraseña demasiado Larga.
 custom.passcode.input Ingresa la contraseña del servidor.
-custom.tryagain Porfavor intenta denuevo.
+custom.tryagain Por favor intenta de nuevo.
 purchase.kr.success Añadidos {0} KR A tu Cuenta.
-limited.purchase.ask Estas seguro de comprar [{0}] por {1} KR?
+limited.purchase.ask Estás seguro de comprar [{0}] por {1} KR?
 limited.purchase.success Añadido {0} KR A tu Inventario.
-pretend.exit Presiona {0} Denuevo para Salir.
+pretend.exit Presiona {0} De nuevo para Salir.
 settings.loaded Configuraciones Cargadas
 settings.loaded.none Ninguna Configuración Encontrada.
 account.login.required Necesitas una Sesión Iniciada
 account.banned.hack Esta cuenta ha sido suspendida permanentemente por Trampas.
 account.banned.appeal Si quieres apelar tu suspención, Contacta:
 account.delete Puedes solicitar la eliminación de su cuenta, si la solicitud no se cancela dentro de los 14 días, la cuenta y todos los datos asociados se eliminarán permanentemente.
-account.delete.request Estas seguro de solicitar la eliminación de tu cuenta?
-account.delete.cancel Estas seguro de cancelar la eliminación de tu cuenta?
-in.free.available KR GRATIS DISPONIBLE!
-spin.free.claim  Este spin esta disponible para canjear una hora despues de cada partida.
+account.delete.request Está seguro que desea solicitar la eliminación de la cuenta?
+account.delete.cancel Está seguro que desea cancelar la eliminación de la cuenta?
+spin.free.available KR GRATIS DISPONIBLE!
+spin.free.claim  Este spin esta disponible para canjear una hora después de cada partida.
 spin.free.disable Estos anuncios pueden ser desactivados en las configuraciones generales.
-mod.reset.0 Tomara efecto luego de Reaparecer.
+mod.reset.0 Tomará efecto luego de Reaparecer.
 mod.reset.1 Map Los objetos de mapas no se Resetean.
 windows.profile.picture Cambiar Imagen
 stats.assists Asistencias
@@ -727,21 +727,21 @@ stats.thrownkills Bajas con Cuchillo Arrojadizo
 stats.headshots Tiros en la Cabeza
 stats.wallbangs Bajas a través de Paredes
 stats.sprays Sprays Colocados
-windows.host.default.settings Habilitar las configuraciones por defecto permite a los jugadores y guardar su progreso y puntajes mas altos
-windows.host.default.commands *Los comandos de hosteo estan deshabilitados para este modo : /noclip /god /smite etc
-windows.host.rewards Activando Recompenzas de KR Forza al servidor a usar configuraciones por defecto y permite a los jugadores ganar recompenzas de los fondos del mapa:
+windows.host.default.settings Habilitar las configuraciones predeterminadas permite guardar el progreso del jugador y puntajes mas altos
+windows.host.default.commands *Los comandos de hosteo están deshabilitados para este modo : /noclip /god /smite etc
+windows.host.rewards Activando Recompensas de KR Forza al servidor a usar configuraciones por defecto y permite a los jugadores ganar recompenzas de los fondos del mapa:
 windows.store.wheels.sub Prueba tu suerte y gira para ganar nuevas Skins!
 windows.store.currency * Prices in USD can be converted to your local currency at an exchange rate defined by the payment provider or bank
-windows.store.creator Considera Apoyar a tu Creador de Contenido Favorito usando su Codigo de Creador
+windows.store.creator Considera Apoyar a tu Creador de Contenido Favorito usando su Código de Creador
 windows.chall.customs Los desafiós no se pueden completar en partidas personalizadas.
-twitch.link Estas seguro de que quieres vincular esta cuenta de twitch?
-twitch.unlink Estas seguro de que quieres desvincular tu cuenta de twitch?
-windows.clan.leave Estas seguro de que Quieres Abandonar el Clan?
-windows.clan.delete Estas seguro de que Quieres Borrar el Clan?
-windows.clan.kick Estas seguro de que quieres expulsar a {0} del clan?
-windows.store.premium.purchase Estas seguro de que quieres Comprar {0} dias de Premium?
-windows.playerlist.ban Estas seguro de que quieres Banear {0} de esta partida?
-windows.playerlist.flag Estas seguro de que quieres Suspender a {0} ? 
-windows.playerlist.unflag Estas seguro de que quieres remover la suspención de {0}?
-windows.playerlist.punish Estas seguro de que quieres tomar acciones en {0}?
+twitch.link Estás seguro de que quieres vincular esta cuenta de twitch?
+twitch.unlink Estás seguro de que quieres desvincular tu cuenta de twitch?
+windows.clan.leave Estás seguro de que Quieres Abandonar el Clan?
+windows.clan.delete Estás seguro de que Quieres Borrar el Clan?
+windows.clan.kick Estás seguro de que quieres expulsar a {0} del clan?
+windows.store.premium.purchase Estás seguro de que quieres Comprar {0} días de Premium?
+windows.playerlist.ban Estás seguro que quieres banear a {0} de esta partida?
+windows.playerlist.flag Estás seguro de que quieres Suspender a {0} ? 
+windows.playerlist.unflag Estás seguro de que quieres remover la suspención de {0}?
+windows.playerlist.punish Estás seguro de que quieres tomar acciones en {0}?
 `;
