@@ -75,7 +75,8 @@ Contributors
 - [Portuguese](https://github.com/mty22/krunker.io-translations/blob/main/pr.js) (Português) - [Unknown](https://c8.idle.host/sadpepe.png) :(
 - [German](https://github.com/mty22/krunker.io-translations/blob/main/de.js) (Deutsch) - Translated by [Sidney](https://krunker.io/social.html?p=profile&q=Sidney), [Bodeneinheit](https://krunker.io/social.html?p=profile&q=Bodeneinheit) (bodeneinheit#5830) and [Fuderal](https://krunker.io/social.html?p=profile&q=zzzrobinzzz) (Fuderal#7252)
 - [Finnish](https://github.com/mty22/krunker.io-translations/blob/main/fi.js) (Suomen kieli) - Translated by [Jypa](https://krunker.io/social.html?p=profile&q=Jypa) (Jypa#0001), reviewed by [Entasy](https://krunker.io/social.html?p=profile&q=Entasy) (Entasy#7837)
-- [Dutch](https://github.com/mty22/krunker.io-translations/blob/main/fi.js) (Nederlands) - [Semliot](https://krunker.io/social.html?p=profile&q=Semliot) (Semliot#0070), [NickAuthentic](https://krunker.io/social.html?p=profile&q=NickAuthentic) (nickauthentic#9999), [Gluzly](https://krunker.io/social.html?p=profile&q=Gluzly) (gluzly#9999), [AdoreMe](https://krunker.io/social.html?p=profile&q=AdoreMe) (AdoreMe#0082).
+- [Turkish](https://github.com/mty22/krunker.io-translations/blob/main/tr.js) (Türkçe) - [SecretMember](https://krunker.io/social.html?p=profile&q=SecretMember) (SecretMember#0099), [NathanNorth](https://krunker.io/social.html?p=profile&q=Axima) (NathanNorth#4365), [WinnerOgün](https://krunker.io/social.html?p=profile&q=Winner_Ogün) (W_O#1903), [hon0urdy](https://krunker.io/social.html?p=profile&q=onurongunnn) (hon0urdy#5024)
+- [Dutch](https://github.com/mty22/krunker.io-translations/blob/main/fi.js) (Nederlands) - [Semliot](https://krunker.io/social.html?p=profile&q=Semliot) (Semliot#0070), [NickAuthentic](https://krunker.io/social.html?p=profile&q=NickAuthentic) (nickauthentic#9999), [Gluzly](https://krunker.io/social.html?p=profile&q=Gluzly) (gluzly#9999), [AdoreMe](https://krunker.io/social.html?p=profile&q=AdoreMe) (AdoreMe#0082)
 
 
 Current Krunker language support
@@ -92,3 +93,11 @@ As of Krunker version [v3.8.2](https://krunker.io/docs/versions.txt), the follow
 - [Simplified Chinese](https://github.com/mty22/krunker.io-translations/blob/main/zh.js)
 - [French](https://github.com/mty22/krunker.io-translations/blob/main/fr.js)
 - [Finnish](https://github.com/mty22/krunker.io-translations/blob/main/fi.js)
+
+Pending:
+
+- [Dutch](https://github.com/mty22/krunker.io-translations/blob/main/nl.js)
+
+Potential future language:
+
+- [Turkish](https://github.com/mty22/krunker.io-translations/blob/main/tr.js)
