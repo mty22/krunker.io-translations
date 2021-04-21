@@ -2,15 +2,15 @@ module.exports = `
 menu.btn.ranked 排位赛
 menu.btn.shop 商城
 menu.btn.social 社区
-menu.btn.maps 游戏
+menu.btn.maps 地图
 menu.btn.mods 模组
 menu.btn.settings 设定
 menu.btn.customize 自定义
 menu.btn.invite 邀请
-menu.btn.invite.clicked 已复制
+menu.btn.invite.clicked 链接已复制
 menu.btn.join 加入游戏房间
 menu.btn.host 创建游戏房间
-menu.btn.browser 浏览服务器
+menu.btn.browser 浏览游戏房间
 generic.wait 请稍等...
 generic.loading 加载中...
 generic.none 无
@@ -28,7 +28,7 @@ generic.random 随机
 generic.failed 失败
 generic.success 成功!
 generic.name 用户名
-generic.level 等级
+generic.level 用户等级
 generic.score 得分
 generic.off 关
 generic.defeat 失败
@@ -77,9 +77,9 @@ purchase.error 出现错误
 purchase.error.click 点此</a> 并重试!
 purchase.error.limit 您可能已超出每日交易限额
 settings.reset 重设
-settings.reset.confirm 您是否希望重置所有设定?
-settings.import 导入
-settings.export 导出
+settings.reset.confirm 您是否希望重设所有设定?
+settings.import 下载
+settings.export 上传
 settings.none 没有找到该设置
 settings.backup 备份设置
 settings.controls.change 按键绑定
@@ -91,16 +91,16 @@ settings.network.header 网路
 settings.network.sendRate 高服务器应答率
 settings.network.netRerouting 自动
 settings.network.lagComp 延迟修正(Lag Compensation)
-settings.popup.header Popups 弹窗
-settings.popup.freeKRPop Show Free KR Popup 免费KR弹窗
+settings.popup.header 弹窗
+settings.popup.freeKRPop 允许免费KR弹窗
 settings.experimental.header 实验性功能
 settings.experimental.aimFreezeFix ADS(瞄准)冻结修复
-settings.experimental.mouseFlickFix Mouse Flick Fix 视野跳动修复
-settings.experimental.shaderRendering Instance Rendering
-settings.dev.header Developer
-settings.dev.forceUpdate Force Update Skins
-settings.dev.forceRegen Always Regenerate Player
-settings.dev.extraBan Extra Ban Info
+settings.experimental.mouseFlickFix 视野跳动修复
+settings.experimental.shaderRendering 着色器渲染
+settings.dev.header
+settings.dev.forceUpdate 强制刷新皮肤
+settings.dev.forceRegen 玩家保持回血状态
+settings.dev.extraBan 更多玩家禁赛信息
 settings.chat.header 聊天
 settings.chat.chat 显示聊天窗口
 settings.chat.chat.all 总是
@@ -122,8 +122,8 @@ settings.quality.mapDet 地图细节
 settings.quality.noTex 无贴图
 settings.quality.partdist 粒子渲染距离
 settings.quality.renderdist 渲染距离
-settings.quality.reflection Reflection Quality 光线反射
-settings.quality.antiAlias 反锯齿
+settings.quality.reflection 光线反射
+settings.quality.antiAlias 锯齿
 settings.quality.shadows 阴影
 settings.quality.softShad 软阴影
 settings.quality.highResShad 高分辨率阴影
@@ -134,23 +134,23 @@ settings.quality.mflash 枪口火焰
 settings.quality.flap 狙击枪瞄准镜保护盖
 settings.quality.lowSpec 低配置模式
 settings.quality.ambient 环境阴影
-settings.quality.ambientOld Old Shading (When Possible)
+settings.quality.ambientOld 经典阴影
 settings.quality.textureAnim 纹理动画
 settings.quality.objectAnim 物体动画
 settings.quality.screenShake 屏幕晃动
 settings.quality.weaponShine 武器光泽
-settings.quality.rendGamma Gamma
+settings.quality.rendGamma 伽玛效果
 settings.quality.lighting 光照效果
 settings.quality.showExplo 显示爆炸特效
 settings.quality.aspectRatio 屏幕高宽比
 settings.post.header 后期处理
 settings.post.post 后期处理
-settings.post.bloom Bloom
-settings.post.bloomThreshold Bloom Threshold
-settings.post.bloomStrength Bloom Strength
-settings.post.bloomRadius Bloom Radius
-settings.post.ssao SSAO
-settings.post.ssaoRadius SSAO Radius
+settings.post.bloom 光线散射
+settings.post.bloomThreshold 光线散射阈值
+settings.post.bloomStrength 光线散射强度
+settings.post.bloomRadius 光线散射半径
+settings.post.ssao 屏幕空间环境光屏蔽
+settings.post.ssaoRadius 屏蔽半径
 settings.interface.hitInd 伤害指示器
 settings.interface.hitColor 伤害指示颜色
 settings.interface.dmg 显示伤害
@@ -177,8 +177,8 @@ settings.interface.streak 显示连杀数
 settings.interface.score 显示分数
 settings.interface.spectators 显示观战者数量
 settings.interface.speed 显示移动速度
-settings.interface.speedOffX 移动速度水平位置
-settings.interface.speedOffY 移动速度垂直位置
+settings.interface.speedOffX 移动速度指示器水平位置
+settings.interface.speedOffY 移动速度指示器垂直位置
 settings.interface.speedOpacity 速度显示透明度
 settings.interface.speedScale 速度显示比例
 settings.interface.speedColor 当前速度颜色
@@ -284,7 +284,7 @@ settings.audio.weps 武器音量
 settings.audio.player 玩家音量
 settings.audio.skin 玩家服饰音量
 settings.audio.ui 用户界面音量
-settings.audio.asset Asset Volume
+settings.audio.asset 地图音量
 settings.audio.dialogue 动作音量
 settings.viewmodel.header 视角
 settings.viewmodel.fov 腰射视野
@@ -408,9 +408,9 @@ windows.loadout.color.skin 皮肤颜色
 windows.loadout.color.chat 聊天框中玩家用户名颜色
 windows.loadout.color.hair 头发颜色
 windows.loadout.dye 服装
-windows.loadout.pet Pet 宠物
-windows.loadout.stat 击杀统计卡
-windows.loadout.flag 国家旗帜
+windows.loadout.pet 宠物
+windows.loadout.stat 击杀统计
+windows.loadout.flag 玩家国家旗帜
 windows.mods.drop 将模组文件放在此处或单击
 windows.mods.paste 粘贴模组网址
 windows.mods.load 加载模组
@@ -605,7 +605,7 @@ server.config.strafeSpd 对角线运动速度
 server.config.fiRat 武器射速
 server.config.reSpd 换弹速度
 server.config.slidTime 滑铲时间
-server.config.fixMov 修复动作
+server.config.fixMov 修复的动作
 server.config.slidSpd 滑铲速度
 server.config.healthMlt 血量倍率
 server.config.impulseMlt 武器后坐力
