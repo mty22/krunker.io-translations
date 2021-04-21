@@ -1,87 +1,87 @@
 module.exports = `
-menu.btn.ranked 排位赛 
-menu.btn.shop 商城 
-menu.btn.social 社区 
-menu.btn.maps 游戏 
-menu.btn.mods MOD 模组
-menu.btn.settings 设定 
-menu.btn.customize 自定义 
-menu.btn.invite 邀请 
-menu.btn.invite.clicked 已复制 
-menu.btn.join 加入游戏房间 
-menu.btn.host 创建游戏房间 
-menu.btn.browser 浏览服务器 
-generic.wait 请稍等... 
-generic.loading 加载中... 
-generic.none 无 
-generic.connecting 连接中... 
-generic.select 选择 
-generic.delete 删除 
-generic.save 保存 
-generic.load 载入 
-generic.search 搜索 
-generic.leave 退出 
-generic.default 默认 
-generic.submit 提交 
-generic.create 创建 
-generic.random 随机 
-generic.failed 失败 
-generic.success 成功! 
-generic.name 用户名 
-generic.level 等级 
+menu.btn.ranked 排位赛
+menu.btn.shop 商城
+menu.btn.social 社区
+menu.btn.maps 游戏
+menu.btn.mods 模组
+menu.btn.settings 设定
+menu.btn.customize 自定义
+menu.btn.invite 邀请
+menu.btn.invite.clicked 已复制
+menu.btn.join 加入游戏房间
+menu.btn.host 创建游戏房间
+menu.btn.browser 浏览服务器
+generic.wait 请稍等...
+generic.loading 加载中...
+generic.none 无
+generic.connecting 连接中...
+generic.select 选择
+generic.delete 删除
+generic.save 保存
+generic.load 载入
+generic.search 搜索
+generic.leave 退出
+generic.default 默认
+generic.submit 提交
+generic.create 创建
+generic.random 随机
+generic.failed 失败
+generic.success 成功!
+generic.name 用户名
+generic.level 等级
 generic.score 得分
-generic.off 关 
-generic.defeat 失败 
-generic.victory 胜利 
-generic.matchover 比赛结束 
-generic.matchaband 比赛被迫终止 
-generic.follow 关注 
-generic.unfollow 取消关注 
-generic.followers 追随者 
-generic.following 关注中 
-generic.games 游戏 
-generic.wins 胜场 
-generic.lose 败场 
-generic.clan 战队 
-generic.games.played 已玩游戏数 
-generic.games.won 胜场数 
-generic.games.lost 败场数 
-generic.timep 游玩时间 
-generic.kills 击杀数 
-generic.deaths 死亡数 
-generic.kdr KDR(击杀/死亡比例) 
-generic.time 时间 
-generic.logout 注销 
-generic.logout.sessions 为所有设备注销 
-generic.username 输入用户名 
-generic.password 输入密码 
-generic.register 注册 
-generic.login 登录 
-generic.accuracy 命中率 
-player.waiting 等待更多玩家加入 
-player.died 死亡 
-player.killed 被此玩家击杀 
-player.killstreak {0} 正在 {1} 连杀 
-player.inactive 由于不活跃,游戏已断开连接 
-player.disconnect 连接已断开 
-timer.end 下一场将在 {0} 后开始 
-leaderboard.empty 空房间 
-popup.checkpoint 检查点! 
-app.play 点此开始游戏 
-app.spectate CLICK TO SPECTATE 点此处观战
-app.play.mobile TAP TO PLAY 点击屏幕开始游戏
-app.spectate.mobile TAP TO SPECTATE 点击屏幕开始观战
-app.play.controller 按下开始游戏 
-app.spectate.controller START to SPECTATE 按下开始观战
-purchase.error 出现错误 
-purchase.error.click 点此</a> 并重试! 
-purchase.error.limit 您可能已超出每日交易限额 
-settings.reset 重设 
-settings.reset.confirm 您是否希望重置所有设定? 
-settings.import 导入 
-settings.export 导出 
-settings.none 没有找到该设置 
-settings.backup 备份设置 
+generic.off 关
+generic.defeat 失败
+generic.victory 胜利
+generic.matchover 比赛结束
+generic.matchaband 比赛被迫终止
+generic.follow 关注
+generic.unfollow 取消关注
+generic.followers 追随者
+generic.following 关注中
+generic.games 游戏
+generic.wins 胜场
+generic.lose 败场
+generic.clan 战队
+generic.games.played 已玩游戏数
+generic.games.won 胜场数
+generic.games.lost 败场数
+generic.timep 游玩时间
+generic.kills 击杀数
+generic.deaths 死亡数
+generic.kdr KDR(击杀/死亡比例)
+generic.time 时间
+generic.logout 注销
+generic.logout.sessions 为所有设备注销
+generic.username 输入用户名
+generic.password 输入密码
+generic.register 注册
+generic.login 登录
+generic.accuracy 命中率
+player.waiting 等待更多玩家加入
+player.died 死亡
+player.killed 被此玩家击杀
+player.killstreak {0} 正在 {1} 连杀
+player.inactive 由于不活跃,游戏已断开连接
+player.disconnect 连接已断开
+timer.end 下一场将在 {0} 后开始
+leaderboard.empty 空房间
+popup.checkpoint 检查点!
+app.play 点此开始游戏
+app.spectate 点此处观战
+app.play.mobile 点击屏幕开始游戏
+app.spectate.mobile 点击屏幕开始观战
+app.play.controller 按下开始游戏
+app.spectate.controller 按下开始观战
+purchase.error 出现错误
+purchase.error.click 点此</a> 并重试!
+purchase.error.limit 您可能已超出每日交易限额
+settings.reset 重设
+settings.reset.confirm 您是否希望重置所有设定?
+settings.import 导入
+settings.export 导出
+settings.none 没有找到该设置
+settings.backup 备份设置
 settings.controls.change 按键绑定 
 settings.controls.press 按下任意按键 
 settings.local.header 本地化 <span id="requiresRestart"><span style="color: #eb5656">*</span> 需要重启游戏</span> 
@@ -604,9 +604,9 @@ server.config.deltaMlt 时间倍率
 server.config.strafeSpd Strafe 速度 
 server.config.fiRat 武器射速 
 server.config.reSpd 换弹速度 
-server.config.slidTime Slide 时间 
+server.config.slidTime 滑铲时间 
 server.config.fixMov Fixed Movement
-server.config.slidSpd Slide Speed
+server.config.slidSpd 滑铲速度
 server.config.healthMlt 血量倍率 
 server.config.impulseMlt 武器后坐力 
 server.config.nameTeam1 队伍 1 名字 
@@ -618,7 +618,7 @@ server.config.t1Dmg 队伍 1 伤害
 server.config.t2Dmg 队伍 2 伤害 
 server.config.t3Dmg 队伍 3 伤害
 server.config.t4Dmg 队伍 4 伤害
-server.config.t5Dmg 队伍 5 伤害 
+server.config.t5Dmg 队伍 5 伤害
 server.config.selTeam 选择队伍 
 server.config.allowSpect 观战 
 server.config.killRewards 击杀奖励 
