@@ -106,7 +106,7 @@ settings.chat.chat Wyświetl czat
 settings.chat.chat.all Zawsze
 settings.chat.chat.focus Gdy skupiony
 settings.chat.messages Wyświetlaj wiadomości graczy
-settings.chat.unboxings Wyświetlaj wiadomości o unboxingingach
+settings.chat.unboxings Wyświetlaj wiadomości o unboxingach
 settings.chat.chatOp Przezroczystość czatu
 settings.chat.chatBGOp Przezroczystość tła czatu
 settings.chat.chatHeight Wysokość czatu
@@ -500,7 +500,7 @@ windows.clans.view Pokaż klany
 windows.clans.join Dołącz do klanu
 windows.clans.login aby tworzyć lub dołączyć do klanu!
 windows.store.header Sklep
-windows.store.spin {0} Zakręć
+windows.store.spin Zakręć {0}
 windows.store.agree Kupując zgadzasz się z {0}Warunkami
 windows.store.purchase Kup KR
 windows.store.voucher Wykorzystaj Bon
@@ -516,7 +516,7 @@ windows.store.unlock Odblokuj nowe skiny i przedmioty
 windows.store.amount {0} KR na koncie
 windows.store.login aby kupować i odblokowywać nowe przedmioty w sklepie!
 windows.store.purchasing Kupowanie...
-windows.store.unboxed Odpakowano {0}{1}
+windows.store.unboxed {0} odpakował {1}
 windows.trade.header Handel
 windows.scope.header Wybierz lunetę
 windows.premium.header Premium
@@ -722,7 +722,7 @@ windows.profile.picture Zmień zdjęcie profilowe
 stats.assists Asysty
 stats.nukes Bomby atomowe
 stats.melee Zabójstwa przy użyciu broni białej
-stats.fistkills Zabójstwa w wyniku pobiciu
+stats.fistkills Zabójstwa w wyniku pobicia
 stats.thrownkills Zabójstwa w wyniku rzutu bronią białą
 stats.headshots Trafienia w głowę
 stats.wallbangs Trafienia przez ściany
