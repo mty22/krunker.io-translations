@@ -747,9 +747,9 @@ windows.playerlist.punish Czy jesteś pewien, że chesz podjąć akcję dotyczą
 item.view.open Otwórz przeglądarkę modeli
 item.view.more Więcej informacji
 item.sell.cant Przedmiot nie może zostać sprzedany.
-item.sell.quick Czy na pewno chcesz szybko szprzedać {0}?
+item.sell.quick Czy na pewno chcesz szybko sprzedać {0}?
 social.profile.stats Statystyki ogólne
-social.profile.class Statystyki klasy
+social.profile.class Statystyki klas
 social.profile.sales Sprzedaż
 social.profile.sales.market Sprzedaż rynkowa
 social.profile.sales Sprzedaż
@@ -771,7 +771,7 @@ social.trades.out Wychodzące
 social.trades.out.head Wychodzące oferty ({0})
 social.trades.history Historia
 social.trades.history.head Historia handlu ({0})
-social.trades.decline Odmów wszystko
+social.trades.decline Odrzuć wszystkie
 social.trades.message WŁĄCZ WIADOMOŚĆI O HANDLU W USTAWIENIACH
 social.trades.warning Nie dostaniesz żadnych przedmiotów z tej wymiany!
 social.trades.accept Czy na pewno chcesz przyjąć tę ofertę?
