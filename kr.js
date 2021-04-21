@@ -738,7 +738,7 @@ twitch.link Twitch 계정을 연동하겠습니까?
 twitch.unlink Twitch 계정의 연동을 해제하시겠습니까?
 windows.clan.leave 클랜을 탈퇴하시겠습니까?
 windows.clan.delete 클랜을 해체하시겠습니까?
-windows.clan.kick {0}을 클랜에서 탈퇴시키겠습니까?
+windows.clan.kick {0}을 클랜에서 추방하시겠습니까?
 windows.store.premium.purchase {0}일 치의 프리미엄 서비스를 구매하시겠습니까?
 windows.playerlist.ban {0}을 이 게임에서 밴하시겠습니까?
 windows.playerlist.flag {0}을 해커태그 하시겠습니까?
