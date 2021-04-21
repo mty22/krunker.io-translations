@@ -61,7 +61,7 @@ generic.accuracy 명중률
 player.waiting 플레이어 기다리는 중
 player.died 죽었습니다
 player.killed 나를 죽인 플레이어 -
-player.killstreak {0}님이 {1}명 연속 처치 중입니다.
+player.killstreak {0} on a {1} Kill Streak
 player.inactive 장시간 활동하지 않아 게임에서 제외되었습니다.
 player.disconnect 연결 끊기
 timer.end {0}초 후 다음 라운드가 시작합니다.
