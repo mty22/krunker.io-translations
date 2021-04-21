@@ -278,7 +278,7 @@ settings.mobile.gradSpeed 渐缓速度
 settings.mobile.invert 反转Y轴
 settings.audio.header 音效
 settings.audio.sound 主音量
-settings.audio.ambient 环境背景音量
+settings.audio.ambient 背景音量
 settings.audio.voice 语言音量
 settings.audio.weps 武器音量
 settings.audio.player 玩家音量
@@ -385,7 +385,7 @@ windows.mail.header Krunker邮箱
 windows.servers.header 服务器
 windows.servers.none 无可加入游戏...
 windows.servers.host + 创建游戏
-windows.servers.hide 隐藏已满
+windows.servers.hide 隐藏已满的房间
 windows.servers.priority 优先区域
 windows.servers.online {0} 人正在游戏中
 windows.servers.social {0} 正在游戏社交网站浏览中
@@ -462,7 +462,7 @@ windows.controls.reset 重设时复活的位置（仅限于跑酷/速度竞赛�
 windows.controls.pretend 隐藏游戏
 windows.host.header 创建自定义游戏
 windows.host.maps 服务器设定
-windows.host.cmaps 社区游戏
+windows.host.cmaps 社区提供的地图
 windows.host.raw 原始游戏数据
 windows.host.modes 选择模式
 windows.host.classes 选择角色
@@ -484,7 +484,7 @@ windows.maps.community 开发者社区
 windows.publish.map.header 发布或更新游戏
 windows.publish.map.thumbnail 没有缩略图
 windows.publish.map.paste 粘贴游戏数据
-windows.publish.map.update 发布/更新
+windows.publish.map.update 发布/更新地图
 windows.publish.map.login 创建并上传您的地图！
 windows.theatre.header 影院模式
 windows.theatre.record 启用录制
@@ -513,10 +513,10 @@ windows.store.buyP 在购买Premium后，您将可以自定义您的游戏用户
 windows.store.buy 买卖物品
 windows.store.wheels 转盘
 windows.store.unlock 解锁新武器和物品
-windows.store.amount 账户中有 {0} KR 剩余
+windows.store.amount 账号中还有｛0｝KR
 windows.store.login 用于在商店中购买和解锁物品!
 windows.store.purchasing 购买中...
-windows.store.unboxed {0}开箱解锁了{1}
+windows.store.unboxed {0}开箱获得了{1}
 windows.trade.header 交易
 windows.scope.header 选择您的狙击镜准心
 windows.premium.header Premium
@@ -535,7 +535,7 @@ windows.dye.default 默认衣服
 windows.dye.spin 衣服
 windows.changelog.header 变更日志
 windows.mods.community.header 社区模组
-windows.mods.community.fav 最爱
+windows.mods.community.fav 收藏
 windows.mods.community.new 最新模组
 windows.mods.community.hot 最热门
 windows.mods.community.name 模组名称
@@ -599,13 +599,13 @@ server.config.tickRI 高传送率
 server.config.maxPS 40 名玩家服务器
 server.config.promServ 推广服务器
 server.config.jumpMlt 跳跃力量
-server.config.airStrf 空中加速
+server.config.airStrf 空中对角线运动
 server.config.deltaMlt 时间倍率
-server.config.strafeSpd Strafe 速度
+server.config.strafeSpd 对角线运动速度
 server.config.fiRat 武器射速
 server.config.reSpd 换弹速度
 server.config.slidTime 滑铲时间
-server.config.fixMov 修复的运动动作
+server.config.fixMov 修复动作
 server.config.slidSpd 滑铲速度
 server.config.healthMlt 血量倍率
 server.config.impulseMlt 武器后坐力
@@ -651,7 +651,7 @@ server.config.throwMel 投掷近战武器
 server.config.noCosm 禁用饰品
 social.login 登录/注册
 social.login.failed 登录失败
-social.login.buy 登录后购买
+social.login.buy 登录后才可购买
 social.login.sell 登录后出售
 social.login.gift 登录后赠送
 social.login.proccessing 登录中...
@@ -661,13 +661,13 @@ social.user.mods 用户的模组
 social.maps.none 没有找到游戏...
 social.mods.none 没有找到模组...
 social.market.price.low 最低价格
-social.market.price.list 输入价格
+social.market.price.list 请输入价格
 social.market.searching 搜索
 social.market.listed {0}前上架
-social.market.list 上架物品
-social.market.unlist 下架物品
+social.market.list 上架该物品
+social.market.unlist 下架该物品
 social.market.unlisting 下架物品中...
-social.market.posting 发布中...
+social.market.posting 发布物品中...
 social.market.req 需要至少{0}级
 social.market.cant KR不足
 social.market.purchase 购买
@@ -683,7 +683,7 @@ social.market.melee 近战武器
 social.market.spray 涂鸦
 social.market.dye 衣服
 social.market.none 没有找到该物品
-social.market.login 您必须先登录.
+social.market.login 您必须先登录。
 social.market.grace {0}秒后生效
 social.market.sort 筛选/排序
 social.market.filter 搜索
@@ -693,7 +693,7 @@ social.trading.submitting 提交报价中...
 social.market.gift.amount 赠送金额
 social.market.fee.gift 无费用
 social.market.gift 赠送KR
-social.market.gift.msg 留言
+social.market.gift.msg赠送留言
 respawn.auto 您将会在｛0｝秒内重生
 custom.host.ranked 您不可以在排位赛进行时开设自定义房间。
 funds.insufficient 经费不足
@@ -721,7 +721,7 @@ mod.reset.1 地图将不会被重设。
 windows.profile.picture 更改头像
 stats.assists 助攻数
 stats.nukes 使用核弹数
-stats.melee 近战击杀数
+stats.melee 近战武器击杀数
 stats.fistkills 空手击杀数
 stats.thrownkills 投掷近战武器击杀数
 stats.headshots 暴击数
@@ -741,7 +741,7 @@ windows.clan.delete 您确定您要解散该战队吗？
 windows.clan.kick 您确定您要将｛0｝踢出您的战队吗？
 windows.store.premium.purchase 您确定您要购买｛0｝天的Premium吗？
 windows.playerlist.ban 您确定要将｛0｝禁赛吗？
-windows.playerlist.flag 您确定您要标记｛0｝为使用外挂吗?
+windows.playerlist.flag 您确定您要标记｛0｝为外挂用户吗?
 windows.playerlist.unflag 您确定您要取消标记｛0｝吗?
-windows.playerlist.punish 您确定您要对｛0｝采取此措施吗？
+windows.playerlist.punish 您确定您要对｛0｝采取措施吗？
 `;
