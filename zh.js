@@ -141,7 +141,7 @@ settings.quality.screenShake 屏幕晃动
 settings.quality.weaponShine 武器光泽
 settings.quality.rendGamma Gamma
 settings.quality.lighting 光照效果
-settings.quality.showExplo Show Explosions 显示爆炸特效
+settings.quality.showExplo 显示爆炸特效
 settings.quality.aspectRatio 屏幕高宽比
 settings.post.header 后期处理
 settings.post.post 后期处理
@@ -162,32 +162,32 @@ settings.interface.ui 显示用户界面
 settings.interface.scoreboard 使用经典计分板
 settings.interface.oldBrowser 使用经典浏览器
 settings.interface.rarityanim 禁用稀有物品动画
-settings.interface.showPfp 显示用户图标
-settings.interface.showTradeMsg Show Trade Messages 显示交易信息
+settings.interface.showPfp 显示用户头像
+settings.interface.showTradeMsg 显示交易信息
 settings.interface.hp 动态血条(HP)
 settings.interface.dmgScale 伤害显示比例
 settings.interface.killf 显示击杀列表
-settings.interface.ping 显示网络延迟(PING)
+settings.interface.ping 显示网络延迟
 settings.interface.net-stats 显示网络状况
-settings.interface.fps 显示帧率(FPS)
+settings.interface.fps 显示帧数
 settings.interface.deaths 显示死亡数
-settings.interface.kd Show K/D Counter 显示KD
+settings.interface.kd 显示KD
 settings.interface.kills 显示击杀数
 settings.interface.streak 显示连杀数
 settings.interface.score 显示分数
-settings.interface.spectators 显示观战者
+settings.interface.spectators 显示观战者数量
 settings.interface.speed 显示移动速度
-settings.interface.speedOffX 移动速度X轴坐标
-settings.interface.speedOffY 移动速度Y轴坐标
+settings.interface.speedOffX 移动速度水平位置
+settings.interface.speedOffY 移动速度垂直位置
 settings.interface.speedOpacity 速度显示透明度
 settings.interface.speedScale 速度显示比例
 settings.interface.speedColor 当前速度颜色
 settings.interface.speedColorMax 最高速度颜色
 settings.interface.medals 显示勋章
 settings.interface.hideNames 显示名牌
-settings.interface.hideNames.team 仅限队友
-settings.interface.hideNames.enemy 仅限敌人
-settings.interface.hideNames.all 所有人
+settings.interface.hideNames.team 名牌仅限队友
+settings.interface.hideNames.enemy 名牌仅限敌人
+settings.interface.hideNames.all 所有人均显示名牌
 settings.interface.nametagStyle 名牌样式
 settings.interface.nametagOpac 名牌透明度
 settings.interface.nametagStyle.health 仅限血条(HP)
@@ -235,18 +235,18 @@ settings.hitmarker.animS 动画速度
 settings.hitmarker.hitm 显示
 settings.hitmarker.hitmFad 褪去速度
 settings.hitmarker.custom 命中标记图标
-settings.hitmarker.custom.paste 命中标记网址
+settings.hitmarker.custom.paste 命中标记图标网址
 settings.onKillS.style.0 默认
 settings.onKillS.style.1 降低分辨率
 settings.onKillS.style.2 降低FOV
 settings.onKillS.style.3 增加FOV
-settings.serverb.header Server Browser
-settings.serverb.oldBrowser Legacy Browser
-settings.serverb.defaultRegionOnly Default Region Only 只显示默认地区的服务器
+settings.serverb.header 游戏房间浏览器
+settings.serverb.oldBrowser 经典房间浏览器
+settings.serverb.defaultRegionOnly 只显示默认地区的房间
 settings.gameprivacy.header 游玩隐私
 settings.gameprivacy.streamer 主播模式
 settings.gameprivacy.anon 匿名模式
-settings.gameprivacy.hideGameTitle Hide Game Title
+settings.gameprivacy.hideGameTitle 隐藏游戏标志
 settings.gameplay.header 游戏性
 settings.gameplay.sensitivityX X轴灵敏度
 settings.gameplay.sensitivityY Y轴灵敏度
@@ -258,7 +258,7 @@ settings.gameplay.onkillS 击杀
 settings.gameplay.scrollDir 鼠标滚轮方向
 settings.controller.header 手柄
 settings.controller.sensitivityX X轴灵敏度
-settings.controller.disableCons Disable Controllers 禁用手柄
+settings.controller.disableCons 禁用手柄
 settings.controller.sensitivityY Y轴灵敏度
 settings.controller.aimsensX ADS(瞄准)X轴灵敏度
 settings.controller.aimsensY ADS(瞄准)Y轴灵敏度
@@ -276,16 +276,16 @@ settings.mobile.aimsensY ADS(瞄准)Y轴灵敏度
 settings.mobile.vibration 震动
 settings.mobile.gradSpeed 渐缓速度
 settings.mobile.invert 反转Y轴
-settings.audio.header 音频
+settings.audio.header 音效
 settings.audio.sound 主音量
-settings.audio.ambient 环境音量
+settings.audio.ambient 环境背景音量
 settings.audio.voice 语言音量
 settings.audio.weps 武器音量
 settings.audio.player 玩家音量
-settings.audio.skin Cosmetics Volume 玩家服饰音量
+settings.audio.skin 玩家服饰音量
 settings.audio.ui 用户界面音量
 settings.audio.asset Asset Volume
-settings.audio.dialogue Action Volume 动作音量
+settings.audio.dialogue 动作音量
 settings.viewmodel.header 视角
 settings.viewmodel.fov 腰射视野
 settings.viewmodel.fps 帧数
@@ -293,20 +293,20 @@ settings.viewmodel.bobbing 武器晃动
 settings.viewmodel.leaning 武器倾斜
 settings.viewmodel.show.primary 显示主武器
 settings.viewmodel.show.secondary 显示副武器
-settings.viewmodel.roundArms Rounded Arms 圆形手臂
+settings.viewmodel.roundArms 圆形手臂
 settings.viewmodel.show.melee 显示近战武器
 settings.viewmodel.show.ads 开镜时隐藏武器
-settings.viewmodel.toggleAim Toggle Aim
+settings.viewmodel.toggleAim 松手时保持开镜
 settings.viewmodel.show.hands 显示手部
-settings.viewmodel.leftHand 左手模式
+settings.viewmodel.leftHand 左手持枪
 settings.viewmodel.aimAnim 武器开镜动画
 settings.viewmodel.rot 武器旋转
-settings.viewmodel.xOff 武器X轴坐标
-settings.viewmodel.yOff 武器Y轴坐标
-settings.viewmodel.zOff 武器Z轴坐标
-settings.viewmodel.weapSwapY Weapon Swap Y
-settings.viewmodel.weapReloadY Weapon Reload Y
-settings.viewmodel.yOffADS 武器开镜Y轴坐标
+settings.viewmodel.xOff 武器X轴坐标 (左/右）
+settings.viewmodel.yOff 武器Y轴坐标（上/下）
+settings.viewmodel.zOff 武器Z轴坐标（前/后）
+settings.viewmodel.weapSwapY 切换武器时武器的垂直位置
+settings.viewmodel.weapReloadY 换弹时武器的垂直位置
+settings.viewmodel.yOffADS 开镜时武器的垂直位置
 settings.viewmodel.adsFovMlt 开镜放大倍数
 settings.editing.header 编辑
 settings.editing.health.high HUD 血条颜色(高)
@@ -319,20 +319,20 @@ settings.editing.score.scale 弹出得分倍率
 settings.editing.score.shadow 弹出得分阴影
 settings.editing.scoreOffX 弹出得分X轴坐标
 settings.editing.scoreOffY 弹出得分Y轴坐标
-settings.editing.prog.color Progress Bar Color 进度条颜色
-settings.editing.prog.opacity Progress Bar Opacity 进度条透明度
-settings.editing.prog.scale Progress Bar Scale 进度条大小
-settings.editing.prog.shadow Progress Bar Shadow 进度条阴影
-settings.editing.progOffX Progress Bar X Offset 进度条水平位置
-settings.editing.progOffY Progress Bar Y Offset 进度条垂直位置
-settings.editing.progRot Progress Bar Rotation 进度条角度
-settings.editing.progm.color Charge Bar Color 蓄力条颜色
-settings.editing.progm.opacity Charge Bar Opacity 蓄力条透明度
-settings.editing.progm.scale Charge Bar Scale 蓄力条大小
-settings.editing.progm.shadow Charge Bar Shadow 蓄力条阴影
-settings.editing.progmOffX Charge Bar X Offset 蓄力条水平位置
-settings.editing.progmOffY Charge Bar Y Offset 蓄力条垂直位置
-settings.editing.progmRot Charge Bar Rotation 蓄力条角度
+settings.editing.prog.color 进度条颜色
+settings.editing.prog.opacity 进度条透明度
+settings.editing.prog.scale 进度条大小
+settings.editing.prog.shadow 进度条阴影
+settings.editing.progOffX 进度条水平位置
+settings.editing.progOffY 进度条垂直位置
+settings.editing.progRot 进度条角度
+settings.editing.progm.color 蓄力条颜色
+settings.editing.progm.opacity 蓄力条透明度
+settings.editing.progm.scale 蓄力条大小
+settings.editing.progm.shadow 蓄力条阴影
+settings.editing.progmOffX 蓄力条水平位置
+settings.editing.progmOffY 力条垂直位置
+settings.editing.progmRot 蓄力条角度
 settings.editing.saturation 饱和度 (游戏中)
 settings.editing.menuSaturation 饱和度 (用户界面)
 settings.editing.hue 色调 (游戏中)
@@ -343,20 +343,20 @@ settings.editing.depth 深度图模式
 settings.editing.green 绿幕模式
 settings.editing.tracercol 弹道轨迹
 settings.editing.tracer 弹道轨迹
-settings.editing.tracer.offset Tracer Offset
+settings.editing.tracer.offset 弹道显示位置
 settings.shaders.header 着色器输入
 settings.mods.header 自定义
-settings.mods.load 加载MOD
-settings.mods.logo 允许变更Logo
-settings.mods.auto 自动加载MOD
+settings.mods.load 加载模组
+settings.mods.logo 允许模组变更界面图标
+settings.mods.auto 自动加载模组
 settings.mods.borders 狙击镜边界
-settings.mods.borderCol Scope Borders 狙击镜边界
-settings.mods.borderOpac Scope Borders Opacity 狙击镜边界透明度
+settings.mods.borderCol 狙击镜边界
+settings.mods.borderOpac 狙击镜边界透明度
 settings.mods.scope 狙击镜准心图标
 settings.mods.scope.paste 狙击镜准心图标网址
-settings.mods.scope.opacity Scope Opacity 狙击镜准心透明度
-settings.mods.scope.width Scope Image Width 狙击镜准心宽度
-settings.mods.scope.height Scope Image Height 狙击镜准心高度
+settings.mods.scope.opacity 狙击镜准心透明度
+settings.mods.scope.width 狙击镜准心宽度
+settings.mods.scope.height 狙击镜准心高度
 settings.mods.dot 准星图标
 settings.mods.dot.width 准星图标宽度
 settings.mods.dot.height 准星图标高度
@@ -379,7 +379,7 @@ settings.mods.damage 受伤屏幕效果图标
 settings.mods.damage.paste 受伤屏幕效果网址
 settings.mods.overlay 游戏结束图标
 settings.mods.overlay.paste 游戏叠层图片网址
-settings.social.region Region Stats
+settings.social.region 各地区统计数据
 windows.settings.header 游戏设定
 windows.mail.header Krunker邮箱
 windows.servers.header 服务器
@@ -394,7 +394,7 @@ windows.loadout.class 角色
 windows.loadout.primary 主武器
 windows.loadout.primary.attach 配件
 windows.loadout.primary.reticle 准星
-windows.loadout.primary.scope Scope 狙击镜准心
+windows.loadout.primary.scope 狙击镜准心
 windows.loadout.secondary 副武器
 windows.loadout.secondary.skin 副武器皮肤
 windows.loadout.melee 近战武器
@@ -405,7 +405,7 @@ windows.loadout.shoe Shoes 鞋子
 windows.loadout.face 表情
 windows.loadout.spray 涂鸦
 windows.loadout.color.skin 皮肤颜色
-windows.loadout.color.chat 聊天名字颜色
+windows.loadout.color.chat 聊天框中玩家用户名颜色
 windows.loadout.color.hair 头发颜色
 windows.loadout.dye 服装
 windows.loadout.pet Pet 宠物
@@ -435,7 +435,7 @@ windows.controls.shoot 射击
 windows.controls.inspect 查看武器
 windows.controls.spray 涂鸦
 windows.controls.jump 跳
-windows.controls.crouch 蹲
+windows.controls.crouch 蹲/滑铲
 windows.controls.prim 主武器
 windows.controls.swap 副武器
 windows.controls.melee 近战武器
@@ -446,7 +446,7 @@ windows.controls.list 玩家列表
 windows.controls.board 排行榜
 windows.controls.interact 交互
 windows.controls.interactSec 次要交互
-windows.controls.confirm Confirm Interact 确认交互
+windows.controls.confirm 确认交互
 windows.controls.drop 放下(武器/物品)
 windows.controls.wepVis 切换武器可见度
 windows.controls.streak0 连杀 1
@@ -458,8 +458,8 @@ windows.controls.premium0 穿墙模式
 windows.controls.premium1 无敌
 windows.controls.premium2 击杀
 windows.controls.premium3 重击
-windows.controls.reset Reset Position (Race & Parkour) 重设时的位置
-windows.controls.pretend Hide Game 隐藏游戏
+windows.controls.reset 重设时复活的位置（仅限于跑酷/速度竞赛模式）
+windows.controls.pretend 隐藏游戏
 windows.host.header 创建自定义游戏
 windows.host.maps 服务器设定
 windows.host.cmaps 社区游戏
@@ -471,7 +471,7 @@ windows.host.preset 创建预设
 windows.host.preset.load 加载预设中...
 windows.host.preset.name 预设名称
 windows.host.start 开始游戏
-windows.host.rehost Start Game (Bring Players)
+windows.host.rehost 请重新开始游戏
 windows.spray.header 选择涂鸦
 windows.spray.default 默认涂鸦
 windows.spray.spin 涂鸦
@@ -485,7 +485,7 @@ windows.publish.map.header 发布或更新游戏
 windows.publish.map.thumbnail 没有缩略图
 windows.publish.map.paste 粘贴游戏数据
 windows.publish.map.update 发布/更新
-windows.publish.map.login 创建并上传游戏!
+windows.publish.map.login 创建并上传您的地图！
 windows.theatre.header 影院模式
 windows.theatre.record 启用录制
 windows.theatre.key 录制按键
@@ -509,7 +509,7 @@ windows.store.market 市场
 windows.store.market2 Krunker市场
 windows.store.premium 购买Premium
 windows.store.premium2 Krunker Premium
-windows.store.buyP Choose a Display name & more with 您将可以自定义您的游戏用户名，并且使用更多功能
+windows.store.buyP 在购买Premium后，您将可以自定义您的游戏用户名+体验更多专用功能！
 windows.store.buy 买卖物品
 windows.store.wheels 转盘
 windows.store.unlock 解锁新武器和物品
@@ -517,8 +517,8 @@ windows.store.amount 账户中有 {0} KR 剩余
 windows.store.login 用于在商店中购买和解锁物品!
 windows.store.purchasing 购买中...
 windows.store.unboxed {0}开箱解锁了{1}
-windows.trade.header Trading 交易
-windows.scope.header Select Scope
+windows.trade.header 交易
+windows.scope.header 选择您的狙击镜准心
 windows.premium.header Premium
 windows.skin.header 选择皮肤
 windows.hat.header 选择头部
@@ -554,21 +554,21 @@ windows.support.header 支持
 windows.players.header 玩家列表
 windows.players.none 当前没有玩家...
 windows.join.header 加入
-windows.join.code 输入游戏 网址/代码
+windows.join.code 输入房间网址
 windows.client.header 客户端
-windows.client.windows Windows游戏安装器
-windows.client.mac macOS游戏安装器
-windows.client.linux Linux游戏安装器
-windows.ranked.header 排位
-windows.ranked.login 以进行排位赛!
+windows.client.windows Windows游戏安装包
+windows.client.mac macOS游戏安装包
+windows.client.linux Linux游戏安装包
+windows.ranked.header 排位赛
+windows.ranked.login 登录以进行排位赛!
 windows.ranked.level 您至少需要 <span color="black"> {0} 级</span> 以进行排位赛! 当前您的等级是 <span color="black"> {1} 级</span>.
 windows.ranked.mode.r1v1 单排
 windows.ranked.mode.r2v2 双排
 windows.ranked.mode.r4v4 四排
 windows.chall.header 挑战
 windows.chall.login 登录以完成挑战!
-thumbnail.upload.limit 失败. {0}kb 缩略图限制
-image.upload.limit 失败. {0}kb 图片限制
+thumbnail.upload.limit 上传失败. 最大缩略图限制为｛0｝KB。
+image.upload.limit 上传失败，最大图片限制为｛0｝KB。
 thumbnail.upload.error 缩略图错误
 mod.extracting 提取中 {0}/{1}
 mod.disabled 模组已禁用
@@ -586,26 +586,26 @@ streamers.views {0} 观看者
 streamers.none 当前没有Twitch直播!
 error.extentions 如果您有任何(浏览器)插件, 请禁用它们
 error.seek 点此以搜索新的游戏
-custom.map.upload.limit 失败. 角色游戏数据限制为500kb
+custom.map.upload.limit 上传失败. 角色游戏数据限制为500kb
 custom.map.missing 请选择至少一种游戏或地图
 custom.mode.missing 请选择至少一种模式
 custom.class.missing 请选择至少一种角色
 server.config.maxPlayers 最大玩家数
 server.config.minPlayers 最小玩家数
-server.config.lives 生命数
-server.config.gameTime 时间(分钟)
+server.config.lives 玩家生命数
+server.config.gameTime 每局时间(分钟)
 server.config.gravMlt 重力
-server.config.tickRI 高传送率(High Tickrate)
+server.config.tickRI 高传送率
 server.config.maxPS 40 名玩家服务器
 server.config.promServ 推广服务器
 server.config.jumpMlt 跳跃力量
-server.config.airStrf Air Strafing
+server.config.airStrf 空中加速
 server.config.deltaMlt 时间倍率
 server.config.strafeSpd Strafe 速度
 server.config.fiRat 武器射速
 server.config.reSpd 换弹速度
 server.config.slidTime 滑铲时间
-server.config.fixMov Fixed Movement
+server.config.fixMov 修复的运动动作
 server.config.slidSpd 滑铲速度
 server.config.healthMlt 血量倍率
 server.config.impulseMlt 武器后坐力
@@ -625,30 +625,30 @@ server.config.killRewards 击杀奖励
 server.config.headshotOnly 仅限爆头模式
 server.config.noSecondary 禁用服务器
 server.config.noStreaks 禁用连杀
-server.config.canSlide Sliding 可以滑铲
+server.config.canSlide 可以滑铲
 server.config.wallJP 墙壁跳跃倍率
 server.config.autoJump 自动跳跃
 server.config.bDrop 子弹下坠
 server.config.thirdPerson 第三人称
 server.config.requireCaptcha 需要Captcha验证
 server.config.nameTags 隐藏名牌
-server.config.kCams Kill Cams
+server.config.kCams 玩家死亡视角
 server.config.noReload 无需重装弹药
-server.config.private 私人
-server.config.krRewards KR Rewards KR 奖励
-server.config.forceDefault Force Default Settings 必须使用默认设置
+server.config.private 私人房间
+server.config.krRewards KR 奖励
+server.config.forceDefault 必须使用默认设置
 server.config.warmupTime 热身时间
-server.config.objtvTime Objective Time 得分点存在时间
+server.config.objtvTime 得分点存在时间
 server.config.forceSpawn 自动重生时间
 server.config.scoreLimit 得分限制
-server.config.keepTScore Keep Team Score 保持该队伍分数
-server.config.forceC Force Mode Classes 必须使用特定武器
-server.config.logTim Log Time (Race, Parkour) 通关及时
-server.config.hitBoxPad 击中判断模型倍率(hitbox)
+server.config.keepTScore 保持该队伍分数
+server.config.forceC 必须使用特定武器
+server.config.logTim 通关计时
+server.config.hitBoxPad 碰撞箱大小
 server.config.hpRegen 血量回复
 server.config.disableB 解除地图边界
 server.config.throwMel 投掷近战武器
-server.config.noCosm Disable Cosmetics 禁用饰品
+server.config.noCosm 禁用饰品
 social.login 登录/注册
 social.login.failed 登录失败
 social.login.buy 登录后购买
@@ -730,9 +730,9 @@ stats.sprays 涂鸦次数
 windows.host.default.settings 保持玩家计分功能仅可在使用默认设置时被打开
 windows.host.default.commands 房主指令（比如/god, /smite, /noclip, 等等）将会在此模式中被禁用。
 windows.host.rewards 打开KR奖励功能后，玩家可以在地图内获得KR奖励, 但是自定义设置将会被禁用。
-windows.store.wheels.sub Try your luck and spin for a chance to win some new skins!
+windows.store.wheels.sub 试试这些转盘，您将会有机会获得全新皮肤！
 windows.store.currency  *美元和您所在地区货币的汇率将会由支付服务提供商或您使用的银行决定
-windows.store.creator Consider Support your favorite Content Creator by using a Creator Code
+windows.store.creator 在购买KR时，请考虑使用创作者专用码以支持我们的视频/地图/模组创作者。
 windows.chall.customs 您不可在自定义房间中完成挑战。
 twitch.link 您确定您要链接您的Twitch账号吗？
 twitch.unlink 您确定要取消链接吗？
