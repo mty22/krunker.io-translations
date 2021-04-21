@@ -695,7 +695,7 @@ social.market.fee.gift Keine Gebühr
 social.market.gift Gift KR
 social.market.gift.msg Hinterlasse eine Nachricht
 respawn.auto Auto Respawning in {0}
-custom.host.ranked Du kannst kein Spiel hosten im Ranked Modus
+custom.host.ranked Im Ranked Modus kannst du kein Spiel hosten
 funds.insufficient Zu wenig Krunkies
 funds.out Sieht aus als hättest du keine Krunkies mehr.
 custom.passcode.long Passwort zu lang
@@ -716,25 +716,25 @@ account.delete.cancel Bist du dir sicher das du die Beantragung zur Accountlösc
 spin.free.available GRATIS KR VERFÜGBAR!
 spin.free.claim Du kannst dieses Glücksrad jede Stunde nach absolvieren eines Spiels einlösen.
 spin.free.disable Diese Popups können in den generellen Einstellungen ausgeschalten werden.
-mod.reset.0 Respawne um Effekt zu nehmen
-mod.reset.1 Karten Objekte werden nicht zurückgesetzt
+mod.reset.0 Respawne um den Effekt zu erhalten
+mod.reset.1 Map Objekte werden nicht zurückgesetzt
 windows.profile.picture Bild ändern
 stats.assists Assists
 stats.nukes Nukes
 stats.melee Nahkampf-Kills
-stats.fistkills Niedergeschlagen
+stats.fistkills Faust-Kills
 stats.thrownkills Wurfmesser-Kills
 stats.headshots Kopfschüsse
 stats.wallbangs Wallbangs
 stats.sprays Platzierte Graffitis
 windows.host.default.settings Durch aktivieren der Standardeinstellungen, können Spielerfortschritte und Höchstwerte gespeichert werden.
 windows.host.default.commands *Host Befehle sind in diesem Modus deaktiviert: /noclip /god /smite etc
-windows.host.rewards KR Belohnungen einzuschalten zwingt den Server Standart Einstellungen zu verwenden und erlaubt Spielern KR von der Map Kasse zu verdienen
+windows.host.rewards KR Belohnungen einzuschalten zwingt den Server Standard-Einstellungen zu verwenden und erlaubt Spielern KR von der Map Kasse zu verdienen
 windows.store.wheels.sub Versuche dein Glück und drehe am Glücksrad für eine Chance auf einige neue Skins
 windows.store.currency * Preise in USD können zu deiner lokalen Währung umgewandelt werden. Diese Währungsumrechnung ist von deinem Zahlungsanbieter oder deiner Bank bestimmt.
 windows.store.creator Überlege dir einen Creator Code zu benutzen, um deinen Lieblingscreator zu unterstützen.
 windows.chall.customs Herausforderungen können nur in offiziellen Spielen erledigt werden.
-twitch.link Bist du dir sicher, dass du diesen Twitch-Account mit deinem Profil verlinken möchtest?
+twitch.link Bist du dir sicher, dass du diesen Twitch-Account mit deinem Profil verbinden möchtest?
 twitch.unlink Bist du dir sicher, dass du deinen Twitch-Account von deinem Profil entfernen möchtest?
 windows.clan.leave Bist du dir sicher dass du den Clan verlassen willst?
 windows.clan.delete Bist du dir sicher dass du den Clan löschen willst?
