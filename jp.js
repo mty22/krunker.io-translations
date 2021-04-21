@@ -11,7 +11,7 @@ menu.btn.invite.clicked コピーしました
 menu.btn.join 参加する
 menu.btn.host ゲームをホスト
 menu.btn.browser サーバー
-generic.wait お待ちください..
+generic.wait お待ちください...
 generic.loading ロード中...
 generic.none なし
 generic.connecting 接続中...
@@ -134,7 +134,7 @@ settings.quality.mflash マズルフラッシュ
 settings.quality.flap スナイパーフラップ
 settings.quality.lowSpec 低スペック
 settings.quality.ambient シェーディング (環境光)
-settings.quality.ambientOld 旧式のシェーディング (可能な場合のみ)
+settings.quality.ambientOld 古いシェーディング (可能な場合のみ)
 settings.quality.textureAnim テクスチャアニメーション
 settings.quality.objectAnim オブジェクトアニメーション
 settings.quality.screenShake 画面の振動
@@ -145,10 +145,10 @@ settings.quality.showExplo 爆発を表示
 settings.quality.aspectRatio アスペクト比
 settings.post.header ポストプロセシング
 settings.post.post ポストプロセシング
-settings.post.bloom Bloom
-settings.post.bloomThreshold Bloomのしきい値
-settings.post.bloomStrength Bloomの強さ
-settings.post.bloomRadius Bloomの半径
+settings.post.bloom ブルーム
+settings.post.bloomThreshold ブルームのしきい値
+settings.post.bloomStrength ブルームの強さ
+settings.post.bloomRadius ブルームの半径
 settings.post.ssao SSAO
 settings.post.ssaoRadius SSAOの半径
 settings.interface.hitInd ヒットマーカーを表示
@@ -422,7 +422,7 @@ windows.mods.load.header MODをロード
 windows.mods.publish MODを公開する
 windows.mods.viewer 観戦者
 windows.account.header アカウント
-windows.account.recover アカウントを回復するには、<a>krunker@yendis.ch</a>に連絡してください
+windows.account.recover アカウントを復元するには、<a>krunker@yendis.ch</a>に連絡してください
 windows.class.header クラスを選択
 windows.controls.header コントロールを変更
 windows.controls.forward 前方
