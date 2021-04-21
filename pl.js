@@ -744,4 +744,35 @@ windows.playerlist.ban Czy jesteś pewien, że chcesz wyrzucić {0} z tej gry?
 windows.playerlist.flag Czy jesteś pewien, że chcesz oflagować {0}?
 windows.playerlist.unflag Czy jesteś pewien, że chcesz odflagować {0}?
 windows.playerlist.punish Czy jesteś pewien, że chesz podjąć akcję dotyczącą {0}?
+item.view.open Otwórz przeglądarkę modeli
+item.view.more Więcej informacji
+item.sell.cant Przedmiot nie może zostać sprzedany.
+item.sell.quick Czy na pewno chcesz szybko szprzedać {0}?
+social.profile.stats Statystyki ogólne
+social.profile.class Statystyki klasy
+social.profile.sales Sprzedaż
+social.profile.sales.market Sprzedaż rynkowa
+social.profile.sales Sprzedaż
+social.profile.skins Skiny [{0}]
+social.profile.skins.none Ten gracz nie opublikował żadnych skinów
+social.profile.games Gry [{0}]
+social.profile.games.none Ten gracz nie opublikował żadnych gier
+social.profile.assets Zasoby [{0}]
+social.profile.assets.none Ten gracz nie opublikował żadnych zasobów
+social.profile.mods Modyfikacje [{0}]
+social.profile.mods.none Ten gracz nie opublikował żadnych modyfikacji
+social.search Wyniki wyszukiwania
+social.market.stats.rare Najrzadzsze przedmioty
+social.market.stats.circulation W obiegu
+social.market.stats.units Liczba na całym świecie
+social.trades.in Przychodzące
+social.trades.in.head Przychodzące oferty ({0})
+social.trades.out Wychodzące
+social.trades.out.head Wychodzące oferty ({0})
+social.trades.history Historia
+social.trades.history.head Historia handlu ({0})
+social.trades.decline Odmów wszystko
+social.trades.message WŁĄCZ WIADOMOŚĆI O HANDLU W USTAWIENIACH
+social.trades.warning Nie dostaniesz żadnych przedmiotów z tej wymiany!
+social.trades.accept Czy na pewno chcesz przyjąć tę ofertę?
 `;
