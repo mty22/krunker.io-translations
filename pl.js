@@ -105,7 +105,7 @@ settings.client.discordRPC Discord RPC
 settings.client.resourceSwapper Podmieniacz zasobów
 settings.client.clearCache Wyczyść pamięć podręczną
 settings.client.resetSettings Resetuj ustawienia klienta
-settings.client.acceleratedCanvas Renderowanie canvas wspomagane sprzętowo
+settings.client.acceleratedCanvas Wspomagane sprzętowo renderowanie canvas
 settings.client.angleBackend Grafika ANGLE
 settings.client.colorProfile Profil kolorów
 settings.dev.header Programista
@@ -775,7 +775,7 @@ social.profile.mods.none Ten gracz nie opublikował żadnych modyfikacji
 social.search Wyniki wyszukiwania
 social.market.stats.rare Najrzadzsze przedmioty
 social.market.stats.circulation W obiegu
-social.market.stats.units Liczba na całym świecie
+social.market.stats.units na całym świecie
 social.trades.in Przychodzące
 social.trades.in.head Przychodzące oferty ({0})
 social.trades.out Wychodzące
@@ -786,6 +786,6 @@ social.trades.decline Odrzuć wszystkie
 social.trades.message WŁĄCZ WIADOMOŚĆI O HANDLU W USTAWIENIACH
 social.trades.warning Nie dostaniesz żadnych przedmiotów z tej wymiany!
 social.trades.accept Czy na pewno chcesz przyjąć tę ofertę?
-stats.airdrops Pakiety KR
+stats.airdrops Paczki KR
 settings.quality.flapAnim Animacje klapki do sniperki
 `;
