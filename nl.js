@@ -1,15 +1,15 @@
 module.exports = `
-menu.btn.ranked Ranked
+menu.btn.ranked gerangschikt
 menu.btn.shop Winkel
 menu.btn.social Hub
-menu.btn.maps Games
+menu.btn.maps spellen
 menu.btn.mods Mods
-menu.btn.settings Instellingen
+menu.btn.settings instellingen
 menu.btn.customize Aanpassen
 menu.btn.invite Uitnodigen
 menu.btn.invite.clicked Gekopieerd
 menu.btn.join Join
-menu.btn.host Host Game
+menu.btn.host hostspel
 menu.btn.browser Servers
 generic.wait Een moment geduld...
 generic.loading LADEN...
@@ -66,7 +66,7 @@ player.inactive Gekicked voor inactiviteit
 player.disconnect VERBINDING VERBROKEN
 timer.end Volgende ronde in {0}
 leaderboard.empty Lege Lobby
-popup.checkpoint Checkpoint!
+popup.checkpoint Controlepunt!
 app.play KLIK OM TE SPELEN
 app.spectate KLIK OM TOE TE KIJKEN
 app.play.mobile TAP OM TE SPELEN
@@ -78,7 +78,7 @@ purchase.error.click klik hier</a> en probeer opnieuw!
 purchase.error.limit Je hebt mogelijk je dagelijkse transactielimiet overschreden
 settings.reset Reset
 settings.reset.confirm Weet je zeker dat je al je instellingen wilt resetten?
-settings.import Importeren
+settings.import Belangrijk
 settings.export Exporteren
 settings.none Geen instellingen gevonden
 settings.backup Backup Instellingen
@@ -131,8 +131,8 @@ settings.quality.shadowsDynamic Dynamische Schaduwen
 settings.quality.trails Kogel Sporen
 settings.quality.yourTrails Eigen Sporen
 settings.quality.mflash Muzzle Flits
-settings.quality.flap Sniper Flap
-settings.quality.lowSpec Low Spec
+settings.quality.flap sluipschutter flap
+settings.quality.lowSpec lage spec
 settings.quality.ambient Omringende Schaduw
 settings.quality.ambientOld Oude Schaduwen (Wanneer Mogelijk)
 settings.quality.textureAnim Textuur Animaties
@@ -145,14 +145,14 @@ settings.quality.showExplo Toon Explosies
 settings.quality.aspectRatio Aspect Ratio
 settings.post.header Nabewerking
 settings.post.post Nabewerking
-settings.post.bloom Bloom
-settings.post.bloomThreshold Bloom Threshold
-settings.post.bloomStrength Bloom Sterkte
-settings.post.bloomRadius Bloom Radius
+settings.post.bloom bloeien
+settings.post.bloomThreshold bloeien Threshold
+settings.post.bloomStrength bloeien Sterkte
+settings.post.bloomRadius bloeien Radius
 settings.post.ssao SSAO
-settings.post.ssaoRadius SSAO Radius
-settings.interface.hitIndToon Hit Indicatoren
-settings.interface.hitColor Hit Indicator Kleur
+settings.post.ssaoRadius SSAO straal
+settings.interface.hitIndToon Hit indicatie
+settings.interface.hitColor Hit indicater Kleur
 settings.interface.dmg Toon Schade
 settings.interface.dmgCol Schade Kleur
 settings.interface.critCol Crit Kleur
@@ -201,7 +201,7 @@ settings.interface.xpBarCol XP Bar Kleur
 settings.interface.xpBarOpac XP Bar Doorzichtigheid
 settings.crosshair.header Crosshair
 settings.crosshair.type Soort
-settings.crosshair.type.2 Custom
+settings.crosshair.type.2 Op maat
 settings.crosshair.type.3 Gelaagd
 settings.crosshair.type.4 Afbeelding
 settings.crosshair.type.5 Precisie
