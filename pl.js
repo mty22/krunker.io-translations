@@ -97,6 +97,17 @@ settings.experimental.header Eksperymentalne
 settings.experimental.aimFreezeFix Napraw zamrożenie przy celowaniu
 settings.experimental.mouseFlickFix Napraw mouse-flicki
 settings.experimental.shaderRendering Renderowanie przez isntancje
+settings.client.header Klient
+settings.client.unlimitedFrames Wyłącz limit FPS
+settings.client.gameCap Przechwytywanie gry
+settings.client.experimental Eksperymentalne funkcje klienta
+settings.client.discordRPC Discord RPC
+settings.client.resourceSwapper Podmieniacz zasobów
+settings.client.clearCache Wyczyść pamięć podręczną
+settings.client.resetSettings Resetuj ustawienia klienta
+settings.client.acceleratedCanvas Renderowanie canvas wspomagane sprzętowo
+settings.client.angleBackend Grafika ANGLE
+settings.client.colorProfile Profil kolorów
 settings.dev.header Programista
 settings.dev.forceUpdate Wymuś aktualizację skinów
 settings.dev.forceRegen Zawsze regeneruj graczy
@@ -775,4 +786,6 @@ social.trades.decline Odrzuć wszystkie
 social.trades.message WŁĄCZ WIADOMOŚĆI O HANDLU W USTAWIENIACH
 social.trades.warning Nie dostaniesz żadnych przedmiotów z tej wymiany!
 social.trades.accept Czy na pewno chcesz przyjąć tę ofertę?
+stats.airdrops Pakiety KR
+settings.quality.flapAnim Animacje klapki do sniperki
 `;
