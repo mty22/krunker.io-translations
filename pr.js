@@ -1,5 +1,5 @@
 module.exports = `
-menu.btn.ranked Ranked
+menu.btn.ranked Rankeada
 menu.btn.shop Loja
 menu.btn.social Social
 menu.btn.maps Mapas
@@ -10,8 +10,8 @@ menu.btn.invite Convidar
 menu.btn.invite.clicked Copiado
 menu.btn.join Entrar
 menu.btn.host Hospedar Partida
-menu.btn.browser Navegador do Servidor
-generic.wait Por favor espere...
+menu.btn.browser Buscar Servidor
+generic.wait Aguarde por favor...
 generic.loading CARREGANDO...
 generic.none Nenhum
 generic.connecting CONECTANDO...
@@ -24,187 +24,187 @@ generic.leave Sair
 generic.default Padrão
 generic.submit Enviar
 generic.create Criar
-generic.random Random
+generic.random Aleatório
 generic.failed Falhou
 generic.success Sucesso!
 generic.name Nome
 generic.level Nível
 generic.score Pontuação
 generic.off Desligado
-generic.defeat DERROTA
-generic.victory VITÓRIA
-generic.matchover MATCH OVER
-generic.matchaband MATCH ABANDONED
+generic.defeat Derrota
+generic.victory Vitória
+generic.matchover Partida Encerrada
+generic.matchaband Partida Abandonada
 generic.follow Seguir
 generic.unfollow Deixar de Seguir
 generic.followers Seguidores
 generic.following Seguindo
-generic.games Jogos
+generic.games Jogos Da Comunidade
 generic.wins Vitórias
-generic.lose Losses
+generic.lose Derrotras
 generic.clan Clã
 generic.games.played Partidas Jogadas
 generic.games.won Partidas Ganhas
-generic.games.lost Games Lost
+generic.games.lost Partidas Derrotadas
 generic.timep Tempo de Jogo
-generic.kills Baixas
+generic.kills Abates
 generic.deaths Mortes
-generic.kdr KDR
+generic.kdr A/M
 generic.time Tempo
-generic.logout Sair
-generic.logout.sessions Sair de todas as Sessões
+generic.logout Sair da Conta
+generic.logout.sessions Sair de Todas as Contas
 generic.username Nome de Usuário
 generic.password Senha
-generic.register Cadastre-se
+generic.register Registar-se
 generic.login Entrar
 generic.accuracy Precisão
-player.waiting esperando por jogadores
+player.waiting Esperando Por Jogadores
 player.died Você morreu
 player.killed Morto Por
-player.killstreak {0} em uma {1} Série de Baixas
+player.killstreak {0} Em Uma {1} Sequência de Abates
 player.inactive Expulso por Inatividade
 player.disconnect DESCONECTADO
-timer.end Próxima Rodada em {0}
+timer.end Próxima Partida Em {0}
 leaderboard.empty Sala Vazia
-popup.checkpoint Checkpoint!
+popup.checkpoint Ponto de Renascimento
 app.play CLIQUE PARA JOGAR
-app.spectate CLICK TO SPECTATE
-app.play.mobile TAP TO PLAY
-app.spectate.mobile TAP TO SPECTATE
+app.spectate CLIQUE PARA ESPECTAR
+app.play.mobile TOQUE PARA JOGAR
+app.spectate.mobile TOQUE PARA ESPECTAR
 app.play.controller PRESSIONE COMEÇAR
-app.spectate.controller START to SPECTATE
-purchase.error Erro ocorreu
+app.spectate.controller START PARA ESPECTAR
+purchase.error Ocorreu Um Erro
 purchase.error.click clique aqui</a> e tente novamente!
-purchase.error.limit Você pode ter excedido seu limite diário de transações
-settings.reset Redefinir Configurações
-settings.reset.confirm Tem certeza de que deseja redefinir todas as suas configurações? Isso também atualizará a página
-settings.import Import
-settings.export Export
-settings.none No settings found
-settings.backup Backup Settings
+purchase.error.limit Limite de Transação Diária pode ter sido Atingido
+settings.reset Resetar Configurações
+settings.reset.confirm Tem Certeza Que Deseja Resetar Todas Suas Configurações? Isso irá Atualizar A Página
+settings.import Importar Configurações
+settings.export Exportar Configurações
+settings.none Nenhuma Configuração Encontrada
+settings.backup Backup de Configurações
 settings.controls.change Mudar Controles
 settings.controls.press Pressione Qualquer Tecla
-settings.local.header Localization <span id="requiresRestart"><span style="color: #eb5656">*</span> requires restart</span>
-settings.local.region Default Region
-settings.local.lang Language
+settings.local.header Localização <span id="requiresRestart"><span style="color: #eb5656">*</span> requires restart</span>
+settings.local.region Região de Origem
+settings.local.lang Linguagem
 settings.network.header Network
-settings.network.sendRate High Tickrate
-settings.network.netRerouting Auto Routing (Affects Ping)
-settings.network.lagComp Lag Compensation
+settings.network.sendRate Tickrate Alto
+settings.network.netRerouting Rotação Automática (Afeta A Conexão)
+settings.network.lagComp Compensação de Lag
 settings.popup.header Popups
-settings.popup.freeKRPop Show Free KR Popup
-settings.experimental.header Experimental
-settings.experimental.aimFreezeFix Aim Freeze Fix
-settings.experimental.mouseFlickFix Mouse Flick Fix
-settings.experimental.shaderRendering Instance Rendering
-settings.dev.header Developer
-settings.dev.forceUpdate Force Update Skins
-settings.dev.forceRegen Always Regenerate Player
-settings.dev.extraBan Extra Ban Info
+settings.popup.freeKRPop Mostrar Popus de KR
+settings.experimental.header Configurações Experimentais
+settings.experimental.aimFreezeFix Correção De Mira Parada
+settings.experimental.mouseFlickFix Correção de Flick de Mouse
+settings.experimental.shaderRendering Renderização Intença 
+settings.dev.header Desenvolvidor
+settings.dev.forceUpdate Forçar atualização de skins
+settings.dev.forceRegen Sempre Regenerar Players
+settings.dev.extraBan Informação De Ban Extra
 settings.chat.header Chat
-settings.chat.chat Show Chat Box
-settings.chat.chat.all Always
-settings.chat.chat.focus While Focused
-settings.chat.messages Show Player Messages
-settings.chat.unboxings Show Unboxings
-settings.chat.chatOp Chat Opacity
+settings.chat.chat Sempre mostrar O Chat
+settings.chat.chat.all Sempre
+settings.chat.chat.focus Sempre Focado
+settings.chat.messages Mostrar Mensagem de Players
+settings.chat.unboxings Mostrar Unoxing de Player
+settings.chat.chatOp Opacidade de Chat
 settings.chat.chatBGOp Chat BG Opacity
 settings.chat.chatHeight Chat Height
 settings.chat.chatTimer Chat Timer (s)
-settings.chat.chatTextOutline Chat Text Outline
-settings.chat.chatFilter Profanity Filter
+settings.chat.chatTextOutline Contorno de Texto do Chat
+settings.chat.chatFilter Fitro de palavrões
 settings.quality.header Qualidade
-settings.quality.updRate Frame Cap
-settings.quality.rendDst Render Distance
+settings.quality.updRate Limitação de Frames
+settings.quality.rendDst Distância de Renderização
 settings.quality.res Resolução
 settings.quality.part Partículas
-settings.quality.mapDet Map Details
-settings.quality.noTex No Textures
-settings.quality.partdist Particle Distance
-settings.quality.renderdist Render Distance
-settings.quality.reflection Reflection Quality
-settings.quality.antiAlias Antialiasing
-settings.quality.shadows Shadows
-settings.quality.softShad Soft Shadows
-settings.quality.highResShad High-Res Shadows
-settings.quality.shadowsDynamic Dynamic Shadows
-settings.quality.trails Trilha das Balas
-settings.quality.yourTrails Your Trails
+settings.quality.mapDet Detalhes de Mapas 
+settings.quality.noTex Sem Texturas
+settings.quality.partdist Distãncia de Particulas
+settings.quality.renderdist Distância de Renderização
+settings.quality.reflection Qualidade de Reflexço 
+settings.quality.antiAlias Anti-Serrilhamento
+settings.quality.shadows Sombras
+settings.quality.softShad Sombras Suaves
+settings.quality.highResShad Sombras de Alta Resolução
+settings.quality.shadowsDynamic Sombras Dinâmicas
+settings.quality.trails Rastro de Balas
+settings.quality.yourTrails Seus Ratros
 settings.quality.mflash Fogo dos Tiros
-settings.quality.flap Sniper Flap
-settings.quality.lowSpec Low Spec
-settings.quality.ambient Ambient Shading
-settings.quality.ambientOld Old Shading (When Possible)
-settings.quality.textureAnim Texture Animations
-settings.quality.objectAnim Object Animations
-settings.quality.screenShake Screen Shake
-settings.quality.weaponShine Weapons Shine
+settings.quality.flap Flap da Sniper
+settings.quality.lowSpec Personagens Sem Pernas
+settings.quality.ambient Sombriamento do Ambiente
+settings.quality.ambientOld Antigo Sombriamento (Quando Possível)
+settings.quality.textureAnim Animação de Texturas
+settings.quality.objectAnim Animação de Objetos
+settings.quality.screenShake Tremor de tela
+settings.quality.weaponShine Brilho na Arma
 settings.quality.rendGamma Gamma
-settings.quality.lighting Lighting
-settings.quality.showExplo Show Explosions
-settings.quality.aspectRatio Aspect Ratio
-settings.post.header Post Processing
-settings.post.post Post Processing
-settings.post.bloom Bloom
-settings.post.bloomThreshold Bloom Threshold
-settings.post.bloomStrength Bloom Strength
-settings.post.bloomRadius Bloom Radius
+settings.quality.lighting Iluminação
+settings.quality.showExplo Mostrar Explosão
+settings.quality.aspectRatio Proporção de Tela
+settings.post.header Pós-Processamento
+settings.post.post Pós-Processamento
+settings.post.bloom Contraste
+settings.post.bloomThreshold Limiar do Contraste
+settings.post.bloomStrength Força do Contraste
+settings.post.bloomRadius Área do Contraste
 settings.post.ssao SSAO
-settings.post.ssaoRadius SSAO Radius
-settings.interface.hitInd Show Hit Indicators
-settings.interface.hitColor Hit Indicator Color
-settings.interface.dmg Show Damage
-settings.interface.dmgCol Damage Color
-settings.interface.critCol Crit Color
+settings.post.ssaoRadius Área do SSAO
+settings.interface.hitInd Mostrar indicador de Hit
+settings.interface.hitColor Cor do indicardor de hit
+settings.interface.dmg Mostrar Dano
+settings.interface.dmgCol Cor do dano
+settings.interface.critCol Cor do Crítico
 settings.interface.header Interface
-settings.interface.scale UI Scale
+settings.interface.scale Scala da Tela
 settings.interface.ui Mostrar Interface de Usuário
-settings.interface.scoreboard Use Old Scoreboard
-settings.interface.oldBrowser Use Old Browser
-settings.interface.rarityanim Disable Rarity Animations
-settings.interface.showPfp Show Profile Pictures
-settings.interface.showTradeMsg Show Trade Messages
+settings.interface.scoreboard Usar o antigo Placar de Pontos
+settings.interface.oldBrowser Usar o antigo Navegador
+settings.interface.rarityanim Desativar animações raras
+settings.interface.showPfp Mostar foto de Perfil
+settings.interface.showTradeMsg Mostrar Mensagens de Trade
 settings.interface.hp Barras Dinâmicas de Vida
-settings.interface.dmgScale Damage Scale
-settings.interface.killf Show Kill Feed
+settings.interface.dmgScale Escala de Dano
+settings.interface.killf Mostrar mensagem de abate
 settings.interface.ping Mostrar Ping
-settings.interface.net-stats Show Network Stats
+settings.interface.net-stats Mostar status de conexão
 settings.interface.fps Mostrar FPS
 settings.interface.deaths Mostrar Mortes
-settings.interface.kd Show K/D Counter
-settings.interface.kills Mostrar o Feed de Baixas
-settings.interface.streak Show Streak Counter
-settings.interface.score Show Score Counter
-settings.interface.spectators Show Spectator Counter
-settings.interface.speed Show Movement Speed
-settings.interface.speedOffX Speed X Offset
-settings.interface.speedOffY Speed Y Offset
-settings.interface.speedOpacity Speed Opacity
-settings.interface.speedScale Speed Scale
-settings.interface.speedColor Speed Color (Current)
-settings.interface.speedColorMax Speed Color (Max)
-settings.interface.medals Show Medals
-settings.interface.hideNames Nametag Display
-settings.interface.hideNames.team Team Only
-settings.interface.hideNames.enemy Enemy Only
-settings.interface.hideNames.all Everyone
-settings.interface.nametagStyle Nametag Style
-settings.interface.nametagOpac Nametag Opacity
-settings.interface.nametagStyle.health Health Only
-settings.interface.nametagStyle.name Name Only
-settings.interface.nametagStyle.nameLvl Name & Level Only
-settings.interface.nametagStyle.all Everything
-settings.interface.healthNum Nametag Health Number
-settings.interface.healthColT Nametag Health Color Team
-settings.interface.healthColE Nametag Health Color Enemy
-settings.interface.xpBarCol XP Bar Color
-settings.interface.xpBarOpac XP Bar Opacity
+settings.interface.kd Mostrar Icone de A/M
+settings.interface.kills Mostrar mensagem de Baixas
+settings.interface.streak Mostrar Icone de Sequência de Abates
+settings.interface.score Mostrar Icone de Pontos
+settings.interface.spectators Mostar icone de Espectadores
+settings.interface.speed Mostrar Velocidade de Movimento
+settings.interface.speedOffX Velocidade X Deslocamento
+settings.interface.speedOffY Velocidade Y Deslocamento
+settings.interface.speedOpacity Opacidade da Velocidade
+settings.interface.speedScale Escala da Velociadade
+settings.interface.speedColor Cor da Velocidade (atual)
+settings.interface.speedColorMax Cor da Velocidade (Máximo)
+settings.interface.medals Mostrar Medalhas
+settings.interface.hideNames Display da barra de Vida
+settings.interface.hideNames.team Apenas Times
+settings.interface.hideNames.enemy Apenas Inimigos
+settings.interface.hideNames.all Todo Mundo
+settings.interface.nametagStyle Tipo de Barra de Vida
+settings.interface.nametagOpac Opacidade da Barra de vida
+settings.interface.nametagStyle.health Apenas Vida
+settings.interface.nametagStyle.name Apenas Nome
+settings.interface.nametagStyle.nameLvl Nome e Level Apenas
+settings.interface.nametagStyle.all Tudo
+settings.interface.healthNum Número da Barra de Vida
+settings.interface.healthColT Cor da Barra de Vida do Time
+settings.interface.healthColE Cor da barrra de Vida Inimiga
+settings.interface.xpBarCol Cor da Barra de XP
+settings.interface.xpBarOpac Opacidade da Barra de XP
 settings.crosshair.header Mira
 settings.crosshair.type Tipo
 settings.crosshair.type.2 Personalizado
 settings.crosshair.type.3 Em Camadas
 settings.crosshair.type.4 Imagem
-settings.crosshair.type.5 Precision
+settings.crosshair.type.5 Precisão
 settings.crosshair.style Estilo
 settings.crosshair.style.0 Cruz
 settings.crosshair.style.1 Círculo Oco
@@ -215,215 +215,215 @@ settings.crosshair.image Imagem
 settings.crosshair.image.paste Imagem da Mira
 settings.crosshair.always Mostrar Sempre
 settings.crosshair.color Cor
-settings.crosshair.shadow.color Shadow Color
-settings.crosshair.shadow.thickness Shadow Thickness
+settings.crosshair.shadow.color Cor da Sombra
+settings.crosshair.shadow.thickness Espessura da Sombra
 settings.crosshair.size Tamanho
 settings.crosshair.thickness Espessura
 settings.crosshair.gap Gap
-settings.crosshair.dot Dot
-settings.crosshair.opacity.use Use Custom Opacity
-settings.crosshair.opacity.custom Custom Opacity
-settings.hitmarker.header Hitmarker
-settings.hitmarker.color Color
-settings.hitmarker.kcolor Kill Color
-settings.hitmarker.thickness Thickness
-settings.hitmarker.opacity Opacity
-settings.hitmarker.leng Length
-settings.hitmarker.spacing Spacing
-settings.hitmarker.animD Anim Size
-settings.hitmarker.animS Anim Speed
-settings.hitmarker.hitm Show
-settings.hitmarker.hitmFad Fade Speed
-settings.hitmarker.custom Hitmarker Image
-settings.hitmarker.custom.paste Hitmarker Image URL
+settings.crosshair.dot Meio
+settings.crosshair.opacity.use Usar Opacidade Customizada
+settings.crosshair.opacity.custom Opacidade Customizada
+settings.hitmarker.header Marcador de Hit
+settings.hitmarker.color Cor
+settings.hitmarker.kcolor Cor de Abate
+settings.hitmarker.thickness Espessura
+settings.hitmarker.opacity Opacidade
+settings.hitmarker.leng Comprimento
+settings.hitmarker.spacing Espaçamento
+settings.hitmarker.animD Tamanho de Abrimento
+settings.hitmarker.animS Velocidade de Abrimento
+settings.hitmarker.hitm Mostrar
+settings.hitmarker.hitmFad Velocidade Fade
+settings.hitmarker.custom Imagem do HitMarker
+settings.hitmarker.custom.paste URL da imagem do Hitmarker
 settings.onKillS.style.0 Padrão
 settings.onKillS.style.1 Reduzir Resolução
 settings.onKillS.style.2 Reduzir FOV
 settings.onKillS.style.3 Aumentar FOV
-settings.serverb.header Server Browser
-settings.serverb.oldBrowser Legacy Browser
-settings.serverb.defaultRegionOnly Default Region Only
-settings.gameprivacy.header Gameplay Privacy
-settings.gameprivacy.streamer Streamer Mode
-settings.gameprivacy.anon Anonymous Mode
-settings.gameprivacy.hideGameTitle Hide Game Title
+settings.serverb.header Navegador do Servidor
+settings.serverb.oldBrowser Servidores Lagados
+settings.serverb.defaultRegionOnly Apenas Região de Origem
+settings.gameprivacy.header GamePlay Privada
+settings.gameprivacy.streamer Modo Streamer
+settings.gameprivacy.anon Modo Anonymous
+settings.gameprivacy.hideGameTitle Titulo Escondido do Jogo
 settings.gameplay.header Jogabilidade
-settings.gameplay.sensitivityX X Sensitivity
-settings.gameplay.sensitivityY Y Sensitivity
-settings.gameplay.aimsensX Aim X Sensitivity
-settings.gameplay.aimsensY Aim Y Sensitivity
-settings.gameplay.challenge Modo de Desafio
+settings.gameplay.sensitivityX x Sensibilidade
+settings.gameplay.sensitivityY Y Sensibilidade
+settings.gameplay.aimsensX Mira X Sensibilidade
+settings.gameplay.aimsensY Mira Y Sensibilidade
+settings.gameplay.challenge Modo de Desafiador
 settings.gameplay.invert Inverter Eixo Y
 settings.gameplay.onkillS Na Matança
-settings.gameplay.scrollDir Scroll Direction
-settings.controller.header Controller
-settings.controller.sensitivityX X Sensitivity
-settings.controller.disableCons Disable Controllers
-settings.controller.sensitivityY Y Sensitivity
-settings.controller.aimsensX Aim X Sensitivity
-settings.controller.aimsensY Aim Y Sensitivity
-settings.controller.deadZoneL Dead Zone (Left)
-settings.controller.deadZoneR Dead Zone (Right)
-settings.controller.triggerThres Trigger Threshold
-settings.controller.vibration Vibration
-settings.controller.gradSpeed Gradual Speed
-settings.controller.invert Invert Y-Axis
+settings.gameplay.scrollDir Direção do Scroll
+settings.controller.header Controle
+settings.controller.sensitivityX X Sensibilidade
+settings.controller.disableCons Desativar Controles
+settings.controller.sensitivityY Y Sensibilidade
+settings.controller.aimsensX Aim X Sensibilidade
+settings.controller.aimsensY Aim Y Sensibilidade
+settings.controller.deadZoneL Zona De Morte (Esquerda)
+settings.controller.deadZoneR Zona de Morte (Direita
+settings.controller.triggerThres Limiar De Gatilho
+settings.controller.vibration Vibração
+settings.controller.gradSpeed velocidade Gradual
+settings.controller.invert Inverter Y-Axis
 settings.mobile.header Mobile
-settings.mobile.sensitivityX X Sensitivity
-settings.mobile.sensitivityY Y Sensitivity
-settings.mobile.aimsensX Aim X Sensitivity
-settings.mobile.aimsensY Aim Y Sensitivity
-settings.mobile.vibration Vibration
-settings.mobile.gradSpeed Gradual Speed
-settings.mobile.invert Invert Y-Axis
+settings.mobile.sensitivityX X Sensibilidade
+settings.mobile.sensitivityY Y Sensibilidade
+settings.mobile.aimsensX Aim X Sensibilidade
+settings.mobile.aimsensY Aim Y Sensibilidade
+settings.mobile.vibration Vibração
+settings.mobile.gradSpeed Velocidade gradual
+settings.mobile.invert Inverter Y-Axis
 settings.audio.header Áudio
 settings.audio.sound Som
 settings.audio.ambient Ambient Volume
 settings.audio.voice Volume da Voz
-settings.audio.weps Weapon Volume
-settings.audio.player Player Volume
-settings.audio.skin Cosmetics Volume
-settings.audio.ui UI Volume
-settings.audio.asset Asset Volume
-settings.audio.dialogue Action Volume
-settings.viewmodel.header View Model
-settings.viewmodel.fov Field of View
-settings.viewmodel.fps Weapon FOV
-settings.viewmodel.bobbing Weapon Bobbing
-settings.viewmodel.leaning Weapon Leaning
-settings.viewmodel.show.primary Show Primary
-settings.viewmodel.show.secondary Show Secondary
-settings.viewmodel.roundArms Rounded Arms
-settings.viewmodel.show.melee Show Melee
-settings.viewmodel.show.ads Hide Weapon on ADS
-settings.viewmodel.toggleAim Toggle Aim
-settings.viewmodel.show.hands Show Hands
-settings.viewmodel.leftHand Left Handed
-settings.viewmodel.aimAnim Weapon Aim Animation
-settings.viewmodel.rot Weapon Rotation
-settings.viewmodel.xOff Weapon X Offset
-settings.viewmodel.yOff Weapon Y Offset
-settings.viewmodel.zOff Weapon Z Offset
-settings.viewmodel.weapSwapY Weapon Swap Y
-settings.viewmodel.weapReloadY Weapon Reload Y
-settings.viewmodel.yOffADS Weapon ADS Y Offset
-settings.viewmodel.adsFovMlt ADS FOV Power
+settings.audio.weps Volume da Arma
+settings.audio.player Volume do Player
+settings.audio.skin Volume Dos Cosmésticos
+settings.audio.ui Escala de Volume
+settings.audio.asset Volume de Acesso
+settings.audio.dialogue Volume de Ação
+settings.viewmodel.header Modo de Visualização
+settings.viewmodel.fov Campo de Visão
+settings.viewmodel.fps Campo de Visão da Arma
+settings.viewmodel.bobbing Balançamento da Arma
+settings.viewmodel.leaning Velocidade de Vinda da Arma
+settings.viewmodel.show.primary Mostrar Primária
+settings.viewmodel.show.secondary Mostrar Secundária
+settings.viewmodel.roundArms Braços Arredondados
+settings.viewmodel.show.melee Mostrar Faca
+settings.viewmodel.show.ads Esconder Arma Enquanto Mira
+settings.viewmodel.toggleAim Alternancia na mira
+settings.viewmodel.show.hands Mostar Mãos
+settings.viewmodel.leftHand Mãos Esquerdas
+settings.viewmodel.aimAnim Animação de Mira da Arma
+settings.viewmodel.rot Rotação da Arma
+settings.viewmodel.xOff Arma X Deslocamento
+settings.viewmodel.yOff Arma Y Deslocamento
+settings.viewmodel.zOff Arma Z Deslocamento 
+settings.viewmodel.weapSwapY Troca De Arma Y
+settings.viewmodel.weapReloadY Recarga de Arma Y
+settings.viewmodel.yOffADS Mira da Arma Y Deslocamento
+settings.viewmodel.adsFovMlt Campo de visão da Mira da Arma 
 settings.editing.header Edição
-settings.editing.health.high HUD Health High
-settings.editing.health.low HUD Health Low
-settings.editing.speedLines Speed Lines
-settings.editing.spdLinesCol Speed Lines Color
-settings.editing.score.color Popup Score Color
-settings.editing.score.show Show Popup Score
-settings.editing.score.scale Popup Score Scale
-settings.editing.score.shadow Popup Score Shadow
-settings.editing.scoreOffX Popup Score X Offset
-settings.editing.scoreOffY Popup Score Y Offset
-settings.editing.prog.color Progress Bar Color
-settings.editing.prog.opacity Progress Bar Opacity
-settings.editing.prog.scale Progress Bar Scale
-settings.editing.prog.shadow Progress Bar Shadow
-settings.editing.progOffX Progress Bar X Offset
-settings.editing.progOffY Progress Bar Y Offset
-settings.editing.progRot Progress Bar Rotation
-settings.editing.progm.color Charge Bar Color
-settings.editing.progm.opacity Charge Bar Opacity
-settings.editing.progm.scale Charge Bar Scale
-settings.editing.progm.shadow Charge Bar Shadow
-settings.editing.progmOffX Charge Bar X Offset
-settings.editing.progmOffY Charge Bar Y Offset
-settings.editing.progmRot Charge Bar Rotation
-settings.editing.saturation Saturation (In-game)
-settings.editing.menuSaturation Saturation (UI)
-settings.editing.hue Color Hue (In-game)
-settings.editing.menuHue Color Hue (UI)
-settings.editing.vignette Vignette
-settings.editing.feedLimit Killfeed Limit
+settings.editing.health.high Hud de vida Alta
+settings.editing.health.low Hud de Vida Baixa
+settings.editing.speedLines Linhas de Velocidade
+settings.editing.spdLinesCol Cor da Linha de Velocidade
+settings.editing.score.color Cor de Pontos Popus
+settings.editing.score.show Mostar Pontos Popus
+settings.editing.score.scale Escala de Pontos Popus
+settings.editing.score.shadow Sombreamento de Pontos popus
+settings.editing.scoreOffX Pontos Popus X Deslocamento
+settings.editing.scoreOffY Pontos Popus Y Deslocamento
+settings.editing.prog.color Cor da barra de Progresso
+settings.editing.prog.opacity Opacidade da Barra de Progresso
+settings.editing.prog.scale Escala da Barra de Progresso
+settings.editing.prog.shadow Sombra da Barra de progresso
+settings.editing.progOffX Barra de Progresso X Deslocamento
+settings.editing.progOffY Barra de Progresso y Deslocamento
+settings.editing.progRot Rotação da Barra de Progresso
+settings.editing.progm.color Cor da Barra de Carregamento
+settings.editing.progm.opacity Opacidade da Barra de Carregamento
+settings.editing.progm.scale Escala Da Barra de Carregamento
+settings.editing.progm.shadow Sombreamento Da Barra de Carregamento
+settings.editing.progmOffX Barra de carregamento X Deslocamento
+settings.editing.progmOffY Barra de Carregamento Y Deslocamento
+settings.editing.progmRot Rotação da Barra de Carregamento
+settings.editing.saturation Saturação (No Jogo)
+settings.editing.menuSaturation Saturação (Escala)
+settings.editing.hue Cor da Matrix (No Jogo)
+settings.editing.menuHue Cor da Matrix (Escala)
+settings.editing.vignette Vinheta
+settings.editing.feedLimit Limite de Anunciamento de Abates
 settings.editing.depth Mapa de Profundidade
 settings.editing.green Fundo Verde
-settings.editing.tracercol Bullet Tracers
-settings.editing.tracer Bullet Tracers
+settings.editing.tracercol Marcado de Bala
+settings.editing.tracer Marcado de Bala
 settings.editing.tracer.offset Tracer Offset
 settings.shaders.header Sombreador
-settings.mods.header Mods
-settings.mods.load Carregar Mods
-settings.mods.logo Allow Logo Changes
-settings.mods.auto Autocarregar Mod
-settings.mods.borders Fronteiras de Escopo
-settings.mods.borderCol Scope Borders
-settings.mods.borderOpac Scope Borders Opacity
-settings.mods.scope Imagem do Escopo
-settings.mods.scope.paste URL da Imagem do Escopo
-settings.mods.scope.opacity Scope Opacity
-settings.mods.scope.width Scope Image Width
-settings.mods.scope.height Scope Image Height
+settings.mods.header Modificações
+settings.mods.load Carregar Modificações
+settings.mods.logo Permitir Mudança de Logo
+settings.mods.auto Autocarregar Modificações
+settings.mods.borders Bordas Da Mira
+settings.mods.borderCol Borda da Mira
+settings.mods.borderOpac Opacidade da Borda de Mira
+settings.mods.scope Imagem do Mira do Rifle
+settings.mods.scope.paste URL da Imagem da Mira do Rifle
+settings.mods.scope.opacity Opacidade da Mira do Rifle
+settings.mods.scope.width Largura da Imagem da Mira do Rifle
+settings.mods.scope.height Altura da Imagem da Mira do Rifle
 settings.mods.dot Imagem de Ponto Vermelho
-settings.mods.dot.width Reticle Image Width
-settings.mods.dot.height Reticle Image Height
+settings.mods.dot.width Largura da Imagem Do Reticle
+settings.mods.dot.height Altura da Imgagem do Reticle
 settings.mods.dot.paste URL de Ponto Vermelho
 settings.mods.endmessage Mensagem de Final de Partida
 settings.mods.profile Imagem de Perfil
 settings.mods.profile.paste URL da Imagem de Perfil
-settings.mods.ammo Ammo Icon Image
-settings.mods.ammo.paste Ammo Icon Image URL
-settings.mods.kills Kills Icon Image
-settings.mods.kills.paste Kills Icon Image URL
-settings.mods.deaths Deaths Icon Image
-settings.mods.deaths.paste Deaths Icon Image URL
-settings.mods.streak Streak Counter Icon Image
-settings.mods.streak.paste Streak Counter Icon Image URL
-settings.mods.timer Timer Icon Image
-settings.mods.timer.paste Timer Icon Image URL
-settings.mods.usedamage Use Damage Overlay
-settings.mods.damage Damage Overlay Image
-settings.mods.damage.paste Damage Overlay Image URL
-settings.mods.overlay Game Overlay Image
-settings.mods.overlay.paste Game Overlay Image URL
-settings.social.region Region Stats
+settings.mods.ammo Icone de Munição
+settings.mods.ammo.paste URL do Icone de Munição
+settings.mods.kills Icone de Abates
+settings.mods.kills.paste URL do Icone de Abates
+settings.mods.deaths Icone de Mortes
+settings.mods.deaths.paste URL do Icone de Mortes
+settings.mods.streak Icone de Sequência de Abates
+settings.mods.streak.paste URL do Icone de Sequência de Abates
+settings.mods.timer Icone do Cronômetro
+settings.mods.timer.paste URL do Icone do Cronômetro
+settings.mods.usedamage Usar Imagem de Sobreposição de Dano
+settings.mods.damage Imagem de Sobreposição de Dano
+settings.mods.damage.paste URL da Sobreposição De Dano
+settings.mods.overlay Imagem da Sobreposição do Jogo
+settings.mods.overlay.paste URL da Imagem de Sobreposição do Jogo
+settings.social.region Statos da Região
 windows.settings.header Configuração de Jogo
-windows.mail.header Krunker Mail
+windows.mail.header E-MAIL do Krunker
 windows.servers.header Navegador do Servidor
 windows.servers.none Nenhum Jogo Ingressável Encontrado...
 windows.servers.host + Hospedar Partida
 windows.servers.hide Esconder Completamente
-windows.servers.priority Region Priority
+windows.servers.priority Prioridade na Região de Origem
 windows.servers.online {0} online no total
-windows.servers.social {0} on Social
+windows.servers.social {0} no social
 windows.loadout.header Alterar Equipamentos
-windows.loadout.class Classe
+windows.loadout.class Classes
 windows.loadout.primary Primário
-windows.loadout.primary.attach Attachment
+windows.loadout.primary.attach Modificação na Arma
 windows.loadout.primary.reticle Reticle
-windows.loadout.primary.scope Scope
+windows.loadout.primary.scope Mira do Rifle
 windows.loadout.secondary Secundário
-windows.loadout.secondary.skin Secondary Skin
+windows.loadout.secondary.skin Skin Secundária
 windows.loadout.melee Corpo a Corpo
 windows.loadout.hat Chapéu
 windows.loadout.back Corpo
-windows.loadout.waist Waist
-windows.loadout.shoe Shoes
-windows.loadout.face Face
-windows.loadout.spray Spray
-windows.loadout.color.skin Skin Color
-windows.loadout.color.chat Chat Name Color
-windows.loadout.color.hair Hair Color
-windows.loadout.dye Dye
+windows.loadout.waist Cintura
+windows.loadout.shoe Sapatos
+windows.loadout.face Rosto
+windows.loadout.spray Pixações
+windows.loadout.color.skin Cor de pele
+windows.loadout.color.chat Cor do nome no Chat
+windows.loadout.color.hair Cor do Cabelo
+windows.loadout.dye Corpo
 windows.loadout.pet Pet
-windows.loadout.stat Killcard Stat
-windows.loadout.flag Country Flag
+windows.loadout.stat Statos do Cartão de Abate
+windows.loadout.flag Bandeira do Pais
 windows.mods.drop solte arquivo de mod aqui ou clique
-windows.mods.paste Colar Url do Mod
-windows.mods.load Carregar Mod
-windows.mods.none No Mods found
-windows.mods.header Gerente do Mod
-windows.mods.guide Guia do Mod
-windows.mods.list Lista de Mods
-windows.mods.load.header Load Mods
-windows.mods.publish Publicar Mod
+windows.mods.paste Colar Url da Modificação
+windows.mods.load Carregar Modificação
+windows.mods.none Nenhuma Modoficação achada
+windows.mods.header Gerente da Modificação
+windows.mods.guide Guia das Modificações
+windows.mods.list Lista das Modificações
+windows.mods.load.header Carregar Modificação
+windows.mods.publish Publicar Modificação
 windows.mods.viewer Visualizador
 windows.account.header Conta
 windows.account.recover Para recuperar uma conta entre em contato com <a>krunker@yendis.ch</a>
-windows.class.header Selecionar Classe
+windows.class.header Selecionar Classes
 windows.controls.header Mudar Controles
 windows.controls.forward Avante
 windows.controls.backward Para Trás
@@ -431,35 +431,35 @@ windows.controls.left Esquerda
 windows.controls.right Direita
 windows.controls.reload Recarregar
 windows.controls.aim Mirar
-windows.controls.shoot Shoot
+windows.controls.shoot Atirar
 windows.controls.inspect Inspecionar
-windows.controls.spray Borrifar
+windows.controls.spray Pixar
 windows.controls.jump Pular
 windows.controls.crouch Agachar
-windows.controls.prim Primary Weapon
-windows.controls.swap Secondary Weapon
-windows.controls.melee Melee Weapon
-windows.controls.equip Equipment
+windows.controls.prim Arma Primaria
+windows.controls.swap Arma Secundária
+windows.controls.melee Faca
+windows.controls.equip Equipmento
 windows.controls.chat Chat
 windows.controls.voice Voz
 windows.controls.list Lista de Jogadores
-windows.controls.board Leaderboard
+windows.controls.board Placar dE lÍDER
 windows.controls.interact Interagir
-windows.controls.interactSec Secondary Interact
-windows.controls.confirm Confirm Interact
+windows.controls.interactSec Interação Secundária
+windows.controls.confirm Confirmar Interação
 windows.controls.drop Soltar
-windows.controls.wepVis Toggle Weapon Visibility
-windows.controls.streak0 Streak 1
-windows.controls.streak1 Streak 2
-windows.controls.streak2 Streak 3
-windows.controls.streak3 Streak 4
-windows.controls.streak4 Streak 5
+windows.controls.wepVis Ativar Visibilidade Da Arma
+windows.controls.streak0 Sequência 1
+windows.controls.streak1 Sequência 2
+windows.controls.streak2 Sequência 3
+windows.controls.streak3 Sequência 4
+windows.controls.streak4 Sequência 5
 windows.controls.premium0 Noclip
-windows.controls.premium1 Godmode
-windows.controls.premium2 Kill
-windows.controls.premium3 Smite
-windows.controls.reset Reset Position (Race & Parkour)
-windows.controls.pretend Hide Game
+windows.controls.premium1 Modo Deus
+windows.controls.premium2 Abate
+windows.controls.premium3 Ferir
+windows.controls.reset Resetar Posição (corrida & Parkur
+windows.controls.pretend Esconder Jogo
 windows.host.header Hospedar Jogo Personalizado
 windows.host.maps Selecionar Mapas
 windows.host.cmaps Mapa da Comunidade
@@ -471,10 +471,10 @@ windows.host.preset Predefinições de Hospedagem
 windows.host.preset.load Carregando Predefinição...
 windows.host.preset.name Nome Predefinido
 windows.host.start Iniciar Jogo
-windows.host.rehost Start Game (Bring Players)
-windows.spray.header Selecionar Spray
-windows.spray.default Spray Padrão
-windows.spray.spin Spray
+windows.host.rehost Começar o Jogo (Traga Jogadores)
+windows.spray.header Selecionar Pixação
+windows.spray.default Pixação
+windows.spray.spin Pixação
 windows.maps.header Mapas Personalizados
 windows.maps.none Nenhum mapa encontrado!
 windows.maps.name Nome do Mapa
@@ -507,50 +507,50 @@ windows.store.voucher Redeem Voucher
 windows.store.voucherinfo Get Vouchers from certain Streamers & Events
 windows.store.market Mercado
 windows.store.market2 Mercado Krunker
-windows.store.premium Purchase Premium
+windows.store.premium Comprar Premium
 windows.store.premium2 Krunker Premium
-windows.store.buyP Choose a Display name & more with
+windows.store.buyP Escolha uma exibição com Nome & mais
 windows.store.buy Compre e Venda Itens no
-windows.store.wheels Rodas de Prêmio
+windows.store.wheels Roletas de Prêmio
 windows.store.unlock Desbloqueie novas skins de armas e itens
 windows.store.amount {0} KR na conta
 windows.store.login Faça login</a> para comprar e desbloquear itens da loja!
 windows.store.purchasing Comprando...
 windows.store.unboxed {0}{1} desembalados
-windows.trade.header Trading
-windows.scope.header Select Scope
+windows.trade.header Trocando...
+windows.scope.header Selecione Mira do Rifle
 windows.premium.header Premium
-windows.skin.header Selecione Skin
-windows.hat.header Selecione Chapéu
+windows.skin.header Selecione uma Skin
+windows.hat.header Selecione um chapéu
 windows.back.header Selecione Novamente
-windows.waist.header Select Waist
-windows.face.header Select Face
-windows.melee.header Select Melee
-windows.attach.header Select Attachment
-windows.reticle.header Select Reticle
-windows.reticle.unlocked Unlocked at lvl {0}
+windows.waist.header Selecione uam Cintura
+windows.face.header Selecione um Rosto
+windows.melee.header Selecione uma Faca
+windows.attach.header Selecione Attitchman
+windows.reticle.header Selecione Reticle
+windows.reticle.unlocked Travado em 1v1 {0}
 windows.reticle.req Req lvl {0}
-windows.dye.header Select Dye
-windows.dye.default Default Dye
-windows.dye.spin Dye
-windows.changelog.header Changelog
-windows.mods.community.header Mods da Comunidade
+windows.dye.header Selecione um Corpo
+windows.dye.default Corpo Default
+windows.dye.spin Corpo
+windows.changelog.header Atualizações
+windows.mods.community.header Modificações da Comunidade
 windows.mods.community.fav Seus Favoritos
 windows.mods.community.new Novos Mods
 windows.mods.community.hot Popular
-windows.mods.community.name Nome do Mod
-windows.mods.community.none Nenhum Mod encontrado!
-windows.publish.mod.header Publicar Mod
+windows.mods.community.name Nome da Modificação
+windows.mods.community.none Nenhuma Modificação Encontrada
+windows.publish.mod.header Publicar Modificação
 windows.publish.mod.thumbnail Nenhuma Miniatura
-windows.publish.mod.name Nome do Mod
-windows.publish.mod.paste Url do Mod
+windows.publish.mod.name Nome da Modificação
+windows.publish.mod.paste Url da Modificação
 windows.publish.mod.update Publicar/Atualizar
 windows.publish.mod.login Faça login</a> para criar e upar mods!
 windows.secondary.header Selecionar Secundário
 windows.secondary.unlocked Desbloqueado no nível {0}
 windows.secondary.req Nível Requerido {0}
 windows.advertise.header Anunciar
-windows.support.header Support
+windows.support.header Suporte
 windows.players.header Lista de Jogadores
 windows.players.none Nenhum jogador no momento...
 windows.join.header Ingressar
@@ -559,16 +559,16 @@ windows.client.header Cliente
 windows.client.windows Instalador do Windows
 windows.client.mac Instalador do macOS
 windows.client.linux Instalador do Linux
-windows.ranked.header Ranked
-windows.ranked.login to play in ranked games!
-windows.ranked.level You must be at least <span color="black">level {0}</span> to play in ranked games! Right now you are at <span color="black">level {1}</span>.
+windows.ranked.header Rankeada
+windows.ranked.login Para jogar jogos Rankeados!
+windows.ranked.level Você precisa ser ao menos <span color="black">level {0}</span> para jogar jogos Rankeados! Agora você esta no <span color="black">level {1}</span>.
 windows.ranked.mode.r1v1 Solo
-windows.ranked.mode.r2v2 Duo
-windows.ranked.mode.r4v4 Quad
-windows.chall.header Challenges
-windows.chall.login to complete challenges!
+windows.ranked.mode.r2v2 Dupla
+windows.ranked.mode.r4v4 Quarteto
+windows.chall.header Desafios
+windows.chall.login Para Completar esse desafio
 thumbnail.upload.limit Falha. Limite de Miniaturas de 40kb
-image.upload.limit Failed. {0}kb Image Limit
+image.upload.limit Failed. {0}kb Limite de imagem
 thumbnail.upload.error Erro de Miniatura
 mod.extracting extraindo {0}/{1}
 mod.disabled mods desativados
@@ -577,11 +577,11 @@ mod.loading carregando mod...
 mod.invalid arquivo mod inválido!
 matchmaker.full CHEIO
 matchmaker.full2 O jogo está cheio.
-matchmaker.updating GAME UPDATING
-matchmaker.invalid Game not found.
+matchmaker.updating JOGO ATUALIZANDO
+matchmaker.invalid Jogo não Encontrado
 matchmaker.none Jogo não encontrado.
 adblocker Desative seu ad blocker para receber Krunkies gratuitos.
-ad-failed Ad Failed to Load. Try again.
+ad-failed Falha ao carregar propaganda! Tente novamente
 streamers.views {0} espectadores
 streamers.none Nenhum stream ativo!
 error.extentions Se você tem alguma extensão. Desative-as
@@ -591,75 +591,75 @@ custom.map.missing Selecione pelo menos um Mapa
 custom.mode.missing Selecione pelo menos um Modo
 custom.class.missing Selecione pelo menos uma Classe
 server.config.maxPlayers Jogadores
-server.config.minPlayers Jogadores Mín
+server.config.minPlayers Jogadores Mínimos
 server.config.lives Vidas
 server.config.gameTime Minutos
 server.config.gravMlt Gravidade
-server.config.tickRI High Tickrate
-server.config.maxPS 40 Player Server
-server.config.promServ Promote Server
+server.config.tickRI Alta taxa de tick
+server.config.maxPS Server De 40 Players
+server.config.promServ Promover um Server
 server.config.jumpMlt Força de Salto
-server.config.airStrf Air Strafing
+server.config.airStrf Strayfing no ar
 server.config.deltaMlt Escala de Tempo
 server.config.strafeSpd Velocidade de Strafe
-server.config.fiRat Fire Rate
-server.config.reSpd Reload Speed
-server.config.slidTime Slide Time
-server.config.fixMov Fixed Movement
-server.config.slidSpd Slide Speed
+server.config.fiRat Velocidade de Disparo
+server.config.reSpd Velocidade de Recarregamento
+server.config.slidTime Tempo de Dislizamento
+server.config.fixMov Movimento Fixiçado 
+server.config.slidSpd Velocidade de Moviemnto
 server.config.healthMlt Multiplicador de Vida
 server.config.impulseMlt Impulso de Arma
 server.config.nameTeam1 Nome do Time 1
 server.config.nameTeam2 Nome do Time 2
-server.config.nameTeam3 Team 3 Name
-server.config.nameTeam4 Team 4 Name
-server.config.nameTeam5 Team 5 Name
-server.config.t1Dmg Team 1 Damage
-server.config.t2Dmg Team 2 Damage
-server.config.t3Dmg Team 3 Damage
-server.config.t4Dmg Team 4 Damage
-server.config.t5Dmg Team 5 Damage
+server.config.nameTeam3 Nome do Time 3
+server.config.nameTeam4 Nome do Time 4
+server.config.nameTeam5 Nome do Time 5
+server.config.t1Dmg Dano do time 1
+server.config.t2Dmg Dano do time 2
+server.config.t3Dmg Dano do time 3
+server.config.t4Dmg Dano do time 4
+server.config.t5Dmg Dano do time5 
 server.config.selTeam Selecionar o Time
 server.config.allowSpect Assistindo
 server.config.killRewards Recompensas por Morte
-server.config.headshotOnly Headshots Only
-server.config.noSecondary Disable Secondaries
-server.config.noStreaks Disable Streaks
+server.config.headshotOnly Apenas Tiros na Cabeça
+server.config.noSecondary Desativar secundárias
+server.config.noStreaks Disativar Sequências de Abates
 server.config.canSlide Deslizando
-server.config.wallJP Wall Jumping Power
+server.config.wallJP Poder de pulo na parede
 server.config.autoJump Salto Automático
-server.config.bDrop Bullet Drop
+server.config.bDrop Cair Balas
 server.config.thirdPerson 3a Pessoa
-server.config.requireCaptcha Require Captcha
+server.config.requireCaptcha Requer Captcha
 server.config.nameTags Ocultar Nomes
-server.config.kCams Kill Cams
-server.config.noReload No Reload
+server.config.kCams Visão de Morte
+server.config.noReload Sem Rcarregar
 server.config.private Privado
-server.config.krRewards KR Rewards
-server.config.forceDefault Force Default Settings
-server.config.warmupTime Warmup Time
-server.config.objtvTime Objective Time
-server.config.forceSpawn Auto Respawn Time
-server.config.scoreLimit Score Limit
-server.config.keepTScore Keep Team Score
-server.config.forceC Force Mode Classes
-server.config.logTim Log Time (Race, Parkour)
-server.config.hitBoxPad Hitbox Padding
-server.config.hpRegen Health Regen
-server.config.disableB Disable Borders
-server.config.throwMel Throwable Melees
-server.config.noCosm Disable Cosmetics
+server.config.krRewards Recompensas de KR
+server.config.forceDefault Foçar configurações Default
+server.config.warmupTime Tempo de Aquecimento
+server.config.objtvTime Tempo do Objetivo
+server.config.forceSpawn Tempo de Auto Renascimento
+server.config.scoreLimit Limite de pontos
+server.config.keepTScore Manter a pontução do Time
+server.config.forceC Forçar Modo de Classe
+server.config.logTim Tempo de login (Coriidas & Parkur)
+server.config.hitBoxPad Preenchiemnto de HitBox
+server.config.hpRegen Regeneração de Vida
+server.config.disableB Desativar Bordas
+server.config.throwMel Jogamento de Facas
+server.config.noCosm Desativar Cosméticos
 social.login Login/Registro
 social.login.failed Falha na Autenticação
 social.login.buy Faça login para Comprar
 social.login.sell Faça login para Vender
-social.login.gift Login to Gift
+social.login.gift Login para Presente 
 social.login.proccessing Fazendo login em...
 social.since Desde
 social.user.maps Mapas do Usuário
 social.user.mods Mods do Usuário
 social.maps.none Nenhum mapa encontrado...
-social.mods.none No Mods found...
+social.mods.none Nenhum Mapa Encontrado...
 social.market.price.low Preço Mais Baixo
 social.market.price.list Listar Preço em
 social.market.searching Buscando
@@ -675,73 +675,73 @@ social.market.fee Sem Taxa de Listagem
 social.market.failed Falha. Tente novamente
 social.market.head Item Principal
 social.market.back Item de Apoio
-social.market.waist Waist Item
-social.market.face Face Item
-social.market.shoe Shoe Item
-social.market.pet Pet Item
-social.market.melee Melee Item
-social.market.spray Spray Item
-social.market.dye Dye Item
+social.market.waist Item de Cintura
+social.market.face Item de Rosto
+social.market.shoe Item de Sapato
+social.market.pet Item de Pet
+social.market.melee Item de Faca
+social.market.spray Item de pixação
+social.market.dye Item de Corpo
 social.market.none Nenhum Item Encontrado
-social.market.login You must be logged in.
+social.market.login Você deve logar em.
 social.market.grace pronto em {0}
 social.market.sort Filtrar/Ordenar
 social.market.filter Buscar
-social.market.sort2 Sort
+social.market.sort2 Busca Pequena
 social.market.price.high Preço Mais Alto
-social.trading.submitting Submitting Offer...
-social.market.gift.amount Gift Amount in
-social.market.fee.gift No Fee
+social.trading.submitting Enviando Oferta...
+social.market.gift.amount Dando valor do presente em
+social.market.fee.gift Não de Graça
 social.market.gift Gift KR
-social.market.gift.msg Leave a message
-respawn.auto Auto Respawning in {0}
-custom.host.ranked Can't host match while in ranked.
-funds.insufficient Insufficient Funds
-funds.out It appears you have run out of Krunkies.
-custom.passcode.long Password too long
-custom.passcode.input Enter Server Password to join
-custom.tryagain Please try again.
-purchase.kr.success Added {0} KR to your account
-limited.purchase.ask Are you sure you want to purchase [{0}] for {1} KR?
-limited.purchase.success Added {0} to your inventory
-pretend.exit press [{0}] again to exit
-settings.loaded Settings Loaded
-settings.loaded.none No settings found
-account.login.required Must be logged in
-account.banned.hack This account has been banned for Hacking.
-account.banned.appeal If you want to appeal your ban, contact:
-account.delete You may request to delete your account, if the request is not cancelled within 14 days the account and all associated data will be permanently removed.
-account.delete.request Are you sure you want to request an account deletion?
-account.delete.cancel Are you sure you want to cancel account deletion?
-spin.free.available FREE KR AVAILABLE!
-spin.free.claim This spin is available to claim once per Hour after completing a match.
-spin.free.disable These Popups can be disabled in General Settings
-mod.reset.0 Will take effect after respawning.
-mod.reset.1 Map Objects dont get reset
-windows.profile.picture Change Picture
-stats.assists Assists
+social.market.gift.msg Deixe uma Recado
+respawn.auto Auto Renascimento em {0}
+custom.host.ranked Não Pode Hostar Partidas Enquando Estiver em Uma Ranked
+funds.insufficient Fundos Insuficientes
+funds.out Parece que você está sem KR
+custom.passcode.long Senha muito Longa
+custom.passcode.input Entre com a senha Para Entrar
+custom.tryagain Por Favor tente Novamente
+purchase.kr.success Adicionado {0} KR a sua conta
+limited.purchase.ask Você ten certeza que desaja comprar [{0}] por {1} KR?
+limited.purchase.success Adicionado {0} para seu Inventário
+pretend.exit press [{0}] Novamente para Existir
+settings.loaded Configuração Carregada
+settings.loaded.none Nenhuma Configuração Encontrada
+account.login.required Deve estar logado em.
+account.banned.hack Essa conta Foi banida Por uso De Hacks
+account.banned.appeal Se você quer rever seu banimento, contate:
+account.delete Você pode solicitar a exclusão de sua conta,se a solicitação não for cancelada em 14 dias, a conta e todos os dados associados serão removidos permanentemente.
+account.delete.request Você tem certeza que quer pedir uma requisição de banimento de conta?
+account.delete.cancel Você tem certeza que desaja cancelar a deletação de sua conta?
+spin.free.available KR GRÁTIS DISPONÍVEL!
+spin.free.claim Este roleta está disponível para ser reivindicado uma vez por hora após a conclusão de uma partida.
+spin.free.disable Esse Popous pode ser Desativa nas Configurações Gerais
+mod.reset.0 Terá efeito após o renascimento.
+mod.reset.1 Objetivo do mapa não tera Reset
+windows.profile.picture Mude a Imagem
+stats.assists Assistência
 stats.nukes Nukes
-stats.melee Melee
-stats.fistkills Beatdowns
-stats.thrownkills Bullseyes
-stats.headshots Headshots
-stats.wallbangs Wallbangs
-stats.sprays Sprays Placed
-windows.host.default.settings Enabling Default Settings allows for storing Player Progress and Highscores
-windows.host.default.commands *Host Commands are Disabled in this mode: /noclip /god /smite etc
-windows.host.rewards Enabling KR Rewards forces the Server to use Default Settings & allows players to earn KR from the map funds:
-windows.store.wheels.sub Try your luck and spin for a chance to win some new skins!
-windows.store.currency * Prices in USD can be converted to your local currency at an exchange rate defined by the payment provider or bank
-windows.store.creator Consider Support your favorite Content Creator by using a Creator Code
-windows.chall.customs Challenges can't be completed in Custom Matches
-twitch.link Are you sure you want to link a twitch account?
-twitch.unlink Are you sure you want to unlink your twitch account?
-windows.clan.leave Are you sure you want to leave the clan?
-windows.clan.delete Are you sure you want to delete the clan?
-windows.clan.kick Are you sure you want kick {0} from the clan?
-windows.store.premium.purchase Are you sure you want to purchase {0} days of Premium?
-windows.playerlist.ban Are you sure you want ban {0} from this game?
-windows.playerlist.flag Are you sure you want to Flag {0}?
-windows.playerlist.unflag Are you sure you want to Unflag {0}?
-windows.playerlist.punish Are you sure you want to take action on {0}?
+stats.melee Abates na Faca
+stats.fistkills Abates no Corpo no a Corpo
+stats.thrownkills Abatas arremeçando a Faca
+stats.headshots Tiros na Cabeça
+stats.wallbangs Tiros Através da Parede
+stats.sprays Pixações Postas
+windows.host.default.settings Habilitar as configurações padrão permite armazenar o progresso e os recordes do jogador
+windows.host.default.commands *Os comandos do Dono da Sala são desabilitados neste modo: /noclip /god /smite etc
+windows.host.rewards Habilitar Abilitar Recompensas de KR força o servidor a usar as configurações padrão e permite que os jogadores ganhem KR com os fundos do mapa:
+windows.store.wheels.sub Tente a Sorte e Gire Uma Roleta Para Ter a Chance de Ganhar Alguma Nova Skin!
+windows.store.currency * Os preços em dólares americanos podem ser convertidos para sua moeda local a uma taxa de câmbio definida pelo provedor de pagamento ou banco
+windows.store.creator Considere Oferecer Suporte ao Seu Criador de Conteúdo Favorito Usando um Código de Criador
+windows.chall.customs Os Desafios não Podem Ser Concluídos em Partidas Customizadas
+twitch.link Você ten certeza que quer Linkar Sua Conta da Twitch?
+twitch.unlink Você ten certeza que quer Linkar Sua Conta da Twitch?
+windows.clan.leave Você Ten Certeza Que Quer Sair do Seu Clã?
+windows.clan.delete Você Ten Certeza Que Quer Sair do Seu Clã?
+windows.clan.kick VGocê tem certeza que quer kikar {0} do clã?
+windows.store.premium.purchase Tem certeza de que deseja comprar {0} dias Premium?
+windows.playerlist.ban Tem certeza que deseja banir {0} deste jogo?
+windows.playerlist.flag Tem certeza que deseja marcar {0}?
+windows.playerlist.unflag Tem certeza que deseja desmarcar {0}?
+windows.playerlist.punish Tem certeza de que deseja tomar medidas em relação a {0}?
 `;
