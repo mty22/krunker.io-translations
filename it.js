@@ -28,7 +28,7 @@ generic.random Randomico
 generic.failed Fallito
 generic.success Successo!
 generic.name Nome
-generic.level Levello
+generic.level Livello
 generic.score Punti
 generic.off Off
 generic.defeat SCONFITTA
