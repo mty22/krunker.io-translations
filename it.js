@@ -5,7 +5,7 @@ menu.btn.social Hub
 menu.btn.maps Mappe
 menu.btn.mods Mods
 menu.btn.settings Impostazioni
-menu.btn.customize Drip
+menu.btn.customize Customizzazione
 menu.btn.invite Invita
 menu.btn.invite.clicked Copiato
 menu.btn.join Entra
