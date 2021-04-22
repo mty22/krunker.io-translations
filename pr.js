@@ -3,7 +3,7 @@ menu.btn.ranked Rankeada
 menu.btn.shop Loja
 menu.btn.social Social
 menu.btn.maps Mapas
-menu.btn.mods Mods
+menu.btn.mods Modificações
 menu.btn.settings Configurações
 menu.btn.customize Customizar
 menu.btn.invite Convidar
@@ -108,9 +108,9 @@ settings.chat.chat.focus Sempre Focado
 settings.chat.messages Mostrar Mensagem de Players
 settings.chat.unboxings Mostrar Unoxing de Player
 settings.chat.chatOp Opacidade de Chat
-settings.chat.chatBGOp Chat BG Opacity
-settings.chat.chatHeight Chat Height
-settings.chat.chatTimer Chat Timer (s)
+settings.chat.chatBGOp Opacidade do Fundo do Chat
+settings.chat.chatHeight Altura do Chat
+settings.chat.chatTimer Tempo do Chat (s)
 settings.chat.chatTextOutline Contorno de Texto do Chat
 settings.chat.chatFilter Fitro de palavrões
 settings.quality.header Qualidade
@@ -536,7 +536,7 @@ windows.dye.spin Corpo
 windows.changelog.header Atualizações
 windows.mods.community.header Modificações da Comunidade
 windows.mods.community.fav Seus Favoritos
-windows.mods.community.new Novos Mods
+windows.mods.community.new Novas Modificações
 windows.mods.community.hot Popular
 windows.mods.community.name Nome da Modificação
 windows.mods.community.none Nenhuma Modificação Encontrada
@@ -545,7 +545,7 @@ windows.publish.mod.thumbnail Nenhuma Miniatura
 windows.publish.mod.name Nome da Modificação
 windows.publish.mod.paste Url da Modificação
 windows.publish.mod.update Publicar/Atualizar
-windows.publish.mod.login Faça login</a> para criar e upar mods!
+windows.publish.mod.login Faça login</a> para criar e upar Modificações
 windows.secondary.header Selecionar Secundário
 windows.secondary.unlocked Desbloqueado no nível {0}
 windows.secondary.req Nível Requerido {0}
@@ -571,7 +571,7 @@ thumbnail.upload.limit Falha. Limite de Miniaturas de 40kb
 image.upload.limit Failed. {0}kb Limite de imagem
 thumbnail.upload.error Erro de Miniatura
 mod.extracting extraindo {0}/{1}
-mod.disabled mods desativados
+mod.disabled Modificações Desativadas
 mod.error erro de mod!
 mod.loading carregando mod...
 mod.invalid arquivo mod inválido!
@@ -627,7 +627,7 @@ server.config.noSecondary Desativar secundárias
 server.config.noStreaks Disativar Sequências de Abates
 server.config.canSlide Deslizando
 server.config.wallJP Poder de pulo na parede
-server.config.autoJump Salto Automático
+server.config.autoJump Pulo Automático
 server.config.bDrop Cair Balas
 server.config.thirdPerson 3a Pessoa
 server.config.requireCaptcha Requer Captcha
@@ -657,7 +657,7 @@ social.login.gift Login para Presente
 social.login.proccessing Fazendo login em...
 social.since Desde
 social.user.maps Mapas do Usuário
-social.user.mods Mods do Usuário
+social.user.mods Modificações do Usuário
 social.maps.none Nenhum mapa encontrado...
 social.mods.none Nenhum Mapa Encontrado...
 social.market.price.low Preço Mais Baixo
@@ -691,8 +691,8 @@ social.market.sort2 Busca Pequena
 social.market.price.high Preço Mais Alto
 social.trading.submitting Enviando Oferta...
 social.market.gift.amount Dando valor do presente em
-social.market.fee.gift Não de Graça
-social.market.gift Gift KR
+social.market.fee.gift Não é Gratuito
+social.market.gift Dar KR
 social.market.gift.msg Deixe uma Recado
 respawn.auto Auto Renascimento em {0}
 custom.host.ranked Não Pode Hostar Partidas Enquando Estiver em Uma Ranked
