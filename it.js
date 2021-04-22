@@ -74,8 +74,8 @@ app.spectate.mobile TAP PER SPECTARE
 app.play.controller PREMI START
 app.spectate.controller START per SPECTARE
 purchase.error Errore 
-purchase.error.click click here</a> and try again!
-purchase.error.limit You may have exceeded your daily transaction limit
+purchase.error.click fai clic qui </a> e riprova!
+purchase.error.limit Potresti aver superato il limite di transazioni giornaliere
 settings.reset Resetta
 settings.reset.confirm Sei sicuro di voler resettare i settaggi?
 settings.import Importa
@@ -84,7 +84,7 @@ settings.none Settings non funzionante
 settings.backup Backup Settings
 settings.controls.change Tasti sulla Tastiera
 settings.controls.press Premi un tasto
-settings.local.header Localization <span id="requiresRestart"><span style="color: #eb5656">*</span> requires restart</span>
+settings.local.header La localizzazione <span id = "requireRestart"> <span style = "color: # eb5656"> * </span> richiede il riavvio </span>
 settings.local.region Regione Predefinita
 settings.local.lang Lingue
 settings.network.header Network
@@ -236,79 +236,79 @@ settings.hitmarker.hitm Mostra
 settings.hitmarker.hitmFad Velocità di dissolvenza
 settings.hitmarker.custom immagine Hitmarker
 settings.hitmarker.custom.paste URL immagine Hitmarker 
-settings.onKillS.style.0 Default
-settings.onKillS.style.1 Reduce Resolution
-settings.onKillS.style.2 Reduce FOV
-settings.onKillS.style.3 Increase FOV
-settings.serverb.header Server Browser
+settings.onKillS.style.0 Predefinito
+settings.onKillS.style.1 Riduci la risoluzione
+settings.onKillS.style.2 Riduci FOV
+settings.onKillS.style.3 Aumenta il FOV
+settings.serverb.header Browser del server
 settings.serverb.oldBrowser Legacy Browser
-settings.serverb.defaultRegionOnly Default Region Only
+settings.serverb.defaultRegionOnly Solo regione predefinita
 settings.gameprivacy.header Gameplay Privacy
-settings.gameprivacy.streamer Streamer Mode
-settings.gameprivacy.anon Anonymous Mode
-settings.gameprivacy.hideGameTitle Hide Game Title
+settings.gameprivacy.streamer Modalità Streamer
+settings.gameprivacy.anon Modalità anonima
+settings.gameprivacy.hideGameTitle Nascondi titolo del gioco
 settings.gameplay.header Gameplay
-settings.gameplay.sensitivityX X Sensitivity
-settings.gameplay.sensitivityY Y Sensitivity
-settings.gameplay.aimsensX Aim X Sensitivity
-settings.gameplay.aimsensY Aim Y Sensitivity
-settings.gameplay.challenge Challenge Mode
-settings.gameplay.invert Invert Y-Axis
-settings.gameplay.onkillS On Kill
-settings.gameplay.scrollDir Scroll Direction
+settings.gameplay.sensitivityX Sensibilità X
+settings.gameplay.sensitivityY Sensibilità Y
+settings.gameplay.aimsensX Obiettivo X Sensibilità
+settings.gameplay.aimsensY Obiettivo Y Sensibilità
+settings.gameplay.challenge Modalità sfida
+settings.gameplay.invert Inverti asse y
+settings.gameplay.onkillS Su Kill
+settings.gameplay.scrollDir Direzione di scorrimento
 settings.controller.header Controller
-settings.controller.sensitivityX X Sensitivity
-settings.controller.disableCons Disable Controllers
-settings.controller.sensitivityY Y Sensitivity
-settings.controller.aimsensX Aim X Sensitivity
-settings.controller.aimsensY Aim Y Sensitivity
-settings.controller.deadZoneL Dead Zone (Left)
-settings.controller.deadZoneR Dead Zone (Right)
-settings.controller.triggerThres Trigger Threshold
-settings.controller.vibration Vibration
-settings.controller.gradSpeed Gradual Speed
-settings.controller.invert Invert Y-Axis
+settings.controller.sensitivityX Sensibilità X
+settings.controller.disableCons Disabilita controller
+settings.controller.sensitivityY Sensibilità Y
+settings.controller.aimsensX Obiettivo X Sensibilità
+settings.controller.aimsensY Obiettivo Y Sensibilità
+settings.controller.deadZoneL Zona morta (sinistra)
+settings.controller.deadZoneR Zona morta (a destra)
+settings.controller.triggerThres Soglia di trigger
+settings.controller.vibration Vibrazione
+settings.controller.gradSpeed Velocità graduale
+settings.controller.invert Inverti asse y
 settings.mobile.header Mobile
-settings.mobile.sensitivityX X Sensitivity
-settings.mobile.sensitivityY Y Sensitivity
-settings.mobile.aimsensX Aim X Sensitivity
-settings.mobile.aimsensY Aim Y Sensitivity
-settings.mobile.vibration Vibration
-settings.mobile.gradSpeed Gradual Speed
-settings.mobile.invert Invert Y-Axis
+settings.mobile.sensitivityX Sensibilità X
+settings.mobile.sensitivityY Sensibilità Y
+settings.mobile.aimsensX Obiettivo X Sensibilità
+settings.mobile.aimsensY Obiettivo Y Sensibilità
+settings.mobile.vibration Vibrazione
+settings.mobile.gradSpeed Velocità graduale
+settings.mobile.invert Inverti asse y
 settings.audio.header Audio
 settings.audio.sound Master Volume
-settings.audio.ambient Ambient Volume
-settings.audio.voice Voice Volume
-settings.audio.weps Weapon Volume
-settings.audio.player Player Volume
-settings.audio.skin Cosmetics Volume
-settings.audio.ui UI Volume
-settings.audio.asset Asset Volume
-settings.audio.dialogue Action Volume
-settings.viewmodel.header View Model
-settings.viewmodel.fov Field of View
-settings.viewmodel.fps Weapon FOV
-settings.viewmodel.bobbing Weapon Bobbing
-settings.viewmodel.leaning Weapon Leaning
-settings.viewmodel.show.primary Show Primary
-settings.viewmodel.show.secondary Show Secondary
-settings.viewmodel.roundArms Rounded Arms
-settings.viewmodel.show.melee Show Melee
-settings.viewmodel.show.ads Hide Weapon on ADS
-settings.viewmodel.toggleAim Toggle Aim
-settings.viewmodel.show.hands Show Hands
-settings.viewmodel.leftHand Left Handed
-settings.viewmodel.aimAnim Weapon Aim Animation
-settings.viewmodel.rot Weapon Rotation
-settings.viewmodel.xOff Weapon X Offset
-settings.viewmodel.yOff Weapon Y Offset
-settings.viewmodel.zOff Weapon Z Offset
-settings.viewmodel.weapSwapY Weapon Swap Y
-settings.viewmodel.weapReloadY Weapon Reload Y
-settings.viewmodel.yOffADS Weapon ADS Y Offset
-settings.viewmodel.adsFovMlt ADS FOV Power
-settings.editing.header Editing
+settings.audio.ambient Volume Ambiente
+settings.audio.voice Volume Vcoe
+settings.audio.weps Volume Armi
+settings.audio.player Volume Giocatore
+settings.audio.skin Volume Mimetiche
+settings.audio.ui Volume UI
+settings.audio.asset Volume Asset
+settings.audio.dialogue Volume azione
+settings.viewmodel.header Visualizza modello
+settings.viewmodel.fov Campo visivo
+settings.viewmodel.fps FOV delle armi
+settings.viewmodel.bobbing Bobbing Arma
+settings.viewmodel.leaning Pendenza Arma
+settings.viewmodel.show.primary Mostra primaria
+settings.viewmodel.show.secondary Mostra secondario
+settings.viewmodel.roundArms Braccia arrotondate
+settings.viewmodel.show.melee Mostra Melee
+settings.viewmodel.show.ads Nascondi arma su ADS
+settings.viewmodel.toggleAim Attiva / disattiva mira
+settings.viewmodel.show.hands Mostra le mani
+settings.viewmodel.leftHand Mancino
+settings.viewmodel.aimAnim Animazione della mira dell'arma
+settings.viewmodel.rot Rotazione delle armi
+settings.viewmodel.xOff Offset X arma
+settings.viewmodel.yOff Offset Y arma
+settings.viewmodel.zOff Offset Z arma
+settings.viewmodel.weapSwapY Scambio di armi Y
+settings.viewmodel.weapReloadY Ricarica armi Y
+settings.viewmodel.yOffADS Offset Y ADS arma
+settings.viewmodel.adsFovMlt Potenza FOV ADS
+settings.editing.header La modifica
 settings.editing.health.high HUD Health High
 settings.editing.health.low HUD Health Low
 settings.editing.speedLines Speed Lines
