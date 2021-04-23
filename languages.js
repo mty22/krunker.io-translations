@@ -10,4 +10,5 @@ module.exports.langNames = {
     "fr": "French",
     "fi": "Finnish",
     "zh": "Chinese",
+    "pl": "Polish",
 }
