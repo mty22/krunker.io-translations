@@ -379,7 +379,7 @@ settings.mods.damage 피해량 오버레이 이미지
 settings.mods.damage.paste 피해량 오버레이 이미지 URL
 settings.mods.overlay 게임 오버레이 이미지
 settings.mods.overlay.paste 게임 오버레이 이미지 URL
-settings.social.region 지역 스텟
+settings.social.region 지역 스탯
 windows.settings.header 게임 설정
 windows.mail.header Krunker 메일
 windows.servers.header 서버
@@ -636,7 +636,7 @@ server.config.kCams Kill Cams
 server.config.noReload 재장전 없음
 server.config.private 비공개
 server.config.krRewards KR 보상
-server.config.forceDefault 강제 기본 설정
+server.config.forceDefault 기본 설정 강제
 server.config.warmupTime 준비 시간
 server.config.objtvTime 거점 변경 시간
 server.config.forceSpawn 강제 리스폰 시간
@@ -748,30 +748,30 @@ item.view.open 모델 뷰어 열기
 item.view.more 더 많은 정보
 item.sell.cant 이 아이템은 판매될 수 없습니다.
 item.sell.quick {0}을(를) 빠른 판매할까요?
-social.profile.stats 전반적인 스텟
-social.profile.class 클래스 스텟
+social.profile.stats 전반적 스탯
+social.profile.class 클래스 스탯
 social.profile.sales 판매
 social.profile.sales.market 마켓 판매
 social.profile.skins 스킨 [{0}]
-social.profile.skins.none 이 유저가 공개한 스킨이 없습니다.
+social.profile.skins.none 이 유저가 발행한 스킨이 없습니다.
 social.profile.games 게임 [{0}]
-social.profile.games.none 이 유저가 공개한 게임이 없습니다.
+social.profile.games.none 이 유저가 발행한 게임이 없습니다.
 social.profile.assets 에셋 [{0}]
-social.profile.assets.none 이 유저가 공개한 에셋이 없습니다.
+social.profile.assets.none 이 유저가 발행한 에셋이 없습니다.
 social.profile.mods 모드 [{0}]
-social.profile.mods.none 이 유저가 공개한 모드가 없습니다.
+social.profile.mods.none 이 유저가 발행한 모드가 없습니다.
 social.search 검색 결과
 social.market.stats.rare 희귀 아이템
 social.market.stats.circulation 유통 개수
-social.market.stats.units 개가 전세계에 있음
+social.market.stats.units 개가 전 세계에 있음
 social.trades.in 수신됨
-social.trades.in.head 수신된 제안 ({0})
+social.trades.in.head 수신된 거래 요청 ({0})
 social.trades.out 발송됨
-social.trades.out.head 발송된 제안 ({0})
+social.trades.out.head 발송된 거래 요청 ({0})
 social.trades.history 기록
 social.trades.history.head 거래 기록 ({0})
 social.trades.decline 모두 거절
-social.trades.message 설정에서 거래 메시지를 활성화하세요!
-social.trades.warning 이 거래에서 나는 아무런 아이템도 얻을 수 없습니다!
+social.trades.message 설정에서 거래 메시지를 활성화하세요
+social.trades.warning 이 거래에서 아무런 아이템도 얻을 수 없습니다!
 social.trades.accept 정말 이 거래를 수락할까요?
 `;
