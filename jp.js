@@ -702,7 +702,7 @@ custom.passcode.long パスワードが長すぎます
 custom.passcode.input 参加するにはパスワードを入力してください
 custom.tryagain もう一度やり直してください
 purchase.kr.success {0}KRをあなたのアカウントに追加しました
-limited.purchase.ask [{0}]を{1}KRで購入しますか？
+limited.purchase.ask [{0}]を{1}KRで購入しますか?
 limited.purchase.success {0}をインベントリに追加しました
 pretend.exit もう一度[{0}]を押してゲームから離れる
 settings.loaded 設定を読み込みました
@@ -711,8 +711,8 @@ account.login.required ログインが必要です
 account.banned.hack このアカウントはチート行為によってBANされました
 account.banned.appeal もしアカウントのBANについて異議申し立てがある場合はこちらへ:
 account.delete アカウント削除のリクエストがされた場合、14日以内にキャンセルされなければアカウントと関連するすべてのデータは永久に削除されます
-account.delete.request 本当にアカウント削除をリクエストしますか？
-account.delete.cancel 本当にアカウント削除のリクエストを取り消しますか？
+account.delete.request 本当にアカウント削除をリクエストしますか?
+account.delete.cancel 本当にアカウント削除のリクエストを取り消しますか?
 spin.free.available フリーKRが利用可能です!
 spin.free.claim このスピンは試合終了後、一時間に一回回すことが出来ます
 spin.free.disable このポップアップは設定から非表示にすることが出来ます
@@ -734,20 +734,20 @@ windows.store.wheels.sub 新しいスキンを手に入れるためにスピン�
 windows.store.currency * 米ドルでの金額表記はあなたの国の通貨に変換され、その際の両替レートは支払いサービスや銀行が定めたものによります
 windows.store.creator クリエイターコードを使ってあなたのお気に入りのクリエイターを支援しましょう
 windows.chall.customs カスタムマッチ内でチャレンジをクリアすることは出来ません
-twitch.link 本当にtwitchアカウントとリンクしますか？
-twitch.unlink 本当にtwitchアカウントとのリンクを解除しますか？
-windows.clan.leave 本当にこのクランを離れますか？
-windows.clan.delete 本当にこのクランを削除しますか？
-windows.clan.kick 本当に{0}をこのクランからキックしますか？
-windows.store.premium.purchase 本当に{0}日分のプレミアムを購入しますか？
-windows.playerlist.ban 本当に{0}をこのゲームからBANしますか？
-windows.playerlist.flag 本当に{0}にハッカータグを付けますか？
-windows.playerlist.unflag 本当に{0}のハッカータグを解除しますか？
-windows.playerlist.punish 本当に{0}にアクションを起こしますか？
+twitch.link 本当にtwitchアカウントとリンクしますか?
+twitch.unlink 本当にtwitchアカウントとのリンクを解除しますか?
+windows.clan.leave 本当にこのクランを離れますか?
+windows.clan.delete 本当にこのクランを削除しますか?
+windows.clan.kick 本当に{0}をこのクランからキックしますか?
+windows.store.premium.purchase 本当に{0}日分のプレミアムを購入しますか?
+windows.playerlist.ban 本当に{0}をこのゲームからBANしますか?
+windows.playerlist.flag 本当に{0}にハッカータグを付けますか?
+windows.playerlist.unflag 本当に{0}のハッカータグを解除しますか?
+windows.playerlist.punish 本当に{0}にアクションを起こしますか?
 item.view.open モデルビューワーを開く
 item.view.more 詳細
 item.sell.cant このアイテムは販売できません。
-item.sell.quick 本当に{0}をクイックセルしますか？
+item.sell.quick 本当に{0}をクイックセルしますか?
 social.profile.stats 全体の統計
 social.profile.class クラスごとの統計
 social.profile.sales 販売
@@ -773,5 +773,5 @@ social.trades.history.head トレード履歴 ({0})
 social.trades.decline すべて拒否
 social.trades.message トレードメッセージを設定から有効にしてください
 social.trades.warning このトレードではあなたは何も手に入れません!
-social.trades.accept 本当にこの申請を許可しますか？
+social.trades.accept 本当にこの申請を許可しますか?
 `;
