@@ -635,7 +635,7 @@ server.config.nameTags Cacher les pseudos
 server.config.kCams Kill Cams
 server.config.noReload Munitions illimitées
 server.config.private Privé
-server.config.krRewards KR Rewards
+server.config.krRewards Récompence de KR
 server.config.forceDefault Forcer les paramètres par défaut
 server.config.warmupTime Temps d’échauffement
 server.config.objtvTime Temps d'objectif
@@ -749,13 +749,13 @@ item.view.more More Information
 item.sell.cant Item cant be sold.
 item.sell.quick Are you sure you want to Quick Sell {0}?
 social.profile.stats Overall Stats
-social.profile.class Class Stats
-social.profile.sales Sales
+social.profile.class Stat de class
+social.profile.sales Vendre
 social.profile.sales.market Market Sales
 social.profile.skins Skins [{0}]
-social.profile.skins.none No published Skins from this user
+social.profile.skins.none Pas de skin publier pas ce joueur
 social.profile.games Games [{0}]
-social.profile.games.none No published Games from this user
+social.profile.games.none Pas de jeux publier par ce joueur
 social.profile.assets Assets [{0}]
 social.profile.assets.none No published Assets from this user
 social.profile.mods Mods [{0}]
