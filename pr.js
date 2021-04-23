@@ -91,8 +91,8 @@ settings.network.header Network
 settings.network.sendRate Tickrate Alto
 settings.network.netRerouting Rotação Automática (Afeta A Conexão)
 settings.network.lagComp Compensação de Lag
-settings.popup.header Popups
-settings.popup.freeKRPop Mostrar Popus de KR
+settings.popup.header Pop-Up
+settings.popup.freeKRPop Mostrar Pop-Up de KR
 settings.experimental.header Configurações Experimentais
 settings.experimental.aimFreezeFix Correção De Mira Parada
 settings.experimental.mouseFlickFix Correção de Flick de Mouse
@@ -132,7 +132,7 @@ settings.quality.trails Rastro de Balas
 settings.quality.yourTrails Seus Ratros
 settings.quality.mflash Trila dos Tiros
 settings.quality.flap Flap do Rifle
-settings.quality.lowSpec Personagens Sem Pernas
+settings.quality.lowSpec Aspecto Visual Reduzido
 settings.quality.ambient Sombriamento do Ambiente
 settings.quality.ambientOld Antigo Sombriamento (Quando Possível)
 settings.quality.textureAnim Animação de Texturas
@@ -313,12 +313,12 @@ settings.editing.health.high Hud de vida Alta
 settings.editing.health.low Hud de Vida Baixa
 settings.editing.speedLines Linhas de Velocidade
 settings.editing.spdLinesCol Cor da Linha de Velocidade
-settings.editing.score.color Cor de Pontos Popus
-settings.editing.score.show Mostar Pontos Popus
-settings.editing.score.scale Escala de Pontos Popus
+settings.editing.score.color Cor do Pop-Up dos Pontos
+settings.editing.score.show Mostar Pop-Up dos Pontos
+settings.editing.score.scale Escala dos Pop-Up dos Pontos
 settings.editing.score.shadow Sombreamento de Pontos popus
-settings.editing.scoreOffX Pontos Popus X Deslocamento
-settings.editing.scoreOffY Pontos Popus Y Deslocamento
+settings.editing.scoreOffX Pontos Pop-Up X Deslocamento
+settings.editing.scoreOffY Pontos Pop-Up Y Deslocamento
 settings.editing.prog.color Cor da barra de Progresso
 settings.editing.prog.opacity Opacidade da Barra de Progresso
 settings.editing.prog.scale Escala da Barra de Progresso
@@ -599,12 +599,12 @@ server.config.tickRI Alta taxa de tick
 server.config.maxPS Server De 40 Players
 server.config.promServ Promover um Server
 server.config.jumpMlt Força de Salto
-server.config.airStrf Strayfing no ar
+server.config.airStrf Streifamento no Ar
 server.config.deltaMlt Escala de Tempo
 server.config.strafeSpd Velocidade de Strafe
 server.config.fiRat Velocidade de Disparo
 server.config.reSpd Velocidade de Recarregamento
-server.config.slidTime Tempo de Dislizamento
+server.config.slidTime Tempo de Deslizamento
 server.config.fixMov Movimento Fixiçado 
 server.config.slidSpd Velocidade de Moviemnto
 server.config.healthMlt Multiplicador de Vida
@@ -647,7 +647,7 @@ server.config.logTim Tempo de login (Coriidas & Parkur)
 server.config.hitBoxPad Preenchiemnto de HitBox
 server.config.hpRegen Regeneração de Vida
 server.config.disableB Desativar Bordas
-server.config.throwMel Jogamento de Facas
+server.config.throwMel Jogar Faca
 server.config.noCosm Desativar Cosméticos
 social.login Login/Registro
 social.login.failed Falha na Autenticação
@@ -695,27 +695,27 @@ social.market.fee.gift Não é Gratuito
 social.market.gift Dar KR
 social.market.gift.msg Deixe uma Recado
 respawn.auto Auto Renascimento em {0}
-custom.host.ranked Não Pode Hostar Partidas Enquando Estiver em Uma Ranked
+custom.host.ranked Não Pode Hostar Partidas Enquando Estiver em Uma Ranqueada
 funds.insufficient Fundos Insuficientes
 funds.out Parece que você está sem KR
 custom.passcode.long Senha muito Longa
 custom.passcode.input Entre com a senha Para Entrar
-custom.tryagain Por Favor tente Novamente
+custom.tryagain Por Favor, tente Novamente
 purchase.kr.success Adicionado {0} KR a sua conta
-limited.purchase.ask Você ten certeza que desaja comprar [{0}] por {1} KR?
+limited.purchase.ask Você tem certeza que desaja comprar [{0}] por {1} KR?
 limited.purchase.success Adicionado {0} para seu Inventário
-pretend.exit press [{0}] Novamente para Existir
+pretend.exit Aperte [{0}] Novamente para Existir
 settings.loaded Configuração Carregada
 settings.loaded.none Nenhuma Configuração Encontrada
 account.login.required Deve estar logado em.
 account.banned.hack Essa conta Foi banida Por uso De Hacks
 account.banned.appeal Se você quer rever seu banimento, contate:
-account.delete Você pode solicitar a exclusão de sua conta,se a solicitação não for cancelada em 14 dias, a conta e todos os dados associados serão removidos permanentemente.
+account.delete Você pode solicitar a exclusão de sua conta, se a solicitação não for cancelada em 14 dias, a conta e todos os dados associados serão removidos permanentemente.
 account.delete.request Você tem certeza que quer pedir uma requisição de banimento de conta?
-account.delete.cancel Você tem certeza que desaja cancelar a deletação de sua conta?
+account.delete.cancel Você tem certeza que desaja cancelar o deletamento de sua conta?
 spin.free.available KR GRÁTIS DISPONÍVEL!
 spin.free.claim Este roleta está disponível para ser reivindicado uma vez por hora após a conclusão de uma partida.
-spin.free.disable Esse Popous pode ser Desativa nas Configurações Gerais
+spin.free.disable Esse Pop-Up pode ser Desativa nas Configurações Gerais
 mod.reset.0 Terá efeito após o renascimento.
 mod.reset.1 Objetivo do mapa não tera Reset
 windows.profile.picture Mude a Imagem
@@ -736,8 +736,8 @@ windows.store.creator Considere Oferecer Suporte ao Seu Criador de Conteúdo Fav
 windows.chall.customs Os Desafios não Podem Ser Concluídos em Partidas Customizadas
 twitch.link Você ten certeza que quer Linkar Sua Conta da Twitch?
 twitch.unlink Você ten certeza que quer Linkar Sua Conta da Twitch?
-windows.clan.leave Você Ten Certeza Que Quer Sair do Seu Clã?
-windows.clan.delete Você Ten Certeza Que Quer Sair do Seu Clã?
+windows.clan.leave Você Tem Certeza Que Quer Sair do Seu Clã?
+windows.clan.delete Você Tem Certeza Que Quer Sair do Seu Clã?
 windows.clan.kick VGocê tem certeza que quer kikar {0} do clã?
 windows.store.premium.purchase Tem certeza de que deseja comprar {0} dias Premium?
 windows.playerlist.ban Tem certeza que deseja Banir {0} deste jogo?
