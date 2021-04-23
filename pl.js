@@ -750,7 +750,7 @@ item.sell.cant Przedmiot nie może zostać sprzedany.
 item.sell.quick Czy na pewno chcesz szybko sprzedać {0}?
 social.profile.stats Statystyki ogólne
 social.profile.class Statystyki klas
-social.profile.sales Sales
+social.profile.sales Sprzedaż
 social.profile.sales.market Sprzedaż rynkowa
 social.profile.skins Skiny [{0}]
 social.profile.skins.none Ten gracz nie opublikował żadnych skinów
