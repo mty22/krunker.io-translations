@@ -169,7 +169,7 @@ settings.interface.dmgScale Escala de Dano
 settings.interface.killf Mostrar mensagem de abate
 settings.interface.ping Mostrar Ping
 settings.interface.net-stats Mostar status de conexão
-settings.interface.fps Mostrar FPS
+settings.interface.fps Mostrar Frames Por Segundo
 settings.interface.deaths Mostrar Mortes
 settings.interface.kd Mostrar Icone de A/M
 settings.interface.kills Mostrar mensagem de Baixas
