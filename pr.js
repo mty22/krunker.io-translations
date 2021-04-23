@@ -744,4 +744,34 @@ windows.playerlist.ban Tem certeza que deseja Banir {0} deste jogo?
 windows.playerlist.flag Tem certeza que deseja Banir {0}?
 windows.playerlist.unflag Tem certeza que deseja Desbanir {0}?
 windows.playerlist.punish Tem certeza de que deseja tomar medidas em relação a {0}?
+item.view.open Abrir Visualizador de Modelo
+item.view.more Mais Informações
+item.sell.cant Item Impossível de ser Vendido
+item.sell.quick Você tem Certeja Qeu Deseja Fazer a Venda Rápida {0}?
+social.profile.stats Statos em Geral
+social.profile.class Statos da Classe
+social.profile.sales Vendas
+social.profile.sales.market Vendas no Mercado
+social.profile.skins Skins [{0}]
+social.profile.skins.none Nenhuma Skin Públicado Por esse Usuário
+social.profile.games Jogos [{0}]
+social.profile.games.none Nenhum Jogo Públicado Por esse Usuário
+social.profile.assets Tópico [{0}]
+social.profile.assets.none Nenhum Tópico Publicado Por esse Usuário
+social.profile.mods Modificações [{0}]
+social.profile.mods.none Nenhuma Modificação Públicada Por esse Usuário
+social.search Search Resultados
+social.market.stats.rare Item Mais Raro
+social.market.stats.circulation Em Circulação
+social.market.stats.units Unidades No Mundo Todo
+social.trades.in Recebidas
+social.trades.in.head Ofertas Recebidas ({0})
+social.trades.out Enviadas
+social.trades.out.head Ofertas Enviadas ({0})
+social.trades.history Histórico
+social.trades.history.head Histórico de Trade ({0})
+social.trades.decline Rejeitar Todas
+social.trades.message Abilitar Mensagens de Troca Nas Configurações
+social.trades.warning VocÇe não Ganhara Nenhum Item Nessa Troca
+social.trades.accept Você tem Certeza que Deseja Aceitar essa Oferta?
 `;
