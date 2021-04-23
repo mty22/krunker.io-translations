@@ -744,4 +744,37 @@ windows.playerlist.ban Êtes-vous sûr de vouloir bannir {0} de cette partie?
 windows.playerlist.flag Êtes-vous sûr de vouloir taguer {0}?
 windows.playerlist.unflag Êtes-vous sûr de vouloir détaguer {0}?
 windows.playerlist.punish Êtes-vous sûr de vouloir prendre action sur {0}?
+item.view.open Open Model Viewer
+item.view.more More Information
+item.sell.cant Item cant be sold.
+item.sell.quick Are you sure you want to Quick Sell {0}?
+social.profile.stats Overall Stats
+social.profile.class Class Stats
+social.profile.sales Sales
+social.profile.sales Sales
+social.profile.sales.market Market Sales
+social.profile.sales Sales
+social.profile.sales Sales
+social.profile.skins Skins [{0}]
+social.profile.skins.none No published Skins from this user
+social.profile.games Games [{0}]
+social.profile.games.none No published Games from this user
+social.profile.assets Assets [{0}]
+social.profile.assets.none No published Assets from this user
+social.profile.mods Mods [{0}]
+social.profile.mods.none No published Mods from this user
+social.search Search Results
+social.market.stats.rare Rarest Items
+social.market.stats.circulation In Circulation
+social.market.stats.units units Worldwide
+social.trades.in Incoming
+social.trades.in.head Incoming Offers ({0})
+social.trades.out Outgoing
+social.trades.out.head Outgoing Offers ({0})
+social.trades.history History
+social.trades.history.head Trade History ({0})
+social.trades.decline Decline All
+social.trades.message ENABLE TRADE MESSAGES IN SETTINGS
+social.trades.warning You get no items from this trade!
+social.trades.accept Are you sure you want to accept this offer?
 `;
