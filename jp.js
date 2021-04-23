@@ -744,34 +744,34 @@ windows.playerlist.ban 本当に{0}をこのゲームからBANしますか？
 windows.playerlist.flag 本当に{0}にハッカータグを付けますか？
 windows.playerlist.unflag 本当に{0}のハッカータグを解除しますか？
 windows.playerlist.punish 本当に{0}にアクションを起こしますか？
-item.view.open Open Model Viewer
-item.view.more More Information
-item.sell.cant Item cant be sold.
-item.sell.quick Are you sure you want to Quick Sell {0}?
-social.profile.stats Overall Stats
-social.profile.class Class Stats
-social.profile.sales Sales
-social.profile.sales.market Market Sales
+item.view.open モデルビューワーを開く
+item.view.more 詳細
+item.sell.cant このアイテムは販売できません。
+item.sell.quick 本当に{0}をクイックセルしますか？
+social.profile.stats 全体の統計
+social.profile.class クラスごとの統計
+social.profile.sales 販売
+social.profile.sales.market マーケットの利益
 social.profile.skins Skins [{0}]
-social.profile.skins.none No published Skins from this user
+social.profile.skins.none このユーザーによって公開されたスキンはありません
 social.profile.games Games [{0}]
-social.profile.games.none No published Games from this user
+social.profile.games.none このユーザーによって公開されたゲームはありません
 social.profile.assets Assets [{0}]
-social.profile.assets.none No published Assets from this user
+social.profile.assets.none このユーザーによって公開されたアセットはありません
 social.profile.mods Mods [{0}]
-social.profile.mods.none No published Mods from this user
-social.search Search Results
-social.market.stats.rare Rarest Items
-social.market.stats.circulation In Circulation
-social.market.stats.units units Worldwide
-social.trades.in Incoming
-social.trades.in.head Incoming Offers ({0})
-social.trades.out Outgoing
-social.trades.out.head Outgoing Offers ({0})
-social.trades.history History
-social.trades.history.head Trade History ({0})
-social.trades.decline Decline All
-social.trades.message ENABLE TRADE MESSAGES IN SETTINGS
-social.trades.warning You get no items from this trade!
-social.trades.accept Are you sure you want to accept this offer?
+social.profile.mods.none このユーザーによって公開されたMODはありません
+social.search 検索結果
+social.market.stats.rare レアなアイテム
+social.market.stats.circulation 流通量
+social.market.stats.units 個 (全地域)
+social.trades.in 受信済み
+social.trades.in.head 受信した申請 ({0})
+social.trades.out 送信済み
+social.trades.out.head 送信した申請 ({0})
+social.trades.history 履歴
+social.trades.history.head トレード履歴 ({0})
+social.trades.decline すべて拒否
+social.trades.message トレードメッセージを設定から有効にしてください
+social.trades.warning このトレードではあなたは何も手に入れません！
+social.trades.accept 本当にこの申請を許可しますか？
 `;
