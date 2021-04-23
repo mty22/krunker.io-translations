@@ -97,17 +97,6 @@ settings.experimental.header Eksperymentalne
 settings.experimental.aimFreezeFix Napraw zamrożenie przy celowaniu
 settings.experimental.mouseFlickFix Napraw mouse-flicki
 settings.experimental.shaderRendering Renderowanie przez isntancje
-settings.client.header Klient
-settings.client.unlimitedFrames Wyłącz limit FPS
-settings.client.gameCap Przechwytywanie gry
-settings.client.experimental Eksperymentalne funkcje klienta
-settings.client.discordRPC Discord RPC
-settings.client.resourceSwapper Podmieniacz zasobów
-settings.client.clearCache Wyczyść pamięć podręczną
-settings.client.resetSettings Resetuj ustawienia klienta
-settings.client.acceleratedCanvas Wspomagane sprzętowo renderowanie canvas
-settings.client.angleBackend Grafika ANGLE
-settings.client.colorProfile Profil kolorów
 settings.dev.header Programista
 settings.dev.forceUpdate Wymuś aktualizację skinów
 settings.dev.forceRegen Zawsze regeneruj graczy
@@ -410,7 +399,7 @@ windows.loadout.secondary Druga broń
 windows.loadout.secondary.skin Skin drugiej broni
 windows.loadout.melee Broń biała
 windows.loadout.hat Kapelusz
-windows.loadout.body Ciało
+windows.loadout.back Ciało
 windows.loadout.waist Talia
 windows.loadout.shoe Buty
 windows.loadout.face Twarz
@@ -761,9 +750,11 @@ item.sell.cant Przedmiot nie może zostać sprzedany.
 item.sell.quick Czy na pewno chcesz szybko sprzedać {0}?
 social.profile.stats Statystyki ogólne
 social.profile.class Statystyki klas
-social.profile.sales Sprzedaż
+social.profile.sales Sales
+social.profile.sales Sales
 social.profile.sales.market Sprzedaż rynkowa
-social.profile.sales Sprzedaż
+social.profile.sales Sales
+social.profile.sales Sales
 social.profile.skins Skiny [{0}]
 social.profile.skins.none Ten gracz nie opublikował żadnych skinów
 social.profile.games Gry [{0}]
@@ -786,6 +777,4 @@ social.trades.decline Odrzuć wszystkie
 social.trades.message WŁĄCZ WIADOMOŚĆI O HANDLU W USTAWIENIACH
 social.trades.warning Nie dostaniesz żadnych przedmiotów z tej wymiany!
 social.trades.accept Czy na pewno chcesz przyjąć tę ofertę?
-stats.airdrops Paczki KR
-settings.quality.flapAnim Animacje klapki do sniperki
 `;
