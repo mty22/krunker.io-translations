@@ -151,7 +151,7 @@ settings.post.bloomStrength Bloom Sterkte
 settings.post.bloomRadius Bloom Radius
 settings.post.ssao SSAO
 settings.post.ssaoRadius SSAO Radius
-settings.interface.hitInd Show Hit Indicators
+settings.interface.hitInd Toon Hit Indicatoren
 settings.interface.hitColor Hit Indicator Kleur
 settings.interface.dmg Toon Schade
 settings.interface.dmgCol Schade Kleur
