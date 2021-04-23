@@ -140,7 +140,7 @@ settings.quality.objectAnim 物体动画
 settings.quality.screenShake 屏幕晃动
 settings.quality.weaponShine 武器光泽
 settings.quality.rendGamma 伽玛效果
-settings.quality.lighting 光照效果
+settings.quality.lighting 光照强度
 settings.quality.showExplo 显示爆炸特效
 settings.quality.aspectRatio 屏幕高宽比
 settings.post.header 后期处理
@@ -243,7 +243,7 @@ settings.onKillS.style.3 增加FOV
 settings.serverb.header 游戏房间浏览器
 settings.serverb.oldBrowser 经典房间浏览器
 settings.serverb.defaultRegionOnly 只显示默认地区的房间
-settings.gameprivacy.header 游玩隐私
+settings.gameprivacy.header 隐私
 settings.gameprivacy.streamer 主播模式
 settings.gameprivacy.anon 匿名模式
 settings.gameprivacy.hideGameTitle 隐藏游戏标志
@@ -289,8 +289,8 @@ settings.audio.dialogue 动作音量
 settings.viewmodel.header 视角
 settings.viewmodel.fov 腰射视野
 settings.viewmodel.fps 帧数
-settings.viewmodel.bobbing 武器晃动
-settings.viewmodel.leaning 武器倾斜
+settings.viewmodel.bobbing 玩家移动时的武器晃动
+settings.viewmodel.leaning 玩家移动时的武器倾斜
 settings.viewmodel.show.primary 显示主武器
 settings.viewmodel.show.secondary 显示副武器
 settings.viewmodel.roundArms 圆形手臂
@@ -300,19 +300,19 @@ settings.viewmodel.toggleAim 松手时保持开镜
 settings.viewmodel.show.hands 显示手部
 settings.viewmodel.leftHand 左手持枪
 settings.viewmodel.aimAnim 武器开镜动画
-settings.viewmodel.rot 武器旋转
+settings.viewmodel.rot 武器位置旋转
 settings.viewmodel.xOff 武器X轴坐标 (左/右）
 settings.viewmodel.yOff 武器Y轴坐标（上/下）
 settings.viewmodel.zOff 武器Z轴坐标（前/后）
-settings.viewmodel.weapSwapY 切换武器时武器的垂直位置
+settings.viewmodel.weapSwapY 切枪时武器的垂直位置
 settings.viewmodel.weapReloadY 换弹时武器的垂直位置
 settings.viewmodel.yOffADS 开镜时武器的垂直位置
 settings.viewmodel.adsFovMlt 开镜放大倍数
 settings.editing.header 编辑
 settings.editing.health.high HUD 血条颜色(高)
 settings.editing.health.low HUD 血条颜色(低)
-settings.editing.speedLines 速度线(高速移动时显示速度线)
-settings.editing.spdLinesCol 速度线颜色
+settings.editing.speedLines 高速度特效（玩家高速移动时会显示此特效）
+settings.editing.spdLinesCol 高速度特效颜色
 settings.editing.score.color 弹出得分颜色
 settings.editing.score.show 显示弹出得分
 settings.editing.score.scale 弹出得分倍率
@@ -449,15 +449,15 @@ windows.controls.interactSec 次要交互
 windows.controls.confirm 确认交互
 windows.controls.drop 放下(武器/物品)
 windows.controls.wepVis 切换武器可见度
-windows.controls.streak0 连杀 1
-windows.controls.streak1 连杀 2
-windows.controls.streak2 连杀 3
-windows.controls.streak3 连杀 4
-windows.controls.streak4 连杀 5
+windows.controls.streak0 连杀奖励1
+windows.controls.streak1 连杀奖励2
+windows.controls.streak2 连杀奖励3
+windows.controls.streak3 连杀奖励4
+windows.controls.streak4 连杀奖励5
 windows.controls.premium0 穿墙模式
-windows.controls.premium1 无敌
-windows.controls.premium2 击杀
-windows.controls.premium3 重击
+windows.controls.premium1 超高血量
+windows.controls.premium2 瞬间击杀全部玩家
+windows.controls.premium3 超高伤害
 windows.controls.reset 重设时复活的位置（仅限于跑酷/速度竞赛模式）
 windows.controls.pretend 隐藏游戏
 windows.host.header 创建自定义游戏
@@ -544,9 +544,9 @@ windows.publish.mod.header 发表模组
 windows.publish.mod.thumbnail 没有缩略图
 windows.publish.mod.name 模组名称
 windows.publish.mod.paste 模组网址
-windows.publish.mod.update 发表/更新
-windows.publish.mod.login 以创建并上传!
-windows.secondary.header 选择次要武器
+windows.publish.mod.update 发布/更新
+windows.publish.mod.login 请登录以创建并上传!
+windows.secondary.header 选择副武器
 windows.secondary.unlocked 已解锁
 windows.secondary.req 需要至少{0}级
 windows.advertise.header 广告
@@ -574,7 +574,7 @@ mod.extracting 提取中 {0}/{1}
 mod.disabled 模组已禁用
 mod.error 模组错误!
 mod.loading 加载模组中...
-mod.invalid 无效模组文件!
+mod.invalid 模组文件不可用!
 matchmaker.full 满
 matchmaker.full2 游戏已满.
 matchmaker.updating 游戏更新中
@@ -607,23 +607,23 @@ server.config.reSpd 换弹速度
 server.config.slidTime 滑铲时间
 server.config.fixMov 修复的动作
 server.config.slidSpd 滑铲速度
-server.config.healthMlt 血量倍率
+server.config.healthMlt 血量增加倍率
 server.config.impulseMlt 武器后坐力
-server.config.nameTeam1 队伍 1 名字
-server.config.nameTeam2 队伍 2 名字
-server.config.nameTeam3 队伍 3 名字
-server.config.nameTeam4 队伍 4 名字
-server.config.nameTeam5 队伍 5 名字
-server.config.t1Dmg 队伍 1 伤害
-server.config.t2Dmg 队伍 2 伤害
-server.config.t3Dmg 队伍 3 伤害
-server.config.t4Dmg 队伍 4 伤害
-server.config.t5Dmg 队伍 5 伤害
+server.config.nameTeam1 队伍1名字
+server.config.nameTeam2 队伍2名字
+server.config.nameTeam3 队伍3名字
+server.config.nameTeam4 队伍4名字
+server.config.nameTeam5 队伍5名字
+server.config.t1Dmg 队伍1伤害
+server.config.t2Dmg 队伍2伤害
+server.config.t3Dmg 队伍3伤害
+server.config.t4Dmg 队伍4伤害
+server.config.t5Dmg 队伍5伤害
 server.config.selTeam 选择队伍
 server.config.allowSpect 观战
 server.config.killRewards 击杀奖励
-server.config.headshotOnly 仅限爆头模式
-server.config.noSecondary 禁用服务器
+server.config.headshotOnly 仅限重击模式
+server.config.noSecondary 禁用副武器
 server.config.noStreaks 禁用连杀
 server.config.canSlide 可以滑铲
 server.config.wallJP 墙壁跳跃倍率
@@ -633,7 +633,7 @@ server.config.thirdPerson 第三人称
 server.config.requireCaptcha 需要Captcha验证
 server.config.nameTags 隐藏名牌
 server.config.kCams 玩家死亡视角
-server.config.noReload 无需重装弹药
+server.config.noReload 禁用重装弹药
 server.config.private 私人房间
 server.config.krRewards KR 奖励
 server.config.forceDefault 必须使用默认设置
@@ -664,7 +664,7 @@ social.market.price.low 最低价格
 social.market.price.list 请输入价格
 social.market.searching 搜索
 social.market.listed {0}前上架
-social.market.list 上架该物品
+social.market.list 发布该物品
 social.market.unlist 下架该物品
 social.market.unlisting 下架物品中...
 social.market.posting 发布物品中...
@@ -693,7 +693,7 @@ social.trading.submitting 提交报价中...
 social.market.gift.amount 赠送金额
 social.market.fee.gift 无费用
 social.market.gift 赠送KR
-social.market.gift.msg赠送留言
+social.market.gift.msg 赠送KR留言
 respawn.auto 您将会在｛0｝秒内重生
 custom.host.ranked 您不可以在排位赛进行时开设自定义房间。
 funds.insufficient 经费不足
