@@ -130,8 +130,8 @@ settings.quality.highResShad Sombras de Alta Resolução
 settings.quality.shadowsDynamic Sombras Dinâmicas
 settings.quality.trails Rastro de Balas
 settings.quality.yourTrails Seus Ratros
-settings.quality.mflash Fogo dos Tiros
-settings.quality.flap Flap da Sniper
+settings.quality.mflash Trila dos Tiros
+settings.quality.flap Flap do Rifle
 settings.quality.lowSpec Personagens Sem Pernas
 settings.quality.ambient Sombriamento do Ambiente
 settings.quality.ambientOld Antigo Sombriamento (Quando Possível)
@@ -156,7 +156,7 @@ settings.interface.hitColor Cor do indicardor de hit
 settings.interface.dmg Mostrar Dano
 settings.interface.dmgCol Cor do dano
 settings.interface.critCol Cor do Crítico
-settings.interface.header Interface
+settings.interface.header Interface 
 settings.interface.scale Scala da Tela
 settings.interface.ui Mostrar Interface de Usuário
 settings.interface.scoreboard Usar o antigo Placar de Pontos
@@ -238,8 +238,8 @@ settings.hitmarker.custom Imagem do HitMarker
 settings.hitmarker.custom.paste URL da imagem do Hitmarker
 settings.onKillS.style.0 Padrão
 settings.onKillS.style.1 Reduzir Resolução
-settings.onKillS.style.2 Reduzir FOV
-settings.onKillS.style.3 Aumentar FOV
+settings.onKillS.style.2 Reduzir o Campo de Visão
+settings.onKillS.style.3 Aumentar o Campo de Visão
 settings.serverb.header Navegador do Servidor
 settings.serverb.oldBrowser Servidores Lagados
 settings.serverb.defaultRegionOnly Apenas Região de Origem
@@ -254,7 +254,7 @@ settings.gameplay.aimsensX Mira X Sensibilidade
 settings.gameplay.aimsensY Mira Y Sensibilidade
 settings.gameplay.challenge Modo de Desafiador
 settings.gameplay.invert Inverter Eixo Y
-settings.gameplay.onkillS Na Matança
+settings.gameplay.onkillS Na Sequência
 settings.gameplay.scrollDir Direção do Scroll
 settings.controller.header Controle
 settings.controller.sensitivityX X Sensibilidade
@@ -343,7 +343,7 @@ settings.editing.depth Mapa de Profundidade
 settings.editing.green Fundo Verde
 settings.editing.tracercol Marcado de Bala
 settings.editing.tracer Marcado de Bala
-settings.editing.tracer.offset Tracer Offset
+settings.editing.tracer.offset Deslocamento do Traçador
 settings.shaders.header Sombreador
 settings.mods.header Modificações
 settings.mods.load Carregar Modificações
