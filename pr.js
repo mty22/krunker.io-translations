@@ -740,8 +740,8 @@ windows.clan.leave Você Ten Certeza Que Quer Sair do Seu Clã?
 windows.clan.delete Você Ten Certeza Que Quer Sair do Seu Clã?
 windows.clan.kick VGocê tem certeza que quer kikar {0} do clã?
 windows.store.premium.purchase Tem certeza de que deseja comprar {0} dias Premium?
-windows.playerlist.ban Tem certeza que deseja banir {0} deste jogo?
-windows.playerlist.flag Tem certeza que deseja marcar {0}?
-windows.playerlist.unflag Tem certeza que deseja desmarcar {0}?
+windows.playerlist.ban Tem certeza que deseja Banir {0} deste jogo?
+windows.playerlist.flag Tem certeza que deseja Banir {0}?
+windows.playerlist.unflag Tem certeza que deseja Desbanir {0}?
 windows.playerlist.punish Tem certeza de que deseja tomar medidas em relação a {0}?
 `;
