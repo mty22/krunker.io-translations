@@ -745,33 +745,33 @@ windows.playerlist.flag Weet je zeker dat je {0} wilt markeren?
 windows.playerlist.unflag Weet je zeker dat je {0} wilt onmarkeren?
 windows.playerlist.punish Weet je zeker dat je actie wilt ondernemen op {0}?
 item.view.open Open Model Viewer
-item.view.more More Information
-item.sell.cant Item cant be sold.
-item.sell.quick Are you sure you want to Quick Sell {0}?
-social.profile.stats Overall Stats
-social.profile.class Class Stats
-social.profile.sales Sales
-social.profile.sales.market Market Sales
+item.view.more Meer Informatie
+item.sell.cant Item kan niet worden verkocht.
+item.sell.quick Weet u zeker dat u wil snel verkopen {0}?
+social.profile.stats Algemene statistieken
+social.profile.class Class statistieken
+social.profile.sales Verkoop
+social.profile.sales.market Verkoop Markt
 social.profile.skins Skins [{0}]
-social.profile.skins.none No published Skins from this user
+social.profile.skins.none Geen gepubliceerde skins van deze gebruiker
 social.profile.games Games [{0}]
-social.profile.games.none No published Games from this user
+social.profile.games.none Geen gepubliceerde Games van deze gebruiker
 social.profile.assets Assets [{0}]
-social.profile.assets.none No published Assets from this user
+social.profile.assets.none Geen gepubliceerde Assets van deze gebruiker
 social.profile.mods Mods [{0}]
-social.profile.mods.none No published Mods from this user
-social.search Search Results
-social.market.stats.rare Rarest Items
-social.market.stats.circulation In Circulation
-social.market.stats.units units Worldwide
-social.trades.in Incoming
-social.trades.in.head Incoming Offers ({0})
-social.trades.out Outgoing
-social.trades.out.head Outgoing Offers ({0})
-social.trades.history History
-social.trades.history.head Trade History ({0})
-social.trades.decline Decline All
-social.trades.message ENABLE TRADE MESSAGES IN SETTINGS
-social.trades.warning You get no items from this trade!
-social.trades.accept Are you sure you want to accept this offer?
+social.profile.mods.none Geen gepubliceerde Mods van deze gebruiker
+social.search Zoekresultaten
+social.market.stats.rare Zeldzaamste Items
+social.market.stats.circulation In Circulatie
+social.market.stats.units units Wereldwijd
+social.trades.in Inkomend
+social.trades.in.head Inkomende Aanbiedingen ({0})
+social.trades.out Uitgaand
+social.trades.out.head Uitgaande aanbiedingen ({0})
+social.trades.history Geschiedenis
+social.trades.history.head Trade geschiedenis ({0})
+social.trades.decline Alles afwijzen
+social.trades.message TRADE BERICHTEN IN INSTELLINGEN INSCHAKELEN
+social.trades.warning Je krijgt geen items van deze trade!
+social.trades.accept Weet u zeker dat u deze aanbieding wilt accepteren?
 `;
