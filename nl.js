@@ -751,10 +751,7 @@ item.sell.quick Are you sure you want to Quick Sell {0}?
 social.profile.stats Overall Stats
 social.profile.class Class Stats
 social.profile.sales Sales
-social.profile.sales Sales
 social.profile.sales.market Market Sales
-social.profile.sales Sales
-social.profile.sales Sales
 social.profile.skins Skins [{0}]
 social.profile.skins.none No published Skins from this user
 social.profile.games Games [{0}]
