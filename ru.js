@@ -6,7 +6,7 @@ menu.btn.maps Игры
 menu.btn.mods Моды
 menu.btn.settings Настройки
 menu.btn.customize Кастомизация
-menu.btn.invite Приглашение
+menu.btn.invite Пригласить
 menu.btn.invite.clicked Скопировано
 menu.btn.join Присоединиться
 menu.btn.host Запустить игру
@@ -49,7 +49,7 @@ generic.games.lost Игр проиграно
 generic.timep Время в игре
 generic.kills Убийства
 generic.deaths Смерти
-generic.kdr Полиция
+generic.kdr Соотношение убийств к смертям
 generic.time Время
 generic.logout Выйти
 generic.logout.sessions Выход со всех устройств
@@ -102,11 +102,11 @@ settings.dev.forceUpdate Принудительное обновление ск�
 settings.dev.forceRegen Всегда лечить игрока
 settings.dev.extraBan Дополнительная информация о бане
 settings.chat.header Чат
-settings.chat.chat Показать окно чата
+settings.chat.chat Показывать окно чата
 settings.chat.chat.all Всегда
 settings.chat.chat.focus Пока сфокусирован
 settings.chat.messages Показывать сообщения игроков
-settings.chat.unboxings Показывать открытия
+settings.chat.unboxings Показывать открытие спинов
 settings.chat.chatOp Непрозрачность чата
 settings.chat.chatBGOp Непрозрачность BG чата
 settings.chat.chatHeight Высота чата
@@ -121,8 +121,8 @@ settings.quality.part Частицы
 settings.quality.mapDet Детали карты
 settings.quality.noTex Выключить текстуры
 settings.quality.partdist Расстояние отрисовки частиц
-settings.quality.renderdist Расстояние отрисовки
-settings.quality.reflection Качество изображения
+settings.quality.renderdist Расстояние отрисовки текстур
+settings.quality.reflection Качество отражения
 settings.quality.antiAlias Сглаживание
 settings.quality.shadows Тени
 settings.quality.softShad Мягкие тени
@@ -143,8 +143,8 @@ settings.quality.rendGamma Цветовая гамма
 settings.quality.lighting Освещение
 settings.quality.showExplo Показать взрывы
 settings.quality.aspectRatio Соотношение сторон
-settings.post.header Главная постобработка
-settings.post.post Вторичная постобработка
+settings.post.header Постобработка
+settings.post.post Постобработка
 settings.post.bloom Свечение
 settings.post.bloomThreshold Предел свечения
 settings.post.bloomStrength Мощность свечения
@@ -173,7 +173,7 @@ settings.interface.fps Показывать FPS
 settings.interface.deaths Показывать счетчик смертей
 settings.interface.kd Показывать соотношение убийств к смертям
 settings.interface.kills Показывать счетчик убийств
-settings.interface.streak Показывать убийства подряд
+settings.interface.streak Показывать счетчик убийств подряд
 settings.interface.score Показывать количество набранных очков
 settings.interface.spectators Показать счетчик зрителей
 settings.interface.speed Показать скорость движения
@@ -194,17 +194,17 @@ settings.interface.nametagStyle.health Только здоровье
 settings.interface.nametagStyle.name Только имя
 settings.interface.nametagStyle.nameLvl Только имя и уровень
 settings.interface.nametagStyle.all Все
-settings.interface.healthNum Имя количество здоровья
-settings.interface.healthColT Имя здоровье цвет члена команды
-settings.interface.healthColE Имя здоровье цвет противника 
+settings.interface.healthNum Счетчик количества здоровья
+settings.interface.healthColT Цвет уровня здоровья члена команды
+settings.interface.healthColE Цвет уровня здоровья противника 
 settings.interface.xpBarCol Цвет панели опыта
-settings.interface.xpBarOpac Прозрачность панели опыта
+settings.interface.xpBarOpac Непрозрачность панели опыта
 settings.crosshair.header Прицел
 settings.crosshair.type Тип
 settings.crosshair.type.2 Пользовательский
 settings.crosshair.type.3 Многослойный
 settings.crosshair.type.4 Изображение
-settings.crosshair.type.5 Отчетливость
+settings.crosshair.type.5 Перекрестие
 settings.crosshair.style Стиль
 settings.crosshair.style.0 Перекрестие
 settings.crosshair.style.1 Пустой круг
@@ -225,10 +225,10 @@ settings.crosshair.opacity.use Использовать настраиваему
 settings.crosshair.opacity.custom Пользовательская прозрачность
 settings.hitmarker.header Индикатор попадания
 settings.hitmarker.color Цвет
-settings.hitmarker.kcolor Цвет убийства
+settings.hitmarker.kcolor Цвет при убийстве
 settings.hitmarker.thickness Толщина
 settings.hitmarker.opacity Непрозрачность
-settings.hitmarker.leng Длинна
+settings.hitmarker.leng Длина
 settings.hitmarker.spacing Интервал
 settings.hitmarker.animD Размер анимации
 settings.hitmarker.animS Скорость анимации
@@ -371,7 +371,7 @@ settings.mods.kills.paste URL Изображения Счетчика Убийс
 settings.mods.deaths Изображение Счетчика Поражений
 settings.mods.deaths.paste URL Изображения Счетчика Поражений
 settings.mods.streak Изображение Счетчика Убийств Выполненных Подряд
-settings.mods.streak.paste Streak URL Изображения Счетчика Убийств Выполненных Подряд
+settings.mods.streak.paste URL Изображения Счетчика Убийств Выполненных Подряд
 settings.mods.timer Изображение Таймера
 settings.mods.timer.paste URL Изображения Таймера
 settings.mods.usedamage Оверлей при получении урона
@@ -624,12 +624,12 @@ server.config.allowSpect Наблюдение
 server.config.killRewards Награды за убийства
 server.config.headshotOnly Только Выстрелы в голову
 server.config.noSecondary Отключить Вторичное оружие
-server.config.noStreaks Отключить Серии
+server.config.noStreaks Отключить убийства подряд
 server.config.canSlide Скольжение
 server.config.wallJP Сила прыжка от стены
 server.config.autoJump Авто Прыжок
 server.config.bDrop Падение Пули
-server.config.thirdPerson Третье лицо
+server.config.thirdPerson Вид от третьего лица
 server.config.requireCaptcha Требуется Captcha
 server.config.nameTags Скрыть Имена
 server.config.kCams Камеры убийств
@@ -646,7 +646,7 @@ server.config.forceC Классы принудительного режима
 server.config.logTim Журнал времени (гонки, паркур)
 server.config.hitBoxPad Набивка ХитБоксов
 server.config.hpRegen Восстановление здоровья
-server.config.disableB Отключить границы
+server.config.disableB Отключить барьеры
 server.config.throwMel Метание ближнего оружия
 server.config.noCosm Отключить косметику
 social.login Авторизация/Регистрация
