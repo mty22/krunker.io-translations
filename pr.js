@@ -59,8 +59,8 @@ generic.register Registar-se
 generic.login Entrar
 generic.accuracy Precisão
 player.waiting Esperando Por Jogadores
-player.died Você morreu
-player.killed Morto Por
+player.died Você Foi Abatido
+player.killed Você Foi Abatido por
 player.killstreak {0} Em Uma {1} Sequência de Abates
 player.inactive Expulso por Inatividade
 player.disconnect DESCONECTADO
