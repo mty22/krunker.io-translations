@@ -74,7 +74,7 @@ app.spectate.mobile タップして観戦する
 app.play.controller STARTを押してください
 app.spectate.controller STARTを押して観戦する
 purchase.error エラーが発生しました
-purchase.error.click ここをクリック</a>して、もう一度試してください！
+purchase.error.click ここをクリック</a>して、もう一度試してください!
 purchase.error.limit 1日の取引限度額を超えている可能性があります
 settings.reset リセット
 settings.reset.confirm 全ての設定をリセットしてもよろしいですか?
@@ -583,7 +583,7 @@ matchmaker.none サーバー数が最大です
 adblocker 無料でKRを受け取るには、広告ブロッカーを無効にしてください
 ad-failed 広告の読み込みに失敗しました。後でもう一度試してください
 streamers.views {0}人が観戦中
-streamers.none Twitchの配信はありません！
+streamers.none Twitchの配信はありません!
 error.extentions 拡張機能がある場合は無効にしてください。
 error.seek クリックして新しいゲームを探してください
 custom.map.upload.limit 失敗しました。ゲームデータは500kbに制限されています。
@@ -713,7 +713,7 @@ account.banned.appeal もしアカウントのBANについて異議申し立て�
 account.delete アカウント削除のリクエストがされた場合、14日以内にキャンセルされなければアカウントと関連するすべてのデータは永久に削除されます
 account.delete.request 本当にアカウント削除をリクエストしますか？
 account.delete.cancel 本当にアカウント削除のリクエストを取り消しますか？
-spin.free.available フリーKRが利用可能です！
+spin.free.available フリーKRが利用可能です!
 spin.free.claim このスピンは試合終了後、一時間に一回回すことが出来ます
 spin.free.disable このポップアップは設定から非表示にすることが出来ます
 mod.reset.0 リスポーン後から有効になります
@@ -730,7 +730,7 @@ stats.sprays スプレー回数
 windows.host.default.settings デフォルト設定を有効にすることでプレイヤーの進捗とハイスコアを保存することが出来ます
 windows.host.default.commands *ホストコマンド(/noclip /god /smite 等)はこのモードでは無効化されています
 windows.host.rewards KR報酬を有効にした場合デフォルト設定の使用が強制され、プレイヤーがこのマップの資産からKR報酬を入手することが出来るようになります:
-windows.store.wheels.sub 新しいスキンを手に入れるためにスピンで運試しをしましょう！
+windows.store.wheels.sub 新しいスキンを手に入れるためにスピンで運試しをしましょう!
 windows.store.currency * 米ドルでの金額表記はあなたの国の通貨に変換され、その際の両替レートは支払いサービスや銀行が定めたものによります
 windows.store.creator クリエイターコードを使ってあなたのお気に入りのクリエイターを支援しましょう
 windows.chall.customs カスタムマッチ内でチャレンジをクリアすることは出来ません
@@ -772,6 +772,6 @@ social.trades.history 履歴
 social.trades.history.head トレード履歴 ({0})
 social.trades.decline すべて拒否
 social.trades.message トレードメッセージを設定から有効にしてください
-social.trades.warning このトレードではあなたは何も手に入れません！
+social.trades.warning このトレードではあなたは何も手に入れません!
 social.trades.accept 本当にこの申請を許可しますか？
 `;
