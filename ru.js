@@ -506,7 +506,7 @@ windows.store.purchase Покупка KR
 windows.store.voucher Выкупить купон
 windows.store.voucherinfo Получайте Купоны от определенных Стримеров и Мероприятий
 windows.store.market Торговая площадка
-windows.store.market2 Рынок Krunker
+windows.store.market2 Krunker Маркет
 windows.store.premium Купить премиум
 windows.store.premium2 Krunker премиум
 windows.store.buyP Выберите Отображаемое имя и многое другое с помощью
@@ -744,4 +744,34 @@ windows.playerlist.ban Вы действительно хотите запрет
 windows.playerlist.flag Вы действительно хотите пожаловаться на {0}?
 windows.playerlist.unflag Вы уверены, что хотите снять отметку {0}?
 windows.playerlist.punish Вы действительно хотите принять меры в отношении {0}?
+item.view.open Обзор Модели
+item.view.more Больше Информации
+item.sell.cant Предмет не может быть продан.
+item.sell.quick Вы уверены, что хотите быстро продать? {0}?
+social.profile.stats Общая Статистика
+social.profile.class Классовая Статистика
+social.profile.sales Продажи
+social.profile.sales.market Продажи с Маркета
+social.profile.skins Скины [{0}]
+social.profile.skins.none Нет опубликованных Скинов от этого пользователя
+social.profile.games Games [{0}]
+social.profile.games.none Нет опубликованных Игр от этого пользователя
+social.profile.assets Assets [{0}]
+social.profile.assets.none Нет опубликованных Ассетов от этого пользователя
+social.profile.mods Mods [{0}]
+social.profile.mods.none Нет опубликованных Модов от этого пользователя
+social.search Результаты Поиска
+social.market.stats.rare Самые редкие предметы
+social.market.stats.circulation В Обороте
+social.market.stats.units единиц по всему миру
+social.trades.in Входящие
+social.trades.in.head Входящие Трейды ({0})
+social.trades.out Исходящие
+social.trades.out.head Исходящие Трейды ({0})
+social.trades.history Истроия
+social.trades.history.head Истроия Трейдов ({0})
+social.trades.decline Отклонить Все
+social.trades.message ВКЛЮЧИТЬ ТОРГОВЫЕ СООБЩЕНИЯ В НАСТРОЙКАХ
+social.trades.warning Вы не получаете никаких предметов от этого трейда!
+social.trades.accept Вы уверены, что хотите принять это предложение?
 `;
