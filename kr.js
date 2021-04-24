@@ -746,20 +746,20 @@ windows.playerlist.unflag {0}의 해커 태그를 제거하시겠습니까?
 windows.playerlist.punish {0}에 대해 조치를 취하시겠습니까?
 item.view.open 모델 뷰어 열기
 item.view.more 더 많은 정보
-item.sell.cant 이 아이템은 판매될 수 없습니다.
+item.sell.cant 이 아이템은 판매될 수 없습니다
 item.sell.quick {0}을(를) 빠른 판매할까요?
 social.profile.stats 전반적 스탯
 social.profile.class 클래스 스탯
 social.profile.sales 판매
 social.profile.sales.market 마켓 판매
 social.profile.skins 스킨 [{0}]
-social.profile.skins.none 이 유저가 발행한 스킨이 없습니다.
+social.profile.skins.none 이 유저가 발행한 스킨이 없습니다
 social.profile.games 게임 [{0}]
-social.profile.games.none 이 유저가 발행한 게임이 없습니다.
+social.profile.games.none 이 유저가 발행한 게임이 없습니다
 social.profile.assets 에셋 [{0}]
-social.profile.assets.none 이 유저가 발행한 에셋이 없습니다.
+social.profile.assets.none 이 유저가 발행한 에셋이 없습니다
 social.profile.mods 모드 [{0}]
-social.profile.mods.none 이 유저가 발행한 모드가 없습니다.
+social.profile.mods.none 이 유저가 발행한 모드가 없습니다
 social.search 검색 결과
 social.market.stats.rare 희귀 아이템
 social.market.stats.circulation 유통 개수
