@@ -422,7 +422,7 @@ windows.mods.load.header MODをロード
 windows.mods.publish MODを公開する
 windows.mods.viewer 観戦者
 windows.account.header アカウント
-windows.account.recover アカウントを復元するには、<a>krunker@yendis.ch</a>に連絡してください
+windows.account.recover アカウントを回復するには、<a>krunker@yendis.ch</a>に連絡してください
 windows.class.header クラスを選択
 windows.controls.header コントロールを変更
 windows.controls.forward 前方
@@ -746,8 +746,8 @@ windows.playerlist.unflag 本当に{0}のハッカータグを解除しますか
 windows.playerlist.punish 本当に{0}にアクションを起こしますか?
 item.view.open モデルビューワーを開く
 item.view.more 詳細
-item.sell.cant このアイテムは販売できません。
-item.sell.quick 本当に{0}をクイックセルしますか?
+item.sell.cant このアイテムは販売できません
+item.sell.quick 本当に{0}をクイック販売しますか?
 social.profile.stats 全体の統計
 social.profile.class クラスごとの統計
 social.profile.sales 販売
