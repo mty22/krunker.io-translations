@@ -693,55 +693,85 @@ social.trading.submitting Angebot einreichen...
 social.market.gift.amount Geschenkbetrag in
 social.market.fee.gift Keine Gebühr
 social.market.gift Gift KR
-social.market.gift.msg Hinterlass eine Nachricht
+social.market.gift.msg Hinterlasse eine Nachricht
 respawn.auto Auto Respawning in {0}
-custom.host.ranked Can't host match while in ranked.
-funds.insufficient Insufficient Funds
-funds.out It appears you have run out of Krunkies.
-custom.passcode.long Password too long
-custom.passcode.input Enter Server Password to join
-custom.tryagain Please try again.
-purchase.kr.success Added {0} KR to your account
-limited.purchase.ask Are you sure you want to purchase [{0}] for {1} KR?
-limited.purchase.success Added {0} to your inventory
-pretend.exit press [{0}] again to exit
-settings.loaded Settings Loaded
-settings.loaded.none No settings found
-account.login.required Must be logged in
-account.banned.hack This account has been banned for Hacking.
-account.banned.appeal If you want to appeal your ban, contact:
-account.delete You may request to delete your account, if the request is not cancelled within 14 days the account and all associated data will be permanently removed.
-account.delete.request Are you sure you want to request an account deletion?
-account.delete.cancel Are you sure you want to cancel account deletion?
-spin.free.available FREE KR AVAILABLE!
-spin.free.claim This spin is available to claim once per Hour after completing a match.
-spin.free.disable These Popups can be disabled in General Settings
-mod.reset.0 Will take effect after respawning.
-mod.reset.1 Map Objects dont get reset
-windows.profile.picture Change Picture
+custom.host.ranked Im Ranked Modus kannst du kein Spiel hosten
+funds.insufficient Zu wenig Krunkies
+funds.out Sieht aus als hättest du keine Krunkies mehr.
+custom.passcode.long Passwort zu lang
+custom.passcode.input Gib das Passwort ein um beizutreten
+custom.tryagain Versuche es später nochmal
+purchase.kr.success {0} KR wurden zu deinem Account hinzugefügt
+limited.purchase.ask Willst du wirklich [{0}] für {1} KR kaufen?
+limited.purchase.success {0} wurde zu deinem Inventar hinzugefügt.
+pretend.exit Drücke [{0}] nochmal um zu verlassen
+settings.loaded Einstellungen geladen
+settings.loaded.none Keine Einstellungen gefunden
+account.login.required Du musst eingeloggt sein
+account.banned.hack Dieser Account wurde für Hacking gebannt
+account.banned.appeal Um einen Entbannungsantrag zu stellen kontaktiere:
+account.delete Du kannst die Löschung deines Accounts hier beantragen, wird die Anforderung nicht innerhalb von 14 Tagen zurückgezogen wird der Account und alle Daten permanent gelöscht.
+account.delete.request Bist du dir sicher dass du eine Accountlöschung beantragen möchtest?
+account.delete.cancel Bist du dir sicher das du die Beantragung zur Accountlöschung zurückziehen möchtest?
+spin.free.available GRATIS KR VERFÜGBAR!
+spin.free.claim Du kannst dieses Glücksrad jede Stunde nach absolvieren eines Spiels einlösen.
+spin.free.disable Diese Popups können in den generellen Einstellungen ausgeschalten werden.
+mod.reset.0 Respawne um den Effekt zu erhalten
+mod.reset.1 Map Objekte werden nicht zurückgesetzt
+windows.profile.picture Bild ändern
 stats.assists Assists
 stats.nukes Nukes
-stats.melee Melee
-stats.fistkills Beatdowns
-stats.thrownkills Bullseyes
-stats.headshots Headshots
+stats.melee Nahkampf-Kills
+stats.fistkills Faust-Kills
+stats.thrownkills Wurfmesser-Kills
+stats.headshots Kopfschüsse
 stats.wallbangs Wallbangs
-stats.sprays Sprays Placed
-windows.host.default.settings Enabling Default Settings allows for storing Player Progress and Highscores
-windows.host.default.commands *Host Commands are Disabled in this mode: /noclip /god /smite etc
-windows.host.rewards Enabling KR Rewards forces the Server to use Default Settings & allows players to earn KR from the map funds:
-windows.store.wheels.sub Try your luck and spin for a chance to win some new skins!
-windows.store.currency * Prices in USD can be converted to your local currency at an exchange rate defined by the payment provider or bank
-windows.store.creator Consider Support your favorite Content Creator by using a Creator Code
-windows.chall.customs Challenges can't be completed in Custom Matches
-twitch.link Are you sure you want to link a twitch account?
-twitch.unlink Are you sure you want to unlink your twitch account?
-windows.clan.leave Are you sure you want to leave the clan?
-windows.clan.delete Are you sure you want to delete the clan?
-windows.clan.kick Are you sure you want kick {0} from the clan?
-windows.store.premium.purchase Are you sure you want to purchase {0} days of Premium?
-windows.playerlist.ban Are you sure you want ban {0} from this game?
-windows.playerlist.flag Are you sure you want to Flag {0}?
-windows.playerlist.unflag Are you sure you want to Unflag {0}?
-windows.playerlist.punish Are you sure you want to take action on {0}?
+stats.sprays Platzierte Graffitis
+windows.host.default.settings Durch aktivieren der Standardeinstellungen, können Spielerfortschritte und Höchstwerte gespeichert werden.
+windows.host.default.commands *Host Befehle sind in diesem Modus deaktiviert: /noclip /god /smite etc
+windows.host.rewards KR Belohnungen einzuschalten zwingt den Server Standard-Einstellungen zu verwenden und erlaubt Spielern KR von der Map Kasse zu verdienen
+windows.store.wheels.sub Versuche dein Glück und drehe am Glücksrad für eine Chance auf einige neue Skins
+windows.store.currency * Preise in USD können zu deiner lokalen Währung umgewandelt werden. Diese Währungsumrechnung ist von deinem Zahlungsanbieter oder deiner Bank bestimmt.
+windows.store.creator Überlege dir einen Creator Code zu benutzen, um deinen Lieblingscreator zu unterstützen.
+windows.chall.customs Herausforderungen können nur in offiziellen Spielen erledigt werden.
+twitch.link Bist du dir sicher, dass du diesen Twitch-Account mit deinem Profil verbinden möchtest?
+twitch.unlink Bist du dir sicher, dass du deinen Twitch-Account von deinem Profil entfernen möchtest?
+windows.clan.leave Bist du dir sicher dass du den Clan verlassen willst?
+windows.clan.delete Bist du dir sicher dass du den Clan löschen willst?
+windows.clan.kick Bist du dir sicher dass du {0} aus dem Clan entfernen willst?
+windows.store.premium.purchase Bist du dir sicher dass du {0} Tage Premium kaufen willst?
+windows.playerlist.ban Bist du dir sicher dass du {0} aus dem Spiel bannen willst?
+windows.playerlist.flag Bist du dir sicher dass du {0} markieren willst?
+windows.playerlist.unflag Willst du {0} Entmarkieren ?
+windows.playerlist.punish Bist du dir sicher dass du diese Aktion an {0} durchführen willst?
+item.view.open Open Model Viewer
+item.view.more More Information
+item.sell.cant Item cant be sold.
+item.sell.quick Are you sure you want to Quick Sell {0}?
+social.profile.stats Overall Stats
+social.profile.class Class Stats
+social.profile.sales Sales
+social.profile.sales.market Market Sales
+social.profile.skins Skins [{0}]
+social.profile.skins.none No published Skins from this user
+social.profile.games Games [{0}]
+social.profile.games.none No published Games from this user
+social.profile.assets Assets [{0}]
+social.profile.assets.none No published Assets from this user
+social.profile.mods Mods [{0}]
+social.profile.mods.none No published Mods from this user
+social.search Search Results
+social.market.stats.rare Rarest Items
+social.market.stats.circulation In Circulation
+social.market.stats.units units Worldwide
+social.trades.in Incoming
+social.trades.in.head Incoming Offers ({0})
+social.trades.out Outgoing
+social.trades.out.head Outgoing Offers ({0})
+social.trades.history History
+social.trades.history.head Trade History ({0})
+social.trades.decline Decline All
+social.trades.message ENABLE TRADE MESSAGES IN SETTINGS
+social.trades.warning You get no items from this trade!
+social.trades.accept Are you sure you want to accept this offer?
 `;
