@@ -59,8 +59,8 @@ generic.register Registar-se
 generic.login Entrar
 generic.accuracy Precisão
 player.waiting Esperando Por Jogadores
-player.died Você morreu
-player.killed Morto Por
+player.died Você Foi Abatido
+player.killed Abatido Por
 player.killstreak {0} Em Uma {1} Sequência de Abates
 player.inactive Expulso por Inatividade
 player.disconnect DESCONECTADO
@@ -91,8 +91,8 @@ settings.network.header Network
 settings.network.sendRate Tickrate Alto
 settings.network.netRerouting Rotação Automática (Afeta A Conexão)
 settings.network.lagComp Compensação de Lag
-settings.popup.header Popups
-settings.popup.freeKRPop Mostrar Popus de KR
+settings.popup.header Pop-Ups
+settings.popup.freeKRPop Mostrar Pop-Up de KR
 settings.experimental.header Configurações Experimentais
 settings.experimental.aimFreezeFix Correção De Mira Parada
 settings.experimental.mouseFlickFix Correção de Flick de Mouse
@@ -130,7 +130,7 @@ settings.quality.highResShad Sombras de Alta Resolução
 settings.quality.shadowsDynamic Sombras Dinâmicas
 settings.quality.trails Rastro de Balas
 settings.quality.yourTrails Seus Ratros
-settings.quality.mflash Fogo dos Tiros
+settings.quality.mflash Trilha dos Tiros
 settings.quality.flap Flap da Sniper
 settings.quality.lowSpec Personagens Sem Pernas
 settings.quality.ambient Sombriamento do Ambiente
@@ -164,12 +164,12 @@ settings.interface.oldBrowser Usar o antigo Navegador
 settings.interface.rarityanim Desativar animações raras
 settings.interface.showPfp Mostar foto de Perfil
 settings.interface.showTradeMsg Mostrar Mensagens de Trade
-settings.interface.hp Barras Dinâmicas de Vida
+settings.interface.hp Barra Dinâmica de Vida
 settings.interface.dmgScale Escala de Dano
 settings.interface.killf Mostrar mensagem de abate
-settings.interface.ping Mostrar Ping
+settings.interface.ping Mostrar Qualidade da Conexão
 settings.interface.net-stats Mostar status de conexão
-settings.interface.fps Mostrar FPS
+settings.interface.fps Mostrar Frames Por Segundo
 settings.interface.deaths Mostrar Mortes
 settings.interface.kd Mostrar Icone de A/M
 settings.interface.kills Mostrar mensagem de Baixas
@@ -208,12 +208,12 @@ settings.crosshair.type.5 Precisão
 settings.crosshair.style Estilo
 settings.crosshair.style.0 Cruz
 settings.crosshair.style.1 Círculo Oco
-settings.crosshair.style.2 Círculo Sólido
+ettings.crosshair.style.2 Círculo Sólido
 settings.crosshair.style.3 Quadrado Oco
 settings.crosshair.style.4 Quadrado Sólido
 settings.crosshair.image Imagem
 settings.crosshair.image.paste Imagem da Mira
-settings.crosshair.always Mostrar Sempre
+settings.crosshair.always Sempre Mostrar
 settings.crosshair.color Cor
 settings.crosshair.shadow.color Cor da Sombra
 settings.crosshair.shadow.thickness Espessura da Sombra
@@ -238,8 +238,8 @@ settings.hitmarker.custom Imagem do HitMarker
 settings.hitmarker.custom.paste URL da imagem do Hitmarker
 settings.onKillS.style.0 Padrão
 settings.onKillS.style.1 Reduzir Resolução
-settings.onKillS.style.2 Reduzir FOV
-settings.onKillS.style.3 Aumentar FOV
+settings.onKillS.style.2 Reduzir Campo de Visão
+settings.onKillS.style.3 Aumentar Campo de Visão
 settings.serverb.header Navegador do Servidor
 settings.serverb.oldBrowser Servidores Lagados
 settings.serverb.defaultRegionOnly Apenas Região de Origem
@@ -254,7 +254,7 @@ settings.gameplay.aimsensX Mira X Sensibilidade
 settings.gameplay.aimsensY Mira Y Sensibilidade
 settings.gameplay.challenge Modo de Desafiador
 settings.gameplay.invert Inverter Eixo Y
-settings.gameplay.onkillS Na Matança
+settings.gameplay.onkillS Na Sequência
 settings.gameplay.scrollDir Direção do Scroll
 settings.controller.header Controle
 settings.controller.sensitivityX X Sensibilidade
@@ -278,10 +278,10 @@ settings.mobile.gradSpeed Velocidade gradual
 settings.mobile.invert Inverter Y-Axis
 settings.audio.header Áudio
 settings.audio.sound Som
-settings.audio.ambient Ambient Volume
+settings.audio.ambient Volume do Ambiente
 settings.audio.voice Volume da Voz
 settings.audio.weps Volume da Arma
-settings.audio.player Volume do Player
+settings.audio.player Volume do Jogador
 settings.audio.skin Volume Dos Cosmésticos
 settings.audio.ui Escala de Volume
 settings.audio.asset Volume de Acesso
@@ -313,12 +313,12 @@ settings.editing.health.high Hud de vida Alta
 settings.editing.health.low Hud de Vida Baixa
 settings.editing.speedLines Linhas de Velocidade
 settings.editing.spdLinesCol Cor da Linha de Velocidade
-settings.editing.score.color Cor de Pontos Popus
-settings.editing.score.show Mostar Pontos Popus
-settings.editing.score.scale Escala de Pontos Popus
-settings.editing.score.shadow Sombreamento de Pontos popus
-settings.editing.scoreOffX Pontos Popus X Deslocamento
-settings.editing.scoreOffY Pontos Popus Y Deslocamento
+settings.editing.score.color Cor do Pop-Up de Pontos
+settings.editing.score.show Mostar Pop-Up de Pontos
+settings.editing.score.scale Escala de Pop-Up de pontos
+settings.editing.score.shadow Sombreamento dos Pop-Up de Pontos
+settings.editing.scoreOffX Pontos Pop-Up X Deslocamento
+settings.editing.scoreOffY Pontos Pop-Up Y Deslocamento
 settings.editing.prog.color Cor da barra de Progresso
 settings.editing.prog.opacity Opacidade da Barra de Progresso
 settings.editing.prog.scale Escala da Barra de Progresso
@@ -343,8 +343,8 @@ settings.editing.depth Mapa de Profundidade
 settings.editing.green Fundo Verde
 settings.editing.tracercol Marcado de Bala
 settings.editing.tracer Marcado de Bala
-settings.editing.tracer.offset Tracer Offset
-settings.shaders.header Sombreador
+settings.editing.tracer.offset Deslocamento do Traçador
+settings.shaders.header Sombreamento
 settings.mods.header Modificações
 settings.mods.load Carregar Modificações
 settings.mods.logo Permitir Mudança de Logo
@@ -387,7 +387,7 @@ windows.servers.none Nenhum Jogo Ingressável Encontrado...
 windows.servers.host + Hospedar Partida
 windows.servers.hide Esconder Completamente
 windows.servers.priority Prioridade na Região de Origem
-windows.servers.online {0} online no total
+windows.servers.online {0} Conectados no Total
 windows.servers.social {0} no social
 windows.loadout.header Alterar Equipamentos
 windows.loadout.class Classes
@@ -411,7 +411,7 @@ windows.loadout.dye Corpo
 windows.loadout.pet Pet
 windows.loadout.stat Statos do Cartão de Abate
 windows.loadout.flag Bandeira do Pais
-windows.mods.drop solte arquivo de mod aqui ou clique
+windows.mods.drop Solte um Arquivo de Modificação Aqui
 windows.mods.paste Colar Url da Modificação
 windows.mods.load Carregar Modificação
 windows.mods.none Nenhuma Modoficação achada
@@ -422,7 +422,7 @@ windows.mods.load.header Carregar Modificação
 windows.mods.publish Publicar Modificação
 windows.mods.viewer Visualizador
 windows.account.header Conta
-windows.account.recover Para recuperar uma conta entre em contato com <a>krunker@yendis.ch</a>
+windows.account.recover Para Recuperar Sua Conta, Contate <a>krunker@yendis.ch</a>
 windows.class.header Selecionar Classes
 windows.controls.header Mudar Controles
 windows.controls.forward Avante
@@ -462,7 +462,7 @@ windows.controls.reset Resetar Posição (corrida & Parkur
 windows.controls.pretend Esconder Jogo
 windows.host.header Hospedar Jogo Personalizado
 windows.host.maps Selecionar Mapas
-windows.host.cmaps Mapa da Comunidade
+windows.host.cmaps Mapas da Comunidade
 windows.host.raw Dados do Mapa Bruto
 windows.host.modes Selecionar Modos
 windows.host.classes Selecionar Classes
@@ -503,10 +503,10 @@ windows.store.header Loja
 windows.store.spin {0} Gire
 windows.store.agree Ao comprar você concorda com os {0}Termos
 windows.store.purchase Comprar KR
-windows.store.voucher Redeem Voucher
-windows.store.voucherinfo Get Vouchers from certain Streamers & Events
+windows.store.voucher Resgatar Vale
+windows.store.voucherinfo Ganhe Vales de Certos Streamers & Eventos
 windows.store.market Mercado
-windows.store.market2 Mercado Krunker
+windows.store.market2 Mercado Do Krunker
 windows.store.premium Comprar Premium
 windows.store.premium2 Krunker Premium
 windows.store.buyP Escolha uma exibição com Nome & mais
@@ -516,7 +516,7 @@ windows.store.unlock Desbloqueie novas skins de armas e itens
 windows.store.amount {0} KR na conta
 windows.store.login Faça login</a> para comprar e desbloquear itens da loja!
 windows.store.purchasing Comprando...
-windows.store.unboxed {0}{1} desembalados
+windows.store.unboxed {0}{1} Umboxing
 windows.trade.header Trocando...
 windows.scope.header Selecione Mira do Rifle
 windows.premium.header Premium
@@ -531,7 +531,7 @@ windows.reticle.header Selecione Reticle
 windows.reticle.unlocked Travado em 1v1 {0}
 windows.reticle.req Req lvl {0}
 windows.dye.header Selecione um Corpo
-windows.dye.default Corpo Default
+windows.dye.default Corpo Padrão
 windows.dye.spin Corpo
 windows.changelog.header Atualizações
 windows.mods.community.header Modificações da Comunidade
@@ -545,15 +545,15 @@ windows.publish.mod.thumbnail Nenhuma Miniatura
 windows.publish.mod.name Nome da Modificação
 windows.publish.mod.paste Url da Modificação
 windows.publish.mod.update Publicar/Atualizar
-windows.publish.mod.login Faça login</a> para criar e upar Modificações
-windows.secondary.header Selecionar Secundário
+windows.publish.mod.login Faça login</a> para criar e upar modificações!
+windows.secondary.header Selecionar Secundária
 windows.secondary.unlocked Desbloqueado no nível {0}
 windows.secondary.req Nível Requerido {0}
 windows.advertise.header Anunciar
 windows.support.header Suporte
 windows.players.header Lista de Jogadores
 windows.players.none Nenhum jogador no momento...
-windows.join.header Ingressar
+windows.join.header Entrar
 windows.join.code Digite URL/Código da Partida
 windows.client.header Cliente
 windows.client.windows Instalador do Windows
@@ -568,21 +568,21 @@ windows.ranked.mode.r4v4 Quarteto
 windows.chall.header Desafios
 windows.chall.login Para Completar esse desafio
 thumbnail.upload.limit Falha. Limite de Miniaturas de 40kb
-image.upload.limit Failed. {0}kb Limite de imagem
+image.upload.limit Falhou. {0}kb Limite de imagem
 thumbnail.upload.error Erro de Miniatura
-mod.extracting extraindo {0}/{1}
+mod.extracting Extraindo {0}/{1}
 mod.disabled Modificações Desativadas
-mod.error erro de mod!
-mod.loading carregando mod...
-mod.invalid arquivo mod inválido!
+mod.error Erro de Modificação
+mod.loading Carregando Modificação
+mod.invalid Arquivo de Modificação Inválido
 matchmaker.full CHEIO
-matchmaker.full2 O jogo está cheio.
+matchmaker.full2 O jogo está Lotado.
 matchmaker.updating JOGO ATUALIZANDO
 matchmaker.invalid Jogo não Encontrado
 matchmaker.none Jogo não encontrado.
-adblocker Desative seu ad blocker para receber Krunkies gratuitos.
+adblocker Desative seu Bloqueador de Anuncios para Receber KR gratuito.
 ad-failed Falha ao carregar propaganda! Tente novamente
-streamers.views {0} espectadores
+streamers.views {0} Spectadores
 streamers.none Nenhum stream ativo!
 error.extentions Se você tem alguma extensão. Desative-as
 error.seek Tente procurar um novo jogo clicando
@@ -618,10 +618,10 @@ server.config.t1Dmg Dano do time 1
 server.config.t2Dmg Dano do time 2
 server.config.t3Dmg Dano do time 3
 server.config.t4Dmg Dano do time 4
-server.config.t5Dmg Dano do time5 
+server.config.t5Dmg Dano do time 5
 server.config.selTeam Selecionar o Time
 server.config.allowSpect Assistindo
-server.config.killRewards Recompensas por Morte
+server.config.killRewards Recompensas por Abate
 server.config.headshotOnly Apenas Tiros na Cabeça
 server.config.noSecondary Desativar secundárias
 server.config.noStreaks Disativar Sequências de Abates
@@ -629,7 +629,7 @@ server.config.canSlide Deslizando
 server.config.wallJP Poder de pulo na parede
 server.config.autoJump Pulo Automático
 server.config.bDrop Cair Balas
-server.config.thirdPerson 3a Pessoa
+server.config.thirdPerson Modo em 3a Pessoa
 server.config.requireCaptcha Requer Captcha
 server.config.nameTags Ocultar Nomes
 server.config.kCams Visão de Morte
@@ -664,11 +664,11 @@ social.market.price.low Preço Mais Baixo
 social.market.price.list Listar Preço em
 social.market.searching Buscando
 social.market.listed listado {0} atrás
-social.market.list Listar Item
+social.market.list Anunciar Item
 social.market.unlist Tirar da Lista
 social.market.unlisting Tirando Item da Lista...
-social.market.posting Postando Item...
-social.market.req nível {0} requerido
+social.market.posting Anunciando um Item...
+social.market.req Nível {0} requerido
 social.market.cant Valor Insuficiente para Comprar
 social.market.purchase Comprar
 social.market.fee Sem Taxa de Listagem
@@ -686,16 +686,16 @@ social.market.none Nenhum Item Encontrado
 social.market.login Você deve logar em.
 social.market.grace pronto em {0}
 social.market.sort Filtrar/Ordenar
-social.market.filter Buscar
+social.market.filter Procurar
 social.market.sort2 Busca Pequena
 social.market.price.high Preço Mais Alto
 social.trading.submitting Enviando Oferta...
 social.market.gift.amount Dando valor do presente em
-social.market.fee.gift Não é Gratuito
+social.market.fee.gift Não de Graça
 social.market.gift Dar KR
 social.market.gift.msg Deixe uma Recado
 respawn.auto Auto Renascimento em {0}
-custom.host.ranked Não Pode Hostar Partidas Enquando Estiver em Uma Ranked
+custom.host.ranked Não Pode Hostar Partidas Enquando Estiver em Uma Ranqueada
 funds.insufficient Fundos Insuficientes
 funds.out Parece que você está sem KR
 custom.passcode.long Senha muito Longa
@@ -704,8 +704,8 @@ custom.tryagain Por Favor tente Novamente
 purchase.kr.success Adicionado {0} KR a sua conta
 limited.purchase.ask Você ten certeza que desaja comprar [{0}] por {1} KR?
 limited.purchase.success Adicionado {0} para seu Inventário
-pretend.exit press [{0}] Novamente para Existir
-settings.loaded Configuração Carregada
+pretend.exit Aperte [{0}] Novamente para Existir
+settings.loaded Configurações Carregadas
 settings.loaded.none Nenhuma Configuração Encontrada
 account.login.required Deve estar logado em.
 account.banned.hack Essa conta Foi banida Por uso De Hacks
@@ -715,7 +715,7 @@ account.delete.request Você tem certeza que quer pedir uma requisição de bani
 account.delete.cancel Você tem certeza que desaja cancelar a deletação de sua conta?
 spin.free.available KR GRÁTIS DISPONÍVEL!
 spin.free.claim Este roleta está disponível para ser reivindicado uma vez por hora após a conclusão de uma partida.
-spin.free.disable Esse Popous pode ser Desativa nas Configurações Gerais
+spin.free.disable Esse Pop-Up pode ser Desativa nas Configurações Gerais
 mod.reset.0 Terá efeito após o renascimento.
 mod.reset.1 Objetivo do mapa não tera Reset
 windows.profile.picture Mude a Imagem
@@ -741,7 +741,37 @@ windows.clan.delete Você Ten Certeza Que Quer Sair do Seu Clã?
 windows.clan.kick VGocê tem certeza que quer kikar {0} do clã?
 windows.store.premium.purchase Tem certeza de que deseja comprar {0} dias Premium?
 windows.playerlist.ban Tem certeza que deseja banir {0} deste jogo?
-windows.playerlist.flag Tem certeza que deseja marcar {0}?
-windows.playerlist.unflag Tem certeza que deseja desmarcar {0}?
+windows.playerlist.flag Tem certeza que deseja Banir {0}?
+windows.playerlist.unflag Tem certeza que deseja Desbanir {0}?
 windows.playerlist.punish Tem certeza de que deseja tomar medidas em relação a {0}?
+item.view.open Abrir Visualizador de Modelo
+item.view.more Mais Informações
+item.sell.cant Item Impossível de ser Vendido
+item.sell.quick Você tem Certeja Qeu Deseja Fazer a Venda Rápida {0}?
+social.profile.stats Statos em Geral
+social.profile.class Statos da Classe
+social.profile.sales Vendas
+social.profile.sales.market Vendas no Mercado
+social.profile.skins Skins [{0}]
+social.profile.skins.none Nenhuma Skin Públicado Por esse Usuário
+social.profile.games Jogos [{0}]
+social.profile.games.none Nenhum Jogo Públicado Por esse Usuário
+social.profile.assets Tópico [{0}]
+social.profile.assets.none Nenhum Tópico Publicado Por esse Usuário
+social.profile.mods Modificações [{0}]
+social.profile.mods.none Nenhuma Modificação Públicada Por esse Usuário
+social.search Search Resultados
+social.market.stats.rare Item Mais Raro
+social.market.stats.circulation Em Circulação
+social.market.stats.units Unidades No Mundo Todo
+social.trades.in Recebidas
+social.trades.in.head Ofertas Recebidas ({0})
+social.trades.out Enviadas
+social.trades.out.head Ofertas Enviadas ({0})
+social.trades.history Histórico
+social.trades.history.head Histórico de Trade ({0})
+social.trades.decline Rejeitar Todas
+social.trades.message Abilitar Mensagens de Troca Nas Configurações
+social.trades.warning VocÇe não Ganhara Nenhum Item Nessa Troca
+social.trades.accept Você tem Certeza que Deseja Aceitar essa Oferta?
 `;
