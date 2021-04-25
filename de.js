@@ -2,7 +2,7 @@ module.exports = `
 menu.btn.ranked Ranked
 menu.btn.shop Markt
 menu.btn.social Soziales
-menu.btn.maps Karten
+menu.btn.maps Maps
 menu.btn.mods Mods
 menu.btn.settings Einstellungen
 menu.btn.customize Anpassen
@@ -134,7 +134,7 @@ settings.quality.mflash Mündungsfeuer
 settings.quality.flap Sniper Klappe
 settings.quality.lowSpec Niedrige Auflösung
 settings.quality.ambient Umgebungs Shading
-settings.quality.ambientOld Altes Shading (Wwenn möglich)
+settings.quality.ambientOld Altes Shading (Wenn möglich)
 settings.quality.textureAnim Textur-Animationen
 settings.quality.objectAnim Objekt-Animationen
 settings.quality.screenShake Bildschirm-Wackeln
@@ -461,9 +461,9 @@ windows.controls.premium3 Smite
 windows.controls.reset Position zurücksetzen (Rennen & Parkour)
 windows.controls.pretend Spiel verstecken
 windows.host.header Individuelles Gastgeber-Spiel
-windows.host.maps Karten auswählen
-windows.host.cmaps Community Karte
-windows.host.raw Karten-Rohdaten
+windows.host.maps Maps auswählen
+windows.host.cmaps Community Maps
+windows.host.raw Maps-Rohdaten
 windows.host.modes Modus auswählen
 windows.host.classes Klassen auswählen
 windows.host.settings Server Einstellungen
@@ -472,7 +472,7 @@ windows.host.preset.load Voreinstellung laden...
 windows.host.preset.name Name Voreinstellung
 windows.host.start Spiel starten
 windows.host.rehost Spiel Starten (Spieler mitnehmen)
-windows.spray.header Spay auswählen
+windows.spray.header Spray auswählen
 windows.spray.default Voreingestelltes Spray
 windows.spray.spin Spray
 windows.maps.header Benutzerdefinierte Map
