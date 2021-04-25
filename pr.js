@@ -208,7 +208,7 @@ settings.crosshair.type.5 Precisão
 settings.crosshair.style Estilo
 settings.crosshair.style.0 Cruz
 settings.crosshair.style.1 Círculo Oco
-ettings.crosshair.style.2 Círculo Sólido
+settings.crosshair.style.2 Círculo Sólido
 settings.crosshair.style.3 Quadrado Oco
 settings.crosshair.style.4 Quadrado Sólido
 settings.crosshair.image Imagem
