@@ -691,7 +691,7 @@ social.market.sort2 Busca Pequena
 social.market.price.high Preço Mais Alto
 social.trading.submitting Enviando Oferta...
 social.market.gift.amount Dando valor do presente em
-social.market.fee.gift Não de Graça
+social.market.fee.gift Não é Gratuíto
 social.market.gift Dar KR
 social.market.gift.msg Deixe uma Recado
 respawn.auto Auto Renascimento em {0}
