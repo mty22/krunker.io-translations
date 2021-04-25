@@ -567,8 +567,8 @@ windows.ranked.mode.r2v2 双排
 windows.ranked.mode.r4v4 四排
 windows.chall.header 挑战
 windows.chall.login 登录以完成挑战!
-thumbnail.upload.limit 上传失败. 最大缩略图限制为｛0｝KB。
-image.upload.limit 上传失败，最大图片限制为｛0｝KB。
+thumbnail.upload.limit 上传失败. 最大缩略图限制为｛0｝KB
+image.upload.limit 上传失败，最大图片限制为｛0｝KB
 thumbnail.upload.error 缩略图错误
 mod.extracting 提取中 {0}/{1}
 mod.disabled 模组已禁用
@@ -683,7 +683,7 @@ social.market.melee 近战武器
 social.market.spray 涂鸦
 social.market.dye 衣服
 social.market.none 没有找到该物品
-social.market.login 您必须先登录。
+social.market.login 您必须先登录
 social.market.grace {0}秒后生效
 social.market.sort 筛选/排序
 social.market.filter 搜索
@@ -697,27 +697,27 @@ social.market.gift.msg 赠送KR留言
 respawn.auto 您将会在｛0｝秒内重生
 custom.host.ranked 您不可以在排位赛进行时开设自定义房间。
 funds.insufficient 经费不足
-funds.out 您似乎没有KR了。
+funds.out 您似乎没有KR了
 custom.passcode.long 密码过长
 custom.passcode.input 请输入房间密码
-custom.tryagain 请重试。
+custom.tryagain 请重试
 purchase.kr.success 已成功将｛0｝KR加入您的账号
 limited.purchase.ask 您确定您要以｛1｝KR购买｛0｝吗？
-limited.purchase.success 以成功将｛0｝加入您的账号。
+limited.purchase.success 以成功将｛0｝加入您的账号
 pretend.exit 再次点击[{0}]以退出
 settings.loaded 设置已加载
 settings.loaded.none 该设置并不存在
 account.login.required 您必须先登录
-account.banned.hack 此账号已因为使用外挂被禁赛。
+account.banned.hack 此账号已因为使用外挂被禁赛
 account.banned.appeal 如果您认为您的账号被误封，请联系：
 account.delete 如果您的账号删除申请在14天內没有被撤销，所有关于此账号的信息将会被删除。
 account.delete.request 您确定您要申请账号删除吗？
 account.delete.cancel 您确定您要撤销账号删除申请吗？
 spin.free.available 免费KR已准备好！
-spin.free.claim  此转盘仅可在每小时完成一局比赛后获得。
-spin.free.disable 免费KR弹窗可以在设置中禁用。
-mod.reset.0 该设置将会在玩家重生后生效。
-mod.reset.1 地图将不会被重设。
+spin.free.claim  此转盘仅可在每小时完成一局比赛后获得
+spin.free.disable 免费KR弹窗可以在设置中禁用
+mod.reset.0 该设置将会在玩家重生后生效
+mod.reset.1 地图将不会被重设
 windows.profile.picture 更改头像
 stats.assists 助攻数
 stats.nukes 使用核弹数
@@ -728,11 +728,11 @@ stats.headshots 暴击数
 stats.wallbangs 穿墙击杀数
 stats.sprays 涂鸦次数
 windows.host.default.settings 保持玩家计分功能仅可在使用默认设置时被打开
-windows.host.default.commands 房主指令（比如/god, /smite, /noclip, 等等）将会在此模式中被禁用。
-windows.host.rewards 打开KR奖励功能后，玩家可以在地图内获得KR奖励, 但是自定义设置将会被禁用。
+windows.host.default.commands 房主指令（比如/god, /smite, /noclip, 等等）将会在此模式中被禁用
+windows.host.rewards 打开KR奖励功能后，玩家可以在地图内获得KR奖励, 但是自定义设置将会被禁用
 windows.store.wheels.sub 试试这些转盘，您将会有机会获得全新皮肤！
 windows.store.currency  *美元和您所在地区货币的汇率将会由支付服务提供商或您使用的银行决定
-windows.store.creator 在购买KR时，请考虑使用创作者专用码以支持我们的视频/地图/模组创作者。
+windows.store.creator 在购买KR时，请考虑使用创作者专用码以支持我们的视频/地图/模组创作者
 windows.chall.customs 您不可在自定义房间中完成挑战。
 twitch.link 您确定您要链接您的Twitch账号吗？
 twitch.unlink 您确定要取消链接吗？
