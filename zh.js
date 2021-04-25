@@ -90,14 +90,14 @@ settings.local.lang 语言
 settings.network.header 网路
 settings.network.sendRate 高服务器应答率
 settings.network.netRerouting 自动
-settings.network.lagComp 延迟修正(Lag Compensation)
+settings.network.lagComp 延迟修正
 settings.popup.header 弹窗
 settings.popup.freeKRPop 允许免费KR弹窗
 settings.experimental.header 实验性功能
-settings.experimental.aimFreezeFix ADS(瞄准)冻结修复
+settings.experimental.aimFreezeFix 开镜冻结修复
 settings.experimental.mouseFlickFix 视野跳动修复
 settings.experimental.shaderRendering 着色器渲染
-settings.dev.header
+settings.dev.header 开发者
 settings.dev.forceUpdate 强制刷新皮肤
 settings.dev.forceRegen 玩家保持回血状态
 settings.dev.extraBan 更多玩家禁赛信息
@@ -190,13 +190,13 @@ settings.interface.hideNames.enemy 名牌仅限敌人
 settings.interface.hideNames.all 所有人均显示名牌
 settings.interface.nametagStyle 名牌样式
 settings.interface.nametagOpac 名牌透明度
-settings.interface.nametagStyle.health 仅限血条(HP)
+settings.interface.nametagStyle.health 仅显示血条
 settings.interface.nametagStyle.name 仅限用户名
-settings.interface.nametagStyle.nameLvl 用户名和血条(HP)
+settings.interface.nametagStyle.nameLvl 用户名和血条
 settings.interface.nametagStyle.all 所有
 settings.interface.healthNum 名牌
-settings.interface.healthColT 队友血条(HP)颜色
-settings.interface.healthColE 敌人血条(HP)颜色
+settings.interface.healthColT 队友血条颜色
+settings.interface.healthColE 敌人血条颜色
 settings.interface.xpBarCol 经验条颜色
 settings.interface.xpBarOpac 经验条透明度
 settings.crosshair.header 准星
@@ -244,7 +244,7 @@ settings.serverb.header 游戏房间浏览器
 settings.serverb.oldBrowser 经典房间浏览器
 settings.serverb.defaultRegionOnly 只显示默认地区的房间
 settings.gameprivacy.header 隐私
-settings.gameprivacy.streamer 主播模式
+settings.gameprivacy.streamer 直播模式
 settings.gameprivacy.anon 匿名模式
 settings.gameprivacy.hideGameTitle 隐藏游戏标志
 settings.gameplay.header 游戏性
@@ -260,10 +260,10 @@ settings.controller.header 手柄
 settings.controller.sensitivityX X轴灵敏度
 settings.controller.disableCons 禁用手柄
 settings.controller.sensitivityY Y轴灵敏度
-settings.controller.aimsensX ADS(瞄准)X轴灵敏度
-settings.controller.aimsensY ADS(瞄准)Y轴灵敏度
-settings.controller.deadZoneL 手柄摇杆死区 (左)
-settings.controller.deadZoneR 手柄摇杆死区 (右)
+settings.controller.aimsensX 开镜水平灵敏度
+settings.controller.aimsensY 开镜垂直灵敏度
+settings.controller.deadZoneL 左手柄摇杆死区
+settings.controller.deadZoneR 右手柄摇杆死区
 settings.controller.triggerThres 触发阈值
 settings.controller.vibration 震动
 settings.controller.gradSpeed 渐缓速度
@@ -271,8 +271,8 @@ settings.controller.invert 反转Y轴
 settings.mobile.header 移动设备
 settings.mobile.sensitivityX X轴灵敏度
 settings.mobile.sensitivityY Y轴灵敏度
-settings.mobile.aimsensX ADS(瞄准)X轴灵敏度
-settings.mobile.aimsensY ADS(瞄准)Y轴灵敏度
+settings.mobile.aimsensX 开镜水平灵敏度
+settings.mobile.aimsensY 开镜垂直灵敏度
 settings.mobile.vibration 震动
 settings.mobile.gradSpeed 渐缓速度
 settings.mobile.invert 反转Y轴
@@ -301,8 +301,8 @@ settings.viewmodel.show.hands 显示手部
 settings.viewmodel.leftHand 左手持枪
 settings.viewmodel.aimAnim 武器开镜动画
 settings.viewmodel.rot 武器位置旋转
-settings.viewmodel.xOff 武器X轴坐标 (左/右）
-settings.viewmodel.yOff 武器Y轴坐标（上/下）
+settings.viewmodel.xOff 武器X轴坐标(左/右)
+settings.viewmodel.yOff 武器Y轴坐标(上/下）
 settings.viewmodel.zOff 武器Z轴坐标（前/后）
 settings.viewmodel.weapSwapY 切枪时武器的垂直位置
 settings.viewmodel.weapReloadY 换弹时武器的垂直位置
@@ -458,7 +458,7 @@ windows.controls.premium0 穿墙模式
 windows.controls.premium1 超高血量
 windows.controls.premium2 瞬间击杀全部玩家
 windows.controls.premium3 超高伤害
-windows.controls.reset 重设时复活的位置（仅限于跑酷/速度竞赛模式）
+windows.controls.reset 重设时复活的位(仅限于跑酷/速度竞赛模式)
 windows.controls.pretend 隐藏游戏
 windows.host.header 创建自定义游戏
 windows.host.maps 服务器设定
@@ -475,13 +475,13 @@ windows.host.rehost 请重新开始游戏
 windows.spray.header 选择涂鸦
 windows.spray.default 默认涂鸦
 windows.spray.spin 涂鸦
-windows.maps.header 自定义游戏
-windows.maps.none 没有找到游戏!
-windows.maps.name 游戏名称
-windows.maps.editor 游戏编辑器
-windows.maps.publish 发布游戏
-windows.maps.community 开发者社区
-windows.publish.map.header 发布或更新游戏
+windows.maps.header 自定义地图
+windows.maps.none 没有找到该地图!
+windows.maps.name 地图名称
+windows.maps.editor 地图编辑器
+windows.maps.publish 发布地图
+windows.maps.community 地图开发者社区
+windows.publish.map.header 发布或更新地图
 windows.publish.map.thumbnail 没有缩略图
 windows.publish.map.paste 粘贴游戏数据
 windows.publish.map.update 发布/更新地图
@@ -490,11 +490,11 @@ windows.theatre.header 影院模式
 windows.theatre.record 启用录制
 windows.theatre.key 录制按键
 windows.clans.header 战队
-windows.clans.members 战队成员 ({0})
+windows.clans.members 战队成员({0})
 windows.clans.requests 申请加入战队
 windows.clans.requests.none 没有申请
 windows.clans.page [{0}] 战队页面
-windows.clans.create 创建工战队
+windows.clans.create 创建战队
 windows.clans.name 战队名称
 windows.clans.view 浏览战队
 windows.clans.join 加入战队
@@ -519,7 +519,7 @@ windows.store.purchasing 购买中...
 windows.store.unboxed {0}开箱获得了{1}
 windows.trade.header 交易
 windows.scope.header 选择您的狙击镜准心
-windows.premium.header Premium
+windows.premium.header 会员
 windows.skin.header 选择皮肤
 windows.hat.header 选择头部
 windows.back.header 选择背部饰品
@@ -596,9 +596,9 @@ server.config.lives 玩家生命数
 server.config.gameTime 每局时间(分钟)
 server.config.gravMlt 重力
 server.config.tickRI 高传送率
-server.config.maxPS 40 名玩家服务器
+server.config.maxPS 40人房间
 server.config.promServ 推广服务器
-server.config.jumpMlt 跳跃力量
+server.config.jumpMlt 跳跃高度
 server.config.airStrf 空中对角线运动
 server.config.deltaMlt 时间倍率
 server.config.strafeSpd 对角线运动速度
@@ -728,7 +728,7 @@ stats.headshots 暴击数
 stats.wallbangs 穿墙击杀数
 stats.sprays 涂鸦次数
 windows.host.default.settings 保持玩家计分功能仅可在使用默认设置时被打开
-windows.host.default.commands 房主指令（比如/god, /smite, /noclip, 等等）将会在此模式中被禁用
+windows.host.default.commands 房主指令(如/god, /smite, /noclip, 等等)会在此模式中被禁用
 windows.host.rewards 打开KR奖励功能后，玩家可以在地图内获得KR奖励, 但是自定义设置将会被禁用
 windows.store.wheels.sub 试试这些转盘，您将会有机会获得全新皮肤！
 windows.store.currency  *美元和您所在地区货币的汇率将会由支付服务提供商或您使用的银行决定
