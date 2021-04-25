@@ -599,9 +599,9 @@ server.config.tickRI 高传送率
 server.config.maxPS 40人房间
 server.config.promServ 推广服务器
 server.config.jumpMlt 跳跃高度
-server.config.airStrf 空中对角线运动
+server.config.airStrf 空中对角线运动时的加速
 server.config.deltaMlt 时间倍率
-server.config.strafeSpd 对角线运动速度
+server.config.strafeSpd 对角线运动加速
 server.config.fiRat 武器射速
 server.config.reSpd 换弹速度
 server.config.slidTime 滑铲时间
