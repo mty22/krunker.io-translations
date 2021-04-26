@@ -301,12 +301,12 @@ settings.viewmodel.show.hands Mostar Mãos
 settings.viewmodel.leftHand Usar Mão Esquerda
 settings.viewmodel.aimAnim Animação de Mira da Arma
 settings.viewmodel.rot Rotação da Arma
-settings.viewmodel.xOff Arma X Deslocamento
-settings.viewmodel.yOff Arma Y Deslocamento
-settings.viewmodel.zOff Arma Z Deslocamento 
-settings.viewmodel.weapSwapY Troca De Arma Y
-settings.viewmodel.weapReloadY Recarga de Arma Y
-settings.viewmodel.yOffADS Mira da Arma Y Deslocamento
+settings.viewmodel.xOff Arma X Posição
+settings.viewmodel.yOff Arma Y Posicão
+settings.viewmodel.zOff Arma Z Posição
+settings.viewmodel.weapSwapY Troca De Arma Y Posição
+settings.viewmodel.weapReloadY Recarga de Arma Y Posição
+settings.viewmodel.yOffADS Mira da Arma Y Posição
 settings.viewmodel.adsFovMlt Campo de visão da Mira da Arma 
 settings.editing.header Edição
 settings.editing.health.high Hud de vida Alta
