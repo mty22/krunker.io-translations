@@ -78,8 +78,8 @@ purchase.error.click clique aqui</a> e tente novamente!
 purchase.error.limit Limite de Transação Diária pode ter sido Atingido
 settings.reset Resetar Configurações
 settings.reset.confirm Tem Certeza Que Deseja Resetar Todas Suas Configurações? Isso irá Atualizar A Página
-settings.import Importar Configurações
-settings.export Exportar Configurações
+settings.import Importar
+settings.export Exportar
 settings.none Nenhuma Configuração Encontrada
 settings.backup Backup de Configurações
 settings.controls.change Mudar Controles
