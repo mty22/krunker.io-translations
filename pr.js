@@ -1,5 +1,5 @@
 module.exports = `
-menu.btn.ranked Rankeada
+menu.btn.ranked Ranqueada
 menu.btn.shop Loja
 menu.btn.social Social
 menu.btn.maps Mapas
@@ -146,11 +146,11 @@ settings.quality.aspectRatio Proporção de Tela
 settings.post.header Pós-Processamento
 settings.post.post Pós-Processamento
 settings.post.bloom Contraste
-settings.post.bloomThreshold Limiar do Contraste
+settings.post.bloomThreshold Compactação do Contraste
 settings.post.bloomStrength Força do Contraste
 settings.post.bloomRadius Área do Contraste
-settings.post.ssao SSAO
-settings.post.ssaoRadius Área do SSAO
+settings.post.ssao Intencificardo da Iluminação
+settings.post.ssaoRadius Área de Intencificação da Iluminação
 settings.interface.hitInd Mostrar indicador de Hit
 settings.interface.hitColor Cor do indicardor de hit
 settings.interface.dmg Mostrar Dano
@@ -289,12 +289,12 @@ settings.audio.dialogue Volume de Ação
 settings.viewmodel.header Modo de Visualização
 settings.viewmodel.fov Campo de Visão
 settings.viewmodel.fps Campo de Visão da Arma
-settings.viewmodel.bobbing Balançamento da Arma
-settings.viewmodel.leaning Velocidade de Vinda da Arma
+settings.viewmodel.bobbing Balanço da Arma
+settings.viewmodel.leaning Delay de Posicionamento da Arma
 settings.viewmodel.show.primary Mostrar Primária
 settings.viewmodel.show.secondary Mostrar Secundária
 settings.viewmodel.roundArms Braços Arredondados
-settings.viewmodel.show.melee Mostrar Faca
+settings.viewmodel.show.melee Mostrar Armas Brancas
 settings.viewmodel.show.ads Esconder Arma Enquanto Mira
 settings.viewmodel.toggleAim Alternancia na mira
 settings.viewmodel.show.hands Mostar Mãos
@@ -369,7 +369,7 @@ settings.mods.ammo.paste URL do Icone de Munição
 settings.mods.kills Icone de Abates
 settings.mods.kills.paste URL do Icone de Abates
 settings.mods.deaths Icone de Mortes
-settings.mods.deaths.paste URL do Icone de Mortes
+settings.mods.deaths.paste URL do Icone de MortesF
 settings.mods.streak Icone de Sequência de Abates
 settings.mods.streak.paste URL do Icone de Sequência de Abates
 settings.mods.timer Icone do Cronômetro
@@ -525,7 +525,7 @@ windows.hat.header Selecione um chapéu
 windows.back.header Selecione Novamente
 windows.waist.header Selecione uam Cintura
 windows.face.header Selecione um Rosto
-windows.melee.header Selecione uma Faca
+windows.melee.header Selecione uma Arma Branca
 windows.attach.header Selecione Attitchman
 windows.reticle.header Selecione Reticle
 windows.reticle.unlocked Travado em 1v1 {0}
@@ -647,7 +647,7 @@ server.config.logTim Tempo de login (Coriidas & Parkur)
 server.config.hitBoxPad Preenchiemnto de HitBox
 server.config.hpRegen Regeneração de Vida
 server.config.disableB Desativar Bordas
-server.config.throwMel Jogamento de Facas
+server.config.throwMel Jogamento de Armas Brancas
 server.config.noCosm Desativar Cosméticos
 social.login Login/Registro
 social.login.failed Falha na Autenticação
@@ -679,7 +679,7 @@ social.market.waist Item de Cintura
 social.market.face Item de Rosto
 social.market.shoe Item de Sapato
 social.market.pet Item de Pet
-social.market.melee Item de Faca
+social.market.melee Itens de Armas Brancas
 social.market.spray Item de pixação
 social.market.dye Item de Corpo
 social.market.none Nenhum Item Encontrado
@@ -721,9 +721,9 @@ mod.reset.1 Objetivo do mapa não tera Reset
 windows.profile.picture Mude a Imagem
 stats.assists Assistência
 stats.nukes Nukes
-stats.melee Abates na Faca
+stats.melee Abates com Armas Brancas
 stats.fistkills Abates no Corpo no a Corpo
-stats.thrownkills Abatas arremeçando a Faca
+stats.thrownkills Abatas arremeçando Armas Brancas
 stats.headshots Tiros na Cabeça
 stats.wallbangs Tiros Através da Parede
 stats.sprays Pixações Postas
