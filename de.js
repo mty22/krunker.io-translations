@@ -689,7 +689,7 @@ social.market.sort Filtern/Sortieren
 social.market.filter Suchen
 social.market.sort2 Sortieren
 social.market.price.high Höchster Preis
-social.trading.submitting Angebot einreichen...
+social.trading.submitting Angebot wird eingereicht...
 social.market.gift.amount Geschenkbetrag in
 social.market.fee.gift Keine Gebühr
 social.market.gift KR verschenken
