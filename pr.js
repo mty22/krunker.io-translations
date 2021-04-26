@@ -219,7 +219,7 @@ settings.crosshair.shadow.color Cor da Sombra
 settings.crosshair.shadow.thickness Espessura da Sombra
 settings.crosshair.size Tamanho
 settings.crosshair.thickness Espessura
-settings.crosshair.gap Gap
+settings.crosshair.gap Espaçamento
 settings.crosshair.dot Meio
 settings.crosshair.opacity.use Usar Opacidade Customizada
 settings.crosshair.opacity.custom Opacidade Customizada
