@@ -728,7 +728,7 @@ stats.headshots 헤드샷
 stats.wallbangs 관통 처치
 stats.sprays 스프레이 수
 windows.host.default.settings 기본 설정을 사용하면 플레이어 진행률과 최고 점수를 저장할 수 있습니다
-windows.host.default.commands /noclip, /god, /smite와 같은 호스트 명령어는 비활성화됩니다 
+windows.host.default.commands /noclip, /god, /smite와 같은 호스트 명령어는 비활성화됩니다
 windows.host.rewards KR 보상을 허용하면 서버 내에서 기본 설정을 강제합니다 & 맵 자본에서 KR을 벌 수 있게 합니다
 windows.store.wheels.sub 스핀을 돌려 운을 시험하고 새 스킨을 얻을 기회를 노려보세요!
 windows.store.currency * 미국 달러(USD)로 표시된 가격은 결제 제공업체나 은행에서 정한 환율에 따라 현지 통화로 환전될 수 있습니다.
@@ -744,34 +744,34 @@ windows.playerlist.ban {0}을 이 게임에서 밴하시겠습니까?
 windows.playerlist.flag {0}을 해커태그 하시겠습니까?
 windows.playerlist.unflag {0}의 해커태그를 취소하시겠습니까?
 windows.playerlist.punish {0}에 대해 조치를 취하시겠습니까?
-item.view.open Open Model Viewer
-item.view.more More Information
-item.sell.cant Item cant be sold.
-item.sell.quick Are you sure you want to Quick Sell {0}?
-social.profile.stats Overall Stats
-social.profile.class Class Stats
-social.profile.sales Sales
-social.profile.sales.market Market Sales
-social.profile.skins Skins [{0}]
-social.profile.skins.none No published Skins from this user
-social.profile.games Games [{0}]
-social.profile.games.none No published Games from this user
-social.profile.assets Assets [{0}]
-social.profile.assets.none No published Assets from this user
-social.profile.mods Mods [{0}]
-social.profile.mods.none No published Mods from this user
-social.search Search Results
-social.market.stats.rare Rarest Items
-social.market.stats.circulation In Circulation
-social.market.stats.units units Worldwide
-social.trades.in Incoming
-social.trades.in.head Incoming Offers ({0})
-social.trades.out Outgoing
-social.trades.out.head Outgoing Offers ({0})
-social.trades.history History
-social.trades.history.head Trade History ({0})
-social.trades.decline Decline All
-social.trades.message ENABLE TRADE MESSAGES IN SETTINGS
-social.trades.warning You get no items from this trade!
-social.trades.accept Are you sure you want to accept this offer?
+item.view.open 모델 뷰어 열기
+item.view.more 정보
+item.sell.cant 이 아이템은 판매할 수 없습니다.
+item.sell.quick 정말로 {0} 아이템을 빠른 판매 하시겠습니까?
+social.profile.stats 전체 전적
+social.profile.class 클래스 전적
+social.profile.sales 판매
+social.profile.sales.market 마켓 판매 기록
+social.profile.skins 스킨 [{0}]
+social.profile.skins.none 게시한 스킨이 없습니다.
+social.profile.games 게임 [{0}]
+social.profile.games.none 게시한 게임이 없습니다.
+social.profile.assets 애셋 [{0}]
+social.profile.assets.none 게시한 애셋이 없습니다.
+social.profile.mods Mod [{0}]
+social.profile.mods.none 게시한 Mod가 없습니다.
+social.search 검색 결과
+social.market.stats.rare 가장 희귀한 아이템
+social.market.stats.circulation 유통 중
+social.market.stats.units 개
+social.trades.in 요청 받음
+social.trades.in.head 받은 요청 ({0})
+social.trades.out 요청 보냄
+social.trades.out.head 보낸 요청 ({0})
+social.trades.history 기록
+social.trades.history.head 트레이드 기록 ({0})
+social.trades.decline 모두 거절하기
+social.trades.message 메시지를 보려면 설정에서 트레이드 메시지 표시를 활성화하세요.
+social.trades.warning 이 요청을 통해 얻을 수 있는 아이템이 없습니다!
+social.trades.accept 정말로 이 트레이드 요청을 수락하시겠습니까?
 `;
