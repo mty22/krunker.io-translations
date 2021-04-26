@@ -163,7 +163,7 @@ settings.interface.scoreboard 구 스코어보드 사용
 settings.interface.oldBrowser 구 서버 탐색기 사용
 settings.interface.rarityanim 희귀도 애니메이션 끄기
 settings.interface.showPfp 프로필 사진 표시
-settings.interface.showTradeMsg 트레이드 메시지 표시
+settings.interface.showTradeMsg 거래 메시지 표시
 settings.interface.hp 동적 HP 막대
 settings.interface.dmgScale 피해량 숫자 크기
 settings.interface.killf 킬로그 표시
@@ -517,7 +517,7 @@ windows.store.amount {0} KR이 계정에 있습니다
 windows.store.login 해서 마켓에서 아이템을 사고파세요!
 windows.store.purchasing 구매 중...
 windows.store.unboxed {0}님이 {1} 아이템을 뽑았습니다.
-windows.trade.header 트레이드 중
+windows.trade.header 거래 중
 windows.scope.header 스코프 선택
 windows.premium.header 프리미엄
 windows.skin.header 스킨 선택
@@ -689,7 +689,7 @@ social.market.sort 필터/정렬
 social.market.filter 검색
 social.market.sort2 정렬
 social.market.price.high 가격 내림차순
-social.trading.submitting 트레이드 보내는 중...
+social.trading.submitting 거래 요청 보내는 중...
 social.market.gift.amount 선물할
 social.market.fee.gift 수수료 없음
 social.market.gift KR 선물하기
@@ -746,20 +746,20 @@ windows.playerlist.unflag {0}의 해커 태그를 제거하시겠습니까?
 windows.playerlist.punish {0}에 대해 조치를 취하시겠습니까?
 item.view.open 모델 뷰어 열기
 item.view.more 더 많은 정보
-item.sell.cant 이 아이템은 판매될 수 없습니다
+item.sell.cant 이 아이템은 판매할 수 없습니다
 item.sell.quick {0}을(를) 빠른 판매할까요?
 social.profile.stats 전반적 스탯
 social.profile.class 클래스 스탯
 social.profile.sales 판매
 social.profile.sales.market 마켓 판매
 social.profile.skins 스킨 [{0}]
-social.profile.skins.none 이 유저가 발행한 스킨이 없습니다
+social.profile.skins.none 이 유저가 게시한 스킨이 없습니다
 social.profile.games 게임 [{0}]
-social.profile.games.none 이 유저가 발행한 게임이 없습니다
+social.profile.games.none 이 유저가 게시한 게임이 없습니다
 social.profile.assets 에셋 [{0}]
-social.profile.assets.none 이 유저가 발행한 에셋이 없습니다
+social.profile.assets.none 이 유저가 게시한 에셋이 없습니다
 social.profile.mods 모드 [{0}]
-social.profile.mods.none 이 유저가 발행한 모드가 없습니다
+social.profile.mods.none 이 유저가 게시한 모드가 없습니다
 social.search 검색 결과
 social.market.stats.rare 희귀 아이템
 social.market.stats.circulation 유통 개수
