@@ -233,7 +233,7 @@ settings.hitmarker.spacing Espaçamento
 settings.hitmarker.animD Tamanho de Abrimento
 settings.hitmarker.animS Velocidade de Abrimento
 settings.hitmarker.hitm Mostrar
-settings.hitmarker.hitmFad Velocidade Fade
+settings.hitmarker.hitmFad Velocidade de Transição
 settings.hitmarker.custom Imagem do HitMarker
 settings.hitmarker.custom.paste URL da imagem do Hitmarker
 settings.onKillS.style.0 Padrão
