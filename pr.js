@@ -298,7 +298,7 @@ settings.viewmodel.show.melee Mostrar Armas Brancas
 settings.viewmodel.show.ads Esconder Arma Enquanto Mira
 settings.viewmodel.toggleAim Alternancia na mira
 settings.viewmodel.show.hands Mostar Mãos
-settings.viewmodel.leftHand Mãos Esquerdas
+settings.viewmodel.leftHand Usar Mão Esquerda
 settings.viewmodel.aimAnim Animação de Mira da Arma
 settings.viewmodel.rot Rotação da Arma
 settings.viewmodel.xOff Arma X Deslocamento
@@ -379,7 +379,7 @@ settings.mods.damage Imagem de Sobreposição de Dano
 settings.mods.damage.paste URL da Sobreposição De Dano
 settings.mods.overlay Imagem da Sobreposição do Jogo
 settings.mods.overlay.paste URL da Imagem de Sobreposição do Jogo
-settings.social.region Statos da Região
+settings.social.region Stats da Região
 windows.settings.header Configuração de Jogo
 windows.mail.header E-MAIL do Krunker
 windows.servers.header Navegador do Servidor
@@ -409,7 +409,7 @@ windows.loadout.color.chat Cor do nome no Chat
 windows.loadout.color.hair Cor do Cabelo
 windows.loadout.dye Corpo
 windows.loadout.pet Pet
-windows.loadout.stat Statos do Cartão de Abate
+windows.loadout.stat Stats do Cartão de Abate
 windows.loadout.flag Bandeira do Pais
 windows.mods.drop Solte um Arquivo de Modificação Aqui
 windows.mods.paste Colar Url da Modificação
@@ -738,7 +738,7 @@ twitch.link Você ten certeza que quer Linkar Sua Conta da Twitch?
 twitch.unlink Você ten certeza que quer Linkar Sua Conta da Twitch?
 windows.clan.leave Você Ten Certeza Que Quer Sair do Seu Clã?
 windows.clan.delete Você Ten Certeza Que Quer Sair do Seu Clã?
-windows.clan.kick VGocê tem certeza que quer kikar {0} do clã?
+windows.clan.kick Você tem certeza que quer kikar {0} do clã?
 windows.store.premium.purchase Tem certeza de que deseja comprar {0} dias Premium?
 windows.playerlist.ban Tem certeza que deseja banir {0} deste jogo?
 windows.playerlist.flag Tem certeza que deseja Banir {0}?
@@ -748,8 +748,8 @@ item.view.open Abrir Visualizador de Modelo
 item.view.more Mais Informações
 item.sell.cant Item Impossível de ser Vendido
 item.sell.quick Você tem Certeja Qeu Deseja Fazer a Venda Rápida {0}?
-social.profile.stats Statos em Geral
-social.profile.class Statos da Classe
+social.profile.stats Stats em Geral
+social.profile.class Stats da Classe
 social.profile.sales Vendas
 social.profile.sales.market Vendas no Mercado
 social.profile.skins Skins [{0}]
