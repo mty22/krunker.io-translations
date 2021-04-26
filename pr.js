@@ -772,6 +772,6 @@ social.trades.history Histórico
 social.trades.history.head Histórico de Trade ({0})
 social.trades.decline Rejeitar Todas
 social.trades.message Abilitar Mensagens de Troca Nas Configurações
-social.trades.warning VocÇe não Ganhara Nenhum Item Nessa Troca
+social.trades.warning Você não Ganhara Nenhum Item Nessa Troca
 social.trades.accept Você tem Certeza que Deseja Aceitar essa Oferta?
 `;
