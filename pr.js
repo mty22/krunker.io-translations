@@ -177,8 +177,8 @@ settings.interface.streak Mostrar Icone de Sequência de Abates
 settings.interface.score Mostrar Icone de Pontos
 settings.interface.spectators Mostar icone de Espectadores
 settings.interface.speed Mostrar Velocidade de Movimento
-settings.interface.speedOffX Velocidade X Deslocamento
-settings.interface.speedOffY Velocidade Y Deslocamento
+settings.interface.speedOffX Velocidade X Posição
+settings.interface.speedOffY Velocidade Y Posição
 settings.interface.speedOpacity Opacidade da Velocidade
 settings.interface.speedScale Escala da Velociadade
 settings.interface.speedColor Cor da Velocidade (atual)
@@ -317,21 +317,21 @@ settings.editing.score.color Cor do Pop-Up de Pontos
 settings.editing.score.show Mostar Pop-Up de Pontos
 settings.editing.score.scale Escala de Pop-Up de pontos
 settings.editing.score.shadow Sombreamento dos Pop-Up de Pontos
-settings.editing.scoreOffX Pontos Pop-Up X Deslocamento
-settings.editing.scoreOffY Pontos Pop-Up Y Deslocamento
+settings.editing.scoreOffX Pontos Pop-Up X Posição
+settings.editing.scoreOffY Pontos Pop-Up Y Posição
 settings.editing.prog.color Cor da barra de Progresso
 settings.editing.prog.opacity Opacidade da Barra de Progresso
 settings.editing.prog.scale Escala da Barra de Progresso
 settings.editing.prog.shadow Sombra da Barra de progresso
-settings.editing.progOffX Barra de Progresso X Deslocamento
-settings.editing.progOffY Barra de Progresso y Deslocamento
+settings.editing.progOffX Barra de Progresso X Posição
+settings.editing.progOffY Barra de Progresso y Posição
 settings.editing.progRot Rotação da Barra de Progresso
 settings.editing.progm.color Cor da Barra de Carregamento
 settings.editing.progm.opacity Opacidade da Barra de Carregamento
 settings.editing.progm.scale Escala Da Barra de Carregamento
 settings.editing.progm.shadow Sombreamento Da Barra de Carregamento
-settings.editing.progmOffX Barra de carregamento X Deslocamento
-settings.editing.progmOffY Barra de Carregamento Y Deslocamento
+settings.editing.progmOffX Barra de carregamento X Posição
+settings.editing.progmOffY Barra de Carregamento Y Posição
 settings.editing.progmRot Rotação da Barra de Carregamento
 settings.editing.saturation Saturação (No Jogo)
 settings.editing.menuSaturation Saturação (Escala)
@@ -343,7 +343,7 @@ settings.editing.depth Mapa de Profundidade
 settings.editing.green Fundo Verde
 settings.editing.tracercol Marcado de Bala
 settings.editing.tracer Marcado de Bala
-settings.editing.tracer.offset Deslocamento do Traçador
+settings.editing.tracer.offset Posição do Traçador
 settings.shaders.header Sombreamento
 settings.mods.header Modificações
 settings.mods.load Carregar Modificações
