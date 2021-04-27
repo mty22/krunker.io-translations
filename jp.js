@@ -11,7 +11,7 @@ menu.btn.invite.clicked コピーしました
 menu.btn.join 参加する
 menu.btn.host ゲームをホスト
 menu.btn.browser サーバー
-generic.wait お待ちください..
+generic.wait お待ちください...
 generic.loading ロード中...
 generic.none なし
 generic.connecting 接続中...
@@ -74,7 +74,7 @@ app.spectate.mobile タップして観戦する
 app.play.controller STARTを押してください
 app.spectate.controller STARTを押して観戦する
 purchase.error エラーが発生しました
-purchase.error.click ここをクリック</a>して、もう一度試してください！
+purchase.error.click ここをクリック</a>して、もう一度試してください!
 purchase.error.limit 1日の取引限度額を超えている可能性があります
 settings.reset リセット
 settings.reset.confirm 全ての設定をリセットしてもよろしいですか?
@@ -134,7 +134,7 @@ settings.quality.mflash マズルフラッシュ
 settings.quality.flap スナイパーフラップ
 settings.quality.lowSpec 低スペック
 settings.quality.ambient シェーディング (環境光)
-settings.quality.ambientOld 旧式のシェーディング (可能な場合のみ)
+settings.quality.ambientOld 古いシェーディング (可能な場合のみ)
 settings.quality.textureAnim テクスチャアニメーション
 settings.quality.objectAnim オブジェクトアニメーション
 settings.quality.screenShake 画面の振動
@@ -145,10 +145,10 @@ settings.quality.showExplo 爆発を表示
 settings.quality.aspectRatio アスペクト比
 settings.post.header ポストプロセシング
 settings.post.post ポストプロセシング
-settings.post.bloom Bloom
-settings.post.bloomThreshold Bloomのしきい値
-settings.post.bloomStrength Bloomの強さ
-settings.post.bloomRadius Bloomの半径
+settings.post.bloom ブルーム
+settings.post.bloomThreshold ブルームのしきい値
+settings.post.bloomStrength ブルームの強さ
+settings.post.bloomRadius ブルームの半径
 settings.post.ssao SSAO
 settings.post.ssaoRadius SSAOの半径
 settings.interface.hitInd ヒットマーカーを表示
@@ -583,7 +583,7 @@ matchmaker.none サーバー数が最大です
 adblocker 無料でKRを受け取るには、広告ブロッカーを無効にしてください
 ad-failed 広告の読み込みに失敗しました。後でもう一度試してください
 streamers.views {0}人が観戦中
-streamers.none Twitchの配信はありません！
+streamers.none Twitchの配信はありません!
 error.extentions 拡張機能がある場合は無効にしてください。
 error.seek クリックして新しいゲームを探してください
 custom.map.upload.limit 失敗しました。ゲームデータは500kbに制限されています。
@@ -702,7 +702,7 @@ custom.passcode.long パスワードが長すぎます
 custom.passcode.input 参加するにはパスワードを入力してください
 custom.tryagain もう一度やり直してください
 purchase.kr.success {0}KRをあなたのアカウントに追加しました
-limited.purchase.ask [{0}]を{1}KRで購入しますか？
+limited.purchase.ask [{0}]を{1}KRで購入しますか?
 limited.purchase.success {0}をインベントリに追加しました
 pretend.exit もう一度[{0}]を押してゲームから離れる
 settings.loaded 設定を読み込みました
@@ -711,9 +711,9 @@ account.login.required ログインが必要です
 account.banned.hack このアカウントはチート行為によってBANされました
 account.banned.appeal もしアカウントのBANについて異議申し立てがある場合はこちらへ:
 account.delete アカウント削除のリクエストがされた場合、14日以内にキャンセルされなければアカウントと関連するすべてのデータは永久に削除されます
-account.delete.request 本当にアカウント削除をリクエストしますか？
-account.delete.cancel 本当にアカウント削除のリクエストを取り消しますか？
-spin.free.available フリーKRが利用可能です！
+account.delete.request 本当にアカウント削除をリクエストしますか?
+account.delete.cancel 本当にアカウント削除のリクエストを取り消しますか?
+spin.free.available フリーKRが利用可能です!
 spin.free.claim このスピンは試合終了後、一時間に一回回すことが出来ます
 spin.free.disable このポップアップは設定から非表示にすることが出来ます
 mod.reset.0 リスポーン後から有効になります
@@ -730,48 +730,48 @@ stats.sprays スプレー回数
 windows.host.default.settings デフォルト設定を有効にすることでプレイヤーの進捗とハイスコアを保存することが出来ます
 windows.host.default.commands *ホストコマンド(/noclip /god /smite 等)はこのモードでは無効化されています
 windows.host.rewards KR報酬を有効にした場合デフォルト設定の使用が強制され、プレイヤーがこのマップの資産からKR報酬を入手することが出来るようになります:
-windows.store.wheels.sub 新しいスキンを手に入れるためにスピンで運試しをしましょう！
+windows.store.wheels.sub 新しいスキンを手に入れるためにスピンで運試しをしましょう!
 windows.store.currency * 米ドルでの金額表記はあなたの国の通貨に変換され、その際の両替レートは支払いサービスや銀行が定めたものによります
 windows.store.creator クリエイターコードを使ってあなたのお気に入りのクリエイターを支援しましょう
 windows.chall.customs カスタムマッチ内でチャレンジをクリアすることは出来ません
-twitch.link 本当にtwitchアカウントとリンクしますか？
-twitch.unlink 本当にtwitchアカウントとのリンクを解除しますか？
-windows.clan.leave 本当にこのクランを離れますか？
-windows.clan.delete 本当にこのクランを削除しますか？
-windows.clan.kick 本当に{0}をこのクランからキックしますか？
-windows.store.premium.purchase 本当に{0}日分のプレミアムを購入しますか？
-windows.playerlist.ban 本当に{0}をこのゲームからBANしますか？
-windows.playerlist.flag 本当に{0}にハッカータグを付けますか？
-windows.playerlist.unflag 本当に{0}のハッカータグを解除しますか？
-windows.playerlist.punish 本当に{0}にアクションを起こしますか？
-item.view.open Open Model Viewer
-item.view.more More Information
-item.sell.cant Item cant be sold.
-item.sell.quick Are you sure you want to Quick Sell {0}?
-social.profile.stats Overall Stats
-social.profile.class Class Stats
-social.profile.sales Sales
-social.profile.sales.market Market Sales
+twitch.link 本当にtwitchアカウントとリンクしますか?
+twitch.unlink 本当にtwitchアカウントとのリンクを解除しますか?
+windows.clan.leave 本当にこのクランを離れますか?
+windows.clan.delete 本当にこのクランを削除しますか?
+windows.clan.kick 本当に{0}をこのクランからキックしますか?
+windows.store.premium.purchase 本当に{0}日分のプレミアムを購入しますか?
+windows.playerlist.ban 本当に{0}をこのゲームからBANしますか?
+windows.playerlist.flag 本当に{0}にハッカータグを付けますか?
+windows.playerlist.unflag 本当に{0}のハッカータグを解除しますか?
+windows.playerlist.punish 本当に{0}にアクションを起こしますか?
+item.view.open モデルビューワーを開く
+item.view.more 詳細
+item.sell.cant このアイテムは販売できません
+item.sell.quick 本当に{0}をクイック販売しますか?
+social.profile.stats 全体の統計
+social.profile.class クラスごとの統計
+social.profile.sales 販売
+social.profile.sales.market マーケットの利益
 social.profile.skins Skins [{0}]
-social.profile.skins.none No published Skins from this user
+social.profile.skins.none このユーザーによって公開されたスキンはありません
 social.profile.games Games [{0}]
-social.profile.games.none No published Games from this user
+social.profile.games.none このユーザーによって公開されたゲームはありません
 social.profile.assets Assets [{0}]
-social.profile.assets.none No published Assets from this user
+social.profile.assets.none このユーザーによって公開されたアセットはありません
 social.profile.mods Mods [{0}]
-social.profile.mods.none No published Mods from this user
-social.search Search Results
-social.market.stats.rare Rarest Items
-social.market.stats.circulation In Circulation
-social.market.stats.units units Worldwide
-social.trades.in Incoming
-social.trades.in.head Incoming Offers ({0})
-social.trades.out Outgoing
-social.trades.out.head Outgoing Offers ({0})
-social.trades.history History
-social.trades.history.head Trade History ({0})
-social.trades.decline Decline All
-social.trades.message ENABLE TRADE MESSAGES IN SETTINGS
-social.trades.warning You get no items from this trade!
-social.trades.accept Are you sure you want to accept this offer?
+social.profile.mods.none このユーザーによって公開されたMODはありません
+social.search 検索結果
+social.market.stats.rare レアなアイテム
+social.market.stats.circulation 流通量
+social.market.stats.units 個 (全地域)
+social.trades.in 受信済み
+social.trades.in.head 受信した申請 ({0})
+social.trades.out 送信済み
+social.trades.out.head 送信した申請 ({0})
+social.trades.history 履歴
+social.trades.history.head トレード履歴 ({0})
+social.trades.decline すべて拒否
+social.trades.message トレードメッセージを設定から有効にしてください
+social.trades.warning このトレードではあなたは何も手に入れません!
+social.trades.accept 本当にこの申請を許可しますか?
 `;
