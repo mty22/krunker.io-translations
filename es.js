@@ -746,16 +746,16 @@ windows.playerlist.unflag Estás seguro de que quieres remover la suspención de
 windows.playerlist.punish Estás seguro de que quieres tomar acciones en {0}?
 item.view.open Abrir Visualizador de Modelos
 item.view.more Mas Información
-item.sell.cant El objeto no se puede Vender.
-item.sell.quick Estás seguro de que quieres vender rapidamente {0}?
+item.sell.cant El objeto no se puede Vender
+item.sell.quick Estás seguro de que quieres vender rápidamente {0}?
 social.profile.stats Estadísticas Generales
 social.profile.class Estadísticas de Clase
 social.profile.sales Ventas
 social.profile.sales.market Ventas en el Mercado
 social.profile.skins Skins [{0}]
-social.profile.skins.none No hay skins publicadas por este Usuario.
+social.profile.skins.none No hay skins publicadas por este Usuario
 social.profile.games Juegos [{0}]
-social.profile.games.none No hay Juegos publicados por este Usuario.
+social.profile.games.none No hay Juegos publicados por este Usuario
 social.profile.assets Assets [{0}]
 social.profile.assets.none No hay Assets publicados por este Usuario
 social.profile.mods Mods [{0}]
@@ -773,5 +773,5 @@ social.trades.history.head Historial de Intercambios ({0})
 social.trades.decline Rechazar Todo
 social.trades.message ACTIVA LOS MENSAJES DE INTERCAMBIO EN LAS CONFIGURACIONES
 social.trades.warning No obtienes objetos de este intercambio!
-social.trades.accept Estas seguro de qué quieres aceptar esta oferta??
+social.trades.accept Estas seguro de qué quieres aceptar esta oferta?
 `;
