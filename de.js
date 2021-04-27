@@ -772,6 +772,6 @@ social.trades.history Verlauf
 social.trades.history.head Handelsverlauf ({0})
 social.trades.decline Alle Ablehnen
 social.trades.message AKTIVIERE HANDELSNACHRICHTEN IN DEN EINSTELLUNGEN
-social.trades.warning Du bekommt keine Items aus diesem Handel!
+social.trades.warning Du bekommst keine Items aus diesem Handel!
 social.trades.accept Bist du sicher, dass du dieses Angebot annehmen möchtest?
 `;
