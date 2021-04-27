@@ -773,5 +773,5 @@ social.trades.history.head Historial de Intercambios ({0})
 social.trades.decline Rechazar Todo
 social.trades.message ACTIVA LOS MENSAJES DE INTERCAMBIO EN LAS CONFIGURACIONES
 social.trades.warning No obtienes objetos de este intercambio!
-social.trades.accept Estas seguro de qué quieres aceptar esta oferta?
+social.trades.accept Estás seguro de qué quieres aceptar esta oferta?
 `;
