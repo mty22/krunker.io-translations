@@ -80,7 +80,7 @@ settings.reset 重置
 settings.reset.confirm 您是否希望重置所有設置?
 settings.import 導入
 settings.export 導出
-settings.none 沒有找到此設置
+settings.none 查找無結果
 settings.backup 備份設置
 settings.controls.change 鍵鈕綁定
 settings.controls.press 按下任意按鍵
@@ -149,8 +149,8 @@ settings.post.bloom 綻放
 settings.post.bloomThreshold 綻放閾值
 settings.post.bloomStrength 綻放強度
 settings.post.bloomRadius 綻放半徑
-settings.post.ssao SSAO
-settings.post.ssaoRadius SSAO 半徑
+settings.post.ssao 屏幕空間環境光屏蔽
+settings.post.ssaoRadius 屏蔽環境光半徑
 settings.interface.hitInd 傷害指示器
 settings.interface.hitColor 傷害指示顏色
 settings.interface.dmg 顯示傷害
@@ -282,7 +282,7 @@ settings.audio.ambient 環境音量
 settings.audio.voice 語音音量
 settings.audio.weps 武器音量
 settings.audio.player 玩家音量
-settings.audio.skin Cosmetics 音量
+settings.audio.skin 服飾音量
 settings.audio.ui 用戶界面音量
 settings.audio.asset Asset 音量
 settings.audio.dialogue 行動音量
@@ -539,7 +539,7 @@ windows.mods.community.fav 已收藏插件
 windows.mods.community.new 最新插件
 windows.mods.community.hot 熱門插件
 windows.mods.community.name 插件名稱
-windows.mods.community.none 沒有找到此插件
+windows.mods.community.none 查找無結果
 windows.publish.mod.header 發表插件
 windows.publish.mod.thumbnail 沒有縮略圖
 windows.publish.mod.name 插件名稱
@@ -552,7 +552,7 @@ windows.secondary.req 需要至少 {0} 等級
 windows.advertise.header 廣告
 windows.support.header 支持
 windows.players.header 玩家列表
-windows.players.none 當前沒有玩家...
+windows.players.none 當前沒有玩家在线...
 windows.join.header 加入
 windows.join.code 輸入遊戲網址/代碼
 windows.client.header 客戶端
@@ -604,9 +604,9 @@ server.config.deltaMlt 時間倍率
 server.config.strafeSpd Strafe 速度
 server.config.fiRat 武器射速
 server.config.reSpd 換彈速度
-server.config.slidTime Slide 時間
+server.config.slidTime 滑行時間
 server.config.fixMov 修復移動
-server.config.slidSpd Slide 速度
+server.config.slidSpd 滑行速度
 server.config.healthMlt 血量倍率
 server.config.impulseMlt 武器后坐力
 server.config.nameTeam1 隊伍 1 名字
@@ -625,14 +625,14 @@ server.config.killRewards 擊殺獎勵
 server.config.headshotOnly 僅限爆頭模式
 server.config.noSecondary 禁用服務器
 server.config.noStreaks 禁用連殺
-server.config.canSlide 啟用 Sliding
+server.config.canSlide 啟用滑行
 server.config.wallJP 牆壁跳躍倍率
 server.config.autoJump 自動跳躍
 server.config.bDrop 子彈下墜
 server.config.thirdPerson 第三人稱
 server.config.requireCaptcha 需要 Captcha 驗證
 server.config.nameTags 隱藏名牌
-server.config.kCams 殺 Cams
+server.config.kCams 玩家死亡視角
 server.config.noReload 無需重裝彈藥
 server.config.private 私人
 server.config.krRewards KR 獎勵
@@ -647,8 +647,8 @@ server.config.logTim 遊玩時間(比賽, 跑酷)
 server.config.hitBoxPad 擊中判斷模型倍率
 server.config.hpRegen 血量回復
 server.config.disableB 解除地圖邊界
-server.config.throwMel 啟用扔飛刀
-server.config.noCosm 禁用 Cosmetics
+server.config.throwMel 啟用投擲近戰武器
+server.config.noCosm 禁用飾品
 social.login 登錄/註冊
 social.login.failed 登錄失敗
 social.login.buy 登錄后購買
@@ -658,15 +658,15 @@ social.login.proccessing 登錄中...
 social.since 自從
 social.user.maps 用戶地圖
 social.user.mods 用戶插件
-social.maps.none 沒有找到地圖...
-social.mods.none 沒有找到插件...
+social.maps.none 沒有找到此地圖...
+social.mods.none 沒有找到此插件...
 social.market.price.low 最低價格
 social.market.price.list 輸入價格
 social.market.searching 搜索
 social.market.listed {0}前上架
 social.market.list 上架物品
 social.market.unlist 下架物品
-social.market.unlisting 下架物品中...
+social.market.unlisting 物品下架中...
 social.market.posting 發布中...
 social.market.req 需要至少{0}等級
 social.market.cant KR不足以支付
@@ -682,7 +682,7 @@ social.market.pet 寵物
 social.market.melee 近戰武器
 social.market.spray 塗鴉物品
 social.market.dye 服裝物品
-social.market.none 沒有找到此物品
+social.market.none 查找無結果
 social.market.login 您必須先登錄.
 social.market.grace {0}秒後生效
 social.market.sort 篩選/排序
@@ -692,12 +692,12 @@ social.market.price.high 最高價格
 social.trading.submitting 提交報價中...
 social.market.gift.amount 贈送金額
 social.market.fee.gift 無費用
-social.market.gift 贈送KR
+social.market.gift 贈送 KR
 social.market.gift.msg 留言
 respawn.auto 自動重生在 {0} 秒內
 custom.host.ranked 排位賽中無法舉辦新遊戲。
-funds.insufficient 資金不充足
-funds.out 您目前已用完您的 Krunkies.
+funds.insufficient 經費不充足
+funds.out 您似乎已用完您的 Krunkies.
 custom.passcode.long 密碼太長
 custom.passcode.input 請輸入此服務器密碼以加入遊戲
 custom.tryagain 請重試
@@ -706,34 +706,34 @@ limited.purchase.ask 您確定希望購買 [{0}] 為 {1} KR?
 limited.purchase.success 已添加 {0} 到您的 存貨
 pretend.exit 再次點擊 [{0}] 以退出
 settings.loaded 設置已加載
-settings.loaded.none 無設置找到
+settings.loaded.none 查找無結果.
 account.login.required 您必須先登錄
-account.banned.hack 此賬號已被禁用因作弊
+account.banned.hack 此賬號已被禁用因作弊.
 account.banned.appeal 如果您想申訴你的禁令，請聯繫:
-account.delete 您可以請求刪除您的帳戶，如果此請求沒有在14天內取消，您所有的帳戶數據將會永久清除.
-account.delete.request 您確定您希望請求刪除您的帳戶?
-account.delete.cancel 您確定您希望取消刪除您的帳戶?
+account.delete 在这里您可以請求刪除您的帳戶. 如果此請求沒有在14天內撤消，您所有的帳戶數據將會被永久清除.
+account.delete.request 您確定希望請求刪除您的帳戶?
+account.delete.cancel 您確定希望取消刪除您的帳戶?
 spin.free.available 免費 KR 可用!
-spin.free.claim 您必須每小時完成一場比賽以獲得您的免費 KR 旋轉盤.
-spin.free.disable 此彈窗可被禁止在通用設定里
-mod.reset.0 將會起效在您重生以後.
-mod.reset.1 此地圖物體將不會重置
-windows.profile.picture 更改圖像
+spin.free.claim 您必須每小時内完成一場比賽以獲得您的免費 KR 轉盤.
+spin.free.disable 在通用設定里可以关闭免费 KR 彈窗.
+mod.reset.0 當您重生後此設置將會生效.
+mod.reset.1 此插件物體將不會重置.
+windows.profile.picture 更改頭像
 stats.assists 助攻數
-stats.nukes 核武數
+stats.nukes 核武使用數
 stats.melee 混戰數
 stats.fistkills 拳擊數
-stats.thrownkills 飛刀殺數
-stats.headshots 爆頭數
-stats.wallbangs 穿擊數
-stats.sprays 塗鴉已放置數
-windows.host.default.settings 啟用默認設置允許存檔玩家進度及高分
-windows.host.default.commands *主人命令將會被禁用在此模式像: /noclip /god /smite 等.
+stats.thrownkills 投擲近戰武器次數
+stats.headshots 爆頭次數
+stats.wallbangs 穿擊次數
+stats.sprays 塗鴉次數
+windows.host.default.settings 啟用默認設置允許玩家存檔他們的進度及高分
+windows.host.default.commands *房主命令（像: /noclip, /god, /smite, 等等）將會被禁用在此模式中.
 windows.host.rewards 啟用 KR 獎勵將會強制此服務器使用默認設置 & 允許玩家獲得 KR 從此地圖基金:
 windows.store.wheels.sub 試試您的運氣以有機會獲得新皮膚!
 windows.store.currency * 這些價格可以從美元轉換到您的當地貨幣以匯率計算由付款提供商或銀行
-windows.store.creator 考慮支持您最喜歡的 Krunker 內容創建者通過使用他們的代碼
-windows.chall.customs 挑戰不能被進行在自定義遊戲內
+windows.store.creator 當您在購買KR時，考慮支持你最喜歡的 Krunker 創作者通過使用他們的創作者代碼.
+windows.chall.customs 自定義遊戲內無法完成挑戰.
 twitch.link 您確定希望連接您的 Twitch 帳戶?
 twitch.unlink 您確定希望取消連接您的 Twitch 帳戶?
 windows.clan.leave 您確定希望離開您的部落?
@@ -743,5 +743,5 @@ windows.store.premium.purchase 您確定希望購買 {0} 天的高級會員?
 windows.playerlist.ban 您確定希望禁止並踢出 {0} 從此遊戲?
 windows.playerlist.flag 您確定希望標籤 {0}?
 windows.playerlist.unflag 您確定希望取消標籤 {0}?
-windows.playerlist.punish 您確定希望採取行動對 {0}?
+windows.playerlist.punish 您確定希望對 {0} 採取行動?
 `;
