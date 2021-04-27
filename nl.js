@@ -759,19 +759,19 @@ social.profile.games.none Geen Gepubliceerde Games Van Deze Gebruiker
 social.profile.assets Assets [{0}]
 social.profile.assets.none Geen Gepubliceerde Middelen Van Deze Gebruiker
 social.profile.mods Mods [{0}]
-social.profile.mods.none Geen Gepubliceerde Modificaties Van Deze Gebruiker
+social.profile.mods.none Geen Gepubliceerde Mods Van Deze Gebruiker
 social.search Zoek Resultaten
 social.market.stats.rare Zeldzaamste Items
 social.market.stats.circulation In Circulatie
 social.market.stats.units Hoeveelheid Wereldwijd
 social.trades.in Binnenkomende
-social.trades.in.head Binnenkomende Aanbiedingen ({0})
+social.trades.in.head Binnenkomende Trades ({0})
 social.trades.out Uitgaande
-social.trades.out.head Uitgaande Aanbiedingen ({0})
+social.trades.out.head Uitgaande Trades ({0})
 social.trades.history Geschiedenis
-social.trades.history.head Ruil Geschiedenis ({0})
+social.trades.history.head Trade Geschiedenis ({0})
 social.trades.decline Negeer Allemaal
 social.trades.message SCHAKEL RUILBERICHTEN IN IN JE INSTELLINGEN
-social.trades.warning Je Krijgt Geen Items Van Deze Ruil!
-social.trades.accept Weet Je Zeker Dat Je Dit Aanbod Wilt Accepteren?
+social.trades.warning Je Krijgt Geen Items Van Deze Trade!
+social.trades.accept Weet Je Zeker Dat Je Deze Trade Wilt Accepteren?
 `;
