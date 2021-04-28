@@ -744,34 +744,34 @@ windows.playerlist.ban Estás seguro que quieres banear a {0} de esta partida?
 windows.playerlist.flag Estás seguro de que quieres Suspender a {0} ? 
 windows.playerlist.unflag Estás seguro de que quieres remover la suspención de {0}?
 windows.playerlist.punish Estás seguro de que quieres tomar acciones en {0}?
-item.view.open Open Model Viewer
-item.view.more More Information
-item.sell.cant Item cant be sold.
-item.sell.quick Are you sure you want to Quick Sell {0}?
-social.profile.stats Overall Stats
-social.profile.class Class Stats
-social.profile.sales Sales
-social.profile.sales.market Market Sales
+item.view.open Abrir Visualizador de Modelos
+item.view.more Mas Información
+item.sell.cant El objeto no se puede Vender
+item.sell.quick Estás seguro de que quieres vender rápidamente {0}?
+social.profile.stats Estadísticas Generales
+social.profile.class Estadísticas de Clase
+social.profile.sales Ventas
+social.profile.sales.market Ventas en el Mercado
 social.profile.skins Skins [{0}]
-social.profile.skins.none No published Skins from this user
-social.profile.games Games [{0}]
-social.profile.games.none No published Games from this user
+social.profile.skins.none No hay skins publicadas por este Usuario
+social.profile.games Juegos [{0}]
+social.profile.games.none No hay Juegos publicados por este Usuario
 social.profile.assets Assets [{0}]
-social.profile.assets.none No published Assets from this user
+social.profile.assets.none No hay Assets publicados por este Usuario
 social.profile.mods Mods [{0}]
-social.profile.mods.none No published Mods from this user
-social.search Search Results
-social.market.stats.rare Rarest Items
-social.market.stats.circulation In Circulation
-social.market.stats.units units Worldwide
-social.trades.in Incoming
-social.trades.in.head Incoming Offers ({0})
-social.trades.out Outgoing
-social.trades.out.head Outgoing Offers ({0})
-social.trades.history History
-social.trades.history.head Trade History ({0})
-social.trades.decline Decline All
-social.trades.message ENABLE TRADE MESSAGES IN SETTINGS
-social.trades.warning You get no items from this trade!
-social.trades.accept Are you sure you want to accept this offer?
+social.profile.mods.none No hay Mods publicados por este Usuario
+social.search Resultados de Búsqueda
+social.market.stats.rare Objetos mas Raros
+social.market.stats.circulation En Circulación
+social.market.stats.units Unidades a escala Mundial.
+social.trades.in Entrante
+social.trades.in.head Ofertas Entrantes ({0})
+social.trades.out Saliente
+social.trades.out.head Ofertas Salientes ({0})
+social.trades.history Historial
+social.trades.history.head Historial de Intercambios ({0})
+social.trades.decline Rechazar Todo
+social.trades.message ACTIVA LOS MENSAJES DE INTERCAMBIO EN LAS CONFIGURACIONES
+social.trades.warning No obtienes objetos de este intercambio!
+social.trades.accept Estás seguro de qué quieres aceptar esta oferta?
 `;
