@@ -747,7 +747,7 @@ windows.playerlist.punish 本当に{0}にアクションを起こしますか?
 item.view.open モデルビューワーを開く
 item.view.more 詳細
 item.sell.cant このアイテムは販売できません
-item.sell.quick 本当に{0}をクイック販売しますか?
+item.sell.quick 本当に{0}をクイックセールしますか?
 social.profile.stats 全体の統計
 social.profile.class クラスごとの統計
 social.profile.sales 販売
