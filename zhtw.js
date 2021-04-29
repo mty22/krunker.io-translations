@@ -107,8 +107,8 @@ settings.chat.chat.all 總是
 settings.chat.chat.focus 僅限關注時顯示
 settings.chat.messages 顯示玩家消息
 settings.chat.unboxings 顯示開箱
-settings.chat.chatOp 聊天窗口透明度
-settings.chat.chatBGOp 聊天窗口背景透明度
+settings.chat.chatOp 聊天視窗透明度
+settings.chat.chatBGOp 聊天視窗背景透明度
 settings.chat.chatHeight 聊天視窗高度
 settings.chat.chatTimer 消息顯示時間
 settings.chat.chatTextOutline 消息文字輪廓
