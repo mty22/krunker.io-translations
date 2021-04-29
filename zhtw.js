@@ -3,7 +3,7 @@ menu.btn.ranked 排位賽
 menu.btn.shop 商城 
 menu.btn.social 社區 
 menu.btn.maps 地圖
-menu.btn.mods 外掛程式
+menu.btn.mods 插件
 menu.btn.settings 設置
 menu.btn.customize 自定義 
 menu.btn.invite 邀請 
@@ -27,7 +27,7 @@ generic.create 創建
 generic.random 隨機 
 generic.failed 失敗 
 generic.success 成功！ 
-generic.name 使用者名 
+generic.name 用戶名 
 generic.level 等級 
 generic.score 得分
 generic.off 關
@@ -37,7 +37,7 @@ generic.matchover 比賽結束
 generic.matchaband 比賽被迫終止 
 generic.follow 關注 
 generic.unfollow 取消關注 
-generic.followers 追隨者 
+generic.followers 關注者 
 generic.following 關注中 
 generic.games 遊戲 
 generic.wins 勝場 
@@ -84,7 +84,7 @@ settings.none 沒有找到設定
 settings.backup 備份設定 
 settings.controls.change 按鍵綁定 
 settings.controls.press 按下任意按鍵
-settings.local.header 當地語系化 <span id="requiresRestart"><span style="color： #eb5656">*</span> 需要重啟遊戲</span> 
+settings.local.header 本地化 <span id="requiresRestart"><span style="color： #eb5656">*</span> 需要重啟遊戲</span> 
 settings.local.region 默認區域 
 settings.local.lang 語言 
 settings.network.header 網路 
