@@ -1,4 +1,3 @@
-	new file zhtw
 module.exports = `
 menu.btn.ranked 排位賽
 menu.btn.shop 商城
