@@ -37,7 +37,7 @@ generic.matchover 比賽結束
 generic.matchaband 比賽被迫終止
 generic.follow 關注
 generic.unfollow 取消關注
-generic.followers 追隨者
+generic.followers 關注者
 generic.following 關注中
 generic.games 遊戲
 generic.wins 勝場
@@ -125,7 +125,7 @@ settings.quality.renderdist 渲染距離
 settings.quality.reflection 倒影品質
 settings.quality.antiAlias 除鋸齒
 settings.quality.shadows 陰影
-settings.quality.softShad 軟陰影
+settings.quality.softShad 柔和陰影
 settings.quality.highResShad 高解析度陰影
 settings.quality.shadowsDynamic 動態陰影
 settings.quality.trails 其他玩家彈道軌跡
@@ -134,7 +134,7 @@ settings.quality.mflash 槍口火焰
 settings.quality.flap 狙擊槍瞄準鏡保護蓋
 settings.quality.lowSpec 低配置模式
 settings.quality.ambient 環境陰影
-settings.quality.ambientOld 舊版陰影畫風 （僅當可能時）
+settings.quality.ambientOld 舊版陰影畫風 （僅可用時）
 settings.quality.textureAnim 紋理動畫
 settings.quality.objectAnim 物體動畫
 settings.quality.screenShake 螢幕晃動
@@ -149,10 +149,10 @@ settings.post.bloom 光散射
 settings.post.bloomThreshold 光散射閾值
 settings.post.bloomStrength 光散射強度
 settings.post.bloomRadius 光散射半徑
-settings.post.ssao 螢幕空間環境光遮罩
-settings.post.ssaoRadius 螢幕空間環境光屏蔽半徑
-settings.interface.hitInd 受擊提示
-settings.interface.hitColor 受擊提示顏色
+settings.post.ssao 螢幕空間環境光遮蔽
+settings.post.ssaoRadius 螢幕空間環境光遮蔽半徑
+settings.interface.hitInd 命中提示
+settings.interface.hitColor 命中提示顏色
 settings.interface.dmg 顯示傷害
 settings.interface.dmgCol 傷害顏色
 settings.interface.critCol 暴擊顏色
@@ -163,19 +163,19 @@ settings.interface.scoreboard 使用經典計分板
 settings.interface.oldBrowser 使用經典伺服器瀏覽器
 settings.interface.rarityanim 禁用稀有物品動畫
 settings.interface.showPfp 顯示用戶圖示
-settings.interface.showTradeMsg 顯示交易消息
+settings.interface.showTradeMsg 顯示交易訊息
 settings.interface.hp 動態血條（HP）
 settings.interface.dmgScale 傷害顯示比例
-settings.interface.killf 顯示擊殺清單
+settings.interface.killf 顯示擊殺訊息
 settings.interface.ping 顯示延遲（PING）
 settings.interface.net-stats 顯示網路狀況
 settings.interface.fps 顯示幀率（FPS）
 settings.interface.deaths 顯示死亡數
-settings.interface.kd 顯示死亡擊殺比例
+settings.interface.kd 顯示擊殺死亡比例
 settings.interface.kills 顯示擊殺數
 settings.interface.streak 顯示連殺數
 settings.interface.score 顯示分數
-settings.interface.spectators 顯示觀戰者
+settings.interface.spectators 顯示觀戰人數
 settings.interface.speed 顯示移動速度
 settings.interface.speedOffX 移動速度X軸座標
 settings.interface.speedOffY 移動速度Y軸座標
@@ -187,13 +187,13 @@ settings.interface.medals 顯示勳章
 settings.interface.hideNames 顯示名牌
 settings.interface.hideNames.team 僅限隊友
 settings.interface.hideNames.enemy 僅限敵人
-settings.interface.hideNames.all 所有人
+settings.interface.hideNames.all 全部顯示
 settings.interface.nametagStyle 名牌樣式
 settings.interface.nametagOpac 名牌透明度
 settings.interface.nametagStyle.health 僅限血條（HP）
-settings.interface.nametagStyle.name 僅限姓名
-settings.interface.nametagStyle.nameLvl 姓名和血條（HP）
-settings.interface.nametagStyle.all 所有
+settings.interface.nametagStyle.name 僅限名稱
+settings.interface.nametagStyle.nameLvl 名稱和等級（HP）
+settings.interface.nametagStyle.all 全部顯示
 settings.interface.healthNum 名牌
 settings.interface.healthColT 隊友血條（HP）顏色
 settings.interface.healthColE 敵人血條（HP）顏色
@@ -213,7 +213,7 @@ settings.crosshair.style.3 空心方塊
 settings.crosshair.style.4 實心方塊
 settings.crosshair.image 圖片
 settings.crosshair.image.paste 準星圖片
-settings.crosshair.always 總是顯示
+settings.crosshair.always 一直顯示
 settings.crosshair.color 顏色
 settings.crosshair.shadow.color 陰影顏色
 settings.crosshair.shadow.thickness 陰影粗細
@@ -247,7 +247,7 @@ settings.gameprivacy.header 遊玩隱私
 settings.gameprivacy.streamer 主播模式
 settings.gameprivacy.anon 匿名模式
 settings.gameprivacy.hideGameTitle 隱藏遊戲名稱
-settings.gameplay.header 遊戲性
+settings.gameplay.header 遊戲過程
 settings.gameplay.sensitivityX X軸靈敏度
 settings.gameplay.sensitivityY Y軸靈敏度
 settings.gameplay.aimsensX 瞄準X軸靈敏度
@@ -354,14 +354,14 @@ settings.mods.borderCol 狙擊鏡
 settings.mods.borderOpac 狙擊鏡邊界透明度
 settings.mods.scope 狙擊鏡圖示
 settings.mods.scope.paste 狙擊鏡圖示網址
-settings.mods.scope.opacity狙擊鏡透明度
+settings.mods.scope.opacity 狙擊鏡透明度
 settings.mods.scope.width 狙擊鏡寬度
 settings.mods.scope.height 狙擊鏡高度
 settings.mods.dot 準星圖示
 settings.mods.dot.width 準星圖示寬度
 settings.mods.dot.height 準星圖示高度
 settings.mods.dot.paste 準星圖示網址
-settings.mods.endmessage 比賽結束后自動消息
+settings.mods.endmessage 比賽結束自動消息
 settings.mods.profile 用戶圖示
 settings.mods.profile.paste 用戶圖示網址
 settings.mods.ammo 彈藥圖示
@@ -372,21 +372,21 @@ settings.mods.deaths 死亡圖示
 settings.mods.deaths.paste 死亡圖示網址
 settings.mods.streak 連殺圖示
 settings.mods.streak.paste 連殺圖示網址
-settings.mods.timer 時鐘圖示
-settings.mods.timer.paste 時鐘圖示網址
-settings.mods.usedamage 覆蓋受傷螢幕效果
+settings.mods.timer 計時器圖示
+settings.mods.timer.paste 計時器圖示網址
+settings.mods.usedamage 受傷螢幕效果
 settings.mods.damage 受傷螢幕效果圖示
 settings.mods.damage.paste 受傷螢幕效果網址
 settings.mods.overlay 遊戲結束圖示
-settings.mods.overlay.paste 遊戲疊層圖片網址
+settings.mods.overlay.paste 遊戲介面效果圖片網址
 settings.social.region 地區統計
 windows.settings.header 遊戲設定
 windows.mail.header Krunker郵箱
 windows.servers.header 伺服器
 windows.servers.none 無可加入遊戲...
 windows.servers.host + 創建遊戲
-windows.servers.hide 隱藏已滿
-windows.servers.priority 優先區域
+windows.servers.hide 隱藏已滿的遊戲
+windows.servers.priority 優先显示預設區域
 windows.servers.online {0} 人在遊戲中
 windows.servers.social {0} 人在社區中
 windows.loadout.header 更換角色
@@ -405,7 +405,7 @@ windows.loadout.shoe 鞋子
 windows.loadout.face 表情
 windows.loadout.spray 塗鴉
 windows.loadout.color.skin 皮膚顏色
-windows.loadout.color.chat 使用者名顏色
+windows.loadout.color.chat 用户名顏色
 windows.loadout.color.hair 頭髮顏色
 windows.loadout.dye 服裝
 windows.loadout.pet 寵物
@@ -454,7 +454,7 @@ windows.controls.streak1 二連殺
 windows.controls.streak2 三連殺
 windows.controls.streak3 四連殺
 windows.controls.streak4 五連殺
-windows.controls.premium0 穿牆模式
+windows.controls.premium0 穿牆/飛行(上帝)模式
 windows.controls.premium1 無敵模式
 windows.controls.premium2 擊殺（自己）
 windows.controls.premium3 重擊模式
@@ -490,7 +490,7 @@ windows.theatre.header 影院模式
 windows.theatre.record 啟用錄製
 windows.theatre.key 錄製按鍵
 windows.clans.header 公會
-windows.clans.members 成員 （{0}）
+windows.clans.members （{0}）成員
 windows.clans.requests 申請
 windows.clans.requests.none 沒有申請
 windows.clans.page [{0}] 公會頁面
@@ -501,7 +501,7 @@ windows.clans.join 加入公會
 windows.clans.login 創建並加入公會！
 windows.store.header 商店
 windows.store.spin {0} 旋轉/開箱
-windows.store.agree 通過此次購買，您將同意 {0} 條款.
+windows.store.agree 通過此次購買您表示您同意 {0} 條款.
 windows.store.purchase 購買KR
 windows.store.voucher 兌換代金券
 windows.store.voucherinfo 從指定主播和活動獲取代金券
@@ -533,9 +533,9 @@ windows.reticle.req 需要{0}級
 windows.dye.header 選擇服裝
 windows.dye.default 默認服裝
 windows.dye.spin 服裝
-windows.changelog.header 變更日誌
+windows.changelog.header 更新日誌
 windows.mods.community.header 社區插件
-windows.mods.community.fav 最愛
+windows.mods.community.fav 個人收藏
 windows.mods.community.new 最新插件
 windows.mods.community.hot 最熱門
 windows.mods.community.name 插件名稱
@@ -554,7 +554,7 @@ windows.support.header 支援
 windows.players.header 玩家清單
 windows.players.none 目前沒有玩家...
 windows.join.header 加入
-windows.join.code 輸入遊戲 網址/代碼
+windows.join.code 輸入遊戲網址/代碼
 windows.client.header 用戶端
 windows.client.windows Windows遊戲安裝器
 windows.client.mac macOS遊戲安裝器
@@ -586,7 +586,7 @@ streamers.views {0} 個觀看者
 streamers.none 當前沒有Twitch直播！
 error.extentions 如果您有任何（瀏覽器）插件， 請關閉它們
 error.seek 點此以搜索新的遊戲
-custom.map.upload.limit 失敗. 遊戲數據限制為五十萬字元
+custom.map.upload.limit 失敗. 遊戲數據限制為五十萬位元組
 custom.map.missing 請選擇至少一種遊戲或地圖
 custom.mode.missing 請選擇至少一種模式
 custom.class.missing 請選擇至少一種角色
@@ -597,7 +597,7 @@ server.config.gameTime 時間（分鐘）
 server.config.gravMlt 重力
 server.config.tickRI 高傳輸率（High Tickrate）
 server.config.maxPS 40 名玩家伺服器
-server.config.promServ 推廣伺服器
+server.config.promServ 置頂伺服器
 server.config.jumpMlt 跳躍力量
 server.config.airStrf 空中轉向
 server.config.deltaMlt 時間倍率
@@ -644,9 +644,9 @@ server.config.scoreLimit 得分限制
 server.config.keepTScore 保留隊伍分數
 server.config.forceC 強制角色類別
 server.config.logTim 記錄時間（競賽，跑酷）
-server.config.hitBoxPad 擊中判斷模型倍率（hitbox）
+server.config.hitBoxPad 玩家实体模型倍率（hitbox）
 server.config.hpRegen 血量回復
-server.config.disableB 解除地圖邊界
+server.config.disableB 去除地圖邊界
 server.config.throwMel 飛刀
 server.config.noCosm 隱去裝扮
 social.login 登錄/註冊
@@ -724,8 +724,8 @@ stats.nukes 核彈次數
 stats.melee 近戰擊殺
 stats.fistkills 空手擊殺
 stats.thrownkills 飛刀擊殺
-stats.headshots 爆頭次數
-stats.wallbangs 穿牆次數
+stats.headshots 爆頭擊殺
+stats.wallbangs 穿牆擊殺
 stats.sprays 塗鴉次數
 windows.host.default.settings 啟用預設設置可以存儲玩家進度和高分
 windows.host.default.commands *房主專用指令如/noclip，/god，/smite等已關閉
@@ -744,3 +744,4 @@ windows.playerlist.ban 您確定您要將{0}從此局中封掉嗎？
 windows.playerlist.flag 您確定您要標記{0}嗎？
 windows.playerlist.unflag 您確定您要取消標記{0}嗎？
 windows.playerlist.punish 您確定您要對{0}採取行動嗎？
+`;
