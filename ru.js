@@ -2,7 +2,7 @@ module.exports = `
 menu.btn.ranked Игра на рейтинг
 menu.btn.shop Магазин
 menu.btn.social Сообщество
-menu.btn.maps Игры
+menu.btn.maps Карты
 menu.btn.mods Моды
 menu.btn.settings Настройки
 menu.btn.customize Кастомизация
@@ -44,7 +44,7 @@ generic.wins Победы
 generic.lose Поражения
 generic.clan Клан
 generic.games.played Игр сыграно
-generic.games.won Игры выиграно
+generic.games.won Игр выиграно
 generic.games.lost Игр проиграно
 generic.timep Время в игре
 generic.kills Убийства
@@ -462,7 +462,7 @@ windows.controls.reset Сбросить Стартовую Позицию (Го�
 windows.controls.pretend Скрыть Игру
 windows.host.header Создание Пользовательской Игры
 windows.host.maps Настройка Сервера
-windows.host.cmaps Игры Сообщества
+windows.host.cmaps Карты Сообщества
 windows.host.raw Игровые Данные
 windows.host.modes Выбор Режимов
 windows.host.classes Выбор Классов
@@ -475,17 +475,17 @@ windows.host.rehost Начать Игру (Привести Игроков)
 windows.spray.header Выбрать Спрей
 windows.spray.default Стандартный Спрей
 windows.spray.spin Спрей
-windows.maps.header Пользовательские Игры
-windows.maps.none Игр не найдено!
-windows.maps.name Название Игры
+windows.maps.header Пользовательские Карты
+windows.maps.none Карт не найдено!
+windows.maps.name Название Карты
 windows.maps.editor Редактор
-windows.maps.publish Опубликовать Игру
+windows.maps.publish Опубликовать Карту
 windows.maps.community Сообщество Разработчиков
-windows.publish.map.header Опубликовать или Обновить Игру
+windows.publish.map.header Опубликовать или Обновить Карту
 windows.publish.map.thumbnail Нет Превью
-windows.publish.map.paste Вставить данные игры
+windows.publish.map.paste Вставить данные карты
 windows.publish.map.update Опубликовать/Обновить
-windows.publish.map.login чтобы создавать и загружать игры!
+windows.publish.map.login чтобы создавать и загружать карты!
 windows.theatre.header Режим Театра
 windows.theatre.record Включить Запись
 windows.theatre.key Клавиша Записи
@@ -656,9 +656,9 @@ social.login.sell Авторизуйтесь, чтобы продать
 social.login.gift Авторизуйтесь, чтобы подарить
 social.login.proccessing Авторизация...
 social.since со времени
-social.user.maps Пользовательские игры
+social.user.maps Пользовательские карты
 social.user.mods Пользовательские модификации
-social.maps.none Игр не найдено...
+social.maps.none Карт не найдено...
 social.mods.none Модификации не найдены...
 social.market.price.low Низшая цена
 social.market.price.list Прейскурантная цена в
