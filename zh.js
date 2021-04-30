@@ -772,6 +772,6 @@ social.trades.history 交易记录
 social.trades.history.head ({0}) 个交易记录
 social.trades.decline 全部拒绝
 social.trades.message 在设置中开启交易请求信息
-social.trades.warning 您不会在此交易中获得任何物品！
+social.trades.warning 您不会在此交易中获得任何物品!
 social.trades.accept 您确定接受此交易请求吗?
 `;
