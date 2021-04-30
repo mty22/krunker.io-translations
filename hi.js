@@ -119,7 +119,7 @@ settings.quality.rendDst रेंडर दूरी
 settings.quality.res रेसोलुशन
 settings.quality.part कण
 settings.quality.mapDet नक्शा विवरण
-settings.quality.noTex कोई टेक्सचर नहीं 
+settings.quality.noTex कोई टेक्सचर नहीं
 settings.quality.partdist कण दूरी
 settings.quality.renderdist रेंडर दूरी
 settings.quality.reflection प्रतिबिंब की गुणवत्ता
@@ -209,10 +209,10 @@ settings.crosshair.style शैली
 settings.crosshair.style.0 क्रॉस
 settings.crosshair.style.1 खोखला सर्कल
 settings.crosshair.style.2 ठोस सर्कल
-settings.crosshair.style.3 खोखला चौकोर 
+settings.crosshair.style.3 खोखला चौकोर
 settings.crosshair.style.4 ठोस चौकोर
 settings.crosshair.image छवि
-settings.crosshair.image.paste Crosshair चित्र 
+settings.crosshair.image.paste Crosshair चित्र
 settings.crosshair.always हमेशा दिखाओ
 settings.crosshair.color रंग
 settings.crosshair.shadow.color छाया रंग
@@ -223,7 +223,7 @@ settings.crosshair.gap गैप
 settings.crosshair.dot बिंदु
 settings.crosshair.opacity.use कस्टम अपारदर्शिता का उपयोग करें
 settings.crosshair.opacity.custom कस्टम अपारदर्शिता
-settings.hitmarker.header हिटमार्कर 
+settings.hitmarker.header हिटमार्कर
 settings.hitmarker.color रंग
 settings.hitmarker.kcolor हत्या करने पर रंग
 settings.hitmarker.thickness मोटापा
@@ -418,7 +418,7 @@ windows.mods.none कोई मॉड नहीं मिला
 windows.mods.header मॉड मैनेजर
 windows.mods.guide मॉड गाइड
 windows.mods.list मॉड लिस्ट
-windows.mods.load.header लोड मॉड 
+windows.mods.load.header लोड मॉड
 windows.mods.publish मॉड पब्लिश करे
 windows.mods.viewer व्यूअर
 windows.account.header अकाउंट
@@ -473,7 +473,7 @@ windows.host.preset.name प्रीसेट नाम
 windows.host.start खेल शुरू
 windows.host.rehost खेल शुरू (खिलाड़ियों को लाये)
 windows.spray.header स्प्रे का चयन करें
-windows.spray.default नि: शुल्क स्प्रे 
+windows.spray.default नि: शुल्क स्प्रे
 windows.spray.spin स्प्रे
 windows.maps.header कस्टम्स खेल
 windows.maps.none कोई खेल नहीं मिला!
@@ -509,18 +509,18 @@ windows.store.market बाजार
 windows.store.market2 क्रंकर बाजार
 windows.store.premium प्रीमियम खरीदे
 windows.store.premium2 क्रंकर प्रीमियम
-windows.store.buyP अपना पसंदीदा नाम और अन्य लाभ के लिए, खरीदे 
+windows.store.buyP अपना पसंदीदा नाम और अन्य लाभ के लिए, खरीदे
 windows.store.buy वस्तुए खरीदे और बेचे
-windows.store.wheels प्राइज व्हील्स 
-windows.store.unlock नए हथियार स्किन्स और वस्तुए को अनलॉक कीजिए 
-windows.store.amount अकाउंट में {0} KR है 
+windows.store.wheels प्राइज व्हील्स
+windows.store.unlock नए हथियार स्किन्स और वस्तुए को अनलॉक कीजिए
+windows.store.amount अकाउंट में {0} KR है
 windows.store.login बाजार से आइटम्स अनलॉक करने के लिए!
 windows.store.purchasing खरिदा जा रह है...
 windows.store.unboxed {0}{1} अनबॉक्स्ड
 windows.trade.header व्यापार करना
 windows.scope.header स्कोप चुने
 windows.premium.header प्रीमियम
-windows.skin.header स्किन चुने 
+windows.skin.header स्किन चुने
 windows.hat.header टोपी चुने
 windows.back.header बैक चुने
 windows.waist.header कमर की वस्तु चुने
@@ -528,8 +528,8 @@ windows.face.header चेहरा चुने
 windows.melee.header मिली चुने
 windows.attach.header अटैचमेंट चुने
 windows.reticle.header रेटिकल चुने
-windows.reticle.unlocked {0} पर अनलॉक हो जाता है 
-windows.reticle.req {0} पर अनलॉक हो जाता है 
+windows.reticle.unlocked {0} पर अनलॉक हो जाता है
+windows.reticle.req {0} पर अनलॉक हो जाता है
 windows.dye.header डाई चुने
 windows.dye.default डिफ़ॉल्ट डाई
 windows.dye.spin डाई
@@ -538,33 +538,33 @@ windows.mods.community.header सामुदायिक मोड्स
 windows.mods.community.fav आपका पसंदीदा
 windows.mods.community.new नए मोड्स
 windows.mods.community.hot हॉट
-windows.mods.community.name मोड़ का नाम 
+windows.mods.community.name मोड़ का नाम
 windows.mods.community.none मोड़ नहीं मिला
 windows.publish.mod.header मोड़ को प्रकाशित कीजिए
 windows.publish.mod.thumbnail नो थंबनेल
 windows.publish.mod.name मोड़ का नाम
 windows.publish.mod.paste मोड़ Url
-windows.publish.mod.update प्रकाशित/अपडेट 
+windows.publish.mod.update प्रकाशित/अपडेट
 windows.publish.mod.login मोड़ बनाने और अपलोड करने के लिए!
 windows.secondary.header सेकेंडरी चुने
 windows.secondary.unlocked उनलॉक्ड
-windows.secondary.req {0} पर अनलॉक हो जाता है 
+windows.secondary.req {0} पर अनलॉक हो जाता है
 windows.advertise.header विज्ञापित
-windows.support.header सपोर्ट 
+windows.support.header सपोर्ट
 windows.players.header प्लेयर लिस्ट
 windows.players.none कोई प्लेयर्स नहीं...
 windows.join.header जोइन
 windows.join.code एंटर खेल URL/Code
-windows.client.header क्लाइंट 
+windows.client.header क्लाइंट
 windows.client.windows Windows इंस्टालर
 windows.client.mac macOS इंस्टालर
 windows.client.linux Linux इंस्टालर
 windows.ranked.header रैन्क्ड
 windows.ranked.login रैन्क्ड खेल खेलने के लिए!
 windows.ranked.level आपको कम से कम  <span color="black">लेवल  {0}</span> का होना जरूरी है रंकड खेल खेलने के लिए! आपका अभी यह  <span color="black">level {1}</span>.
-windows.ranked.mode.r1v1 सोलो 
-windows.ranked.mode.r2v2 डुओ 
-windows.ranked.mode.r4v4 क्वैड 
+windows.ranked.mode.r1v1 सोलो
+windows.ranked.mode.r2v2 डुओ
+windows.ranked.mode.r4v4 क्वैड
 windows.chall.header चुनौती
 windows.chall.login चुनौतियों को ख़तम  करने के लिए
 thumbnail.upload.limit Failed. {0}kb थंबनेल  सीमा
@@ -575,25 +575,25 @@ mod.disabled मोड्स  डिसेबल्ड
 mod.error मोड़ एरर!
 mod.loading मोड़ लोड हो रहा हे ...
 mod.invalid इनवैलिड मोड़ फाइल !
-matchmaker.full फूल 
+matchmaker.full फूल
 matchmaker.full2 खेल भरा हुआ है .
 matchmaker.updating खेल अपडेट हो रहा हे
 matchmaker.invalid खेल नहीं मिला.
-matchmaker.none सारे सरवर फूल हे 
+matchmaker.none सारे सरवर फूल हे
 adblocker KR प्राप्त करने के लिए, अपना adblocker बंद करें
 ad-failed विज्ञापन लोड होने में असफल हुआ । कृपया पुन: प्रयास करें
-streamers.views {0} दर्शक  
+streamers.views {0} दर्शक
 streamers.none कोई सक्रिय स्ट्रीम्स नहीं!
 error.extentions यदि आपके पास कोई एक्सटेंशन है, तो उन्हें बंद करें
-error.seek क्लिक करने से नए खेल ढूंढ़ने की कोशिश करे 
-custom.map.upload.limit फेल्ड. 5,00,000 अक्षर गेम डाटा लिमिट रीच्ड  
+error.seek क्लिक करने से नए खेल ढूंढ़ने की कोशिश करे
+custom.map.upload.limit फेल्ड. 5,00,000 अक्षर गेम डाटा लिमिट रीच्ड
 custom.map.missing कम से कम एक गेम या मैप चुनें.
 custom.mode.missing कम से कम एक  mode चुनें
 custom.class.missing कम से कम एक क्लास  चुनें
-server.config.maxPlayers प्लेयर्स 
-server.config.minPlayers न्यूनतम प्लेयर्स 
+server.config.maxPlayers प्लेयर्स
+server.config.minPlayers न्यूनतम प्लेयर्स
 server.config.lives जिन्दगिया
-server.config.gameTime मिनट्स 
+server.config.gameTime मिनट्स
 server.config.gravMlt ग्रेविटी
 server.config.tickRI ज्यादा टिक रेट
 server.config.maxPS 40 खिलाड़ियों का सर्वर
@@ -607,7 +607,7 @@ server.config.reSpd रीलोड करने की गति
 server.config.slidTime स्लाइड करने का समय
 server.config.fixMov फिक्स्ड मूवमेंट
 server.config.slidSpd स्लाइड करने की गति
-server.config.healthMlt हेल्थ मल्टिप्लायर 
+server.config.healthMlt हेल्थ मल्टिप्लायर
 server.config.impulseMlt हथियार इंपल्स
 server.config.nameTeam1 दल 1 नाम
 server.config.nameTeam2 दल 2 नाम
@@ -645,7 +645,7 @@ server.config.keepTScore दल का स्कोर रखे
 server.config.forceC Force Mode Classes
 server.config.logTim समय का पता (दौड़,पारकोर)
 server.config.hitBoxPad हिटबॉक्स पैडिंग
-server.config.hpRegen स्वास्थ्य पुनर्जन्म	
+server.config.hpRegen स्वास्थ्य पुनर्जन्म
 server.config.disableB सीमाओं को निष्क्रिय करें
 server.config.throwMel फेंकने योग्य चाकु
 server.config.noCosm काज़्मेटिक
@@ -655,7 +655,7 @@ social.login.buy खरीदने के लिए लॉगिन करे
 social.login.sell बेचने के लिए लॉगिन करे
 social.login.gift भेट देने के लिए लॉगिन करे
 social.login.proccessing लॉगिन हो रहा है...
-social.since अकाउंट निर्माण तिथि - 
+social.since अकाउंट निर्माण तिथि -
 social.user.maps उपयोगकर्ता के खेल
 social.user.mods उपयोगकर्ता के मोड्स
 social.maps.none कोई खेल नहीं मिले...
@@ -669,10 +669,10 @@ social.market.unlist बेचने की सूची से हटाए
 social.market.unlisting आइटम को बेचने की सूची से हटा रहे है...
 social.market.posting आइटम्स पोस्ट हो रही है...
 social.market.req पद {0} आवश्यक है
-social.market.cant खरीदने मई समर्थ नहीं 
-social.market.purchase खरीदे 
+social.market.cant खरीदने मई समर्थ नहीं
+social.market.purchase खरीदे
 social.market.fee बेचने के लिए कोई शुल्क नहीं है
-social.market.failed असफल हुए. फिर से प्रयास करे 	
+social.market.failed असफल हुए. फिर से प्रयास करे
 social.market.head टोपी की आइटम
 social.market.back बैक की आइटम
 social.market.waist कमर की आइटम
@@ -746,7 +746,7 @@ windows.playerlist.unflag क्या आप वास्तव में {0} �
 windows.playerlist.punish क्या आप वास्तव में {0} पर कार्रवाई करना चाहते हैं?
 item.view.open मॉडल व्यूअर खोलें
 item.view.more अधिक जानकारी
-item.sell.cant आइटम बेचा नहीं जा सकता 
+item.sell.cant आइटम बेचा नहीं जा सकता
 item.sell.quick क्या आप वास्तव में {0} की शीघ्र बिक्री करना चाहते है?
 social.profile.stats संपूर्ण आँकड़े
 social.profile.class हथियार के आँकड़े
@@ -760,13 +760,13 @@ social.profile.assets एसेट्स [{0}]
 social.profile.assets.none उपयोगकर्ता द्वारा कोइ भी एसेट्स नही
 social.profile.mods मॉड्स [{0}]
 social.profile.mods.none उपयोगकर्ता द्वारा कोइ भी मॉड्स नही
-social.search खोज के परिणाम 
+social.search खोज के परिणाम
 social.market.stats.rare सबसे दुर्लभ वस्तु
 social.market.stats.circulation सर्कुलेशन मे
 social.market.stats.units दुनिया में कुल युनिट्स
 social.trades.in प्राप्त
 social.trades.in.head प्राप्त ट्रेड्स ({0})
-social.trades.out भेजे गए 
+social.trades.out भेजे गए
 social.trades.out.head भेजी गयी ट्रेड्स ({0})
 social.trades.history इतिहास
 social.trades.history.head व्यापार का इतिहास - ({0})
