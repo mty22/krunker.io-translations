@@ -744,34 +744,34 @@ windows.playerlist.ban Are you sure you want ban {0} from this game?
 windows.playerlist.flag Are you sure you want to Flag {0}?
 windows.playerlist.unflag Are you sure you want to Unflag {0}?
 windows.playerlist.punish Are you sure you want to take action on {0}?
-item.view.open Open Model Viewer
-item.view.more More Information
-item.sell.cant Item cant be sold.
-item.sell.quick Are you sure you want to Quick Sell {0}?
-social.profile.stats Overall Stats
-social.profile.class Class Stats
-social.profile.sales Sales
-social.profile.sales.market Market Sales
-social.profile.skins Skins [{0}]
-social.profile.skins.none No published Skins from this user
-social.profile.games Games [{0}]
-social.profile.games.none No published Games from this user
-social.profile.assets Assets [{0}]
-social.profile.assets.none No published Assets from this user
-social.profile.mods Mods [{0}]
-social.profile.mods.none No published Mods from this user
-social.search Search Results
-social.market.stats.rare Rarest Items
-social.market.stats.circulation In Circulation
-social.market.stats.units units Worldwide
-social.trades.in Incoming
-social.trades.in.head Incoming Offers ({0})
-social.trades.out Outgoing
-social.trades.out.head Outgoing Offers ({0})
-social.trades.history History
-social.trades.history.head Trade History ({0})
-social.trades.decline Decline All
-social.trades.message ENABLE TRADE MESSAGES IN SETTINGS
-social.trades.warning You get no items from this trade!
-social.trades.accept Are you sure you want to accept this offer?
+item.view.open 打开模型浏览工具
+item.view.more 更多信息
+item.sell.cant 物品无法出售
+item.sell.quick 您确定要闪售 {0} 吗?
+social.profile.stats 总体战绩
+social.profile.class 各角色战绩
+social.profile.sales 出售记录
+social.profile.sales.market 市场出售记录
+social.profile.skins [{0}] 个物品
+social.profile.skins.none 此用户无任何发布的皮肤
+social.profile.games [{0}] 个游戏地图
+social.profile.games.none 此用户无任何发布的游戏地图
+social.profile.assets [{0}] 个地图组件
+social.profile.assets.none 此用户无任何发布的地图组件
+social.profile.mods [{0}] 个插件
+social.profile.mods.none 此用户无任何发布的游戏插件
+social.search 搜索结果
+social.market.stats.rare 最稀有的物品
+social.market.stats.circulation 在拍卖中
+social.market.stats.units units 全球
+social.trades.in 收到请求
+social.trades.in.head 收到了 ({0}) 个交易请求
+social.trades.out 放出请求
+social.trades.out.head 放出了 ({0}) 个交易请求
+social.trades.history 交易记录
+social.trades.history.head ({0}) 个交易记录
+social.trades.decline 全部拒绝
+social.trades.message 在设置中开启交易请求信息
+social.trades.warning 您不会在此交易中获得任何物品！
+social.trades.accept 您确定接受此交易请求吗?
 `;
