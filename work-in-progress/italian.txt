@@ -1,0 +1,6 @@
+file: it.js
+
+pull requests:
+
+https://github.com/mty22/krunker.io-translations/pull/122
+

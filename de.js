@@ -2,7 +2,7 @@ module.exports = `
 menu.btn.ranked Ranked
 menu.btn.shop Markt
 menu.btn.social Soziales
-menu.btn.maps Karten
+menu.btn.maps Maps
 menu.btn.mods Mods
 menu.btn.settings Einstellungen
 menu.btn.customize Anpassen
@@ -134,7 +134,7 @@ settings.quality.mflash Mündungsfeuer
 settings.quality.flap Sniper Klappe
 settings.quality.lowSpec Niedrige Auflösung
 settings.quality.ambient Umgebungs Shading
-settings.quality.ambientOld Altes Shading (Wwenn möglich)
+settings.quality.ambientOld Altes Shading (Wenn möglich)
 settings.quality.textureAnim Textur-Animationen
 settings.quality.objectAnim Objekt-Animationen
 settings.quality.screenShake Bildschirm-Wackeln
@@ -186,7 +186,7 @@ settings.interface.speedColorMax Geschwindigkeits Farbe (Max)
 settings.interface.medals Orden anzeigen
 settings.interface.hideNames Namens-Anzeige
 settings.interface.hideNames.team Nur Team
-settings.interface.hideNames.enemy Nur Enemy
+settings.interface.hideNames.enemy Nur Gegner
 settings.interface.hideNames.all Jeder
 settings.interface.nametagStyle Namensanzeige-Style
 settings.interface.nametagOpac Namensanzeige Dreckkraft
@@ -288,7 +288,7 @@ settings.audio.asset Asset Lautstärke
 settings.audio.dialogue Aktions-Lautstärke
 settings.viewmodel.header Aussichts
 settings.viewmodel.fov Sichtfeld
-settings.viewmodel.fps Weapon Sichtfeld
+settings.viewmodel.fps Waffen Sichtfeld
 settings.viewmodel.bobbing Waffen Wackeln
 settings.viewmodel.leaning Waffen Lehnen
 settings.viewmodel.show.primary Primärwaffe anzeigen
@@ -358,8 +358,8 @@ settings.mods.scope.opacity Scope Deckkraft
 settings.mods.scope.width Scope Bild Breite
 settings.mods.scope.height Scope Bild Höhe
 settings.mods.dot Laser-Bild
-settings.mods.dot.width Reticle Bild Breite
-settings.mods.dot.height Reticle Bild Höhr
+settings.mods.dot.width Laser-Bild Breite
+settings.mods.dot.height Laser-Bild Höhe
 settings.mods.dot.paste Laser-Bild URL
 settings.mods.endmessage Spiel Endnachricht
 settings.mods.profile Profil-Bild
@@ -389,7 +389,7 @@ windows.servers.hide Volle Spiele ausblenden
 windows.servers.priority Regions-Priorität
 windows.servers.online {0} gesamt online
 windows.servers.social {0} on Social
-windows.loadout.header Auslastung ändern
+windows.loadout.header Ausrüstung ändern
 windows.loadout.class Klasse
 windows.loadout.primary Primäre Waffe
 windows.loadout.primary.attach Aufsatz
@@ -461,9 +461,9 @@ windows.controls.premium3 Smite
 windows.controls.reset Position zurücksetzen (Rennen & Parkour)
 windows.controls.pretend Spiel verstecken
 windows.host.header Individuelles Gastgeber-Spiel
-windows.host.maps Karten auswählen
-windows.host.cmaps Community Karte
-windows.host.raw Karten-Rohdaten
+windows.host.maps Maps auswählen
+windows.host.cmaps Community Maps
+windows.host.raw Maps-Rohdaten
 windows.host.modes Modus auswählen
 windows.host.classes Klassen auswählen
 windows.host.settings Server Einstellungen
@@ -472,7 +472,7 @@ windows.host.preset.load Voreinstellung laden...
 windows.host.preset.name Name Voreinstellung
 windows.host.start Spiel starten
 windows.host.rehost Spiel Starten (Spieler mitnehmen)
-windows.spray.header Spay auswählen
+windows.spray.header Spray auswählen
 windows.spray.default Voreingestelltes Spray
 windows.spray.spin Spray
 windows.maps.header Benutzerdefinierte Map
@@ -689,59 +689,89 @@ social.market.sort Filtern/Sortieren
 social.market.filter Suchen
 social.market.sort2 Sortieren
 social.market.price.high Höchster Preis
-social.trading.submitting Angebot einreichen...
+social.trading.submitting Angebot wird eingereicht...
 social.market.gift.amount Geschenkbetrag in
 social.market.fee.gift Keine Gebühr
-social.market.gift Gift KR
-social.market.gift.msg Hinterlass eine Nachricht
+social.market.gift KR verschenken
+social.market.gift.msg Hinterlasse eine Nachricht
 respawn.auto Auto Respawning in {0}
-custom.host.ranked Can't host match while in ranked.
-funds.insufficient Insufficient Funds
-funds.out It appears you have run out of Krunkies.
-custom.passcode.long Password too long
-custom.passcode.input Enter Server Password to join
-custom.tryagain Please try again.
-purchase.kr.success Added {0} KR to your account
-limited.purchase.ask Are you sure you want to purchase [{0}] for {1} KR?
-limited.purchase.success Added {0} to your inventory
-pretend.exit press [{0}] again to exit
-settings.loaded Settings Loaded
-settings.loaded.none No settings found
-account.login.required Must be logged in
-account.banned.hack This account has been banned for Hacking.
-account.banned.appeal If you want to appeal your ban, contact:
-account.delete You may request to delete your account, if the request is not cancelled within 14 days the account and all associated data will be permanently removed.
-account.delete.request Are you sure you want to request an account deletion?
-account.delete.cancel Are you sure you want to cancel account deletion?
-spin.free.available FREE KR AVAILABLE!
-spin.free.claim This spin is available to claim once per Hour after completing a match.
-spin.free.disable These Popups can be disabled in General Settings
-mod.reset.0 Will take effect after respawning.
-mod.reset.1 Map Objects dont get reset
-windows.profile.picture Change Picture
+custom.host.ranked Im Ranked Modus kannst du kein Spiel hosten
+funds.insufficient Zu wenig Krunkies
+funds.out Sieht aus als hättest du keine Krunkies mehr.
+custom.passcode.long Passwort zu lang
+custom.passcode.input Gib das Passwort ein um beizutreten
+custom.tryagain Versuche es später nochmal
+purchase.kr.success {0} KR wurden zu deinem Account hinzugefügt
+limited.purchase.ask Willst du wirklich [{0}] für {1} KR kaufen?
+limited.purchase.success {0} wurde zu deinem Inventar hinzugefügt.
+pretend.exit Drücke [{0}] nochmal um zu verlassen
+settings.loaded Einstellungen geladen
+settings.loaded.none Keine Einstellungen gefunden
+account.login.required Du musst eingeloggt sein
+account.banned.hack Dieser Account wurde für Hacking gebannt
+account.banned.appeal Um einen Entbannungsantrag zu stellen kontaktiere:
+account.delete Du kannst die Löschung deines Accounts hier beantragen, wird die Anforderung nicht innerhalb von 14 Tagen zurückgezogen wird der Account und alle Daten permanent gelöscht.
+account.delete.request Bist du dir sicher dass du eine Accountlöschung beantragen möchtest?
+account.delete.cancel Bist du dir sicher das du die Beantragung zur Accountlöschung zurückziehen möchtest?
+spin.free.available GRATIS KR VERFÜGBAR!
+spin.free.claim Du kannst dieses Glücksrad jede Stunde nach absolvieren eines Spiels einlösen.
+spin.free.disable Diese Popups können in den generellen Einstellungen ausgeschalten werden.
+mod.reset.0 Respawne um den Effekt zu erhalten
+mod.reset.1 Map Objekte werden nicht zurückgesetzt
+windows.profile.picture Bild ändern
 stats.assists Assists
 stats.nukes Nukes
-stats.melee Melee
-stats.fistkills Beatdowns
-stats.thrownkills Bullseyes
-stats.headshots Headshots
+stats.melee Nahkampf-Kills
+stats.fistkills Faust-Kills
+stats.thrownkills Wurfmesser-Kills
+stats.headshots Kopfschüsse
 stats.wallbangs Wallbangs
-stats.sprays Sprays Placed
-windows.host.default.settings Enabling Default Settings allows for storing Player Progress and Highscores
-windows.host.default.commands *Host Commands are Disabled in this mode: /noclip /god /smite etc
-windows.host.rewards Enabling KR Rewards forces the Server to use Default Settings & allows players to earn KR from the map funds:
-windows.store.wheels.sub Try your luck and spin for a chance to win some new skins!
-windows.store.currency * Prices in USD can be converted to your local currency at an exchange rate defined by the payment provider or bank
-windows.store.creator Consider Support your favorite Content Creator by using a Creator Code
-windows.chall.customs Challenges can't be completed in Custom Matches
-twitch.link Are you sure you want to link a twitch account?
-twitch.unlink Are you sure you want to unlink your twitch account?
-windows.clan.leave Are you sure you want to leave the clan?
-windows.clan.delete Are you sure you want to delete the clan?
-windows.clan.kick Are you sure you want kick {0} from the clan?
-windows.store.premium.purchase Are you sure you want to purchase {0} days of Premium?
-windows.playerlist.ban Are you sure you want ban {0} from this game?
-windows.playerlist.flag Are you sure you want to Flag {0}?
-windows.playerlist.unflag Are you sure you want to Unflag {0}?
-windows.playerlist.punish Are you sure you want to take action on {0}?
+stats.sprays Platzierte Graffitis
+windows.host.default.settings Durch aktivieren der Standardeinstellungen, können Spielerfortschritte und Höchstwerte gespeichert werden.
+windows.host.default.commands *Host Befehle sind in diesem Modus deaktiviert: /noclip /god /smite etc
+windows.host.rewards KR Belohnungen einzuschalten zwingt den Server Standard-Einstellungen zu verwenden und erlaubt Spielern KR von der Map Kasse zu verdienen
+windows.store.wheels.sub Versuche dein Glück und drehe am Glücksrad für eine Chance auf einige neue Skins
+windows.store.currency * Preise in USD können zu deiner lokalen Währung umgewandelt werden. Diese Währungsumrechnung ist von deinem Zahlungsanbieter oder deiner Bank bestimmt.
+windows.store.creator Überlege dir einen Creator Code zu benutzen, um deinen Lieblingscreator zu unterstützen.
+windows.chall.customs Herausforderungen können nur in offiziellen Spielen erledigt werden.
+twitch.link Bist du dir sicher, dass du diesen Twitch-Account mit deinem Profil verbinden möchtest?
+twitch.unlink Bist du dir sicher, dass du deinen Twitch-Account von deinem Profil entfernen möchtest?
+windows.clan.leave Bist du dir sicher dass du den Clan verlassen willst?
+windows.clan.delete Bist du dir sicher dass du den Clan löschen willst?
+windows.clan.kick Bist du dir sicher dass du {0} aus dem Clan entfernen willst?
+windows.store.premium.purchase Bist du dir sicher dass du {0} Tage Premium kaufen willst?
+windows.playerlist.ban Bist du dir sicher dass du {0} aus dem Spiel bannen willst?
+windows.playerlist.flag Bist du dir sicher dass du {0} markieren willst?
+windows.playerlist.unflag Willst du {0} Entmarkieren ?
+windows.playerlist.punish Bist du dir sicher dass du diese Aktion an {0} durchführen willst?
+item.view.open Öffne Modell Ansicht
+item.view.more Mehr Informationen
+item.sell.cant Item kann nicht verkauft werden.
+item.sell.quick Are you sure you want to Quick Sell {0}?
+social.profile.stats Insgesamte Statistiken
+social.profile.class Klassen Statistiken
+social.profile.sales Sales
+social.profile.sales.market Market Sales
+social.profile.skins Skins [{0}]
+social.profile.skins.none Keine veröffentlichten Skins von diesem Benutzer
+social.profile.games Spiele [{0}]
+social.profile.games.none Keine veröffentlichten Spiele von diesem Benutzer
+social.profile.assets Assets [{0}]
+social.profile.assets.none No published Assets from this user
+social.profile.mods Mods [{0}]
+social.profile.mods.none Keine veröffentlichten Mods von diesem Benutzer
+social.search Suchergebnisse
+social.market.stats.rare Seltenste Items
+social.market.stats.circulation Im Umlauf
+social.market.stats.units Einheiten Weltweit
+social.trades.in Eingehend
+social.trades.in.head Eigehende Angebote ({0})
+social.trades.out Ausgehend
+social.trades.out.head Ausgehende Angebote ({0})
+social.trades.history Verlauf
+social.trades.history.head Handelsverlauf ({0})
+social.trades.decline Alle Ablehnen
+social.trades.message AKTIVIERE HANDELSNACHRICHTEN IN DEN EINSTELLUNGEN
+social.trades.warning Du bekommst keine Items aus diesem Handel!
+social.trades.accept Bist du sicher, dass du dieses Angebot annehmen möchtest?
 `;

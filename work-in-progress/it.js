@@ -1,314 +1,314 @@
 module.exports = `
-menu.btn.ranked Ranked
-menu.btn.shop Shop
+menu.btn.ranked Competitive
+menu.btn.shop Negozio
 menu.btn.social Hub
-menu.btn.maps Games
+menu.btn.maps Mappe
 menu.btn.mods Mods
-menu.btn.settings Settings
-menu.btn.customize Customize
-menu.btn.invite Invite
-menu.btn.invite.clicked Copied
-menu.btn.join Join
-menu.btn.host Host Game
+menu.btn.settings Impostazioni
+menu.btn.customize Customizzazione
+menu.btn.invite Invita
+menu.btn.invite.clicked Copiato
+menu.btn.join Entra
+menu.btn.host Crea Partita
 menu.btn.browser Servers
-generic.wait Please wait...
-generic.loading LOADING...
-generic.none None
-generic.connecting CONNECTING...
-generic.select Select
-generic.delete Delete
-generic.save Save
-generic.load Load
-generic.search Search
-generic.leave Leave
-generic.default Default
-generic.submit Submit
-generic.create Create
-generic.random Random
-generic.failed Failed
-generic.success Success!
-generic.name Name
-generic.level Level
-generic.score Score
+generic.wait Aspetta un attimo...
+generic.loading CARICAMENTO...	
+generic.none Nope
+generic.connecting CONNESSIONE...
+generic.select Seleziona
+generic.delete Cancella
+generic.save Salva
+generic.load Carica
+generic.search Cerca
+generic.leave Esci
+generic.default Predefinito
+generic.submit Inserisci
+generic.create Crea
+generic.random Randomico
+generic.failed Fallito
+generic.success Successo!
+generic.name Nome
+generic.level Livello
+generic.score Punti
 generic.off Off
-generic.defeat DEFEAT
-generic.victory VICTORY
-generic.matchover MATCH OVER
-generic.matchaband MATCH ABANDONED
-generic.follow Follow
-generic.unfollow Unfollow
-generic.followers Followers
-generic.following following
-generic.games Games
-generic.wins Wins
-generic.lose Losses
+generic.defeat SCONFITTA
+generic.victory VITTORIA
+generic.matchover MATCH FINITO
+generic.matchaband MATCH ABBANDONATO
+generic.follow Segui
+generic.unfollow Non seguire più
+generic.followers Seguitori
+generic.following Seguiti
+generic.games Giochi
+generic.wins Vincite
+generic.lose Perdite
 generic.clan Clan
-generic.games.played Games Played
-generic.games.won Games Won
-generic.games.lost Games Lost
-generic.timep Time Played
-generic.kills Kills
-generic.deaths Deaths
+generic.games.played Giochi Giocati 
+generic.games.won Giochi Vinti
+generic.games.lost Giochi Persi
+generic.timep Tempo Giocato
+generic.kills Uccisioni
+generic.deaths Morti
 generic.kdr KDR
-generic.time Time
-generic.logout Logout
-generic.logout.sessions Logout of all Sessions
-generic.username Enter Username
-generic.password Enter Password
-generic.register Register
-generic.login Login
-generic.accuracy Accuracy
-player.waiting waiting for players
-player.died You died
-player.killed Killed By
-player.killstreak {0} on a {1} Kill Streak
-player.inactive Kicked for inactivity
-player.disconnect DISCONNECTED
-timer.end Next Round in {0}
-leaderboard.empty Empty Lobby
+generic.time Tempo
+generic.logout Disconetti
+generic.logout.sessions Disconnetti per tutte le sessioni
+generic.username Nome
+generic.password Password
+generic.register Registrati
+generic.login Accedi
+generic.accuracy Accuratezza
+player.waiting aspetta per giocatori
+player.died Sei morto
+player.killed Ucciso da 
+player.killstreak {0} è in {1} Kill di Fila
+player.inactive Kickato per inattività
+player.disconnect DISCONNESSO
+timer.end Prossimo Round in {0}
+leaderboard.empty Lobby Vuota
 popup.checkpoint Checkpoint!
-app.play CLICK TO PLAY
-app.spectate CLICK TO SPECTATE
-app.play.mobile TAP TO PLAY
-app.spectate.mobile TAP TO SPECTATE
-app.play.controller PRESS START
-app.spectate.controller START to SPECTATE
-purchase.error Error occurred
-purchase.error.click click here</a> and try again!
-purchase.error.limit You may have exceeded your daily transaction limit
-settings.reset Reset
-settings.reset.confirm Are you sure you want to reset all your settings?
-settings.import Import
-settings.export Export
-settings.none No settings found
+app.play CLICCA PER GIOCARE
+app.spectate CLICCA PER SPEKTARE
+app.play.mobile TAP PER GIOCARE
+app.spectate.mobile TAP PER SPECTARE
+app.play.controller PREMI START
+app.spectate.controller START per SPECTARE
+purchase.error Errore 
+purchase.error.click fai clic qui </a> e riprova!
+purchase.error.limit Potresti aver superato il limite di transazioni giornaliere
+settings.reset Resetta
+settings.reset.confirm Sei sicuro di voler resettare i settaggi?
+settings.import Importa
+settings.export Esporta
+settings.none Settings non funzionante
 settings.backup Backup Settings
-settings.controls.change Keybinds
-settings.controls.press Press any Key
-settings.local.header Localization <span id="requiresRestart"><span style="color: #eb5656">*</span> requires restart</span>
-settings.local.region Default Region
-settings.local.lang Language
+settings.controls.change Tasti sulla Tastiera
+settings.controls.press Premi un tasto
+settings.local.header La localizzazione <span id = "requireRestart"> <span style = "color: # eb5656"> * </span> richiede il riavvio </span>
+settings.local.region Regione Predefinita
+settings.local.lang Lingue
 settings.network.header Network
-settings.network.sendRate High Tickrate
-settings.network.netRerouting Auto Routing (Affects Ping)
-settings.network.lagComp Lag Compensation
+settings.network.sendRate Tickrate Alto
+settings.network.netRerouting Routing Automatico (influisce sui Ping)
+settings.network.lagComp Compesazione del Lag
 settings.popup.header Popups
-settings.popup.freeKRPop Show Free KR Popup
-settings.experimental.header Experimental
-settings.experimental.aimFreezeFix Aim Freeze Fix
-settings.experimental.mouseFlickFix Mouse Flick Fix
-settings.experimental.shaderRendering Instance Rendering
-settings.dev.header Developer
-settings.dev.forceUpdate Force Update Skins
-settings.dev.forceRegen Always Regenerate Player
-settings.dev.extraBan Extra Ban Info
+settings.popup.freeKRPop Mostra il Free KR popups
+settings.experimental.header Sperimentale
+settings.experimental.aimFreezeFix Blocco dell'aim fix
+settings.experimental.mouseFlickFix Flick del mouse Fix
+settings.experimental.shaderRendering Rendering instantaneo
+settings.dev.header Sviluppatori
+settings.dev.forceUpdate Aggiornamento Skin
+settings.dev.forceRegen Rigenera sempre il giocatore
+settings.dev.extraBan Più info sul Ban
 settings.chat.header Chat
-settings.chat.chat Show Chat Box
-settings.chat.chat.all Always
-settings.chat.chat.focus While Focused
-settings.chat.messages Show Player Messages
-settings.chat.unboxings Show Unboxings
-settings.chat.chatOp Chat Opacity
-settings.chat.chatBGOp Chat BG Opacity
-settings.chat.chatHeight Chat Height
-settings.chat.chatTimer Chat Timer (s)
-settings.chat.chatTextOutline Chat Text Outline
-settings.chat.chatFilter Profanity Filter
-settings.quality.header Performance
-settings.quality.updRate Frame Cap
-settings.quality.rendDst Render Distance
-settings.quality.res Resolution
-settings.quality.part Particles
-settings.quality.mapDet Map Details
-settings.quality.noTex No Textures
-settings.quality.partdist Particle Distance
-settings.quality.renderdist Render Distance
-settings.quality.reflection Reflection Quality
-settings.quality.antiAlias Antialiasing
-settings.quality.shadows Shadows
-settings.quality.softShad Soft Shadows
-settings.quality.highResShad High-Res Shadows
-settings.quality.shadowsDynamic Dynamic Shadows
-settings.quality.trails Bullet Trails
-settings.quality.yourTrails Your Trails
-settings.quality.mflash Muzzle Flash
-settings.quality.flap Sniper Flap
-settings.quality.lowSpec Low Spec
-settings.quality.ambient Ambient Shading
-settings.quality.ambientOld Old Shading (When Possible)
-settings.quality.textureAnim Texture Animations
-settings.quality.objectAnim Object Animations
-settings.quality.screenShake Screen Shake
-settings.quality.weaponShine Weapons Shine
+settings.chat.chat Mostra la Chat
+settings.chat.chat.all Sempre
+settings.chat.chat.focus Mentre concentrato
+settings.chat.messages Mostra i Messaggi
+settings.chat.unboxings Mostra Spacchettamenti
+settings.chat.chatOp Opacità Chat
+settings.chat.chatBGOp Opacità BG chat
+settings.chat.chatHeight Altezza chat
+settings.chat.chatTimer Timer della Chat (s)
+settings.chat.chatTextOutline Struttura del testo della chat
+settings.chat.chatFilter Filtro parolacce
+settings.quality.header Prestazione
+settings.quality.updRate Capacità frame
+settings.quality.rendDst Lunghezza Vista
+settings.quality.res Risoluzione
+settings.quality.part Particelle
+settings.quality.mapDet Dettagli Mappa
+settings.quality.noTex Togli le Textures
+settings.quality.partdist Distanza delle Particelle
+settings.quality.renderdist Lunghezza vista
+settings.quality.reflection Qualità Riflesso
+settings.quality.antiAlias Anti aliasing
+settings.quality.shadows Ombre
+settings.quality.softShad Ombre basse
+settings.quality.highResShad Ombre ad alta risoluzione
+settings.quality.shadowsDynamic Ombre dinamiche
+settings.quality.trails Tracce del proiettile
+settings.quality.yourTrails Le tue tracce
+settings.quality.mflash Flash Arma
+settings.quality.flap Alettone del Cecchino
+settings.quality.lowSpec Gambe Basse
+settings.quality.ambient Ombreggiatura ambientale
+settings.quality.ambientOld Vecchia ombreggiatura (se possibile)
+settings.quality.textureAnim Animazioni di texture
+settings.quality.objectAnim Animazioni di oggetti
+settings.quality.screenShake Traballamento Schermo
+settings.quality.weaponShine Luminosità Armi
 settings.quality.rendGamma Gamma
-settings.quality.lighting Lighting
-settings.quality.showExplo Show Explosions
-settings.quality.aspectRatio Aspect Ratio
-settings.post.header Post Processing
-settings.post.post Post Processing
-settings.post.bloom Bloom
-settings.post.bloomThreshold Bloom Threshold
+settings.quality.lighting Illuminazione
+settings.quality.showExplo Mostra Esplosioni
+settings.quality.aspectRatio Proporzioni
+settings.post.header Processo inverso
+settings.post.post Processo invertito
+settings.post.bloom Fioritura
+settings.post.bloomThreshold Soglia di fioritura
 settings.post.bloomStrength Bloom Strength
-settings.post.bloomRadius Bloom Radius
+settings.post.bloomRadius Raggio di fioritura
 settings.post.ssao SSAO
-settings.post.ssaoRadius SSAO Radius
-settings.interface.hitInd Show Hit Indicators
-settings.interface.hitColor Hit Indicator Color
-settings.interface.dmg Show Damage
-settings.interface.dmgCol Damage Color
-settings.interface.critCol Crit Color
-settings.interface.header Interface
-settings.interface.scale UI Scale
-settings.interface.ui Show UI
-settings.interface.scoreboard Use Old Scoreboard
-settings.interface.oldBrowser Use Old Browser
-settings.interface.rarityanim Disable Rarity Animations
-settings.interface.showPfp Show Profile Pictures
-settings.interface.showTradeMsg Show Trade Messages
-settings.interface.hp Dynamic HP Bars
-settings.interface.dmgScale Damage Scale
-settings.interface.killf Show Kill Feed
-settings.interface.ping Show Ping
-settings.interface.net-stats Show Network Stats
-settings.interface.fps Show FPS
-settings.interface.deaths Show Death Counter
-settings.interface.kd Show K/D Counter
-settings.interface.kills Show Kill Counter
-settings.interface.streak Show Streak Counter
-settings.interface.score Show Score Counter
-settings.interface.spectators Show Spectator Counter
-settings.interface.speed Show Movement Speed
-settings.interface.speedOffX Speed X Offset
-settings.interface.speedOffY Speed Y Offset
-settings.interface.speedOpacity Speed Opacity
-settings.interface.speedScale Speed Scale
-settings.interface.speedColor Speed Color (Current)
-settings.interface.speedColorMax Speed Color (Max)
-settings.interface.medals Show Medals
-settings.interface.hideNames Nametag Display
-settings.interface.hideNames.team Team Only
-settings.interface.hideNames.enemy Enemy Only
-settings.interface.hideNames.all Everyone
-settings.interface.nametagStyle Nametag Style
+settings.post.ssaoRadius SSAO raggio
+settings.interface.hitInd Mostra indicatori di colpito
+settings.interface.hitColor Colore Indicatore
+settings.interface.dmg Mostra Danno
+settings.interface.dmgCol Colore Danno
+settings.interface.critCol Colore Critico
+settings.interface.header Interfaccia
+settings.interface.scale scala UI
+settings.interface.ui mostra UI
+settings.interface.scoreboard Attiva Soreboard
+settings.interface.oldBrowser Usa il vecchio browser
+settings.interface.rarityanim Disabilita le animazioni di rarità
+settings.interface.showPfp Mostra immagini del profilo
+settings.interface.showTradeMsg Mostra messaggi commerciali
+settings.interface.hp Barre dinamiche HP
+settings.interface.dmgScale Scala dei danni
+settings.interface.killf Mostra Tipo di Kill
+settings.interface.ping Mostra Ping
+settings.interface.net-stats Mostra statistiche di rete
+settings.interface.fps Mostra FPS
+settings.interface.deaths Mostra contatore morte
+settings.interface.kd Mostra contatore K / D
+settings.interface.kills Mostra contatore uccisioni
+settings.interface.streak Mostra Contatore di kill continue
+settings.interface.score Mostra contatore del punteggio
+settings.interface.spectators Mostra contatore spettatori
+settings.interface.speed Mostra velocità di movimento
+settings.interface.speedOffX Offset velocità X
+settings.interface.speedOffY Offset velocità Y
+settings.interface.speedOpacity Opacità della velocità
+settings.interface.speedScale Scala di velocità
+settings.interface.speedColor Speed Color (corrente)
+settings.interface.speedColorMax Velocità colore (max)
+settings.interface.medals Mostra medaglie
+settings.interface.hideNames Targhetta di visualizzazione
+settings.interface.hideNames.team Solo squadra
+settings.interface.hideNames.enemy Solo nemico
+settings.interface.hideNames.all Tutti
+settings.interface.nametagStyle Stile targhetta
 settings.interface.nametagOpac Nametag Opacity
-settings.interface.nametagStyle.health Health Only
-settings.interface.nametagStyle.name Name Only
-settings.interface.nametagStyle.nameLvl Name & Level Only
-settings.interface.nametagStyle.all Everything
-settings.interface.healthNum Nametag Health Number
-settings.interface.healthColT Nametag Health Color Team
-settings.interface.healthColE Nametag Health Color Enemy
-settings.interface.xpBarCol XP Bar Color
-settings.interface.xpBarOpac XP Bar Opacity
-settings.crosshair.header Crosshair
-settings.crosshair.type Type
-settings.crosshair.type.2 Custom
-settings.crosshair.type.3 Layered
-settings.crosshair.type.4 Image
-settings.crosshair.type.5 Precision
-settings.crosshair.style Style
+settings.interface.nametagStyle.health Solo vita
+settings.interface.nametagStyle.name Solo Nome
+settings.interface.nametagStyle.nameLvl Solo nome e livello
+settings.interface.nametagStyle.all Qualunque cosa
+settings.interface.healthNum Targhetta identificativa vita
+settings.interface.healthColT Targhetta identificativa vita Color Team
+settings.interface.healthColE Targhetta identificativa vita Color Enemy
+settings.interface.xpBarCol Colore barra XP
+settings.interface.xpBarOpac Opacità della barra di XP
+settings.crosshair.header Mirino
+settings.crosshair.type genere
+settings.crosshair.type.2 Personalizzato
+settings.crosshair.type.3 Stratificato
+settings.crosshair.type.4 immagine
+settings.crosshair.type.5 Precisione
+settings.crosshair.style Stile
 settings.crosshair.style.0 Cross
-settings.crosshair.style.1 Hollow Circle
-settings.crosshair.style.2 Solid Circle
-settings.crosshair.style.3 Hollow Square
-settings.crosshair.style.4 Solid Square
-settings.crosshair.image Image
-settings.crosshair.image.paste Crosshair Image
-settings.crosshair.always Always Show
-settings.crosshair.color Color
-settings.crosshair.shadow.color Shadow Color
-settings.crosshair.shadow.thickness Shadow Thickness
-settings.crosshair.size Size
-settings.crosshair.thickness Thickness
+settings.crosshair.style.1 Cerchio vuoto
+settings.crosshair.style.2 Cerchio solido
+settings.crosshair.style.3 Piazza vuota
+settings.crosshair.style.4 Quadrato solido
+settings.crosshair.image Immagine
+settings.crosshair.image.paste Immagine del mirino
+settings.crosshair.always Mostra Sempre
+settings.crosshair.color Colore
+settings.crosshair.shadow.color Colore Contorno
+settings.crosshair.shadow.thickness Spessore contorno
+settings.crosshair.size Dimensione
+settings.crosshair.thickness Spessore
 settings.crosshair.gap Gap
-settings.crosshair.dot Dot
-settings.crosshair.opacity.use Use Custom Opacity
-settings.crosshair.opacity.custom Custom Opacity
+settings.crosshair.dot Punto
+settings.crosshair.opacity.use Usa opacità personalizzata
+settings.crosshair.opacity.custom Opacità personalizzata
 settings.hitmarker.header Hitmarker
-settings.hitmarker.color Color
-settings.hitmarker.kcolor Kill Color
-settings.hitmarker.thickness Thickness
-settings.hitmarker.opacity Opacity
-settings.hitmarker.leng Length
-settings.hitmarker.spacing Spacing
-settings.hitmarker.animD Anim Size
-settings.hitmarker.animS Anim Speed
-settings.hitmarker.hitm Show
-settings.hitmarker.hitmFad Fade Speed
-settings.hitmarker.custom Hitmarker Image
-settings.hitmarker.custom.paste Hitmarker Image URL
-settings.onKillS.style.0 Default
-settings.onKillS.style.1 Reduce Resolution
-settings.onKillS.style.2 Reduce FOV
-settings.onKillS.style.3 Increase FOV
-settings.serverb.header Server Browser
+settings.hitmarker.color Colore
+settings.hitmarker.kcolor Colore Uccisione
+settings.hitmarker.thickness Spessore
+settings.hitmarker.opacity Opacità
+settings.hitmarker.leng Lunghezza
+settings.hitmarker.spacing Spaziatura
+settings.hitmarker.animD Dimensioni animazione
+settings.hitmarker.animS Velocità animazione
+settings.hitmarker.hitm Mostra
+settings.hitmarker.hitmFad Velocità di dissolvenza
+settings.hitmarker.custom immagine Hitmarker
+settings.hitmarker.custom.paste URL immagine Hitmarker 
+settings.onKillS.style.0 Predefinito
+settings.onKillS.style.1 Riduci la risoluzione
+settings.onKillS.style.2 Riduci FOV
+settings.onKillS.style.3 Aumenta il FOV
+settings.serverb.header Browser del server
 settings.serverb.oldBrowser Legacy Browser
-settings.serverb.defaultRegionOnly Default Region Only
+settings.serverb.defaultRegionOnly Solo regione predefinita
 settings.gameprivacy.header Gameplay Privacy
-settings.gameprivacy.streamer Streamer Mode
-settings.gameprivacy.anon Anonymous Mode
-settings.gameprivacy.hideGameTitle Hide Game Title
+settings.gameprivacy.streamer Modalità Streamer
+settings.gameprivacy.anon Modalità anonima
+settings.gameprivacy.hideGameTitle Nascondi titolo del gioco
 settings.gameplay.header Gameplay
-settings.gameplay.sensitivityX X Sensitivity
-settings.gameplay.sensitivityY Y Sensitivity
-settings.gameplay.aimsensX Aim X Sensitivity
-settings.gameplay.aimsensY Aim Y Sensitivity
-settings.gameplay.challenge Challenge Mode
-settings.gameplay.invert Invert Y-Axis
-settings.gameplay.onkillS On Kill
-settings.gameplay.scrollDir Scroll Direction
+settings.gameplay.sensitivityX Sensibilità X
+settings.gameplay.sensitivityY Sensibilità Y
+settings.gameplay.aimsensX Obiettivo X Sensibilità
+settings.gameplay.aimsensY Obiettivo Y Sensibilità
+settings.gameplay.challenge Modalità sfida
+settings.gameplay.invert Inverti asse y
+settings.gameplay.onkillS Su Kill
+settings.gameplay.scrollDir Direzione di scorrimento
 settings.controller.header Controller
-settings.controller.sensitivityX X Sensitivity
-settings.controller.disableCons Disable Controllers
-settings.controller.sensitivityY Y Sensitivity
-settings.controller.aimsensX Aim X Sensitivity
-settings.controller.aimsensY Aim Y Sensitivity
-settings.controller.deadZoneL Dead Zone (Left)
-settings.controller.deadZoneR Dead Zone (Right)
-settings.controller.triggerThres Trigger Threshold
-settings.controller.vibration Vibration
-settings.controller.gradSpeed Gradual Speed
-settings.controller.invert Invert Y-Axis
+settings.controller.sensitivityX Sensibilità X
+settings.controller.disableCons Disabilita controller
+settings.controller.sensitivityY Sensibilità Y
+settings.controller.aimsensX Obiettivo X Sensibilità
+settings.controller.aimsensY Obiettivo Y Sensibilità
+settings.controller.deadZoneL Zona morta (sinistra)
+settings.controller.deadZoneR Zona morta (a destra)
+settings.controller.triggerThres Soglia di trigger
+settings.controller.vibration Vibrazione
+settings.controller.gradSpeed Velocità graduale
+settings.controller.invert Inverti asse y
 settings.mobile.header Mobile
-settings.mobile.sensitivityX X Sensitivity
-settings.mobile.sensitivityY Y Sensitivity
-settings.mobile.aimsensX Aim X Sensitivity
-settings.mobile.aimsensY Aim Y Sensitivity
-settings.mobile.vibration Vibration
-settings.mobile.gradSpeed Gradual Speed
-settings.mobile.invert Invert Y-Axis
+settings.mobile.sensitivityX Sensibilità X
+settings.mobile.sensitivityY Sensibilità Y
+settings.mobile.aimsensX Obiettivo X Sensibilità
+settings.mobile.aimsensY Obiettivo Y Sensibilità
+settings.mobile.vibration Vibrazione
+settings.mobile.gradSpeed Velocità graduale
+settings.mobile.invert Inverti asse y
 settings.audio.header Audio
 settings.audio.sound Master Volume
-settings.audio.ambient Ambient Volume
-settings.audio.voice Voice Volume
-settings.audio.weps Weapon Volume
-settings.audio.player Player Volume
-settings.audio.skin Cosmetics Volume
-settings.audio.ui UI Volume
-settings.audio.asset Asset Volume
-settings.audio.dialogue Action Volume
-settings.viewmodel.header View Model
-settings.viewmodel.fov Field of View
-settings.viewmodel.fps Weapon FOV
-settings.viewmodel.bobbing Weapon Bobbing
-settings.viewmodel.leaning Weapon Leaning
-settings.viewmodel.show.primary Show Primary
-settings.viewmodel.show.secondary Show Secondary
-settings.viewmodel.roundArms Rounded Arms
-settings.viewmodel.show.melee Show Melee
-settings.viewmodel.show.ads Hide Weapon on ADS
-settings.viewmodel.toggleAim Toggle Aim
-settings.viewmodel.show.hands Show Hands
-settings.viewmodel.leftHand Left Handed
-settings.viewmodel.aimAnim Weapon Aim Animation
-settings.viewmodel.rot Weapon Rotation
-settings.viewmodel.xOff Weapon X Offset
-settings.viewmodel.yOff Weapon Y Offset
-settings.viewmodel.zOff Weapon Z Offset
-settings.viewmodel.weapSwapY Weapon Swap Y
-settings.viewmodel.weapReloadY Weapon Reload Y
-settings.viewmodel.yOffADS Weapon ADS Y Offset
-settings.viewmodel.adsFovMlt ADS FOV Power
-settings.editing.header Editing
+settings.audio.ambient Volume Ambiente
+settings.audio.voice Volume Vcoe
+settings.audio.weps Volume Armi
+settings.audio.player Volume Giocatore
+settings.audio.skin Volume Mimetiche
+settings.audio.ui Volume UI
+settings.audio.asset Volume Asset
+settings.audio.dialogue Volume azione
+settings.viewmodel.header Visualizza modello
+settings.viewmodel.fov Campo visivo
+settings.viewmodel.fps FOV delle armi
+settings.viewmodel.bobbing Bobbing Arma
+settings.viewmodel.leaning Pendenza Arma
+settings.viewmodel.show.primary Mostra primaria
+settings.viewmodel.show.secondary Mostra secondario
+settings.viewmodel.roundArms Braccia arrotondate
+settings.viewmodel.show.melee Mostra Melee
+settings.viewmodel.show.ads Nascondi arma su ADS
+settings.viewmodel.toggleAim Attiva / disattiva mira
+settings.viewmodel.show.hands Mostra le mani
+settings.viewmodel.leftHand Mancino
+settings.viewmodel.aimAnim Animazione della mira dell'arma
+settings.viewmodel.rot Rotazione delle armi
+settings.viewmodel.xOff Offset X arma
+settings.viewmodel.yOff Offset Y arma
+settings.viewmodel.zOff Offset Z arma
+settings.viewmodel.weapSwapY Scambio di armi Y
+settings.viewmodel.weapReloadY Ricarica armi Y
+settings.viewmodel.yOffADS Offset Y ADS arma
+settings.viewmodel.adsFovMlt Potenza FOV ADS
+settings.editing.header La modifica
 settings.editing.health.high HUD Health High
 settings.editing.health.low HUD Health Low
 settings.editing.speedLines Speed Lines
@@ -744,34 +744,4 @@ windows.playerlist.ban Are you sure you want ban {0} from this game?
 windows.playerlist.flag Are you sure you want to Flag {0}?
 windows.playerlist.unflag Are you sure you want to Unflag {0}?
 windows.playerlist.punish Are you sure you want to take action on {0}?
-item.view.open Open Model Viewer
-item.view.more More Information
-item.sell.cant Item cant be sold.
-item.sell.quick Are you sure you want to Quick Sell {0}?
-social.profile.stats Overall Stats
-social.profile.class Class Stats
-social.profile.sales Sales
-social.profile.sales.market Market Sales
-social.profile.skins Skins [{0}]
-social.profile.skins.none No published Skins from this user
-social.profile.games Games [{0}]
-social.profile.games.none No published Games from this user
-social.profile.assets Assets [{0}]
-social.profile.assets.none No published Assets from this user
-social.profile.mods Mods [{0}]
-social.profile.mods.none No published Mods from this user
-social.search Search Results
-social.market.stats.rare Rarest Items
-social.market.stats.circulation In Circulation
-social.market.stats.units units Worldwide
-social.trades.in Incoming
-social.trades.in.head Incoming Offers ({0})
-social.trades.out Outgoing
-social.trades.out.head Outgoing Offers ({0})
-social.trades.history History
-social.trades.history.head Trade History ({0})
-social.trades.decline Decline All
-social.trades.message ENABLE TRADE MESSAGES IN SETTINGS
-social.trades.warning You get no items from this trade!
-social.trades.accept Are you sure you want to accept this offer?
 `;

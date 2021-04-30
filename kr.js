@@ -61,7 +61,7 @@ generic.accuracy 명중률
 player.waiting 플레이어 기다리는 중
 player.died 죽었습니다
 player.killed 나를 죽인 플레이어 -
-player.killstreak {0}님이 {1}명 연속 처치 중입니다.
+player.killstreak {0} on a {1} Kill Streak
 player.inactive 장시간 활동하지 않아 게임에서 제외되었습니다.
 player.disconnect 연결 끊기
 timer.end {0}초 후 다음 라운드가 시작합니다.
@@ -97,10 +97,10 @@ settings.experimental.header 실험적 설정
 settings.experimental.aimFreezeFix 에임 멈춤 현상 해결
 settings.experimental.mouseFlickFix 마우스 순간이동 문제 해결
 settings.experimental.shaderRendering 인스턴스 렌더링
-settings.dev.header Developer
-settings.dev.forceUpdate Force Update Skins
-settings.dev.forceRegen Always Regenerate Player
-settings.dev.extraBan Extra Ban Info
+settings.dev.header 개발자
+settings.dev.forceUpdate 스킨 강제 업데이트
+settings.dev.forceRegen 항상 플레이어 재생성
+settings.dev.extraBan 추가 차단 정보
 settings.chat.header 채팅
 settings.chat.chat 채팅창 표시
 settings.chat.chat.all 항상
@@ -163,7 +163,7 @@ settings.interface.scoreboard 구 스코어보드 사용
 settings.interface.oldBrowser 구 서버 탐색기 사용
 settings.interface.rarityanim 희귀도 애니메이션 끄기
 settings.interface.showPfp 프로필 사진 표시
-settings.interface.showTradeMsg 트레이드 메시지 표시
+settings.interface.showTradeMsg 거래 메시지 표시
 settings.interface.hp 동적 HP 막대
 settings.interface.dmgScale 피해량 숫자 크기
 settings.interface.killf 킬로그 표시
@@ -326,13 +326,13 @@ settings.editing.prog.shadow 진행 막대 그림자
 settings.editing.progOffX 진행 막대 좌우 위치
 settings.editing.progOffY 진행 막대 상하 위치
 settings.editing.progRot 진행 막대 회전
-settings.editing.progm.color Charge Bar Color
-settings.editing.progm.opacity Charge Bar Opacity
-settings.editing.progm.scale Charge Bar Scale
-settings.editing.progm.shadow Charge Bar Shadow
-settings.editing.progmOffX Charge Bar X Offset
-settings.editing.progmOffY Charge Bar Y Offset
-settings.editing.progmRot Charge Bar Rotation
+settings.editing.progm.color Charge Bar Color 충전 막대 색상
+settings.editing.progm.opacity Charge Bar Opacity 충전 막대 불투명도
+settings.editing.progm.scale Charge Bar Scale 충전 막대 크기
+settings.editing.progm.shadow Charge Bar Shadow 충전 막대 그림자
+settings.editing.progmOffX Charge Bar X Offset 충전 막대 좌우 위치
+settings.editing.progmOffY Charge Bar Y Offset 충전 막대 상하 위치
+settings.editing.progmRot Charge Bar Rotation 충전 막대 회전
 settings.editing.saturation 그래픽 채도
 settings.editing.menuSaturation 인터페이스 채도
 settings.editing.hue 그래픽 색상
@@ -379,7 +379,7 @@ settings.mods.damage 피해량 오버레이 이미지
 settings.mods.damage.paste 피해량 오버레이 이미지 URL
 settings.mods.overlay 게임 오버레이 이미지
 settings.mods.overlay.paste 게임 오버레이 이미지 URL
-settings.social.region Region Stats
+settings.social.region 지역 스탯
 windows.settings.header 게임 설정
 windows.mail.header Krunker 메일
 windows.servers.header 서버
@@ -409,7 +409,7 @@ windows.loadout.color.chat 채팅창 이름 색상
 windows.loadout.color.hair 머리카락 색상
 windows.loadout.dye 염료
 windows.loadout.pet 펫
-windows.loadout.stat 처치 카드에 보여질 스탯
+windows.loadout.stat 상대 처치 시 보일 스탯
 windows.loadout.flag 국기
 windows.mods.drop 모드 파일을 여기에 드래그 또는 클릭
 windows.mods.paste 모드 URL 붙여넣기
@@ -501,7 +501,7 @@ windows.clans.join 클랜 가입
 windows.clans.login 하고 클랜을 만들고 가입하세요!
 windows.store.header 상점
 windows.store.spin {0} 스핀
-windows.store.agree KR을 구매하면 {0}이용약관에 동의하는 것으로 간주합니다.
+windows.store.agree KR을 구매하면 {0}이용약관에 동의하는 것으로 간주합니다
 windows.store.purchase KR 구매
 windows.store.voucher KR 바우처 코드 입력
 windows.store.voucherinfo 특정 스트리머와 이벤트를 통해서 KR 바우처 코드를 얻으세요!
@@ -517,7 +517,7 @@ windows.store.amount {0} KR이 계정에 있습니다
 windows.store.login 해서 마켓에서 아이템을 사고파세요!
 windows.store.purchasing 구매 중...
 windows.store.unboxed {0}님이 {1} 아이템을 뽑았습니다.
-windows.trade.header 트레이드 중
+windows.trade.header 거래 중
 windows.scope.header 스코프 선택
 windows.premium.header 프리미엄
 windows.skin.header 스킨 선택
@@ -581,7 +581,7 @@ matchmaker.updating 업데이트중...
 matchmaker.invalid 게임을 찾을 수 없습니다.
 matchmaker.none 서버 용량이 가득 찼습니다.
 adblocker 무료 KR을 받으려면 광고 차단기를 끄세요.
-ad-failed 광고를 받아오지 못하였습니다. 나중에 다시 시도하세요.
+ad-failed 광고를 불러오지 못하였습니다. 나중에 다시 시도하세요.
 streamers.views 시청자 {0}명
 streamers.none 생방송이 없습니다!
 error.extentions 확장 프로그램을 사용하고 있다면 비활성화 해보십시오.
@@ -605,8 +605,8 @@ server.config.strafeSpd 좌우 이동 속도
 server.config.fiRat 연사 속도
 server.config.reSpd 재장전 시간
 server.config.slidTime 슬라이딩 시간
-server.config.fixMov Fixed Movement
-server.config.slidSpd 슬라이드 속도
+server.config.fixMov 움직임 수정
+server.config.slidSpd 슬라이딩 속도
 server.config.healthMlt HP 배수
 server.config.impulseMlt 무기 반동 배수
 server.config.nameTeam1 1팀 이름
@@ -621,7 +621,7 @@ server.config.t4Dmg 4팀 피해량 배수
 server.config.t5Dmg 5팀 피해량 배수
 server.config.selTeam 참가 시 팀 선택
 server.config.allowSpect 관전 중
-server.config.killRewards 킬 점수
+server.config.killRewards 처치 점수
 server.config.headshotOnly 헤드샷만 허용
 server.config.noSecondary 보조무기 비활성화
 server.config.noStreaks 연속 처치 비활성화
@@ -636,7 +636,7 @@ server.config.kCams Kill Cams
 server.config.noReload 재장전 없음
 server.config.private 비공개
 server.config.krRewards KR 보상
-server.config.forceDefault Force Default Settings
+server.config.forceDefault 기본 설정 강제
 server.config.warmupTime 준비 시간
 server.config.objtvTime 거점 변경 시간
 server.config.forceSpawn 강제 리스폰 시간
@@ -689,59 +689,89 @@ social.market.sort 필터/정렬
 social.market.filter 검색
 social.market.sort2 정렬
 social.market.price.high 가격 내림차순
-social.trading.submitting 트레이드 보내는 중...
+social.trading.submitting 거래 요청 보내는 중...
 social.market.gift.amount 선물할
 social.market.fee.gift 수수료 없음
 social.market.gift KR 선물하기
 social.market.gift.msg 문자 남기기
-respawn.auto Auto Respawning in {0}
-custom.host.ranked Can't host match while in ranked.
-funds.insufficient Insufficient Funds
-funds.out It appears you have run out of Krunkies.
-custom.passcode.long Password too long
-custom.passcode.input Enter Server Password to join
-custom.tryagain Please try again.
-purchase.kr.success Added {0} KR to your account
-limited.purchase.ask Are you sure you want to purchase [{0}] for {1} KR?
-limited.purchase.success Added {0} to your inventory
-pretend.exit press [{0}] again to exit
-settings.loaded Settings Loaded
-settings.loaded.none No settings found
-account.login.required Must be logged in
-account.banned.hack This account has been banned for Hacking.
-account.banned.appeal If you want to appeal your ban, contact:
-account.delete You may request to delete your account, if the request is not cancelled within 14 days the account and all associated data will be permanently removed.
-account.delete.request Are you sure you want to request an account deletion?
-account.delete.cancel Are you sure you want to cancel account deletion?
-spin.free.available FREE KR AVAILABLE!
-spin.free.claim This spin is available to claim once per Hour after completing a match.
-spin.free.disable These Popups can be disabled in General Settings
-mod.reset.0 Will take effect after respawning.
-mod.reset.1 Map Objects dont get reset
-windows.profile.picture Change Picture
-stats.assists Assists
-stats.nukes Nukes
-stats.melee Melee
-stats.fistkills Beatdowns
-stats.thrownkills Bullseyes
-stats.headshots Headshots
-stats.wallbangs Wallbangs
-stats.sprays Sprays Placed
-windows.host.default.settings Enabling Default Settings allows for storing Player Progress and Highscores
-windows.host.default.commands *Host Commands are Disabled in this mode: /noclip /god /smite etc
-windows.host.rewards Enabling KR Rewards forces the Server to use Default Settings & allows players to earn KR from the map funds:
-windows.store.wheels.sub Try your luck and spin for a chance to win some new skins!
-windows.store.currency * Prices in USD can be converted to your local currency at an exchange rate defined by the payment provider or bank
-windows.store.creator Consider Support your favorite Content Creator by using a Creator Code
-windows.chall.customs Challenges can't be completed in Custom Matches
-twitch.link Are you sure you want to link a twitch account?
-twitch.unlink Are you sure you want to unlink your twitch account?
-windows.clan.leave Are you sure you want to leave the clan?
-windows.clan.delete Are you sure you want to delete the clan?
-windows.clan.kick Are you sure you want kick {0} from the clan?
-windows.store.premium.purchase Are you sure you want to purchase {0} days of Premium?
-windows.playerlist.ban Are you sure you want ban {0} from this game?
-windows.playerlist.flag Are you sure you want to Flag {0}?
-windows.playerlist.unflag Are you sure you want to Unflag {0}?
-windows.playerlist.punish Are you sure you want to take action on {0}?
+respawn.auto {0}초 후 자동 리스폰
+custom.host.ranked 랭크전 준비중 게임 만들기 불가
+funds.insufficient 자본 불충분
+funds.out KR이 부족한 것으로 보입니다.
+custom.passcode.long 비밀번호가 너무 길음
+custom.passcode.input 참가를 위해 서버 비밀번호를 입력하세요.
+custom.tryagain 다시 시도해 주십시오.
+purchase.kr.success {0} KR을 계정에 추가하였습니다.
+limited.purchase.ask [{0}]을 {1} KR로 구매하시겠습니까?
+limited.purchase.success {0}을 인벤토리에 추가하였습니다.
+pretend.exit 나가려면 [{0}]을 다시 누르세요.
+settings.loaded 설정 로딩 완료
+settings.loaded.none 설정 입력 존재하지 않음
+account.login.required 로그인 필요
+account.banned.hack 이 계정은 핵 사용으로 차단되었습니다.
+account.banned.appeal 밴에 이의제기를 하려면, 여기에 연락을 취하세요.
+account.delete 계정의 완전삭제를 요청할 수 있고, 14일 내에 요청이 취소되지 않는다면 모든 연관정보가 영구적으로 삭제될 것입니다.
+account.delete.request 계정의 완전삭제를 요청하시겠습니까?
+account.delete.cancel 계정의 완전삭제 요청을 취소하시겠습니까?
+spin.free.available 무료 KR 받기!
+spin.free.claim 이 스핀은 한 시간마다 한 매치를 끝낸 후에 얻을 수 있습니다.
+spin.free.disable 이 팝업들은 설정에서 차단할 수 있습니다.
+mod.reset.0 리스폰 후 적용됩니다.
+mod.reset.1 맵 물체는 새로고침의 영향을 받지 않음
+windows.profile.picture 프로필 사진 변경
+stats.assists 처치 지원
+stats.nukes 뉴크
+stats.melee 근접 처치
+stats.fistkills 격투 처치
+stats.thrownkills 투척 처치
+stats.headshots 헤드샷
+stats.wallbangs 관통 처치
+stats.sprays 스프레이 수
+windows.host.default.settings 기본 설정을 사용하면 플레이어 진행률과 최고 점수를 저장할 수 있습니다
+windows.host.default.commands /noclip, /god, /smite와 같은 호스트 명령어는 비활성화됩니다 
+windows.host.rewards KR 보상을 허용하면 서버 내에서 기본 설정을 강제합니다 & 맵 자본에서 KR을 벌 수 있게 합니다
+windows.store.wheels.sub 스핀을 돌려 운을 시험하고 새 스킨을 얻을 기회를 노려보세요!
+windows.store.currency * 미국 달러(USD)로 표시된 가격은 결제 제공업체나 은행에서 정한 환율에 따라 현지 통화로 환전될 수 있습니다.
+windows.store.creator 당신이 가장 좋아하는 크리에이터를 위해 크리에이터 코드를 쓰는 것을 고려하세요
+windows.chall.customs 사용자 지정 게임에서는 챌린지를 진행할 수 없습니다
+twitch.link Twitch 계정을 연동하겠습니까?
+twitch.unlink Twitch 계정의 연동을 해제하시겠습니까?
+windows.clan.leave 클랜을 탈퇴하시겠습니까?
+windows.clan.delete 클랜을 해체하시겠습니까?
+windows.clan.kick {0}을 클랜에서 추방하시겠습니까?
+windows.store.premium.purchase {0}일 치의 프리미엄 서비스를 구매하시겠습니까?
+windows.playerlist.ban {0}을 이 게임에서 밴하시겠습니까?
+windows.playerlist.flag {0}에게 해커 태그를 지정하시겠습니까?
+windows.playerlist.unflag {0}의 해커 태그를 제거하시겠습니까?
+windows.playerlist.punish {0}에 대해 조치를 취하시겠습니까?
+item.view.open 모델 뷰어 열기
+item.view.more 더 많은 정보
+item.sell.cant 이 아이템은 판매할 수 없습니다
+item.sell.quick {0}을(를) 빠른 판매할까요?
+social.profile.stats 전반적 스탯
+social.profile.class 클래스 스탯
+social.profile.sales 판매
+social.profile.sales.market 마켓 판매
+social.profile.skins 스킨 [{0}]
+social.profile.skins.none 이 유저가 게시한 스킨이 없습니다
+social.profile.games 게임 [{0}]
+social.profile.games.none 이 유저가 게시한 게임이 없습니다
+social.profile.assets 에셋 [{0}]
+social.profile.assets.none 이 유저가 게시한 에셋이 없습니다
+social.profile.mods 모드 [{0}]
+social.profile.mods.none 이 유저가 게시한 모드가 없습니다
+social.search 검색 결과
+social.market.stats.rare 희귀 아이템
+social.market.stats.circulation 유통 개수
+social.market.stats.units 개가 전 세계에 있음
+social.trades.in 수신됨
+social.trades.in.head 수신된 거래 요청 ({0})
+social.trades.out 발송됨
+social.trades.out.head 발송된 거래 요청 ({0})
+social.trades.history 기록
+social.trades.history.head 거래 기록 ({0})
+social.trades.decline 모두 거절
+social.trades.message 설정에서 거래 메시지를 활성화하세요
+social.trades.warning 이 거래에서 아무런 아이템도 얻을 수 없습니다!
+social.trades.accept 정말 이 거래를 수락할까요?
 `;
