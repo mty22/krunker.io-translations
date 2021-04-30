@@ -51,14 +51,14 @@ generic.kills Eliminaciones
 generic.deaths Muertes
 generic.kdr KDR
 generic.time Tiempo
-generic.logout Cerrar sesión
-generic.logout.sessions Salirse de todas las sesiones
-generic.username Introduzca su usuario
-generic.password Introduzca su contraseña
+generic.logout Cerrar Sesión
+generic.logout.sessions Cerrar todas las Sesiones Abiertas
+generic.username Introduzca su Usuario
+generic.password Introduzca su Contraseña
 generic.register Registrarse
-generic.login Iniciar sesión
+generic.login Iniciar Sesión
 generic.accuracy Precisión
-player.waiting esperando jugadores
+player.waiting Esperando jugadores
 player.died Has muerto
 player.killed Eliminado por
 player.killstreak {0} Está en una racha de {1} muertes
@@ -163,7 +163,7 @@ settings.interface.scoreboard Usar el viejo tablero de puntaciones
 settings.interface.oldBrowser Usar el navegador antiguo
 settings.interface.rarityanim Desactivar animaciones de rareza
 settings.interface.showPfp Mostrar fotos de perfil
-settings.interface.showTradeMsg Mostrar mensajes de Trading
+settings.interface.showTradeMsg Mostrar mensajes de Intercambios
 settings.interface.hp Barras de salud dinámicas
 settings.interface.dmgScale Escala de daño
 settings.interface.killf Mostrar bajas de jugadores
@@ -436,9 +436,9 @@ windows.controls.inspect Inspeccionar
 windows.controls.spray Usar Grafitti
 windows.controls.jump Saltar
 windows.controls.crouch Agacharse,
-windows.controls.prim Arma primaria
-windows.controls.swap Arma secundaria
-windows.controls.melee Arma cuerpo-a-cuerpo
+windows.controls.prim Arma Primaria
+windows.controls.swap Arma Secundaria
+windows.controls.melee Arma Cuerpo-a-cuerpo
 windows.controls.equip Equipamiento
 windows.controls.chat Chat
 windows.controls.voice Voz
@@ -517,9 +517,9 @@ windows.store.amount {0} KR en tu cuenta
 windows.store.login para comprar y desbloquear objetos de la tienda!
 windows.store.purchasing Comprando...
 windows.store.unboxed {0}{1} abrió
-windows.trade.header Trading
+windows.trade.header Intercambio
 windows.scope.header Seleccionar Mira
-windows.premium.header Premiun
+windows.premium.header Premium
 windows.skin.header Seleccione Skin
 windows.hat.header Seleccione sombrero
 windows.back.header Seleccione accesorio de espalda
@@ -557,7 +557,7 @@ windows.join.header Unirse
 windows.join.code Introducir URL/Código
 windows.client.header Cliente
 windows.client.windows Instalador de Windows
-windows.client.mac Instalador de macOS
+windows.client.mac Instalador de MacOS
 windows.client.linux Instalador de Linux
 windows.ranked.header Competitivo
 windows.ranked.login para jugar en partidas competitivas!
@@ -581,7 +581,7 @@ matchmaker.updating JUEGO ACTUALIZANDOSE
 matchmaker.invalid Partida no encontrada.
 matchmaker.none Los servidores están a máxima capacidad
 adblocker Desactiva tu adblocker para recibir krunkies gratis.
-ad-failed El anuncio falló en cargar. Intenta otra vez más tarde.
+ad-failed El anuncio falló en cargar. Intentalo de nuevo más tarde.
 streamers.views {0} espectadores
 streamers.none No hay streams activos!
 error.extentions Si tienes cualquier extensión, desactivala
@@ -643,12 +643,12 @@ server.config.forceSpawn Tiempo de reaparición automática
 server.config.scoreLimit Límite de puntos
 server.config.keepTScore Mantener Puntaje de Equipo
 server.config.forceC Forzar Clases
-server.config.logTim Tiempo (Race, Parkour)
+server.config.logTim Tiempo (Carrera, Parkour)
 server.config.hitBoxPad Escala de hitbox
 server.config.hpRegen Regeneración de salud
 server.config.disableB Deshabilitar bordes
 server.config.throwMel Armas cuerpo-a-cuerpo lanzables
-server.config.noCosm Deshabilitar Comesticos
+server.config.noCosm Deshabilitar Cosméticos
 social.login Iniciar Sesión/Registrarse
 social.login.failed Error al iniciar sesión
 social.login.buy Inicia sesión para comprar
@@ -669,9 +669,9 @@ social.market.unlist Deslistar
 social.market.unlisting Deslistando objeto...
 social.market.posting Listando objeto...
 social.market.req nivel {0} requerido
-social.market.cant No puedes afordar esto
+social.market.cant No puedes pagar esto
 social.market.purchase Comprar
-social.market.fee No hay cuota por listar
+social.market.fee No hay cuota por Listar
 social.market.failed Error. Inténtalo de nuevo
 social.market.head Objeto de cabeza
 social.market.back Objeto de espalda
@@ -706,8 +706,8 @@ limited.purchase.ask Estás seguro de comprar [{0}] por {1} KR?
 limited.purchase.success Añadido {0} KR A tu Inventario.
 pretend.exit Presiona {0} De nuevo para Salir.
 settings.loaded Configuraciones Cargadas
-settings.loaded.none Ninguna Configuración Encontrada.
-account.login.required Necesitas una Sesión Iniciada
+settings.loaded.none No se encontro ninguna configuracion
+account.login.required Necesitas iniciar Sesión
 account.banned.hack Esta cuenta ha sido suspendida permanentemente por Trampas.
 account.banned.appeal Si quieres apelar tu suspención, Contacta:
 account.delete Puedes solicitar la eliminación de su cuenta, si la solicitud no se cancela dentro de los 14 días, la cuenta y todos los datos asociados se eliminarán permanentemente.
@@ -716,7 +716,7 @@ account.delete.cancel Está seguro que desea cancelar la eliminación de la cuen
 spin.free.available KR GRATIS DISPONIBLE!
 spin.free.claim  Este spin esta disponible para canjear una hora después de cada partida.
 spin.free.disable Estos anuncios pueden ser desactivados en las configuraciones generales.
-mod.reset.0 Tomará efecto luego de Reaparecer.
+mod.reset.0 Tomará efecto después de Reaparecer.
 mod.reset.1 Map Los objetos de mapas no se Resetean.
 windows.profile.picture Cambiar Imagen
 stats.assists Asistencias
@@ -729,9 +729,9 @@ stats.wallbangs Bajas a través de Paredes
 stats.sprays Sprays Colocados
 windows.host.default.settings Habilitar las configuraciones predeterminadas permite guardar el progreso del jugador y puntajes mas altos
 windows.host.default.commands *Los comandos de hosteo están deshabilitados para este modo : /noclip /god /smite etc
-windows.host.rewards Activando Recompensas de KR Forza al servidor a usar configuraciones por defecto y permite a los jugadores ganar recompenzas de los fondos del mapa:
-windows.store.wheels.sub Prueba tu suerte y gira para ganar nuevas Skins!
-windows.store.currency * Prices in USD can be converted to your local currency at an exchange rate defined by the payment provider or bank
+windows.host.rewards Activando Recompensas de KR forza al servidor a usar configuraciones por defecto y permite a los jugadores ganar recompenzas de los fondos del mapa:
+windows.store.sub Prueba tu suerte y gira para ganar nuevas Skins!
+windows.store.currency *Los Precios en USD pueden ser convertidos a tu moneda local en una tasa de cambio definida por tu Banco o Proveedor de pago.
 windows.store.creator Considera Apoyar a tu Creador de Contenido Favorito usando su Código de Creador
 windows.chall.customs Los desafiós no se pueden completar en partidas personalizadas.
 twitch.link Estás seguro de que quieres vincular esta cuenta de twitch?
@@ -749,7 +749,7 @@ item.view.more Mas Información
 item.sell.cant El objeto no se puede Vender
 item.sell.quick Estás seguro de que quieres vender rápidamente {0}?
 social.profile.stats Estadísticas Generales
-social.profile.class Estadísticas de Clase
+social.profile.class Estadísticas de Clases
 social.profile.sales Ventas
 social.profile.sales.market Ventas en el Mercado
 social.profile.skins Skins [{0}]
