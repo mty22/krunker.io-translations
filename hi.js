@@ -399,7 +399,7 @@ windows.loadout.secondary सेकेंडरी
 windows.loadout.secondary.skin सेकेंडरी स्किन
 windows.loadout.melee मिली
 windows.loadout.hat हैट आइटम
-windows.loadout.body बैक आइटम
+windows.loadout.back बैक आइटम
 windows.loadout.waist कमर आइटम
 windows.loadout.shoe जूते
 windows.loadout.face चेहरा
