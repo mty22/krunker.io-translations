@@ -311,11 +311,11 @@ settings.viewmodel.adsFovMlt 瞄準視野範圍倍率
 settings.editing.header 編輯
 settings.editing.health.high 血條顏色（高）
 settings.editing.health.low 血條顏色（低）
-settings.editing.speedLines 速度線（高速移動時顯示速度線）
-settings.editing.spdLinesCol 速度線顏色
+settings.editing.speedLines 速度效果
+settings.editing.spdLinesCol 速度效果顏色
 settings.editing.score.color 彈出得分顏色
 settings.editing.score.show 顯示彈出得分
-settings.editing.score.scale 彈出得分倍率
+settings.editing.score.scale 彈出得分大小
 settings.editing.score.shadow 彈出得分陰影
 settings.editing.scoreOffX 彈出得分X軸座標
 settings.editing.scoreOffY 彈出得分Y軸座標
@@ -341,8 +341,8 @@ settings.editing.vignette 暈影效果（使螢幕邊緣顏色變暗）
 settings.editing.feedLimit 擊殺列表長度限制
 settings.editing.depth 深度圖模式
 settings.editing.green 綠幕模式
-settings.editing.tracercol 彈道軌跡
-settings.editing.tracer 彈道軌跡
+settings.editing.tracercol 顯示彈道軌跡
+settings.editing.tracer 顯示彈道軌跡
 settings.editing.tracer.offset 瞄準器偏移
 settings.shaders.header 著色器輸入
 settings.mods.header 自定義
@@ -429,13 +429,13 @@ windows.controls.forward 前
 windows.controls.backward 後
 windows.controls.left 左
 windows.controls.right 右
-windows.controls.reload 重新裝填
+windows.controls.reload 裝彈
 windows.controls.aim 瞄準
 windows.controls.shoot 射擊
 windows.controls.inspect 查看武器
 windows.controls.spray 塗鴉
-windows.controls.jump 跳
-windows.controls.crouch 蹲
+windows.controls.jump 跳動
+windows.controls.crouch 蹲下
 windows.controls.prim 主武器
 windows.controls.swap 副武器
 windows.controls.melee 近戰武器
@@ -456,7 +456,7 @@ windows.controls.streak3 四連殺
 windows.controls.streak4 五連殺
 windows.controls.premium0 穿牆/飛行(上帝)模式
 windows.controls.premium1 無敵模式
-windows.controls.premium2 擊殺（自己）
+windows.controls.premium2 自殺
 windows.controls.premium3 重擊模式
 windows.controls.reset 返回起點（競賽和跑酷）
 windows.controls.pretend 隱藏遊戲
@@ -471,7 +471,7 @@ windows.host.preset 創建預設
 windows.host.preset.load 載入預設中...
 windows.host.preset.name 預設名稱
 windows.host.start 開始遊戲
-windows.host.rehost 開始遊戲（帶入玩家）
+windows.host.rehost 開始遊戲（邀請玩家）
 windows.spray.header 選擇塗鴉
 windows.spray.default 預設塗鴉
 windows.spray.spin 塗鴉
@@ -490,7 +490,7 @@ windows.theatre.header 影院模式
 windows.theatre.record 啟用錄製
 windows.theatre.key 錄製按鍵
 windows.clans.header 公會
-windows.clans.members （{0}）成員
+windows.clans.members （{0}）個成員
 windows.clans.requests 申請
 windows.clans.requests.none 沒有申請
 windows.clans.page [{0}] 公會頁面
@@ -556,9 +556,9 @@ windows.players.none 目前沒有玩家...
 windows.join.header 加入
 windows.join.code 輸入遊戲網址/代碼
 windows.client.header 用戶端
-windows.client.windows Windows遊戲安裝器
-windows.client.mac macOS遊戲安裝器
-windows.client.linux Linux遊戲安裝器
+windows.client.windows Windows版本用戶端
+windows.client.mac MacOS版本用戶端
+windows.client.linux Linux版本用戶端
 windows.ranked.header 排位
 windows.ranked.login 以進行排位賽！
 windows.ranked.level 您至少需要 <span color="black"> {0} 級</span> 以進行排位賽！ 目前您的等級是 <span color="black"> {1} 級</span>.
@@ -575,7 +575,7 @@ mod.disabled 插件已關閉
 mod.error 插件錯誤！
 mod.loading 載入插件中...
 mod.invalid 無效插件文檔！
-matchmaker.full 滿
+matchmaker.full 已滿
 matchmaker.full2 遊戲已滿.
 matchmaker.updating 遊戲更新中
 matchmaker.invalid 找不到遊戲
@@ -596,7 +596,7 @@ server.config.lives 生命數
 server.config.gameTime 時間（分鐘）
 server.config.gravMlt 重力
 server.config.tickRI 高傳輸率（High Tickrate）
-server.config.maxPS 40 名玩家伺服器
+server.config.maxPS 40名玩家伺服器
 server.config.promServ 置頂伺服器
 server.config.jumpMlt 跳躍力量
 server.config.airStrf 空中轉向
@@ -604,7 +604,7 @@ server.config.deltaMlt 時間倍率
 server.config.strafeSpd 空中轉向速度
 server.config.fiRat 武器射速
 server.config.reSpd 換彈速度
-server.config.slidTime 滑動 時間
+server.config.slidTime 滑動時長
 server.config.fixMov 完善動作
 server.config.slidSpd 滑動速度
 server.config.healthMlt 血量倍率
