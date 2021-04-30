@@ -68,11 +68,11 @@ timer.end Prochaine manche dans {0}
 leaderboard.empty Partie vide
 popup.checkpoint Point de réapparition !
 app.play CLIQUER POUR JOUER
-app.spectate CLICK TO SPECTATE
-app.play.mobile TAP TO PLAY
-app.spectate.mobile TAP TO SPECTATE
+app.spectate CLIQUER POUR ENTRER EN SPECTATEUR
+app.play.mobile TOUCHE POUR JOUER
+app.spectate.mobile TOUCHE POUR ENTRER EN SPECTATEUR
 app.play.controller APPUYER SUR START
-app.spectate.controller START to SPECTATE
+app.spectate.controller START POUR ENTRER EN SPECTATEUR
 purchase.error Une erreur est survenue
 purchase.error.click Cliquez ici</a> et réessayez !
 purchase.error.limit Vous avez atteint votre quota journalier de transaction
@@ -129,7 +129,7 @@ settings.quality.softShad Ombres légères
 settings.quality.highResShad Ombres haute-résolution
 settings.quality.shadowsDynamic Ombres dynamiques
 settings.quality.trails Traînées de balles
-settings.quality.yourTrails Vos traînées
+settings.quality.yourTrails Vos traînées de balles
 settings.quality.mflash Flash du canon
 settings.quality.flap Rabat du sniper
 settings.quality.lowSpec Config faible
@@ -463,7 +463,7 @@ windows.controls.pretend Cacher le jeu
 windows.host.header Héberger une partie personnalisée
 windows.host.maps Réglages du serveur
 windows.host.cmaps Mini-jeux de la communauté
-windows.host.raw Donnée brute du mini-jeu
+windows.host.raw Données brute du mini-jeu
 windows.host.modes Sélectionner le(s) mode(s)
 windows.host.classes Sélectionner le(s) classe(s)
 windows.host.settings Paramètres du serveur
@@ -516,7 +516,7 @@ windows.store.unlock Obtenez des skins d’arme et des objets
 windows.store.amount {0} KR sur votre compte
 windows.store.login pour acheter et obtenir des objets de la boutique !
 windows.store.purchasing En cours d’achat...
-windows.store.unboxed {0}{1} obtenu
+windows.store.unboxed {0}{1} a obtenu
 windows.trade.header Échange
 windows.scope.header Sélectionner le viseur
 windows.premium.header Premium
@@ -754,8 +754,8 @@ social.profile.sales Ventes
 social.profile.sales.market Ventes au marché
 social.profile.skins Skins [{0}]
 social.profile.skins.none Pas de skins publiés par cet utilisateur
-social.profile.games Jeux [{0}]
-social.profile.games.none Pas de jeux publiés par cet utilisateur
+social.profile.games Mini-Jeux [{0}]
+social.profile.games.none Pas de mini-jeux publiés par cet utilisateur
 social.profile.assets Ressources [{0}]
 social.profile.assets.none Pas de de ressources publiées par cet utilisateur
 social.profile.mods Mods [{0}]
