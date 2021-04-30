@@ -302,8 +302,8 @@ settings.viewmodel.leftHand 左手持枪
 settings.viewmodel.aimAnim 武器开镜动画
 settings.viewmodel.rot 武器位置旋转
 settings.viewmodel.xOff 武器X轴坐标(左/右)
-settings.viewmodel.yOff 武器Y轴坐标(上/下）
-settings.viewmodel.zOff 武器Z轴坐标(前/后）
+settings.viewmodel.yOff 武器Y轴坐标(上/下)
+settings.viewmodel.zOff 武器Z轴坐标(前/后)
 settings.viewmodel.weapSwapY 切枪时武器的垂直位置
 settings.viewmodel.weapReloadY 换弹时武器的垂直位置
 settings.viewmodel.yOffADS 开镜时武器的垂直位置
@@ -311,7 +311,7 @@ settings.viewmodel.adsFovMlt 开镜放大倍数
 settings.editing.header 编辑
 settings.editing.health.high HUD 血条颜色(高)
 settings.editing.health.low HUD 血条颜色(低)
-settings.editing.speedLines 高速度特效(玩家高速移动时会显示此特效）
+settings.editing.speedLines 高速度特效(玩家高速移动时会显示此特效)
 settings.editing.spdLinesCol 高速度特效颜色
 settings.editing.score.color 弹出得分颜色
 settings.editing.score.show 显示弹出得分
