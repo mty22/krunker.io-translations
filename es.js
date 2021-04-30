@@ -730,7 +730,7 @@ stats.sprays Sprays Colocados
 windows.host.default.settings Habilitar las configuraciones predeterminadas permite guardar el progreso del jugador y puntajes mas altos
 windows.host.default.commands *Los comandos de hosteo están deshabilitados para este modo : /noclip /god /smite etc
 windows.host.rewards Activando Recompensas de KR forza al servidor a usar configuraciones por defecto y permite a los jugadores ganar recompenzas de los fondos del mapa:
-windows.store.sub Prueba tu suerte y gira para ganar nuevas Skins!
+windows.store.wheels.sub Prueba tu suerte y gira para ganar nuevas Skins!
 windows.store.currency *Los Precios en USD pueden ser convertidos a tu moneda local en una tasa de cambio definida por tu Banco o Proveedor de pago.
 windows.store.creator Considera Apoyar a tu Creador de Contenido Favorito usando su Código de Creador
 windows.chall.customs Los desafiós no se pueden completar en partidas personalizadas.
