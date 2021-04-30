@@ -2,7 +2,7 @@ module.exports = `
 menu.btn.ranked Ranked
 menu.btn.shop Markt
 menu.btn.social Soziales
-menu.btn.maps Karten
+menu.btn.maps Maps
 menu.btn.mods Mods
 menu.btn.settings Einstellungen
 menu.btn.customize Anpassen
@@ -134,7 +134,7 @@ settings.quality.mflash Mündungsfeuer
 settings.quality.flap Sniper Klappe
 settings.quality.lowSpec Niedrige Auflösung
 settings.quality.ambient Umgebungs Shading
-settings.quality.ambientOld Altes Shading (Wwenn möglich)
+settings.quality.ambientOld Altes Shading (Wenn möglich)
 settings.quality.textureAnim Textur-Animationen
 settings.quality.objectAnim Objekt-Animationen
 settings.quality.screenShake Bildschirm-Wackeln
@@ -186,7 +186,7 @@ settings.interface.speedColorMax Geschwindigkeits Farbe (Max)
 settings.interface.medals Orden anzeigen
 settings.interface.hideNames Namens-Anzeige
 settings.interface.hideNames.team Nur Team
-settings.interface.hideNames.enemy Nur Enemy
+settings.interface.hideNames.enemy Nur Gegner
 settings.interface.hideNames.all Jeder
 settings.interface.nametagStyle Namensanzeige-Style
 settings.interface.nametagOpac Namensanzeige Dreckkraft
@@ -288,7 +288,7 @@ settings.audio.asset Asset Lautstärke
 settings.audio.dialogue Aktions-Lautstärke
 settings.viewmodel.header Aussichts
 settings.viewmodel.fov Sichtfeld
-settings.viewmodel.fps Weapon Sichtfeld
+settings.viewmodel.fps Waffen Sichtfeld
 settings.viewmodel.bobbing Waffen Wackeln
 settings.viewmodel.leaning Waffen Lehnen
 settings.viewmodel.show.primary Primärwaffe anzeigen
@@ -358,8 +358,8 @@ settings.mods.scope.opacity Scope Deckkraft
 settings.mods.scope.width Scope Bild Breite
 settings.mods.scope.height Scope Bild Höhe
 settings.mods.dot Laser-Bild
-settings.mods.dot.width Reticle Bild Breite
-settings.mods.dot.height Reticle Bild Höhr
+settings.mods.dot.width Laser-Bild Breite
+settings.mods.dot.height Laser-Bild Höhe
 settings.mods.dot.paste Laser-Bild URL
 settings.mods.endmessage Spiel Endnachricht
 settings.mods.profile Profil-Bild
@@ -389,7 +389,7 @@ windows.servers.hide Volle Spiele ausblenden
 windows.servers.priority Regions-Priorität
 windows.servers.online {0} gesamt online
 windows.servers.social {0} on Social
-windows.loadout.header Auslastung ändern
+windows.loadout.header Ausrüstung ändern
 windows.loadout.class Klasse
 windows.loadout.primary Primäre Waffe
 windows.loadout.primary.attach Aufsatz
@@ -461,9 +461,9 @@ windows.controls.premium3 Smite
 windows.controls.reset Position zurücksetzen (Rennen & Parkour)
 windows.controls.pretend Spiel verstecken
 windows.host.header Individuelles Gastgeber-Spiel
-windows.host.maps Karten auswählen
-windows.host.cmaps Community Karte
-windows.host.raw Karten-Rohdaten
+windows.host.maps Maps auswählen
+windows.host.cmaps Community Maps
+windows.host.raw Maps-Rohdaten
 windows.host.modes Modus auswählen
 windows.host.classes Klassen auswählen
 windows.host.settings Server Einstellungen
@@ -472,7 +472,7 @@ windows.host.preset.load Voreinstellung laden...
 windows.host.preset.name Name Voreinstellung
 windows.host.start Spiel starten
 windows.host.rehost Spiel Starten (Spieler mitnehmen)
-windows.spray.header Spay auswählen
+windows.spray.header Spray auswählen
 windows.spray.default Voreingestelltes Spray
 windows.spray.spin Spray
 windows.maps.header Benutzerdefinierte Map
@@ -689,10 +689,10 @@ social.market.sort Filtern/Sortieren
 social.market.filter Suchen
 social.market.sort2 Sortieren
 social.market.price.high Höchster Preis
-social.trading.submitting Angebot einreichen...
+social.trading.submitting Angebot wird eingereicht...
 social.market.gift.amount Geschenkbetrag in
 social.market.fee.gift Keine Gebühr
-social.market.gift Gift KR
+social.market.gift KR verschenken
 social.market.gift.msg Hinterlasse eine Nachricht
 respawn.auto Auto Respawning in {0}
 custom.host.ranked Im Ranked Modus kannst du kein Spiel hosten
@@ -744,34 +744,34 @@ windows.playerlist.ban Bist du dir sicher dass du {0} aus dem Spiel bannen wills
 windows.playerlist.flag Bist du dir sicher dass du {0} markieren willst?
 windows.playerlist.unflag Willst du {0} Entmarkieren ?
 windows.playerlist.punish Bist du dir sicher dass du diese Aktion an {0} durchführen willst?
-item.view.open Open Model Viewer
-item.view.more More Information
-item.sell.cant Item cant be sold.
+item.view.open Öffne Modell Ansicht
+item.view.more Mehr Informationen
+item.sell.cant Item kann nicht verkauft werden.
 item.sell.quick Are you sure you want to Quick Sell {0}?
-social.profile.stats Overall Stats
-social.profile.class Class Stats
+social.profile.stats Insgesamte Statistiken
+social.profile.class Klassen Statistiken
 social.profile.sales Sales
 social.profile.sales.market Market Sales
 social.profile.skins Skins [{0}]
-social.profile.skins.none No published Skins from this user
-social.profile.games Games [{0}]
-social.profile.games.none No published Games from this user
+social.profile.skins.none Keine veröffentlichten Skins von diesem Benutzer
+social.profile.games Spiele [{0}]
+social.profile.games.none Keine veröffentlichten Spiele von diesem Benutzer
 social.profile.assets Assets [{0}]
 social.profile.assets.none No published Assets from this user
 social.profile.mods Mods [{0}]
-social.profile.mods.none No published Mods from this user
-social.search Search Results
-social.market.stats.rare Rarest Items
-social.market.stats.circulation In Circulation
-social.market.stats.units units Worldwide
-social.trades.in Incoming
-social.trades.in.head Incoming Offers ({0})
-social.trades.out Outgoing
-social.trades.out.head Outgoing Offers ({0})
-social.trades.history History
-social.trades.history.head Trade History ({0})
-social.trades.decline Decline All
-social.trades.message ENABLE TRADE MESSAGES IN SETTINGS
-social.trades.warning You get no items from this trade!
-social.trades.accept Are you sure you want to accept this offer?
+social.profile.mods.none Keine veröffentlichten Mods von diesem Benutzer
+social.search Suchergebnisse
+social.market.stats.rare Seltenste Items
+social.market.stats.circulation Im Umlauf
+social.market.stats.units Einheiten Weltweit
+social.trades.in Eingehend
+social.trades.in.head Eigehende Angebote ({0})
+social.trades.out Ausgehend
+social.trades.out.head Ausgehende Angebote ({0})
+social.trades.history Verlauf
+social.trades.history.head Handelsverlauf ({0})
+social.trades.decline Alle Ablehnen
+social.trades.message AKTIVIERE HANDELSNACHRICHTEN IN DEN EINSTELLUNGEN
+social.trades.warning Du bekommst keine Items aus diesem Handel!
+social.trades.accept Bist du sicher, dass du dieses Angebot annehmen möchtest?
 `;

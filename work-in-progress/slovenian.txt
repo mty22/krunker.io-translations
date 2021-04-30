@@ -1,0 +1,3 @@
+file: sl.js
+pull request: https://github.com/mty22/krunker.io-translations/pull/94
+note: at it's current state, it's good to merge into master without checking.
