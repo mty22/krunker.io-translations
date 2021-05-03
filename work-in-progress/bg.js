@@ -422,7 +422,7 @@ windows.mods.load.header Зареди мод
 windows.mods.publish Побликувай мод
 windows.mods.viewer Преглед
 windows.account.header Акаунт
-windows.account.recover За да въстановите акаунт се свържете с <a>krunker@yendis.ch</a>
+windows.account.recover За да въстановите акаунт се свържете с <a>recovery@yendis.ch</a>
 windows.class.header Select Class
 windows.controls.header Смени контролите
 windows.controls.forward Напред
