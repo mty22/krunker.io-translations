@@ -422,7 +422,7 @@ windows.mods.load.header Učitaj Modove
 windows.mods.publish Objavi Mod
 windows.mods.viewer Preglednik
 windows.account.header Račun
-windows.account.recover Da oporavite račun kontaktirajte <a>krunker@yendis.ch</a>
+windows.account.recover Da oporavite račun kontaktirajte <a>recovery@yendis.ch</a>
 windows.class.header Izaberite Klasu
 windows.controls.header Promijeni Kontrole
 windows.controls.forward Naprijed

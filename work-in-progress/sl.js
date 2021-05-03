@@ -422,7 +422,7 @@ windows.mods.load.header Naloži Mode
 windows.mods.publish Objavi Mod
 windows.mods.viewer Ogledovalec
 windows.account.header Profil
-windows.account.recover Za Povrnitev Profila Kontaktiraj <a>krunker@yendis.ch</a>
+windows.account.recover Za Povrnitev Profila Kontaktiraj <a>recovery@yendis.ch</a>
 windows.class.header Izberi Razred
 windows.controls.header Spremeni Kontrolne Tipke
 windows.controls.forward Naprej

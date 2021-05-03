@@ -422,7 +422,7 @@ windows.mods.load.header Load Mods
 windows.mods.publish Publicar Mod
 windows.mods.viewer Visualizador
 windows.account.header Conta
-windows.account.recover Para recuperar uma conta entre em contato com <a>krunker@yendis.ch</a>
+windows.account.recover Para recuperar uma conta entre em contato com <a>recovery@yendis.ch</a>
 windows.class.header Selecionar Classe
 windows.controls.header Mudar Controles
 windows.controls.forward Avante

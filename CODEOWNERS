@@ -1,4 +1,5 @@
-# This will automatically add specific users to reviewers for whatever file(s) are being changed.
+# Each line is a file pattern followed by one or more owners.
+# More on CODEOWNERS files: https://help.github.com/en/github/creating-cloning-and-archiving-repositories/about-code-owners
 
 # German
 #de.js

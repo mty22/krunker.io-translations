@@ -422,7 +422,7 @@ windows.mods.load.header Modok betöltése
 windows.mods.publish Mod publikálása
 windows.mods.viewer Megtekintő
 windows.account.header Fiók
-windows.account.recover Egy fiók visszaállításához keresse fel ezt az email címet: <a>krunker@yendis.ch</a>
+windows.account.recover Egy fiók visszaállításához keresse fel ezt az email címet: <a>recovery@yendis.ch</a>
 windows.class.header Osztály kiválasztása
 windows.controls.header Vezérlés átállítása
 windows.controls.forward Előre

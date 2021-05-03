@@ -422,7 +422,7 @@ windows.mods.load.header लोड मॉड
 windows.mods.publish मॉड पब्लिश करे
 windows.mods.viewer व्यूअर
 windows.account.header अकाउंट
-windows.account.recover अकाउंट वापस पाने के लिए  <a>krunker@yendis.ch</a> से संपर्क करें
+windows.account.recover अकाउंट वापस पाने के लिए  <a>recovery@yendis.ch</a> से संपर्क करें
 windows.class.header क्लास चुनें
 windows.controls.header कंट्रोल्स बदलें
 windows.controls.forward आगे

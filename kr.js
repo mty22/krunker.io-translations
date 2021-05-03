@@ -422,7 +422,7 @@ windows.mods.load.header 모드 적용
 windows.mods.publish 모드 업로드
 windows.mods.viewer 뷰어
 windows.account.header 계정
-windows.account.recover 계정 복구는 <a>krunker@yendis.ch</a>로 이메일을 보내십시오.
+windows.account.recover 계정 복구는 <a>recovery@yendis.ch</a>로 이메일을 보내십시오.
 windows.class.header 클래스 선택
 windows.controls.header 조작법 바꾸기
 windows.controls.forward 앞
