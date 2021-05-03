@@ -9,7 +9,7 @@ menu.btn.customize Aanpassen
 menu.btn.invite Uitnodigen
 menu.btn.invite.clicked Gekopieerd
 menu.btn.join Join
-menu.btn.host Host Game
+menu.btn.host Game hosten
 menu.btn.browser Servers
 generic.wait Een moment geduld...
 generic.loading LADEN...
@@ -21,7 +21,7 @@ generic.save Opslaan
 generic.load Laden
 generic.search Zoeken
 generic.leave Verlaat
-generic.default Default
+generic.default Standaard
 generic.submit Versturen
 generic.create Creëren
 generic.random Willekeurig 
@@ -52,7 +52,7 @@ generic.deaths Doden
 generic.kdr KDR
 generic.time Tijd
 generic.logout Uitloggen
-generic.logout.sessions Log uit alle sessies
+generic.logout.sessions Log uit op alle sessies
 generic.username Gebruikersnaam Invoeren
 generic.password Wachtwoord Invoeren
 generic.register Registreren
@@ -89,7 +89,7 @@ settings.local.region Standaard Regio
 settings.local.lang Taal
 settings.network.header Netwerk
 settings.network.sendRate Hoge Tickrate
-settings.network.netRerouting Auto Routing (Beïnvloedt Ping)
+settings.network.netRerouting Auto Routing (Beïnvloed Ping)
 settings.network.lagComp Lag Compensatie
 settings.popup.header Popups
 settings.popup.freeKRPop Toon Gratis KR Popup
@@ -107,8 +107,8 @@ settings.chat.chat.all Altijd
 settings.chat.chat.focus Terwijl Gefocused 
 settings.chat.messages Toon Speler Berichten
 settings.chat.unboxings Toon Unboxings
-settings.chat.chatOp Chat Opacity
-settings.chat.chatBGOp Chat BG Opacity
+settings.chat.chatOp Chat Doorzichtigheid
+settings.chat.chatBGOp Chat Achtergrond Doorzichtigheid
 settings.chat.chatHeight Chat Hoogte
 settings.chat.chatTimer Chat Timer (s)
 settings.chat.chatTextOutline Chat Text Outline
@@ -126,13 +126,13 @@ settings.quality.reflection Reflectie Kwaliteit
 settings.quality.antiAlias Antialiasing
 settings.quality.shadows Schaduwen
 settings.quality.softShad Zachte Schaduwen
-settings.quality.highResShad High-Res Schaduwen
+settings.quality.highResShad Hoge-Res Schaduwen
 settings.quality.shadowsDynamic Dynamische Schaduwen
 settings.quality.trails Kogel Sporen
 settings.quality.yourTrails Eigen Sporen
 settings.quality.mflash Muzzle Flits
 settings.quality.flap Sniper Flap
-settings.quality.lowSpec Low Spec
+settings.quality.lowSpec Lage Specificaties
 settings.quality.ambient Omringende Schaduw
 settings.quality.ambientOld Oude Schaduwen (Wanneer Mogelijk)
 settings.quality.textureAnim Textuur Animaties
@@ -151,8 +151,8 @@ settings.post.bloomStrength Bloom Sterkte
 settings.post.bloomRadius Bloom Radius
 settings.post.ssao SSAO
 settings.post.ssaoRadius SSAO Radius
-settings.interface.hitInd Toon Hit Indicatoren
-settings.interface.hitColor Hit Indicator Kleur
+settings.interface.hitInd Toon Hit Indicatie
+settings.interface.hitColor Hit Indicatie Kleur
 settings.interface.dmg Toon Schade
 settings.interface.dmgCol Schade Kleur
 settings.interface.critCol Crit Kleur
@@ -422,7 +422,7 @@ windows.mods.load.header Mods laden
 windows.mods.publish Publiceren Mod
 windows.mods.viewer Kijker
 windows.account.header Account
-windows.account.recover Neem contact op met <a> krunker@yendis.ch </a> om een ​​account te herstellen
+windows.account.recover Neem contact op met <a> recovery@yendis.ch </a> om een ​​account te herstellen
 windows.class.header Selecteer Class
 windows.controls.header Verander Controls
 windows.controls.forward Vooruit
@@ -745,33 +745,33 @@ windows.playerlist.flag Weet je zeker dat je {0} wilt markeren?
 windows.playerlist.unflag Weet je zeker dat je {0} wilt onmarkeren?
 windows.playerlist.punish Weet je zeker dat je actie wilt ondernemen op {0}?
 item.view.open Open Model Viewer
-item.view.more More Information
-item.sell.cant Item cant be sold.
-item.sell.quick Are you sure you want to Quick Sell {0}?
-social.profile.stats Overall Stats
-social.profile.class Class Stats
-social.profile.sales Sales
-social.profile.sales.market Market Sales
+item.view.more Meer Informatie
+item.sell.cant Dit Item Kan Niet Verkocht Worden.
+item.sell.quick Weet Je Zeker Dat Je Dit Snel Wilt Verkopen {0}?
+social.profile.stats Algemene Statistieken
+social.profile.class Class Statistieken
+social.profile.sales Verkopen
+social.profile.sales.market Markt Verkopen
 social.profile.skins Skins [{0}]
-social.profile.skins.none No published Skins from this user
+social.profile.skins.none Geen Gepubliceerde Skins Van Deze Gebruiker
 social.profile.games Games [{0}]
-social.profile.games.none No published Games from this user
+social.profile.games.none Geen Gepubliceerde Games Van Deze Gebruiker
 social.profile.assets Assets [{0}]
-social.profile.assets.none No published Assets from this user
+social.profile.assets.none Geen Gepubliceerde Middelen Van Deze Gebruiker
 social.profile.mods Mods [{0}]
-social.profile.mods.none No published Mods from this user
-social.search Search Results
-social.market.stats.rare Rarest Items
-social.market.stats.circulation In Circulation
-social.market.stats.units units Worldwide
-social.trades.in Incoming
-social.trades.in.head Incoming Offers ({0})
-social.trades.out Outgoing
-social.trades.out.head Outgoing Offers ({0})
-social.trades.history History
-social.trades.history.head Trade History ({0})
-social.trades.decline Decline All
-social.trades.message ENABLE TRADE MESSAGES IN SETTINGS
-social.trades.warning You get no items from this trade!
-social.trades.accept Are you sure you want to accept this offer?
+social.profile.mods.none Geen Gepubliceerde Mods Van Deze Gebruiker
+social.search Zoek Resultaten
+social.market.stats.rare Zeldzaamste Items
+social.market.stats.circulation In Circulatie
+social.market.stats.units Hoeveelheid Wereldwijd
+social.trades.in Binnenkomende
+social.trades.in.head Binnenkomende Trades ({0})
+social.trades.out Uitgaande
+social.trades.out.head Uitgaande Trades ({0})
+social.trades.history Geschiedenis
+social.trades.history.head Trade Geschiedenis ({0})
+social.trades.decline Negeer Allemaal
+social.trades.message SCHAKEL RUILBERICHTEN IN IN JE INSTELLINGEN
+social.trades.warning Je Krijgt Geen Items Van Deze Trade!
+social.trades.accept Weet Je Zeker Dat Je Deze Trade Wilt Accepteren?
 `;

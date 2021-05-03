@@ -97,10 +97,10 @@ settings.experimental.header 실험적 설정
 settings.experimental.aimFreezeFix 에임 멈춤 현상 해결
 settings.experimental.mouseFlickFix 마우스 순간이동 문제 해결
 settings.experimental.shaderRendering 인스턴스 렌더링
-settings.dev.header Developer
-settings.dev.forceUpdate Force Update Skins
-settings.dev.forceRegen Always Regenerate Player
-settings.dev.extraBan Extra Ban Info
+settings.dev.header 개발자
+settings.dev.forceUpdate 스킨 강제 업데이트
+settings.dev.forceRegen 항상 플레이어 재생성
+settings.dev.extraBan 추가 차단 정보
 settings.chat.header 채팅
 settings.chat.chat 채팅창 표시
 settings.chat.chat.all 항상
@@ -163,7 +163,7 @@ settings.interface.scoreboard 구 스코어보드 사용
 settings.interface.oldBrowser 구 서버 탐색기 사용
 settings.interface.rarityanim 희귀도 애니메이션 끄기
 settings.interface.showPfp 프로필 사진 표시
-settings.interface.showTradeMsg 트레이드 메시지 표시
+settings.interface.showTradeMsg 거래 메시지 표시
 settings.interface.hp 동적 HP 막대
 settings.interface.dmgScale 피해량 숫자 크기
 settings.interface.killf 킬로그 표시
@@ -379,7 +379,7 @@ settings.mods.damage 피해량 오버레이 이미지
 settings.mods.damage.paste 피해량 오버레이 이미지 URL
 settings.mods.overlay 게임 오버레이 이미지
 settings.mods.overlay.paste 게임 오버레이 이미지 URL
-settings.social.region Region Stats
+settings.social.region 지역 스탯
 windows.settings.header 게임 설정
 windows.mail.header Krunker 메일
 windows.servers.header 서버
@@ -422,7 +422,7 @@ windows.mods.load.header 모드 적용
 windows.mods.publish 모드 업로드
 windows.mods.viewer 뷰어
 windows.account.header 계정
-windows.account.recover 계정 복구는 <a>krunker@yendis.ch</a>로 이메일을 보내십시오.
+windows.account.recover 계정 복구는 <a>recovery@yendis.ch</a>로 이메일을 보내십시오.
 windows.class.header 클래스 선택
 windows.controls.header 조작법 바꾸기
 windows.controls.forward 앞
@@ -517,7 +517,7 @@ windows.store.amount {0} KR이 계정에 있습니다
 windows.store.login 해서 마켓에서 아이템을 사고파세요!
 windows.store.purchasing 구매 중...
 windows.store.unboxed {0}님이 {1} 아이템을 뽑았습니다.
-windows.trade.header 트레이드 중
+windows.trade.header 거래 중
 windows.scope.header 스코프 선택
 windows.premium.header 프리미엄
 windows.skin.header 스킨 선택
@@ -605,7 +605,7 @@ server.config.strafeSpd 좌우 이동 속도
 server.config.fiRat 연사 속도
 server.config.reSpd 재장전 시간
 server.config.slidTime 슬라이딩 시간
-server.config.fixMov Fixed Movement
+server.config.fixMov 움직임 수정
 server.config.slidSpd 슬라이딩 속도
 server.config.healthMlt HP 배수
 server.config.impulseMlt 무기 반동 배수
@@ -636,7 +636,7 @@ server.config.kCams Kill Cams
 server.config.noReload 재장전 없음
 server.config.private 비공개
 server.config.krRewards KR 보상
-server.config.forceDefault Force Default Settings
+server.config.forceDefault 기본 설정 강제
 server.config.warmupTime 준비 시간
 server.config.objtvTime 거점 변경 시간
 server.config.forceSpawn 강제 리스폰 시간
@@ -689,7 +689,7 @@ social.market.sort 필터/정렬
 social.market.filter 검색
 social.market.sort2 정렬
 social.market.price.high 가격 내림차순
-social.trading.submitting 트레이드 보내는 중...
+social.trading.submitting 거래 요청 보내는 중...
 social.market.gift.amount 선물할
 social.market.fee.gift 수수료 없음
 social.market.gift KR 선물하기
@@ -741,37 +741,37 @@ windows.clan.delete 클랜을 해체하시겠습니까?
 windows.clan.kick {0}을 클랜에서 추방하시겠습니까?
 windows.store.premium.purchase {0}일 치의 프리미엄 서비스를 구매하시겠습니까?
 windows.playerlist.ban {0}을 이 게임에서 밴하시겠습니까?
-windows.playerlist.flag {0}을 해커태그 하시겠습니까?
-windows.playerlist.unflag {0}의 해커태그를 취소하시겠습니까?
+windows.playerlist.flag {0}에게 해커 태그를 지정하시겠습니까?
+windows.playerlist.unflag {0}의 해커 태그를 제거하시겠습니까?
 windows.playerlist.punish {0}에 대해 조치를 취하시겠습니까?
-item.view.open Open Model Viewer
-item.view.more More Information
-item.sell.cant Item cant be sold.
-item.sell.quick Are you sure you want to Quick Sell {0}?
-social.profile.stats Overall Stats
-social.profile.class Class Stats
-social.profile.sales Sales
-social.profile.sales.market Market Sales
-social.profile.skins Skins [{0}]
-social.profile.skins.none No published Skins from this user
-social.profile.games Games [{0}]
-social.profile.games.none No published Games from this user
-social.profile.assets Assets [{0}]
-social.profile.assets.none No published Assets from this user
-social.profile.mods Mods [{0}]
-social.profile.mods.none No published Mods from this user
-social.search Search Results
-social.market.stats.rare Rarest Items
-social.market.stats.circulation In Circulation
-social.market.stats.units units Worldwide
-social.trades.in Incoming
-social.trades.in.head Incoming Offers ({0})
-social.trades.out Outgoing
-social.trades.out.head Outgoing Offers ({0})
-social.trades.history History
-social.trades.history.head Trade History ({0})
-social.trades.decline Decline All
-social.trades.message ENABLE TRADE MESSAGES IN SETTINGS
-social.trades.warning You get no items from this trade!
-social.trades.accept Are you sure you want to accept this offer?
+item.view.open 모델 뷰어 열기
+item.view.more 더 많은 정보
+item.sell.cant 이 아이템은 판매할 수 없습니다
+item.sell.quick {0}을(를) 빠른 판매할까요?
+social.profile.stats 전반적 스탯
+social.profile.class 클래스 스탯
+social.profile.sales 판매
+social.profile.sales.market 마켓 판매
+social.profile.skins 스킨 [{0}]
+social.profile.skins.none 이 유저가 게시한 스킨이 없습니다
+social.profile.games 게임 [{0}]
+social.profile.games.none 이 유저가 게시한 게임이 없습니다
+social.profile.assets 에셋 [{0}]
+social.profile.assets.none 이 유저가 게시한 에셋이 없습니다
+social.profile.mods 모드 [{0}]
+social.profile.mods.none 이 유저가 게시한 모드가 없습니다
+social.search 검색 결과
+social.market.stats.rare 희귀 아이템
+social.market.stats.circulation 유통 개수
+social.market.stats.units 개가 전 세계에 있음
+social.trades.in 수신됨
+social.trades.in.head 수신된 거래 요청 ({0})
+social.trades.out 발송됨
+social.trades.out.head 발송된 거래 요청 ({0})
+social.trades.history 기록
+social.trades.history.head 거래 기록 ({0})
+social.trades.decline 모두 거절
+social.trades.message 설정에서 거래 메시지를 활성화하세요
+social.trades.warning 이 거래에서 아무런 아이템도 얻을 수 없습니다!
+social.trades.accept 정말 이 거래를 수락할까요?
 `;

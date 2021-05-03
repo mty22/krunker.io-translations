@@ -11,4 +11,5 @@ module.exports.langNames = {
     "fi": "Finnish",
     "zh": "Chinese",
     "pl": "Polish",
+    "hi": "Hindi",
 }

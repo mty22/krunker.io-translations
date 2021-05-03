@@ -68,11 +68,11 @@ timer.end Prochaine manche dans {0}
 leaderboard.empty Partie vide
 popup.checkpoint Point de réapparition !
 app.play CLIQUER POUR JOUER
-app.spectate CLICK TO SPECTATE
-app.play.mobile TAP TO PLAY
-app.spectate.mobile TAP TO SPECTATE
+app.spectate CLIQUER POUR ENTRER EN SPECTATEUR
+app.play.mobile TOUCHE POUR JOUER
+app.spectate.mobile TOUCHE POUR ENTRER EN SPECTATEUR
 app.play.controller APPUYER SUR START
-app.spectate.controller START to SPECTATE
+app.spectate.controller START POUR ENTRER EN SPECTATEUR
 purchase.error Une erreur est survenue
 purchase.error.click Cliquez ici</a> et réessayez !
 purchase.error.limit Vous avez atteint votre quota journalier de transaction
@@ -129,7 +129,7 @@ settings.quality.softShad Ombres légères
 settings.quality.highResShad Ombres haute-résolution
 settings.quality.shadowsDynamic Ombres dynamiques
 settings.quality.trails Traînées de balles
-settings.quality.yourTrails Vos traînées
+settings.quality.yourTrails Vos traînées de balles
 settings.quality.mflash Flash du canon
 settings.quality.flap Rabat du sniper
 settings.quality.lowSpec Config faible
@@ -422,7 +422,7 @@ windows.mods.load.header Charger un mod
 windows.mods.publish Publier un mod
 windows.mods.viewer Visionneuse
 windows.account.header Compte
-windows.account.recover Pour récupérer un compte, contactez <a>krunker@yendis.ch</a>
+windows.account.recover Pour récupérer un compte, contactez <a>recovery@yendis.ch</a>
 windows.class.header Choisir la classe
 windows.controls.header Changer les contrôles
 windows.controls.forward Avancer
@@ -463,7 +463,7 @@ windows.controls.pretend Cacher le jeu
 windows.host.header Héberger une partie personnalisée
 windows.host.maps Réglages du serveur
 windows.host.cmaps Mini-jeux de la communauté
-windows.host.raw Donnée brute du mini-jeu
+windows.host.raw Données brute du mini-jeu
 windows.host.modes Sélectionner le(s) mode(s)
 windows.host.classes Sélectionner le(s) classe(s)
 windows.host.settings Paramètres du serveur
@@ -516,7 +516,7 @@ windows.store.unlock Obtenez des skins d’arme et des objets
 windows.store.amount {0} KR sur votre compte
 windows.store.login pour acheter et obtenir des objets de la boutique !
 windows.store.purchasing En cours d’achat...
-windows.store.unboxed {0}{1} obtenu
+windows.store.unboxed {0}{1} a obtenu
 windows.trade.header Échange
 windows.scope.header Sélectionner le viseur
 windows.premium.header Premium
@@ -744,34 +744,34 @@ windows.playerlist.ban Êtes-vous sûr de vouloir bannir {0} de cette partie?
 windows.playerlist.flag Êtes-vous sûr de vouloir taguer {0}?
 windows.playerlist.unflag Êtes-vous sûr de vouloir détaguer {0}?
 windows.playerlist.punish Êtes-vous sûr de vouloir prendre action sur {0}?
-item.view.open Open Model Viewer
-item.view.more More Information
-item.sell.cant Item cant be sold.
-item.sell.quick Are you sure you want to Quick Sell {0}?
-social.profile.stats Overall Stats
-social.profile.class Class Stats
-social.profile.sales Sales
-social.profile.sales.market Market Sales
+item.view.open Ouvrir l'inspecteur de models
+item.view.more Plus d'informations
+item.sell.cant Cet objet ne peut pas être vendu.
+item.sell.quick Êtes-vous sûr de vouloir vendre instantanément {0}?
+social.profile.stats Stats globales
+social.profile.class Stats de classe
+social.profile.sales Ventes
+social.profile.sales.market Ventes au marché
 social.profile.skins Skins [{0}]
-social.profile.skins.none No published Skins from this user
-social.profile.games Games [{0}]
-social.profile.games.none No published Games from this user
-social.profile.assets Assets [{0}]
-social.profile.assets.none No published Assets from this user
+social.profile.skins.none Pas de skins publiés par cet utilisateur
+social.profile.games Mini-Jeux [{0}]
+social.profile.games.none Pas de mini-jeux publiés par cet utilisateur
+social.profile.assets Ressources [{0}]
+social.profile.assets.none Pas de de ressources publiées par cet utilisateur
 social.profile.mods Mods [{0}]
-social.profile.mods.none No published Mods from this user
-social.search Search Results
-social.market.stats.rare Rarest Items
-social.market.stats.circulation In Circulation
-social.market.stats.units units Worldwide
-social.trades.in Incoming
-social.trades.in.head Incoming Offers ({0})
-social.trades.out Outgoing
-social.trades.out.head Outgoing Offers ({0})
-social.trades.history History
-social.trades.history.head Trade History ({0})
-social.trades.decline Decline All
-social.trades.message ENABLE TRADE MESSAGES IN SETTINGS
-social.trades.warning You get no items from this trade!
-social.trades.accept Are you sure you want to accept this offer?
+social.profile.mods.none Pas de mods publiés par cet utilisateur
+social.search Résultats de recherche
+social.market.stats.rare Objets les plus rares
+social.market.stats.circulation En circulation
+social.market.stats.units unités mondiales
+social.trades.in Reçu
+social.trades.in.head Offres reçues ({0})
+social.trades.out Envoyé
+social.trades.out.head Offres envoyées ({0})
+social.trades.history Historique
+social.trades.history.head Historique d'échanges ({0})
+social.trades.decline Refuser tout
+social.trades.message ACTIVER LES MESSAGES D'ÉCHANGES DANS LES PARAMÈTRES
+social.trades.warning Vous ne recevez rien en échange!
+social.trades.accept Êtes-vous sûr de vouloir accepter cette offre?
 `;

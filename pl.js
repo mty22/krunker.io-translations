@@ -422,7 +422,7 @@ windows.mods.load.header Załaduj modyfikacje
 windows.mods.publish Opublikuj modyfikacje
 windows.mods.viewer Widz
 windows.account.header Konto
-windows.account.recover Aby przywrócic konto, skontaktuj się z <a>krunker@yendis.ch</a>
+windows.account.recover Aby przywrócic konto, skontaktuj się z <a>recovery@yendis.ch</a>
 windows.class.header Wybierz klasę
 windows.controls.header Zmień ustawienia kontroli
 windows.controls.forward Naprzód
