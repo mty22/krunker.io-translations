@@ -422,7 +422,7 @@ windows.mods.load.header MODをロード
 windows.mods.publish MODを公開する
 windows.mods.viewer 観戦者
 windows.account.header アカウント
-windows.account.recover アカウントを回復するには、<a>krunker@yendis.ch</a>に連絡してください
+windows.account.recover アカウントを回復するには、<a>recovery@yendis.ch</a>に連絡してください
 windows.class.header クラスを選択
 windows.controls.header コントロールを変更
 windows.controls.forward 前方

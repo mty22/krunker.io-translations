@@ -422,7 +422,7 @@ windows.mods.load.header Mod Yükle
 windows.mods.publish Mod Yayınla
 windows.mods.viewer Görüntüleyici
 windows.account.header Hesap
-windows.account.recover Hesabınızı kurtarmak için <a>krunker@yendis.ch</a> ile iletişime geçin
+windows.account.recover Hesabınızı kurtarmak için <a>recovery@yendis.ch</a> ile iletişime geçin
 windows.class.header Silah Sınıfı Seç
 windows.controls.header Kontrolleri Değiştir
 windows.controls.forward Ön

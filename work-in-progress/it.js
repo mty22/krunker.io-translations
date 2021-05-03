@@ -422,7 +422,7 @@ windows.mods.load.header Load Mods
 windows.mods.publish Publish Mod
 windows.mods.viewer Viewer
 windows.account.header Account
-windows.account.recover To recover an account contact <a>krunker@yendis.ch</a>
+windows.account.recover To recover an account contact <a>recovery@yendis.ch</a>
 windows.class.header Select Class
 windows.controls.header Change Controls
 windows.controls.forward Forward

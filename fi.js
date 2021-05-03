@@ -422,7 +422,7 @@ windows.mods.load.header Lataa Modit
 windows.mods.publish Julkaise Modi
 windows.mods.viewer Katsoja
 windows.account.header Tili
-windows.account.recover Jos haluat palauttaa tilin, ota yhteyttä <a>krunker@yendis.ch</a>
+windows.account.recover Jos haluat palauttaa tilin, ota yhteyttä <a>recovery@yendis.ch</a>
 windows.class.header Valitse Hahmo
 windows.controls.header Vaihda Kontrolleja
 windows.controls.forward Eteenpäin
