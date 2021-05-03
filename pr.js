@@ -88,7 +88,7 @@ settings.local.header Localização <span id="requiresRestart"><span style="colo
 settings.local.region Região de Origem
 settings.local.lang Linguagem
 settings.network.header Network
-settings.network.sendRate Tickrate Alto
+settings.network.sendRate Alta taxa de Atualização do Servidor
 settings.network.netRerouting Rotação Automática (Afeta A Conexão)
 settings.network.lagComp Compensação de Lag
 settings.popup.header Pop-Ups
@@ -155,7 +155,7 @@ settings.interface.hitInd Mostrar indicador de Hit
 settings.interface.hitColor Cor do indicardor de hit
 settings.interface.dmg Mostrar Dano
 settings.interface.dmgCol Cor do dano
-settings.interface.critCol Cor do Crítico
+settings.interface.critCol Cor do Dano Crítico
 settings.interface.header Interface
 settings.interface.scale Scala da Tela
 settings.interface.ui Mostrar Interface de Usuário
