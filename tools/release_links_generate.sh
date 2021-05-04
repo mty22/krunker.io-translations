@@ -24,6 +24,6 @@ done
 
 echo -e "\nIn-game language selector: https://raw.githubusercontent.com/mty22/krunker.io-translations/${release_ver}/languages.js"
 
-echo -e "\nZip archive of all files in this release (note: this includes \`en.js\`, you can ignore this): https://github.com/mty22/krunker.io-translations/archive/refs/tags/${release_ver}.zip"
+echo -e "\nZip archive of all files in this release (**note**: this includes \`en.js\`, you can ignore this): https://github.com/mty22/krunker.io-translations/archive/refs/tags/${release_ver}.zip"
 
 echo -e "\nNotes:\n"
