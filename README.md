@@ -79,11 +79,12 @@ Contributors
 - [Turkish](https://github.com/mty22/krunker.io-translations/blob/main/tr.js) (Türkçe) - [SecretMember](https://krunker.io/social.html?p=profile&q=SecretMember) (SecretMember#0099), [NathanNorth](https://krunker.io/social.html?p=profile&q=Axima) (NathanNorth#4365), [WinnerOgün](https://krunker.io/social.html?p=profile&q=Winner_Ogün) (W_O#1903), [hon0urdy](https://krunker.io/social.html?p=profile&q=onurongunnn) (hon0urdy#5024)
 - [Dutch](https://github.com/mty22/krunker.io-translations/blob/main/fi.js) (Nederlands) - [Semliot](https://krunker.io/social.html?p=profile&q=Semliot) (Semliot#0070), [NickAuthentic](https://krunker.io/social.html?p=profile&q=NickAuthentic) (nickauthentic#9999), [Gluzly](https://krunker.io/social.html?p=profile&q=Gluzly) (gluzly#9999), [AdoreMe](https://krunker.io/social.html?p=profile&q=AdoreMe) (AdoreMe#0082)
 
+Please note that all contributors will be moved to a new file in the future. If you contributed to this project, feel free top update the content above by submitting a pull request.
 
 Current Krunker language support
 ------
 
-As of Krunker version [v3.8.2](https://krunker.io/docs/versions.txt), the following languages have been added to the game:
+As of Krunker version [v3.8.5](https://krunker.io/docs/versions.txt), the following languages have been added to the game:
 
 - [English](https://github.com/mty22/krunker.io-translations/blob/main/en.js)
 - [Spanish](https://github.com/mty22/krunker.io-translations/blob/main/es.js)
@@ -98,7 +99,10 @@ As of Krunker version [v3.8.2](https://krunker.io/docs/versions.txt), the follow
 Pending:
 
 - [Dutch](https://github.com/mty22/krunker.io-translations/blob/main/nl.js)
+- [Hindi](https://github.com/mty22/krunker.io-translations/blob/main/hi.js)
+- [Polish](https://github.com/mty22/krunker.io-translations/blob/main/pl.js)
+- [Russian](https://github.com/mty22/krunker.io-translations/blob/main/ru.js)
 
 Potential future language:
 
-- [Turkish](https://github.com/mty22/krunker.io-translations/blob/main/tr.js)
+- [Turkish](https://github.com/mty22/krunker.io-translations/blob/main/pending/tr.js)

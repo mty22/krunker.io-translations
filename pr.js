@@ -31,10 +31,10 @@ generic.name Nome
 generic.level Nível
 generic.score Pontuação
 generic.off Desligado
-generic.defeat Derrota
-generic.victory Vitória
-generic.matchover Partida Encerrada
-generic.matchaband Partida Abandonada
+generic.defeat DERROTA
+generic.victory VITÓRIA
+generic.matchover PARTIDA ENCERRADA
+generic.matchaband PARTIDA ABANDONADA
 generic.follow Seguir
 generic.unfollow Deixar de Seguir
 generic.followers Seguidores
@@ -770,7 +770,7 @@ social.trades.out Enviadas
 social.trades.out.head Ofertas Enviadas ({0})
 social.trades.history Histórico
 social.trades.history.head Histórico de Trade ({0})
-social.trades.decline Rejeitar Todas
+social.trades.decline Recusar Todas
 social.trades.message Habilitar Mensagens de Troca Nas Configurações
 social.trades.warning Você não Ganhara Nenhum Item Nessa Troca
 social.trades.accept Você tem Certeza que Deseja Aceitar essa Oferta?
