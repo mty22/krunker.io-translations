@@ -10,6 +10,11 @@ if [ -z "$release_ver" ]; then
 	exit 1
 fi
 
+
+echo -e "Changes in this release:
+
+https://github.com/mty22/krunker.io-translations/tree/${release_ver}\n"
+
 # Assuming you are working from the github root directory..
 for y in $(grep '\:' languages.js | sed -e 's/ //g'|egrep -vi 'LANG|en.js' ); do 
 	lang_short=$(echo $y | cut -d\" -f2) 
@@ -17,8 +22,8 @@ for y in $(grep '\:' languages.js | sed -e 's/ //g'|egrep -vi 'LANG|en.js' ); do
 	echo "${lang_long}: https://raw.githubusercontent.com/mty22/krunker.io-translations/${release_ver}/${lang_short}.js"
 done
 
-echo -e "\nZip archive of all files in this release (note: this includes \`en.js\`, you can ignore this): https://github.com/mty22/krunker.io-translations/archive/refs/tags/${release_ver}.zip\n"
+echo -e "\nIn-game language selector: https://raw.githubusercontent.com/mty22/krunker.io-translations/${release_ver}/languages.js"
 
-echo '```'
-cat languages.js
-echo '```'
+echo -e "\nZip archive of all files in this release (note: this includes \`en.js\`, you can ignore this): https://github.com/mty22/krunker.io-translations/archive/refs/tags/${release_ver}.zip"
+
+echo -e "\nNotes:\n"
