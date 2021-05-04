@@ -101,6 +101,7 @@ Pending:
 - [Dutch](https://github.com/mty22/krunker.io-translations/blob/main/nl.js)
 - [Hindi](https://github.com/mty22/krunker.io-translations/blob/main/hi.js)
 - [Polish](https://github.com/mty22/krunker.io-translations/blob/main/pl.js)
+- [Russian](https://github.com/mty22/krunker.io-translations/blob/main/ru.js)
 
 Potential future language:
 
