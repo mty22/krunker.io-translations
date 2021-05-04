@@ -16,3 +16,9 @@ for y in $(grep '\:' languages.js | sed -e 's/ //g'|egrep -vi 'LANG|en.js' ); do
 	lang_long=$(echo $y | cut -d\" -f4)
 	echo "${lang_long}: https://raw.githubusercontent.com/mty22/krunker.io-translations/${release_ver}/${lang_short}.js"
 done
+
+echo -e "\nZip archive of all files in this release (note: this includes \`en.js\`, you can ignore this): https://github.com/mty22/krunker.io-translations/archive/refs/tags/${release_ver}.zip\n"
+
+echo '```'
+cat languages.js
+echo '```'
