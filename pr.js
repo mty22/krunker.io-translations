@@ -729,7 +729,7 @@ stats.wallbangs Tiros Através da Parede
 stats.sprays Pixações Postas
 windows.host.default.settings Habilitar as configurações padrão permite armazenar o progresso e os recordes do jogador
 windows.host.default.commands *Os comandos do Dono da Sala são desabilitados neste modo: /noclip /god /smite etc
-windows.host.rewards Habilitar Abilitar Recompensas de KR força o servidor a usar as configurações padrão e permite que os jogadores ganhem KR com os fundos do mapa:
+windows.host.rewards Habilitar Habilitar Recompensas de KR força o servidor a usar as configurações padrão e permite que os jogadores ganhem KR com os fundos do mapa:
 windows.store.wheels.sub Tente a Sorte e Gire Uma Roleta Para Ter a Chance de Ganhar Alguma Nova Skin!
 windows.store.currency * Os preços em dólares americanos podem ser convertidos para sua moeda local a uma taxa de câmbio definida pelo provedor de pagamento ou banco
 windows.store.creator Considere Oferecer Suporte ao Seu Criador de Conteúdo Favorito Usando um Código de Criador
@@ -741,8 +741,8 @@ windows.clan.delete Você Ten Certeza Que Quer Sair do Seu Clã?
 windows.clan.kick Você tem certeza que quer kikar {0} do clã?
 windows.store.premium.purchase Tem certeza de que deseja comprar {0} dias Premium?
 windows.playerlist.ban Tem certeza que deseja banir {0} deste jogo?
-windows.playerlist.flag Tem certeza que deseja Banir {0}?
-windows.playerlist.unflag Tem certeza que deseja Desbanir {0}?
+windows.playerlist.flag Tem certeza que deseja Marcar {0}?
+windows.playerlist.unflag Tem certeza que deseja Desmarcar {0}?
 windows.playerlist.punish Tem certeza de que deseja tomar medidas em relação a {0}?
 item.view.open Abrir Visualizador de Modelo
 item.view.more Mais Informações
@@ -771,7 +771,7 @@ social.trades.out.head Ofertas Enviadas ({0})
 social.trades.history Histórico
 social.trades.history.head Histórico de Trade ({0})
 social.trades.decline Rejeitar Todas
-social.trades.message Abilitar Mensagens de Troca Nas Configurações
+social.trades.message Habilitar Mensagens de Troca Nas Configurações
 social.trades.warning Você não Ganhara Nenhum Item Nessa Troca
 social.trades.accept Você tem Certeza que Deseja Aceitar essa Oferta?
 `;
