@@ -101,4 +101,4 @@ Pending:
 
 Potential future language:
 
-- [Turkish](https://github.com/mty22/krunker.io-translations/blob/main/tr.js)
+- [Turkish](https://github.com/mty22/krunker.io-translations/blob/main/pending/tr.js)
