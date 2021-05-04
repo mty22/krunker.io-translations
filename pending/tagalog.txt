@@ -1,5 +1,5 @@
 file: ta.js
-pull request: N/A
+pull request: https://github.com/mty22/krunker.io-translations/pull/170
 
 
 discord: ｒａｎｄｏｍ#0416; IGN: iNotT
