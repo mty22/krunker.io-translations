@@ -766,7 +766,7 @@ social.market.stats.circulation 유통 개수
 social.market.stats.units 개가 전 세계에 있음
 social.trades.in 받음
 social.trades.in.head 받은 트레이드 요청 ({0})
-social.trades.out 발송됨
+social.trades.out 보냄
 social.trades.out.head 보낸 트레이드 요청 ({0})
 social.trades.history 기록
 social.trades.history.head 트레이드 기록 ({0})
