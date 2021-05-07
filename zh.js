@@ -507,9 +507,9 @@ windows.store.voucher 兑换代金券
 windows.store.voucherinfo 从指定主播和活动获取代金券
 windows.store.market 市场
 windows.store.market2 Krunker市场
-windows.store.premium 购买Premium
-windows.store.premium2 Krunker Premium
-windows.store.buyP 在购买Premium后，您将可以自定义您的游戏用户名+体验更多专用功能!
+windows.store.premium 购买会员
+windows.store.premium2 Krunker会员
+windows.store.buyP 在购买会员后，您将可以自定义您的游戏用户名+体验更多专用功能!
 windows.store.buy 买卖物品
 windows.store.wheels 转盘
 windows.store.unlock 解锁新武器和物品
@@ -695,14 +695,14 @@ social.market.fee.gift 无费用
 social.market.gift 赠送KR
 social.market.gift.msg 赠送KR留言
 respawn.auto 您将会在｛0｝秒内重生
-custom.host.ranked 您不可以在排位赛进行时开设自定义房间。
+custom.host.ranked 您不可以在进行排位赛时开设自定义房间。
 funds.insufficient 经费不足
 funds.out 您似乎没有KR了
 custom.passcode.long 密码过长
 custom.passcode.input 请输入房间密码
 custom.tryagain 请重试
 purchase.kr.success 已成功将｛0｝KR加入您的账号
-limited.purchase.ask 您确定您要以｛1｝KR购买｛0｝吗?
+limited.purchase.ask 您确定要以｛1｝KR购买｛0｝吗?
 limited.purchase.success 以成功将｛0｝加入您的账号
 pretend.exit 再次点击[{0}]以退出
 settings.loaded 设置已加载
@@ -710,11 +710,11 @@ settings.loaded.none 该设置并不存在
 account.login.required 您必须先登录
 account.banned.hack 此账号已因为使用外挂被禁赛
 account.banned.appeal 如果您认为您的账号被误封，请联系：
-account.delete 如果您的账号删除申请在14天內没有被撤销，所有关于此账号的信息将会被删除。
-account.delete.request 您确定您要申请账号删除吗?
-account.delete.cancel 您确定您要撤销账号删除申请吗?
-spin.free.available 免费KR已准备好!
-spin.free.claim  此转盘仅可在每小时完成一局比赛后获得
+account.delete 如果您的账号删除申请在14天內没有被撤销，所有关于此账号的信息将会被抹除。
+account.delete.request 您确定要申请账号删除吗?
+account.delete.cancel 您确定要撤销账号删除申请吗?
+spin.free.available 免费KR已准备完毕!
+spin.free.claim 此转盘仅可在每小时完成一局比赛后获得
 spin.free.disable 免费KR弹窗可以在设置中禁用
 mod.reset.0 该设置将会在玩家重生后生效
 mod.reset.1 地图将不会被重设
@@ -728,18 +728,18 @@ stats.headshots 暴击数
 stats.wallbangs 穿墙击杀数
 stats.sprays 涂鸦次数
 windows.host.default.settings 保持玩家计分功能仅可在使用默认设置时被打开
-windows.host.default.commands 房主指令(如/god, /smite, /noclip, 等等)会在此模式中被禁用
-windows.host.rewards 打开KR奖励功能后，玩家可以在地图内获得KR奖励, 但是自定义设置将会被禁用
+windows.host.default.commands 房主指令(如/god，/smite，/noclip，等等)会在此模式中被禁用
+windows.host.rewards 打开KR奖励功能后，玩家可以在地图内获得KR奖励，但是自定义设置将会被禁用
 windows.store.wheels.sub 试试这些转盘，您将会有机会获得全新皮肤!
-windows.store.currency  *美元和您所在地区货币的汇率将会由支付服务提供商或您使用的银行决定
-windows.store.creator 在购买KR时，请考虑使用创作者专用码以支持我们的视频/地图/模组创作者
+windows.store.currency *美元和您所在地区货币的汇率将会由支付服务提供商或您使用的银行决定
+windows.store.creator 在购买KR时，您可以使用创作者专用码以支持您喜爱的视频/地图/模组创作者
 windows.chall.customs 您不可在自定义房间中完成挑战。
 twitch.link 您确定要链接您的Twitch账号吗?
 twitch.unlink 您确定要取消链接吗?
 windows.clan.leave 您确定要离开该战队吗?
 windows.clan.delete 您确定要解散该战队吗?
 windows.clan.kick 您确定要将｛0｝踢出您的战队吗?
-windows.store.premium.purchase 您确定要购买｛0｝天的Premium吗?
+windows.store.premium.purchase 您确定要购买｛0｝天的会员吗?
 windows.playerlist.ban 您确定要将｛0｝禁赛吗?
 windows.playerlist.flag 您确定要标记｛0｝为外挂用户吗?
 windows.playerlist.unflag 您确定要取消标记｛0｝吗?
