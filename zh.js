@@ -734,16 +734,16 @@ windows.store.wheels.sub 试试这些转盘，您将会有机会获得全新皮�
 windows.store.currency  *美元和您所在地区货币的汇率将会由支付服务提供商或您使用的银行决定
 windows.store.creator 在购买KR时，请考虑使用创作者专用码以支持我们的视频/地图/模组创作者
 windows.chall.customs 您不可在自定义房间中完成挑战。
-twitch.link 您确定您要链接您的Twitch账号吗?
+twitch.link 您确定要链接您的Twitch账号吗?
 twitch.unlink 您确定要取消链接吗?
-windows.clan.leave 您确定您要离开该战队吗?
-windows.clan.delete 您确定您要解散该战队吗?
-windows.clan.kick 您确定您要将｛0｝踢出您的战队吗?
-windows.store.premium.purchase 您确定您要购买｛0｝天的Premium吗?
+windows.clan.leave 您确定要离开该战队吗?
+windows.clan.delete 您确定要解散该战队吗?
+windows.clan.kick 您确定要将｛0｝踢出您的战队吗?
+windows.store.premium.purchase 您确定要购买｛0｝天的Premium吗?
 windows.playerlist.ban 您确定要将｛0｝禁赛吗?
-windows.playerlist.flag 您确定您要标记｛0｝为外挂用户吗?
-windows.playerlist.unflag 您确定您要取消标记｛0｝吗?
-windows.playerlist.punish 您确定您要对｛0｝采取措施吗?
+windows.playerlist.flag 您确定要标记｛0｝为外挂用户吗?
+windows.playerlist.unflag 您确定要取消标记｛0｝吗?
+windows.playerlist.punish 您确定要对｛0｝采取措施吗?
 item.view.open 打开模型浏览工具
 item.view.more 更多信息
 item.sell.cant 物品无法出售
@@ -753,25 +753,25 @@ social.profile.class 各角色战绩
 social.profile.sales 出售记录
 social.profile.sales.market 市场出售记录
 social.profile.skins [{0}] 个物品
-social.profile.skins.none 此用户无任何发布的皮肤
+social.profile.skins.none 此用户未发布任何皮肤
 social.profile.games [{0}] 个游戏地图
-social.profile.games.none 此用户无任何发布的游戏地图
+social.profile.games.none 此用户未发布任何游戏地图
 social.profile.assets [{0}] 个地图组件
-social.profile.assets.none 此用户无任何发布的地图组件
+social.profile.assets.none 此用户未发布任何地图组件
 social.profile.mods [{0}] 个插件
-social.profile.mods.none 此用户无任何发布的游戏插件
+social.profile.mods.none 此用户未发布任何游戏插件
 social.search 搜索结果
 social.market.stats.rare 最稀有的物品
 social.market.stats.circulation 在拍卖中
-social.market.stats.units units 全球
-social.trades.in 收到请求
+social.market.stats.units 全球物品数量
+social.trades.in 收到的请求
 social.trades.in.head 收到了 ({0}) 个交易请求
-social.trades.out 放出请求
+social.trades.out 发送的请求
 social.trades.out.head 放出了 ({0}) 个交易请求
 social.trades.history 交易记录
 social.trades.history.head ({0}) 个交易记录
 social.trades.decline 全部拒绝
 social.trades.message 在设置中开启交易请求信息
-social.trades.warning 您不会在此交易中获得任何物品!
+social.trades.warning 您将不会在此交易中获得任何物品!
 social.trades.accept 您确定接受此交易请求吗?
 `;
