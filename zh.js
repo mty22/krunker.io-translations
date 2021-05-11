@@ -789,4 +789,6 @@ social.trades.decline 全部拒绝
 social.trades.message 在设置中开启交易请求信息
 social.trades.warning 您将不会在此交易中获得任何物品!
 social.trades.accept 您确定接受此交易请求吗?
+stats.airdrops KR-Packages
+settings.quality.flapAnim Sniper Flap Animation
 `;
