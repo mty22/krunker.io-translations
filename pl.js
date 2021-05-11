@@ -97,15 +97,15 @@ settings.experimental.header Eksperymentalne
 settings.experimental.aimFreezeFix Napraw zamrożenie przy celowaniu
 settings.experimental.mouseFlickFix Napraw mouse-flicki
 settings.experimental.shaderRendering Renderowanie przez isntancje
-settings.client.header Client
-settings.client.unlimitedFrames Unlimited FPS
+settings.client.header Klient
+settings.client.unlimitedFrames Nielimitowane FPS
 settings.client.gameCap Game Capture
-settings.client.experimental Experimental Features
+settings.client.experimental Funkcje eksperymentalne
 settings.client.discordRPC Discord RPC
-settings.client.resourceSwapper Resource Swapper
-settings.client.clearCache Clear Cache
-settings.client.resetSettings Reset Client Settings
-settings.client.acceleratedCanvas Accelerated Canvas
+settings.client.resourceSwapper Wymiennik zasobów
+settings.client.clearCache Wyczyść Cache
+settings.client.resetSettings Zresetuj ustawienia klienta
+settings.client.acceleratedCanvas Przyspieszone rednerowanie grafik typu Canvas
 settings.client.angleBackend ANGLE Graphics Backend
 settings.client.colorProfile Color Profile
 settings.dev.header Programista
@@ -649,7 +649,7 @@ server.config.private Prywatna gra
 server.config.krRewards Nagrody KR
 server.config.forceDefault Wymuś używanie domyślnych ustawień
 server.config.warmupTime Czas rozgrzewki
-server.config.gamRounds Rounds
+server.config.gamRounds Rundy
 server.config.objtvTime Czas miejsca celu
 server.config.forceSpawn Czas automatycznego odrodzenia
 server.config.scoreLimit Limit wyniku
@@ -661,9 +661,9 @@ server.config.hpRegen Regeneracja życia
 server.config.disableB Wyłącz obramowanie
 server.config.throwMel Rzucanie broni białych
 server.config.noCosm Wyłącz elementy kosmetyczne
-server.config.tstCmp Test Mode
-server.config.limitClasses Limit Classes
-server.config.tmSize Team Size
+server.config.tstCmp Tryb testowy
+server.config.limitClasses Limit klas
+server.config.tmSize Rozmiar drużyny
 social.login Zaloguj/Zarejestruj
 social.login.failed Logowanie nie powiodło się
 social.login.buy Zaloguj się by kupować
@@ -789,6 +789,6 @@ social.trades.decline Odrzuć wszystkie
 social.trades.message WŁĄCZ WIADOMOŚĆI O HANDLU W USTAWIENIACH
 social.trades.warning Nie dostaniesz żadnych przedmiotów z tej wymiany!
 social.trades.accept Czy na pewno chcesz przyjąć tę ofertę?
-stats.airdrops KR-Packages
-settings.quality.flapAnim Sniper Flap Animation
+stats.airdrops Paczki z KR
+settings.quality.flapAnim Animowana klapka snajperska
 `;
