@@ -102,12 +102,12 @@ settings.client.unlimitedFrames Nielimitowane FPS
 settings.client.gameCap Game Capture
 settings.client.experimental Funkcje eksperymentalne
 settings.client.discordRPC Discord RPC
-settings.client.resourceSwapper Wymiennik zasobów
-settings.client.clearCache Wyczyść Cache
+settings.client.resourceSwapper Podmieniacz zasobów
+settings.client.clearCache Wyczyść pamięć podręczną
 settings.client.resetSettings Zresetuj ustawienia klienta
-settings.client.acceleratedCanvas Przyspieszone rednerowanie grafik typu Canvas
-settings.client.angleBackend ANGLE Graphics Backend
-settings.client.colorProfile Color Profile
+settings.client.acceleratedCanvas Wspomagane sprzętowo renderowanie canvas
+settings.client.angleBackend Grafika ANGLE
+settings.client.colorProfile Profil kolorów
 settings.dev.header Programista
 settings.dev.forceUpdate Wymuś aktualizację skinów
 settings.dev.forceRegen Zawsze regeneruj graczy
@@ -789,6 +789,6 @@ social.trades.decline Odrzuć wszystkie
 social.trades.message WŁĄCZ WIADOMOŚĆI O HANDLU W USTAWIENIACH
 social.trades.warning Nie dostaniesz żadnych przedmiotów z tej wymiany!
 social.trades.accept Czy na pewno chcesz przyjąć tę ofertę?
-stats.airdrops Paczki z KR
+stats.airdrops Paczki KR
 settings.quality.flapAnim Animowana klapka snajperska
 `;
