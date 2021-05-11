@@ -103,4 +103,4 @@ As of Krunker version [v3.8.6](https://krunker.io/docs/versions.txt), the follow
 
 Potential future language:
 
-- [Turkish](https://github.com/mty22/krunker.io-translations/blob/main/pending/tr.js)
+- [Turkish](https://github.com/mty22/krunker.io-translations/blob/main/work-in-progress/tr.js)
