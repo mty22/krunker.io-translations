@@ -97,6 +97,17 @@ settings.experimental.header Experimental
 settings.experimental.aimFreezeFix Arreglo de congelamiento al apuntar
 settings.experimental.mouseFlickFix Arreglo de Mouse Flick
 settings.experimental.shaderRendering Renderización de Instancias
+settings.client.header Client
+settings.client.unlimitedFrames Unlimited FPS
+settings.client.gameCap Game Capture
+settings.client.experimental Experimental Features
+settings.client.discordRPC Discord RPC
+settings.client.resourceSwapper Resource Swapper
+settings.client.clearCache Clear Cache
+settings.client.resetSettings Reset Client Settings
+settings.client.acceleratedCanvas Accelerated Canvas
+settings.client.angleBackend ANGLE Graphics Backend
+settings.client.colorProfile Color Profile
 settings.dev.header Desarrollador
 settings.dev.forceUpdate Forzar Actualización de Skins
 settings.dev.forceRegen Siempre Regenerar al Jugador
@@ -638,6 +649,7 @@ server.config.private Privado
 server.config.krRewards Recompensas de KR
 server.config.forceDefault Forzar Configuraciones por Defecto
 server.config.warmupTime Tiempo de calentamiento
+server.config.gamRounds Rounds
 server.config.objtvTime Tiempo de Objetivo
 server.config.forceSpawn Tiempo de reaparición automática
 server.config.scoreLimit Límite de puntos
@@ -649,6 +661,9 @@ server.config.hpRegen Regeneración de salud
 server.config.disableB Deshabilitar bordes
 server.config.throwMel Armas cuerpo-a-cuerpo lanzables
 server.config.noCosm Deshabilitar Cosméticos
+server.config.tstCmp Test Mode
+server.config.limitClasses Limit Classes
+server.config.tmSize Team Size
 social.login Iniciar Sesión/Registrarse
 social.login.failed Error al iniciar sesión
 social.login.buy Inicia sesión para comprar
@@ -774,4 +789,6 @@ social.trades.decline Rechazar Todo
 social.trades.message ACTIVA LOS MENSAJES DE INTERCAMBIO EN LAS CONFIGURACIONES
 social.trades.warning No obtienes objetos de este intercambio!
 social.trades.accept Estás seguro de qué quieres aceptar esta oferta?
+stats.airdrops KR-Packages
+settings.quality.flapAnim Sniper Flap Animation
 `;
