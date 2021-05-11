@@ -97,17 +97,17 @@ settings.experimental.header 실험적 설정
 settings.experimental.aimFreezeFix 에임 멈춤 현상 해결
 settings.experimental.mouseFlickFix 마우스 순간이동 문제 해결
 settings.experimental.shaderRendering 인스턴스 렌더링
-settings.client.header Client
-settings.client.unlimitedFrames Unlimited FPS
-settings.client.gameCap Game Capture
-settings.client.experimental Experimental Features
-settings.client.discordRPC Discord RPC
-settings.client.resourceSwapper Resource Swapper
-settings.client.clearCache Clear Cache
-settings.client.resetSettings Reset Client Settings
-settings.client.acceleratedCanvas Accelerated Canvas
+settings.client.header 클라이언트
+settings.client.unlimitedFrames FPS 무제한
+settings.client.gameCap 게임 캡쳐
+settings.client.experimental 시험 기능
+settings.client.discordRPC Discord 연동
+settings.client.resourceSwapper 리소스 스와퍼
+settings.client.clearCache 캐시 제거
+settings.client.resetSettings 클라이언트 설정 초기화
+settings.client.acceleratedCanvas 가속 캔버스
 settings.client.angleBackend ANGLE Graphics Backend
-settings.client.colorProfile Color Profile
+settings.client.colorProfile 프로필 색 설정
 settings.dev.header 개발자
 settings.dev.forceUpdate 스킨 강제 업데이트
 settings.dev.forceRegen 항상 플레이어 재생성
@@ -789,6 +789,6 @@ social.trades.decline 모두 거절
 social.trades.message 설정에서 트레이드 메시지를 활성화하세요
 social.trades.warning 이 트레이드에서는 아무런 아이템도 얻을 수 없습니다!
 social.trades.accept 정말 이 트레이드를 수락하시겠습니까?
-stats.airdrops KR-Packages
-settings.quality.flapAnim Sniper Flap Animation
+stats.airdrops KR-패키지
+settings.quality.flapAnim 스나이퍼 스코프 덮개 애니메이션
 `;
