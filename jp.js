@@ -97,17 +97,17 @@ settings.experimental.header テスト中の設定
 settings.experimental.aimFreezeFix エイム中のフリーズを修正
 settings.experimental.mouseFlickFix エイム飛びの補正
 settings.experimental.shaderRendering インスタンスレンダリング
-settings.client.header Client
-settings.client.unlimitedFrames Unlimited FPS
-settings.client.gameCap Game Capture
-settings.client.experimental Experimental Features
+settings.client.header クライアント
+settings.client.unlimitedFrames FPS解放
+settings.client.gameCap ゲームキャプチャー
+settings.client.experimental テスト中の設定
 settings.client.discordRPC Discord RPC
-settings.client.resourceSwapper Resource Swapper
-settings.client.clearCache Clear Cache
-settings.client.resetSettings Reset Client Settings
-settings.client.acceleratedCanvas Accelerated Canvas
-settings.client.angleBackend ANGLE Graphics Backend
-settings.client.colorProfile Color Profile
+settings.client.resourceSwapper リソーススワッパー
+settings.client.clearCache キャッシュをクリア
+settings.client.resetSettings クライアントの設定をリセット
+settings.client.acceleratedCanvas ハードウェアアクセラレーション
+settings.client.angleBackend ANGLEグラフィックスバックエンド
+settings.client.colorProfile カラープロファイル
 settings.dev.header 開発者
 settings.dev.forceUpdate 強制的にスキンをアップデート
 settings.dev.forceRegen 常にプレイヤーを再生成
@@ -649,7 +649,7 @@ server.config.private プライベート
 server.config.krRewards KR報酬
 server.config.forceDefault 強制的にデフォルトの設定を使用
 server.config.warmupTime ウォームアップ時間 (分)
-server.config.gamRounds Rounds
+server.config.gamRounds ラウンド数
 server.config.objtvTime オブジェクトごとの時間
 server.config.forceSpawn 自動リスポーン時間
 server.config.scoreLimit スコア制限
@@ -661,9 +661,9 @@ server.config.hpRegen HP回復
 server.config.disableB ボーダー無効
 server.config.throwMel 投げナイフ
 server.config.noCosm 装飾品を無効化
-server.config.tstCmp Test Mode
-server.config.limitClasses Limit Classes
-server.config.tmSize Team Size
+server.config.tstCmp テストモード
+server.config.limitClasses クラス制限
+server.config.tmSize チーム人数
 social.login ログイン/登録
 social.login.failed ログインに失敗しました
 social.login.buy ログインして購入
@@ -789,6 +789,6 @@ social.trades.decline すべて拒否
 social.trades.message トレードメッセージを設定から有効にしてください
 social.trades.warning このトレードではあなたは何も手に入れません!
 social.trades.accept 本当にこの申請を許可しますか?
-stats.airdrops KR-Packages
-settings.quality.flapAnim Sniper Flap Animation
+stats.airdrops KRパッケージ
+settings.quality.flapAnim スナイパーフラップアニメーション
 `;
