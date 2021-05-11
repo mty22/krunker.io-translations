@@ -97,6 +97,17 @@ settings.experimental.header Experimental
 settings.experimental.aimFreezeFix Ziel Einfrierungs-Reperatur
 settings.experimental.mouseFlickFix Maus Einfrierungs-Reperatur
 settings.experimental.shaderRendering Instanz Rendering
+settings.client.header Client
+settings.client.unlimitedFrames Unlimited FPS
+settings.client.gameCap Game Capture
+settings.client.experimental Experimental Features
+settings.client.discordRPC Discord RPC
+settings.client.resourceSwapper Resource Swapper
+settings.client.clearCache Clear Cache
+settings.client.resetSettings Reset Client Settings
+settings.client.acceleratedCanvas Accelerated Canvas
+settings.client.angleBackend ANGLE Graphics Backend
+settings.client.colorProfile Color Profile
 settings.dev.header Entwickler
 settings.dev.forceUpdate Skin Update erzwingen
 settings.dev.forceRegen Spieler immer neu generieren
@@ -638,6 +649,7 @@ server.config.private Privat
 server.config.krRewards KR Belohnung
 server.config.forceDefault Force Default Settings
 server.config.warmupTime Aufwärm-Zeit
+server.config.gamRounds Rounds
 server.config.objtvTime Objective-Zeit
 server.config.forceSpawn Automatische Respawn-Zeit
 server.config.scoreLimit Punkte Limit
@@ -649,6 +661,9 @@ server.config.hpRegen Lebens-Regeneration
 server.config.disableB Grenzen deaktivieren
 server.config.throwMel Werfbare Messer
 server.config.noCosm Cosmetics deaktivieren
+server.config.tstCmp Test Mode
+server.config.limitClasses Limit Classes
+server.config.tmSize Team Size
 social.login Anmelden/Registrieren
 social.login.failed Anmeldung fehlgeschlagen
 social.login.buy Zum Kaufen anmelden
@@ -774,4 +789,6 @@ social.trades.decline Alle Ablehnen
 social.trades.message AKTIVIERE HANDELSNACHRICHTEN IN DEN EINSTELLUNGEN
 social.trades.warning Du bekommst keine Items aus diesem Handel!
 social.trades.accept Bist du sicher, dass du dieses Angebot annehmen möchtest?
+stats.airdrops KR-Packages
+settings.quality.flapAnim Sniper Flap Animation
 `;
