@@ -97,6 +97,17 @@ settings.experimental.header Eksperimentalno
 settings.experimental.aimFreezeFix Aim Freeze Popravka
 settings.experimental.mouseFlickFix Mouse Flick Popravka
 settings.experimental.shaderRendering Instance Rendering
+settings.client.header Client
+settings.client.unlimitedFrames Unlimited FPS
+settings.client.gameCap Game Capture
+settings.client.experimental Experimental Features
+settings.client.discordRPC Discord RPC
+settings.client.resourceSwapper Resource Swapper
+settings.client.clearCache Clear Cache
+settings.client.resetSettings Reset Client Settings
+settings.client.acceleratedCanvas Accelerated Canvas
+settings.client.angleBackend ANGLE Graphics Backend
+settings.client.colorProfile Color Profile
 settings.dev.header Programer
 settings.dev.forceUpdate Prisilno ažuriraj skinove
 settings.dev.forceRegen Uvijek regeneriraj igrača
@@ -422,7 +433,7 @@ windows.mods.load.header Učitaj Modove
 windows.mods.publish Objavi Mod
 windows.mods.viewer Preglednik
 windows.account.header Račun
-windows.account.recover Da oporavite račun kontaktirajte <a>krunker@yendis.ch</a>
+windows.account.recover Da oporavite račun kontaktirajte <a>recovery@yendis.ch</a>
 windows.class.header Izaberite Klasu
 windows.controls.header Promijeni Kontrole
 windows.controls.forward Naprijed
@@ -638,6 +649,7 @@ server.config.private Privatno
 server.config.krRewards KR Nagrade
 server.config.forceDefault Zahtjevav zadane postavke
 server.config.warmupTime Vrijeme Zagrijavanja
+server.config.gamRounds Rounds
 server.config.objtvTime Vrijeme Cilja
 server.config.forceSpawn Auto Respawn Vrijeme
 server.config.scoreLimit Limit Poena
@@ -649,6 +661,9 @@ server.config.hpRegen HP Regeneracija
 server.config.disableB Onemogući Granice
 server.config.throwMel Throwable Melees
 server.config.noCosm Onemogući Kozmetiku
+server.config.tstCmp Test Mode
+server.config.limitClasses Limit Classes
+server.config.tmSize Team Size
 social.login Uloguj se/Registriraj se
 social.login.failed Prijava nije uspjela
 social.login.buy Prijavite se za kupnju
@@ -744,4 +759,36 @@ windows.playerlist.ban Jeste li sigurni da želite banovati {0} iz ove igre?
 windows.playerlist.flag Jeste li sigurni da želite banovati {0}?
 windows.playerlist.unflag Jeste li sigurni da želite unboanovati {0}?
 windows.playerlist.punish Jeste li sigurni da želite poduzeti akciju na {0}?
+item.view.open Open Model Viewer
+item.view.more More Information
+item.sell.cant Item cant be sold.
+item.sell.quick Are you sure you want to Quick Sell {0}?
+social.profile.stats Overall Stats
+social.profile.class Class Stats
+social.profile.sales Sales
+social.profile.sales.market Market Sales
+social.profile.skins Skins [{0}]
+social.profile.skins.none No published Skins from this user
+social.profile.games Games [{0}]
+social.profile.games.none No published Games from this user
+social.profile.assets Assets [{0}]
+social.profile.assets.none No published Assets from this user
+social.profile.mods Mods [{0}]
+social.profile.mods.none No published Mods from this user
+social.search Search Results
+social.market.stats.rare Rarest Items
+social.market.stats.circulation In Circulation
+social.market.stats.units units Worldwide
+social.trades.in Incoming
+social.trades.in.head Incoming Offers ({0})
+social.trades.out Outgoing
+social.trades.out.head Outgoing Offers ({0})
+social.trades.history History
+social.trades.history.head Trade History ({0})
+social.trades.decline Decline All
+social.trades.message ENABLE TRADE MESSAGES IN SETTINGS
+social.trades.warning You get no items from this trade!
+social.trades.accept Are you sure you want to accept this offer?
+stats.airdrops KR-Packages
+settings.quality.flapAnim Sniper Flap Animation
 `;

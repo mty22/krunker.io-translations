@@ -97,6 +97,17 @@ settings.experimental.header Expérimental
 settings.experimental.aimFreezeFix Correction du bug de visée bloquée
 settings.experimental.mouseFlickFix Correction des accoups de la souris
 settings.experimental.shaderRendering Instanciation géométrique
+settings.client.header Client
+settings.client.unlimitedFrames Unlimited FPS
+settings.client.gameCap Game Capture
+settings.client.experimental Experimental Features
+settings.client.discordRPC Discord RPC
+settings.client.resourceSwapper Resource Swapper
+settings.client.clearCache Clear Cache
+settings.client.resetSettings Reset Client Settings
+settings.client.acceleratedCanvas Accelerated Canvas
+settings.client.angleBackend ANGLE Graphics Backend
+settings.client.colorProfile Color Profile
 settings.dev.header Développeur
 settings.dev.forceUpdate Forcer la mise à jour des skins
 settings.dev.forceRegen Toujours régénérer le joueur
@@ -422,7 +433,7 @@ windows.mods.load.header Charger un mod
 windows.mods.publish Publier un mod
 windows.mods.viewer Visionneuse
 windows.account.header Compte
-windows.account.recover Pour récupérer un compte, contactez <a>krunker@yendis.ch</a>
+windows.account.recover Pour récupérer un compte, contactez <a>recovery@yendis.ch</a>
 windows.class.header Choisir la classe
 windows.controls.header Changer les contrôles
 windows.controls.forward Avancer
@@ -638,6 +649,7 @@ server.config.private Privé
 server.config.krRewards KR Rewards
 server.config.forceDefault Forcer les paramètres par défaut
 server.config.warmupTime Temps d’échauffement
+server.config.gamRounds Rounds
 server.config.objtvTime Temps d'objectif
 server.config.forceSpawn Temps de réapparition automatique
 server.config.scoreLimit Limite de score
@@ -649,6 +661,9 @@ server.config.hpRegen Régénération de la santé
 server.config.disableB Désactiver les bordures
 server.config.throwMel Jet d'armes de mêlée
 server.config.noCosm Désactiver les cosmétiques
+server.config.tstCmp Test Mode
+server.config.limitClasses Limit Classes
+server.config.tmSize Team Size
 social.login Connexion / Inscription
 social.login.failed Connexion échouée
 social.login.buy Connectez-vous pour acheter
@@ -774,4 +789,6 @@ social.trades.decline Refuser tout
 social.trades.message ACTIVER LES MESSAGES D'ÉCHANGES DANS LES PARAMÈTRES
 social.trades.warning Vous ne recevez rien en échange!
 social.trades.accept Êtes-vous sûr de vouloir accepter cette offre?
+stats.airdrops KR-Packages
+settings.quality.flapAnim Sniper Flap Animation
 `;

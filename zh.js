@@ -97,6 +97,17 @@ settings.experimental.header 实验性功能
 settings.experimental.aimFreezeFix 开镜冻结修复
 settings.experimental.mouseFlickFix 视野跳动修复
 settings.experimental.shaderRendering 着色器渲染
+settings.client.header Client
+settings.client.unlimitedFrames Unlimited FPS
+settings.client.gameCap Game Capture
+settings.client.experimental Experimental Features
+settings.client.discordRPC Discord RPC
+settings.client.resourceSwapper Resource Swapper
+settings.client.clearCache Clear Cache
+settings.client.resetSettings Reset Client Settings
+settings.client.acceleratedCanvas Accelerated Canvas
+settings.client.angleBackend ANGLE Graphics Backend
+settings.client.colorProfile Color Profile
 settings.dev.header 开发者
 settings.dev.forceUpdate 强制刷新皮肤
 settings.dev.forceRegen 玩家保持回血状态
@@ -638,6 +649,7 @@ server.config.private 私人房间
 server.config.krRewards KR 奖励
 server.config.forceDefault 必须使用默认设置
 server.config.warmupTime 热身时间
+server.config.gamRounds Rounds
 server.config.objtvTime 得分点存在时间
 server.config.forceSpawn 自动重生时间
 server.config.scoreLimit 得分限制
@@ -649,6 +661,9 @@ server.config.hpRegen 血量回复
 server.config.disableB 解除地图边界
 server.config.throwMel 投掷近战武器
 server.config.noCosm 禁用饰品
+server.config.tstCmp Test Mode
+server.config.limitClasses Limit Classes
+server.config.tmSize Team Size
 social.login 登录/注册
 social.login.failed 登录失败
 social.login.buy 登录后才可购买

@@ -97,6 +97,17 @@ settings.experimental.header Kísérleti
 settings.experimental.aimFreezeFix Célzás befagyás Javítása
 settings.experimental.mouseFlickFix Egér Rándulás Javítása
 settings.experimental.shaderRendering Árnyékolt renderelés
+settings.client.header Client
+settings.client.unlimitedFrames Unlimited FPS
+settings.client.gameCap Game Capture
+settings.client.experimental Experimental Features
+settings.client.discordRPC Discord RPC
+settings.client.resourceSwapper Resource Swapper
+settings.client.clearCache Clear Cache
+settings.client.resetSettings Reset Client Settings
+settings.client.acceleratedCanvas Accelerated Canvas
+settings.client.angleBackend ANGLE Graphics Backend
+settings.client.colorProfile Color Profile
 settings.dev.header Fejlesztő
 settings.dev.forceUpdate Kinézetek kényszerített frissítése
 settings.dev.forceRegen Mindig regenerálódjon a játékos
@@ -422,7 +433,7 @@ windows.mods.load.header Modok betöltése
 windows.mods.publish Mod publikálása
 windows.mods.viewer Megtekintő
 windows.account.header Fiók
-windows.account.recover Egy fiók visszaállításához keresse fel ezt az email címet: <a>krunker@yendis.ch</a>
+windows.account.recover Egy fiók visszaállításához keresse fel ezt az email címet: <a>recovery@yendis.ch</a>
 windows.class.header Osztály kiválasztása
 windows.controls.header Vezérlés átállítása
 windows.controls.forward Előre
@@ -638,6 +649,7 @@ server.config.private Privát
 server.config.krRewards KR Jutalmak
 server.config.forceDefault Alapértelmezett beállítások kényszerítése
 server.config.warmupTime Bemelegítési idő
+server.config.gamRounds Rounds
 server.config.objtvTime Pont hosszúsága
 server.config.forceSpawn Automatikus újraéledés ideje
 server.config.scoreLimit Pontszám határ
@@ -649,6 +661,9 @@ server.config.hpRegen Regenerálódás
 server.config.disableB Határok kikapcsolása
 server.config.throwMel Eldobható kések
 server.config.noCosm Kinézetek kikapcsolása
+server.config.tstCmp Test Mode
+server.config.limitClasses Limit Classes
+server.config.tmSize Team Size
 social.login Bejelentkezés/Regisztrálás
 social.login.failed Sikertelen bejelentkezés
 social.login.buy Jelentkezz be a vásárláshoz
@@ -744,4 +759,36 @@ windows.playerlist.ban Biztos ki akaord bannolni őt: {0} a játékból?
 windows.playerlist.flag Biztos meg akarod jelölni őt: {0}?
 windows.playerlist.unflag Biztos el akarod távolítani a megjelölést róla: {0}?
 windows.playerlist.punish Biztos meg akarod büntetni őt: {0}?
+item.view.open Open Model Viewer
+item.view.more More Information
+item.sell.cant Item cant be sold.
+item.sell.quick Are you sure you want to Quick Sell {0}?
+social.profile.stats Overall Stats
+social.profile.class Class Stats
+social.profile.sales Sales
+social.profile.sales.market Market Sales
+social.profile.skins Skins [{0}]
+social.profile.skins.none No published Skins from this user
+social.profile.games Games [{0}]
+social.profile.games.none No published Games from this user
+social.profile.assets Assets [{0}]
+social.profile.assets.none No published Assets from this user
+social.profile.mods Mods [{0}]
+social.profile.mods.none No published Mods from this user
+social.search Search Results
+social.market.stats.rare Rarest Items
+social.market.stats.circulation In Circulation
+social.market.stats.units units Worldwide
+social.trades.in Incoming
+social.trades.in.head Incoming Offers ({0})
+social.trades.out Outgoing
+social.trades.out.head Outgoing Offers ({0})
+social.trades.history History
+social.trades.history.head Trade History ({0})
+social.trades.decline Decline All
+social.trades.message ENABLE TRADE MESSAGES IN SETTINGS
+social.trades.warning You get no items from this trade!
+social.trades.accept Are you sure you want to accept this offer?
+stats.airdrops KR-Packages
+settings.quality.flapAnim Sniper Flap Animation
 `;

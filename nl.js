@@ -97,6 +97,17 @@ settings.experimental.header Experimenteel
 settings.experimental.aimFreezeFix Aim Freeze Fix
 settings.experimental.mouseFlickFix Muis Flick Fix
 settings.experimental.shaderRendering Instance Rendering
+settings.client.header Client
+settings.client.unlimitedFrames Unlimited FPS
+settings.client.gameCap Game Capture
+settings.client.experimental Experimental Features
+settings.client.discordRPC Discord RPC
+settings.client.resourceSwapper Resource Swapper
+settings.client.clearCache Clear Cache
+settings.client.resetSettings Reset Client Settings
+settings.client.acceleratedCanvas Accelerated Canvas
+settings.client.angleBackend ANGLE Graphics Backend
+settings.client.colorProfile Color Profile
 settings.dev.header Developer
 settings.dev.forceUpdate Force Update Skins
 settings.dev.forceRegen Altijd Speler Regenereren
@@ -422,7 +433,7 @@ windows.mods.load.header Mods laden
 windows.mods.publish Publiceren Mod
 windows.mods.viewer Kijker
 windows.account.header Account
-windows.account.recover Neem contact op met <a> krunker@yendis.ch </a> om een ​​account te herstellen
+windows.account.recover Neem contact op met <a> recovery@yendis.ch </a> om een ​​account te herstellen
 windows.class.header Selecteer Class
 windows.controls.header Verander Controls
 windows.controls.forward Vooruit
@@ -638,6 +649,7 @@ server.config.private Privé
 server.config.krRewards KR Beloningen
 server.config.forceDefault Dwing Standaard Instellingen
 server.config.warmupTime Opwarm Tijd
+server.config.gamRounds Rounds
 server.config.objtvTime Objectief Tijd
 server.config.forceSpawn Auto Respawn Tijd
 server.config.scoreLimit Score Limiet
@@ -649,6 +661,9 @@ server.config.hpRegen Gezondheid Regen
 server.config.disableB Borders Uitzetten
 server.config.throwMel Gooibare Melees
 server.config.noCosm Cosmetica Uitzetten
+server.config.tstCmp Test Mode
+server.config.limitClasses Limit Classes
+server.config.tmSize Team Size
 social.login Login/Registreer
 social.login.failed Login Mislukt
 social.login.buy Login om te Kopen
@@ -774,4 +789,6 @@ social.trades.decline Negeer Allemaal
 social.trades.message SCHAKEL RUILBERICHTEN IN IN JE INSTELLINGEN
 social.trades.warning Je Krijgt Geen Items Van Deze Trade!
 social.trades.accept Weet Je Zeker Dat Je Deze Trade Wilt Accepteren?
+stats.airdrops KR-Packages
+settings.quality.flapAnim Sniper Flap Animation
 `;
