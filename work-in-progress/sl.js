@@ -97,6 +97,17 @@ settings.experimental.header Esperimentalno
 settings.experimental.aimFreezeFix Popravi Zamrznjeno Ciljanje
 settings.experimental.mouseFlickFix Popravi Zasuk Miške
 settings.experimental.shaderRendering Intenzivno nalaganje
+settings.client.header Client
+settings.client.unlimitedFrames Unlimited FPS
+settings.client.gameCap Game Capture
+settings.client.experimental Experimental Features
+settings.client.discordRPC Discord RPC
+settings.client.resourceSwapper Resource Swapper
+settings.client.clearCache Clear Cache
+settings.client.resetSettings Reset Client Settings
+settings.client.acceleratedCanvas Accelerated Canvas
+settings.client.angleBackend ANGLE Graphics Backend
+settings.client.colorProfile Color Profile
 settings.dev.header Razvijalec
 settings.dev.forceUpdate Prisili Posodobitev Kozmetik
 settings.dev.forceRegen Vedno Regeneriraj Igralca
@@ -638,6 +649,7 @@ server.config.private Zasebno
 server.config.krRewards KR Nagrade
 server.config.forceDefault Vsili Privzete Nastatitve
 server.config.warmupTime Čas Za Ogrevanje
+server.config.gamRounds Rounds
 server.config.objtvTime Čas Ciljne Točke
 server.config.forceSpawn Avtomatska Reinkarnacija
 server.config.scoreLimit Omejeno Število Točk
@@ -649,6 +661,9 @@ server.config.hpRegen Regeneriranje Življenja
 server.config.disableB Izključi Meje 
 server.config.throwMel Metanje Nožev
 server.config.noCosm Izklopi Kozmetike
+server.config.tstCmp Test Mode
+server.config.limitClasses Limit Classes
+server.config.tmSize Team Size
 social.login Prijava/Registracija
 social.login.failed  Prijava ni uspela
 social.login.buy Prijavi se za nakup
@@ -774,4 +789,6 @@ social.trades.decline Decline All
 social.trades.message ENABLE TRADE MESSAGES IN SETTINGS
 social.trades.warning You get no items from this trade!
 social.trades.accept Are you sure you want to accept this offer?
+stats.airdrops KR-Packages
+settings.quality.flapAnim Sniper Flap Animation
 `;
