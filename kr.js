@@ -99,13 +99,13 @@ settings.experimental.mouseFlickFix 마우스 순간이동 문제 해결
 settings.experimental.shaderRendering 인스턴스 렌더링
 settings.client.header 클라이언트
 settings.client.unlimitedFrames FPS 무제한
-settings.client.gameCap 게임 캡쳐
+settings.client.gameCap 게임 캡처
 settings.client.experimental 시험 기능
 settings.client.discordRPC Discord 연동
-settings.client.resourceSwapper 리소스 스와퍼
-settings.client.clearCache 캐시 제거
+settings.client.resourceSwapper 리소스 교체 활성화
+settings.client.clearCache 캐시 삭제하기
 settings.client.resetSettings 클라이언트 설정 초기화
-settings.client.acceleratedCanvas 가속 캔버스
+settings.client.acceleratedCanvas 캔버스 가속
 settings.client.angleBackend ANGLE Graphics Backend
 settings.client.colorProfile 프로필 색 설정
 settings.dev.header 개발자
