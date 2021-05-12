@@ -101,12 +101,12 @@ settings.client.header Client क्लाइंट
 settings.client.unlimitedFrames Unlimited FPS असीमित FPS
 settings.client.gameCap Game Capture खेल कैप्चर
 settings.client.experimental Experimental Features आजमाइशी फ़ीचर
-settings.client.discordRPC Discord RPC 
+settings.client.discordRPC Discord RPC डिस्कॉर्ड आर पी सी
 settings.client.resourceSwapper Resource Swapper साधन अदला-बदली
-settings.client.clearCache Clear Cache कैश साफ़
+settings.client.clearCache Clear Cache Cache साफ़
 settings.client.resetSettings Reset Client Settings रीसेट क्लाइंट सेटिंग
 settings.client.acceleratedCanvas Accelerated Canvas एक्सेलरेटेड कैन्वस
-settings.client.angleBackend ANGLE Graphics Backend
+settings.client.angleBackend ANGLE Graphics Backend ANGLE ग्राफ़िक्स बैकेंड
 settings.client.colorProfile Color Profile रंग प्रोफ़ाइल
 settings.dev.header डेवलपर
 settings.dev.forceUpdate बलपूर्वक श्रृंगार बदलें
