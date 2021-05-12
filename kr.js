@@ -789,6 +789,6 @@ social.trades.decline 모두 거절
 social.trades.message 설정에서 트레이드 메시지를 활성화하세요
 social.trades.warning 이 트레이드에서는 아무런 아이템도 얻을 수 없습니다!
 social.trades.accept 정말 이 트레이드를 수락하시겠습니까?
-stats.airdrops KR-패키지
+stats.airdrops KR 패키지
 settings.quality.flapAnim 스나이퍼 스코프 덮개 애니메이션
 `;
