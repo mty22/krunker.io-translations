@@ -468,7 +468,7 @@ windows.host.modes Seleziona modalità
 windows.host.classes Seleziona classi
 windows.host.settings Impostazioni server
 windows.host.preset Preset parita
-windows.host.preset.load Caricando il preset...
+windows.host.preset.load Caricando Preset...
 windows.host.preset.name Nome Preset
 windows.host.start Inizia partita
 windows.host.rehost Inizia partita (Porta giocatori)
