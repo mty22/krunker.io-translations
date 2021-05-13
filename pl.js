@@ -61,7 +61,7 @@ generic.accuracy Precyzja
 player.waiting oczekiwanie na graczy
 player.died Zginąłeś
 player.killed Zabity przez
-player.killstreak {0} jest na serii {1} zabójstw
+player.killstreak {0} on a {1} Kill Streak
 player.inactive Wyrzucono za bezczynność
 player.disconnect ROZŁĄCZONO
 timer.end Następna runda za {0}
