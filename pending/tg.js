@@ -1,5 +1,5 @@
 module.exports = `
-menu.btn.ranked Ranked
+menu.btn.ranked niranggo
 menu.btn.shop Tindahan
 menu.btn.social sosyal medya 
 menu.btn.maps mapa
