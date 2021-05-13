@@ -98,7 +98,7 @@ settings.experimental.aimFreezeFix लक्ष्य के दौरान फ
 settings.experimental.mouseFlickFix लक्ष्य के दौरान झटके को ठीक करें
 settings.experimental.shaderRendering शेडर रैडंर
 settings.client.header Client क्लाइंट
-settings.client.unlimitedFramesअसीमित FPS
+settings.client.unlimitedFrames असीमित FPS
 settings.client.gameCap खेल कैप्चर
 settings.client.experimental आजमाइशी फ़ीचर
 settings.client.discordRPC डिस्कॉर्ड आर पी सी
