@@ -97,6 +97,17 @@ settings.experimental.header Deneysel
 settings.experimental.aimFreezeFix Nişan Donmasını Düzelt
 settings.experimental.mouseFlickFix Fare Hareketini Düzelt
 settings.experimental.shaderRendering Örnek İşleme
+settings.client.header Client
+settings.client.unlimitedFrames Unlimited FPS
+settings.client.gameCap Game Capture
+settings.client.experimental Experimental Features
+settings.client.discordRPC Discord RPC
+settings.client.resourceSwapper Resource Swapper
+settings.client.clearCache Clear Cache
+settings.client.resetSettings Reset Client Settings
+settings.client.acceleratedCanvas Accelerated Canvas
+settings.client.angleBackend ANGLE Graphics Backend
+settings.client.colorProfile Color Profile
 settings.dev.header Geliştirici
 settings.dev.forceUpdate Skin Güncellemelerini Zorla
 settings.dev.forceRegen Oyuncuyu Her Zaman Yenile
@@ -638,6 +649,7 @@ server.config.private Özel
 server.config.krRewards KR Ödülleri
 server.config.forceDefault Varsayılan Ayarlara Zorla
 server.config.warmupTime Isınma Zamanı
+server.config.gamRounds Rounds
 server.config.objtvTime Objektif Süresi
 server.config.forceSpawn Otomatik Olarak Yeniden Doğma Süresi
 server.config.scoreLimit Skor Limiti
@@ -649,6 +661,9 @@ server.config.hpRegen Can Yenilenmesi
 server.config.disableB Sınırları Devre Dışı Bırak
 server.config.throwMel Atılabilen Bıçaklar
 server.config.noCosm Kozmetikleri Devre Dışı Bırak
+server.config.tstCmp Test Mode
+server.config.limitClasses Limit Classes
+server.config.tmSize Team Size
 social.login Giriş/Kayıt
 social.login.failed Giriş Başarısız
 social.login.buy Satın Almak İçin Hesabınıza Girin
@@ -774,4 +789,6 @@ social.trades.decline Decline All
 social.trades.message ENABLE TRADE MESSAGES IN SETTINGS
 social.trades.warning You get no items from this trade!
 social.trades.accept Are you sure you want to accept this offer?
+stats.airdrops KR-Packages
+settings.quality.flapAnim Sniper Flap Animation
 `;

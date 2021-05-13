@@ -97,6 +97,17 @@ settings.experimental.header 실험적 설정
 settings.experimental.aimFreezeFix 에임 멈춤 현상 해결
 settings.experimental.mouseFlickFix 마우스 순간이동 문제 해결
 settings.experimental.shaderRendering 인스턴스 렌더링
+settings.client.header 클라이언트
+settings.client.unlimitedFrames FPS 무제한
+settings.client.gameCap 게임 캡처
+settings.client.experimental 시험 기능
+settings.client.discordRPC Discord 연동
+settings.client.resourceSwapper 리소스 교체 활성화
+settings.client.clearCache 캐시 삭제하기
+settings.client.resetSettings 클라이언트 설정 초기화
+settings.client.acceleratedCanvas 캔버스 가속
+settings.client.angleBackend ANGLE Graphics Backend
+settings.client.colorProfile 프로필 색 설정
 settings.dev.header 개발자
 settings.dev.forceUpdate 스킨 강제 업데이트
 settings.dev.forceRegen 항상 플레이어 재생성
@@ -326,13 +337,13 @@ settings.editing.prog.shadow 진행 막대 그림자
 settings.editing.progOffX 진행 막대 좌우 위치
 settings.editing.progOffY 진행 막대 상하 위치
 settings.editing.progRot 진행 막대 회전
-settings.editing.progm.color Charge Bar Color 충전 막대 색상
-settings.editing.progm.opacity Charge Bar Opacity 충전 막대 불투명도
-settings.editing.progm.scale Charge Bar Scale 충전 막대 크기
-settings.editing.progm.shadow Charge Bar Shadow 충전 막대 그림자
-settings.editing.progmOffX Charge Bar X Offset 충전 막대 좌우 위치
-settings.editing.progmOffY Charge Bar Y Offset 충전 막대 상하 위치
-settings.editing.progmRot Charge Bar Rotation 충전 막대 회전
+settings.editing.progm.color 충전 막대 색상
+settings.editing.progm.opacity 충전 막대 불투명도
+settings.editing.progm.scale 충전 막대 크기
+settings.editing.progm.shadow 충전 막대 그림자
+settings.editing.progmOffX 충전 막대 좌우 위치
+settings.editing.progmOffY 충전 막대 상하 위치
+settings.editing.progmRot 충전 막대 회전
 settings.editing.saturation 그래픽 채도
 settings.editing.menuSaturation 인터페이스 채도
 settings.editing.hue 그래픽 색상
@@ -638,6 +649,7 @@ server.config.private 비공개
 server.config.krRewards KR 보상
 server.config.forceDefault 기본 설정 강제
 server.config.warmupTime 준비 시간
+server.config.gamRounds Rounds
 server.config.objtvTime 거점 변경 시간
 server.config.forceSpawn 강제 리스폰 시간
 server.config.scoreLimit 점수 제한
@@ -649,6 +661,9 @@ server.config.hpRegen HP 재생
 server.config.disableB 경계 비활성화
 server.config.throwMel 근접무기 던지기
 server.config.noCosm 외형 아이템 비활성화
+server.config.tstCmp Test Mode
+server.config.limitClasses Limit Classes
+server.config.tmSize Team Size
 social.login 로그인/회원가입
 social.login.failed 로그인 실패
 social.login.buy 구매하려면 로그인하세요
@@ -774,4 +789,6 @@ social.trades.decline 모두 거절
 social.trades.message 설정에서 트레이드 메시지를 활성화하세요
 social.trades.warning 이 트레이드에서는 아무런 아이템도 얻을 수 없습니다!
 social.trades.accept 정말 이 트레이드를 수락하시겠습니까?
+stats.airdrops KR 패키지
+settings.quality.flapAnim 스나이퍼 스코프 덮개 애니메이션
 `;
