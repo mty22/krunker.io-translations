@@ -98,16 +98,16 @@ settings.experimental.aimFreezeFix लक्ष्य के दौरान फ
 settings.experimental.mouseFlickFix लक्ष्य के दौरान झटके को ठीक करें
 settings.experimental.shaderRendering शेडर रैडंर
 settings.client.header Client क्लाइंट
-settings.client.unlimitedFrames Unlimited FPS असीमित FPS
-settings.client.gameCap Game Capture खेल कैप्चर
-settings.client.experimental Experimental Features आजमाइशी फ़ीचर
-settings.client.discordRPC Discord RPC डिस्कॉर्ड आर पी सी
-settings.client.resourceSwapper Resource Swapper साधन अदला-बदली
-settings.client.clearCache Clear Cache कैश साफ़
-settings.client.resetSettings Reset Client Settings रीसेट क्लाइंट सेटिंग
-settings.client.acceleratedCanvas Accelerated Canvas एक्सेलरेटेड कैन्वस
-settings.client.angleBackend ANGLE Graphics Backend ऐंगल ग्राफ़िक्स बैकेंड
-settings.client.colorProfile Color Profile रंग प्रोफ़ाइल
+settings.client.unlimitedFramesअसीमित FPS
+settings.client.gameCap खेल कैप्चर
+settings.client.experimental आजमाइशी फ़ीचर
+settings.client.discordRPC डिस्कॉर्ड आर पी सी
+settings.client.resourceSwapper साधन अदला-बदली
+settings.client.clearCache Cache साफ़
+settings.client.resetSettings रीसेट क्लाइंट सेटिंग
+settings.client.acceleratedCanvas एक्सेलरेटेड कैन्वस
+settings.client.angleBackend ऐंगल ग्राफ़िक्स बैकेंड
+settings.client.colorProfile रंग प्रोफ़ाइल
 settings.dev.header डेवलपर
 settings.dev.forceUpdate बलपूर्वक श्रृंगार बदलें
 settings.dev.forceRegen हमेशा खिलाड़ी को पुनर्जीवित करें
@@ -649,7 +649,7 @@ server.config.private प्राइवेट
 server.config.krRewards के.आर के पुरस्कार
 server.config.forceDefault डिफ़ॉल्ट सेटिंग्स को बलपूर्वक लागू करे
 server.config.warmupTime वार्मअप का समय
-server.config.gamRounds Rounds दौर
+server.config.gamRounds दौर
 server.config.objtvTime उद्देश्य का समय
 server.config.forceSpawn औटो रेस्पॉन समय
 server.config.scoreLimit स्कोर सीमा
@@ -661,9 +661,9 @@ server.config.hpRegen स्वास्थ्य पुनर्जन्म
 server.config.disableB सीमाओं को निष्क्रिय करें
 server.config.throwMel फेंकने योग्य चाकु
 server.config.noCosm काज़्मेटिक
-server.config.tstCmp Test Mode जाँच मोड
-server.config.limitClasses Limit Classes क्लास लिमिट करें
-server.config.tmSize Team Size टीम साइज़
+server.config.tstCmp जाँच मोड
+server.config.limitClasses क्लास लिमिट करें
+server.config.tmSize टीम साइज़
 social.login लॉगिन/रजिस्टर
 social.login.failed लॉगिन असफल हुआ
 social.login.buy खरीदने के लिए लॉगिन करे
@@ -789,6 +789,6 @@ social.trades.decline सभी ट्रेड्स को खारिज क
 social.trades.message कृपया सेटिंग से व्यापार संदेश सक्षम करें
 social.trades.warning आपको इस व्यापार से कोइ वस्तु नही मिलेगा!
 social.trades.accept क्या आप वास्तव में इस ट्रेड को स्वीकार करना चाहते हैं?
-stats.airdrops KR-Packages KR पैकेज
-settings.quality.flapAnim Sniper Flap Animation स्नाइपर फ्लैप एनीमेशन
+stats.airdrops KR पैकेज
+settings.quality.flapAnim स्नाइपर फ्लैप एनीमेशन
 `;
