@@ -278,14 +278,14 @@ settings.mobile.gradSpeed Unti-unting Bilis (?)
 settings.mobile.invert Baligtarin ang Y-Axis
 settings.audio.header Audyo o Tunog
 settings.audio.sound Bolyum o Tunog Pangkalahatan
-settings.audio.ambient Ambient Volume
+settings.audio.ambient Volume ng Ambience
 settings.audio.voice Bolyum ng Boses
 settings.audio.weps Bolyum ng Tunog ng mga Armas
 settings.audio.player Bolyum ng Player
 settings.audio.skin Bolyum ng Manlalaro
 settings.audio.ui UI Bolyum ng UI
 settings.audio.asset Bolyum ng Asset
-settings.audio.dialogue Action Volume
+settings.audio.dialogue Volume ng dialogue
 settings.viewmodel.header Tingnan ang Modelo
 settings.viewmodel.fov Field of View (Larangan ng Pagtingin)
 settings.viewmodel.fps Armas FOV
@@ -371,7 +371,7 @@ settings.mods.kills.paste URL ng Larawan ng Kill Icon
 settings.mods.deaths Imahe ng Larawan Icon 
 settings.mods.deaths.paste URL ng Larawan ng Death Icon
 settings.mods.streak Larawan ng Killstreak 
-settings.mods.streak.paste URL ng Larawan ng Killstreak 
+settings.mods.streak.paste URL ng Larawan ng Killstreak
 settings.mods.timer Larawan ng Orasan 
 settings.mods.timer.paste URL ng Larawan ng Orasan
 settings.mods.usedamage Gumamit ng Overlay sa Pinsala o Damage
@@ -422,7 +422,7 @@ windows.mods.load.header Mga Load na Mod
 windows.mods.publish I-akda ang Mod
 windows.mods.viewer Tignan at Suriin ang Mod
 windows.account.header Account
-windows.account.recover Upang mabawi ang mga account/s, I-contact ang <a>krunker@yendis.ch</a>.
+windows.account.recover Upang mabawi ang mga account/s, I-contact ang <a>recovery@yendis.ch</a>
 windows.class.header Pumili ng Klase
 windows.controls.header Baguhin ang Mga Kontrol
 windows.controls.forward Pasulong
@@ -485,7 +485,7 @@ windows.publish.map.header I-publish o I-update ang Laro
 windows.publish.map.thumbnail Walang Thumbnail o Larawan
 windows.publish.map.paste I-paste ang Data ng Laro
 windows.publish.map.update I-publish / I-update
-windows.publish.map.login Lumikha at I-upload ang laro!	
+windows.publish.map.login Lumikha at I-upload ang laro!
 windows.theatre.header Theatre Mode
 windows.theatre.record Paganahin ang Pagre-record
 windows.theatre.key Record Key
@@ -546,7 +546,7 @@ windows.publish.mod.name Pangalan ng Mod
 windows.publish.mod.paste Mod Url
 windows.publish.mod.update I-publish / I-update
 windows.publish.mod.login upang lumikha at mag-upload ng mga mod!
-windows.secondary.header Piliin ang Pandagdag na Armas 
+windows.secondary.header Piliin ang Pandagdag na Armas
 windows.secondary.unlocked i-unlocked
 windows.secondary.req Antas dapat ay {0}
 windows.advertise.header I-advertise
@@ -578,7 +578,7 @@ mod.invalid di-wastong mod file!
 matchmaker.full PUNO
 matchmaker.full2 Puno na ang laro.
 matchmaker.updating PAG-UPDATE NG LARO
-matchmaker.invalid Game not found.
+matchmaker.invalid Hindi nahanap ang laro.
 matchmaker.none Ang mga server ay nasa Max Capacity
 adblocker Huwag paganahin ang iyong ad blocker upang makatanggap ng mga libreng Krunkies.
 ad-failed Nabigong Mag-load ang Ad. Subukang muli
@@ -731,7 +731,7 @@ windows.host.default.settings Ang pagpapagana ng Default na Mga Setting ay nagbi
 windows.host.default.commands * Ang Mga Command ng Host ay Hindi Pinapagana sa mode na ito: / noclip / god / smite atbp
 windows.host.rewards Pinipilit ng pagpapagana ng KR Rewards ang Server na gumamit ng Default na Mga Setting
 windows.store.wheels.sub Subukan ang iyong kapalaran at paikutin para sa isang pagkakataon upang manalo ng ilang mga bagong disenyo!
-windows.store.currency * Prices in USD can be converted to your local currency at an exchange rate defined by the payment provider or bank
+windows.store.currency * Ang mga presyo sa USD ay maaaring mai-convert sa iyong lokal na pera sa isang rate ng palitan na tinukoy ng provider ng pagbabayad o bangko
 windows.store.creator Isaalang-alang ang Suportahan ang iyong paboritong Tagalikha ng Nilalaman sa pamamagitan ng paggamit ng isang Creator Code
 windows.chall.customs Ang mga hamon ay hindi nakukumpleto sa mga kustom na laro
 twitch.link Sigurado ka bang nais mong i-link ang twitch account?
