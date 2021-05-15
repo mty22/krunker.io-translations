@@ -643,7 +643,7 @@ server.config.bDrop 낙차
 server.config.thirdPerson 3인칭
 server.config.requireCaptcha Captcha 요구하기
 server.config.nameTags 이름표 숨기기
-server.config.kCams 사살 카메라
+server.config.kCams 처치 영상
 server.config.noReload 재장전 없음
 server.config.private 비공개
 server.config.krRewards KR 보상
@@ -662,7 +662,7 @@ server.config.disableB 경계 비활성화
 server.config.throwMel 근접무기 던지기
 server.config.noCosm 외형 아이템 비활성화
 server.config.tstCmp 테스트 모드
-server.config.limitClasses 직업 제한
+server.config.limitClasses 클래스 제한
 server.config.tmSize 팀 크기
 social.login 로그인/회원가입
 social.login.failed 로그인 실패
