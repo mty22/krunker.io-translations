@@ -99,14 +99,14 @@ settings.experimental.mouseFlickFix Arreglo de Mouse Flick
 settings.experimental.shaderRendering Renderización de Instancias
 settings.client.header Cliente
 settings.client.unlimitedFrames FPS Ilimitados
-settings.client.gameCap Capturadora de Juego
+settings.client.gameCap Captura de Juego
 settings.client.experimental Funciones Experimentales
 settings.client.discordRPC RPC de Discord
 settings.client.resourceSwapper Intercambiador de Recursos
 settings.client.clearCache Limpiar Cache
 settings.client.resetSettings Reiniciar Configuraciones del Cliente
 settings.client.acceleratedCanvas Canvas Acelerados
-settings.client.angleBackend Graficos Backend Angulares
+settings.client.angleBackend Gráficos Backend Angulares
 settings.client.colorProfile Perfil de Color
 settings.dev.header Desarrollador
 settings.dev.forceUpdate Forzar Actualización de Skins
