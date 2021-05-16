@@ -98,16 +98,16 @@ settings.experimental.aimFreezeFix Correction du bug de visée bloquée
 settings.experimental.mouseFlickFix Correction des accoups de la souris
 settings.experimental.shaderRendering Instanciation géométrique
 settings.client.header Client
-settings.client.unlimitedFrames Unlimited FPS
-settings.client.gameCap Game Capture
-settings.client.experimental Experimental Features
+settings.client.unlimitedFrames FPS illimités
+settings.client.gameCap Capture du jeu
+settings.client.experimental Fonctions expérimentales
 settings.client.discordRPC Discord RPC
-settings.client.resourceSwapper Resource Swapper
-settings.client.clearCache Clear Cache
-settings.client.resetSettings Reset Client Settings
-settings.client.acceleratedCanvas Accelerated Canvas
+settings.client.resourceSwapper Échangeur de ressources
+settings.client.clearCache Vide le Cache
+settings.client.resetSettings Réinitialiser les paramètres du client
+settings.client.acceleratedCanvas Canvas accélérés
 settings.client.angleBackend ANGLE Graphics Backend
-settings.client.colorProfile Color Profile
+settings.client.colorProfile Profil de couleur
 settings.dev.header Développeur
 settings.dev.forceUpdate Forcer la mise à jour des skins
 settings.dev.forceRegen Toujours régénérer le joueur
@@ -649,7 +649,7 @@ server.config.private Privé
 server.config.krRewards KR Rewards
 server.config.forceDefault Forcer les paramètres par défaut
 server.config.warmupTime Temps d’échauffement
-server.config.gamRounds Rounds
+server.config.gamRounds Manches
 server.config.objtvTime Temps d'objectif
 server.config.forceSpawn Temps de réapparition automatique
 server.config.scoreLimit Limite de score
@@ -661,9 +661,9 @@ server.config.hpRegen Régénération de la santé
 server.config.disableB Désactiver les bordures
 server.config.throwMel Jet d'armes de mêlée
 server.config.noCosm Désactiver les cosmétiques
-server.config.tstCmp Test Mode
-server.config.limitClasses Limit Classes
-server.config.tmSize Team Size
+server.config.tstCmp Mode de Test
+server.config.limitClasses Limiter les classes
+server.config.tmSize Taille d'équipe
 social.login Connexion / Inscription
 social.login.failed Connexion échouée
 social.login.buy Connectez-vous pour acheter
@@ -789,6 +789,6 @@ social.trades.decline Refuser tout
 social.trades.message ACTIVER LES MESSAGES D'ÉCHANGES DANS LES PARAMÈTRES
 social.trades.warning Vous ne recevez rien en échange!
 social.trades.accept Êtes-vous sûr de vouloir accepter cette offre?
-stats.airdrops KR-Packages
-settings.quality.flapAnim Sniper Flap Animation
+stats.airdrops Paquets de KR
+settings.quality.flapAnim Animation du rabat de sniper
 `;
