@@ -643,13 +643,13 @@ server.config.bDrop 낙차
 server.config.thirdPerson 3인칭
 server.config.requireCaptcha Captcha 요구하기
 server.config.nameTags 이름표 숨기기
-server.config.kCams Kill Cams
+server.config.kCams 처치 영상
 server.config.noReload 재장전 없음
 server.config.private 비공개
 server.config.krRewards KR 보상
 server.config.forceDefault 기본 설정 강제
 server.config.warmupTime 준비 시간
-server.config.gamRounds Rounds
+server.config.gamRounds 라운드
 server.config.objtvTime 거점 변경 시간
 server.config.forceSpawn 강제 리스폰 시간
 server.config.scoreLimit 점수 제한
@@ -661,9 +661,9 @@ server.config.hpRegen HP 재생
 server.config.disableB 경계 비활성화
 server.config.throwMel 근접무기 던지기
 server.config.noCosm 외형 아이템 비활성화
-server.config.tstCmp Test Mode
-server.config.limitClasses Limit Classes
-server.config.tmSize Team Size
+server.config.tstCmp 테스트 모드
+server.config.limitClasses 클래스 제한
+server.config.tmSize 팀 크기
 social.login 로그인/회원가입
 social.login.failed 로그인 실패
 social.login.buy 구매하려면 로그인하세요
