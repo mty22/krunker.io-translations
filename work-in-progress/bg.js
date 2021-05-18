@@ -713,15 +713,15 @@ account.banned.appeal If you want to appeal your ban, contact:
 account.delete You may request to delete your account, if the request is not cancelled within 14 days the account and all associated data will be permanently removed.
 account.delete.request Are you sure you want to request an account deletion?
 account.delete.cancel Are you sure you want to cancel account deletion?
-spin.free.available FREE KR AVAILABLE!
-spin.free.claim This spin is only available once every 1 hour
+spin.free.available БЕЗПЛАТНИ KR РАЗПОЛАГАЕМ!
+spin.free.claim Това завъртане е достъпно само веднъж на всеки 1 час
 spin.free.disable These Popups can be disabled in General Settings
-mod.reset.0 Will take effect after respawning.
-mod.reset.1 Map Objects dont get reset
-windows.profile.picture Change Picture
-stats.assists Assists
+mod.reset.0 Ще влезе в ефект след възраждането.
+mod.reset.1 Обектите на играта не се нулират
+windows.profile.picture Промяна на картината
+stats.assists Асистенции
 stats.nukes Nukes
-stats.melee Melee
+stats.melee Нож
 stats.fistkills Beatdowns
 stats.thrownkills Bullseyes
 stats.headshots Headshots
@@ -733,15 +733,15 @@ windows.host.rewards Enabling KR Rewards forces the Server to use Default Settin
 windows.store.wheels.sub Try your luck and spin for a chance to win some new skins!
 windows.store.currency * Prices in USD can be converted to your local currency at an exchange rate defined by the payment provider or bank
 windows.store.creator Consider Support your favorite Content Creator by using a Creator Code
-windows.chall.customs Challenges can't be completed in Custom Matches
+windows.chall.customs Предизвикателствата не могат да бъдат изпълнени в персонализирани игри
 twitch.link Сигурни ли сте че искате да си свържете профила в twitch?
-twitch.unlink Are you sure you want to unlink your twitch account?
-windows.clan.leave Are you sure you want to leave the clan?
-windows.clan.delete Are you sure you want to delete the clan?
-windows.clan.kick Are you sure you want kick {0} from the clan?
-windows.store.premium.purchase Are you sure you want to purchase {0} days of Premium?
-windows.playerlist.ban Are you sure you want ban {0} from this game?
-windows.playerlist.flag Are you sure you want to Flag {0}?
-windows.playerlist.unflag Are you sure you want to Unflag {0}?
-windows.playerlist.punish Are you sure you want to take action on {0}?
+twitch.unlink Сигурни ли сте че искате да прекратите връзката на вашия профила в twitch?
+windows.clan.leave Сигурни ли сте че искате да напуснете клана?
+windows.clan.delete Сигурни ли сте че  да изтриете клана?
+windows.clan.kick Сигурни ли сте че искате да изгоните {0} от клана?
+windows.store.premium.purchase Сигурни ли сте че искате да купите {0} дни Premium?
+windows.playerlist.ban Сигурни ли сте че искате да забраните {0} от тази игра?
+windows.playerlist.flag Сигурни ли сте че искате да сигнализирате {0}?
+windows.playerlist.unflag Сигурни ли сте че искате да премахнете вашият сигнал от {0}?
+windows.playerlist.punish Сигурни ли сте че искате да предприемете действия срещу {0}?
 `;
