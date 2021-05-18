@@ -574,41 +574,41 @@ mod.extracting extracting {0}/{1}
 mod.disabled mods disabled
 mod.error mod error!
 mod.loading loading mod...
-mod.invalid invalid mod file!
-matchmaker.full FULL
-matchmaker.full2 Game is full.
-matchmaker.updating GAME UPDATING
-matchmaker.invalid Game not found.
-matchmaker.none Servers are at Max Capacity
-adblocker Disable your ad blocker to receive free Krunkies.
+mod.invalid невалиден мод файл!
+matchmaker.full ПЪЛНА
+matchmaker.full2 Играта е пълна.
+matchmaker.updating АКТУАЛИЗИРАНЕ НА ИГРАТА
+matchmaker.invalid Играта не е намерена.
+matchmaker.none Сървърите са на максимален капацитет
+adblocker Деактивирайте вашия рекламен блокер, за да получите безплатни Krunkies.
 ad-failed Ad Failed to Load. Try again.
 streamers.views {0} viewers
 streamers.none No active streams!
 error.extentions If you have any extensions, disable them
 error.seek Try seeking a new game by clicking
 custom.map.upload.limit Failed. 500k Character Game Data Limit
-custom.map.missing Select at least one Game or Map
+custom.map.missing Изберете поне една игра или карта
 custom.mode.missing Select at least one Mode
-custom.class.missing Select at least one Class
+custom.class.missing Изберете поне един клас
 server.config.maxPlayers Players
 server.config.minPlayers Min Players
 server.config.lives Lives
 server.config.gameTime Minutes
 server.config.gravMlt Gravity
-server.config.tickRI High Tickrate
-server.config.maxPS 40 Player Server
+server.config.tickRI Висок тикрейт
+server.config.maxPS Сървър за 40 играчи
 server.config.promServ Promote Server
 server.config.jumpMlt Jump Force
 server.config.airStrf Air Strafing
 server.config.deltaMlt Time Scale
 server.config.strafeSpd Strafe Speed
 server.config.fiRat Fire Rate
-server.config.reSpd Reload Speed
+server.config.reSpd Скорост на презареждане
 server.config.slidTime Slide Time
 server.config.fixMov Fixed Movement
-server.config.slidSpd Slide Speed
+server.config.slidSpd Скорост на плъзгане
 server.config.healthMlt Health Multiplier
-server.config.impulseMlt Weapon Impulse
+server.config.impulseMlt Импулс на оръжие
 server.config.nameTeam1 Team 1 Name
 server.config.nameTeam2 Team 2 Name
 server.config.nameTeam3 Team 3 Name
@@ -619,15 +619,15 @@ server.config.t2Dmg Team 2 Damage
 server.config.t3Dmg Team 3 Damage
 server.config.t4Dmg Team 4 Damage
 server.config.t5Dmg Team 5 Damage
-server.config.selTeam Select Team
-server.config.allowSpect Spectating
+server.config.selTeam Избиране на отбор
+server.config.allowSpect Наблюдение
 server.config.killRewards Kill Rewards
 server.config.headshotOnly Headshots Only
 server.config.noSecondary Disable Secondaries
 server.config.noStreaks Disable Streaks
-server.config.canSlide Sliding
-server.config.wallJP Wall Jumping Power
-server.config.autoJump Auto Jump
+server.config.canSlide Плъзгане
+server.config.wallJP Сила на скок върху стената
+server.config.autoJump Автоматичен скок
 server.config.bDrop Bullet Drop
 server.config.thirdPerson 3rd Person
 server.config.requireCaptcha Require Captcha
@@ -665,8 +665,8 @@ social.market.price.list List Price in
 social.market.searching Searching
 social.market.listed listed {0} ago
 social.market.list List Item
-social.market.unlist Unlist
-social.market.unlisting Unlisting Item...
+social.market.unlist Отписване
+social.market.unlisting Премахване на елемента от пазарът ...
 social.market.posting Posting Item...
 social.market.req lvl {0} required
 social.market.cant Can't Afford
@@ -678,16 +678,16 @@ social.market.back Back Item
 social.market.waist Waist Item
 social.market.face Face Item
 social.market.shoe Shoe Item
-social.market.pet Pet Item
+social.market.pet Домашен любимец елементи
 social.market.melee Melee Item
-social.market.spray Spray Item
+social.market.spray Спрей елементи
 social.market.dye Dye Item
-social.market.none No Items Found
-social.market.login You must be logged in.
+social.market.none Няма намерени елементи
+social.market.login Трябва да сте свързани във вашият акаунт
 social.market.grace ready in {0}
 social.market.sort Filter/Sort
-social.market.filter Search
-social.market.sort2 Sort
+social.market.filter Търсене
+social.market.sort2 Да сортира
 social.market.price.high Highest Price
 social.trading.submitting Submitting Offer...
 social.market.gift.amount Gift Amount in
@@ -723,10 +723,10 @@ stats.assists Асистенции
 stats.nukes Nukes
 stats.melee Нож
 stats.fistkills Beatdowns
-stats.thrownkills Bullseyes
+stats.thrownkills Меле
 stats.headshots Headshots
 stats.wallbangs Wallbangs
-stats.sprays Sprays Placed
+stats.sprays Поставени спрейове
 windows.host.default.settings Enabling Default Settings allows for storing Player Progress and Highscores
 windows.host.default.commands *Host Commands are Disabled in this mode: /noclip /god /smite etc
 windows.host.rewards Enabling KR Rewards forces the Server to use Default Settings & allows players to earn KR from the map funds:
