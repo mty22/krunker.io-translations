@@ -97,6 +97,17 @@ settings.experimental.header Experimental
 settings.experimental.aimFreezeFix Arreglo de congelamiento al apuntar
 settings.experimental.mouseFlickFix Arreglo de Mouse Flick
 settings.experimental.shaderRendering Renderización de Instancias
+settings.client.header Cliente
+settings.client.unlimitedFrames FPS Ilimitados
+settings.client.gameCap Captura de Juego
+settings.client.experimental Funciones Experimentales
+settings.client.discordRPC RPC de Discord
+settings.client.resourceSwapper Intercambiador de Recursos
+settings.client.clearCache Limpiar Cache
+settings.client.resetSettings Reiniciar Configuraciones del Cliente
+settings.client.acceleratedCanvas Canvas Acelerados
+settings.client.angleBackend Gráficos Backend Angulares
+settings.client.colorProfile Perfil de Color
 settings.dev.header Desarrollador
 settings.dev.forceUpdate Forzar Actualización de Skins
 settings.dev.forceRegen Siempre Regenerar al Jugador
@@ -638,6 +649,7 @@ server.config.private Privado
 server.config.krRewards Recompensas de KR
 server.config.forceDefault Forzar Configuraciones por Defecto
 server.config.warmupTime Tiempo de calentamiento
+server.config.gamRounds Rondas
 server.config.objtvTime Tiempo de Objetivo
 server.config.forceSpawn Tiempo de reaparición automática
 server.config.scoreLimit Límite de puntos
@@ -649,6 +661,9 @@ server.config.hpRegen Regeneración de salud
 server.config.disableB Deshabilitar bordes
 server.config.throwMel Armas cuerpo-a-cuerpo lanzables
 server.config.noCosm Deshabilitar Cosméticos
+server.config.tstCmp Modo de Prueba
+server.config.limitClasses Limitar Clases
+server.config.tmSize Tamaño de Equipo
 social.login Iniciar Sesión/Registrarse
 social.login.failed Error al iniciar sesión
 social.login.buy Inicia sesión para comprar
@@ -774,4 +789,6 @@ social.trades.decline Rechazar Todo
 social.trades.message ACTIVA LOS MENSAJES DE INTERCAMBIO EN LAS CONFIGURACIONES
 social.trades.warning No obtienes objetos de este intercambio!
 social.trades.accept Estás seguro de qué quieres aceptar esta oferta?
+stats.airdrops Paquetes de KR
+settings.quality.flapAnim Animación de Mirilla de Francotirador
 `;

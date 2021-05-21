@@ -97,6 +97,17 @@ settings.experimental.header Экспериментальные
 settings.experimental.aimFreezeFix Исправление подвисания цели
 settings.experimental.mouseFlickFix Исправление случайных фликов мыши
 settings.experimental.shaderRendering Рендеринг на расстоянии
+settings.client.header Client
+settings.client.unlimitedFrames Unlimited FPS
+settings.client.gameCap Game Capture
+settings.client.experimental Experimental Features
+settings.client.discordRPC Discord RPC
+settings.client.resourceSwapper Resource Swapper
+settings.client.clearCache Clear Cache
+settings.client.resetSettings Reset Client Settings
+settings.client.acceleratedCanvas Accelerated Canvas
+settings.client.angleBackend ANGLE Graphics Backend
+settings.client.colorProfile Color Profile
 settings.dev.header Настройки разработчика
 settings.dev.forceUpdate Принудительное обновление скинов
 settings.dev.forceRegen Всегда лечить игрока
@@ -638,6 +649,7 @@ server.config.private Приватный сервер
 server.config.krRewards KR Награды
 server.config.forceDefault Принудительно установить настройки по умолчанию
 server.config.warmupTime Время разминки
+server.config.gamRounds Rounds
 server.config.objtvTime Время длительности точки
 server.config.forceSpawn Время автоматического возрождения
 server.config.scoreLimit Предел очков
@@ -649,6 +661,9 @@ server.config.hpRegen Восстановление здоровья
 server.config.disableB Отключить барьеры
 server.config.throwMel Метание ближнего оружия
 server.config.noCosm Отключить косметику
+server.config.tstCmp Test Mode
+server.config.limitClasses Limit Classes
+server.config.tmSize Team Size
 social.login Авторизация/Регистрация
 social.login.failed Не удалось авторизоваться
 social.login.buy Авторизуйтесь, чтобы купить
@@ -774,4 +789,6 @@ social.trades.decline Отклонить Все
 social.trades.message ВКЛЮЧИТЬ ТОРГОВЫЕ СООБЩЕНИЯ В НАСТРОЙКАХ
 social.trades.warning Вы не получаете никаких предметов от этого трейда!
 social.trades.accept Вы уверены, что хотите принять это предложение?
+stats.airdrops KR-Packages
+settings.quality.flapAnim Sniper Flap Animation
 `;
