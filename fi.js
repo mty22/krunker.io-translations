@@ -97,6 +97,17 @@ settings.experimental.header Kokeellinen
 settings.experimental.aimFreezeFix Tähtäyksen Jähmettymisen Korjaus
 settings.experimental.mouseFlickFix Hiiren Napsauttamisen Korjaus
 settings.experimental.shaderRendering Instance Rendering
+settings.client.header Client
+settings.client.unlimitedFrames Unlimited FPS
+settings.client.gameCap Game Capture
+settings.client.experimental Experimental Features
+settings.client.discordRPC Discord RPC
+settings.client.resourceSwapper Resource Swapper
+settings.client.clearCache Clear Cache
+settings.client.resetSettings Reset Client Settings
+settings.client.acceleratedCanvas Accelerated Canvas
+settings.client.angleBackend ANGLE Graphics Backend
+settings.client.colorProfile Color Profile
 settings.dev.header Kehittäjä
 settings.dev.forceUpdate Pakota Skinien Päivitys
 settings.dev.forceRegen Regeneroi Pelaaja
@@ -422,7 +433,7 @@ windows.mods.load.header Lataa Modit
 windows.mods.publish Julkaise Modi
 windows.mods.viewer Katsoja
 windows.account.header Tili
-windows.account.recover Jos haluat palauttaa tilin, ota yhteyttä <a>krunker@yendis.ch</a>
+windows.account.recover Jos haluat palauttaa tilin, ota yhteyttä <a>recovery@yendis.ch</a>
 windows.class.header Valitse Hahmo
 windows.controls.header Vaihda Kontrolleja
 windows.controls.forward Eteenpäin
@@ -638,6 +649,7 @@ server.config.private Yksityinen
 server.config.krRewards KR-Palkinnot
 server.config.forceDefault Force Default Settings
 server.config.warmupTime Lämmittelyaika
+server.config.gamRounds Rounds
 server.config.objtvTime Tavoitteen Kesto
 server.config.forceSpawn Automaattisen uudelleensyntymisen aika
 server.config.scoreLimit Pisteraja
@@ -649,6 +661,9 @@ server.config.hpRegen Terveyden Regenerointi
 server.config.disableB Poista Reunat
 server.config.throwMel Heitettävät Meleet
 server.config.noCosm Disable Cosmetics
+server.config.tstCmp Test Mode
+server.config.limitClasses Limit Classes
+server.config.tmSize Team Size
 social.login Kirjaudu/Rekisteröidy
 social.login.failed Kirjautuminen Epäonnistui
 social.login.buy Kirjaudu Sisään Ostaaksesi
@@ -774,4 +789,6 @@ social.trades.decline Decline All
 social.trades.message ENABLE TRADE MESSAGES IN SETTINGS
 social.trades.warning You get no items from this trade!
 social.trades.accept Are you sure you want to accept this offer?
+stats.airdrops KR-Packages
+settings.quality.flapAnim Sniper Flap Animation
 `;

@@ -97,6 +97,17 @@ settings.experimental.header आजमाइशी
 settings.experimental.aimFreezeFix लक्ष्य के दौरान फ्रीज को ठीक करें
 settings.experimental.mouseFlickFix लक्ष्य के दौरान झटके को ठीक करें
 settings.experimental.shaderRendering शेडर रैडंर
+settings.client.header Client
+settings.client.unlimitedFrames Unlimited FPS
+settings.client.gameCap Game Capture
+settings.client.experimental Experimental Features
+settings.client.discordRPC Discord RPC
+settings.client.resourceSwapper Resource Swapper
+settings.client.clearCache Clear Cache
+settings.client.resetSettings Reset Client Settings
+settings.client.acceleratedCanvas Accelerated Canvas
+settings.client.angleBackend ANGLE Graphics Backend
+settings.client.colorProfile Color Profile
 settings.dev.header डेवलपर
 settings.dev.forceUpdate बलपूर्वक श्रृंगार बदलें
 settings.dev.forceRegen हमेशा खिलाड़ी को पुनर्जीवित करें
@@ -422,7 +433,7 @@ windows.mods.load.header लोड मॉड
 windows.mods.publish मॉड पब्लिश करे
 windows.mods.viewer व्यूअर
 windows.account.header अकाउंट
-windows.account.recover अकाउंट वापस पाने के लिए  <a>krunker@yendis.ch</a> से संपर्क करें
+windows.account.recover अकाउंट वापस पाने के लिए  <a>recovery@yendis.ch</a> से संपर्क करें
 windows.class.header क्लास चुनें
 windows.controls.header कंट्रोल्स बदलें
 windows.controls.forward आगे
@@ -638,6 +649,7 @@ server.config.private प्राइवेट
 server.config.krRewards के.आर के पुरस्कार
 server.config.forceDefault डिफ़ॉल्ट सेटिंग्स को बलपूर्वक लागू करे
 server.config.warmupTime वार्मअप का समय
+server.config.gamRounds Rounds
 server.config.objtvTime उद्देश्य का समय
 server.config.forceSpawn औटो रेस्पॉन समय
 server.config.scoreLimit स्कोर सीमा
@@ -649,6 +661,9 @@ server.config.hpRegen स्वास्थ्य पुनर्जन्म
 server.config.disableB सीमाओं को निष्क्रिय करें
 server.config.throwMel फेंकने योग्य चाकु
 server.config.noCosm काज़्मेटिक
+server.config.tstCmp Test Mode
+server.config.limitClasses Limit Classes
+server.config.tmSize Team Size
 social.login लॉगिन/रजिस्टर
 social.login.failed लॉगिन असफल हुआ
 social.login.buy खरीदने के लिए लॉगिन करे
@@ -774,4 +789,6 @@ social.trades.decline सभी ट्रेड्स को खारिज क
 social.trades.message कृपया सेटिंग से व्यापार संदेश सक्षम करें
 social.trades.warning आपको इस व्यापार से कोइ वस्तु नही मिलेगा!
 social.trades.accept क्या आप वास्तव में इस ट्रेड को स्वीकार करना चाहते हैं?
+stats.airdrops KR-Packages
+settings.quality.flapAnim Sniper Flap Animation
 `;

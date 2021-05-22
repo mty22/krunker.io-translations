@@ -97,6 +97,17 @@ settings.experimental.header 实验性功能
 settings.experimental.aimFreezeFix 开镜冻结修复
 settings.experimental.mouseFlickFix 视野跳动修复
 settings.experimental.shaderRendering 着色器渲染
+settings.client.header Client
+settings.client.unlimitedFrames Unlimited FPS
+settings.client.gameCap Game Capture
+settings.client.experimental Experimental Features
+settings.client.discordRPC Discord RPC
+settings.client.resourceSwapper Resource Swapper
+settings.client.clearCache Clear Cache
+settings.client.resetSettings Reset Client Settings
+settings.client.acceleratedCanvas Accelerated Canvas
+settings.client.angleBackend ANGLE Graphics Backend
+settings.client.colorProfile Color Profile
 settings.dev.header 开发者
 settings.dev.forceUpdate 强制刷新皮肤
 settings.dev.forceRegen 玩家保持回血状态
@@ -507,9 +518,9 @@ windows.store.voucher 兑换代金券
 windows.store.voucherinfo 从指定主播和活动获取代金券
 windows.store.market 市场
 windows.store.market2 Krunker市场
-windows.store.premium 购买Premium
-windows.store.premium2 Krunker Premium
-windows.store.buyP 在购买Premium后，您将可以自定义您的游戏用户名+体验更多专用功能!
+windows.store.premium 购买会员
+windows.store.premium2 Krunker会员
+windows.store.buyP 在购买会员后，您将可以自定义您的游戏用户名+体验更多专用功能!
 windows.store.buy 买卖物品
 windows.store.wheels 转盘
 windows.store.unlock 解锁新武器和物品
@@ -638,6 +649,7 @@ server.config.private 私人房间
 server.config.krRewards KR 奖励
 server.config.forceDefault 必须使用默认设置
 server.config.warmupTime 热身时间
+server.config.gamRounds Rounds
 server.config.objtvTime 得分点存在时间
 server.config.forceSpawn 自动重生时间
 server.config.scoreLimit 得分限制
@@ -649,6 +661,9 @@ server.config.hpRegen 血量回复
 server.config.disableB 解除地图边界
 server.config.throwMel 投掷近战武器
 server.config.noCosm 禁用饰品
+server.config.tstCmp Test Mode
+server.config.limitClasses Limit Classes
+server.config.tmSize Team Size
 social.login 登录/注册
 social.login.failed 登录失败
 social.login.buy 登录后才可购买
@@ -695,14 +710,14 @@ social.market.fee.gift 无费用
 social.market.gift 赠送KR
 social.market.gift.msg 赠送KR留言
 respawn.auto 您将会在｛0｝秒内重生
-custom.host.ranked 您不可以在排位赛进行时开设自定义房间。
+custom.host.ranked 您不可以在进行排位赛时开设自定义房间。
 funds.insufficient 经费不足
 funds.out 您似乎没有KR了
 custom.passcode.long 密码过长
 custom.passcode.input 请输入房间密码
 custom.tryagain 请重试
 purchase.kr.success 已成功将｛0｝KR加入您的账号
-limited.purchase.ask 您确定您要以｛1｝KR购买｛0｝吗?
+limited.purchase.ask 您确定要以｛1｝KR购买｛0｝吗?
 limited.purchase.success 以成功将｛0｝加入您的账号
 pretend.exit 再次点击[{0}]以退出
 settings.loaded 设置已加载
@@ -710,11 +725,11 @@ settings.loaded.none 该设置并不存在
 account.login.required 您必须先登录
 account.banned.hack 此账号已因为使用外挂被禁赛
 account.banned.appeal 如果您认为您的账号被误封，请联系：
-account.delete 如果您的账号删除申请在14天內没有被撤销，所有关于此账号的信息将会被删除。
-account.delete.request 您确定您要申请账号删除吗?
-account.delete.cancel 您确定您要撤销账号删除申请吗?
-spin.free.available 免费KR已准备好!
-spin.free.claim  此转盘仅可在每小时完成一局比赛后获得
+account.delete 如果您的账号删除申请在14天內没有被撤销，所有关于此账号的信息将会被抹除。
+account.delete.request 您确定要申请账号删除吗?
+account.delete.cancel 您确定要撤销账号删除申请吗?
+spin.free.available 免费KR已准备完毕!
+spin.free.claim 此转盘仅可在每小时完成一局比赛后获得
 spin.free.disable 免费KR弹窗可以在设置中禁用
 mod.reset.0 该设置将会在玩家重生后生效
 mod.reset.1 地图将不会被重设
@@ -728,50 +743,52 @@ stats.headshots 暴击数
 stats.wallbangs 穿墙击杀数
 stats.sprays 涂鸦次数
 windows.host.default.settings 保持玩家计分功能仅可在使用默认设置时被打开
-windows.host.default.commands 房主指令(如/god, /smite, /noclip, 等等)会在此模式中被禁用
-windows.host.rewards 打开KR奖励功能后，玩家可以在地图内获得KR奖励, 但是自定义设置将会被禁用
+windows.host.default.commands 房主指令(如/god，/smite，/noclip，等等)会在此模式中被禁用
+windows.host.rewards 打开KR奖励功能后，玩家可以在地图内获得KR奖励，但是自定义设置将会被禁用
 windows.store.wheels.sub 试试这些转盘，您将会有机会获得全新皮肤!
-windows.store.currency  *美元和您所在地区货币的汇率将会由支付服务提供商或您使用的银行决定
-windows.store.creator 在购买KR时，请考虑使用创作者专用码以支持我们的视频/地图/模组创作者
+windows.store.currency *美元和您所在地区货币的汇率将会由支付服务提供商或您使用的银行决定
+windows.store.creator 在购买KR时，您可以使用创作者专用码以支持您喜爱的视频/地图/模组创作者
 windows.chall.customs 您不可在自定义房间中完成挑战。
-twitch.link 您确定您要链接您的Twitch账号吗?
+twitch.link 您确定要链接您的Twitch账号吗?
 twitch.unlink 您确定要取消链接吗?
-windows.clan.leave 您确定您要离开该战队吗?
-windows.clan.delete 您确定您要解散该战队吗?
-windows.clan.kick 您确定您要将｛0｝踢出您的战队吗?
-windows.store.premium.purchase 您确定您要购买｛0｝天的Premium吗?
+windows.clan.leave 您确定要离开该战队吗?
+windows.clan.delete 您确定要解散该战队吗?
+windows.clan.kick 您确定要将｛0｝踢出您的战队吗?
+windows.store.premium.purchase 您确定要购买｛0｝天的会员吗?
 windows.playerlist.ban 您确定要将｛0｝禁赛吗?
-windows.playerlist.flag 您确定您要标记｛0｝为外挂用户吗?
-windows.playerlist.unflag 您确定您要取消标记｛0｝吗?
-windows.playerlist.punish 您确定您要对｛0｝采取措施吗?
-item.view.open Open Model Viewer
-item.view.more More Information
-item.sell.cant Item cant be sold.
-item.sell.quick Are you sure you want to Quick Sell {0}?
-social.profile.stats Overall Stats
-social.profile.class Class Stats
-social.profile.sales Sales
-social.profile.sales.market Market Sales
-social.profile.skins Skins [{0}]
-social.profile.skins.none No published Skins from this user
-social.profile.games Games [{0}]
-social.profile.games.none No published Games from this user
-social.profile.assets Assets [{0}]
-social.profile.assets.none No published Assets from this user
-social.profile.mods Mods [{0}]
-social.profile.mods.none No published Mods from this user
-social.search Search Results
-social.market.stats.rare Rarest Items
-social.market.stats.circulation In Circulation
-social.market.stats.units units Worldwide
-social.trades.in Incoming
-social.trades.in.head Incoming Offers ({0})
-social.trades.out Outgoing
-social.trades.out.head Outgoing Offers ({0})
-social.trades.history History
-social.trades.history.head Trade History ({0})
-social.trades.decline Decline All
-social.trades.message ENABLE TRADE MESSAGES IN SETTINGS
-social.trades.warning You get no items from this trade!
-social.trades.accept Are you sure you want to accept this offer?
+windows.playerlist.flag 您确定要标记｛0｝为外挂用户吗?
+windows.playerlist.unflag 您确定要取消标记｛0｝吗?
+windows.playerlist.punish 您确定要对｛0｝采取措施吗?
+item.view.open 打开模型浏览工具
+item.view.more 更多信息
+item.sell.cant 物品无法出售
+item.sell.quick 您确定要闪售 {0} 吗?
+social.profile.stats 总体战绩
+social.profile.class 各角色战绩
+social.profile.sales 出售记录
+social.profile.sales.market 市场出售记录
+social.profile.skins [{0}] 个物品
+social.profile.skins.none 此用户未发布任何皮肤
+social.profile.games [{0}] 个游戏地图
+social.profile.games.none 此用户未发布任何游戏地图
+social.profile.assets [{0}] 个地图组件
+social.profile.assets.none 此用户未发布任何地图组件
+social.profile.mods [{0}] 个插件
+social.profile.mods.none 此用户未发布任何游戏插件
+social.search 搜索结果
+social.market.stats.rare 最稀有的物品
+social.market.stats.circulation 在拍卖中
+social.market.stats.units 全球物品数量
+social.trades.in 收到的请求
+social.trades.in.head 收到了 ({0}) 个交易请求
+social.trades.out 发送的请求
+social.trades.out.head 放出了 ({0}) 个交易请求
+social.trades.history 交易记录
+social.trades.history.head ({0}) 个交易记录
+social.trades.decline 全部拒绝
+social.trades.message 在设置中开启交易请求信息
+social.trades.warning 您将不会在此交易中获得任何物品!
+social.trades.accept 您确定接受此交易请求吗?
+stats.airdrops KR-Packages
+settings.quality.flapAnim Sniper Flap Animation
 `;
