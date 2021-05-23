@@ -33,12 +33,12 @@ generic.score Punteggio
 generic.off Spento
 generic.defeat SCONFITTA
 generic.victory VITTORIA
-generic.matchover MATCH FINITO
-generic.matchaband MATCH ABBANDONATO
+generic.matchover PARTITA FINITA
+generic.matchaband PARTITA ABBANDONATA
 generic.follow Segui
 generic.unfollow Smetti di seguire
-generic.followers Seguaci
-generic.following Seguendo
+generic.followers Followes
+generic.following Following
 generic.games Partite
 generic.wins Vittorie
 generic.lose Sconfitte
@@ -295,7 +295,7 @@ settings.viewmodel.show.primary Mostra primaria
 settings.viewmodel.show.secondary Mostra secondaria
 settings.viewmodel.roundArms Braccia rotonde
 settings.viewmodel.show.melee Mostra arma da mischia
-settings.viewmodel.show.ads Nascondi arma in ADS
+settings.viewmodel.show.ads Nascondi arma quando miri
 settings.viewmodel.toggleAim Aziona mira
 settings.viewmodel.show.hands Mostra mani
 settings.viewmodel.leftHand Modalità mancina
@@ -304,10 +304,10 @@ settings.viewmodel.rot Rotazione arma
 settings.viewmodel.xOff Posizione X arma
 settings.viewmodel.yOff Posizione Y arma
 settings.viewmodel.zOff Posizione Z arma
-settings.viewmodel.weapSwapY Scambia posizizione Y arma
+settings.viewmodel.weapSwapY Scambia posizione Y arma
 settings.viewmodel.weapReloadY Posizione Y in ricarica
-settings.viewmodel.yOffADS Posizione Y arma ADS
-settings.viewmodel.adsFovMlt Intensità FOV ADS
+settings.viewmodel.yOffADS Posizione Y arma quando miri
+settings.viewmodel.adsFovMlt Intensità FOV quando miri
 settings.editing.header Editing
 settings.editing.health.high HUD Vita alta
 settings.editing.health.low HUD Vita bassa
@@ -468,7 +468,7 @@ windows.host.modes Seleziona modalità
 windows.host.classes Seleziona classi
 windows.host.settings Impostazioni server
 windows.host.preset Preset parita
-windows.host.preset.load Caricando il preset...
+windows.host.preset.load Caricando Preset...
 windows.host.preset.name Nome Preset
 windows.host.start Inizia partita
 windows.host.rehost Inizia partita (Porta giocatori)
@@ -708,8 +708,8 @@ pretend.exit premi [{0}] di nuovo per uscire
 settings.loaded Impostazioni caricate
 settings.loaded.none Nessun impostazione trovata
 account.login.required Devi aver effettuato il login
-account.banned.hack Questo accounto è stato bannato per Hacking.
-account.banned.appeal Se vuoi contesatare il ban, contatta:
+account.banned.hack Questo account è stato bannato per Hacking.
+account.banned.appeal Se vuoi contestare il ban, contatta:
 account.delete Puoi richiedere la cancellazione del tuo account, se la richiesta non viene annullata entro 14 giorni, l'account e tutti i dati associati saranno rimossi permanentemente.
 account.delete.request Sei sicuro di voler richiedere la cancellazione del tuo account?
 account.delete.cancel Sei sicuro di voler annullare la richiesta di cancellazione del tuo account?
