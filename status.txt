@@ -8,7 +8,7 @@ Korean - Up to date (v3.8.6)
 Portuguese - Updates required (v3.8.2)
 Japanese - Up to date (v3.8.6)
 Simplified Chinese - Up to date (v3.8.6)
-French- Up to date (v3.8.6)
+French - Up to date (v3.8.6)
 Finnish - Updates required (far behind, last update: pre-v3.8.0)
 Dutch - Updates required (last update: v3.8.2)
 Hindi - Pull request pending from native speaker (v3.8.6) -- https://github.com/mty22/krunker.io-translations/pull/180

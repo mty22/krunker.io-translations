@@ -11,7 +11,9 @@ This repo contains all the language files for [krunker.io](https://krunker.io)
 
 Project information and discussion on Discord can be found in [Krunker Bunker](https://discord.gg/krunker) channels #krunker-translation and #krunker-translator-chat. In order to participate, you will need to react to respective 'Translator Notif' role to gain access.
 
-Not sure on how to use GitHub? Have a look at this [Introduction to GitHub](https://lab.github.com/githubtraining/introduction-to-github) tutorial as it may answer many common questions!
+New here? Want to know what you can help with? First, have a look at the current [status.txt](https://raw.githubusercontent.com/mty22/krunker.io-translations/main/status.txt) file which gives you a quick overview of what's going on!
+
+Happy to continue and not sure on how to use GitHub? Have a look at this [Introduction to GitHub](https://lab.github.com/githubtraining/introduction-to-github) tutorial as it may answer many common questions!
 
 **Before translating Krunker into another language**, please search for an [existing issue](https://github.com/mty22/krunker.io-translations/issues) to see if another person is working on it, or if there's previously answered questions that may help you here! It should also be known without saying that use of tools such as Google Translator is not permitted. If you are found to be using it, you will not be eligible to participate in this project.
 
