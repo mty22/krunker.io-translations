@@ -460,15 +460,15 @@ windows.controls.interactSec Вторичное Взаимодействие
 windows.controls.confirm Подтвердить Взаимодействие
 windows.controls.drop Выбросить
 windows.controls.wepVis Переключить Видимость Оружия
-windows.controls.streak0 Streak 1
-windows.controls.streak1 Streak 2
-windows.controls.streak2 Streak 3
-windows.controls.streak3 Streak 4
-windows.controls.streak4 Streak 5
+windows.controls.streak0 Череда 1
+windows.controls.streak1 Череда 2
+windows.controls.streak2 Череда 3
+windows.controls.streak3 Череда 4
+windows.controls.streak4 Череда 5
 windows.controls.premium0 Noclip
-windows.controls.premium1 Godmode
-windows.controls.premium2 Kill
-windows.controls.premium3 Smite
+windows.controls.premium1 непобедимый
+windows.controls.premium2 убить
+windows.controls.premium3 Поражение
 windows.controls.reset Сбросить Стартовую Позицию (Гонки & Паркур)
 windows.controls.pretend Скрыть Игру
 windows.host.header Создание Пользовательской Игры
