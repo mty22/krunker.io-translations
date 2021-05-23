@@ -97,6 +97,17 @@ settings.experimental.header Sperimentali
 settings.experimental.aimFreezeFix Risolvi mirino bloccato
 settings.experimental.mouseFlickFix Risolvi Flick del mouse
 settings.experimental.shaderRendering Rendering a istanze
+settings.client.header Client
+settings.client.unlimitedFrames FPS illimitati
+settings.client.gameCap Cattura di gioco
+settings.client.experimental Funzionalità sperimentali
+settings.client.discordRPC RPC di Discord
+settings.client.resourceSwapper Resource Swapper
+settings.client.clearCache Pulisci Cache
+settings.client.resetSettings Resetta impostazioni client
+settings.client.acceleratedCanvas Canvas accellerate
+settings.client.angleBackend Backend ANGLE Graphics
+settings.client.colorProfile Colore profilo
 settings.dev.header Sviluppatore
 settings.dev.forceUpdate Forza aggiornamento Skin
 settings.dev.forceRegen Rigenera sempre il giocatore
@@ -506,7 +517,7 @@ windows.store.purchase Acquista KR
 windows.store.voucher Riscatta cupon
 windows.store.voucherinfo Ottieni cupon da alcuni Streamers ed eventi
 windows.store.market Marketplace
-windows.store.market2 Krunker Market
+windows.store.market2 Market di Krunker
 windows.store.premium Acquista Premium
 windows.store.premium2 Krunker Premium
 windows.store.buyP Scegli un nickname di facciata e altro con
@@ -584,7 +595,7 @@ adblocker Disabilita l'ad blocker per ricevere krunkies gratis.
 ad-failed Pubblicità non caricata. Riprova.
 streamers.views {0} spettatori
 streamers.none Nessuno stream in corso!
-error.extentions Se hai qualisasi estensione, disabilitala
+error.extentions Se usi delle estensioni, disabilitale
 error.seek Prova a cercare una nuova partita cliccando
 custom.map.upload.limit Fallito. È stato raggiunto il limite di 500k caratteri dei dati della mappa
 custom.map.missing Seleziona almeno una partita o mappa
@@ -602,7 +613,7 @@ server.config.jumpMlt Forza salto
 server.config.airStrf Strafe aereo
 server.config.deltaMlt Velocità tempo
 server.config.strafeSpd Velocità strafe
-server.config.fiRat Rateo colpi
+server.config.fiRat Cadenza di tiro
 server.config.reSpd Velocità ricarica
 server.config.slidTime Tempo scivolata
 server.config.fixMov Movimento fisso
@@ -638,6 +649,7 @@ server.config.private Privata
 server.config.krRewards Premi KR
 server.config.forceDefault Forza impostazioni predefinite
 server.config.warmupTime Tempo riscaldamento
+server.config.gamRounds Rounds
 server.config.objtvTime Tempo obiettivo
 server.config.forceSpawn Tempo rinascita automatica
 server.config.scoreLimit Limite punteggio
@@ -649,6 +661,9 @@ server.config.hpRegen Rigenerazione vita
 server.config.disableB Disabilita bordi
 server.config.throwMel Armi da mischia lanciabili
 server.config.noCosm Disabilita cosmetici
+server.config.tstCmp Modalità test
+server.config.limitClasses Limita classi
+server.config.tmSize Dimensione squadra
 social.login Login/Registrati
 social.login.failed Login fallito
 social.login.buy Fai il login per comprare
@@ -731,7 +746,7 @@ windows.host.default.settings Abilitare le impostazioni predefinite permette ai 
 windows.host.default.commands *I comandi dell'Host sono disabilitati in questa modalità: /noclip /god /smite etc
 windows.host.rewards Abilitare i premi in KR obbliga il Server all'utilizzo delle impostazioni predefinite e permette ai giocatori di guadagnare KR dai fondi della mappa:
 windows.store.wheels.sub Tenta la tua fortuna, gira la ruota per la possibilità di vincere nuove skin!
-windows.store.currency * I prezzi in USD possono essere convertiti nella tua valuta locale con il tasso di scambio definito dalla tua banca o provider di pagamento
+windows.store.currency * I prezzi in USD possono essere convertiti nella tua valuta locale con il tasso di cambio definito dalla tua banca o provider di pagamento
 windows.store.creator Supporta il tuo content creator preferito utilizzando il suo Codice Creatore
 windows.chall.customs Le sfide non possono essere completate nelle partite personalizzate
 twitch.link Sei sicuro di voler aggiungere un account di twitch?
@@ -764,14 +779,16 @@ social.search Risultati ricerca
 social.market.stats.rare Oggetti Rari
 social.market.stats.circulation in circolazione
 social.market.stats.units unità nel mondo
-social.trades.in Entrata
+social.trades.in In arrivo
 social.trades.in.head Offerte in arrivo ({0})
 social.trades.out Uscita
 social.trades.out.head Offerte in uscita ({0})
 social.trades.history Storico
 social.trades.history.head Storico transazioni ({0})
-social.trades.decline Rifiuta tutti
+social.trades.decline Rifiuta tutte
 social.trades.message PERMETTI I MESSAGGI DI TRADING DALLE IMPOSTAZIONI
 social.trades.warning Non riceverai alcun oggetto da questa transazione!
 social.trades.accept Sei sicuro di voler accettare questa offerta?
+stats.airdrops KR-Packages
+settings.quality.flapAnim Animazione copri ottica cecchino
 `;
