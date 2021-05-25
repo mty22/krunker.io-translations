@@ -1,6 +1,6 @@
 module.exports = `
-menu.btn.ranked 排位比賽
-menu.btn.shop 商店
+menu.btn.ranked 排位賽
+menu.btn.shop 商城
 menu.btn.social 社區
 menu.btn.maps 地圖
 menu.btn.mods 插件
@@ -10,9 +10,9 @@ menu.btn.invite 邀請
 menu.btn.invite.clicked 已複製
 menu.btn.join 加入遊戲
 menu.btn.host 創建遊戲
-menu.btn.browser 瀏覽服務器
+menu.btn.browser 瀏覽伺服器
 generic.wait 請稍等...
-generic.loading 加載中...
+generic.loading 載入中...
 generic.none 無
 generic.connecting 連接中...
 generic.select 選擇
@@ -21,164 +21,164 @@ generic.save 保存
 generic.load 載入
 generic.search 搜索
 generic.leave 退出
-generic.default 默認
+generic.default 預設
 generic.submit 提交
 generic.create 創建
 generic.random 隨機
 generic.failed 失敗
 generic.success 成功!
-generic.name 姓名
+generic.name 用戶名
 generic.level 等級
 generic.score 得分
 generic.off 關閉
-generic.defeat 輸
+generic.defeat 失敗
 generic.victory 冠軍
 generic.matchover 比賽結束
 generic.matchaband 比賽被迫終止
 generic.follow 關注
 generic.unfollow 取消關注
-generic.followers 追隨者
+generic.followers 關注者
 generic.following 關注中
 generic.games 遊戲
 generic.wins 勝場
 generic.lose 敗場
-generic.clan 部落
+generic.clan 公會
 generic.games.played 已玩
 generic.games.won 勝場
 generic.games.lost 敗場
 generic.timep 遊玩時間
 generic.kills 擊殺
 generic.deaths 死亡
-generic.kdr 殺死率
+generic.kdr 擊殺死亡比例
 generic.time 時間
-generic.logout 註銷
-generic.logout.sessions 從所有設備註銷
+generic.logout 登出
+generic.logout.sessions 從所有設備登出
 generic.username 輸入用戶名
 generic.password 輸入密碼
 generic.register 註冊
-generic.login 登錄
+generic.login 登入
 generic.accuracy 命中率
 player.waiting 等待更多玩家加入
 player.died 死了
 player.killed 被此玩家擊殺
 player.killstreak {0} 正在 {1} 連殺
-player.inactive 已斷開連接因不在線
-player.disconnect 已斷開連接
-timer.end 下一場將在 {0} 后開始
+player.inactive 由於不活躍，遊戲已斷開連接
+player.disconnect 連接已斷開
+timer.end 下一場將在 {0} 後開始
 leaderboard.empty 空房間
-popup.checkpoint 記錄點!
-app.play 點擊以開始遊戲
-app.spectate 觀察賽場
+popup.checkpoint 存檔點！
+app.play 點此開始遊戲
+app.spectate 點此觀戰此局遊戲
 app.play.mobile 觸摸以開始遊戲
 app.spectate.mobile 觸摸以觀察賽場
 app.play.controller 按下開始鍵以開始遊戲
-app.spectate.controller 按下開始鍵以觀察賽場
+app.spectate.controller 按下開始以觀戰此局遊戲
 purchase.error 出現錯誤
-purchase.error.click 點此 </a> 以重試!
+purchase.error.click 點此</a> 以重試!
 purchase.error.limit 您已超出每日交易限額
 settings.reset 重置
-settings.reset.confirm 您是否希望重置所有設置?
-settings.import 導入
-settings.export 導出
-settings.none 查找無結果
-settings.backup 備份設置
-settings.controls.change 鍵鈕綁定
+settings.reset.confirm 您是否希望重置所有設定？
+settings.import 匯入
+settings.export 匯出
+settings.none 沒有找到設定
+settings.backup 備份設定
+settings.controls.change 按鍵綁定
 settings.controls.press 按下任意按鍵
 settings.local.header 本地化 <span id="requiresRestart"><span style="color: #eb5656">*</span> 需要重啟遊戲 </span>
 settings.local.region 默認區域
 settings.local.lang 語言
 settings.network.header 網路
-settings.network.sendRate 高服務器應答率
+settings.network.sendRate 高伺服器應答率
 settings.network.netRerouting 自動路由
 settings.network.lagComp 延遲修正 (Lag Compensation)
-settings.popup.header 彈窗
-settings.popup.freeKRPop 顯示免費KR彈窗
+settings.popup.header 彈出視窗
+settings.popup.freeKRPop 顯示免費KR彈出視窗
 settings.experimental.header 實驗性功能
-settings.experimental.aimFreezeFix 瞄射凍結修復
-settings.experimental.mouseFlickFix 鼠標抽動修復
-settings.experimental.shaderRendering 實例渲染
+settings.experimental.aimFreezeFix 瞄準凍結修復
+settings.experimental.mouseFlickFix 滑鼠過激修正
+settings.experimental.shaderRendering 即時渲染
 settings.dev.header 開發者
-settings.dev.forceUpdate 強制更新皮膚
-settings.dev.forceRegen 永再生玩家
-settings.dev.extraBan 額外禁令信息
+settings.dev.forceUpdate 強制刷新皮膚
+settings.dev.forceRegen 永遠強制性復活玩家
+settings.dev.extraBan 額外的封號資訊
 settings.chat.header 聊天
-settings.chat.chat 顯示聊天窗口
+settings.chat.chat 顯示聊天視窗
 settings.chat.chat.all 總是
 settings.chat.chat.focus 僅限關注時顯示
 settings.chat.messages 顯示玩家消息
-settings.chat.unboxings 顯示開箱
+settings.chat.unboxings 聊天視窗透明度
 settings.chat.chatOp 聊天窗口透明度
-settings.chat.chatBGOp 聊天窗口背景透明度
-settings.chat.chatHeight 聊天窗口高度
+settings.chat.chatBGOp 聊天視窗背景透明度
+settings.chat.chatHeight 聊天視窗高度
 settings.chat.chatTimer 消息顯示時間
 settings.chat.chatTextOutline 消息文字輪廓
 settings.chat.chatFilter 不良語言過濾 (僅限英文)
 settings.quality.header 遊戲性能
 settings.quality.updRate 幀數限制
 settings.quality.rendDst 渲染距離
-settings.quality.res 分辨率
+settings.quality.res 解析度
 settings.quality.part 粒子效果
 settings.quality.mapDet 地圖細節
 settings.quality.noTex 無貼圖
 settings.quality.partdist 粒子渲染距離
 settings.quality.renderdist 渲染距離
-settings.quality.reflection 倒影性能
+settings.quality.reflection 倒影品質
 settings.quality.antiAlias 反鋸齒
 settings.quality.shadows 陰影
 settings.quality.softShad 柔和陰影
-settings.quality.highResShad 高清陰影
+settings.quality.highResShad 高解析度陰影
 settings.quality.shadowsDynamic 動態陰影
 settings.quality.trails 其他玩家彈道軌跡
 settings.quality.yourTrails 自身彈道軌跡
 settings.quality.mflash 槍口火焰
-settings.quality.flap 瞄準鏡保護蓋 (只限狙擊步槍)
+settings.quality.flap 狙擊槍瞄準鏡保護蓋
 settings.quality.lowSpec 低配置模式
 settings.quality.ambient 環境陰影
-settings.quality.ambientOld 老陰影 (如果可能)
+settings.quality.ambientOld 舊版陰影畫風 （僅可用時）
 settings.quality.textureAnim 紋理動畫
 settings.quality.objectAnim 物體動畫
-settings.quality.screenShake 屏幕晃動
+settings.quality.screenShake 螢幕晃動
 settings.quality.weaponShine 武器光澤
-settings.quality.rendGamma 伽馬
+settings.quality.rendGamma 伽馬效果
 settings.quality.lighting 光照效果
 settings.quality.showExplo 顯示爆炸效果
-settings.quality.aspectRatio 屏幕高寬比
+settings.quality.aspectRatio 螢幕高寬比
 settings.post.header 前期處理
 settings.post.post 後期處理
-settings.post.bloom 綻放
-settings.post.bloomThreshold 綻放閾值
-settings.post.bloomStrength 綻放強度
-settings.post.bloomRadius 綻放半徑
-settings.post.ssao 屏幕空間環境光屏蔽
-settings.post.ssaoRadius 屏蔽環境光半徑
-settings.interface.hitInd 傷害指示器
-settings.interface.hitColor 傷害指示顏色
+settings.post.bloom 光散射
+settings.post.bloomThreshold 光散射閾值
+settings.post.bloomStrength 光散射強度
+settings.post.bloomRadius 光散射半徑
+settings.post.ssao 螢幕空間環境光遮蔽
+settings.post.ssaoRadius 螢幕空間環境光遮蔽半徑
+settings.interface.hitInd 命中提示
+settings.interface.hitColor 命中提示顏色
 settings.interface.dmg 顯示傷害
 settings.interface.dmgCol 傷害顏色
 settings.interface.critCol 暴擊顏色
-settings.interface.header 界面
-settings.interface.scale 用戶界面比例
-settings.interface.ui 顯示用戶界面
+settings.interface.header 介面
+settings.interface.scale 用戶介面比例
+settings.interface.ui 顯示用戶介面
 settings.interface.scoreboard 使用舊版計分板
 settings.interface.oldBrowser 使用舊版瀏覽器
 settings.interface.rarityanim 禁用稀有物品動畫,
-settings.interface.showPfp 顯示用戶圖標
-settings.interface.showTradeMsg 顯示物品交易信息
+settings.interface.showPfp 顯示用戶圖示
+settings.interface.showTradeMsg 顯示交易訊息
 settings.interface.hp 動態血條 (HP)
 settings.interface.dmgScale 傷害顯示比例
-settings.interface.killf 顯示擊殺列表
+settings.interface.killf 顯示擊殺訊息
 settings.interface.ping 顯示延遲 (PING)
 settings.interface.net-stats 顯示網絡狀況
 settings.interface.fps 顯示幀率 (FPS)
-settings.interface.deaths 顯示死亡計數器
-settings.interface.kd 顯示殺/死數
+settings.interface.deaths 顯示死亡數
+settings.interface.kd 顯示擊殺死亡比例
 settings.interface.kills 顯示擊殺數
 settings.interface.streak 顯示連殺數
 settings.interface.score 顯示分數
-settings.interface.spectators 顯示觀戰者
+settings.interface.spectators 顯示觀戰人數
 settings.interface.speed 顯示移動速度
-settings.interface.speedOffX 移動速度X軸坐標
-settings.interface.speedOffY 移動速度Y軸坐標
+settings.interface.speedOffX 移動速度X軸座標
+settings.interface.speedOffY 移動速度Y軸座標
 settings.interface.speedOpacity 速度顯示透明度
 settings.interface.speedScale 速度顯示比例
 settings.interface.speedColor 當前速度顏色
@@ -187,13 +187,13 @@ settings.interface.medals 顯示勳章
 settings.interface.hideNames 顯示名牌
 settings.interface.hideNames.team 僅限隊友
 settings.interface.hideNames.enemy 僅限敵人
-settings.interface.hideNames.all 所有人
+settings.interface.hideNames.all 全部顯示	
 settings.interface.nametagStyle 名牌樣式
 settings.interface.nametagOpac 名牌透明度
 settings.interface.nametagStyle.health 僅限血條 (HP)
-settings.interface.nametagStyle.name 僅限姓名
-settings.interface.nametagStyle.nameLvl 姓名和血條 (HP)
-settings.interface.nametagStyle.all 所有
+settings.interface.nametagStyle.name 僅限名稱
+settings.interface.nametagStyle.nameLvl 名稱和等級（HP）
+settings.interface.nametagStyle.all 全部顯示
 settings.interface.healthNum 名牌
 settings.interface.healthColT 隊友血條 (HP) 顏色
 settings.interface.healthColE 敵人血條 (HP) 顏色
@@ -209,8 +209,8 @@ settings.crosshair.style 樣式
 settings.crosshair.style.0 十字
 settings.crosshair.style.1 空心圓
 settings.crosshair.style.2 實心圓
-settings.crosshair.style.3 空心方
-settings.crosshair.style.4 實心方
+settings.crosshair.style.3 空心方塊
+settings.crosshair.style.4 實心方塊
 settings.crosshair.image 圖片
 settings.crosshair.image.paste 準星圖片
 settings.crosshair.always 總是顯示
@@ -234,34 +234,34 @@ settings.hitmarker.animD 動畫尺寸
 settings.hitmarker.animS 動畫速度
 settings.hitmarker.hitm 顯示
 settings.hitmarker.hitmFad 褪去速度
-settings.hitmarker.custom 命中標記圖標
+settings.hitmarker.custom 命中標記圖示
 settings.hitmarker.custom.paste 命中標記網址
-settings.onKillS.style.0 默認
-settings.onKillS.style.1 降低分辨率
-settings.onKillS.style.2 降低視野 (FOV)
-settings.onKillS.style.3 增加視野 (FOV)
-settings.serverb.header 服務器瀏覽器
-settings.serverb.oldBrowser 舊版瀏覽器
-settings.serverb.defaultRegionOnly 只顯示默認區域
+settings.onKillS.style.0 預設
+settings.onKillS.style.1 降低解析度
+settings.onKillS.style.2 降低視野範圍 (FOV)
+settings.onKillS.style.3 增加視野範圍 (FOV)
+settings.serverb.header 伺服器引擎
+settings.serverb.oldBrowser 舊版伺服器瀏覽器
+settings.serverb.defaultRegionOnly 僅顯示預設地區伺服器
 settings.gameprivacy.header 遊玩隱私
-settings.gameprivacy.streamer 直播模式
+settings.gameprivacy.streamer 主播模式
 settings.gameprivacy.anon 匿名模式
-settings.gameprivacy.hideGameTitle 隱藏遊戲主題
+settings.gameprivacy.hideGameTitle 隱藏遊戲名稱
 settings.gameplay.header 遊戲性
 settings.gameplay.sensitivityX X軸靈敏度
 settings.gameplay.sensitivityY Y軸靈敏度
-settings.gameplay.aimsensX 瞄準 (ADS) X軸靈敏度
-settings.gameplay.aimsensY 瞄準 (ADS) Y軸靈敏度
+settings.gameplay.aimsensX 瞄準X軸靈敏度
+settings.gameplay.aimsensY 瞄準Y軸靈敏度
 settings.gameplay.challenge 挑戰模式
 settings.gameplay.invert 反轉Y軸
 settings.gameplay.onkillS 擊殺
-settings.gameplay.scrollDir 鼠標滾輪方向
+settings.gameplay.scrollDir 滑鼠滾輪方向
 settings.controller.header 手柄
-settings.controller.sensitivityX X軸靈敏度
-settings.controller.disableCons 禁用手柄
-settings.controller.sensitivityY Y軸靈敏度
-settings.controller.aimsensX 瞄準 (ADS) X軸靈敏度
-settings.controller.aimsensY 瞄準 (ADS) Y軸靈敏度
+settings.controller.sensitivityX 準X軸靈敏度
+settings.controller.disableCons 關閉手柄
+settings.controller.sensitivityY 瞄準X軸靈敏度
+settings.controller.aimsensX 瞄準X軸靈敏度
+settings.controller.aimsensY 瞄準Y軸靈敏度
 settings.controller.deadZoneL 手柄搖桿死區 (左)
 settings.controller.deadZoneR 手柄搖桿死區 (右)
 settings.controller.triggerThres 觸發閾值
@@ -271,8 +271,8 @@ settings.controller.invert 反轉Y軸
 settings.mobile.header 移動設備
 settings.mobile.sensitivityX X軸靈敏度
 settings.mobile.sensitivityY Y軸靈敏度
-settings.mobile.aimsensX 瞄準 (ADS) X軸靈敏度
-settings.mobile.aimsensY 瞄準 (ADS) Y軸靈敏度
+settings.mobile.aimsensX 瞄準X軸靈敏度
+settings.mobile.aimsensY 瞄準Y軸靈敏度
 settings.mobile.vibration 震動
 settings.mobile.gradSpeed 漸緩速度
 settings.mobile.invert 反轉Y軸
@@ -283,129 +283,129 @@ settings.audio.voice 語音音量
 settings.audio.weps 武器音量
 settings.audio.player 玩家音量
 settings.audio.skin 服飾音量
-settings.audio.ui 用戶界面音量
-settings.audio.asset Asset 音量
-settings.audio.dialogue 行動音量
+settings.audio.ui 用戶介面音量
+settings.audio.asset Asset 地圖元件音量
+settings.audio.dialogue 動作音量
 settings.viewmodel.header 視角
-settings.viewmodel.fov 視野
-settings.viewmodel.fps 武器渲染視野
+settings.viewmodel.fov 視野範圍
+settings.viewmodel.fps 武器渲染視野範圍
 settings.viewmodel.bobbing 武器晃動
 settings.viewmodel.leaning 武器傾斜
 settings.viewmodel.show.primary 顯示主武器
 settings.viewmodel.show.secondary 顯示副武器
-settings.viewmodel.roundArms 圓手臂
+settings.viewmodel.roundArms 圓柱形手臂
 settings.viewmodel.show.melee 顯示近戰武器
-settings.viewmodel.show.ads 瞄準 (ADS) 時隱藏武器
-settings.viewmodel.toggleAim 切換目標
+settings.viewmodel.show.ads 瞄準時隱藏武器
+settings.viewmodel.toggleAim 切換瞄準
 settings.viewmodel.show.hands 顯示手部
 settings.viewmodel.leftHand 左手模式
-settings.viewmodel.aimAnim 武器瞄準 (ADS) 動畫
+settings.viewmodel.aimAnim 武器瞄準動畫
 settings.viewmodel.rot 武器旋轉
-settings.viewmodel.xOff 武器X軸坐標
-settings.viewmodel.yOff 武器Y軸坐標
-settings.viewmodel.zOff 武器Z軸坐標
-settings.viewmodel.weapSwapY 武器交換Y軸
-settings.viewmodel.weapReloadY 武器換彈Y軸
-settings.viewmodel.yOffADS 武器瞄準 (ADS) Y軸坐標
-settings.viewmodel.adsFovMlt 瞄準 (ADS) 視野倍率
+settings.viewmodel.xOff 武器X軸座標
+settings.viewmodel.yOff 武器Y軸座標
+settings.viewmodel.zOff 武器Z軸座標
+settings.viewmodel.weapSwapY 武器切換時的Y軸座標
+settings.viewmodel.weapReloadY 武器換彈時的Y軸座標
+settings.viewmodel.yOffADS 武器瞄準Y軸座標
+settings.viewmodel.adsFovMlt 瞄準視野範圍倍率
 settings.editing.header 編輯
-settings.editing.health.high HUD 血條顏色 (高)
-settings.editing.health.low HUD 血條顏色 (低)
+settings.editing.health.high 血條顏色（高）
+settings.editing.health.low 血條顏色（低）
 settings.editing.speedLines 速度線 (高速移動時顯示速度線)
 settings.editing.spdLinesCol 速度線顏色
 settings.editing.score.color 彈出得分顏色
 settings.editing.score.show 顯示彈出得分
 settings.editing.score.scale 彈出得分倍率
 settings.editing.score.shadow 彈出得分陰影
-settings.editing.scoreOffX 彈出得分X軸坐標
-settings.editing.scoreOffY 彈出得分Y軸坐標
-settings.editing.prog.color 進度條顏色
-settings.editing.prog.opacity 進度條透明度
+settings.editing.scoreOffX 彈出得分X軸座標
+settings.editing.scoreOffY 彈出得分Y軸座標
+settings.editing.prog.color 經驗條顏色
+settings.editing.prog.opacity 蓄力條透明度
 settings.editing.prog.scale 進度條顯示比例
-settings.editing.prog.shadow 進度條陰影
-settings.editing.progOffX 進度條X軸
-settings.editing.progOffY進度條Y軸 
-settings.editing.progRot 進度條旋轉
-settings.editing.progm.color 充進度條顏色
-settings.editing.progm.opacity 充進度條透明度
-settings.editing.progm.scale 充進度條秤
-settings.editing.progm.shadow 充進度條陰影
-settings.editing.progmOffX 充進度條X軸
-settings.editing.progmOffY 充進度條Y軸
-settings.editing.progmRot 充進度條旋轉
+settings.editing.prog.shadow 蓄力條陰影
+settings.editing.progOffX 進度條水準位置
+settings.editing.progOffY 進度條垂直位置
+settings.editing.progRot 進度條角度
+settings.editing.progm.color 蓄力條顏色
+settings.editing.progm.opacity 蓄力條透明度
+settings.editing.progm.scale 蓄力條大小
+settings.editing.progm.shadow 蓄力條陰影
+settings.editing.progmOffX 蓄力條水準位置
+settings.editing.progmOffY 蓄力條垂直位置
+settings.editing.progmRot 蓄力條角度
 settings.editing.saturation 顏色飽和度 (遊戲中)
-settings.editing.menuSaturation 顏色飽和度 (用戶界面)
+settings.editing.menuSaturation 顏色飽和度 (用戶介面)
 settings.editing.hue 色調 (遊戲中)
-settings.editing.menuHue 色調 (用戶界面)
-settings.editing.vignette 暈影效果（使屏幕邊緣顏色變暗)
+settings.editing.menuHue 色調（用戶介面）
+settings.editing.vignette 暈影效果（使螢幕邊緣顏色變暗）
 settings.editing.feedLimit 擊殺列表長度限制
 settings.editing.depth 深度圖模式
 settings.editing.green 綠幕模式
-settings.editing.tracercol 彈道軌跡
-settings.editing.tracer 彈道軌跡
-settings.editing.tracer.offset 示蹤軌跡
-settings.shaders.header 着色器輸入
+settings.editing.tracercol 顯示彈道軌跡
+settings.editing.tracer 顯示彈道軌跡
+settings.editing.tracer.offset瞄準器偏移
+settings.shaders.header 著色器輸入
 settings.mods.header 自定義
-settings.mods.load 允許加載插件
-settings.mods.logo 允許變更遊戲商標
-settings.mods.auto 自動加載插件
+settings.mods.load 載入插件
+settings.mods.logo 允許變更圖示
+settings.mods.auto 自動載入插件
 settings.mods.borders 瞄準鏡邊界
 settings.mods.borderCol 瞄準鏡邊界
 settings.mods.borderOpac 瞄準鏡邊界透明度
-settings.mods.scope 瞄準鏡圖標
-settings.mods.scope.paste 瞄準鏡圖標網址
+settings.mods.scope 瞄準鏡圖示
+settings.mods.scope.paste 瞄準鏡圖示網址
 settings.mods.scope.opacity 瞄準鏡透明度
-settings.mods.scope.width 瞄準鏡圖像寬度
-settings.mods.scope.height 瞄準鏡圖像高度
-settings.mods.dot 準星圖標
-settings.mods.dot.width 準星圖標寬度
-settings.mods.dot.height 準星圖標高度
-settings.mods.dot.paste 準星圖標網址
-settings.mods.endmessage 比賽結束后自動消息
-settings.mods.profile 用戶圖標
-settings.mods.profile.paste 用戶圖標網址
-settings.mods.ammo 彈藥圖標
-settings.mods.ammo.paste 彈藥圖標網址
-settings.mods.kills 擊殺圖標
-settings.mods.kills.paste 擊殺圖標網址
-settings.mods.deaths 死亡圖標
-settings.mods.deaths.paste 死亡圖標網址
-settings.mods.streak 連殺圖標
-settings.mods.streak.paste 連殺圖標網址
-settings.mods.timer 時鐘圖標
-settings.mods.timer.paste 時鐘圖標網址
-settings.mods.usedamage 覆蓋受傷屏幕效果
-settings.mods.damage 受傷屏幕效果圖標
-settings.mods.damage.paste 受傷屏幕效果網址
-settings.mods.overlay 遊戲結束圖標
+settings.mods.scope.width 瞄準鏡寬度
+settings.mods.scope.height 瞄準鏡高度
+settings.mods.dot 準星圖示
+settings.mods.dot.width 準星圖示寬度
+settings.mods.dot.height 準星圖示高度
+settings.mods.dot.paste 準星圖示網址
+settings.mods.endmessage 比賽結束自動消息
+settings.mods.profile 用戶圖示
+settings.mods.profile.paste 用戶圖示網址	
+settings.mods.ammo 彈藥圖示
+settings.mods.ammo.paste 彈藥圖示網址
+settings.mods.kills 擊殺圖示
+settings.mods.kills.paste 擊殺圖示網址
+settings.mods.deaths 死亡圖示
+settings.mods.deaths.paste 死亡圖示網址
+settings.mods.streak 連殺圖示
+settings.mods.streak.paste 連殺圖示網址
+settings.mods.timer 計時器圖示
+settings.mods.timer.paste 計時器圖示網址
+settings.mods.usedamage 受傷螢幕效果
+settings.mods.damage 受傷螢幕效果圖示
+settings.mods.damage.paste 受傷螢幕效果網址
+settings.mods.overlay 遊戲結束圖示
 settings.mods.overlay.paste 遊戲疊層圖片網址
 settings.social.region 地區統計表
 windows.settings.header 遊戲設定
 windows.mail.header Krunker 郵箱
-windows.servers.header 服務器
+windows.servers.header 伺服器
 windows.servers.none 無可加入遊戲...
 windows.servers.host + 創建遊戲
-windows.servers.hide 隱藏已滿
-windows.servers.priority 優先區域
+windows.servers.hide 隱藏已滿的遊戲
+windows.servers.priority 優先显示預設區域
 windows.servers.online {0} 人在遊戲中
-windows.servers.social {0} 在社交中
+windows.servers.social {0} 人在社區中
 windows.loadout.header 更換角色
 windows.loadout.class 角色
 windows.loadout.primary 主武器
 windows.loadout.primary.attach 配件
 windows.loadout.primary.reticle 準星
-windows.loadout.primary.scope 瞄準鏡
+windows.loadout.primary.scope 狙擊瞄準鏡
 windows.loadout.secondary 副武器
 windows.loadout.secondary.skin 副武器皮膚
 windows.loadout.melee 近戰武器
 windows.loadout.hat 帽子
 windows.loadout.back 身體
 windows.loadout.waist 腰部
-windows.loadout.shoe 鞋
-windows.loadout.face 臉部
+windows.loadout.shoe 鞋子
+windows.loadout.face 表情
 windows.loadout.spray 塗鴉
 windows.loadout.color.skin 皮膚顏色
-windows.loadout.color.chat 聊天名顏色
+windows.loadout.color.chat 用戶名顏色
 windows.loadout.color.hair 頭髮顏色
 windows.loadout.dye 服裝
 windows.loadout.pet 寵物
@@ -420,22 +420,22 @@ windows.mods.guide 插件指南
 windows.mods.list 插件列表
 windows.mods.load.header 加載插件
 windows.mods.publish 發布插件
-windows.mods.viewer 觀看者
+windows.mods.viewer 皮膚瀏覽器
 windows.account.header 帳戶
-windows.account.recover 聯繫 <a>krunker@yendis.ch</a> 找回密碼
+windows.account.recover 聯繫 <a>krunker@yendis.ch</a> 以找回密碼.
 windows.class.header 選擇角色
 windows.controls.header 更改控制
 windows.controls.forward 前
-windows.controls.backward 后
+windows.controls.backward 後
 windows.controls.left 左
 windows.controls.right 右
-windows.controls.reload 重新裝填
+windows.controls.reload 裝彈
 windows.controls.aim 瞄準
 windows.controls.shoot 射擊
 windows.controls.inspect 查看武器
 windows.controls.spray 塗鴉
-windows.controls.jump 跳
-windows.controls.crouch 蹲
+windows.controls.jump 跳動
+windows.controls.crouch 蹲下
 windows.controls.prim 主武器
 windows.controls.swap 副武器
 windows.controls.melee 近戰武器
@@ -449,24 +449,24 @@ windows.controls.interactSec 次要交互
 windows.controls.confirm 確認觸動
 windows.controls.drop 放下(武器/物品)
 windows.controls.wepVis 切換武器可見度
-windows.controls.streak0 連殺 1
-windows.controls.streak1 連殺 2
-windows.controls.streak2 連殺 3
-windows.controls.streak3 連殺 4
-windows.controls.streak4 連殺 5
-windows.controls.premium0 穿牆模式
-windows.controls.premium1 無敵
+windows.controls.streak0 一連殺
+windows.controls.streak1 二連殺
+windows.controls.streak2 三連殺
+windows.controls.streak3 四連殺
+windows.controls.streak4 五連殺
+windows.controls.premium0 穿牆/飛行模式
+windows.controls.premium1 無敵模式
 windows.controls.premium2 自殺
-windows.controls.premium3 重擊
-windows.controls.reset 重置位置 (比賽 & 跑酷)
+windows.controls.premium3 重擊模式
+windows.controls.reset 返回到起點 (比賽 & 跑酷)
 windows.controls.pretend 隱藏遊戲
 windows.host.header 創建自定義遊戲
-windows.host.maps 服務器設定
+windows.host.maps 伺服器設定
 windows.host.cmaps 社區遊戲
 windows.host.raw 原始遊戲數據
 windows.host.modes 選擇模式
 windows.host.classes 選擇角色
-windows.host.settings 服務器設定
+windows.host.settings 伺服器設定
 windows.host.preset 創建預設
 windows.host.preset.load 加載預設中...
 windows.host.preset.name 預設名稱
@@ -490,7 +490,7 @@ windows.theatre.header 影院模式
 windows.theatre.record 啟用錄製
 windows.theatre.key 錄製按鍵
 windows.clans.header 部落
-windows.clans.members 部落成員 ({0})
+windows.clans.members ({0}) 個部落成員 
 windows.clans.requests 申請
 windows.clans.requests.none 無申請
 windows.clans.page [{0}] 部落頁面
@@ -500,8 +500,8 @@ windows.clans.view 瀏覽部落
 windows.clans.join 加入部落
 windows.clans.login 創建並加入部落!
 windows.store.header 商店
-windows.store.spin {0} 旋轉盤開箱
-windows.store.agree 通過此次購買，您將同意 {0} 條款.
+windows.store.spin {0} 旋轉/開箱
+windows.store.agree 通過此次購買, 表示您同意 {0} 條款.
 windows.store.purchase 購買 KR
 windows.store.voucher 兌換代金券
 windows.store.voucherinfo 從指定主播和活動獲取代金券
@@ -513,7 +513,7 @@ windows.store.buyP 選擇顯示名稱以及更多內容
 windows.store.buy 購買物品
 windows.store.wheels 獎輪
 windows.store.unlock 解鎖新武器和物品
-windows.store.amount 你有 {0} KR 剩餘
+windows.store.amount 您的帳戶中有 {0} KR 剩餘
 windows.store.login 用於在商店中購買和解鎖物品!
 windows.store.purchasing 購買中...
 windows.store.unboxed {0} 開箱解鎖了 {1}
@@ -533,7 +533,7 @@ windows.reticle.req 需要 {0} 等級
 windows.dye.header 選擇服裝
 windows.dye.default 默認服裝
 windows.dye.spin 服裝
-windows.changelog.header 變更日誌
+windows.changelog.header 更新日誌
 windows.mods.community.header 社區插件
 windows.mods.community.fav 已收藏插件
 windows.mods.community.new 最新插件
@@ -552,13 +552,13 @@ windows.secondary.req 需要至少 {0} 等級
 windows.advertise.header 廣告
 windows.support.header 支持
 windows.players.header 玩家列表
-windows.players.none 當前沒有玩家在线...
+windows.players.none 當前沒有玩家在線...
 windows.join.header 加入
 windows.join.code 輸入遊戲網址/代碼
 windows.client.header 客戶端
-windows.client.windows Windows 遊戲安裝器
-windows.client.mac MacOS 遊戲安裝器
-windows.client.linux Linux 遊戲安裝器
+windows.client.windows Windows 遊戲客戶端
+windows.client.mac MacOS 遊戲客戶端
+windows.client.linux Linux 遊戲客戶端
 windows.ranked.header 排位賽
 windows.ranked.login 以進行排位賽!
 windows.ranked.level 您至少需要 <span color="black"> {0} 级</span> 以進行排位賽! 當前您的等級是 <span color="black"> {1} 級 </span>.
@@ -573,20 +573,20 @@ thumbnail.upload.error 縮略圖錯誤
 mod.extracting 提取中 {0}/{1}
 mod.disabled 插件已禁用
 mod.error 插件錯誤!
-mod.loading 加載插件中...
+mod.loading 載入插件中...
 mod.invalid 無效插件文件!
 matchmaker.full 滿
-matchmaker.full2 遊戲已滿.
+matchmaker.full2 伺服器已滿.
 matchmaker.updating 遊戲更新中
 matchmaker.invalid 沒有找到遊戲.
-matchmaker.none 服務器已達上限
+matchmaker.none 伺服器已達上限
 adblocker 禁用廣告攔截器以獲得免費的 KR.
-ad-failed 廣告加載失敗. 請稍後重試.
-streamers.views {0} 觀看者
+ad-failed 廣告載入失敗. 請稍後重試.
+streamers.views {0} 個觀看者
 streamers.none 當前沒有 Twitch 直播!
 error.extentions 如果您有任何 (瀏覽器) 插件, 請禁用它們
 error.seek 點此以搜索新的遊戲
-custom.map.upload.limit 失敗. 角色遊戲數據限制為 500k
+custom.map.upload.limit 失敗. 遊戲數據限制總共五十萬個角色.
 custom.map.missing 請選擇至少一種遊戲或地圖
 custom.mode.missing 請選擇至少一種模式
 custom.class.missing 請選擇至少一種角色
@@ -596,19 +596,19 @@ server.config.lives 生命數
 server.config.gameTime 時間 (分鐘)
 server.config.gravMlt 重力
 server.config.tickRI 高速傳送率
-server.config.maxPS 40 名玩家服務器
-server.config.promServ 推廣服務器
+server.config.maxPS 40 名玩家伺服器
+server.config.promServ 推廣伺服器
 server.config.jumpMlt 跳躍力量
-server.config.airStrf 空中 Strafing
+server.config.airStrf 斜行速度
 server.config.deltaMlt 時間倍率
-server.config.strafeSpd Strafe 速度
+server.config.strafeSpd 空中轉向速度
 server.config.fiRat 武器射速
 server.config.reSpd 換彈速度
 server.config.slidTime 滑行時間
 server.config.fixMov 修復移動
 server.config.slidSpd 滑行速度
 server.config.healthMlt 血量倍率
-server.config.impulseMlt 武器后坐力
+server.config.impulseMlt 武器後坐力
 server.config.nameTeam1 隊伍 1 名字
 server.config.nameTeam2 隊伍 2 名字
 server.config.nameTeam3 隊伍 3 名字
@@ -623,7 +623,7 @@ server.config.selTeam 選擇隊伍
 server.config.allowSpect 觀戰
 server.config.killRewards 擊殺獎勵
 server.config.headshotOnly 僅限爆頭模式
-server.config.noSecondary 禁用服務器
+server.config.noSecondary 禁用副武器
 server.config.noStreaks 禁用連殺
 server.config.canSlide 啟用滑行
 server.config.wallJP 牆壁跳躍倍率
@@ -636,30 +636,30 @@ server.config.kCams 玩家死亡視角
 server.config.noReload 無需重裝彈藥
 server.config.private 私人
 server.config.krRewards KR 獎勵
-server.config.forceDefault 強制默認設置
+server.config.forceDefault 強制預設設定
 server.config.warmupTime 熱身時間
-server.config.objtvTime 客觀時間
+server.config.objtvTime 目標時間
 server.config.forceSpawn 自動重生時間
 server.config.scoreLimit 得分限制
 server.config.keepTScore 保留隊伍分數
-server.config.forceC 強制角色模式
-server.config.logTim 遊玩時間(比賽, 跑酷)
-server.config.hitBoxPad 擊中判斷模型倍率
+server.config.forceC 強制角色類別
+server.config.logTim 遊玩時間 (競賽, 跑酷)
+server.config.hitBoxPad 玩家實體模型倍率
 server.config.hpRegen 血量回復
-server.config.disableB 解除地圖邊界
+server.config.disableB 去除地圖邊界
 server.config.throwMel 啟用投擲近戰武器
 server.config.noCosm 禁用飾品
-social.login 登錄/註冊
-social.login.failed 登錄失敗
-social.login.buy 登錄后購買
-social.login.sell 登錄后出售
-social.login.gift 登錄后贈送
-social.login.proccessing 登錄中...
+social.login 登入/註冊
+social.login.failed 登入失敗
+social.login.buy 登入後購買
+social.login.sell 登入後出售
+social.login.gift 登入後贈送
+social.login.proccessing 登入中...
 social.since 自從
-social.user.maps 用戶地圖
-social.user.mods 用戶插件
-social.maps.none 沒有找到此地圖...
-social.mods.none 沒有找到此插件...
+social.user.maps 此用戶地圖
+social.user.mods 此用戶插件
+social.maps.none 未找到此地圖...
+social.mods.none 未找到此插件...
 social.market.price.low 最低價格
 social.market.price.list 輸入價格
 social.market.searching 搜索
@@ -669,19 +669,19 @@ social.market.unlist 下架物品
 social.market.unlisting 物品下架中...
 social.market.posting 發布中...
 social.market.req 需要至少{0}等級
-social.market.cant KR不足以支付
+social.market.cant KR 不足
 social.market.purchase 購買
 social.market.fee 無上架費用
 social.market.failed 失敗. 請稍後重試
 social.market.head 頭部飾品
 social.market.back 背部飾品
 social.market.waist 腰部飾品
-social.market.face 面部飾品
+social.market.face 表情飾品
 social.market.shoe 鞋飾品
 social.market.pet 寵物
 social.market.melee 近戰武器
 social.market.spray 塗鴉物品
-social.market.dye 服裝物品
+social.market.dye 染色物品
 social.market.none 查找無結果
 social.market.login 您必須先登錄.
 social.market.grace {0}秒後生效
@@ -694,54 +694,54 @@ social.market.gift.amount 贈送金額
 social.market.fee.gift 無費用
 social.market.gift 贈送 KR
 social.market.gift.msg 留言
-respawn.auto 自動重生在 {0} 秒內
-custom.host.ranked 排位賽中無法舉辦新遊戲。
-funds.insufficient 經費不充足
-funds.out 您似乎已用完您的 Krunkies.
-custom.passcode.long 密碼太長
-custom.passcode.input 請輸入此服務器密碼以加入遊戲
+respawn.auto 您將會在 {0} 秒內自動重生
+custom.host.ranked 排位賽中無法創建新遊戲。
+funds.insufficient 基金餘額不足
+funds.out 您的 KR 餘額不足
+custom.passcode.long 密碼過長
+custom.passcode.input 請輸入此伺服器密碼以加入遊戲
 custom.tryagain 請重試
 purchase.kr.success 已添加 {0} KR 到您的帳戶
-limited.purchase.ask 您確定希望購買 [{0}] 為 {1} KR?
-limited.purchase.success 已添加 {0} 到您的 存貨
+limited.purchase.ask 您確定您想要購買 [{0}] 為 {1} KR?
+limited.purchase.success 已添加 {0} 到您的存貨
 pretend.exit 再次點擊 [{0}] 以退出
 settings.loaded 設置已加載
 settings.loaded.none 查找無結果.
 account.login.required 您必須先登錄
 account.banned.hack 此賬號已被禁用因作弊.
 account.banned.appeal 如果您想申訴你的禁令，請聯繫:
-account.delete 在这里您可以請求刪除您的帳戶. 如果此請求沒有在14天內撤消，您所有的帳戶數據將會被永久清除.
+account.delete 在這裡您可以請求刪除您的帳戶. 如果此請求沒有在14天內被撤消，您所有的帳戶數據將會被永久清除.
 account.delete.request 您確定希望請求刪除您的帳戶?
 account.delete.cancel 您確定希望取消刪除您的帳戶?
 spin.free.available 免費 KR 可用!
-spin.free.claim 您必須每小時内完成一場比賽以獲得您的免費 KR 轉盤.
-spin.free.disable 在通用設定里可以关闭免费 KR 彈窗.
-mod.reset.0 當您重生後此設置將會生效.
-mod.reset.1 此插件物體將不會重置.
+spin.free.claim 您必須在每小時內完成一場比賽以獲得您的免費 KR 轉盤.
+spin.free.disable 在通用設置里可以關閉此彈窗.
+mod.reset.0 當您復活後此設置將會生效.
+mod.reset.1 此插件物體將不會被重置.
 windows.profile.picture 更改頭像
-stats.assists 助攻數
-stats.nukes 核武使用數
-stats.melee 混戰數
-stats.fistkills 拳擊數
+stats.assists 助攻次數
+stats.nukes 核爆次數
+stats.melee 混戰次數
+stats.fistkills 拳擊次數
 stats.thrownkills 投擲近戰武器次數
 stats.headshots 爆頭次數
-stats.wallbangs 穿擊次數
+stats.wallbangs 穿牆次數
 stats.sprays 塗鴉次數
 windows.host.default.settings 啟用默認設置允許玩家存檔他們的進度及高分
-windows.host.default.commands *房主命令（像: /noclip, /god, /smite, 等等）將會被禁用在此模式中.
-windows.host.rewards 啟用 KR 獎勵將會強制此服務器使用默認設置 & 允許玩家獲得 KR 從此地圖基金:
+windows.host.default.commands *房主指令（像: /noclip, /god, /smite, 等）在此模式中將會被禁用.
+windows.host.rewards 啟用 KR 獎勵將會強制此伺服器使用預設設定 & 允許玩家贏得 KR 從此地圖:
 windows.store.wheels.sub 試試您的運氣以有機會獲得新皮膚!
-windows.store.currency * 這些價格可以從美元轉換到您的當地貨幣以匯率計算由付款提供商或銀行
-windows.store.creator 當您在購買KR時，考慮支持你最喜歡的 Krunker 創作者通過使用他們的創作者代碼.
-windows.chall.customs 自定義遊戲內無法完成挑戰.
-twitch.link 您確定希望連接您的 Twitch 帳戶?
-twitch.unlink 您確定希望取消連接您的 Twitch 帳戶?
-windows.clan.leave 您確定希望離開您的部落?
-windows.clan.delete 您確定希望刪除您的部落?
-windows.clan.kick 您確定希望踢出 {0} 從您的部落?
-windows.store.premium.purchase 您確定希望購買 {0} 天的高級會員?
-windows.playerlist.ban 您確定希望禁止並踢出 {0} 從此遊戲?
-windows.playerlist.flag 您確定希望標籤 {0}?
-windows.playerlist.unflag 您確定希望取消標籤 {0}?
-windows.playerlist.punish 您確定希望對 {0} 採取行動?
+windows.store.currency * 這些價格可以由付款提供者或銀行以匯率計算從美元轉換到您的當地貨幣.
+windows.store.creator 當您在購買KR時，考慮通過使用您最喜歡的 Krunker 內容建立者的代碼來支持他們!
+windows.chall.customs 挑戰不能在自定義遊戲內進行.
+twitch.link 您確定您想連接您的 Twitch 帳戶?
+twitch.unlink 您確定您想取消連接您的 Twitch 帳戶?
+windows.clan.leave 您確定您想離開您的部落?
+windows.clan.delete 您確定您想刪除您的部落?
+windows.clan.kick 您確定您想要踢出 {0} 從您的部落?
+windows.store.premium.purchase 您確定您想要購買 {0} 天的高級會員?
+windows.playerlist.ban 您確定您想要封禁並踢出 {0} 從此遊戲?
+windows.playerlist.flag 您確定您想要標記 {0} 嗎？
+windows.playerlist.unflag 您確定您想要取消標記{0}嗎？
+windows.playerlist.punish 您確定您想要對 {0} 採取行動嗎?
 `;
