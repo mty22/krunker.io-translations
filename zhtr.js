@@ -69,8 +69,8 @@ leaderboard.empty 空房間
 popup.checkpoint 存檔點！
 app.play 點此開始遊戲
 app.spectate 點此觀戰此局遊戲
-app.play.mobile 觸摸以開始遊戲
-app.spectate.mobile 觸摸以觀察賽場
+app.play.mobile 輕觸以開始遊戲
+app.spectate.mobile 輕觸以觀察賽場
 app.play.controller 按下開始鍵以開始遊戲
 app.spectate.controller 按下開始以觀戰此局遊戲
 purchase.error 出現錯誤
@@ -143,7 +143,7 @@ settings.quality.rendGamma 伽馬效果
 settings.quality.lighting 光照效果
 settings.quality.showExplo 顯示爆炸效果
 settings.quality.aspectRatio 螢幕高寬比
-settings.post.header 前期處理
+settings.post.header 後期處理
 settings.post.post 後期處理
 settings.post.bloom 光散射
 settings.post.bloomThreshold 光散射閾值
@@ -386,7 +386,7 @@ windows.servers.header 伺服器
 windows.servers.none 無可加入遊戲...
 windows.servers.host + 創建遊戲
 windows.servers.hide 隱藏已滿的遊戲
-windows.servers.priority 優先显示預設區域
+windows.servers.priority 優先顯示預設區域
 windows.servers.online {0} 人在遊戲中
 windows.servers.social {0} 人在社區中
 windows.loadout.header 更換角色
@@ -444,9 +444,9 @@ windows.controls.chat 文字聊天
 windows.controls.voice 語言聊天
 windows.controls.list 玩家列表
 windows.controls.board 排行榜
-windows.controls.interact 交互
-windows.controls.interactSec 次要交互
-windows.controls.confirm 確認觸動
+windows.controls.interact 互動
+windows.controls.interactSec 次要互動
+windows.controls.confirm 確認互動
 windows.controls.drop 放下(武器/物品)
 windows.controls.wepVis 切換武器可見度
 windows.controls.streak0 一連殺
@@ -490,15 +490,15 @@ windows.theatre.header 影院模式
 windows.theatre.record 啟用錄製
 windows.theatre.key 錄製按鍵
 windows.clans.header 部落
-windows.clans.members ({0}) 個部落成員 
+windows.clans.members ({0}) 個公會成員 
 windows.clans.requests 申請
 windows.clans.requests.none 無申請
-windows.clans.page [{0}] 部落頁面
-windows.clans.create 創建部落
-windows.clans.name 部落名稱
-windows.clans.view 瀏覽部落
-windows.clans.join 加入部落
-windows.clans.login 創建並加入部落!
+windows.clans.page [{0}] 公會頁面
+windows.clans.create 創建公會
+windows.clans.name 公會名稱
+windows.clans.view 瀏覽公會
+windows.clans.join 加入公會
+windows.clans.login 創建並加入公會!
 windows.store.header 商店
 windows.store.spin {0} 旋轉/開箱
 windows.store.agree 通過此次購買, 表示您同意 {0} 條款.
@@ -528,7 +528,7 @@ windows.face.header 選擇面部飾品
 windows.melee.header 選擇近戰武器
 windows.attach.header 選擇附件
 windows.reticle.header 選擇準星
-windows.reticle.unlocked 於 {0} 等級結束
+windows.reticle.unlocked 於 {0} 等級解鎖
 windows.reticle.req 需要 {0} 等級
 windows.dye.header 選擇服裝
 windows.dye.default 默認服裝
@@ -562,9 +562,9 @@ windows.client.linux Linux 遊戲客戶端
 windows.ranked.header 排位賽
 windows.ranked.login 以進行排位賽!
 windows.ranked.level 您至少需要 <span color="black"> {0} 级</span> 以進行排位賽! 當前您的等級是 <span color="black"> {1} 級 </span>.
-windows.ranked.mode.r1v1 單挑
-windows.ranked.mode.r2v2 雙挑
-windows.ranked.mode.r4v4 四挑
+windows.ranked.mode.r1v1 單排
+windows.ranked.mode.r2v2 雙排
+windows.ranked.mode.r4v4 四排
 windows.chall.header 挑戰
 windows.chall.login 以完成挑戰!
 thumbnail.upload.limit 失敗. {0} KB 縮略圖限制
@@ -586,7 +586,7 @@ streamers.views {0} 個觀看者
 streamers.none 當前沒有 Twitch 直播!
 error.extentions 如果您有任何 (瀏覽器) 插件, 請禁用它們
 error.seek 點此以搜索新的遊戲
-custom.map.upload.limit 失敗. 遊戲數據限制總共五十萬個角色.
+custom.map.upload.limit 失敗. 遊戲數據限制總共五十萬個字元.
 custom.map.missing 請選擇至少一種遊戲或地圖
 custom.mode.missing 請選擇至少一種模式
 custom.class.missing 請選擇至少一種角色
@@ -595,11 +595,11 @@ server.config.minPlayers 最小玩家數
 server.config.lives 生命數
 server.config.gameTime 時間 (分鐘)
 server.config.gravMlt 重力
-server.config.tickRI 高速傳送率
+server.config.tickRI 高應答率
 server.config.maxPS 40 名玩家伺服器
 server.config.promServ 推廣伺服器
 server.config.jumpMlt 跳躍力量
-server.config.airStrf 斜行速度
+server.config.airStrf 空中轉向
 server.config.deltaMlt 時間倍率
 server.config.strafeSpd 空中轉向速度
 server.config.fiRat 武器射速
@@ -667,7 +667,7 @@ social.market.listed {0}前上架
 social.market.list 上架物品
 social.market.unlist 下架物品
 social.market.unlisting 物品下架中...
-social.market.posting 發布中...
+social.market.posting 發佈中...
 social.market.req 需要至少{0}等級
 social.market.cant KR 不足
 social.market.purchase 購買
@@ -708,7 +708,7 @@ pretend.exit 再次點擊 [{0}] 以退出
 settings.loaded 設置已加載
 settings.loaded.none 查找無結果.
 account.login.required 您必須先登錄
-account.banned.hack 此賬號已被禁用因作弊.
+account.banned.hack 此帳號因作弊已被禁用..
 account.banned.appeal 如果您想申訴你的禁令，請聯繫:
 account.delete 在這裡您可以請求刪除您的帳戶. 如果此請求沒有在14天內被撤消，您所有的帳戶數據將會被永久清除.
 account.delete.request 您確定希望請求刪除您的帳戶?
@@ -727,20 +727,20 @@ stats.thrownkills 投擲近戰武器次數
 stats.headshots 爆頭次數
 stats.wallbangs 穿牆次數
 stats.sprays 塗鴉次數
-windows.host.default.settings 啟用默認設置允許玩家存檔他們的進度及高分
+windows.host.default.settings 啟用默認設置允許玩家儲存他們的進度及高分
 windows.host.default.commands *房主指令（像: /noclip, /god, /smite, 等）在此模式中將會被禁用.
-windows.host.rewards 啟用 KR 獎勵將會強制此伺服器使用預設設定 & 允許玩家贏得 KR 從此地圖:
-windows.store.wheels.sub 試試您的運氣以有機會獲得新皮膚!
+windows.host.rewards啟用 KR 獎勵將會強制此伺服器使用預設設定並允許玩家從此地圖贏得 KR :
+windows.store.wheels.sub 試試您的運氣，轉動獎輪來獲得贏取新皮膚的機會!
 windows.store.currency * 這些價格可以由付款提供者或銀行以匯率計算從美元轉換到您的當地貨幣.
 windows.store.creator 當您在購買KR時，考慮通過使用您最喜歡的 Krunker 內容建立者的代碼來支持他們!
 windows.chall.customs 挑戰不能在自定義遊戲內進行.
 twitch.link 您確定您想連接您的 Twitch 帳戶?
 twitch.unlink 您確定您想取消連接您的 Twitch 帳戶?
-windows.clan.leave 您確定您想離開您的部落?
-windows.clan.delete 您確定您想刪除您的部落?
-windows.clan.kick 您確定您想要踢出 {0} 從您的部落?
+windows.clan.leave 您確定您想離開您的公會?
+windows.clan.delete 您確定您想刪除您的公會?
+windows.clan.kick 您確定您想從您的公會踢出 {0} ?
 windows.store.premium.purchase 您確定您想要購買 {0} 天的高級會員?
-windows.playerlist.ban 您確定您想要封禁並踢出 {0} 從此遊戲?
+windows.playerlist.ban 您確定您想要從此遊戲封禁並踢出 {0} ?
 windows.playerlist.flag 您確定您想要標記 {0} 嗎？
 windows.playerlist.unflag 您確定您想要取消標記{0}嗎？
 windows.playerlist.punish 您確定您想要對 {0} 採取行動嗎?
