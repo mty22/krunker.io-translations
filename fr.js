@@ -103,7 +103,7 @@ settings.client.gameCap Capture du jeu
 settings.client.experimental Fonctions expérimentales
 settings.client.discordRPC Discord RPC
 settings.client.resourceSwapper Échangeur de ressources
-settings.client.clearCache Vide le Cache
+settings.client.clearCache Vider le Cache
 settings.client.resetSettings Réinitialiser les paramètres du client
 settings.client.acceleratedCanvas Canvas accélérés
 settings.client.angleBackend ANGLE Graphics Backend
@@ -125,7 +125,7 @@ settings.chat.chatTimer Durée des messages
 settings.chat.chatTextOutline Contours du texte
 settings.chat.chatFilter Filtre à obscénités
 settings.quality.header Performance
-settings.quality.updRate Limite des IPS
+settings.quality.updRate Limite des FPS
 settings.quality.rendDst Distance de rendu
 settings.quality.res Résolution
 settings.quality.part Particules
@@ -148,7 +148,7 @@ settings.quality.ambient Ombres ambiantes
 settings.quality.ambientOld Ancien Ombrage (Quand Possible)
 settings.quality.textureAnim Animation des textures
 settings.quality.objectAnim Animation des objets
-settings.quality.screenShake Tremblement de l
+settings.quality.screenShake Tremblement de l'écran
 settings.quality.weaponShine Reflet des armes
 settings.quality.rendGamma Gamma
 settings.quality.lighting Luminosité
