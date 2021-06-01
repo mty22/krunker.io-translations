@@ -34,7 +34,7 @@ generic.off 끄기
 generic.defeat 패배
 generic.victory 승리
 generic.matchover 매치 종료
-generic.matchaband 상대가 게임을 나갔습니다.
+generic.matchaband 상대가 게임을 나갔습니다
 generic.follow 팔로우
 generic.unfollow 언팔로우
 generic.followers 팔로워
@@ -60,11 +60,11 @@ generic.login 로그인
 generic.accuracy 명중률
 player.waiting 플레이어 기다리는 중
 player.died 죽었습니다
-player.killed 나를 죽인 플레이어 -
+player.killed 나를 죽인 플레이어
 player.killstreak {0} on a {1} Kill Streak
-player.inactive 장시간 활동하지 않아 게임에서 제외되었습니다.
+player.inactive 장시간 활동하지 않아 게임에서 제외되었습니다
 player.disconnect 연결 끊기
-timer.end {0}초 후 다음 라운드가 시작합니다.
+timer.end {0}초 후 다음 라운드가 시작합니다
 leaderboard.empty 빈 로비
 popup.checkpoint 체크포인트!
 app.play 플레이하려면 클릭하세요
@@ -75,15 +75,15 @@ app.play.controller 플레이하려면 START를 누르세요
 app.spectate.controller 관전하려면 START를 누르세요
 purchase.error 오류가 발생했습니다
 purchase.error.click 여기</a>를 눌러서 다시 시도하세요!
-purchase.error.limit 일일 거래 한도를 초과했습니다.
+purchase.error.limit 일일 트레이드 한도를 초과했습니다
 settings.reset 초기화
 settings.reset.confirm 설정을 초기화할까요?
 settings.import 불러오기
 settings.export 내보내기
-settings.none 설정을 찾지 못하였습니다.
+settings.none 설정을 찾지 못하였습니다
 settings.backup 설정 백업
 settings.controls.change 조작키 설정
-settings.controls.press 아무 키나 누르십시오.
+settings.controls.press 아무 키나 누르십시오
 settings.local.header 언어 설정 <span id="requiresRestart"><span style="color: #eb5656">*</span>Krunker 재시작 필요</span>
 settings.local.region 기본 지역
 settings.local.lang 언어
@@ -97,6 +97,17 @@ settings.experimental.header 실험적 설정
 settings.experimental.aimFreezeFix 에임 멈춤 현상 해결
 settings.experimental.mouseFlickFix 마우스 순간이동 문제 해결
 settings.experimental.shaderRendering 인스턴스 렌더링
+settings.client.header 클라이언트
+settings.client.unlimitedFrames FPS 무제한
+settings.client.gameCap 게임 캡처
+settings.client.experimental 시험 기능
+settings.client.discordRPC Discord 연동
+settings.client.resourceSwapper 리소스 교체 활성화
+settings.client.clearCache 캐시 삭제하기
+settings.client.resetSettings 클라이언트 설정 초기화
+settings.client.acceleratedCanvas 캔버스 가속
+settings.client.angleBackend ANGLE Graphics Backend
+settings.client.colorProfile 프로필 색 설정
 settings.dev.header 개발자
 settings.dev.forceUpdate 스킨 강제 업데이트
 settings.dev.forceRegen 항상 플레이어 재생성
@@ -163,7 +174,7 @@ settings.interface.scoreboard 구 스코어보드 사용
 settings.interface.oldBrowser 구 서버 탐색기 사용
 settings.interface.rarityanim 희귀도 애니메이션 끄기
 settings.interface.showPfp 프로필 사진 표시
-settings.interface.showTradeMsg 거래 메시지 표시
+settings.interface.showTradeMsg 트레이드 메시지 표시
 settings.interface.hp 동적 HP 막대
 settings.interface.dmgScale 피해량 숫자 크기
 settings.interface.killf 킬로그 표시
@@ -326,13 +337,13 @@ settings.editing.prog.shadow 진행 막대 그림자
 settings.editing.progOffX 진행 막대 좌우 위치
 settings.editing.progOffY 진행 막대 상하 위치
 settings.editing.progRot 진행 막대 회전
-settings.editing.progm.color Charge Bar Color 충전 막대 색상
-settings.editing.progm.opacity Charge Bar Opacity 충전 막대 불투명도
-settings.editing.progm.scale Charge Bar Scale 충전 막대 크기
-settings.editing.progm.shadow Charge Bar Shadow 충전 막대 그림자
-settings.editing.progmOffX Charge Bar X Offset 충전 막대 좌우 위치
-settings.editing.progmOffY Charge Bar Y Offset 충전 막대 상하 위치
-settings.editing.progmRot Charge Bar Rotation 충전 막대 회전
+settings.editing.progm.color 충전 막대 색상
+settings.editing.progm.opacity 충전 막대 불투명도
+settings.editing.progm.scale 충전 막대 크기
+settings.editing.progm.shadow 충전 막대 그림자
+settings.editing.progmOffX 충전 막대 좌우 위치
+settings.editing.progmOffY 충전 막대 상하 위치
+settings.editing.progmRot 충전 막대 회전
 settings.editing.saturation 그래픽 채도
 settings.editing.menuSaturation 인터페이스 채도
 settings.editing.hue 그래픽 색상
@@ -422,7 +433,7 @@ windows.mods.load.header 모드 적용
 windows.mods.publish 모드 업로드
 windows.mods.viewer 뷰어
 windows.account.header 계정
-windows.account.recover 계정 복구는 <a>recovery@yendis.ch</a>로 이메일을 보내십시오.
+windows.account.recover 계정 복구는 <a>recovery@yendis.ch</a>로 이메일을 보내십시오
 windows.class.header 클래스 선택
 windows.controls.header 조작법 바꾸기
 windows.controls.forward 앞
@@ -516,8 +527,8 @@ windows.store.unlock 새 무기 스킨과 아이템을 얻으세요!
 windows.store.amount {0} KR이 계정에 있습니다
 windows.store.login 해서 마켓에서 아이템을 사고파세요!
 windows.store.purchasing 구매 중...
-windows.store.unboxed {0}님이 {1} 아이템을 뽑았습니다.
-windows.trade.header 거래 중
+windows.store.unboxed {0}님이 {1} 아이템을 뽑았습니다
+windows.trade.header 트레이드 중
 windows.scope.header 스코프 선택
 windows.premium.header 프리미엄
 windows.skin.header 스킨 선택
@@ -554,7 +565,7 @@ windows.support.header 고객지원
 windows.players.header 플레이어 목록
 windows.players.none 현재 플레이어가 없습니다...
 windows.join.header 참가
-windows.join.code 게임 URL이나 코드를 입력하세요.
+windows.join.code 게임 URL이나 코드를 입력하세요
 windows.client.header 클라이언트
 windows.client.windows Windows
 windows.client.mac macOS
@@ -571,11 +582,11 @@ thumbnail.upload.limit 썸네일 업로드 실패. 최대 {0}KB까지 가능합�
 image.upload.limit 이미지 업로드 실패. 최대 {0}KB까지 가능합니다.
 thumbnail.upload.error 썸네일 오류
 mod.extracting 모드 추출 중... {0}/{1}
-mod.disabled 모드가 비활성화되어 있습니다.
+mod.disabled 모드가 비활성화되어 있습니다
 mod.error 모드 오류!
 mod.loading 모드 적용 중...
 mod.invalid 유효하지 않은 모드 파일입니다!
-matchmaker.full 가득 찼습니다.
+matchmaker.full 가득 찼습니다
 matchmaker.full2 게임이 가득 찼습니다..
 matchmaker.updating 업데이트중...
 matchmaker.invalid 게임을 찾을 수 없습니다.
@@ -632,12 +643,13 @@ server.config.bDrop 낙차
 server.config.thirdPerson 3인칭
 server.config.requireCaptcha Captcha 요구하기
 server.config.nameTags 이름표 숨기기
-server.config.kCams Kill Cams
+server.config.kCams 처치 영상
 server.config.noReload 재장전 없음
 server.config.private 비공개
 server.config.krRewards KR 보상
 server.config.forceDefault 기본 설정 강제
 server.config.warmupTime 준비 시간
+server.config.gamRounds 라운드
 server.config.objtvTime 거점 변경 시간
 server.config.forceSpawn 강제 리스폰 시간
 server.config.scoreLimit 점수 제한
@@ -649,11 +661,14 @@ server.config.hpRegen HP 재생
 server.config.disableB 경계 비활성화
 server.config.throwMel 근접무기 던지기
 server.config.noCosm 외형 아이템 비활성화
+server.config.tstCmp 테스트 모드
+server.config.limitClasses 클래스 제한
+server.config.tmSize 팀 크기
 social.login 로그인/회원가입
 social.login.failed 로그인 실패
-social.login.buy 구매하려면 로그인하세요.
-social.login.sell 판매하려면 로그인하세요.
-social.login.gift KR을 주려면 로그인하세요.
+social.login.buy 구매하려면 로그인하세요
+social.login.sell 판매하려면 로그인하세요
+social.login.gift KR을 주려면 로그인하세요
 social.login.proccessing 로그인 중...
 social.since 첫 등록일
 social.user.maps 이 유저의 게임
@@ -689,33 +704,33 @@ social.market.sort 필터/정렬
 social.market.filter 검색
 social.market.sort2 정렬
 social.market.price.high 가격 내림차순
-social.trading.submitting 거래 요청 보내는 중...
+social.trading.submitting 트레이드 요청 보내는 중...
 social.market.gift.amount 선물할
 social.market.fee.gift 수수료 없음
 social.market.gift KR 선물하기
 social.market.gift.msg 문자 남기기
 respawn.auto {0}초 후 자동 리스폰
 custom.host.ranked 랭크전 준비중 게임 만들기 불가
-funds.insufficient 자본 불충분
-funds.out KR이 부족한 것으로 보입니다.
+funds.insufficient 돈이 부족합니다
+funds.out KR이 부족합니다
 custom.passcode.long 비밀번호가 너무 길음
-custom.passcode.input 참가를 위해 서버 비밀번호를 입력하세요.
-custom.tryagain 다시 시도해 주십시오.
-purchase.kr.success {0} KR을 계정에 추가하였습니다.
-limited.purchase.ask [{0}]을 {1} KR로 구매하시겠습니까?
-limited.purchase.success {0}을 인벤토리에 추가하였습니다.
-pretend.exit 나가려면 [{0}]을 다시 누르세요.
+custom.passcode.input 참가를 위해 서버 비밀번호를 입력하세요
+custom.tryagain 다시 시도해 주십시오
+purchase.kr.success {0} KR을 계정에 추가하였습니다
+limited.purchase.ask [{0}] 아이템을 {1} KR로 구매하시겠습니까?
+limited.purchase.success {0} 아이템을 인벤토리에 추가하였습니다
+pretend.exit 나가려면 [{0}] 버튼을 다시 누르세요
 settings.loaded 설정 로딩 완료
 settings.loaded.none 설정 입력 존재하지 않음
 account.login.required 로그인 필요
 account.banned.hack 이 계정은 핵 사용으로 차단되었습니다.
 account.banned.appeal 밴에 이의제기를 하려면, 여기에 연락을 취하세요.
 account.delete 계정의 완전삭제를 요청할 수 있고, 14일 내에 요청이 취소되지 않는다면 모든 연관정보가 영구적으로 삭제될 것입니다.
-account.delete.request 계정의 완전삭제를 요청하시겠습니까?
-account.delete.cancel 계정의 완전삭제 요청을 취소하시겠습니까?
+account.delete.request 계정 삭제를 요청하시겠습니까?
+account.delete.cancel 계정 삭제 요청을 취소하시겠습니까?
 spin.free.available 무료 KR 받기!
-spin.free.claim 이 스핀은 한 시간마다 한 매치를 끝낸 후에 얻을 수 있습니다.
-spin.free.disable 이 팝업들은 설정에서 차단할 수 있습니다.
+spin.free.claim 이 스핀은 한 시간마다 한 게임을 끝낸 후에 얻을 수 있습니다!
+spin.free.disable 이 팝업들은 설정에서 차단할 수 있습니다
 mod.reset.0 리스폰 후 적용됩니다.
 mod.reset.1 맵 물체는 새로고침의 영향을 받지 않음
 windows.profile.picture 프로필 사진 변경
@@ -729,25 +744,25 @@ stats.wallbangs 관통 처치
 stats.sprays 스프레이 수
 windows.host.default.settings 기본 설정을 사용하면 플레이어 진행률과 최고 점수를 저장할 수 있습니다
 windows.host.default.commands /noclip, /god, /smite와 같은 호스트 명령어는 비활성화됩니다 
-windows.host.rewards KR 보상을 허용하면 서버 내에서 기본 설정을 강제합니다 & 맵 자본에서 KR을 벌 수 있게 합니다
+windows.host.rewards KR 보상을 허용하면 서버 내에서 기본 설정을 강제하고 플레이어들이 맵에서 KR을 받을 수 있습니다
 windows.store.wheels.sub 스핀을 돌려 운을 시험하고 새 스킨을 얻을 기회를 노려보세요!
-windows.store.currency * 미국 달러(USD)로 표시된 가격은 결제 제공업체나 은행에서 정한 환율에 따라 현지 통화로 환전될 수 있습니다.
-windows.store.creator 당신이 가장 좋아하는 크리에이터를 위해 크리에이터 코드를 쓰는 것을 고려하세요
+windows.store.currency * 미국 달러(USD)로 표시된 가격은 결제 제공업체나 은행에서 정한 환율에 따라 현지 통화로 환전될 수 있습니다
+windows.store.creator 당신이 가장 좋아하는 크리에이터를 위해 크리에이터 코드를 사용하세요
 windows.chall.customs 사용자 지정 게임에서는 챌린지를 진행할 수 없습니다
 twitch.link Twitch 계정을 연동하겠습니까?
 twitch.unlink Twitch 계정의 연동을 해제하시겠습니까?
 windows.clan.leave 클랜을 탈퇴하시겠습니까?
 windows.clan.delete 클랜을 해체하시겠습니까?
-windows.clan.kick {0}을 클랜에서 추방하시겠습니까?
+windows.clan.kick {0}님을 클랜에서 추방하시겠습니까?
 windows.store.premium.purchase {0}일 치의 프리미엄 서비스를 구매하시겠습니까?
-windows.playerlist.ban {0}을 이 게임에서 밴하시겠습니까?
-windows.playerlist.flag {0}에게 해커 태그를 지정하시겠습니까?
-windows.playerlist.unflag {0}의 해커 태그를 제거하시겠습니까?
-windows.playerlist.punish {0}에 대해 조치를 취하시겠습니까?
+windows.playerlist.ban {0}님을 이 게임에서 밴하시겠습니까?
+windows.playerlist.flag {0}님에게 해커 태그를 지정하시겠습니까?
+windows.playerlist.unflag {0}님의 해커 태그를 제거하시겠습니까?
+windows.playerlist.punish {0}님에 대해 조치를 취하시겠습니까?
 item.view.open 모델 뷰어 열기
 item.view.more 더 많은 정보
 item.sell.cant 이 아이템은 판매할 수 없습니다
-item.sell.quick {0}을(를) 빠른 판매할까요?
+item.sell.quick {0} 아이템을 빠른 판매할까요?
 social.profile.stats 전반적 스탯
 social.profile.class 클래스 스탯
 social.profile.sales 판매
@@ -764,14 +779,16 @@ social.search 검색 결과
 social.market.stats.rare 희귀 아이템
 social.market.stats.circulation 유통 개수
 social.market.stats.units 개가 전 세계에 있음
-social.trades.in 수신됨
-social.trades.in.head 수신된 거래 요청 ({0})
-social.trades.out 발송됨
-social.trades.out.head 발송된 거래 요청 ({0})
+social.trades.in 받음
+social.trades.in.head 받은 트레이드 요청 ({0})
+social.trades.out 보냄
+social.trades.out.head 보낸 트레이드 요청 ({0})
 social.trades.history 기록
-social.trades.history.head 거래 기록 ({0})
+social.trades.history.head 트레이드 기록 ({0})
 social.trades.decline 모두 거절
-social.trades.message 설정에서 거래 메시지를 활성화하세요
-social.trades.warning 이 거래에서 아무런 아이템도 얻을 수 없습니다!
-social.trades.accept 정말 이 거래를 수락할까요?
+social.trades.message 설정에서 트레이드 메시지를 활성화하세요
+social.trades.warning 이 트레이드에서는 아무런 아이템도 얻을 수 없습니다!
+social.trades.accept 정말 이 트레이드를 수락하시겠습니까?
+stats.airdrops KR 패키지
+settings.quality.flapAnim 스나이퍼 스코프 덮개 애니메이션
 `;

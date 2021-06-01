@@ -97,6 +97,17 @@ settings.experimental.header Expérimental
 settings.experimental.aimFreezeFix Correction du bug de visée bloquée
 settings.experimental.mouseFlickFix Correction des accoups de la souris
 settings.experimental.shaderRendering Instanciation géométrique
+settings.client.header Client
+settings.client.unlimitedFrames FPS illimités
+settings.client.gameCap Capture du jeu
+settings.client.experimental Fonctions expérimentales
+settings.client.discordRPC Discord RPC
+settings.client.resourceSwapper Échangeur de ressources
+settings.client.clearCache Vider le Cache
+settings.client.resetSettings Réinitialiser les paramètres du client
+settings.client.acceleratedCanvas Canvas accélérés
+settings.client.angleBackend ANGLE Graphics Backend
+settings.client.colorProfile Profil de couleur
 settings.dev.header Développeur
 settings.dev.forceUpdate Forcer la mise à jour des skins
 settings.dev.forceRegen Toujours régénérer le joueur
@@ -114,7 +125,7 @@ settings.chat.chatTimer Durée des messages
 settings.chat.chatTextOutline Contours du texte
 settings.chat.chatFilter Filtre à obscénités
 settings.quality.header Performance
-settings.quality.updRate Limite des IPS
+settings.quality.updRate Limite des FPS
 settings.quality.rendDst Distance de rendu
 settings.quality.res Résolution
 settings.quality.part Particules
@@ -137,7 +148,7 @@ settings.quality.ambient Ombres ambiantes
 settings.quality.ambientOld Ancien Ombrage (Quand Possible)
 settings.quality.textureAnim Animation des textures
 settings.quality.objectAnim Animation des objets
-settings.quality.screenShake Tremblement de l
+settings.quality.screenShake Tremblement de l'écran
 settings.quality.weaponShine Reflet des armes
 settings.quality.rendGamma Gamma
 settings.quality.lighting Luminosité
@@ -638,6 +649,7 @@ server.config.private Privé
 server.config.krRewards KR Rewards
 server.config.forceDefault Forcer les paramètres par défaut
 server.config.warmupTime Temps d’échauffement
+server.config.gamRounds Manches
 server.config.objtvTime Temps d'objectif
 server.config.forceSpawn Temps de réapparition automatique
 server.config.scoreLimit Limite de score
@@ -649,6 +661,9 @@ server.config.hpRegen Régénération de la santé
 server.config.disableB Désactiver les bordures
 server.config.throwMel Jet d'armes de mêlée
 server.config.noCosm Désactiver les cosmétiques
+server.config.tstCmp Mode de Test
+server.config.limitClasses Limiter les classes
+server.config.tmSize Taille d'équipe
 social.login Connexion / Inscription
 social.login.failed Connexion échouée
 social.login.buy Connectez-vous pour acheter
@@ -774,4 +789,6 @@ social.trades.decline Refuser tout
 social.trades.message ACTIVER LES MESSAGES D'ÉCHANGES DANS LES PARAMÈTRES
 social.trades.warning Vous ne recevez rien en échange!
 social.trades.accept Êtes-vous sûr de vouloir accepter cette offre?
+stats.airdrops Paquets de KR
+settings.quality.flapAnim Animation du rabat de sniper
 `;

@@ -97,6 +97,17 @@ settings.experimental.header Експериментални настройки
 settings.experimental.aimFreezeFix Поправи замръзването на прицелването
 settings.experimental.mouseFlickFix Поправи Flick-ването на мишката
 settings.experimental.shaderRendering Рендиране на инстацията
+settings.client.header Client
+settings.client.unlimitedFrames Unlimited FPS
+settings.client.gameCap Game Capture
+settings.client.experimental Experimental Features
+settings.client.discordRPC Discord RPC
+settings.client.resourceSwapper Resource Swapper
+settings.client.clearCache Clear Cache
+settings.client.resetSettings Reset Client Settings
+settings.client.acceleratedCanvas Accelerated Canvas
+settings.client.angleBackend ANGLE Graphics Backend
+settings.client.colorProfile Color Profile
 settings.dev.header Девелопър
 settings.dev.forceUpdate Принудително актуализиране на скинове
 settings.dev.forceRegen Винаги регенерирайте играча
@@ -574,41 +585,41 @@ mod.extracting extracting {0}/{1}
 mod.disabled mods disabled
 mod.error mod error!
 mod.loading loading mod...
-mod.invalid invalid mod file!
-matchmaker.full FULL
-matchmaker.full2 Game is full.
-matchmaker.updating GAME UPDATING
-matchmaker.invalid Game not found.
-matchmaker.none Servers are at Max Capacity
-adblocker Disable your ad blocker to receive free Krunkies.
+mod.invalid невалиден мод файл!
+matchmaker.full ПЪЛНА
+matchmaker.full2 Играта е пълна.
+matchmaker.updating АКТУАЛИЗИРАНЕ НА ИГРАТА
+matchmaker.invalid Играта не е намерена.
+matchmaker.none Сървърите са на максимален капацитет
+adblocker Деактивирайте вашия рекламен блокер, за да получите безплатни Krunkies.
 ad-failed Ad Failed to Load. Try again.
 streamers.views {0} viewers
 streamers.none No active streams!
 error.extentions If you have any extensions, disable them
 error.seek Try seeking a new game by clicking
 custom.map.upload.limit Failed. 500k Character Game Data Limit
-custom.map.missing Select at least one Game or Map
+custom.map.missing Изберете поне една игра или карта
 custom.mode.missing Select at least one Mode
-custom.class.missing Select at least one Class
+custom.class.missing Изберете поне един клас
 server.config.maxPlayers Players
 server.config.minPlayers Min Players
 server.config.lives Lives
 server.config.gameTime Minutes
 server.config.gravMlt Gravity
-server.config.tickRI High Tickrate
-server.config.maxPS 40 Player Server
+server.config.tickRI Висок тикрейт
+server.config.maxPS Сървър за 40 играчи
 server.config.promServ Promote Server
 server.config.jumpMlt Jump Force
 server.config.airStrf Air Strafing
 server.config.deltaMlt Time Scale
 server.config.strafeSpd Strafe Speed
 server.config.fiRat Fire Rate
-server.config.reSpd Reload Speed
+server.config.reSpd Скорост на презареждане
 server.config.slidTime Slide Time
 server.config.fixMov Fixed Movement
-server.config.slidSpd Slide Speed
+server.config.slidSpd Скорост на плъзгане
 server.config.healthMlt Health Multiplier
-server.config.impulseMlt Weapon Impulse
+server.config.impulseMlt Импулс на оръжие
 server.config.nameTeam1 Team 1 Name
 server.config.nameTeam2 Team 2 Name
 server.config.nameTeam3 Team 3 Name
@@ -619,15 +630,15 @@ server.config.t2Dmg Team 2 Damage
 server.config.t3Dmg Team 3 Damage
 server.config.t4Dmg Team 4 Damage
 server.config.t5Dmg Team 5 Damage
-server.config.selTeam Select Team
-server.config.allowSpect Spectating
+server.config.selTeam Избиране на отбор
+server.config.allowSpect Наблюдение
 server.config.killRewards Kill Rewards
 server.config.headshotOnly Headshots Only
 server.config.noSecondary Disable Secondaries
 server.config.noStreaks Disable Streaks
-server.config.canSlide Sliding
-server.config.wallJP Wall Jumping Power
-server.config.autoJump Auto Jump
+server.config.canSlide Плъзгане
+server.config.wallJP Сила на скок върху стената
+server.config.autoJump Автоматичен скок
 server.config.bDrop Bullet Drop
 server.config.thirdPerson 3rd Person
 server.config.requireCaptcha Require Captcha
@@ -638,6 +649,7 @@ server.config.private Private
 server.config.krRewards KR Rewards
 server.config.forceDefault Force Default Settings
 server.config.warmupTime Warmup Time
+server.config.gamRounds Rounds
 server.config.objtvTime Objective Time
 server.config.forceSpawn Auto Respawn Time
 server.config.scoreLimit Score Limit
@@ -649,6 +661,9 @@ server.config.hpRegen Health Regen
 server.config.disableB Disable Borders
 server.config.throwMel Throwable Melees
 server.config.noCosm Disable Cosmetics
+server.config.tstCmp Test Mode
+server.config.limitClasses Limit Classes
+server.config.tmSize Team Size
 social.login Login/Register
 social.login.failed Login Failed
 social.login.buy Login to Buy
@@ -665,8 +680,8 @@ social.market.price.list List Price in
 social.market.searching Searching
 social.market.listed listed {0} ago
 social.market.list List Item
-social.market.unlist Unlist
-social.market.unlisting Unlisting Item...
+social.market.unlist Отписване
+social.market.unlisting Премахване на елемента от пазарът ...
 social.market.posting Posting Item...
 social.market.req lvl {0} required
 social.market.cant Can't Afford
@@ -678,16 +693,16 @@ social.market.back Back Item
 social.market.waist Waist Item
 social.market.face Face Item
 social.market.shoe Shoe Item
-social.market.pet Pet Item
+social.market.pet Домашен любимец елементи
 social.market.melee Melee Item
-social.market.spray Spray Item
+social.market.spray Спрей елементи
 social.market.dye Dye Item
-social.market.none No Items Found
-social.market.login You must be logged in.
+social.market.none Няма намерени елементи
+social.market.login Трябва да сте свързани във вашият акаунт
 social.market.grace ready in {0}
 social.market.sort Filter/Sort
-social.market.filter Search
-social.market.sort2 Sort
+social.market.filter Търсене
+social.market.sort2 Да сортира
 social.market.price.high Highest Price
 social.trading.submitting Submitting Offer...
 social.market.gift.amount Gift Amount in
@@ -713,35 +728,67 @@ account.banned.appeal If you want to appeal your ban, contact:
 account.delete You may request to delete your account, if the request is not cancelled within 14 days the account and all associated data will be permanently removed.
 account.delete.request Are you sure you want to request an account deletion?
 account.delete.cancel Are you sure you want to cancel account deletion?
-spin.free.available FREE KR AVAILABLE!
-spin.free.claim This spin is only available once every 1 hour
+spin.free.available БЕЗПЛАТНИ KR РАЗПОЛАГАЕМ!
+spin.free.claim Това завъртане е достъпно само веднъж на всеки 1 час
 spin.free.disable These Popups can be disabled in General Settings
-mod.reset.0 Will take effect after respawning.
-mod.reset.1 Map Objects dont get reset
-windows.profile.picture Change Picture
-stats.assists Assists
+mod.reset.0 Ще влезе в ефект след възраждането.
+mod.reset.1 Обектите на играта не се нулират
+windows.profile.picture Промяна на картината
+stats.assists Асистенции
 stats.nukes Nukes
-stats.melee Melee
+stats.melee Нож
 stats.fistkills Beatdowns
-stats.thrownkills Bullseyes
+stats.thrownkills Меле
 stats.headshots Headshots
 stats.wallbangs Wallbangs
-stats.sprays Sprays Placed
+stats.sprays Поставени спрейове
 windows.host.default.settings Enabling Default Settings allows for storing Player Progress and Highscores
 windows.host.default.commands *Host Commands are Disabled in this mode: /noclip /god /smite etc
 windows.host.rewards Enabling KR Rewards forces the Server to use Default Settings & allows players to earn KR from the map funds:
 windows.store.wheels.sub Try your luck and spin for a chance to win some new skins!
 windows.store.currency * Prices in USD can be converted to your local currency at an exchange rate defined by the payment provider or bank
 windows.store.creator Consider Support your favorite Content Creator by using a Creator Code
-windows.chall.customs Challenges can't be completed in Custom Matches
+windows.chall.customs Предизвикателствата не могат да бъдат изпълнени в персонализирани игри
 twitch.link Сигурни ли сте че искате да си свържете профила в twitch?
-twitch.unlink Are you sure you want to unlink your twitch account?
-windows.clan.leave Are you sure you want to leave the clan?
-windows.clan.delete Are you sure you want to delete the clan?
-windows.clan.kick Are you sure you want kick {0} from the clan?
-windows.store.premium.purchase Are you sure you want to purchase {0} days of Premium?
-windows.playerlist.ban Are you sure you want ban {0} from this game?
-windows.playerlist.flag Are you sure you want to Flag {0}?
-windows.playerlist.unflag Are you sure you want to Unflag {0}?
-windows.playerlist.punish Are you sure you want to take action on {0}?
+twitch.unlink Сигурни ли сте че искате да прекратите връзката на вашия профила в twitch?
+windows.clan.leave Сигурни ли сте че искате да напуснете клана?
+windows.clan.delete Сигурни ли сте че  да изтриете клана?
+windows.clan.kick Сигурни ли сте че искате да изгоните {0} от клана?
+windows.store.premium.purchase Сигурни ли сте че искате да купите {0} дни Premium?
+windows.playerlist.ban Сигурни ли сте че искате да забраните {0} от тази игра?
+windows.playerlist.flag Сигурни ли сте че искате да сигнализирате {0}?
+windows.playerlist.unflag Сигурни ли сте че искате да премахнете вашият сигнал от {0}?
+windows.playerlist.punish Сигурни ли сте че искате да предприемете действия срещу {0}?
+item.view.open Open Model Viewer
+item.view.more More Information
+item.sell.cant Item cant be sold.
+item.sell.quick Are you sure you want to Quick Sell {0}?
+social.profile.stats Overall Stats
+social.profile.class Class Stats
+social.profile.sales Sales
+social.profile.sales.market Market Sales
+social.profile.skins Skins [{0}]
+social.profile.skins.none No published Skins from this user
+social.profile.games Games [{0}]
+social.profile.games.none No published Games from this user
+social.profile.assets Assets [{0}]
+social.profile.assets.none No published Assets from this user
+social.profile.mods Mods [{0}]
+social.profile.mods.none No published Mods from this user
+social.search Search Results
+social.market.stats.rare Rarest Items
+social.market.stats.circulation In Circulation
+social.market.stats.units units Worldwide
+social.trades.in Incoming
+social.trades.in.head Incoming Offers ({0})
+social.trades.out Outgoing
+social.trades.out.head Outgoing Offers ({0})
+social.trades.history History
+social.trades.history.head Trade History ({0})
+social.trades.decline Decline All
+social.trades.message ENABLE TRADE MESSAGES IN SETTINGS
+social.trades.warning You get no items from this trade!
+social.trades.accept Are you sure you want to accept this offer?
+stats.airdrops KR-Packages
+settings.quality.flapAnim Sniper Flap Animation
 `;

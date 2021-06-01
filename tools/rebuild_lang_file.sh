@@ -25,11 +25,11 @@ if [ "$langfile" == "$basefile" ]; then
 fi
 
 # Confirmation before moving forward..
-read -p "Please note that if changes are detected, $langfile will be re-built, meaning any changes you've made will be lost (unless committed). Happy to proceed? [y/n] " verify
-if [[ "$verify" != [yY] ]]; then
-	echo "Aborting.."
-        exit 1
-fi
+#read -p "Please note that if changes are detected, $langfile will be re-built, meaning any changes you've made will be lost (unless committed). Happy to proceed? [y/n] " verify
+#if [[ "$verify" != [yY] ]]; then
+#	echo "Aborting.."
+#        exit 1
+#fi
 
 # Temp work space..
 cat /dev/null > $newlangfile

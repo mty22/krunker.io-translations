@@ -97,6 +97,17 @@ settings.experimental.header Experimental
 settings.experimental.aimFreezeFix Aim Freeze Fix
 settings.experimental.mouseFlickFix Mouse Flick Fix
 settings.experimental.shaderRendering Instance Rendering
+settings.client.header Client
+settings.client.unlimitedFrames Unlimited FPS
+settings.client.gameCap Game Capture
+settings.client.experimental Experimental Features
+settings.client.discordRPC Discord RPC
+settings.client.resourceSwapper Resource Swapper
+settings.client.clearCache Clear Cache
+settings.client.resetSettings Reset Client Settings
+settings.client.acceleratedCanvas Accelerated Canvas
+settings.client.angleBackend ANGLE Graphics Backend
+settings.client.colorProfile Color Profile
 settings.dev.header Developer
 settings.dev.forceUpdate Force Update Skins
 settings.dev.forceRegen Always Regenerate Player
@@ -131,7 +142,7 @@ settings.quality.shadowsDynamic Dynamic Shadows
 settings.quality.trails Bullet Trails
 settings.quality.yourTrails Your Trails
 settings.quality.mflash Muzzle Flash
-settings.quality.flap Sniper Flap
+settings.quality.flap Show Sniper Flap
 settings.quality.lowSpec Low Spec
 settings.quality.ambient Ambient Shading
 settings.quality.ambientOld Old Shading (When Possible)
@@ -501,10 +512,10 @@ windows.clans.join Join Clan
 windows.clans.login to create and join a clan!
 windows.store.header Store
 windows.store.spin {0} Spin
-windows.store.agree By purchasing you agree to the {0}Terms
+windows.store.agree By purchasing you agree to the {0}Terms & Conditions
 windows.store.purchase Purchase KR
 windows.store.voucher Redeem Voucher
-windows.store.voucherinfo Get Vouchers from certain Streamers & Events
+windows.store.voucherinfo Redeem Vouchers from certain Streams & Game Events
 windows.store.market Marketplace
 windows.store.market2 Krunker Market
 windows.store.premium Purchase Premium
@@ -638,6 +649,7 @@ server.config.private Private
 server.config.krRewards KR Rewards
 server.config.forceDefault Force Default Settings
 server.config.warmupTime Warmup Time
+server.config.gamRounds Rounds
 server.config.objtvTime Objective Time
 server.config.forceSpawn Auto Respawn Time
 server.config.scoreLimit Score Limit
@@ -649,6 +661,9 @@ server.config.hpRegen Health Regen
 server.config.disableB Disable Borders
 server.config.throwMel Throwable Melees
 server.config.noCosm Disable Cosmetics
+server.config.tstCmp Test Mode
+server.config.limitClasses Limit Classes
+server.config.tmSize Team Size
 social.login Login/Register
 social.login.failed Login Failed
 social.login.buy Login to Buy
@@ -732,7 +747,7 @@ windows.host.default.commands *Host Commands are Disabled in this mode: /noclip 
 windows.host.rewards Enabling KR Rewards forces the Server to use Default Settings & allows players to earn KR from the map funds:
 windows.store.wheels.sub Try your luck and spin for a chance to win some new skins!
 windows.store.currency * Prices in USD can be converted to your local currency at an exchange rate defined by the payment provider or bank
-windows.store.creator Consider Support your favorite Content Creator by using a Creator Code
+windows.store.creator Consider Supporting your favorite Content Creator by using a Creator Code
 windows.chall.customs Challenges can't be completed in Custom Matches
 twitch.link Are you sure you want to link a twitch account?
 twitch.unlink Are you sure you want to unlink your twitch account?
@@ -774,4 +789,6 @@ social.trades.decline Decline All
 social.trades.message ENABLE TRADE MESSAGES IN SETTINGS
 social.trades.warning You get no items from this trade!
 social.trades.accept Are you sure you want to accept this offer?
+stats.airdrops KR-Packages
+settings.quality.flapAnim Sniper Flap Animation
 `;

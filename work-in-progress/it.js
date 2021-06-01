@@ -97,6 +97,17 @@ settings.experimental.header Sperimentale
 settings.experimental.aimFreezeFix Blocco dell'aim fix
 settings.experimental.mouseFlickFix Flick del mouse Fix
 settings.experimental.shaderRendering Rendering instantaneo
+settings.client.header Client
+settings.client.unlimitedFrames Unlimited FPS
+settings.client.gameCap Game Capture
+settings.client.experimental Experimental Features
+settings.client.discordRPC Discord RPC
+settings.client.resourceSwapper Resource Swapper
+settings.client.clearCache Clear Cache
+settings.client.resetSettings Reset Client Settings
+settings.client.acceleratedCanvas Accelerated Canvas
+settings.client.angleBackend ANGLE Graphics Backend
+settings.client.colorProfile Color Profile
 settings.dev.header Sviluppatori
 settings.dev.forceUpdate Aggiornamento Skin
 settings.dev.forceRegen Rigenera sempre il giocatore
@@ -638,6 +649,7 @@ server.config.private Private
 server.config.krRewards KR Rewards
 server.config.forceDefault Force Default Settings
 server.config.warmupTime Warmup Time
+server.config.gamRounds Rounds
 server.config.objtvTime Objective Time
 server.config.forceSpawn Auto Respawn Time
 server.config.scoreLimit Score Limit
@@ -649,6 +661,9 @@ server.config.hpRegen Health Regen
 server.config.disableB Disable Borders
 server.config.throwMel Throwable Melees
 server.config.noCosm Disable Cosmetics
+server.config.tstCmp Test Mode
+server.config.limitClasses Limit Classes
+server.config.tmSize Team Size
 social.login Login/Register
 social.login.failed Login Failed
 social.login.buy Login to Buy
@@ -774,4 +789,6 @@ social.trades.decline Decline All
 social.trades.message ENABLE TRADE MESSAGES IN SETTINGS
 social.trades.warning You get no items from this trade!
 social.trades.accept Are you sure you want to accept this offer?
+stats.airdrops KR-Packages
+settings.quality.flapAnim Sniper Flap Animation
 `;

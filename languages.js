@@ -12,4 +12,6 @@ module.exports.langNames = {
     "zh": "Chinese",
     "pl": "Polish",
     "hi": "Hindi",
+    "ru": "Russian",
+    "it": "Italian",
 }
