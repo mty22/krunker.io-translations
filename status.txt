@@ -1,13 +1,14 @@
-30/MAY/2021 update - 
+06/JUN/2021 update - 
 
 Current statuses of languages in-game (these are prioritised):
 
 Spanish - Up to date (v3.8.6)
-German - Updates required (v3.8.2)
+German - Updates required
 Korean - Up to date (v3.8.6)
 Portuguese - Updates required (v3.8.2)
 Japanese - Up to date (v3.8.6)
 Simplified Chinese - Up to date (v3.8.6)
+Traditional Chinese - Updates required (v3.8.2)
 French - Up to date (v3.8.6)
 Finnish - Updates required (far behind, last update: pre-v3.8.0)
 Dutch - Updates required (last update: v3.8.2)
@@ -17,6 +18,4 @@ Russian - Pull request pending review from native speaker (v3.8.6) -- https://gi
 
 New langauges pending:
 
-Traditional Chinese - Pull request pending review from native speaker - https://github.com/mty22/krunker.io-translations/pull/138
 Tagalog - Pull request pending review from native speaker - https://github.com/mty22/krunker.io-translations/pull/170
-Italian - Merged - pending being added to game.
