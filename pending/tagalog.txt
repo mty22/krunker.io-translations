@@ -1,7 +1,9 @@
 file: ta.js
 pull request: https://github.com/mty22/krunker.io-translations/pull/170
 
+--- Main Team ---
 
+Random:
 discord: ｒａｎｄｏｍ#0416; IGN: iNotT
 
 Daje:
@@ -9,3 +11,14 @@ discord: daje1097#1298; IGN: daje1097
 
 Jour: 
 discord: astagoth#4777; IGN: Jourdanais
+
+--- Proofreading and Reviews ---
+
+Goos:
+discord: Goos#6835; IGN: StarRayX
+
+Navsy:
+discord:-Nav'sy-17#0887; IGN: -Navsy-17
+
+Tommy:
+(still waiting if this person allows to include name here)
