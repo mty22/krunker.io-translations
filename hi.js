@@ -287,7 +287,7 @@ settings.mobile.aimsensY लक्ष्य Y-संवेदनशीलता
 settings.mobile.vibration कंपन
 settings.mobile.gradSpeed ग्रॅजुअल स्पीड
 settings.mobile.invert इन्वर्ट Y-एक्सिस
-settings.audio.header आवाज
+settings.audio.header आवाज़
 settings.audio.sound मास्टर वॉल्यूम
 settings.audio.ambient एम्बियेन्ट वॉल्यूम
 settings.audio.voice वाणी वॉल्यूम
@@ -424,7 +424,7 @@ windows.loadout.stat किलकार्ड स्टैटक
 windows.loadout.flag देश का झंडा
 windows.mods.drop यहाँ मॉड फ़ाइल ड्रॉप या क्लिक करें
 windows.mods.paste पेस्ट मॉड URL
-windows.mods.load मॉड लोड करे
+windows.mods.load मॉड लोड करें
 windows.mods.none कोई मॉड नहीं मिला
 windows.mods.header मॉड मैनेजर
 windows.mods.guide मॉड गाइड
@@ -471,7 +471,7 @@ windows.controls.premium2 खुद को नष्ट करे
 windows.controls.premium3 स्माइट
 windows.controls.reset स्थान रिसेट करे (रेस & पार्कोर)
 windows.controls.pretend खेल छुपाए
-windows.host.header कस्टम खेल होस्ट करे
+windows.host.header कस्टम खेल होस्ट करें
 windows.host.maps सर्वर सेटअप
 windows.host.cmaps सामुदायिक खेल
 windows.host.raw रॉ गेम डेटा
@@ -549,14 +549,14 @@ windows.mods.community.header सामुदायिक मोड्स
 windows.mods.community.fav आपका पसंदीदा
 windows.mods.community.new नए मोड्स
 windows.mods.community.hot हॉट
-windows.mods.community.name मोड़ का नाम
-windows.mods.community.none मोड़ नहीं मिला
-windows.publish.mod.header मोड़ को प्रकाशित कीजिए
+windows.mods.community.name मॉड का नाम
+windows.mods.community.none मॉड नहीं मिला
+windows.publish.mod.header मॉड को प्रकाशित कीजिए
 windows.publish.mod.thumbnail नो थंबनेल
 windows.publish.mod.name मोड़ का नाम
-windows.publish.mod.paste मोड़ Url
+windows.publish.mod.paste मॉड Url
 windows.publish.mod.update प्रकाशित/अपडेट
-windows.publish.mod.login मोड़ बनाने और अपलोड करने के लिए!
+windows.publish.mod.login मॉड बनाने और अपलोड करने के लिए!
 windows.secondary.header सेकेंडरी चुने
 windows.secondary.unlocked उनलॉक्ड
 windows.secondary.req {0} पर अनलॉक हो जाता है
@@ -583,10 +583,10 @@ image.upload.limit Failed. {0}kb इमेज  सीमा
 thumbnail.upload.error थंबनेल एरर
 mod.extracting extracting {0}/{1}
 mod.disabled मोड्स  डिसेबल्ड
-mod.error मोड़ एरर!
-mod.loading मोड़ लोड हो रहा हे ...
-mod.invalid इनवैलिड मोड़ फाइल !
-matchmaker.full फूल
+mod.error मॉड एरर!
+mod.loading मॉड लोड हो रहा हे ...
+mod.invalid इनवैलिड मॉड फाइल !
+matchmaker.full फुल
 matchmaker.full2 खेल भरा हुआ है .
 matchmaker.updating खेल अपडेट हो रहा हे
 matchmaker.invalid खेल नहीं मिला.
@@ -603,7 +603,7 @@ custom.mode.missing कम से कम एक  mode चुनें
 custom.class.missing कम से कम एक क्लास  चुनें
 server.config.maxPlayers प्लेयर्स
 server.config.minPlayers न्यूनतम प्लेयर्स
-server.config.lives जिन्दगिया
+server.config.lives ज़िंदगियाँ
 server.config.gameTime मिनट्स
 server.config.gravMlt ग्रेविटी
 server.config.tickRI ज्यादा टिक रेट
@@ -737,11 +737,11 @@ windows.profile.picture प्रोफाइल पिक्चर बदले
 stats.assists असिस्ट
 stats.nukes न्यूक
 stats.melee चाकू किल
-stats.fistkills हाथो द्वारा किये गए किल
+stats.fistkills हाँथों द्वारा किये गए किल
 stats.thrownkills फेंके गए चाक़ू द्वारा किल
 stats.headshots हेड शाट
 stats.wallbangs वॉल बैंग
-stats.sprays स्प्रै काउन्ट
+stats.sprays स्प्रे काउन्ट
 windows.host.default.settings मैप के सेटिंग्स को सक्षम करने से प्लेयर्स के डाटा (हाइ स्कॉर्ज़) को सेव किया जा सकता है
 windows.host.default.commands *होस्ट कमांड (/ noclip, /god, /smite, आदि) इस मोड में काम नहीं करेंगे
 windows.host.rewards यदि आप KR रिवार्ड्स को सक्षम करते है, तो सारे खिलाड़ियों को डिफ़ॉल्ट सेटिंग्स पर खेलना पड़ेगा और वे आपके मैप के खाते से KR भी जीत सकते है:
