@@ -97,6 +97,17 @@ settings.experimental.header 實驗性功能
 settings.experimental.aimFreezeFix 瞄準凍結修復
 settings.experimental.mouseFlickFix 滑鼠過激修正
 settings.experimental.shaderRendering 即時渲染
+settings.client.header Client
+settings.client.unlimitedFrames Unlimited FPS
+settings.client.gameCap Game Capture
+settings.client.experimental Experimental Features
+settings.client.discordRPC Discord RPC
+settings.client.resourceSwapper Resource Swapper
+settings.client.clearCache Clear Cache
+settings.client.resetSettings Reset Client Settings
+settings.client.acceleratedCanvas Accelerated Canvas
+settings.client.angleBackend ANGLE Graphics Backend
+settings.client.colorProfile Color Profile
 settings.dev.header 開發者
 settings.dev.forceUpdate 強制刷新皮膚
 settings.dev.forceRegen 永遠強制性復活玩家
@@ -343,7 +354,7 @@ settings.editing.depth 深度圖模式
 settings.editing.green 綠幕模式
 settings.editing.tracercol 顯示彈道軌跡
 settings.editing.tracer 顯示彈道軌跡
-settings.editing.tracer.offset瞄準器偏移
+settings.editing.tracer.offset Tracer Offset
 settings.shaders.header 著色器輸入
 settings.mods.header 自定義
 settings.mods.load 載入插件
@@ -638,6 +649,7 @@ server.config.private 私人
 server.config.krRewards KR 獎勵
 server.config.forceDefault 強制預設設定
 server.config.warmupTime 熱身時間
+server.config.gamRounds Rounds
 server.config.objtvTime 目標時間
 server.config.forceSpawn 自動重生時間
 server.config.scoreLimit 得分限制
@@ -649,6 +661,9 @@ server.config.hpRegen 血量回復
 server.config.disableB 去除地圖邊界
 server.config.throwMel 啟用投擲近戰武器
 server.config.noCosm 禁用飾品
+server.config.tstCmp Test Mode
+server.config.limitClasses Limit Classes
+server.config.tmSize Team Size
 social.login 登入/註冊
 social.login.failed 登入失敗
 social.login.buy 登入後購買
@@ -729,7 +744,7 @@ stats.wallbangs 穿牆次數
 stats.sprays 塗鴉次數
 windows.host.default.settings 啟用默認設置允許玩家儲存他們的進度及高分
 windows.host.default.commands *房主指令（像: /noclip, /god, /smite, 等）在此模式中將會被禁用.
-windows.host.rewards啟用 KR 獎勵將會強制此伺服器使用預設設定並允許玩家從此地圖贏得 KR :
+windows.host.rewards 啟用 KR 獎勵將會強制此伺服器使用預設設定並允許玩家從此地圖贏得 KR:
 windows.store.wheels.sub 試試您的運氣，轉動獎輪來獲得贏取新皮膚的機會!
 windows.store.currency * 這些價格可以由付款提供者或銀行以匯率計算從美元轉換到您的當地貨幣.
 windows.store.creator 當您在購買KR時，考慮通過使用您最喜歡的 Krunker 內容建立者的代碼來支持他們!
@@ -744,4 +759,36 @@ windows.playerlist.ban 您確定您想要從此遊戲封禁並踢出 {0} ?
 windows.playerlist.flag 您確定您想要標記 {0} 嗎？
 windows.playerlist.unflag 您確定您想要取消標記{0}嗎？
 windows.playerlist.punish 您確定您想要對 {0} 採取行動嗎?
+item.view.open Open Model Viewer
+item.view.more More Information
+item.sell.cant Item cant be sold.
+item.sell.quick Are you sure you want to Quick Sell {0}?
+social.profile.stats Overall Stats
+social.profile.class Class Stats
+social.profile.sales Sales
+social.profile.sales.market Market Sales
+social.profile.skins Skins [{0}]
+social.profile.skins.none No published Skins from this user
+social.profile.games Games [{0}]
+social.profile.games.none No published Games from this user
+social.profile.assets Assets [{0}]
+social.profile.assets.none No published Assets from this user
+social.profile.mods Mods [{0}]
+social.profile.mods.none No published Mods from this user
+social.search Search Results
+social.market.stats.rare Rarest Items
+social.market.stats.circulation In Circulation
+social.market.stats.units units Worldwide
+social.trades.in Incoming
+social.trades.in.head Incoming Offers ({0})
+social.trades.out Outgoing
+social.trades.out.head Outgoing Offers ({0})
+social.trades.history History
+social.trades.history.head Trade History ({0})
+social.trades.decline Decline All
+social.trades.message ENABLE TRADE MESSAGES IN SETTINGS
+social.trades.warning You get no items from this trade!
+social.trades.accept Are you sure you want to accept this offer?
+stats.airdrops KR-Packages
+settings.quality.flapAnim Sniper Flap Animation
 `;
