@@ -295,7 +295,7 @@ settings.viewmodel.show.primary Ipakita ang Pangunahing Armas
 settings.viewmodel.show.secondary Ipakita ang Pandagdag Armas
 settings.viewmodel.roundArms Pa-bilog na braso
 settings.viewmodel.show.melee Ipakita ang Patalim
-settings.viewmodel.show.ads Itago ang armas kapag naka-ADs
+settings.viewmodel.show.ads Itago ang armas kapag naka-ADS
 settings.viewmodel.toggleAim i-toggle ang pag-aim
 settings.viewmodel.show.hands Ipakita ang Kamay
 settings.viewmodel.leftHand Kaliwete
@@ -321,8 +321,8 @@ settings.editing.scoreOffX Posisyon ng Pop-Up sa X axis
 settings.editing.scoreOffY Posisyon ng Pop-Up sa Y axis
 settings.editing.prog.color Kulay ng Progress Bar
 settings.editing.prog.opacity Diin ng Progress Bar
-settings.editing.prog.scale Pagsusukat sa Bar Scale
-settings.editing.prog.shadow Anino ng Progress
+settings.editing.prog.scale Sukat ng Progress Bar
+settings.editing.prog.shadow Anino ng Progress Bar
 settings.editing.progOffX Posisyon ng Progress Bar sa X axis
 settings.editing.progOffY Posisyon ng Progress Bar sa Y axis
 settings.editing.progRot Rotasyon ng Progress Bar
@@ -384,7 +384,7 @@ windows.settings.header Mga Setting ng Laro
 windows.mail.header Mga Mail at Liham
 windows.servers.header Mga Server
 windows.servers.none Walang nahanap na larong sasalihan....
-windows.servers.host Mag-host ng Game
+windows.servers.host Mag-host ng Laro
 windows.servers.hide Itago
 windows.servers.priority Prayoridad ng Rehiyon
 windows.servers.online {0} Sa laro
@@ -484,7 +484,7 @@ windows.maps.community Komunidad ng Devs
 windows.publish.map.header I-publish o I-update ang Laro
 windows.publish.map.thumbnail Walang Thumbnail o Larawan
 windows.publish.map.paste I-paste ang Data ng Laro
-windows.publish.map.update I-publish / I-update
+windows.publish.mod.update Ilathala / I-bago
 windows.publish.map.login Lumikha at I-upload ang laro!
 windows.theatre.header Theatre Mode
 windows.theatre.record Paganahin ang Pagre-record
@@ -547,7 +547,7 @@ windows.publish.mod.paste Mod Url
 windows.publish.mod.update I-publish / I-update
 windows.publish.mod.login upang lumikha at mag-upload ng mga mod!
 windows.secondary.header Piliin ang Pandagdag Armas
-windows.secondary.unlocked i-unlocked
+windows.secondary.unlocked na-unlock
 windows.secondary.req Antas dapat ay {0}
 windows.advertise.header I-advertise
 windows.support.header Suporta
