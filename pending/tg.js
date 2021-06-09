@@ -290,7 +290,7 @@ settings.viewmodel.header Tingnan ang Modelo
 settings.viewmodel.fov Field of View (Larangan ng Pagtingin)
 settings.viewmodel.fps FOV ng Armas
 settings.viewmodel.bobbing Pagtalbog ng Armas
-settings.viewmodel.leaning Nakasandal ang Armas
+settings.viewmodel.leaning Pagkasandal ang Armas
 settings.viewmodel.show.primary Ipakita ang Pangunahing Armas
 settings.viewmodel.show.secondary Ipakita ang Pandagdag Armas
 settings.viewmodel.roundArms Pa-bilog na braso
