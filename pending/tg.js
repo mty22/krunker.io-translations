@@ -319,7 +319,7 @@ settings.editing.score.scale I-scale ng Puntos
 settings.editing.score.shadow Anino ng Puntos
 settings.editing.scoreOffX Posisyon ng Pop-Up sa X axis
 settings.editing.scoreOffY Posisyon ng Pop-Up sa Y axis
-settings.editing.prog.color Kulay ng Progress
+settings.editing.prog.color Kulay ng Progress Bar
 settings.editing.prog.opacity Diin ng Progress Bar
 settings.editing.prog.scale Pagsusukat sa Bar Scale
 settings.editing.prog.shadow Anino ng Progress
