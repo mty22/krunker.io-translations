@@ -495,7 +495,7 @@ windows.clans.requests Mga Nais Sumali
 windows.clans.requests.none Walang Nais Sumali
 windows.clans.page [{0}] Pahina ng Hukbo
 windows.clans.create Lumikha ng Samahan
-windows.clans.name Pangalan ng angkan
+windows.clans.name Pangalan ng Samahan
 windows.clans.view Tignan ang mga Hukbo
 windows.clans.join Sumali sa Samahan
 windows.clans.login Mag-login upang makagawa o makasali sa isang Samahan!
