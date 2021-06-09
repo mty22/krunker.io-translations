@@ -498,7 +498,7 @@ windows.clans.create Lumikha ng Samahan
 windows.clans.name Pangalan ng angkan
 windows.clans.view Tignan ang mga Hukbo
 windows.clans.join Sumali sa Samahan
-windows.clans.login Login upang lumikha o sumali sa isang Hukbo!
+windows.clans.login Mag-login upang makagawa o makasali sa isang Samahan!
 windows.store.header Tindahan
 windows.store.spin {0} Ikot-papremyo
 windows.store.agree Sa pamamagitan ng pagbili sumasang-ayon ka sa {0} Mga Tuntunin
