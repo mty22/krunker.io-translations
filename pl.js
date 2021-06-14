@@ -96,7 +96,7 @@ settings.popup.freeKRPop Wyświetl okienka o darmowym KR
 settings.experimental.header Eksperymentalne
 settings.experimental.aimFreezeFix Napraw zamrożenie przy celowaniu
 settings.experimental.mouseFlickFix Napraw mouse-flicki
-settings.experimental.shaderRendering Renderowanie przez isntancje
+settings.experimental.shaderRendering Renderowanie przez instancje
 settings.client.header Klient
 settings.client.unlimitedFrames Nielimitowane FPS
 settings.client.gameCap Game Capture
