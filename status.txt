@@ -15,6 +15,7 @@ Dutch - Updates required (last update: v3.8.2)
 Hindi - Up to date (v3.8.6)
 Polish - Pull request pending from native speaker (v3.8.6)-- https://github.com/mty22/krunker.io-translations/pull/178 -- Bonus KR available for reviewer!
 Russian - Pull request pending review from native speaker (v3.8.6) -- https://github.com/mty22/krunker.io-translations/pull/193 -- Bonus KR available for reviewer!
+Italian - Up to date (v3.8.6)
 
 New langauges pending:
 
