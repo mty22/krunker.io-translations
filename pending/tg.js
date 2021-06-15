@@ -114,7 +114,7 @@ settings.chat.chatTimer Orasan ng pag-chat
 settings.chat.chatTextOutline Chat Text Outline
 settings.chat.chatFilter Pagsala at Pagtakip ng kabastusan at hindi nais na salita
 settings.quality.header Pagganap
-settings.quality.updRate Limita ng Frame
+settings.quality.updRate Limitasyon sa Frame rate
 settings.quality.rendDst Distansya ng Pag-render
 settings.quality.res Kalinawan
 settings.quality.part Mga Tinga
@@ -462,7 +462,7 @@ windows.controls.reset Balik-Simula ang posisyon (Paligsahan at Parkour)
 windows.controls.pretend Itago ang Laro
 windows.host.header Host ng Custom na Laro
 windows.host.maps Pag-setup ng Server
-windows.host.cmaps Game ng Komunidad
+windows.host.cmaps Laro mula sa Komunidad
 windows.host.raw Raw Data ng Laro
 windows.host.modes Piliin ang Uri ng Laro 
 windows.host.classes Piliin ang mga Gagamiting Uri ng Armas
