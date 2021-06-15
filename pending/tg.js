@@ -11,7 +11,7 @@ menu.btn.invite.clicked Nakopya
 menu.btn.join Sumali
 menu.btn.host Mag-host
 menu.btn.browser Mga Server
-generic.wait hintayin...
+generic.wait paghihintay...
 generic.loading LOADING...
 generic.none Wala
 generic.connecting KUMOKONEKTA...
@@ -33,7 +33,7 @@ generic.score Iskor
 generic.off Off
 generic.defeat PAGKATALO
 generic.victory TAGUMPAY! 
-generic.matchover Pagtapos ng laro
+generic.matchover Pagtatapos ng laro
 generic.matchaband Inabandonang Paglaro
 generic.follow Follow
 generic.unfollow I-Unfollow
@@ -64,7 +64,7 @@ player.killed Pumatay kay
 player.killstreak {0} nasa {1} Kill Streak
 player.inactive Pina-alis dahil sa walang aktibidad
 player.disconnect HINDI MAKAKONEKTA
-timer.end Susunod na laro sa {0}a
+timer.end Susunod na laro sa {0}
 leaderboard.empty Walang laman ang lobby
 popup.checkpoint Checkpoint!
 app.play Pindutin upang maglaro
@@ -516,7 +516,7 @@ windows.store.unlock I-unlock ang mga bagong disenyo ng mga armas at kagamitan
 windows.store.amount {0} KR sa account
 windows.store.login upang bumili at mag-unlock ng mga item mula sa tindahan!
 windows.store.purchasing Bumibili ...
-windows.store.unboxed {0}{1} Silip-Kahon 
+windows.store.unboxed {0} ay naka-unbox ng {1} 
 windows.trade.header Kalakalan
 windows.scope.header Pumili ng scope
 windows.premium.header Premium
@@ -719,7 +719,7 @@ spin.free.disable Ang mga Popup na ito ay maaaring hindi paganahin sa Mga Pangka
 mod.reset.0 Lumabas ang Epekto pagkatapos mag-respawn
 mod.reset.1 Mga Bagay sa Mapa hindi ma-reset
 windows.profile.picture Palitan ang Larawan
-stats.assists Mga Tinulungan
+stats.assists Mga pagtulong
 stats.nukes Mga Nuke
 stats.melee Melee Mga Sinaksak
 stats.fistkills Mga Binugbog
@@ -764,7 +764,7 @@ social.search Resulta ng Paghahanap
 social.market.stats.rare Bihirang Mahanap na Items
 social.market.stats.circulation Nasa Sirkulasyon
 social.market.stats.units Bilang ng item na ito pandaigdig
-social.trades.in Pumapasok
+social.trades.in Papasok
 social.trades.in.head Pumapasok na Pag-aalok ({0})
 social.trades.out Palabas
 social.trades.out.head Palabas na Pag-aalok ({0})
