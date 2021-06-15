@@ -50,15 +50,15 @@ generic.timep Time Played
 generic.kills Mga Pinatay
 generic.deaths Mga Pagkamatay
 generic.kdr KDR
-generic.time Time
+generic.time Oras
 generic.logout Pag-Logout
 generic.logout.sessions Pag-logout sa lahat ng sesyon
 generic.username Username
 generic.password  Illagay ang password
-generic.register Magparehistro
-generic.login Mag log in
+generic.register Mag-parehistro
+generic.login Mag log-in
 generic.accuracy Accuracy
-player.waiting Pag-hintay sa manlalaro
+player.waiting Naghihintay ng mga manlalaro
 player.died Ikaw ay namatay
 player.killed Pumatay kay
 player.killstreak {0} nasa {1} Kill Streak
