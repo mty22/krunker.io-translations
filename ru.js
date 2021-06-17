@@ -33,7 +33,7 @@ generic.score Очки
 generic.off Выключен
 generic.defeat Поражение
 generic.victory Победа
-generic.matchover Матч завершен 
+generic.matchover Матч завершен
 generic.matchaband Матч заброшен
 generic.follow Подписаться
 generic.unfollow Отписаться
@@ -61,7 +61,7 @@ generic.accuracy Аккуратность
 player.waiting Ожидание игроков
 player.died Вы умерли
 player.killed Убиты
-player.killstreak {0} В серии убийств {1} 
+player.killstreak {0} В серии убийств {1}
 player.inactive Удален за неактивность
 player.disconnect Отключение
 timer.end Следующий раунд через {0}
@@ -77,14 +77,14 @@ purchase.error Произошла ошибка
 purchase.error.click Нажмите здесь</a> и попробуйте снова!
 purchase.error.limit Вы вероятно превысили дневной лимит транзакций
 settings.reset Сброс
-settings.reset.confirm Вы уверены, что хотите обнулить ваши настройки?
-settings.import Ввести настройки
-settings.export Скачать настройки
+settings.reset.confirm Вы уверены, что хотите сбросить ваши настройки?
+settings.import Импорт настроек
+settings.export Экспорт настроек
 settings.none Настройки не найдены
 settings.backup Резервные настройки
 settings.controls.change Управление
 settings.controls.press Нажмите любую клавишу
-settings.local.header Локализация <span id="requiresRestart"><span style="color: #eb5656">*</span> требует перезапуска</span>
+settings.local.header Локализация <span id="requiresRestart"><span style="color: #eb5656">*</span> требует перезагрузки</span>
 settings.local.region Регион по умолчанию
 settings.local.lang Язык
 settings.network.header Настройки сети
@@ -94,20 +94,20 @@ settings.network.lagComp Компенсация задержки
 settings.popup.header Всплывающие окна
 settings.popup.freeKRPop Показывать окно бесплатных KR
 settings.experimental.header Экспериментальные
-settings.experimental.aimFreezeFix Исправление подвисания цели
+settings.experimental.aimFreezeFix Исправление лагов при прицеливании
 settings.experimental.mouseFlickFix Исправление случайных фликов мыши
-settings.experimental.shaderRendering Рендеринг на расстоянии
+settings.experimental.shaderRendering Дублирующий рендеринг
 settings.client.header Клиент
 settings.client.unlimitedFrames Безлимитный FPS
-settings.client.gameCap Запечатлеть игру
+settings.client.gameCap Захват игры
 settings.client.experimental Экспериментальные функции
 settings.client.discordRPC Дискорд RPC
 settings.client.resourceSwapper Смена ресурса
 settings.client.clearCache Очистить кэш-память
-settings.client.resetSettings Перезагрузить настройки
-settings.client.acceleratedCanvas Ускоренный режим
-settings.client.angleBackend ANGLE Графический модуль
-settings.client.colorProfile Настройка цвета
+settings.client.resetSettings Сброс настроек
+settings.client.acceleratedCanvas Аппаратное ускроение Canvas
+settings.client.angleBackend Графический модуль ANGLE
+settings.client.colorProfile Цветовой профиль
 settings.dev.header Настройки разработчика
 settings.dev.forceUpdate Принудительное обновление скинов
 settings.dev.forceRegen Всегда лечить игрока
@@ -119,14 +119,14 @@ settings.chat.chat.focus Пока сфокусирован
 settings.chat.messages Показывать сообщения игроков
 settings.chat.unboxings Показывать открытие спинов
 settings.chat.chatOp Непрозрачность чата
-settings.chat.chatBGOp Непрозрачность BG чата
+settings.chat.chatBGOp Непрозрачность фона чата
 settings.chat.chatHeight Высота чата
 settings.chat.chatTimer Время сообщения в чате (с)
 settings.chat.chatTextOutline Текст чата
 settings.chat.chatFilter Фильтр ненормативной лексики
 settings.quality.header Производительность
 settings.quality.updRate Ограничение кадров
-settings.quality.rendDst Расстояние отрисовки 
+settings.quality.rendDst Расстояние отрисовки
 settings.quality.res Разрешение
 settings.quality.part Частицы
 settings.quality.mapDet Детали карты
@@ -142,7 +142,7 @@ settings.quality.shadowsDynamic Динамические тени
 settings.quality.trails Следы от пуль
 settings.quality.yourTrails Твои следы от пуль
 settings.quality.mflash Вспышка от выстрела
-settings.quality.flap Крышечка от прицела 
+settings.quality.flap Крышечка от прицела
 settings.quality.lowSpec Низкие характеристики
 settings.quality.ambient Окружающее затенение
 settings.quality.ambientOld Старое затенение (Когда возможно)
@@ -161,7 +161,7 @@ settings.post.bloomThreshold Предел свечения
 settings.post.bloomStrength Мощность свечения
 settings.post.bloomRadius Радиус свечения
 settings.post.ssao Освещение SSAO
-settings.post.ssaoRadius Радиус освещения SSAO 
+settings.post.ssaoRadius Радиус освещения SSAO
 settings.interface.hitInd Показывать индикатор попаданий
 settings.interface.hitColor Цвет индикатора попадания
 settings.interface.dmg Показывать урон
@@ -207,7 +207,7 @@ settings.interface.nametagStyle.nameLvl Только имя и уровень
 settings.interface.nametagStyle.all Все
 settings.interface.healthNum Счетчик количества здоровья
 settings.interface.healthColT Цвет уровня здоровья члена команды
-settings.interface.healthColE Цвет уровня здоровья противника 
+settings.interface.healthColE Цвет уровня здоровья противника
 settings.interface.xpBarCol Цвет панели опыта
 settings.interface.xpBarOpac Непрозрачность панели опыта
 settings.crosshair.header Прицел
@@ -263,7 +263,7 @@ settings.gameplay.sensitivityX Чувствительность мыши по г
 settings.gameplay.sensitivityY Чувствительность мыши по вертикали
 settings.gameplay.aimsensX Чувствительность мыши по горизонтали в прицеливании
 settings.gameplay.aimsensY Чувствительность мыши по вертикали в прицеливании
-settings.gameplay.challenge Режим Соревнования
+settings.gameplay.challenge Сложный режим
 settings.gameplay.invert Инвертировать движения по вертикали
 settings.gameplay.onkillS On Kill
 settings.gameplay.scrollDir Направление прокрутки колеса мыши
@@ -289,14 +289,14 @@ settings.mobile.gradSpeed Постепенная скорость
 settings.mobile.invert Инвертировать движения по вертикали
 settings.audio.header Аудио
 settings.audio.sound Общий Звук
-settings.audio.ambient Окружающий Звук
+settings.audio.ambient Окружающие Звуки
 settings.audio.voice Звук Голосовой Связи
 settings.audio.weps Звук Оружия
 settings.audio.player Звуки Игроков
 settings.audio.skin Косметические Звуки
 settings.audio.ui Звук в Меню
-settings.audio.asset Звук Ассетов
-settings.audio.dialogue Звук Действий
+settings.audio.asset Звуки Ассетов
+settings.audio.dialogue Звуки Действий
 settings.viewmodel.header Вид Моделей
 settings.viewmodel.fov Угол Обзора
 settings.viewmodel.fps Угол Обзора Оружия
@@ -324,12 +324,12 @@ settings.editing.health.high Цвет большого количества зд
 settings.editing.health.low Цвет малого количества здоровья
 settings.editing.speedLines Линии Скорости
 settings.editing.spdLinesCol Цвет Скоростных Линий
-settings.editing.score.color Цвет очков во всплывающем окне
-settings.editing.score.show Показывать очки во всплывающем окне
-settings.editing.score.scale Масштаб очков во всплывающем окне
-settings.editing.score.shadow Тень очков во всплывающем окне
-settings.editing.scoreOffX Уровень очков во всплывающем окне по горизонтали
-settings.editing.scoreOffY Уровень очков во всплывающем окне по вертикали
+settings.editing.score.color Цвет очков
+settings.editing.score.show Показывать очки
+settings.editing.score.scale Масштаб очков
+settings.editing.score.shadow Тень очков
+settings.editing.scoreOffX Уровень очков по горизонтали
+settings.editing.scoreOffY Уровень очков по вертикали
 settings.editing.prog.color Цвет Полосы игрового прогресса
 settings.editing.prog.opacity Непрозрачность Полосы игрового прогресса
 settings.editing.prog.scale Масштаб Полосы игрового прогресса
@@ -389,7 +389,7 @@ settings.mods.usedamage Оверлей при получении урона
 settings.mods.damage Изображение Оверлея при получении урона
 settings.mods.damage.paste URL Изображения Оверлея при получении урона
 settings.mods.overlay Изображение Оверлея Игры
-settings.mods.overlay.paste URL Изображение Оверлея Игры
+settings.mods.overlay.paste URL Изображения Оверлея Игры
 settings.social.region Статистика Региона
 windows.settings.header Настройки Игры
 windows.mail.header Krunker Mail
@@ -460,14 +460,14 @@ windows.controls.interactSec Вторичное Взаимодействие
 windows.controls.confirm Подтвердить Взаимодействие
 windows.controls.drop Выбросить
 windows.controls.wepVis Переключить Видимость Оружия
-windows.controls.streak0 Череда 1
-windows.controls.streak1 Череда 2
-windows.controls.streak2 Череда 3
-windows.controls.streak3 Череда 4
-windows.controls.streak4 Череда 5
+windows.controls.streak0 Серия 1
+windows.controls.streak1 Серия 2
+windows.controls.streak2 Серия 3
+windows.controls.streak3 Серия 4
+windows.controls.streak4 Серия 5
 windows.controls.premium0 Noclip
-windows.controls.premium1 непобедимый
-windows.controls.premium2 убить
+windows.controls.premium1 Режим Бога
+windows.controls.premium2 Убить
 windows.controls.premium3 Поражение
 windows.controls.reset Сбросить Стартовую Позицию (Гонки & Паркур)
 windows.controls.pretend Скрыть Игру
@@ -514,7 +514,7 @@ windows.store.header Магазин
 windows.store.spin {0} Спин
 windows.store.agree Совершая покупку, Вы соглашаетесь с Условиями {0}
 windows.store.purchase Покупка KR
-windows.store.voucher Выкупить купон
+windows.store.voucher Использовать купон
 windows.store.voucherinfo Получайте Купоны от определенных Стримеров и Мероприятий
 windows.store.market Торговая площадка
 windows.store.market2 Krunker Маркет
@@ -527,7 +527,7 @@ windows.store.unlock Разблокируйте новые скины на ор�
 windows.store.amount {0} KR на аккаунте
 windows.store.login чтобы купить и разблокировать предметы с магазина!
 windows.store.purchasing Покупка...
-windows.store.unboxed {0}{1} распаковал(а)
+windows.store.unboxed {0}{1} открыл(а)
 windows.trade.header Торговля
 windows.scope.header Выберите прицел
 windows.premium.header Премиум
@@ -649,21 +649,21 @@ server.config.private Приватный сервер
 server.config.krRewards KR Награды
 server.config.forceDefault Принудительно установить настройки по умолчанию
 server.config.warmupTime Время разминки
-server.config.gamRounds Циклы
+server.config.gamRounds Раунды
 server.config.objtvTime Время длительности точки
 server.config.forceSpawn Время автоматического возрождения
 server.config.scoreLimit Предел очков
 server.config.keepTScore Сохранить счет команды
 server.config.forceC Классы принудительного режима
 server.config.logTim Журнал времени (гонки, паркур)
-server.config.hitBoxPad Набивка ХитБоксов
+server.config.hitBoxPad Размер Хитбоксов
 server.config.hpRegen Восстановление здоровья
 server.config.disableB Отключить барьеры
 server.config.throwMel Метание ближнего оружия
 server.config.noCosm Отключить косметику
 server.config.tstCmp Тестовый режим
-server.config.limitClasses Ограничение персонажей
-server.config.tmSize Размер группы
+server.config.limitClasses Лимит классов
+server.config.tmSize Размер команды
 social.login Авторизация/Регистрация
 social.login.failed Не удалось авторизоваться
 social.login.buy Авторизуйтесь, чтобы купить
@@ -735,7 +735,7 @@ mod.reset.0 Вступит в силу после возрождения.
 mod.reset.1 Объекты карты не сбрасываются
 windows.profile.picture Изменить картинку
 stats.assists Поддержка
-stats.nukes Атомные бомбы
+stats.nukes Нюки
 stats.melee Убийства ближним оружием
 stats.fistkills Убийства с кулаков
 stats.thrownkills Броски ножём
@@ -789,6 +789,6 @@ social.trades.decline Отклонить Все
 social.trades.message ВКЛЮЧИТЬ ТОРГОВЫЕ СООБЩЕНИЯ В НАСТРОЙКАХ
 social.trades.warning Вы не получаете никаких предметов от этого трейда!
 social.trades.accept Вы уверены, что хотите принять это предложение?
-stats.airdrops KR-Packages
-settings.quality.flapAnim Анимациа снайперской крышки
+stats.airdrops Пакеты с KR
+settings.quality.flapAnim Анимация снайперской крышки
 `;
