@@ -553,7 +553,7 @@ windows.advertise.header I-advertise
 windows.support.header Suporta
 windows.players.header Listahan ng manlalaro
 windows.players.none Walang mga manlalaro sa kasalukuyan ...
-windows.join.header Sumali
+windows.join.header Makisali
 windows.join.code Ilapag ang URL ng Laro
 windows.client.header Kliyente
 windows.client.windows Installer sa Windows
@@ -692,14 +692,14 @@ social.market.price.high Pinakamataas na Presyo
 social.trading.submitting Nagsusumite ng Alok ...
 social.market.gift.amount Halaga sa Regalo
 social.market.fee.gift Walang Bayad
-social.market.gift Regalo ng KR
+social.market.gift Magregalo ng KR
 social.market.gift.msg Mag-iwan ng mensahe
 respawn.auto Auto Respawning sa {0}
 custom.host.ranked Hindi ma-host habang nasa ranggo
 funds.insufficient Hindi sapat na KR
 funds.out Ubos ang KR
 custom.passcode.long Masyadong mahaba ang password 
-custom.passcode.input Ipasok ang passowrd ng server upang sumali
+custom.passcode.input Ipasok ang password ng server upang sumali
 custom.tryagain subukang muli
 purchase.kr.success Idinagdag ang {0} KR sa account mo
 limited.purchase.ask Sigurado ka bang bumili ng  [{0}] para sa{1} KR?
@@ -741,9 +741,9 @@ windows.clan.delete Sigurado ka bang nais mong tanggalin ang hukbo/samahan?
 windows.clan.kick Sigurado ka bang nais mong i-kick si {0} at tanggalin sa samahan?
 windows.store.premium.purchase Sigurado ka bang nais mong bumili ng {0} araw ng Premium?
 windows.playerlist.ban Sigurado ka bang nais mong ipagbawal si {0} mula sa larong ito?
-windows.playerlist.flag Sigurado ka bang nais mong I-flag {0}?
-windows.playerlist.unflag Sigurado ka bang nais mong mag-Unflag {0}?
-windows.playerlist.punish Sigurado ka bang nais mong parusahin ang manlalaro {0}?
+windows.playerlist.flag Sigurado ka bang nais mong I-flag si {0}?
+windows.playerlist.unflag Sigurado ka bang nais mong mag-Unflag si {0}?
+windows.playerlist.punish Sigurado ka bang nais mong parusahin ang manlalarong {0}?
 item.view.open Buksan ang Model Viewer
 item.view.more Iba pang Impormasyon
 item.sell.cant Hindi mabenta ang kagamitan.
