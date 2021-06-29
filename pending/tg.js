@@ -5,7 +5,7 @@ menu.btn.social sosyal medya
 menu.btn.maps mapa
 menu.btn.mods Mods
 menu.btn.settings Settings
-menu.btn.customize sangkapan
+menu.btn.customize Kustomisasyon
 menu.btn.invite Mag-anyaya
 menu.btn.invite.clicked Nakopya
 menu.btn.join Sumali
@@ -17,15 +17,15 @@ generic.none Wala
 generic.connecting KUMOKONEKTA...
 generic.select Pumili
 generic.delete Tanggalin
-generic.save I-save
+generic.save Mag-save
 generic.load Mag-Load
 generic.search Humanap
 generic.leave Umalis
 generic.default Default
 generic.submit Sumite
-generic.create CreatLumikha
+generic.create Lumikha
 generic.random Random
-generic.failed Bigo
+generic.failed Nabigo
 generic.success Tagumpay!
 generic.name Pangalan
 generic.level Antas
@@ -207,10 +207,10 @@ settings.crosshair.type.4 Larawan
 settings.crosshair.type.5 Katumpakan
 settings.crosshair.style Istilo
 settings.crosshair.style.0 Krus
-settings.crosshair.style.1 Hollow Circle
-settings.crosshair.style.2 Solid Circle
-settings.crosshair.style.3 Hollow Square
-settings.crosshair.style.4 Solid Square
+settings.crosshair.style.1 Hollow na Bilog
+settings.crosshair.style.2 Ma-diin na Parisukat
+settings.crosshair.style.3 Hollow na Parisukat
+settings.crosshair.style.4 Ma-diin na Bilog
 settings.crosshair.image Larawan ng Crosshair
 settings.crosshair.image.paste I-dikit ang Larawan ng Crosshair
 settings.crosshair.always Laging ipakita
@@ -243,7 +243,7 @@ settings.onKillS.style.3 Taasan ang FOV
 settings.serverb.header Server Browser
 settings.serverb.oldBrowser Legacy Browser
 settings.serverb.defaultRegionOnly Default na Rehiyon Lamang
-settings.gameprivacy.header Pagkapribado ng Gameplay
+settings.gameprivacy.header Pagkapribado ng Laro
 settings.gameprivacy.streamer Mode ng Streamer
 settings.gameprivacy.anon Anonymous Mode
 settings.gameprivacy.hideGameTitle Itago ang Pamagat ng Laro
@@ -493,14 +493,14 @@ windows.clans.header Samahan
 windows.clans.members Mga Miyembro ({0})
 windows.clans.requests Mga Nais Sumali 
 windows.clans.requests.none Walang Nais Sumali
-windows.clans.page [{0}] Pahina ng Hukbo
+windows.clans.page [{0}] Pahina ng Samahan
 windows.clans.create Lumikha ng Samahan
 windows.clans.name Pangalan ng Samahan
-windows.clans.view Tignan ang mga Hukbo
+windows.clans.view Tignan ang mga Samahan
 windows.clans.join Sumali sa Samahan
 windows.clans.login Mag-login upang makagawa o makasali sa isang Samahan!
 windows.store.header Tindahan
-windows.store.spin {0} Ikot-papremyo
+windows.store.spin {0} Papremyo
 windows.store.agree Sa pamamagitan ng pagbili sumasang-ayon ka sa {0} Mga Tuntunin
 windows.store.purchase Bumili ng KR
 windows.store.voucher Kunin ang voucher
@@ -530,17 +530,17 @@ windows.attach.header Piliin ang Attachment
 windows.reticle.header Piliin ang Retikulo
 windows.reticle.unlocked Makakamit sa Antas {0}
 windows.reticle.req Nangangailangan ng Antas na {0}
-windows.dye.header Piliin ang Pinturang Katawan
+windows.dye.header Piliin ang Dye
 windows.dye.default Karaniwang Kulay ng Katawan
-windows.dye.spin Ikot-Pintura
-windows.changelog.header Talaan ng Pagupdate
+windows.dye.spin Papremyo
+windows.changelog.header Talaan - Updates
 windows.mods.community.header Komunidad ng mga Modders
 windows.mods.community.fav Paboritong Mods
 windows.mods.community.new Mga Bagong Mod
 windows.mods.community.hot Sikat!
 windows.mods.community.name Pangalan ng Mod
 windows.mods.community.none Walang nahanap na Mod
-windows.publish.mod.header Publish Mod
+windows.publish.mod.header I-akda ang Mod
 windows.publish.mod.thumbnail No Thumbnail
 windows.publish.mod.name Pangalan ng Mod
 windows.publish.mod.paste Mod Url
@@ -570,19 +570,19 @@ windows.chall.login upang makumpleto ang mga hamon!
 thumbnail.upload.limit Failed. {0} kb Thumbnail Limit
 image.upload.limit Failed. {0} Limitasyon ng Larawan ng kb
 thumbnail.upload.error Thumbnail Error
-mod.extracting kumukuha ng {0} / {1}
+mod.extracting Kumukuha ng {0} / {1}
 mod.disabled hindi pinagana ang mga mod
-mod.error error sa mod!
-mod.loading naglo-load ng mod ...
-mod.invalid di-wastong mod file!
+mod.error Error sa mod!
+mod.loading Naglo-load ng mod ...
+mod.invalid Di-wastong mod file!
 matchmaker.full PUNO
 matchmaker.full2 Puno na ang laro.
-matchmaker.updating PAG-UPDATE NG LARO
+matchmaker.updating NAG-UUPDATE ANG LARO
 matchmaker.invalid Hindi nahanap ang laro.
 matchmaker.none Ang mga server ay nasa Max Capacity
 adblocker Huwag paganahin ang iyong ad blocker upang makatanggap ng mga libreng Krunkies.
 ad-failed Nabigong Mag-load ang Ad. Subukang muli
-streamers.views {0} mga manonood
+streamers.views {0} Mga Nanonood
 streamers.none Walang mga aktibong stream!
 error.extentions Kung mayroon kang anumang mga extension, huwag paganahin ang mga ito
 error.seek Subukang maghanap ng bagong laro sa pamamagitan ng pag-click
@@ -591,7 +591,7 @@ custom.map.missing Pumili ng hindi bababa sa isang Laro o Mapa
 custom.mode.missing Pumili ng kahit isang Mode lang
 custom.class.missing Pumili ng kahit isang Klase lamang
 server.config.maxPlayers Mga manlalaro
-server.config.minPlayers Mga Min Player
+server.config.minPlayers Nangangailangang Manlalaro
 server.config.lives Mga Buhay
 server.config.gameTime Minuto
 server.config.gravMlt Grabidad
@@ -609,17 +609,17 @@ server.config.fixMov Pagkilos
 server.config.slidSpd Bilis ng Slide
 server.config.healthMlt Health Multiplier
 server.config.impulseMlt salpok ng sandata
-server.config.nameTeam1 Pangalan ng Koponan 1
-server.config.nameTeam2 Pangalan ng Koponan 2
-server.config.nameTeam3 Pangalan ng Koponan 3
-server.config.nameTeam4 Pangalan ng Koponan 4
-server.config.nameTeam5 Pangalan ng Koponan 5
-server.config.t1Dmg Pinsala ng Koponan 1
-server.config.t2Dmg Pinsala ng Koponan 2
-server.config.t3Dmg Pinsala ng Koponan 3
-server.config.t4Dmg Pinsala ng Koponan 4
-server.config.t5Dmg Pinsala ng Koponan 5
-server.config.selTeam Piliin ang Koponan
+server.config.nameTeam1 Pangalan ng Pangkat 1
+server.config.nameTeam2 Pangalan ng Pangkat 2
+server.config.nameTeam3 Pangalan ng Pangkat 3
+server.config.nameTeam4 Pangalan ng Pangkat 4
+server.config.nameTeam5 Pangalan ng Pangkat 5
+server.config.t1Dmg Pinsala ng Pangkat 1
+server.config.t2Dmg Pinsala ng Pangkat 2
+server.config.t3Dmg Pinsala ng Pangkat 3
+server.config.t4Dmg Pinsala ng Pangkat 4
+server.config.t5Dmg Pinsala ng Pangkat 5
+server.config.selTeam Piliin ang Pangkat 
 server.config.allowSpect Panonood
 server.config.killRewards Gantimpala kapag nakapatay
 server.config.headshotOnly Mga headshot Lamang
@@ -656,7 +656,7 @@ social.login.sell Mag-login upang Magbenta
 social.login.gift Mag-login para sa mga regalo
 social.login.proccessing Naglolog-in......
 social.since Mula Noong
-social.user.maps Kanyang Laro at Mapa
+social.user.maps Laro at Mapa
 social.user.mods Kanyang Mods
 social.maps.none Walang Nakitang Laro ...
 social.mods.none Walang nahanap na Mod ...
@@ -668,21 +668,21 @@ social.market.list Listahan ng Item
 social.market.unlist Tanggalin sa lista
 social.market.unlisting  Pagtatanggal.....
 social.market.posting Posting Item...
-social.market.req Antas {0} kinakailangan
+social.market.req Antas- {0} kinakailangan
 social.market.cant Hindi Kayang bumili!
 social.market.purchase Bumili
 social.market.fee Walang Bayad sa Listahan
 social.market.failed Nabigo, Subukang muli
 social.market.head Kagamitang Sombrero
 social.market.back Kagamitang Pangkatawan o Likod
-social.market.waist Kagamitang Pangbaywang
+social.market.waist Kagamitan sa Baywang
 social.market.face Mga Mukha
 social.market.shoe Mga Sapatos 
 social.market.pet Mga Alaga
 social.market.melee Mga Patalim
-social.market.spray Mga ispray
-social.market.dye Item na Pinturang Katawan
-social.market.none Hindi matagpuan ang bagay
+social.market.spray Mga Sprays
+social.market.dye Item na Dyes
+social.market.none Hindi matagpuan ang kagamitan
 social.market.login Maglogin ka muna.
 social.market.grace handa na sa {0}
 social.market.sort Pag-uri-uriin
