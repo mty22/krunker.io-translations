@@ -2,7 +2,7 @@ module.exports = `
 menu.btn.ranked rango
 menu.btn.shop Tindahan
 menu.btn.social sosyal medya 
-menu.btn.maps mapa
+menu.btn.maps Laro at Maps
 menu.btn.mods Mods
 menu.btn.settings Settings
 menu.btn.customize Kustomisasyon
@@ -38,15 +38,15 @@ generic.matchaband Inabandonang Paglaro
 generic.follow Follow
 generic.unfollow I-Unfollow
 generic.followers Mga Tagasunod
-generic.following Mga Sinusundan
+generic.following Mga Sinusunod
 generic.games Mga Laro
 generic.wins Panalo
 generic.lose Pagkatalo 
 generic.clan Samahan
 generic.games.played Bilang ng nalaro
-generic.games.won Larong Napanalunan
-generic.games.lost  Bilang ng pagkatalo
-generic.timep Time Played
+generic.games.won Mga Panalo
+generic.games.lost  Mga Pagtalo
+generic.timep Oras na Naglaro
 generic.kills Mga Pinatay
 generic.deaths Mga Pagkamatay
 generic.kdr KDR
@@ -60,15 +60,15 @@ generic.login Mag log-in
 generic.accuracy Accuracy
 player.waiting Naghihintay ng mga manlalaro
 player.died Ikaw ay namatay
-player.killed Pumatay kay
+player.killed {0} Pumatay kay {1}
 player.killstreak {0} nasa {1} Kill Streak
 player.inactive Pina-alis dahil sa walang aktibidad
 player.disconnect HINDI MAKAKONEKTA
 timer.end Susunod na laro sa {0}
-leaderboard.empty Walang laman ang lobby
+leaderboard.empty Walang tao sa lobby
 popup.checkpoint Checkpoint!
 app.play Pindutin upang maglaro
-app.spectate Pindutin upang sumaksi
+app.spectate Pindutin upang manood
 app.play.mobile PINDUTIN UPANG MAKAPAGLARO
 app.spectate.mobile TAP UPANG MAPANOOD
 app.play.controller PINDUTIN ang SIMULA
@@ -76,14 +76,14 @@ app.spectate.controller MAGSIMULANG MANOOD
 purchase.error May naganap na error
 purchase.error.click dito</a> subukan multi!
 purchase.error.limit Maaaring lumagpas ka sa iyong pang-araw-araw na limitasyon sa transaksyon. 
-settings.reset I-Reset
+settings.reset Mag-reset
 settings.reset.confirm Sigurado ka bang mag-reset ng inyong settings?
-settings.import angkat
+settings.import iangkat
 settings.export iluwas
-settings.none Walang nahanap na mga setting
-settings.backup Mga setting ng pag-backup
+settings.none Walang nahanap na mga settings
+settings.backup Mga back-up settings
 settings.controls.change Lokal na Rehiyon 
-settings.controls.press Pindutin ang anumang susi
+settings.controls.press Pindutin ang anumang key
 settings.local.header Localization <span id="requiresRestart"><span style="color: #eb5656">*</span> nangangailangan ng restart</span>
 settings.local.region Default na Rehiyon
 settings.local.lang Wika
@@ -94,9 +94,9 @@ settings.network.lagComp Paghabol sa Lag
 settings.popup.header Mga Popup
 settings.popup.freeKRPop Ipakita ang Libreng KR Popup
 settings.experimental.header Experimental na Header
-settings.experimental.aimFreezeFix Aim Freeze Fix (NO IDEA)
+settings.experimental.aimFreezeFix Ayusin ang Aim Freeze
 settings.experimental.mouseFlickFix Pag-ayos ng Mouse Flick
-settings.experimental.shaderRendering Pag-render ng Instance
+settings.experimental.shaderRendering Pag-render
 settings.dev.header Developer
 settings.dev.forceUpdate Sapilitang I-Update ang mga skins
 settings.dev.forceRegen Laging Regenerate Player
@@ -109,7 +109,7 @@ settings.chat.messages Ipakita ang Mga mensahe ng Player
 settings.chat.unboxings Ipakita ang Mga Unboxing
 settings.chat.chatOp Opacity ng chat
 settings.chat.chatBGOp Chat BG Opacity
-settings.chat.chatHeight Sukat-taas ng Chat
+settings.chat.chatHeight Tangkad ng Chat
 settings.chat.chatTimer Orasan ng pag-chat
 settings.chat.chatTextOutline Chat Text Outline
 settings.chat.chatFilter Pagsala at Pagtakip ng kabastusan at hindi nais na salita
@@ -500,7 +500,7 @@ windows.clans.view Tignan ang mga Samahan
 windows.clans.join Sumali sa Samahan
 windows.clans.login Mag-login upang makagawa o makasali sa isang Samahan!
 windows.store.header Tindahan
-windows.store.spin {0} Papremyo
+windows.store.spin {0} Papremyong Prizewheel
 windows.store.agree Sa pamamagitan ng pagbili sumasang-ayon ka sa {0} Mga Tuntunin
 windows.store.purchase Bumili ng KR
 windows.store.voucher Kunin ang voucher
@@ -528,7 +528,7 @@ windows.face.header Piliin ang Mukha
 windows.melee.header Piliin ang Patalim
 windows.attach.header Piliin ang Attachment
 windows.reticle.header Piliin ang Retikulo
-windows.reticle.unlocked Makakamit sa Antas {0}
+windows.reticle.unlocked Makakamit sa Antas na {0}
 windows.reticle.req Nangangailangan ng Antas na {0}
 windows.dye.header Piliin ang Dye
 windows.dye.default Karaniwang Kulay ng Katawan
@@ -567,8 +567,8 @@ windows.ranked.mode.r2v2 Duo
 windows.ranked.mode.r4v4 Quad
 windows.chall.header Mga Hamon
 windows.chall.login upang makumpleto ang mga hamon!
-thumbnail.upload.limit Failed. {0} kb Thumbnail Limit
-image.upload.limit Failed. {0} Limitasyon ng Larawan ng kb
+thumbnail.upload.limit Failed. {0}kb Thumbnail Limit
+image.upload.limit Failed. {0}kb ang Limitasyon ng Larawan
 thumbnail.upload.error Thumbnail Error
 mod.extracting Kumukuha ng {0} / {1}
 mod.disabled hindi pinagana ang mga mod
@@ -614,11 +614,11 @@ server.config.nameTeam2 Pangalan ng Pangkat 2
 server.config.nameTeam3 Pangalan ng Pangkat 3
 server.config.nameTeam4 Pangalan ng Pangkat 4
 server.config.nameTeam5 Pangalan ng Pangkat 5
-server.config.t1Dmg Pinsala ng Pangkat 1
-server.config.t2Dmg Pinsala ng Pangkat 2
-server.config.t3Dmg Pinsala ng Pangkat 3
-server.config.t4Dmg Pinsala ng Pangkat 4
-server.config.t5Dmg Pinsala ng Pangkat 5
+server.config.t1Dmg Damage ng Pangkat 1
+server.config.t2Dmg Damage ng Pangkat 2
+server.config.t3Dmg Damage ng Pangkat 3
+server.config.t4Dmg Damage ng Pangkat 4
+server.config.t5Dmg Damage ng Pangkat 5
 server.config.selTeam Piliin ang Pangkat 
 server.config.allowSpect Panonood
 server.config.killRewards Gantimpala kapag nakapatay
@@ -668,7 +668,7 @@ social.market.list Listahan ng Item
 social.market.unlist Tanggalin sa lista
 social.market.unlisting  Pagtatanggal.....
 social.market.posting Posting Item...
-social.market.req Antas- {0} kinakailangan
+social.market.req Antas-{0} kinakailangan
 social.market.cant Hindi Kayang bumili!
 social.market.purchase Bumili
 social.market.fee Walang Bayad sa Listahan
@@ -714,7 +714,7 @@ account.delete Maaari kang humiling na tanggalin ang iyong account, kung ang kah
 account.delete.request Sigurado ka bang nais mong humiling ng isang pagtanggal ng account?
 account.delete.cancel Sigurado ka bang nais mong kanselahin ang pagtanggal ng account?
 spin.free.available LIBRENG KR PAPREMYO!
-spin.free.claim Ang paikot na papremyo na ito ay pwedeng gamiting kada isang oras pagkatapos ng isang match o laro.
+spin.free.claim Ang Prize Wheel na ito ay pwedeng gamiting kada isang oras pagkatapos ng isang match o laro.
 spin.free.disable Ang mga Popup na ito ay maaaring hindi paganahin sa Mga Pangkalahatang setting
 mod.reset.0 Lumabas ang Epekto pagkatapos mag-respawn
 mod.reset.1 Mga Bagay sa Mapa hindi ma-reset
@@ -730,12 +730,12 @@ stats.sprays Inilagay na spray
 windows.host.default.settings Ang pagpapagana ng Default na Mga Setting ay nagbibigay-daan para sa pagtatago ng Player Progress at Highscores
 windows.host.default.commands * Ang Mga Command ng Host ay Hindi Pinapagana sa mode na ito: / noclip / god / smite atbp
 windows.host.rewards Pinipilit ng pagpapagana ng KR Rewards ang Server na gumamit ng Default na Mga Setting
-windows.store.wheels.sub Subukan ang iyong kapalaran at paikutin para sa isang pagkakataon upang manalo ng ilang mga bagong disenyo!
+windows.store.wheels.sub Subukan ang iyong kapalaran at paikutin ang Prize wheel para sa isang pagkakataon upang manalo ng ilang mga bagong disenyo!
 windows.store.currency * Ang mga presyo sa USD ay maaaring mai-convert sa iyong lokal na pera sa isang rate ng palitan na tinukoy ng provider ng pagbabayad o bangko
 windows.store.creator Isaalang-alang ang Suportahan ang iyong paboritong Tagalikha ng Nilalaman sa pamamagitan ng paggamit ng isang Creator Code
 windows.chall.customs Ang mga hamon ay hindi nakukumpleto sa mga kustom na laro
-twitch.link Sigurado ka bang nais mong i-link ang twitch account?
-twitch.unlink Sigurado ka bang nais mong i-unlink ang iyong twitch account?
+twitch.link Sigurado ka bang nais mong i-link ang Twitch account?
+twitch.unlink Sigurado ka bang nais mong i-unlink ang iyong Twitch account?
 windows.clan.leave Sigurado ka bang nais mong umalis sa hukbo/samahan ninyo?
 windows.clan.delete Sigurado ka bang nais mong tanggalin ang hukbo/samahan?
 windows.clan.kick Sigurado ka bang nais mong i-kick si {0} at tanggalin sa samahan?
