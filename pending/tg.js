@@ -554,7 +554,7 @@ windows.support.header Suporta
 windows.players.header Listahan ng manlalaro
 windows.players.none Walang mga manlalaro sa kasalukuyan ...
 windows.join.header Makisali
-windows.join.code Ilapag ang URL ng Laro
+windows.join.code Illagay ang URL ng Laro
 windows.client.header Kliyente
 windows.client.windows Installer sa Windows
 windows.client.mac Installer sa MacOS
