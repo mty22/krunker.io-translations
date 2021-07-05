@@ -62,7 +62,7 @@ player.waiting 플레이어 기다리는 중
 player.died 죽었습니다
 player.killed 나를 죽인 플레이어
 player.killstreak {0} on a {1} Kill Streak
-player.inactive 장시간 활동하지 않아 게임에서 제외되었습니다
+player.inactive 장시간 활동하지 않아 게임에서 퇴장되었습니다
 player.disconnect 연결 끊기
 timer.end {0}초 후 다음 라운드가 시작합니다
 leaderboard.empty 빈 로비
@@ -170,7 +170,7 @@ settings.interface.critCol 치명타 색상
 settings.interface.header 인터페이스
 settings.interface.scale 인터페이스 크기
 settings.interface.ui 인터페이스 표시
-settings.interface.scoreboard 구 스코어보드 사용
+settings.interface.scoreboard 구 점수판 사용
 settings.interface.oldBrowser 구 서버 탐색기 사용
 settings.interface.rarityanim 희귀도 애니메이션 끄기
 settings.interface.showPfp 프로필 사진 표시
@@ -358,7 +358,7 @@ settings.editing.tracer.offset 예광탄 시작점 위치
 settings.shaders.header 셰이더 입력
 settings.mods.header 사용자 설정
 settings.mods.load 모드 사용
-settings.mods.logo 로고 변경 혀용
+settings.mods.logo 로고 변경 허용
 settings.mods.auto 모드 자동 적용
 settings.mods.borders 스나이퍼 스코프 경계
 settings.mods.borderCol 스코프 테두리
@@ -375,8 +375,8 @@ settings.mods.dot.paste 십자선 이미지 URL
 settings.mods.endmessage 매치 종료 메시지
 settings.mods.profile 프로필 사진
 settings.mods.profile.paste 프로필 사진 URL
-settings.mods.ammo 탄창 아이콘
-settings.mods.ammo.paste 탄창 아이콘 URL
+settings.mods.ammo 탄약 아이콘
+settings.mods.ammo.paste 탄약 아이콘 URL
 settings.mods.kills 처치 수 아이콘
 settings.mods.kills.paste 처치 수 아이콘 URL
 settings.mods.deaths 사망 수 아이콘
@@ -435,7 +435,7 @@ windows.mods.viewer 뷰어
 windows.account.header 계정
 windows.account.recover 계정 복구는 <a>recovery@yendis.ch</a>로 이메일을 보내십시오
 windows.class.header 클래스 선택
-windows.controls.header 조작법 바꾸기
+windows.controls.header 조작키 바꾸기
 windows.controls.forward 앞
 windows.controls.backward 뒤
 windows.controls.left 좌
@@ -587,15 +587,15 @@ mod.error 모드 오류!
 mod.loading 모드 적용 중...
 mod.invalid 유효하지 않은 모드 파일입니다!
 matchmaker.full 가득 찼습니다
-matchmaker.full2 게임이 가득 찼습니다..
-matchmaker.updating 업데이트중...
+matchmaker.full2 게임이 가득 찼습니다.
+matchmaker.updating 게임 업데이트중
 matchmaker.invalid 게임을 찾을 수 없습니다.
 matchmaker.none 서버 용량이 가득 찼습니다.
 adblocker 무료 KR을 받으려면 광고 차단기를 끄세요.
 ad-failed 광고를 불러오지 못하였습니다. 나중에 다시 시도하세요.
 streamers.views 시청자 {0}명
 streamers.none 생방송이 없습니다!
-error.extentions 확장 프로그램을 사용하고 있다면 비활성화 해보십시오.
+error.extentions 확장 프로그램을 사용하고 있다면 비활성화 해주십시오.
 error.seek 다른 게임을 찾아보려면 here를 클릭하세요.
 custom.map.upload.limit 실패했습니다. 맵 데이터는 500KB 이내여야 합니다.
 custom.map.missing 최소 하나의 맵을 선택하세요.
@@ -670,7 +670,7 @@ social.login.buy 구매하려면 로그인하세요
 social.login.sell 판매하려면 로그인하세요
 social.login.gift KR을 주려면 로그인하세요
 social.login.proccessing 로그인 중...
-social.since 첫 등록일
+social.since 회원가입 날짜
 social.user.maps 이 유저의 게임
 social.user.mods 이 유저의 모드
 social.maps.none 찾은 게임이 없습니다...
@@ -705,7 +705,7 @@ social.market.filter 검색
 social.market.sort2 정렬
 social.market.price.high 가격 내림차순
 social.trading.submitting 트레이드 요청 보내는 중...
-social.market.gift.amount 선물할
+social.market.gift.amount 선물할 금액
 social.market.fee.gift 수수료 없음
 social.market.gift KR 선물하기
 social.market.gift.msg 문자 남기기
