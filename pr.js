@@ -790,5 +790,5 @@ social.trades.message Habilitar Mensagens de Troca Nas Configurações
 social.trades.warning Você não Ganhara Nenhum Item Nessa Troca
 social.trades.accept Você tem Certeza que Deseja Aceitar essa Oferta?
 stats.airdrops Pacote de KR
-settings.qualitackagesy.flapAnim Animação de Francoatirador
+settings.quality.flapAnim Animação de Francoatirador
 `;
