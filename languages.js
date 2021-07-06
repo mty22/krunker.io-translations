@@ -15,4 +15,5 @@ module.exports.langNames = {
     "hi": "Hindi",
     "ru": "Russian",
     "it": "Italian",
+    "tg": "Tagalog",
 }
