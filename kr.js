@@ -670,7 +670,7 @@ social.login.buy 구매하려면 로그인하세요
 social.login.sell 판매하려면 로그인하세요
 social.login.gift KR을 주려면 로그인하세요
 social.login.proccessing 로그인 중...
-social.since 
+social.since 시작일
 social.user.maps 이 유저의 게임
 social.user.mods 이 유저의 모드
 social.maps.none 찾은 게임이 없습니다...
