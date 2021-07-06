@@ -97,6 +97,17 @@ settings.experimental.header Experimental na Header
 settings.experimental.aimFreezeFix Ayusin ang Aim Freeze
 settings.experimental.mouseFlickFix Pag-ayos ng Mouse Flick
 settings.experimental.shaderRendering Pag-render
+settings.client.header Client
+settings.client.unlimitedFrames Unlimited FPS
+settings.client.gameCap Game Capture
+settings.client.experimental Experimental Features
+settings.client.discordRPC Discord RPC
+settings.client.resourceSwapper Resource Swapper
+settings.client.clearCache Clear Cache
+settings.client.resetSettings Reset Client Settings
+settings.client.acceleratedCanvas Accelerated Canvas
+settings.client.angleBackend ANGLE Graphics Backend
+settings.client.colorProfile Color Profile
 settings.dev.header Developer
 settings.dev.forceUpdate Sapilitang I-Update ang mga skins
 settings.dev.forceRegen Laging Regenerate Player
@@ -484,7 +495,7 @@ windows.maps.community Komunidad ng Devs
 windows.publish.map.header I-publish o I-update ang Laro
 windows.publish.map.thumbnail Walang Thumbnail o Larawan
 windows.publish.map.paste I-paste ang Data ng Laro
-windows.publish.mod.update Ilathala / I-bago
+windows.publish.map.update Publish/Update
 windows.publish.map.login Lumikha at I-upload ang laro!
 windows.theatre.header Theatre Mode
 windows.theatre.record Paganahin ang Pagre-record
@@ -544,7 +555,7 @@ windows.publish.mod.header I-akda ang Mod
 windows.publish.mod.thumbnail No Thumbnail
 windows.publish.mod.name Pangalan ng Mod
 windows.publish.mod.paste Mod Url
-windows.publish.mod.update I-publish / I-update
+windows.publish.mod.update Publish/Update
 windows.publish.mod.login upang lumikha at mag-upload ng mga mod!
 windows.secondary.header Piliin ang Pandagdag Armas
 windows.secondary.unlocked na-unlock
@@ -638,6 +649,7 @@ server.config.private Pribado
 server.config.krRewards Mga Gantimpala ng KR
 server.config.forceDefault Pilitin ang Default na Mga Setting
 server.config.warmupTime Oras para maghanda
+server.config.gamRounds Rounds
 server.config.objtvTime Oras sa Layunin
 server.config.forceSpawn Limitasyon ng Iskor
 server.config.scoreLimit Limitasyon ng Kalidad
@@ -649,6 +661,9 @@ server.config.hpRegen Health Regen
 server.config.disableB Huwag paganahin ang Mga Hangganan
 server.config.throwMel Bumato ng patalim
 server.config.noCosm Huwag magpakita ng Kosmetiko
+server.config.tstCmp Test Mode
+server.config.limitClasses Limit Classes
+server.config.tmSize Team Size
 social.login Mag-parehistro
 social.login.failed Hindi gumana ang pag-login
 social.login.buy Mag-login upang Bumili
@@ -774,4 +789,6 @@ social.trades.decline Tanggihan Lahat
 social.trades.message Payagan ang mga Trade Message at Pag-alok sa Settings
 social.trades.warning Wala kang makukuhang kagamitan sa Pag-alok na ito!
 social.trades.accept Nais mong tanggapin ang Pag-alok na ito?
+stats.airdrops KR-Packages
+settings.quality.flapAnim Sniper Flap Animation
 `;
