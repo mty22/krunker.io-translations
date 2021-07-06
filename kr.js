@@ -670,7 +670,7 @@ social.login.buy 구매하려면 로그인하세요
 social.login.sell 판매하려면 로그인하세요
 social.login.gift KR을 주려면 로그인하세요
 social.login.proccessing 로그인 중...
-social.since 회원가입 날짜
+social.since 
 social.user.maps 이 유저의 게임
 social.user.mods 이 유저의 모드
 social.maps.none 찾은 게임이 없습니다...
@@ -705,7 +705,7 @@ social.market.filter 검색
 social.market.sort2 정렬
 social.market.price.high 가격 내림차순
 social.trading.submitting 트레이드 요청 보내는 중...
-social.market.gift.amount 선물할 금액
+social.market.gift.amount 선물할
 social.market.fee.gift 수수료 없음
 social.market.gift KR 선물하기
 social.market.gift.msg 문자 남기기
