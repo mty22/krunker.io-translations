@@ -368,14 +368,14 @@ settings.mods.scope.paste URL Изображения Прицела
 settings.mods.scope.opacity Непрозрачность Прицела
 settings.mods.scope.width Ширина Изображения Прицела
 settings.mods.scope.height Высота Изображения Прицела
-settings.mods.dot Изображение Оптического Прицела
-settings.mods.dot.width Ширина Изображения Оптического Прицела
-settings.mods.dot.height Высота Изображения Оптического Прицела
-settings.mods.dot.paste URL Изображения Оптического Прицела
+settings.mods.dot Изображение Сетки
+settings.mods.dot.width Ширина Сетки
+settings.mods.dot.height Высота Сетки
+settings.mods.dot.paste URL Изображения Сетки
 settings.mods.endmessage Сообщение после Окончания Матча
 settings.mods.profile Аватар
 settings.mods.profile.paste URL Аватара
-settings.mods.ammo Изображение Значка Боеприпасов
+settings.mods.ammo Изображение Счетчика Боеприпасов
 settings.mods.ammo.paste URL Изображения Счетчика Боеприпасов
 settings.mods.kills Изображение Счетчика Убийств
 settings.mods.kills.paste URL Изображения Счетчика Убийств
@@ -404,7 +404,7 @@ windows.loadout.header Изменить Снаряжение
 windows.loadout.class Класс Оружия
 windows.loadout.primary Основное Оружие
 windows.loadout.primary.attach Дополнительная часть
-windows.loadout.primary.reticle Сетка Оптического Прицела
+windows.loadout.primary.reticle Сетка
 windows.loadout.primary.scope Прицел
 windows.loadout.secondary Вторичное Оружие
 windows.loadout.secondary.skin Скин Вторичного Оружия
@@ -478,7 +478,7 @@ windows.host.raw Игровые Данные
 windows.host.modes Выбор Режимов
 windows.host.classes Выбор Классов
 windows.host.settings Настройки Сервера
-windows.host.preset Пресеты Хоста
+windows.host.preset Пресеты
 windows.host.preset.load Загрузка Пресета ...
 windows.host.preset.name Название Пресета
 windows.host.start Начать Игру
