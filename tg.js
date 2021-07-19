@@ -99,20 +99,20 @@ settings.experimental.aimFreezeFix Ayusin ang Aim Freeze
 settings.experimental.mouseFlickFix Pag-ayos ng Mouse Flick
 settings.experimental.shaderRendering Pag-render
 settings.experimental.staticRendering Static Rendering
-settings.client.header Client
-settings.client.unlimitedFrames Unlimited FPS
-settings.client.gameCap Game Capture
+settings.client.header Kliyente
+settings.client.unlimitedFrames Unlimited na FPS
+settings.client.gameCap Record ng Laro
 settings.client.experimental Experimental Features
-settings.client.discordRPC Discord RPC
-settings.client.resourceSwapper Resource Swapper
-settings.client.clearCache Clear Cache
-settings.client.resetSettings Reset Client Settings
-settings.client.acceleratedCanvas Accelerated Canvas
-settings.client.angleBackend ANGLE Graphics Backend
-settings.client.colorProfile Color Profile
+settings.client.discordRPC RPC sa Discord
+settings.client.resourceSwapper Pagpalit ng Resources
+settings.client.clearCache I-clear ang Cache
+settings.client.resetSettings I-reset ang Settings ng Kliyent
+settings.client.acceleratedCanvas Accelerated ang Canvas
+settings.client.angleBackend ANGLE Graphics ang Backend
+settings.client.colorProfile Color ng Profile
 settings.dev.header Developer
 settings.dev.forceUpdate Sapilitang I-Update ang mga skins
-settings.dev.forceRegen Laging Regenerate Player
+settings.dev.forceRegen Laging Regenerate ang Player
 settings.dev.extraBan Impormasyon ukol sa Ban
 settings.chat.header Usapan o Chat
 settings.chat.chat Ipakita ang Chat Box
@@ -448,7 +448,7 @@ windows.controls.backward Paatras
 windows.controls.left Kaliwa
 windows.controls.right Kanan
 windows.controls.reload Reload
-windows.controls.aim Aim
+windows.controls.aim Pagpuntirya
 windows.controls.shoot Bumaril
 windows.controls.inspect Suriin
 windows.controls.spray Mag-spray
