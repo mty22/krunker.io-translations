@@ -91,12 +91,14 @@ settings.network.header Conexión
 settings.network.sendRate Alto tickrate
 settings.network.netRerouting Enrutamiento automático (Afecta el ping)
 settings.network.lagComp Compensación de lag
+settings.network.hitReg Hitreg Test
 settings.popup.header Popups
 settings.popup.freeKRPop Mostrar Popup de KR Gratis
 settings.experimental.header Experimental
 settings.experimental.aimFreezeFix Arreglo de congelamiento al apuntar
 settings.experimental.mouseFlickFix Arreglo de Mouse Flick
 settings.experimental.shaderRendering Renderización de Instancias
+settings.experimental.staticRendering Static Rendering
 settings.client.header Cliente
 settings.client.unlimitedFrames FPS Ilimitados
 settings.client.gameCap Captura de Juego
@@ -175,6 +177,7 @@ settings.interface.oldBrowser Usar el navegador antiguo
 settings.interface.rarityanim Desactivar animaciones de rareza
 settings.interface.showPfp Mostrar fotos de perfil
 settings.interface.showTradeMsg Mostrar mensajes de Intercambios
+settings.interface.hideNonTrade Hide Non-Tradable Skins
 settings.interface.hp Barras de salud dinámicas
 settings.interface.dmgScale Escala de daño
 settings.interface.killf Mostrar bajas de jugadores
@@ -259,6 +262,7 @@ settings.gameprivacy.streamer Modo Streamer
 settings.gameprivacy.anon Modo Anónimo
 settings.gameprivacy.hideGameTitle Esconder Título del Juego
 settings.gameplay.header Jugabilidad
+settings.gameplay.gpSetts Gameplay Settings
 settings.gameplay.sensitivityX Sensibilidad X
 settings.gameplay.sensitivityY Sensiblidad Y
 settings.gameplay.aimsensX Sensibilidad de Apuntado X
@@ -298,6 +302,7 @@ settings.audio.ui Volumen de la Interfaz
 settings.audio.asset Volumen de Assets
 settings.audio.dialogue Volumen de Acción
 settings.viewmodel.header Visualizador de Modelos
+settings.viewmodel.vmSetts View Model Settings
 settings.viewmodel.fov Campo de Visión
 settings.viewmodel.fps Campo de visión de Arma
 settings.viewmodel.bobbing Balanceo de Arma
@@ -352,6 +357,8 @@ settings.editing.vignette Viñeta
 settings.editing.feedLimit Límite de Killfeed
 settings.editing.depth Profundidad de Mapa
 settings.editing.green Pantalla Verde
+settings.editing.trailcol Bullet Trail Color
+settings.editing.ropecol Grapple Rope Color
 settings.editing.tracercol Color de rastros de Balas
 settings.editing.tracer Rastros de Balas
 settings.editing.tracer.offset Offset de Rastros de Balas
@@ -460,6 +467,14 @@ windows.controls.interactSec Interacción secundaria
 windows.controls.confirm Confirmar Interacción
 windows.controls.drop Soltar
 windows.controls.wepVis Alternar visibilidad de arma
+windows.controls.kickVoteY Vote Kick [Yes]
+windows.controls.kickVoteN Vote Kick [No]
+windows.controls.kpdVoteY KPD Vote [Yes]
+windows.controls.kpdVoteN KPD Vote [No]
+windows.controls.specFree Toggle Free Cam
+windows.controls.specObj Toggle Objective Cam
+windows.controls.specFirst Toggle First Person
+windows.controls.specNames Toggle Forced Names
 windows.controls.streak0 Racha 1
 windows.controls.streak1 Racha 2
 windows.controls.streak2 Racha 3
@@ -469,6 +484,10 @@ windows.controls.premium0 Noclip
 windows.controls.premium1 Godmode
 windows.controls.premium2 Kill
 windows.controls.premium3 Smite
+windows.controls.dev0 Developer Bind 1
+windows.controls.dev1 Developer Bind 2
+windows.controls.dev2 Developer Bind 3
+windows.controls.dev3 Developer Bind 4
 windows.controls.reset Reiniciar Posición (Race & Parkour)
 windows.controls.pretend Esconder Juego
 windows.host.header Crear partida personalizada
@@ -559,6 +578,8 @@ windows.publish.mod.update Publicar/actualizar
 windows.publish.mod.login para crear y subir mods!
 windows.secondary.header Seleccionar secundaria
 windows.secondary.unlocked Desbloqueada
+windows.secondary.customOnly Customs Only
+windows.secondary.premiumOnly Premium Only
 windows.secondary.req Requiere nivel {0}
 windows.advertise.header Promover
 windows.support.header Apoyar
@@ -652,6 +673,7 @@ server.config.warmupTime Tiempo de calentamiento
 server.config.gamRounds Rondas
 server.config.objtvTime Tiempo de Objetivo
 server.config.forceSpawn Tiempo de reaparición automática
+server.config.intermTmr Intermission (s)
 server.config.scoreLimit Límite de puntos
 server.config.keepTScore Mantener Puntaje de Equipo
 server.config.forceC Forzar Clases
@@ -664,6 +686,10 @@ server.config.noCosm Deshabilitar Cosméticos
 server.config.tstCmp Modo de Prueba
 server.config.limitClasses Limitar Clases
 server.config.tmSize Tamaño de Equipo
+server.config.fallDmg Fall Damage
+server.config.fallDmgThr Fall Damage Thresh
+server.config.noDraws No Draws
+server.config.bstOfR Best of
 social.login Iniciar Sesión/Registrarse
 social.login.failed Error al iniciar sesión
 social.login.buy Inicia sesión para comprar
@@ -755,6 +781,7 @@ windows.clan.leave Estás seguro de que Quieres Abandonar el Clan?
 windows.clan.delete Estás seguro de que Quieres Borrar el Clan?
 windows.clan.kick Estás seguro de que quieres expulsar a {0} del clan?
 windows.store.premium.purchase Estás seguro de que quieres Comprar {0} días de Premium?
+windows.store.premium.gift Are you sure you want to Gift '{0}' {1} days of Premium?
 windows.playerlist.ban Estás seguro que quieres banear a {0} de esta partida?
 windows.playerlist.flag Estás seguro de que quieres Suspender a {0} ? 
 windows.playerlist.unflag Estás seguro de que quieres remover la suspención de {0}?
