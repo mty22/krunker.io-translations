@@ -91,12 +91,14 @@ settings.network.header 네트워크
 settings.network.sendRate 높은 틱레이트
 settings.network.netRerouting 자동 라우팅 (핑에 영향을 줍니다)
 settings.network.lagComp 지연 시간 보정
+settings.network.hitReg Hitreg Test
 settings.popup.header 팝업
 settings.popup.freeKRPop 무료 KR 팝업 보이기
 settings.experimental.header 실험적 설정
 settings.experimental.aimFreezeFix 에임 멈춤 현상 해결
 settings.experimental.mouseFlickFix 마우스 순간이동 문제 해결
 settings.experimental.shaderRendering 인스턴스 렌더링
+settings.experimental.staticRendering Static Rendering
 settings.client.header 클라이언트
 settings.client.unlimitedFrames FPS 무제한
 settings.client.gameCap 게임 캡처
@@ -175,6 +177,7 @@ settings.interface.oldBrowser 구 서버 탐색기 사용
 settings.interface.rarityanim 희귀도 애니메이션 끄기
 settings.interface.showPfp 프로필 사진 표시
 settings.interface.showTradeMsg 트레이드 메시지 표시
+settings.interface.hideNonTrade Hide Non-Tradable Skins
 settings.interface.hp 동적 HP 막대
 settings.interface.dmgScale 피해량 숫자 크기
 settings.interface.killf 킬로그 표시
@@ -259,6 +262,7 @@ settings.gameprivacy.streamer 스트리머 모드
 settings.gameprivacy.anon 익명 모드
 settings.gameprivacy.hideGameTitle 게임 제목 숨기기
 settings.gameplay.header 게임플레이
+settings.gameplay.gpSetts Gameplay Settings
 settings.gameplay.sensitivityX 좌우 감도
 settings.gameplay.sensitivityY 상하 감도
 settings.gameplay.aimsensX 조준 좌우 감도
@@ -298,6 +302,7 @@ settings.audio.ui 인터페이스 음량
 settings.audio.asset 애셋 음량
 settings.audio.dialogue 동작 음량
 settings.viewmodel.header 무기 모델
+settings.viewmodel.vmSetts View Model Settings
 settings.viewmodel.fov 시야각 (FOV)
 settings.viewmodel.fps 무기 시야각
 settings.viewmodel.bobbing 무기 흔들림
@@ -352,6 +357,8 @@ settings.editing.vignette 화면 테두리 어둡게 하기
 settings.editing.feedLimit 킬로그 제한
 settings.editing.depth 깊이 지도
 settings.editing.green 크로마 키
+settings.editing.trailcol Bullet Trail Color
+settings.editing.ropecol Grapple Rope Color
 settings.editing.tracercol 예광탄 색상
 settings.editing.tracer 예광탄
 settings.editing.tracer.offset 예광탄 시작점 위치
@@ -460,6 +467,14 @@ windows.controls.interactSec 부 사용하기
 windows.controls.confirm 사용하기 확인
 windows.controls.drop 무기 떨어뜨리기
 windows.controls.wepVis 무기 보이기 전환
+windows.controls.kickVoteY Vote Kick [Yes]
+windows.controls.kickVoteN Vote Kick [No]
+windows.controls.kpdVoteY KPD Vote [Yes]
+windows.controls.kpdVoteN KPD Vote [No]
+windows.controls.specFree Toggle Free Cam
+windows.controls.specObj Toggle Objective Cam
+windows.controls.specFirst Toggle First Person
+windows.controls.specNames Toggle Forced Names
 windows.controls.streak0 연속 처치 1
 windows.controls.streak1 연속 처치 2
 windows.controls.streak2 연속 처치 3
@@ -469,6 +484,10 @@ windows.controls.premium0 벽 통과
 windows.controls.premium1 무적 모드
 windows.controls.premium2 자살
 windows.controls.premium3 즉사 모드
+windows.controls.dev0 Developer Bind 1
+windows.controls.dev1 Developer Bind 2
+windows.controls.dev2 Developer Bind 3
+windows.controls.dev3 Developer Bind 4
 windows.controls.reset 위치 초기화 (Race, Parkour 모드 전용)
 windows.controls.pretend 게임 숨기기
 windows.host.header 커스텀 게임 만들기
@@ -559,6 +578,8 @@ windows.publish.mod.update 업로드
 windows.publish.mod.login 해서 모드를 만들고 업로드하세요!
 windows.secondary.header 보조무기 선택
 windows.secondary.unlocked 잠금 해제됨
+windows.secondary.customOnly Customs Only
+windows.secondary.premiumOnly Premium Only
 windows.secondary.req {0}레벨 필요
 windows.advertise.header 광고하기
 windows.support.header 고객지원
@@ -652,6 +673,7 @@ server.config.warmupTime 준비 시간
 server.config.gamRounds 라운드
 server.config.objtvTime 거점 변경 시간
 server.config.forceSpawn 강제 리스폰 시간
+server.config.intermTmr Intermission (s)
 server.config.scoreLimit 점수 제한
 server.config.keepTScore 팀 점수 유지
 server.config.forceC 게임 모드 클래스 강제 적용
@@ -664,6 +686,10 @@ server.config.noCosm 외형 아이템 비활성화
 server.config.tstCmp 테스트 모드
 server.config.limitClasses 클래스 제한
 server.config.tmSize 팀 크기
+server.config.fallDmg Fall Damage
+server.config.fallDmgThr Fall Damage Thresh
+server.config.noDraws No Draws
+server.config.bstOfR Best of
 social.login 로그인/회원가입
 social.login.failed 로그인 실패
 social.login.buy 구매하려면 로그인하세요
@@ -755,6 +781,7 @@ windows.clan.leave 클랜을 탈퇴하시겠습니까?
 windows.clan.delete 클랜을 해체하시겠습니까?
 windows.clan.kick {0}님을 클랜에서 추방하시겠습니까?
 windows.store.premium.purchase {0}일 치의 프리미엄 서비스를 구매하시겠습니까?
+windows.store.premium.gift Are you sure you want to Gift '{0}' {1} days of Premium?
 windows.playerlist.ban {0}님을 이 게임에서 밴하시겠습니까?
 windows.playerlist.flag {0}님에게 해커 태그를 지정하시겠습니까?
 windows.playerlist.unflag {0}님의 해커 태그를 제거하시겠습니까?

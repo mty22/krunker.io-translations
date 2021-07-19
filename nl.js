@@ -91,12 +91,14 @@ settings.network.header Netwerk
 settings.network.sendRate Hoge Tickrate
 settings.network.netRerouting Auto Routing (Beïnvloed Ping)
 settings.network.lagComp Lag Compensatie
+settings.network.hitReg Hitreg Test
 settings.popup.header Popups
 settings.popup.freeKRPop Toon Gratis KR Popup
 settings.experimental.header Experimenteel
 settings.experimental.aimFreezeFix Aim Freeze Fix
 settings.experimental.mouseFlickFix Muis Flick Fix
 settings.experimental.shaderRendering Instance Rendering
+settings.experimental.staticRendering Static Rendering
 settings.client.header Client
 settings.client.unlimitedFrames Unlimited FPS
 settings.client.gameCap Game Capture
@@ -175,6 +177,7 @@ settings.interface.oldBrowser Gebruik Oude Browser
 settings.interface.rarityanim Schakel Zeldzaamheid Animaties uit
 settings.interface.showPfp Toon Profiel Avatar
 settings.interface.showTradeMsg Toon Trade Berichten
+settings.interface.hideNonTrade Hide Non-Tradable Skins
 settings.interface.hp Dynamische HP Bars
 settings.interface.dmgScale Schade Schaal
 settings.interface.killf Toon Kill Feed
@@ -259,6 +262,7 @@ settings.gameprivacy.streamer Streamer Modus
 settings.gameprivacy.anon Anonieme Modus
 settings.gameprivacy.hideGameTitle Verstop Game Titel
 settings.gameplay.header Gameplay
+settings.gameplay.gpSetts Gameplay Settings
 settings.gameplay.sensitivityX X Gevoeligheid
 settings.gameplay.sensitivityY Y Gevoeligheid
 settings.gameplay.aimsensX Aim X Gevoeligheid
@@ -298,6 +302,7 @@ settings.audio.ui UI Volume
 settings.audio.asset Asset Volume
 settings.audio.dialogue Actie Volume
 settings.viewmodel.header Bekijk model
+settings.viewmodel.vmSetts View Model Settings
 settings.viewmodel.fov Gezichtsveld
 settings.viewmodel.fps Wapen Gezichtsveld
 settings.viewmodel.bobbing Wapen Bobbing
@@ -352,6 +357,8 @@ settings.editing.vignette Vignette
 settings.editing.feedLimit Killfeed Limiet
 settings.editing.depth Diepte Kaart
 settings.editing.green Green Screen
+settings.editing.trailcol Bullet Trail Color
+settings.editing.ropecol Grapple Rope Color
 settings.editing.tracercol Kogel Tracers
 settings.editing.tracer Kogel Tracers
 settings.editing.tracer.offset Tracer Compensatie
@@ -460,6 +467,14 @@ windows.controls.interactSec Secundaire interactie
 windows.controls.confirm Bevestig Interactie
 windows.controls.drop Drop
 windows.controls.wepVis Wapenzichtbaarheid in- / uitschakelen
+windows.controls.kickVoteY Vote Kick [Yes]
+windows.controls.kickVoteN Vote Kick [No]
+windows.controls.kpdVoteY KPD Vote [Yes]
+windows.controls.kpdVoteN KPD Vote [No]
+windows.controls.specFree Toggle Free Cam
+windows.controls.specObj Toggle Objective Cam
+windows.controls.specFirst Toggle First Person
+windows.controls.specNames Toggle Forced Names
 windows.controls.streak0 Streak 1
 windows.controls.streak1 Streak 2
 windows.controls.streak2 Streak 3
@@ -469,6 +484,10 @@ windows.controls.premium0 Noclip
 windows.controls.premium1 Godmode
 windows.controls.premium2 Dood
 windows.controls.premium3 Smite
+windows.controls.dev0 Developer Bind 1
+windows.controls.dev1 Developer Bind 2
+windows.controls.dev2 Developer Bind 3
+windows.controls.dev3 Developer Bind 4
 windows.controls.reset Positie resetten (Race & Parkour)
 windows.controls.pretend Spel verbergen
 windows.host.header Host Aangepast spel
@@ -559,6 +578,8 @@ windows.publish.mod.update Publiceren / bijwerken
 windows.publish.mod.login om mods te maken en te uploaden!
 windows.secondary.header Selecteer Secundair
 windows.secondary.unlocked Ontgrendeld
+windows.secondary.customOnly Customs Only
+windows.secondary.premiumOnly Premium Only
 windows.secondary.req Req lvl {0}
 windows.advertise.header Adverteren
 windows.support.header Ondersteuning
@@ -652,6 +673,7 @@ server.config.warmupTime Opwarm Tijd
 server.config.gamRounds Rounds
 server.config.objtvTime Objectief Tijd
 server.config.forceSpawn Auto Respawn Tijd
+server.config.intermTmr Intermission (s)
 server.config.scoreLimit Score Limiet
 server.config.keepTScore Houd Team Score
 server.config.forceC Dwing Modus Classes
@@ -664,6 +686,10 @@ server.config.noCosm Cosmetica Uitzetten
 server.config.tstCmp Test Mode
 server.config.limitClasses Limit Classes
 server.config.tmSize Team Size
+server.config.fallDmg Fall Damage
+server.config.fallDmgThr Fall Damage Thresh
+server.config.noDraws No Draws
+server.config.bstOfR Best of
 social.login Login/Registreer
 social.login.failed Login Mislukt
 social.login.buy Login om te Kopen
@@ -755,6 +781,7 @@ windows.clan.leave Weet je zeker dat je de clan wilt verlaten?
 windows.clan.delete Weet je zeker dat je de clan wilt verwijderen?
 windows.clan.kick Weet je zeker dat je {0} wilt kicken van de clan?
 windows.store.premium.purchase Weet je zeker dat je {0} dagen Premium wilt kopen?
+windows.store.premium.gift Are you sure you want to Gift '{0}' {1} days of Premium?
 windows.playerlist.ban Weet je zeker dat je {0} wilt verbannen van deze game?
 windows.playerlist.flag Weet je zeker dat je {0} wilt markeren?
 windows.playerlist.unflag Weet je zeker dat je {0} wilt onmarkeren?

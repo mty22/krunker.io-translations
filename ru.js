@@ -91,12 +91,14 @@ settings.network.header Настройки сети
 settings.network.sendRate Высокий тикрейт
 settings.network.netRerouting Автоматическая маршрутизация (Влияет на пинг)
 settings.network.lagComp Компенсация задержки
+settings.network.hitReg Hitreg Test
 settings.popup.header Всплывающие окна
 settings.popup.freeKRPop Показывать окно бесплатных KR
 settings.experimental.header Экспериментальные
 settings.experimental.aimFreezeFix Исправление лагов при прицеливании
 settings.experimental.mouseFlickFix Исправление случайных фликов мыши
 settings.experimental.shaderRendering Дублирующий рендеринг
+settings.experimental.staticRendering Static Rendering
 settings.client.header Клиент
 settings.client.unlimitedFrames Безлимитный FPS
 settings.client.gameCap Захват игры
@@ -175,6 +177,7 @@ settings.interface.oldBrowser Использовать старый браузе
 settings.interface.rarityanim Отключить анимацию редкости
 settings.interface.showPfp Показывать изображение профиля
 settings.interface.showTradeMsg Показывать сообщения трейдов
+settings.interface.hideNonTrade Hide Non-Tradable Skins
 settings.interface.hp Динамическая полоса здоровья
 settings.interface.dmgScale Масштаб информации о наносимом уроне
 settings.interface.killf Показывать убийства подряд
@@ -259,6 +262,7 @@ settings.gameprivacy.streamer Режим стримера
 settings.gameprivacy.anon Анонимный режим
 settings.gameprivacy.hideGameTitle Скрыть название игры
 settings.gameplay.header Геймплей
+settings.gameplay.gpSetts Gameplay Settings
 settings.gameplay.sensitivityX Чувствительность по оси X
 settings.gameplay.sensitivityY Чувствительность по оси Y
 settings.gameplay.aimsensX Чувствительность по оси X в прицеливании
@@ -298,6 +302,7 @@ settings.audio.ui Звуки в Меню
 settings.audio.asset Звуки Ассетов
 settings.audio.dialogue Звуки Действий
 settings.viewmodel.header Вид Моделей
+settings.viewmodel.vmSetts View Model Settings
 settings.viewmodel.fov Угол Обзора
 settings.viewmodel.fps Угол Обзора Оружия
 settings.viewmodel.bobbing Анимация "подпрыгивания" оружия
@@ -352,6 +357,8 @@ settings.editing.vignette Виньетка
 settings.editing.feedLimit Лимит Уведомлений об убийствах
 settings.editing.depth Карта Глубины
 settings.editing.green Хромакей
+settings.editing.trailcol Bullet Trail Color
+settings.editing.ropecol Grapple Rope Color
 settings.editing.tracercol Пулевой Трассер
 settings.editing.tracer Пулевой Трассер
 settings.editing.tracer.offset Смещение Пулевого Трассера
@@ -460,6 +467,14 @@ windows.controls.interactSec Вторичное Взаимодействие
 windows.controls.confirm Подтвердить Взаимодействие
 windows.controls.drop Выбросить
 windows.controls.wepVis Переключить Видимость Оружия
+windows.controls.kickVoteY Vote Kick [Yes]
+windows.controls.kickVoteN Vote Kick [No]
+windows.controls.kpdVoteY KPD Vote [Yes]
+windows.controls.kpdVoteN KPD Vote [No]
+windows.controls.specFree Toggle Free Cam
+windows.controls.specObj Toggle Objective Cam
+windows.controls.specFirst Toggle First Person
+windows.controls.specNames Toggle Forced Names
 windows.controls.streak0 Серия 1
 windows.controls.streak1 Серия 2
 windows.controls.streak2 Серия 3
@@ -469,6 +484,10 @@ windows.controls.premium0 Noclip
 windows.controls.premium1 Режим Бога
 windows.controls.premium2 Убить
 windows.controls.premium3 Поражение
+windows.controls.dev0 Developer Bind 1
+windows.controls.dev1 Developer Bind 2
+windows.controls.dev2 Developer Bind 3
+windows.controls.dev3 Developer Bind 4
 windows.controls.reset Сбросить Стартовую Позицию (Гонки & Паркур)
 windows.controls.pretend Скрыть Игру
 windows.host.header Создание Пользовательской Игры
@@ -559,6 +578,8 @@ windows.publish.mod.update Опубликовать/Обновить
 windows.publish.mod.login чтобы создавать и загружать модификации!
 windows.secondary.header Выберите вторичное оружие
 windows.secondary.unlocked Разблокировано
+windows.secondary.customOnly Customs Only
+windows.secondary.premiumOnly Premium Only
 windows.secondary.req Требуется уровень {0}
 windows.advertise.header Объявление
 windows.support.header Поддержка
@@ -652,6 +673,7 @@ server.config.warmupTime Время разминки
 server.config.gamRounds Раунды
 server.config.objtvTime Время длительности точки
 server.config.forceSpawn Время автоматического возрождения
+server.config.intermTmr Intermission (s)
 server.config.scoreLimit Предел очков
 server.config.keepTScore Сохранить счет команды
 server.config.forceC Принудительные классы режима
@@ -664,6 +686,10 @@ server.config.noCosm Отключить косметику
 server.config.tstCmp Тестовый режим
 server.config.limitClasses Лимит классов
 server.config.tmSize Размер команды
+server.config.fallDmg Fall Damage
+server.config.fallDmgThr Fall Damage Thresh
+server.config.noDraws No Draws
+server.config.bstOfR Best of
 social.login Авторизация/Регистрация
 social.login.failed Не удалось авторизоваться
 social.login.buy Авторизуйтесь, чтобы купить
@@ -755,6 +781,7 @@ windows.clan.leave Вы уверены, что хотите выйти из кл
 windows.clan.delete Вы уверены, что хотите удалить клан?
 windows.clan.kick Вы действительно хотите исключить {0} из клана?
 windows.store.premium.purchase Вы действительно хотите приобрести {0} дней Премиум-подписки?
+windows.store.premium.gift Are you sure you want to Gift '{0}' {1} days of Premium?
 windows.playerlist.ban Вы действительно хотите запретить пользователю {0} участвовать в этой игре?
 windows.playerlist.flag Вы действительно хотите пожаловаться на {0}?
 windows.playerlist.unflag Вы уверены, что хотите снять отметку {0}?

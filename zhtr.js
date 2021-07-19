@@ -91,12 +91,14 @@ settings.network.header 網路
 settings.network.sendRate 高伺服器應答率
 settings.network.netRerouting 自動路由
 settings.network.lagComp 延遲修正 (Lag Compensation)
+settings.network.hitReg Hitreg Test
 settings.popup.header 彈出視窗
 settings.popup.freeKRPop 顯示免費KR彈出視窗
 settings.experimental.header 實驗性功能
 settings.experimental.aimFreezeFix 瞄準凍結修復
 settings.experimental.mouseFlickFix 滑鼠過激修正
 settings.experimental.shaderRendering 即時渲染
+settings.experimental.staticRendering Static Rendering
 settings.client.header Client
 settings.client.unlimitedFrames Unlimited FPS
 settings.client.gameCap Game Capture
@@ -175,6 +177,7 @@ settings.interface.oldBrowser 使用舊版瀏覽器
 settings.interface.rarityanim 禁用稀有物品動畫,
 settings.interface.showPfp 顯示用戶圖示
 settings.interface.showTradeMsg 顯示交易訊息
+settings.interface.hideNonTrade Hide Non-Tradable Skins
 settings.interface.hp 動態血條 (HP)
 settings.interface.dmgScale 傷害顯示比例
 settings.interface.killf 顯示擊殺訊息
@@ -259,6 +262,7 @@ settings.gameprivacy.streamer 主播模式
 settings.gameprivacy.anon 匿名模式
 settings.gameprivacy.hideGameTitle 隱藏遊戲名稱
 settings.gameplay.header 遊戲性
+settings.gameplay.gpSetts Gameplay Settings
 settings.gameplay.sensitivityX X軸靈敏度
 settings.gameplay.sensitivityY Y軸靈敏度
 settings.gameplay.aimsensX 瞄準X軸靈敏度
@@ -298,6 +302,7 @@ settings.audio.ui 用戶介面音量
 settings.audio.asset Asset 地圖元件音量
 settings.audio.dialogue 動作音量
 settings.viewmodel.header 視角
+settings.viewmodel.vmSetts View Model Settings
 settings.viewmodel.fov 視野範圍
 settings.viewmodel.fps 武器渲染視野範圍
 settings.viewmodel.bobbing 武器晃動
@@ -352,6 +357,8 @@ settings.editing.vignette 暈影效果（使螢幕邊緣顏色變暗）
 settings.editing.feedLimit 擊殺列表長度限制
 settings.editing.depth 深度圖模式
 settings.editing.green 綠幕模式
+settings.editing.trailcol Bullet Trail Color
+settings.editing.ropecol Grapple Rope Color
 settings.editing.tracercol 顯示彈道軌跡
 settings.editing.tracer 顯示彈道軌跡
 settings.editing.tracer.offset Tracer Offset
@@ -460,6 +467,14 @@ windows.controls.interactSec 次要互動
 windows.controls.confirm 確認互動
 windows.controls.drop 放下(武器/物品)
 windows.controls.wepVis 切換武器可見度
+windows.controls.kickVoteY Vote Kick [Yes]
+windows.controls.kickVoteN Vote Kick [No]
+windows.controls.kpdVoteY KPD Vote [Yes]
+windows.controls.kpdVoteN KPD Vote [No]
+windows.controls.specFree Toggle Free Cam
+windows.controls.specObj Toggle Objective Cam
+windows.controls.specFirst Toggle First Person
+windows.controls.specNames Toggle Forced Names
 windows.controls.streak0 一連殺
 windows.controls.streak1 二連殺
 windows.controls.streak2 三連殺
@@ -469,6 +484,10 @@ windows.controls.premium0 穿牆/飛行模式
 windows.controls.premium1 無敵模式
 windows.controls.premium2 自殺
 windows.controls.premium3 重擊模式
+windows.controls.dev0 Developer Bind 1
+windows.controls.dev1 Developer Bind 2
+windows.controls.dev2 Developer Bind 3
+windows.controls.dev3 Developer Bind 4
 windows.controls.reset 返回到起點 (比賽 & 跑酷)
 windows.controls.pretend 隱藏遊戲
 windows.host.header 創建自定義遊戲
@@ -559,6 +578,8 @@ windows.publish.mod.update 發表/更新
 windows.publish.mod.login 以創建並上傳插件!
 windows.secondary.header 選擇次要武器
 windows.secondary.unlocked 已解鎖
+windows.secondary.customOnly Customs Only
+windows.secondary.premiumOnly Premium Only
 windows.secondary.req 需要至少 {0} 等級
 windows.advertise.header 廣告
 windows.support.header 支持
@@ -652,6 +673,7 @@ server.config.warmupTime 熱身時間
 server.config.gamRounds Rounds
 server.config.objtvTime 目標時間
 server.config.forceSpawn 自動重生時間
+server.config.intermTmr Intermission (s)
 server.config.scoreLimit 得分限制
 server.config.keepTScore 保留隊伍分數
 server.config.forceC 強制角色類別
@@ -664,6 +686,10 @@ server.config.noCosm 禁用飾品
 server.config.tstCmp Test Mode
 server.config.limitClasses Limit Classes
 server.config.tmSize Team Size
+server.config.fallDmg Fall Damage
+server.config.fallDmgThr Fall Damage Thresh
+server.config.noDraws No Draws
+server.config.bstOfR Best of
 social.login 登入/註冊
 social.login.failed 登入失敗
 social.login.buy 登入後購買
@@ -755,6 +781,7 @@ windows.clan.leave 您確定您想離開您的公會?
 windows.clan.delete 您確定您想刪除您的公會?
 windows.clan.kick 您確定您想從您的公會踢出 {0} ?
 windows.store.premium.purchase 您確定您想要購買 {0} 天的高級會員?
+windows.store.premium.gift Are you sure you want to Gift '{0}' {1} days of Premium?
 windows.playerlist.ban 您確定您想要從此遊戲封禁並踢出 {0} ?
 windows.playerlist.flag 您確定您想要標記 {0} 嗎？
 windows.playerlist.unflag 您確定您想要取消標記{0}嗎？

@@ -91,12 +91,14 @@ settings.network.header 网路
 settings.network.sendRate 高服务器应答率
 settings.network.netRerouting 自动
 settings.network.lagComp 延迟修正
+settings.network.hitReg Hitreg Test
 settings.popup.header 弹窗
 settings.popup.freeKRPop 允许免费KR弹窗
 settings.experimental.header 实验性功能
 settings.experimental.aimFreezeFix 开镜冻结修复
 settings.experimental.mouseFlickFix 视野跳动修复
 settings.experimental.shaderRendering 着色器渲染
+settings.experimental.staticRendering Static Rendering
 settings.client.header Client
 settings.client.unlimitedFrames Unlimited FPS
 settings.client.gameCap Game Capture
@@ -175,6 +177,7 @@ settings.interface.oldBrowser 使用经典浏览器
 settings.interface.rarityanim 禁用稀有物品动画
 settings.interface.showPfp 显示用户头像
 settings.interface.showTradeMsg 显示交易信息
+settings.interface.hideNonTrade Hide Non-Tradable Skins
 settings.interface.hp 动态血条(HP)
 settings.interface.dmgScale 伤害显示比例
 settings.interface.killf 显示击杀列表
@@ -259,6 +262,7 @@ settings.gameprivacy.streamer 直播模式
 settings.gameprivacy.anon 匿名模式
 settings.gameprivacy.hideGameTitle 隐藏游戏标志
 settings.gameplay.header 游戏性
+settings.gameplay.gpSetts Gameplay Settings
 settings.gameplay.sensitivityX X轴灵敏度
 settings.gameplay.sensitivityY Y轴灵敏度
 settings.gameplay.aimsensX ADS(瞄准)X轴灵敏度
@@ -298,6 +302,7 @@ settings.audio.ui 用户界面音量
 settings.audio.asset 地图音量
 settings.audio.dialogue 动作音量
 settings.viewmodel.header 视角
+settings.viewmodel.vmSetts View Model Settings
 settings.viewmodel.fov 腰射视野
 settings.viewmodel.fps 帧数
 settings.viewmodel.bobbing 玩家移动时的武器晃动
@@ -352,6 +357,8 @@ settings.editing.vignette 晕影效果(使屏幕边缘颜色变暗)
 settings.editing.feedLimit 击杀列表长度限制
 settings.editing.depth 深度图模式
 settings.editing.green 绿幕模式
+settings.editing.trailcol Bullet Trail Color
+settings.editing.ropecol Grapple Rope Color
 settings.editing.tracercol 弹道轨迹
 settings.editing.tracer 弹道轨迹
 settings.editing.tracer.offset 弹道显示位置
@@ -460,6 +467,14 @@ windows.controls.interactSec 次要交互
 windows.controls.confirm 确认交互
 windows.controls.drop 放下(武器/物品)
 windows.controls.wepVis 切换武器可见度
+windows.controls.kickVoteY Vote Kick [Yes]
+windows.controls.kickVoteN Vote Kick [No]
+windows.controls.kpdVoteY KPD Vote [Yes]
+windows.controls.kpdVoteN KPD Vote [No]
+windows.controls.specFree Toggle Free Cam
+windows.controls.specObj Toggle Objective Cam
+windows.controls.specFirst Toggle First Person
+windows.controls.specNames Toggle Forced Names
 windows.controls.streak0 连杀奖励1
 windows.controls.streak1 连杀奖励2
 windows.controls.streak2 连杀奖励3
@@ -469,6 +484,10 @@ windows.controls.premium0 穿墙模式
 windows.controls.premium1 超高血量
 windows.controls.premium2 瞬间击杀全部玩家
 windows.controls.premium3 超高伤害
+windows.controls.dev0 Developer Bind 1
+windows.controls.dev1 Developer Bind 2
+windows.controls.dev2 Developer Bind 3
+windows.controls.dev3 Developer Bind 4
 windows.controls.reset 重设时复活的位(仅限于跑酷/速度竞赛模式)
 windows.controls.pretend 隐藏游戏
 windows.host.header 创建自定义游戏
@@ -559,6 +578,8 @@ windows.publish.mod.update 发布/更新
 windows.publish.mod.login 请登录以创建并上传!
 windows.secondary.header 选择副武器
 windows.secondary.unlocked 已解锁
+windows.secondary.customOnly Customs Only
+windows.secondary.premiumOnly Premium Only
 windows.secondary.req 需要至少{0}级
 windows.advertise.header 广告
 windows.support.header 支持
@@ -652,6 +673,7 @@ server.config.warmupTime 热身时间
 server.config.gamRounds Rounds
 server.config.objtvTime 得分点存在时间
 server.config.forceSpawn 自动重生时间
+server.config.intermTmr Intermission (s)
 server.config.scoreLimit 得分限制
 server.config.keepTScore 保持该队伍分数
 server.config.forceC 必须使用特定武器
@@ -664,6 +686,10 @@ server.config.noCosm 禁用饰品
 server.config.tstCmp Test Mode
 server.config.limitClasses Limit Classes
 server.config.tmSize Team Size
+server.config.fallDmg Fall Damage
+server.config.fallDmgThr Fall Damage Thresh
+server.config.noDraws No Draws
+server.config.bstOfR Best of
 social.login 登录/注册
 social.login.failed 登录失败
 social.login.buy 登录后才可购买
@@ -755,6 +781,7 @@ windows.clan.leave 您确定要离开该战队吗?
 windows.clan.delete 您确定要解散该战队吗?
 windows.clan.kick 您确定要将｛0｝踢出您的战队吗?
 windows.store.premium.purchase 您确定要购买｛0｝天的会员吗?
+windows.store.premium.gift Are you sure you want to Gift '{0}' {1} days of Premium?
 windows.playerlist.ban 您确定要将｛0｝禁赛吗?
 windows.playerlist.flag 您确定要标记｛0｝为外挂用户吗?
 windows.playerlist.unflag 您确定要取消标记｛0｝吗?

@@ -91,12 +91,14 @@ settings.network.header Network
 settings.network.sendRate Mataas na Tickrate
 settings.network.netRerouting Auto Routing (Nakakaapekto sa Ping)
 settings.network.lagComp Paghabol sa Lag
+settings.network.hitReg Hitreg Test
 settings.popup.header Mga Popup
 settings.popup.freeKRPop Ipakita ang Libreng KR Popup
 settings.experimental.header Experimental na Header
 settings.experimental.aimFreezeFix Ayusin ang Aim Freeze
 settings.experimental.mouseFlickFix Pag-ayos ng Mouse Flick
 settings.experimental.shaderRendering Pag-render
+settings.experimental.staticRendering Static Rendering
 settings.client.header Client
 settings.client.unlimitedFrames Unlimited FPS
 settings.client.gameCap Game Capture
@@ -175,6 +177,7 @@ settings.interface.oldBrowser Gumamit ng Lumang Browser
 settings.interface.rarityanim Tigilan ang Animasyon ng Rarity
 settings.interface.showPfp Ipakita ang Mga Larawan sa Profile
 settings.interface.showTradeMsg Ipakita ang Mga Mensahe sa Kalakal
+settings.interface.hideNonTrade Hide Non-Tradable Skins
 settings.interface.hp Mga Dynamic na HP Bar
 settings.interface.dmgScale Lawak ng Pinsala 
 settings.interface.killf Ipakita kung sino ang pumatay sa kapwa-manlalaro
@@ -259,6 +262,7 @@ settings.gameprivacy.streamer Mode ng Streamer
 settings.gameprivacy.anon Anonymous Mode
 settings.gameprivacy.hideGameTitle Itago ang Pamagat ng Laro
 settings.gameplay.header Gameplay
+settings.gameplay.gpSetts Gameplay Settings
 settings.gameplay.sensitivityX X Sensitivity
 settings.gameplay.sensitivityY Y Sensitivity
 settings.gameplay.aimsensX Aim X Sensitivity
@@ -298,6 +302,7 @@ settings.audio.ui UI Bolyum ng UI
 settings.audio.asset Bolyum ng Asset
 settings.audio.dialogue Bolyum ng dialogo
 settings.viewmodel.header Tingnan ang Modelo
+settings.viewmodel.vmSetts View Model Settings
 settings.viewmodel.fov Field of View (Larangan ng Pagtingin)
 settings.viewmodel.fps FOV ng Armas
 settings.viewmodel.bobbing Pagtalbog ng Armas
@@ -352,6 +357,8 @@ settings.editing.vignette Vignette
 settings.editing.feedLimit Limitasyon ng Killfeed
 settings.editing.depth Lalim ng Mapa
 settings.editing.green Berdeng I-skreen
+settings.editing.trailcol Bullet Trail Color
+settings.editing.ropecol Grapple Rope Color
 settings.editing.tracercol Kulay ng Bullet Tracer
 settings.editing.tracer Mga Bullet Tracer
 settings.editing.tracer.offset Tracer Offset
@@ -460,6 +467,14 @@ windows.controls.interactSec Pangalawang Pakikipag-ugnay
 windows.controls.confirm Kumpirmahin ang Pakikipag-ugnay
 windows.controls.drop Patak
 windows.controls.wepVis I-toggle ang Visibility ng Armas
+windows.controls.kickVoteY Vote Kick [Yes]
+windows.controls.kickVoteN Vote Kick [No]
+windows.controls.kpdVoteY KPD Vote [Yes]
+windows.controls.kpdVoteN KPD Vote [No]
+windows.controls.specFree Toggle Free Cam
+windows.controls.specObj Toggle Objective Cam
+windows.controls.specFirst Toggle First Person
+windows.controls.specNames Toggle Forced Names
 windows.controls.streak0 Streak 1
 windows.controls.streak1 Streak 2
 windows.controls.streak2 Streak 3
@@ -469,6 +484,10 @@ windows.controls.premium0 Naka noclip
 windows.controls.premium1 Naka godmode
 windows.controls.premium2 Pumatay
 windows.controls.premium3 Hampasin
+windows.controls.dev0 Developer Bind 1
+windows.controls.dev1 Developer Bind 2
+windows.controls.dev2 Developer Bind 3
+windows.controls.dev3 Developer Bind 4
 windows.controls.reset Balik-Simula ang posisyon (Paligsahan at Parkour)
 windows.controls.pretend Itago ang Laro
 windows.host.header Host ng Custom na Laro
@@ -559,6 +578,8 @@ windows.publish.mod.update Publish/Update
 windows.publish.mod.login upang lumikha at mag-upload ng mga mod!
 windows.secondary.header Piliin ang Pandagdag Armas
 windows.secondary.unlocked na-unlock
+windows.secondary.customOnly Customs Only
+windows.secondary.premiumOnly Premium Only
 windows.secondary.req Antas dapat ay {0}
 windows.advertise.header I-advertise
 windows.support.header Suporta
@@ -652,6 +673,7 @@ server.config.warmupTime Oras para maghanda
 server.config.gamRounds Rounds
 server.config.objtvTime Oras sa Layunin
 server.config.forceSpawn Limitasyon ng Iskor
+server.config.intermTmr Intermission (s)
 server.config.scoreLimit Limitasyon ng Kalidad
 server.config.keepTScore Panatilihin ang Marka ng Koponan
 server.config.forceC Pilitin ang mga Klase ng Mode
@@ -664,6 +686,10 @@ server.config.noCosm Huwag magpakita ng Kosmetiko
 server.config.tstCmp Test Mode
 server.config.limitClasses Limit Classes
 server.config.tmSize Team Size
+server.config.fallDmg Fall Damage
+server.config.fallDmgThr Fall Damage Thresh
+server.config.noDraws No Draws
+server.config.bstOfR Best of
 social.login Mag-parehistro
 social.login.failed Hindi gumana ang pag-login
 social.login.buy Mag-login upang Bumili
@@ -755,6 +781,7 @@ windows.clan.leave Sigurado ka bang nais mong umalis sa hukbo/samahan ninyo?
 windows.clan.delete Sigurado ka bang nais mong tanggalin ang hukbo/samahan?
 windows.clan.kick Sigurado ka bang nais mong i-kick si {0} at tanggalin sa samahan?
 windows.store.premium.purchase Sigurado ka bang nais mong bumili ng {0} araw ng Premium?
+windows.store.premium.gift Are you sure you want to Gift '{0}' {1} days of Premium?
 windows.playerlist.ban Sigurado ka bang nais mong ipagbawal si {0} mula sa larong ito?
 windows.playerlist.flag Sigurado ka bang nais mong I-flag si {0}?
 windows.playerlist.unflag Sigurado ka bang nais mong mag-Unflag si {0}?
