@@ -16,7 +16,5 @@ Hindi - Updates required (v3.8.6)
 Polish - Updates required (v3.8.6)
 Russian - Updates required (v3.8.6)
 Italian - Updates required (v3.8.6)
-
-New langauges pending:
-
 Tagalog - Updates required (v3.8.6)
+
