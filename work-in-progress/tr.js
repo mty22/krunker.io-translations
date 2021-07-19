@@ -91,12 +91,14 @@ settings.network.header Bağlantı Ağı
 settings.network.sendRate Yüksek Tıklama Oranı
 settings.network.netRerouting Otomatik Yönlendirme (Ping'i Etkiler)
 settings.network.lagComp Lag Gecikmesi
+settings.network.hitReg Hitreg Test
 settings.popup.header Popuplar
 settings.popup.freeKRPop Bedava KR Popuplarini Göster
 settings.experimental.header Deneysel
 settings.experimental.aimFreezeFix Nişan Donmasını Düzelt
 settings.experimental.mouseFlickFix Fare Hareketini Düzelt
 settings.experimental.shaderRendering Örnek İşleme
+settings.experimental.staticRendering Static Rendering
 settings.client.header Client
 settings.client.unlimitedFrames Unlimited FPS
 settings.client.gameCap Game Capture
@@ -175,6 +177,7 @@ settings.interface.oldBrowser Eski Tarayıcıyı Kullan
 settings.interface.rarityanim Nadirlik Animasyonunu Kapat
 settings.interface.showPfp Profil Fotoğraflarını Göster
 settings.interface.showTradeMsg Takas Mesajlarını Göster
+settings.interface.hideNonTrade Hide Non-Tradable Skins
 settings.interface.hp Dinamik HP Barları
 settings.interface.dmgScale Hasar Boyutu
 settings.interface.killf Killfeed
@@ -259,6 +262,7 @@ settings.gameprivacy.streamer Yayıncı Modu
 settings.gameprivacy.anon Anonim Modu
 settings.gameprivacy.hideGameTitle Oyun Başlığını Gizle
 settings.gameplay.header Oynanış
+settings.gameplay.gpSetts Gameplay Settings
 settings.gameplay.sensitivityX X Duyarlılığı
 settings.gameplay.sensitivityY Y Duyarlılığı
 settings.gameplay.aimsensX Nişan X Duyarlılığı
@@ -298,6 +302,7 @@ settings.audio.ui UI Sesi
 settings.audio.asset Varlık Sesi
 settings.audio.dialogue Aksiyon Sesi
 settings.viewmodel.header Modeli İncele
+settings.viewmodel.vmSetts View Model Settings
 settings.viewmodel.fov Görüş Açısı
 settings.viewmodel.fps Silah Görüş Açısı
 settings.viewmodel.bobbing Silah Sallanması
@@ -352,6 +357,8 @@ settings.editing.vignette Vinyet
 settings.editing.feedLimit Killfeed Sınırı
 settings.editing.depth Derinlik Haritası
 settings.editing.green Yeşil Ekran
+settings.editing.trailcol Bullet Trail Color
+settings.editing.ropecol Grapple Rope Color
 settings.editing.tracercol Mermi izleri
 settings.editing.tracer Mermi İzleri
 settings.editing.tracer.offset Mermi İzi Konumu
@@ -460,6 +467,14 @@ windows.controls.interactSec İkinci Etkileşim
 windows.controls.confirm Etkileşimi Kabul Et
 windows.controls.drop Drop
 windows.controls.wepVis Silah Görünürlüğünü Değiştir
+windows.controls.kickVoteY Vote Kick [Yes]
+windows.controls.kickVoteN Vote Kick [No]
+windows.controls.kpdVoteY KPD Vote [Yes]
+windows.controls.kpdVoteN KPD Vote [No]
+windows.controls.specFree Toggle Free Cam
+windows.controls.specObj Toggle Objective Cam
+windows.controls.specFirst Toggle First Person
+windows.controls.specNames Toggle Forced Names
 windows.controls.streak0 Öldürme Serisi 1
 windows.controls.streak1 Öldürme Serisi 2
 windows.controls.streak2 Öldürme Serisi 3
@@ -469,6 +484,10 @@ windows.controls.premium0 Noclip
 windows.controls.premium1 Tanrı Modu
 windows.controls.premium2 Öldür
 windows.controls.premium3 Öl
+windows.controls.dev0 Developer Bind 1
+windows.controls.dev1 Developer Bind 2
+windows.controls.dev2 Developer Bind 3
+windows.controls.dev3 Developer Bind 4
 windows.controls.reset Pozisyonunu Sıfırla (Yarış & Parkur)
 windows.controls.pretend Oyunu Sakla
 windows.host.header Özel Oyun Kur
@@ -559,6 +578,8 @@ windows.publish.mod.update Yayinla/Güncelle
 windows.publish.mod.login Mod Yayınlamak ve Güncellemek için hesabınıza girin!
 windows.secondary.header İkincil Silah Seç
 windows.secondary.unlocked Açıldı
+windows.secondary.customOnly Customs Only
+windows.secondary.premiumOnly Premium Only
 windows.secondary.req lvl {0} olman gerek
 windows.advertise.header Reklam
 windows.support.header Destek
@@ -652,6 +673,7 @@ server.config.warmupTime Isınma Zamanı
 server.config.gamRounds Rounds
 server.config.objtvTime Objektif Süresi
 server.config.forceSpawn Otomatik Olarak Yeniden Doğma Süresi
+server.config.intermTmr Intermission (s)
 server.config.scoreLimit Skor Limiti
 server.config.keepTScore Takım Skorunu Sabit Tut
 server.config.forceC Mod Zorlama
@@ -664,6 +686,10 @@ server.config.noCosm Kozmetikleri Devre Dışı Bırak
 server.config.tstCmp Test Mode
 server.config.limitClasses Limit Classes
 server.config.tmSize Team Size
+server.config.fallDmg Fall Damage
+server.config.fallDmgThr Fall Damage Thresh
+server.config.noDraws No Draws
+server.config.bstOfR Best of
 social.login Giriş/Kayıt
 social.login.failed Giriş Başarısız
 social.login.buy Satın Almak İçin Hesabınıza Girin
@@ -755,6 +781,7 @@ windows.clan.leave Klandan ayrılmak istediğinize emin misiniz?
 windows.clan.delete Klanı silmek istediğinize emin misiniz?
 windows.clan.kick {0} oyuncusunu klandan atmak istediğinize emin misiniz?
 windows.store.premium.purchase günlük premium almak istediğiniz emin misiniz?
+windows.store.premium.gift Are you sure you want to Gift '{0}' {1} days of Premium?
 windows.playerlist.ban {0} oyuncusunu yasaklamak istediğinize emin misiniz?
 windows.playerlist.flag {0} oyuncusunu damgalatmak istediğinize emin misiniz?
 windows.playerlist.unflag {0} oyuncusunun damgasını kaldırmak istediginize emin misiniz?
