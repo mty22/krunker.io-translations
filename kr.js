@@ -472,8 +472,8 @@ windows.controls.kickVoteN 추방 투표 [아니요]
 windows.controls.kpdVoteY KPD 투표 [네]
 windows.controls.kpdVoteN KPD 투표 [아니요]
 windows.controls.specFree 자유 카메라 전환
-windows.controls.specObj 목표 카메라 전환
-windows.controls.specFirst 첫 사람 전환
+windows.controls.specObj 거점 카메라 전환
+windows.controls.specFirst 1인칭 전환
 windows.controls.specNames 이름표 표시 전환
 windows.controls.streak0 연속 처치 1
 windows.controls.streak1 연속 처치 2
@@ -687,7 +687,7 @@ server.config.tstCmp 테스트 모드
 server.config.limitClasses 클래스 제한
 server.config.tmSize 팀 크기
 server.config.fallDmg 추락 데미지
-server.config.fallDmgThr 추락 데미지 뒹굴기
+server.config.fallDmgThr 추락 데미지 높이
 server.config.noDraws 무승부
 server.config.bstOfR Best of
 social.login 로그인/회원가입
