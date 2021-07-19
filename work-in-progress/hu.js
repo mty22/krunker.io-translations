@@ -91,12 +91,14 @@ settings.network.header Hálózat
 settings.network.sendRate Magas tickrate
 settings.network.netRerouting Automatikus útválasztás (Befolyásolja a Pinget)
 settings.network.lagComp Lag Kompenzálás
+settings.network.hitReg Hitreg Test
 settings.popup.header Felugró ablakok
 settings.popup.freeKRPop Ingyenes KR ablak mutatása
 settings.experimental.header Kísérleti
 settings.experimental.aimFreezeFix Célzás befagyás Javítása
 settings.experimental.mouseFlickFix Egér Rándulás Javítása
 settings.experimental.shaderRendering Árnyékolt renderelés
+settings.experimental.staticRendering Static Rendering
 settings.client.header Client
 settings.client.unlimitedFrames Unlimited FPS
 settings.client.gameCap Game Capture
@@ -175,6 +177,7 @@ settings.interface.oldBrowser Régi böngésző használata
 settings.interface.rarityanim Ritkaság animációk kikapcsolása
 settings.interface.showPfp Profil képek mutatása
 settings.interface.showTradeMsg Csere üzenetek mutatása
+settings.interface.hideNonTrade Hide Non-Tradable Skins
 settings.interface.hp Dinamikus élet sáv
 settings.interface.dmgScale Sebzés mérete
 settings.interface.killf Halál üzenetek mejelenítése
@@ -259,6 +262,7 @@ settings.gameprivacy.streamer Streamer mód
 settings.gameprivacy.anon Névtelen mód
 settings.gameprivacy.hideGameTitle A játék cím elrejtése
 settings.gameplay.header Játék
+settings.gameplay.gpSetts Gameplay Settings
 settings.gameplay.sensitivityX X Érzékenység
 settings.gameplay.sensitivityY Y Érzékenység
 settings.gameplay.aimsensX X Célzás érzékenység
@@ -298,6 +302,7 @@ settings.audio.ui UI hangerő
 settings.audio.asset Tárgyak hangerő
 settings.audio.dialogue Akció hangerő
 settings.viewmodel.header Belső kinézet
+settings.viewmodel.vmSetts View Model Settings
 settings.viewmodel.fov Látómező
 settings.viewmodel.fps Fegyver látómező
 settings.viewmodel.bobbing Fegyver lengés
@@ -352,6 +357,8 @@ settings.editing.vignette Keret
 settings.editing.feedLimit Killfeed határ
 settings.editing.depth Mélység térkép
 settings.editing.green Zöld háttér
+settings.editing.trailcol Bullet Trail Color
+settings.editing.ropecol Grapple Rope Color
 settings.editing.tracercol Lövedék nyomjelzők színe
 settings.editing.tracer Lövedék nyomjelzők
 settings.editing.tracer.offset Nyomjelző eltolás
@@ -460,6 +467,14 @@ windows.controls.interactSec Másodlagos interakció
 windows.controls.confirm Interakció megerősítése
 windows.controls.drop Eldob
 windows.controls.wepVis Fegyver láthatóság váltása
+windows.controls.kickVoteY Vote Kick [Yes]
+windows.controls.kickVoteN Vote Kick [No]
+windows.controls.kpdVoteY KPD Vote [Yes]
+windows.controls.kpdVoteN KPD Vote [No]
+windows.controls.specFree Toggle Free Cam
+windows.controls.specObj Toggle Objective Cam
+windows.controls.specFirst Toggle First Person
+windows.controls.specNames Toggle Forced Names
 windows.controls.streak0 Sorozat 1
 windows.controls.streak1 Sorozat 2
 windows.controls.streak2 Sorozat 3
@@ -469,6 +484,10 @@ windows.controls.premium0 Noclip
 windows.controls.premium1 Godmode
 windows.controls.premium2 Ölés
 windows.controls.premium3 Sújtás
+windows.controls.dev0 Developer Bind 1
+windows.controls.dev1 Developer Bind 2
+windows.controls.dev2 Developer Bind 3
+windows.controls.dev3 Developer Bind 4
 windows.controls.reset Pozíció visszaállítása (Verseny és Parkour)
 windows.controls.pretend Játék elrejtése
 windows.host.header Saját játék hosztolása
@@ -559,6 +578,8 @@ windows.publish.mod.update Publikálás/Frissítés
 windows.publish.mod.login hogy létrehozz és feltöltsd modokat!
 windows.secondary.header Másodlagos fegyver kiválasztása
 windows.secondary.unlocked Feloldva
+windows.secondary.customOnly Customs Only
+windows.secondary.premiumOnly Premium Only
 windows.secondary.req Szükséges szint: {0}
 windows.advertise.header Hirdetés
 windows.support.header Ügyfélszolgálat
@@ -652,6 +673,7 @@ server.config.warmupTime Bemelegítési idő
 server.config.gamRounds Rounds
 server.config.objtvTime Pont hosszúsága
 server.config.forceSpawn Automatikus újraéledés ideje
+server.config.intermTmr Intermission (s)
 server.config.scoreLimit Pontszám határ
 server.config.keepTScore Csapat pontszám megtartása
 server.config.forceC Módspecifikus osztályok kényszerítése
@@ -664,6 +686,10 @@ server.config.noCosm Kinézetek kikapcsolása
 server.config.tstCmp Test Mode
 server.config.limitClasses Limit Classes
 server.config.tmSize Team Size
+server.config.fallDmg Fall Damage
+server.config.fallDmgThr Fall Damage Thresh
+server.config.noDraws No Draws
+server.config.bstOfR Best of
 social.login Bejelentkezés/Regisztrálás
 social.login.failed Sikertelen bejelentkezés
 social.login.buy Jelentkezz be a vásárláshoz
@@ -755,6 +781,7 @@ windows.clan.leave Biztos ki akarsz lépni a klánból?
 windows.clan.delete Biztos törölni akarod a klánt?
 windows.clan.kick Biztos ki akarod rugni őt: {0} a klánból?
 windows.store.premium.purchase Biztos meg akarod venni a prémiumot {0} napra?
+windows.store.premium.gift Are you sure you want to Gift '{0}' {1} days of Premium?
 windows.playerlist.ban Biztos ki akaord bannolni őt: {0} a játékból?
 windows.playerlist.flag Biztos meg akarod jelölni őt: {0}?
 windows.playerlist.unflag Biztos el akarod távolítani a megjelölést róla: {0}?
