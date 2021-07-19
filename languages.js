@@ -10,7 +10,7 @@ module.exports.langNames = {
     "fr": "French",
     "fi": "Finnish",
     "zh": "Chinese (Simplified)",
-    "trzh": "Chinese (Traditional)",
+    "zhtr": "Chinese (Traditional)",
     "pl": "Polish",
     "hi": "Hindi",
     "ru": "Russian",
