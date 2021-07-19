@@ -469,8 +469,8 @@ windows.controls.drop Lâcher
 windows.controls.wepVis Visibilité de l’arme
 windows.controls.kickVoteY Vote Kick [Oui]
 windows.controls.kickVoteN Vote Kick [Non]
-windows.controls.kpdVoteY KPD Vote [Yes]
-windows.controls.kpdVoteN KPD Vote [No]
+windows.controls.kpdVoteY KPD Vote [Oui]
+windows.controls.kpdVoteN KPD Vote [Non]
 windows.controls.specFree Activer la caméra libre
 windows.controls.specObj Activer la caméra objective
 windows.controls.specFirst Activer la 1ere personne
