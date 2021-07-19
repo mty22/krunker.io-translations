@@ -91,12 +91,14 @@ settings.network.header Network
 settings.network.sendRate Tickrate Alto
 settings.network.netRerouting Routing Automatico (influisce sui Ping)
 settings.network.lagComp Compesazione del Lag
+settings.network.hitReg Hitreg Test
 settings.popup.header Popups
 settings.popup.freeKRPop Mostra il Free KR popups
 settings.experimental.header Sperimentale
 settings.experimental.aimFreezeFix Blocco dell'aim fix
 settings.experimental.mouseFlickFix Flick del mouse Fix
 settings.experimental.shaderRendering Rendering instantaneo
+settings.experimental.staticRendering Static Rendering
 settings.client.header Client
 settings.client.unlimitedFrames Unlimited FPS
 settings.client.gameCap Game Capture
@@ -175,6 +177,7 @@ settings.interface.oldBrowser Usa il vecchio browser
 settings.interface.rarityanim Disabilita le animazioni di rarità
 settings.interface.showPfp Mostra immagini del profilo
 settings.interface.showTradeMsg Mostra messaggi commerciali
+settings.interface.hideNonTrade Hide Non-Tradable Skins
 settings.interface.hp Barre dinamiche HP
 settings.interface.dmgScale Scala dei danni
 settings.interface.killf Mostra Tipo di Kill
@@ -259,6 +262,7 @@ settings.gameprivacy.streamer Modalità Streamer
 settings.gameprivacy.anon Modalità anonima
 settings.gameprivacy.hideGameTitle Nascondi titolo del gioco
 settings.gameplay.header Gameplay
+settings.gameplay.gpSetts Gameplay Settings
 settings.gameplay.sensitivityX Sensibilità X
 settings.gameplay.sensitivityY Sensibilità Y
 settings.gameplay.aimsensX Obiettivo X Sensibilità
@@ -298,6 +302,7 @@ settings.audio.ui Volume UI
 settings.audio.asset Volume Asset
 settings.audio.dialogue Volume azione
 settings.viewmodel.header Visualizza modello
+settings.viewmodel.vmSetts View Model Settings
 settings.viewmodel.fov Campo visivo
 settings.viewmodel.fps FOV delle armi
 settings.viewmodel.bobbing Bobbing Arma
@@ -352,6 +357,8 @@ settings.editing.vignette Vignette
 settings.editing.feedLimit Killfeed Limit
 settings.editing.depth Depth Map
 settings.editing.green Green Screen
+settings.editing.trailcol Bullet Trail Color
+settings.editing.ropecol Grapple Rope Color
 settings.editing.tracercol Bullet Tracers
 settings.editing.tracer Bullet Tracers
 settings.editing.tracer.offset Tracer Offset
@@ -460,6 +467,14 @@ windows.controls.interactSec Secondary Interact
 windows.controls.confirm Confirm Interact
 windows.controls.drop Drop
 windows.controls.wepVis Toggle Weapon Visibility
+windows.controls.kickVoteY Vote Kick [Yes]
+windows.controls.kickVoteN Vote Kick [No]
+windows.controls.kpdVoteY KPD Vote [Yes]
+windows.controls.kpdVoteN KPD Vote [No]
+windows.controls.specFree Toggle Free Cam
+windows.controls.specObj Toggle Objective Cam
+windows.controls.specFirst Toggle First Person
+windows.controls.specNames Toggle Forced Names
 windows.controls.streak0 Streak 1
 windows.controls.streak1 Streak 2
 windows.controls.streak2 Streak 3
@@ -469,6 +484,10 @@ windows.controls.premium0 Noclip
 windows.controls.premium1 Godmode
 windows.controls.premium2 Kill
 windows.controls.premium3 Smite
+windows.controls.dev0 Developer Bind 1
+windows.controls.dev1 Developer Bind 2
+windows.controls.dev2 Developer Bind 3
+windows.controls.dev3 Developer Bind 4
 windows.controls.reset Reset Position (Race & Parkour)
 windows.controls.pretend Hide Game
 windows.host.header Host Custom Game
@@ -559,6 +578,8 @@ windows.publish.mod.update Publish/Update
 windows.publish.mod.login to create and upload mods!
 windows.secondary.header Select Secondary
 windows.secondary.unlocked Unlocked
+windows.secondary.customOnly Customs Only
+windows.secondary.premiumOnly Premium Only
 windows.secondary.req Req lvl {0}
 windows.advertise.header Advertise
 windows.support.header Support
@@ -652,6 +673,7 @@ server.config.warmupTime Warmup Time
 server.config.gamRounds Rounds
 server.config.objtvTime Objective Time
 server.config.forceSpawn Auto Respawn Time
+server.config.intermTmr Intermission (s)
 server.config.scoreLimit Score Limit
 server.config.keepTScore Keep Team Score
 server.config.forceC Force Mode Classes
@@ -664,6 +686,10 @@ server.config.noCosm Disable Cosmetics
 server.config.tstCmp Test Mode
 server.config.limitClasses Limit Classes
 server.config.tmSize Team Size
+server.config.fallDmg Fall Damage
+server.config.fallDmgThr Fall Damage Thresh
+server.config.noDraws No Draws
+server.config.bstOfR Best of
 social.login Login/Register
 social.login.failed Login Failed
 social.login.buy Login to Buy
@@ -755,6 +781,7 @@ windows.clan.leave Are you sure you want to leave the clan?
 windows.clan.delete Are you sure you want to delete the clan?
 windows.clan.kick Are you sure you want kick {0} from the clan?
 windows.store.premium.purchase Are you sure you want to purchase {0} days of Premium?
+windows.store.premium.gift Are you sure you want to Gift '{0}' {1} days of Premium?
 windows.playerlist.ban Are you sure you want ban {0} from this game?
 windows.playerlist.flag Are you sure you want to Flag {0}?
 windows.playerlist.unflag Are you sure you want to Unflag {0}?
