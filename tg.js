@@ -57,7 +57,7 @@ generic.username Username
 generic.password  Illagay ang password
 generic.register Mag-parehistro
 generic.login Mag log-in
-generic.accuracy Accuracy
+generic.accuracy Kawastuhan ng pagbaril
 player.waiting Naghihintay ng mga manlalaro
 player.died Ikaw ay namatay
 player.killed {0} Pumatay kay {1}
@@ -78,7 +78,7 @@ purchase.error.click dito</a> subukan multi!
 purchase.error.limit Maaaring lumagpas ka sa iyong pang-araw-araw na limitasyon sa transaksyon. 
 settings.reset Mag-reset
 settings.reset.confirm Sigurado ka bang mag-reset ng inyong settings?
-settings.import iangkat
+settings.import angkat
 settings.export iluwas
 settings.none Walang nahanap na mga settings
 settings.backup Mga back-up settings
@@ -92,7 +92,7 @@ settings.network.sendRate Mataas na Tickrate
 settings.network.netRerouting Auto Routing (Nakakaapekto sa Ping)
 settings.network.lagComp Paghabol sa Lag
 settings.network.hitReg Hitreg Test
-settings.popup.header Mga Popup
+settings.popup.header Mga Popups
 settings.popup.freeKRPop Ipakita ang Libreng KR Popup
 settings.experimental.header Experimental na Header
 settings.experimental.aimFreezeFix Ayusin ang Aim Freeze
@@ -110,7 +110,7 @@ settings.client.resetSettings I-reset ang Settings ng Kliyent
 settings.client.acceleratedCanvas Accelerated ang Canvas
 settings.client.angleBackend ANGLE Graphics ang Backend
 settings.client.colorProfile Color ng Profile
-settings.dev.header Developer
+settings.dev.header Sa Developer
 settings.dev.forceUpdate Sapilitang I-Update ang mga skins
 settings.dev.forceRegen Laging Regenerate ang Player
 settings.dev.extraBan Impormasyon ukol sa Ban
@@ -146,7 +146,7 @@ settings.quality.yourTrails Daan ng Inyong Bala
 settings.quality.mflash Pagputok ng Muzzle 
 settings.quality.flap Takip ng Sniper
 settings.quality.lowSpec Mababang Spec
-settings.quality.ambient Ambient Shading
+settings.quality.ambient Ambient na Shading
 settings.quality.ambientOld Lumang pag-shade (kung posible)
 settings.quality.textureAnim Buhay na animasyon ngTextura
 settings.quality.objectAnim Mga Animasyong Bagay
@@ -425,7 +425,7 @@ windows.loadout.spray i-spray
 windows.loadout.color.skin Kulay ng balat
 windows.loadout.color.chat Kulay ng Pangalan sa Chat
 windows.loadout.color.hair Kulay ng Buhok
-windows.loadout.dye Tinta ng Katawan
+windows.loadout.dye Dye sa katawan
 windows.loadout.pet Alaga
 windows.loadout.stat Killcard Stat
 windows.loadout.flag Bandila ng Bansa
@@ -433,7 +433,7 @@ windows.mods.drop ihulog ang file ng mod dito o mag-click
 windows.mods.paste Ipaste ang Mod URL
 windows.mods.load Mag-load ng Mod
 windows.mods.none Walang nahanap na Mod
-windows.mods.header Mod Manager
+windows.mods.header Manager ng Mod
 windows.mods.guide Patnubay sa Mod
 windows.mods.list Listahan ng Mods
 windows.mods.load.header Mga Load na Mod
@@ -467,14 +467,14 @@ windows.controls.interactSec Pangalawang Pakikipag-ugnay
 windows.controls.confirm Kumpirmahin ang Pakikipag-ugnay
 windows.controls.drop Patak
 windows.controls.wepVis I-toggle ang Visibility ng Armas
-windows.controls.kickVoteY Vote Kick [Yes]
-windows.controls.kickVoteN Vote Kick [No]
-windows.controls.kpdVoteY KPD Vote [Yes]
-windows.controls.kpdVoteN KPD Vote [No]
-windows.controls.specFree Toggle Free Cam
-windows.controls.specObj Toggle Objective Cam
-windows.controls.specFirst Toggle First Person
-windows.controls.specNames Toggle Forced Names
+windows.controls.kickVoteY Tanggalin mula sa laro [Oo]
+windows.controls.kickVoteN Tanggalin mula sa laro [Hindi]
+windows.controls.kpdVoteY Vote sa KPD [Oo]
+windows.controls.kpdVoteN Vote sa KPD [Hindi]
+windows.controls.specFree I-toggle ang Free Cam
+windows.controls.specObj I-toggle ang Objective Cam
+windows.controls.specFirst I-toggle ang First Person
+windows.controls.specNames I-toggle ang mga pangalan
 windows.controls.streak0 Streak 1
 windows.controls.streak1 Streak 2
 windows.controls.streak2 Streak 3
@@ -484,10 +484,10 @@ windows.controls.premium0 Naka noclip
 windows.controls.premium1 Naka godmode
 windows.controls.premium2 Pumatay
 windows.controls.premium3 Hampasin
-windows.controls.dev0 Developer Bind 1
-windows.controls.dev1 Developer Bind 2
-windows.controls.dev2 Developer Bind 3
-windows.controls.dev3 Developer Bind 4
+windows.controls.dev0 Bind ng Dev 1
+windows.controls.dev1 Bind ng Dev 2
+windows.controls.dev2 Bind ng Dev 3
+windows.controls.dev3 Bind ng Dev 4
 windows.controls.reset Balik-Simula ang posisyon (Paligsahan at Parkour)
 windows.controls.pretend Itago ang Laro
 windows.host.header Host ng Custom na Laro
@@ -516,9 +516,9 @@ windows.publish.map.thumbnail Walang Thumbnail o Larawan
 windows.publish.map.paste I-paste ang Data ng Laro
 windows.publish.map.update Publish/Update
 windows.publish.map.login Lumikha at I-upload ang laro!
-windows.theatre.header Theatre Mode
+windows.theatre.header Modo na Theatre
 windows.theatre.record Paganahin ang Pagre-record
-windows.theatre.key Record Key
+windows.theatre.key Pang-record
 windows.clans.header Samahan
 windows.clans.members Mga Miyembro ({0})
 windows.clans.requests Mga Nais Sumali 
@@ -631,7 +631,7 @@ server.config.tickRI Mataas na Tickrate
 server.config.maxPS 40 na Manlalaro
 server.config.promServ Promosyon ng Server
 server.config.jumpMlt Pwersa ng pagtatalon
-server.config.airStrf Air Strafing
+server.config.airStrf Pag-strafe sa ere
 server.config.deltaMlt Scale ng Oras
 server.config.strafeSpd Bilis ng Strafe
 server.config.fiRat Rate ng Pagputok ng Baril
@@ -639,7 +639,7 @@ server.config.reSpd Bilis ng pag-reload
 server.config.slidTime Oras ng Slide
 server.config.fixMov Pagkilos
 server.config.slidSpd Bilis ng Slide
-server.config.healthMlt Health Multiplier
+server.config.healthMlt Pag-multiply ng Health
 server.config.impulseMlt salpok ng sandata
 server.config.nameTeam1 Pangalan ng Pangkat 1
 server.config.nameTeam2 Pangalan ng Pangkat 2
@@ -664,7 +664,7 @@ server.config.bDrop Hulog ng Bala
 server.config.thirdPerson Tingin na pang ika-3 na tao
 server.config.requireCaptcha Kailangan ng CAPTCHA
 server.config.nameTags Itago ang mga Nametag
-server.config.kCams Kill Cams
+server.config.kCams Mga kill Cams
 server.config.noReload Walang Reload
 server.config.private Pribado
 server.config.krRewards Mga Gantimpala ng KR
@@ -673,7 +673,7 @@ server.config.warmupTime Oras para maghanda
 server.config.gamRounds Rounds
 server.config.objtvTime Oras sa Layunin
 server.config.forceSpawn Limitasyon ng Iskor
-server.config.intermTmr Intermission (s)
+server.config.intermTmr Intermisyons {0}
 server.config.scoreLimit Limitasyon ng Kalidad
 server.config.keepTScore Panatilihin ang Marka ng Koponan
 server.config.forceC Pilitin ang mga Klase ng Mode
@@ -684,12 +684,12 @@ server.config.disableB Huwag paganahin ang Mga Hangganan
 server.config.throwMel Bumato ng patalim
 server.config.noCosm Huwag magpakita ng Kosmetiko
 server.config.tstCmp Test Mode
-server.config.limitClasses Limit Classes
-server.config.tmSize Team Size
-server.config.fallDmg Fall Damage
-server.config.fallDmgThr Fall Damage Thresh
-server.config.noDraws No Draws
-server.config.bstOfR Best of
+server.config.limitClasses Limita ng mga Klase
+server.config.tmSize Laki ng Pangkat
+server.config.fallDmg Damage kapag nahuhulog
+server.config.fallDmgThr Threshold ng Fall Damage
+server.config.noDraws Walang Draws
+server.config.bstOfR Pinakamabuti ng...
 social.login Mag-parehistro
 social.login.failed Hindi gumana ang pag-login
 social.login.buy Mag-login upang Bumili
