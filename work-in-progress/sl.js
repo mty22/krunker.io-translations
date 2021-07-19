@@ -91,12 +91,14 @@ settings.network.header Omrežje
 settings.network.sendRate Visok Tickrate
 settings.network.netRerouting Avtomatsko iskanje omrežij (Vpliva na Ping)
 settings.network.lagComp Kompenzacija zamika
+settings.network.hitReg Hitreg Test
 settings.popup.header Pojavna okna
 settings.popup.freeKRPop Pokaži Zastonj KR oglas
 settings.experimental.header Esperimentalno
 settings.experimental.aimFreezeFix Popravi Zamrznjeno Ciljanje
 settings.experimental.mouseFlickFix Popravi Zasuk Miške
 settings.experimental.shaderRendering Intenzivno nalaganje
+settings.experimental.staticRendering Static Rendering
 settings.client.header Client
 settings.client.unlimitedFrames Unlimited FPS
 settings.client.gameCap Game Capture
@@ -175,6 +177,7 @@ settings.interface.oldBrowser Uporabi Stari Brskalnik
 settings.interface.rarityanim Izklopi Animacije Redkosti
 settings.interface.showPfp Pokaži Profilno Sliko
 settings.interface.showTradeMsg Pokaži Izmenjalna Sporočila
+settings.interface.hideNonTrade Hide Non-Tradable Skins
 settings.interface.hp Dinamični HP Tablica
 settings.interface.dmgScale Velikost Škode
 settings.interface.killf Pokaži Uboje
@@ -259,6 +262,7 @@ settings.gameprivacy.streamer Način Pretočnega Predvajanja
 settings.gameprivacy.anon Anonimni Način
 settings.gameprivacy.hideGameTitle Skrij Naslov Igre
 settings.gameplay.header Igranje
+settings.gameplay.gpSetts Gameplay Settings
 settings.gameplay.sensitivityX X Občutljivost 
 settings.gameplay.sensitivityY Y Občutljivost
 settings.gameplay.aimsensX X Občutljivost Merjenja
@@ -298,6 +302,7 @@ settings.audio.ui Glasnost UI
 settings.audio.asset Glasnost Sredstev
 settings.audio.dialogue Glasnost Akcij
 settings.viewmodel.header Ogledni Model
+settings.viewmodel.vmSetts View Model Settings
 settings.viewmodel.fov Vidni kot
 settings.viewmodel.fps FOV Orožja
 settings.viewmodel.bobbing Zibanje Orožja
@@ -352,6 +357,8 @@ settings.editing.vignette Črna Obroba
 settings.editing.feedLimit Omejitev Ubojnih Sporočil
 settings.editing.depth Globina Mape
 settings.editing.green Zeleni Zaslon
+settings.editing.trailcol Bullet Trail Color
+settings.editing.ropecol Grapple Rope Color
 settings.editing.tracercol Sled Metkov
 settings.editing.tracer Sled Metkov
 settings.editing.tracer.offset Odmik Sledi
@@ -460,6 +467,14 @@ windows.controls.interactSec  Sekundarna Interakcija
 windows.controls.confirm Potrdi Interakcijo
 windows.controls.drop Spusti
 windows.controls.wepVis Preklopi Vidnost Orožja
+windows.controls.kickVoteY Vote Kick [Yes]
+windows.controls.kickVoteN Vote Kick [No]
+windows.controls.kpdVoteY KPD Vote [Yes]
+windows.controls.kpdVoteN KPD Vote [No]
+windows.controls.specFree Toggle Free Cam
+windows.controls.specObj Toggle Objective Cam
+windows.controls.specFirst Toggle First Person
+windows.controls.specNames Toggle Forced Names
 windows.controls.streak0 Niz 1
 windows.controls.streak1 Niz 2
 windows.controls.streak2 Niz 3
@@ -469,6 +484,10 @@ windows.controls.premium0 Noclip
 windows.controls.premium1 Način Boga
 windows.controls.premium2 Uboj
 windows.controls.premium3 Udar
+windows.controls.dev0 Developer Bind 1
+windows.controls.dev1 Developer Bind 2
+windows.controls.dev2 Developer Bind 3
+windows.controls.dev3 Developer Bind 4
 windows.controls.reset Resetiraj Lokacijo (Dirka & Parkur)
 windows.controls.pretend Skrij Igro
 windows.host.header Gostuj Prilagojeno Igro
@@ -559,6 +578,8 @@ windows.publish.mod.update Objavi/Posodobi
 windows.publish.mod.login se za objavo ali posodobitev moda!
 windows.secondary.header Izberi Sekundarno Pištolo
 windows.secondary.unlocked Odklenjeno
+windows.secondary.customOnly Customs Only
+windows.secondary.premiumOnly Premium Only
 windows.secondary.req Potrebna {0} stopnja
 windows.advertise.header Oglašuj
 windows.support.header Tehnična podpora
@@ -652,6 +673,7 @@ server.config.warmupTime Čas Za Ogrevanje
 server.config.gamRounds Rounds
 server.config.objtvTime Čas Ciljne Točke
 server.config.forceSpawn Avtomatska Reinkarnacija
+server.config.intermTmr Intermission (s)
 server.config.scoreLimit Omejeno Število Točk
 server.config.keepTScore Obdrži Točke Ekipe
 server.config.forceC Vsili Razred
@@ -664,6 +686,10 @@ server.config.noCosm Izklopi Kozmetike
 server.config.tstCmp Test Mode
 server.config.limitClasses Limit Classes
 server.config.tmSize Team Size
+server.config.fallDmg Fall Damage
+server.config.fallDmgThr Fall Damage Thresh
+server.config.noDraws No Draws
+server.config.bstOfR Best of
 social.login Prijava/Registracija
 social.login.failed  Prijava ni uspela
 social.login.buy Prijavi se za nakup
@@ -755,6 +781,7 @@ windows.clan.leave Si prepričan, da hočeš Zapustiti Klan?
 windows.clan.delete Si prepričan, da hočeš Izbrisati klan?
 windows.clan.kick Si prepričan, da hočeš odstraniti {0} iz klana?
 windows.store.premium.purchase Si prepričan, da hočeš kupiti {0} dni Krunker Premiuma?
+windows.store.premium.gift Are you sure you want to Gift '{0}' {1} days of Premium?
 windows.playerlist.ban Si prepričan, da hočeš odstraniti {0} iz te igre?
 windows.playerlist.flag Si prepričan, da hočeš označiti {0}?
 windows.playerlist.unflag Si prepričan, da hočeš preklicati oznako {0}?
