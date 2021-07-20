@@ -7,7 +7,7 @@ menu.btn.mods 模组
 menu.btn.settings 设定
 menu.btn.customize 自定义
 menu.btn.invite 邀请
-menu.btn.invite.clicked 链接已复制
+menu.btn.invite.clicked 已复制
 menu.btn.join 加入游戏房间
 menu.btn.host 创建游戏房间
 menu.btn.browser 浏览游戏房间
@@ -49,7 +49,7 @@ generic.games.lost 败场数
 generic.timep 游玩时间
 generic.kills 击杀数
 generic.deaths 死亡数
-generic.kdr KDR(击杀/死亡比例)
+generic.kdr 击杀死亡比例
 generic.time 时间
 generic.logout 注销
 generic.logout.sessions 为所有设备注销
@@ -62,7 +62,7 @@ player.waiting 等待更多玩家加入
 player.died 死亡
 player.killed 被此玩家击杀
 player.killstreak {0} 已达到 {1} 连杀
-player.inactive 由于不活跃,游戏已断开连接
+player.inactive 由于不活跃，游戏已断开连接
 player.disconnect 连接已断开
 timer.end 下一场将在 {0} 后开始
 leaderboard.empty 空房间
@@ -75,7 +75,7 @@ app.play.controller 按下开始游戏
 app.spectate.controller 按下开始观战
 purchase.error 出现错误
 purchase.error.click 点此</a> 并重试!
-purchase.error.limit 您可能已超出每日交易限额
+purchase.error.limit 您已超出每日交易限额
 settings.reset 重设
 settings.reset.confirm 您是否希望重设所有设定?
 settings.import 下载
@@ -91,7 +91,7 @@ settings.network.header 网路
 settings.network.sendRate 高服务器应答率
 settings.network.netRerouting 自动
 settings.network.lagComp 延迟修正
-settings.network.hitReg 子弹击中目标判定测试
+settings.network.hitReg 子弹碰撞判定测试
 settings.popup.header 弹窗
 settings.popup.freeKRPop 允许免费KR弹窗
 settings.experimental.header 实验性功能
@@ -104,12 +104,12 @@ settings.client.unlimitedFrames 帧数无限制
 settings.client.gameCap 游戏捕获(OBS)
 settings.client.experimental 实验性功能
 settings.client.discordRPC 启用Discord RPC
-settings.client.resourceSwapper Resource Swapper
+settings.client.resourceSwapper 资源包
 settings.client.clearCache 清除缓存
 settings.client.resetSettings 重设客户端设置
-settings.client.acceleratedCanvas Accelerated Canvas
+settings.client.acceleratedCanvas 开启加速画布 (Accelerated Canvas)
 settings.client.angleBackend ANGLE图形后端
-settings.client.colorProfile Color Profile
+settings.client.colorProfile 色彩配置文件
 settings.dev.header 开发者
 settings.dev.forceUpdate 强制刷新皮肤
 settings.dev.forceRegen 玩家保持回血状态
@@ -142,12 +142,12 @@ settings.quality.softShad 软阴影
 settings.quality.highResShad 高分辨率阴影
 settings.quality.shadowsDynamic 动态阴影
 settings.quality.trails 其他玩家弹道轨迹
-settings.quality.yourTrails 玩家自身弹道轨迹
+settings.quality.yourTrails 自身弹道轨迹
 settings.quality.mflash 枪口火焰
 settings.quality.flap 狙击枪瞄准镜保护盖
 settings.quality.lowSpec 低配置模式
 settings.quality.ambient 环境阴影
-settings.quality.ambientOld 经典阴影
+settings.quality.ambientOld 经典阴影 (仅可用时)
 settings.quality.textureAnim 纹理动画
 settings.quality.objectAnim 物体动画
 settings.quality.screenShake 屏幕晃动
@@ -178,14 +178,14 @@ settings.interface.rarityanim 禁用稀有物品动画
 settings.interface.showPfp 显示用户头像
 settings.interface.showTradeMsg 显示交易信息
 settings.interface.hideNonTrade 隐藏不可交易的皮肤
-settings.interface.hp 动态血条(HP)
+settings.interface.hp 动态血条
 settings.interface.dmgScale 伤害显示比例
 settings.interface.killf 显示击杀列表
 settings.interface.ping 显示网络延迟
 settings.interface.net-stats 显示网络状况
 settings.interface.fps 显示帧数
 settings.interface.deaths 显示死亡数
-settings.interface.kd 显示KD
+settings.interface.kd 显示击杀死亡比例
 settings.interface.kills 显示击杀数
 settings.interface.streak 显示连杀数
 settings.interface.score 显示分数
@@ -252,8 +252,8 @@ settings.hitmarker.custom 命中标记图标
 settings.hitmarker.custom.paste 命中标记图标网址
 settings.onKillS.style.0 默认
 settings.onKillS.style.1 降低分辨率
-settings.onKillS.style.2 降低FOV
-settings.onKillS.style.3 增加FOV
+settings.onKillS.style.2 降低视野范围
+settings.onKillS.style.3 增加视野范围
 settings.serverb.header 游戏房间浏览器
 settings.serverb.oldBrowser 经典房间浏览器
 settings.serverb.defaultRegionOnly 只显示默认地区的房间
@@ -265,8 +265,8 @@ settings.gameplay.header 游戏性
 settings.gameplay.gpSetts 游戏性设置
 settings.gameplay.sensitivityX X轴灵敏度
 settings.gameplay.sensitivityY Y轴灵敏度
-settings.gameplay.aimsensX ADS(瞄准)X轴灵敏度
-settings.gameplay.aimsensY ADS(瞄准)Y轴灵敏度
+settings.gameplay.aimsensX 开镜X轴灵敏度
+settings.gameplay.aimsensY 开镜Y轴灵敏度
 settings.gameplay.challenge 挑战模式
 settings.gameplay.invert 反转Y轴
 settings.gameplay.onkillS 击杀
@@ -301,10 +301,10 @@ settings.audio.skin 玩家服饰音量
 settings.audio.ui 用户界面音量
 settings.audio.asset 地图音量
 settings.audio.dialogue 动作音量
-settings.viewmodel.header 视角
-settings.viewmodel.vmSetts 视图模型设置
+settings.viewmodel.header 视角模型
+settings.viewmodel.vmSetts 视角模型设置
 settings.viewmodel.fov 腰射视野
-settings.viewmodel.fps 帧数
+settings.viewmodel.fps 武器視野範圍
 settings.viewmodel.bobbing 玩家移动时的武器晃动
 settings.viewmodel.leaning 玩家移动时的武器倾斜
 settings.viewmodel.show.primary 显示主武器
@@ -317,16 +317,16 @@ settings.viewmodel.show.hands 显示手部
 settings.viewmodel.leftHand 左手持枪
 settings.viewmodel.aimAnim 武器开镜动画
 settings.viewmodel.rot 武器位置旋转
-settings.viewmodel.xOff 武器X轴坐标(左/右)
-settings.viewmodel.yOff 武器Y轴坐标(上/下)
-settings.viewmodel.zOff 武器Z轴坐标(前/后)
+settings.viewmodel.xOff 武器X轴坐标 (左/右)
+settings.viewmodel.yOff 武器Y轴坐标 (上/下)
+settings.viewmodel.zOff 武器Z轴坐标 (前/后)
 settings.viewmodel.weapSwapY 切枪时武器的垂直位置
 settings.viewmodel.weapReloadY 换弹时武器的垂直位置
 settings.viewmodel.yOffADS 开镜时武器的垂直位置
 settings.viewmodel.adsFovMlt 开镜放大倍数
 settings.editing.header 编辑
-settings.editing.health.high HUD 血条颜色(高)
-settings.editing.health.low HUD 血条颜色(低)
+settings.editing.health.high HUD血条颜色 (高)
+settings.editing.health.low HUD血条颜色 (低)
 settings.editing.speedLines 高速度特效(玩家高速移动时会显示此特效)
 settings.editing.spdLinesCol 高速度特效颜色
 settings.editing.score.color 弹出得分颜色
@@ -347,13 +347,13 @@ settings.editing.progm.opacity 蓄力条透明度
 settings.editing.progm.scale 蓄力条大小
 settings.editing.progm.shadow 蓄力条阴影
 settings.editing.progmOffX 蓄力条水平位置
-settings.editing.progmOffY 力条垂直位置
+settings.editing.progmOffY 蓄力条垂直位置
 settings.editing.progmRot 蓄力条角度
 settings.editing.saturation 饱和度 (游戏中)
 settings.editing.menuSaturation 饱和度 (用户界面)
 settings.editing.hue 色调 (游戏中)
 settings.editing.menuHue 色调 (用户界面)
-settings.editing.vignette 晕影效果(使屏幕边缘颜色变暗)
+settings.editing.vignette 晕影效果 (使屏幕边缘颜色变暗)
 settings.editing.feedLimit 击杀列表长度限制
 settings.editing.depth 深度图模式
 settings.editing.green 绿幕模式
@@ -399,7 +399,7 @@ settings.mods.overlay 游戏结束图标
 settings.mods.overlay.paste 游戏叠层图片网址
 settings.social.region 各地区统计数据
 windows.settings.header 游戏设定
-windows.mail.header Krunker邮箱
+windows.mail.header Krunker 邮箱
 windows.servers.header 服务器
 windows.servers.none 无可加入游戏...
 windows.servers.host + 创建游戏
@@ -407,8 +407,8 @@ windows.servers.hide 隐藏已满的房间
 windows.servers.priority 优先区域
 windows.servers.online {0} 玩家正在游戏中
 windows.servers.social {0} 玩家正在游戏社交网站浏览中
-windows.loadout.header 更换角色
-windows.loadout.class 角色
+windows.loadout.header 更换武器类别
+windows.loadout.class 武器类别
 windows.loadout.primary 主武器
 windows.loadout.primary.attach 配件
 windows.loadout.primary.reticle 准星
@@ -419,7 +419,7 @@ windows.loadout.melee 近战武器
 windows.loadout.hat 头饰
 windows.loadout.back 背部饰品
 windows.loadout.waist 腰部饰品
-windows.loadout.shoe Shoes 鞋子
+windows.loadout.shoe 鞋子
 windows.loadout.face 表情
 windows.loadout.spray 涂鸦
 windows.loadout.color.skin 皮肤颜色
@@ -428,7 +428,7 @@ windows.loadout.color.hair 头发颜色
 windows.loadout.dye 服装
 windows.loadout.pet 宠物
 windows.loadout.stat 击杀统计
-windows.loadout.flag 玩家国家旗帜
+windows.loadout.flag 国家旗帜
 windows.mods.drop 将模组文件放在此处或单击
 windows.mods.paste 粘贴模组网址
 windows.mods.load 加载模组
@@ -452,8 +452,8 @@ windows.controls.aim 瞄准
 windows.controls.shoot 射击
 windows.controls.inspect 查看武器
 windows.controls.spray 涂鸦
-windows.controls.jump 跳
-windows.controls.crouch 蹲/滑铲
+windows.controls.jump 跳跃
+windows.controls.crouch 蹲下/滑铲
 windows.controls.prim 主武器
 windows.controls.swap 副武器
 windows.controls.melee 近战武器
@@ -465,15 +465,15 @@ windows.controls.board 排行榜
 windows.controls.interact 交互
 windows.controls.interactSec 次要交互
 windows.controls.confirm 确认交互
-windows.controls.drop 放下(武器/物品)
+windows.controls.drop 放下 (武器/物品)
 windows.controls.wepVis 切换武器可见度
-windows.controls.kickVoteY 投票踢出玩家[是]
-windows.controls.kickVoteN 投票踢出玩家[否]
+windows.controls.kickVoteY 投票踢出玩家 [是]
+windows.controls.kickVoteN 投票踢出玩家 [否]
 windows.controls.kpdVoteY KPD投票 [是]
 windows.controls.kpdVoteN KPD投票 [否]
 windows.controls.specFree 自由视角
 windows.controls.specObj 物件视角
-windows.controls.specFirst 第一人称
+windows.controls.specFirst 第一人称视角
 windows.controls.specNames 强制显示玩家名字
 windows.controls.streak0 连杀奖励1
 windows.controls.streak1 连杀奖励2
@@ -482,13 +482,13 @@ windows.controls.streak3 连杀奖励4
 windows.controls.streak4 连杀奖励5
 windows.controls.premium0 穿墙模式
 windows.controls.premium1 超高血量
-windows.controls.premium2 瞬间击杀全部玩家
+windows.controls.premium2 自杀
 windows.controls.premium3 超高伤害
 windows.controls.dev0 开发者专用键1
 windows.controls.dev1 开发者专用键2
 windows.controls.dev2 开发者专用键3
 windows.controls.dev3 开发者专用键4
-windows.controls.reset 重设进度并回到重生点的键位(仅限于跑酷/速度竞赛模式)
+windows.controls.reset 重设进度并回到起点 (仅限于跑酷/速度竞赛模式)
 windows.controls.pretend 隐藏游戏
 windows.host.header 创建自定义游戏
 windows.host.maps 服务器设定
@@ -530,20 +530,20 @@ windows.clans.view 浏览战队
 windows.clans.join 加入战队
 windows.clans.login 创建并加入战队!
 windows.store.header 商城
-windows.store.spin {0} 转盘(开箱）
+windows.store.spin {0} 转盘
 windows.store.agree 通过此次购买，您将同意 {0} 条款.
-windows.store.purchase 购买KR
+windows.store.purchase 购买 KR
 windows.store.voucher 兑换代金券
 windows.store.voucherinfo 从指定主播和活动获取代金券
 windows.store.market 市场
-windows.store.market2 Krunker市场
+windows.store.market2 Krunker 市场
 windows.store.premium 购买会员
-windows.store.premium2 Krunker会员
+windows.store.premium2 Krunker 会员
 windows.store.buyP 在购买会员后，您将可以自定义您的游戏用户名+体验更多专用功能!
 windows.store.buy 买卖物品
 windows.store.wheels 转盘
 windows.store.unlock 解锁新武器和物品
-windows.store.amount 账号中还有｛0｝KR
+windows.store.amount 您的账号中还有｛0｝KR
 windows.store.login 用于在商店中购买和解锁物品!
 windows.store.purchasing 购买中...
 windows.store.unboxed {0}开箱获得了{1}
@@ -588,9 +588,9 @@ windows.players.none 当前没有玩家...
 windows.join.header 加入
 windows.join.code 输入房间网址
 windows.client.header 客户端
-windows.client.windows Windows游戏安装包
-windows.client.mac macOS游戏安装包
-windows.client.linux Linux游戏安装包
+windows.client.windows Windows 游戏客戶端
+windows.client.mac macOS 游戏客戶端
+windows.client.linux Linux 游戏客戶端
 windows.ranked.header 排位赛
 windows.ranked.login 登录以进行排位赛!
 windows.ranked.level 您至少需要 <span color="black"> {0} 级</span> 以进行排位赛! 当前您的等级是 <span color="black"> {1} 级</span>.
@@ -599,8 +599,8 @@ windows.ranked.mode.r2v2 双排
 windows.ranked.mode.r4v4 四排
 windows.chall.header 挑战
 windows.chall.login 登录以完成挑战!
-thumbnail.upload.limit 上传失败. 最大缩略图限制为｛0｝KB
-image.upload.limit 上传失败，最大图片限制为｛0｝KB
+thumbnail.upload.limit 上传失败，最大缩略图大小限制为｛0｝KB
+image.upload.limit 上传失败，最大图片大小限制为｛0｝KB
 thumbnail.upload.error 缩略图错误
 mod.extracting 提取中 {0}/{1}
 mod.disabled 模组已禁用
@@ -608,17 +608,17 @@ mod.error 模组错误!
 mod.loading 加载模组中...
 mod.invalid 模组文件不可用!
 matchmaker.full 已满
-matchmaker.full2 游戏已满.
+matchmaker.full2 游戏已满。
 matchmaker.updating 游戏更新中
-matchmaker.invalid 没有找到游戏.
+matchmaker.invalid 没有找到游戏。
 matchmaker.none 服务器已达上限
-adblocker 禁用广告拦截器以获得免费的KR.
-ad-failed 广告加载失败. 请稍后重试.
+adblocker 禁用广告拦截器以获得免费的KR。
+ad-failed 广告加载失败，请稍后重试
 streamers.views {0} 观看者
 streamers.none 当前没有Twitch直播!
-error.extentions 如果您有任何(浏览器)插件, 请禁用它们
+error.extentions 如果您有任何(浏览器)插件，请禁用它们
 error.seek 点此以搜索新的游戏
-custom.map.upload.limit 上传失败. 角色游戏数据限制为500kb
+custom.map.upload.limit 上传失败，角色游戏数据限制为500KB
 custom.map.missing 请选择至少一种游戏或地图
 custom.mode.missing 请选择至少一种模式
 custom.class.missing 请选择至少一种角色
