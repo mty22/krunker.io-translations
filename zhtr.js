@@ -53,15 +53,15 @@ generic.kdr 擊殺死亡比例
 generic.time 時間
 generic.logout 登出
 generic.logout.sessions 從所有設備登出
-generic.username 輸入用戶名
-generic.password 輸入密碼
+generic.username 用戶名
+generic.password 密碼
 generic.register 註冊
 generic.login 登入
 generic.accuracy 命中率
 player.waiting 等待更多玩家加入
 player.died 死了
 player.killed 被此玩家擊殺
-player.killstreak {0} 正在 {1} 連殺
+player.killstreak {0} 已達到 {1} 連殺
 player.inactive 由於不活躍，遊戲已斷開連接
 player.disconnect 連接已斷開
 timer.end 下一場將在 {0} 後開始
@@ -91,25 +91,25 @@ settings.network.header 網路
 settings.network.sendRate 高伺服器應答率
 settings.network.netRerouting 自動路由
 settings.network.lagComp 延遲修正 (Lag Compensation)
-settings.network.hitReg Hitreg Test
+settings.network.hitReg 子彈擊中目標判定測試
 settings.popup.header 彈出視窗
 settings.popup.freeKRPop 顯示免費KR彈出視窗
 settings.experimental.header 實驗性功能
 settings.experimental.aimFreezeFix 瞄準凍結修復
 settings.experimental.mouseFlickFix 滑鼠過激修正
 settings.experimental.shaderRendering 即時渲染
-settings.experimental.staticRendering Static Rendering
-settings.client.header Client
-settings.client.unlimitedFrames Unlimited FPS
-settings.client.gameCap Game Capture
-settings.client.experimental Experimental Features
-settings.client.discordRPC Discord RPC
+settings.experimental.staticRendering 靜態渲染
+settings.client.header 客戶端
+settings.client.unlimitedFrames 幀數無限制
+settings.client.gameCap 遊戲擷取(OBS)
+settings.client.experimental 實驗性功能
+settings.client.discordRPC 開啟Discord RPC
 settings.client.resourceSwapper Resource Swapper
-settings.client.clearCache Clear Cache
-settings.client.resetSettings Reset Client Settings
+settings.client.clearCache 清除快取
+settings.client.resetSettings 重置客戶端設定
 settings.client.acceleratedCanvas Accelerated Canvas
-settings.client.angleBackend ANGLE Graphics Backend
-settings.client.colorProfile Color Profile
+settings.client.angleBackend ANGLE繪圖後端
+settings.client.colorProfile 色彩配置文件
 settings.dev.header 開發者
 settings.dev.forceUpdate 強制刷新皮膚
 settings.dev.forceRegen 永遠強制性復活玩家
@@ -174,10 +174,10 @@ settings.interface.scale 用戶介面比例
 settings.interface.ui 顯示用戶介面
 settings.interface.scoreboard 使用舊版計分板
 settings.interface.oldBrowser 使用舊版瀏覽器
-settings.interface.rarityanim 禁用稀有物品動畫,
+settings.interface.rarityanim 禁用稀有物品動畫
 settings.interface.showPfp 顯示用戶圖示
 settings.interface.showTradeMsg 顯示交易訊息
-settings.interface.hideNonTrade Hide Non-Tradable Skins
+settings.interface.hideNonTrade 隱藏不可交易的皮膚
 settings.interface.hp 動態血條 (HP)
 settings.interface.dmgScale 傷害顯示比例
 settings.interface.killf 顯示擊殺訊息
@@ -302,7 +302,7 @@ settings.audio.ui 用戶介面音量
 settings.audio.asset Asset 地圖元件音量
 settings.audio.dialogue 動作音量
 settings.viewmodel.header 視角
-settings.viewmodel.vmSetts View Model Settings
+settings.viewmodel.vmSetts 視角模型設定
 settings.viewmodel.fov 視野範圍
 settings.viewmodel.fps 武器渲染視野範圍
 settings.viewmodel.bobbing 武器晃動
@@ -357,8 +357,8 @@ settings.editing.vignette 暈影效果（使螢幕邊緣顏色變暗）
 settings.editing.feedLimit 擊殺列表長度限制
 settings.editing.depth 深度圖模式
 settings.editing.green 綠幕模式
-settings.editing.trailcol Bullet Trail Color
-settings.editing.ropecol Grapple Rope Color
+settings.editing.trailcol 彈道軌跡顏色
+settings.editing.ropecol 鉤爪繩索顏色
 settings.editing.tracercol 顯示彈道軌跡
 settings.editing.tracer 顯示彈道軌跡
 settings.editing.tracer.offset Tracer Offset
@@ -405,8 +405,8 @@ windows.servers.none 無可加入遊戲...
 windows.servers.host + 創建遊戲
 windows.servers.hide 隱藏已滿的遊戲
 windows.servers.priority 優先顯示預設區域
-windows.servers.online {0} 人在遊戲中
-windows.servers.social {0} 人在社區中
+windows.servers.online {0} 玩家在遊戲中
+windows.servers.social {0} 玩家在社區中
 windows.loadout.header 更換角色
 windows.loadout.class 角色
 windows.loadout.primary 主武器
@@ -467,14 +467,14 @@ windows.controls.interactSec 次要互動
 windows.controls.confirm 確認互動
 windows.controls.drop 放下(武器/物品)
 windows.controls.wepVis 切換武器可見度
-windows.controls.kickVoteY Vote Kick [Yes]
-windows.controls.kickVoteN Vote Kick [No]
-windows.controls.kpdVoteY KPD Vote [Yes]
-windows.controls.kpdVoteN KPD Vote [No]
-windows.controls.specFree Toggle Free Cam
-windows.controls.specObj Toggle Objective Cam
-windows.controls.specFirst Toggle First Person
-windows.controls.specNames Toggle Forced Names
+windows.controls.kickVoteY 投票踢出玩家 [是]
+windows.controls.kickVoteN 投票踢出玩家 [否]
+windows.controls.kpdVoteY KPD投票 [是]
+windows.controls.kpdVoteN KPD投票 [否]
+windows.controls.specFree 自由視角
+windows.controls.specObj 物件視角
+windows.controls.specFirst 第一人稱視角
+windows.controls.specNames 強制顯示玩家名稱
 windows.controls.streak0 一連殺
 windows.controls.streak1 二連殺
 windows.controls.streak2 三連殺
@@ -484,11 +484,11 @@ windows.controls.premium0 穿牆/飛行模式
 windows.controls.premium1 無敵模式
 windows.controls.premium2 自殺
 windows.controls.premium3 重擊模式
-windows.controls.dev0 Developer Bind 1
-windows.controls.dev1 Developer Bind 2
-windows.controls.dev2 Developer Bind 3
-windows.controls.dev3 Developer Bind 4
-windows.controls.reset 返回到起點 (比賽 & 跑酷)
+windows.controls.dev0 開發者專用鍵1
+windows.controls.dev1 開發者專用鍵2
+windows.controls.dev2 開發者專用鍵3
+windows.controls.dev3 開發者專用鍵4
+windows.controls.reset 重置并返回到起點 (比賽 & 跑酷)
 windows.controls.pretend 隱藏遊戲
 windows.host.header 創建自定義遊戲
 windows.host.maps 伺服器設定
@@ -519,7 +519,7 @@ windows.publish.map.login 創建並上傳地圖!
 windows.theatre.header 影院模式
 windows.theatre.record 啟用錄製
 windows.theatre.key 錄製按鍵
-windows.clans.header 部落
+windows.clans.header 公會
 windows.clans.members ({0}) 個公會成員 
 windows.clans.requests 申請
 windows.clans.requests.none 無申請
@@ -578,8 +578,8 @@ windows.publish.mod.update 發表/更新
 windows.publish.mod.login 以創建並上傳插件!
 windows.secondary.header 選擇次要武器
 windows.secondary.unlocked 已解鎖
-windows.secondary.customOnly Customs Only
-windows.secondary.premiumOnly Premium Only
+windows.secondary.customOnly 僅限自定義房間
+windows.secondary.premiumOnly 僅限高級會員
 windows.secondary.req 需要至少 {0} 等級
 windows.advertise.header 廣告
 windows.support.header 支持
@@ -607,7 +607,7 @@ mod.disabled 插件已禁用
 mod.error 插件錯誤!
 mod.loading 載入插件中...
 mod.invalid 無效插件文件!
-matchmaker.full 滿
+matchmaker.full 已滿
 matchmaker.full2 伺服器已滿.
 matchmaker.updating 遊戲更新中
 matchmaker.invalid 沒有找到遊戲.
@@ -670,10 +670,10 @@ server.config.private 私人
 server.config.krRewards KR 獎勵
 server.config.forceDefault 強制預設設定
 server.config.warmupTime 熱身時間
-server.config.gamRounds Rounds
+server.config.gamRounds 局數
 server.config.objtvTime 目標時間
 server.config.forceSpawn 自動重生時間
-server.config.intermTmr Intermission (s)
+server.config.intermTmr 中場休息時間
 server.config.scoreLimit 得分限制
 server.config.keepTScore 保留隊伍分數
 server.config.forceC 強制角色類別
@@ -683,13 +683,13 @@ server.config.hpRegen 血量回復
 server.config.disableB 去除地圖邊界
 server.config.throwMel 啟用投擲近戰武器
 server.config.noCosm 禁用飾品
-server.config.tstCmp Test Mode
-server.config.limitClasses Limit Classes
-server.config.tmSize Team Size
-server.config.fallDmg Fall Damage
-server.config.fallDmgThr Fall Damage Thresh
-server.config.noDraws No Draws
-server.config.bstOfR Best of
+server.config.tstCmp Faceit測試模式
+server.config.limitClasses 僅允許一人一武器類型
+server.config.tmSize 團隊類型
+server.config.fallDmg 掉落傷害
+server.config.fallDmgThr 掉落傷害閾值
+server.config.noDraws 沒有平局
+server.config.bstOfR 最佳玩家
 social.login 登入/註冊
 social.login.failed 登入失敗
 social.login.buy 登入後購買
@@ -743,13 +743,13 @@ custom.passcode.long 密碼過長
 custom.passcode.input 請輸入此伺服器密碼以加入遊戲
 custom.tryagain 請重試
 purchase.kr.success 已添加 {0} KR 到您的帳戶
-limited.purchase.ask 您確定您想要購買 [{0}] 為 {1} KR?
+limited.purchase.ask 您確定您想要以 {1} KR購買 [{0}] ?
 limited.purchase.success 已添加 {0} 到您的存貨
 pretend.exit 再次點擊 [{0}] 以退出
 settings.loaded 設置已加載
 settings.loaded.none 查找無結果.
 account.login.required 您必須先登錄
-account.banned.hack 此帳號因作弊已被禁用..
+account.banned.hack 此帳號因作弊已被禁用.
 account.banned.appeal 如果您想申訴你的禁令，請聯繫:
 account.delete 在這裡您可以請求刪除您的帳戶. 如果此請求沒有在14天內被撤消，您所有的帳戶數據將會被永久清除.
 account.delete.request 您確定希望請求刪除您的帳戶?
@@ -773,49 +773,49 @@ windows.host.default.commands *房主指令（像: /noclip, /god, /smite, 等）
 windows.host.rewards 啟用 KR 獎勵將會強制此伺服器使用預設設定並允許玩家從此地圖贏得 KR:
 windows.store.wheels.sub 試試您的運氣，轉動獎輪來獲得贏取新皮膚的機會!
 windows.store.currency * 這些價格可以由付款提供者或銀行以匯率計算從美元轉換到您的當地貨幣.
-windows.store.creator 當您在購買KR時，考慮通過使用您最喜歡的 Krunker 內容建立者的代碼來支持他們!
+windows.store.creator 當您在購買KR時，考慮通過使用您最喜歡的 Krunker 內容創作者的代碼來支持他們!
 windows.chall.customs 挑戰不能在自定義遊戲內進行.
 twitch.link 您確定您想連接您的 Twitch 帳戶?
 twitch.unlink 您確定您想取消連接您的 Twitch 帳戶?
 windows.clan.leave 您確定您想離開您的公會?
 windows.clan.delete 您確定您想刪除您的公會?
 windows.clan.kick 您確定您想從您的公會踢出 {0} ?
-windows.store.premium.purchase 您確定您想要購買 {0} 天的高級會員?
-windows.store.premium.gift Are you sure you want to Gift '{0}' {1} days of Premium?
+windows.store.premium.purchase 您確定您想要購買 {0} 天的高級會員嗎?
+windows.store.premium.gift 您確定您想要贈送 {0} {1}天的高級會員嗎？
 windows.playerlist.ban 您確定您想要從此遊戲封禁並踢出 {0} ?
 windows.playerlist.flag 您確定您想要標記 {0} 嗎？
-windows.playerlist.unflag 您確定您想要取消標記{0}嗎？
+windows.playerlist.unflag 您確定您想要取消標記 {0} 嗎？
 windows.playerlist.punish 您確定您想要對 {0} 採取行動嗎?
-item.view.open Open Model Viewer
-item.view.more More Information
-item.sell.cant Item cant be sold.
-item.sell.quick Are you sure you want to Quick Sell {0}?
-social.profile.stats Overall Stats
-social.profile.class Class Stats
-social.profile.sales Sales
-social.profile.sales.market Market Sales
-social.profile.skins Skins [{0}]
-social.profile.skins.none No published Skins from this user
-social.profile.games Games [{0}]
-social.profile.games.none No published Games from this user
-social.profile.assets Assets [{0}]
-social.profile.assets.none No published Assets from this user
-social.profile.mods Mods [{0}]
-social.profile.mods.none No published Mods from this user
-social.search Search Results
-social.market.stats.rare Rarest Items
+item.view.open 打開模型查看器
+item.view.more 更多資訊
+item.sell.cant 此物品不能被出售.
+item.sell.quick 您確定您想要快速出售 {0} 嗎?
+social.profile.stats 總覽統計數據
+social.profile.class 武器類型統計數據
+social.profile.sales 銷售
+social.profile.sales.market 市場銷售額
+social.profile.skins 皮膚 [{0}]
+social.profile.skins.none 此用戶沒有已發行的皮膚
+social.profile.games 遊戲 [{0}]
+social.profile.games.none 此用戶沒有已發行的遊戲
+social.profile.assets 資源 [{0}]
+social.profile.assets.none 此用戶沒有已發行的地圖組件
+social.profile.mods 模組 [{0}]
+social.profile.mods.none 此用戶沒有已發行的模組
+social.search 搜索結果
+social.market.stats.rare 最稀有物品
 social.market.stats.circulation In Circulation
 social.market.stats.units units Worldwide
-social.trades.in Incoming
-social.trades.in.head Incoming Offers ({0})
-social.trades.out Outgoing
-social.trades.out.head Outgoing Offers ({0})
-social.trades.history History
-social.trades.history.head Trade History ({0})
-social.trades.decline Decline All
-social.trades.message ENABLE TRADE MESSAGES IN SETTINGS
-social.trades.warning You get no items from this trade!
-social.trades.accept Are you sure you want to accept this offer?
-stats.airdrops KR-Packages
-settings.quality.flapAnim Sniper Flap Animation
+social.trades.in 收到的請求
+social.trades.in.head 收到了 ({0}) 個交易請求
+social.trades.out 已發送的請求
+social.trades.out.head 已發送 ({0}) 個交易請求
+social.trades.history 交易記錄
+social.trades.history.head ({0}) 個交易記錄
+social.trades.decline 全部拒絕
+social.trades.message 在設定內開啟交易請求訊息
+social.trades.warning 您將不會在此交易中得到任何物品！
+social.trades.accept 您確定要接受此交易請求嗎?
+stats.airdrops KR空投
+settings.quality.flapAnim 狙擊槍瞄準鏡保護蓋動畫
 `;
