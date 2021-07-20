@@ -101,7 +101,7 @@ settings.experimental.shaderRendering 着色器渲染
 settings.experimental.staticRendering 静态渲染
 settings.client.header 客户端
 settings.client.unlimitedFrames 帧数无限制
-settings.client.gameCap 游戏捕获(OBS)
+settings.client.gameCap 游戏捕获 (OBS)
 settings.client.experimental 实验性功能
 settings.client.discordRPC 启用Discord RPC
 settings.client.resourceSwapper 资源包
@@ -125,7 +125,7 @@ settings.chat.chatBGOp 聊天窗口背景透明度
 settings.chat.chatHeight 聊天窗口高度
 settings.chat.chatTimer 消息显示时间
 settings.chat.chatTextOutline 消息文字轮廓
-settings.chat.chatFilter 不良语言过滤(仅限英文)
+settings.chat.chatFilter 不良语言过滤（仅限英文）
 settings.quality.header 游戏性能
 settings.quality.updRate 帧数限制
 settings.quality.rendDst 渲染距离
@@ -147,7 +147,7 @@ settings.quality.mflash 枪口火焰
 settings.quality.flap 狙击枪瞄准镜保护盖
 settings.quality.lowSpec 低配置模式
 settings.quality.ambient 环境阴影
-settings.quality.ambientOld 经典阴影 (仅可用时)
+settings.quality.ambientOld 经典阴影（仅可用时）
 settings.quality.textureAnim 纹理动画
 settings.quality.objectAnim 物体动画
 settings.quality.screenShake 屏幕晃动
@@ -317,17 +317,17 @@ settings.viewmodel.show.hands 显示手部
 settings.viewmodel.leftHand 左手持枪
 settings.viewmodel.aimAnim 武器开镜动画
 settings.viewmodel.rot 武器位置旋转
-settings.viewmodel.xOff 武器X轴坐标 (左/右)
-settings.viewmodel.yOff 武器Y轴坐标 (上/下)
-settings.viewmodel.zOff 武器Z轴坐标 (前/后)
+settings.viewmodel.xOff 武器X轴坐标（左/右）
+settings.viewmodel.yOff 武器Y轴坐标（上/下）
+settings.viewmodel.zOff 武器Z轴坐标（前/后）
 settings.viewmodel.weapSwapY 切枪时武器的垂直位置
 settings.viewmodel.weapReloadY 换弹时武器的垂直位置
 settings.viewmodel.yOffADS 开镜时武器的垂直位置
 settings.viewmodel.adsFovMlt 开镜放大倍数
 settings.editing.header 编辑
-settings.editing.health.high HUD血条颜色 (高)
-settings.editing.health.low HUD血条颜色 (低)
-settings.editing.speedLines 高速度特效(玩家高速移动时会显示此特效)
+settings.editing.health.high HUD血条颜色（高）
+settings.editing.health.low HUD血条颜色（低）
+settings.editing.speedLines 高速度特效（玩家高速移动时会显示此特效）
 settings.editing.spdLinesCol 高速度特效颜色
 settings.editing.score.color 弹出得分颜色
 settings.editing.score.show 显示弹出得分
@@ -349,11 +349,11 @@ settings.editing.progm.shadow 蓄力条阴影
 settings.editing.progmOffX 蓄力条水平位置
 settings.editing.progmOffY 蓄力条垂直位置
 settings.editing.progmRot 蓄力条角度
-settings.editing.saturation 饱和度 (游戏中)
-settings.editing.menuSaturation 饱和度 (用户界面)
-settings.editing.hue 色调 (游戏中)
-settings.editing.menuHue 色调 (用户界面)
-settings.editing.vignette 晕影效果 (使屏幕边缘颜色变暗)
+settings.editing.saturation 饱和度（游戏中）
+settings.editing.menuSaturation 饱和度（用户界面）
+settings.editing.hue 色调（游戏中）
+settings.editing.menuHue 色调（用户界面）
+settings.editing.vignette 晕影效果（使屏幕边缘颜色变暗）
 settings.editing.feedLimit 击杀列表长度限制
 settings.editing.depth 深度图模式
 settings.editing.green 绿幕模式
@@ -406,7 +406,7 @@ windows.servers.host + 创建游戏
 windows.servers.hide 隐藏已满的房间
 windows.servers.priority 优先区域
 windows.servers.online {0} 玩家正在游戏中
-windows.servers.social {0} 玩家正在游戏社交网站浏览中
+windows.servers.social {0} 玩家正在社区浏览中
 windows.loadout.header 更换武器类别
 windows.loadout.class 武器类别
 windows.loadout.primary 主武器
@@ -465,7 +465,7 @@ windows.controls.board 排行榜
 windows.controls.interact 交互
 windows.controls.interactSec 次要交互
 windows.controls.confirm 确认交互
-windows.controls.drop 放下 (武器/物品)
+windows.controls.drop 放下（武器/物品）
 windows.controls.wepVis 切换武器可见度
 windows.controls.kickVoteY 投票踢出玩家 [是]
 windows.controls.kickVoteN 投票踢出玩家 [否]
@@ -488,7 +488,7 @@ windows.controls.dev0 开发者专用键1
 windows.controls.dev1 开发者专用键2
 windows.controls.dev2 开发者专用键3
 windows.controls.dev3 开发者专用键4
-windows.controls.reset 重设进度并回到起点 (仅限于跑酷/速度竞赛模式)
+windows.controls.reset 重设进度并回到起点（仅限于跑酷/速度竞赛模式）
 windows.controls.pretend 隐藏游戏
 windows.host.header 创建自定义游戏
 windows.host.maps 服务器设定
@@ -543,10 +543,10 @@ windows.store.buyP 在购买会员后，您将可以自定义您的游戏用户�
 windows.store.buy 买卖物品
 windows.store.wheels 转盘
 windows.store.unlock 解锁新武器和物品
-windows.store.amount 您的账号中还有｛0｝KR
+windows.store.amount 您的账号中还有{0}KR
 windows.store.login 用于在商店中购买和解锁物品!
 windows.store.purchasing 购买中...
-windows.store.unboxed {0}开箱获得了{1}
+windows.store.unboxed {0} 开箱获得了 {1}
 windows.trade.header 交易
 windows.scope.header 选择您的狙击镜准心
 windows.premium.header 会员
@@ -599,8 +599,8 @@ windows.ranked.mode.r2v2 双排
 windows.ranked.mode.r4v4 四排
 windows.chall.header 挑战
 windows.chall.login 登录以完成挑战!
-thumbnail.upload.limit 上传失败，最大缩略图大小限制为｛0｝KB
-image.upload.limit 上传失败，最大图片大小限制为｛0｝KB
+thumbnail.upload.limit 上传失败，最大缩略图大小限制为{0}KB
+image.upload.limit 上传失败，最大图片大小限制为{0}KB
 thumbnail.upload.error 缩略图错误
 mod.extracting 提取中 {0}/{1}
 mod.disabled 模组已禁用
@@ -616,7 +616,7 @@ adblocker 禁用广告拦截器以获得免费的KR。
 ad-failed 广告加载失败，请稍后重试
 streamers.views {0} 观看者
 streamers.none 当前没有Twitch直播!
-error.extentions 如果您有任何(浏览器)插件，请禁用它们
+error.extentions 如果您有任何（浏览器）插件，请禁用它们
 error.seek 点此以搜索新的游戏
 custom.map.upload.limit 上传失败，角色游戏数据限制为500KB
 custom.map.missing 请选择至少一种游戏或地图
@@ -625,7 +625,7 @@ custom.class.missing 请选择至少一种角色
 server.config.maxPlayers 最大玩家数
 server.config.minPlayers 最小玩家数
 server.config.lives 玩家生命数
-server.config.gameTime 每局时间(分钟)
+server.config.gameTime 每局时间（分钟）
 server.config.gravMlt 重力
 server.config.tickRI 高传送率
 server.config.maxPS 40人房间
@@ -736,16 +736,16 @@ social.market.gift.amount 赠送金额
 social.market.fee.gift 无费用
 social.market.gift 赠送KR
 social.market.gift.msg 赠送KR留言
-respawn.auto 您将会在｛0｝秒内重生
+respawn.auto 您将会在{0}秒内重生
 custom.host.ranked 您不可以在进行排位赛时开设自定义房间。
 funds.insufficient 经费不足
 funds.out 您似乎没有KR了
 custom.passcode.long 密码过长
 custom.passcode.input 请输入房间密码
 custom.tryagain 请重试
-purchase.kr.success 已成功将｛0｝KR加入您的账号
-limited.purchase.ask 您确定要以｛1｝KR购买｛0｝吗?
-limited.purchase.success 以成功将｛0｝加入您的账号
+purchase.kr.success 已成功将{0}KR加入您的账号
+limited.purchase.ask 您确定要以{1}KR购买 {0} 吗?
+limited.purchase.success 已成功将 {0} 加入您的账号
 pretend.exit 再次点击[{0}]以退出
 settings.loaded 设置已加载
 settings.loaded.none 该设置并不存在
@@ -780,13 +780,13 @@ twitch.link 您确定要链接您的Twitch账号吗?
 twitch.unlink 您确定要取消链接吗?
 windows.clan.leave 您确定要离开该战队吗?
 windows.clan.delete 您确定要解散该战队吗?
-windows.clan.kick 您确定要将｛0｝踢出您的战队吗?
-windows.store.premium.purchase 您确定要购买｛0｝天的会员吗?
-windows.store.premium.gift 您确定要赠送｛0｝ ｛1｝天的会员吗?
-windows.playerlist.ban 您确定要将｛0｝禁赛吗?
-windows.playerlist.flag 您确定要标记｛0｝为外挂用户吗?
-windows.playerlist.unflag 您确定要取消标记｛0｝吗?
-windows.playerlist.punish 您确定要对｛0｝采取措施吗?
+windows.clan.kick 您确定要将 {0} 踢出您的战队吗?
+windows.store.premium.purchase 您确定要购买{0}天的会员吗?
+windows.store.premium.gift 您确定要赠送 {0} {1}天的会员吗?
+windows.playerlist.ban 您确定要将 {0} 禁赛吗?
+windows.playerlist.flag 您确定要标记 {0} 为外挂用户吗?
+windows.playerlist.unflag 您确定要取消标记 {0} 吗?
+windows.playerlist.punish 您确定要对 {0} 采取措施吗?
 item.view.open 打开模型浏览工具
 item.view.more 更多信息
 item.sell.cant 物品无法出售
