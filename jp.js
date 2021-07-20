@@ -689,7 +689,7 @@ server.config.tmSize チーム人数
 server.config.fallDmg 落下ダメージ
 server.config.fallDmgThr 落下ダメージしきい値
 server.config.noDraws 引き分けの無効化
-server.config.bstOfR Best of
+server.config.bstOfR ベスト・オブ
 social.login ログイン/登録
 social.login.failed ログインに失敗しました
 social.login.buy ログインして購入
