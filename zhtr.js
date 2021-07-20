@@ -70,9 +70,9 @@ popup.checkpoint 存檔點！
 app.play 點此開始遊戲
 app.spectate 點此觀戰此局遊戲
 app.play.mobile 輕觸以開始遊戲
-app.spectate.mobile 輕觸以觀察賽場
+app.spectate.mobile 輕觸以觀戰此局遊戲
 app.play.controller 按下開始鍵以開始遊戲
-app.spectate.controller 按下開始以觀戰此局遊戲
+app.spectate.controller 按下開始鍵以觀戰此局遊戲
 purchase.error 出現錯誤
 purchase.error.click 點此</a> 以重試!
 purchase.error.limit 您已超出每日交易限額
@@ -104,15 +104,15 @@ settings.client.unlimitedFrames 幀數無限制
 settings.client.gameCap 遊戲擷取(OBS)
 settings.client.experimental 實驗性功能
 settings.client.discordRPC 開啟Discord RPC
-settings.client.resourceSwapper Resource Swapper
+settings.client.resourceSwapper 資源包
 settings.client.clearCache 清除快取
 settings.client.resetSettings 重置客戶端設定
-settings.client.acceleratedCanvas Accelerated Canvas
+settings.client.acceleratedCanvas 開啟加速畫布 (Accelerated Canvas)
 settings.client.angleBackend ANGLE繪圖後端
 settings.client.colorProfile 色彩配置文件
 settings.dev.header 開發者
 settings.dev.forceUpdate 強制刷新皮膚
-settings.dev.forceRegen 永遠強制性復活玩家
+settings.dev.forceRegen 強制復活玩家
 settings.dev.extraBan 額外的封號資訊
 settings.chat.header 聊天
 settings.chat.chat 顯示聊天視窗
@@ -147,7 +147,7 @@ settings.quality.mflash 槍口火焰
 settings.quality.flap 狙擊槍瞄準鏡保護蓋
 settings.quality.lowSpec 低配置模式
 settings.quality.ambient 環境陰影
-settings.quality.ambientOld 舊版陰影畫風 （僅可用時）
+settings.quality.ambientOld 舊版陰影畫風 (僅可用時)
 settings.quality.textureAnim 紋理動畫
 settings.quality.objectAnim 物體動畫
 settings.quality.screenShake 螢幕晃動
@@ -206,7 +206,7 @@ settings.interface.nametagStyle 名牌樣式
 settings.interface.nametagOpac 名牌透明度
 settings.interface.nametagStyle.health 僅限血條 (HP)
 settings.interface.nametagStyle.name 僅限名稱
-settings.interface.nametagStyle.nameLvl 名稱和等級（HP）
+settings.interface.nametagStyle.nameLvl 名稱和等級 (HP)
 settings.interface.nametagStyle.all 全部顯示
 settings.interface.healthNum 名牌
 settings.interface.healthColT 隊友血條 (HP) 顏色
@@ -262,7 +262,7 @@ settings.gameprivacy.streamer 主播模式
 settings.gameprivacy.anon 匿名模式
 settings.gameprivacy.hideGameTitle 隱藏遊戲名稱
 settings.gameplay.header 遊戲性
-settings.gameplay.gpSetts Gameplay Settings
+settings.gameplay.gpSetts 遊戲性設定
 settings.gameplay.sensitivityX X軸靈敏度
 settings.gameplay.sensitivityY Y軸靈敏度
 settings.gameplay.aimsensX 瞄準X軸靈敏度
@@ -272,9 +272,9 @@ settings.gameplay.invert 反轉Y軸
 settings.gameplay.onkillS 擊殺
 settings.gameplay.scrollDir 滑鼠滾輪方向
 settings.controller.header 手柄
-settings.controller.sensitivityX 準X軸靈敏度
+settings.controller.sensitivityX X軸靈敏度
 settings.controller.disableCons 關閉手柄
-settings.controller.sensitivityY 瞄準X軸靈敏度
+settings.controller.sensitivityY Y軸靈敏度
 settings.controller.aimsensX 瞄準X軸靈敏度
 settings.controller.aimsensY 瞄準Y軸靈敏度
 settings.controller.deadZoneL 手柄搖桿死區 (左)
@@ -299,10 +299,10 @@ settings.audio.weps 武器音量
 settings.audio.player 玩家音量
 settings.audio.skin 服飾音量
 settings.audio.ui 用戶介面音量
-settings.audio.asset Asset 地圖元件音量
+settings.audio.asset 地圖元件音量
 settings.audio.dialogue 動作音量
-settings.viewmodel.header 視角
-settings.viewmodel.vmSetts 視角模型設定
+settings.viewmodel.header 模型
+settings.viewmodel.vmSetts 模型設定
 settings.viewmodel.fov 視野範圍
 settings.viewmodel.fps 武器渲染視野範圍
 settings.viewmodel.bobbing 武器晃動
@@ -322,7 +322,7 @@ settings.viewmodel.yOff 武器Y軸座標
 settings.viewmodel.zOff 武器Z軸座標
 settings.viewmodel.weapSwapY 武器切換時的Y軸座標
 settings.viewmodel.weapReloadY 武器換彈時的Y軸座標
-settings.viewmodel.yOffADS 武器瞄準Y軸座標
+settings.viewmodel.yOffADS 武器瞄準時的Y軸座標
 settings.viewmodel.adsFovMlt 瞄準視野範圍倍率
 settings.editing.header 編輯
 settings.editing.health.high 血條顏色（高）
@@ -361,7 +361,7 @@ settings.editing.trailcol 彈道軌跡顏色
 settings.editing.ropecol 鉤爪繩索顏色
 settings.editing.tracercol 顯示彈道軌跡
 settings.editing.tracer 顯示彈道軌跡
-settings.editing.tracer.offset Tracer Offset
+settings.editing.tracer.offset 彈道軌跡位置偏移
 settings.shaders.header 著色器輸入
 settings.mods.header 自定義
 settings.mods.load 載入插件
@@ -407,8 +407,8 @@ windows.servers.hide 隱藏已滿的遊戲
 windows.servers.priority 優先顯示預設區域
 windows.servers.online {0} 玩家在遊戲中
 windows.servers.social {0} 玩家在社區中
-windows.loadout.header 更換角色
-windows.loadout.class 角色
+windows.loadout.header 更換武器類別
+windows.loadout.class 武器類別
 windows.loadout.primary 主武器
 windows.loadout.primary.attach 配件
 windows.loadout.primary.reticle 準星
@@ -441,7 +441,7 @@ windows.mods.publish 發布插件
 windows.mods.viewer 皮膚瀏覽器
 windows.account.header 帳戶
 windows.account.recover 聯繫 <a>krunker@yendis.ch</a> 以找回密碼.
-windows.class.header 選擇角色
+windows.class.header 選擇武器類別
 windows.controls.header 更改控制
 windows.controls.forward 前
 windows.controls.backward 後
@@ -488,14 +488,14 @@ windows.controls.dev0 開發者專用鍵1
 windows.controls.dev1 開發者專用鍵2
 windows.controls.dev2 開發者專用鍵3
 windows.controls.dev3 開發者專用鍵4
-windows.controls.reset 重置并返回到起點 (比賽 & 跑酷)
+windows.controls.reset 重置并返回到起點 (比賽&跑酷)
 windows.controls.pretend 隱藏遊戲
 windows.host.header 創建自定義遊戲
 windows.host.maps 伺服器設定
 windows.host.cmaps 社區遊戲
 windows.host.raw 原始遊戲數據
 windows.host.modes 選擇模式
-windows.host.classes 選擇角色
+windows.host.classes 選擇武器類別
 windows.host.settings 伺服器設定
 windows.host.preset 創建預設
 windows.host.preset.load 加載預設中...
@@ -543,7 +543,7 @@ windows.store.buyP 選擇顯示名稱以及更多內容
 windows.store.buy 購買物品
 windows.store.wheels 獎輪
 windows.store.unlock 解鎖新武器和物品
-windows.store.amount 您的帳戶中有 {0} KR 剩餘
+windows.store.amount 您的帳戶中剩餘 {0} KR
 windows.store.login 用於在商店中購買和解鎖物品!
 windows.store.purchasing 購買中...
 windows.store.unboxed {0} 開箱解鎖了 {1}
@@ -569,7 +569,7 @@ windows.mods.community.fav 已收藏插件
 windows.mods.community.new 最新插件
 windows.mods.community.hot 熱門插件
 windows.mods.community.name 插件名稱
-windows.mods.community.none 查找無結果
+windows.mods.community.none 無查找結果
 windows.publish.mod.header 發表插件
 windows.publish.mod.thumbnail 沒有縮略圖
 windows.publish.mod.name 插件名稱
@@ -599,8 +599,8 @@ windows.ranked.mode.r2v2 雙排
 windows.ranked.mode.r4v4 四排
 windows.chall.header 挑戰
 windows.chall.login 以完成挑戰!
-thumbnail.upload.limit 失敗. {0} KB 縮略圖限制
-image.upload.limit 失敗. {0} KB 圖片限制
+thumbnail.upload.limit 失敗. {0} KB 縮略圖大小限制
+image.upload.limit 失敗. {0} KB 圖片大小限制
 thumbnail.upload.error 縮略圖錯誤
 mod.extracting 提取中 {0}/{1}
 mod.disabled 插件已禁用
@@ -621,7 +621,7 @@ error.seek 點此以搜索新的遊戲
 custom.map.upload.limit 失敗. 遊戲數據限制總共五十萬個字元.
 custom.map.missing 請選擇至少一種遊戲或地圖
 custom.mode.missing 請選擇至少一種模式
-custom.class.missing 請選擇至少一種角色
+custom.class.missing 請選擇至少一種武器類別
 server.config.maxPlayers 最大玩家數
 server.config.minPlayers 最小玩家數
 server.config.lives 生命數
@@ -676,7 +676,7 @@ server.config.forceSpawn 自動重生時間
 server.config.intermTmr 中場休息時間
 server.config.scoreLimit 得分限制
 server.config.keepTScore 保留隊伍分數
-server.config.forceC 強制角色類別
+server.config.forceC 強制武器類別
 server.config.logTim 遊玩時間 (競賽, 跑酷)
 server.config.hitBoxPad 玩家實體模型倍率
 server.config.hpRegen 血量回復
@@ -684,11 +684,11 @@ server.config.disableB 去除地圖邊界
 server.config.throwMel 啟用投擲近戰武器
 server.config.noCosm 禁用飾品
 server.config.tstCmp Faceit測試模式
-server.config.limitClasses 僅允許一人一武器類型
-server.config.tmSize 團隊類型
+server.config.limitClasses 僅允許一人一武器類別
+server.config.tmSize 團隊類別
 server.config.fallDmg 掉落傷害
 server.config.fallDmgThr 掉落傷害閾值
-server.config.noDraws 沒有平局
+server.config.noDraws 禁用平局
 server.config.bstOfR 最佳玩家
 social.login 登入/註冊
 social.login.failed 登入失敗
@@ -743,7 +743,7 @@ custom.passcode.long 密碼過長
 custom.passcode.input 請輸入此伺服器密碼以加入遊戲
 custom.tryagain 請重試
 purchase.kr.success 已添加 {0} KR 到您的帳戶
-limited.purchase.ask 您確定您想要以 {1} KR購買 [{0}] ?
+limited.purchase.ask 您確定您想要以 {1} KR 購買 [{0}] ?
 limited.purchase.success 已添加 {0} 到您的存貨
 pretend.exit 再次點擊 [{0}] 以退出
 settings.loaded 設置已加載
@@ -762,7 +762,7 @@ mod.reset.1 此插件物體將不會被重置.
 windows.profile.picture 更改頭像
 stats.assists 助攻次數
 stats.nukes 核爆次數
-stats.melee 混戰次數
+stats.melee 刀殺次數
 stats.fistkills 拳擊次數
 stats.thrownkills 投擲近戰武器次數
 stats.headshots 爆頭次數
@@ -783,29 +783,29 @@ windows.clan.kick 您確定您想從您的公會踢出 {0} ?
 windows.store.premium.purchase 您確定您想要購買 {0} 天的高級會員嗎?
 windows.store.premium.gift 您確定您想要贈送 {0} {1}天的高級會員嗎？
 windows.playerlist.ban 您確定您想要從此遊戲封禁並踢出 {0} ?
-windows.playerlist.flag 您確定您想要標記 {0} 嗎？
-windows.playerlist.unflag 您確定您想要取消標記 {0} 嗎？
+windows.playerlist.flag 您確定您想要標記 {0} 為外掛玩家嗎？
+windows.playerlist.unflag 您確定您想要撤消標記 {0} 嗎？
 windows.playerlist.punish 您確定您想要對 {0} 採取行動嗎?
 item.view.open 打開模型查看器
 item.view.more 更多資訊
 item.sell.cant 此物品不能被出售.
 item.sell.quick 您確定您想要快速出售 {0} 嗎?
 social.profile.stats 總覽統計數據
-social.profile.class 武器類型統計數據
+social.profile.class 武器類別統計數據
 social.profile.sales 銷售
 social.profile.sales.market 市場銷售額
 social.profile.skins 皮膚 [{0}]
 social.profile.skins.none 此用戶沒有已發行的皮膚
 social.profile.games 遊戲 [{0}]
 social.profile.games.none 此用戶沒有已發行的遊戲
-social.profile.assets 資源 [{0}]
-social.profile.assets.none 此用戶沒有已發行的地圖組件
-social.profile.mods 模組 [{0}]
-social.profile.mods.none 此用戶沒有已發行的模組
+social.profile.assets 地圖元件 [{0}]
+social.profile.assets.none 此用戶沒有已發行的地圖元件
+social.profile.mods 插件 [{0}]
+social.profile.mods.none 此用戶沒有已發行的插件
 social.search 搜索結果
 social.market.stats.rare 最稀有物品
-social.market.stats.circulation In Circulation
-social.market.stats.units units Worldwide
+social.market.stats.circulation 流通中
+social.market.stats.units 全球持有數量
 social.trades.in 收到的請求
 social.trades.in.head 收到了 ({0}) 個交易請求
 social.trades.out 已發送的請求
