@@ -90,8 +90,8 @@ settings.local.lang 語言
 settings.network.header 網路
 settings.network.sendRate 高伺服器應答率
 settings.network.netRerouting 自動路由
-settings.network.lagComp 延遲修正 (Lag Compensation)
-settings.network.hitReg 子彈擊中目標判定測試
+settings.network.lagComp 延遲修正
+settings.network.hitReg 子彈碰撞判定測試
 settings.popup.header 彈出視窗
 settings.popup.freeKRPop 顯示免費KR彈出視窗
 settings.experimental.header 實驗性功能
@@ -112,7 +112,7 @@ settings.client.angleBackend ANGLE繪圖後端
 settings.client.colorProfile 色彩配置文件
 settings.dev.header 開發者
 settings.dev.forceUpdate 強制刷新皮膚
-settings.dev.forceRegen 強制復活玩家
+settings.dev.forceRegen 強制回復血量
 settings.dev.extraBan 額外的封號資訊
 settings.chat.header 聊天
 settings.chat.chat 顯示聊天視窗
@@ -178,12 +178,12 @@ settings.interface.rarityanim 禁用稀有物品動畫
 settings.interface.showPfp 顯示用戶圖示
 settings.interface.showTradeMsg 顯示交易訊息
 settings.interface.hideNonTrade 隱藏不可交易的皮膚
-settings.interface.hp 動態血條 (HP)
+settings.interface.hp 動態血條
 settings.interface.dmgScale 傷害顯示比例
 settings.interface.killf 顯示擊殺訊息
-settings.interface.ping 顯示延遲 (PING)
+settings.interface.ping 顯示延遲
 settings.interface.net-stats 顯示網絡狀況
-settings.interface.fps 顯示幀率 (FPS)
+settings.interface.fps 顯示幀率
 settings.interface.deaths 顯示死亡數
 settings.interface.kd 顯示擊殺死亡比例
 settings.interface.kills 顯示擊殺數
@@ -204,13 +204,13 @@ settings.interface.hideNames.enemy 僅限敵人
 settings.interface.hideNames.all 全部顯示	
 settings.interface.nametagStyle 名牌樣式
 settings.interface.nametagOpac 名牌透明度
-settings.interface.nametagStyle.health 僅限血條 (HP)
+settings.interface.nametagStyle.health 僅限血條
 settings.interface.nametagStyle.name 僅限名稱
-settings.interface.nametagStyle.nameLvl 名稱和等級 (HP)
+settings.interface.nametagStyle.nameLvl 名稱和等級
 settings.interface.nametagStyle.all 全部顯示
 settings.interface.healthNum 名牌
-settings.interface.healthColT 隊友血條 (HP) 顏色
-settings.interface.healthColE 敵人血條 (HP) 顏色
+settings.interface.healthColT 隊友血條顏色
+settings.interface.healthColE 敵人血條顏色
 settings.interface.xpBarCol 經驗條顏色
 settings.interface.xpBarOpac 經驗條透明度
 settings.crosshair.header 準星
@@ -252,8 +252,8 @@ settings.hitmarker.custom 命中標記圖示
 settings.hitmarker.custom.paste 命中標記網址
 settings.onKillS.style.0 預設
 settings.onKillS.style.1 降低解析度
-settings.onKillS.style.2 降低視野範圍 (FOV)
-settings.onKillS.style.3 增加視野範圍 (FOV)
+settings.onKillS.style.2 降低視野範圍
+settings.onKillS.style.3 增加視野範圍
 settings.serverb.header 伺服器引擎
 settings.serverb.oldBrowser 舊版伺服器瀏覽器
 settings.serverb.defaultRegionOnly 僅顯示預設地區伺服器
@@ -277,8 +277,8 @@ settings.controller.disableCons 關閉手柄
 settings.controller.sensitivityY Y軸靈敏度
 settings.controller.aimsensX 瞄準X軸靈敏度
 settings.controller.aimsensY 瞄準Y軸靈敏度
-settings.controller.deadZoneL 手柄搖桿死區 (左)
-settings.controller.deadZoneR 手柄搖桿死區 (右)
+settings.controller.deadZoneL 左手柄搖桿死區
+settings.controller.deadZoneR 右手柄搖桿死區
 settings.controller.triggerThres 觸發閾值
 settings.controller.vibration 震動
 settings.controller.gradSpeed 漸緩速度
@@ -301,10 +301,10 @@ settings.audio.skin 服飾音量
 settings.audio.ui 用戶介面音量
 settings.audio.asset 地圖元件音量
 settings.audio.dialogue 動作音量
-settings.viewmodel.header 模型
-settings.viewmodel.vmSetts 模型設定
+settings.viewmodel.header 視角模型
+settings.viewmodel.vmSetts 視角模型設定
 settings.viewmodel.fov 視野範圍
-settings.viewmodel.fps 武器渲染視野範圍
+settings.viewmodel.fps 武器視野範圍
 settings.viewmodel.bobbing 武器晃動
 settings.viewmodel.leaning 武器傾斜
 settings.viewmodel.show.primary 顯示主武器
@@ -352,8 +352,8 @@ settings.editing.progmRot 蓄力條角度
 settings.editing.saturation 顏色飽和度 (遊戲中)
 settings.editing.menuSaturation 顏色飽和度 (用戶介面)
 settings.editing.hue 色調 (遊戲中)
-settings.editing.menuHue 色調（用戶介面）
-settings.editing.vignette 暈影效果（使螢幕邊緣顏色變暗）
+settings.editing.menuHue 色調 (用戶介面)
+settings.editing.vignette 暈影效果 (使螢幕邊緣顏色變暗)
 settings.editing.feedLimit 擊殺列表長度限制
 settings.editing.depth 深度圖模式
 settings.editing.green 綠幕模式
@@ -361,7 +361,7 @@ settings.editing.trailcol 彈道軌跡顏色
 settings.editing.ropecol 鉤爪繩索顏色
 settings.editing.tracercol 顯示彈道軌跡
 settings.editing.tracer 顯示彈道軌跡
-settings.editing.tracer.offset 彈道軌跡位置偏移
+settings.editing.tracer.offset 彈道顯示位置
 settings.shaders.header 著色器輸入
 settings.mods.header 自定義
 settings.mods.load 載入插件
@@ -429,7 +429,7 @@ windows.loadout.dye 服裝
 windows.loadout.pet 寵物
 windows.loadout.stat 擊殺統計卡
 windows.loadout.flag 國家旗幟
-windows.mods.drop 將插件文件放在此處/單擊
+windows.mods.drop 將插件文件放在此處或單擊
 windows.mods.paste 粘貼插件網址
 windows.mods.load 加載插件
 windows.mods.none 沒有找到插件
@@ -465,7 +465,7 @@ windows.controls.board 排行榜
 windows.controls.interact 互動
 windows.controls.interactSec 次要互動
 windows.controls.confirm 確認互動
-windows.controls.drop 放下(武器/物品)
+windows.controls.drop 放下 (武器/物品)
 windows.controls.wepVis 切換武器可見度
 windows.controls.kickVoteY 投票踢出玩家 [是]
 windows.controls.kickVoteN 投票踢出玩家 [否]
@@ -530,7 +530,7 @@ windows.clans.view 瀏覽公會
 windows.clans.join 加入公會
 windows.clans.login 創建並加入公會!
 windows.store.header 商店
-windows.store.spin {0} 旋轉/開箱
+windows.store.spin {0} 旋轉盤
 windows.store.agree 通過此次購買, 表示您同意 {0} 條款.
 windows.store.purchase 購買 KR
 windows.store.voucher 兌換代金券
@@ -598,9 +598,9 @@ windows.ranked.mode.r1v1 單排
 windows.ranked.mode.r2v2 雙排
 windows.ranked.mode.r4v4 四排
 windows.chall.header 挑戰
-windows.chall.login 以完成挑戰!
-thumbnail.upload.limit 失敗. {0} KB 縮略圖大小限制
-image.upload.limit 失敗. {0} KB 圖片大小限制
+windows.chall.login 登入以完成挑戰!
+thumbnail.upload.limit 失敗。 {0} KB 縮略圖大小限制
+image.upload.limit 失敗。 {0} KB 圖片大小限制
 thumbnail.upload.error 縮略圖錯誤
 mod.extracting 提取中 {0}/{1}
 mod.disabled 插件已禁用
