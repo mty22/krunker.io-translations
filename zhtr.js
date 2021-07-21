@@ -26,7 +26,7 @@ generic.submit 提交
 generic.create 創建
 generic.random 隨機
 generic.failed 失敗
-generic.success 成功!
+generic.success 成功！
 generic.name 用戶名
 generic.level 等級
 generic.score 得分
@@ -43,12 +43,12 @@ generic.games 遊戲
 generic.wins 勝場
 generic.lose 敗場
 generic.clan 公會
-generic.games.played 已玩
+generic.games.played 已玩遊戲數
 generic.games.won 勝場
 generic.games.lost 敗場
 generic.timep 遊玩時間
-generic.kills 擊殺
-generic.deaths 死亡
+generic.kills 擊殺數
+generic.deaths 死亡數
 generic.kdr 擊殺死亡比例
 generic.time 時間
 generic.logout 登出
@@ -74,7 +74,7 @@ app.spectate.mobile 輕觸以觀戰此局遊戲
 app.play.controller 按下開始鍵以開始遊戲
 app.spectate.controller 按下開始鍵以觀戰此局遊戲
 purchase.error 出現錯誤
-purchase.error.click 點此</a> 以重試!
+purchase.error.click 點此</a> 以重試！
 purchase.error.limit 您已超出每日交易限額
 settings.reset 重置
 settings.reset.confirm 您是否希望重置所有設定？
@@ -506,7 +506,7 @@ windows.spray.header 選擇塗鴉
 windows.spray.default 默認塗鴉
 windows.spray.spin 塗鴉
 windows.maps.header 自定義地圖
-windows.maps.none 沒有找到此地圖!
+windows.maps.none 沒有找到此地圖！
 windows.maps.name 地圖名稱
 windows.maps.editor 地圖編輯器
 windows.maps.publish 發布地圖
@@ -515,7 +515,7 @@ windows.publish.map.header 發布/更新地圖
 windows.publish.map.thumbnail 無縮略圖
 windows.publish.map.paste 粘貼地圖數據
 windows.publish.map.update 發布/更新
-windows.publish.map.login 創建並上傳地圖!
+windows.publish.map.login 創建並上傳地圖！
 windows.theatre.header 影院模式
 windows.theatre.record 啟用錄製
 windows.theatre.key 錄製按鍵
@@ -528,10 +528,10 @@ windows.clans.create 創建公會
 windows.clans.name 公會名稱
 windows.clans.view 瀏覽公會
 windows.clans.join 加入公會
-windows.clans.login 創建並加入公會!
+windows.clans.login 創建並加入公會！
 windows.store.header 商店
 windows.store.spin {0} 旋轉盤
-windows.store.agree 通過此次購買, 表示您同意 {0} 條款.
+windows.store.agree 通過此次購買，表示您同意 {0} 條款。
 windows.store.purchase 購買 KR
 windows.store.voucher 兌換代金券
 windows.store.voucherinfo 從指定主播和活動獲取代金券
@@ -544,7 +544,7 @@ windows.store.buy 購買物品
 windows.store.wheels 獎輪
 windows.store.unlock 解鎖新武器和物品
 windows.store.amount 您的帳戶中剩餘 {0} KR
-windows.store.login 用於在商店中購買和解鎖物品!
+windows.store.login 用於在商店中購買和解鎖物品！
 windows.store.purchasing 購買中...
 windows.store.unboxed {0} 開箱解鎖了 {1}
 windows.trade.header 物品交易
@@ -558,8 +558,8 @@ windows.face.header 選擇面部飾品
 windows.melee.header 選擇近戰武器
 windows.attach.header 選擇附件
 windows.reticle.header 選擇準星
-windows.reticle.unlocked 於 {0} 等級解鎖
-windows.reticle.req 需要 {0} 等級
+windows.reticle.unlocked 於{0}等級解鎖
+windows.reticle.req 需要{0}等級
 windows.dye.header 選擇服裝
 windows.dye.default 默認服裝
 windows.dye.spin 服裝
@@ -575,12 +575,12 @@ windows.publish.mod.thumbnail 沒有縮略圖
 windows.publish.mod.name 插件名稱
 windows.publish.mod.paste 插件網址
 windows.publish.mod.update 發表/更新
-windows.publish.mod.login 以創建並上傳插件!
+windows.publish.mod.login 以創建並上傳插件！
 windows.secondary.header 選擇次要武器
 windows.secondary.unlocked 已解鎖
 windows.secondary.customOnly 僅限自定義房間
 windows.secondary.premiumOnly 僅限高級會員
-windows.secondary.req 需要至少 {0} 等級
+windows.secondary.req 需要至少{0}等級
 windows.advertise.header 廣告
 windows.support.header 支持
 windows.players.header 玩家列表
@@ -592,33 +592,33 @@ windows.client.windows Windows 遊戲客戶端
 windows.client.mac MacOS 遊戲客戶端
 windows.client.linux Linux 遊戲客戶端
 windows.ranked.header 排位賽
-windows.ranked.login 以進行排位賽!
-windows.ranked.level 您至少需要 <span color="black"> {0} 级</span> 以進行排位賽! 當前您的等級是 <span color="black"> {1} 級 </span>.
+windows.ranked.login 以進行排位賽！
+windows.ranked.level 您至少需要 <span color="black"> {0} 级</span> 以進行排位賽！當前您的等級是 <span color="black"> {1} 級 </span>.
 windows.ranked.mode.r1v1 單排
 windows.ranked.mode.r2v2 雙排
 windows.ranked.mode.r4v4 四排
 windows.chall.header 挑戰
-windows.chall.login 登入以完成挑戰!
-thumbnail.upload.limit 失敗。 {0} KB 縮略圖大小限制
-image.upload.limit 失敗。 {0} KB 圖片大小限制
+windows.chall.login 登入以完成挑戰！
+thumbnail.upload.limit 失敗，{0}KB 縮略圖大小限制
+image.upload.limit 失敗，{0}KB 圖片大小限制
 thumbnail.upload.error 縮略圖錯誤
 mod.extracting 提取中 {0}/{1}
 mod.disabled 插件已禁用
-mod.error 插件錯誤!
+mod.error 插件錯誤！
 mod.loading 載入插件中...
-mod.invalid 無效插件文件!
+mod.invalid 無效插件文件！
 matchmaker.full 已滿
-matchmaker.full2 伺服器已滿.
+matchmaker.full2 伺服器已滿。
 matchmaker.updating 遊戲更新中
-matchmaker.invalid 沒有找到遊戲.
+matchmaker.invalid 沒有找到遊戲
 matchmaker.none 伺服器已達上限
-adblocker 禁用廣告攔截器以獲得免費的 KR.
-ad-failed 廣告載入失敗. 請稍後重試.
+adblocker 禁用廣告攔截器以獲得免費的 KR。
+ad-failed 廣告載入失敗，請稍後重試
 streamers.views {0} 個觀看者
-streamers.none 當前沒有 Twitch 直播!
-error.extentions 如果您有任何 (瀏覽器) 插件, 請禁用它們
+streamers.none 當前沒有 Twitch 直播！
+error.extentions 如果您有任何（瀏覽器）插件，請禁用它們
 error.seek 點此以搜索新的遊戲
-custom.map.upload.limit 失敗. 遊戲數據限制總共五十萬個字元.
+custom.map.upload.limit 失敗，遊戲數據限制總共五十萬個字元
 custom.map.missing 請選擇至少一種遊戲或地圖
 custom.mode.missing 請選擇至少一種模式
 custom.class.missing 請選擇至少一種武器類別
@@ -628,7 +628,7 @@ server.config.lives 生命數
 server.config.gameTime 時間 (分鐘)
 server.config.gravMlt 重力
 server.config.tickRI 高應答率
-server.config.maxPS 40 名玩家伺服器
+server.config.maxPS 40名玩家伺服器
 server.config.promServ 推廣伺服器
 server.config.jumpMlt 跳躍力量
 server.config.airStrf 空中轉向
@@ -667,7 +667,7 @@ server.config.nameTags 隱藏名牌
 server.config.kCams 玩家死亡視角
 server.config.noReload 無需重裝彈藥
 server.config.private 私人
-server.config.krRewards KR 獎勵
+server.config.krRewards KR獎勵
 server.config.forceDefault 強制預設設定
 server.config.warmupTime 熱身時間
 server.config.gamRounds 局數
@@ -677,7 +677,7 @@ server.config.intermTmr 中場休息時間
 server.config.scoreLimit 得分限制
 server.config.keepTScore 保留隊伍分數
 server.config.forceC 強制武器類別
-server.config.logTim 遊玩時間 (競賽, 跑酷)
+server.config.logTim 遊玩時間 (競賽、跑酷)
 server.config.hitBoxPad 玩家實體模型倍率
 server.config.hpRegen 血量回復
 server.config.disableB 去除地圖邊界
@@ -724,7 +724,7 @@ social.market.melee 近戰武器
 social.market.spray 塗鴉物品
 social.market.dye 染色物品
 social.market.none 查找無結果
-social.market.login 您必須先登錄.
+social.market.login 您必須先登錄。
 social.market.grace {0}秒後生效
 social.market.sort 篩選/排序
 social.market.filter 搜索
@@ -733,7 +733,7 @@ social.market.price.high 最高價格
 social.trading.submitting 提交報價中...
 social.market.gift.amount 贈送金額
 social.market.fee.gift 無費用
-social.market.gift 贈送 KR
+social.market.gift 贈送KR
 social.market.gift.msg 留言
 respawn.auto 您將會在 {0} 秒內自動重生
 custom.host.ranked 排位賽中無法創建新遊戲。
@@ -742,23 +742,23 @@ funds.out 您的 KR 餘額不足
 custom.passcode.long 密碼過長
 custom.passcode.input 請輸入此伺服器密碼以加入遊戲
 custom.tryagain 請重試
-purchase.kr.success 已添加 {0} KR 到您的帳戶
-limited.purchase.ask 您確定您想要以 {1} KR 購買 [{0}] ?
+purchase.kr.success 已添加 {0}KR 到您的帳戶
+limited.purchase.ask 您確定您想要以 {1} KR 購買 [{0}]嗎？
 limited.purchase.success 已添加 {0} 到您的存貨
 pretend.exit 再次點擊 [{0}] 以退出
 settings.loaded 設置已加載
-settings.loaded.none 查找無結果.
+settings.loaded.none 無查找結果
 account.login.required 您必須先登錄
-account.banned.hack 此帳號因作弊已被禁用.
+account.banned.hack 此帳號因作弊已被禁用
 account.banned.appeal 如果您想申訴你的禁令，請聯繫:
-account.delete 在這裡您可以請求刪除您的帳戶. 如果此請求沒有在14天內被撤消，您所有的帳戶數據將會被永久清除.
-account.delete.request 您確定希望請求刪除您的帳戶?
-account.delete.cancel 您確定希望取消刪除您的帳戶?
-spin.free.available 免費 KR 可用!
-spin.free.claim 您必須在每小時內完成一場比賽以獲得您的免費 KR 轉盤.
-spin.free.disable 在通用設置里可以關閉此彈窗.
-mod.reset.0 當您復活後此設置將會生效.
-mod.reset.1 此插件物體將不會被重置.
+account.delete 在這裡您可以請求刪除您的帳戶，如果此請求沒有在14天內被撤消，您所有的帳戶數據將會被永久清除。
+account.delete.request 您確定希望請求刪除您的帳戶？
+account.delete.cancel 您確定希望取消刪除您的帳戶？
+spin.free.available 免費 KR 可用！
+spin.free.claim 您必須在每小時內完成一場比賽以獲得您的免費 KR 轉盤。
+spin.free.disable 在通用設置里可以關閉此彈窗。
+mod.reset.0 當您復活後此設置將會生效。
+mod.reset.1 此插件物體將不會被重置。
 windows.profile.picture 更改頭像
 stats.assists 助攻次數
 stats.nukes 核爆次數
@@ -769,29 +769,29 @@ stats.headshots 爆頭次數
 stats.wallbangs 穿牆次數
 stats.sprays 塗鴉次數
 windows.host.default.settings 啟用默認設置允許玩家儲存他們的進度及高分
-windows.host.default.commands *房主指令（像: /noclip, /god, /smite, 等）在此模式中將會被禁用.
+windows.host.default.commands *房主指令（像: /noclip, /god, /smite, 等）在此模式中將會被禁用。
 windows.host.rewards 啟用 KR 獎勵將會強制此伺服器使用預設設定並允許玩家從此地圖贏得 KR:
-windows.store.wheels.sub 試試您的運氣，轉動獎輪來獲得贏取新皮膚的機會!
-windows.store.currency * 這些價格可以由付款提供者或銀行以匯率計算從美元轉換到您的當地貨幣.
-windows.store.creator 當您在購買KR時，考慮通過使用您最喜歡的 Krunker 內容創作者的代碼來支持他們!
+windows.store.wheels.sub 試試您的運氣，轉動獎輪來獲得贏取新皮膚的機會！
+windows.store.currency *這些價格可以由付款提供者或銀行以匯率計算從美元轉換到您的當地貨幣。
+windows.store.creator 當您在購買KR時，考慮通過使用您最喜歡的 Krunker 內容創作者的代碼來支持他們！
 windows.chall.customs 挑戰不能在自定義遊戲內進行.
-twitch.link 您確定您想連接您的 Twitch 帳戶?
-twitch.unlink 您確定您想取消連接您的 Twitch 帳戶?
-windows.clan.leave 您確定您想離開您的公會?
-windows.clan.delete 您確定您想刪除您的公會?
-windows.clan.kick 您確定您想從您的公會踢出 {0} ?
-windows.store.premium.purchase 您確定您想要購買 {0} 天的高級會員嗎?
+twitch.link 您確定您想連接您的 Twitch 帳戶嗎？
+twitch.unlink 您確定您想取消連接您的 Twitch 帳戶嗎？
+windows.clan.leave 您確定您想離開您的公會嗎？
+windows.clan.delete 您確定您想刪除您的公會嗎？
+windows.clan.kick 您確定您想從您的公會踢出 {0} 嗎？
+windows.store.premium.purchase 您確定您想要購買 {0} 天的高級會員嗎？
 windows.store.premium.gift 您確定您想要贈送 {0} {1}天的高級會員嗎？
-windows.playerlist.ban 您確定您想要從此遊戲封禁並踢出 {0} ?
+windows.playerlist.ban 您確定您想要從此遊戲封禁並踢出 {0} 嗎？
 windows.playerlist.flag 您確定您想要標記 {0} 為外掛玩家嗎？
 windows.playerlist.unflag 您確定您想要撤消標記 {0} 嗎？
-windows.playerlist.punish 您確定您想要對 {0} 採取行動嗎?
+windows.playerlist.punish 您確定您想要對 {0} 採取行動嗎？
 item.view.open 打開模型查看器
 item.view.more 更多資訊
 item.sell.cant 此物品不能被出售.
-item.sell.quick 您確定您想要快速出售 {0} 嗎?
-social.profile.stats 總覽統計數據
-social.profile.class 武器類別統計數據
+item.sell.quick 您確定您想要快速出售 {0} 嗎？
+social.profile.stats 綜合統計
+social.profile.class 武器類別統計
 social.profile.sales 銷售
 social.profile.sales.market 市場銷售額
 social.profile.skins 皮膚 [{0}]
@@ -815,7 +815,7 @@ social.trades.history.head ({0}) 個交易記錄
 social.trades.decline 全部拒絕
 social.trades.message 在設定內開啟交易請求訊息
 social.trades.warning 您將不會在此交易中得到任何物品！
-social.trades.accept 您確定要接受此交易請求嗎?
+social.trades.accept 您確定要接受此交易請求嗎？
 stats.airdrops KR空投
 settings.quality.flapAnim 狙擊槍瞄準鏡保護蓋動畫
 `;
