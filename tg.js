@@ -98,7 +98,7 @@ settings.experimental.header Experimental na Header
 settings.experimental.aimFreezeFix Ayusin ang Aim Freeze
 settings.experimental.mouseFlickFix Pag-ayos ng Mouse Flick
 settings.experimental.shaderRendering Pag-render
-settings.experimental.staticRendering Static Rendering
+settings.experimental.staticRendering Static na Pag-render
 settings.client.header Kliyente
 settings.client.unlimitedFrames Unlimited na FPS
 settings.client.gameCap Record ng Laro
@@ -177,7 +177,7 @@ settings.interface.oldBrowser Gumamit ng Lumang Browser
 settings.interface.rarityanim Tigilan ang Animasyon ng Rarity
 settings.interface.showPfp Ipakita ang Mga Larawan sa Profile
 settings.interface.showTradeMsg Ipakita ang Mga Mensahe sa Kalakal
-settings.interface.hideNonTrade Hide Non-Tradable Skins
+settings.interface.hideNonTrade Itago ang mga kagamitang hindi pwedeng ikalakal
 settings.interface.hp Mga Dynamic na HP Bar
 settings.interface.dmgScale Lawak ng Pinsala 
 settings.interface.killf Ipakita kung sino ang pumatay sa kapwa-manlalaro
@@ -262,7 +262,7 @@ settings.gameprivacy.streamer Mode ng Streamer
 settings.gameprivacy.anon Anonymous Mode
 settings.gameprivacy.hideGameTitle Itago ang Pamagat ng Laro
 settings.gameplay.header Gameplay
-settings.gameplay.gpSetts Gameplay Settings
+settings.gameplay.gpSetts Settings sa Gameplay
 settings.gameplay.sensitivityX X Sensitivity
 settings.gameplay.sensitivityY Y Sensitivity
 settings.gameplay.aimsensX  X Sensitivity sa pagpuntirya (Aim)
@@ -302,7 +302,7 @@ settings.audio.ui UI Bolyum ng UI
 settings.audio.asset Bolyum ng Asset
 settings.audio.dialogue Bolyum ng dialogo
 settings.viewmodel.header Tingnan ang Modelo
-settings.viewmodel.vmSetts View Model Settings
+settings.viewmodel.vmSetts Settings ng View Model
 settings.viewmodel.fov Field of View (Larangan ng Pagtingin)
 settings.viewmodel.fps FOV ng Armas
 settings.viewmodel.bobbing Pagtalbog ng Armas
@@ -357,8 +357,8 @@ settings.editing.vignette Vignette
 settings.editing.feedLimit Limitasyon ng Killfeed
 settings.editing.depth Lalim ng Mapa
 settings.editing.green Berdeng I-skreen
-settings.editing.trailcol Bullet Trail Color
-settings.editing.ropecol Grapple Rope Color
+settings.editing.trailcol Kulay ng Bullet Trail
+settings.editing.ropecol Kulay ng Grappler Rope
 settings.editing.tracercol Kulay ng Bullet Tracer
 settings.editing.tracer Mga Bullet Tracer
 settings.editing.tracer.offset Tracer Offset
@@ -689,7 +689,7 @@ server.config.tmSize Laki ng Pangkat
 server.config.fallDmg Damage kapag nahuhulog
 server.config.fallDmgThr Threshold ng Fall Damage
 server.config.noDraws Walang Draws
-server.config.bstOfR Pinakamabuti ng...
+server.config.bstOfR Best Of...
 social.login Mag-parehistro
 social.login.failed Hindi gumana ang pag-login
 social.login.buy Mag-login upang Bumili
@@ -781,7 +781,7 @@ windows.clan.leave Sigurado ka bang nais mong umalis sa hukbo/samahan ninyo?
 windows.clan.delete Sigurado ka bang nais mong tanggalin ang hukbo/samahan?
 windows.clan.kick Sigurado ka bang nais mong i-kick si {0} at tanggalin sa samahan?
 windows.store.premium.purchase Sigurado ka bang nais mong bumili ng {0} araw ng Premium?
-windows.store.premium.gift Are you sure you want to Gift '{0}' {1} days of Premium?
+windows.store.premium.gift Sigurado nais mo bang regaluhin si '{0}' ng {1} na araw ng Premium?
 windows.playerlist.ban Sigurado ka bang nais mong ipagbawal si {0} mula sa larong ito?
 windows.playerlist.flag Sigurado ka bang nais mong I-flag si {0}?
 windows.playerlist.unflag Sigurado ka bang nais mong mag-Unflag si {0}?
