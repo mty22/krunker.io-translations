@@ -26,7 +26,7 @@ generic.submit 提交
 generic.create 创建
 generic.random 随机
 generic.failed 失败
-generic.success 成功!
+generic.success 成功！
 generic.name 用户名
 generic.level 用户等级
 generic.score 得分
@@ -66,7 +66,7 @@ player.inactive 由于不活跃，游戏已断开连接
 player.disconnect 连接已断开
 timer.end 下一场将在 {0} 后开始
 leaderboard.empty 空房间
-popup.checkpoint 检查点!
+popup.checkpoint 检查点！
 app.play 点此开始游戏
 app.spectate 点此处观战
 app.play.mobile 点击屏幕开始游戏
@@ -74,10 +74,10 @@ app.spectate.mobile 点击屏幕开始观战
 app.play.controller 按下开始游戏
 app.spectate.controller 按下开始观战
 purchase.error 出现错误
-purchase.error.click 点此</a> 并重试!
+purchase.error.click 点此</a> 并重试！
 purchase.error.limit 您已超出每日交易限额
 settings.reset 重设
-settings.reset.confirm 您是否希望重设所有设定?
+settings.reset.confirm 您是否希望重设所有设定？
 settings.import 下载
 settings.export 上传
 settings.none 没有找到该设置
@@ -107,7 +107,7 @@ settings.client.discordRPC 启用Discord RPC
 settings.client.resourceSwapper 资源包
 settings.client.clearCache 清除缓存
 settings.client.resetSettings 重设客户端设置
-settings.client.acceleratedCanvas 开启加速画布 (Accelerated Canvas)
+settings.client.acceleratedCanvas 启用加速画布 (Accelerated Canvas)
 settings.client.angleBackend ANGLE图形后端
 settings.client.colorProfile 色彩配置文件
 settings.dev.header 开发者
@@ -204,7 +204,7 @@ settings.interface.hideNames.enemy 名牌仅限敌人
 settings.interface.hideNames.all 所有人均显示名牌
 settings.interface.nametagStyle 名牌样式
 settings.interface.nametagOpac 名牌透明度
-settings.interface.nametagStyle.health 仅显示血条
+settings.interface.nametagStyle.health 仅限血条
 settings.interface.nametagStyle.name 仅限用户名
 settings.interface.nametagStyle.nameLvl 用户名和血条
 settings.interface.nametagStyle.all 所有
@@ -441,7 +441,7 @@ windows.mods.publish 发布模组
 windows.mods.viewer 观看者
 windows.account.header 帐号
 windows.account.recover 联系 <a>recovery@yendis.ch</a> 找回账号密码
-windows.class.header 选择角色
+windows.class.header 选择武器类别
 windows.controls.header 更改控制
 windows.controls.forward 前
 windows.controls.backward 后
@@ -495,7 +495,7 @@ windows.host.maps 服务器设定
 windows.host.cmaps 社区提供的地图
 windows.host.raw 原始游戏数据
 windows.host.modes 选择模式
-windows.host.classes 选择角色
+windows.host.classes 选择武器类别
 windows.host.settings 服务器设定
 windows.host.preset 创建预设
 windows.host.preset.load 加载预设中...
@@ -506,7 +506,7 @@ windows.spray.header 选择涂鸦
 windows.spray.default 默认涂鸦
 windows.spray.spin 涂鸦
 windows.maps.header 自定义地图
-windows.maps.none 没有找到该地图!
+windows.maps.none 没有找到该地图！
 windows.maps.name 地图名称
 windows.maps.editor 地图编辑器
 windows.maps.publish 发布地图
@@ -515,7 +515,7 @@ windows.publish.map.header 发布或更新地图
 windows.publish.map.thumbnail 没有缩略图
 windows.publish.map.paste 粘贴游戏数据
 windows.publish.map.update 发布/更新地图
-windows.publish.map.login 创建并上传您的地图!
+windows.publish.map.login 创建并上传您的地图！
 windows.theatre.header 影院模式
 windows.theatre.record 启用录制
 windows.theatre.key 录制按键
@@ -528,7 +528,7 @@ windows.clans.create 创建战队
 windows.clans.name 战队名称
 windows.clans.view 浏览战队
 windows.clans.join 加入战队
-windows.clans.login 创建并加入战队!
+windows.clans.login 创建并加入战队！
 windows.store.header 商城
 windows.store.spin {0} 转盘
 windows.store.agree 通过此次购买，您将同意 {0} 条款.
@@ -539,12 +539,12 @@ windows.store.market 市场
 windows.store.market2 Krunker 市场
 windows.store.premium 购买会员
 windows.store.premium2 Krunker 会员
-windows.store.buyP 在购买会员后，您将可以自定义您的游戏用户名+体验更多专用功能!
+windows.store.buyP 在购买会员后，您将可以自定义您的游戏用户名+体验更多专用功能！
 windows.store.buy 买卖物品
 windows.store.wheels 转盘
 windows.store.unlock 解锁新武器和物品
 windows.store.amount 您的账号中还有{0}KR
-windows.store.login 用于在商店中购买和解锁物品!
+windows.store.login 用于在商店中购买和解锁物品！
 windows.store.purchasing 购买中...
 windows.store.unboxed {0} 开箱获得了 {1}
 windows.trade.header 交易
@@ -575,7 +575,7 @@ windows.publish.mod.thumbnail 没有缩略图
 windows.publish.mod.name 模组名称
 windows.publish.mod.paste 模组网址
 windows.publish.mod.update 发布/更新
-windows.publish.mod.login 请登录以创建并上传!
+windows.publish.mod.login 请登录以创建并上传！
 windows.secondary.header 选择副武器
 windows.secondary.unlocked 已解锁
 windows.secondary.customOnly 仅限自定义房间
@@ -592,36 +592,36 @@ windows.client.windows Windows 游戏客戶端
 windows.client.mac macOS 游戏客戶端
 windows.client.linux Linux 游戏客戶端
 windows.ranked.header 排位赛
-windows.ranked.login 登录以进行排位赛!
-windows.ranked.level 您至少需要 <span color="black"> {0} 级</span> 以进行排位赛! 当前您的等级是 <span color="black"> {1} 级</span>.
+windows.ranked.login 登录以进行排位赛！
+windows.ranked.level 您至少需要 <span color="black"> {0} 级</span> 以进行排位赛！当前您的等级是 <span color="black"> {1} 级</span>.
 windows.ranked.mode.r1v1 单排
 windows.ranked.mode.r2v2 双排
 windows.ranked.mode.r4v4 四排
 windows.chall.header 挑战
-windows.chall.login 登录以完成挑战!
+windows.chall.login 登录以完成挑战！
 thumbnail.upload.limit 上传失败，最大缩略图大小限制为{0}KB
 image.upload.limit 上传失败，最大图片大小限制为{0}KB
 thumbnail.upload.error 缩略图错误
 mod.extracting 提取中 {0}/{1}
 mod.disabled 模组已禁用
-mod.error 模组错误!
+mod.error 模组错误！
 mod.loading 加载模组中...
-mod.invalid 模组文件不可用!
+mod.invalid 模组文件不可用！
 matchmaker.full 已满
-matchmaker.full2 游戏已满。
+matchmaker.full2 游戏已满
 matchmaker.updating 游戏更新中
-matchmaker.invalid 没有找到游戏。
+matchmaker.invalid 没有找到游戏
 matchmaker.none 服务器已达上限
-adblocker 禁用广告拦截器以获得免费的KR。
+adblocker 禁用广告拦截器以获得免费的KR
 ad-failed 广告加载失败，请稍后重试
 streamers.views {0} 观看者
-streamers.none 当前没有Twitch直播!
+streamers.none 当前没有Twitch直播！
 error.extentions 如果您有任何（浏览器）插件，请禁用它们
 error.seek 点此以搜索新的游戏
-custom.map.upload.limit 上传失败，角色游戏数据限制为500KB
+custom.map.upload.limit 上传失败，地图游戏数据限制为500KB
 custom.map.missing 请选择至少一种游戏或地图
 custom.mode.missing 请选择至少一种模式
-custom.class.missing 请选择至少一种角色
+custom.class.missing 请选择至少一种武器类别
 server.config.maxPlayers 最大玩家数
 server.config.minPlayers 最小玩家数
 server.config.lives 玩家生命数
@@ -683,9 +683,8 @@ server.config.hpRegen 血量回复
 server.config.disableB 解除地图边界
 server.config.throwMel 投掷近战武器
 server.config.noCosm 禁用饰品
-server.config.intermTmr 中场休息时间
-server.config.tstCmp 测试模式
-server.config.limitClasses 限制武器类型
+server.config.tstCmp Faceit测试模式
+server.config.limitClasses 仅允许一人一武器类别
 server.config.tmSize 团队大小
 server.config.fallDmg 开启摔落伤害
 server.config.fallDmgThr 摔落伤害阈值
@@ -714,7 +713,7 @@ social.market.req 需要至少{0}级
 social.market.cant KR不足
 social.market.purchase 购买
 social.market.fee 无上架费用
-social.market.failed 失败. 请稍后重试
+social.market.failed 失败，请稍后重试
 social.market.head 头饰
 social.market.back 背部饰品
 social.market.waist 腰部饰品
@@ -744,7 +743,7 @@ custom.passcode.long 密码过长
 custom.passcode.input 请输入房间密码
 custom.tryagain 请重试
 purchase.kr.success 已成功将{0}KR加入您的账号
-limited.purchase.ask 您确定要以{1}KR购买 {0} 吗?
+limited.purchase.ask 您确定要以{1}KR购买 {0} 吗？
 limited.purchase.success 已成功将 {0} 加入您的账号
 pretend.exit 再次点击[{0}]以退出
 settings.loaded 设置已加载
@@ -753,9 +752,9 @@ account.login.required 您必须先登录
 account.banned.hack 此账号已因为使用外挂被禁赛
 account.banned.appeal 如果您认为您的账号被误封，请联系：
 account.delete 如果您的账号删除申请在14天內没有被撤销，所有关于此账号的信息将会被抹除。
-account.delete.request 您确定要申请账号删除吗?
-account.delete.cancel 您确定要撤销账号删除申请吗?
-spin.free.available 免费KR已准备完毕!
+account.delete.request 您确定要申请账号删除吗？
+account.delete.cancel 您确定要撤销账号删除申请吗？
+spin.free.available 免费KR已准备完毕！
 spin.free.claim 此转盘仅可在每小时完成一局比赛后获得
 spin.free.disable 免费KR弹窗可以在设置中禁用
 mod.reset.0 该设置将会在玩家重生后生效
@@ -770,29 +769,29 @@ stats.headshots 暴击数
 stats.wallbangs 穿墙击杀数
 stats.sprays 涂鸦次数
 windows.host.default.settings 保持玩家计分功能仅可在使用默认设置时被打开
-windows.host.default.commands 房主指令(如/god，/smite，/noclip，等等)会在此模式中被禁用
-windows.host.rewards 打开KR奖励功能后，玩家可以在地图内获得KR奖励，但是自定义设置将会被禁用
-windows.store.wheels.sub 试试这些转盘，您将会有机会获得全新皮肤!
+windows.host.default.commands 房主指令（如/god，/smite，/noclip，等等）会在此模式中被禁用。
+windows.host.rewards 打开KR奖励功能后，玩家可以在地图内获得KR奖励，但是自定义设置将会被禁用。
+windows.store.wheels.sub 试试这些转盘，您将会有机会获得全新皮肤！
 windows.store.currency *美元和您所在地区货币的汇率将会由支付服务提供商或您使用的银行决定
-windows.store.creator 在购买KR时，您可以使用创作者专用码以支持您喜爱的视频/地图/模组创作者
+windows.store.creator 在购买KR时，您可以使用创作者专用码以支持您喜爱的视频/地图/模组创作者。
 windows.chall.customs 您不可在自定义房间中完成挑战。
-twitch.link 您确定要链接您的Twitch账号吗?
-twitch.unlink 您确定要取消链接吗?
-windows.clan.leave 您确定要离开该战队吗?
-windows.clan.delete 您确定要解散该战队吗?
-windows.clan.kick 您确定要将 {0} 踢出您的战队吗?
-windows.store.premium.purchase 您确定要购买{0}天的会员吗?
-windows.store.premium.gift 您确定要赠送 {0} {1}天的会员吗?
-windows.playerlist.ban 您确定要将 {0} 禁赛吗?
-windows.playerlist.flag 您确定要标记 {0} 为外挂用户吗?
-windows.playerlist.unflag 您确定要取消标记 {0} 吗?
-windows.playerlist.punish 您确定要对 {0} 采取措施吗?
+twitch.link 您确定要链接您的Twitch账号吗？
+twitch.unlink 您确定要取消链接吗？
+windows.clan.leave 您确定要离开该战队吗？
+windows.clan.delete 您确定要解散该战队吗？
+windows.clan.kick 您确定要将 {0} 踢出您的战队吗？
+windows.store.premium.purchase 您确定要购买{0}天的会员吗？
+windows.store.premium.gift 您确定要赠送 {0} {1}天的会员吗？
+windows.playerlist.ban 您确定要将 {0} 禁赛吗？
+windows.playerlist.flag 您确定要标记 {0} 为外挂用户吗？
+windows.playerlist.unflag 您确定要取消标记 {0} 吗？
+windows.playerlist.punish 您确定要对 {0} 采取措施吗？
 item.view.open 打开模型浏览工具
 item.view.more 更多信息
 item.sell.cant 物品无法出售
-item.sell.quick 您确定要闪售 {0} 吗?
-social.profile.stats 总体战绩
-social.profile.class 各角色战绩
+item.sell.quick 您确定要闪售 {0} 吗？
+social.profile.stats 综合战绩
+social.profile.class 各武器类别战绩
 social.profile.sales 出售记录
 social.profile.sales.market 市场出售记录
 social.profile.skins [{0}] 个物品
@@ -810,13 +809,13 @@ social.market.stats.units 全球物品数量
 social.trades.in 收到的请求
 social.trades.in.head 收到了 ({0}) 个交易请求
 social.trades.out 发送的请求
-social.trades.out.head 放出了 ({0}) 个交易请求
+social.trades.out.head 发送了 ({0}) 个交易请求
 social.trades.history 交易记录
 social.trades.history.head ({0}) 个交易记录
 social.trades.decline 全部拒绝
 social.trades.message 在设置中开启交易请求信息
-social.trades.warning 您将不会在此交易中获得任何物品!
-social.trades.accept 您确定接受此交易请求吗?
+social.trades.warning 您将不会在此交易中获得任何物品！
+social.trades.accept 您确定接受此交易请求吗？
 stats.airdrops KR空投
 settings.quality.flapAnim 狙击枪瞄准镜保护镜动画
 `;
