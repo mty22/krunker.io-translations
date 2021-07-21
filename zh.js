@@ -304,7 +304,7 @@ settings.audio.dialogue 动作音量
 settings.viewmodel.header 视角模型
 settings.viewmodel.vmSetts 视角模型设置
 settings.viewmodel.fov 腰射视野
-settings.viewmodel.fps 武器視野範圍
+settings.viewmodel.fps 武器视野范围
 settings.viewmodel.bobbing 玩家移动时的武器晃动
 settings.viewmodel.leaning 玩家移动时的武器倾斜
 settings.viewmodel.show.primary 显示主武器
@@ -406,7 +406,7 @@ windows.servers.host + 创建游戏
 windows.servers.hide 隐藏已满的房间
 windows.servers.priority 优先区域
 windows.servers.online {0} 玩家正在游戏中
-windows.servers.social {0} 玩家正在社区浏览中
+windows.servers.social {0} 玩家正在社区中
 windows.loadout.header 更换武器类别
 windows.loadout.class 武器类别
 windows.loadout.primary 主武器
@@ -588,9 +588,9 @@ windows.players.none 当前没有玩家...
 windows.join.header 加入
 windows.join.code 输入房间网址
 windows.client.header 客户端
-windows.client.windows Windows 游戏客戶端
-windows.client.mac macOS 游戏客戶端
-windows.client.linux Linux 游戏客戶端
+windows.client.windows Windows 游戏客户端
+windows.client.mac macOS 游戏客户端
+windows.client.linux Linux 游戏客户端
 windows.ranked.header 排位赛
 windows.ranked.login 登录以进行排位赛！
 windows.ranked.level 您至少需要 <span color="black"> {0} 级</span> 以进行排位赛！当前您的等级是 <span color="black"> {1} 级</span>.
@@ -599,8 +599,8 @@ windows.ranked.mode.r2v2 双排
 windows.ranked.mode.r4v4 四排
 windows.chall.header 挑战
 windows.chall.login 登录以完成挑战！
-thumbnail.upload.limit 上传失败，最大缩略图大小限制为{0}KB
-image.upload.limit 上传失败，最大图片大小限制为{0}KB
+thumbnail.upload.limit 上传失败，缩略图大小上限为{0}KB
+image.upload.limit 上传失败，图片大小上限为{0}KB
 thumbnail.upload.error 缩略图错误
 mod.extracting 提取中 {0}/{1}
 mod.disabled 模组已禁用
@@ -618,7 +618,7 @@ streamers.views {0} 观看者
 streamers.none 当前没有Twitch直播！
 error.extentions 如果您有任何（浏览器）插件，请禁用它们
 error.seek 点此以搜索新的游戏
-custom.map.upload.limit 上传失败，地图游戏数据限制为500KB
+custom.map.upload.limit 上传失败，地图游戏数据大小上限为500KB
 custom.map.missing 请选择至少一种游戏或地图
 custom.mode.missing 请选择至少一种模式
 custom.class.missing 请选择至少一种武器类别
