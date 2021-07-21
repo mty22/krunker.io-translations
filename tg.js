@@ -126,7 +126,7 @@ settings.chat.chatHeight Tangkad ng Chat
 settings.chat.chatTimer Orasan ng pag-chat
 settings.chat.chatTextOutline Chat Text Outline
 settings.chat.chatFilter Pagsala at Pagtakip ng kabastusan at hindi nais na salita
-settings.quality.header Pagganap
+settings.quality.header Kalidad 
 settings.quality.updRate Limitasyon sa Frame rate
 settings.quality.rendDst Distansya ng Pag-render
 settings.quality.res Kalinawan
@@ -265,8 +265,8 @@ settings.gameplay.header Gameplay
 settings.gameplay.gpSetts Gameplay Settings
 settings.gameplay.sensitivityX X Sensitivity
 settings.gameplay.sensitivityY Y Sensitivity
-settings.gameplay.aimsensX Aim X Sensitivity
-settings.gameplay.aimsensY Aim Y Sensitivity
+settings.gameplay.aimsensX  X Sensitivity sa pagpuntirya (Aim)
+settings.gameplay.aimsensY  Y Sensitivity sa pagpuntirya (Aim)
 settings.gameplay.challenge Mga Pagsubok at Hamon
 settings.gameplay.invert Baligtarin ang Y-Axis
 settings.gameplay.onkillS Sa Pagpatay
@@ -447,8 +447,8 @@ windows.controls.forward Pasulong
 windows.controls.backward Paatras
 windows.controls.left Kaliwa
 windows.controls.right Kanan
-windows.controls.reload Reload
-windows.controls.aim Pagpuntirya
+windows.controls.reload I-reload
+windows.controls.aim Magpuntirya
 windows.controls.shoot Bumaril
 windows.controls.inspect Suriin
 windows.controls.spray Mag-spray
@@ -458,7 +458,7 @@ windows.controls.prim Pangunahing Armas
 windows.controls.swap Pandagdag Armas
 windows.controls.melee Patalim
 windows.controls.equip Gamitin
-windows.controls.chat Usapan
+windows.controls.chat Pag-Uusap
 windows.controls.voice Boses
 windows.controls.list Listahan ng mga manlalaro
 windows.controls.board Leaderboard
@@ -530,7 +530,7 @@ windows.clans.view Tignan ang mga Samahan
 windows.clans.join Sumali sa Samahan
 windows.clans.login Mag-login upang makagawa o makasali sa isang Samahan!
 windows.store.header Tindahan
-windows.store.spin {0} Papremyong Prizewheel
+windows.store.spin {0} Papremyong Prize-wheel
 windows.store.agree Sa pamamagitan ng pagbili sumasang-ayon ka sa {0} Mga Tuntunin
 windows.store.purchase Bumili ng KR
 windows.store.voucher Kunin ang voucher
@@ -573,13 +573,13 @@ windows.mods.community.none Walang nahanap na Mod
 windows.publish.mod.header I-akda ang Mod
 windows.publish.mod.thumbnail No Thumbnail
 windows.publish.mod.name Pangalan ng Mod
-windows.publish.mod.paste Mod Url
+windows.publish.mod.paste URL ng Mod
 windows.publish.mod.update Publish/Update
 windows.publish.mod.login upang lumikha at mag-upload ng mga mod!
 windows.secondary.header Piliin ang Pandagdag Armas
 windows.secondary.unlocked na-unlock
-windows.secondary.customOnly Customs Only
-windows.secondary.premiumOnly Premium Only
+windows.secondary.customOnly Customs Lamang
+windows.secondary.premiumOnly Premium Lamang
 windows.secondary.req Antas dapat ay {0}
 windows.advertise.header I-advertise
 windows.support.header Suporta
@@ -612,9 +612,9 @@ matchmaker.full2 Puno na ang laro.
 matchmaker.updating NAG-UUPDATE ANG LARO
 matchmaker.invalid Hindi nahanap ang laro.
 matchmaker.none Ang mga server ay nasa Max Capacity
-adblocker Huwag paganahin ang iyong ad blocker upang makatanggap ng mga libreng Krunkies.
-ad-failed Nabigong Mag-load ang Ad. Subukang muli
-streamers.views {0} Mga Nanonood
+adblocker Huwag paganahin ang iyong ad-blocker upang makatanggap ng mga libreng KR.
+ad-failed Nabigong Mag-load ang Ad. Subukang muli.
+streamers.views {0} ang mga Nanonood
 streamers.none Walang mga aktibong stream!
 error.extentions Kung mayroon kang anumang mga extension, huwag paganahin ang mga ito
 error.seek Subukang maghanap ng bagong laro sa pamamagitan ng pag-click
@@ -746,8 +746,8 @@ purchase.kr.success Idinagdag ang {0} KR sa account mo
 limited.purchase.ask Sigurado ka bang bumili ng  [{0}] para sa{1} KR?
 limited.purchase.success Idinagdag ang sa inventory mo
 pretend.exit pindutin muli ang[{0}] again to exit
-settings.loaded Mga setting na Na-load
-settings.loaded.none Walang nahanap na mga setting
+settings.loaded Mga settings na-load
+settings.loaded.none Walang nahanap na mga settings
 account.login.required Dapat naka-log in
 account.banned.hack Ipinagbawal ang Account na ito dahil sa Pangdaraya o kayapag-hack
 account.banned.appeal Kung nais mong iapela ang iyong pagbabawal na maglaro, makipag-ugnay sa: appeals@yendis.ch
@@ -755,16 +755,16 @@ account.delete Maaari kang humiling na tanggalin ang iyong account, kung ang kah
 account.delete.request Sigurado ka bang nais mong humiling ng isang pagtanggal ng account?
 account.delete.cancel Sigurado ka bang nais mong kanselahin ang pagtanggal ng account?
 spin.free.available LIBRENG KR PAPREMYO!
-spin.free.claim Ang Prize Wheel na ito ay pwedeng gamiting kada isang oras pagkatapos ng isang match o laro.
+spin.free.claim Ang Prize Wheel o Papremyo na ito ay pwedeng gamiting kada isang oras pagkatapos ng isang match o laro.
 spin.free.disable Ang mga Popup na ito ay maaaring hindi paganahin sa Mga Pangkalahatang setting
-mod.reset.0 Lumabas ang Epekto pagkatapos mag-respawn
+mod.reset.0 Lumabas ang mga 'Effects' pagkatapos mag-respawn
 mod.reset.1 Mga Bagay sa Mapa hindi ma-reset
 windows.profile.picture Palitan ang Larawan
-stats.assists Mga pagtulong
+stats.assists Mga Pagtulong/Assist
 stats.nukes Mga Nuke
 stats.melee Melee Mga Sinaksak
 stats.fistkills Mga Binugbog
-stats.thrownkills Mga natamaan ng talim
+stats.thrownkills Mga Nabatuhan ng Patalim
 stats.headshots Mga Headshot
 stats.wallbangs Mga Wallbang
 stats.sprays Inilagay na spray
@@ -773,8 +773,8 @@ windows.host.default.commands * Ang Mga Command ng Host ay Hindi Pinapagana sa m
 windows.host.rewards Pinipilit ng pagpapagana ng KR Rewards ang Server na gumamit ng Default na Mga Setting
 windows.store.wheels.sub Subukan ang iyong kapalaran at paikutin ang Prize wheel para sa isang pagkakataon upang manalo ng ilang mga bagong disenyo!
 windows.store.currency * Ang mga presyo sa USD ay maaaring mai-convert sa iyong lokal na pera sa isang rate ng palitan na tinukoy ng provider ng pagbabayad o bangko
-windows.store.creator Isaalang-alang ang Suportahan ang iyong paboritong Tagalikha ng Nilalaman sa pamamagitan ng paggamit ng isang Creator Code
-windows.chall.customs Ang mga hamon ay hindi nakukumpleto sa mga kustom na laro
+windows.store.creator Tangkilikin ang inyong paboritong Content Creator o Streamer sa pamamagitan ng 'Creator Code'!
+windows.chall.customs Ang mga hamon o challenge ay hindi nakukumpleto sa mga kustom na laro
 twitch.link Sigurado ka bang nais mong i-link ang Twitch account?
 twitch.unlink Sigurado ka bang nais mong i-unlink ang iyong Twitch account?
 windows.clan.leave Sigurado ka bang nais mong umalis sa hukbo/samahan ninyo?
@@ -817,5 +817,5 @@ social.trades.message Payagan ang mga Trade Message at Pag-alok sa Settings
 social.trades.warning Wala kang makukuhang kagamitan sa Pag-alok na ito!
 social.trades.accept Nais mong tanggapin ang Pag-alok na ito?
 stats.airdrops KR-Packages
-settings.quality.flapAnim Sniper Flap Animation
+settings.quality.flapAnim Animasyon ng Sniperflap
 `;
