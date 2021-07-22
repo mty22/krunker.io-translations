@@ -177,7 +177,7 @@ settings.interface.oldBrowser 구 서버 탐색기 사용
 settings.interface.rarityanim 희귀도 애니메이션 끄기
 settings.interface.showPfp 프로필 사진 표시
 settings.interface.showTradeMsg 트레이드 메시지 표시
-settings.interface.hideNonTrade 거래 불가능 
+settings.interface.hideNonTrade 거래 불가 스킨 숨기기
 settings.interface.hp 동적 HP 막대
 settings.interface.dmgScale 피해량 숫자 크기
 settings.interface.killf 킬로그 표시
@@ -358,7 +358,7 @@ settings.editing.feedLimit 킬로그 제한
 settings.editing.depth 깊이 지도
 settings.editing.green 크로마 키
 settings.editing.trailcol 총알 흔적 색상
-settings.editing.ropecol 그래플 줄 색상
+settings.editing.ropecol 갈고리 줄 색상
 settings.editing.tracercol 예광탄 색상
 settings.editing.tracer 예광탄
 settings.editing.tracer.offset 예광탄 시작점 위치
@@ -467,13 +467,13 @@ windows.controls.interactSec 부 사용하기
 windows.controls.confirm 사용하기 확인
 windows.controls.drop 무기 떨어뜨리기
 windows.controls.wepVis 무기 보이기 전환
-windows.controls.kickVoteY 추방 투표 [네]
-windows.controls.kickVoteN 추방 투표 [아니요]
-windows.controls.kpdVoteY KPD 투표 [네]
-windows.controls.kpdVoteN KPD 투표 [아니요]
-windows.controls.specFree 자유 카메라 전환
-windows.controls.specObj 거점 카메라 전환
-windows.controls.specFirst 1인칭 전환
+windows.controls.kickVoteY 추방 투표 [찬성]
+windows.controls.kickVoteN 추방 투표 [반대]
+windows.controls.kpdVoteY KPD 투표 [찬성]
+windows.controls.kpdVoteN KPD 투표 [반대]
+windows.controls.specFree 자유 시점 전환
+windows.controls.specObj 거점 시점 전환
+windows.controls.specFirst 1인칭 시점 전환
 windows.controls.specNames 이름표 표시 전환
 windows.controls.streak0 연속 처치 1
 windows.controls.streak1 연속 처치 2
@@ -673,7 +673,7 @@ server.config.warmupTime 준비 시간
 server.config.gamRounds 라운드
 server.config.objtvTime 거점 변경 시간
 server.config.forceSpawn 강제 리스폰 시간
-server.config.intermTmr 중지 시간 (초)
+server.config.intermTmr 휴식 시간 (초)
 server.config.scoreLimit 점수 제한
 server.config.keepTScore 팀 점수 유지
 server.config.forceC 게임 모드 클래스 강제 적용
