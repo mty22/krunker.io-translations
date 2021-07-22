@@ -2,14 +2,14 @@
 
 Current statuses of languages in-game (these are prioritised):
 
-Spanish - Updates required (v3.8.6)
+Spanish - PR pending (v3.8.6)
 German - Updates required (v3.8.6)
-Korean - Updates required (v3.8.6)
+Korean - PR pending (v3.8.6)
 Portuguese - Updates required (v3.8.6)
-Japanese - Updates required (v3.8.6)
-Simplified Chinese - Updates required (v3.8.6)
-Traditional Chinese - Updates required (v3.8.2)
-French - Updates required (v3.8.6)
+Japanese - Up to date (v4.0.9)
+Simplified Chinese - PR pending (v3.8.6)
+Traditional Chinese - PR pending (v3.8.2)
+French - Up to date (v4.0.9)
 Finnish - Updates required (far behind, last update: pre-v3.8.0)
 Dutch - Updates required (last update: v3.8.2)
 Hindi - Updates required (v3.8.6)
