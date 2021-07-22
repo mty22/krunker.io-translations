@@ -467,10 +467,10 @@ windows.controls.interactSec 次要交互
 windows.controls.confirm 确认交互
 windows.controls.drop 放下（武器/物品）
 windows.controls.wepVis 切换武器可见度
-windows.controls.kickVoteY 投票踢出玩家 [是]
-windows.controls.kickVoteN 投票踢出玩家 [否]
-windows.controls.kpdVoteY KPD投票 [是]
-windows.controls.kpdVoteN KPD投票 [否]
+windows.controls.kickVoteY 投票踢出玩家［是］
+windows.controls.kickVoteN 投票踢出玩家［否］
+windows.controls.kpdVoteY KPD投票［是］
+windows.controls.kpdVoteN KPD投票［否］
 windows.controls.specFree 自由视角
 windows.controls.specObj 物件视角
 windows.controls.specFirst 第一人称视角
@@ -488,7 +488,7 @@ windows.controls.dev0 开发者专用键1
 windows.controls.dev1 开发者专用键2
 windows.controls.dev2 开发者专用键3
 windows.controls.dev3 开发者专用键4
-windows.controls.reset 重设进度并回到起点（仅限于跑酷/速度竞赛模式）
+windows.controls.reset 重设进度并回到起点（仅限于跑酷、速度竞赛模式）
 windows.controls.pretend 隐藏游戏
 windows.host.header 创建自定义游戏
 windows.host.maps 服务器设定
