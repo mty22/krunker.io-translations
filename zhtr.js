@@ -530,7 +530,7 @@ windows.clans.view 瀏覽公會
 windows.clans.join 加入公會
 windows.clans.login 創建並加入公會！
 windows.store.header 商店
-windows.store.spin {0} 旋轉盤
+windows.store.spin {0} 轉盤
 windows.store.agree 通過此次購買，表示您同意 {0} 條款。
 windows.store.purchase 購買 KR
 windows.store.voucher 兌換代金券
