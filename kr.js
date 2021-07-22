@@ -579,7 +579,7 @@ windows.publish.mod.login 해서 모드를 만들고 업로드하세요!
 windows.secondary.header 보조무기 선택
 windows.secondary.unlocked 잠금 해제됨
 windows.secondary.customOnly 커스텀 전용
-windows.secondary.premiumOnly Premium 전용
+windows.secondary.premiumOnly 프리미엄 전용
 windows.secondary.req {0}레벨 필요
 windows.advertise.header 광고하기
 windows.support.header 고객지원
@@ -781,7 +781,7 @@ windows.clan.leave 클랜을 탈퇴하시겠습니까?
 windows.clan.delete 클랜을 해체하시겠습니까?
 windows.clan.kick {0}님을 클랜에서 추방하시겠습니까?
 windows.store.premium.purchase {0}일 치의 프리미엄 서비스를 구매하시겠습니까?
-windows.store.premium.gift '{0}'에게 {1} 일의 Premium을 선물할까요?
+windows.store.premium.gift '{0}'에게 {1} 일의 프리미엄을 선물할까요?
 windows.playerlist.ban {0}님을 이 게임에서 밴하시겠습니까?
 windows.playerlist.flag {0}님에게 해커 태그를 지정하시겠습니까?
 windows.playerlist.unflag {0}님의 해커 태그를 제거하시겠습니까?
