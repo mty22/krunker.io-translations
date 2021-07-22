@@ -101,7 +101,7 @@ settings.experimental.shaderRendering 即時渲染
 settings.experimental.staticRendering 靜態渲染
 settings.client.header 客戶端
 settings.client.unlimitedFrames 幀數無限制
-settings.client.gameCap 遊戲擷取(OBS)
+settings.client.gameCap 遊戲擷取 (OBS)
 settings.client.experimental 實驗性功能
 settings.client.discordRPC 開啟Discord RPC
 settings.client.resourceSwapper 資源包
@@ -125,7 +125,7 @@ settings.chat.chatBGOp 聊天視窗背景透明度
 settings.chat.chatHeight 聊天視窗高度
 settings.chat.chatTimer 消息顯示時間
 settings.chat.chatTextOutline 消息文字輪廓
-settings.chat.chatFilter 不良語言過濾 (僅限英文)
+settings.chat.chatFilter 不良語言過濾（僅限英文）
 settings.quality.header 遊戲性能
 settings.quality.updRate 幀數限制
 settings.quality.rendDst 渲染距離
@@ -147,7 +147,7 @@ settings.quality.mflash 槍口火焰
 settings.quality.flap 狙擊槍瞄準鏡保護蓋
 settings.quality.lowSpec 低配置模式
 settings.quality.ambient 環境陰影
-settings.quality.ambientOld 舊版陰影畫風 (僅可用時)
+settings.quality.ambientOld 舊版陰影畫風（僅可用時）
 settings.quality.textureAnim 紋理動畫
 settings.quality.objectAnim 物體動畫
 settings.quality.screenShake 螢幕晃動
@@ -327,7 +327,7 @@ settings.viewmodel.adsFovMlt 瞄準視野範圍倍率
 settings.editing.header 編輯
 settings.editing.health.high 血條顏色（高）
 settings.editing.health.low 血條顏色（低）
-settings.editing.speedLines 速度線 (高速移動時顯示速度線)
+settings.editing.speedLines 速度線（高速移動時顯示速度線）
 settings.editing.spdLinesCol 速度線顏色
 settings.editing.score.color 彈出得分顏色
 settings.editing.score.show 顯示彈出得分
@@ -349,11 +349,11 @@ settings.editing.progm.shadow 蓄力條陰影
 settings.editing.progmOffX 蓄力條水準位置
 settings.editing.progmOffY 蓄力條垂直位置
 settings.editing.progmRot 蓄力條角度
-settings.editing.saturation 顏色飽和度 (遊戲中)
-settings.editing.menuSaturation 顏色飽和度 (用戶介面)
-settings.editing.hue 色調 (遊戲中)
-settings.editing.menuHue 色調 (用戶介面)
-settings.editing.vignette 暈影效果 (使螢幕邊緣顏色變暗)
+settings.editing.saturation 顏色飽和度（遊戲中）
+settings.editing.menuSaturation 顏色飽和度（用戶介面）
+settings.editing.hue 色調（遊戲中）
+settings.editing.menuHue 色調（用戶介面）
+settings.editing.vignette 暈影效果（使螢幕邊緣顏色變暗）
 settings.editing.feedLimit 擊殺列表長度限制
 settings.editing.depth 深度圖模式
 settings.editing.green 綠幕模式
@@ -465,12 +465,12 @@ windows.controls.board 排行榜
 windows.controls.interact 互動
 windows.controls.interactSec 次要互動
 windows.controls.confirm 確認互動
-windows.controls.drop 放下 (武器/物品)
+windows.controls.drop 放下（武器/物品）
 windows.controls.wepVis 切換武器可見度
-windows.controls.kickVoteY 投票踢出玩家 [是]
-windows.controls.kickVoteN 投票踢出玩家 [否]
-windows.controls.kpdVoteY KPD投票 [是]
-windows.controls.kpdVoteN KPD投票 [否]
+windows.controls.kickVoteY 投票踢出玩家［是］
+windows.controls.kickVoteN 投票踢出玩家［否］
+windows.controls.kpdVoteY KPD投票［是］
+windows.controls.kpdVoteN KPD投票［否］
 windows.controls.specFree 自由視角
 windows.controls.specObj 物件視角
 windows.controls.specFirst 第一人稱視角
@@ -488,7 +488,7 @@ windows.controls.dev0 開發者專用鍵1
 windows.controls.dev1 開發者專用鍵2
 windows.controls.dev2 開發者專用鍵3
 windows.controls.dev3 開發者專用鍵4
-windows.controls.reset 重置并返回到起點 (比賽&跑酷)
+windows.controls.reset 重置并返回到起點（僅限比賽和跑酷遊戲模式）
 windows.controls.pretend 隱藏遊戲
 windows.host.header 創建自定義遊戲
 windows.host.maps 伺服器設定
@@ -501,7 +501,7 @@ windows.host.preset 創建預設
 windows.host.preset.load 加載預設中...
 windows.host.preset.name 預設名稱
 windows.host.start 開始遊戲
-windows.host.rehost 開始遊戲 (邀請玩家)
+windows.host.rehost 開始遊戲（邀請玩家）
 windows.spray.header 選擇塗鴉
 windows.spray.default 默認塗鴉
 windows.spray.spin 塗鴉
@@ -599,8 +599,8 @@ windows.ranked.mode.r2v2 雙排
 windows.ranked.mode.r4v4 四排
 windows.chall.header 挑戰
 windows.chall.login 登入以完成挑戰！
-thumbnail.upload.limit 失敗，{0}KB 縮略圖大小限制
-image.upload.limit 失敗，{0}KB 圖片大小限制
+thumbnail.upload.limit 失敗，縮略圖大小上限為 {0}KB
+image.upload.limit 失敗，圖片大小上限為 {0}KB
 thumbnail.upload.error 縮略圖錯誤
 mod.extracting 提取中 {0}/{1}
 mod.disabled 插件已禁用
@@ -625,7 +625,7 @@ custom.class.missing 請選擇至少一種武器類別
 server.config.maxPlayers 最大玩家數
 server.config.minPlayers 最小玩家數
 server.config.lives 生命數
-server.config.gameTime 時間 (分鐘)
+server.config.gameTime 時間（分鐘）
 server.config.gravMlt 重力
 server.config.tickRI 高應答率
 server.config.maxPS 40名玩家伺服器
@@ -677,7 +677,7 @@ server.config.intermTmr 中場休息時間
 server.config.scoreLimit 得分限制
 server.config.keepTScore 保留隊伍分數
 server.config.forceC 強制武器類別
-server.config.logTim 遊玩時間 (競賽、跑酷)
+server.config.logTim 遊玩時間（競賽、跑酷）
 server.config.hitBoxPad 玩家實體模型倍率
 server.config.hpRegen 血量回復
 server.config.disableB 去除地圖邊界
@@ -696,7 +696,7 @@ social.login.buy 登入後購買
 social.login.sell 登入後出售
 social.login.gift 登入後贈送
 social.login.proccessing 登入中...
-social.since 自從
+social.since 始於
 social.user.maps 此用戶地圖
 social.user.mods 此用戶插件
 social.maps.none 未找到此地圖...
@@ -713,7 +713,7 @@ social.market.req 需要至少{0}等級
 social.market.cant KR 不足
 social.market.purchase 購買
 social.market.fee 無上架費用
-social.market.failed 失敗. 請稍後重試
+social.market.failed 失敗，請稍後重試
 social.market.head 頭部飾品
 social.market.back 背部飾品
 social.market.waist 腰部飾品
@@ -743,14 +743,14 @@ custom.passcode.long 密碼過長
 custom.passcode.input 請輸入此伺服器密碼以加入遊戲
 custom.tryagain 請重試
 purchase.kr.success 已添加 {0}KR 到您的帳戶
-limited.purchase.ask 您確定您想要以 {1} KR 購買 [{0}]嗎？
+limited.purchase.ask 您確定您想要以 {1}KR 購買 [{0}]嗎？
 limited.purchase.success 已添加 {0} 到您的存貨
 pretend.exit 再次點擊 [{0}] 以退出
 settings.loaded 設置已加載
 settings.loaded.none 無查找結果
 account.login.required 您必須先登錄
 account.banned.hack 此帳號因作弊已被禁用
-account.banned.appeal 如果您想申訴你的禁令，請聯繫:
+account.banned.appeal 如果您想申訴你的禁令，請聯繫：
 account.delete 在這裡您可以請求刪除您的帳戶，如果此請求沒有在14天內被撤消，您所有的帳戶數據將會被永久清除。
 account.delete.request 您確定希望請求刪除您的帳戶？
 account.delete.cancel 您確定希望取消刪除您的帳戶？
@@ -769,12 +769,12 @@ stats.headshots 爆頭次數
 stats.wallbangs 穿牆次數
 stats.sprays 塗鴉次數
 windows.host.default.settings 啟用默認設置允許玩家儲存他們的進度及高分
-windows.host.default.commands *房主指令（像: /noclip, /god, /smite, 等）在此模式中將會被禁用。
-windows.host.rewards 啟用 KR 獎勵將會強制此伺服器使用預設設定並允許玩家從此地圖贏得 KR:
+windows.host.default.commands *房主指令（像：/noclip, /god, /smite 等）在此模式中將會被禁用。
+windows.host.rewards 啟用 KR 獎勵將會強制此伺服器使用預設設定並允許玩家從此地圖贏得 KR：
 windows.store.wheels.sub 試試您的運氣，轉動獎輪來獲得贏取新皮膚的機會！
 windows.store.currency *這些價格可以由付款提供者或銀行以匯率計算從美元轉換到您的當地貨幣。
 windows.store.creator 當您在購買KR時，考慮通過使用您最喜歡的 Krunker 內容創作者的代碼來支持他們！
-windows.chall.customs 挑戰不能在自定義遊戲內進行.
+windows.chall.customs 挑戰不能在自定義遊戲內進行。
 twitch.link 您確定您想連接您的 Twitch 帳戶嗎？
 twitch.unlink 您確定您想取消連接您的 Twitch 帳戶嗎？
 windows.clan.leave 您確定您想離開您的公會嗎？
@@ -788,7 +788,7 @@ windows.playerlist.unflag 您確定您想要撤消標記 {0} 嗎？
 windows.playerlist.punish 您確定您想要對 {0} 採取行動嗎？
 item.view.open 打開模型查看器
 item.view.more 更多資訊
-item.sell.cant 此物品不能被出售.
+item.sell.cant 此物品不能被出售。
 item.sell.quick 您確定您想要快速出售 {0} 嗎？
 social.profile.stats 綜合統計
 social.profile.class 武器類別統計
