@@ -684,7 +684,7 @@ server.config.disableB 解除地图边界
 server.config.throwMel 投掷近战武器
 server.config.noCosm 禁用饰品
 server.config.tstCmp Faceit测试模式
-server.config.limitClasses 仅允许一人一武器类别
+server.config.limitClasses 仅限一人一武器类别
 server.config.tmSize 团队大小
 server.config.fallDmg 开启摔落伤害
 server.config.fallDmgThr 摔落伤害阈值
