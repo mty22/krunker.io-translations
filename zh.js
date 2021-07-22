@@ -532,13 +532,13 @@ windows.clans.login 创建并加入战队！
 windows.store.header 商城
 windows.store.spin {0} 转盘
 windows.store.agree 通过此次购买，您将同意 {0} 条款.
-windows.store.purchase 购买 KR
+windows.store.purchase 购买KR
 windows.store.voucher 兑换代金券
 windows.store.voucherinfo 从指定主播和活动获取代金券
 windows.store.market 市场
-windows.store.market2 Krunker 市场
+windows.store.market2 Krunker市场
 windows.store.premium 购买会员
-windows.store.premium2 Krunker 会员
+windows.store.premium2 Krunker会员
 windows.store.buyP 在购买会员后，您将可以自定义您的游戏用户名+体验更多专用功能！
 windows.store.buy 买卖物品
 windows.store.wheels 转盘
@@ -608,12 +608,12 @@ mod.error 模组错误！
 mod.loading 加载模组中...
 mod.invalid 模组文件不可用！
 matchmaker.full 已满
-matchmaker.full2 游戏已满
+matchmaker.full2 游戏已满。
 matchmaker.updating 游戏更新中
-matchmaker.invalid 没有找到游戏
+matchmaker.invalid 没有找到游戏。
 matchmaker.none 服务器已达上限
-adblocker 禁用广告拦截器以获得免费的KR
-ad-failed 广告加载失败，请稍后重试
+adblocker 禁用广告拦截器以获得免费的KR。
+ad-failed 广告加载失败，请稍后重试。
 streamers.views {0} 观看者
 streamers.none 当前没有Twitch直播！
 error.extentions 如果您有任何（浏览器）插件，请禁用它们
@@ -667,7 +667,7 @@ server.config.nameTags 隐藏名牌
 server.config.kCams 玩家死亡视角
 server.config.noReload 禁用重装弹药
 server.config.private 私人房间
-server.config.krRewards KR 奖励
+server.config.krRewards KR奖励
 server.config.forceDefault 必须使用默认设置
 server.config.warmupTime 热身时间
 server.config.gamRounds 游戏局数
