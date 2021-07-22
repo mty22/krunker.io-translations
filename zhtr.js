@@ -4,7 +4,7 @@ menu.btn.shop 商城
 menu.btn.social 社區
 menu.btn.maps 地圖
 menu.btn.mods 插件
-menu.btn.settings 設置
+menu.btn.settings 設定
 menu.btn.customize 自定義
 menu.btn.invite 邀請
 menu.btn.invite.clicked 已複製
@@ -746,8 +746,8 @@ purchase.kr.success 已添加 {0}KR 到您的帳戶
 limited.purchase.ask 您確定您想要以 {1}KR 購買 [{0}]嗎？
 limited.purchase.success 已添加 {0} 到您的存貨
 pretend.exit 再次點擊 [{0}] 以退出
-settings.loaded 設置已加載
-settings.loaded.none 無查找結果
+settings.loaded 設定已加載
+settings.loaded.none 該設定為空白
 account.login.required 您必須先登錄
 account.banned.hack 此帳號因作弊已被禁用
 account.banned.appeal 如果您想申訴你的禁令，請聯繫：
@@ -756,8 +756,8 @@ account.delete.request 您確定希望請求刪除您的帳戶？
 account.delete.cancel 您確定希望取消刪除您的帳戶？
 spin.free.available 免費 KR 可用！
 spin.free.claim 您必須在每小時內完成一場比賽以獲得您的免費 KR 轉盤。
-spin.free.disable 在通用設置里可以關閉此彈窗。
-mod.reset.0 當您復活後此設置將會生效。
+spin.free.disable 在通用設定里可以關閉此彈窗。
+mod.reset.0 當您復活後此設定將會生效。
 mod.reset.1 此插件物體將不會被重置。
 windows.profile.picture 更改頭像
 stats.assists 助攻次數
