@@ -684,7 +684,7 @@ server.config.disableB 去除地圖邊界
 server.config.throwMel 啟用投擲近戰武器
 server.config.noCosm 禁用飾品
 server.config.tstCmp Faceit測試模式
-server.config.limitClasses 僅允許一人一武器類別
+server.config.limitClasses 僅限一人一武器類別
 server.config.tmSize 團隊類別
 server.config.fallDmg 掉落傷害
 server.config.fallDmgThr 掉落傷害閾值
