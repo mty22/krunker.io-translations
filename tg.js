@@ -303,10 +303,10 @@ settings.audio.asset Bolyum ng Asset
 settings.audio.dialogue Bolyum ng dialogo
 settings.viewmodel.header Tingnan ang Modelo
 settings.viewmodel.vmSetts Settings ng View Model
-settings.viewmodel.fov Field of View (Larangan ng Pagtingin)
+settings.viewmodel.fov Field of View (Sakop ng nakikita)
 settings.viewmodel.fps FOV ng Armas
 settings.viewmodel.bobbing Pagtalbog ng Armas
-settings.viewmodel.leaning Pagkasandal ang Armas
+settings.viewmodel.leaning Pagsandal ang Armas
 settings.viewmodel.show.primary Ipakita ang Pangunahing Armas
 settings.viewmodel.show.secondary Ipakita ang Pandagdag Armas
 settings.viewmodel.roundArms Pa-bilog na braso
@@ -530,7 +530,7 @@ windows.clans.view Tignan ang mga Samahan
 windows.clans.join Sumali sa Samahan
 windows.clans.login Mag-login upang makagawa o makasali sa isang Samahan!
 windows.store.header Tindahan
-windows.store.spin {0} Papremyong Prize-wheel
+windows.store.spin {0} Premyo
 windows.store.agree Sa pamamagitan ng pagbili sumasang-ayon ka sa {0} Mga Tuntunin
 windows.store.purchase Bumili ng KR
 windows.store.voucher Kunin ang voucher
@@ -541,7 +541,7 @@ windows.store.premium Bumili ng Premium
 windows.store.premium2 Krunker Premium
 windows.store.buyP Pumili ng isang Display name
 windows.store.buy Bumili at Magbenta ng mga kagamitan
-windows.store.wheels Mga Gulong Gantimpala
+windows.store.wheels Mga Prize Wheels
 windows.store.unlock I-unlock ang mga bagong disenyo ng mga armas at kagamitan
 windows.store.amount {0} KR sa account
 windows.store.login upang bumili at mag-unlock ng mga item mula sa tindahan!
@@ -702,7 +702,7 @@ social.user.mods Kanyang Mods
 social.maps.none Walang Nakitang Laro ...
 social.mods.none Walang nahanap na Mod ...
 social.market.price.low Pinakamababang presyo
-social.market.price.list Listahan ng Presyo sa
+social.market.price.list Listahan ng Presyo sa...
 social.market.searching Naghahanap
 social.market.listed nakalista {0} nakaraan
 social.market.list Listahan ng Item
@@ -736,7 +736,7 @@ social.market.fee.gift Walang Bayad
 social.market.gift Magregalo ng KR
 social.market.gift.msg Mag-iwan ng mensahe
 respawn.auto Auto Respawning sa {0}
-custom.host.ranked Hindi ma-host habang nasa ranggo
+custom.host.ranked Hindi ma-host habang naglalaro sa 'Ranggo'
 funds.insufficient Hindi sapat na KR
 funds.out Ubos ang KR
 custom.passcode.long Masyadong mahaba ang password 
@@ -781,7 +781,7 @@ windows.clan.leave Sigurado ka bang nais mong umalis sa hukbo/samahan ninyo?
 windows.clan.delete Sigurado ka bang nais mong tanggalin ang hukbo/samahan?
 windows.clan.kick Sigurado ka bang nais mong i-kick si {0} at tanggalin sa samahan?
 windows.store.premium.purchase Sigurado ka bang nais mong bumili ng {0} araw ng Premium?
-windows.store.premium.gift Sigurado nais mo bang regaluhin si '{0}' ng {1} na araw ng Premium?
+windows.store.premium.gift Siguradong nais mo bang regaluhin si '{0}' ng {1} na araw ng Premium?
 windows.playerlist.ban Sigurado ka bang nais mong ipagbawal si {0} mula sa larong ito?
 windows.playerlist.flag Sigurado ka bang nais mong I-flag si {0}?
 windows.playerlist.unflag Sigurado ka bang nais mong mag-Unflag si {0}?
@@ -793,7 +793,7 @@ item.sell.quick Sigurado ka bang ibebenta mo ito agad {0}?
 social.profile.stats Kabuoang statistika
 social.profile.class Statistika ng mga Klase
 social.profile.sales Mga Binebenta
-social.profile.sales.market Mga Binebenta sa Market
+social.profile.sales.market Mga Binebenta sa Merkado
 social.profile.skins Mga Skins o Disenyo [{0}]
 social.profile.skins.none Walang inakdang mga Skins o Disenyo mula sa User
 social.profile.games Mga Laro [{0}]
