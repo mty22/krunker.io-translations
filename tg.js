@@ -1,7 +1,7 @@
 module.exports = `
-menu.btn.ranked rango
+menu.btn.ranked Rango
 menu.btn.shop Tindahan
-menu.btn.social sosyal medya 
+menu.btn.social Komunidad
 menu.btn.maps Laro at Maps
 menu.btn.mods Mods
 menu.btn.settings Settings
@@ -98,7 +98,7 @@ settings.experimental.header Experimental na Header
 settings.experimental.aimFreezeFix Ayusin ang Aim Freeze
 settings.experimental.mouseFlickFix Pag-ayos ng Mouse Flick
 settings.experimental.shaderRendering Pag-render
-settings.experimental.staticRendering Static na Pag-render
+settings.experimental.staticRendering Static na Rendering
 settings.client.header Kliyente
 settings.client.unlimitedFrames Unlimited na FPS
 settings.client.gameCap Record ng Laro
@@ -198,7 +198,7 @@ settings.interface.speedScale Scale ng Bilis
 settings.interface.speedColor Kulay ng Bilis (Kasalukuyan)
 settings.interface.speedColorMax Kulay ng Bilis (Max)
 settings.interface.medals Magpakita ng Medalya
-settings.interface.hideNames Pakita ng Pangalan
+settings.interface.hideNames ipakita ang Pangalan
 settings.interface.hideNames.team Kasamahan Lamang
 settings.interface.hideNames.enemy Kalaban Lamang
 settings.interface.hideNames.all Lahat ng Pangalan
@@ -279,7 +279,7 @@ settings.controller.aimsensX Aim X Sensitivity
 settings.controller.aimsensY Aim Y Sensitivity
 settings.controller.deadZoneL DeadZone (Kaliwa)
 settings.controller.deadZoneR DeadZone (Kanan)
-settings.controller.triggerThres trigger Threshold
+settings.controller.triggerThres Threshold ng Trigger
 settings.controller.vibration Vibrasyon o Pagyanig
 settings.controller.gradSpeed Unti-unting Bilis
 settings.controller.invert Baligtarin ang Y-Axis
@@ -355,8 +355,8 @@ settings.editing.hue Kulay sa loob ng laro
 settings.editing.menuHue Kulay ng Hue sa UI
 settings.editing.vignette Vignette
 settings.editing.feedLimit Limitasyon ng Killfeed
-settings.editing.depth Lalim ng Mapa
-settings.editing.green Berdeng I-skreen
+settings.editing.depth MapDepth
+settings.editing.green Naka Greenscreen
 settings.editing.trailcol Kulay ng Bullet Trail
 settings.editing.ropecol Kulay ng Grappler Rope
 settings.editing.tracercol Kulay ng Bullet Tracer
@@ -406,7 +406,7 @@ windows.servers.host Mag-host ng Laro
 windows.servers.hide Itago
 windows.servers.priority Prayoridad ng Rehiyon
 windows.servers.online {0} Sa laro
-windows.servers.social {0} online sa sosyal medya
+windows.servers.social {0} online sa Komunidad
 windows.loadout.header Baguhin ang Loadout
 windows.loadout.class Mga Klases
 windows.loadout.primary Pangunahing Armas
@@ -422,10 +422,10 @@ windows.loadout.waist Baywang
 windows.loadout.shoe Sapatos
 windows.loadout.face Mukha
 windows.loadout.spray i-spray
-windows.loadout.color.skin Kulay ng balat
+windows.loadout.color.skin Kulay ng Balat
 windows.loadout.color.chat Kulay ng Pangalan sa Chat
 windows.loadout.color.hair Kulay ng Buhok
-windows.loadout.dye Dye sa katawan
+windows.loadout.dye Kulay ng katawan
 windows.loadout.pet Alaga
 windows.loadout.stat Killcard Stat
 windows.loadout.flag Bandila ng Bansa
@@ -502,9 +502,9 @@ windows.host.preset.load Loading ang mga hinandang settings...
 windows.host.preset.name Preset Pangalan
 windows.host.start Magsimula
 windows.host.rehost Magsimula Muli ng Laro (Magdala ng mga Manlalaro)
-windows.spray.header Pillin ang ispray
+windows.spray.header Pillin ang Sspray
 windows.spray.default Pumili ng Karaniwang Spray
-windows.spray.spin Umikot para sa ispray
+windows.spray.spin Umikot para sa Spray
 windows.maps.header Mga Laro at Mapa
 windows.maps.none Walang nahanap na Laro!
 windows.maps.name Pangalan ng Laro
@@ -552,7 +552,7 @@ windows.scope.header Pumili ng scope
 windows.premium.header Premium
 windows.skin.header Piliin ang mga Disenyo
 windows.hat.header Piliin ang Sombrero
-windows.back.header Piliin ang Kagamitang Pangkatawan o Likod
+windows.back.header Piliin ang Katawan o Likod
 windows.waist.header Piliin ang Baywang
 windows.face.header Piliin ang Mukha
 windows.melee.header Piliin ang Patalim
@@ -562,7 +562,7 @@ windows.reticle.unlocked Makakamit sa Antas na {0}
 windows.reticle.req Nangangailangan ang Antas na {0} 
 windows.dye.header Piliin ang Dye
 windows.dye.default Karaniwang Kulay ng Katawan
-windows.dye.spin Papremyo
+windows.dye.spin Premyo
 windows.changelog.header Talaan - Updates
 windows.mods.community.header Komunidad ng mga Modders
 windows.mods.community.fav Paboritong Mods
@@ -722,7 +722,7 @@ social.market.shoe Mga Sapatos
 social.market.pet Mga Alaga
 social.market.melee Mga Patalim
 social.market.spray Mga Sprays
-social.market.dye Item na Dyes
+social.market.dye Kulay ng Katawan
 social.market.none Hindi matagpuan ang kagamitan
 social.market.login Maglogin ka muna.
 social.market.grace handa na sa {0}
