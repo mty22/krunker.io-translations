@@ -775,17 +775,17 @@ windows.store.wheels.sub Subukan ang iyong kapalaran at paikutin ang Prize wheel
 windows.store.currency * Ang mga presyo sa USD ay maaaring mai-convert sa iyong lokal na pera sa isang rate ng palitan na tinukoy ng provider ng pagbabayad o bangko
 windows.store.creator Tangkilikin ang inyong paboritong Content Creator o Streamer sa pamamagitan ng 'Creator Code'!
 windows.chall.customs Ang mga hamon o challenge ay hindi nakukumpleto sa mga kustom na laro
-twitch.link Sigurado ka bang nais mong i-link ang Twitch account?
-twitch.unlink Sigurado ka bang nais mong i-unlink ang iyong Twitch account?
-windows.clan.leave Sigurado ka bang nais mong umalis sa hukbo/samahan ninyo?
-windows.clan.delete Sigurado ka bang nais mong tanggalin ang hukbo/samahan?
+twitch.link Siguradong nais mo bang i-link ang Twitch account?
+twitch.unlink Siguradong nais mo bang i-unlink ang iyong Twitch account?
+windows.clan.leave Siguradong nais mo bang umalis sa hukbo/samahan ninyo?
+windows.clan.delete Siguradong nais mo bang tanggalin ang hukbo/samahan?
 windows.clan.kick Sigurado ka bang nais mong i-kick si {0} at tanggalin sa samahan?
-windows.store.premium.purchase Sigurado ka bang nais mong bumili ng {0} araw ng Premium?
-windows.store.premium.gift Siguradong nais mo bang regaluhin si '{0}' ng {1} na araw ng Premium?
+windows.store.premium.purchase Nais mong bumili ng {0} araw ng Premium?
+windows.store.premium.gift Nais mo bang regaluhin si '{0}' ng {1} na araw ng Premium?
 windows.playerlist.ban Sigurado ka bang nais mong ipagbawal si {0} mula sa larong ito?
 windows.playerlist.flag Sigurado ka bang nais mong I-flag si {0}?
-windows.playerlist.unflag Sigurado ka bang nais mong mag-Unflag si {0}?
-windows.playerlist.punish Sigurado ka bang nais mong parusahin ang manlalarong {0}?
+windows.playerlist.unflag Sigurado ka bang nais mong I-Unflag si {0}?
+windows.playerlist.punish Sigurado ka bang nais mong parusahin ang manlalarong si {0}?
 item.view.open Buksan ang Model Viewer
 item.view.more Iba pang Impormasyon
 item.sell.cant Hindi mabenta ang kagamitan.
