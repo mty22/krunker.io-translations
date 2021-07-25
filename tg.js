@@ -51,8 +51,8 @@ generic.kills Mga Pinatay
 generic.deaths Mga Pagkamatay
 generic.kdr KDR
 generic.time Oras
-generic.logout Pag-Logout
-generic.logout.sessions Pag-logout sa lahat ng sesyon
+generic.logout Mag-Logout
+generic.logout.sessions Mag-logout sa lahat ng sesyon
 generic.username Username
 generic.password  Illagay ang password
 generic.register Mag-parehistro
@@ -71,7 +71,7 @@ app.play Pindutin upang maglaro
 app.spectate Pindutin upang manood
 app.play.mobile PINDUTIN UPANG MAKAPAGLARO
 app.spectate.mobile TAP UPANG MAPANOOD
-app.play.controller PINDUTIN ang SIMULA
+app.play.controller PINDUTIN ang START sa CONTROLLER
 app.spectate.controller MAGSIMULANG MANOOD
 purchase.error May naganap na error
 purchase.error.click dito</a> subukan multi!
@@ -399,21 +399,21 @@ settings.mods.overlay Larawan ng Overlay sa Laro
 settings.mods.overlay.paste URL ng Overlay sa Laro
 settings.social.region Mga Stats sa Rehiyon
 windows.settings.header Mga Setting ng Laro
-windows.mail.header Mga Mail at Liham
+windows.mail.header Inbox
 windows.servers.header Mga Server
 windows.servers.none Walang nahanap na larong sasalihan....
 windows.servers.host Mag-host ng Laro
 windows.servers.hide Itago
 windows.servers.priority Prayoridad ng Rehiyon
 windows.servers.online {0} Sa laro
-windows.servers.social {0} sa sosyal medya
+windows.servers.social {0} online sa sosyal medya
 windows.loadout.header Baguhin ang Loadout
-windows.loadout.class Mga Uri ng Armas
+windows.loadout.class Mga Klases
 windows.loadout.primary Pangunahing Armas
-windows.loadout.primary.attach Kalakip
+windows.loadout.primary.attach Mga Attachment
 windows.loadout.primary.reticle Reticle o Retikulo
 windows.loadout.primary.scope Scope
-windows.loadout.secondary Pandagdag na Armas
+windows.loadout.secondary Sekundarya
 windows.loadout.secondary.skin Disenyo/Skin ng Pandagdag na Armas
 windows.loadout.melee Patalim
 windows.loadout.hat Sombrero
@@ -448,14 +448,14 @@ windows.controls.backward Paatras
 windows.controls.left Kaliwa
 windows.controls.right Kanan
 windows.controls.reload I-reload
-windows.controls.aim Magpuntirya
+windows.controls.aim Mag-aim (puntirya)
 windows.controls.shoot Bumaril
 windows.controls.inspect Suriin
 windows.controls.spray Mag-spray
 windows.controls.jump Tumalon
 windows.controls.crouch Yumuko
 windows.controls.prim Pangunahing Armas
-windows.controls.swap Pandagdag Armas
+windows.controls.swap Sekundarya
 windows.controls.melee Patalim
 windows.controls.equip Gamitin
 windows.controls.chat Pag-Uusap
@@ -559,7 +559,7 @@ windows.melee.header Piliin ang Patalim
 windows.attach.header Piliin ang Attachment
 windows.reticle.header Piliin ang Retikulo
 windows.reticle.unlocked Makakamit sa Antas na {0}
-windows.reticle.req Nangangailangan ng Antas na {0}
+windows.reticle.req Nangangailangan ang Antas na {0} 
 windows.dye.header Piliin ang Dye
 windows.dye.default Karaniwang Kulay ng Katawan
 windows.dye.spin Papremyo
@@ -576,7 +576,7 @@ windows.publish.mod.name Pangalan ng Mod
 windows.publish.mod.paste URL ng Mod
 windows.publish.mod.update Publish/Update
 windows.publish.mod.login upang lumikha at mag-upload ng mga mod!
-windows.secondary.header Piliin ang Pandagdag Armas
+windows.secondary.header Piliin ang Sekundarya
 windows.secondary.unlocked na-unlock
 windows.secondary.customOnly Customs Lamang
 windows.secondary.premiumOnly Premium Lamang
@@ -640,7 +640,7 @@ server.config.slidTime Oras ng Slide
 server.config.fixMov Pagkilos
 server.config.slidSpd Bilis ng Slide
 server.config.healthMlt Pag-multiply ng Health
-server.config.impulseMlt salpok ng sandata
+server.config.impulseMlt Pwersa ng Armas
 server.config.nameTeam1 Pangalan ng Pangkat 1
 server.config.nameTeam2 Pangalan ng Pangkat 2
 server.config.nameTeam3 Pangalan ng Pangkat 3
@@ -658,10 +658,10 @@ server.config.headshotOnly Mga headshot Lamang
 server.config.noSecondary Huwag paganahin ang Secondaries
 server.config.noStreaks Huwag paganahin ang mga Streaks
 server.config.canSlide Pagdududulas
-server.config.wallJP Lakas ng Paglukso sa Wall
+server.config.wallJP Lakas ng paglukso sa mga pader
 server.config.autoJump Tumalon nang Awtomatiko
 server.config.bDrop Hulog ng Bala
-server.config.thirdPerson Tingin na pang ika-3 na tao
+server.config.thirdPerson Tingin ng 3rd Person View
 server.config.requireCaptcha Kailangan ng CAPTCHA
 server.config.nameTags Itago ang mga Nametag
 server.config.kCams Mga kill Cams
@@ -671,7 +671,7 @@ server.config.krRewards Mga Gantimpala ng KR
 server.config.forceDefault Pilitin ang Default na Mga Setting
 server.config.warmupTime Oras para maghanda
 server.config.gamRounds Rounds
-server.config.objtvTime Oras sa Layunin
+server.config.objtvTime Oras ng Layunin
 server.config.forceSpawn Limitasyon ng Iskor
 server.config.intermTmr Intermisyons {0}
 server.config.scoreLimit Limitasyon ng Kalidad
@@ -767,7 +767,7 @@ stats.fistkills Mga Binugbog
 stats.thrownkills Mga Nabatuhan ng Patalim
 stats.headshots Mga Headshot
 stats.wallbangs Mga Wallbang
-stats.sprays Inilagay na spray
+stats.sprays Nilagay na spray
 windows.host.default.settings Ang pagpapagana ng Default na Mga Setting ay nagbibigay-daan para sa pagtatago ng Player Progress at Highscores
 windows.host.default.commands * Ang Mga Command ng Host ay Hindi Pinapagana sa mode na ito: / noclip / god / smite atbp
 windows.host.rewards Pinipilit ng pagpapagana ng KR Rewards ang Server na gumamit ng Default na Mga Setting
@@ -795,13 +795,13 @@ social.profile.class Statistika ng mga Klase
 social.profile.sales Mga Binebenta
 social.profile.sales.market Mga Binebenta sa Merkado
 social.profile.skins Mga Skins o Disenyo [{0}]
-social.profile.skins.none Walang inakdang mga Skins o Disenyo mula sa User
+social.profile.skins.none Walang akdang mga Skins o Disenyo mula sa User
 social.profile.games Mga Laro [{0}]
-social.profile.games.none Walang inakdang Laro o Mapa mula sa User
+social.profile.games.none Walang akdang Laro o Mapa mula sa User
 social.profile.assets Mga Assets [{0}]
 social.profile.assets.none Walang inakdang Assets mula sa User
 social.profile.mods Mga Mods [{0}]
-social.profile.mods.none Walang inakdang Mods mula sa User
+social.profile.mods.none Walang akdang Mods mula sa User
 social.search Resulta ng Paghahanap
 social.market.stats.rare Bihirang Mahanap na Items
 social.market.stats.circulation Nasa Sirkulasyon
