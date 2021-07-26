@@ -484,10 +484,10 @@ windows.controls.premium0 Noclip
 windows.controls.premium1 Tryb boga
 windows.controls.premium2 Zabij
 windows.controls.premium3 Poraź
-windows.controls.dev0 Bind/Klawisz/Komenda dewelopera 1
-windows.controls.dev1 Bind/Klawisz/Komenda dewelopera 2
-windows.controls.dev2 Bind/Klawisz/Komenda dewelopera 3
-windows.controls.dev3 Bind/Klawisz/Komenda dewelopera 4
+windows.controls.dev0 Bind/Klawisz/Komenda deweloperska 1
+windows.controls.dev1 Bind/Klawisz/Komenda deweloperska 2
+windows.controls.dev2 Bind/Klawisz/Komenda deweloperska 3
+windows.controls.dev3 Bind/Klawisz/Komenda deweloperska 4
 windows.controls.reset Resetuj pozycję (Parkour i wyścigi)
 windows.controls.pretend Ukryj grę
 windows.host.header Hostuj niestandardową grę
