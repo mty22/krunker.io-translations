@@ -91,14 +91,14 @@ settings.network.header Sieć
 settings.network.sendRate Wysoki Tickrate
 settings.network.netRerouting Auto Routowanie (Wpływa na ping)
 settings.network.lagComp Kompensacja lagów
-settings.network.hitReg Hitreg Test
+settings.network.hitReg Test Hitregu
 settings.popup.header Wyskakujące okienka
 settings.popup.freeKRPop Wyświetl okienka o darmowym KR
 settings.experimental.header Eksperymentalne
 settings.experimental.aimFreezeFix Napraw zamrożenie przy celowaniu
 settings.experimental.mouseFlickFix Napraw mouse-flicki
 settings.experimental.shaderRendering Renderowanie przez instancje
-settings.experimental.staticRendering Static Rendering
+settings.experimental.staticRendering Renderowanie statyczne
 settings.client.header Klient
 settings.client.unlimitedFrames Nielimitowane FPS
 settings.client.gameCap Game Capture
@@ -177,7 +177,7 @@ settings.interface.oldBrowser Użyj starej przeglądarki
 settings.interface.rarityanim Wyłącz animacje rzadkości
 settings.interface.showPfp Wyświetlaj zdjęcia profilowe
 settings.interface.showTradeMsg Wyświetlaj wiadomości o handlu
-settings.interface.hideNonTrade Hide Non-Tradable Skins
+settings.interface.hideNonTrade Ukryj skórki, którymi nie można handlować
 settings.interface.hp Dynamiczne paski HP
 settings.interface.dmgScale Skalowanie obrażeń
 settings.interface.killf Pokaż śmierci
@@ -262,7 +262,7 @@ settings.gameprivacy.streamer Tryb streamera
 settings.gameprivacy.anon Tryb anonimowy
 settings.gameprivacy.hideGameTitle Ukryj tytuł gry
 settings.gameplay.header Gra
-settings.gameplay.gpSetts Gameplay Settings
+settings.gameplay.gpSetts Ustawienia rozgrywki
 settings.gameplay.sensitivityX Czułość X
 settings.gameplay.sensitivityY Czułość Y
 settings.gameplay.aimsensX Czułość celowania X
@@ -302,7 +302,7 @@ settings.audio.ui Głośność interfejsu
 settings.audio.asset Głośność zasobów
 settings.audio.dialogue Głośność akcji
 settings.viewmodel.header Wyświetl model
-settings.viewmodel.vmSetts View Model Settings
+settings.viewmodel.vmSetts Ustawienia wyświetlania modelu
 settings.viewmodel.fov Pole widzenia
 settings.viewmodel.fps Pole widzenia broni
 settings.viewmodel.bobbing Ruchliwość broni
@@ -357,8 +357,8 @@ settings.editing.vignette Winieta
 settings.editing.feedLimit Limit wyświelanych zabójstw
 settings.editing.depth Mapa głębokości
 settings.editing.green Green Screen
-settings.editing.trailcol Bullet Trail Color
-settings.editing.ropecol Grapple Rope Color
+settings.editing.trailcol Kolor śladów pocisków
+settings.editing.ropecol Kolor liny chwytaka
 settings.editing.tracercol Kolor śladów pocisków
 settings.editing.tracer Ślady pocisków
 settings.editing.tracer.offset Przesunięcie śladów
@@ -467,14 +467,14 @@ windows.controls.interactSec Drugie działanie
 windows.controls.confirm Potwierdź działanie
 windows.controls.drop Upuść
 windows.controls.wepVis Przełącz widoczność broni
-windows.controls.kickVoteY Vote Kick [Yes]
-windows.controls.kickVoteN Vote Kick [No]
-windows.controls.kpdVoteY KPD Vote [Yes]
-windows.controls.kpdVoteN KPD Vote [No]
-windows.controls.specFree Toggle Free Cam
-windows.controls.specObj Toggle Objective Cam
-windows.controls.specFirst Toggle First Person
-windows.controls.specNames Toggle Forced Names
+windows.controls.kickVoteY Zagłosuj nad wyrzuceniem gracza z rozgrywki [Tak]
+windows.controls.kickVoteN Zagłosuj nad wyrzuceniem gracza z rozgrywki [Nie]
+windows.controls.kpdVoteY Głosowanie KPD [Tak]
+windows.controls.kpdVoteN Głosowanie KPD [Nie]
+windows.controls.specFree Przełącz tryb wolnej kamery
+windows.controls.specObj Przełącz tryb kamery celu
+windows.controls.specFirst Przełącz tryb kamery pierwszoosobowej
+windows.controls.specNames Przełącz wymuszone wyświetlanie nicków
 windows.controls.streak0 Seria 1
 windows.controls.streak1 Seria 2
 windows.controls.streak2 Seria 3
@@ -484,10 +484,10 @@ windows.controls.premium0 Noclip
 windows.controls.premium1 Tryb boga
 windows.controls.premium2 Zabij
 windows.controls.premium3 Poraź
-windows.controls.dev0 Developer Bind 1
-windows.controls.dev1 Developer Bind 2
-windows.controls.dev2 Developer Bind 3
-windows.controls.dev3 Developer Bind 4
+windows.controls.dev0 Bind/Klawisz/Komenda dewelopera 1
+windows.controls.dev1 Bind/Klawisz/Komenda dewelopera 2
+windows.controls.dev2 Bind/Klawisz/Komenda dewelopera 3
+windows.controls.dev3 Bind/Klawisz/Komenda dewelopera 4
 windows.controls.reset Resetuj pozycję (Parkour i wyścigi)
 windows.controls.pretend Ukryj grę
 windows.host.header Hostuj niestandardową grę
@@ -578,8 +578,8 @@ windows.publish.mod.update Opublikuj/Zaktualizuj
 windows.publish.mod.login aby tworzyć i udostępniać modyfikacje!
 windows.secondary.header Wybierz drugą broń
 windows.secondary.unlocked Odblokowane
-windows.secondary.customOnly Customs Only
-windows.secondary.premiumOnly Premium Only
+windows.secondary.customOnly Dostępne tylko w rozgrywkach niestandardowych
+windows.secondary.premiumOnly Dostępne tylko dla użytkowników Premium
 windows.secondary.req Wymaga poziomu {0}
 windows.advertise.header Reklamuj
 windows.support.header Wsparcie
@@ -673,7 +673,7 @@ server.config.warmupTime Czas rozgrzewki
 server.config.gamRounds Rundy
 server.config.objtvTime Czas miejsca celu
 server.config.forceSpawn Czas automatycznego odrodzenia
-server.config.intermTmr Intermission (s)
+server.config.intermTmr Przerwa (s)
 server.config.scoreLimit Limit wyniku
 server.config.keepTScore Zatrzymaj wynik zespołu
 server.config.forceC Wymuś klasy trybu
@@ -686,10 +686,10 @@ server.config.noCosm Wyłącz elementy kosmetyczne
 server.config.tstCmp Tryb testowy
 server.config.limitClasses Limit klas
 server.config.tmSize Rozmiar drużyny
-server.config.fallDmg Fall Damage
-server.config.fallDmgThr Fall Damage Thresh
-server.config.noDraws No Draws
-server.config.bstOfR Best of
+server.config.fallDmg Obrażenia od updaku
+server.config.fallDmgThr Próg obrażeń od updaku
+server.config.noDraws Bez remisów
+server.config.bstOfR Najlepszy z
 social.login Zaloguj/Zarejestruj
 social.login.failed Logowanie nie powiodło się
 social.login.buy Zaloguj się by kupować
@@ -781,7 +781,7 @@ windows.clan.leave Czy jesteś pewien, że chcesz opuścić ten klan?
 windows.clan.delete Czy jesteś pewien, że chcesz usunąć ten klan?
 windows.clan.kick Czy jesteś pewien, że chcesz wyrzucić {0} z klanu?
 windows.store.premium.purchase Czy jesteś pewien, że chcesz kupić {0} dni Premium?
-windows.store.premium.gift Are you sure you want to Gift '{0}' {1} days of Premium?
+windows.store.premium.gift Czy jesteś pewien, że chcesz podarować '{0}' {1} dni konta Premium?
 windows.playerlist.ban Czy jesteś pewien, że chcesz wyrzucić {0} z tej gry?
 windows.playerlist.flag Czy jesteś pewien, że chcesz oflagować {0}?
 windows.playerlist.unflag Czy jesteś pewien, że chcesz odflagować {0}?
