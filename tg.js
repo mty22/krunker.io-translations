@@ -43,10 +43,10 @@ generic.games Mga Laro
 generic.wins Panalo
 generic.lose Pagkatalo 
 generic.clan Samahan
-generic.games.played Bilang ng nalaro
+generic.games.played Blg. ng mga nilaro
 generic.games.won Mga Panalo
-generic.games.lost  Mga Pagtalo
-generic.timep Oras na Naglaro
+generic.games.lost  Mga Pagkatalo
+generic.timep Oras sa paglalaro
 generic.kills Mga Pinatay
 generic.deaths Mga Pagkamatay
 generic.kdr KDR
@@ -57,12 +57,12 @@ generic.username Username
 generic.password  Illagay ang password
 generic.register Mag-parehistro
 generic.login Mag log-in
-generic.accuracy Kawastuhan ng pagbaril
+generic.accuracy Accuracy sa paglalaro
 player.waiting Naghihintay ng mga manlalaro
 player.died Ikaw ay namatay
-player.killed {0} Pumatay kay {1}
-player.killstreak {0} nasa {1} Kill Streak
-player.inactive Pina-alis dahil sa walang aktibidad
+player.killed si {0} ay pumatay kay {1}
+player.killstreak si {0} nasa {1} Kill Streak
+player.inactive Tinanggal sa laro dahil sa walang aktibidad
 player.disconnect HINDI MAKAKONEKTA
 timer.end Susunod na laro sa {0}
 leaderboard.empty Walang tao sa lobby
@@ -72,19 +72,19 @@ app.spectate Pindutin upang manood
 app.play.mobile PINDUTIN UPANG MAKAPAGLARO
 app.spectate.mobile TAP UPANG MAPANOOD
 app.play.controller PINDUTIN ang START sa CONTROLLER
-app.spectate.controller MAGSIMULANG MANOOD
-purchase.error May naganap na error
-purchase.error.click dito</a> subukan multi!
+app.spectate.controller SAKSIHAN ANG LARO 
+purchase.error May naganap na error.
+purchase.error.click dito</a> Subukan muli!
 purchase.error.limit Maaaring lumagpas ka sa iyong pang-araw-araw na limitasyon sa transaksyon. 
-settings.reset Mag-reset
-settings.reset.confirm Sigurado ka bang mag-reset ng inyong settings?
+settings.reset I-reset
+settings.reset.confirm Sigurado ka bang nais mong I-reset ang inyong setitngs?
 settings.import angkat
 settings.export iluwas
-settings.none Walang nahanap na mga settings
+settings.none Walang nahanap na mga settings.
 settings.backup Mga back-up settings
 settings.controls.change Lokal na Rehiyon 
 settings.controls.press Pindutin ang anumang key
-settings.local.header Localization <span id="requiresRestart"><span style="color: #eb5656">*</span> nangangailangan ng restart</span>
+settings.local.header LoKalisasyon <span id="requiresRestart"><span style="color: #eb5656">*</span> nangangailangan ng restart</span>
 settings.local.region Default na Rehiyon
 settings.local.lang Wika
 settings.network.header Network
@@ -321,7 +321,7 @@ settings.viewmodel.xOff Puwesto ng Armas sa X axis
 settings.viewmodel.yOff Puwesto ng Armas sa Y axis
 settings.viewmodel.zOff Puwesto ng Armas sa Z axis
 settings.viewmodel.weapSwapY Pagpalit ng Armas sa Y Axis
-settings.viewmodel.weapReloadY Y Axis Paglagay ng bala sa Armas
+settings.viewmodel.weapReloadY Pag-reload sa Y axis
 settings.viewmodel.yOffADS Y Offset ng Armas
 settings.viewmodel.adsFovMlt Lakas ng ADS FOV
 settings.editing.header Pag-edit
@@ -386,7 +386,7 @@ settings.mods.ammo Larawan ng Bala
 settings.mods.ammo.paste URL ng Larawan ng Bala
 settings.mods.kills Larawan ng Kill Icon
 settings.mods.kills.paste URL ng Larawan ng Kill Icon
-settings.mods.deaths Imahe ng Larawan Icon 
+settings.mods.deaths Imahe ng Death Icon 
 settings.mods.deaths.paste URL ng Larawan ng Death Icon
 settings.mods.streak Larawan ng Killstreak 
 settings.mods.streak.paste URL ng Larawan ng Killstreak
@@ -408,7 +408,7 @@ windows.servers.priority Prayoridad ng Rehiyon
 windows.servers.online {0} Sa laro
 windows.servers.social {0} online sa Komunidad
 windows.loadout.header Baguhin ang Loadout
-windows.loadout.class Mga Klases
+windows.loadout.class Mga Klase
 windows.loadout.primary Pangunahing Armas
 windows.loadout.primary.attach Mga Attachment
 windows.loadout.primary.reticle Reticle o Retikulo
@@ -421,7 +421,7 @@ windows.loadout.back Katawan at Likod
 windows.loadout.waist Baywang
 windows.loadout.shoe Sapatos
 windows.loadout.face Mukha
-windows.loadout.spray i-spray
+windows.loadout.spray I-spray
 windows.loadout.color.skin Kulay ng Balat
 windows.loadout.color.chat Kulay ng Pangalan sa Chat
 windows.loadout.color.hair Kulay ng Buhok
