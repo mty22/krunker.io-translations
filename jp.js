@@ -169,7 +169,7 @@ settings.interface.hitColor ヒットマーカーの色
 settings.interface.dmg ダメージを表示
 settings.interface.dmgCol ダメージの色
 settings.interface.critCol クリティカルヒットの色
-settings.interface.header インターフェース
+settings.interface.header インターフェイス
 settings.interface.scale UIスケール
 settings.interface.ui UIを表示
 settings.interface.scoreboard 古いスコアボードを使用
