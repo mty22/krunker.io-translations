@@ -91,7 +91,7 @@ settings.network.header Sieć
 settings.network.sendRate Wysoki Tickrate
 settings.network.netRerouting Auto Routowanie (Wpływa na ping)
 settings.network.lagComp Kompensacja lagów
-settings.network.hitReg Test Hitregu
+settings.network.hitReg Test hitregu
 settings.popup.header Wyskakujące okienka
 settings.popup.freeKRPop Wyświetl okienka o darmowym KR
 settings.experimental.header Eksperymentalne
