@@ -112,13 +112,13 @@ settings.client.angleBackend ANGLEグラフィックスバックエンド
 settings.client.colorProfile カラープロファイル
 settings.dev.header 開発者
 settings.dev.forceUpdate 強制的にスキンをアップデート
-settings.dev.forceRegen 常にプレーヤーを再生成
+settings.dev.forceRegen 常にプレイヤーを再生成
 settings.dev.extraBan 詳細なBAN情報
 settings.chat.header チャット
 settings.chat.chat チャットボックスを表示
 settings.chat.chat.all 常時
 settings.chat.chat.focus フォーカス時
-settings.chat.messages プレーヤーメッセージを表示
+settings.chat.messages プレイヤーメッセージを表示
 settings.chat.unboxings 獲得アイテムを表示
 settings.chat.chatOp チャット不透明度
 settings.chat.chatBGOp チャット背景不透明度
@@ -141,7 +141,7 @@ settings.quality.shadows シャドウ
 settings.quality.softShad ソフトシャドウ
 settings.quality.highResShad 高解像度シャドウ
 settings.quality.shadowsDynamic ダイナミックシャドウ
-settings.quality.trails 他プレーヤーの弾道
+settings.quality.trails 他プレイヤーの弾道
 settings.quality.yourTrails 自分の弾道
 settings.quality.mflash マズルフラッシュ
 settings.quality.flap スナイパーフラップ
@@ -169,7 +169,7 @@ settings.interface.hitColor ヒットマーカーの色
 settings.interface.dmg ダメージを表示
 settings.interface.dmgCol ダメージの色
 settings.interface.critCol クリティカルヒットの色
-settings.interface.header インターフェイス
+settings.interface.header インターフェース
 settings.interface.scale UIスケール
 settings.interface.ui UIを表示
 settings.interface.scoreboard 古いスコアボードを使用
@@ -296,7 +296,7 @@ settings.audio.sound マスターボリューム
 settings.audio.ambient 環境音ボリューム
 settings.audio.voice ボイスチャットボリューム
 settings.audio.weps 銃声ボリューム
-settings.audio.player プレーヤーボリューム
+settings.audio.player プレイヤーボリューム
 settings.audio.skin 装飾品ボリューム
 settings.audio.ui UIボリューム
 settings.audio.asset アセットボリューム
@@ -405,7 +405,7 @@ windows.servers.none 参加可能なゲームが見つかりません...
 windows.servers.host + ゲームをホストする
 windows.servers.hide 満員のゲームを隠す
 windows.servers.priority 地域優先順位
-windows.servers.online ゲーム内に{0}人のプレーヤー
+windows.servers.online ゲーム内に{0}人のプレイヤー
 windows.servers.social ソーシャルに{0}人
 windows.loadout.header ロードアウトを変更
 windows.loadout.class クラス
@@ -460,7 +460,7 @@ windows.controls.melee 近接武器
 windows.controls.equip 装備
 windows.controls.chat チャット
 windows.controls.voice 声
-windows.controls.list プレーヤーリスト
+windows.controls.list プレイヤーリスト
 windows.controls.board リーダーボード
 windows.controls.interact アクションボタン
 windows.controls.interactSec サブアクションボタン
@@ -583,8 +583,8 @@ windows.secondary.premiumOnly プレミアム専用
 windows.secondary.req レベル{0}が必要
 windows.advertise.header 広告
 windows.support.header サポート
-windows.players.header プレーヤーリスト
-windows.players.none 現在、プレーヤーはいません...
+windows.players.header プレイヤーリスト
+windows.players.none 現在、プレイヤーはいません...
 windows.join.header 参加する
 windows.join.code ゲームURL/コードを入力
 windows.client.header クライアント
@@ -768,9 +768,9 @@ stats.thrownkills 投げナイフキル
 stats.headshots ヘッドショット
 stats.wallbangs 壁抜きキル
 stats.sprays スプレー回数
-windows.host.default.settings デフォルト設定を有効にすることでプレーヤーの進捗とハイスコアを保存することが出来ます
+windows.host.default.settings デフォルト設定を有効にすることでプレイヤーの進捗とハイスコアを保存することが出来ます
 windows.host.default.commands *ホストコマンド(/noclip /god /smite 等)はこのモードでは無効化されています
-windows.host.rewards KR報酬を有効にした場合デフォルト設定の使用が強制され、プレーヤーがこのマップの資産からKR報酬を入手することが出来るようになります:
+windows.host.rewards KR報酬を有効にした場合デフォルト設定の使用が強制され、プレイヤーがこのマップの資産からKR報酬を入手することが出来るようになります:
 windows.store.wheels.sub 新しいスキンを手に入れるためにスピンで運試しをしましょう!
 windows.store.currency * 米ドルでの金額表記はあなたの国の通貨に変換され、その際の両替レートは支払いサービスや銀行が定めたものによります
 windows.store.creator クリエイターコードを使ってあなたのお気に入りのクリエイターを支援しましょう
