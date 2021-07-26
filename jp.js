@@ -125,7 +125,7 @@ settings.chat.chatBGOp チャット背景不透明度
 settings.chat.chatHeight チャットの高さ
 settings.chat.chatTimer チャットタイマー
 settings.chat.chatTextOutline チャット文字輪郭線表示
-settings.chat.chatFilter 英語NGワードフィルタ
+settings.chat.chatFilter 英語NGワードフィルター
 settings.quality.header パフォーマンス
 settings.quality.updRate フレームレート制限
 settings.quality.rendDst レンダリング距離
@@ -173,7 +173,7 @@ settings.interface.header インターフェース
 settings.interface.scale UIスケール
 settings.interface.ui UIを表示
 settings.interface.scoreboard 古いスコアボードを使用
-settings.interface.oldBrowser 古いブラウザを使用
+settings.interface.oldBrowser 古いブラウザーを使用
 settings.interface.rarityanim レアアイテムアニメーション
 settings.interface.showPfp プロフィール画像を表示
 settings.interface.showTradeMsg トレードメッセージを表示
@@ -254,8 +254,8 @@ settings.onKillS.style.0 デフォルト
 settings.onKillS.style.1 解像度を下げる
 settings.onKillS.style.2 FOVを下げる
 settings.onKillS.style.3 FOVを上げる
-settings.serverb.header サーバーブラウザ
-settings.serverb.oldBrowser 古いサーバーブラウザ
+settings.serverb.header サーバーブラウザー
+settings.serverb.oldBrowser 古いサーバーブラウザー
 settings.serverb.defaultRegionOnly デフォルトの地域のみ
 settings.gameprivacy.header ゲームプレイプライバシー
 settings.gameprivacy.streamer 配信モード
@@ -492,7 +492,7 @@ windows.controls.reset 位置をリセットする (Race & Parkour)
 windows.controls.pretend ゲームを非表示にする
 windows.host.header カスタムゲームを作る
 windows.host.maps サーバー設定
-windows.host.cmaps コミュニティゲーム
+windows.host.cmaps コミュニティーゲーム
 windows.host.raw ゲームデータを保存する
 windows.host.modes モードを選択
 windows.host.classes クラスを選択
@@ -510,7 +510,7 @@ windows.maps.none ゲームが見つかりません!
 windows.maps.name ゲーム名
 windows.maps.editor ゲームエディター
 windows.maps.publish ゲームを公開する
-windows.maps.community 開発コミュニティ
+windows.maps.community 開発コミュニティー
 windows.publish.map.header ゲームを公開またはアップデートする
 windows.publish.map.thumbnail サムネイルなし
 windows.publish.map.paste ゲームデータの貼り付け
@@ -564,7 +564,7 @@ windows.dye.header 服装を選択
 windows.dye.default デフォルト服装色
 windows.dye.spin 服装色変更
 windows.changelog.header 変更履歴
-windows.mods.community.header コミュニティMOD
+windows.mods.community.header コミュニティーMOD
 windows.mods.community.fav お気に入り
 windows.mods.community.new 新しいMOD
 windows.mods.community.hot 人気
