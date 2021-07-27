@@ -467,8 +467,8 @@ windows.controls.interactSec Interazione secondaria
 windows.controls.confirm Conferma interazione
 windows.controls.drop Lascia
 windows.controls.wepVis Aziona visibilità arma
-windows.controls.kickVoteY Vota per kickare [Sì]
-windows.controls.kickVoteN Vota per kickare [No]
+windows.controls.kickVoteY Vota per espellere [Sì]
+windows.controls.kickVoteN Vota per espellere [No]
 windows.controls.kpdVoteY Voto KPD [Sì]
 windows.controls.kpdVoteN Voto KPD [No]
 windows.controls.specFree abilita cam libera
