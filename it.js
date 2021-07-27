@@ -471,10 +471,10 @@ windows.controls.kickVoteY Vota per espellere [Sì]
 windows.controls.kickVoteN Vota per espellere [No]
 windows.controls.kpdVoteY Voto KPD [Sì]
 windows.controls.kpdVoteN Voto KPD [No]
-windows.controls.specFree abilita cam libera
-windows.controls.specObj abilita l'obbiettivo della cam
-windows.controls.specFirst abilita prima persona
-windows.controls.specNames abilita nomi forzati
+windows.controls.specFree Abilita cam libera
+windows.controls.specObj Aziona camera a obiettivo
+windows.controls.specFirst Abilita prima persona
+windows.controls.specNames Abilita nomi forzati
 windows.controls.streak0 Serie 1
 windows.controls.streak1 Serie 2
 windows.controls.streak2 Serie 3
@@ -578,7 +578,7 @@ windows.publish.mod.update Pubblica/Aggiorna
 windows.publish.mod.login per creare e aggiornare Mod!
 windows.secondary.header Scegli secondaria
 windows.secondary.unlocked Sbloccate
-windows.secondary.customOnly Solo personalizzata
+windows.secondary.customOnly Solo personalizzate
 windows.secondary.premiumOnly Solo premium
 windows.secondary.req Lvl ric. {0}
 windows.advertise.header Pubblicizza
