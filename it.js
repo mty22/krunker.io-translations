@@ -91,7 +91,7 @@ settings.network.header Rete
 settings.network.sendRate Tickrate alto
 settings.network.netRerouting Instradamento automatico (Influisce sul Ping)
 settings.network.lagComp Compensazione Lag
-settings.network.hitReg Test della registrazione del colpo 
+settings.network.hitReg Test registrazione colpi
 settings.popup.header Popups
 settings.popup.freeKRPop Mostra Popup KR gratuiti
 settings.experimental.header Sperimentali
@@ -467,14 +467,14 @@ windows.controls.interactSec Interazione secondaria
 windows.controls.confirm Conferma interazione
 windows.controls.drop Lascia
 windows.controls.wepVis Aziona visibilità arma
-windows.controls.kickVoteY Vota per kickare [Si]
+windows.controls.kickVoteY Vota per kickare [Sì]
 windows.controls.kickVoteN Vota per kickare [No]
-windows.controls.kpdVoteY Voto KPD [Si]
+windows.controls.kpdVoteY Voto KPD [Sì]
 windows.controls.kpdVoteN Voto KPD [No]
-windows.controls.specFree attiva/disattiva cam libera
-windows.controls.specObj attiva/disattiva l'obbiettivo della cam
-windows.controls.specFirst attiva/disattiva prima persona
-windows.controls.specNames attiva/disattiva nomi forzati
+windows.controls.specFree abilita cam libera
+windows.controls.specObj abilita l'obbiettivo della cam
+windows.controls.specFirst abilita prima persona
+windows.controls.specNames abilita nomi forzati
 windows.controls.streak0 Serie 1
 windows.controls.streak1 Serie 2
 windows.controls.streak2 Serie 3
@@ -484,10 +484,10 @@ windows.controls.premium0 Noclip
 windows.controls.premium1 Godmode
 windows.controls.premium2 Kill
 windows.controls.premium3 Smite
-windows.controls.dev0 Developer Bind 1
-windows.controls.dev1 Developer Bind 2
-windows.controls.dev2 Developer Bind 3
-windows.controls.dev3 Developer Bind 4
+windows.controls.dev0 Tasto sviluppatore 1
+windows.controls.dev1 Tasto sviluppatore 2
+windows.controls.dev2 Tasto sviluppatore 3
+windows.controls.dev3 Tasto sviluppatore 4
 windows.controls.reset Ripristina posizione (Gara & Parkour)
 windows.controls.pretend Nascondi gioco
 windows.host.header Crea partita personalizzata
@@ -578,7 +578,7 @@ windows.publish.mod.update Pubblica/Aggiorna
 windows.publish.mod.login per creare e aggiornare Mod!
 windows.secondary.header Scegli secondaria
 windows.secondary.unlocked Sbloccate
-windows.secondary.customOnly Solo custom
+windows.secondary.customOnly Solo personalizzata
 windows.secondary.premiumOnly Solo premium
 windows.secondary.req Lvl ric. {0}
 windows.advertise.header Pubblicizza
@@ -673,7 +673,7 @@ server.config.warmupTime Tempo riscaldamento
 server.config.gamRounds Rounds
 server.config.objtvTime Tempo obiettivo
 server.config.forceSpawn Tempo rinascita automatica
-server.config.intermTmr Pausa (s)
+server.config.intermTmr Intervallo (s)
 server.config.scoreLimit Limite punteggio
 server.config.keepTScore Tieni punti squadra
 server.config.forceC Forza la classe
@@ -687,8 +687,8 @@ server.config.tstCmp Modalità test
 server.config.limitClasses Limita classi
 server.config.tmSize Dimensione squadra
 server.config.fallDmg Danno da caduta
-server.config.fallDmgThr Taglio del danno da caduta 
-server.config.noDraws Nessun disegno
+server.config.fallDmgThr Soglia del danno da caduta 
+server.config.noDraws Nessun pareggio
 server.config.bstOfR Al meglio di
 social.login Login/Registrati
 social.login.failed Login fallito
