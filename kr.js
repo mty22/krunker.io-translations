@@ -108,7 +108,7 @@ settings.client.resourceSwapper 리소스 교체 활성화
 settings.client.clearCache 캐시 삭제하기
 settings.client.resetSettings 클라이언트 설정 초기화
 settings.client.acceleratedCanvas 캔버스 가속
-settings.client.angleBackend 앵글 그래픽 백엔드
+settings.client.angleBackend ANGLE 그래픽 백엔드
 settings.client.colorProfile 프로필 색 설정
 settings.dev.header 개발자
 settings.dev.forceUpdate 스킨 강제 업데이트
@@ -688,7 +688,7 @@ server.config.limitClasses 클래스 제한
 server.config.tmSize 팀 크기
 server.config.fallDmg 추락 데미지
 server.config.fallDmgThr 추락 데미지 높이
-server.config.noDraws 무승부
+server.config.noDraws 무승부 없음
 server.config.bstOfR Best of
 social.login 로그인/회원가입
 social.login.failed 로그인 실패
@@ -781,7 +781,7 @@ windows.clan.leave 클랜을 탈퇴하시겠습니까?
 windows.clan.delete 클랜을 해체하시겠습니까?
 windows.clan.kick {0}님을 클랜에서 추방하시겠습니까?
 windows.store.premium.purchase {0}일 치의 프리미엄 서비스를 구매하시겠습니까?
-windows.store.premium.gift '{0}'에게 {1} 일의 프리미엄을 선물할까요?
+windows.store.premium.gift '{0}'에게 {1}일의 프리미엄을 선물할까요?
 windows.playerlist.ban {0}님을 이 게임에서 밴하시겠습니까?
 windows.playerlist.flag {0}님에게 해커 태그를 지정하시겠습니까?
 windows.playerlist.unflag {0}님의 해커 태그를 제거하시겠습니까?
