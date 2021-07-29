@@ -786,36 +786,36 @@ windows.playerlist.ban {0} oyuncusunu yasaklamak istediğinize emin misiniz?
 windows.playerlist.flag {0} oyuncusunu damgalatmak istediğinize emin misiniz?
 windows.playerlist.unflag {0} oyuncusunun damgasını kaldırmak istediginize emin misiniz?
 windows.playerlist.punish üzerinde işlem yapmak istediğinize emin misiniz?
-item.view.open Open Model Viewer
-item.view.more More Information
-item.sell.cant Item cant be sold.
-item.sell.quick Are you sure you want to Quick Sell {0}?
-social.profile.stats Overall Stats
-social.profile.class Class Stats
-social.profile.sales Sales
-social.profile.sales.market Market Sales
-social.profile.skins Skins [{0}]
-social.profile.skins.none No published Skins from this user
-social.profile.games Games [{0}]
-social.profile.games.none No published Games from this user
-social.profile.assets Assets [{0}]
-social.profile.assets.none No published Assets from this user
-social.profile.mods Mods [{0}]
-social.profile.mods.none No published Mods from this user
-social.search Search Results
-social.market.stats.rare Rarest Items
-social.market.stats.circulation In Circulation
-social.market.stats.units units Worldwide
-social.trades.in Incoming
-social.trades.in.head Incoming Offers ({0})
-social.trades.out Outgoing
-social.trades.out.head Outgoing Offers ({0})
-social.trades.history History
-social.trades.history.head Trade History ({0})
-social.trades.decline Decline All
-social.trades.message ENABLE TRADE MESSAGES IN SETTINGS
-social.trades.warning You get no items from this trade!
-social.trades.accept Are you sure you want to accept this offer?
-stats.airdrops KR-Packages
-settings.quality.flapAnim Sniper Flap Animation
+item.view.open Model Görüntüleyiciyi Aç
+item.view.more Daha çok bilgi
+item.sell.cant Item satılamaz.
+item.sell.quick {0} itemini hızlı satışa çıkarmak istediğinizden emin misiniz?
+social.profile.stats Genel İstatistikler
+social.profile.class Silah İstatistikleri
+social.profile.sales Satışlar
+social.profile.sales.market Market Satışları
+social.profile.skins Skinler [{0}]
+social.profile.skins.none Bu kullanıcıdan yayınlanmış skin yok
+social.profile.games Oyunlar [{0}]
+social.profile.games.none Bu kullanıcıdan yayınlanmış oyun yok
+social.profile.assets Assetler [{0}]
+social.profile.assets.none Bu kullanıcıdan yayınlanmış asset yok
+social.profile.mods Modlar [{0}]
+social.profile.mods.none Bu kullanıcıdan yayınlanmış Mod yok
+social.search Arama Sonuçları
+social.market.stats.rare En Nadir Itemler
+social.market.stats.circulation Piyasada
+social.market.stats.units Dünya Çapında Item Sayısı
+social.trades.in Gelen
+social.trades.in.head Gelen Teklifler ({0})
+social.trades.out Giden
+social.trades.out.head Giden Teklifler ({0})
+social.trades.history Geçmiş
+social.trades.history.head Takas Geçmişi ({0})
+social.trades.decline Tümünü Reddet
+social.trades.message AYARLARDAN TAKAS MESAJLARINI ETKİNLEŞTİRİN
+social.trades.warning Bu takastan item almıyorsunuz!
+social.trades.accept Bu teklifi kabul etmek istediğinizden emin misiniz?
+stats.airdrops KR-Paketleri
+settings.quality.flapAnim Sniper Dürbün Kapağı Animasyonu
 `;
