@@ -125,7 +125,7 @@ settings.chat.chatBGOp チャット背景不透明度
 settings.chat.chatHeight チャットの高さ
 settings.chat.chatTimer チャットタイマー
 settings.chat.chatTextOutline チャット文字輪郭線表示
-settings.chat.chatFilter 英語NGワードフィルタ
+settings.chat.chatFilter 英語NGワードフィルター
 settings.quality.header パフォーマンス
 settings.quality.updRate フレームレート制限
 settings.quality.rendDst レンダリング距離
@@ -169,11 +169,11 @@ settings.interface.hitColor ヒットマーカーの色
 settings.interface.dmg ダメージを表示
 settings.interface.dmgCol ダメージの色
 settings.interface.critCol クリティカルヒットの色
-settings.interface.header インターフェース
+settings.interface.header インターフェイス
 settings.interface.scale UIスケール
 settings.interface.ui UIを表示
 settings.interface.scoreboard 古いスコアボードを使用
-settings.interface.oldBrowser 古いブラウザを使用
+settings.interface.oldBrowser 古いブラウザーを使用
 settings.interface.rarityanim レアアイテムアニメーション
 settings.interface.showPfp プロフィール画像を表示
 settings.interface.showTradeMsg トレードメッセージを表示
@@ -254,8 +254,8 @@ settings.onKillS.style.0 デフォルト
 settings.onKillS.style.1 解像度を下げる
 settings.onKillS.style.2 FOVを下げる
 settings.onKillS.style.3 FOVを上げる
-settings.serverb.header サーバーブラウザ
-settings.serverb.oldBrowser 古いサーバーブラウザ
+settings.serverb.header サーバーブラウザー
+settings.serverb.oldBrowser 古いサーバーブラウザー
 settings.serverb.defaultRegionOnly デフォルトの地域のみ
 settings.gameprivacy.header ゲームプレイプライバシー
 settings.gameprivacy.streamer 配信モード
@@ -492,7 +492,7 @@ windows.controls.reset 位置をリセットする (Race & Parkour)
 windows.controls.pretend ゲームを非表示にする
 windows.host.header カスタムゲームを作る
 windows.host.maps サーバー設定
-windows.host.cmaps コミュニティゲーム
+windows.host.cmaps コミュニティーゲーム
 windows.host.raw ゲームデータを保存する
 windows.host.modes モードを選択
 windows.host.classes クラスを選択
@@ -510,7 +510,7 @@ windows.maps.none ゲームが見つかりません!
 windows.maps.name ゲーム名
 windows.maps.editor ゲームエディター
 windows.maps.publish ゲームを公開する
-windows.maps.community 開発コミュニティ
+windows.maps.community 開発コミュニティー
 windows.publish.map.header ゲームを公開またはアップデートする
 windows.publish.map.thumbnail サムネイルなし
 windows.publish.map.paste ゲームデータの貼り付け
@@ -564,7 +564,7 @@ windows.dye.header 服装を選択
 windows.dye.default デフォルト服装色
 windows.dye.spin 服装色変更
 windows.changelog.header 変更履歴
-windows.mods.community.header コミュニティMOD
+windows.mods.community.header コミュニティーMOD
 windows.mods.community.fav お気に入り
 windows.mods.community.new 新しいMOD
 windows.mods.community.hot 人気
@@ -755,8 +755,8 @@ account.delete アカウント削除のリクエストがされた場合、14日
 account.delete.request 本当にアカウント削除をリクエストしますか?
 account.delete.cancel 本当にアカウント削除のリクエストを取り消しますか?
 spin.free.available フリーKRが利用可能です!
-spin.free.claim このスピンは試合終了後、一時間に一回回すことが出来ます
-spin.free.disable このポップアップは設定から非表示にすることが出来ます
+spin.free.claim このスピンは試合終了後、一時間に一回回すことができます
+spin.free.disable このポップアップは設定から非表示にすることができます
 mod.reset.0 リスポーン後から有効になります
 mod.reset.1 マップのオブジェクトはリセットされません
 windows.profile.picture 写真を変更
@@ -768,13 +768,13 @@ stats.thrownkills 投げナイフキル
 stats.headshots ヘッドショット
 stats.wallbangs 壁抜きキル
 stats.sprays スプレー回数
-windows.host.default.settings デフォルト設定を有効にすることでプレイヤーの進捗とハイスコアを保存することが出来ます
+windows.host.default.settings デフォルト設定を有効にすることでプレイヤーの進捗とハイスコアを保存することができます
 windows.host.default.commands *ホストコマンド(/noclip /god /smite 等)はこのモードでは無効化されています
-windows.host.rewards KR報酬を有効にした場合デフォルト設定の使用が強制され、プレイヤーがこのマップの資産からKR報酬を入手することが出来るようになります:
+windows.host.rewards KR報酬を有効にした場合デフォルト設定の使用が強制され、プレイヤーがこのマップの資産からKR報酬を入手することができるようになります:
 windows.store.wheels.sub 新しいスキンを手に入れるためにスピンで運試しをしましょう!
 windows.store.currency * 米ドルでの金額表記はあなたの国の通貨に変換され、その際の両替レートは支払いサービスや銀行が定めたものによります
 windows.store.creator クリエイターコードを使ってあなたのお気に入りのクリエイターを支援しましょう
-windows.chall.customs カスタムマッチ内でチャレンジをクリアすることは出来ません
+windows.chall.customs カスタムマッチ内でチャレンジをクリアすることはできません
 twitch.link 本当にtwitchアカウントとリンクしますか?
 twitch.unlink 本当にtwitchアカウントとのリンクを解除しますか?
 windows.clan.leave 本当にこのクランを離れますか?
