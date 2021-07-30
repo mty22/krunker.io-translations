@@ -767,7 +767,7 @@ stats.fistkills Yumruklanan
 stats.thrownkills Bıçak Fırlatılan
 stats.headshots Kafadan Vurulan
 stats.wallbangs Wallbangler
-stats.sprays Yerleştirilen Spreyler
+stats.sprays Sıkılan Spreyler
 windows.host.default.settings Varsayılan ayarları açmak oyuncu ilerlemesini ve yüksek skorlarını depolar
 windows.host.default.commands *Kurucu ayarları şu modlarda kapalıdır: /noclip /god /smite vb.
 windows.host.rewards KR ödüllerini açmak sunucuyu varsayılan ayarlarda oynamaya zorlar & oyuncuların map para kaynağından para kazanmasını sağlar:
