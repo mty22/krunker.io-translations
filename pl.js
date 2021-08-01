@@ -61,7 +61,7 @@ generic.accuracy Precyzja
 player.waiting oczekiwanie na graczy
 player.died Zginąłeś
 player.killed Zabity przez
-player.killstreak {0} jest na serii {1} zabójstw
+player.killstreak {0} on a {1} Kill Streak
 player.inactive Wyrzucono za bezczynność
 player.disconnect ROZŁĄCZONO
 timer.end Następna runda za {0}
@@ -91,23 +91,25 @@ settings.network.header Sieć
 settings.network.sendRate Wysoki Tickrate
 settings.network.netRerouting Auto Routowanie (Wpływa na ping)
 settings.network.lagComp Kompensacja lagów
+settings.network.hitReg Test hitregu
 settings.popup.header Wyskakujące okienka
 settings.popup.freeKRPop Wyświetl okienka o darmowym KR
 settings.experimental.header Eksperymentalne
 settings.experimental.aimFreezeFix Napraw zamrożenie przy celowaniu
 settings.experimental.mouseFlickFix Napraw mouse-flicki
-settings.experimental.shaderRendering Renderowanie przez isntancje
-settings.client.header Client
-settings.client.unlimitedFrames Unlimited FPS
+settings.experimental.shaderRendering Renderowanie przez instancje
+settings.experimental.staticRendering Renderowanie statyczne
+settings.client.header Klient
+settings.client.unlimitedFrames Nielimitowane FPS
 settings.client.gameCap Game Capture
-settings.client.experimental Experimental Features
+settings.client.experimental Funkcje eksperymentalne
 settings.client.discordRPC Discord RPC
-settings.client.resourceSwapper Resource Swapper
-settings.client.clearCache Clear Cache
-settings.client.resetSettings Reset Client Settings
-settings.client.acceleratedCanvas Accelerated Canvas
-settings.client.angleBackend ANGLE Graphics Backend
-settings.client.colorProfile Color Profile
+settings.client.resourceSwapper Podmieniacz zasobów
+settings.client.clearCache Wyczyść pamięć podręczną
+settings.client.resetSettings Zresetuj ustawienia klienta
+settings.client.acceleratedCanvas Wspomagane sprzętowo renderowanie canvas
+settings.client.angleBackend Grafika ANGLE
+settings.client.colorProfile Profil kolorów
 settings.dev.header Programista
 settings.dev.forceUpdate Wymuś aktualizację skinów
 settings.dev.forceRegen Zawsze regeneruj graczy
@@ -175,6 +177,7 @@ settings.interface.oldBrowser Użyj starej przeglądarki
 settings.interface.rarityanim Wyłącz animacje rzadkości
 settings.interface.showPfp Wyświetlaj zdjęcia profilowe
 settings.interface.showTradeMsg Wyświetlaj wiadomości o handlu
+settings.interface.hideNonTrade Ukryj skórki, którymi nie można handlować
 settings.interface.hp Dynamiczne paski HP
 settings.interface.dmgScale Skalowanie obrażeń
 settings.interface.killf Pokaż śmierci
@@ -259,6 +262,7 @@ settings.gameprivacy.streamer Tryb streamera
 settings.gameprivacy.anon Tryb anonimowy
 settings.gameprivacy.hideGameTitle Ukryj tytuł gry
 settings.gameplay.header Gra
+settings.gameplay.gpSetts Ustawienia rozgrywki
 settings.gameplay.sensitivityX Czułość X
 settings.gameplay.sensitivityY Czułość Y
 settings.gameplay.aimsensX Czułość celowania X
@@ -298,6 +302,7 @@ settings.audio.ui Głośność interfejsu
 settings.audio.asset Głośność zasobów
 settings.audio.dialogue Głośność akcji
 settings.viewmodel.header Wyświetl model
+settings.viewmodel.vmSetts Ustawienia wyświetlania modelu
 settings.viewmodel.fov Pole widzenia
 settings.viewmodel.fps Pole widzenia broni
 settings.viewmodel.bobbing Ruchliwość broni
@@ -352,6 +357,8 @@ settings.editing.vignette Winieta
 settings.editing.feedLimit Limit wyświelanych zabójstw
 settings.editing.depth Mapa głębokości
 settings.editing.green Green Screen
+settings.editing.trailcol Kolor śladów pocisków
+settings.editing.ropecol Kolor liny chwytaka
 settings.editing.tracercol Kolor śladów pocisków
 settings.editing.tracer Ślady pocisków
 settings.editing.tracer.offset Przesunięcie śladów
@@ -460,6 +467,14 @@ windows.controls.interactSec Drugie działanie
 windows.controls.confirm Potwierdź działanie
 windows.controls.drop Upuść
 windows.controls.wepVis Przełącz widoczność broni
+windows.controls.kickVoteY Zagłosuj nad wyrzuceniem gracza z rozgrywki [Tak]
+windows.controls.kickVoteN Zagłosuj nad wyrzuceniem gracza z rozgrywki [Nie]
+windows.controls.kpdVoteY Głosowanie KPD [Tak]
+windows.controls.kpdVoteN Głosowanie KPD [Nie]
+windows.controls.specFree Przełącz tryb wolnej kamery
+windows.controls.specObj Przełącz tryb kamery celu
+windows.controls.specFirst Przełącz tryb kamery pierwszoosobowej
+windows.controls.specNames Przełącz wymuszone wyświetlanie nicków
 windows.controls.streak0 Seria 1
 windows.controls.streak1 Seria 2
 windows.controls.streak2 Seria 3
@@ -469,6 +484,10 @@ windows.controls.premium0 Noclip
 windows.controls.premium1 Tryb boga
 windows.controls.premium2 Zabij
 windows.controls.premium3 Poraź
+windows.controls.dev0 Bind/Klawisz/Komenda deweloperska 1
+windows.controls.dev1 Bind/Klawisz/Komenda deweloperska 2
+windows.controls.dev2 Bind/Klawisz/Komenda deweloperska 3
+windows.controls.dev3 Bind/Klawisz/Komenda deweloperska 4
 windows.controls.reset Resetuj pozycję (Parkour i wyścigi)
 windows.controls.pretend Ukryj grę
 windows.host.header Hostuj niestandardową grę
@@ -559,6 +578,8 @@ windows.publish.mod.update Opublikuj/Zaktualizuj
 windows.publish.mod.login aby tworzyć i udostępniać modyfikacje!
 windows.secondary.header Wybierz drugą broń
 windows.secondary.unlocked Odblokowane
+windows.secondary.customOnly Dostępne tylko w rozgrywkach niestandardowych
+windows.secondary.premiumOnly Dostępne tylko dla użytkowników Premium
 windows.secondary.req Wymaga poziomu {0}
 windows.advertise.header Reklamuj
 windows.support.header Wsparcie
@@ -649,9 +670,10 @@ server.config.private Prywatna gra
 server.config.krRewards Nagrody KR
 server.config.forceDefault Wymuś używanie domyślnych ustawień
 server.config.warmupTime Czas rozgrzewki
-server.config.gamRounds Rounds
+server.config.gamRounds Rundy
 server.config.objtvTime Czas miejsca celu
 server.config.forceSpawn Czas automatycznego odrodzenia
+server.config.intermTmr Przerwa (s)
 server.config.scoreLimit Limit wyniku
 server.config.keepTScore Zatrzymaj wynik zespołu
 server.config.forceC Wymuś klasy trybu
@@ -661,9 +683,13 @@ server.config.hpRegen Regeneracja życia
 server.config.disableB Wyłącz obramowanie
 server.config.throwMel Rzucanie broni białych
 server.config.noCosm Wyłącz elementy kosmetyczne
-server.config.tstCmp Test Mode
-server.config.limitClasses Limit Classes
-server.config.tmSize Team Size
+server.config.tstCmp Tryb testowy
+server.config.limitClasses Limit klas
+server.config.tmSize Rozmiar drużyny
+server.config.fallDmg Obrażenia od updaku
+server.config.fallDmgThr Próg obrażeń od updaku
+server.config.noDraws Bez remisów
+server.config.bstOfR Najlepszy z
 social.login Zaloguj/Zarejestruj
 social.login.failed Logowanie nie powiodło się
 social.login.buy Zaloguj się by kupować
@@ -755,6 +781,7 @@ windows.clan.leave Czy jesteś pewien, że chcesz opuścić ten klan?
 windows.clan.delete Czy jesteś pewien, że chcesz usunąć ten klan?
 windows.clan.kick Czy jesteś pewien, że chcesz wyrzucić {0} z klanu?
 windows.store.premium.purchase Czy jesteś pewien, że chcesz kupić {0} dni Premium?
+windows.store.premium.gift Czy jesteś pewien, że chcesz podarować '{0}' {1} dni konta Premium?
 windows.playerlist.ban Czy jesteś pewien, że chcesz wyrzucić {0} z tej gry?
 windows.playerlist.flag Czy jesteś pewien, że chcesz oflagować {0}?
 windows.playerlist.unflag Czy jesteś pewien, że chcesz odflagować {0}?
@@ -789,6 +816,6 @@ social.trades.decline Odrzuć wszystkie
 social.trades.message WŁĄCZ WIADOMOŚĆI O HANDLU W USTAWIENIACH
 social.trades.warning Nie dostaniesz żadnych przedmiotów z tej wymiany!
 social.trades.accept Czy na pewno chcesz przyjąć tę ofertę?
-stats.airdrops KR-Packages
-settings.quality.flapAnim Sniper Flap Animation
+stats.airdrops Paczki KR
+settings.quality.flapAnim Animowana klapka snajperska
 `;

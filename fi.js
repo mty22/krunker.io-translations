@@ -61,7 +61,7 @@ generic.accuracy Tarkkuus
 player.waiting odotetaan pelaajia
 player.died Kuolit
 player.killed Sinut Tappoi
-player.killstreak {0}:lla on {1} tappoputki
+player.killstreak {0} on a {1} Kill Streak
 player.inactive Potkittu toimettomuuden vuoksi
 player.disconnect YHTEYS KATKENNUT
 timer.end Seuraava peli alkaa {0}
@@ -91,12 +91,14 @@ settings.network.header Verkko
 settings.network.sendRate Korkea Tickrate
 settings.network.netRerouting Automaattinen Reititys (Vaikuttaa Viiveeseen)
 settings.network.lagComp Viiveen Korjaus
+settings.network.hitReg Hitreg Test
 settings.popup.header Ponnahdusikkunat
 settings.popup.freeKRPop Näytä Ilmaisen KR:n Ponnahdusikkuna
 settings.experimental.header Kokeellinen
 settings.experimental.aimFreezeFix Tähtäyksen Jähmettymisen Korjaus
 settings.experimental.mouseFlickFix Hiiren Napsauttamisen Korjaus
 settings.experimental.shaderRendering Instance Rendering
+settings.experimental.staticRendering Static Rendering
 settings.client.header Client
 settings.client.unlimitedFrames Unlimited FPS
 settings.client.gameCap Game Capture
@@ -175,6 +177,7 @@ settings.interface.oldBrowser Käytä Vanhaa Selainta
 settings.interface.rarityanim Kytke Harvinaiset Animaatiot Pois
 settings.interface.showPfp Näytä Profiilikuvat
 settings.interface.showTradeMsg Näytä Vaihtokauppojen Viestit
+settings.interface.hideNonTrade Hide Non-Tradable Skins
 settings.interface.hp Dynaamiset HP-pisteet
 settings.interface.dmgScale Vahingon Laajuus
 settings.interface.killf Näytä Tappolista
@@ -259,6 +262,7 @@ settings.gameprivacy.streamer Suoratoistotila
 settings.gameprivacy.anon Nimetön Tila
 settings.gameprivacy.hideGameTitle Piilota Pelin Otsikko
 settings.gameplay.header Gameplay
+settings.gameplay.gpSetts Gameplay Settings
 settings.gameplay.sensitivityX X Herkkyys
 settings.gameplay.sensitivityY Y Herkkyys
 settings.gameplay.aimsensX Tähtäyksen X Herkkyys
@@ -298,6 +302,7 @@ settings.audio.ui Käyttöliittymän Äänenvoimakkuus
 settings.audio.asset Assettien Äänenvoimakkuus
 settings.audio.dialogue Toiminnan Äänenvoimakkuus
 settings.viewmodel.header Viewmodeli
+settings.viewmodel.vmSetts View Model Settings
 settings.viewmodel.fov Näkökenttä
 settings.viewmodel.fps Aseen FOV
 settings.viewmodel.bobbing Aseen Heiluminen
@@ -352,6 +357,8 @@ settings.editing.vignette Vinjetti
 settings.editing.feedLimit Killfeedin Raja
 settings.editing.depth Depth Map
 settings.editing.green Väriavain
+settings.editing.trailcol Bullet Trail Color
+settings.editing.ropecol Grapple Rope Color
 settings.editing.tracercol Luodin Tracerit
 settings.editing.tracer Luodin Tracerit
 settings.editing.tracer.offset Tracerin Offset
@@ -460,6 +467,14 @@ windows.controls.interactSec Toissijainen Vuorovaikutus
 windows.controls.confirm Vahvista Vuorovaikutus
 windows.controls.drop Tiputa
 windows.controls.wepVis Vaihda Aseen Näkyvyyttä
+windows.controls.kickVoteY Vote Kick [Yes]
+windows.controls.kickVoteN Vote Kick [No]
+windows.controls.kpdVoteY KPD Vote [Yes]
+windows.controls.kpdVoteN KPD Vote [No]
+windows.controls.specFree Toggle Free Cam
+windows.controls.specObj Toggle Objective Cam
+windows.controls.specFirst Toggle First Person
+windows.controls.specNames Toggle Forced Names
 windows.controls.streak0 Tappoputki 1
 windows.controls.streak1 Tappoputki 2
 windows.controls.streak2 Tappoputki 3
@@ -469,6 +484,10 @@ windows.controls.premium0 Noclip
 windows.controls.premium1 Jumala-tila
 windows.controls.premium2 Tappo
 windows.controls.premium3 Smite
+windows.controls.dev0 Developer Bind 1
+windows.controls.dev1 Developer Bind 2
+windows.controls.dev2 Developer Bind 3
+windows.controls.dev3 Developer Bind 4
 windows.controls.reset Nollaa Sijainti (Race & Parkour)
 windows.controls.pretend Piilota Peli
 windows.host.header Luo Kustomoitu-Peli
@@ -559,6 +578,8 @@ windows.publish.mod.update Julkaise/Päivitä
 windows.publish.mod.login luodaksesi ja ladataksesi modeja!
 windows.secondary.header Valitse Toissijainen
 windows.secondary.unlocked Avattu
+windows.secondary.customOnly Customs Only
+windows.secondary.premiumOnly Premium Only
 windows.secondary.req Vaaditto Taso {0}
 windows.advertise.header Mainosta
 windows.support.header Tuki
@@ -652,6 +673,7 @@ server.config.warmupTime Lämmittelyaika
 server.config.gamRounds Rounds
 server.config.objtvTime Tavoitteen Kesto
 server.config.forceSpawn Automaattisen uudelleensyntymisen aika
+server.config.intermTmr Intermission (s)
 server.config.scoreLimit Pisteraja
 server.config.keepTScore Pidä Tiimin Pisteet
 server.config.forceC Pakota Moden Hahmot
@@ -664,6 +686,10 @@ server.config.noCosm Disable Cosmetics
 server.config.tstCmp Test Mode
 server.config.limitClasses Limit Classes
 server.config.tmSize Team Size
+server.config.fallDmg Fall Damage
+server.config.fallDmgThr Fall Damage Thresh
+server.config.noDraws No Draws
+server.config.bstOfR Best of
 social.login Kirjaudu/Rekisteröidy
 social.login.failed Kirjautuminen Epäonnistui
 social.login.buy Kirjaudu Sisään Ostaaksesi
@@ -755,6 +781,7 @@ windows.clan.leave Are you sure you want to leave the clan?
 windows.clan.delete Are you sure you want to delete the clan?
 windows.clan.kick Are you sure you want kick {0} from the clan?
 windows.store.premium.purchase Are you sure you want to purchase {0} days of Premium?
+windows.store.premium.gift Are you sure you want to Gift '{0}' {1} days of Premium?
 windows.playerlist.ban Are you sure you want ban {0} from this game?
 windows.playerlist.flag Are you sure you want to Flag {0}?
 windows.playerlist.unflag Are you sure you want to Unflag {0}?

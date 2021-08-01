@@ -61,7 +61,7 @@ generic.accuracy Точност
 player.waiting изчакване на играчи
 player.died Ти умря
 player.killed Убит от
-player.killstreak {0} е на {1} Kill Streak
+player.killstreak {0} on a {1} Kill Streak
 player.inactive Изгонен за бездействие
 player.disconnect ВРЪЗКАТА ПРЕКЪСНА
 timer.end Следващият рунд след {0}
@@ -91,12 +91,14 @@ settings.network.header Интернет връзка
 settings.network.sendRate Висок тикрейт
 settings.network.netRerouting Автоматично маршрутизиране (Засяга пинга)
 settings.network.lagComp Компенсация на лага
+settings.network.hitReg Hitreg Test
 settings.popup.header Изкачащи прозорци
 settings.popup.freeKRPop Покажи изкачащият прозорец за безплатни KR
 settings.experimental.header Експериментални настройки
 settings.experimental.aimFreezeFix Поправи замръзването на прицелването
 settings.experimental.mouseFlickFix Поправи Flick-ването на мишката
 settings.experimental.shaderRendering Рендиране на инстацията
+settings.experimental.staticRendering Static Rendering
 settings.client.header Client
 settings.client.unlimitedFrames Unlimited FPS
 settings.client.gameCap Game Capture
@@ -175,6 +177,7 @@ settings.interface.oldBrowser Използвай старият браузер
 settings.interface.rarityanim Деактивирайте анимацията за рядкост
 settings.interface.showPfp Показвай профилни снимки
 settings.interface.showTradeMsg Показвай търговските съобщения
+settings.interface.hideNonTrade Hide Non-Tradable Skins
 settings.interface.hp Динамични HB барове
 settings.interface.dmgScale Големина на Damage
 settings.interface.killf Покажи Kill Feed
@@ -259,6 +262,7 @@ settings.gameprivacy.streamer Streamer Mode
 settings.gameprivacy.anon Anonymous Mode
 settings.gameprivacy.hideGameTitle Скрий заглавието а играта
 settings.gameplay.header Gameplay
+settings.gameplay.gpSetts Gameplay Settings
 settings.gameplay.sensitivityX Чуствителност Х
 settings.gameplay.sensitivityY Чуствителност Y
 settings.gameplay.aimsensX Прицелваща чувствителност Х
@@ -298,6 +302,7 @@ settings.audio.ui UI Volume
 settings.audio.asset Asset Volume
 settings.audio.dialogue Action Volume
 settings.viewmodel.header View Model
+settings.viewmodel.vmSetts View Model Settings
 settings.viewmodel.fov Field of View
 settings.viewmodel.fps Weapon FOV
 settings.viewmodel.bobbing Weapon Bobbing
@@ -352,6 +357,8 @@ settings.editing.vignette Vignette
 settings.editing.feedLimit Killfeed Limit
 settings.editing.depth Depth Map
 settings.editing.green Green Screen
+settings.editing.trailcol Bullet Trail Color
+settings.editing.ropecol Grapple Rope Color
 settings.editing.tracercol Bullet Tracers
 settings.editing.tracer Bullet Tracers
 settings.editing.tracer.offset Tracer Offset
@@ -460,6 +467,14 @@ windows.controls.interactSec Вторично взаимодействие
 windows.controls.confirm Потвърдете взаимодействието
 windows.controls.drop Drop
 windows.controls.wepVis Toggle Weapon Visibility
+windows.controls.kickVoteY Vote Kick [Yes]
+windows.controls.kickVoteN Vote Kick [No]
+windows.controls.kpdVoteY KPD Vote [Yes]
+windows.controls.kpdVoteN KPD Vote [No]
+windows.controls.specFree Toggle Free Cam
+windows.controls.specObj Toggle Objective Cam
+windows.controls.specFirst Toggle First Person
+windows.controls.specNames Toggle Forced Names
 windows.controls.streak0 Поредица 1
 windows.controls.streak1 Поредица 2
 windows.controls.streak2 Поредица 3
@@ -469,6 +484,10 @@ windows.controls.premium0 Noclip
 windows.controls.premium1 Godmode
 windows.controls.premium2 Убий
 windows.controls.premium3 Порази
+windows.controls.dev0 Developer Bind 1
+windows.controls.dev1 Developer Bind 2
+windows.controls.dev2 Developer Bind 3
+windows.controls.dev3 Developer Bind 4
 windows.controls.reset Рестартиране
 windows.controls.pretend Скрий играта
 windows.host.header Хостнете персонализирана игра
@@ -559,6 +578,8 @@ windows.publish.mod.update Publish/Update
 windows.publish.mod.login to create and upload mods!
 windows.secondary.header Select Secondary
 windows.secondary.unlocked Unlocked
+windows.secondary.customOnly Customs Only
+windows.secondary.premiumOnly Premium Only
 windows.secondary.req Req lvl {0}
 windows.advertise.header Advertise
 windows.support.header Support
@@ -652,6 +673,7 @@ server.config.warmupTime Warmup Time
 server.config.gamRounds Rounds
 server.config.objtvTime Objective Time
 server.config.forceSpawn Auto Respawn Time
+server.config.intermTmr Intermission (s)
 server.config.scoreLimit Score Limit
 server.config.keepTScore Keep Team Score
 server.config.forceC Force Mode Classes
@@ -664,6 +686,10 @@ server.config.noCosm Disable Cosmetics
 server.config.tstCmp Test Mode
 server.config.limitClasses Limit Classes
 server.config.tmSize Team Size
+server.config.fallDmg Fall Damage
+server.config.fallDmgThr Fall Damage Thresh
+server.config.noDraws No Draws
+server.config.bstOfR Best of
 social.login Login/Register
 social.login.failed Login Failed
 social.login.buy Login to Buy
@@ -755,6 +781,7 @@ windows.clan.leave Сигурни ли сте че искате да напус�
 windows.clan.delete Сигурни ли сте че  да изтриете клана?
 windows.clan.kick Сигурни ли сте че искате да изгоните {0} от клана?
 windows.store.premium.purchase Сигурни ли сте че искате да купите {0} дни Premium?
+windows.store.premium.gift Are you sure you want to Gift '{0}' {1} days of Premium?
 windows.playerlist.ban Сигурни ли сте че искате да забраните {0} от тази игра?
 windows.playerlist.flag Сигурни ли сте че искате да сигнализирате {0}?
 windows.playerlist.unflag Сигурни ли сте че искате да премахнете вашият сигнал от {0}?

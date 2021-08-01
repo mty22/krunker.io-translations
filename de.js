@@ -61,7 +61,7 @@ generic.accuracy Genauigkeit
 player.waiting Warten auf Spieler
 player.died Du bist gestorben
 player.killed getötet von
-player.killstreak {0} on a {1} Kill-Streak
+player.killstreak {0} on a {1} Kill Streak
 player.inactive Wegen Inaktivität entfernt
 player.disconnect VERBINDUNG UNTERBROCHEN
 timer.end Nächste Runde in {0}
@@ -91,12 +91,14 @@ settings.network.header Netzwerk
 settings.network.sendRate Hohe Tickrate
 settings.network.netRerouting Auto Routing (Beeinflusst Ping)
 settings.network.lagComp Lag Minimierung
+settings.network.hitReg Hitreg Test
 settings.popup.header Popups
 settings.popup.freeKRPop Free KR Popup anzeigen
 settings.experimental.header Experimental
 settings.experimental.aimFreezeFix Ziel Einfrierungs-Reperatur
 settings.experimental.mouseFlickFix Maus Einfrierungs-Reperatur
 settings.experimental.shaderRendering Instanz Rendering
+settings.experimental.staticRendering Static Rendering
 settings.client.header Client
 settings.client.unlimitedFrames Unlimited FPS
 settings.client.gameCap Game Capture
@@ -175,6 +177,7 @@ settings.interface.oldBrowser Alter Server Browser
 settings.interface.rarityanim Seltenheits-Animationen ausschalten
 settings.interface.showPfp Profilbilder anzeigen
 settings.interface.showTradeMsg Trade-Nachrichten anzeigen
+settings.interface.hideNonTrade Hide Non-Tradable Skins
 settings.interface.hp Dynamische HP Balken
 settings.interface.dmgScale Schadens Größe
 settings.interface.killf Kill Feed anzeigen
@@ -259,6 +262,7 @@ settings.gameprivacy.streamer Streamer Modus
 settings.gameprivacy.anon Anonymous Modus
 settings.gameprivacy.hideGameTitle Spieltitel ausblenden
 settings.gameplay.header Spielverlauf
+settings.gameplay.gpSetts Gameplay Settings
 settings.gameplay.sensitivityX X Empfindlichkeit
 settings.gameplay.sensitivityY Y Empfindlichkeit
 settings.gameplay.aimsensX Aim X Empfindlichkeit
@@ -298,6 +302,7 @@ settings.audio.ui UI Lautstärke
 settings.audio.asset Asset Lautstärke
 settings.audio.dialogue Aktions-Lautstärke
 settings.viewmodel.header Aussichts
+settings.viewmodel.vmSetts View Model Settings
 settings.viewmodel.fov Sichtfeld
 settings.viewmodel.fps Waffen Sichtfeld
 settings.viewmodel.bobbing Waffen Wackeln
@@ -352,6 +357,8 @@ settings.editing.vignette Vignette
 settings.editing.feedLimit Killfeed Limit
 settings.editing.depth Todeskarte
 settings.editing.green Grüner Bildschirm
+settings.editing.trailcol Bullet Trail Color
+settings.editing.ropecol Grapple Rope Color
 settings.editing.tracercol Geschoss-Indikator-Farbe
 settings.editing.tracer Geschoss-Indikator
 settings.editing.tracer.offset Indikator Offset
@@ -460,6 +467,14 @@ windows.controls.interactSec Sekundär Interaktion
 windows.controls.confirm Interaktion bestätigen
 windows.controls.drop Fallen lassen
 windows.controls.wepVis Waffen Sichtbarkeit umschalten
+windows.controls.kickVoteY Vote Kick [Yes]
+windows.controls.kickVoteN Vote Kick [No]
+windows.controls.kpdVoteY KPD Vote [Yes]
+windows.controls.kpdVoteN KPD Vote [No]
+windows.controls.specFree Toggle Free Cam
+windows.controls.specObj Toggle Objective Cam
+windows.controls.specFirst Toggle First Person
+windows.controls.specNames Toggle Forced Names
 windows.controls.streak0 Streak 1
 windows.controls.streak1 Streak 2
 windows.controls.streak2 Streak 3
@@ -469,6 +484,10 @@ windows.controls.premium0 Noclip
 windows.controls.premium1 Gott-Modus
 windows.controls.premium2 Kill
 windows.controls.premium3 Smite
+windows.controls.dev0 Developer Bind 1
+windows.controls.dev1 Developer Bind 2
+windows.controls.dev2 Developer Bind 3
+windows.controls.dev3 Developer Bind 4
 windows.controls.reset Position zurücksetzen (Rennen & Parkour)
 windows.controls.pretend Spiel verstecken
 windows.host.header Individuelles Gastgeber-Spiel
@@ -559,6 +578,8 @@ windows.publish.mod.update Veröffentlichen/Aktualisieren
 windows.publish.mod.login <a>Anmelden</a> um Mods zu erstellen und hochzuladen!
 windows.secondary.header Sekundärwaffe auswählen
 windows.secondary.unlocked Freigeschaltet bei Level {0}
+windows.secondary.customOnly Customs Only
+windows.secondary.premiumOnly Premium Only
 windows.secondary.req Erfordert Level {0}
 windows.advertise.header Bewerben
 windows.support.header Support
@@ -652,6 +673,7 @@ server.config.warmupTime Aufwärm-Zeit
 server.config.gamRounds Rounds
 server.config.objtvTime Objective-Zeit
 server.config.forceSpawn Automatische Respawn-Zeit
+server.config.intermTmr Intermission (s)
 server.config.scoreLimit Punkte Limit
 server.config.keepTScore Team Punktestand beibehalten
 server.config.forceC Modus-Klassen erzwingen
@@ -664,6 +686,10 @@ server.config.noCosm Cosmetics deaktivieren
 server.config.tstCmp Test Mode
 server.config.limitClasses Limit Classes
 server.config.tmSize Team Size
+server.config.fallDmg Fall Damage
+server.config.fallDmgThr Fall Damage Thresh
+server.config.noDraws No Draws
+server.config.bstOfR Best of
 social.login Anmelden/Registrieren
 social.login.failed Anmeldung fehlgeschlagen
 social.login.buy Zum Kaufen anmelden
@@ -755,6 +781,7 @@ windows.clan.leave Bist du dir sicher dass du den Clan verlassen willst?
 windows.clan.delete Bist du dir sicher dass du den Clan löschen willst?
 windows.clan.kick Bist du dir sicher dass du {0} aus dem Clan entfernen willst?
 windows.store.premium.purchase Bist du dir sicher dass du {0} Tage Premium kaufen willst?
+windows.store.premium.gift Are you sure you want to Gift '{0}' {1} days of Premium?
 windows.playerlist.ban Bist du dir sicher dass du {0} aus dem Spiel bannen willst?
 windows.playerlist.flag Bist du dir sicher dass du {0} markieren willst?
 windows.playerlist.unflag Willst du {0} Entmarkieren ?
