@@ -61,7 +61,7 @@ generic.accuracy Précision
 player.waiting En attente de joueurs
 player.died Vous êtes mort
 player.killed Tué par
-player.killstreak {0} est à {1} éliminations à la suite
+player.killstreak {0} on a {1} Kill Streak
 player.inactive Expulsé pour inactivité
 player.disconnect DÉCONNECTÉ
 timer.end Prochaine manche dans {0}

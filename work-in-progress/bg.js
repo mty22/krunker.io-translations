@@ -61,7 +61,7 @@ generic.accuracy Точност
 player.waiting изчакване на играчи
 player.died Ти умря
 player.killed Убит от
-player.killstreak {0} е на {1} Kill Streak
+player.killstreak {0} on a {1} Kill Streak
 player.inactive Изгонен за бездействие
 player.disconnect ВРЪЗКАТА ПРЕКЪСНА
 timer.end Следващият рунд след {0}

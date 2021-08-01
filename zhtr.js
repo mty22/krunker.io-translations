@@ -61,7 +61,7 @@ generic.accuracy 命中率
 player.waiting 等待更多玩家加入
 player.died 死了
 player.killed 被此玩家擊殺
-player.killstreak {0} 已達到 {1} 連殺
+player.killstreak {0} on a {1} Kill Streak
 player.inactive 由於不活躍，遊戲已斷開連接
 player.disconnect 連接已斷開
 timer.end 下一場將在 {0} 後開始

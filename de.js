@@ -61,7 +61,7 @@ generic.accuracy Genauigkeit
 player.waiting Warten auf Spieler
 player.died Du bist gestorben
 player.killed getötet von
-player.killstreak {0} on a {1} Kill-Streak
+player.killstreak {0} on a {1} Kill Streak
 player.inactive Wegen Inaktivität entfernt
 player.disconnect VERBINDUNG UNTERBROCHEN
 timer.end Nächste Runde in {0}

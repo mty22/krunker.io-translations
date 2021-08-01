@@ -11,7 +11,7 @@ This repo contains all the language files for [krunker.io](https://krunker.io)
 
 Project information and discussion on Discord can be found in [Krunker Bunker](https://discord.gg/krunker) channels #krunker-translation and #krunker-translators. In order to participate, you will need to react to respective 'Translator Notif' role to gain access.
 
-New here? Want to know what you can help with? First, have a look at the current [status.txt](https://raw.githubusercontent.com/mty22/krunker.io-translations/main/status.txt) file which gives you a quick overview of what's going on!
+*New here? Want to know what you can help with?* First, have a look at the current [status.txt](https://raw.githubusercontent.com/mty22/krunker.io-translations/main/status.txt) file which gives you a quick overview of what's going on!
 
 Happy to continue and not sure on how to use GitHub? Have a look at this [Introduction to GitHub](https://lab.github.com/githubtraining/introduction-to-github) tutorial as it may answer many common questions!
 
@@ -62,10 +62,34 @@ If you need any assistance, please reach out to Translator Contributors in [Krun
 
 Known issues
 ------
-- [Issue with grammar](https://github.com/mty22/Krunker-Languages/issues/1)
+- [Issue with "kill streak" grammar](https://github.com/mty22/Krunker-Languages/issues/1)
 - [Issue with Arabic language](https://github.com/mty22/krunker.io-translations/issues/2)
 
+Current Krunker language support
+------
 
+As of Krunker version [v4.1.4](https://krunker.io/docs/versions.txt), the following languages have been added to the game:
+
+- [English](https://github.com/mty22/krunker.io-translations/blob/main/en.js)
+- [Spanish](https://github.com/mty22/krunker.io-translations/blob/main/es.js)
+- [German](https://github.com/mty22/krunker.io-translations/blob/main/de.js)
+- [Korean](https://github.com/mty22/krunker.io-translations/blob/main/kr.js)
+- [Portuguese](https://github.com/mty22/krunker.io-translations/blob/main/pr.js)
+- [Japanese](https://github.com/mty22/krunker.io-translations/blob/main/jp.js)
+- [Simplified Chinese](https://github.com/mty22/krunker.io-translations/blob/main/zh.js)
+- [Traditional Chinese](https://github.com/mty22/krunker.io-translations/blob/main/trzh.js)
+- [French](https://github.com/mty22/krunker.io-translations/blob/main/fr.js)
+- [Finnish](https://github.com/mty22/krunker.io-translations/blob/main/fi.js)
+- [Dutch](https://github.com/mty22/krunker.io-translations/blob/main/nl.js)
+- [Hindi](https://github.com/mty22/krunker.io-translations/blob/main/hi.js)
+- [Polish](https://github.com/mty22/krunker.io-translations/blob/main/pl.js)
+- [Russian](https://github.com/mty22/krunker.io-translations/blob/main/ru.js)
+- [Italian](https://github.com/mty22/krunker.io-translations/blob/main/it.js)
+- [Tagalog](https://github.com/mty22/krunker.io-translations/blob/main/tg.js)
+
+Pending to be added:
+
+- [Turkish](https://github.com/mty22/krunker.io-translations/blob/main/work-in-progress/tr.js)
 
 Contributors
 ------
@@ -87,32 +111,3 @@ Contributors
 
 
 Please note that all contributors will be moved to a new file in the future. If you contributed to this project, feel free top update the content above by submitting a pull request.
-
-Current Krunker language support
-------
-
-As of Krunker version [v4.0.9](https://krunker.io/docs/versions.txt), the following languages have been added to the game:
-
-- [English](https://github.com/mty22/krunker.io-translations/blob/main/en.js)
-- [Spanish](https://github.com/mty22/krunker.io-translations/blob/main/es.js)
-- [German](https://github.com/mty22/krunker.io-translations/blob/main/de.js)
-- [Korean](https://github.com/mty22/krunker.io-translations/blob/main/kr.js)
-- [Portuguese](https://github.com/mty22/krunker.io-translations/blob/main/pr.js)
-- [Japanese](https://github.com/mty22/krunker.io-translations/blob/main/jp.js)
-- [Simplified Chinese](https://github.com/mty22/krunker.io-translations/blob/main/zh.js)
-- [French](https://github.com/mty22/krunker.io-translations/blob/main/fr.js)
-- [Finnish](https://github.com/mty22/krunker.io-translations/blob/main/fi.js)
-- [Dutch](https://github.com/mty22/krunker.io-translations/blob/main/nl.js)
-- [Hindi](https://github.com/mty22/krunker.io-translations/blob/main/hi.js)
-- [Polish](https://github.com/mty22/krunker.io-translations/blob/main/pl.js)
-- [Russian](https://github.com/mty22/krunker.io-translations/blob/main/ru.js)
-
-Pending to be added:
-
-- [Traditional Chinese](https://github.com/mty22/krunker.io-translations/blob/main/trzh.js)
-- [Italian](https://github.com/mty22/krunker.io-translations/blob/main/it.js)
-- [Tagalog](https://github.com/mty22/krunker.io-translations/blob/main/tg.js)
-
-Potential future language:
-
-- [Turkish](https://github.com/mty22/krunker.io-translations/blob/main/work-in-progress/tr.js)
