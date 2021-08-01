@@ -7,11 +7,11 @@ French - Up to date (v4.0.9)
 Japanese - Up to date (v4.0.9)
 Italian - Up to date (v4.0.9)
 Korean - Up to date (v4.0.9)
+Traditional Chinese - Up to date (v4.0.9)
+Polish - Up to date (v4.0.9)
 
 Simplified Chinese - PR pending (v3.8.6)
-Traditional Chinese - PR pending (v3.8.2)
 Tagalog - PR pending (v3.8.6)
-Polish - PR pending (v3.8.6)
 
 German - Updates required (v3.8.6)
 Portuguese - Updates required (v3.8.6)
