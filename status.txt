@@ -16,6 +16,6 @@ Tagalog - PR pending (v3.8.6)
 German - Updates required (v3.8.6)
 Portuguese - Updates required (v3.8.6)
 Finnish - Updates required (far behind, last update: pre-v3.8.0)
-Dutch - Updates required (last update: v3.8.2)
-Hindi - Updates required (v3.8.6)
+Dutch - Updates required (last update: v3.8.2) - see https://github.com/mty22/krunker.io-translations/issues/219
+Hindi - Updates required (v3.8.6) - see https://github.com/mty22/krunker.io-translations/issues/221
 Russian - Updates required (v3.8.6)
