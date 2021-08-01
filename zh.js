@@ -4,7 +4,7 @@ menu.btn.shop 商城
 menu.btn.social 社区
 menu.btn.maps 地图
 menu.btn.mods 模组
-menu.btn.settings 设定
+menu.btn.settings 设置
 menu.btn.customize 自定义
 menu.btn.invite 邀请
 menu.btn.invite.clicked 已复制
@@ -43,13 +43,13 @@ generic.games 游戏
 generic.wins 胜场
 generic.lose 败场
 generic.clan 战队
-generic.games.played 已玩游戏数
+generic.games.played 游玩局数
 generic.games.won 胜场数
 generic.games.lost 败场数
 generic.timep 游玩时间
 generic.kills 击杀数
 generic.deaths 死亡数
-generic.kdr 击杀死亡比例
+generic.kdr 战损率
 generic.time 时间
 generic.logout 注销
 generic.logout.sessions 为所有设备注销
@@ -68,7 +68,7 @@ timer.end 下一场将在 {0} 后开始
 leaderboard.empty 空房间
 popup.checkpoint 检查点！
 app.play 点此开始游戏
-app.spectate 点此处观战
+app.spectate 点此开始观战
 app.play.mobile 点击屏幕开始游戏
 app.spectate.mobile 点击屏幕开始观战
 app.play.controller 按下开始游戏
@@ -76,8 +76,8 @@ app.spectate.controller 按下开始观战
 purchase.error 出现错误
 purchase.error.click 点此</a> 并重试！
 purchase.error.limit 您已超出每日交易限额
-settings.reset 重设
-settings.reset.confirm 您是否希望重设所有设定？
+settings.reset 重置
+settings.reset.confirm 您是否希望重置所有设置？
 settings.import 下载
 settings.export 上传
 settings.none 没有找到该设置
@@ -85,11 +85,11 @@ settings.backup 备份设置
 settings.controls.change 按键绑定
 settings.controls.press 按下任意按键
 settings.local.header 本地化 <span id="requiresRestart"><span style="color: #eb5656">*</span> 需要重启游戏</span>
-settings.local.region 默认区域
+settings.local.region 默认服务器地区
 settings.local.lang 语言
 settings.network.header 网路
 settings.network.sendRate 高服务器应答率
-settings.network.netRerouting 自动
+settings.network.netRerouting 自动路由
 settings.network.lagComp 延迟修正
 settings.network.hitReg 子弹碰撞判定测试
 settings.popup.header 弹窗
@@ -106,13 +106,13 @@ settings.client.experimental 实验性功能
 settings.client.discordRPC 启用Discord RPC
 settings.client.resourceSwapper 资源包
 settings.client.clearCache 清除缓存
-settings.client.resetSettings 重设客户端设置
+settings.client.resetSettings 重置客户端设置
 settings.client.acceleratedCanvas 启用加速画布 (Accelerated Canvas)
 settings.client.angleBackend ANGLE图形后端
 settings.client.colorProfile 色彩配置文件
 settings.dev.header 开发者
 settings.dev.forceUpdate 强制刷新皮肤
-settings.dev.forceRegen 玩家保持回血状态
+settings.dev.forceRegen 强制回血
 settings.dev.extraBan 更多玩家禁赛信息
 settings.chat.header 聊天
 settings.chat.chat 显示聊天窗口
@@ -136,7 +136,7 @@ settings.quality.noTex 无贴图
 settings.quality.partdist 粒子渲染距离
 settings.quality.renderdist 渲染距离
 settings.quality.reflection 光线反射
-settings.quality.antiAlias 锯齿
+settings.quality.antiAlias 抗锯齿
 settings.quality.shadows 阴影
 settings.quality.softShad 软阴影
 settings.quality.highResShad 高分辨率阴影
@@ -185,7 +185,7 @@ settings.interface.ping 显示网络延迟
 settings.interface.net-stats 显示网络状况
 settings.interface.fps 显示帧数
 settings.interface.deaths 显示死亡数
-settings.interface.kd 显示击杀死亡比例
+settings.interface.kd 显示战损率
 settings.interface.kills 显示击杀数
 settings.interface.streak 显示连杀数
 settings.interface.score 显示分数
@@ -317,9 +317,9 @@ settings.viewmodel.show.hands 显示手部
 settings.viewmodel.leftHand 左手持枪
 settings.viewmodel.aimAnim 武器开镜动画
 settings.viewmodel.rot 武器位置旋转
-settings.viewmodel.xOff 武器X轴坐标（左/右）
-settings.viewmodel.yOff 武器Y轴坐标（上/下）
-settings.viewmodel.zOff 武器Z轴坐标（前/后）
+settings.viewmodel.xOff 武器X轴坐标（左、右）
+settings.viewmodel.yOff 武器Y轴坐标（上、下）
+settings.viewmodel.zOff 武器Z轴坐标（前、后）
 settings.viewmodel.weapSwapY 切枪时武器的垂直位置
 settings.viewmodel.weapReloadY 换弹时武器的垂直位置
 settings.viewmodel.yOffADS 开镜时武器的垂直位置
@@ -398,8 +398,8 @@ settings.mods.damage.paste 受伤屏幕效果网址
 settings.mods.overlay 游戏结束图标
 settings.mods.overlay.paste 游戏叠层图片网址
 settings.social.region 各地区统计数据
-windows.settings.header 游戏设定
-windows.mail.header Krunker 邮箱
+windows.settings.header 游戏设置
+windows.mail.header Krunker邮箱
 windows.servers.header 服务器
 windows.servers.none 无可加入游戏...
 windows.servers.host + 创建游戏
@@ -438,7 +438,7 @@ windows.mods.guide 模组指南
 windows.mods.list 模组列表
 windows.mods.load.header 加载模组
 windows.mods.publish 发布模组
-windows.mods.viewer 观看者
+windows.mods.viewer 名观众
 windows.account.header 帐号
 windows.account.recover 联系 <a>recovery@yendis.ch</a> 找回账号密码
 windows.class.header 选择武器类别
@@ -453,7 +453,7 @@ windows.controls.shoot 射击
 windows.controls.inspect 查看武器
 windows.controls.spray 涂鸦
 windows.controls.jump 跳跃
-windows.controls.crouch 蹲下/滑铲
+windows.controls.crouch 蹲下或滑铲
 windows.controls.prim 主武器
 windows.controls.swap 副武器
 windows.controls.melee 近战武器
@@ -465,7 +465,7 @@ windows.controls.board 排行榜
 windows.controls.interact 交互
 windows.controls.interactSec 次要交互
 windows.controls.confirm 确认交互
-windows.controls.drop 放下（武器/物品）
+windows.controls.drop 放下（武器、物品）
 windows.controls.wepVis 切换武器可见度
 windows.controls.kickVoteY 投票踢出玩家［是］
 windows.controls.kickVoteN 投票踢出玩家［否］
@@ -488,15 +488,15 @@ windows.controls.dev0 开发者专用键1
 windows.controls.dev1 开发者专用键2
 windows.controls.dev2 开发者专用键3
 windows.controls.dev3 开发者专用键4
-windows.controls.reset 重设进度并回到起点（仅限于跑酷、速度竞赛模式）
+windows.controls.reset 重置进度并回到起点（仅限于跑酷和速度竞赛模式）
 windows.controls.pretend 隐藏游戏
 windows.host.header 创建自定义游戏
-windows.host.maps 服务器设定
-windows.host.cmaps 社区提供的地图
+windows.host.maps 服务器设置
+windows.host.cmaps 社区地图
 windows.host.raw 原始游戏数据
-windows.host.modes 选择模式
+windows.host.modes 选择游戏模式
 windows.host.classes 选择武器类别
-windows.host.settings 服务器设定
+windows.host.settings 服务器设置
 windows.host.preset 创建预设
 windows.host.preset.load 加载预设中...
 windows.host.preset.name 预设名称
@@ -514,7 +514,7 @@ windows.maps.community 地图开发者社区
 windows.publish.map.header 发布或更新地图
 windows.publish.map.thumbnail 没有缩略图
 windows.publish.map.paste 粘贴游戏数据
-windows.publish.map.update 发布/更新地图
+windows.publish.map.update 发布或更新
 windows.publish.map.login 创建并上传您的地图！
 windows.theatre.header 影院模式
 windows.theatre.record 启用录制
@@ -539,14 +539,14 @@ windows.store.market 市场
 windows.store.market2 Krunker市场
 windows.store.premium 购买会员
 windows.store.premium2 Krunker会员
-windows.store.buyP 在购买会员后，您将可以自定义您的游戏用户名+体验更多专用功能！
+windows.store.buyP 在购买会员后，您将可以自定义您的游戏用户名和体验更多专用功能！
 windows.store.buy 买卖物品
 windows.store.wheels 转盘
 windows.store.unlock 解锁新武器和物品
 windows.store.amount 您的账号中还有{0}KR
 windows.store.login 用于在商店中购买和解锁物品！
 windows.store.purchasing 购买中...
-windows.store.unboxed {0} 开箱获得了 {1}
+windows.store.unboxed {0}开箱获得了{1}
 windows.trade.header 交易
 windows.scope.header 选择您的狙击镜准心
 windows.premium.header 会员
@@ -574,7 +574,7 @@ windows.publish.mod.header 发表模组
 windows.publish.mod.thumbnail 没有缩略图
 windows.publish.mod.name 模组名称
 windows.publish.mod.paste 模组网址
-windows.publish.mod.update 发布/更新
+windows.publish.mod.update 发布或更新
 windows.publish.mod.login 请登录以创建并上传！
 windows.secondary.header 选择副武器
 windows.secondary.unlocked 已解锁
@@ -588,9 +588,9 @@ windows.players.none 当前没有玩家...
 windows.join.header 加入
 windows.join.code 输入房间网址
 windows.client.header 客户端
-windows.client.windows Windows 游戏客户端
-windows.client.mac macOS 游戏客户端
-windows.client.linux Linux 游戏客户端
+windows.client.windows Windows游戏客户端
+windows.client.mac macOS游戏客户端
+windows.client.linux Linux游戏客户端
 windows.ranked.header 排位赛
 windows.ranked.login 登录以进行排位赛！
 windows.ranked.level 您至少需要 <span color="black"> {0} 级</span> 以进行排位赛！当前您的等级是 <span color="black"> {1} 级</span>.
@@ -657,7 +657,7 @@ server.config.killRewards 击杀奖励
 server.config.headshotOnly 仅限重击模式
 server.config.noSecondary 禁用副武器
 server.config.noStreaks 禁用连杀
-server.config.canSlide 可以滑铲
+server.config.canSlide 启用滑铲
 server.config.wallJP 墙壁跳跃倍率
 server.config.autoJump 自动跳跃
 server.config.bDrop 子弹下坠
@@ -690,13 +690,13 @@ server.config.fallDmg 开启摔落伤害
 server.config.fallDmgThr 摔落伤害阈值
 server.config.noDraws 没有平局
 server.config.bstOfR 最佳玩家
-social.login 登录/注册
+social.login 登录或注册
 social.login.failed 登录失败
 social.login.buy 登录后才可购买
 social.login.sell 登录后出售
 social.login.gift 登录后赠送
 social.login.proccessing 登录中...
-social.since 自从
+social.since 始于
 social.user.maps 用户的地图
 social.user.mods 用户的模组
 social.maps.none 没有找到游戏...
@@ -726,7 +726,7 @@ social.market.dye 衣服
 social.market.none 没有找到该物品
 social.market.login 您必须先登录
 social.market.grace {0}秒后生效
-social.market.sort 筛选/排序
+social.market.sort 筛选或排序
 social.market.filter 搜索
 social.market.sort2 排序
 social.market.price.high 最高价格
@@ -743,8 +743,8 @@ custom.passcode.long 密码过长
 custom.passcode.input 请输入房间密码
 custom.tryagain 请重试
 purchase.kr.success 已成功将{0}KR加入您的账号
-limited.purchase.ask 您确定要以{1}KR购买 {0} 吗？
-limited.purchase.success 已成功将 {0} 加入您的账号
+limited.purchase.ask 您确定要以{1}KR购买{0}吗？
+limited.purchase.success 已成功将{0}加入您的账号
 pretend.exit 再次点击[{0}]以退出
 settings.loaded 设置已加载
 settings.loaded.none 该设置并不存在
@@ -752,13 +752,13 @@ account.login.required 您必须先登录
 account.banned.hack 此账号已因为使用外挂被禁赛
 account.banned.appeal 如果您认为您的账号被误封，请联系：
 account.delete 如果您的账号删除申请在14天內没有被撤销，所有关于此账号的信息将会被抹除。
-account.delete.request 您确定要申请账号删除吗？
+account.delete.request 您确定要申请删除您的账号吗？
 account.delete.cancel 您确定要撤销账号删除申请吗？
 spin.free.available 免费KR已准备完毕！
 spin.free.claim 此转盘仅可在每小时完成一局比赛后获得
 spin.free.disable 免费KR弹窗可以在设置中禁用
 mod.reset.0 该设置将会在玩家重生后生效
-mod.reset.1 地图将不会被重设
+mod.reset.1 地图将不会被重置
 windows.profile.picture 更改头像
 stats.assists 助攻数
 stats.nukes 使用核弹数
@@ -773,45 +773,45 @@ windows.host.default.commands 房主指令（如/god，/smite，/noclip，等等
 windows.host.rewards 打开KR奖励功能后，玩家可以在地图内获得KR奖励，但是自定义设置将会被禁用。
 windows.store.wheels.sub 试试这些转盘，您将会有机会获得全新皮肤！
 windows.store.currency *美元和您所在地区货币的汇率将会由支付服务提供商或您使用的银行决定
-windows.store.creator 在购买KR时，您可以使用创作者专用码以支持您喜爱的视频/地图/模组创作者。
-windows.chall.customs 您不可在自定义房间中完成挑战。
+windows.store.creator 在购买KR时，您可以使用创作者专用码以支持您喜爱的内容创作者。
+windows.chall.customs 您不能在自定义房间中完成挑战。
 twitch.link 您确定要链接您的Twitch账号吗？
 twitch.unlink 您确定要取消链接吗？
 windows.clan.leave 您确定要离开该战队吗？
 windows.clan.delete 您确定要解散该战队吗？
-windows.clan.kick 您确定要将 {0} 踢出您的战队吗？
+windows.clan.kick 您确定要将{0}踢出您的战队吗？
 windows.store.premium.purchase 您确定要购买{0}天的会员吗？
-windows.store.premium.gift 您确定要赠送 {0} {1}天的会员吗？
-windows.playerlist.ban 您确定要将 {0} 禁赛吗？
-windows.playerlist.flag 您确定要标记 {0} 为外挂用户吗？
-windows.playerlist.unflag 您确定要取消标记 {0} 吗？
-windows.playerlist.punish 您确定要对 {0} 采取措施吗？
-item.view.open 打开模型浏览工具
+windows.store.premium.gift 您确定要赠送'{0}' {1}天的会员吗？
+windows.playerlist.ban 您确定要将{0}禁赛吗？
+windows.playerlist.flag 您确定要标记{0}为外挂用户吗？
+windows.playerlist.unflag 您确定要取消标记{0}吗？
+windows.playerlist.punish 您确定要对{0}采取措施吗？
+item.view.open 打开模型浏览器
 item.view.more 更多信息
 item.sell.cant 物品无法出售
-item.sell.quick 您确定要闪售 {0} 吗？
+item.sell.quick 您确定要闪售{0}吗？
 social.profile.stats 综合战绩
 social.profile.class 各武器类别战绩
 social.profile.sales 出售记录
 social.profile.sales.market 市场出售记录
-social.profile.skins [{0}] 个物品
+social.profile.skins {0}个物品
 social.profile.skins.none 此用户未发布任何皮肤
-social.profile.games [{0}] 个游戏地图
+social.profile.games {0}个游戏地图
 social.profile.games.none 此用户未发布任何游戏地图
-social.profile.assets [{0}] 个地图组件
+social.profile.assets {0}个地图组件
 social.profile.assets.none 此用户未发布任何地图组件
-social.profile.mods [{0}] 个插件
-social.profile.mods.none 此用户未发布任何游戏插件
+social.profile.mods {0}个模组
+social.profile.mods.none 此用户未发布任何游戏模组
 social.search 搜索结果
 social.market.stats.rare 最稀有的物品
 social.market.stats.circulation 在拍卖中
 social.market.stats.units 全球物品数量
 social.trades.in 收到的请求
-social.trades.in.head 收到了 ({0}) 个交易请求
+social.trades.in.head 收到了{0}个交易请求
 social.trades.out 发送的请求
-social.trades.out.head 发送了 ({0}) 个交易请求
+social.trades.out.head 发送了{0}个交易请求
 social.trades.history 交易记录
-social.trades.history.head ({0}) 个交易记录
+social.trades.history.head {0}个交易记录
 social.trades.decline 全部拒绝
 social.trades.message 在设置中开启交易请求信息
 social.trades.warning 您将不会在此交易中获得任何物品！
