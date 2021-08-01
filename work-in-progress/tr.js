@@ -61,7 +61,7 @@ generic.accuracy Tutarlılık
 player.waiting Oyuncular Bekleniyor
 player.died Öldün
 player.killed Tarafından Öldürüldün
-player.killstreak {0} {1} Öldürme Serisindesin
+player.killstreak {0} on a {1} Kill Streak
 player.inactive İnaktiflikten Dolayı Atıldınız
 player.disconnect BAGLANTI KESİLDİ
 timer.end Sonraki maç için {0} kaldı

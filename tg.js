@@ -61,7 +61,7 @@ generic.accuracy Accuracy
 player.waiting Naghihintay ng mga manlalaro
 player.died Ikaw ay namatay
 player.killed {0} Pumatay kay {1}
-player.killstreak {0} nasa {1} Kill Streak
+player.killstreak {0} on a {1} Kill Streak
 player.inactive Pina-alis dahil sa walang aktibidad
 player.disconnect HINDI MAKAKONEKTA
 timer.end Susunod na laro sa {0}

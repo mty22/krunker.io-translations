@@ -61,7 +61,7 @@ generic.accuracy Pontosság
 player.waiting várakozás játékosokra
 player.died Meghaltál
 player.killed {0} megölt
-player.killstreak {0} {1} ember ölt meg sorozatban
+player.killstreak {0} on a {1} Kill Streak
 player.inactive Inaktivitásért kirúgva
 player.disconnect LECSATLAKOZVA
 timer.end Következő játék indul: {0}

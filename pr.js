@@ -61,7 +61,7 @@ generic.accuracy Precisão
 player.waiting Esperando Por Jogadores
 player.died Você Foi Abatido
 player.killed Abatido Por
-player.killstreak {0} Em Uma {1} Sequência de Abates
+player.killstreak {0} on a {1} Kill Streak
 player.inactive Expulso por Inatividade
 player.disconnect DESCONECTADO
 timer.end Próxima Partida Em {0}
