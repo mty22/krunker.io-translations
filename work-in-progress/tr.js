@@ -116,7 +116,7 @@ settings.dev.forceRegen Oyuncuyu Her Zaman Yenile
 settings.dev.extraBan Ekstra Ban Bilgisi
 settings.chat.header Sohbet
 settings.chat.chat Sohbet Kutucuğunu Göster
-settings.chat.chat.all Always
+settings.chat.chat.all Her Zaman
 settings.chat.chat.focus Odaklanmışken
 settings.chat.messages Oyuncu Mesajlarını Göster
 settings.chat.unboxings Açılan Kutuları Göster
@@ -174,7 +174,7 @@ settings.interface.scale UI Ölçeği
 settings.interface.ui UI'yi Göster
 settings.interface.scoreboard Eski Skor Tablosunu Kullan
 settings.interface.oldBrowser Eski Tarayıcıyı Kullan
-settings.interface.rarityanim Nadirlik Animasyonunu Kapt
+settings.interface.rarityanim Nadirlik Animasyonunu Kapat
 settings.interface.showPfp Profil Fotoğraflarını Göster
 settings.interface.showTradeMsg Takas Mesajlarını Göster
 settings.interface.hideNonTrade Takas Edilemeyen Skinleri Gizle
@@ -186,7 +186,7 @@ settings.interface.net-stats Bağlantı İstatistiklerini Göster
 settings.interface.fps FPS Düzeyini Göster
 settings.interface.deaths Ölüm Sayacını Göster
 settings.interface.kd K/D Sayacını Göster
-settings.interface.kills Kill Sayacını Göster
+settings.interface.kills Öldürme Sayacını Göster
 settings.interface.streak Öldürme Serisi Sayacını Göster
 settings.interface.score Skor Sayacını Göster
 settings.interface.spectators İzleyici Sayacını Göster
@@ -282,7 +282,7 @@ settings.controller.deadZoneR Ölü Bölge (Sağ)
 settings.controller.triggerThres Tetik Eşiği
 settings.controller.vibration Titreşim
 settings.controller.gradSpeed Kademeli Hız
-settings.controller.invert Invert Y-Axis
+settings.controller.invert Y Eksenini Ters Çevir
 settings.mobile.header Mobil
 settings.mobile.sensitivityX X Duyarlılığı
 settings.mobile.sensitivityY Y Duyarlılığı
@@ -373,9 +373,9 @@ settings.mods.borderOpac Dürbün Kenarları Opaklığı
 settings.mods.scope Scope Resim
 settings.mods.scope.paste Dürbün Resmi URL'si
 settings.mods.scope.opacity Dürbün Opaklığı
-settings.mods.scope.width Scope Image Width
-settings.mods.scope.height Scope Image Height
-settings.mods.dot Reticle Image
+settings.mods.scope.width Dürbün Resim Genişliği
+settings.mods.scope.height Dürbün Resim Uzunluğu
+settings.mods.dot Nişangah Resmi
 settings.mods.dot.width Dürbün Resmi Kalınlığı
 settings.mods.dot.height Dürbün Resmi Yüksekliği
 settings.mods.dot.paste Şebeke URL'si
