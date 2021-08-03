@@ -73,7 +73,7 @@ app.play.mobile खेलने के लिए टैप करें
 app.spectate.mobile स्पैक्टेट करे
 app.play.controller START दबाएं
 app.spectate.controller स्पैक्टेट करे
-purchase.error ERROR
+purchase.error एरर
 purchase.error.click यहां क्लिक करें  </a> और फिर से प्रयास करें!
 purchase.error.limit आप अपनी दैनिक लेनदेन सीमा को पार कर चुकें हैं
 settings.reset रीसेट
@@ -358,7 +358,7 @@ settings.editing.feedLimit किलफीड सीमा
 settings.editing.depth डेप्थ मैप
 settings.editing.green ग्रीन स्क्रीन
 settings.editing.trailcol Bullet Trail Color
-settings.editing.ropecol Grapple Rope Color
+settings.editing.ropecol Grapple रस्सी का रंग 
 settings.editing.tracercol बुलेट  ट्रेसर का रंग
 settings.editing.tracer बुलेट  ट्रेसर
 settings.editing.tracer.offset ट्रेसर ऑफसेट
@@ -676,7 +676,7 @@ server.config.forceSpawn औटो रेस्पॉन समय
 server.config.intermTmr Intermission (s)
 server.config.scoreLimit स्कोर सीमा
 server.config.keepTScore दल का स्कोर रखे
-server.config.forceC Force Mode Classes
+server.config.forceC मोड क्लासेज को बलपूर्वक लागू करे 
 server.config.logTim समय का पता (दौड़,पारकोर)
 server.config.hitBoxPad हिटबॉक्स पैडिंग
 server.config.hpRegen स्वास्थ्य पुनर्जन्म
@@ -812,7 +812,7 @@ social.trades.out भेजे गए
 social.trades.out.head भेजी गयी ट्रेड्स ({0})
 social.trades.history इतिहास
 social.trades.history.head व्यापार का इतिहास - ({0})
-social.trades.decline सभी ट्रेड्स को खारिज करे
+social.trades.decline सभी व्यापारों को खारिज करे
 social.trades.message कृपया सेटिंग से व्यापार संदेश सक्षम करें
 social.trades.warning आपको इस व्यापार से कोइ वस्तु नही मिलेगा!
 social.trades.accept क्या आप वास्तव में इस ट्रेड को स्वीकार करना चाहते हैं?
