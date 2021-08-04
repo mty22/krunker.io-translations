@@ -95,7 +95,8 @@ settings.network.hitReg Hitreg Test
 settings.popup.header Mga Popups
 settings.popup.freeKRPop Ipakita ang Libreng KR Popup
 settings.experimental.header Experimental na Header
-settings.experimental.aimFreezeFix Ayusin ang Aim Freeze
+settings.experimental.aimFreezeFix Pag-ayos ng Aim Freeze
+
 settings.experimental.mouseFlickFix Pag-ayos ng Mouse Flick
 settings.experimental.shaderRendering Pag-render
 settings.experimental.staticRendering Static na Rendering
@@ -109,7 +110,7 @@ settings.client.clearCache I-clear ang Cache
 settings.client.resetSettings I-reset ang Settings ng Kliyent
 settings.client.acceleratedCanvas Accelerated ang Canvas
 settings.client.angleBackend ANGLE Graphics ang Backend
-settings.client.colorProfile Color ng Profile
+settings.client.colorProfile Profile ng Kulay
 settings.dev.header Sa Developer
 settings.dev.forceUpdate Sapilitang I-Update ang mga skins
 settings.dev.forceRegen Laging Regenerate ang Player
@@ -267,7 +268,7 @@ settings.gameplay.sensitivityX X Sensitivity
 settings.gameplay.sensitivityY Y Sensitivity
 settings.gameplay.aimsensX  X Sensitivity sa pagpuntirya (Aim)
 settings.gameplay.aimsensY  Y Sensitivity sa pagpuntirya (Aim)
-settings.gameplay.challenge Mga Pagsubok at Hamon
+settings.gameplay.challenge Challenge Mode
 settings.gameplay.invert Baligtarin ang Y-Axis
 settings.gameplay.onkillS Sa Pagpatay
 settings.gameplay.scrollDir Direksyon sa Pag-iskroll
@@ -482,8 +483,8 @@ windows.controls.streak3 Streak 4
 windows.controls.streak4 Streak 5
 windows.controls.premium0 Naka noclip
 windows.controls.premium1 Naka godmode
-windows.controls.premium2 Pumatay
-windows.controls.premium3 Hampasin
+windows.controls.premium2 Patayin
+windows.controls.premium3 Smite
 windows.controls.dev0 Bind ng Dev 1
 windows.controls.dev1 Bind ng Dev 2
 windows.controls.dev2 Bind ng Dev 3
@@ -533,9 +534,9 @@ windows.store.header Tindahan
 windows.store.spin {0} Premyo
 windows.store.agree Sa pamamagitan ng pagbili sumasang-ayon ka sa {0} Mga Tuntunin
 windows.store.purchase Bumili ng KR
-windows.store.voucher Kunin ang voucher
+windows.store.voucher Gamitin ang voucher
 windows.store.voucherinfo Kumuha ng mga Voucher mula sa maraming mga Streamer at kaganapan
-windows.store.market Palengke
+windows.store.market Merkado
 windows.store.market2 Krunker Merkado
 windows.store.premium Bumili ng Premium
 windows.store.premium2 Krunker Premium
@@ -545,7 +546,8 @@ windows.store.wheels Mga Prize Wheels
 windows.store.unlock I-unlock ang mga bagong disenyo ng mga armas at kagamitan
 windows.store.amount {0} KR sa account
 windows.store.login upang bumili at mag-unlock ng mga item mula sa tindahan!
-windows.store.purchasing Bumibili ...
+windows.store.purchasing Binibili ...
+
 windows.store.unboxed {0} ay naka-unbox ng {1} 
 windows.trade.header Kalakalan
 windows.scope.header Pumili ng scope
@@ -597,8 +599,10 @@ windows.ranked.level Hindi ka bababa sa Antas na <span color = "black"> level {0
 windows.ranked.mode.r1v1 Solo
 windows.ranked.mode.r2v2 Duo
 windows.ranked.mode.r4v4 Quad
-windows.chall.header Mga Hamon
-windows.chall.login upang makumpleto ang mga hamon!
+windows.chall.header Mga Challenge
+
+windows.chall.login upang makumpleto ang mga challenge!
+
 thumbnail.upload.limit Failed. {0}kb Thumbnail Limit
 image.upload.limit Failed. {0}kb ang Limitasyon ng Larawan
 thumbnail.upload.error Thumbnail Error
@@ -606,30 +610,32 @@ mod.extracting Kumukuha ng {0} / {1}
 mod.disabled hindi pinagana ang mga mod
 mod.error Error sa mod!
 mod.loading Naglo-load ng mod ...
-mod.invalid Di-wastong mod file!
+mod.invalid Imbalidong mod file!
 matchmaker.full PUNO
 matchmaker.full2 Puno na ang laro.
 matchmaker.updating NAG-UUPDATE ANG LARO
-matchmaker.invalid Hindi nahanap ang laro.
+matchmaker.invalid Hindi mahanap ang laro.
+
 matchmaker.none Ang mga server ay nasa Max Capacity
 adblocker Huwag paganahin ang iyong ad-blocker upang makatanggap ng mga libreng KR.
-ad-failed Nabigong Mag-load ang Ad. Subukang muli.
+ad-failed Hindi Nag-load ang Ad. Subukang muli.
 streamers.views {0} ang mga Nanonood
 streamers.none Walang mga aktibong stream!
-error.extentions Kung mayroon kang anumang mga extension, huwag paganahin ang mga ito
+error.extentions Kung mayroon kang anumang mga extension, tanggalin ang mga ito
 error.seek Subukang maghanap ng bagong laro sa pamamagitan ng pag-click
 custom.map.upload.limit Nabigo. Limitasyon sa Data ng Laro ng 500k na karakter.
 custom.map.missing Pumili ng hindi bababa sa isang Laro o Mapa
 custom.mode.missing Pumili ng kahit isang Mode lang
 custom.class.missing Pumili ng kahit isang Klase lamang
 server.config.maxPlayers Mga manlalaro
-server.config.minPlayers Nangangailangang Manlalaro
+server.config.minPlayers Kailangan na Manlalaro
+
 server.config.lives Mga Buhay
 server.config.gameTime Minuto
 server.config.gravMlt Grabidad
 server.config.tickRI Mataas na Tickrate
 server.config.maxPS 40 na Manlalaro
-server.config.promServ Promosyon ng Server
+server.config.promServ I-Promote ang Server
 server.config.jumpMlt Pwersa ng pagtatalon
 server.config.airStrf Pag-strafe sa ere
 server.config.deltaMlt Scale ng Oras
@@ -780,7 +786,8 @@ twitch.unlink Siguradong nais mo bang i-unlink ang iyong Twitch account?
 windows.clan.leave Siguradong nais mo bang umalis sa hukbo/samahan ninyo?
 windows.clan.delete Siguradong nais mo bang tanggalin ang hukbo/samahan?
 windows.clan.kick Sigurado ka bang nais mong i-kick si {0} at tanggalin sa samahan?
-windows.store.premium.purchase Nais mong bumili ng {0} araw ng Premium?
+windows.store.premium.purchase Nais mo bang bumili ng {0} araw ng Premium?
+
 windows.store.premium.gift Nais mo bang regaluhin si '{0}' ng {1} na araw ng Premium?
 windows.playerlist.ban Sigurado ka bang nais mong ipagbawal si {0} mula sa larong ito?
 windows.playerlist.flag Sigurado ka bang nais mong I-flag si {0}?
@@ -788,7 +795,8 @@ windows.playerlist.unflag Sigurado ka bang nais mong I-Unflag si {0}?
 windows.playerlist.punish Sigurado ka bang nais mong parusahin ang manlalarong si {0}?
 item.view.open Buksan ang Model Viewer
 item.view.more Iba pang Impormasyon
-item.sell.cant Hindi mabenta ang kagamitan.
+item.sell.cant Hindi mabenta ang item na ito.
+
 item.sell.quick Sigurado ka bang ibebenta mo ito agad {0}?
 social.profile.stats Kabuoang statistika
 social.profile.class Statistika ng mga Klase
@@ -815,7 +823,7 @@ social.trades.history.head Kasaysayan ng Pag-kakalakalan ({0})
 social.trades.decline Tanggihan Lahat
 social.trades.message Payagan ang mga Trade Message at Pag-alok sa Settings
 social.trades.warning Wala kang makukuhang kagamitan sa Pag-alok na ito!
-social.trades.accept Nais mong tanggapin ang Pag-alok na ito?
-stats.airdrops KR-Packages
+social.trades.accept Nais mo bang tanggapin ang Pag-alok na ito?
+stats.airdrops Pakete ng KR
 settings.quality.flapAnim Animasyon ng Sniper flap
 `;
