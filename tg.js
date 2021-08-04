@@ -56,11 +56,11 @@ generic.logout.sessions Mag-logout sa lahat ng sesyon
 generic.username Username
 generic.password  Illagay ang password
 generic.register Mag-parehistro
-generic.login Mag log-in
+generic.login Log-in
 generic.accuracy Accuracy sa paglalaro
 player.waiting Naghihintay ng mga manlalaro
 player.died Ikaw ay namatay
-player.killed si {0} ay pumatay kay {1}
+player.killed Pinatay ni {0} si {1}
 player.killstreak si {0} nasa {1} Kill Streak
 player.inactive Tinanggal sa laro dahil sa walang aktibidad
 player.disconnect HINDI MAKAKONEKTA
@@ -84,7 +84,7 @@ settings.none Walang nahanap na mga settings.
 settings.backup Mga back-up settings
 settings.controls.change Lokal na Rehiyon 
 settings.controls.press Pindutin ang anumang key
-settings.local.header LoKalisasyon <span id="requiresRestart"><span style="color: #eb5656">*</span> nangangailangan ng restart</span>
+settings.local.header Lokalisasyon <span id="requiresRestart"><span style="color: #eb5656">*</span> nangangailangan ng restart</span>
 settings.local.region Default na Rehiyon
 settings.local.lang Wika
 settings.network.header Network
@@ -817,5 +817,5 @@ social.trades.message Payagan ang mga Trade Message at Pag-alok sa Settings
 social.trades.warning Wala kang makukuhang kagamitan sa Pag-alok na ito!
 social.trades.accept Nais mong tanggapin ang Pag-alok na ito?
 stats.airdrops KR-Packages
-settings.quality.flapAnim Animasyon ng Sniperflap
+settings.quality.flapAnim Animasyon ng Sniper flap
 `;
