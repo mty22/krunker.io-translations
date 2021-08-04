@@ -75,7 +75,7 @@ app.play.controller 按下開始鍵以開始遊戲
 app.spectate.controller 按下開始鍵以開始觀戰
 purchase.error 出現錯誤
 purchase.error.click 點此</a> 以重試！
-purchase.error.limit 您可能已超出每日交易限額
+purchase.error.limit 您已超出每日交易限額
 settings.reset 重設
 settings.reset.confirm 您是否希望重設所有設定？
 settings.import 匯入
@@ -425,7 +425,7 @@ windows.loadout.spray 塗鴉
 windows.loadout.color.skin 皮膚顏色
 windows.loadout.color.chat 聊天視窗中用戶名顏色
 windows.loadout.color.hair 頭髮顏色
-windows.loadout.dye 染色物品
+windows.loadout.dye 服裝染色
 windows.loadout.pet 寵物
 windows.loadout.stat 击杀戰績卡
 windows.loadout.flag 國家旗幟
@@ -560,9 +560,9 @@ windows.attach.header 選擇附件
 windows.reticle.header 選擇準星
 windows.reticle.unlocked 於 {0} 級解鎖
 windows.reticle.req 需要 {0} 級
-windows.dye.header 選擇染色物品
-windows.dye.default 默認染色物品
-windows.dye.spin 染色物品
+windows.dye.header 選擇服裝染色
+windows.dye.default 默認服裝染色
+windows.dye.spin 服裝染色
 windows.changelog.header 更新日誌
 windows.mods.community.header 社區模組
 windows.mods.community.fav 已收藏
@@ -722,7 +722,7 @@ social.market.shoe 鞋子
 social.market.pet 寵物
 social.market.melee 近戰武器
 social.market.spray 塗鴉
-social.market.dye 染色物品
+social.market.dye 服裝染色
 social.market.none 未找到任何物品
 social.market.login 您必須先登錄。
 social.market.grace {0} 秒後上架
@@ -794,13 +794,13 @@ social.profile.stats 綜合戰績
 social.profile.class 各武器類別戰績
 social.profile.sales 銷售記錄
 social.profile.sales.market 市場銷售額
-social.profile.skins {0} 個皮膚
+social.profile.skins [{0}] 個皮膚
 social.profile.skins.none 此用戶沒有已發行的皮膚
-social.profile.games {0} 個遊戲
+social.profile.games [{0}] 個遊戲
 social.profile.games.none 此用戶沒有已發行的遊戲
-social.profile.assets {0} 個地圖元件
+social.profile.assets [{0}] 個地圖元件
 social.profile.assets.none 此用戶沒有已發行的地圖元件
-social.profile.mods {0} 個模組
+social.profile.mods [{0}] 個模組
 social.profile.mods.none 此用戶沒有已發行的模組
 social.search 搜索結果
 social.market.stats.rare 最稀有物品
