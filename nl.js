@@ -61,7 +61,7 @@ generic.accuracy Nauwkeurigheid
 player.waiting wachten op spelers
 player.died Je stierf
 player.killed Gedood door
-player.killstreak {0} is op een {1} Kill Streak
+player.killstreak {0} on a {1} Kill Streak
 player.inactive Gekicked voor inactiviteit
 player.disconnect VERBINDING VERBROKEN
 timer.end Volgende ronde in {0}

@@ -91,14 +91,14 @@ settings.network.header ネットワーク
 settings.network.sendRate 高ティックレート
 settings.network.netRerouting 自動ルーティング (pingに影響します)
 settings.network.lagComp ラグ補正
-settings.network.hitReg Hitreg Test
+settings.network.hitReg 試験的な当たり判定
 settings.popup.header ポップアップ
 settings.popup.freeKRPop Free KRのポップアップを表示
 settings.experimental.header テスト中の設定
 settings.experimental.aimFreezeFix エイム中のフリーズを修正
 settings.experimental.mouseFlickFix エイム飛びの補正
 settings.experimental.shaderRendering インスタンスレンダリング
-settings.experimental.staticRendering Static Rendering
+settings.experimental.staticRendering 静的レンダリング
 settings.client.header クライアント
 settings.client.unlimitedFrames FPS解放
 settings.client.gameCap ゲームキャプチャー
@@ -125,7 +125,7 @@ settings.chat.chatBGOp チャット背景不透明度
 settings.chat.chatHeight チャットの高さ
 settings.chat.chatTimer チャットタイマー
 settings.chat.chatTextOutline チャット文字輪郭線表示
-settings.chat.chatFilter 英語NGワードフィルタ
+settings.chat.chatFilter 英語NGワードフィルター
 settings.quality.header パフォーマンス
 settings.quality.updRate フレームレート制限
 settings.quality.rendDst レンダリング距離
@@ -169,15 +169,15 @@ settings.interface.hitColor ヒットマーカーの色
 settings.interface.dmg ダメージを表示
 settings.interface.dmgCol ダメージの色
 settings.interface.critCol クリティカルヒットの色
-settings.interface.header インターフェース
+settings.interface.header インターフェイス
 settings.interface.scale UIスケール
 settings.interface.ui UIを表示
 settings.interface.scoreboard 古いスコアボードを使用
-settings.interface.oldBrowser 古いブラウザを使用
+settings.interface.oldBrowser 古いブラウザーを使用
 settings.interface.rarityanim レアアイテムアニメーション
 settings.interface.showPfp プロフィール画像を表示
 settings.interface.showTradeMsg トレードメッセージを表示
-settings.interface.hideNonTrade Hide Non-Tradable Skins
+settings.interface.hideNonTrade トレード不可なスキンを隠す
 settings.interface.hp ダイナミックHPバー
 settings.interface.dmgScale ダメージスケール
 settings.interface.killf キルフィードを表示
@@ -254,15 +254,15 @@ settings.onKillS.style.0 デフォルト
 settings.onKillS.style.1 解像度を下げる
 settings.onKillS.style.2 FOVを下げる
 settings.onKillS.style.3 FOVを上げる
-settings.serverb.header サーバーブラウザ
-settings.serverb.oldBrowser 古いサーバーブラウザ
+settings.serverb.header サーバーブラウザー
+settings.serverb.oldBrowser 古いサーバーブラウザー
 settings.serverb.defaultRegionOnly デフォルトの地域のみ
 settings.gameprivacy.header ゲームプレイプライバシー
 settings.gameprivacy.streamer 配信モード
 settings.gameprivacy.anon 匿名モード
 settings.gameprivacy.hideGameTitle ゲームタイトルを隠す
 settings.gameplay.header ゲームプレイ
-settings.gameplay.gpSetts Gameplay Settings
+settings.gameplay.gpSetts ゲームプレイ設定
 settings.gameplay.sensitivityX X感度
 settings.gameplay.sensitivityY Y感度
 settings.gameplay.aimsensX エイム時X感度
@@ -302,7 +302,7 @@ settings.audio.ui UIボリューム
 settings.audio.asset アセットボリューム
 settings.audio.dialogue アクションボリューム
 settings.viewmodel.header モデル表示
-settings.viewmodel.vmSetts View Model Settings
+settings.viewmodel.vmSetts モデルの設定を表示
 settings.viewmodel.fov 視野 (FOV)
 settings.viewmodel.fps 武器FOV
 settings.viewmodel.bobbing 武器の揺れ
@@ -357,8 +357,8 @@ settings.editing.vignette ビネット効果（画像の周辺を暗くする）
 settings.editing.feedLimit キルフィード制限
 settings.editing.depth マップの深さ
 settings.editing.green グリーンスクリーン
-settings.editing.trailcol Bullet Trail Color
-settings.editing.ropecol Grapple Rope Color
+settings.editing.trailcol 弾道の色
+settings.editing.ropecol グラップルの色
 settings.editing.tracercol 弾丸の色
 settings.editing.tracer 弾丸の色
 settings.editing.tracer.offset 弾丸の座標
@@ -467,14 +467,14 @@ windows.controls.interactSec サブアクションボタン
 windows.controls.confirm アクションを確定する
 windows.controls.drop 落とす
 windows.controls.wepVis 武器表示切り替え
-windows.controls.kickVoteY Vote Kick [Yes]
-windows.controls.kickVoteN Vote Kick [No]
-windows.controls.kpdVoteY KPD Vote [Yes]
-windows.controls.kpdVoteN KPD Vote [No]
-windows.controls.specFree Toggle Free Cam
-windows.controls.specObj Toggle Objective Cam
-windows.controls.specFirst Toggle First Person
-windows.controls.specNames Toggle Forced Names
+windows.controls.kickVoteY キック投票 [賛成]
+windows.controls.kickVoteN キック投票 [反対]
+windows.controls.kpdVoteY KPD投票 [賛成]
+windows.controls.kpdVoteN KPD投票 [反対]
+windows.controls.specFree フリーカメラ切り替え
+windows.controls.specObj オブジェクティブカメラ切り替え
+windows.controls.specFirst 一人称視点切り替え
+windows.controls.specNames ユーザー名表示切り替え
 windows.controls.streak0 ストリーク1
 windows.controls.streak1 ストリーク2
 windows.controls.streak2 ストリーク3
@@ -484,15 +484,15 @@ windows.controls.premium0 ノークリップ
 windows.controls.premium1 ゴッドモード
 windows.controls.premium2 キル
 windows.controls.premium3 スマイト
-windows.controls.dev0 Developer Bind 1
-windows.controls.dev1 Developer Bind 2
-windows.controls.dev2 Developer Bind 3
-windows.controls.dev3 Developer Bind 4
+windows.controls.dev0 開発者用キーバインド 1
+windows.controls.dev1 開発者用キーバインド 2
+windows.controls.dev2 開発者用キーバインド 3
+windows.controls.dev3 開発者用キーバインド 4
 windows.controls.reset 位置をリセットする (Race & Parkour)
 windows.controls.pretend ゲームを非表示にする
 windows.host.header カスタムゲームを作る
 windows.host.maps サーバー設定
-windows.host.cmaps コミュニティゲーム
+windows.host.cmaps コミュニティーゲーム
 windows.host.raw ゲームデータを保存する
 windows.host.modes モードを選択
 windows.host.classes クラスを選択
@@ -510,7 +510,7 @@ windows.maps.none ゲームが見つかりません!
 windows.maps.name ゲーム名
 windows.maps.editor ゲームエディター
 windows.maps.publish ゲームを公開する
-windows.maps.community 開発コミュニティ
+windows.maps.community 開発コミュニティー
 windows.publish.map.header ゲームを公開またはアップデートする
 windows.publish.map.thumbnail サムネイルなし
 windows.publish.map.paste ゲームデータの貼り付け
@@ -564,7 +564,7 @@ windows.dye.header 服装を選択
 windows.dye.default デフォルト服装色
 windows.dye.spin 服装色変更
 windows.changelog.header 変更履歴
-windows.mods.community.header コミュニティMOD
+windows.mods.community.header コミュニティーMOD
 windows.mods.community.fav お気に入り
 windows.mods.community.new 新しいMOD
 windows.mods.community.hot 人気
@@ -578,8 +578,8 @@ windows.publish.mod.update 公開/更新
 windows.publish.mod.login してMODを作成・アップロードする!
 windows.secondary.header サブ武器を選択
 windows.secondary.unlocked アンロック済み
-windows.secondary.customOnly Customs Only
-windows.secondary.premiumOnly Premium Only
+windows.secondary.customOnly カスタムゲーム専用
+windows.secondary.premiumOnly プレミアム専用
 windows.secondary.req レベル{0}が必要
 windows.advertise.header 広告
 windows.support.header サポート
@@ -673,7 +673,7 @@ server.config.warmupTime ウォームアップ時間 (分)
 server.config.gamRounds ラウンド数
 server.config.objtvTime オブジェクトごとの時間
 server.config.forceSpawn 自動リスポーン時間
-server.config.intermTmr Intermission (s)
+server.config.intermTmr 休憩時間 (秒)
 server.config.scoreLimit スコア制限
 server.config.keepTScore チームのスコアを維持
 server.config.forceC クラスを強制的に指定
@@ -686,10 +686,10 @@ server.config.noCosm 装飾品を無効化
 server.config.tstCmp テストモード
 server.config.limitClasses クラス制限
 server.config.tmSize チーム人数
-server.config.fallDmg Fall Damage
-server.config.fallDmgThr Fall Damage Thresh
-server.config.noDraws No Draws
-server.config.bstOfR Best of
+server.config.fallDmg 落下ダメージ
+server.config.fallDmgThr 落下ダメージしきい値
+server.config.noDraws 引き分けの無効化
+server.config.bstOfR ベスト・オブ
 social.login ログイン/登録
 social.login.failed ログインに失敗しました
 social.login.buy ログインして購入
@@ -755,8 +755,8 @@ account.delete アカウント削除のリクエストがされた場合、14日
 account.delete.request 本当にアカウント削除をリクエストしますか?
 account.delete.cancel 本当にアカウント削除のリクエストを取り消しますか?
 spin.free.available フリーKRが利用可能です!
-spin.free.claim このスピンは試合終了後、一時間に一回回すことが出来ます
-spin.free.disable このポップアップは設定から非表示にすることが出来ます
+spin.free.claim このスピンは試合終了後、一時間に一回回すことができます
+spin.free.disable このポップアップは設定から非表示にすることができます
 mod.reset.0 リスポーン後から有効になります
 mod.reset.1 マップのオブジェクトはリセットされません
 windows.profile.picture 写真を変更
@@ -768,20 +768,20 @@ stats.thrownkills 投げナイフキル
 stats.headshots ヘッドショット
 stats.wallbangs 壁抜きキル
 stats.sprays スプレー回数
-windows.host.default.settings デフォルト設定を有効にすることでプレイヤーの進捗とハイスコアを保存することが出来ます
+windows.host.default.settings デフォルト設定を有効にすることでプレイヤーの進捗とハイスコアを保存することができます
 windows.host.default.commands *ホストコマンド(/noclip /god /smite 等)はこのモードでは無効化されています
-windows.host.rewards KR報酬を有効にした場合デフォルト設定の使用が強制され、プレイヤーがこのマップの資産からKR報酬を入手することが出来るようになります:
+windows.host.rewards KR報酬を有効にした場合デフォルト設定の使用が強制され、プレイヤーがこのマップの資産からKR報酬を入手することができるようになります:
 windows.store.wheels.sub 新しいスキンを手に入れるためにスピンで運試しをしましょう!
 windows.store.currency * 米ドルでの金額表記はあなたの国の通貨に変換され、その際の両替レートは支払いサービスや銀行が定めたものによります
 windows.store.creator クリエイターコードを使ってあなたのお気に入りのクリエイターを支援しましょう
-windows.chall.customs カスタムマッチ内でチャレンジをクリアすることは出来ません
+windows.chall.customs カスタムマッチ内でチャレンジをクリアすることはできません
 twitch.link 本当にtwitchアカウントとリンクしますか?
 twitch.unlink 本当にtwitchアカウントとのリンクを解除しますか?
 windows.clan.leave 本当にこのクランを離れますか?
 windows.clan.delete 本当にこのクランを削除しますか?
 windows.clan.kick 本当に{0}をこのクランからキックしますか?
 windows.store.premium.purchase 本当に{0}日分のプレミアムを購入しますか?
-windows.store.premium.gift Are you sure you want to Gift '{0}' {1} days of Premium?
+windows.store.premium.gift 本当に'{0}'に{1}日分のプレミアムを贈りますか？
 windows.playerlist.ban 本当に{0}をこのゲームからBANしますか?
 windows.playerlist.flag 本当に{0}にハッカータグを付けますか?
 windows.playerlist.unflag 本当に{0}のハッカータグを解除しますか?
