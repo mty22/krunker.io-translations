@@ -91,7 +91,7 @@ settings.network.header 네트워크
 settings.network.sendRate 높은 틱레이트
 settings.network.netRerouting 자동 라우팅 (핑에 영향을 줍니다)
 settings.network.lagComp 지연 시간 보정
-settings.network.hitReg Hitreg Test
+settings.network.hitReg 피격 판정 테스트
 settings.popup.header 팝업
 settings.popup.freeKRPop 무료 KR 팝업 보이기
 settings.experimental.header 실험적 설정
