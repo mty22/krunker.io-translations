@@ -61,7 +61,7 @@ generic.accuracy Doğruluk Oranı
 player.waiting oyuncu bekleniyor
 player.died Öldün
 player.killed Tarafından öldürüldün
-player.killstreak {0} {1} Öldürme serisindesin
+player.killstreak {0} on a {1} Kill Streak
 player.inactive İnaktiflikten dolayı atıldınız
 player.disconnect BAĞLANTI KESİLDİ
 timer.end Sonraki maç için {0} kaldı
