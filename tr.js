@@ -195,7 +195,7 @@ settings.interface.speedOffX Hız X Konumu
 settings.interface.speedOffY Hız Y Konumu
 settings.interface.speedOpacity Hız Opaklığı
 settings.interface.speedScale Hız Büyüklüğü
-settings.interface.speedColor Speed Color (Current)
+settings.interface.speedColor Hız Rengi (Anlık)
 settings.interface.speedColorMax Speed Color (Max)
 settings.interface.medals Madalyaları Göster
 settings.interface.hideNames İsim Kartı Tarzı
