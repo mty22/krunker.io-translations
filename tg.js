@@ -747,14 +747,14 @@ funds.insufficient Hindi sapat na KR
 funds.out Ubos ang KR
 custom.passcode.long Masyadong mahaba ang password 
 custom.passcode.input Ipasok ang password ng server upang sumali
-custom.tryagain subukang muli
+custom.tryagain subukan muli
 purchase.kr.success Idinagdag ang {0} KR sa account mo
 limited.purchase.ask Sigurado ka bang bumili ng  [{0}] para sa{1} KR?
 limited.purchase.success Idinagdag ang item sa iyong inventory
-pretend.exit Pindutin muli ang [{0}] to exit
+pretend.exit Pindutin muli ang [{0}] upang mag-exit
 settings.loaded Mga settings na-load
 settings.loaded.none Walang nahanap na mga settings
-account.login.required Dapat naka-log in
+account.login.required Kailangang naka-log in
 account.banned.hack Ipinagbawal ang Account na ito dahil sa Pangdaraya o kayapag-hack
 account.banned.appeal Kung nais mong iapela ang iyong pagbabawal na maglaro, makipag-ugnay sa: appeals@yendis.ch
 account.delete Maaari kang humiling na tanggalin ang iyong account, kung ang kahilingan ay hindi nakansela sa loob ng 14 araw ang account at ang lahat ng nauugnay na data ay permanenteng aalisin.
