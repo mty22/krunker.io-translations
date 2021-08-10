@@ -22,7 +22,7 @@ generic.load Mag-Load
 generic.search Humanap
 generic.leave Umalis
 generic.default Default
-generic.submit Sumite
+generic.submit I-Sumite
 generic.create Lumikha
 generic.random Random
 generic.failed Nabigo
@@ -617,7 +617,7 @@ matchmaker.updating NAG-UUPDATE ANG LARO
 matchmaker.invalid Hindi mahanap ang laro.
 
 matchmaker.none Ang mga server ay nasa Max Capacity
-adblocker Huwag paganahin ang iyong ad-blocker upang makatanggap ng mga libreng KR.
+adblocker Tanggalin ang iyong ad-blocker upang makatanggap ng mga libreng KR.
 ad-failed Hindi Nag-load ang Ad. Subukang muli.
 streamers.views {0} ang mga Nanonood
 streamers.none Walang mga aktibong stream!
@@ -733,10 +733,10 @@ social.market.none Hindi matagpuan ang kagamitan
 social.market.login Maglogin ka muna.
 social.market.grace handa na sa {0}
 social.market.sort Pag-uri-uriin
-social.market.filter I-Filter sa Paghahanap
+social.market.filter I-Filter ang Paghahanap
 social.market.sort2 Pagbukud-bukurin
 social.market.price.high Pinakamataas na Presyo
-social.trading.submitting Nagsusumite ng Alok ...
+social.trading.submitting Pinapadala ang Alok ...
 social.market.gift.amount Halaga sa Regalo
 social.market.fee.gift Walang Bayad
 social.market.gift Magregalo ng KR
@@ -750,8 +750,8 @@ custom.passcode.input Ipasok ang password ng server upang sumali
 custom.tryagain subukang muli
 purchase.kr.success Idinagdag ang {0} KR sa account mo
 limited.purchase.ask Sigurado ka bang bumili ng  [{0}] para sa{1} KR?
-limited.purchase.success Idinagdag ang sa inventory mo
-pretend.exit pindutin muli ang[{0}] again to exit
+limited.purchase.success Idinagdag ang item sa iyong inventory
+pretend.exit Pindutin muli ang [{0}] to exit
 settings.loaded Mga settings na-load
 settings.loaded.none Walang nahanap na mga settings
 account.login.required Dapat naka-log in
