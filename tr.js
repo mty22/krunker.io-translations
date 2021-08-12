@@ -196,7 +196,7 @@ settings.interface.speedOffY Hız Y Konumu
 settings.interface.speedOpacity Hız Opaklığı
 settings.interface.speedScale Hız Büyüklüğü
 settings.interface.speedColor Hız Rengi (Anlık)
-settings.interface.speedColorMax Speed Color (Max)
+settings.interface.speedColorMax Hız Rengi (Max)
 settings.interface.medals Madalyaları Göster
 settings.interface.hideNames İsim Kartı Tarzı
 settings.interface.hideNames.team Sadece Takım
@@ -515,7 +515,7 @@ windows.publish.map.header Oyunu yayınla veya güncelle
 windows.publish.map.thumbnail Kapak Resmi Yok
 windows.publish.map.paste Oyun Verilerini Kopyala
 windows.publish.map.update Yayınla/Güncelle
-windows.publish.map.login to create and upload Games!
+windows.publish.map.login Oyun yapmak veya yayınlamak için!
 windows.theatre.header Tiyatro Modu
 windows.theatre.record Kaydı Etkinleştir
 windows.theatre.key Kayıt Tuşu
@@ -528,7 +528,7 @@ windows.clans.create Klan Oluşturun
 windows.clans.name Klan İsmi
 windows.clans.view Klanları Görüntüleyin
 windows.clans.join Klana Gir
-windows.clans.login to create and join a clan!
+windows.clans.login Klan yaratmak veya bir klana girmek için!
 windows.store.header Mağaza
 windows.store.spin {0} Çark
 windows.store.agree Satın alarak Kullanım Koşullarını kabul ediyorsunuz {0}
@@ -544,7 +544,7 @@ windows.store.buy Eşya Al veya Sat
 windows.store.wheels Ödül Çarkları
 windows.store.unlock Yeni silah desenleri ve eşyaları açın
 windows.store.amount Hesapta {0} KR var
-windows.store.login to buy and unlock items from the store!
+windows.store.login Mağazadan eşya satın almak veya açmak için!
 windows.store.purchasing Satın alınıyor...
 windows.store.unboxed {0}{1} eşyasını açtı
 windows.trade.header Takaslama
@@ -575,7 +575,7 @@ windows.publish.mod.thumbnail Kapak Resmi Yok
 windows.publish.mod.name Mod İsmi
 windows.publish.mod.paste Mod Url
 windows.publish.mod.update Yayınla/Güncelle
-windows.publish.mod.login to create and upload mods!
+windows.publish.mod.login Mod yapmak veya yayınlamak için!
 windows.secondary.header İkincili Seç
 windows.secondary.unlocked Açıldı
 windows.secondary.customOnly Sadece Özel
@@ -592,13 +592,13 @@ windows.client.windows Windows Yükleyicisi
 windows.client.mac macOS Yükleyicisi
 windows.client.linux Linux Yükleyicisi
 windows.ranked.header Dereceli
-windows.ranked.login to play in ranked games!
+windows.ranked.login Derecelide oynamak için!
 windows.ranked.level Dereceli oynamak için en az <span color="black">level {0}</span> olman gerek! Şu anda <span color="black">level {1}</span>.
 windows.ranked.mode.r1v1 Tek
 windows.ranked.mode.r2v2 Çift
 windows.ranked.mode.r4v4 Dörtlü
 windows.chall.header Görevler
-windows.chall.login to complete challenges!
+windows.chall.login Görevleri tamamlamak için!
 thumbnail.upload.limit Başarısız. {0}kb Kapak Fotoğrafı Limiti
 image.upload.limit Başarısız. {0}kb Resim Limiti
 thumbnail.upload.error Kapak Fotoğrafı Hatası
