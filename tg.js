@@ -414,7 +414,7 @@ windows.loadout.primary.attach Mga Attachment
 windows.loadout.primary.reticle Reticle o Retikulo
 windows.loadout.primary.scope Scope
 windows.loadout.secondary Sekundarya
-windows.loadout.secondary.skin Disenyo/Skin ng Pandagdag na Armas
+windows.loadout.secondary.skin Disenyo ng Sekundarya
 windows.loadout.melee Patalim
 windows.loadout.hat Sombrero
 windows.loadout.back Katawan at Likod
@@ -560,7 +560,7 @@ windows.attach.header Piliin ang Attachment
 windows.reticle.header Piliin ang Retikulo
 windows.reticle.unlocked Makakamit sa Antas na {0}
 windows.reticle.req Nangangailangan ang Antas na {0} 
-windows.dye.header Piliin ang Dye
+windows.dye.header Piliin ang Kulay ng Katawan
 windows.dye.default Karaniwang Kulay ng Katawan
 windows.dye.spin Premyo
 windows.changelog.header Talaan - Updates
@@ -655,7 +655,7 @@ server.config.selTeam Piliin ang Pangkat
 server.config.allowSpect Panonood
 server.config.killRewards Gantimpala kapag nakapatay
 server.config.headshotOnly Mga headshot Lamang
-server.config.noSecondary Huwag paganahin ang Secondaries
+server.config.noSecondary Huwag gumamit ng mga Sekundarya
 server.config.noStreaks Huwag paganahin ang mga Streaks
 server.config.canSlide Pagdududulas
 server.config.wallJP Lakas ng paglukso sa mga pader
@@ -664,7 +664,7 @@ server.config.bDrop Hulog ng Bala
 server.config.thirdPerson Tingin ng 3rd Person View
 server.config.requireCaptcha Kailangan ng CAPTCHA
 server.config.nameTags Itago ang mga Nametag
-server.config.kCams Mga kill Cams
+server.config.kCams Mga Kill Cams
 server.config.noReload Walang Reload
 server.config.private Pribado
 server.config.krRewards Mga Gantimpala ng KR
@@ -762,9 +762,9 @@ mod.reset.1 Mga Bagay sa Mapa hindi ma-reset
 windows.profile.picture Palitan ang Larawan
 stats.assists Mga Pagtulong/Assist
 stats.nukes Mga Nuke
-stats.melee Melee Mga Sinaksak
-stats.fistkills Mga Binugbog
-stats.thrownkills Mga Nabatuhan ng Patalim
+stats.melee Melee Pagsaksak
+stats.fistkills Pagbugbog
+stats.thrownkills Bumato ng Patalim
 stats.headshots Mga Headshot
 stats.wallbangs Mga Wallbang
 stats.sprays Nilagay na spray
