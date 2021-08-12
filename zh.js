@@ -30,14 +30,14 @@ generic.success 成功！
 generic.name 用户名
 generic.level 等级
 generic.score 得分
-generic.off 关闭
+generic.off 关
 generic.defeat 失败
 generic.victory 胜利
 generic.matchover 比赛结束
 generic.matchaband 比赛被迫终止
 generic.follow 关注
 generic.unfollow 取消关注
-generic.followers 追随者
+generic.followers 关注者
 generic.following 关注中
 generic.games 游戏
 generic.wins 胜场
@@ -61,8 +61,8 @@ generic.accuracy 命中率
 player.waiting 等待更多玩家加入
 player.died 你死了
 player.killed 被此玩家击杀
-player.killstreak {0} on a {1} Kill Streak
-player.inactive 由于不活跃，游戏已断开连接
+player.killstreak {0} 已达到 {1} 连杀
+player.inactive 由于您的空闲时间过长，您已被踢出房间
 player.disconnect 连接已断开
 timer.end 下一场将在 {0} 后开始
 leaderboard.empty 空房间
@@ -73,14 +73,14 @@ app.play.mobile 点击屏幕开始游戏
 app.spectate.mobile 点击屏幕开始观战
 app.play.controller 按下开始键开始游戏
 app.spectate.controller 按下开始键开始观战
-purchase.error 出现错误
-purchase.error.click 点此</a> 并重试！
-purchase.error.limit 您已超出每日交易限额
+purchase.error 出错了！
+purchase.error.click 点此</a> 重试！
+purchase.error.limit 您可能已超出每日交易限额
 settings.reset 重置
 settings.reset.confirm 您是否希望重置所有设置？
 settings.import 导入
 settings.export 导出
-settings.none 没有找到该设置
+settings.none 没有找到设置
 settings.backup 备份设置
 settings.controls.change 按键绑定
 settings.controls.press 按下任意按键
@@ -91,7 +91,7 @@ settings.network.header 网路
 settings.network.sendRate 高服务器应答率
 settings.network.netRerouting 自动路由（可能会影响网络延迟）
 settings.network.lagComp 延迟修正
-settings.network.hitReg 子弹碰撞判定测试
+settings.network.hitReg 命中判定测试
 settings.popup.header 弹窗
 settings.popup.freeKRPop 允许免费 KR 弹窗
 settings.experimental.header 实验性功能
@@ -113,36 +113,36 @@ settings.client.colorProfile 色彩配置文件
 settings.dev.header 开发者
 settings.dev.forceUpdate 强制刷新皮肤
 settings.dev.forceRegen 强制复活玩家
-settings.dev.extraBan 更多玩家禁赛信息
+settings.dev.extraBan 更多封禁信息
 settings.chat.header 聊天
 settings.chat.chat 显示聊天窗口
 settings.chat.chat.all 总是
-settings.chat.chat.focus 仅限关注时显示
-settings.chat.messages 显示玩家消息
+settings.chat.chat.focus 被聚焦时显示
+settings.chat.messages 显示玩家信息
 settings.chat.unboxings 显示玩家开箱
 settings.chat.chatOp 聊天窗口不透明度
 settings.chat.chatBGOp 聊天窗口背景不透明度
 settings.chat.chatHeight 聊天窗口高度
-settings.chat.chatTimer 消息显示时间
-settings.chat.chatTextOutline 消息文字轮廓
-settings.chat.chatFilter 不良语言过滤（仅限英文）
+settings.chat.chatTimer 聊天文本显示时间
+settings.chat.chatTextOutline 聊天文本轮廓
+settings.chat.chatFilter 过滤不良信息（仅限英文）
 settings.quality.header 游戏性能
 settings.quality.updRate 帧数限制
 settings.quality.rendDst 渲染距离
 settings.quality.res 分辨率
-settings.quality.part 颗粒效果
+settings.quality.part 粒子效果
 settings.quality.mapDet 地图细节
 settings.quality.noTex 无贴图
 settings.quality.partdist 粒子渲染距离
 settings.quality.renderdist 渲染距离
-settings.quality.reflection 光线反射
+settings.quality.reflection 倒影质量
 settings.quality.antiAlias 反锯齿
 settings.quality.shadows 阴影
 settings.quality.softShad 柔和阴影
 settings.quality.highResShad 高分辨率阴影
 settings.quality.shadowsDynamic 动态阴影
-settings.quality.trails 其他玩家弹道轨迹
-settings.quality.yourTrails 自身弹道轨迹
+settings.quality.trails 其他玩家子弹轨迹
+settings.quality.yourTrails 自身子弹轨迹
 settings.quality.mflash 枪口火焰
 settings.quality.flap 狙击镜保护盖
 settings.quality.lowSpec 低配置模式
@@ -152,7 +152,7 @@ settings.quality.textureAnim 纹理动画
 settings.quality.objectAnim 物体动画
 settings.quality.screenShake 屏幕晃动
 settings.quality.weaponShine 武器光泽
-settings.quality.rendGamma 伽玛效果
+settings.quality.rendGamma 伽马效果
 settings.quality.lighting 光照强度
 settings.quality.showExplo 显示爆炸特效
 settings.quality.aspectRatio 屏幕高宽比
@@ -258,7 +258,7 @@ settings.serverb.header 游戏房间浏览器
 settings.serverb.oldBrowser 经典房间浏览器
 settings.serverb.defaultRegionOnly 只显示默认地区的房间
 settings.gameprivacy.header 游玩隐私
-settings.gameprivacy.streamer 直播模式
+settings.gameprivacy.streamer 主播模式
 settings.gameprivacy.anon 匿名模式
 settings.gameprivacy.hideGameTitle 隐藏游戏标志
 settings.gameplay.header 游戏性
@@ -611,14 +611,14 @@ matchmaker.full 已满
 matchmaker.full2 服务器人数已满。
 matchmaker.updating 游戏更新中
 matchmaker.invalid 没有找到游戏。
-matchmaker.none 服务器负载已达上限
+matchmaker.none 服务器负载已达到上限
 adblocker 禁用广告拦截器以获得免费的KR。
 ad-failed 广告加载失败，请稍后重试。
 streamers.views {0} 个观众
 streamers.none 当前没有 Twitch 直播！
 error.extentions 如果您有任何（浏览器）插件，请禁用它们
 error.seek 点此以搜索新的游戏
-custom.map.upload.limit 上传失败，地图游戏数据大小上限为五十万个字元
+custom.map.upload.limit 上传失败，游戏数据大小上限为五十万个字元
 custom.map.missing 请选择至少一种游戏或地图
 custom.mode.missing 请选择至少一种模式
 custom.class.missing 请选择至少一种武器类别
@@ -714,7 +714,7 @@ social.market.cant KR 不足
 social.market.purchase 购买
 social.market.fee 无上架费用
 social.market.failed 失败，请稍后重试
-social.market.head 头饰
+social.market.head 头部饰品
 social.market.back 背部饰品
 social.market.waist 腰部饰品
 social.market.face 表情
@@ -755,25 +755,25 @@ account.delete 您可以申请删除您的账号，如果您的申请在14天內
 account.delete.request 您确定要申请删除您的账号吗？
 account.delete.cancel 您确定要取消账号删除申请吗？
 spin.free.available 免费 KR 已准备完毕！
-spin.free.claim 此转盘仅可在每小时完成一局比赛后获得。
+spin.free.claim 此免费 KR 转盘仅可在每小时完成一局比赛后获得。
 spin.free.disable 免费 KR 弹窗可以在设置中禁用。
 mod.reset.0 该设置将会在玩家重生后生效。
 mod.reset.1 地图物体将不会被重置。
 windows.profile.picture 更改头像
-stats.assists 助攻数
-stats.nukes 使用核弹数
-stats.melee 近战武器击杀数
-stats.fistkills 空手击杀数
-stats.thrownkills 投掷近战武器击杀数
-stats.headshots 暴击数
-stats.wallbangs 穿墙击杀数
+stats.assists 助攻次数
+stats.nukes 使用核弹次数
+stats.melee 近战武器击杀次数
+stats.fistkills 空手击杀次数
+stats.thrownkills 投掷近战武器击杀次数
+stats.headshots 暴击次数
+stats.wallbangs 穿墙击杀次数
 stats.sprays 涂鸦次数
 windows.host.default.settings 保持玩家计分功能仅可在使用默认设置时被打开
-windows.host.default.commands *房主指令（如：/god，/smite，/noclip 等）会在此模式中被禁用。
-windows.host.rewards 打开 KR 奖励功能后，玩家可以在地图内获得 KR 奖励，但是自定义设置将会被禁用。
-windows.store.wheels.sub 试试这些转盘，您将会有机会获得全新皮肤！
-windows.store.currency *美元和您所在地区货币的汇率将会由支付服务提供商或您使用的银行决定。
-windows.store.creator 在购买 KR 时，您可以使用创作者专用码以支持您喜爱的内容创作者。
+windows.host.default.commands * 房主指令（如：/noclip，/god，/smite 等）会在此模式中被禁用。
+windows.host.rewards 启用 KR 奖励将强制服务器使用地图预设，以允许玩家在地图内获得 KR：
+windows.store.wheels.sub 试试这些转盘，您将有机会获得全新皮肤！
+windows.store.currency * 美元价格会按照支付服务提供商或银行决定的汇率转换为您的本地货币。
+windows.store.creator 购买 KR 时，考虑使用创作者代码以支持您喜爱的内容创作者
 windows.chall.customs 您不能在自定义房间中完成挑战。
 twitch.link 您确定要链接您的 Twitch 账号吗？
 twitch.unlink 您确定要取消链接吗？
@@ -816,6 +816,6 @@ social.trades.decline 全部拒绝
 social.trades.message 在设置中开启交易请求信息
 social.trades.warning 您将不会在此交易中获得任何物品！
 social.trades.accept 您确定要接受此交易请求吗？
-stats.airdrops KR空投
-settings.quality.flapAnim 狙击镜保护镜动画
+stats.airdrops KR 空投
+settings.quality.flapAnim 狙击镜保护蓋动画
 `;
