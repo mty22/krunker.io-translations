@@ -810,7 +810,7 @@ social.trades.in Papasok
 social.trades.in.head Pumapasok na Pag-aalok ({0})
 social.trades.out Palabas
 social.trades.out.head Palabas na Pag-aalok ({0})
-social.trades.history Kasaysayan
+social.trades.history Talaan ng mga alok
 social.trades.history.head Kasaysayan ng Pag-kakalakalan ({0})
 social.trades.decline Tanggihan Lahat
 social.trades.message Payagan ang mga Trade Message at Pag-alok sa Settings
