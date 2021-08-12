@@ -1,2 +1,0 @@
-file: tr.js
-pull request: https://github.com/mty22/krunker.io-translations/pull/86

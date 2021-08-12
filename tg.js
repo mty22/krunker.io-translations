@@ -1,8 +1,8 @@
 module.exports = `
-menu.btn.ranked Rango
+menu.btn.ranked rango
 menu.btn.shop Tindahan
 menu.btn.social Komunidad
-menu.btn.maps Laro at Maps
+menu.btn.maps Laro at Mapa
 menu.btn.mods Mods
 menu.btn.settings Settings
 menu.btn.customize Kustomisasyon
@@ -11,7 +11,7 @@ menu.btn.invite.clicked Nakopya
 menu.btn.join Sumali
 menu.btn.host Mag-host
 menu.btn.browser Mga Server
-generic.wait paghihintay...
+generic.wait naghihintay...
 generic.loading LOADING...
 generic.none Wala
 generic.connecting KUMOKONEKTA...
@@ -22,7 +22,7 @@ generic.load Mag-Load
 generic.search Humanap
 generic.leave Umalis
 generic.default Default
-generic.submit I-Sumite
+generic.submit Sumite
 generic.create Lumikha
 generic.random Random
 generic.failed Nabigo
@@ -31,7 +31,7 @@ generic.name Pangalan
 generic.level Antas
 generic.score Iskor
 generic.off Off
-generic.defeat PAGKATALO
+generic.defeat PAGKATALO!
 generic.victory TAGUMPAY! 
 generic.matchover Pagtatapos ng laro
 generic.matchaband Inabandonang Paglaro
@@ -43,26 +43,26 @@ generic.games Mga Laro
 generic.wins Panalo
 generic.lose Pagkatalo 
 generic.clan Samahan
-generic.games.played Blg. ng mga nilaro
+generic.games.played Bilang ng nalaro
 generic.games.won Mga Panalo
-generic.games.lost  Mga Pagkatalo
-generic.timep Oras sa paglalaro
+generic.games.lost  Mga Pagtalo
+generic.timep Oras na Naglaro
 generic.kills Mga Pinatay
 generic.deaths Mga Pagkamatay
 generic.kdr KDR
 generic.time Oras
-generic.logout Mag-Logout
-generic.logout.sessions Mag-logout sa lahat ng sesyon
+generic.logout Pag-Logout
+generic.logout.sessions Pag-logout sa lahat ng sesyon
 generic.username Username
 generic.password  Illagay ang password
 generic.register Mag-parehistro
-generic.login Log-in
-generic.accuracy Accuracy sa paglalaro
+generic.login Mag log-in
+generic.accuracy Accuracy
 player.waiting Naghihintay ng mga manlalaro
 player.died Ikaw ay namatay
 player.killed Pinatay ni {0} si {1}
-player.killstreak si {0} nasa {1} Kill Streak
-player.inactive Tinanggal sa laro dahil sa walang aktibidad
+player.killstreak Si {0} ay may {1} na Kill Streak
+player.inactive Pina-alis dahil sa walang aktibidad
 player.disconnect HINDI MAKAKONEKTA
 timer.end Susunod na laro sa {0}
 leaderboard.empty Walang tao sa lobby
@@ -71,20 +71,20 @@ app.play Pindutin upang maglaro
 app.spectate Pindutin upang manood
 app.play.mobile PINDUTIN UPANG MAKAPAGLARO
 app.spectate.mobile TAP UPANG MAPANOOD
-app.play.controller PINDUTIN ang START sa CONTROLLER
-app.spectate.controller SAKSIHAN ANG LARO 
-purchase.error May naganap na error.
-purchase.error.click dito</a> Subukan muli!
+app.play.controller PINDUTIN ang SIMULA
+app.spectate.controller MAGSIMULANG MANOOD
+purchase.error May naganap na error
+purchase.error.click dito</a> subukan multi!
 purchase.error.limit Maaaring lumagpas ka sa iyong pang-araw-araw na limitasyon sa transaksyon. 
-settings.reset I-reset
-settings.reset.confirm Sigurado ka bang nais mong I-reset ang inyong setitngs?
-settings.import angkat
+settings.reset Mag-reset
+settings.reset.confirm Sigurado ka bang mag-reset ng inyong settings?
+settings.import iangkat
 settings.export iluwas
-settings.none Walang nahanap na mga settings.
+settings.none Walang nahanap na mga settings
 settings.backup Mga back-up settings
 settings.controls.change Lokal na Rehiyon 
 settings.controls.press Pindutin ang anumang key
-settings.local.header Lokalisasyon <span id="requiresRestart"><span style="color: #eb5656">*</span> nangangailangan ng restart</span>
+settings.local.header Localization <span id="requiresRestart"><span style="color: #eb5656">*</span> nangangailangan ng restart</span>
 settings.local.region Default na Rehiyon
 settings.local.lang Wika
 settings.network.header Network
@@ -96,7 +96,6 @@ settings.popup.header Mga Popups
 settings.popup.freeKRPop Ipakita ang Libreng KR Popup
 settings.experimental.header Experimental na Header
 settings.experimental.aimFreezeFix Pag-ayos ng Aim Freeze
-
 settings.experimental.mouseFlickFix Pag-ayos ng Mouse Flick
 settings.experimental.shaderRendering Pag-render
 settings.experimental.staticRendering Static na Rendering
@@ -429,7 +428,7 @@ windows.loadout.color.hair Kulay ng Buhok
 windows.loadout.dye Kulay ng katawan
 windows.loadout.pet Alaga
 windows.loadout.stat Killcard Stat
-windows.loadout.flag Bandila ng Bansa
+windows.loadout.flag Bandilang Pambansa
 windows.mods.drop ihulog ang file ng mod dito o mag-click
 windows.mods.paste Ipaste ang Mod URL
 windows.mods.load Mag-load ng Mod
@@ -547,7 +546,6 @@ windows.store.unlock I-unlock ang mga bagong disenyo ng mga armas at kagamitan
 windows.store.amount {0} KR sa account
 windows.store.login upang bumili at mag-unlock ng mga item mula sa tindahan!
 windows.store.purchasing Binibili ...
-
 windows.store.unboxed {0} ay naka-unbox ng {1} 
 windows.trade.header Kalakalan
 windows.scope.header Pumili ng scope
@@ -600,9 +598,7 @@ windows.ranked.mode.r1v1 Solo
 windows.ranked.mode.r2v2 Duo
 windows.ranked.mode.r4v4 Quad
 windows.chall.header Mga Challenge
-
 windows.chall.login upang makumpleto ang mga challenge!
-
 thumbnail.upload.limit Failed. {0}kb Thumbnail Limit
 image.upload.limit Failed. {0}kb ang Limitasyon ng Larawan
 thumbnail.upload.error Thumbnail Error
@@ -615,7 +611,6 @@ matchmaker.full PUNO
 matchmaker.full2 Puno na ang laro.
 matchmaker.updating NAG-UUPDATE ANG LARO
 matchmaker.invalid Hindi mahanap ang laro.
-
 matchmaker.none Ang mga server ay nasa Max Capacity
 adblocker Tanggalin ang iyong ad-blocker upang makatanggap ng mga libreng KR.
 ad-failed Hindi Nag-load ang Ad. Subukang muli.
@@ -629,7 +624,6 @@ custom.mode.missing Pumili ng kahit isang Mode lang
 custom.class.missing Pumili ng kahit isang Klase lamang
 server.config.maxPlayers Mga manlalaro
 server.config.minPlayers Kailangan na Manlalaro
-
 server.config.lives Mga Buhay
 server.config.gameTime Minuto
 server.config.gravMlt Grabidad
@@ -784,10 +778,9 @@ windows.chall.customs Ang mga hamon o challenge ay hindi nakukumpleto sa mga kus
 twitch.link Siguradong nais mo bang i-link ang Twitch account?
 twitch.unlink Siguradong nais mo bang i-unlink ang iyong Twitch account?
 windows.clan.leave Siguradong nais mo bang umalis sa hukbo/samahan ninyo?
-windows.clan.delete Siguradong nais mo bang tanggalin ang hukbo/samahan?
+windows.clan.delete Siguradong nais mo bang i-delete ang hukbo/samahan?
 windows.clan.kick Sigurado ka bang nais mong i-kick si {0} at tanggalin sa samahan?
 windows.store.premium.purchase Nais mo bang bumili ng {0} araw ng Premium?
-
 windows.store.premium.gift Nais mo bang regaluhin si '{0}' ng {1} na araw ng Premium?
 windows.playerlist.ban Sigurado ka bang nais mong ipagbawal si {0} mula sa larong ito?
 windows.playerlist.flag Sigurado ka bang nais mong I-flag si {0}?
@@ -796,7 +789,6 @@ windows.playerlist.punish Sigurado ka bang nais mong parusahin ang manlalarong s
 item.view.open Buksan ang Model Viewer
 item.view.more Iba pang Impormasyon
 item.sell.cant Hindi mabenta ang item na ito.
-
 item.sell.quick Sigurado ka bang ibebenta mo ito agad {0}?
 social.profile.stats Kabuoang statistika
 social.profile.class Statistika ng mga Klase

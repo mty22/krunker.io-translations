@@ -61,7 +61,7 @@ generic.accuracy Tarkkuus
 player.waiting odotetaan pelaajia
 player.died Kuolit
 player.killed Sinut Tappoi
-player.killstreak {0}:lla on {1} tappoputki
+player.killstreak {0} on a {1} Kill Streak
 player.inactive Potkittu toimettomuuden vuoksi
 player.disconnect YHTEYS KATKENNUT
 timer.end Seuraava peli alkaa {0}

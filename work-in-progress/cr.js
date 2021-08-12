@@ -61,7 +61,7 @@ generic.accuracy Preciznost
 player.waiting čekanje na igrače
 player.died Umrli ste
 player.killed Ubio vas
-player.killstreak {0} je na nizu od {1} ubistava!
+player.killstreak {0} on a {1} Kill Streak
 player.inactive Izbačeni zbog neaktivnosti.
 player.disconnect ODVEZANO
 timer.end Sledeća runda za {0}
