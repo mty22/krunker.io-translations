@@ -16,4 +16,5 @@ module.exports.langNames = {
     "ru": "Russian",
     "it": "Italian",
     "tg": "Tagalog",
+    "tr": "Turkish",
 }
