@@ -1,6 +1,6 @@
 module.exports = `
 menu.btn.ranked 排位賽
-menu.btn.shop 商城
+menu.btn.shop 商店
 menu.btn.social 社區
 menu.btn.maps 地圖
 menu.btn.mods 模組
@@ -8,37 +8,37 @@ menu.btn.settings 設定
 menu.btn.customize 自定義
 menu.btn.invite 邀請
 menu.btn.invite.clicked 已複製
-menu.btn.join 加入遊戲
-menu.btn.host 創建遊戲
-menu.btn.browser 瀏覽伺服器
+menu.btn.join 加入遊戲伺服器
+menu.btn.host 建立遊戲伺服器
+menu.btn.browser 瀏覽遊戲伺服器
 generic.wait 請稍等...
 generic.loading 載入中...
 generic.none 無
-generic.connecting 連接中...
+generic.connecting 連線中...
 generic.select 選擇
 generic.delete 刪除
 generic.save 保存
 generic.load 載入
-generic.search 搜索
+generic.search 搜尋
 generic.leave 退出
-generic.default 默認
+generic.default 預設
 generic.submit 提交
-generic.create 創建
+generic.create 建立
 generic.random 隨機
 generic.failed 失敗
 generic.success 成功！
 generic.name 用戶名
 generic.level 等級
 generic.score 得分
-generic.off 關閉
+generic.off 關
 generic.defeat 失敗
 generic.victory 勝利
 generic.matchover 比賽結束
 generic.matchaband 比賽被迫終止
-generic.follow 關注
-generic.unfollow 取消關注
-generic.followers 關注者
-generic.following 關注中
+generic.follow 追隨
+generic.unfollow 取消追隨
+generic.followers 追隨者
+generic.following 追隨中
 generic.games 遊戲
 generic.wins 勝場
 generic.lose 敗場
@@ -49,7 +49,7 @@ generic.games.lost 敗場數
 generic.timep 遊玩時間
 generic.kills 擊殺數
 generic.deaths 死亡數
-generic.kdr 擊殺死亡比例
+generic.kdr 戰損比
 generic.time 時間
 generic.logout 登出
 generic.logout.sessions 從所有設備登出
@@ -62,8 +62,8 @@ player.waiting 等待更多玩家加入
 player.died 你死了
 player.killed 被此玩家擊殺
 player.killstreak {0} 已達到 {1} 連殺
-player.inactive 由於不活躍，遊戲已斷開連接
-player.disconnect 連接已斷開
+player.inactive 由於您的閒置時間過長，您已被踢出伺服器
+player.disconnect 連線已中斷
 timer.end 下一場將在 {0} 後開始
 leaderboard.empty 空房間
 popup.checkpoint 存檔點！
@@ -73,9 +73,9 @@ app.play.mobile 輕觸以開始遊戲
 app.spectate.mobile 輕觸以開始觀戰
 app.play.controller 按下開始鍵以開始遊戲
 app.spectate.controller 按下開始鍵以開始觀戰
-purchase.error 出現錯誤
+purchase.error 發生錯誤！
 purchase.error.click 點此</a> 以重試！
-purchase.error.limit 您已超出每日交易限額
+purchase.error.limit 您可能已超出每日交易額度
 settings.reset 重設
 settings.reset.confirm 您是否希望重設所有設定？
 settings.import 匯入
@@ -85,13 +85,13 @@ settings.backup 備份設定
 settings.controls.change 按鍵綁定
 settings.controls.press 按下任意按鍵
 settings.local.header 本地化 <span id="requiresRestart"><span style="color: #eb5656">*</span> 需要重啟遊戲</span>
-settings.local.region 默認伺服器地區
+settings.local.region 預設伺服器地區
 settings.local.lang 語言
 settings.network.header 網路
 settings.network.sendRate 高伺服器應答率
 settings.network.netRerouting 自動路由（可能會影響網絡延遲）
 settings.network.lagComp 延遲修正
-settings.network.hitReg 子彈碰撞判定測試
+settings.network.hitReg 命中判定測試
 settings.popup.header 彈窗
 settings.popup.freeKRPop 顯示免費 KR 彈窗
 settings.experimental.header 實驗性功能
@@ -113,19 +113,19 @@ settings.client.colorProfile 色彩配置文件
 settings.dev.header 開發者
 settings.dev.forceUpdate 強制刷新皮膚
 settings.dev.forceRegen 強制復活玩家
-settings.dev.extraBan 額外的封號資訊
+settings.dev.extraBan 額外封禁資訊
 settings.chat.header 聊天
-settings.chat.chat 顯示聊天視窗
+settings.chat.chat 顯示聊天欄
 settings.chat.chat.all 總是
 settings.chat.chat.focus 被聚焦時顯示
-settings.chat.messages 顯示玩家消息
+settings.chat.messages 顯示玩家訊息
 settings.chat.unboxings 顯示玩家開箱
-settings.chat.chatOp 聊天視窗不透明度
-settings.chat.chatBGOp 聊天視窗背景不透明度
-settings.chat.chatHeight 聊天視窗高度
-settings.chat.chatTimer 消息顯示時間
-settings.chat.chatTextOutline 消息文字輪廓
-settings.chat.chatFilter 不良語言過濾（僅限英文）
+settings.chat.chatOp 聊天欄不透明度
+settings.chat.chatBGOp 聊天欄背景不透明度
+settings.chat.chatHeight 聊天欄高度
+settings.chat.chatTimer 聊天欄文字顯示時間
+settings.chat.chatTextOutline 聊天欄文字輪廓
+settings.chat.chatFilter 過濾不良訊息（僅限英文）
 settings.quality.header 遊戲性能
 settings.quality.updRate 幀數限制
 settings.quality.rendDst 渲染距離
@@ -141,10 +141,10 @@ settings.quality.shadows 陰影
 settings.quality.softShad 柔和陰影
 settings.quality.highResShad 高解析度陰影
 settings.quality.shadowsDynamic 動態陰影
-settings.quality.trails 其他玩家彈道軌跡
-settings.quality.yourTrails 自身彈道軌跡
+settings.quality.trails 其他玩家子彈軌跡
+settings.quality.yourTrails 自身子彈軌跡
 settings.quality.mflash 槍口火焰
-settings.quality.flap 狙擊槍瞄準鏡保護蓋
+settings.quality.flap 狙擊鏡保護蓋
 settings.quality.lowSpec 低配置模式
 settings.quality.ambient 環境陰影
 settings.quality.ambientOld 舊版陰影畫風（僅可用時）
@@ -250,15 +250,15 @@ settings.hitmarker.hitm 顯示
 settings.hitmarker.hitmFad 褪去速度
 settings.hitmarker.custom 命中標記圖示
 settings.hitmarker.custom.paste 命中標記圖示網址
-settings.onKillS.style.0 默認
+settings.onKillS.style.0 預設
 settings.onKillS.style.1 降低解析度
 settings.onKillS.style.2 降低視角廣度
 settings.onKillS.style.3 增加視角廣度
 settings.serverb.header 伺服器瀏覽器
 settings.serverb.oldBrowser 舊版瀏覽器
-settings.serverb.defaultRegionOnly 僅顯示默認地區的伺服器
+settings.serverb.defaultRegionOnly 僅顯示預設地區的伺服器
 settings.gameprivacy.header 遊玩隱私
-settings.gameprivacy.streamer 主播模式
+settings.gameprivacy.streamer 實況主模式
 settings.gameprivacy.anon 匿名模式
 settings.gameprivacy.hideGameTitle 隱藏遊戲名稱
 settings.gameplay.header 遊戲性
@@ -404,7 +404,7 @@ windows.servers.header 伺服器
 windows.servers.none 無可加入遊戲...
 windows.servers.host + 創建遊戲
 windows.servers.hide 隱藏已滿的遊戲
-windows.servers.priority 優先顯示默認區域
+windows.servers.priority 優先顯示預設區域
 windows.servers.online {0} 玩家在遊戲中
 windows.servers.social {0} 玩家在社區中
 windows.loadout.header 更換武器類別
@@ -412,7 +412,7 @@ windows.loadout.class 武器類別
 windows.loadout.primary 主要武器
 windows.loadout.primary.attach 配件
 windows.loadout.primary.reticle 準星
-windows.loadout.primary.scope 狙擊槍瞄準鏡
+windows.loadout.primary.scope 狙擊鏡
 windows.loadout.secondary 次要武器
 windows.loadout.secondary.skin 次要武器皮膚
 windows.loadout.melee 近戰武器
@@ -493,7 +493,7 @@ windows.controls.pretend 隱藏遊戲
 windows.host.header 創建自定義遊戲
 windows.host.maps 伺服器設定
 windows.host.cmaps 社區遊戲
-windows.host.raw 原始遊戲數據
+windows.host.raw 原始遊戲資料
 windows.host.modes 選擇遊戯模式
 windows.host.classes 選擇武器類別
 windows.host.settings 伺服器設定
@@ -503,7 +503,7 @@ windows.host.preset.name 預設名稱
 windows.host.start 開始遊戲
 windows.host.rehost 開始遊戲（邀請玩家）
 windows.spray.header 選擇塗鴉
-windows.spray.default 默認塗鴉
+windows.spray.default 預設塗鴉
 windows.spray.spin 塗鴉
 windows.maps.header 自定義地圖
 windows.maps.none 沒有找到此地圖！
@@ -513,7 +513,7 @@ windows.maps.publish 發布地圖
 windows.maps.community 地圖開發者社區
 windows.publish.map.header 發布或更新地圖
 windows.publish.map.thumbnail 無縮略圖
-windows.publish.map.paste 粘貼地圖數據
+windows.publish.map.paste 粘貼地圖資料
 windows.publish.map.update 發布或更新
 windows.publish.map.login 登入以創建並上傳地圖！
 windows.theatre.header 影院模式
@@ -534,7 +534,7 @@ windows.store.spin {0} 輪盤
 windows.store.agree 通過此次購買，表示您同意 {0} 條款。
 windows.store.purchase 購買 KR
 windows.store.voucher 兌換代金券
-windows.store.voucherinfo 從指定主播和活動獲取代金券
+windows.store.voucherinfo 從指定實況主和活動獲取代金券
 windows.store.market 市場
 windows.store.market2 Krunker 市場
 windows.store.premium 購買會員
@@ -544,7 +544,7 @@ windows.store.buy 購買物品
 windows.store.wheels 輪盤
 windows.store.unlock 解鎖新武器和物品
 windows.store.amount 您的帳戶中剩餘 {0} KR
-windows.store.login 用於在商城中購買和解鎖物品！
+windows.store.login 用於在商店中購買和解鎖物品！
 windows.store.purchasing 購買中...
 windows.store.unboxed {0} 開箱解鎖了 {1}
 windows.trade.header 交易
@@ -561,7 +561,7 @@ windows.reticle.header 選擇準星
 windows.reticle.unlocked 於 {0} 級解鎖
 windows.reticle.req 需要 {0} 級
 windows.dye.header 選擇服裝染色
-windows.dye.default 默認服裝染色
+windows.dye.default 預設服裝染色
 windows.dye.spin 服裝染色
 windows.changelog.header 更新日誌
 windows.mods.community.header 社區模組
@@ -617,8 +617,8 @@ ad-failed 廣告載入失敗，請稍後重試。
 streamers.views {0} 個觀眾
 streamers.none 當前沒有 Twitch 直播！
 error.extentions 如果您有任何（瀏覽器）插件，請停用它們
-error.seek 點此以搜索新的遊戲
-custom.map.upload.limit 上傳失敗，遊戲數據大小上限為五十萬個字元
+error.seek 點此以搜尋新的遊戲
+custom.map.upload.limit 上傳失敗，地圖資料大小上限為五十萬個字元
 custom.map.missing 請選擇至少一種遊戲或地圖
 custom.mode.missing 請選擇至少一種模式
 custom.class.missing 請選擇至少一種武器類別
@@ -668,7 +668,7 @@ server.config.kCams 死亡視角
 server.config.noReload 無需換彈
 server.config.private 私人
 server.config.krRewards KR 獎勵
-server.config.forceDefault 強制使用默認設定
+server.config.forceDefault 強制使用預設
 server.config.warmupTime 熱身時間
 server.config.gamRounds 遊戲局數
 server.config.objtvTime 目標時間
@@ -703,7 +703,7 @@ social.maps.none 未找到此地圖...
 social.mods.none 未找到此模組...
 social.market.price.low 最低價格
 social.market.price.list 輸入價格
-social.market.searching 搜索中
+social.market.searching 搜尋中
 social.market.listed {0} 前上架
 social.market.list 上架物品
 social.market.unlist 下架物品
@@ -724,10 +724,10 @@ social.market.melee 近戰武器
 social.market.spray 塗鴉
 social.market.dye 服裝染色
 social.market.none 未找到任何物品
-social.market.login 您必須先登錄。
+social.market.login 您必須先登入。
 social.market.grace {0} 秒後上架
 social.market.sort 篩選或排序
-social.market.filter 搜索
+social.market.filter 搜尋
 social.market.sort2 排序
 social.market.price.high 最高價格
 social.trading.submitting 提交報價中...
@@ -748,10 +748,10 @@ limited.purchase.success 已添加 {0} 到您的存貨
 pretend.exit 再次點擊 [{0}] 以退出
 settings.loaded 設定已載入
 settings.loaded.none 該設定為空白
-account.login.required 您必須先登錄
+account.login.required 您必須先登入
 account.banned.hack 此帳號因作弊已被封禁
 account.banned.appeal 如果您想提出上訴，請聯繫：
-account.delete 在這裡您可以請求刪除您的帳戶，如果此請求沒有在14天內被撤消，您所有的帳戶數據將會被永久清除。
+account.delete 您可以請求刪除您的帳戶，如果此請求沒有在14天內被撤消，您所有的帳戶資料將會被永久清除。
 account.delete.request 您確定要請求刪除您的帳戶嗎？
 account.delete.cancel 您確定要取消帳戶刪除請求嗎？
 spin.free.available 免費 KR 可用！
@@ -768,13 +768,13 @@ stats.thrownkills 投擲近戰武器次數
 stats.headshots 爆頭次數
 stats.wallbangs 穿牆次數
 stats.sprays 塗鴉次數
-windows.host.default.settings 啟用默認設置允許玩家儲存他們的進度及高分
-windows.host.default.commands *房主指令（像：/noclip，/god，/smite 等）在此模式中將會被停用。
-windows.host.rewards 啟用 KR 獎勵將會強制此伺服器使用默認設定並允許玩家從此地圖贏得 KR：
-windows.store.wheels.sub 試試您的運氣，轉動輪盤來獲得贏取新皮膚的機會！
-windows.store.currency *這些價格可以由付款提供者或銀行以匯率計算從美元轉換到您的當地貨幣。
-windows.store.creator 當您在購買 KR 時，考慮通過使用您最喜歡的 Krunker 內容創作者的代碼來支持他們！
-windows.chall.customs 挑戰不能在自定義遊戲內進行。
+windows.host.default.settings 使用地圖預設以允許玩家儲存他們的進度及高分
+windows.host.default.commands * 房主指令（像：/noclip，/god，/smite 等）在此模式中將會被停用。
+windows.host.rewards 啟用 KR 獎勵將會強制伺服器使用地圖預設，並允許玩家從此地圖贏得 KR：
+windows.store.wheels.sub 試試您的運氣，轉動輪盤來贏取新皮膚！
+windows.store.currency * 美元價格會按照支付服務提供商或銀行決定的匯率轉換到您的本地貨幣。
+windows.store.creator 購買 KR 時，考慮使用創作者代碼来支持您最喜歡的內容創作者
+windows.chall.customs 您不能在自定義伺服器內完成挑戰。
 twitch.link 您確定您想連接您的 Twitch 帳戶嗎？
 twitch.unlink 您確定您想取消連接嗎？
 windows.clan.leave 您確定您想離開您的公會嗎？
@@ -802,7 +802,7 @@ social.profile.assets [{0}] 個地圖元件
 social.profile.assets.none 此用戶沒有已發行的地圖元件
 social.profile.mods [{0}] 個模組
 social.profile.mods.none 此用戶沒有已發行的模組
-social.search 搜索結果
+social.search 搜尋結果
 social.market.stats.rare 最稀有物品
 social.market.stats.circulation 流通中
 social.market.stats.units 全球持有數量
@@ -817,5 +817,5 @@ social.trades.message 在設定內開啟交易請求訊息
 social.trades.warning 您將不會在此交易中得到任何物品！
 social.trades.accept 您確定要接受此交易請求嗎？
 stats.airdrops KR 空投
-settings.quality.flapAnim 狙擊槍瞄準鏡保護蓋動畫
+settings.quality.flapAnim 狙擊鏡保護蓋動畫
 `;
