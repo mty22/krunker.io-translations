@@ -775,8 +775,8 @@ windows.store.wheels.sub 試試您的運氣，轉動輪盤來贏取新皮膚！
 windows.store.currency * 美元價格會按照支付服務提供商或銀行決定的匯率轉換到您的本地貨幣。
 windows.store.creator 購買 KR 時，考慮使用創作者代碼來支持您最喜歡的內容創作者
 windows.chall.customs 您不能在自訂伺服器內完成挑戰。
-twitch.link 您確定您想連接您的 Twitch 帳戶嗎？
-twitch.unlink 您確定您想取消連接嗎？
+twitch.link 您確定您想連結您的 Twitch 帳戶嗎？
+twitch.unlink 您確定您想取消連結嗎？
 windows.clan.leave 您確定您想離開您的公會嗎？
 windows.clan.delete 您確定您想刪除您的公會嗎？
 windows.clan.kick 您確定您想從您的公會踢出 {0} 嗎？
