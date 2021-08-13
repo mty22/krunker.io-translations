@@ -92,8 +92,8 @@ settings.network.sendRate 高伺服器應答率
 settings.network.netRerouting 自動路由（可能會影響網路延遲）
 settings.network.lagComp 延遲修正
 settings.network.hitReg 命中判定測試
-settings.popup.header 跳出視窗
-settings.popup.freeKRPop 顯示免費 KR 跳出視窗
+settings.popup.header 彈出式視窗
+settings.popup.freeKRPop 顯示免費 KR 彈出式視窗
 settings.experimental.header 實驗性功能
 settings.experimental.aimFreezeFix 瞄準凍結修正
 settings.experimental.mouseFlickFix 滑鼠輪詢率修正
@@ -756,7 +756,7 @@ account.delete.request 您確定要請求刪除您的帳戶嗎？
 account.delete.cancel 您確定要取消帳戶刪除請求嗎？
 spin.free.available 立即領取免費 KR！
 spin.free.claim 您必須在每小時內完成一場比賽以獲得您的免費 KR 輪盤。
-spin.free.disable 在通用設定裡可以關閉此跳出視窗。
+spin.free.disable 在通用設定裡可以關閉此彈出式視窗。
 mod.reset.0 當您復活後此設定將會生效。
 mod.reset.1 地圖物體將不會被重設。
 windows.profile.picture 更改頭像
