@@ -87,7 +87,7 @@ settings.controls.press 按下任意按键
 settings.local.header 本地化 <span id="requiresRestart"><span style="color: #eb5656">*</span> 需要重启游戏</span>
 settings.local.region 默认服务器地区
 settings.local.lang 语言
-settings.network.header 网路
+settings.network.header 网络
 settings.network.sendRate 高服务器应答率
 settings.network.netRerouting 自动路由（可能会影响网络延迟）
 settings.network.lagComp 延迟修正
@@ -439,7 +439,7 @@ windows.mods.list 模组列表
 windows.mods.load.header 加载模组
 windows.mods.publish 发布模组
 windows.mods.viewer 浏览器
-windows.account.header 帐号
+windows.account.header 账号
 windows.account.recover 联系 <a>recovery@yendis.ch</a> 以找回密码。
 windows.class.header 选择武器类别
 windows.controls.header 更改控制
@@ -751,7 +751,7 @@ settings.loaded.none 该设置为空白
 account.login.required 您必须先登录
 account.banned.hack 此账号因使用外挂而被封禁
 account.banned.appeal 如果您想提出上诉，请联系：
-account.delete 您可以申请删除您的账号，如果您的申请在14天內没有被撤销，所有关于此账号的信息将会被永久抹除。
+account.delete 您可以申请删除您的账号，如果您的申请在14天内没有被撤销，所有关于此账号的信息将会被永久抹除。
 account.delete.request 您确定要申请删除您的账号吗？
 account.delete.cancel 您确定要取消账号删除申请吗？
 spin.free.available 免费 KR 已准备完毕！
@@ -817,5 +817,5 @@ social.trades.message 在设置中开启交易请求信息
 social.trades.warning 您将不会在此交易中获得任何物品！
 social.trades.accept 您确定要接受此交易请求吗？
 stats.airdrops KR 空投
-settings.quality.flapAnim 狙击镜保护蓋动画
+settings.quality.flapAnim 狙击镜保护盖动画
 `;
