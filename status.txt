@@ -11,6 +11,7 @@ Traditional Chinese - Up to date (v4.0.9)
 Polish - Up to date (v4.0.9)
 Simplified Chinese - Up to date (v4.0.9)
 Tagalog - Up to date (v4.0.9)
+Turkish - Up to date (v4.0.9)
 
 Hindi - PR pending (v3.8.6) - https://github.com/mty22/krunker.io-translations/pull/230
 Finnish - PR pending (far behind, last update: pre-v3.8.0) - https://github.com/mty22/krunker.io-translations/pull/236
