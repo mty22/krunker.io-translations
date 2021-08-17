@@ -82,7 +82,7 @@ settings.import 匯入
 settings.export 匯出
 settings.none 沒有找到設定
 settings.backup 備份設定
-settings.controls.change 按鍵綁定
+settings.controls.change 按鍵設定
 settings.controls.press 按下任意按鍵
 settings.local.header 本地化 <span id="requiresRestart"><span style="color: #eb5656">*</span> 需要重啟遊戲</span>
 settings.local.region 預設伺服器地區
@@ -94,13 +94,13 @@ settings.network.lagComp 延遲修正
 settings.network.hitReg 命中判定測試
 settings.popup.header 彈出式視窗
 settings.popup.freeKRPop 顯示免費 KR 彈出式視窗
-settings.experimental.header 實驗性功能
-settings.experimental.aimFreezeFix 瞄準凍結修正
+settings.experimental.header 實驗性
+settings.experimental.aimFreezeFix 瞄準凍結修正（射擊時限制幀率）
 settings.experimental.mouseFlickFix 滑鼠輪詢率修正
 settings.experimental.shaderRendering 著色器渲染
 settings.experimental.staticRendering 靜態渲染
 settings.client.header 用戶端
-settings.client.unlimitedFrames 幀數無限制
+settings.client.unlimitedFrames 停用垂直同步
 settings.client.gameCap 遊戲擷取 (OBS)
 settings.client.experimental 實驗性功能
 settings.client.discordRPC 啟用 Discord RPC
@@ -157,7 +157,7 @@ settings.quality.lighting 光照效果
 settings.quality.showExplo 顯示爆炸效果
 settings.quality.aspectRatio 螢幕高寬比
 settings.post.header 後期處理
-settings.post.post 後期處理
+settings.post.post 啟用後期處理
 settings.post.bloom 光線散射
 settings.post.bloomThreshold 光線散射閾值
 settings.post.bloomStrength 光線散射強度
@@ -170,7 +170,7 @@ settings.interface.dmg 顯示傷害
 settings.interface.dmgCol 傷害顏色
 settings.interface.critCol 暴擊顏色
 settings.interface.header 介面
-settings.interface.scale 用戶介面比例
+settings.interface.scale 用戶介面大小比例
 settings.interface.ui 顯示用戶介面
 settings.interface.scoreboard 使用舊版計分板
 settings.interface.oldBrowser 使用舊版瀏覽器
@@ -179,13 +179,13 @@ settings.interface.showPfp 顯示用戶圖示
 settings.interface.showTradeMsg 顯示交易訊息
 settings.interface.hideNonTrade 隱藏不可交易的皮膚
 settings.interface.hp 動態血條
-settings.interface.dmgScale 傷害顯示比例
+settings.interface.dmgScale 傷害顯示大小比例
 settings.interface.killf 顯示擊殺訊息
 settings.interface.ping 顯示網路延遲
 settings.interface.net-stats 顯示網路狀況
 settings.interface.fps 顯示幀率
 settings.interface.deaths 顯示死亡數
-settings.interface.kd 顯示擊殺死亡比例
+settings.interface.kd 顯示戰損比
 settings.interface.kills 顯示擊殺數
 settings.interface.streak 顯示連殺數
 settings.interface.score 顯示分數
@@ -194,11 +194,11 @@ settings.interface.speed 顯示移動速度
 settings.interface.speedOffX 移動速度顯示計水平位置偏移值
 settings.interface.speedOffY 移動速度顯示計垂直位置偏移值
 settings.interface.speedOpacity 移動速度顯示計不透明度
-settings.interface.speedScale 移動速度顯示計比例
+settings.interface.speedScale 移動速度顯示計大小比例
 settings.interface.speedColor 當前速度顏色
 settings.interface.speedColorMax 最高速度顏色
 settings.interface.medals 顯示勳章
-settings.interface.hideNames 顯示名牌
+settings.interface.hideNames 名牌顯示
 settings.interface.hideNames.team 僅限隊友
 settings.interface.hideNames.enemy 僅限敵人
 settings.interface.hideNames.all 全部顯示
@@ -208,7 +208,7 @@ settings.interface.nametagStyle.health 僅限血條
 settings.interface.nametagStyle.name 僅限名稱
 settings.interface.nametagStyle.nameLvl 名稱和等級
 settings.interface.nametagStyle.all 全部顯示
-settings.interface.healthNum 名牌
+settings.interface.healthNum 顯示血量
 settings.interface.healthColT 隊友血條顏色
 settings.interface.healthColE 敵人血條顏色
 settings.interface.xpBarCol 經驗條顏色
@@ -217,7 +217,7 @@ settings.crosshair.header 準星
 settings.crosshair.type 種類
 settings.crosshair.type.2 自訂
 settings.crosshair.type.3 疊層
-settings.crosshair.type.4 圖片
+settings.crosshair.type.4 圖示
 settings.crosshair.type.5 精準
 settings.crosshair.style 樣式
 settings.crosshair.style.0 十字
@@ -225,8 +225,8 @@ settings.crosshair.style.1 空心圓
 settings.crosshair.style.2 實心圓
 settings.crosshair.style.3 空心方塊
 settings.crosshair.style.4 實心方塊
-settings.crosshair.image 圖片
-settings.crosshair.image.paste 準星圖片
+settings.crosshair.image 圖示
+settings.crosshair.image.paste 準星圖示
 settings.crosshair.always 總是顯示
 settings.crosshair.color 顏色
 settings.crosshair.shadow.color 陰影顏色
@@ -246,7 +246,7 @@ settings.hitmarker.leng 長度
 settings.hitmarker.spacing 間距
 settings.hitmarker.animD 動畫尺寸
 settings.hitmarker.animS 動畫速度
-settings.hitmarker.hitm 顯示
+settings.hitmarker.hitm 顯示命中標記
 settings.hitmarker.hitmFad 褪去速度
 settings.hitmarker.custom 命中標記圖示
 settings.hitmarker.custom.paste 命中標記圖示網址
@@ -265,33 +265,33 @@ settings.gameplay.header 遊戲性
 settings.gameplay.gpSetts 遊戲性設定
 settings.gameplay.sensitivityX 水平靈敏度
 settings.gameplay.sensitivityY 垂直靈敏度
-settings.gameplay.aimsensX 瞄準水平靈敏度
-settings.gameplay.aimsensY 瞄準垂直靈敏度
+settings.gameplay.aimsensX 瞄準時水平靈敏度
+settings.gameplay.aimsensY 瞄準時垂直靈敏度
 settings.gameplay.challenge 挑戰模式
-settings.gameplay.invert 滑鼠反轉
+settings.gameplay.invert 滑鼠垂直移動方向反轉
 settings.gameplay.onkillS 擊殺
 settings.gameplay.scrollDir 滑鼠滾輪方向反轉
-settings.controller.header 手把
+settings.controller.header 遊戲手把
 settings.controller.sensitivityX 水平靈敏度
-settings.controller.disableCons 停用手把
+settings.controller.disableCons 停用遊戲手把
 settings.controller.sensitivityY 垂直靈敏度
-settings.controller.aimsensX 瞄準水平靈敏度
-settings.controller.aimsensY 瞄準垂直靈敏度
-settings.controller.deadZoneL 左手把搖桿死區
-settings.controller.deadZoneR 右手把搖桿死區
+settings.controller.aimsensX 瞄準時水平靈敏度
+settings.controller.aimsensY 瞄準時垂直靈敏度
+settings.controller.deadZoneL 左搖桿死區
+settings.controller.deadZoneR 右搖桿死區
 settings.controller.triggerThres 觸發閾值
-settings.controller.vibration 震動
+settings.controller.vibration 震動回饋
 settings.controller.gradSpeed 漸緩速度
-settings.controller.invert 搖桿反轉
+settings.controller.invert 搖桿垂直移動方向反轉
 settings.mobile.header 移動設備
 settings.mobile.sensitivityX 水平靈敏度
 settings.mobile.sensitivityY 垂直靈敏度
-settings.mobile.aimsensX 瞄準水平靈敏度
-settings.mobile.aimsensY 瞄準垂直靈敏度
-settings.mobile.vibration 震動
+settings.mobile.aimsensX 瞄準時水平靈敏度
+settings.mobile.aimsensY 瞄準時垂直靈敏度
+settings.mobile.vibration 震動回饋
 settings.mobile.gradSpeed 漸緩速度
-settings.mobile.invert 觸控反轉
-settings.audio.header 音量
+settings.mobile.invert 觸控垂直移動方向反轉
+settings.audio.header 音訊
 settings.audio.sound 主音量
 settings.audio.ambient 環境音量
 settings.audio.voice 語音音量
@@ -300,7 +300,7 @@ settings.audio.player 玩家音量
 settings.audio.skin 服飾音量
 settings.audio.ui 用戶介面音量
 settings.audio.asset 地圖元件音量
-settings.audio.dialogue 動作音量
+settings.audio.dialogue 互動音量
 settings.viewmodel.header 視野和模型
 settings.viewmodel.vmSetts 視野和模型設定
 settings.viewmodel.fov 視角廣度
@@ -312,7 +312,7 @@ settings.viewmodel.show.secondary 顯示次要武器
 settings.viewmodel.roundArms 圓滑的手臂
 settings.viewmodel.show.melee 顯示近戰武器
 settings.viewmodel.show.ads 瞄準時隱藏武器
-settings.viewmodel.toggleAim 鬆手時保持瞄準
+settings.viewmodel.toggleAim 點擊瞄準
 settings.viewmodel.show.hands 顯示手部
 settings.viewmodel.leftHand 左手持槍
 settings.viewmodel.aimAnim 武器瞄準動畫
@@ -323,10 +323,10 @@ settings.viewmodel.zOff 武器前後位置偏移值
 settings.viewmodel.weapSwapY 武器切換時的垂直位置偏移值
 settings.viewmodel.weapReloadY 武器換彈時的垂直位置偏移值
 settings.viewmodel.yOffADS 武器瞄準時的垂直位置偏移值
-settings.viewmodel.adsFovMlt 瞄準視角放大倍率
+settings.viewmodel.adsFovMlt 瞄準時視角廣度放大倍率
 settings.editing.header 編輯
-settings.editing.health.high HUD高血量顏色
-settings.editing.health.low HUD低血量顏色
+settings.editing.health.high HUD 高血量顏色
+settings.editing.health.low HUD 低血量顏色
 settings.editing.speedLines 速度線
 settings.editing.spdLinesCol 速度線顏色
 settings.editing.score.color 彈出得分顏色
@@ -335,10 +335,10 @@ settings.editing.score.scale 彈出得分大小比例
 settings.editing.score.shadow 彈出得分陰影
 settings.editing.scoreOffX 彈出得分水平座標
 settings.editing.scoreOffY 彈出得分垂直座標
-settings.editing.prog.color 經驗條顏色
-settings.editing.prog.opacity 蓄力條不透明度
+settings.editing.prog.color 進度條顏色
+settings.editing.prog.opacity 進度條不透明度
 settings.editing.prog.scale 進度條大小比例
-settings.editing.prog.shadow 蓄力條陰影
+settings.editing.prog.shadow 進度條陰影
 settings.editing.progOffX 進度條水平位置偏移值
 settings.editing.progOffY 進度條垂直位置偏移值
 settings.editing.progRot 進度條角度
@@ -346,7 +346,7 @@ settings.editing.progm.color 蓄力條顏色
 settings.editing.progm.opacity 蓄力條不透明度
 settings.editing.progm.scale 蓄力條大小比例
 settings.editing.progm.shadow 蓄力條陰影
-settings.editing.progmOffX 蓄力條水準位置偏移值
+settings.editing.progmOffX 蓄力條水平位置偏移值
 settings.editing.progmOffY 蓄力條垂直位置偏移值
 settings.editing.progmRot 蓄力條角度
 settings.editing.saturation 飽和度（遊戲中）
@@ -357,11 +357,11 @@ settings.editing.vignette 暈影效果
 settings.editing.feedLimit 擊殺訊息列表長度限制
 settings.editing.depth 景深圖模式
 settings.editing.green 綠幕模式
-settings.editing.trailcol 子彈軌跡顏色
+settings.editing.trailcol 子彈飛行軌跡顏色
 settings.editing.ropecol 鉤爪繩索顏色
-settings.editing.tracercol 顯示彈道軌跡
-settings.editing.tracer 顯示彈道軌跡
-settings.editing.tracer.offset 彈道顯示位置偏移值
+settings.editing.tracercol 子彈顏色
+settings.editing.tracer 顯示子彈
+settings.editing.tracer.offset 子彈顯示偏移值
 settings.shaders.header 著色器輸入
 settings.mods.header 自訂
 settings.mods.load 載入模組
@@ -396,7 +396,7 @@ settings.mods.usedamage 受傷螢幕效果
 settings.mods.damage 受傷螢幕效果圖示
 settings.mods.damage.paste 受傷螢幕效果網址
 settings.mods.overlay 遊戲結束圖示
-settings.mods.overlay.paste 遊戲疊層圖片網址
+settings.mods.overlay.paste 遊戲疊層圖示網址
 settings.social.region 各地區統計
 windows.settings.header 遊戲設定
 windows.mail.header Krunker 信箱
@@ -404,7 +404,7 @@ windows.servers.header 伺服器
 windows.servers.none 無可加入遊戲...
 windows.servers.host + 建立遊戲
 windows.servers.hide 隱藏已滿的遊戲
-windows.servers.priority 優先顯示預設區域
+windows.servers.priority 優先顯示預設地區
 windows.servers.online {0} 玩家在遊戲中
 windows.servers.social {0} 玩家在社區中
 windows.loadout.header 更換武器類別
@@ -412,7 +412,7 @@ windows.loadout.class 武器類別
 windows.loadout.primary 主要武器
 windows.loadout.primary.attach 配件
 windows.loadout.primary.reticle 準星
-windows.loadout.primary.scope 狙擊鏡
+windows.loadout.primary.scope 瞄準鏡
 windows.loadout.secondary 次要武器
 windows.loadout.secondary.skin 次要武器皮膚
 windows.loadout.melee 近戰武器
@@ -423,7 +423,7 @@ windows.loadout.shoe 鞋子
 windows.loadout.face 表情
 windows.loadout.spray 塗鴉
 windows.loadout.color.skin 皮膚顏色
-windows.loadout.color.chat 聊天視窗中使用者名稱顏色
+windows.loadout.color.chat 聊天欄中使用者名稱顏色
 windows.loadout.color.hair 頭髮顏色
 windows.loadout.dye 服裝染色
 windows.loadout.pet 寵物
@@ -447,13 +447,13 @@ windows.controls.forward 前
 windows.controls.backward 後
 windows.controls.left 左
 windows.controls.right 右
-windows.controls.reload 裝彈
+windows.controls.reload 換彈
 windows.controls.aim 瞄準
 windows.controls.shoot 射擊
 windows.controls.inspect 檢視武器
 windows.controls.spray 塗鴉
 windows.controls.jump 跳躍
-windows.controls.crouch 蹲下或滑行
+windows.controls.crouch 蹲下
 windows.controls.prim 主要武器
 windows.controls.swap 次要武器
 windows.controls.melee 近戰武器
@@ -465,12 +465,12 @@ windows.controls.board 排行榜
 windows.controls.interact 互動
 windows.controls.interactSec 次要互動
 windows.controls.confirm 確認互動
-windows.controls.drop 丟棄（武器、物品）
+windows.controls.drop 丟棄
 windows.controls.wepVis 切換武器可見度
 windows.controls.kickVoteY 投票踢出玩家［是］
 windows.controls.kickVoteN 投票踢出玩家［否］
-windows.controls.kpdVoteY KPD投票［是］
-windows.controls.kpdVoteN KPD投票［否］
+windows.controls.kpdVoteY KPD 投票［是］
+windows.controls.kpdVoteN KPD 投票［否］
 windows.controls.specFree 自由視角
 windows.controls.specObj 目標點視角
 windows.controls.specFirst 第一人稱視角
@@ -499,11 +499,11 @@ windows.host.classes 選擇武器類別
 windows.host.settings 伺服器設定
 windows.host.preset 建立預設檔
 windows.host.preset.load 載入預設檔中...
-windows.host.preset.name 預設名稱
+windows.host.preset.name 預設檔名稱
 windows.host.start 開始遊戲
 windows.host.rehost 開始遊戲（邀請玩家）
 windows.spray.header 選擇塗鴉
-windows.spray.default 預設塗鴉
+windows.spray.default 免費塗鴉
 windows.spray.spin 塗鴉
 windows.maps.header 自訂地圖
 windows.maps.none 沒有找到此地圖！
@@ -544,7 +544,7 @@ windows.store.buy 購買物品
 windows.store.wheels 輪盤
 windows.store.unlock 解鎖新武器和物品
 windows.store.amount 您的帳戶還剩餘 {0} KR
-windows.store.login 用於在商店中購買和解鎖物品！
+windows.store.login 登入以在商店中購買和解鎖物品！
 windows.store.purchasing 購買中...
 windows.store.unboxed {0} 開箱解鎖了 {1}
 windows.trade.header 交易
@@ -588,9 +588,9 @@ windows.players.none 當前沒有玩家在線上...
 windows.join.header 加入
 windows.join.code 輸入遊戲網址
 windows.client.header 用戶端
-windows.client.windows Windows 遊戲用戶端
-windows.client.mac MacOS 遊戲用戶端
-windows.client.linux Linux 遊戲用戶端
+windows.client.windows Windows 用戶端
+windows.client.mac MacOS 用戶端
+windows.client.linux Linux 用戶端
 windows.ranked.header 排位賽
 windows.ranked.login 登入以進行排位賽！
 windows.ranked.level 您至少需要<span color="black"> {0} 級</span>以進行排位賽！當前您的等級是<span color="black"> {1} 級</span>。
@@ -600,7 +600,7 @@ windows.ranked.mode.r4v4 四排
 windows.chall.header 挑戰
 windows.chall.login 登入以完成挑戰！
 thumbnail.upload.limit 上傳失敗，縮圖大小上限為 {0}kb
-image.upload.limit 上傳失敗，圖片大小上限為 {0}kb
+image.upload.limit 上傳失敗，圖像大小上限為 {0}kb
 thumbnail.upload.error 縮圖錯誤
 mod.extracting 提取中 {0}/{1}
 mod.disabled 模組已停用
@@ -637,7 +637,7 @@ server.config.strafeSpd 空中轉向速度
 server.config.fiRat 武器射速
 server.config.reSpd 換彈速度
 server.config.slidTime 滑行時間
-server.config.fixMov 固定移動機制（使跳躍高度和加速不被幀率影響）
+server.config.fixMov 移動機制修正（使跳躍高度和加速不被幀率影響）
 server.config.slidSpd 滑行速度
 server.config.healthMlt 血量倍率
 server.config.impulseMlt 武器後坐力
@@ -668,7 +668,7 @@ server.config.kCams 死亡視角
 server.config.noReload 無需換彈
 server.config.private 私人伺服器
 server.config.krRewards KR 獎勵
-server.config.forceDefault 強制使用預設
+server.config.forceDefault 強制使用預設設定
 server.config.warmupTime 熱身時間
 server.config.gamRounds 遊戲局數
 server.config.objtvTime 目標時間
@@ -768,9 +768,9 @@ stats.thrownkills 投擲近戰武器次數
 stats.headshots 爆頭次數
 stats.wallbangs 穿牆次數
 stats.sprays 塗鴉次數
-windows.host.default.settings 使用地圖預設以允許玩家保存他們的進度及高分
+windows.host.default.settings 使用地圖預設設定以允許玩家保存他們的進度及高分
 windows.host.default.commands * 房主指令（像：/noclip，/god，/smite 等）在此模式中將會被停用。
-windows.host.rewards 啟用 KR 獎勵將會強制伺服器使用地圖預設，並允許玩家從此地圖贏得 KR：
+windows.host.rewards 啟用 KR 獎勵將會強制伺服器使用地圖預設設定，並允許玩家從此地圖贏得 KR：
 windows.store.wheels.sub 試試您的運氣，轉動輪盤來贏取新皮膚！
 windows.store.currency * 美元價格會按照支付服務提供商或銀行決定的匯率轉換到您的本地貨幣。
 windows.store.creator 購買 KR 時，考慮使用創作者代碼來支持您最喜歡的內容創作者
