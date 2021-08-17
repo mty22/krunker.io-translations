@@ -17,7 +17,7 @@ generic.none 無
 generic.connecting 連線中...
 generic.select 選擇
 generic.delete 刪除
-generic.save 保存
+generic.save 儲存
 generic.load 載入
 generic.search 搜尋
 generic.leave 退出
@@ -52,7 +52,7 @@ generic.deaths 死亡數
 generic.kdr 戰損比
 generic.time 時間
 generic.logout 登出
-generic.logout.sessions 從所有設備登出
+generic.logout.sessions 從所有裝置登出
 generic.username 使用者名稱
 generic.password 密碼
 generic.register 註冊
@@ -109,9 +109,9 @@ settings.client.clearCache 清除快取
 settings.client.resetSettings 重設用戶端設定
 settings.client.acceleratedCanvas 啟用畫布硬體加速 (Accelerated Canvas)
 settings.client.angleBackend ANGLE 繪圖後端
-settings.client.colorProfile 色彩配置文件
+settings.client.colorProfile 色彩設定檔
 settings.dev.header 開發者
-settings.dev.forceUpdate 強制刷新皮膚
+settings.dev.forceUpdate 強制重新整理外觀
 settings.dev.forceRegen 強制復活玩家
 settings.dev.extraBan 額外封禁資訊
 settings.chat.header 聊天
@@ -170,14 +170,14 @@ settings.interface.dmg 顯示傷害
 settings.interface.dmgCol 傷害顏色
 settings.interface.critCol 暴擊顏色
 settings.interface.header 介面
-settings.interface.scale 用戶介面大小比例
-settings.interface.ui 顯示用戶介面
+settings.interface.scale 使用者介面大小比例
+settings.interface.ui 顯示使用者介面
 settings.interface.scoreboard 使用舊版計分板
 settings.interface.oldBrowser 使用舊版瀏覽器
 settings.interface.rarityanim 停用稀有物品動畫
-settings.interface.showPfp 顯示用戶圖示
+settings.interface.showPfp 顯示使用者圖示
 settings.interface.showTradeMsg 顯示交易訊息
-settings.interface.hideNonTrade 隱藏不可交易的皮膚
+settings.interface.hideNonTrade 隱藏不可交易的外觀
 settings.interface.hp 動態血條
 settings.interface.dmgScale 傷害顯示大小比例
 settings.interface.killf 顯示擊殺訊息
@@ -191,11 +191,11 @@ settings.interface.streak 顯示連殺數
 settings.interface.score 顯示分數
 settings.interface.spectators 顯示觀戰人數
 settings.interface.speed 顯示移動速度
-settings.interface.speedOffX 移動速度顯示計水平位置偏移值
-settings.interface.speedOffY 移動速度顯示計垂直位置偏移值
+settings.interface.speedOffX 移動速度顯示計水平位移
+settings.interface.speedOffY 移動速度顯示計垂直位移
 settings.interface.speedOpacity 移動速度顯示計不透明度
 settings.interface.speedScale 移動速度顯示計大小比例
-settings.interface.speedColor 當前速度顏色
+settings.interface.speedColor 目前速度顏色
 settings.interface.speedColorMax 最高速度顏色
 settings.interface.medals 顯示勳章
 settings.interface.hideNames 名牌顯示
@@ -268,7 +268,7 @@ settings.gameplay.sensitivityY 垂直靈敏度
 settings.gameplay.aimsensX 瞄準時水平靈敏度
 settings.gameplay.aimsensY 瞄準時垂直靈敏度
 settings.gameplay.challenge 挑戰模式
-settings.gameplay.invert 滑鼠垂直移動方向反轉
+settings.gameplay.invert 垂直移動方向反轉
 settings.gameplay.onkillS 擊殺
 settings.gameplay.scrollDir 滑鼠滾輪方向反轉
 settings.controller.header 遊戲手把
@@ -282,15 +282,15 @@ settings.controller.deadZoneR 右搖桿死區
 settings.controller.triggerThres 觸發閾值
 settings.controller.vibration 震動回饋
 settings.controller.gradSpeed 漸緩速度
-settings.controller.invert 搖桿垂直移動方向反轉
-settings.mobile.header 移動設備
+settings.controller.invert 垂直移動方向反轉
+settings.mobile.header 移動裝置
 settings.mobile.sensitivityX 水平靈敏度
 settings.mobile.sensitivityY 垂直靈敏度
 settings.mobile.aimsensX 瞄準時水平靈敏度
 settings.mobile.aimsensY 瞄準時垂直靈敏度
 settings.mobile.vibration 震動回饋
 settings.mobile.gradSpeed 漸緩速度
-settings.mobile.invert 觸控垂直移動方向反轉
+settings.mobile.invert 垂直移動方向反轉
 settings.audio.header 音訊
 settings.audio.sound 主音量
 settings.audio.ambient 環境音量
@@ -298,7 +298,7 @@ settings.audio.voice 語音音量
 settings.audio.weps 武器音量
 settings.audio.player 玩家音量
 settings.audio.skin 服飾音量
-settings.audio.ui 用戶介面音量
+settings.audio.ui 使用者介面音量
 settings.audio.asset 地圖元件音量
 settings.audio.dialogue 互動音量
 settings.viewmodel.header 視野和模型
@@ -317,12 +317,12 @@ settings.viewmodel.show.hands 顯示手部
 settings.viewmodel.leftHand 左手持槍
 settings.viewmodel.aimAnim 武器瞄準動畫
 settings.viewmodel.rot 武器旋轉
-settings.viewmodel.xOff 武器水平位置偏移值
-settings.viewmodel.yOff 武器垂直位置偏移值
-settings.viewmodel.zOff 武器前後位置偏移值
-settings.viewmodel.weapSwapY 武器切換時的垂直位置偏移值
-settings.viewmodel.weapReloadY 武器換彈時的垂直位置偏移值
-settings.viewmodel.yOffADS 武器瞄準時的垂直位置偏移值
+settings.viewmodel.xOff 武器水平位移
+settings.viewmodel.yOff 武器垂直位移
+settings.viewmodel.zOff 武器前後位移
+settings.viewmodel.weapSwapY 武器切換時的垂直位移
+settings.viewmodel.weapReloadY 武器換彈時的垂直位移
+settings.viewmodel.yOffADS 武器瞄準時的垂直位移
 settings.viewmodel.adsFovMlt 瞄準時視角廣度放大倍率
 settings.editing.header 編輯
 settings.editing.health.high HUD 高血量顏色
@@ -333,35 +333,35 @@ settings.editing.score.color 彈出得分顏色
 settings.editing.score.show 顯示彈出得分
 settings.editing.score.scale 彈出得分大小比例
 settings.editing.score.shadow 彈出得分陰影
-settings.editing.scoreOffX 彈出得分水平座標
-settings.editing.scoreOffY 彈出得分垂直座標
+settings.editing.scoreOffX 彈出得分水平位移
+settings.editing.scoreOffY 彈出得分垂直位移
 settings.editing.prog.color 進度條顏色
 settings.editing.prog.opacity 進度條不透明度
 settings.editing.prog.scale 進度條大小比例
 settings.editing.prog.shadow 進度條陰影
-settings.editing.progOffX 進度條水平位置偏移值
-settings.editing.progOffY 進度條垂直位置偏移值
+settings.editing.progOffX 進度條水平位移
+settings.editing.progOffY 進度條垂直位移
 settings.editing.progRot 進度條角度
 settings.editing.progm.color 蓄力條顏色
 settings.editing.progm.opacity 蓄力條不透明度
 settings.editing.progm.scale 蓄力條大小比例
 settings.editing.progm.shadow 蓄力條陰影
-settings.editing.progmOffX 蓄力條水平位置偏移值
-settings.editing.progmOffY 蓄力條垂直位置偏移值
+settings.editing.progmOffX 蓄力條水平位移
+settings.editing.progmOffY 蓄力條垂直位移
 settings.editing.progmRot 蓄力條角度
 settings.editing.saturation 飽和度（遊戲中）
-settings.editing.menuSaturation 飽和度（用戶介面）
+settings.editing.menuSaturation 飽和度（使用者介面）
 settings.editing.hue 色相（遊戲中）
-settings.editing.menuHue 色相（用戶介面）
+settings.editing.menuHue 色相（使用者介面）
 settings.editing.vignette 暈影效果
 settings.editing.feedLimit 擊殺訊息列表長度限制
 settings.editing.depth 景深圖模式
 settings.editing.green 綠幕模式
-settings.editing.trailcol 子彈飛行軌跡顏色
+settings.editing.trailcol 子彈軌跡顏色
 settings.editing.ropecol 鉤爪繩索顏色
 settings.editing.tracercol 子彈顏色
 settings.editing.tracer 顯示子彈
-settings.editing.tracer.offset 子彈顯示偏移值
+settings.editing.tracer.offset 子彈顯示位移
 settings.shaders.header 著色器輸入
 settings.mods.header 自訂
 settings.mods.load 載入模組
@@ -380,8 +380,8 @@ settings.mods.dot.width 準星圖示寬度
 settings.mods.dot.height 準星圖示高度
 settings.mods.dot.paste 準星圖示網址
 settings.mods.endmessage 比賽結束後自動訊息
-settings.mods.profile 用戶圖示
-settings.mods.profile.paste 用戶圖示網址	
+settings.mods.profile 使用者圖示
+settings.mods.profile.paste 使用者圖示網址	
 settings.mods.ammo 彈藥圖示
 settings.mods.ammo.paste 彈藥圖示網址
 settings.mods.kills 擊殺圖示
@@ -414,7 +414,7 @@ windows.loadout.primary.attach 配件
 windows.loadout.primary.reticle 準星
 windows.loadout.primary.scope 瞄準鏡
 windows.loadout.secondary 次要武器
-windows.loadout.secondary.skin 次要武器皮膚
+windows.loadout.secondary.skin 次要武器外觀
 windows.loadout.melee 近戰武器
 windows.loadout.hat 帽子
 windows.loadout.back 背部
@@ -422,15 +422,15 @@ windows.loadout.waist 腰部
 windows.loadout.shoe 鞋子
 windows.loadout.face 表情
 windows.loadout.spray 塗鴉
-windows.loadout.color.skin 皮膚顏色
+windows.loadout.color.skin 外觀顏色
 windows.loadout.color.chat 聊天欄中使用者名稱顏色
 windows.loadout.color.hair 頭髮顏色
 windows.loadout.dye 服裝染色
 windows.loadout.pet 寵物
 windows.loadout.stat 擊殺戰績卡
 windows.loadout.flag 國家或地區旗幟
-windows.mods.drop 將模組文件放在此處或點擊
-windows.mods.paste 黏貼模組網址
+windows.mods.drop 將模組檔案放在此處或點擊
+windows.mods.paste 貼上模組網址
 windows.mods.load 載入模組
 windows.mods.none 沒有找到任何模組
 windows.mods.header 模組管理器
@@ -438,7 +438,7 @@ windows.mods.guide 模組指南
 windows.mods.list 模組列表
 windows.mods.load.header 載入模組
 windows.mods.publish 發佈模組
-windows.mods.viewer 皮膚瀏覽器
+windows.mods.viewer 外觀瀏覽器
 windows.account.header 帳戶
 windows.account.recover 聯繫 <a>recovery@yendis.ch</a> 以找回密碼。
 windows.class.header 選擇武器類別
@@ -513,7 +513,7 @@ windows.maps.publish 發佈地圖
 windows.maps.community 地圖開發者社區
 windows.publish.map.header 發佈或更新地圖
 windows.publish.map.thumbnail 無縮圖
-windows.publish.map.paste 黏貼地圖資料
+windows.publish.map.paste 貼上地圖資料
 windows.publish.map.update 發佈或更新
 windows.publish.map.login 登入以建立並上傳地圖！
 windows.theatre.header 影院模式
@@ -531,7 +531,7 @@ windows.clans.join 加入公會
 windows.clans.login 建立並加入公會！
 windows.store.header 商店
 windows.store.spin {0} 輪盤
-windows.store.agree 通過此次購買，表示您同意 {0} 條款。
+windows.store.agree 透過此次購買，表示您同意 {0} 條款。
 windows.store.purchase 購買 KR
 windows.store.voucher 兌換代金券
 windows.store.voucherinfo 從指定實況主和活動獲取代金券
@@ -550,7 +550,7 @@ windows.store.unboxed {0} 開箱解鎖了 {1}
 windows.trade.header 交易
 windows.scope.header 選擇瞄準鏡
 windows.premium.header 會員
-windows.skin.header 選擇皮膚
+windows.skin.header 選擇外觀
 windows.hat.header 選擇帽子
 windows.back.header 選擇背部飾品
 windows.waist.header 選擇腰部飾品
@@ -584,7 +584,7 @@ windows.secondary.req 需要至少 {0} 級
 windows.advertise.header 廣告
 windows.support.header 支援
 windows.players.header 玩家列表
-windows.players.none 當前沒有玩家在線上...
+windows.players.none 目前沒有玩家在線上...
 windows.join.header 加入
 windows.join.code 輸入遊戲網址
 windows.client.header 用戶端
@@ -593,7 +593,7 @@ windows.client.mac MacOS 用戶端
 windows.client.linux Linux 用戶端
 windows.ranked.header 排位賽
 windows.ranked.login 登入以進行排位賽！
-windows.ranked.level 您至少需要<span color="black"> {0} 級</span>以進行排位賽！當前您的等級是<span color="black"> {1} 級</span>。
+windows.ranked.level 您至少需要<span color="black"> {0} 級</span>以進行排位賽！目前您的等級是<span color="black"> {1} 級</span>。
 windows.ranked.mode.r1v1 單排
 windows.ranked.mode.r2v2 雙排
 windows.ranked.mode.r4v4 四排
@@ -606,7 +606,7 @@ mod.extracting 提取中 {0}/{1}
 mod.disabled 模組已停用
 mod.error 模組錯誤！
 mod.loading 載入模組中...
-mod.invalid 無效模組文件！
+mod.invalid 無效模組檔案！
 matchmaker.full 已滿
 matchmaker.full2 伺服器人數已滿。
 matchmaker.updating 遊戲更新中
@@ -615,8 +615,8 @@ matchmaker.none 伺服器負載已達到上限
 adblocker 停用廣告攔截器以獲得免費的 KR。
 ad-failed 廣告載入失敗，請稍後重試。
 streamers.views {0} 個觀眾
-streamers.none 當前沒有 Twitch 直播！
-error.extentions 如果您有任何（瀏覽器）插件，請停用它們
+streamers.none 目前沒有 Twitch 直播！
+error.extentions 如果您有任何（瀏覽器）外掛程式，請停用它們
 error.seek 點擊搜尋新的遊戲
 custom.map.upload.limit 上傳失敗，地圖資料大小上限為五十萬個字元
 custom.map.missing 請選擇至少一種遊戲或地圖
@@ -697,8 +697,8 @@ social.login.sell 登入後出售
 social.login.gift 登入後贈送
 social.login.proccessing 登入中...
 social.since 始於
-social.user.maps 此用戶地圖
-social.user.mods 此用戶模組
+social.user.maps 此使用者地圖
+social.user.mods 此使用者模組
 social.maps.none 未找到此地圖...
 social.mods.none 未找到此模組...
 social.market.price.low 最低價格
@@ -751,7 +751,7 @@ settings.loaded.none 該設定為空白
 account.login.required 您必須先登入
 account.banned.hack 此帳戶因作弊已被封禁
 account.banned.appeal 如果您想提出上訴，請聯絡：
-account.delete 您可以請求刪除您的帳戶，如果此請求沒有在14天內被撤消，您所有的帳戶資料將會被永久清除。
+account.delete 您可以請求刪除您的帳戶，如果此請求沒有在14天內被復原，您所有的帳戶資料將會被永久清除。
 account.delete.request 您確定要請求刪除您的帳戶嗎？
 account.delete.cancel 您確定要取消帳戶刪除請求嗎？
 spin.free.available 立即領取免費 KR！
@@ -768,11 +768,11 @@ stats.thrownkills 投擲近戰武器次數
 stats.headshots 爆頭次數
 stats.wallbangs 穿牆次數
 stats.sprays 塗鴉次數
-windows.host.default.settings 使用地圖預設設定以允許玩家保存他們的進度及高分
+windows.host.default.settings 使用地圖預設設定以允許玩家儲存他們的進度及最高分
 windows.host.default.commands * 房主指令（像：/noclip，/god，/smite 等）在此模式中將會被停用。
 windows.host.rewards 啟用 KR 獎勵將會強制伺服器使用地圖預設設定，並允許玩家從此地圖贏得 KR：
-windows.store.wheels.sub 試試您的運氣，轉動輪盤來贏取新皮膚！
-windows.store.currency * 美元價格會按照支付服務提供商或銀行決定的匯率轉換到您的本地貨幣。
+windows.store.wheels.sub 試試您的運氣，轉動輪盤來贏取新外觀！
+windows.store.currency * 美元價格會按照支付服務提供商或銀行決定的匯率等值轉換到您的本地貨幣。
 windows.store.creator 購買 KR 時，考慮使用創作者代碼來支持您最喜歡的內容創作者
 windows.chall.customs 您不能在自訂伺服器內完成挑戰。
 twitch.link 您確定您想連結您的 Twitch 帳戶嗎？
@@ -794,21 +794,21 @@ social.profile.stats 綜合戰績
 social.profile.class 各武器類別戰績
 social.profile.sales 出售記錄
 social.profile.sales.market 市場出售額
-social.profile.skins [{0}] 個皮膚
-social.profile.skins.none 此用戶沒有已發行的皮膚
+social.profile.skins [{0}] 個外觀
+social.profile.skins.none 此使用者沒有已發行的外觀
 social.profile.games [{0}] 個遊戲
-social.profile.games.none 此用戶沒有已發行的遊戲
+social.profile.games.none 此使用者沒有已發行的遊戲
 social.profile.assets [{0}] 個地圖元件
-social.profile.assets.none 此用戶沒有已發行的地圖元件
+social.profile.assets.none 此使用者沒有已發行的地圖元件
 social.profile.mods [{0}] 個模組
-social.profile.mods.none 此用戶沒有已發行的模組
+social.profile.mods.none 此使用者沒有已發行的模組
 social.search 搜尋結果
 social.market.stats.rare 最稀有物品
 social.market.stats.circulation 流通中
 social.market.stats.units 全球持有數量
-social.trades.in 收到的請求
+social.trades.in 收到的交易請求
 social.trades.in.head 收到 ({0}) 個交易請求
-social.trades.out 已發送的請求
+social.trades.out 已發送的交易請求
 social.trades.out.head 已發送 ({0}) 個交易請求
 social.trades.history 交易記錄
 social.trades.history.head ({0}) 個交易記錄
