@@ -1,7 +1,7 @@
 module.exports = `
 menu.btn.ranked 排位賽
 menu.btn.shop 商店
-menu.btn.social 社區
+menu.btn.social 社群
 menu.btn.maps 地圖
 menu.btn.mods 模組
 menu.btn.settings 設定
@@ -11,10 +11,10 @@ menu.btn.invite.clicked 已複製
 menu.btn.join 加入遊戲伺服器
 menu.btn.host 建立遊戲伺服器
 menu.btn.browser 瀏覽遊戲伺服器
-generic.wait 請稍等...
-generic.loading 載入中...
+generic.wait 請稍等……
+generic.loading 載入中……
 generic.none 無
-generic.connecting 連線中...
+generic.connecting 連線中……
 generic.select 選擇
 generic.delete 刪除
 generic.save 儲存
@@ -164,8 +164,8 @@ settings.post.bloomStrength 光線散射強度
 settings.post.bloomRadius 光線散射半徑
 settings.post.ssao 螢幕空間環境光遮蔽
 settings.post.ssaoRadius 遮蔽半徑
-settings.interface.hitInd 命中標記
-settings.interface.hitColor 命中標記顏色
+settings.interface.hitInd 傷害來源指示器
+settings.interface.hitColor 傷害來源指示器顏色
 settings.interface.dmg 顯示傷害
 settings.interface.dmgCol 傷害顏色
 settings.interface.critCol 暴擊顏色
@@ -191,10 +191,10 @@ settings.interface.streak 顯示連殺數
 settings.interface.score 顯示分數
 settings.interface.spectators 顯示觀戰人數
 settings.interface.speed 顯示移動速度
-settings.interface.speedOffX 移動速度顯示計水平位移
-settings.interface.speedOffY 移動速度顯示計垂直位移
-settings.interface.speedOpacity 移動速度顯示計不透明度
-settings.interface.speedScale 移動速度顯示計大小比例
+settings.interface.speedOffX 移動速度計數器水平位移
+settings.interface.speedOffY 移動速度計數器垂直位移
+settings.interface.speedOpacity 移動速度計數器不透明度
+settings.interface.speedScale 移動速度計數器大小比例
 settings.interface.speedColor 目前速度顏色
 settings.interface.speedColorMax 最高速度顏色
 settings.interface.medals 顯示勳章
@@ -268,7 +268,7 @@ settings.gameplay.sensitivityY 垂直靈敏度
 settings.gameplay.aimsensX 瞄準時水平靈敏度
 settings.gameplay.aimsensY 瞄準時垂直靈敏度
 settings.gameplay.challenge 挑戰模式
-settings.gameplay.invert 垂直移動方向反轉
+settings.gameplay.invert 滑鼠垂直移動方向反轉
 settings.gameplay.onkillS 擊殺
 settings.gameplay.scrollDir 滑鼠滾輪方向反轉
 settings.controller.header 遊戲手把
@@ -282,7 +282,7 @@ settings.controller.deadZoneR 右搖桿死區
 settings.controller.triggerThres 觸發閾值
 settings.controller.vibration 震動回饋
 settings.controller.gradSpeed 漸緩速度
-settings.controller.invert 垂直移動方向反轉
+settings.controller.invert 搖桿垂直移動方向反轉
 settings.mobile.header 移動裝置
 settings.mobile.sensitivityX 水平靈敏度
 settings.mobile.sensitivityY 垂直靈敏度
@@ -290,7 +290,7 @@ settings.mobile.aimsensX 瞄準時水平靈敏度
 settings.mobile.aimsensY 瞄準時垂直靈敏度
 settings.mobile.vibration 震動回饋
 settings.mobile.gradSpeed 漸緩速度
-settings.mobile.invert 垂直移動方向反轉
+settings.mobile.invert 方向盤垂直移動方向反轉
 settings.audio.header 音訊
 settings.audio.sound 主音量
 settings.audio.ambient 環境音量
@@ -312,7 +312,7 @@ settings.viewmodel.show.secondary 顯示次要武器
 settings.viewmodel.roundArms 圓滑的手臂
 settings.viewmodel.show.melee 顯示近戰武器
 settings.viewmodel.show.ads 瞄準時隱藏武器
-settings.viewmodel.toggleAim 點擊瞄準
+settings.viewmodel.toggleAim 切換瞄準
 settings.viewmodel.show.hands 顯示手部
 settings.viewmodel.leftHand 左手持槍
 settings.viewmodel.aimAnim 武器瞄準動畫
@@ -320,10 +320,10 @@ settings.viewmodel.rot 武器旋轉
 settings.viewmodel.xOff 武器水平位移
 settings.viewmodel.yOff 武器垂直位移
 settings.viewmodel.zOff 武器前後位移
-settings.viewmodel.weapSwapY 武器切換時的垂直位移
-settings.viewmodel.weapReloadY 武器換彈時的垂直位移
-settings.viewmodel.yOffADS 武器瞄準時的垂直位移
-settings.viewmodel.adsFovMlt 瞄準時視角廣度放大倍率
+settings.viewmodel.weapSwapY 切槍時武器的垂直位移
+settings.viewmodel.weapReloadY 換彈時武器的垂直位移
+settings.viewmodel.yOffADS 瞄準時武器的垂直位移
+settings.viewmodel.adsFovMlt 瞄準時視角廣度放大倍數
 settings.editing.header 編輯
 settings.editing.health.high HUD 高血量顏色
 settings.editing.health.low HUD 低血量顏色
@@ -341,7 +341,7 @@ settings.editing.prog.scale 進度條大小比例
 settings.editing.prog.shadow 進度條陰影
 settings.editing.progOffX 進度條水平位移
 settings.editing.progOffY 進度條垂直位移
-settings.editing.progRot 進度條角度
+settings.editing.progRot 進度條旋轉角度
 settings.editing.progm.color 蓄力條顏色
 settings.editing.progm.opacity 蓄力條不透明度
 settings.editing.progm.scale 蓄力條大小比例
@@ -365,7 +365,7 @@ settings.editing.tracer.offset 子彈顯示位移
 settings.shaders.header 著色器輸入
 settings.mods.header 自訂
 settings.mods.load 載入模組
-settings.mods.logo 允許變更圖示
+settings.mods.logo 允許模組變更圖示
 settings.mods.auto 自動載入模組
 settings.mods.borders 瞄準鏡邊界
 settings.mods.borderCol 瞄準鏡邊界
@@ -390,8 +390,8 @@ settings.mods.deaths 死亡圖示
 settings.mods.deaths.paste 死亡圖示網址
 settings.mods.streak 連殺圖示
 settings.mods.streak.paste 連殺圖示網址
-settings.mods.timer 計時器圖示
-settings.mods.timer.paste 計時器圖示網址
+settings.mods.timer 定時器圖示
+settings.mods.timer.paste 定時器圖示網址
 settings.mods.usedamage 受傷螢幕效果
 settings.mods.damage 受傷螢幕效果圖示
 settings.mods.damage.paste 受傷螢幕效果網址
@@ -401,12 +401,12 @@ settings.social.region 各地區統計
 windows.settings.header 遊戲設定
 windows.mail.header Krunker 信箱
 windows.servers.header 伺服器
-windows.servers.none 無可加入遊戲...
+windows.servers.none 無可加入遊戲……
 windows.servers.host + 建立遊戲
-windows.servers.hide 隱藏已滿的遊戲
+windows.servers.hide 隱藏已滿的伺服器
 windows.servers.priority 優先顯示預設地區
 windows.servers.online {0} 玩家在遊戲中
-windows.servers.social {0} 玩家在社區中
+windows.servers.social {0} 玩家在社群中
 windows.loadout.header 更換武器類別
 windows.loadout.class 武器類別
 windows.loadout.primary 主要武器
@@ -422,7 +422,7 @@ windows.loadout.waist 腰部
 windows.loadout.shoe 鞋子
 windows.loadout.face 表情
 windows.loadout.spray 塗鴉
-windows.loadout.color.skin 外觀顏色
+windows.loadout.color.skin 皮膚顏色
 windows.loadout.color.chat 聊天欄中使用者名稱顏色
 windows.loadout.color.hair 頭髮顏色
 windows.loadout.dye 服裝染色
@@ -438,11 +438,11 @@ windows.mods.guide 模組指南
 windows.mods.list 模組列表
 windows.mods.load.header 載入模組
 windows.mods.publish 發佈模組
-windows.mods.viewer 外觀瀏覽器
+windows.mods.viewer 檢視器
 windows.account.header 帳戶
 windows.account.recover 聯繫 <a>recovery@yendis.ch</a> 以找回密碼。
 windows.class.header 選擇武器類別
-windows.controls.header 更改控制方式
+windows.controls.header 更改控制
 windows.controls.forward 前
 windows.controls.backward 後
 windows.controls.left 左
@@ -498,7 +498,7 @@ windows.host.modes 選擇遊戲模式
 windows.host.classes 選擇武器類別
 windows.host.settings 伺服器設定
 windows.host.preset 建立預設檔
-windows.host.preset.load 載入預設檔中...
+windows.host.preset.load 載入預設檔中……
 windows.host.preset.name 預設檔名稱
 windows.host.start 開始遊戲
 windows.host.rehost 開始遊戲（邀請玩家）
@@ -510,7 +510,7 @@ windows.maps.none 沒有找到此地圖！
 windows.maps.name 地圖名稱
 windows.maps.editor 地圖編輯器
 windows.maps.publish 發佈地圖
-windows.maps.community 地圖開發者社區
+windows.maps.community 地圖開發者社群
 windows.publish.map.header 發佈或更新地圖
 windows.publish.map.thumbnail 無縮圖
 windows.publish.map.paste 貼上地圖資料
@@ -528,7 +528,7 @@ windows.clans.create 建立公會
 windows.clans.name 公會名稱
 windows.clans.view 瀏覽公會
 windows.clans.join 加入公會
-windows.clans.login 建立並加入公會！
+windows.clans.login 登入以建立並加入公會！
 windows.store.header 商店
 windows.store.spin {0} 輪盤
 windows.store.agree 透過此次購買，表示您同意 {0} 條款。
@@ -545,7 +545,7 @@ windows.store.wheels 輪盤
 windows.store.unlock 解鎖新武器和物品
 windows.store.amount 您的帳戶還剩餘 {0} KR
 windows.store.login 登入以在商店中購買和解鎖物品！
-windows.store.purchasing 購買中...
+windows.store.purchasing 購買中……
 windows.store.unboxed {0} 開箱解鎖了 {1}
 windows.trade.header 交易
 windows.scope.header 選擇瞄準鏡
@@ -584,7 +584,7 @@ windows.secondary.req 需要至少 {0} 級
 windows.advertise.header 廣告
 windows.support.header 支援
 windows.players.header 玩家列表
-windows.players.none 目前沒有玩家在線上...
+windows.players.none 目前沒有玩家在線……
 windows.join.header 加入
 windows.join.code 輸入遊戲網址
 windows.client.header 用戶端
@@ -605,7 +605,7 @@ thumbnail.upload.error 縮圖錯誤
 mod.extracting 提取中 {0}/{1}
 mod.disabled 模組已停用
 mod.error 模組錯誤！
-mod.loading 載入模組中...
+mod.loading 載入模組中……
 mod.invalid 無效模組檔案！
 matchmaker.full 已滿
 matchmaker.full2 伺服器人數已滿。
@@ -627,19 +627,19 @@ server.config.minPlayers 最少玩家數
 server.config.lives 玩家生命數
 server.config.gameTime 每局時間（分鐘）
 server.config.gravMlt 重力
-server.config.tickRI 高應答率
+server.config.tickRI 高配伺服器
 server.config.maxPS 40 名玩家伺服器
 server.config.promServ 推廣伺服器
 server.config.jumpMlt 跳躍力量
 server.config.airStrf 啟用空中轉向
-server.config.deltaMlt 時間倍率
+server.config.deltaMlt 時間倍數
 server.config.strafeSpd 空中轉向速度
 server.config.fiRat 武器射速
 server.config.reSpd 換彈速度
 server.config.slidTime 滑行時間
 server.config.fixMov 移動機制修正（使跳躍高度和加速不被幀率影響）
 server.config.slidSpd 滑行速度
-server.config.healthMlt 血量倍率
+server.config.healthMlt 血量倍數
 server.config.impulseMlt 武器後坐力
 server.config.nameTeam1 隊伍 1 名字
 server.config.nameTeam2 隊伍 2 名字
@@ -678,7 +678,7 @@ server.config.scoreLimit 得分限制
 server.config.keepTScore 保留隊伍分數
 server.config.forceC 必須使用特定武器
 server.config.logTim 通關計時（速通、跑酷）
-server.config.hitBoxPad 玩家實體模型倍率
+server.config.hitBoxPad 玩家實體模型大小
 server.config.hpRegen 啟用血量回復
 server.config.disableB 停用地圖邊界
 server.config.throwMel 啟用投擲近戰武器
@@ -695,20 +695,20 @@ social.login.failed 登入失敗
 social.login.buy 登入後購買
 social.login.sell 登入後出售
 social.login.gift 登入後贈送
-social.login.proccessing 登入中...
+social.login.proccessing 登入中……
 social.since 始於
 social.user.maps 此使用者地圖
 social.user.mods 此使用者模組
-social.maps.none 未找到此地圖...
-social.mods.none 未找到此模組...
+social.maps.none 未找到此地圖……
+social.mods.none 未找到此模組……
 social.market.price.low 最低價格
 social.market.price.list 輸入價格
 social.market.searching 搜尋中
 social.market.listed {0} 前上架
 social.market.list 上架物品
 social.market.unlist 下架物品
-social.market.unlisting 物品下架中...
-social.market.posting 發佈中...
+social.market.unlisting 物品下架中……
+social.market.posting 發佈中……
 social.market.req 需要至少 {0} 等級
 social.market.cant KR 不足
 social.market.purchase 購買
@@ -730,7 +730,7 @@ social.market.sort 篩選或排序
 social.market.filter 搜尋
 social.market.sort2 排序
 social.market.price.high 最高價格
-social.trading.submitting 提交報價中...
+social.trading.submitting 提交報價中……
 social.market.gift.amount 贈送金額
 social.market.fee.gift 無費用
 social.market.gift 贈送 KR
@@ -743,7 +743,7 @@ custom.passcode.long 密碼過長
 custom.passcode.input 請輸入此伺服器密碼
 custom.tryagain 請重試。
 purchase.kr.success 已添加 {0} KR 到您的帳戶
-limited.purchase.ask 您確定您想要以 {1} KR 購買 [{0}] 嗎？
+limited.purchase.ask 您確定要以 {1} KR 購買 [{0}] 嗎？
 limited.purchase.success 已添加 {0} 到您的存貨
 pretend.exit 再次點擊 [{0}] 以退出
 settings.loaded 設定已載入
@@ -759,7 +759,7 @@ spin.free.claim 您必須在每小時內完成一場比賽以獲得您的免費 
 spin.free.disable 在通用設定裡可以關閉此彈出式視窗。
 mod.reset.0 當您復活後此設定將會生效。
 mod.reset.1 地圖物體將不會被重設。
-windows.profile.picture 更改頭像
+windows.profile.picture 更改使用者圖示
 stats.assists 助攻次數
 stats.nukes 核爆次數
 stats.melee 刀殺次數
@@ -777,15 +777,15 @@ windows.store.creator 購買 KR 時，考慮使用創作者代碼來支持您最
 windows.chall.customs 您不能在自訂伺服器內完成挑戰。
 twitch.link 您確定您想連結您的 Twitch 帳戶嗎？
 twitch.unlink 您確定您想取消連結嗎？
-windows.clan.leave 您確定您想離開您的公會嗎？
-windows.clan.delete 您確定您想刪除您的公會嗎？
-windows.clan.kick 您確定您想從您的公會踢出 {0} 嗎？
-windows.store.premium.purchase 您確定您想要購買 {0} 天的會員嗎？
-windows.store.premium.gift 您確定您想要贈送 '{0}' {1} 天的會員嗎？
-windows.playerlist.ban 您確定您想要從此遊戲封禁並踢出 {0} 嗎？
-windows.playerlist.flag 您確定您想要標記 {0} 為外掛玩家嗎？
-windows.playerlist.unflag 您確定您想要取消標記 {0} 嗎？
-windows.playerlist.punish 您確定您想要對 {0} 採取行動嗎？
+windows.clan.leave 您確定要離開您的公會嗎？
+windows.clan.delete 您確定要刪除您的公會嗎？
+windows.clan.kick 您確定要從您的公會踢出 {0} 嗎？
+windows.store.premium.purchase 您確定要購買 {0} 天的會員嗎？
+windows.store.premium.gift 您確定要贈送 '{0}' {1} 天的會員嗎？
+windows.playerlist.ban 您確定要從此遊戲封禁並踢出 {0} 嗎？
+windows.playerlist.flag 您確定要標記 {0} 為外掛玩家嗎？
+windows.playerlist.unflag 您確定要取消標記 {0} 嗎？
+windows.playerlist.punish 您確定要對 {0} 採取行動嗎？
 item.view.open 打開模型檢視器
 item.view.more 更多資訊
 item.sell.cant 此物品不能被出售。
