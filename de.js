@@ -9,7 +9,7 @@ menu.btn.customize Anpassen
 menu.btn.invite Einladen
 menu.btn.invite.clicked Kopiert
 menu.btn.join Beitreten
-menu.btn.host Gastgeber Spiel
+menu.btn.host Spiel veranstalten
 menu.btn.browser Server Browser
 generic.wait Bitte warten...
 generic.loading LÄDT...
@@ -52,7 +52,7 @@ generic.deaths Tode
 generic.kdr KDR
 generic.time Zeit
 generic.logout Abmelden
-generic.logout.sessions Abmelden aus allen Sitzungen
+generic.logout.sessions Aus allen Sitzungen abmelden
 generic.username Benutzername eingeben
 generic.password Passwort eingeben
 generic.register Registrieren
@@ -60,7 +60,7 @@ generic.login Einloggen
 generic.accuracy Genauigkeit
 player.waiting Warten auf Spieler
 player.died Du bist gestorben
-player.killed getötet von
+player.killed Getötet von
 player.killstreak {0} on a {1} Kill Streak
 player.inactive Wegen Inaktivität entfernt
 player.disconnect VERBINDUNG UNTERBROCHEN
@@ -72,7 +72,7 @@ app.spectate KLICK ZUM ZUSCHAUEN
 app.play.mobile KLICK ZUM SPIELEN
 app.spectate.mobile BERÜHRE ZUM ZUSCHAUEN
 app.play.controller START DRÜCKEN
-app.spectate.controller START to SPECTATE
+app.spectate.controller START zum ZUSCHAUEN
 purchase.error Fehler aufgetreten
 purchase.error.click Hier klicken</a> und nochmal versuchen!
 purchase.error.limit Du hast möglicherweise dein tägliches Transaktionslimit überschritten.
@@ -84,7 +84,7 @@ settings.none Keine Einstellungen gefunden
 settings.backup Reserve Einstellungen
 settings.controls.change Kontrollen ändern
 settings.controls.press Irgendeine Taste drücken
-settings.local.header Localization <span id="requiresRestart"><span style="color: #eb5656">*</span> requires restart</span>
+settings.local.header Sprachänderung <span id="requiresRestart"><span style="color: #eb5656">*</span> erfordert Neustart</span>
 settings.local.region Standard Region
 settings.local.lang Sprache
 settings.network.header Netzwerk
@@ -93,27 +93,27 @@ settings.network.netRerouting Auto Routing (Beeinflusst Ping)
 settings.network.lagComp Lag Minimierung
 settings.network.hitReg Hitreg Test
 settings.popup.header Popups
-settings.popup.freeKRPop Free KR Popup anzeigen
-settings.experimental.header Experimental
-settings.experimental.aimFreezeFix Ziel Einfrierungs-Reperatur
-settings.experimental.mouseFlickFix Maus Einfrierungs-Reperatur
-settings.experimental.shaderRendering Instanz Rendering
-settings.experimental.staticRendering Static Rendering
+settings.popup.freeKRPop Gratis KR Popup anzeigen
+settings.experimental.header Experimentell
+settings.experimental.aimFreezeFix Aim Freeze Fix
+settings.experimental.mouseFlickFix Mouse Flick Fix
+settings.experimental.shaderRendering Instanz Rendern
+settings.experimental.staticRendering Statisches Rendern
 settings.client.header Client
-settings.client.unlimitedFrames Unlimited FPS
-settings.client.gameCap Game Capture
-settings.client.experimental Experimental Features
+settings.client.unlimitedFrames Unlimitierte FPS
+settings.client.gameCap Spielaufnahme
+settings.client.experimental Experimentelle Einstellungen
 settings.client.discordRPC Discord RPC
 settings.client.resourceSwapper Resource Swapper
-settings.client.clearCache Clear Cache
-settings.client.resetSettings Reset Client Settings
+settings.client.clearCache Cache löschen
+settings.client.resetSettings Clienteinstellungen zurücksetzen
 settings.client.acceleratedCanvas Accelerated Canvas
 settings.client.angleBackend ANGLE Graphics Backend
-settings.client.colorProfile Color Profile
+settings.client.colorProfile Farbprofil
 settings.dev.header Entwickler
 settings.dev.forceUpdate Skin Update erzwingen
 settings.dev.forceRegen Spieler immer neu generieren
-settings.dev.extraBan Extra Ban Info
+settings.dev.extraBan Zusätzliche Ban Information
 settings.chat.header Chat
 settings.chat.chat Zeige Chat Box
 settings.chat.chat.all Immer
@@ -168,7 +168,7 @@ settings.interface.hitInd Hitmarker anzeigen
 settings.interface.hitColor Hitmarker Farbe
 settings.interface.dmg Schaden anzeigen
 settings.interface.dmgCol Schadens-Farbe
-settings.interface.critCol Kritische Farbe
+settings.interface.critCol Kritischer Treffer Farbe
 settings.interface.header Schnittstelle
 settings.interface.scale Benutzeroberfläche skalieren
 settings.interface.ui Benutzeroberfläche anzeigen
@@ -177,7 +177,7 @@ settings.interface.oldBrowser Alter Server Browser
 settings.interface.rarityanim Seltenheits-Animationen ausschalten
 settings.interface.showPfp Profilbilder anzeigen
 settings.interface.showTradeMsg Trade-Nachrichten anzeigen
-settings.interface.hideNonTrade Hide Non-Tradable Skins
+settings.interface.hideNonTrade Vertecke nicht handelbare Skins
 settings.interface.hp Dynamische HP Balken
 settings.interface.dmgScale Schadens Größe
 settings.interface.killf Kill Feed anzeigen
@@ -265,8 +265,8 @@ settings.gameplay.header Spielverlauf
 settings.gameplay.gpSetts Gameplay Settings
 settings.gameplay.sensitivityX X Empfindlichkeit
 settings.gameplay.sensitivityY Y Empfindlichkeit
-settings.gameplay.aimsensX Aim X Empfindlichkeit
-settings.gameplay.aimsensY Aim Y Empfindlichkeit
+settings.gameplay.aimsensX Zielen X Empfindlichkeit
+settings.gameplay.aimsensY Zielen Y Empfindlichkeit
 settings.gameplay.challenge Herausforderungs-Modus
 settings.gameplay.invert Y-Achse umkehren
 settings.gameplay.onkillS Beim Kill
@@ -275,37 +275,37 @@ settings.controller.header Controller
 settings.controller.sensitivityX X Empfindlichkeit
 settings.controller.disableCons Controllers Ausschalten
 settings.controller.sensitivityY Y Empfindlichkeit
-settings.controller.aimsensX Aim X Empfindlichkeit
-settings.controller.aimsensY Aim Y Empfindlichkeit
+settings.controller.aimsensX Zielen X Empfindlichkeit
+settings.controller.aimsensY Zielen Y Empfindlichkeit
 settings.controller.deadZoneL Tote Zone (Links)
 settings.controller.deadZoneR Tote Zone (Rechts)
 settings.controller.triggerThres Auslöseschwelle
 settings.controller.vibration Vibration
 settings.controller.gradSpeed Allmähliche Geschwindigkeit
 settings.controller.invert Y-Achse invertieren
-settings.mobile.header Mobile
+settings.mobile.header Mobil
 settings.mobile.sensitivityX X Empfindlichkeit
 settings.mobile.sensitivityY Y Empfindlichkeit
-settings.mobile.aimsensX Aim X Empfindlichkeit
-settings.mobile.aimsensY Aim Y Empfindlichkeit
+settings.mobile.aimsensX Zielen X Empfindlichkeit
+settings.mobile.aimsensY Zielen Y Empfindlichkeit
 settings.mobile.vibration Vibration
 settings.mobile.gradSpeed Allmähliche Geschwindigkeit
 settings.mobile.invert Y-Achse invertieren
 settings.audio.header Audio
 settings.audio.sound Ton
-settings.audio.ambient Ambient Lautstärke
+settings.audio.ambient Umgebungs Lautstärke
 settings.audio.voice Lautstärke Stimmen
 settings.audio.weps Waffen Lautstärke
 settings.audio.player Spieler Lautstärke
-settings.audio.skin Cosmetics Lautstärke
+settings.audio.skin Kosmetik Lautstärke
 settings.audio.ui UI Lautstärke
 settings.audio.asset Asset Lautstärke
 settings.audio.dialogue Aktions-Lautstärke
-settings.viewmodel.header Aussichts
-settings.viewmodel.vmSetts View Model Settings
+settings.viewmodel.header Ansicht
+settings.viewmodel.vmSetts Ansichtseinstellungen
 settings.viewmodel.fov Sichtfeld
 settings.viewmodel.fps Waffen Sichtfeld
-settings.viewmodel.bobbing Waffen Wackeln
+settings.viewmodel.bobbing Waffen Bewegung
 settings.viewmodel.leaning Waffen Lehnen
 settings.viewmodel.show.primary Primärwaffe anzeigen
 settings.viewmodel.show.secondary Sekundärwaffe anzeigen
@@ -320,9 +320,9 @@ settings.viewmodel.rot Waffenrotierung
 settings.viewmodel.xOff Waffen X Offset
 settings.viewmodel.yOff Waffen Y Offset
 settings.viewmodel.zOff Waffen Z Offset
-settings.viewmodel.weapSwapY Waffen Wechsel Y
-settings.viewmodel.weapReloadY Waffen Nachlade Y
-settings.viewmodel.yOffADS Waffen Zilen Y Offset
+settings.viewmodel.weapSwapY Waffenwechsel Y
+settings.viewmodel.weapReloadY Waffen-Nachlade Y
+settings.viewmodel.yOffADS Waffen Zielen Y Offset
 settings.viewmodel.adsFovMlt Zielen FOV Power
 settings.editing.header Bearbeiten
 settings.editing.health.high HUD HP Hoch
@@ -335,20 +335,20 @@ settings.editing.score.scale Popup Punkte-Größe
 settings.editing.score.shadow Popup Punkte-Schatten
 settings.editing.scoreOffX Popup Punkte X Offset
 settings.editing.scoreOffY Popup Punkte Y Offset
-settings.editing.prog.color Fortschritts-Anzeige-Farbe
-settings.editing.prog.opacity Fortschritts-Anzeige-Deckkraft
-settings.editing.prog.scale Fortschritts-Anzeige-Größe
-settings.editing.prog.shadow Fortschritts-Anzeige-Schatten
+settings.editing.prog.color Fortschritts-Anzeige Farbe
+settings.editing.prog.opacity Fortschritts-Anzeige Deckkraft
+settings.editing.prog.scale Fortschritts-Anzeige Größe
+settings.editing.prog.shadow Fortschritts-Anzeige Schatten
 settings.editing.progOffX Fortschritts-Anzeige X Offset
 settings.editing.progOffY Fortschritts-Anzeige Y Offset
 settings.editing.progRot Fortschritts-Anzeige Drehung
-settings.editing.progm.color Charge Bar Color
-settings.editing.progm.opacity Charge Bar Opacity
-settings.editing.progm.scale Charge Bar Scale
-settings.editing.progm.shadow Charge Bar Shadow
-settings.editing.progmOffX Charge Bar X Offset
-settings.editing.progmOffY Charge Bar Y Offset
-settings.editing.progmRot Charge Bar Rotation
+settings.editing.progm.color Auflade-Anzeige Farbe
+settings.editing.progm.opacity Auflade-Anzeige Deckkraft
+settings.editing.progm.scale Auflade-Anzeige Skalierung
+settings.editing.progm.shadow Auflade-Anzeige Schatten
+settings.editing.progmOffX Auflade-Anzeige X Offset
+settings.editing.progmOffY Auflade-Anzeige Y Offset
+settings.editing.progmRot Auflade-Anzeige Rotation
 settings.editing.saturation Sättigung (Im Spiel)
 settings.editing.menuSaturation Sättigung (Benutzeroberfläche)
 settings.editing.hue Farbton (Im Spiel)
@@ -357,11 +357,11 @@ settings.editing.vignette Vignette
 settings.editing.feedLimit Killfeed Limit
 settings.editing.depth Todeskarte
 settings.editing.green Grüner Bildschirm
-settings.editing.trailcol Bullet Trail Color
-settings.editing.ropecol Grapple Rope Color
-settings.editing.tracercol Geschoss-Indikator-Farbe
+settings.editing.trailcol Schussflugbahn Farbe
+settings.editing.ropecol Enterhakenfarbe
+settings.editing.tracercol Geschoss-Indikator Farbe
 settings.editing.tracer Geschoss-Indikator
-settings.editing.tracer.offset Indikator Offset
+settings.editing.tracer.offset Geschoss-Indikator Offset
 settings.shaders.header Schatten
 settings.mods.header Modifikationen
 settings.mods.load Modifikationen laden
@@ -380,8 +380,8 @@ settings.mods.dot.width Laser-Bild Breite
 settings.mods.dot.height Laser-Bild Höhe
 settings.mods.dot.paste Laser-Bild URL
 settings.mods.endmessage Spiel Endnachricht
-settings.mods.profile Profil-Bild
-settings.mods.profile.paste Profil-Bild URL
+settings.mods.profile Profilbild
+settings.mods.profile.paste Profilbild URL
 settings.mods.ammo Munitionssymbol Bild
 settings.mods.ammo.paste Munitionssymbol Bild URL
 settings.mods.kills Kills Symbol Bild
@@ -406,12 +406,12 @@ windows.servers.host + Gastgeber-Spiel
 windows.servers.hide Volle Spiele ausblenden
 windows.servers.priority Regions-Priorität
 windows.servers.online {0} gesamt online
-windows.servers.social {0} on Social
+windows.servers.social {0} im Sozialbereich
 windows.loadout.header Ausrüstung ändern
 windows.loadout.class Klasse
 windows.loadout.primary Primäre Waffe
 windows.loadout.primary.attach Aufsatz
-windows.loadout.primary.reticle Reticle
+windows.loadout.primary.reticle Fadenkreuz
 windows.loadout.primary.scope Scope
 windows.loadout.secondary Sekundär Waffe
 windows.loadout.secondary.skin Sekundär Skin
@@ -422,9 +422,9 @@ windows.loadout.waist Taille
 windows.loadout.shoe Schuhe
 windows.loadout.face Gesicht
 windows.loadout.spray Spray
-windows.loadout.color.skin Haut-Farbe
+windows.loadout.color.skin Hautfarbe
 windows.loadout.color.chat Namens-Farbe (im Chat)
-windows.loadout.color.hair Haar-Farbe
+windows.loadout.color.hair Haarfarbe
 windows.loadout.dye Dye
 windows.loadout.pet Haustier
 windows.loadout.stat Killcard Statistiken
@@ -467,21 +467,21 @@ windows.controls.interactSec Sekundär Interaktion
 windows.controls.confirm Interaktion bestätigen
 windows.controls.drop Fallen lassen
 windows.controls.wepVis Waffen Sichtbarkeit umschalten
-windows.controls.kickVoteY Vote Kick [Yes]
-windows.controls.kickVoteN Vote Kick [No]
-windows.controls.kpdVoteY KPD Vote [Yes]
-windows.controls.kpdVoteN KPD Vote [No]
-windows.controls.specFree Toggle Free Cam
-windows.controls.specObj Toggle Objective Cam
-windows.controls.specFirst Toggle First Person
-windows.controls.specNames Toggle Forced Names
+windows.controls.kickVoteY Vote Kick [Ja]
+windows.controls.kickVoteN Vote Kick [Nein]
+windows.controls.kpdVoteY KPD Vote [Ja]
+windows.controls.kpdVoteN KPD Vote [Nein]
+windows.controls.specFree Auf freie Kamera umschalten
+windows.controls.specObj Auf Zielkamera umschalten
+windows.controls.specFirst First Person umschalten
+windows.controls.specNames Erzwungene Namen umschalten
 windows.controls.streak0 Streak 1
 windows.controls.streak1 Streak 2
 windows.controls.streak2 Streak 3
 windows.controls.streak3 Streak 4
 windows.controls.streak4 Streak 5
 windows.controls.premium0 Noclip
-windows.controls.premium1 Gott-Modus
+windows.controls.premium1 Godmode
 windows.controls.premium2 Kill
 windows.controls.premium3 Smite
 windows.controls.dev0 Developer Bind 1
@@ -578,8 +578,8 @@ windows.publish.mod.update Veröffentlichen/Aktualisieren
 windows.publish.mod.login <a>Anmelden</a> um Mods zu erstellen und hochzuladen!
 windows.secondary.header Sekundärwaffe auswählen
 windows.secondary.unlocked Freigeschaltet bei Level {0}
-windows.secondary.customOnly Customs Only
-windows.secondary.premiumOnly Premium Only
+windows.secondary.customOnly Nur in eigenen Spielen
+windows.secondary.premiumOnly nur mit Premium
 windows.secondary.req Erfordert Level {0}
 windows.advertise.header Bewerben
 windows.support.header Support
@@ -683,13 +683,13 @@ server.config.hpRegen Lebens-Regeneration
 server.config.disableB Grenzen deaktivieren
 server.config.throwMel Werfbare Messer
 server.config.noCosm Cosmetics deaktivieren
-server.config.tstCmp Test Mode
-server.config.limitClasses Limit Classes
-server.config.tmSize Team Size
-server.config.fallDmg Fall Damage
-server.config.fallDmgThr Fall Damage Thresh
-server.config.noDraws No Draws
-server.config.bstOfR Best of
+server.config.tstCmp Testmodus
+server.config.limitClasses Limitierte Klassen
+server.config.tmSize Teamgröße
+server.config.fallDmg Fallschaden
+server.config.fallDmgThr Fallschaden-Schwellenwert
+server.config.noDraws Keine Unentschieden
+server.config.bstOfR Der beste aus
 social.login Anmelden/Registrieren
 social.login.failed Anmeldung fehlgeschlagen
 social.login.buy Zum Kaufen anmelden
@@ -735,7 +735,7 @@ social.market.gift.amount Geschenkbetrag in
 social.market.fee.gift Keine Gebühr
 social.market.gift KR verschenken
 social.market.gift.msg Hinterlasse eine Nachricht
-respawn.auto Auto Respawning in {0}
+respawn.auto Automatischer Respawn in {0}
 custom.host.ranked Im Ranked Modus kannst du kein Spiel hosten
 funds.insufficient Zu wenig Krunkies
 funds.out Sieht aus als hättest du keine Krunkies mehr.
@@ -781,7 +781,7 @@ windows.clan.leave Bist du dir sicher dass du den Clan verlassen willst?
 windows.clan.delete Bist du dir sicher dass du den Clan löschen willst?
 windows.clan.kick Bist du dir sicher dass du {0} aus dem Clan entfernen willst?
 windows.store.premium.purchase Bist du dir sicher dass du {0} Tage Premium kaufen willst?
-windows.store.premium.gift Are you sure you want to Gift '{0}' {1} days of Premium?
+windows.store.premium.gift Bist du dir sicher dass du '{0}' {1} Tage Premium schenken willst?
 windows.playerlist.ban Bist du dir sicher dass du {0} aus dem Spiel bannen willst?
 windows.playerlist.flag Bist du dir sicher dass du {0} markieren willst?
 windows.playerlist.unflag Willst du {0} Entmarkieren ?
@@ -789,17 +789,17 @@ windows.playerlist.punish Bist du dir sicher dass du diese Aktion an {0} durchf�
 item.view.open Öffne Modell Ansicht
 item.view.more Mehr Informationen
 item.sell.cant Item kann nicht verkauft werden.
-item.sell.quick Are you sure you want to Quick Sell {0}?
+item.sell.quick Bist du dir sicher dass du {0} Schnellverkaufen willt? 
 social.profile.stats Insgesamte Statistiken
 social.profile.class Klassen Statistiken
-social.profile.sales Sales
-social.profile.sales.market Market Sales
+social.profile.sales Verkäufe
+social.profile.sales.market Marktverkäufe
 social.profile.skins Skins [{0}]
 social.profile.skins.none Keine veröffentlichten Skins von diesem Benutzer
 social.profile.games Spiele [{0}]
 social.profile.games.none Keine veröffentlichten Spiele von diesem Benutzer
 social.profile.assets Assets [{0}]
-social.profile.assets.none No published Assets from this user
+social.profile.assets.none Keine veröffentlichten Assets von diesem Benutzer
 social.profile.mods Mods [{0}]
 social.profile.mods.none Keine veröffentlichten Mods von diesem Benutzer
 social.search Suchergebnisse
@@ -816,6 +816,6 @@ social.trades.decline Alle Ablehnen
 social.trades.message AKTIVIERE HANDELSNACHRICHTEN IN DEN EINSTELLUNGEN
 social.trades.warning Du bekommst keine Items aus diesem Handel!
 social.trades.accept Bist du sicher, dass du dieses Angebot annehmen möchtest?
-stats.airdrops KR-Packages
-settings.quality.flapAnim Sniper Flap Animation
+stats.airdrops KR-Pakete
+settings.quality.flapAnim Sniperklappenanimation
 `;
