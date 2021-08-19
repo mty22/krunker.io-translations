@@ -177,7 +177,7 @@ settings.interface.oldBrowser पुराने ब्राउज़र का
 settings.interface.rarityanim दुर्लभता एनिमेशन असमर्थ करें
 settings.interface.showPfp प्रोफ़ाइल चित्र दिखाएँ
 settings.interface.showTradeMsg व्यापार के संदेश दिखाएँ
-settings.interface.hideNonTrade ट्रेड न होने वाली स्किन्स को छुपाएँ 
+settings.interface.hideNonTrade व्यापार न होने वाली स्किन्स को छुपाएँ 
 settings.interface.hp HP
 settings.interface.dmgScale डैमेज संकेतों का माप
 settings.interface.killf Kill Feed दिखाएँ
@@ -358,7 +358,7 @@ settings.editing.feedLimit किलफीड सीमा
 settings.editing.depth डेप्थ मैप
 settings.editing.green ग्रीन स्क्रीन
 settings.editing.trailcol बुलेट ट्रेल का रंग 
-settings.editing.ropecol grapple  रोप का रंग 
+settings.editing.ropecol ग्रेपल रोप का रंग 
 settings.editing.tracercol बुलेट  ट्रेसर का रंग
 settings.editing.tracer बुलेट  ट्रेसर
 settings.editing.tracer.offset ट्रेसर ऑफसेट
@@ -687,7 +687,7 @@ server.config.tstCmp जाँच मोड
 server.config.limitClasses क्लास लिमिट करें
 server.config.tmSize टीम साइज़
 server.config.fallDmg फॉल डैमेज 
-server.config.fallDmgThr फॉल डैमेज thresh 
+server.config.fallDmgThr फॉल डैमेज की सीमा 
 server.config.noDraws कोई ड्रा नहीं
 server.config.bstOfR बेस्ट ऑफ़ 
 social.login लॉगिन/रजिस्टर
