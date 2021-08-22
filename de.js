@@ -187,7 +187,7 @@ settings.interface.fps FPS-Rate anzeigen
 settings.interface.deaths Tode anzeigen
 settings.interface.kd K/D Zähler anzeigen
 settings.interface.kills Kill-Streaks anzeigen
-settings.interface.streak Abschusserienzähler anzeigen
+settings.interface.streak Abschussserienzähler anzeigen
 settings.interface.score Punktezähler anzeigen
 settings.interface.spectators Zuschauerzahl anzeigen
 settings.interface.speed Bewegungsgeschwindigkeit anzeigen
@@ -388,8 +388,8 @@ settings.mods.kills Kills Symbol Bild
 settings.mods.kills.paste Kills Symbol Bild URL
 settings.mods.deaths Tode Symbol Bild
 settings.mods.deaths.paste Tode Symbol Bild URL
-settings.mods.streak Abschusserie Symbol Bild
-settings.mods.streak.paste Abschusserie Symbol Bild URL
+settings.mods.streak Abschussserie Symbol Bild
+settings.mods.streak.paste Abschussserie Symbol Bild URL
 settings.mods.timer Timer Symbol Bild
 settings.mods.timer.paste Timer Symbol Bild URL
 settings.mods.usedamage Schadens-Overlay benutzen
@@ -425,7 +425,7 @@ windows.loadout.spray Spray
 windows.loadout.color.skin Hautfarbe
 windows.loadout.color.chat Namens-Farbe (im Chat)
 windows.loadout.color.hair Haarfarbe
-windows.loadout.dye Körperfärbung
+windows.loadout.dye Körperfarbe
 windows.loadout.pet Haustier
 windows.loadout.stat Killcard Statistiken
 windows.loadout.flag Länderflagge
@@ -475,11 +475,11 @@ windows.controls.specFree Auf freie Kamera umschalten
 windows.controls.specObj Auf Zielkamera umschalten
 windows.controls.specFirst First Person umschalten
 windows.controls.specNames Erzwungene Namen umschalten
-windows.controls.streak0 Abschusserie 1
-windows.controls.streak1 Abschusserie 2
-windows.controls.streak2 Abschusserie 3
-windows.controls.streak3 Abschusserie 4
-windows.controls.streak4 Abschusserie 5
+windows.controls.streak0 Abschussserie 1
+windows.controls.streak1 Abschussserie 2
+windows.controls.streak2 Abschussserie 3
+windows.controls.streak3 Abschussserie 4
+windows.controls.streak4 Abschussserie 5
 windows.controls.premium0 Noclip
 windows.controls.premium1 Godmode
 windows.controls.premium2 Kill
@@ -534,7 +534,7 @@ windows.store.spin {0} Drehung(en)
 windows.store.agree Mit dem Kauf erklärst Du Dich mit den {0}Geschäftsbedingungen einverstanden.
 windows.store.purchase KR kaufen
 windows.store.voucher Gutschein einlösen
-windows.store.voucherinfo Erhalte Gutscheine von bestimmten Streamers & Veranstaltungen
+windows.store.voucherinfo Erhalte Gutscheine von bestimmten Streamern & Veranstaltungen
 windows.store.market Marktplatz
 windows.store.market2 Krunker Markt
 windows.store.premium Kaufe Premium
