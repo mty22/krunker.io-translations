@@ -7,7 +7,7 @@ menu.btn.mods Mods
 menu.btn.settings Einstellungen
 menu.btn.customize Anpassen
 menu.btn.invite Einladen
-menu.btn.invite.clicked Kopiert
+menu.btn.invite.clicked Link kopiert
 menu.btn.join Beitreten
 menu.btn.host Spiel veranstalten
 menu.btn.browser Server Browser
@@ -26,7 +26,7 @@ generic.submit Senden
 generic.create Erstellen
 generic.random Zufällig
 generic.failed Fehlgeschlagen
-generic.success Erfolgt!
+generic.success Erfolg!
 generic.name Name
 generic.level Level
 generic.score Punktestand
@@ -36,12 +36,12 @@ generic.victory SIEG
 generic.matchover SPIEL VORBEI
 generic.matchaband SPIEL ABGEBROCHEN
 generic.follow Folgen
-generic.unfollow Nicht mehr folgen
+generic.unfollow Entfolgen
 generic.followers Follower
 generic.following folgt
 generic.games Spiele
 generic.wins Siege
-generic.lose Niedlagen
+generic.lose Niederlagen
 generic.clan Clan
 generic.games.played gespielte Spiele
 generic.games.won gewonnene Spiele
@@ -64,26 +64,26 @@ player.killed Getötet von
 player.killstreak {0} on a {1} Kill Streak
 player.inactive Wegen Inaktivität entfernt
 player.disconnect VERBINDUNG UNTERBROCHEN
-timer.end Nächste Runde in {0}
+timer.end Nächste Runde startet in {0}
 leaderboard.empty Leerer Warteraum
-popup.checkpoint Kontrollpunkt!
+popup.checkpoint Checkpoint!
 app.play BERÜHRE ZUM SPIELEN
-app.spectate KLICK ZUM ZUSCHAUEN
-app.play.mobile KLICK ZUM SPIELEN
+app.spectate KLICKE ZUM ZUSCHAUEN
+app.play.mobile KLICKE ZUM SPIELEN
 app.spectate.mobile BERÜHRE ZUM ZUSCHAUEN
 app.play.controller START DRÜCKEN
 app.spectate.controller START zum ZUSCHAUEN
-purchase.error Fehler aufgetreten
+purchase.error Ein Fehler ist aufgetreten
 purchase.error.click Hier klicken</a> und nochmal versuchen!
 purchase.error.limit Du hast möglicherweise dein tägliches Transaktionslimit überschritten.
 settings.reset Einstellungen zurücksetzen
-settings.reset.confirm Bist Du sicher, dass du all Deine Einstellungen zurücksetzen willst? Dadurch wird auch die Seite neu geladen
-settings.import Import
-settings.export Export
+settings.reset.confirm Bist Du dir sicher, dass du all Deine Einstellungen zurücksetzen willst?
+settings.import Importieren
+settings.export Exportieren
 settings.none Keine Einstellungen gefunden
 settings.backup Reserve Einstellungen
-settings.controls.change Kontrollen ändern
-settings.controls.press Irgendeine Taste drücken
+settings.controls.change Keybinds ändern
+settings.controls.press Beliebige Taste drücken
 settings.local.header Sprachänderung <span id="requiresRestart"><span style="color: #eb5656">*</span> erfordert Neustart</span>
 settings.local.region Standard Region
 settings.local.lang Sprache
@@ -96,7 +96,7 @@ settings.popup.header Popups
 settings.popup.freeKRPop Gratis KR Popup anzeigen
 settings.experimental.header Experimentell
 settings.experimental.aimFreezeFix Aim Freeze Fix
-settings.experimental.mouseFlickFix Mouse Flick Fix
+settings.experimental.mouseFlickFix Maus Flick Fix
 settings.experimental.shaderRendering Instanz Rendern
 settings.experimental.staticRendering Statisches Rendern
 settings.client.header Client
@@ -118,7 +118,7 @@ settings.chat.header Chat
 settings.chat.chat Zeige Chat Box
 settings.chat.chat.all Immer
 settings.chat.chat.focus Während Fokus
-settings.chat.messages Zeige Spieler Nachrichten
+settings.chat.messages Zeige Nachrichten von anderen Spielern
 settings.chat.unboxings Zeige Unboxings
 settings.chat.chatOp Chat Deckkraft
 settings.chat.chatBGOp Chat Hintergrund Deckkraft
@@ -127,7 +127,7 @@ settings.chat.chatTimer Chat Timer (s)
 settings.chat.chatTextOutline Chat Text Umrandung
 settings.chat.chatFilter Belästigungsfilter
 settings.quality.header Qualität
-settings.quality.updRate Frame Cap
+settings.quality.updRate FPS-Begrenzung
 settings.quality.rendDst Render Entfernung
 settings.quality.res Auflösung
 settings.quality.part Partikel
@@ -187,8 +187,8 @@ settings.interface.fps FPS-Rate anzeigen
 settings.interface.deaths Tode anzeigen
 settings.interface.kd K/D Zähler anzeigen
 settings.interface.kills Kill-Streaks anzeigen
-settings.interface.streak Streak-Zähler anzeigen
-settings.interface.score Punkte-Zähler anzeigen
+settings.interface.streak Abschusserienzähler anzeigen
+settings.interface.score Punktezähler anzeigen
 settings.interface.spectators Zuschauerzahl anzeigen
 settings.interface.speed Bewegungsgeschwindigkeit anzeigen
 settings.interface.speedOffX Geschwindigkeits X Offset
@@ -259,7 +259,7 @@ settings.serverb.oldBrowser Legacy Browser
 settings.serverb.defaultRegionOnly Nur Standard Region
 settings.gameprivacy.header Gameplay-Datenschutz
 settings.gameprivacy.streamer Streamer Modus
-settings.gameprivacy.anon Anonymous Modus
+settings.gameprivacy.anon Anonymer Modus
 settings.gameprivacy.hideGameTitle Spieltitel ausblenden
 settings.gameplay.header Spielverlauf
 settings.gameplay.gpSetts Gameplay Settings
@@ -273,7 +273,7 @@ settings.gameplay.onkillS Beim Kill
 settings.gameplay.scrollDir Scroll Richtung
 settings.controller.header Controller
 settings.controller.sensitivityX X Empfindlichkeit
-settings.controller.disableCons Controllers Ausschalten
+settings.controller.disableCons Controller Ausschalten
 settings.controller.sensitivityY Y Empfindlichkeit
 settings.controller.aimsensX Zielen X Empfindlichkeit
 settings.controller.aimsensY Zielen Y Empfindlichkeit
@@ -294,7 +294,7 @@ settings.mobile.invert Y-Achse invertieren
 settings.audio.header Audio
 settings.audio.sound Ton
 settings.audio.ambient Umgebungs Lautstärke
-settings.audio.voice Lautstärke Stimmen
+settings.audio.voice Lautstärke Sprach-Chat
 settings.audio.weps Waffen Lautstärke
 settings.audio.player Spieler Lautstärke
 settings.audio.skin Kosmetik Lautstärke
@@ -311,7 +311,7 @@ settings.viewmodel.show.primary Primärwaffe anzeigen
 settings.viewmodel.show.secondary Sekundärwaffe anzeigen
 settings.viewmodel.roundArms Runde Arme
 settings.viewmodel.show.melee Messer anzeigen
-settings.viewmodel.show.ads Waffe beim zielen nicht anzeigen
+settings.viewmodel.show.ads Waffe beim Zielen verstecken
 settings.viewmodel.toggleAim Ziel umschalten
 settings.viewmodel.show.hands Hände anzeigen
 settings.viewmodel.leftHand Linkshändig
@@ -330,7 +330,7 @@ settings.editing.health.low HUD HP Niedrig
 settings.editing.speedLines Geschwindigkeits-Linien
 settings.editing.spdLinesCol Geschwindigkeits-Linien Farbe
 settings.editing.score.color Popup Punkte-Farbe
-settings.editing.score.show Show Popup-Punkte
+settings.editing.score.show Zeige Popup-Punkte
 settings.editing.score.scale Popup Punkte-Größe
 settings.editing.score.shadow Popup Punkte-Schatten
 settings.editing.scoreOffX Popup Punkte X Offset
@@ -349,8 +349,8 @@ settings.editing.progm.shadow Auflade-Anzeige Schatten
 settings.editing.progmOffX Auflade-Anzeige X Offset
 settings.editing.progmOffY Auflade-Anzeige Y Offset
 settings.editing.progmRot Auflade-Anzeige Rotation
-settings.editing.saturation Sättigung (Im Spiel)
-settings.editing.menuSaturation Sättigung (Benutzeroberfläche)
+settings.editing.saturation Farbsättigung (Im Spiel)
+settings.editing.menuSaturation Farbsättigung (Benutzeroberfläche)
 settings.editing.hue Farbton (Im Spiel)
 settings.editing.menuHue Farbton (Benutzeroberfläche)
 settings.editing.vignette Vignette
@@ -367,29 +367,29 @@ settings.mods.header Modifikationen
 settings.mods.load Modifikationen laden
 settings.mods.logo Logo-Änderungen erlauben
 settings.mods.auto Mods automatisch laden
-settings.mods.borders Scope-Begrenzung
-settings.mods.borderCol Scope Grenzen
-settings.mods.borderOpac Scope Grenzen-Deckkraft
-settings.mods.scope Scope-Bild
-settings.mods.scope.paste Scope-Bild URL
-settings.mods.scope.opacity Scope Deckkraft
-settings.mods.scope.width Scope Bild Breite
-settings.mods.scope.height Scope Bild Höhe
+settings.mods.borders Zielfernrohr-Begrenzung
+settings.mods.borderCol Zielfernrohr Grenzen
+settings.mods.borderOpac Zielfernrohr Grenzen-Deckkraft
+settings.mods.scope Zielfernrohr-Bild
+settings.mods.scope.paste Zielfernrohr-Bild URL
+settings.mods.scope.opacity Zielfernrohr Deckkraft
+settings.mods.scope.width Zielfernrohr Bild Breite
+settings.mods.scope.height Zielfernrohr Bild Höhe
 settings.mods.dot Laser-Bild
 settings.mods.dot.width Laser-Bild Breite
 settings.mods.dot.height Laser-Bild Höhe
 settings.mods.dot.paste Laser-Bild URL
-settings.mods.endmessage Spiel Endnachricht
+settings.mods.endmessage Spielendnachricht
 settings.mods.profile Profilbild
 settings.mods.profile.paste Profilbild URL
 settings.mods.ammo Munitionssymbol Bild
 settings.mods.ammo.paste Munitionssymbol Bild URL
 settings.mods.kills Kills Symbol Bild
 settings.mods.kills.paste Kills Symbol Bild URL
-settings.mods.deaths Deaths Symbol Bild
-settings.mods.deaths.paste Deaths Symbol Bild URL
-settings.mods.streak Streak Symbol Bild
-settings.mods.streak.paste Streak Symbol Bild URL
+settings.mods.deaths Tode Symbol Bild
+settings.mods.deaths.paste Tode Symbol Bild URL
+settings.mods.streak Abschusserie Symbol Bild
+settings.mods.streak.paste Abschusserie Symbol Bild URL
 settings.mods.timer Timer Symbol Bild
 settings.mods.timer.paste Timer Symbol Bild URL
 settings.mods.usedamage Schadens-Overlay benutzen
@@ -405,14 +405,14 @@ windows.servers.none Keine Spiele zum Beitreten gefunden...
 windows.servers.host + Gastgeber-Spiel
 windows.servers.hide Volle Spiele ausblenden
 windows.servers.priority Regions-Priorität
-windows.servers.online {0} gesamt online
+windows.servers.online {0} im Spiel
 windows.servers.social {0} im Sozialbereich
 windows.loadout.header Ausrüstung ändern
 windows.loadout.class Klasse
 windows.loadout.primary Primäre Waffe
 windows.loadout.primary.attach Aufsatz
 windows.loadout.primary.reticle Fadenkreuz
-windows.loadout.primary.scope Scope
+windows.loadout.primary.scope Zielfernrohr
 windows.loadout.secondary Sekundär Waffe
 windows.loadout.secondary.skin Sekundär Skin
 windows.loadout.melee Nahkampf
@@ -425,7 +425,7 @@ windows.loadout.spray Spray
 windows.loadout.color.skin Hautfarbe
 windows.loadout.color.chat Namens-Farbe (im Chat)
 windows.loadout.color.hair Haarfarbe
-windows.loadout.dye Dye
+windows.loadout.dye Körperfärbung
 windows.loadout.pet Haustier
 windows.loadout.stat Killcard Statistiken
 windows.loadout.flag Länderflagge
@@ -475,11 +475,11 @@ windows.controls.specFree Auf freie Kamera umschalten
 windows.controls.specObj Auf Zielkamera umschalten
 windows.controls.specFirst First Person umschalten
 windows.controls.specNames Erzwungene Namen umschalten
-windows.controls.streak0 Streak 1
-windows.controls.streak1 Streak 2
-windows.controls.streak2 Streak 3
-windows.controls.streak3 Streak 4
-windows.controls.streak4 Streak 5
+windows.controls.streak0 Abschusserie 1
+windows.controls.streak1 Abschusserie 2
+windows.controls.streak2 Abschusserie 3
+windows.controls.streak3 Abschusserie 4
+windows.controls.streak4 Abschusserie 5
 windows.controls.premium0 Noclip
 windows.controls.premium1 Godmode
 windows.controls.premium2 Kill
@@ -517,8 +517,8 @@ windows.publish.map.paste Map-Daten einfügen
 windows.publish.map.update Veröffentlichen/Aktualisieren
 windows.publish.map.login Anmelden</a> um Map zu erstellen und hochzuladen!
 windows.theatre.header Theater Modus
-windows.theatre.record Aufzeichnung aktivieren
-windows.theatre.key Aufzeichnungstaste
+windows.theatre.record Aufnahme aktivieren
+windows.theatre.key Aufnahmetaste
 windows.clans.header Clans
 windows.clans.members Mitglieder ({0})
 windows.clans.requests Anfragen
@@ -534,7 +534,7 @@ windows.store.spin {0} Drehung(en)
 windows.store.agree Mit dem Kauf erklärst Du Dich mit den {0}Geschäftsbedingungen einverstanden.
 windows.store.purchase KR kaufen
 windows.store.voucher Gutschein einlösen
-windows.store.voucherinfo Erhalten Gutscheine von bestimmten Streamers & Veranstaltungen
+windows.store.voucherinfo Erhalte Gutscheine von bestimmten Streamers & Veranstaltungen
 windows.store.market Marktplatz
 windows.store.market2 Krunker Markt
 windows.store.premium Kaufe Premium
@@ -543,12 +543,12 @@ windows.store.buyP Wähle einen Anzeigename & mehr mit
 windows.store.buy Gegenstände kaufen und verkaufen auf dem
 windows.store.wheels Preisräder
 windows.store.unlock Neue Waffen und Gegenstände freischalten
-windows.store.amount {0} KR in Konto
+windows.store.amount {0} KR im Konto
 windows.store.login Anmelden</a> um Gegenstände aus dem Shop zu kaufen und freizuschalten!
 windows.store.purchasing Kauf wird durchgeführt...
 windows.store.unboxed {0}{1} ausgepackt
 windows.trade.header Handeln
-windows.scope.header Scope auswählen
+windows.scope.header Zielfernrohr auswählen
 windows.premium.header Premium
 windows.skin.header Oberfläche auswählen
 windows.hat.header Hut auswählen
@@ -557,17 +557,17 @@ windows.waist.header Taille auswählen
 windows.face.header Gesicht auswählen
 windows.melee.header Nahkampf-Waffe auswählen
 windows.attach.header Aufsatz auswählen
-windows.reticle.header Reticle auswählen
+windows.reticle.header Fadenkreuz auswählen
 windows.reticle.unlocked Freigschaltet ab Level {0}
 windows.reticle.req Voraussetzung lvl {0}
-windows.dye.header Dye auswählen
-windows.dye.default Standard Dye
-windows.dye.spin Dye
+windows.dye.header Körperfarbe auswählen
+windows.dye.default Standard Körperfarbe
+windows.dye.spin Körperfarbe
 windows.changelog.header Änderungsprotokoll
 windows.mods.community.header Community Mods
 windows.mods.community.fav Deine Favoriten
 windows.mods.community.new Neue Mods
-windows.mods.community.hot Heiß
+windows.mods.community.hot Beliebt
 windows.mods.community.name Mod-Name
 windows.mods.community.none Keine Mods gefunden!
 windows.publish.mod.header Mods veröffentlichen
@@ -612,12 +612,12 @@ matchmaker.full2 Das Spiel ist voll.
 matchmaker.updating SPIEL WIRD AKTUALISIERT
 matchmaker.invalid Spiel wurde nicht gefunden.
 matchmaker.none Spiel nicht gefunden.
-adblocker Schalte Deinen AdBlocker aus um gratis Krunkies zu erhalten.
+adblocker Deaktiviere deinen AdBlocker um gratis Krunkies zu erhalten.
 ad-failed Werbung konnte nicht geladen werden. Versuch es noch einmal.
 streamers.views {0} Betrachter
 streamers.none Keine aktiven Streams!
-error.extentions Schalte Erweiterungen aus, falls Du welche hast.
-error.seek Klicke und versuche, eine neues Spiel zu finden.
+error.extentions Deaktiviere Erweiterungen, falls Du welche hast.
+error.seek Klicke und versuche, ein neues Spiel zu finden.
 custom.map.upload.limit Fehgeschlagen. 500k Charakter Spiel Daten Limit
 custom.map.missing Wähle mindestens eine Map aus
 custom.mode.missing Wähle mindestens einen Modus aus
@@ -668,9 +668,9 @@ server.config.kCams Kill Cams
 server.config.noReload Kein Nachladen
 server.config.private Privat
 server.config.krRewards KR Belohnung
-server.config.forceDefault Force Default Settings
+server.config.forceDefault Erzwinge die Standardeinstellungen
 server.config.warmupTime Aufwärm-Zeit
-server.config.gamRounds Rounds
+server.config.gamRounds Runden
 server.config.objtvTime Objective-Zeit
 server.config.forceSpawn Automatische Respawn-Zeit
 server.config.intermTmr Intermission (s)
@@ -682,7 +682,7 @@ server.config.hitBoxPad Hitbox Polsterung
 server.config.hpRegen Lebens-Regeneration
 server.config.disableB Grenzen deaktivieren
 server.config.throwMel Werfbare Messer
-server.config.noCosm Cosmetics deaktivieren
+server.config.noCosm Kosmetik deaktivieren
 server.config.tstCmp Testmodus
 server.config.limitClasses Limitierte Klassen
 server.config.tmSize Teamgröße
@@ -722,7 +722,7 @@ social.market.shoe Gegenstand Schuh
 social.market.pet Gegenstand Haustier
 social.market.melee Gegenstand Nahkampfwaffe
 social.market.spray Gegenstand Spray
-social.market.dye Gegenstand Dye
+social.market.dye Gegenstand Körperfarbe
 social.market.none Keine Gegenstände gefunden
 social.market.login Du musst eingeloggt sein.
 social.market.grace bereit in {0}
@@ -795,13 +795,13 @@ social.profile.class Klassen Statistiken
 social.profile.sales Verkäufe
 social.profile.sales.market Marktverkäufe
 social.profile.skins Skins [{0}]
-social.profile.skins.none Keine veröffentlichten Skins von diesem Benutzer
+social.profile.skins.none Noch keine veröffentlichten Skins von diesem Benutzer
 social.profile.games Spiele [{0}]
-social.profile.games.none Keine veröffentlichten Spiele von diesem Benutzer
+social.profile.games.none Noch keine veröffentlichten Spiele von diesem Benutzer
 social.profile.assets Assets [{0}]
-social.profile.assets.none Keine veröffentlichten Assets von diesem Benutzer
+social.profile.assets.none Noch keine veröffentlichten Assets von diesem Benutzer
 social.profile.mods Mods [{0}]
-social.profile.mods.none Keine veröffentlichten Mods von diesem Benutzer
+social.profile.mods.none Noch keine veröffentlichten Mods von diesem Benutzer
 social.search Suchergebnisse
 social.market.stats.rare Seltenste Items
 social.market.stats.circulation Im Umlauf
