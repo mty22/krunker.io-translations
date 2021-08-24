@@ -177,7 +177,7 @@ settings.interface.oldBrowser Alter Server Browser
 settings.interface.rarityanim Seltenheits-Animationen ausschalten
 settings.interface.showPfp Profilbilder anzeigen
 settings.interface.showTradeMsg Trade-Nachrichten anzeigen
-settings.interface.hideNonTrade Vertecke nicht handelbare Skins
+settings.interface.hideNonTrade Verstecke nicht handelbare Skins
 settings.interface.hp Dynamische HP Balken
 settings.interface.dmgScale Schadens Größe
 settings.interface.killf Kill Feed anzeigen
