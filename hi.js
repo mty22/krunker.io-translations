@@ -91,7 +91,7 @@ settings.network.header नेटवर्क
 settings.network.sendRate ज़्यादा Tickrate
 settings.network.netRerouting ऑटो राउटिंग (पिंग को प्रभावित करता है)
 settings.network.lagComp लैग काम्पन्सेशन
-settings.network.hitReg hitreg टैस्ट
+settings.network.hitReg Hitreg टैस्ट
 settings.popup.header पॉपअप
 settings.popup.freeKRPop मुफ्त KR पॉपअप
 settings.experimental.header आजमाइशी
