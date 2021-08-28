@@ -88,17 +88,16 @@ settings.local.header Lokalisatie <span id="requiresRestart"><span style="color:
 settings.local.region Standaard Regio
 settings.local.lang Taal
 settings.network.header Netwerk
-settings.network.sendRate Hoge Tickrate
 settings.network.netRerouting Auto Routing (Beïnvloed Ping)
+settings.network.netRate Network Rate (Hz)
 settings.network.lagComp Lag Compensatie
-settings.network.hitReg Hitreg Test
 settings.popup.header Popups
 settings.popup.freeKRPop Toon Gratis KR Popup
 settings.experimental.header Experimenteel
+settings.experimental.optNetwork Optimized Networking
 settings.experimental.aimFreezeFix Aim Freeze Fix
 settings.experimental.mouseFlickFix Muis Flick Fix
 settings.experimental.shaderRendering Instance Rendering
-settings.experimental.staticRendering Static Rendering
 settings.client.header Client
 settings.client.unlimitedFrames Unlimited FPS
 settings.client.gameCap Game Capture
@@ -212,9 +211,11 @@ settings.interface.healthNum Naam Gezondheid Nummer
 settings.interface.healthColT Naam Gezondheid Kleur Team
 settings.interface.healthColE Naam Gezondheid Kleur Tegenstanders
 settings.interface.xpBarCol XP Bar Kleur
+settings.interface.xpBarCol2 XP Bar Color 2
 settings.interface.xpBarOpac XP Bar Doorzichtigheid
 settings.crosshair.header Crosshair
 settings.crosshair.type Soort
+settings.crosshair.type.1 Dynamic
 settings.crosshair.type.2 Custom
 settings.crosshair.type.3 Gelaagd
 settings.crosshair.type.4 Afbeelding
@@ -227,6 +228,8 @@ settings.crosshair.style.3 Holle Vierkant
 settings.crosshair.style.4 Vaste Vierkant
 settings.crosshair.image Afbeelding
 settings.crosshair.image.paste Crosshair Afbeelding
+settings.crosshair.image.width Image Width
+settings.crosshair.image.height Image Height
 settings.crosshair.always Laat altijd zien
 settings.crosshair.color Kleur
 settings.crosshair.shadow.color Schaduw Kleur
@@ -237,6 +240,31 @@ settings.crosshair.gap Gat
 settings.crosshair.dot Punt
 settings.crosshair.opacity.use Gebruik Eigen Ondoorzichtigheid
 settings.crosshair.opacity.custom Eigen Ondoorzichtigheid
+settings.crosshairm.header Crosshair (Throwing)
+settings.crosshairm.type Type
+settings.crosshairm.type.1 Shapes
+settings.crosshairm.type.2 Image
+settings.crosshairm.type.3 Precision
+settings.crosshairm.style Style
+settings.crosshairm.style.0 Cross
+settings.crosshairm.style.1 Hollow Circle
+settings.crosshairm.style.2 Solid Circle
+settings.crosshairm.style.3 Hollow Square
+settings.crosshairm.style.4 Solid Square
+settings.crosshairm.image Image
+settings.crosshairm.image.paste Crosshair Image
+settings.crosshairm.image.width Image Width
+settings.crosshairm.image.height Image Height
+settings.crosshairm.always Always Show
+settings.crosshairm.color Color
+settings.crosshairm.shadow.color Shadow Color
+settings.crosshairm.shadow.thickness Shadow Thickness
+settings.crosshairm.size Size
+settings.crosshairm.thickness Thickness
+settings.crosshairm.gap Gap
+settings.crosshairm.dot Dot
+settings.crosshairm.opacity.use Use Custom Opacity
+settings.crosshairm.opacity.custom Custom Opacity
 settings.hitmarker.header Hitmarker
 settings.hitmarker.color Kleur
 settings.hitmarker.kcolor Killkleur
@@ -260,6 +288,11 @@ settings.serverb.defaultRegionOnly Alleen Standaard Regio
 settings.gameprivacy.header Gameplay Privacy
 settings.gameprivacy.streamer Streamer Modus
 settings.gameprivacy.anon Anonieme Modus
+settings.gameprivacy.hideGameTitle Verstop Game Titel
+settings.gameprivacy.verified Show Verified Badge
+settings.gameprivacy.premium Show Premium Badge
+settings.gameprivacy.partner Show Partner Badge
+settings.gameprivacy.rank Show Ranked Badge
 settings.gameprivacy.hideGameTitle Verstop Game Titel
 settings.gameplay.header Gameplay
 settings.gameplay.gpSetts Gameplay Settings
@@ -295,6 +328,8 @@ settings.audio.header Audio
 settings.audio.sound Meester Volume
 settings.audio.ambient Omringende Volume
 settings.audio.voice Stem Volume
+settings.audio.input Audio/Mic Input
+settings.audio.mic Mic Volume
 settings.audio.weps Wapen Volume
 settings.audio.player Speler Volume
 settings.audio.skin Cosmetica Volume
@@ -324,6 +359,7 @@ settings.viewmodel.weapSwapY Wapen Wissel Y
 settings.viewmodel.weapReloadY Wapen Herlaad Y
 settings.viewmodel.yOffADS Wapen ADS Y Compensatie
 settings.viewmodel.adsFovMlt ADS FOV Kracht
+settings.viewmodel.toggleADS Toggle Weapon ADS
 settings.editing.header Bewerken
 settings.editing.health.high HUD Gezondheid Hoog
 settings.editing.health.low HUD Gezondheid Laag
@@ -343,6 +379,7 @@ settings.editing.progOffX Vooruitgang Bar X Compensatie
 settings.editing.progOffY Vooruitgang Bar Y Compensatie
 settings.editing.progRot Vooruitgang Bar Rotatie
 settings.editing.progm.color Verander Bar Kleur
+settings.editing.progmo.color Overcharge Color
 settings.editing.progm.opacity Verander Bar Ondoorzichtigheid
 settings.editing.progm.scale Verander Bar Schaal
 settings.editing.progm.shadow Verander Bar Schaduw
@@ -398,6 +435,8 @@ settings.mods.damage.paste Schade Overlay Afbeelding URL
 settings.mods.overlay Game Overlay-afbeelding
 settings.mods.overlay.paste Game Overlay Afbeelding URL
 settings.social.region Regio Statistieken
+settings.social.bg Background Image
+settings.social.bg.paste Background Image URL
 windows.settings.header Game-instellingen
 windows.mail.header Krunker Mail
 windows.servers.header Servers
@@ -448,8 +487,8 @@ windows.controls.backward Achteruit
 windows.controls.left Links
 windows.controls.right Rechts
 windows.controls.reload Herladen
-windows.controls.aim Richt
-windows.controls.shoot Schiet
+windows.controls.aim1 Aim
+windows.controls.shoot1 Shoot
 windows.controls.inspect Inspecteren
 windows.controls.spray Spray
 windows.controls.jump Spring
@@ -475,11 +514,14 @@ windows.controls.specFree Toggle Free Cam
 windows.controls.specObj Toggle Objective Cam
 windows.controls.specFirst Toggle First Person
 windows.controls.specNames Toggle Forced Names
+windows.controls.specFocus Toggle Focus Player
+windows.controls.hidePlayers Hide Players
 windows.controls.streak0 Streak 1
 windows.controls.streak1 Streak 2
 windows.controls.streak2 Streak 3
 windows.controls.streak3 Streak 4
 windows.controls.streak4 Streak 5
+windows.controls.prop Select Prop (Hold)
 windows.controls.premium0 Noclip
 windows.controls.premium1 Godmode
 windows.controls.premium2 Dood
@@ -690,6 +732,7 @@ server.config.fallDmg Fall Damage
 server.config.fallDmgThr Fall Damage Thresh
 server.config.noDraws No Draws
 server.config.bstOfR Best of
+server.config.chrgWeps Chargable Weapons
 social.login Login/Registreer
 social.login.failed Login Mislukt
 social.login.buy Login om te Kopen
