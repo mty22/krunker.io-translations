@@ -88,17 +88,16 @@ settings.local.header Lokalisointi <span id="requiresRestart"><span style="color
 settings.local.region Oletusalue
 settings.local.lang Kieli
 settings.network.header Verkko
-settings.network.sendRate Korkea Tickrate
 settings.network.netRerouting Automaattinen Reititys (Vaikuttaa Viiveeseen)
+settings.network.netRate Network Rate (Hz)
 settings.network.lagComp Viiveen Korjaus
-settings.network.hitReg Hitreg Test
 settings.popup.header Ponnahdusikkunat
 settings.popup.freeKRPop Näytä Ilmaisen KR:n Ponnahdusikkuna
 settings.experimental.header Kokeellinen
+settings.experimental.optNetwork Optimized Networking
 settings.experimental.aimFreezeFix Tähtäyksen Jähmettymisen Korjaus
 settings.experimental.mouseFlickFix Hiiren Napsauttamisen Korjaus
 settings.experimental.shaderRendering Instance Rendering
-settings.experimental.staticRendering Static Rendering
 settings.client.header Client
 settings.client.unlimitedFrames Unlimited FPS
 settings.client.gameCap Game Capture
@@ -212,9 +211,11 @@ settings.interface.healthNum Nimimerkin Terveys
 settings.interface.healthColT Oman Tiimin Nimimerkkien Väri
 settings.interface.healthColE Vihollistiimin Nimierkkien Väri
 settings.interface.xpBarCol XP-palkin Väri
+settings.interface.xpBarCol2 XP Bar Color 2
 settings.interface.xpBarOpac XP-palkin Läpinäkyvyys
 settings.crosshair.header Tähtäin
 settings.crosshair.type Tyyppi
+settings.crosshair.type.1 Dynamic
 settings.crosshair.type.2 Mukautettu
 settings.crosshair.type.3 Kerroksittainen
 settings.crosshair.type.4 Kuva
@@ -227,6 +228,8 @@ settings.crosshair.style.3 Ontto Neliö
 settings.crosshair.style.4 Kiinteä Neliö
 settings.crosshair.image Kuva
 settings.crosshair.image.paste Tähtäimen Kuva
+settings.crosshair.image.width Image Width
+settings.crosshair.image.height Image Height
 settings.crosshair.always Näytä Aina
 settings.crosshair.color Väri
 settings.crosshair.shadow.color Varjon Väri
@@ -237,6 +240,31 @@ settings.crosshair.gap Etäisyys
 settings.crosshair.dot Piste
 settings.crosshair.opacity.use Käytä Mukautettua Läpinäkyvyyttä
 settings.crosshair.opacity.custom Mukautettu Läpinäkyvyys
+settings.crosshairm.header Crosshair (Throwing)
+settings.crosshairm.type Type
+settings.crosshairm.type.1 Shapes
+settings.crosshairm.type.2 Image
+settings.crosshairm.type.3 Precision
+settings.crosshairm.style Style
+settings.crosshairm.style.0 Cross
+settings.crosshairm.style.1 Hollow Circle
+settings.crosshairm.style.2 Solid Circle
+settings.crosshairm.style.3 Hollow Square
+settings.crosshairm.style.4 Solid Square
+settings.crosshairm.image Image
+settings.crosshairm.image.paste Crosshair Image
+settings.crosshairm.image.width Image Width
+settings.crosshairm.image.height Image Height
+settings.crosshairm.always Always Show
+settings.crosshairm.color Color
+settings.crosshairm.shadow.color Shadow Color
+settings.crosshairm.shadow.thickness Shadow Thickness
+settings.crosshairm.size Size
+settings.crosshairm.thickness Thickness
+settings.crosshairm.gap Gap
+settings.crosshairm.dot Dot
+settings.crosshairm.opacity.use Use Custom Opacity
+settings.crosshairm.opacity.custom Custom Opacity
 settings.hitmarker.header Näytä Osuma
 settings.hitmarker.color Väri
 settings.hitmarker.kcolor Tappoväri
@@ -260,6 +288,11 @@ settings.serverb.defaultRegionOnly Vain Oletusalue
 settings.gameprivacy.header Pelattavuuden Yksityisyys
 settings.gameprivacy.streamer Suoratoistotila
 settings.gameprivacy.anon Nimetön Tila
+settings.gameprivacy.hideGameTitle Piilota Pelin Otsikko
+settings.gameprivacy.verified Show Verified Badge
+settings.gameprivacy.premium Show Premium Badge
+settings.gameprivacy.partner Show Partner Badge
+settings.gameprivacy.rank Show Ranked Badge
 settings.gameprivacy.hideGameTitle Piilota Pelin Otsikko
 settings.gameplay.header Gameplay
 settings.gameplay.gpSetts Gameplay Settings
@@ -295,6 +328,8 @@ settings.audio.header Audio
 settings.audio.sound Pää-äänenvoimakkuus
 settings.audio.ambient Ympäristön Äänenvoimakkuus
 settings.audio.voice VC-Äänenvoimakkuus
+settings.audio.input Audio/Mic Input
+settings.audio.mic Mic Volume
 settings.audio.weps Aseen Äänenvoimakkuus
 settings.audio.player Hahmojen Äänenvoimakkuus
 settings.audio.skin Kosmetiikan Äänenvoimakkuus
@@ -324,6 +359,7 @@ settings.viewmodel.weapSwapY Aseen Vaihto Y-Akselissa
 settings.viewmodel.weapReloadY Aseen Lataus Y-Akselissa
 settings.viewmodel.yOffADS Tähtäyksen Y-Akseli
 settings.viewmodel.adsFovMlt Tähtäyksen FOV-Voimakkuus
+settings.viewmodel.toggleADS Toggle Weapon ADS
 settings.editing.header Editoi
 settings.editing.health.high HUD Elämiä Paljon
 settings.editing.health.low HUD Elämiä Vähän
@@ -343,6 +379,7 @@ settings.editing.progOffX Sijainti Edistymispalkin X-Akselissa
 settings.editing.progOffY Sijainti Edistymispalkin Y-Akselissa
 settings.editing.progRot Edistymispalkin Rotaatio
 settings.editing.progm.color Charge Bar Color
+settings.editing.progmo.color Overcharge Color
 settings.editing.progm.opacity Charge Bar Opacity
 settings.editing.progm.scale Charge Bar Scale
 settings.editing.progm.shadow Charge Bar Shadow
@@ -398,6 +435,8 @@ settings.mods.damage.paste Vahingon Overlayn Kuvan URL
 settings.mods.overlay Pelin Overlayn Kuva
 settings.mods.overlay.paste Pelin Overlayn Kuvan URL
 settings.social.region Alueen Tilastot
+settings.social.bg Background Image
+settings.social.bg.paste Background Image URL
 windows.settings.header Peliasetukset
 windows.mail.header Kruner-Posti
 windows.servers.header Palvelimet
@@ -448,8 +487,8 @@ windows.controls.backward Taaksepäin
 windows.controls.left Vasen
 windows.controls.right Oikea
 windows.controls.reload Uudelleenlataa
-windows.controls.aim Tähtäys
-windows.controls.shoot Ampuminen
+windows.controls.aim1 Aim
+windows.controls.shoot1 Shoot
 windows.controls.inspect Tarkistaminen
 windows.controls.spray Spray
 windows.controls.jump Hyppäys
@@ -475,11 +514,14 @@ windows.controls.specFree Toggle Free Cam
 windows.controls.specObj Toggle Objective Cam
 windows.controls.specFirst Toggle First Person
 windows.controls.specNames Toggle Forced Names
+windows.controls.specFocus Toggle Focus Player
+windows.controls.hidePlayers Hide Players
 windows.controls.streak0 Tappoputki 1
 windows.controls.streak1 Tappoputki 2
 windows.controls.streak2 Tappoputki 3
 windows.controls.streak3 Tappoputki 4
 windows.controls.streak4 Tappoputki 5
+windows.controls.prop Select Prop (Hold)
 windows.controls.premium0 Noclip
 windows.controls.premium1 Jumala-tila
 windows.controls.premium2 Tappo
@@ -690,6 +732,7 @@ server.config.fallDmg Fall Damage
 server.config.fallDmgThr Fall Damage Thresh
 server.config.noDraws No Draws
 server.config.bstOfR Best of
+server.config.chrgWeps Chargable Weapons
 social.login Kirjaudu/Rekisteröidy
 social.login.failed Kirjautuminen Epäonnistui
 social.login.buy Kirjaudu Sisään Ostaaksesi
