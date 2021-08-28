@@ -88,17 +88,16 @@ settings.local.header Lokalizacija <span id="requiresRestart"><span style="color
 settings.local.region Privzeta Regija
 settings.local.lang Jezik
 settings.network.header Omrežje
-settings.network.sendRate Visok Tickrate
 settings.network.netRerouting Avtomatsko iskanje omrežij (Vpliva na Ping)
+settings.network.netRate Network Rate (Hz)
 settings.network.lagComp Kompenzacija zamika
-settings.network.hitReg Hitreg Test
 settings.popup.header Pojavna okna
 settings.popup.freeKRPop Pokaži Zastonj KR oglas
 settings.experimental.header Esperimentalno
+settings.experimental.optNetwork Optimized Networking
 settings.experimental.aimFreezeFix Popravi Zamrznjeno Ciljanje
 settings.experimental.mouseFlickFix Popravi Zasuk Miške
 settings.experimental.shaderRendering Intenzivno nalaganje
-settings.experimental.staticRendering Static Rendering
 settings.client.header Client
 settings.client.unlimitedFrames Unlimited FPS
 settings.client.gameCap Game Capture
@@ -212,9 +211,11 @@ settings.interface.healthNum Število Življenja
 settings.interface.healthColT Barva Oznake Imena Ekipe
 settings.interface.healthColE Barva Oznake Imena Sovražnikov
 settings.interface.xpBarCol Barva XP Bara
+settings.interface.xpBarCol2 XP Bar Color 2
 settings.interface.xpBarOpac Prosojnost XP bara
 settings.crosshair.header Kazalec Napada
 settings.crosshair.type Tip
+settings.crosshair.type.1 Dynamic
 settings.crosshair.type.2 Po meri
 settings.crosshair.type.3 Sloj
 settings.crosshair.type.4 Slika
@@ -227,6 +228,8 @@ settings.crosshair.style.3 Votel Kvadrat
 settings.crosshair.style.4 Poln Kvadrat
 settings.crosshair.image Slika
 settings.crosshair.image.paste Slika Kazalca Napada
+settings.crosshair.image.width Image Width
+settings.crosshair.image.height Image Height
 settings.crosshair.always Vedno pokaži
 settings.crosshair.color Barva
 settings.crosshair.shadow.color Barva Sence
@@ -237,6 +240,31 @@ settings.crosshair.gap Praznina
 settings.crosshair.dot Pika
 settings.crosshair.opacity.use Uporabi Prosojnost po meri
 settings.crosshair.opacity.custom Prosojnost po meri
+settings.crosshairm.header Crosshair (Throwing)
+settings.crosshairm.type Type
+settings.crosshairm.type.1 Shapes
+settings.crosshairm.type.2 Image
+settings.crosshairm.type.3 Precision
+settings.crosshairm.style Style
+settings.crosshairm.style.0 Cross
+settings.crosshairm.style.1 Hollow Circle
+settings.crosshairm.style.2 Solid Circle
+settings.crosshairm.style.3 Hollow Square
+settings.crosshairm.style.4 Solid Square
+settings.crosshairm.image Image
+settings.crosshairm.image.paste Crosshair Image
+settings.crosshairm.image.width Image Width
+settings.crosshairm.image.height Image Height
+settings.crosshairm.always Always Show
+settings.crosshairm.color Color
+settings.crosshairm.shadow.color Shadow Color
+settings.crosshairm.shadow.thickness Shadow Thickness
+settings.crosshairm.size Size
+settings.crosshairm.thickness Thickness
+settings.crosshairm.gap Gap
+settings.crosshairm.dot Dot
+settings.crosshairm.opacity.use Use Custom Opacity
+settings.crosshairm.opacity.custom Custom Opacity
 settings.hitmarker.header Indikator Zadetkov
 settings.hitmarker.color Barva
 settings.hitmarker.kcolor Barva Ubojev
@@ -260,6 +288,11 @@ settings.serverb.defaultRegionOnly Samo Privzeta Regija
 settings.gameprivacy.header Zasebnost Igranja
 settings.gameprivacy.streamer Način Pretočnega Predvajanja
 settings.gameprivacy.anon Anonimni Način
+settings.gameprivacy.hideGameTitle Skrij Naslov Igre
+settings.gameprivacy.verified Show Verified Badge
+settings.gameprivacy.premium Show Premium Badge
+settings.gameprivacy.partner Show Partner Badge
+settings.gameprivacy.rank Show Ranked Badge
 settings.gameprivacy.hideGameTitle Skrij Naslov Igre
 settings.gameplay.header Igranje
 settings.gameplay.gpSetts Gameplay Settings
@@ -295,6 +328,8 @@ settings.audio.header Zvok
 settings.audio.sound Glavna Glasnost
 settings.audio.ambient Glasnost Okolja
 settings.audio.voice Glasnost Glasu
+settings.audio.input Audio/Mic Input
+settings.audio.mic Mic Volume
 settings.audio.weps Glasnost Orožja
 settings.audio.player Glasnost Igralcev
 settings.audio.skin Glasnost Kozmetik
@@ -324,6 +359,7 @@ settings.viewmodel.weapSwapY Menjava Orožja Y
 settings.viewmodel.weapReloadY Napolnjenje Orožja Y
 settings.viewmodel.yOffADS Y Odmik Ob Merjenju
 settings.viewmodel.adsFovMlt  Moč Vidnega Kota Merjenja
+settings.viewmodel.toggleADS Toggle Weapon ADS
 settings.editing.header Urejanje
 settings.editing.health.high HUD Visokega Življenja
 settings.editing.health.low HUD Nizkega Življenja
@@ -343,6 +379,7 @@ settings.editing.progOffX X Odmik Tablice Napredka
 settings.editing.progOffY Y Odmik Tablice Napredka
 settings.editing.progRot Rotacija Tablice Napredka
 settings.editing.progm.color Barva Polnjenje Tablice
+settings.editing.progmo.color Overcharge Color
 settings.editing.progm.opacity Prosojnost Tablice Polnjenja
 settings.editing.progm.scale Velikost Tablice Polnjenja
 settings.editing.progm.shadow  Senca Tablice Polnjenja
@@ -398,6 +435,8 @@ settings.mods.damage.paste URL Slike Škodilnega Prekriva
 settings.mods.overlay Slika Prekriva Igre
 settings.mods.overlay.paste URL Slike Prekriva Igre
 settings.social.region Statistika Regije
+settings.social.bg Background Image
+settings.social.bg.paste Background Image URL
 windows.settings.header Nastavitve Igre
 windows.mail.header Krunker Pošta
 windows.servers.header Strežniki
@@ -448,8 +487,8 @@ windows.controls.backward Nazaj
 windows.controls.left Levo
 windows.controls.right Desno
 windows.controls.reload Napolni
-windows.controls.aim Nameri
-windows.controls.shoot Streljaj
+windows.controls.aim1 Aim
+windows.controls.shoot1 Shoot
 windows.controls.inspect Preglej
 windows.controls.spray Posprejaj
 windows.controls.jump Skoči
@@ -475,11 +514,14 @@ windows.controls.specFree Toggle Free Cam
 windows.controls.specObj Toggle Objective Cam
 windows.controls.specFirst Toggle First Person
 windows.controls.specNames Toggle Forced Names
+windows.controls.specFocus Toggle Focus Player
+windows.controls.hidePlayers Hide Players
 windows.controls.streak0 Niz 1
 windows.controls.streak1 Niz 2
 windows.controls.streak2 Niz 3
 windows.controls.streak3 Niz 4
 windows.controls.streak4 Niz 5
+windows.controls.prop Select Prop (Hold)
 windows.controls.premium0 Noclip
 windows.controls.premium1 Način Boga
 windows.controls.premium2 Uboj
@@ -690,6 +732,7 @@ server.config.fallDmg Fall Damage
 server.config.fallDmgThr Fall Damage Thresh
 server.config.noDraws No Draws
 server.config.bstOfR Best of
+server.config.chrgWeps Chargable Weapons
 social.login Prijava/Registracija
 social.login.failed  Prijava ni uspela
 social.login.buy Prijavi se za nakup
