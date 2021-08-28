@@ -98,7 +98,7 @@ settings.experimental.header आजमाइशी
 settings.experimental.aimFreezeFix लक्ष्य के दौरान फ्रीज को ठीक करें
 settings.experimental.mouseFlickFix लक्ष्य के दौरान झटके को ठीक करें
 settings.experimental.shaderRendering शेडर रैडंर
-settings.experimental.staticRendering स्टैटिक रैंडर 
+settings.experimental.staticRendering स्टैटिक रैंडर
 settings.client.header Client क्लाइंट
 settings.client.unlimitedFrames असीमित FPS
 settings.client.gameCap खेल कैप्चर
@@ -177,7 +177,7 @@ settings.interface.oldBrowser पुराने ब्राउज़र का
 settings.interface.rarityanim दुर्लभता एनिमेशन असमर्थ करें
 settings.interface.showPfp प्रोफ़ाइल चित्र दिखाएँ
 settings.interface.showTradeMsg व्यापार के संदेश दिखाएँ
-settings.interface.hideNonTrade व्यापार न होने वाली स्किन्स को छुपाएँ 
+settings.interface.hideNonTrade व्यापार न होने वाली स्किन्स को छुपाएँ
 settings.interface.hp HP
 settings.interface.dmgScale डैमेज संकेतों का माप
 settings.interface.killf Kill Feed दिखाएँ
@@ -262,7 +262,7 @@ settings.gameprivacy.streamer स्ट्रीमर मोड
 settings.gameprivacy.anon गुमनाम मोड
 settings.gameprivacy.hideGameTitle खेल शीर्षक छिपाएं
 settings.gameplay.header गेमप्लेर
-settings.gameplay.gpSetts गेमप्ले सेटिंग्स 
+settings.gameplay.gpSetts गेमप्ले सेटिंग्स
 settings.gameplay.sensitivityX X-संवेदनशीलता
 settings.gameplay.sensitivityY Y-संवेदनशीलता
 settings.gameplay.aimsensX लक्ष्य X-संवेदनशीलता
@@ -357,8 +357,8 @@ settings.editing.vignette विग्नेट
 settings.editing.feedLimit किलफीड सीमा
 settings.editing.depth डेप्थ मैप
 settings.editing.green ग्रीन स्क्रीन
-settings.editing.trailcol बुलेट ट्रेल का रंग 
-settings.editing.ropecol ग्रेपल रोप का रंग 
+settings.editing.trailcol बुलेट ट्रेल का रंग
+settings.editing.ropecol ग्रेपल रोप का रंग
 settings.editing.tracercol बुलेट  ट्रेसर का रंग
 settings.editing.tracer बुलेट  ट्रेसर
 settings.editing.tracer.offset ट्रेसर ऑफसेट
@@ -579,7 +579,7 @@ windows.publish.mod.login मॉड बनाने और अपलोड क�
 windows.secondary.header सेकेंडरी चुने
 windows.secondary.unlocked उनलॉक्ड
 windows.secondary.customOnly सिर्फ कस्टम्स
-windows.secondary.premiumOnly सिर्फ प्रीमियम 
+windows.secondary.premiumOnly सिर्फ प्रीमियम
 windows.secondary.req {0} पर अनलॉक हो जाता है
 windows.advertise.header विज्ञापित
 windows.support.header सपोर्ट
@@ -686,10 +686,10 @@ server.config.noCosm काज़्मेटिक
 server.config.tstCmp जाँच मोड
 server.config.limitClasses क्लास लिमिट करें
 server.config.tmSize टीम साइज़
-server.config.fallDmg फॉल डैमेज 
-server.config.fallDmgThr फॉल डैमेज की सीमा 
+server.config.fallDmg फॉल डैमेज
+server.config.fallDmgThr फॉल डैमेज की सीमा
 server.config.noDraws कोई ड्रा नहीं
-server.config.bstOfR बेस्ट ऑफ़ 
+server.config.bstOfR बेस्ट ऑफ़
 social.login लॉगिन/रजिस्टर
 social.login.failed लॉगिन असफल हुआ
 social.login.buy खरीदने के लिए लॉगिन करे
