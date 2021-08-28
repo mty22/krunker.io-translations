@@ -735,87 +735,87 @@ social.market.gift.amount Lahjasumma
 social.market.fee.gift Ei Maksua
 social.market.gift Lahjoita KR:ää
 social.market.gift.msg Jätä viesti
-respawn.auto Auto Respawning in {0}
-custom.host.ranked Can't host match while in ranked.
-funds.insufficient Insufficient Funds
-funds.out It appears you have run out of Krunkies.
-custom.passcode.long Password too long
-custom.passcode.input Enter Server Password to join
-custom.tryagain Please try again.
-purchase.kr.success Added {0} KR to your account
-limited.purchase.ask Are you sure you want to purchase [{0}] for {1} KR?
-limited.purchase.success Added {0} to your inventory
-pretend.exit press [{0}] again to exit
-settings.loaded Settings Loaded
-settings.loaded.none No settings found
-account.login.required Must be logged in
-account.banned.hack This account has been banned for Hacking.
-account.banned.appeal If you want to appeal your ban, contact:
-account.delete You may request to delete your account, if the request is not cancelled within 14 days the account and all associated data will be permanently removed.
-account.delete.request Are you sure you want to request an account deletion?
-account.delete.cancel Are you sure you want to cancel account deletion?
-spin.free.available FREE KR AVAILABLE!
-spin.free.claim This spin is available to claim once per Hour after completing a match.
-spin.free.disable These Popups can be disabled in General Settings
-mod.reset.0 Will take effect after respawning.
-mod.reset.1 Map Objects dont get reset
-windows.profile.picture Change Picture
-stats.assists Assists
-stats.nukes Nukes
-stats.melee Melee
-stats.fistkills Beatdowns
-stats.thrownkills Bullseyes
-stats.headshots Headshots
-stats.wallbangs Wallbangs
-stats.sprays Sprays Placed
-windows.host.default.settings Enabling Default Settings allows for storing Player Progress and Highscores
-windows.host.default.commands *Host Commands are Disabled in this mode: /noclip /god /smite etc
-windows.host.rewards Enabling KR Rewards forces the Server to use Default Settings & allows players to earn KR from the map funds:
-windows.store.wheels.sub Try your luck and spin for a chance to win some new skins!
-windows.store.currency * Prices in USD can be converted to your local currency at an exchange rate defined by the payment provider or bank
-windows.store.creator Consider Support your favorite Content Creator by using a Creator Code
-windows.chall.customs Challenges can't be completed in Custom Matches
-twitch.link Are you sure you want to link a twitch account?
-twitch.unlink Are you sure you want to unlink your twitch account?
-windows.clan.leave Are you sure you want to leave the clan?
-windows.clan.delete Are you sure you want to delete the clan?
-windows.clan.kick Are you sure you want kick {0} from the clan?
-windows.store.premium.purchase Are you sure you want to purchase {0} days of Premium?
-windows.store.premium.gift Are you sure you want to Gift '{0}' {1} days of Premium?
-windows.playerlist.ban Are you sure you want ban {0} from this game?
-windows.playerlist.flag Are you sure you want to Flag {0}?
-windows.playerlist.unflag Are you sure you want to Unflag {0}?
-windows.playerlist.punish Are you sure you want to take action on {0}?
-item.view.open Open Model Viewer
-item.view.more More Information
-item.sell.cant Item cant be sold.
-item.sell.quick Are you sure you want to Quick Sell {0}?
-social.profile.stats Overall Stats
-social.profile.class Class Stats
-social.profile.sales Sales
-social.profile.sales.market Market Sales
-social.profile.skins Skins [{0}]
-social.profile.skins.none No published Skins from this user
-social.profile.games Games [{0}]
-social.profile.games.none No published Games from this user
-social.profile.assets Assets [{0}]
-social.profile.assets.none No published Assets from this user
-social.profile.mods Mods [{0}]
-social.profile.mods.none No published Mods from this user
-social.search Search Results
-social.market.stats.rare Rarest Items
-social.market.stats.circulation In Circulation
-social.market.stats.units units Worldwide
-social.trades.in Incoming
-social.trades.in.head Incoming Offers ({0})
-social.trades.out Outgoing
-social.trades.out.head Outgoing Offers ({0})
-social.trades.history History
-social.trades.history.head Trade History ({0})
-social.trades.decline Decline All
-social.trades.message ENABLE TRADE MESSAGES IN SETTINGS
-social.trades.warning You get no items from this trade!
-social.trades.accept Are you sure you want to accept this offer?
-stats.airdrops KR-Packages
-settings.quality.flapAnim Sniper Flap Animation
+respawn.auto Uudelleensynnytään {0} sekunnin kuluttua
+custom.host.ranked Et voi luoda peliä ollessasi kilpailullisessa
+funds.insufficient Ei ole varaa
+funds.out Sinulla ei ole tarpeeksi Krunkieita.
+custom.passcode.long Salasana liian pitkä
+custom.passcode.input Syötä palvelimen salasana liittyäksesi
+custom.tryagain Yritä uudelleen.
+purchase.kr.success {0} KR:ää lisätty käyttäjällesi
+limited.purchase.ask Oletko varma että haluat ostaa [{0}]:n {1} KR:llä?
+limited.purchase.success {0} on nyt lisätty  to your tavaraluetteloosi
+pretend.exit paina [{0}] uudelleen poistuaksesi
+settings.loaded Asetukset Ladattu
+settings.loaded.none Asetuksia ei löydetty
+account.login.required Pitää olla kirjautuneena sisään
+account.banned.hack Tämä käyttäjä on saanut porttikiellon huijaamisesta.
+account.banned.appeal Jos haluat valittaa, ota yhteyttä:
+account.delete Voit pyytää käyttäjäsi poistamista, jos et hylkää pyyntöäsi 14 päivän kuluessa, käyttäjäsi ja kaikki muu siihen liittyvä tieto poistetaan pysyvästi.
+account.delete.request Oletko varma, että haluat lähettää käyttäjäpoistopyynnön?
+account.delete.cancel Oletko varma, että haluat hylätä käyttäjäpoistopyynnön?
+spin.free.available ILMAISTA KR:ÄÄ SAATAVILLA!
+spin.free.claim Tämä spin on lunastettavissa kerran tunnissa ottelun päätyttyä.
+spin.free.disable Nämä popupit voi ottaa pois käytöstä "General Settings"-osiosta.
+mod.reset.0 Tulee voimaan uudelleensyntymisen jälkeen.
+mod.reset.1 Kartan Objektit eivät nollaudu
+windows.profile.picture Vaihta profiilikuva
+stats.assists Assistit
+stats.nukes Nuket
+stats.melee Melee-tapot
+stats.fistkills Nyrkkitapot
+stats.thrownkills Heittotapot
+stats.headshots Pääosumat
+stats.wallbangs Wallbangit
+stats.sprays Sprayta Maalattu
+windows.host.default.settings Oletusasetusten ottaminen käyttöön mahdollistaa pelaajan edistymisen ja huipputulosten tallentamisen
+windows.host.default.commands *Palvelinomistajan komennot ovat pois päältä tällä modella: /noclip /god /smite etc
+windows.host.rewards Ottaessasi käyttöön KR Palkinnot peli pakottaa palvelimen käyttämään Default-asetuksia & antaa pelaajia saada KR:ää kartan rahastosta.
+windows.store.wheels.sub Kokeile onneasi ja pyöräytä ja saa mahdollisuus voitaa uusia skinejä!
+windows.store.currency * Hinnat USD:ssä voidaan muuntaa paikalliseksi valuutaksi maksupalveluntarjoajan tai pankin määrittelemällä valuuttakurssilla
+windows.store.creator Harkitse suosikkisisällöntuottajasi tukemista käyttämällä luojakoodia
+windows.chall.customs Haasteita ei voi suorittaa mukautetuissa otteluissa
+twitch.link Oletko varma, että haluat linkittää Twitch-käyttäjäsi?
+twitch.unlink Oletko varma, että haluat poistaa Twitch-käyttäjäsi linkityksen?
+windows.clan.leave Oletko varma, että haluat poistua klaanista?
+windows.clan.delete Oletko varma, että haluat poistaa klaanisi?
+windows.clan.kick Oletko varma, että haluat poistaa {0} klaanista?
+windows.store.premium.purchase Oletko varma, että haluat ostaa {0} päivää Premiumia?
+windows.store.premium.gift Oletko varma, että haluat lahjoittaa '{0}' {1} päivää Premiumia?
+windows.playerlist.ban Oletko varma, että haluat antaa porttikiellon {0}-käyttäjälle?
+windows.playerlist.flag Oletko varma, että haluat merkata käyttäjän {0}?
+windows.playerlist.unflag Oletko varma, että haluat poistaa merkinnän käyttäjältä {0}?
+windows.playerlist.punish Haluatko varmasti ryhtyä toimiin käyttäjään {0}?
+item.view.open Avaa Model Viewer
+item.view.more Lisätietoja
+item.sell.cant Esinettä ei voi myydä.
+item.sell.quick Oletko varma, että haluat nopeamyydä esineen {0}?
+social.profile.stats Kokonaistilastot
+social.profile.class Hahmotilastot
+social.profile.sales Myynnit
+social.profile.sales.market Market-myynnit
+social.profile.skins Skinejä [{0}]
+social.profile.skins.none Ei julkaistuja skinejä tällä käyttäjällä
+social.profile.games Pelejä [{0}]
+social.profile.games.none Ei julkaistuja pelejä tällä käyttäjällä
+social.profile.assets Assetit [{0}]
+social.profile.assets.none Ei julkaistuja assetteja tällä käyttäjällä
+social.profile.mods Modeja [{0}]
+social.profile.mods.none Ei julkaistuja modeja tällä käyttäjällä
+social.search Hakutulokset
+social.market.stats.rare Harvinaisimmat esineet
+social.market.stats.circulation Liikkeellä
+social.market.stats.units yksikköä maailmanlaajuisesti
+social.trades.in Tulevat
+social.trades.in.head Tulevat tarjoukset ({0})
+social.trades.out Lähtevät
+social.trades.out.head Lähtevät tarjoukset ({0})
+social.trades.history Historia
+social.trades.history.head Vaihtokauppahistoria ({0})
+social.trades.decline Hylkää kaikki
+social.trades.message HYVÄKSY VAIHTOVIESTIT ASETUKSISSA
+social.trades.warning Et saa yhtäkään esinettä tässä vaihtokaupassa!
+social.trades.accept Oletko varma, että haluat hyväksyä tämän vaihtokaupan?
+stats.airdrops KR-Paketit
+settings.quality.flapAnim Sniper Flap-animaatio
 `;
