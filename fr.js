@@ -89,12 +89,12 @@ settings.local.region Région par défaut
 settings.local.lang Langue
 settings.network.header Réseau
 settings.network.netRerouting Routage automatique (affecte le Ping)
-settings.network.netRate Network Rate (Hz)
+settings.network.netRate Taux de rafraîchissement réseau (Hz)
 settings.network.lagComp Compensation du lag
 settings.popup.header Popups
 settings.popup.freeKRPop Show Free KR Popup
 settings.experimental.header Expérimental
-settings.experimental.optNetwork Optimized Networking
+settings.experimental.optNetwork Réseau optimisé
 settings.experimental.aimFreezeFix Correction du bug de visée bloquée
 settings.experimental.mouseFlickFix Correction des accoups de la souris
 settings.experimental.shaderRendering Instanciation géométrique
@@ -211,11 +211,11 @@ settings.interface.healthNum Afficher la vie
 settings.interface.healthColT Couleur de vie des alliés
 settings.interface.healthColE Couleur de vie des ennemis
 settings.interface.xpBarCol Couleur de la barre d'xp
-settings.interface.xpBarCol2 XP Bar Color 2
+settings.interface.xpBarCol2 Couleur 2 de la barre d'xp
 settings.interface.xpBarOpac Opacité de la barre d'xp
 settings.crosshair.header Curseur
 settings.crosshair.type Type
-settings.crosshair.type.1 Dynamic
+settings.crosshair.type.1 Dynamique
 settings.crosshair.type.2 Personnalisé
 settings.crosshair.type.3 Superposé
 settings.crosshair.type.4 Image
@@ -228,8 +228,8 @@ settings.crosshair.style.3 Carré vide
 settings.crosshair.style.4 Carré plein
 settings.crosshair.image Image
 settings.crosshair.image.paste Image du curseur
-settings.crosshair.image.width Image Width
-settings.crosshair.image.height Image Height
+settings.crosshair.image.width Largeur d'image
+settings.crosshair.image.height Hauteur d'image
 settings.crosshair.always Toujours afficher
 settings.crosshair.color Couleur
 settings.crosshair.shadow.color Couleur du contour
@@ -240,31 +240,31 @@ settings.crosshair.gap Écart
 settings.crosshair.dot Point
 settings.crosshair.opacity.use Utiliser l'opacité personnalisée
 settings.crosshair.opacity.custom Opacité personnalisée
-settings.crosshairm.header Crosshair (Throwing)
+settings.crosshairm.header Curseur (Jeté)
 settings.crosshairm.type Type
-settings.crosshairm.type.1 Shapes
+settings.crosshairm.type.1 Formes
 settings.crosshairm.type.2 Image
-settings.crosshairm.type.3 Precision
+settings.crosshairm.type.3 Précision
 settings.crosshairm.style Style
-settings.crosshairm.style.0 Cross
-settings.crosshairm.style.1 Hollow Circle
-settings.crosshairm.style.2 Solid Circle
-settings.crosshairm.style.3 Hollow Square
-settings.crosshairm.style.4 Solid Square
+settings.crosshairm.style.0 Croix
+settings.crosshairm.style.1 Cercle creux
+settings.crosshairm.style.2 Cercle solide
+settings.crosshairm.style.3 Carré creux
+settings.crosshairm.style.4 Carré solide
 settings.crosshairm.image Image
-settings.crosshairm.image.paste Crosshair Image
-settings.crosshairm.image.width Image Width
-settings.crosshairm.image.height Image Height
-settings.crosshairm.always Always Show
-settings.crosshairm.color Color
-settings.crosshairm.shadow.color Shadow Color
-settings.crosshairm.shadow.thickness Shadow Thickness
-settings.crosshairm.size Size
-settings.crosshairm.thickness Thickness
-settings.crosshairm.gap Gap
-settings.crosshairm.dot Dot
-settings.crosshairm.opacity.use Use Custom Opacity
-settings.crosshairm.opacity.custom Custom Opacity
+settings.crosshairm.image.paste Image de curseur
+settings.crosshairm.image.width Largeur d'image
+settings.crosshairm.image.height Hauteur d'image
+settings.crosshairm.always Toujours afficher
+settings.crosshairm.color Couleur
+settings.crosshairm.shadow.color Couleur d'ombre
+settings.crosshairm.shadow.thickness Épaisseur de l'ombre
+settings.crosshairm.size Taille
+settings.crosshairm.thickness Épaisseur
+settings.crosshairm.gap Écart
+settings.crosshairm.dot Point
+settings.crosshairm.opacity.use Utiliser une pacité personnalisée
+settings.crosshairm.opacity.custom Opacité personnalisée
 settings.hitmarker.header Indicateur de touche
 settings.hitmarker.color Couleur
 settings.hitmarker.kcolor Couleur du kill
@@ -289,10 +289,10 @@ settings.gameprivacy.header Confidentialité en jeu
 settings.gameprivacy.streamer Mode Streameur
 settings.gameprivacy.anon Mode Anonyme
 settings.gameprivacy.hideGameTitle Cacher le nom du jeu
-settings.gameprivacy.verified Show Verified Badge
-settings.gameprivacy.premium Show Premium Badge
-settings.gameprivacy.partner Show Partner Badge
-settings.gameprivacy.rank Show Ranked Badge
+settings.gameprivacy.verified Afficher le badge de vérification
+settings.gameprivacy.premium Afficher le badge de premium
+settings.gameprivacy.partner Afficher le badge de partenaire
+settings.gameprivacy.rank Afficher le badge de ranked
 settings.gameplay.header Jouabilité
 settings.gameplay.gpSetts Paramètres de jeu
 settings.gameplay.sensitivityX Sensibilité X
@@ -327,8 +327,8 @@ settings.audio.header Audio
 settings.audio.sound Volume général
 settings.audio.ambient Volume ambiant
 settings.audio.voice Volume des voix
-settings.audio.input Audio/Mic Input
-settings.audio.mic Mic Volume
+settings.audio.input Entrée audio/micro
+settings.audio.mic Volume micro
 settings.audio.weps Volume des armes
 settings.audio.player Volume des joueurs
 settings.audio.skin Volume des cosmétiques
@@ -358,7 +358,7 @@ settings.viewmodel.weapSwapY Changement d'arme Y
 settings.viewmodel.weapReloadY Rechargement de l'arme Y
 settings.viewmodel.yOffADS Décalage Y arme visée
 settings.viewmodel.adsFovMlt Zoom de la visée
-settings.viewmodel.toggleADS Toggle Weapon ADS
+settings.viewmodel.toggleADS Activer la visée
 settings.editing.header Édition
 settings.editing.health.high HUD Vie haute
 settings.editing.health.low HUD Vie faible
@@ -378,7 +378,7 @@ settings.editing.progOffX Décalage X de la barre de progrès
 settings.editing.progOffY Décalage Y de la barre de progrès
 settings.editing.progRot Rotation de la barre de progrès
 settings.editing.progm.color Couleur de la barre de chargement de la mêlée
-settings.editing.progmo.color Overcharge Color
+settings.editing.progmo.color Couleur de chargement dépassé
 settings.editing.progm.opacity Opacité de la barre de chargement de la mêlée
 settings.editing.progm.scale Taille de la barre de chargement de la mêlée
 settings.editing.progm.shadow Ombre de la barre de chargement de la mêlée
@@ -434,8 +434,8 @@ settings.mods.damage.paste Lien image de l'overlay de dégâts
 settings.mods.overlay Image de l'overlay global
 settings.mods.overlay.paste Lien image de l'overlay global
 settings.social.region Statistiques de région
-settings.social.bg Background Image
-settings.social.bg.paste Background Image URL
+settings.social.bg Image d'arrière plan
+settings.social.bg.paste Lien d'image d'arrière plan
 windows.settings.header Réglages du jeu
 windows.mail.header Boîte aux lettres
 windows.servers.header Serveurs
@@ -513,14 +513,14 @@ windows.controls.specFree Activer la caméra libre
 windows.controls.specObj Activer la caméra objective
 windows.controls.specFirst Activer la 1ere personne
 windows.controls.specNames Activer les noms d'ennemis
-windows.controls.specFocus Toggle Focus Player
-windows.controls.hidePlayers Hide Players
+windows.controls.specFocus Activer la poursuite du joueur
+windows.controls.hidePlayers Cacher les joueurs
 windows.controls.streak0 Série d’élimination 1
 windows.controls.streak1 Série d’élimination 2
 windows.controls.streak2 Série d’élimination 3
 windows.controls.streak3 Série d’élimination 4
 windows.controls.streak4 Série d’élimination 5
-windows.controls.prop Select Prop (Hold)
+windows.controls.prop Selectionner l'objet (Tenir appuyé)
 windows.controls.premium0 Noclip
 windows.controls.premium1 Invincibilité
 windows.controls.premium2 Suicide
@@ -731,7 +731,7 @@ server.config.fallDmg Dégat de chute
 server.config.fallDmgThr Seuil de dégat de chute
 server.config.noDraws Pas d'égalité
 server.config.bstOfR Best of
-server.config.chrgWeps Chargable Weapons
+server.config.chrgWeps Armes de charge
 social.login Connexion / Inscription
 social.login.failed Connexion échouée
 social.login.buy Connectez-vous pour acheter
