@@ -88,17 +88,16 @@ settings.local.header 语言本地化 <span id="requiresRestart"><span style="co
 settings.local.region 默认服务器地区
 settings.local.lang 语言
 settings.network.header 网络
-settings.network.sendRate 高客户端传送率
 settings.network.netRerouting 动态路由（影响网络延时）
+settings.network.netRate Network Rate (Hz)
 settings.network.lagComp 延迟补偿
-settings.network.hitReg 命中判定测试
 settings.popup.header 弹窗
 settings.popup.freeKRPop 显示免费 KR 弹窗
 settings.experimental.header 实验性
+settings.experimental.optNetwork Optimized Networking
 settings.experimental.aimFreezeFix 射击冻结修正（射击时限制帧率）
 settings.experimental.mouseFlickFix 鼠标轮询过激修正（限制轮询率）
 settings.experimental.shaderRendering 实例化渲染
-settings.experimental.staticRendering 静态渲染
 settings.client.header 客户端
 settings.client.unlimitedFrames 禁用垂直同步
 settings.client.gameCap 游戏捕获
@@ -212,9 +211,11 @@ settings.interface.healthNum 显示血量
 settings.interface.healthColT 队友血条颜色
 settings.interface.healthColE 敌人血条颜色
 settings.interface.xpBarCol 经验条颜色
+settings.interface.xpBarCol2 XP Bar Color 2
 settings.interface.xpBarOpac 经验条不透明度
 settings.crosshair.header 准星
 settings.crosshair.type 种类
+settings.crosshair.type.1 Dynamic
 settings.crosshair.type.2 自定义
 settings.crosshair.type.3 叠层
 settings.crosshair.type.4 图片
@@ -227,6 +228,8 @@ settings.crosshair.style.3 空心方块
 settings.crosshair.style.4 实心方块
 settings.crosshair.image 图片
 settings.crosshair.image.paste 准星图片
+settings.crosshair.image.width Image Width
+settings.crosshair.image.height Image Height
 settings.crosshair.always 总是显示
 settings.crosshair.color 颜色
 settings.crosshair.shadow.color 阴影颜色
@@ -237,6 +240,31 @@ settings.crosshair.gap 间隙
 settings.crosshair.dot 点
 settings.crosshair.opacity.use 使用自定义不透明度
 settings.crosshair.opacity.custom 自定义不透明度
+settings.crosshairm.header Crosshair (Throwing)
+settings.crosshairm.type Type
+settings.crosshairm.type.1 Shapes
+settings.crosshairm.type.2 Image
+settings.crosshairm.type.3 Precision
+settings.crosshairm.style Style
+settings.crosshairm.style.0 Cross
+settings.crosshairm.style.1 Hollow Circle
+settings.crosshairm.style.2 Solid Circle
+settings.crosshairm.style.3 Hollow Square
+settings.crosshairm.style.4 Solid Square
+settings.crosshairm.image Image
+settings.crosshairm.image.paste Crosshair Image
+settings.crosshairm.image.width Image Width
+settings.crosshairm.image.height Image Height
+settings.crosshairm.always Always Show
+settings.crosshairm.color Color
+settings.crosshairm.shadow.color Shadow Color
+settings.crosshairm.shadow.thickness Shadow Thickness
+settings.crosshairm.size Size
+settings.crosshairm.thickness Thickness
+settings.crosshairm.gap Gap
+settings.crosshairm.dot Dot
+settings.crosshairm.opacity.use Use Custom Opacity
+settings.crosshairm.opacity.custom Custom Opacity
 settings.hitmarker.header 命中标记
 settings.hitmarker.color 颜色
 settings.hitmarker.kcolor 击杀颜色
@@ -261,6 +289,10 @@ settings.gameprivacy.header 游玩隐私
 settings.gameprivacy.streamer 主播模式
 settings.gameprivacy.anon 匿名模式
 settings.gameprivacy.hideGameTitle 隐藏游戏名称
+settings.gameprivacy.verified Show Verified Badge
+settings.gameprivacy.premium Show Premium Badge
+settings.gameprivacy.partner Show Partner Badge
+settings.gameprivacy.rank Show Ranked Badge
 settings.gameplay.header 游戏性
 settings.gameplay.gpSetts 游戏性设置
 settings.gameplay.sensitivityX 水平灵敏度
@@ -295,6 +327,8 @@ settings.audio.header 音效
 settings.audio.sound 主音量
 settings.audio.ambient 环境音量
 settings.audio.voice 语音音量
+settings.audio.input Audio/Mic Input
+settings.audio.mic Mic Volume
 settings.audio.weps 武器音量
 settings.audio.player 玩家音量
 settings.audio.skin 服饰音量
@@ -324,6 +358,7 @@ settings.viewmodel.weapSwapY 切枪时武器的垂直位移
 settings.viewmodel.weapReloadY 换弹时武器的垂直位移
 settings.viewmodel.yOffADS 开镜时武器的垂直位移
 settings.viewmodel.adsFovMlt 开镜时视场缩放百分比
+settings.viewmodel.toggleADS Toggle Weapon ADS
 settings.editing.header 编辑
 settings.editing.health.high HUD 高血量颜色
 settings.editing.health.low HUD 低血量颜色
@@ -343,6 +378,7 @@ settings.editing.progOffX 进度条水平位移
 settings.editing.progOffY 进度条垂直位移
 settings.editing.progRot 进度条旋转角度
 settings.editing.progm.color 蓄力条颜色
+settings.editing.progmo.color Overcharge Color
 settings.editing.progm.opacity 蓄力条不透明度
 settings.editing.progm.scale 蓄力条缩放比例
 settings.editing.progm.shadow 蓄力条阴影
@@ -398,6 +434,8 @@ settings.mods.damage.paste 受伤特效叠层网址
 settings.mods.overlay 游戏中叠层图标
 settings.mods.overlay.paste 游戏中叠层图标网址
 settings.social.region 各地区统计
+settings.social.bg Background Image
+settings.social.bg.paste Background Image URL
 windows.settings.header 游戏设置
 windows.mail.header Krunker 邮箱
 windows.servers.header 服务器
@@ -448,8 +486,8 @@ windows.controls.backward 后
 windows.controls.left 左
 windows.controls.right 右
 windows.controls.reload 装填弹药
-windows.controls.aim 瞄准
-windows.controls.shoot 射击
+windows.controls.aim1 瞄准
+windows.controls.shoot1 射击
 windows.controls.inspect 检视武器
 windows.controls.spray 涂鸦
 windows.controls.jump 跳跃
@@ -475,11 +513,14 @@ windows.controls.specFree 自由视角
 windows.controls.specObj 目标点视角
 windows.controls.specFirst 第一人称视角
 windows.controls.specNames 强制显示玩家名称
+windows.controls.specFocus Toggle Focus Player
+windows.controls.hidePlayers Hide Players
 windows.controls.streak0 连杀奖励 1
 windows.controls.streak1 连杀奖励 2
 windows.controls.streak2 连杀奖励 3
 windows.controls.streak3 连杀奖励 4
 windows.controls.streak4 连杀奖励 5
+windows.controls.prop Select Prop (Hold)
 windows.controls.premium0 穿墙飞行模式
 windows.controls.premium1 无敌模式
 windows.controls.premium2 自杀
@@ -690,6 +731,7 @@ server.config.fallDmg 启用摔落伤害
 server.config.fallDmgThr 摔落伤害阈值
 server.config.noDraws 禁用平局
 server.config.bstOfR 最佳玩家
+server.config.chrgWeps Chargable Weapons
 social.login 登录或注册
 social.login.failed 登录失败
 social.login.buy 登录后购买

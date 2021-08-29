@@ -88,17 +88,16 @@ settings.local.header 언어 설정 <span id="requiresRestart"><span style="colo
 settings.local.region 기본 지역
 settings.local.lang 언어
 settings.network.header 네트워크
-settings.network.sendRate 높은 틱레이트
 settings.network.netRerouting 자동 라우팅 (핑에 영향을 줍니다)
+settings.network.netRate Network Rate (Hz)
 settings.network.lagComp 지연 시간 보정
-settings.network.hitReg 피격 판정 테스트
 settings.popup.header 팝업
 settings.popup.freeKRPop 무료 KR 팝업 보이기
 settings.experimental.header 실험적 설정
+settings.experimental.optNetwork Optimized Networking
 settings.experimental.aimFreezeFix 에임 멈춤 현상 해결
 settings.experimental.mouseFlickFix 마우스 순간이동 문제 해결
 settings.experimental.shaderRendering 인스턴스 렌더링
-settings.experimental.staticRendering 정적 렌더링
 settings.client.header 클라이언트
 settings.client.unlimitedFrames FPS 무제한
 settings.client.gameCap 게임 캡처
@@ -212,9 +211,11 @@ settings.interface.healthNum 이름표 HP 숫자 표시
 settings.interface.healthColT 팀원 이름표 HP 색상
 settings.interface.healthColE 상대 이름표 HP 색상
 settings.interface.xpBarCol XP 막대 색상
+settings.interface.xpBarCol2 XP Bar Color 2
 settings.interface.xpBarOpac XP 막대 불투명도
 settings.crosshair.header 조준선
 settings.crosshair.type 종류
+settings.crosshair.type.1 Dynamic
 settings.crosshair.type.2 사용자 지정
 settings.crosshair.type.3 레이어
 settings.crosshair.type.4 이미지
@@ -227,6 +228,8 @@ settings.crosshair.style.3 빈 정사각형
 settings.crosshair.style.4 꽉 찬 정사각형
 settings.crosshair.image 이미지
 settings.crosshair.image.paste 조준선 이미지
+settings.crosshair.image.width Image Width
+settings.crosshair.image.height Image Height
 settings.crosshair.always 항상 표시
 settings.crosshair.color 색상
 settings.crosshair.shadow.color 그림자 색상
@@ -237,6 +240,31 @@ settings.crosshair.gap 틈
 settings.crosshair.dot 점
 settings.crosshair.opacity.use 사용자 지정 불투명도 사용
 settings.crosshair.opacity.custom 불투명도
+settings.crosshairm.header Crosshair (Throwing)
+settings.crosshairm.type Type
+settings.crosshairm.type.1 Shapes
+settings.crosshairm.type.2 Image
+settings.crosshairm.type.3 Precision
+settings.crosshairm.style Style
+settings.crosshairm.style.0 Cross
+settings.crosshairm.style.1 Hollow Circle
+settings.crosshairm.style.2 Solid Circle
+settings.crosshairm.style.3 Hollow Square
+settings.crosshairm.style.4 Solid Square
+settings.crosshairm.image Image
+settings.crosshairm.image.paste Crosshair Image
+settings.crosshairm.image.width Image Width
+settings.crosshairm.image.height Image Height
+settings.crosshairm.always Always Show
+settings.crosshairm.color Color
+settings.crosshairm.shadow.color Shadow Color
+settings.crosshairm.shadow.thickness Shadow Thickness
+settings.crosshairm.size Size
+settings.crosshairm.thickness Thickness
+settings.crosshairm.gap Gap
+settings.crosshairm.dot Dot
+settings.crosshairm.opacity.use Use Custom Opacity
+settings.crosshairm.opacity.custom Custom Opacity
 settings.hitmarker.header 히트마커
 settings.hitmarker.color 색상
 settings.hitmarker.kcolor 처치 색상
@@ -261,6 +289,10 @@ settings.gameprivacy.header 게임플레이 프라이버시
 settings.gameprivacy.streamer 스트리머 모드
 settings.gameprivacy.anon 익명 모드
 settings.gameprivacy.hideGameTitle 게임 제목 숨기기
+settings.gameprivacy.verified Show Verified Badge
+settings.gameprivacy.premium Show Premium Badge
+settings.gameprivacy.partner Show Partner Badge
+settings.gameprivacy.rank Show Ranked Badge
 settings.gameplay.header 게임플레이
 settings.gameplay.gpSetts 게임플레이 설정
 settings.gameplay.sensitivityX 좌우 감도
@@ -295,6 +327,8 @@ settings.audio.header 오디오
 settings.audio.sound 마스터 음량
 settings.audio.ambient 환경 음량
 settings.audio.voice 음성 음량
+settings.audio.input Audio/Mic Input
+settings.audio.mic Mic Volume
 settings.audio.weps 무기 음량
 settings.audio.player 플레이어 음량
 settings.audio.skin 외형 아이템 음량
@@ -324,6 +358,7 @@ settings.viewmodel.weapSwapY 무기 전환 상하 위치
 settings.viewmodel.weapReloadY 무기 재장전 상하 위치
 settings.viewmodel.yOffADS 무기 조준 상하 위치
 settings.viewmodel.adsFovMlt 무기 조준 배율
+settings.viewmodel.toggleADS Toggle Weapon ADS
 settings.editing.header 인터페이스 효과
 settings.editing.health.high HUD HP 정상 색상
 settings.editing.health.low HUD HP 낮음 색상
@@ -343,6 +378,7 @@ settings.editing.progOffX 진행 막대 좌우 위치
 settings.editing.progOffY 진행 막대 상하 위치
 settings.editing.progRot 진행 막대 회전
 settings.editing.progm.color 충전 막대 색상
+settings.editing.progmo.color Overcharge Color
 settings.editing.progm.opacity 충전 막대 불투명도
 settings.editing.progm.scale 충전 막대 크기
 settings.editing.progm.shadow 충전 막대 그림자
@@ -398,6 +434,8 @@ settings.mods.damage.paste 피해량 오버레이 이미지 URL
 settings.mods.overlay 게임 오버레이 이미지
 settings.mods.overlay.paste 게임 오버레이 이미지 URL
 settings.social.region 지역 스탯
+settings.social.bg Background Image
+settings.social.bg.paste Background Image URL
 windows.settings.header 게임 설정
 windows.mail.header Krunker 메일
 windows.servers.header 서버
@@ -448,8 +486,8 @@ windows.controls.backward 뒤
 windows.controls.left 좌
 windows.controls.right 우
 windows.controls.reload 재장전
-windows.controls.aim 조준
-windows.controls.shoot 발사
+windows.controls.aim1 조준
+windows.controls.shoot1 발사
 windows.controls.inspect 무기 자세히 보기
 windows.controls.spray 스프레이
 windows.controls.jump 점프
@@ -475,11 +513,14 @@ windows.controls.specFree 자유 시점 전환
 windows.controls.specObj 거점 시점 전환
 windows.controls.specFirst 1인칭 시점 전환
 windows.controls.specNames 이름표 표시 전환
+windows.controls.specFocus Toggle Focus Player
+windows.controls.hidePlayers Hide Players
 windows.controls.streak0 연속 처치 1
 windows.controls.streak1 연속 처치 2
 windows.controls.streak2 연속 처치 3
 windows.controls.streak3 연속 처치 4
 windows.controls.streak4 연속 처치 5
+windows.controls.prop Select Prop (Hold)
 windows.controls.premium0 벽 통과
 windows.controls.premium1 무적 모드
 windows.controls.premium2 자살
@@ -690,6 +731,7 @@ server.config.fallDmg 추락 피해
 server.config.fallDmgThr 추락 피해 높이
 server.config.noDraws 무승부 없음
 server.config.bstOfR 다전제
+server.config.chrgWeps Chargable Weapons
 social.login 로그인/회원가입
 social.login.failed 로그인 실패
 social.login.buy 구매하려면 로그인하세요
