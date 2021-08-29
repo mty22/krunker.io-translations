@@ -88,15 +88,27 @@ settings.local.header Lokilazioni <span id="requiresRestart"><span style="color:
 settings.local.region Rajoni i parazgjedhur
 settings.local.lang Gjuha
 settings.network.header Rjeti
-settings.network.sendRate Tickrate i larte
 settings.network.netRerouting Lidhje automatike (Efekton pingun)
+settings.network.netRate Network Rate (Hz)
 settings.network.lagComp Kompensimi i ngecjes
 settings.popup.header PopUp'et
 settings.popup.freeKRPop Trego KR PA PAGESE PopUp
 settings.experimental.header Experimente
+settings.experimental.optNetwork Optimized Networking
 settings.experimental.aimFreezeFix Zgjidh problemin e ngecjes se shikimit 
 settings.experimental.mouseFlickFix Zgjidh problemin e miut qe leviz kudo shume shpejt
 settings.experimental.shaderRendering Renderimi i objekteve
+settings.client.header Client
+settings.client.unlimitedFrames Unlimited FPS
+settings.client.gameCap Game Capture
+settings.client.experimental Experimental Features
+settings.client.discordRPC Discord RPC
+settings.client.resourceSwapper Resource Swapper
+settings.client.clearCache Clear Cache
+settings.client.resetSettings Reset Client Settings
+settings.client.acceleratedCanvas Accelerated Canvas
+settings.client.angleBackend ANGLE Graphics Backend
+settings.client.colorProfile Color Profile
 settings.dev.header Programues
 settings.dev.forceUpdate Forco per te updateuar
 settings.dev.forceRegen Always Rikrijo lojtarin
@@ -164,6 +176,7 @@ settings.interface.oldBrowser Use Old Browser
 settings.interface.rarityanim Disable Rarity Animations
 settings.interface.showPfp Show Profile Pictures
 settings.interface.showTradeMsg Show Trade Messages
+settings.interface.hideNonTrade Hide Non-Tradable Skins
 settings.interface.hp Dynamic HP Bars
 settings.interface.dmgScale Damage Scale
 settings.interface.killf Show Kill Feed
@@ -198,9 +211,11 @@ settings.interface.healthNum Nametag Health Number
 settings.interface.healthColT Nametag Health Color Team
 settings.interface.healthColE Nametag Health Color Enemy
 settings.interface.xpBarCol XP Bar Color
+settings.interface.xpBarCol2 XP Bar Color 2
 settings.interface.xpBarOpac XP Bar Opacity
 settings.crosshair.header Crosshair
 settings.crosshair.type Type
+settings.crosshair.type.1 Dynamic
 settings.crosshair.type.2 Custom
 settings.crosshair.type.3 Layered
 settings.crosshair.type.4 Image
@@ -213,6 +228,8 @@ settings.crosshair.style.3 Hollow Square
 settings.crosshair.style.4 Solid Square
 settings.crosshair.image Image
 settings.crosshair.image.paste Crosshair Image
+settings.crosshair.image.width Image Width
+settings.crosshair.image.height Image Height
 settings.crosshair.always Always Show
 settings.crosshair.color Color
 settings.crosshair.shadow.color Shadow Color
@@ -223,6 +240,31 @@ settings.crosshair.gap Gap
 settings.crosshair.dot Dot
 settings.crosshair.opacity.use Use Custom Opacity
 settings.crosshair.opacity.custom Custom Opacity
+settings.crosshairm.header Crosshair (Throwing)
+settings.crosshairm.type Type
+settings.crosshairm.type.1 Shapes
+settings.crosshairm.type.2 Image
+settings.crosshairm.type.3 Precision
+settings.crosshairm.style Style
+settings.crosshairm.style.0 Cross
+settings.crosshairm.style.1 Hollow Circle
+settings.crosshairm.style.2 Solid Circle
+settings.crosshairm.style.3 Hollow Square
+settings.crosshairm.style.4 Solid Square
+settings.crosshairm.image Image
+settings.crosshairm.image.paste Crosshair Image
+settings.crosshairm.image.width Image Width
+settings.crosshairm.image.height Image Height
+settings.crosshairm.always Always Show
+settings.crosshairm.color Color
+settings.crosshairm.shadow.color Shadow Color
+settings.crosshairm.shadow.thickness Shadow Thickness
+settings.crosshairm.size Size
+settings.crosshairm.thickness Thickness
+settings.crosshairm.gap Gap
+settings.crosshairm.dot Dot
+settings.crosshairm.opacity.use Use Custom Opacity
+settings.crosshairm.opacity.custom Custom Opacity
 settings.hitmarker.header Hitmarker
 settings.hitmarker.color Color
 settings.hitmarker.kcolor Kill Color
@@ -247,7 +289,12 @@ settings.gameprivacy.header Gameplay Privacy
 settings.gameprivacy.streamer Streamer Mode
 settings.gameprivacy.anon Anonymous Mode
 settings.gameprivacy.hideGameTitle Hide Game Title
+settings.gameprivacy.verified Show Verified Badge
+settings.gameprivacy.premium Show Premium Badge
+settings.gameprivacy.partner Show Partner Badge
+settings.gameprivacy.rank Show Ranked Badge
 settings.gameplay.header Gameplay
+settings.gameplay.gpSetts Gameplay Settings
 settings.gameplay.sensitivityX X Sensitivity
 settings.gameplay.sensitivityY Y Sensitivity
 settings.gameplay.aimsensX Aim X Sensitivity
@@ -280,6 +327,8 @@ settings.audio.header Audio
 settings.audio.sound Master Volume
 settings.audio.ambient Ambient Volume
 settings.audio.voice Voice Volume
+settings.audio.input Audio/Mic Input
+settings.audio.mic Mic Volume
 settings.audio.weps Weapon Volume
 settings.audio.player Player Volume
 settings.audio.skin Cosmetics Volume
@@ -287,6 +336,7 @@ settings.audio.ui UI Volume
 settings.audio.asset Asset Volume
 settings.audio.dialogue Action Volume
 settings.viewmodel.header View Model
+settings.viewmodel.vmSetts View Model Settings
 settings.viewmodel.fov Field of View
 settings.viewmodel.fps Weapon FOV
 settings.viewmodel.bobbing Weapon Bobbing
@@ -308,6 +358,7 @@ settings.viewmodel.weapSwapY Weapon Swap Y
 settings.viewmodel.weapReloadY Weapon Reload Y
 settings.viewmodel.yOffADS Weapon ADS Y Offset
 settings.viewmodel.adsFovMlt ADS FOV Power
+settings.viewmodel.toggleADS Toggle Weapon ADS
 settings.editing.header Editing
 settings.editing.health.high HUD Health High
 settings.editing.health.low HUD Health Low
@@ -327,6 +378,7 @@ settings.editing.progOffX Progress Bar X Offset
 settings.editing.progOffY Progress Bar Y Offset
 settings.editing.progRot Progress Bar Rotation
 settings.editing.progm.color Charge Bar Color
+settings.editing.progmo.color Overcharge Color
 settings.editing.progm.opacity Charge Bar Opacity
 settings.editing.progm.scale Charge Bar Scale
 settings.editing.progm.shadow Charge Bar Shadow
@@ -341,6 +393,8 @@ settings.editing.vignette Vignette
 settings.editing.feedLimit Killfeed Limit
 settings.editing.depth Depth Map
 settings.editing.green Green Screen
+settings.editing.trailcol Bullet Trail Color
+settings.editing.ropecol Grapple Rope Color
 settings.editing.tracercol Bullet Tracers
 settings.editing.tracer Bullet Tracers
 settings.editing.tracer.offset Tracer Offset
@@ -380,6 +434,8 @@ settings.mods.damage.paste Damage Overlay Image URL
 settings.mods.overlay Game Overlay Image
 settings.mods.overlay.paste Game Overlay Image URL
 settings.social.region Region Stats
+settings.social.bg Background Image
+settings.social.bg.paste Background Image URL
 windows.settings.header Game Settings
 windows.mail.header Krunker Mail
 windows.servers.header Servers
@@ -430,8 +486,8 @@ windows.controls.backward Backward
 windows.controls.left Left
 windows.controls.right Right
 windows.controls.reload Reload
-windows.controls.aim Aim
-windows.controls.shoot Shoot
+windows.controls.aim1 Aim
+windows.controls.shoot1 Shoot
 windows.controls.inspect Inspect
 windows.controls.spray Spray
 windows.controls.jump Jump
@@ -449,15 +505,30 @@ windows.controls.interactSec Secondary Interact
 windows.controls.confirm Confirm Interact
 windows.controls.drop Drop
 windows.controls.wepVis Toggle Weapon Visibility
+windows.controls.kickVoteY Vote Kick [Yes]
+windows.controls.kickVoteN Vote Kick [No]
+windows.controls.kpdVoteY KPD Vote [Yes]
+windows.controls.kpdVoteN KPD Vote [No]
+windows.controls.specFree Toggle Free Cam
+windows.controls.specObj Toggle Objective Cam
+windows.controls.specFirst Toggle First Person
+windows.controls.specNames Toggle Forced Names
+windows.controls.specFocus Toggle Focus Player
+windows.controls.hidePlayers Hide Players
 windows.controls.streak0 Streak 1
 windows.controls.streak1 Streak 2
 windows.controls.streak2 Streak 3
 windows.controls.streak3 Streak 4
 windows.controls.streak4 Streak 5
+windows.controls.prop Select Prop (Hold)
 windows.controls.premium0 Noclip
 windows.controls.premium1 Godmode
 windows.controls.premium2 Kill
 windows.controls.premium3 Smite
+windows.controls.dev0 Developer Bind 1
+windows.controls.dev1 Developer Bind 2
+windows.controls.dev2 Developer Bind 3
+windows.controls.dev3 Developer Bind 4
 windows.controls.reset Reset Position (Race & Parkour)
 windows.controls.pretend Hide Game
 windows.host.header Host Custom Game
@@ -548,6 +619,8 @@ windows.publish.mod.update Publish/Update
 windows.publish.mod.login to create and upload mods!
 windows.secondary.header Select Secondary
 windows.secondary.unlocked Unlocked
+windows.secondary.customOnly Customs Only
+windows.secondary.premiumOnly Premium Only
 windows.secondary.req Req lvl {0}
 windows.advertise.header Advertise
 windows.support.header Support
@@ -638,8 +711,10 @@ server.config.private Private
 server.config.krRewards KR Rewards
 server.config.forceDefault Force Default Settings
 server.config.warmupTime Warmup Time
+server.config.gamRounds Rounds
 server.config.objtvTime Objective Time
 server.config.forceSpawn Auto Respawn Time
+server.config.intermTmr Intermission (s)
 server.config.scoreLimit Score Limit
 server.config.keepTScore Keep Team Score
 server.config.forceC Force Mode Classes
@@ -649,6 +724,14 @@ server.config.hpRegen Health Regen
 server.config.disableB Disable Borders
 server.config.throwMel Throwable Melees
 server.config.noCosm Disable Cosmetics
+server.config.tstCmp Test Mode
+server.config.limitClasses Limit Classes
+server.config.tmSize Team Size
+server.config.fallDmg Fall Damage
+server.config.fallDmgThr Fall Damage Thresh
+server.config.noDraws No Draws
+server.config.bstOfR Best of
+server.config.chrgWeps Chargable Weapons
 social.login Login/Register
 social.login.failed Login Failed
 social.login.buy Login to Buy
@@ -740,8 +823,41 @@ windows.clan.leave Are you sure you want to leave the clan?
 windows.clan.delete Are you sure you want to delete the clan?
 windows.clan.kick Are you sure you want kick {0} from the clan?
 windows.store.premium.purchase Are you sure you want to purchase {0} days of Premium?
+windows.store.premium.gift Are you sure you want to Gift '{0}' {1} days of Premium?
 windows.playerlist.ban Are you sure you want ban {0} from this game?
 windows.playerlist.flag Are you sure you want to Flag {0}?
 windows.playerlist.unflag Are you sure you want to Unflag {0}?
 windows.playerlist.punish Are you sure you want to take action on {0}?
+item.view.open Open Model Viewer
+item.view.more More Information
+item.sell.cant Item cant be sold.
+item.sell.quick Are you sure you want to Quick Sell {0}?
+social.profile.stats Overall Stats
+social.profile.class Class Stats
+social.profile.sales Sales
+social.profile.sales.market Market Sales
+social.profile.skins Skins [{0}]
+social.profile.skins.none No published Skins from this user
+social.profile.games Games [{0}]
+social.profile.games.none No published Games from this user
+social.profile.assets Assets [{0}]
+social.profile.assets.none No published Assets from this user
+social.profile.mods Mods [{0}]
+social.profile.mods.none No published Mods from this user
+social.search Search Results
+social.market.stats.rare Rarest Items
+social.market.stats.circulation In Circulation
+social.market.stats.units units Worldwide
+social.trades.in Incoming
+social.trades.in.head Incoming Offers ({0})
+social.trades.out Outgoing
+social.trades.out.head Outgoing Offers ({0})
+social.trades.history History
+social.trades.history.head Trade History ({0})
+social.trades.decline Decline All
+social.trades.message ENABLE TRADE MESSAGES IN SETTINGS
+social.trades.warning You get no items from this trade!
+social.trades.accept Are you sure you want to accept this offer?
+stats.airdrops KR-Packages
+settings.quality.flapAnim Sniper Flap Animation
 `;
