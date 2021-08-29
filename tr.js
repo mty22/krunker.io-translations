@@ -88,17 +88,16 @@ settings.local.header Localization <span id="requiresRestart"><span style="color
 settings.local.region Varsayılan Bölge
 settings.local.lang Dil
 settings.network.header Ağ bağlantısı
-settings.network.sendRate Yüksek Tıklama Oranı
 settings.network.netRerouting Otomatik Yönlendirme (Ping'i Etkiler)
+settings.network.netRate Network Rate (Hz)
 settings.network.lagComp Lag Gecikmesi
-settings.network.hitReg Hitreg Test
 settings.popup.header Popuplar
 settings.popup.freeKRPop Bedava KR Popularını Göster
 settings.experimental.header Deneysel
+settings.experimental.optNetwork Optimized Networking
 settings.experimental.aimFreezeFix Nişan Donmasını Düzelt
 settings.experimental.mouseFlickFix Fare Hareketini Düzelt
 settings.experimental.shaderRendering Örnek İşleme
-settings.experimental.staticRendering Statik İşleme
 settings.client.header Uygulama
 settings.client.unlimitedFrames Limitsiz FPS
 settings.client.gameCap Oyun Yakalama
@@ -212,9 +211,11 @@ settings.interface.healthNum İsim Kartı Sağlık Sayacı
 settings.interface.healthColT Takım İsim Kartı Sağlık Rengi
 settings.interface.healthColE Düşman İsim Kartı Sağlık Rengi
 settings.interface.xpBarCol XP Barı Rengi
+settings.interface.xpBarCol2 XP Bar Color 2
 settings.interface.xpBarOpac XP Barı Opaklığı
 settings.crosshair.header Nişangah
 settings.crosshair.type Şekil
+settings.crosshair.type.1 Dynamic
 settings.crosshair.type.2 Özel
 settings.crosshair.type.3 Katmanlı
 settings.crosshair.type.4 Resim
@@ -227,6 +228,8 @@ settings.crosshair.style.3 İçi Boş Kare
 settings.crosshair.style.4 İçi Dolu Kare
 settings.crosshair.image Resim
 settings.crosshair.image.paste Nişangah Resmi
+settings.crosshair.image.width Image Width
+settings.crosshair.image.height Image Height
 settings.crosshair.always Her Zaman Göster
 settings.crosshair.color Renk
 settings.crosshair.shadow.color Gölge Rengi
@@ -237,6 +240,31 @@ settings.crosshair.gap Boşluk
 settings.crosshair.dot Nokta
 settings.crosshair.opacity.use Özel Opaklık Kullan
 settings.crosshair.opacity.custom Özel Opaklık
+settings.crosshairm.header Crosshair (Throwing)
+settings.crosshairm.type Type
+settings.crosshairm.type.1 Shapes
+settings.crosshairm.type.2 Image
+settings.crosshairm.type.3 Precision
+settings.crosshairm.style Style
+settings.crosshairm.style.0 Cross
+settings.crosshairm.style.1 Hollow Circle
+settings.crosshairm.style.2 Solid Circle
+settings.crosshairm.style.3 Hollow Square
+settings.crosshairm.style.4 Solid Square
+settings.crosshairm.image Image
+settings.crosshairm.image.paste Crosshair Image
+settings.crosshairm.image.width Image Width
+settings.crosshairm.image.height Image Height
+settings.crosshairm.always Always Show
+settings.crosshairm.color Color
+settings.crosshairm.shadow.color Shadow Color
+settings.crosshairm.shadow.thickness Shadow Thickness
+settings.crosshairm.size Size
+settings.crosshairm.thickness Thickness
+settings.crosshairm.gap Gap
+settings.crosshairm.dot Dot
+settings.crosshairm.opacity.use Use Custom Opacity
+settings.crosshairm.opacity.custom Custom Opacity
 settings.hitmarker.header İsabet İşareti
 settings.hitmarker.color Renk
 settings.hitmarker.kcolor Öldürme Rengi
@@ -261,6 +289,10 @@ settings.gameprivacy.header Oyun Gizliliği
 settings.gameprivacy.streamer Yayıncı Modu
 settings.gameprivacy.anon Anonim Modu
 settings.gameprivacy.hideGameTitle Oyun Başlığını Gizle
+settings.gameprivacy.verified Show Verified Badge
+settings.gameprivacy.premium Show Premium Badge
+settings.gameprivacy.partner Show Partner Badge
+settings.gameprivacy.rank Show Ranked Badge
 settings.gameplay.header Oynanış
 settings.gameplay.gpSetts Oynanış Ayarları
 settings.gameplay.sensitivityX X Duyarlılığı
@@ -295,6 +327,8 @@ settings.audio.header Ses
 settings.audio.sound Ana Ses Seviyesi
 settings.audio.ambient Ambiyans Ses Seviyesi
 settings.audio.voice Ses Seviyesi
+settings.audio.input Audio/Mic Input
+settings.audio.mic Mic Volume
 settings.audio.weps Silah Sesi Seviyesi
 settings.audio.player Oyuncu Sesi Seviyesi
 settings.audio.skin Kozmetik Ses Seviyesi
@@ -324,6 +358,7 @@ settings.viewmodel.weapSwapY Silaha Geçiş Y Konumu
 settings.viewmodel.weapReloadY Silah Şarjör Y Konumu
 settings.viewmodel.yOffADS Silah ADS Y Konumu
 settings.viewmodel.adsFovMlt ADS Yaklaştırma Gücü
+settings.viewmodel.toggleADS Toggle Weapon ADS
 settings.editing.header Düzenleme
 settings.editing.health.high Yüksek Can Uyarı Ekranı
 settings.editing.health.low Düşük Can Uyarı Ekranı
@@ -343,6 +378,7 @@ settings.editing.progOffX İlerleme Çubuğu X Konumu
 settings.editing.progOffY İlerleme Çubuğu Y Konumu
 settings.editing.progRot İlerleme Çubuğu Rotasyonu
 settings.editing.progm.color Şarj Çubuğu Rengi
+settings.editing.progmo.color Overcharge Color
 settings.editing.progm.opacity Şarj Çubuğu Opaklığı
 settings.editing.progm.scale Şarj Çubuğu Boyutu
 settings.editing.progm.shadow Şarj Çubuğu Gölgesi
@@ -398,6 +434,8 @@ settings.mods.damage.paste Hasar Yerleşimi İkonu URL
 settings.mods.overlay Oyun Yerleşimi Görüntüsü
 settings.mods.overlay.paste Oyun Yerleşimi Görüntüsü URL
 settings.social.region Bölge İstatistikleri
+settings.social.bg Background Image
+settings.social.bg.paste Background Image URL
 windows.settings.header Oyun Ayarları
 windows.mail.header Krunker Mail
 windows.servers.header Sunucular
@@ -475,11 +513,14 @@ windows.controls.specFree Serbest Kamerayı Aç/Kapat
 windows.controls.specObj Objektif Kamerayı Aç/Kapa
 windows.controls.specFirst Birincil Kişiyi Aç/Kapa
 windows.controls.specNames Zorlanan İsimleri Aç/Kapa
+windows.controls.specFocus Toggle Focus Player
+windows.controls.hidePlayers Hide Players
 windows.controls.streak0 Seri 1
 windows.controls.streak1 Seri 2
 windows.controls.streak2 Seri 3
 windows.controls.streak3 Seri 4
 windows.controls.streak4 Seri 5
+windows.controls.prop Select Prop (Hold)
 windows.controls.premium0 Noclip
 windows.controls.premium1 Tanrı modu
 windows.controls.premium2 Öldür
@@ -690,6 +731,7 @@ server.config.fallDmg Düşüş Hasarı
 server.config.fallDmgThr Düşüş Hasarı Harmanı
 server.config.noDraws Beraberlik Yok
 server.config.bstOfR En iyiler
+server.config.chrgWeps Chargable Weapons
 social.login Giriş yap/Kayıt ol
 social.login.failed Giriş başarısız oldu
 social.login.buy Satın almak için giriş yap
