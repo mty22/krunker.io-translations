@@ -448,8 +448,8 @@ windows.controls.backward Назад
 windows.controls.left Ляво
 windows.controls.right Дясно
 windows.controls.reload Презареди
-windows.controls.aim Прицели се
-windows.controls.shoot Стреляй
+windows.controls.aim1 Прицели се
+windows.controls.shoot1 Стреляй
 windows.controls.inspect Инспектирай
 windows.controls.spray Нарисувай спрей
 windows.controls.jump Скочи

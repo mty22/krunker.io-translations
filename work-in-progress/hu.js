@@ -448,8 +448,8 @@ windows.controls.backward Hátra
 windows.controls.left Balra
 windows.controls.right Jobbra
 windows.controls.reload Újratöltés
-windows.controls.aim Célzás
-windows.controls.shoot Lövés
+windows.controls.aim1 Célzás
+windows.controls.shoot1 Lövés
 windows.controls.inspect Szemlélés
 windows.controls.spray Spré
 windows.controls.jump Ugrás

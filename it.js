@@ -448,8 +448,8 @@ windows.controls.backward Indietro
 windows.controls.left Sinistra
 windows.controls.right Destra
 windows.controls.reload Ricarica
-windows.controls.aim Mira
-windows.controls.shoot Spara
+windows.controls.aim1 Mira
+windows.controls.shoot1 Spara
 windows.controls.inspect Ispeziona
 windows.controls.spray Graffiti
 windows.controls.jump Salta

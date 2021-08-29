@@ -448,8 +448,8 @@ windows.controls.backward Taaksepäin
 windows.controls.left Vasen
 windows.controls.right Oikea
 windows.controls.reload Uudelleenlataa
-windows.controls.aim Tähtäys
-windows.controls.shoot Ampuminen
+windows.controls.aim1 Tähtäys
+windows.controls.shoot1 Ampuminen
 windows.controls.inspect Tarkistaminen
 windows.controls.spray Spray
 windows.controls.jump Hyppäys

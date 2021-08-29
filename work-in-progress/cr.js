@@ -448,8 +448,8 @@ windows.controls.backward Nazad
 windows.controls.left Lijevo
 windows.controls.right Desno
 windows.controls.reload Napuni Oružje
-windows.controls.aim Nišan
-windows.controls.shoot Pucaj
+windows.controls.aim1 Nišan
+windows.controls.shoot1 Pucaj
 windows.controls.inspect Inspect
 windows.controls.spray Sprej
 windows.controls.jump Skok

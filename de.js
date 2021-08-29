@@ -448,8 +448,8 @@ windows.controls.backward Rückwärts
 windows.controls.left Links
 windows.controls.right Rechts
 windows.controls.reload Neu laden
-windows.controls.aim Zielen
-windows.controls.shoot Schießen
+windows.controls.aim1 Zielen
+windows.controls.shoot1 Schießen
 windows.controls.inspect Untersuchen
 windows.controls.spray Sprühen
 windows.controls.jump Springen

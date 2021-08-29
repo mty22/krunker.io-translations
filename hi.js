@@ -448,8 +448,8 @@ windows.controls.backward पीछे
 windows.controls.left बाएं
 windows.controls.right दायें
 windows.controls.reload रीलोड
-windows.controls.aim एम्
-windows.controls.shoot गोली चलाना
+windows.controls.aim1 एम्
+windows.controls.shoot1 गोली चलाना
 windows.controls.inspect इंस्पेक्ट
 windows.controls.spray स्प्रे
 windows.controls.jump कूदना

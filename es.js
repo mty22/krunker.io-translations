@@ -448,8 +448,8 @@ windows.controls.backward Atrás
 windows.controls.left Izquierda
 windows.controls.right Derecha
 windows.controls.reload Recargar
-windows.controls.aim Apuntar
-windows.controls.shoot Disparar
+windows.controls.aim1 Apuntar
+windows.controls.shoot1 Disparar
 windows.controls.inspect Inspeccionar
 windows.controls.spray Usar Grafitti
 windows.controls.jump Saltar

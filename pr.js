@@ -448,8 +448,8 @@ windows.controls.backward Para Trás
 windows.controls.left Esquerda
 windows.controls.right Direita
 windows.controls.reload Recarregar
-windows.controls.aim Mirar
-windows.controls.shoot Atirar
+windows.controls.aim1 Mirar
+windows.controls.shoot1 Atirar
 windows.controls.inspect Inspecionar
 windows.controls.spray Pixar
 windows.controls.jump Pular
