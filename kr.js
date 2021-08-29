@@ -289,7 +289,7 @@ settings.gameprivacy.header 게임플레이 프라이버시
 settings.gameprivacy.streamer 스트리머 모드
 settings.gameprivacy.anon 익명 모드
 settings.gameprivacy.hideGameTitle 게임 제목 숨기기
-settings.gameprivacy.verified 인증됨 배지 표시
+settings.gameprivacy.verified 베리파이 배지 표시
 settings.gameprivacy.premium 프리미엄 배지 표시
 settings.gameprivacy.partner 파트너 배지 표시
 settings.gameprivacy.rank 랭크전 배지 표시
