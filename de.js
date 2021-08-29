@@ -88,17 +88,16 @@ settings.local.header Sprachänderung <span id="requiresRestart"><span style="co
 settings.local.region Standard Region
 settings.local.lang Sprache
 settings.network.header Netzwerk
-settings.network.sendRate Hohe Tickrate
 settings.network.netRerouting Auto Routing (Beeinflusst Ping)
+settings.network.netRate Network Rate (Hz)
 settings.network.lagComp Lag Minimierung
-settings.network.hitReg Hitreg Test
 settings.popup.header Popups
 settings.popup.freeKRPop Gratis KR Popup anzeigen
 settings.experimental.header Experimentell
+settings.experimental.optNetwork Optimized Networking
 settings.experimental.aimFreezeFix Aim Freeze Fix
 settings.experimental.mouseFlickFix Maus Flick Fix
 settings.experimental.shaderRendering Instanz Rendern
-settings.experimental.staticRendering Statisches Rendern
 settings.client.header Client
 settings.client.unlimitedFrames Unlimitierte FPS
 settings.client.gameCap Spielaufnahme
@@ -212,9 +211,11 @@ settings.interface.healthNum Nametag Lebens-Nummer
 settings.interface.healthColT Nametag Team-HP-Farbe
 settings.interface.healthColE Nametag Gegner-HP-Farbe
 settings.interface.xpBarCol XP Leisten-Farbe
+settings.interface.xpBarCol2 XP Bar Color 2
 settings.interface.xpBarOpac XP Leisten-Deckkraft
 settings.crosshair.header Fadenkreuz
 settings.crosshair.type Typ
+settings.crosshair.type.1 Dynamic
 settings.crosshair.type.2 Benutzerdefiniert
 settings.crosshair.type.3 Mehrschichtig
 settings.crosshair.type.4 Bild
@@ -227,6 +228,8 @@ settings.crosshair.style.3 Hohles Quadrat
 settings.crosshair.style.4 Volles Quadrat
 settings.crosshair.image Bild
 settings.crosshair.image.paste Fadenkreuz-Bild
+settings.crosshair.image.width Image Width
+settings.crosshair.image.height Image Height
 settings.crosshair.always Immer anzeigen
 settings.crosshair.color Farbe
 settings.crosshair.shadow.color Schatten-Farbe
@@ -237,6 +240,31 @@ settings.crosshair.gap Lücke
 settings.crosshair.dot Punkt
 settings.crosshair.opacity.use benutzerdefinierte Deckkraft benutzen
 settings.crosshair.opacity.custom benutzerdefinierte Deckkraft
+settings.crosshairm.header Crosshair (Throwing)
+settings.crosshairm.type Type
+settings.crosshairm.type.1 Shapes
+settings.crosshairm.type.2 Image
+settings.crosshairm.type.3 Precision
+settings.crosshairm.style Style
+settings.crosshairm.style.0 Cross
+settings.crosshairm.style.1 Hollow Circle
+settings.crosshairm.style.2 Solid Circle
+settings.crosshairm.style.3 Hollow Square
+settings.crosshairm.style.4 Solid Square
+settings.crosshairm.image Image
+settings.crosshairm.image.paste Crosshair Image
+settings.crosshairm.image.width Image Width
+settings.crosshairm.image.height Image Height
+settings.crosshairm.always Always Show
+settings.crosshairm.color Color
+settings.crosshairm.shadow.color Shadow Color
+settings.crosshairm.shadow.thickness Shadow Thickness
+settings.crosshairm.size Size
+settings.crosshairm.thickness Thickness
+settings.crosshairm.gap Gap
+settings.crosshairm.dot Dot
+settings.crosshairm.opacity.use Use Custom Opacity
+settings.crosshairm.opacity.custom Custom Opacity
 settings.hitmarker.header Hitmarker
 settings.hitmarker.color Farbe
 settings.hitmarker.kcolor Kill Farbe
@@ -261,6 +289,10 @@ settings.gameprivacy.header Gameplay-Datenschutz
 settings.gameprivacy.streamer Streamer Modus
 settings.gameprivacy.anon Anonymer Modus
 settings.gameprivacy.hideGameTitle Spieltitel ausblenden
+settings.gameprivacy.verified Show Verified Badge
+settings.gameprivacy.premium Show Premium Badge
+settings.gameprivacy.partner Show Partner Badge
+settings.gameprivacy.rank Show Ranked Badge
 settings.gameplay.header Spielverlauf
 settings.gameplay.gpSetts Gameplay Settings
 settings.gameplay.sensitivityX X Empfindlichkeit
@@ -295,6 +327,8 @@ settings.audio.header Audio
 settings.audio.sound Ton
 settings.audio.ambient Umgebungs Lautstärke
 settings.audio.voice Lautstärke Sprach-Chat
+settings.audio.input Audio/Mic Input
+settings.audio.mic Mic Volume
 settings.audio.weps Waffen Lautstärke
 settings.audio.player Spieler Lautstärke
 settings.audio.skin Kosmetik Lautstärke
@@ -324,6 +358,7 @@ settings.viewmodel.weapSwapY Waffenwechsel Y
 settings.viewmodel.weapReloadY Waffen-Nachlade Y
 settings.viewmodel.yOffADS Waffen Zielen Y Offset
 settings.viewmodel.adsFovMlt Zielen FOV Power
+settings.viewmodel.toggleADS Toggle Weapon ADS
 settings.editing.header Bearbeiten
 settings.editing.health.high HUD HP Hoch
 settings.editing.health.low HUD HP Niedrig
@@ -343,6 +378,7 @@ settings.editing.progOffX Fortschritts-Anzeige X Offset
 settings.editing.progOffY Fortschritts-Anzeige Y Offset
 settings.editing.progRot Fortschritts-Anzeige Drehung
 settings.editing.progm.color Auflade-Anzeige Farbe
+settings.editing.progmo.color Overcharge Color
 settings.editing.progm.opacity Auflade-Anzeige Deckkraft
 settings.editing.progm.scale Auflade-Anzeige Skalierung
 settings.editing.progm.shadow Auflade-Anzeige Schatten
@@ -398,6 +434,8 @@ settings.mods.damage.paste Schadens-Overlay Bild URL
 settings.mods.overlay Spiel Overlay Bild
 settings.mods.overlay.paste Spiel Overlay Bild URL
 settings.social.region Regions-Statistiken
+settings.social.bg Background Image
+settings.social.bg.paste Background Image URL
 windows.settings.header Spieleinstellungen
 windows.mail.header Krunker Mail
 windows.servers.header Server Browser
@@ -475,11 +513,14 @@ windows.controls.specFree Auf freie Kamera umschalten
 windows.controls.specObj Auf Zielkamera umschalten
 windows.controls.specFirst First Person umschalten
 windows.controls.specNames Erzwungene Namen umschalten
+windows.controls.specFocus Toggle Focus Player
+windows.controls.hidePlayers Hide Players
 windows.controls.streak0 Abschussserie 1
 windows.controls.streak1 Abschussserie 2
 windows.controls.streak2 Abschussserie 3
 windows.controls.streak3 Abschussserie 4
 windows.controls.streak4 Abschussserie 5
+windows.controls.prop Select Prop (Hold)
 windows.controls.premium0 Noclip
 windows.controls.premium1 Godmode
 windows.controls.premium2 Kill
@@ -690,6 +731,7 @@ server.config.fallDmg Fallschaden
 server.config.fallDmgThr Fallschaden-Schwellenwert
 server.config.noDraws Keine Unentschieden
 server.config.bstOfR Der beste aus
+server.config.chrgWeps Chargable Weapons
 social.login Anmelden/Registrieren
 social.login.failed Anmeldung fehlgeschlagen
 social.login.buy Zum Kaufen anmelden
