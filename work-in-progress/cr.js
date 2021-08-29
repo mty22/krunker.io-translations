@@ -88,17 +88,16 @@ settings.local.header Lokalizacija <span id="requiresRestart"><span style="color
 settings.local.region Zadana regija
 settings.local.lang Jezik
 settings.network.header Mreža
-settings.network.sendRate Visok tikrate
 settings.network.netRerouting Automatsko usmjeravanje (utječe na ping)
+settings.network.netRate Network Rate (Hz)
 settings.network.lagComp Lag naknada
-settings.network.hitReg Hitreg Test
 settings.popup.header Skočni prozori
 settings.popup.freeKRPop Prikaži Free KR skočni prozor
 settings.experimental.header Eksperimentalno
+settings.experimental.optNetwork Optimized Networking
 settings.experimental.aimFreezeFix Aim Freeze Popravka
 settings.experimental.mouseFlickFix Mouse Flick Popravka
 settings.experimental.shaderRendering Instance Rendering
-settings.experimental.staticRendering Static Rendering
 settings.client.header Client
 settings.client.unlimitedFrames Unlimited FPS
 settings.client.gameCap Game Capture
@@ -212,9 +211,11 @@ settings.interface.healthNum Nametag Broj HP
 settings.interface.healthColT Nametag Health boja tima
 settings.interface.healthColE Nametag Health boja neprijatelja
 settings.interface.xpBarCol Boja XP Bar-a
+settings.interface.xpBarCol2 XP Bar Color 2
 settings.interface.xpBarOpac Prozirnost XP Bar-a
 settings.crosshair.header Nišan
 settings.crosshair.type Tip
+settings.crosshair.type.1 Dynamic
 settings.crosshair.type.2 Prilagođeni
 settings.crosshair.type.3 Slojeviti
 settings.crosshair.type.4 Slika
@@ -227,6 +228,8 @@ settings.crosshair.style.3 Šuplji kvadrat
 settings.crosshair.style.4 Puni kvadrat
 settings.crosshair.image Slika
 settings.crosshair.image.paste Slika nišana
+settings.crosshair.image.width Image Width
+settings.crosshair.image.height Image Height
 settings.crosshair.always Uvijek prikazuj
 settings.crosshair.color Boja
 settings.crosshair.shadow.color Boja sjene
@@ -237,6 +240,31 @@ settings.crosshair.gap Razmak
 settings.crosshair.dot Točka
 settings.crosshair.opacity.use Koristi prilagođenu prozirnost
 settings.crosshair.opacity.custom Prilagođena prozirnost
+settings.crosshairm.header Crosshair (Throwing)
+settings.crosshairm.type Type
+settings.crosshairm.type.1 Shapes
+settings.crosshairm.type.2 Image
+settings.crosshairm.type.3 Precision
+settings.crosshairm.style Style
+settings.crosshairm.style.0 Cross
+settings.crosshairm.style.1 Hollow Circle
+settings.crosshairm.style.2 Solid Circle
+settings.crosshairm.style.3 Hollow Square
+settings.crosshairm.style.4 Solid Square
+settings.crosshairm.image Image
+settings.crosshairm.image.paste Crosshair Image
+settings.crosshairm.image.width Image Width
+settings.crosshairm.image.height Image Height
+settings.crosshairm.always Always Show
+settings.crosshairm.color Color
+settings.crosshairm.shadow.color Shadow Color
+settings.crosshairm.shadow.thickness Shadow Thickness
+settings.crosshairm.size Size
+settings.crosshairm.thickness Thickness
+settings.crosshairm.gap Gap
+settings.crosshairm.dot Dot
+settings.crosshairm.opacity.use Use Custom Opacity
+settings.crosshairm.opacity.custom Custom Opacity
 settings.hitmarker.header Indikator pogodka
 settings.hitmarker.color Boja
 settings.hitmarker.kcolor Boja ubistva
@@ -261,6 +289,10 @@ settings.gameprivacy.header Privatnost igranja
 settings.gameprivacy.streamer Streamer Mod
 settings.gameprivacy.anon Anonimni Mod
 settings.gameprivacy.hideGameTitle Hide Game Title
+settings.gameprivacy.verified Show Verified Badge
+settings.gameprivacy.premium Show Premium Badge
+settings.gameprivacy.partner Show Partner Badge
+settings.gameprivacy.rank Show Ranked Badge
 settings.gameplay.header Igra
 settings.gameplay.gpSetts Gameplay Settings
 settings.gameplay.sensitivityX X Sensitivity
@@ -295,6 +327,8 @@ settings.audio.header Zvuk
 settings.audio.sound Master
 settings.audio.ambient Ambijent 
 settings.audio.voice Glas
+settings.audio.input Audio/Mic Input
+settings.audio.mic Mic Volume
 settings.audio.weps Oružje
 settings.audio.player Igrač
 settings.audio.skin Kozmetika
@@ -324,6 +358,7 @@ settings.viewmodel.weapSwapY Zamjena oružja Y
 settings.viewmodel.weapReloadY Ponovno punjenje oružja Y
 settings.viewmodel.yOffADS ADS Y Pomak Oružja
 settings.viewmodel.adsFovMlt ADS FOV Snaga
+settings.viewmodel.toggleADS Toggle Weapon ADS
 settings.editing.header Uređivanje
 settings.editing.health.high HUD HP Visok
 settings.editing.health.low HUD HP Nizak
@@ -343,6 +378,7 @@ settings.editing.progOffX X Pomak linije napretka
 settings.editing.progOffY Y Pomak linije napretka
 settings.editing.progRot Rotacija linije napretka
 settings.editing.progm.color Boja linije punjenja
+settings.editing.progmo.color Overcharge Color
 settings.editing.progm.opacity Prozirnost linije punjenja
 settings.editing.progm.scale Veličina linije punjenja
 settings.editing.progm.shadow Sjena linije punjenja
@@ -398,6 +434,8 @@ settings.mods.damage.paste URL Slike Damage Overlay-a
 settings.mods.overlay Slika Game Overlay-a
 settings.mods.overlay.paste URL Slike Game Overlay-a 
 settings.social.region Statistika Regija
+settings.social.bg Background Image
+settings.social.bg.paste Background Image URL
 windows.settings.header Postavke Igre
 windows.mail.header Krunker Pošta
 windows.servers.header Serveri
@@ -475,11 +513,14 @@ windows.controls.specFree Toggle Free Cam
 windows.controls.specObj Toggle Objective Cam
 windows.controls.specFirst Toggle First Person
 windows.controls.specNames Toggle Forced Names
+windows.controls.specFocus Toggle Focus Player
+windows.controls.hidePlayers Hide Players
 windows.controls.streak0 Streak 1
 windows.controls.streak1 Streak 2
 windows.controls.streak2 Streak 3
 windows.controls.streak3 Streak 4
 windows.controls.streak4 Streak 5
+windows.controls.prop Select Prop (Hold)
 windows.controls.premium0 Noclip
 windows.controls.premium1 Godmode
 windows.controls.premium2 Kill
@@ -690,6 +731,7 @@ server.config.fallDmg Fall Damage
 server.config.fallDmgThr Fall Damage Thresh
 server.config.noDraws No Draws
 server.config.bstOfR Best of
+server.config.chrgWeps Chargable Weapons
 social.login Uloguj se/Registriraj se
 social.login.failed Prijava nije uspjela
 social.login.buy Prijavite se za kupnju
