@@ -89,7 +89,7 @@ settings.local.region 默认服务器地区
 settings.local.lang 语言
 settings.network.header 网络
 settings.network.netRerouting 动态路由（影响网络延时）
-settings.network.netRate 网络传送率
+settings.network.netRate 网络传送率 (Hz)
 settings.network.lagComp 延迟补偿
 settings.popup.header 弹窗
 settings.popup.freeKRPop 显示免费 KR 弹窗
