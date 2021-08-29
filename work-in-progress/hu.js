@@ -88,17 +88,16 @@ settings.local.header Lokalizálás <span id="requiresRestart"><span style="colo
 settings.local.region Alapértelmezett régió
 settings.local.lang Nyelv
 settings.network.header Hálózat
-settings.network.sendRate Magas tickrate
 settings.network.netRerouting Automatikus útválasztás (Befolyásolja a Pinget)
+settings.network.netRate Network Rate (Hz)
 settings.network.lagComp Lag Kompenzálás
-settings.network.hitReg Hitreg Test
 settings.popup.header Felugró ablakok
 settings.popup.freeKRPop Ingyenes KR ablak mutatása
 settings.experimental.header Kísérleti
+settings.experimental.optNetwork Optimized Networking
 settings.experimental.aimFreezeFix Célzás befagyás Javítása
 settings.experimental.mouseFlickFix Egér Rándulás Javítása
 settings.experimental.shaderRendering Árnyékolt renderelés
-settings.experimental.staticRendering Static Rendering
 settings.client.header Client
 settings.client.unlimitedFrames Unlimited FPS
 settings.client.gameCap Game Capture
@@ -212,9 +211,11 @@ settings.interface.healthNum Az élet számának mutatása
 settings.interface.healthColT A saját csapat életének színe
 settings.interface.healthColE Az ellenséges csapat életének színe
 settings.interface.xpBarCol Szint sáv színe
+settings.interface.xpBarCol2 XP Bar Color 2
 settings.interface.xpBarOpac Szint sáv átlátszósága
 settings.crosshair.header Célkereszt
 settings.crosshair.type Típus
+settings.crosshair.type.1 Dynamic
 settings.crosshair.type.2 Egyéni
 settings.crosshair.type.3 Réteges
 settings.crosshair.type.4 Kép
@@ -227,6 +228,8 @@ settings.crosshair.style.3 Üres négyzet
 settings.crosshair.style.4 Telített négyzet
 settings.crosshair.image Kép
 settings.crosshair.image.paste Célkereszt kép
+settings.crosshair.image.width Image Width
+settings.crosshair.image.height Image Height
 settings.crosshair.always Mindig mutassa
 settings.crosshair.color Szín
 settings.crosshair.shadow.color Árnyék színe
@@ -237,6 +240,31 @@ settings.crosshair.gap Rés
 settings.crosshair.dot Pont
 settings.crosshair.opacity.use Egyéni átlátszóság használata
 settings.crosshair.opacity.custom Egyéni átlátszóság
+settings.crosshairm.header Crosshair (Throwing)
+settings.crosshairm.type Type
+settings.crosshairm.type.1 Shapes
+settings.crosshairm.type.2 Image
+settings.crosshairm.type.3 Precision
+settings.crosshairm.style Style
+settings.crosshairm.style.0 Cross
+settings.crosshairm.style.1 Hollow Circle
+settings.crosshairm.style.2 Solid Circle
+settings.crosshairm.style.3 Hollow Square
+settings.crosshairm.style.4 Solid Square
+settings.crosshairm.image Image
+settings.crosshairm.image.paste Crosshair Image
+settings.crosshairm.image.width Image Width
+settings.crosshairm.image.height Image Height
+settings.crosshairm.always Always Show
+settings.crosshairm.color Color
+settings.crosshairm.shadow.color Shadow Color
+settings.crosshairm.shadow.thickness Shadow Thickness
+settings.crosshairm.size Size
+settings.crosshairm.thickness Thickness
+settings.crosshairm.gap Gap
+settings.crosshairm.dot Dot
+settings.crosshairm.opacity.use Use Custom Opacity
+settings.crosshairm.opacity.custom Custom Opacity
 settings.hitmarker.header Találatjelző
 settings.hitmarker.color Szín
 settings.hitmarker.kcolor Ölés szín
@@ -261,6 +289,10 @@ settings.gameprivacy.header Játékélmény
 settings.gameprivacy.streamer Streamer mód
 settings.gameprivacy.anon Névtelen mód
 settings.gameprivacy.hideGameTitle A játék cím elrejtése
+settings.gameprivacy.verified Show Verified Badge
+settings.gameprivacy.premium Show Premium Badge
+settings.gameprivacy.partner Show Partner Badge
+settings.gameprivacy.rank Show Ranked Badge
 settings.gameplay.header Játék
 settings.gameplay.gpSetts Gameplay Settings
 settings.gameplay.sensitivityX X Érzékenység
@@ -295,6 +327,8 @@ settings.audio.header Hang
 settings.audio.sound Fő hangerő
 settings.audio.ambient Környezeti hangerő
 settings.audio.voice Hangüzenet hangerő
+settings.audio.input Audio/Mic Input
+settings.audio.mic Mic Volume
 settings.audio.weps Fegyver hangerő
 settings.audio.player Játékos hangerő
 settings.audio.skin Kinézeti tárgyak hangereje
@@ -324,6 +358,7 @@ settings.viewmodel.weapSwapY Fegyver váltás Y
 settings.viewmodel.weapReloadY Fegyver újratöltés Y
 settings.viewmodel.yOffADS Fegyver célzás Y eltolása
 settings.viewmodel.adsFovMlt Látótér változása célzáskor
+settings.viewmodel.toggleADS Toggle Weapon ADS
 settings.editing.header Szerkesztés
 settings.editing.health.high HUD Magas élet
 settings.editing.health.low HUD Alacsony élet
@@ -343,6 +378,7 @@ settings.editing.progOffX Fejlődésmutató X eltolás
 settings.editing.progOffY Fejlődésmutató Y eltolás
 settings.editing.progRot Fejlődésmutató elforgatása
 settings.editing.progm.color Felhúzásmutató szín
+settings.editing.progmo.color Overcharge Color
 settings.editing.progm.opacity Felhúzásmutató átlátszóság
 settings.editing.progm.scale Felhúzásmutató méret
 settings.editing.progm.shadow Felhúzásmutató árnyék
@@ -398,6 +434,8 @@ settings.mods.damage.paste Sebzés átfedés kép URL
 settings.mods.overlay Játék átfedés kép
 settings.mods.overlay.paste Játék átfedés kép URL
 settings.social.region Régió statisztikák
+settings.social.bg Background Image
+settings.social.bg.paste Background Image URL
 windows.settings.header Játék beállítások
 windows.mail.header Krunker levél
 windows.servers.header Szerverek
@@ -448,8 +486,8 @@ windows.controls.backward Hátra
 windows.controls.left Balra
 windows.controls.right Jobbra
 windows.controls.reload Újratöltés
-windows.controls.aim1 Célzás
-windows.controls.shoot1 Lövés
+windows.controls.aim11 Aim
+windows.controls.shoot11 Shoot
 windows.controls.inspect Szemlélés
 windows.controls.spray Spré
 windows.controls.jump Ugrás
@@ -475,11 +513,14 @@ windows.controls.specFree Toggle Free Cam
 windows.controls.specObj Toggle Objective Cam
 windows.controls.specFirst Toggle First Person
 windows.controls.specNames Toggle Forced Names
+windows.controls.specFocus Toggle Focus Player
+windows.controls.hidePlayers Hide Players
 windows.controls.streak0 Sorozat 1
 windows.controls.streak1 Sorozat 2
 windows.controls.streak2 Sorozat 3
 windows.controls.streak3 Sorozat 4
 windows.controls.streak4 Sorozat 5
+windows.controls.prop Select Prop (Hold)
 windows.controls.premium0 Noclip
 windows.controls.premium1 Godmode
 windows.controls.premium2 Ölés
@@ -690,6 +731,7 @@ server.config.fallDmg Fall Damage
 server.config.fallDmgThr Fall Damage Thresh
 server.config.noDraws No Draws
 server.config.bstOfR Best of
+server.config.chrgWeps Chargable Weapons
 social.login Bejelentkezés/Regisztrálás
 social.login.failed Sikertelen bejelentkezés
 social.login.buy Jelentkezz be a vásárláshoz
