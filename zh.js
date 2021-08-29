@@ -401,7 +401,7 @@ settings.editing.tracer.offset 子弹曳光显示位移随机程度
 settings.shaders.header 着色器输入
 settings.mods.header 自定义
 settings.mods.load 加载模组
-settings.mods.logo 允许模组变更主页游戏标志
+settings.mods.logo 允许模组变更游戏主界面标志
 settings.mods.auto 自动加载模组
 settings.mods.borders 狙击镜边界
 settings.mods.borderCol 狙击镜边界颜色
@@ -416,8 +416,8 @@ settings.mods.dot.width 准星图片宽度
 settings.mods.dot.height 准星图片高度
 settings.mods.dot.paste 准星图片网址
 settings.mods.endmessage 比赛结束后自动消息
-settings.mods.profile 用戶图片
-settings.mods.profile.paste 用戶图片网址
+settings.mods.profile 用户图片
+settings.mods.profile.paste 用户图片网址
 settings.mods.ammo 弹药图标
 settings.mods.ammo.paste 弹药图标网址
 settings.mods.kills 击杀图标
@@ -434,8 +434,8 @@ settings.mods.damage.paste 受伤特效叠层网址
 settings.mods.overlay 游戏中叠层图标
 settings.mods.overlay.paste 游戏中叠层图标网址
 settings.social.region 各地区统计
-settings.social.bg 社区主页背景图片
-settings.social.bg.paste 社区主页背景图片网址
+settings.social.bg 社区界面背景图片
+settings.social.bg.paste 社区界面背景图片网址
 windows.settings.header 游戏设置
 windows.mail.header Krunker 邮箱
 windows.servers.header 服务器
@@ -625,7 +625,7 @@ windows.secondary.req 需要至少 {0} 级
 windows.advertise.header 广告
 windows.support.header 支援
 windows.players.header 玩家列表
-windows.players.none 当前没有玩家在线…
+windows.players.none 当前没有在线玩家…
 windows.join.header 加入
 windows.join.code 输入游戏房间网址
 windows.client.header 安装游戏客户端
