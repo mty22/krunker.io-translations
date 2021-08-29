@@ -88,17 +88,16 @@ settings.local.header Локализацията <span id="requiresRestart"><spa
 settings.local.region Регион по подразбиране
 settings.local.lang Език
 settings.network.header Интернет връзка
-settings.network.sendRate Висок тикрейт
 settings.network.netRerouting Автоматично маршрутизиране (Засяга пинга)
+settings.network.netRate Network Rate (Hz)
 settings.network.lagComp Компенсация на лага
-settings.network.hitReg Hitreg Test
 settings.popup.header Изкачащи прозорци
 settings.popup.freeKRPop Покажи изкачащият прозорец за безплатни KR
 settings.experimental.header Експериментални настройки
+settings.experimental.optNetwork Optimized Networking
 settings.experimental.aimFreezeFix Поправи замръзването на прицелването
 settings.experimental.mouseFlickFix Поправи Flick-ването на мишката
 settings.experimental.shaderRendering Рендиране на инстацията
-settings.experimental.staticRendering Static Rendering
 settings.client.header Client
 settings.client.unlimitedFrames Unlimited FPS
 settings.client.gameCap Game Capture
@@ -212,9 +211,11 @@ settings.interface.healthNum Nametag Health Number
 settings.interface.healthColT Nametag Health Color Team
 settings.interface.healthColE Nametag Health Color Enemy
 settings.interface.xpBarCol Цвят на лентата с XP
+settings.interface.xpBarCol2 XP Bar Color 2
 settings.interface.xpBarOpac Прозрачност на лентата с XP
 settings.crosshair.header Crosshair
 settings.crosshair.type Тип
+settings.crosshair.type.1 Dynamic
 settings.crosshair.type.2 Custom
 settings.crosshair.type.3 Layered
 settings.crosshair.type.4 Image
@@ -227,6 +228,8 @@ settings.crosshair.style.3 Празен квадрат
 settings.crosshair.style.4 Запълен квадрат
 settings.crosshair.image Изображение
 settings.crosshair.image.paste Изображение на Crosshair
+settings.crosshair.image.width Image Width
+settings.crosshair.image.height Image Height
 settings.crosshair.always Показвай винаги
 settings.crosshair.color Цвят
 settings.crosshair.shadow.color Цвят на сянката
@@ -237,6 +240,31 @@ settings.crosshair.gap Празнина
 settings.crosshair.dot Точка
 settings.crosshair.opacity.use Използвай персонализирана прозачност
 settings.crosshair.opacity.custom Персонализирана прозрачност
+settings.crosshairm.header Crosshair (Throwing)
+settings.crosshairm.type Type
+settings.crosshairm.type.1 Shapes
+settings.crosshairm.type.2 Image
+settings.crosshairm.type.3 Precision
+settings.crosshairm.style Style
+settings.crosshairm.style.0 Cross
+settings.crosshairm.style.1 Hollow Circle
+settings.crosshairm.style.2 Solid Circle
+settings.crosshairm.style.3 Hollow Square
+settings.crosshairm.style.4 Solid Square
+settings.crosshairm.image Image
+settings.crosshairm.image.paste Crosshair Image
+settings.crosshairm.image.width Image Width
+settings.crosshairm.image.height Image Height
+settings.crosshairm.always Always Show
+settings.crosshairm.color Color
+settings.crosshairm.shadow.color Shadow Color
+settings.crosshairm.shadow.thickness Shadow Thickness
+settings.crosshairm.size Size
+settings.crosshairm.thickness Thickness
+settings.crosshairm.gap Gap
+settings.crosshairm.dot Dot
+settings.crosshairm.opacity.use Use Custom Opacity
+settings.crosshairm.opacity.custom Custom Opacity
 settings.hitmarker.header Hitmarker
 settings.hitmarker.color Цвят
 settings.hitmarker.kcolor Цвят при убийство
@@ -261,6 +289,10 @@ settings.gameprivacy.header Gameplay Privacy
 settings.gameprivacy.streamer Streamer Mode
 settings.gameprivacy.anon Anonymous Mode
 settings.gameprivacy.hideGameTitle Скрий заглавието а играта
+settings.gameprivacy.verified Show Verified Badge
+settings.gameprivacy.premium Show Premium Badge
+settings.gameprivacy.partner Show Partner Badge
+settings.gameprivacy.rank Show Ranked Badge
 settings.gameplay.header Gameplay
 settings.gameplay.gpSetts Gameplay Settings
 settings.gameplay.sensitivityX Чуствителност Х
@@ -295,6 +327,8 @@ settings.audio.header Audio
 settings.audio.sound Master Volume
 settings.audio.ambient Ambient Volume
 settings.audio.voice Voice Volume
+settings.audio.input Audio/Mic Input
+settings.audio.mic Mic Volume
 settings.audio.weps Weapon Volume
 settings.audio.player Player Volume
 settings.audio.skin Cosmetics Volume
@@ -324,6 +358,7 @@ settings.viewmodel.weapSwapY Weapon Swap Y
 settings.viewmodel.weapReloadY Weapon Reload Y
 settings.viewmodel.yOffADS Weapon ADS Y Offset
 settings.viewmodel.adsFovMlt ADS FOV Power
+settings.viewmodel.toggleADS Toggle Weapon ADS
 settings.editing.header Editing
 settings.editing.health.high HUD Health High
 settings.editing.health.low HUD Health Low
@@ -343,6 +378,7 @@ settings.editing.progOffX Progress Bar X Offset
 settings.editing.progOffY Progress Bar Y Offset
 settings.editing.progRot Progress Bar Rotation
 settings.editing.progm.color Charge Bar Color
+settings.editing.progmo.color Overcharge Color
 settings.editing.progm.opacity Charge Bar Opacity
 settings.editing.progm.scale Charge Bar Scale
 settings.editing.progm.shadow Charge Bar Shadow
@@ -398,6 +434,8 @@ settings.mods.damage.paste URL на изображението на наслгв
 settings.mods.overlay Изображение за наслагване на игра
 settings.mods.overlay.paste URL на изображението за наслагване на играта
 settings.social.region Статистики на региона
+settings.social.bg Background Image
+settings.social.bg.paste Background Image URL
 windows.settings.header Настройки на играта
 windows.mail.header Krunker Mail
 windows.servers.header Сървъри
@@ -475,11 +513,14 @@ windows.controls.specFree Toggle Free Cam
 windows.controls.specObj Toggle Objective Cam
 windows.controls.specFirst Toggle First Person
 windows.controls.specNames Toggle Forced Names
+windows.controls.specFocus Toggle Focus Player
+windows.controls.hidePlayers Hide Players
 windows.controls.streak0 Поредица 1
 windows.controls.streak1 Поредица 2
 windows.controls.streak2 Поредица 3
 windows.controls.streak3 Поредица 4
 windows.controls.streak4 Поредица 5
+windows.controls.prop Select Prop (Hold)
 windows.controls.premium0 Noclip
 windows.controls.premium1 Godmode
 windows.controls.premium2 Убий
@@ -690,6 +731,7 @@ server.config.fallDmg Fall Damage
 server.config.fallDmgThr Fall Damage Thresh
 server.config.noDraws No Draws
 server.config.bstOfR Best of
+server.config.chrgWeps Chargable Weapons
 social.login Login/Register
 social.login.failed Login Failed
 social.login.buy Login to Buy
