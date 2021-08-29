@@ -448,8 +448,8 @@ windows.controls.backward Paatras
 windows.controls.left Kaliwa
 windows.controls.right Kanan
 windows.controls.reload I-reload
-windows.controls.aim Mag-aim (puntirya)
-windows.controls.shoot Bumaril
+windows.controls.aim1 Mag-aim (puntirya)
+windows.controls.shoot1 Bumaril
 windows.controls.inspect Suriin
 windows.controls.spray Mag-spray
 windows.controls.jump Tumalon

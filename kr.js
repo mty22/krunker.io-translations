@@ -448,8 +448,8 @@ windows.controls.backward 뒤
 windows.controls.left 좌
 windows.controls.right 우
 windows.controls.reload 재장전
-windows.controls.aim 조준
-windows.controls.shoot 발사
+windows.controls.aim1 조준
+windows.controls.shoot1 발사
 windows.controls.inspect 무기 자세히 보기
 windows.controls.spray 스프레이
 windows.controls.jump 점프

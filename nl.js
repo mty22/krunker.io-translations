@@ -448,8 +448,8 @@ windows.controls.backward Achteruit
 windows.controls.left Links
 windows.controls.right Rechts
 windows.controls.reload Herladen
-windows.controls.aim Richt
-windows.controls.shoot Schiet
+windows.controls.aim1 Richt
+windows.controls.shoot1 Schiet
 windows.controls.inspect Inspecteren
 windows.controls.spray Spray
 windows.controls.jump Spring

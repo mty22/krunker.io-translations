@@ -448,8 +448,8 @@ windows.controls.backward 後
 windows.controls.left 左
 windows.controls.right 右
 windows.controls.reload 換彈
-windows.controls.aim 瞄準
-windows.controls.shoot 射擊
+windows.controls.aim1 瞄準
+windows.controls.shoot1 射擊
 windows.controls.inspect 檢視武器
 windows.controls.spray 塗鴉
 windows.controls.jump 跳躍

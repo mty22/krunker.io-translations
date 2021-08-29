@@ -448,8 +448,8 @@ windows.controls.backward 後方
 windows.controls.left 左
 windows.controls.right 右
 windows.controls.reload リロード
-windows.controls.aim 狙う
-windows.controls.shoot 撃つ
+windows.controls.aim1 狙う
+windows.controls.shoot1 撃つ
 windows.controls.inspect 調べる
 windows.controls.spray スプレー
 windows.controls.jump ジャンプ

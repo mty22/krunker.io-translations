@@ -486,8 +486,8 @@ windows.controls.backward Backward
 windows.controls.left Left
 windows.controls.right Right
 windows.controls.reload Reload
-windows.controls.aim11 Aim
-windows.controls.shoot11 Shoot
+windows.controls.aim1 Aim
+windows.controls.shoot1 Shoot
 windows.controls.inspect Inspect
 windows.controls.spray Spray
 windows.controls.jump Jump

@@ -448,8 +448,8 @@ windows.controls.backward Reculer
 windows.controls.left Aller à gauche
 windows.controls.right Aller à droite
 windows.controls.reload Recharger
-windows.controls.aim Viser
-windows.controls.shoot Tirer
+windows.controls.aim1 Viser
+windows.controls.shoot1 Tirer
 windows.controls.inspect Inspecter
 windows.controls.spray Taguer
 windows.controls.jump Sauter

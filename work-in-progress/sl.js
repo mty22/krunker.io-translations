@@ -448,8 +448,8 @@ windows.controls.backward Nazaj
 windows.controls.left Levo
 windows.controls.right Desno
 windows.controls.reload Napolni
-windows.controls.aim Nameri
-windows.controls.shoot Streljaj
+windows.controls.aim1 Nameri
+windows.controls.shoot1 Streljaj
 windows.controls.inspect Preglej
 windows.controls.spray Posprejaj
 windows.controls.jump Skoči

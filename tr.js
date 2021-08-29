@@ -448,8 +448,8 @@ windows.controls.backward Geri
 windows.controls.left Sol
 windows.controls.right Sağ
 windows.controls.reload Yenile
-windows.controls.aim Nişan
-windows.controls.shoot Vur
+windows.controls.aim1 Nişan
+windows.controls.shoot1 Vur
 windows.controls.inspect İncele
 windows.controls.spray Sprey
 windows.controls.jump Zıpla

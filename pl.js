@@ -448,8 +448,8 @@ windows.controls.backward Do tyłu
 windows.controls.left Lewo
 windows.controls.right Prawo
 windows.controls.reload Przeładuj
-windows.controls.aim Celuj
-windows.controls.shoot Strzelaj
+windows.controls.aim1 Celuj
+windows.controls.shoot1 Strzelaj
 windows.controls.inspect Pokaż broń
 windows.controls.spray Użyj spreju
 windows.controls.jump Skocz
