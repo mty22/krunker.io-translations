@@ -401,7 +401,7 @@ settings.editing.tracer.offset 子彈曳光顯示位移隨機程度
 settings.shaders.header 著色器輸入
 settings.mods.header 自訂
 settings.mods.load 載入模組
-settings.mods.logo 允許模組變更主頁遊戲標誌
+settings.mods.logo 允許模組變更遊戲主介面標誌
 settings.mods.auto 自動載入模組
 settings.mods.borders 狙擊鏡邊界
 settings.mods.borderCol 狙擊鏡邊界顔色
@@ -434,8 +434,8 @@ settings.mods.damage.paste 受傷效果疊層圖片網址
 settings.mods.overlay 遊戲中疊層圖片
 settings.mods.overlay.paste 遊戲中疊層圖片網址
 settings.social.region 各地區統計
-settings.social.bg 社群主頁背景圖片
-settings.social.bg.paste 社群主頁背景圖片網址
+settings.social.bg 社群介面背景圖片
+settings.social.bg.paste 社群介面背景圖片網址
 windows.settings.header 遊戲設定
 windows.mail.header Krunker 信箱
 windows.servers.header 伺服器
@@ -580,7 +580,7 @@ windows.store.market 市場
 windows.store.market2 Krunker 市場
 windows.store.premium 購買會員
 windows.store.premium2 Krunker 會員
-windows.store.buyP 自訂遊戲内顯示名稱以及更多會員專用功能
+windows.store.buyP 自訂遊戲內顯示名稱以及更多會員專用功能
 windows.store.buy 購買物品
 windows.store.wheels 輪盤
 windows.store.unlock 解鎖新武器和物品
@@ -625,7 +625,7 @@ windows.secondary.req 需要至少 {0} 級
 windows.advertise.header 廣告
 windows.support.header 支援
 windows.players.header 玩家列表
-windows.players.none 目前沒有玩家在線…
+windows.players.none 目前線上沒有玩家…
 windows.join.header 加入
 windows.join.code 輸入遊戲伺服器網址
 windows.client.header 安裝遊戲用戶端
@@ -776,7 +776,7 @@ social.trading.submitting 提交報價中…
 social.market.gift.amount 贈送金額
 social.market.fee.gift 無費用
 social.market.gift 贈送 KR
-social.market.gift.msg 說點什麽呢…
+social.market.gift.msg 說點什麼呢…
 respawn.auto 您將會在 {0} 秒後自動復活
 custom.host.ranked 排位賽中無法建立自訂伺服器。
 funds.insufficient 資金餘額不足
