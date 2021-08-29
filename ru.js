@@ -88,17 +88,16 @@ settings.local.header Локализация <span id="requiresRestart"><span st
 settings.local.region Регион по умолчанию
 settings.local.lang Язык
 settings.network.header Настройки сети
-settings.network.sendRate Высокий тикрейт
 settings.network.netRerouting Автоматическая маршрутизация (Влияет на пинг)
+settings.network.netRate Network Rate (Hz)
 settings.network.lagComp Компенсация задержки
-settings.network.hitReg Тест Хитрега
 settings.popup.header Всплывающие окна
 settings.popup.freeKRPop Показывать окно бесплатных KR
 settings.experimental.header Экспериментальные
+settings.experimental.optNetwork Optimized Networking
 settings.experimental.aimFreezeFix Исправление лагов при прицеливании
 settings.experimental.mouseFlickFix Исправление случайных фликов мыши
 settings.experimental.shaderRendering Дублирующий рендеринг
-settings.experimental.staticRendering Статический рендеринг
 settings.client.header Клиент
 settings.client.unlimitedFrames Безлимитный FPS
 settings.client.gameCap Захват игры
@@ -212,9 +211,11 @@ settings.interface.healthNum Счетчик количества здоровь�
 settings.interface.healthColT Цвет уровня здоровья члена команды
 settings.interface.healthColE Цвет уровня здоровья противника
 settings.interface.xpBarCol Цвет панели опыта
+settings.interface.xpBarCol2 XP Bar Color 2
 settings.interface.xpBarOpac Непрозрачность панели опыта
 settings.crosshair.header Прицел
 settings.crosshair.type Тип
+settings.crosshair.type.1 Dynamic
 settings.crosshair.type.2 Пользовательский
 settings.crosshair.type.3 Многослойный
 settings.crosshair.type.4 Изображение
@@ -227,6 +228,8 @@ settings.crosshair.style.3 Полый квадрат
 settings.crosshair.style.4 Сплошной квадрат
 settings.crosshair.image Изображение
 settings.crosshair.image.paste Изображение перекрестия
+settings.crosshair.image.width Image Width
+settings.crosshair.image.height Image Height
 settings.crosshair.always Всегда показывать
 settings.crosshair.color Цвет
 settings.crosshair.shadow.color Цвет тени
@@ -237,6 +240,31 @@ settings.crosshair.gap Пространство
 settings.crosshair.dot Точка
 settings.crosshair.opacity.use Использовать настраиваемую прозрачность
 settings.crosshair.opacity.custom Пользовательская прозрачность
+settings.crosshairm.header Crosshair (Throwing)
+settings.crosshairm.type Type
+settings.crosshairm.type.1 Shapes
+settings.crosshairm.type.2 Image
+settings.crosshairm.type.3 Precision
+settings.crosshairm.style Style
+settings.crosshairm.style.0 Cross
+settings.crosshairm.style.1 Hollow Circle
+settings.crosshairm.style.2 Solid Circle
+settings.crosshairm.style.3 Hollow Square
+settings.crosshairm.style.4 Solid Square
+settings.crosshairm.image Image
+settings.crosshairm.image.paste Crosshair Image
+settings.crosshairm.image.width Image Width
+settings.crosshairm.image.height Image Height
+settings.crosshairm.always Always Show
+settings.crosshairm.color Color
+settings.crosshairm.shadow.color Shadow Color
+settings.crosshairm.shadow.thickness Shadow Thickness
+settings.crosshairm.size Size
+settings.crosshairm.thickness Thickness
+settings.crosshairm.gap Gap
+settings.crosshairm.dot Dot
+settings.crosshairm.opacity.use Use Custom Opacity
+settings.crosshairm.opacity.custom Custom Opacity
 settings.hitmarker.header Индикатор попадания
 settings.hitmarker.color Цвет
 settings.hitmarker.kcolor Цвет при убийстве
@@ -261,6 +289,10 @@ settings.gameprivacy.header Конфиденциальность геймпле�
 settings.gameprivacy.streamer Режим стримера
 settings.gameprivacy.anon Анонимный режим
 settings.gameprivacy.hideGameTitle Скрыть название игры
+settings.gameprivacy.verified Show Verified Badge
+settings.gameprivacy.premium Show Premium Badge
+settings.gameprivacy.partner Show Partner Badge
+settings.gameprivacy.rank Show Ranked Badge
 settings.gameplay.header Геймплей
 settings.gameplay.gpSetts Настройки Геймплея
 settings.gameplay.sensitivityX Чувствительность по оси X
@@ -295,6 +327,8 @@ settings.audio.header Аудио
 settings.audio.sound Общий Звук
 settings.audio.ambient Окружающие Звуки
 settings.audio.voice Звук Голосовой Связи
+settings.audio.input Audio/Mic Input
+settings.audio.mic Mic Volume
 settings.audio.weps Звуки Оружия
 settings.audio.player Звуки Игроков
 settings.audio.skin Косметические Звуки
@@ -324,6 +358,7 @@ settings.viewmodel.weapSwapY Уровень переключения оружи�
 settings.viewmodel.weapReloadY Уровень перезарядки оружия по оси Y
 settings.viewmodel.yOffADS Смещение оружия по оси Y при прицеливании
 settings.viewmodel.adsFovMlt Степень глубины прицеливания
+settings.viewmodel.toggleADS Toggle Weapon ADS
 settings.editing.header Редактирование
 settings.editing.health.high Цвет большого количества здоровья
 settings.editing.health.low Цвет малого количества здоровья
@@ -343,6 +378,7 @@ settings.editing.progOffX Смещение Полосы игрового про�
 settings.editing.progOffY Смещение Полосы игрового прогресса по оси Y
 settings.editing.progRot Угол поворота Полосы игрового прогресса
 settings.editing.progm.color Цвет Полосы заряда
+settings.editing.progmo.color Overcharge Color
 settings.editing.progm.opacity Непрозрачность Полосы заряда
 settings.editing.progm.scale Масштаб Полосы заряда
 settings.editing.progm.shadow Тень Полосы заряда
@@ -398,6 +434,8 @@ settings.mods.damage.paste URL Изображения Оверлея при по
 settings.mods.overlay Изображение Оверлея Игры
 settings.mods.overlay.paste URL Изображения Оверлея Игры
 settings.social.region Статистика Региона
+settings.social.bg Background Image
+settings.social.bg.paste Background Image URL
 windows.settings.header Настройки Игры
 windows.mail.header Krunker Mail
 windows.servers.header Серверы
@@ -448,8 +486,8 @@ windows.controls.backward Назад
 windows.controls.left Влево
 windows.controls.right Вправо
 windows.controls.reload Перезарядка
-windows.controls.aim Прицеливание
-windows.controls.shoot Стрелять
+windows.controls.aim1 Прицеливание
+windows.controls.shoot1 Стрелять
 windows.controls.inspect Осмотр
 windows.controls.spray Спрей
 windows.controls.jump Прыжок
@@ -475,11 +513,14 @@ windows.controls.specFree Режим Свободной Камеры
 windows.controls.specObj Режим Объектной Камеры
 windows.controls.specFirst Вид от первого лица
 windows.controls.specNames Включить принудительное отображение ников
+windows.controls.specFocus Toggle Focus Player
+windows.controls.hidePlayers Hide Players
 windows.controls.streak0 Серия 1
 windows.controls.streak1 Серия 2
 windows.controls.streak2 Серия 3
 windows.controls.streak3 Серия 4
 windows.controls.streak4 Серия 5
+windows.controls.prop Select Prop (Hold)
 windows.controls.premium0 Noclip
 windows.controls.premium1 Режим Бога
 windows.controls.premium2 Убить
@@ -690,6 +731,7 @@ server.config.fallDmg Урон от Падения
 server.config.fallDmgThr Порог Урона от Падения
 server.config.noDraws Без Ничьи
 server.config.bstOfR Лучший из
+server.config.chrgWeps Chargable Weapons
 social.login Авторизация/Регистрация
 social.login.failed Не удалось авторизоваться
 social.login.buy Авторизуйтесь, чтобы купить
