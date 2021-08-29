@@ -88,17 +88,16 @@ settings.local.header Localization <span id="requiresRestart"><span style="color
 settings.local.region Default na Rehiyon
 settings.local.lang Wika
 settings.network.header Network
-settings.network.sendRate Mataas na Tickrate
 settings.network.netRerouting Auto Routing (Nakakaapekto sa Ping)
+settings.network.netRate Network Rate (Hz)
 settings.network.lagComp Paghabol sa Lag
-settings.network.hitReg Hitreg Test
 settings.popup.header Mga Popups
 settings.popup.freeKRPop Ipakita ang Libreng KR Popup
 settings.experimental.header Experimental na Header
+settings.experimental.optNetwork Optimized Networking
 settings.experimental.aimFreezeFix Pag-ayos ng Aim Freeze
 settings.experimental.mouseFlickFix Pag-ayos ng Mouse Flick
 settings.experimental.shaderRendering Pag-render
-settings.experimental.staticRendering Static na Rendering
 settings.client.header Kliyente
 settings.client.unlimitedFrames Unlimited na FPS
 settings.client.gameCap Record ng Laro
@@ -212,9 +211,11 @@ settings.interface.healthNum Bilang ng Health
 settings.interface.healthColT Kulay ng Health
 settings.interface.healthColE Nametag Health Color Enemy
 settings.interface.xpBarCol Kulay ng XP Bar
+settings.interface.xpBarCol2 XP Bar Color 2
 settings.interface.xpBarOpac Diin ng XP Bar
 settings.crosshair.header Crosshair
 settings.crosshair.type Uri
+settings.crosshair.type.1 Dynamic
 settings.crosshair.type.2 Pasadya
 settings.crosshair.type.3 Patong
 settings.crosshair.type.4 Larawan
@@ -227,6 +228,8 @@ settings.crosshair.style.3 Hollow na Parisukat
 settings.crosshair.style.4 Ma-diin na Bilog
 settings.crosshair.image Larawan ng Crosshair
 settings.crosshair.image.paste I-dikit ang Larawan ng Crosshair
+settings.crosshair.image.width Image Width
+settings.crosshair.image.height Image Height
 settings.crosshair.always Laging ipakita
 settings.crosshair.color Kulay
 settings.crosshair.shadow.color Kulay ng Anino
@@ -237,6 +240,31 @@ settings.crosshair.gap Gap
 settings.crosshair.dot Tuldok
 settings.crosshair.opacity.use Gumamit ng Pasadyang Opacity
 settings.crosshair.opacity.custom Pasadyang Opacity
+settings.crosshairm.header Crosshair (Throwing)
+settings.crosshairm.type Type
+settings.crosshairm.type.1 Shapes
+settings.crosshairm.type.2 Image
+settings.crosshairm.type.3 Precision
+settings.crosshairm.style Style
+settings.crosshairm.style.0 Cross
+settings.crosshairm.style.1 Hollow Circle
+settings.crosshairm.style.2 Solid Circle
+settings.crosshairm.style.3 Hollow Square
+settings.crosshairm.style.4 Solid Square
+settings.crosshairm.image Image
+settings.crosshairm.image.paste Crosshair Image
+settings.crosshairm.image.width Image Width
+settings.crosshairm.image.height Image Height
+settings.crosshairm.always Always Show
+settings.crosshairm.color Color
+settings.crosshairm.shadow.color Shadow Color
+settings.crosshairm.shadow.thickness Shadow Thickness
+settings.crosshairm.size Size
+settings.crosshairm.thickness Thickness
+settings.crosshairm.gap Gap
+settings.crosshairm.dot Dot
+settings.crosshairm.opacity.use Use Custom Opacity
+settings.crosshairm.opacity.custom Custom Opacity
 settings.hitmarker.header Hitmarker
 settings.hitmarker.color Kulay
 settings.hitmarker.kcolor Tanggalin ang Kulay
@@ -261,6 +289,10 @@ settings.gameprivacy.header Pagkapribado ng Laro
 settings.gameprivacy.streamer Mode ng Streamer
 settings.gameprivacy.anon Anonymous Mode
 settings.gameprivacy.hideGameTitle Itago ang Pamagat ng Laro
+settings.gameprivacy.verified Show Verified Badge
+settings.gameprivacy.premium Show Premium Badge
+settings.gameprivacy.partner Show Partner Badge
+settings.gameprivacy.rank Show Ranked Badge
 settings.gameplay.header Gameplay
 settings.gameplay.gpSetts Settings sa Gameplay
 settings.gameplay.sensitivityX X Sensitivity
@@ -295,6 +327,8 @@ settings.audio.header Audyo o Tunog
 settings.audio.sound Bolyum o Tunog Pangkalahatan
 settings.audio.ambient Bolyum ng Ambiyansa
 settings.audio.voice Bolyum ng Boses
+settings.audio.input Audio/Mic Input
+settings.audio.mic Mic Volume
 settings.audio.weps Bolyum ng Tunog ng Armas
 settings.audio.player Bolyum ng Player
 settings.audio.skin Bolyum ng Manlalaro
@@ -324,6 +358,7 @@ settings.viewmodel.weapSwapY Pagpalit ng Armas sa Y Axis
 settings.viewmodel.weapReloadY Pag-reload sa Y axis
 settings.viewmodel.yOffADS Y Offset ng Armas
 settings.viewmodel.adsFovMlt Lakas ng ADS FOV
+settings.viewmodel.toggleADS Toggle Weapon ADS
 settings.editing.header Pag-edit
 settings.editing.health.high HUD kapag Health High
 settings.editing.health.low HUD kapag Health Low
@@ -343,6 +378,7 @@ settings.editing.progOffX Posisyon ng Progress Bar sa X axis
 settings.editing.progOffY Posisyon ng Progress Bar sa Y axis
 settings.editing.progRot Rotasyon ng Progress Bar
 settings.editing.progm.color Kulay ng Charge Bar
+settings.editing.progmo.color Overcharge Color
 settings.editing.progm.opacity Diin ng Charge Bar
 settings.editing.progm.scale Pagsukat ng Bar Scale
 settings.editing.progm.shadow Anino ng Charge Bar
@@ -398,6 +434,8 @@ settings.mods.damage.paste Damage Overlay Image URL
 settings.mods.overlay Larawan ng Overlay sa Laro
 settings.mods.overlay.paste URL ng Overlay sa Laro
 settings.social.region Mga Stats sa Rehiyon
+settings.social.bg Background Image
+settings.social.bg.paste Background Image URL
 windows.settings.header Mga Setting ng Laro
 windows.mail.header Inbox
 windows.servers.header Mga Server
@@ -448,8 +486,8 @@ windows.controls.backward Paatras
 windows.controls.left Kaliwa
 windows.controls.right Kanan
 windows.controls.reload I-reload
-windows.controls.aim1 Mag-aim (puntirya)
-windows.controls.shoot1 Bumaril
+windows.controls.aim11 Aim
+windows.controls.shoot11 Shoot
 windows.controls.inspect Suriin
 windows.controls.spray Mag-spray
 windows.controls.jump Tumalon
@@ -475,11 +513,14 @@ windows.controls.specFree I-toggle ang Free Cam
 windows.controls.specObj I-toggle ang Objective Cam
 windows.controls.specFirst I-toggle ang First Person
 windows.controls.specNames I-toggle ang mga pangalan
+windows.controls.specFocus Toggle Focus Player
+windows.controls.hidePlayers Hide Players
 windows.controls.streak0 Streak 1
 windows.controls.streak1 Streak 2
 windows.controls.streak2 Streak 3
 windows.controls.streak3 Streak 4
 windows.controls.streak4 Streak 5
+windows.controls.prop Select Prop (Hold)
 windows.controls.premium0 Naka noclip
 windows.controls.premium1 Naka godmode
 windows.controls.premium2 Patayin
@@ -690,6 +731,7 @@ server.config.fallDmg Damage kapag nahuhulog
 server.config.fallDmgThr Threshold ng Fall Damage
 server.config.noDraws Walang Draws
 server.config.bstOfR Best Of...
+server.config.chrgWeps Chargable Weapons
 social.login Mag-parehistro
 social.login.failed Hindi gumana ang pag-login
 social.login.buy Mag-login upang Bumili
