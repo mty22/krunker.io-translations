@@ -88,17 +88,16 @@ settings.local.header Localization <span id="requiresRestart"><span style="color
 settings.local.region Default Region
 settings.local.lang Language
 settings.network.header Network
-settings.network.sendRate High Tickrate
 settings.network.netRerouting Auto Routing (Affects Ping)
+settings.network.netRate Network Rate (Hz)
 settings.network.lagComp Lag Compensation
-settings.network.hitReg Hitreg Test
 settings.popup.header Popups
 settings.popup.freeKRPop Show Free KR Popup
 settings.experimental.header Experimental
+settings.experimental.optNetwork Optimized Networking
 settings.experimental.aimFreezeFix Aim Freeze Fix
 settings.experimental.mouseFlickFix Mouse Flick Fix
 settings.experimental.shaderRendering Instance Rendering
-settings.experimental.staticRendering Static Rendering
 settings.client.header Client
 settings.client.unlimitedFrames Unlimited FPS
 settings.client.gameCap Game Capture
@@ -212,10 +211,12 @@ settings.interface.healthNum Nametag Health Number
 settings.interface.healthColT Nametag Health Color Team
 settings.interface.healthColE Nametag Health Color Enemy
 settings.interface.xpBarCol XP Bar Color
+settings.interface.xpBarCol2 XP Bar Color 2
 settings.interface.xpBarOpac XP Bar Opacity
 settings.crosshair.header Crosshair
 settings.crosshair.type Type
-settings.crosshair.type.2 Custom
+settings.crosshair.type.1 Dynamic
+settings.crosshair.type.2 Shapes
 settings.crosshair.type.3 Layered
 settings.crosshair.type.4 Image
 settings.crosshair.type.5 Precision
@@ -227,6 +228,8 @@ settings.crosshair.style.3 Hollow Square
 settings.crosshair.style.4 Solid Square
 settings.crosshair.image Image
 settings.crosshair.image.paste Crosshair Image
+settings.crosshair.image.width Image Width
+settings.crosshair.image.height Image Height
 settings.crosshair.always Always Show
 settings.crosshair.color Color
 settings.crosshair.shadow.color Shadow Color
@@ -237,6 +240,31 @@ settings.crosshair.gap Gap
 settings.crosshair.dot Dot
 settings.crosshair.opacity.use Use Custom Opacity
 settings.crosshair.opacity.custom Custom Opacity
+settings.crosshairm.header Crosshair (Throwing)
+settings.crosshairm.type Type
+settings.crosshairm.type.1 Shapes
+settings.crosshairm.type.2 Image
+settings.crosshairm.type.3 Precision
+settings.crosshairm.style Style
+settings.crosshairm.style.0 Cross
+settings.crosshairm.style.1 Hollow Circle
+settings.crosshairm.style.2 Solid Circle
+settings.crosshairm.style.3 Hollow Square
+settings.crosshairm.style.4 Solid Square
+settings.crosshairm.image Image
+settings.crosshairm.image.paste Crosshair Image
+settings.crosshairm.image.width Image Width
+settings.crosshairm.image.height Image Height
+settings.crosshairm.always Always Show
+settings.crosshairm.color Color
+settings.crosshairm.shadow.color Shadow Color
+settings.crosshairm.shadow.thickness Shadow Thickness
+settings.crosshairm.size Size
+settings.crosshairm.thickness Thickness
+settings.crosshairm.gap Gap
+settings.crosshairm.dot Dot
+settings.crosshairm.opacity.use Use Custom Opacity
+settings.crosshairm.opacity.custom Custom Opacity
 settings.hitmarker.header Hitmarker
 settings.hitmarker.color Color
 settings.hitmarker.kcolor Kill Color
@@ -261,6 +289,10 @@ settings.gameprivacy.header Gameplay Privacy
 settings.gameprivacy.streamer Streamer Mode
 settings.gameprivacy.anon Anonymous Mode
 settings.gameprivacy.hideGameTitle Hide Game Title
+settings.gameprivacy.verified Show Verified Badge
+settings.gameprivacy.premium Show Premium Badge
+settings.gameprivacy.partner Show Partner Badge
+settings.gameprivacy.rank Show Ranked Badge
 settings.gameplay.header Gameplay
 settings.gameplay.gpSetts Gameplay Settings
 settings.gameplay.sensitivityX X Sensitivity
@@ -295,6 +327,8 @@ settings.audio.header Audio
 settings.audio.sound Master Volume
 settings.audio.ambient Ambient Volume
 settings.audio.voice Voice Volume
+settings.audio.input Audio/Mic Input
+settings.audio.mic Mic Volume
 settings.audio.weps Weapon Volume
 settings.audio.player Player Volume
 settings.audio.skin Cosmetics Volume
@@ -303,7 +337,7 @@ settings.audio.asset Asset Volume
 settings.audio.dialogue Action Volume
 settings.viewmodel.header View Model
 settings.viewmodel.vmSetts View Model Settings
-settings.viewmodel.fov Field of View
+settings.viewmodel.fov Field of View (FOV)
 settings.viewmodel.fps Weapon FOV
 settings.viewmodel.bobbing Weapon Bobbing
 settings.viewmodel.leaning Weapon Leaning
@@ -323,7 +357,8 @@ settings.viewmodel.zOff Weapon Z Offset
 settings.viewmodel.weapSwapY Weapon Swap Y
 settings.viewmodel.weapReloadY Weapon Reload Y
 settings.viewmodel.yOffADS Weapon ADS Y Offset
-settings.viewmodel.adsFovMlt ADS FOV Power
+settings.viewmodel.adsFovMlt Weapon ADS FOV Power
+settings.viewmodel.toggleADS Toggle Weapon ADS
 settings.editing.header Editing
 settings.editing.health.high HUD Health High
 settings.editing.health.low HUD Health Low
@@ -343,6 +378,7 @@ settings.editing.progOffX Progress Bar X Offset
 settings.editing.progOffY Progress Bar Y Offset
 settings.editing.progRot Progress Bar Rotation
 settings.editing.progm.color Charge Bar Color
+settings.editing.progmo.color Overcharge Color
 settings.editing.progm.opacity Charge Bar Opacity
 settings.editing.progm.scale Charge Bar Scale
 settings.editing.progm.shadow Charge Bar Shadow
@@ -398,6 +434,8 @@ settings.mods.damage.paste Damage Overlay Image URL
 settings.mods.overlay Game Overlay Image
 settings.mods.overlay.paste Game Overlay Image URL
 settings.social.region Region Stats
+settings.social.bg Background Image
+settings.social.bg.paste Background Image URL
 windows.settings.header Game Settings
 windows.mail.header Krunker Mail
 windows.servers.header Servers
@@ -440,7 +478,7 @@ windows.mods.load.header Load Mods
 windows.mods.publish Publish Mod
 windows.mods.viewer Viewer
 windows.account.header Account
-windows.account.recover To recover an account contact <a>recovery@yendis.ch</a>
+windows.account.recover To recover an account contact <a>krunker@yendis.ch</a>
 windows.class.header Select Class
 windows.controls.header Change Controls
 windows.controls.forward Forward
@@ -448,8 +486,8 @@ windows.controls.backward Backward
 windows.controls.left Left
 windows.controls.right Right
 windows.controls.reload Reload
-windows.controls.aim Aim
-windows.controls.shoot Shoot
+windows.controls.aim11 Aim
+windows.controls.shoot11 Shoot
 windows.controls.inspect Inspect
 windows.controls.spray Spray
 windows.controls.jump Jump
@@ -475,11 +513,14 @@ windows.controls.specFree Toggle Free Cam
 windows.controls.specObj Toggle Objective Cam
 windows.controls.specFirst Toggle First Person
 windows.controls.specNames Toggle Forced Names
+windows.controls.specFocus Toggle Focus Player
+windows.controls.hidePlayers Hide Players
 windows.controls.streak0 Streak 1
 windows.controls.streak1 Streak 2
 windows.controls.streak2 Streak 3
 windows.controls.streak3 Streak 4
 windows.controls.streak4 Streak 5
+windows.controls.prop Select Prop (Hold)
 windows.controls.premium0 Noclip
 windows.controls.premium1 Godmode
 windows.controls.premium2 Kill
@@ -488,7 +529,7 @@ windows.controls.dev0 Developer Bind 1
 windows.controls.dev1 Developer Bind 2
 windows.controls.dev2 Developer Bind 3
 windows.controls.dev3 Developer Bind 4
-windows.controls.reset Reset Position (Race & Parkour)
+windows.controls.reset Reset Position (Parkour etc)
 windows.controls.pretend Hide Game
 windows.host.header Host Custom Game
 windows.host.maps Server Setup
@@ -690,6 +731,7 @@ server.config.fallDmg Fall Damage
 server.config.fallDmgThr Fall Damage Thresh
 server.config.noDraws No Draws
 server.config.bstOfR Best of
+server.config.chrgWeps Chargable Weapons
 social.login Login/Register
 social.login.failed Login Failed
 social.login.buy Login to Buy
@@ -769,11 +811,11 @@ stats.headshots Headshots
 stats.wallbangs Wallbangs
 stats.sprays Sprays Placed
 windows.host.default.settings Enabling Default Settings allows for storing Player Progress and Highscores
-windows.host.default.commands *Host Commands are Disabled in this mode: /noclip /god /smite etc
+windows.host.default.commands Host Commands are Disabled in this mode: /noclip /god /smite etc
 windows.host.rewards Enabling KR Rewards forces the Server to use Default Settings & allows players to earn KR from the map funds:
 windows.store.wheels.sub Try your luck and spin for a chance to win some new skins!
 windows.store.currency * Prices in USD can be converted to your local currency at an exchange rate defined by the payment provider or bank
-windows.store.creator Consider Supporting your favorite Content Creator by using a Creator Code
+windows.store.creator Support your favorite Content Creator by using a Creator Code
 windows.chall.customs Challenges can't be completed in Custom Matches
 twitch.link Are you sure you want to link a twitch account?
 twitch.unlink Are you sure you want to unlink your twitch account?
