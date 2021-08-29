@@ -264,7 +264,7 @@ settings.crosshairm.thickness 大きさ
 settings.crosshairm.gap ギャップ
 settings.crosshairm.dot ドット
 settings.crosshairm.opacity.use カスタム不透明度を使用
-settings.crosshairm.opacity.custom カスタム不透明度を使用
+settings.crosshairm.opacity.custom カスタム不透明度
 settings.hitmarker.header ヒットマーカー
 settings.hitmarker.color 色
 settings.hitmarker.kcolor キル色
