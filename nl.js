@@ -176,7 +176,7 @@ settings.interface.oldBrowser Gebruik Oude Browser
 settings.interface.rarityanim Schakel Zeldzaamheid Animaties uit
 settings.interface.showPfp Toon Profiel Avatar
 settings.interface.showTradeMsg Toon Trade Berichten
-settings.interface.hideNonTrade Verberg Non-Tradable Skins
+settings.interface.hideNonTrade Verberg Niet Verhandelbare Skins
 settings.interface.hp Dynamische HP Bars
 settings.interface.dmgScale Schade Schaal
 settings.interface.killf Toon Kill Feed
@@ -242,7 +242,7 @@ settings.crosshair.opacity.use Gebruik Eigen Ondoorzichtigheid
 settings.crosshair.opacity.custom Eigen Ondoorzichtigheid
 settings.crosshairm.header Crosshair (Throwing)
 settings.crosshairm.type Type
-settings.crosshairm.type.1 Vorm
+settings.crosshairm.type.1 Vormen
 settings.crosshairm.type.2 Afbeelding
 settings.crosshairm.type.3 Precisie
 settings.crosshairm.style Style
@@ -255,7 +255,7 @@ settings.crosshairm.image Afbeelding
 settings.crosshairm.image.paste Crosshair Afbeelding
 settings.crosshairm.image.width Afbeelding Breedte
 settings.crosshairm.image.height Afbeelding Hoogte
-settings.crosshairm.always Laat Altijd Zien
+settings.crosshairm.always Altijd Laten Zien
 settings.crosshairm.color Kleur
 settings.crosshairm.shadow.color Schaduw Kleur
 settings.crosshairm.shadow.thickness Shadow Dikte
@@ -292,7 +292,7 @@ settings.gameprivacy.hideGameTitle Verstop Game Titel
 settings.gameprivacy.verified Verified Badge Weergeven
 settings.gameprivacy.premium Premium Badge Weergeven
 settings.gameprivacy.partner Partner Badge Weergeven
-settings.gameprivacy.rank Ranked Bagde Weergeven
+settings.gameprivacy.rank Ranked Badge Weergeven
 settings.gameplay.header Gameplay
 settings.gameplay.gpSetts Gameplay Instellingen
 settings.gameplay.sensitivityX X Gevoeligheid
@@ -823,7 +823,7 @@ windows.clan.leave Weet je zeker dat je de clan wilt verlaten?
 windows.clan.delete Weet je zeker dat je de clan wilt verwijderen?
 windows.clan.kick Weet je zeker dat je {0} wilt kicken van de clan?
 windows.store.premium.purchase Weet je zeker dat je {0} dagen Premium wilt kopen?
-windows.store.premium.gift Weet Je Zeker Dat Je'{0}' {1} Dagen Van Premium Cadeur Wilt Doen?
+windows.store.premium.gift Weet Je Zeker Dat Je'{0}' {1} Dagen Van Premium Cadeu Wilt Doen?
 windows.playerlist.ban Weet je zeker dat je {0} wilt verbannen van deze game?
 windows.playerlist.flag Weet je zeker dat je {0} wilt markeren?
 windows.playerlist.unflag Weet je zeker dat je {0} wilt onmarkeren?
