@@ -1,103 +1,103 @@
 module.exports = `
 menu.btn.ranked Ranked
-menu.btn.shop Shop
-menu.btn.social Hub
-menu.btn.maps Games
-menu.btn.mods Mods
-menu.btn.settings Settings
-menu.btn.customize Customize
-menu.btn.invite Invite
-menu.btn.invite.clicked Copied
-menu.btn.join Join
-menu.btn.host Host Game
-menu.btn.browser Servers
-generic.wait Please wait...
-generic.loading LOADING...
-generic.none None
-generic.connecting CONNECTING...
-generic.select Select
-generic.delete Delete
-generic.save Save
-generic.load Load
-generic.search Search
-generic.leave Leave
-generic.default Default
-generic.submit Submit
-generic.create Create
-generic.random Random
-generic.failed Failed
-generic.success Success!
-generic.name Name
-generic.level Level
-generic.score Score
-generic.off Off
-generic.defeat DEFEAT
-generic.victory VICTORY
-generic.matchover MATCH OVER
-generic.matchaband MATCH ABANDONED
-generic.follow Follow
-generic.unfollow Unfollow
-generic.followers Followers
-generic.following following
-generic.games Games
-generic.wins Wins
-generic.lose Losses
-generic.clan Clan
-generic.games.played Games Played
-generic.games.won Games Won
-generic.games.lost Games Lost
-generic.timep Time Played
-generic.kills Kills
-generic.deaths Deaths
+menu.btn.shop Dyqani
+menu.btn.social Club
+menu.btn.maps Harta
+menu.btn.mods Modifikime
+menu.btn.settings Preferencat
+menu.btn.customize Ndrysho
+menu.btn.invite Fto dike
+menu.btn.invite.clicked Linku u kopjua
+menu.btn.join hyr
+menu.btn.host Krijo nje loje
+menu.btn.browser Serverat
+generic.wait Ju lutemi prisni...
+generic.loading Loja po ngarkohet...
+generic.none Asgje
+generic.connecting Po lidhemi ne loje...
+generic.select Selecto
+generic.delete Fshij
+generic.save Ruaj
+generic.load Hap
+generic.search Kerko
+generic.leave Dil
+generic.default Parazgjedhur
+generic.submit Posto
+generic.create Krijo
+generic.random E zgjedhur nga loja 
+generic.failed I pasukseshem
+generic.success Sukses!
+generic.name Emer
+generic.level Nivel
+generic.score Pike
+generic.off Fikur
+generic.defeat HUMBJE
+generic.victory FITORE
+generic.matchover LOJA MBAROI
+generic.matchaband LOJA U NDALUA
+generic.follow Ndiq
+generic.unfollow Mos ndiq me
+generic.followers Njerez qe e ndjekin
+generic.following Njerez qe jane duke e ndjekur
+generic.games Lojerat
+generic.wins Fitoret
+generic.lose Humbjet
+generic.clan Klan
+generic.games.played Lojerat e luajtura
+generic.games.won Lojerat e fituara
+generic.games.lost Lojerat e humbura
+generic.timep Koha qe ka luajtur
+generic.kills Vrasje
+generic.deaths Vdekje
 generic.kdr KDR
-generic.time Time
-generic.logout Logout
-generic.logout.sessions Logout of all Sessions
-generic.username Enter Username
-generic.password Enter Password
-generic.register Register
-generic.login Login
-generic.accuracy Accuracy
-player.waiting waiting for players
-player.died You died
-player.killed Killed By
-player.killstreak {0} on a {1} Kill Streak
-player.inactive Kicked for inactivity
-player.disconnect DISCONNECTED
-timer.end Next Round in {0}
-leaderboard.empty Empty Lobby
-popup.checkpoint Checkpoint!
-app.play CLICK TO PLAY
-app.spectate CLICK TO SPECTATE
-app.play.mobile TAP TO PLAY
-app.spectate.mobile TAP TO SPECTATE
-app.play.controller PRESS START
-app.spectate.controller START to SPECTATE
-purchase.error Error occurred
-purchase.error.click click here</a> and try again!
-purchase.error.limit You may have exceeded your daily transaction limit
-settings.reset Reset
-settings.reset.confirm Are you sure you want to reset all your settings?
+generic.time Kohe
+generic.logout Dil nga akaunti
+generic.logout.sessions Dil nga te gjitha lojerat
+generic.username Shkruaj Emrin
+generic.password Skruaj passwordin
+generic.register Krijo nje akaunt
+generic.login Futu ne akaunt
+generic.accuracy Saktesia
+player.waiting Po pres per lojtare
+player.died Ti vdiqe
+player.killed Te vrau
+player.killstreak {0}ka vrare {1} pa vdekur
+player.inactive Kicked sepse ke qene AFK
+player.disconnect Ti Shkeputur nga serveri
+timer.end Roundi tjeter ne {0}
+leaderboard.empty Loje pa njerez
+popup.checkpoint Pika e kontrollit!
+app.play KLIKO PER TE LUAJTUR
+app.spectate KLIKO PER TE SPEKTATUAR
+app.play.mobile SHTYP PER TE LUAJTUR
+app.spectate.mobile SHTYP PER TE SPEKTATUAR
+app.play.controller SHTYP START
+app.spectate.controller START per TE SPEKTATUAR
+purchase.error Ndodhi nje gabim
+purchase.error.click Kliko ketu</a> dhe provo perseri!
+purchase.error.limit Ju mund të keni tejkaluar kufirin tuaj ditor të transaksionit
+settings.reset rivendosni
+settings.reset.confirm A jeni te sigurt se doni ti rivendosni te gjitha preferencat?
 settings.import Import
-settings.export Export
-settings.none No settings found
-settings.backup Backup Settings
-settings.controls.change Keybinds
-settings.controls.press Press any Key
-settings.local.header Localization <span id="requiresRestart"><span style="color: #eb5656">*</span> requires restart</span>
-settings.local.region Default Region
-settings.local.lang Language
-settings.network.header Network
-settings.network.netRerouting Auto Routing (Affects Ping)
+settings.export Eksport
+settings.none Asnje preference nuk u gjet
+settings.backup Reservo Preferencat
+settings.controls.change funksionet e butonave te tastieres
+settings.controls.press Shtyp nje button te tastieres
+settings.local.header Lokilazioni <span id="requiresRestart"><span style="color: #eb5656">*</span> duhet te rifreskohet</span>
+settings.local.region Rajoni i parazgjedhur
+settings.local.lang Gjuha
+settings.network.header Rjeti
+settings.network.netRerouting Lidhje automatike (Efekton pingun)
 settings.network.netRate Network Rate (Hz)
-settings.network.lagComp Lag Compensation
-settings.popup.header Popups
-settings.popup.freeKRPop Show Free KR Popup
-settings.experimental.header Experimental
+settings.network.lagComp Kompensimi i ngecjes
+settings.popup.header PopUp'et
+settings.popup.freeKRPop Trego KR PA PAGESE PopUp
+settings.experimental.header Experimente
 settings.experimental.optNetwork Optimized Networking
-settings.experimental.aimFreezeFix Aim Freeze Fix
-settings.experimental.mouseFlickFix Mouse Flick Fix
-settings.experimental.shaderRendering Instance Rendering
+settings.experimental.aimFreezeFix Zgjidh problemin e ngecjes se shikimit 
+settings.experimental.mouseFlickFix Zgjidh problemin e miut qe leviz kudo shume shpejt
+settings.experimental.shaderRendering Renderimi i objekteve
 settings.client.header Client
 settings.client.unlimitedFrames Unlimited FPS
 settings.client.gameCap Game Capture
@@ -109,61 +109,61 @@ settings.client.resetSettings Reset Client Settings
 settings.client.acceleratedCanvas Accelerated Canvas
 settings.client.angleBackend ANGLE Graphics Backend
 settings.client.colorProfile Color Profile
-settings.dev.header Developer
-settings.dev.forceUpdate Force Update Skins
-settings.dev.forceRegen Always Regenerate Player
-settings.dev.extraBan Extra Ban Info
-settings.chat.header Chat
-settings.chat.chat Show Chat Box
-settings.chat.chat.all Always
-settings.chat.chat.focus While Focused
-settings.chat.messages Show Player Messages
-settings.chat.unboxings Show Unboxings
-settings.chat.chatOp Chat Opacity
-settings.chat.chatBGOp Chat BG Opacity
-settings.chat.chatHeight Chat Height
-settings.chat.chatTimer Chat Timer (s)
-settings.chat.chatTextOutline Chat Text Outline
-settings.chat.chatFilter Profanity Filter
-settings.quality.header Performance
-settings.quality.updRate Frame Cap
-settings.quality.rendDst Render Distance
-settings.quality.res Resolution
-settings.quality.part Particles
-settings.quality.mapDet Map Details
-settings.quality.noTex No Textures
-settings.quality.partdist Particle Distance
-settings.quality.renderdist Render Distance
-settings.quality.reflection Reflection Quality
-settings.quality.antiAlias Antialiasing
-settings.quality.shadows Shadows
-settings.quality.softShad Soft Shadows
-settings.quality.highResShad High-Res Shadows
-settings.quality.shadowsDynamic Dynamic Shadows
-settings.quality.trails Bullet Trails
-settings.quality.yourTrails Your Trails
-settings.quality.mflash Muzzle Flash
-settings.quality.flap Show Sniper Flap
-settings.quality.lowSpec Low Spec
-settings.quality.ambient Ambient Shading
-settings.quality.ambientOld Old Shading (When Possible)
-settings.quality.textureAnim Texture Animations
-settings.quality.objectAnim Object Animations
-settings.quality.screenShake Screen Shake
-settings.quality.weaponShine Weapons Shine
-settings.quality.rendGamma Gamma
-settings.quality.lighting Lighting
-settings.quality.showExplo Show Explosions
-settings.quality.aspectRatio Aspect Ratio
+settings.dev.header Programues
+settings.dev.forceUpdate Forco per te updateuar
+settings.dev.forceRegen Always Rikrijo lojtarin
+settings.dev.extraBan Informacion ekstra per bann'in
+settings.chat.header Bisedo
+settings.chat.chat Trego kutine e bisedimit
+settings.chat.chat.all Gjithmone
+settings.chat.chat.focus Kur je i fokusuar
+settings.chat.messages Trego emrat e lojtareve
+settings.chat.unboxings Trego unboxings
+settings.chat.chatOp Erresira e kutise se bisedes
+settings.chat.chatBGOp Erresira e sfondit te kutise se bisedimit
+settings.chat.chatHeight Lartesia e kutise se bisedes
+settings.chat.chatTimer Kohemates(e) ne kutine e bisedes
+settings.chat.chatTextOutline Kufiri i kutise se bisades
+settings.chat.chatFilter Filter per fjale te keqija
+settings.quality.header Performanca
+settings.quality.updRate Ndalo fps qe te shkoje me larte se ky limit:
+settings.quality.rendDst Distanca e renderimit
+settings.quality.res Resolitioni
+settings.quality.part Grimcat
+settings.quality.mapDet Detajet e hartes
+settings.quality.noTex Pa tekstura
+settings.quality.partdist Distanca e grimcave
+settings.quality.renderdist Distanca e renderimit
+settings.quality.reflection Cilesia e reflektit
+settings.quality.antiAlias Antialias
+settings.quality.shadows Hije
+settings.quality.softShad hije te buta
+settings.quality.highResShad Hije me resulicion te larte
+settings.quality.shadowsDynamic Hije dinamike
+settings.quality.trails Gjurmat e plumbave
+settings.quality.yourTrails Gjurmat e tua
+settings.quality.mflash Zjari qe del nga arma kur gjuan
+settings.quality.flap Flapi i Snajper'it
+settings.quality.lowSpec Specifikim i ulet
+settings.quality.ambient Drita e Ambientit
+settings.quality.ambientOld Drita e vjeter(kur mundet)
+settings.quality.textureAnim Animacionet e teksturave
+settings.quality.objectAnim Animacionet e objekteve
+settings.quality.screenShake Tundje te ekranit
+settings.quality.weaponShine Ndricimi i armeve
+settings.quality.rendGamma Gama
+settings.quality.lighting Ndicimi
+settings.quality.showExplo Trego shperthimet
+settings.quality.aspectRatio Forma e ekranit
 settings.post.header Post Processing
 settings.post.post Post Processing
-settings.post.bloom Bloom
-settings.post.bloomThreshold Bloom Threshold
-settings.post.bloomStrength Bloom Strength
-settings.post.bloomRadius Bloom Radius
+settings.post.bloom Lulezimi
+settings.post.bloomThreshold Threshholdi i Lulezimit
+settings.post.bloomStrength Forca e lulezimit
+settings.post.bloomRadius Largesia e lulezimit
 settings.post.ssao SSAO
-settings.post.ssaoRadius SSAO Radius
-settings.interface.hitInd Show Hit Indicators
+settings.post.ssaoRadius Largesia e SSAO's
+settings.interface.hitInd Trgo 
 settings.interface.hitColor Hit Indicator Color
 settings.interface.dmg Show Damage
 settings.interface.dmgCol Damage Color
@@ -216,7 +216,7 @@ settings.interface.xpBarOpac XP Bar Opacity
 settings.crosshair.header Crosshair
 settings.crosshair.type Type
 settings.crosshair.type.1 Dynamic
-settings.crosshair.type.2 Shapes
+settings.crosshair.type.2 Custom
 settings.crosshair.type.3 Layered
 settings.crosshair.type.4 Image
 settings.crosshair.type.5 Precision
@@ -337,7 +337,7 @@ settings.audio.asset Asset Volume
 settings.audio.dialogue Action Volume
 settings.viewmodel.header View Model
 settings.viewmodel.vmSetts View Model Settings
-settings.viewmodel.fov Field of View (FOV)
+settings.viewmodel.fov Field of View
 settings.viewmodel.fps Weapon FOV
 settings.viewmodel.bobbing Weapon Bobbing
 settings.viewmodel.leaning Weapon Leaning
@@ -357,7 +357,7 @@ settings.viewmodel.zOff Weapon Z Offset
 settings.viewmodel.weapSwapY Weapon Swap Y
 settings.viewmodel.weapReloadY Weapon Reload Y
 settings.viewmodel.yOffADS Weapon ADS Y Offset
-settings.viewmodel.adsFovMlt Weapon ADS FOV Power
+settings.viewmodel.adsFovMlt ADS FOV Power
 settings.viewmodel.toggleADS Toggle Weapon ADS
 settings.editing.header Editing
 settings.editing.health.high HUD Health High
@@ -529,7 +529,7 @@ windows.controls.dev0 Developer Bind 1
 windows.controls.dev1 Developer Bind 2
 windows.controls.dev2 Developer Bind 3
 windows.controls.dev3 Developer Bind 4
-windows.controls.reset Reset Position (Parkour etc)
+windows.controls.reset Reset Position (Race & Parkour)
 windows.controls.pretend Hide Game
 windows.host.header Host Custom Game
 windows.host.maps Server Setup
@@ -572,10 +572,10 @@ windows.clans.join Join Clan
 windows.clans.login to create and join a clan!
 windows.store.header Store
 windows.store.spin {0} Spin
-windows.store.agree By purchasing you agree to the {0}Terms & Conditions
+windows.store.agree By purchasing you agree to the {0}Terms
 windows.store.purchase Purchase KR
 windows.store.voucher Redeem Voucher
-windows.store.voucherinfo Redeem Vouchers from certain Streams & Game Events
+windows.store.voucherinfo Get Vouchers from certain Streamers & Events
 windows.store.market Marketplace
 windows.store.market2 Krunker Market
 windows.store.premium Purchase Premium
@@ -811,11 +811,11 @@ stats.headshots Headshots
 stats.wallbangs Wallbangs
 stats.sprays Sprays Placed
 windows.host.default.settings Enabling Default Settings allows for storing Player Progress and Highscores
-windows.host.default.commands Host Commands are Disabled in this mode: /noclip /god /smite etc
+windows.host.default.commands *Host Commands are Disabled in this mode: /noclip /god /smite etc
 windows.host.rewards Enabling KR Rewards forces the Server to use Default Settings & allows players to earn KR from the map funds:
 windows.store.wheels.sub Try your luck and spin for a chance to win some new skins!
 windows.store.currency * Prices in USD can be converted to your local currency at an exchange rate defined by the payment provider or bank
-windows.store.creator Support your favorite Content Creator by using a Creator Code
+windows.store.creator Consider Support your favorite Content Creator by using a Creator Code
 windows.chall.customs Challenges can't be completed in Custom Matches
 twitch.link Are you sure you want to link a twitch account?
 twitch.unlink Are you sure you want to unlink your twitch account?

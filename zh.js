@@ -487,7 +487,7 @@ windows.controls.left 左
 windows.controls.right 右
 windows.controls.reload 装填弹药
 windows.controls.aim1 瞄准
-windows.controls.shoot1 发射
+windows.controls.shoot1 射击
 windows.controls.inspect 检视武器
 windows.controls.spray 涂鸦
 windows.controls.jump 跳跃
