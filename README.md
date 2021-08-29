@@ -28,6 +28,8 @@ If you can't find anything, then please [create an issue](https://github.com/mty
 
 **Once approval is given**, feel free to grab a copy of the [English](https://github.com/mty22/krunker.io-translations/blob/main/en.js) language file, find a buddy and translate where possible. If you work on a language translation without approval, you may not be eligible for KR Payment(s).
 
+In the scenario where an issue was created and closed, please comment on the original language issue and we will considering adding it in the future.
+
 Once you've completed your changes, please submit a [Pull Request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork):
 
 Already done the first 3 steps and you need to resync your GitHub repository? Check out this guide on [syncing a forked repository](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork).
