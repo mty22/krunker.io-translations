@@ -89,7 +89,7 @@ settings.local.region Default na Rehiyon
 settings.local.lang Wika
 settings.network.header Network
 settings.network.netRerouting Auto Routing (Nakakaapekto sa Ping)
-settings.network.netRate Network Rate (Hz)
+settings.network.netRate Network Rate sa (Hz)
 settings.network.lagComp Paghabol sa Lag
 settings.popup.header Mga Popups
 settings.popup.freeKRPop Ipakita ang Libreng KR Popup
@@ -241,28 +241,28 @@ settings.crosshair.dot Tuldok
 settings.crosshair.opacity.use Gumamit ng Pasadyang Opacity
 settings.crosshair.opacity.custom Pasadyang Opacity
 settings.crosshairm.header Crosshair (Throwing)
-settings.crosshairm.type Type
-settings.crosshairm.type.1 Shapes
-settings.crosshairm.type.2 Image
-settings.crosshairm.type.3 Precision
+settings.crosshairm.type Uri 
+settings.crosshairm.type.1 Hugis
+settings.crosshairm.type.2 Larawan
+settings.crosshairm.type.3 Presisyon
 settings.crosshairm.style Istilo
-settings.crosshairm.style.0 Cross
-settings.crosshairm.style.1 Hollow Circle
-settings.crosshairm.style.2 Solid Circle
-settings.crosshairm.style.3 Hollow Square
-settings.crosshairm.style.4 Solid Square
+settings.crosshairm.style.0 Krus
+settings.crosshairm.style.1 Pabilog 
+settings.crosshairm.style.2 Madiin na Pabilog
+settings.crosshairm.style.3 Parisukat
+settings.crosshairm.style.4 Madiin na Parisukat
 settings.crosshairm.image Image
 settings.crosshairm.image.paste Crosshair Image
 settings.crosshairm.image.width Image Width
 settings.crosshairm.image.height Image Height
-settings.crosshairm.always Always Show
-settings.crosshairm.color Color
+settings.crosshairm.always Palaging Ipakita
+settings.crosshairm.color Kulay
 settings.crosshairm.shadow.color Shadow Color
 settings.crosshairm.shadow.thickness Shadow Thickness
 settings.crosshairm.size Size
 settings.crosshairm.thickness Thickness
 settings.crosshairm.gap Gap
-settings.crosshairm.dot Dot
+settings.crosshairm.dot Tuldok
 settings.crosshairm.opacity.use Use Custom Opacity
 settings.crosshairm.opacity.custom Custom Opacity
 settings.hitmarker.header Hitmarker
@@ -289,10 +289,10 @@ settings.gameprivacy.header Pagkapribado ng Laro
 settings.gameprivacy.streamer Mode ng Streamer
 settings.gameprivacy.anon Anonymous Mode
 settings.gameprivacy.hideGameTitle Itago ang Pamagat ng Laro
-settings.gameprivacy.verified Show Verified Badge
-settings.gameprivacy.premium Show Premium Badge
-settings.gameprivacy.partner Show Partner Badge
-settings.gameprivacy.rank Show Ranked Badge
+settings.gameprivacy.verified Ipakita ang Verification Badge
+settings.gameprivacy.premium Ipakita ang Premium Badge
+settings.gameprivacy.partner Ipakita ang Partnered Badge
+settings.gameprivacy.rank Ipakita ang Ranked Badge
 settings.gameplay.header Gameplay
 settings.gameplay.gpSetts Settings sa Gameplay
 settings.gameplay.sensitivityX X Sensitivity
@@ -378,7 +378,7 @@ settings.editing.progOffX Posisyon ng Progress Bar sa X axis
 settings.editing.progOffY Posisyon ng Progress Bar sa Y axis
 settings.editing.progRot Rotasyon ng Progress Bar
 settings.editing.progm.color Kulay ng Charge Bar
-settings.editing.progmo.color Overcharge Color
+settings.editing.progmo.color Kulay ng cooldown sa armas (Overcharge)
 settings.editing.progm.opacity Diin ng Charge Bar
 settings.editing.progm.scale Pagsukat ng Bar Scale
 settings.editing.progm.shadow Anino ng Charge Bar
@@ -397,7 +397,7 @@ settings.editing.trailcol Kulay ng Bullet Trail
 settings.editing.ropecol Kulay ng Grappler Rope
 settings.editing.tracercol Kulay ng Bullet Tracer
 settings.editing.tracer Mga Bullet Tracer
-settings.editing.tracer.offset Tracer Offset
+settings.editing.tracer.offset Offset ng Tracer
 settings.shaders.header Mga Input ng Shader
 settings.mods.header Modipikasyon
 settings.mods.load Kasalukuyang Ginagamit na Mods
@@ -513,14 +513,14 @@ windows.controls.specFree I-toggle ang Free Cam
 windows.controls.specObj I-toggle ang Objective Cam
 windows.controls.specFirst I-toggle ang First Person
 windows.controls.specNames I-toggle ang mga pangalan
-windows.controls.specFocus Toggle Focus Player
-windows.controls.hidePlayers Hide Players
+windows.controls.specFocus I-toggle and pokus sa isang manlalaro
+windows.controls.hidePlayers Itago ang mga manlalaro
 windows.controls.streak0 Streak 1
 windows.controls.streak1 Streak 2
 windows.controls.streak2 Streak 3
 windows.controls.streak3 Streak 4
 windows.controls.streak4 Streak 5
-windows.controls.prop Select Prop (Hold)
+windows.controls.prop Piliin ang Prop (Hold M1)
 windows.controls.premium0 Naka noclip
 windows.controls.premium1 Naka godmode
 windows.controls.premium2 Patayin
@@ -731,7 +731,7 @@ server.config.fallDmg Damage kapag nahuhulog
 server.config.fallDmgThr Threshold ng Fall Damage
 server.config.noDraws Walang Draws
 server.config.bstOfR Best Of...
-server.config.chrgWeps Chargable Weapons
+server.config.chrgWeps Mga Armas na may cooldown
 social.login Mag-parehistro
 social.login.failed Hindi gumana ang pag-login
 social.login.buy Mag-login upang Bumili
