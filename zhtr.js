@@ -140,7 +140,7 @@ settings.quality.shadows 陰影
 settings.quality.softShad 柔和陰影
 settings.quality.highResShad 高解析度陰影
 settings.quality.shadowsDynamic 動態陰影
-settings.quality.trails 顯示曳光軌跡
+settings.quality.trails 顯示曳光蹤跡
 settings.quality.yourTrails 顯示自身子彈
 settings.quality.mflash 槍口火焰
 settings.quality.flap 顯示狙擊鏡保護蓋
@@ -393,10 +393,10 @@ settings.editing.vignette 暈影效果
 settings.editing.feedLimit 擊殺訊息列表長度限制
 settings.editing.depth 景深圖模式
 settings.editing.green 綠幕模式
-settings.editing.trailcol 曳光軌跡顏色
+settings.editing.trailcol 曳光蹤跡顏色
 settings.editing.ropecol 鉤爪繩索顏色
 settings.editing.tracercol 子彈曳光顏色
-settings.editing.tracer 顯示子彈曳光和曳光軌跡
+settings.editing.tracer 顯示子彈曳光
 settings.editing.tracer.offset 子彈曳光顯示位移隨機程度
 settings.shaders.header 著色器輸入
 settings.mods.header 自訂
