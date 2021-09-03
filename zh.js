@@ -140,7 +140,7 @@ settings.quality.shadows 阴影
 settings.quality.softShad 柔和阴影
 settings.quality.highResShad 高分辨率阴影
 settings.quality.shadowsDynamic 动态阴影
-settings.quality.trails 显示曳光轨迹
+settings.quality.trails 显示曳光踪迹
 settings.quality.yourTrails 显示自身子弹
 settings.quality.mflash 枪口火焰
 settings.quality.flap 显示狙击镜保护盖
@@ -393,10 +393,10 @@ settings.editing.vignette 晕影特效
 settings.editing.feedLimit 击杀信息列表长度限制
 settings.editing.depth 深度图模式
 settings.editing.green 绿幕模式
-settings.editing.trailcol 曳光轨迹颜色
+settings.editing.trailcol 曳光踪迹颜色
 settings.editing.ropecol 钩爪绳索颜色
 settings.editing.tracercol 子弹曳光颜色
-settings.editing.tracer 显示子弹曳光和曳光轨迹
+settings.editing.tracer 显示子弹曳光
 settings.editing.tracer.offset 子弹曳光显示位移随机程度
 settings.shaders.header 着色器输入
 settings.mods.header 自定义
