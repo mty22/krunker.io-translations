@@ -89,7 +89,7 @@ settings.local.region 預設伺服器地區
 settings.local.lang 語言
 settings.network.header 網路
 settings.network.netRerouting 動態路由（影響網路時延）
-settings.network.netRate 網路傳送率 (Hz)
+settings.network.netRate 網路更新率 (Hz)
 settings.network.lagComp 延遲補償
 settings.popup.header 彈出式視窗
 settings.popup.freeKRPop 顯示免費 KR 彈出式視窗
@@ -226,10 +226,10 @@ settings.crosshair.style.1 空心圓
 settings.crosshair.style.2 實心圓
 settings.crosshair.style.3 空心方塊
 settings.crosshair.style.4 實心方塊
-settings.crosshair.image 圖片
-settings.crosshair.image.paste 準星圖片
-settings.crosshair.image.width 準星寬度
-settings.crosshair.image.height 準星高度
+settings.crosshair.image 準星圖片
+settings.crosshair.image.paste 準星圖片網址
+settings.crosshair.image.width 準星圖片寬度
+settings.crosshair.image.height 準星圖片高度
 settings.crosshair.always 總是顯示
 settings.crosshair.color 顏色
 settings.crosshair.shadow.color 陰影顏色
@@ -251,10 +251,10 @@ settings.crosshairm.style.1 空心圓
 settings.crosshairm.style.2 實心圓
 settings.crosshairm.style.3 空心方塊
 settings.crosshairm.style.4 實心方塊
-settings.crosshairm.image 圖片
-settings.crosshairm.image.paste 準星圖片
-settings.crosshairm.image.width 準星寬度
-settings.crosshairm.image.height 準星高度
+settings.crosshairm.image 準星圖片
+settings.crosshairm.image.paste 準星圖片網址
+settings.crosshairm.image.width 準星圖片寬度
+settings.crosshairm.image.height 準星圖片高度
 settings.crosshairm.always 總是顯示
 settings.crosshairm.color 顏色
 settings.crosshairm.shadow.color 陰影顏色
@@ -291,7 +291,7 @@ settings.gameprivacy.anon 匿名模式
 settings.gameprivacy.hideGameTitle 隱藏遊戲名稱
 settings.gameprivacy.verified 顯示驗證徽章
 settings.gameprivacy.premium 顯示會員徽章
-settings.gameprivacy.partner 顯示合作夥伴徽章
+settings.gameprivacy.partner 顯示遊戲合作夥伴徽章
 settings.gameprivacy.rank 顯示排位等級徽章
 settings.gameplay.header 遊戲性
 settings.gameplay.gpSetts 遊戲性設定
@@ -327,8 +327,8 @@ settings.audio.header 音訊
 settings.audio.sound 主音量
 settings.audio.ambient 環境音量
 settings.audio.voice 語音音量
-settings.audio.input 輸入裝置
-settings.audio.mic 輸入音量
+settings.audio.input 音訊或麥克風輸入
+settings.audio.mic 麥克風音量
 settings.audio.weps 武器音量
 settings.audio.player 玩家音量
 settings.audio.skin 服飾音量
@@ -340,7 +340,7 @@ settings.viewmodel.vmSetts 視角和模型設定
 settings.viewmodel.fov 視角廣度
 settings.viewmodel.fps 持槍模型視角廣度
 settings.viewmodel.bobbing 武器晃動程度
-settings.viewmodel.leaning 轉動時武器左右搖擺程度
+settings.viewmodel.leaning 轉動時武器偏航程度
 settings.viewmodel.show.primary 顯示主要武器
 settings.viewmodel.show.secondary 顯示次要武器
 settings.viewmodel.roundArms 圓柱體手臂
