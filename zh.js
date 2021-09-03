@@ -89,7 +89,7 @@ settings.local.region 默认服务器地区
 settings.local.lang 语言
 settings.network.header 网络
 settings.network.netRerouting 动态路由（影响网络延时）
-settings.network.netRate 网络传送率 (Hz)
+settings.network.netRate 网络刷新率 (Hz)
 settings.network.lagComp 延迟补偿
 settings.popup.header 弹窗
 settings.popup.freeKRPop 显示免费 KR 弹窗
@@ -226,10 +226,10 @@ settings.crosshair.style.1 空心圆
 settings.crosshair.style.2 实心圆
 settings.crosshair.style.3 空心方块
 settings.crosshair.style.4 实心方块
-settings.crosshair.image 图片
-settings.crosshair.image.paste 准星图片
-settings.crosshair.image.width 准星宽度
-settings.crosshair.image.height 准星高度
+settings.crosshair.image 准星图片
+settings.crosshair.image.paste 准星图片网址
+settings.crosshair.image.width 准星图片宽度
+settings.crosshair.image.height 准星图片高度
 settings.crosshair.always 总是显示
 settings.crosshair.color 颜色
 settings.crosshair.shadow.color 阴影颜色
@@ -251,10 +251,10 @@ settings.crosshairm.style.1 空心圆
 settings.crosshairm.style.2 实心圆
 settings.crosshairm.style.3 空心方块
 settings.crosshairm.style.4 实心方块
-settings.crosshairm.image 图片
-settings.crosshairm.image.paste 准星图片
-settings.crosshairm.image.width 准星宽度
-settings.crosshairm.image.height 准星高度
+settings.crosshairm.image 准星图片
+settings.crosshairm.image.paste 准星图片网址
+settings.crosshairm.image.width 准星图片宽度
+settings.crosshairm.image.height 准星图片高度
 settings.crosshairm.always 总是显示
 settings.crosshairm.color 颜色
 settings.crosshairm.shadow.color 阴影颜色
@@ -280,8 +280,8 @@ settings.hitmarker.custom 命中标记图片
 settings.hitmarker.custom.paste 命中标记图片网址
 settings.onKillS.style.0 默认
 settings.onKillS.style.1 降低分辨率
-settings.onKillS.style.2 降低视场角度数
-settings.onKillS.style.3 增加视场角度数
+settings.onKillS.style.2 降低视场角度
+settings.onKillS.style.3 增加视场角度
 settings.serverb.header 游戏房间浏览器
 settings.serverb.oldBrowser 经典游戏房间浏览器
 settings.serverb.defaultRegionOnly 只显示默认地区的房间
@@ -291,7 +291,7 @@ settings.gameprivacy.anon 匿名模式
 settings.gameprivacy.hideGameTitle 隐藏游戏名称
 settings.gameprivacy.verified 显示验证徽章
 settings.gameprivacy.premium 显示会员徽章
-settings.gameprivacy.partner 显示合作伙伴徽章
+settings.gameprivacy.partner 显示游戏合作伙伴徽章
 settings.gameprivacy.rank 显示排位等级徽章
 settings.gameplay.header 游戏性
 settings.gameplay.gpSetts 游戏性设置
@@ -323,12 +323,12 @@ settings.mobile.aimsensY 瞄准时垂直灵敏度
 settings.mobile.vibration 震动反馈
 settings.mobile.gradSpeed 渐缓速度
 settings.mobile.invert 垂直反转
-settings.audio.header 音效
+settings.audio.header 音频
 settings.audio.sound 主音量
 settings.audio.ambient 环境音量
 settings.audio.voice 语音音量
-settings.audio.input 输入设备
-settings.audio.mic 输入音量
+settings.audio.input 音频或麦克风输入
+settings.audio.mic 麦克风音量
 settings.audio.weps 武器音量
 settings.audio.player 玩家音量
 settings.audio.skin 服饰音量
@@ -340,7 +340,7 @@ settings.viewmodel.vmSetts 视角和模型设置
 settings.viewmodel.fov 视场角度
 settings.viewmodel.fps 持枪模型视场角度
 settings.viewmodel.bobbing 武器晃动程度
-settings.viewmodel.leaning 转动时武器左右摇摆程度
+settings.viewmodel.leaning 转动时武器偏航程度
 settings.viewmodel.show.primary 显示主武器
 settings.viewmodel.show.secondary 显示副武器
 settings.viewmodel.roundArms 圆柱体手臂
