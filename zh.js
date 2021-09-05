@@ -74,10 +74,10 @@ app.spectate.mobile 点击屏幕开始观战
 app.play.controller 按下开始键开始游戏
 app.spectate.controller 按下开始键开始观战
 purchase.error 出错了！
-purchase.error.click 单击</a> 重试！
+purchase.error.click 点此</a> 重试！
 purchase.error.limit 您可能已超出每日交易限额
 settings.reset 重置
-settings.reset.confirm 您是否希望重置所有设置？
+settings.reset.confirm 您确定要重置所有设置吗？
 settings.import 导入
 settings.export 导出
 settings.none 没有找到设置
@@ -131,7 +131,7 @@ settings.quality.rendDst 渲染距离
 settings.quality.res 分辨率
 settings.quality.part 粒子特效
 settings.quality.mapDet 地图细节
-settings.quality.noTex 无纹理贴图
+settings.quality.noTex 禁用纹理贴图
 settings.quality.partdist 粒子渲染距离
 settings.quality.renderdist 渲染距离
 settings.quality.reflection 倒影质量
@@ -144,15 +144,15 @@ settings.quality.trails 显示曳光踪迹
 settings.quality.yourTrails 显示自身子弹
 settings.quality.mflash 枪口火焰
 settings.quality.flap 显示狙击镜保护盖
-settings.quality.lowSpec 低配置模式
+settings.quality.lowSpec 低规格模式
 settings.quality.ambient 环境阴影深浅程度
-settings.quality.ambientOld 经典阴影渲染算法（当可用时）
+settings.quality.ambientOld 旧版阴影渲染算法（当可用时）
 settings.quality.textureAnim 纹理动画
 settings.quality.objectAnim 地图物体动画
 settings.quality.screenShake 屏幕晃动
 settings.quality.weaponShine 武器光泽
-settings.quality.rendGamma 伽马特效
-settings.quality.lighting 光照特效
+settings.quality.rendGamma 伽马特效程度
+settings.quality.lighting 光照特效程度
 settings.quality.showExplo 显示爆炸特效
 settings.quality.aspectRatio 画面宽高比
 settings.post.header 后期处理
@@ -163,16 +163,16 @@ settings.post.bloomStrength 高光强度
 settings.post.bloomRadius 高光半径
 settings.post.ssao 屏幕空间环境光屏蔽 (SSAO)
 settings.post.ssaoRadius SSAO 半径
-settings.interface.hitInd 伤害来源指示器
+settings.interface.hitInd 显示伤害来源指示器
 settings.interface.hitColor 伤害来源指示器颜色
-settings.interface.dmg 显示伤害
-settings.interface.dmgCol 伤害颜色
-settings.interface.critCol 暴击颜色
+settings.interface.dmg 显示伤害值
+settings.interface.dmgCol 普通伤害值颜色
+settings.interface.critCol 暴击伤害值颜色
 settings.interface.header 界面
 settings.interface.scale 用户界面缩放比例
 settings.interface.ui 显示用户界面
-settings.interface.scoreboard 使用经典记分板
-settings.interface.oldBrowser 使用经典服务器浏览器
+settings.interface.scoreboard 使用旧版记分板
+settings.interface.oldBrowser 使用旧版服务器浏览器
 settings.interface.rarityanim 禁用稀有物品动画
 settings.interface.showPfp 显示玩家头像
 settings.interface.showTradeMsg 显示交易信息
@@ -266,7 +266,7 @@ settings.crosshairm.dot 点
 settings.crosshairm.opacity.use 使用自定义不透明度
 settings.crosshairm.opacity.custom 自定义不透明度
 settings.hitmarker.header 命中标记
-settings.hitmarker.color 颜色
+settings.hitmarker.color 击中颜色
 settings.hitmarker.kcolor 击杀颜色
 settings.hitmarker.thickness 粗细
 settings.hitmarker.opacity 不透明度
@@ -283,7 +283,7 @@ settings.onKillS.style.1 降低分辨率
 settings.onKillS.style.2 降低视场角度
 settings.onKillS.style.3 增加视场角度
 settings.serverb.header 游戏房间浏览器
-settings.serverb.oldBrowser 经典游戏房间浏览器
+settings.serverb.oldBrowser 旧版游戏房间浏览器
 settings.serverb.defaultRegionOnly 只显示默认地区的房间
 settings.gameprivacy.header 游玩隐私
 settings.gameprivacy.streamer 主播模式
@@ -294,7 +294,7 @@ settings.gameprivacy.premium 显示会员徽章
 settings.gameprivacy.partner 显示游戏合作伙伴徽章
 settings.gameprivacy.rank 显示排位等级徽章
 settings.gameplay.header 游戏性
-settings.gameplay.gpSetts 游戏性设置
+settings.gameplay.gpSetts 灵敏度配置类型
 settings.gameplay.sensitivityX 水平灵敏度
 settings.gameplay.sensitivityY 垂直灵敏度
 settings.gameplay.aimsensX 瞄准时水平灵敏度
@@ -335,10 +335,10 @@ settings.audio.skin 服饰音量
 settings.audio.ui 用户界面音量
 settings.audio.asset 地图组件音量
 settings.audio.dialogue 交互音量
-settings.viewmodel.header 视角和模型
-settings.viewmodel.vmSetts 视角和模型设置
+settings.viewmodel.header 持枪视角
+settings.viewmodel.vmSetts 持枪视角配置类型
 settings.viewmodel.fov 视场角度
-settings.viewmodel.fps 持枪模型视场角度
+settings.viewmodel.fps 枪模位置
 settings.viewmodel.bobbing 武器晃动程度
 settings.viewmodel.leaning 转动时武器偏航程度
 settings.viewmodel.show.primary 显示主武器
@@ -359,10 +359,10 @@ settings.viewmodel.weapReloadY 换弹时武器的垂直位移
 settings.viewmodel.yOffADS 瞄准时武器的垂直位移
 settings.viewmodel.adsFovMlt 瞄准时视场缩放百分比
 settings.viewmodel.toggleADS 切换瞄准
-settings.editing.header 编辑
-settings.editing.health.high HUD 高血量颜色
-settings.editing.health.low HUD 低血量颜色
-settings.editing.speedLines 速度线
+settings.editing.header 状态栏编辑
+settings.editing.health.high 高血量颜色
+settings.editing.health.low 低血量颜色
+settings.editing.speedLines 速度线不透明度
 settings.editing.spdLinesCol 速度线颜色
 settings.editing.score.color 弹出得分颜色
 settings.editing.score.show 显示弹出得分
@@ -385,10 +385,10 @@ settings.editing.progm.shadow 蓄力条阴影
 settings.editing.progmOffX 蓄力条水平位移
 settings.editing.progmOffY 蓄力条垂直位移
 settings.editing.progmRot 蓄力条旋转角度
-settings.editing.saturation 饱和度（游戏中）
-settings.editing.menuSaturation 饱和度（用户界面）
-settings.editing.hue 色相（游戏中）
-settings.editing.menuHue 色相（用户界面）
+settings.editing.saturation 游戏界面饱和度
+settings.editing.menuSaturation 用户界面饱和度
+settings.editing.hue 游戏界面色相
+settings.editing.menuHue 用户界面色相
 settings.editing.vignette 晕影特效
 settings.editing.feedLimit 击杀信息列表长度限制
 settings.editing.depth 深度图模式
@@ -428,11 +428,11 @@ settings.mods.streak 连杀图标
 settings.mods.streak.paste 连杀图标网址
 settings.mods.timer 计时器图标
 settings.mods.timer.paste 计时器图标网址
-settings.mods.usedamage 受伤屏幕特效
-settings.mods.damage 受伤特效叠层图标
-settings.mods.damage.paste 受伤特效叠层网址
-settings.mods.overlay 游戏中叠层图标
-settings.mods.overlay.paste 游戏中叠层图标网址
+settings.mods.usedamage 受伤叠层
+settings.mods.damage 受伤叠层图标
+settings.mods.damage.paste 受伤叠层网址
+settings.mods.overlay 游戏界面叠层图标
+settings.mods.overlay.paste 游戏界面叠层图标网址
 settings.social.region 各地区统计
 settings.social.bg 社区界面背景图片
 settings.social.bg.paste 社区界面背景图片网址
@@ -585,7 +585,7 @@ windows.store.buy 买卖物品
 windows.store.wheels 转盘
 windows.store.unlock 解锁新武器和物品
 windows.store.amount 您的账户中还有 {0} KR
-windows.store.login 登录以在商店中购买和解锁物品！
+windows.store.login 登录以在商店中购买物品！
 windows.store.purchasing 购买中…
 windows.store.unboxed {0} 开箱获得了 {1}
 windows.trade.header 交易
@@ -638,8 +638,8 @@ windows.ranked.level 您至少需要 <span color="black">{0} 级</span> 以进�
 windows.ranked.mode.r1v1 单排
 windows.ranked.mode.r2v2 双排
 windows.ranked.mode.r4v4 四排
-windows.chall.header 挑战
-windows.chall.login 登录以完成挑战！
+windows.chall.header 挑战任务
+windows.chall.login 登录以完成挑战任务！
 thumbnail.upload.limit 上传失败，缩略图大小上限为 {0}kb
 image.upload.limit 上传失败，图片大小上限为 {0}kb
 thumbnail.upload.error 缩略图错误
@@ -657,10 +657,10 @@ adblocker 禁用广告拦截器以获得免费 KR 转盘。
 ad-failed 广告加载失败，请稍后重试。
 streamers.views {0} 个观众
 streamers.none 当前没有进行中的 Twitch 直播！
-error.extentions 如果您有任何浏览器扩展，请禁用它们
+error.extentions 如果您有任何浏览器扩展程序，请禁用它们
 error.seek 点此搜索新的游戏
-custom.map.upload.limit 上传失败，游戏数据大小上限为五十万个字符
-custom.map.missing 请选择至少一种游戏或地图
+custom.map.upload.limit 上传失败，地图数据大小上限为五十万个字符
+custom.map.missing 请选择至少一种地图
 custom.mode.missing 请选择至少一种模式
 custom.class.missing 请选择至少一种武器类别
 server.config.maxPlayers 最大玩家数
@@ -668,7 +668,7 @@ server.config.minPlayers 最少玩家数
 server.config.lives 玩家生命数
 server.config.gameTime 每局时间（分钟）
 server.config.gravMlt 重力
-server.config.tickRI 高服务器传送率
+server.config.tickRI 高性能服务器
 server.config.maxPS 40 名玩家房间
 server.config.promServ 推广服务器
 server.config.jumpMlt 跳跃力量
@@ -710,11 +710,11 @@ server.config.noReload 无需换弹
 server.config.private 私人房间
 server.config.krRewards KR 奖励
 server.config.forceDefault 强制使用默认设置
-server.config.warmupTime 热身时间
+server.config.warmupTime 热身时间（分钟）
 server.config.gamRounds 游戏局数
-server.config.objtvTime 得分点存在时间
-server.config.forceSpawn 自动重生时间
-server.config.intermTmr 中场休息时间
+server.config.objtvTime 得分点存在时间（分钟）
+server.config.forceSpawn 自动重生时间（秒）
+server.config.intermTmr 中场休息时间（秒）
 server.config.scoreLimit 得分上限
 server.config.keepTScore 保留队伍分数
 server.config.forceC 强制使用特定武器
@@ -778,7 +778,7 @@ social.market.fee.gift 无费用
 social.market.gift 赠送 KR
 social.market.gift.msg 说点什么呢…
 respawn.auto 您将会在 {0} 秒内重生
-custom.host.ranked 您不能在进行排位赛时创建自定义房间。
+custom.host.ranked 排位赛中无法创建自定义房间。
 funds.insufficient 资金余额不足
 funds.out 您似乎没有 KR 了
 custom.passcode.long 密码过长
@@ -793,12 +793,12 @@ settings.loaded.none 该设置为空白
 account.login.required 您必须先登录
 account.banned.hack 此账户因使用外挂而被封禁
 account.banned.appeal 如果您想提出上诉，请联系：
-account.delete 您可以申请删除您的账户，如果此申请在14天内没有被取消，此账户的所有数据将会被永久抹除。
+account.delete 您可以在此申请删除您的账户。请注意！如果此申请在14天内没有被取消，此账户的所有数据将会被永久抹除。
 account.delete.request 您确定要申请删除您的账户吗？
 account.delete.cancel 您确定要取消账户删除申请吗？
-spin.free.available 免费 KR 已准备完毕！
+spin.free.available 立即领取免费 KR！
 spin.free.claim 此免费 KR 转盘仅可在每小时完成一局比赛后获得。
-spin.free.disable 您可以在通用设置中禁用此弹窗。
+spin.free.disable 您可以在设置中的「常规」选项卡里禁用此弹窗。
 mod.reset.0 重生后该设置将会生效。
 mod.reset.1 地图物体不会被重置。
 windows.profile.picture 更改头像
@@ -811,19 +811,19 @@ stats.headshots 暴击次数
 stats.wallbangs 穿墙击杀次数
 stats.sprays 涂鸦次数
 windows.host.default.settings 使用地图默认设置以允许玩家保存他们的进度及最高分数
-windows.host.default.commands * 房主命令（如：/noclip，/god，/smite 等）会在此模式中被禁用。
+windows.host.default.commands * 房主命令 (/noclip, /god, /smite, /kill) 会在此模式中被禁用。
 windows.host.rewards 启用 KR 奖励将强制服务器使用地图默认设置，以允许玩家从此地图获得 KR：
 windows.store.wheels.sub 试试您的运气，转动奖盘来获得全新皮肤！
-windows.store.currency * 美元和你所在地的货币汇率由支付服务提供商或银行决定。
+windows.store.currency * 美元和你当地货币之间的汇率由支付服务提供商或银行决定。
 windows.store.creator 购买 KR 时，考虑使用创作者代码以支持您喜爱的内容创作者
-windows.chall.customs 您不能在自定义房间中完成挑战。
+windows.chall.customs 自定义房间中无法完成挑战任务。
 twitch.link 您确定要链接您的 Twitch 账户吗？
 twitch.unlink 您确定要取消链接您的 Twitch 账户吗？
 windows.clan.leave 您确定要离开此战队吗？
 windows.clan.delete 您确定要解散此战队吗？
 windows.clan.kick 您确定要从此战队中踢出 {0} 吗？
 windows.store.premium.purchase 您确定要购买 {0} 天的会员吗？
-windows.store.premium.gift 您确定要赠送 '{0}' {1} 天的会员吗？
+windows.store.premium.gift 您确定要赠送「{0}」{1} 天的会员吗？
 windows.playerlist.ban 您确定要从此房间封禁并踢出 {0} 吗？
 windows.playerlist.flag 您确定要标记 {0} 为外挂用户吗？
 windows.playerlist.unflag 您确定要取消标记 {0} 吗？
@@ -855,7 +855,7 @@ social.trades.out.head 发送了 ({0}) 个交易请求
 social.trades.history 交易记录
 social.trades.history.head ({0}) 个交易记录
 social.trades.decline 全部拒绝
-social.trades.message 在设置中启用交易请求信息
+social.trades.message 在市场设置中启用「显示交易信息」选项
 social.trades.warning 您将不会在此交易中获得任何物品！
 social.trades.accept 您确定要接受此交易请求吗？
 stats.airdrops KR 空投
