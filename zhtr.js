@@ -77,7 +77,7 @@ purchase.error 發生錯誤！
 purchase.error.click 點擊</a> 重試！
 purchase.error.limit 您可能已超出每日交易額度
 settings.reset 重設
-settings.reset.confirm 您是否希望重設所有設定？
+settings.reset.confirm 您確定要重設所有設定嗎？
 settings.import 匯入
 settings.export 匯出
 settings.none 沒有找到設定
@@ -131,7 +131,7 @@ settings.quality.rendDst 渲染距離
 settings.quality.res 解析度
 settings.quality.part 粒子效果
 settings.quality.mapDet 地圖細節
-settings.quality.noTex 無紋理貼圖
+settings.quality.noTex 停用紋理貼圖
 settings.quality.partdist 粒子渲染距離
 settings.quality.renderdist 渲染距離
 settings.quality.reflection 倒影品質
@@ -144,15 +144,15 @@ settings.quality.trails 顯示曳光蹤跡
 settings.quality.yourTrails 顯示自身子彈
 settings.quality.mflash 槍口火焰
 settings.quality.flap 顯示狙擊鏡保護蓋
-settings.quality.lowSpec 低配置模式
+settings.quality.lowSpec 低規格模式
 settings.quality.ambient 環境陰影深淺程度
 settings.quality.ambientOld 舊版陰影渲染演算法（當可用時）
 settings.quality.textureAnim 紋理動畫
 settings.quality.objectAnim 地圖物體動畫
 settings.quality.screenShake 螢幕抖動
 settings.quality.weaponShine 武器光澤
-settings.quality.rendGamma 伽馬效果
-settings.quality.lighting 光照效果
+settings.quality.rendGamma 伽馬效果程度
+settings.quality.lighting 光照效果程度
 settings.quality.showExplo 顯示爆炸效果
 settings.quality.aspectRatio 畫面寬高比
 settings.post.header 後期處理
@@ -163,11 +163,11 @@ settings.post.bloomStrength 高光強度
 settings.post.bloomRadius 高光半徑
 settings.post.ssao 螢幕空間環境光遮蔽 (SSAO)
 settings.post.ssaoRadius SSAO 半徑
-settings.interface.hitInd 傷害來源指示器
+settings.interface.hitInd 顯示傷害來源指示器
 settings.interface.hitColor 傷害來源指示器顏色
-settings.interface.dmg 顯示傷害
-settings.interface.dmgCol 傷害顏色
-settings.interface.critCol 暴擊顏色
+settings.interface.dmg 顯示傷害值
+settings.interface.dmgCol 普通傷害值顏色
+settings.interface.critCol 爆頭傷害值顏色
 settings.interface.header 介面
 settings.interface.scale 使用者介面縮放比例
 settings.interface.ui 顯示使用者介面
@@ -266,7 +266,7 @@ settings.crosshairm.dot 點
 settings.crosshairm.opacity.use 使用自訂不透明度
 settings.crosshairm.opacity.custom 自訂不透明度
 settings.hitmarker.header 命中標記
-settings.hitmarker.color 顏色
+settings.hitmarker.color 擊中顏色
 settings.hitmarker.kcolor 擊殺顏色
 settings.hitmarker.thickness 粗細
 settings.hitmarker.opacity 不透明度
@@ -294,7 +294,7 @@ settings.gameprivacy.premium 顯示會員徽章
 settings.gameprivacy.partner 顯示遊戲合作夥伴徽章
 settings.gameprivacy.rank 顯示排位等級徽章
 settings.gameplay.header 遊戲性
-settings.gameplay.gpSetts 遊戲性設定
+settings.gameplay.gpSetts 靈敏度設定檔類型
 settings.gameplay.sensitivityX 水平靈敏度
 settings.gameplay.sensitivityY 垂直靈敏度
 settings.gameplay.aimsensX 瞄準時水平靈敏度
@@ -335,10 +335,10 @@ settings.audio.skin 服飾音量
 settings.audio.ui 使用者介面音量
 settings.audio.asset 地圖元件音量
 settings.audio.dialogue 互動音量
-settings.viewmodel.header 視角和模型
-settings.viewmodel.vmSetts 視角和模型設定
+settings.viewmodel.header 持槍視角
+settings.viewmodel.vmSetts 持槍視角設定檔類型
 settings.viewmodel.fov 視角廣度
-settings.viewmodel.fps 持槍模型視角廣度
+settings.viewmodel.fps 持槍模型位置
 settings.viewmodel.bobbing 武器晃動程度
 settings.viewmodel.leaning 轉動時武器偏航程度
 settings.viewmodel.show.primary 顯示主要武器
@@ -359,10 +359,10 @@ settings.viewmodel.weapReloadY 換彈時武器的垂直位移
 settings.viewmodel.yOffADS 瞄準時武器的垂直位移
 settings.viewmodel.adsFovMlt 瞄準時視角縮放百分比
 settings.viewmodel.toggleADS 切換瞄準
-settings.editing.header 編輯
-settings.editing.health.high HUD 高血量顏色
-settings.editing.health.low HUD 低血量顏色
-settings.editing.speedLines 速度線
+settings.editing.header 狀態欄編輯
+settings.editing.health.high 高血量顏色
+settings.editing.health.low 低血量顏色
+settings.editing.speedLines 速度線不透明度
 settings.editing.spdLinesCol 速度線顏色
 settings.editing.score.color 彈出得分顏色
 settings.editing.score.show 顯示彈出得分
@@ -385,10 +385,10 @@ settings.editing.progm.shadow 蓄力條陰影
 settings.editing.progmOffX 蓄力條水平位移
 settings.editing.progmOffY 蓄力條垂直位移
 settings.editing.progmRot 蓄力條旋轉角度
-settings.editing.saturation 飽和度（遊戲中）
-settings.editing.menuSaturation 飽和度（使用者介面）
-settings.editing.hue 色相（遊戲中）
-settings.editing.menuHue 色相（使用者介面）
+settings.editing.saturation 遊戲介面飽和度
+settings.editing.menuSaturation 使用者介面飽和度
+settings.editing.hue 遊戲介面色相
+settings.editing.menuHue 使用者介面色相
 settings.editing.vignette 暈影效果
 settings.editing.feedLimit 擊殺訊息列表長度限制
 settings.editing.depth 景深圖模式
@@ -428,11 +428,11 @@ settings.mods.streak 連殺圖示
 settings.mods.streak.paste 連殺圖示網址
 settings.mods.timer 計時器圖示
 settings.mods.timer.paste 計時器圖示網址
-settings.mods.usedamage 受傷螢幕效果
-settings.mods.damage 受傷效果疊層圖片
-settings.mods.damage.paste 受傷效果疊層圖片網址
-settings.mods.overlay 遊戲中疊層圖片
-settings.mods.overlay.paste 遊戲中疊層圖片網址
+settings.mods.usedamage 受傷疊層
+settings.mods.damage 受傷疊層圖片
+settings.mods.damage.paste 受傷疊層圖片網址
+settings.mods.overlay 遊戲介面疊層圖片
+settings.mods.overlay.paste 遊戲介面疊層圖片網址
 settings.social.region 各地區統計
 settings.social.bg 社群介面背景圖片
 settings.social.bg.paste 社群介面背景圖片網址
@@ -585,7 +585,7 @@ windows.store.buy 購買物品
 windows.store.wheels 輪盤
 windows.store.unlock 解鎖新武器和物品
 windows.store.amount 您的帳戶還剩餘 {0} KR
-windows.store.login 登入以在商店中購買和解鎖物品！
+windows.store.login 登入以在商店中購買物品！
 windows.store.purchasing 購買中…
 windows.store.unboxed {0} 開箱獲得了 {1}
 windows.trade.header 交易
@@ -638,8 +638,8 @@ windows.ranked.level 您至少需要 <span color="black">{0} 級</span>以進行
 windows.ranked.mode.r1v1 單排
 windows.ranked.mode.r2v2 雙排
 windows.ranked.mode.r4v4 四排
-windows.chall.header 挑戰
-windows.chall.login 登入以完成挑戰！
+windows.chall.header 挑戰任務
+windows.chall.login 登入以完成挑戰任務！
 thumbnail.upload.limit 上傳失敗，縮圖大小上限為 {0}kb
 image.upload.limit 上傳失敗，圖像大小上限為 {0}kb
 thumbnail.upload.error 縮圖錯誤
@@ -660,7 +660,7 @@ streamers.none 目前沒有進行中的 Twitch 直播！
 error.extentions 如果您有任何瀏覽器擴充功能，請停用它們
 error.seek 點擊搜尋新的遊戲
 custom.map.upload.limit 上傳失敗，地圖資料大小上限為五十萬個字元
-custom.map.missing 請選擇至少一種遊戲或地圖
+custom.map.missing 請選擇至少一種地圖
 custom.mode.missing 請選擇至少一種模式
 custom.class.missing 請選擇至少一種武器類別
 server.config.maxPlayers 最大玩家數
@@ -668,7 +668,7 @@ server.config.minPlayers 最少玩家數
 server.config.lives 玩家生命數
 server.config.gameTime 每局時間（分鐘）
 server.config.gravMlt 重力
-server.config.tickRI 高伺服器傳送率
+server.config.tickRI 高配伺服器
 server.config.maxPS 40 名玩家伺服器
 server.config.promServ 推廣伺服器
 server.config.jumpMlt 跳躍力量
@@ -710,11 +710,11 @@ server.config.noReload 無需換彈
 server.config.private 私人伺服器
 server.config.krRewards KR 獎勵
 server.config.forceDefault 強制使用預設設定
-server.config.warmupTime 熱身時間
+server.config.warmupTime 熱身時間（分鐘）
 server.config.gamRounds 遊戲局數
-server.config.objtvTime 得分點存在時間
-server.config.forceSpawn 自動復活時間
-server.config.intermTmr 中場休息時間
+server.config.objtvTime 得分點存在時間（分鐘）
+server.config.forceSpawn 自動復活時間（秒）
+server.config.intermTmr 中場休息時間（秒）
 server.config.scoreLimit 得分上限
 server.config.keepTScore 保留隊伍分數
 server.config.forceC 強制使用特定武器
@@ -793,12 +793,12 @@ settings.loaded.none 該設定為空白
 account.login.required 您必須先登入
 account.banned.hack 此帳戶因作弊而被封禁
 account.banned.appeal 如果您想提出上訴，請聯絡：
-account.delete 您可以請求刪除您的帳戶，如果此請求沒有在14天內被取消，您所有的帳戶資料將會被永久清除。
+account.delete 您可以在此請求刪除您的帳戶。請注意！如果此請求沒有在14天內被取消，您所有的帳戶資料將會被永久清除。
 account.delete.request 您確定要請求刪除您的帳戶嗎？
 account.delete.cancel 您確定要取消帳戶刪除請求嗎？
 spin.free.available 立即領取免費 KR！
 spin.free.claim 您必須在每小時內完成一場比賽以獲得免費 KR 輪盤。
-spin.free.disable 您可以在通用設定裡關閉此彈出式視窗。
+spin.free.disable 您可以在設定中的「常規」選項卡裡關閉此彈出式視窗。
 mod.reset.0 復活後此設定將會生效。
 mod.reset.1 地圖物體不會被重設。
 windows.profile.picture 更改頭像
@@ -811,19 +811,19 @@ stats.headshots 爆頭次數
 stats.wallbangs 穿牆擊殺次數
 stats.sprays 塗鴉次數
 windows.host.default.settings 使用地圖預設設定以允許玩家儲存他們的進度及最高分數
-windows.host.default.commands * 房主指令（像：/noclip，/god，/smite 等）在此模式中將會被停用。
+windows.host.default.commands * 房主指令 (/noclip, /god, /smite, /kill) 在此模式中將會被停用。
 windows.host.rewards 啟用 KR 獎勵將會強制伺服器使用地圖預設設定，以允許玩家從此地圖贏得 KR：
 windows.store.wheels.sub 試試您的運氣，轉動輪盤來贏取新外觀！
-windows.store.currency * 美元和您所在地的貨幣匯率由支付服務提供商或銀行決定。
+windows.store.currency * 美元和您當地貨幣之間的匯率由支付服務提供商或銀行決定。
 windows.store.creator 購買 KR 時，考慮使用創作者代碼來支持您最喜歡的內容創作者
-windows.chall.customs 您不能在自訂伺服器內完成挑戰。
+windows.chall.customs 自訂伺服器內無法完成挑戰任務。
 twitch.link 您確定要連結您的 Twitch 帳戶嗎？
 twitch.unlink 您確定要取消連結您的 Twitch 帳戶嗎？
 windows.clan.leave 您確定要退出此公會嗎？
 windows.clan.delete 您確定要刪除此公會嗎？
 windows.clan.kick 您確定要從此公會踢出 {0} 嗎？
 windows.store.premium.purchase 您確定要購買 {0} 天的會員嗎？
-windows.store.premium.gift 您確定要贈送 '{0}' {1} 天的會員嗎？
+windows.store.premium.gift 您確定要贈送「{0}」{1} 天的會員嗎？
 windows.playerlist.ban 您確定要從此伺服器封禁並踢出 {0} 嗎？
 windows.playerlist.flag 您確定要標記 {0} 為外掛玩家嗎？
 windows.playerlist.unflag 您確定要取消標記 {0} 嗎？
@@ -855,7 +855,7 @@ social.trades.out.head 已發送 ({0}) 個交易請求
 social.trades.history 交易記錄
 social.trades.history.head ({0}) 個交易記錄
 social.trades.decline 全部拒絕
-social.trades.message 在設定內啟用交易請求訊息
+social.trades.message 在市場設定裡啟用「顯示交易訊息」選項
 social.trades.warning 您將不會在此交易中得到任何物品！
 social.trades.accept 您確定要接受此交易請求嗎？
 stats.airdrops KR 空投
