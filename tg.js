@@ -248,9 +248,9 @@ settings.crosshairm.type.3 Presisyon
 settings.crosshairm.style Istilo
 settings.crosshairm.style.0 Krus
 settings.crosshairm.style.1 Pabilog 
-settings.crosshairm.style.2 Madiin na Pabilog
+settings.crosshairm.style.2 Punong Pabilog
 settings.crosshairm.style.3 Parisukat
-settings.crosshairm.style.4 Madiin na Parisukat
+settings.crosshairm.style.4 Punong Parisukat
 settings.crosshairm.image Image
 settings.crosshairm.image.paste Crosshair Image
 settings.crosshairm.image.width Image Width
@@ -731,7 +731,7 @@ server.config.fallDmg Damage kapag nahuhulog
 server.config.fallDmgThr Threshold ng Fall Damage
 server.config.noDraws Walang Draws
 server.config.bstOfR Best Of...
-server.config.chrgWeps Mga Armas na may cooldown
+server.config.chrgWeps Mga Armas na may charging
 social.login Mag-parehistro
 social.login.failed Hindi gumana ang pag-login
 social.login.buy Mag-login upang Bumili
