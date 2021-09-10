@@ -61,7 +61,7 @@ generic.accuracy 命中率
 player.waiting 等待更多玩家加入
 player.died 你死了
 player.killed 被此玩家击杀
-player.killstreak {0} 已达到 {1} 连杀
+player.killstreak {0} on a {1} Kill Streak
 player.inactive 由于您的空闲时间过长，您已被踢出房间
 player.disconnect 连接已断开
 timer.end 下一场将在 {0} 后开始
@@ -152,7 +152,7 @@ settings.quality.objectAnim 地图物体动画
 settings.quality.screenShake 屏幕晃动
 settings.quality.weaponShine 武器光泽
 settings.quality.rendGamma 伽马特效程度
-settings.quality.lighting 光照特效程度
+settings.quality.lighting 光照质量
 settings.quality.showExplo 显示爆炸特效
 settings.quality.aspectRatio 画面宽高比
 settings.post.header 后期处理
@@ -238,8 +238,8 @@ settings.crosshair.size 尺寸
 settings.crosshair.thickness 粗细
 settings.crosshair.gap 间隙
 settings.crosshair.dot 点
-settings.crosshair.opacity.use 使用自定义不透明度
-settings.crosshair.opacity.custom 自定义不透明度
+settings.crosshair.opacity.use 使用不透明度
+settings.crosshair.opacity.custom 不透明度
 settings.crosshairm.header 准星（投掷时）
 settings.crosshairm.type 种类
 settings.crosshairm.type.1 形状
@@ -263,8 +263,8 @@ settings.crosshairm.size 尺寸
 settings.crosshairm.thickness 粗细
 settings.crosshairm.gap 间隙
 settings.crosshairm.dot 点
-settings.crosshairm.opacity.use 使用自定义不透明度
-settings.crosshairm.opacity.custom 自定义不透明度
+settings.crosshairm.opacity.use 使用不透明度
+settings.crosshairm.opacity.custom 不透明度
 settings.hitmarker.header 命中标记
 settings.hitmarker.color 击中颜色
 settings.hitmarker.kcolor 击杀颜色
@@ -272,8 +272,8 @@ settings.hitmarker.thickness 粗细
 settings.hitmarker.opacity 不透明度
 settings.hitmarker.leng 长度
 settings.hitmarker.spacing 间距
-settings.hitmarker.animD 动画尺寸
-settings.hitmarker.animS 动画速度
+settings.hitmarker.animD 扩散大小
+settings.hitmarker.animS 扩散速度
 settings.hitmarker.hitm 显示命中标记
 settings.hitmarker.hitmFad 淡出速度
 settings.hitmarker.custom 命中标记图片
@@ -433,7 +433,7 @@ settings.mods.damage 受伤叠层图标
 settings.mods.damage.paste 受伤叠层网址
 settings.mods.overlay 游戏界面叠层图标
 settings.mods.overlay.paste 游戏界面叠层图标网址
-settings.social.region 各地区统计
+settings.social.region 地区统计
 settings.social.bg 社区界面背景图片
 settings.social.bg.paste 社区界面背景图片网址
 windows.settings.header 游戏设置
@@ -547,7 +547,7 @@ windows.spray.header 选择涂鸦
 windows.spray.default 默认涂鸦
 windows.spray.spin 涂鸦
 windows.maps.header 自定义地图
-windows.maps.none 没有找到该地图！
+windows.maps.none 没有找到任何地图！
 windows.maps.name 地图名称
 windows.maps.editor 地图编辑器
 windows.maps.publish 发布地图
@@ -572,7 +572,7 @@ windows.clans.join 加入战队
 windows.clans.login 登录以创建并加入战队！
 windows.store.header 商店
 windows.store.spin {0} 转盘
-windows.store.agree 通过此次购买，您将同意 {0} 条款。
+windows.store.agree 通过此次购买，您将同意 {0}条款及细则
 windows.store.purchase 购买 KR
 windows.store.voucher 兑换代金券
 windows.store.voucherinfo 从指定主播和活动获取代金券
@@ -610,7 +610,7 @@ windows.mods.community.fav 已收藏
 windows.mods.community.new 最新
 windows.mods.community.hot 热门
 windows.mods.community.name 模组名称
-windows.mods.community.none 没有找到模组
+windows.mods.community.none 没有找到任何模组
 windows.publish.mod.header 发布模组
 windows.publish.mod.thumbnail 无缩略图
 windows.publish.mod.name 模组名称
@@ -651,7 +651,7 @@ mod.invalid 模组文件不可用！
 matchmaker.full 已满
 matchmaker.full2 服务器人数已满。
 matchmaker.updating 游戏更新中
-matchmaker.invalid 没有找到游戏。
+matchmaker.invalid 没有找到任何游戏。
 matchmaker.none 服务器负载已达到上限
 adblocker 禁用广告拦截器以获得免费 KR 转盘。
 ad-failed 广告加载失败，请稍后重试。
@@ -741,8 +741,8 @@ social.login.proccessing 登录中…
 social.since 始于
 social.user.maps 此用户地图
 social.user.mods 此用户模组
-social.maps.none 没有找到游戏…
-social.mods.none 没有找到模组…
+social.maps.none 没有找到任何游戏…
+social.mods.none 没有找到任何模组…
 social.market.price.low 最低价格
 social.market.price.list 输入价格
 social.market.searching 搜索中
@@ -833,7 +833,7 @@ item.view.more 更多信息
 item.sell.cant 此物品不可被出售。
 item.sell.quick 您确定要闪售 {0} 吗？
 social.profile.stats 综合战绩
-social.profile.class 各武器类别战绩
+social.profile.class 武器类别战绩
 social.profile.sales 出售记录
 social.profile.sales.market 市场出售额
 social.profile.skins [{0}] 个物品
@@ -847,7 +847,7 @@ social.profile.mods.none 此用户未发布任何模组
 social.search 搜索结果
 social.market.stats.rare 最稀有物品
 social.market.stats.circulation 流通中
-social.market.stats.units 全球持有数量
+social.market.stats.units 个全球持有数量
 social.trades.in 收到的交易请求
 social.trades.in.head 收到了 ({0}) 个交易请求
 social.trades.out 已发送的交易请求
