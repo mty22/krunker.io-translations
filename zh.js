@@ -649,9 +649,9 @@ mod.error 模组错误！
 mod.loading 加载模组中…
 mod.invalid 模组文件不可用！
 matchmaker.full 已满
-matchmaker.full2 服务器人数已满。
+matchmaker.full2 此服务器人数已满。
 matchmaker.updating 游戏更新中
-matchmaker.invalid 没有找到任何游戏。
+matchmaker.invalid 此服务器已关闭或不存在。
 matchmaker.none 服务器负载已达到上限
 adblocker 禁用广告拦截器以获得免费 KR 转盘。
 ad-failed 广告加载失败，请稍后重试。
@@ -693,7 +693,7 @@ server.config.t3Dmg 队伍 3 伤害倍数
 server.config.t4Dmg 队伍 4 伤害倍数
 server.config.t5Dmg 队伍 5 伤害倍数
 server.config.selTeam 可自由选择队伍
-server.config.allowSpect 观战
+server.config.allowSpect 允许观战
 server.config.killRewards 击杀奖励
 server.config.headshotOnly 仅限暴击
 server.config.noSecondary 禁用副武器
@@ -847,7 +847,7 @@ social.profile.mods.none 此用户未发布任何模组
 social.search 搜索结果
 social.market.stats.rare 最稀有物品
 social.market.stats.circulation 流通中
-social.market.stats.units 个全球持有数量
+social.market.stats.units 全球持有数量
 social.trades.in 收到的交易请求
 social.trades.in.head 收到了 ({0}) 个交易请求
 social.trades.out 已发送的交易请求
