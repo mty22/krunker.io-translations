@@ -61,7 +61,7 @@ generic.accuracy 命中率
 player.waiting 等待更多玩家加入
 player.died 你死了
 player.killed 被此玩家擊殺
-player.killstreak {0} 已達到 {1} 連殺
+player.killstreak {0} on a {1} Kill Streak
 player.inactive 由於您的閒置時間過長，您已被踢出伺服器
 player.disconnect 連線已中斷
 timer.end 下一場將在 {0} 後開始
@@ -152,7 +152,7 @@ settings.quality.objectAnim 地圖物體動畫
 settings.quality.screenShake 螢幕抖動
 settings.quality.weaponShine 武器光澤
 settings.quality.rendGamma 伽馬效果程度
-settings.quality.lighting 光照效果程度
+settings.quality.lighting 光照品質
 settings.quality.showExplo 顯示爆炸效果
 settings.quality.aspectRatio 畫面寬高比
 settings.post.header 後期處理
@@ -238,8 +238,8 @@ settings.crosshair.size 尺寸
 settings.crosshair.thickness 粗細
 settings.crosshair.gap 間隙
 settings.crosshair.dot 點
-settings.crosshair.opacity.use 使用自訂不透明度
-settings.crosshair.opacity.custom 自訂不透明度
+settings.crosshair.opacity.use 使用不透明度
+settings.crosshair.opacity.custom 不透明度
 settings.crosshairm.header 準星（投擲時）
 settings.crosshairm.type 種類
 settings.crosshairm.type.1 形狀
@@ -263,8 +263,8 @@ settings.crosshairm.size 尺寸
 settings.crosshairm.thickness 粗細
 settings.crosshairm.gap 間隙
 settings.crosshairm.dot 點
-settings.crosshairm.opacity.use 使用自訂不透明度
-settings.crosshairm.opacity.custom 自訂不透明度
+settings.crosshairm.opacity.use 使用不透明度
+settings.crosshairm.opacity.custom 不透明度
 settings.hitmarker.header 命中標記
 settings.hitmarker.color 擊中顏色
 settings.hitmarker.kcolor 擊殺顏色
@@ -272,8 +272,8 @@ settings.hitmarker.thickness 粗細
 settings.hitmarker.opacity 不透明度
 settings.hitmarker.leng 長度
 settings.hitmarker.spacing 間距
-settings.hitmarker.animD 動畫尺寸
-settings.hitmarker.animS 動畫速度
+settings.hitmarker.animD 擴散大小
+settings.hitmarker.animS 擴散速度
 settings.hitmarker.hitm 顯示命中標記
 settings.hitmarker.hitmFad 淡出速度
 settings.hitmarker.custom 命中標記圖片
@@ -433,7 +433,7 @@ settings.mods.damage 受傷疊層圖片
 settings.mods.damage.paste 受傷疊層圖片網址
 settings.mods.overlay 遊戲介面疊層圖片
 settings.mods.overlay.paste 遊戲介面疊層圖片網址
-settings.social.region 各地區統計
+settings.social.region 地區統計
 settings.social.bg 社群介面背景圖片
 settings.social.bg.paste 社群介面背景圖片網址
 windows.settings.header 遊戲設定
@@ -547,7 +547,7 @@ windows.spray.header 選擇塗鴉
 windows.spray.default 免費塗鴉
 windows.spray.spin 塗鴉
 windows.maps.header 自訂地圖
-windows.maps.none 沒有找到此地圖！
+windows.maps.none 沒有找到任何地圖！
 windows.maps.name 地圖名稱
 windows.maps.editor 地圖編輯器
 windows.maps.publish 發佈地圖
@@ -572,7 +572,7 @@ windows.clans.join 加入公會
 windows.clans.login 登入以建立並加入公會！
 windows.store.header 商店
 windows.store.spin {0} 輪盤
-windows.store.agree 透過此次購買，表示您同意 {0} 條款。
+windows.store.agree 透過此次購買，表示您同意 {0}條款及細則
 windows.store.purchase 購買 KR
 windows.store.voucher 兌換代金券
 windows.store.voucherinfo 從指定實況主和活動獲取代金券
@@ -610,7 +610,7 @@ windows.mods.community.fav 已收藏
 windows.mods.community.new 最新
 windows.mods.community.hot 熱門
 windows.mods.community.name 模組名稱
-windows.mods.community.none 沒有找到模組
+windows.mods.community.none 沒有找到任何模組
 windows.publish.mod.header 發佈模組
 windows.publish.mod.thumbnail 無縮圖
 windows.publish.mod.name 模組名稱
@@ -649,9 +649,9 @@ mod.error 模組錯誤！
 mod.loading 載入模組中…
 mod.invalid 無效模組檔案！
 matchmaker.full 已滿
-matchmaker.full2 伺服器人數已滿。
+matchmaker.full2 此伺服器人數已滿。
 matchmaker.updating 遊戲更新中
-matchmaker.invalid 沒有找到遊戲。
+matchmaker.invalid 此伺服器已關閉或不存在。
 matchmaker.none 伺服器負載已達到上限
 adblocker 停用廣告攔截器以獲得免費 KR 輪盤。
 ad-failed 廣告載入失敗，請稍後重試。
@@ -693,7 +693,7 @@ server.config.t3Dmg 隊伍 3 傷害倍數
 server.config.t4Dmg 隊伍 4 傷害倍數
 server.config.t5Dmg 隊伍 5 傷害倍數
 server.config.selTeam 可自由選擇隊伍
-server.config.allowSpect 觀戰
+server.config.allowSpect 允許觀戰
 server.config.killRewards 擊殺獎勵
 server.config.headshotOnly 僅限爆頭
 server.config.noSecondary 停用次要武器
@@ -703,7 +703,7 @@ server.config.wallJP 牆壁跳躍力量
 server.config.autoJump 自動跳躍
 server.config.bDrop 子彈下墜
 server.config.thirdPerson 第三人稱
-server.config.requireCaptcha 需要 Captcha 驗證
+server.config.requireCaptcha 啟用人機驗證
 server.config.nameTags 隱藏名牌
 server.config.kCams 死亡視角
 server.config.noReload 無需換彈
@@ -741,8 +741,8 @@ social.login.proccessing 登入中…
 social.since 始於
 social.user.maps 此使用者地圖
 social.user.mods 此使用者模組
-social.maps.none 未找到此地圖…
-social.mods.none 未找到此模組…
+social.maps.none 未找到任何地圖…
+social.mods.none 未找到任何模組…
 social.market.price.low 最低價格
 social.market.price.list 輸入價格
 social.market.searching 搜尋中
@@ -833,7 +833,7 @@ item.view.more 更多資訊
 item.sell.cant 此物品不可被出售。
 item.sell.quick 您確定要快速出售 {0} 嗎？
 social.profile.stats 綜合戰績
-social.profile.class 各武器類別戰績
+social.profile.class 武器類別戰績
 social.profile.sales 出售記錄
 social.profile.sales.market 市場出售額
 social.profile.skins [{0}] 個外觀
