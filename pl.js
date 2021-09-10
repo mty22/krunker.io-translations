@@ -520,7 +520,7 @@ windows.controls.streak1 Seria 2
 windows.controls.streak2 Seria 3
 windows.controls.streak3 Seria 4
 windows.controls.streak4 Seria 5
-windows.controls.prop Select Prop (Hold)
+windows.controls.prop Wybierz przykrywę (przytrzymaj)
 windows.controls.premium0 Noclip
 windows.controls.premium1 Tryb boga
 windows.controls.premium2 Zabij
