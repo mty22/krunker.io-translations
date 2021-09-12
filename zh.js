@@ -797,7 +797,7 @@ account.delete 您可以在此申请删除您的账户。请注意！如果此�
 account.delete.request 您确定要申请删除此账户吗？
 account.delete.cancel 您确定要取消申请删除此账户吗？
 spin.free.available 立即领取免费 KR！
-spin.free.claim 您必须在每小时内完成一场游戏才可以领取此转盘。
+spin.free.claim 您必须在每小时内完成一场游戏才能领取此转盘。
 spin.free.disable 您可以在设置中的「常规」选项卡里禁用此弹窗。
 mod.reset.0 重生后该设置将会生效。
 mod.reset.1 地图物体不会被重置。
