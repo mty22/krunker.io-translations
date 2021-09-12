@@ -747,10 +747,10 @@ social.market.price.low 最低价格
 social.market.price.list 输入价格
 social.market.searching 搜索中
 social.market.listed {0} 前上架
-social.market.list 发布物品
+social.market.list 上架物品
 social.market.unlist 下架物品
 social.market.unlisting 下架物品中…
-social.market.posting 发布物品中…
+social.market.posting 上架物品中…
 social.market.req 需要 {0} 级
 social.market.cant KR 不足
 social.market.purchase 购买
