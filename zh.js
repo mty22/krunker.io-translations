@@ -8,9 +8,9 @@ menu.btn.settings 设置
 menu.btn.customize 自定义
 menu.btn.invite 邀请
 menu.btn.invite.clicked 已复制
-menu.btn.join 加入游戏房间
-menu.btn.host 创建游戏房间
-menu.btn.browser 浏览游戏房间
+menu.btn.join 加入游戏服务器
+menu.btn.host 创建游戏服务器
+menu.btn.browser 浏览游戏服务器
 generic.wait 请稍等…
 generic.loading 加载中…
 generic.none 无
@@ -20,7 +20,7 @@ generic.delete 删除
 generic.save 保存
 generic.load 加载
 generic.search 搜索
-generic.leave 退出
+generic.leave 离开
 generic.default 默认
 generic.submit 提交
 generic.create 创建
@@ -29,7 +29,7 @@ generic.failed 失败
 generic.success 成功！
 generic.name 用户名
 generic.level 等级
-generic.score 得分
+generic.score 总得分
 generic.off 关
 generic.defeat 失败
 generic.victory 胜利
@@ -37,11 +37,11 @@ generic.matchover 比赛结束
 generic.matchaband 比赛被迫终止
 generic.follow 关注
 generic.unfollow 取消关注
-generic.followers 关注者
-generic.following 关注中
-generic.games 游戏
-generic.wins 胜场
-generic.lose 败场
+generic.followers 个关注者
+generic.following 个关注中
+generic.games 游玩局数
+generic.wins 胜场数
+generic.lose 败场数
 generic.clan 战队
 generic.games.played 游玩局数
 generic.games.won 胜场数
@@ -62,13 +62,13 @@ player.waiting 等待更多玩家加入
 player.died 你死了
 player.killed 被此玩家击杀
 player.killstreak {0} on a {1} Kill Streak
-player.inactive 由于您的空闲时间过长，您已被踢出房间
+player.inactive 由于您的空闲时间过长，您已被踢出此服务器
 player.disconnect 连接已断开
 timer.end 下一场将在 {0} 后开始
-leaderboard.empty 空房间
+leaderboard.empty 这里空荡荡的…
 popup.checkpoint 检查点！
-app.play 单击开始游戏
-app.spectate 单击开始观战
+app.play 点击开始游戏
+app.spectate 点击开始观战
 app.play.mobile 点击屏幕开始游戏
 app.spectate.mobile 点击屏幕开始观战
 app.play.controller 按下开始键开始游戏
@@ -80,10 +80,10 @@ settings.reset 重置
 settings.reset.confirm 您确定要重置所有设置吗？
 settings.import 导入
 settings.export 导出
-settings.none 没有找到设置
+settings.none 没有找到任何设置
 settings.backup 备份设置
 settings.controls.change 按键设置
-settings.controls.press 按下任意按键
+settings.controls.press 按任意键
 settings.local.header 语言本地化 <span id="requiresRestart"><span style="color: #eb5656">*</span> 需要重启游戏</span>
 settings.local.region 默认服务器地区
 settings.local.lang 语言
@@ -96,13 +96,13 @@ settings.popup.freeKRPop 显示免费 KR 弹窗
 settings.experimental.header 实验性
 settings.experimental.optNetwork 网络优化
 settings.experimental.aimFreezeFix 射击冻结修正（射击时限制帧率）
-settings.experimental.mouseFlickFix 鼠标轮询过激修正（限制轮询率）
+settings.experimental.mouseFlickFix 鼠标反应过激修正（限制轮询率）
 settings.experimental.shaderRendering 实例化渲染
 settings.client.header 客户端
 settings.client.unlimitedFrames 禁用垂直同步
 settings.client.gameCap 游戏捕获
 settings.client.experimental 实验性功能
-settings.client.discordRPC 启用 Discord RPC
+settings.client.discordRPC 启用 Discord RPC 支持
 settings.client.resourceSwapper 资源包
 settings.client.clearCache 清除缓存
 settings.client.resetSettings 重置客户端设置
@@ -151,7 +151,7 @@ settings.quality.textureAnim 纹理动画
 settings.quality.objectAnim 地图物体动画
 settings.quality.screenShake 屏幕晃动
 settings.quality.weaponShine 武器光泽
-settings.quality.rendGamma 伽马特效程度
+settings.quality.rendGamma 伽马强度
 settings.quality.lighting 光照质量
 settings.quality.showExplo 显示爆炸特效
 settings.quality.aspectRatio 画面宽高比
@@ -187,7 +187,7 @@ settings.interface.deaths 显示死亡数
 settings.interface.kd 显示战损率
 settings.interface.kills 显示击杀数
 settings.interface.streak 显示连杀数
-settings.interface.score 显示分数
+settings.interface.score 显示得分
 settings.interface.spectators 显示观战人数
 settings.interface.speed 显示移动速度
 settings.interface.speedOffX 移动速度计数器水平位移
@@ -282,10 +282,10 @@ settings.onKillS.style.0 默认
 settings.onKillS.style.1 降低分辨率
 settings.onKillS.style.2 降低视场角度
 settings.onKillS.style.3 增加视场角度
-settings.serverb.header 游戏房间浏览器
-settings.serverb.oldBrowser 旧版游戏房间浏览器
-settings.serverb.defaultRegionOnly 只显示默认地区的房间
-settings.gameprivacy.header 游玩隐私
+settings.serverb.header 服务器浏览器
+settings.serverb.oldBrowser 旧版服务器浏览器
+settings.serverb.defaultRegionOnly 仅显示默认地区的服务器
+settings.gameprivacy.header 游戏隐私
 settings.gameprivacy.streamer 主播模式
 settings.gameprivacy.anon 匿名模式
 settings.gameprivacy.hideGameTitle 隐藏游戏名称
@@ -364,12 +364,12 @@ settings.editing.health.high 高血量颜色
 settings.editing.health.low 低血量颜色
 settings.editing.speedLines 速度线不透明度
 settings.editing.spdLinesCol 速度线颜色
-settings.editing.score.color 弹出得分颜色
-settings.editing.score.show 显示弹出得分
-settings.editing.score.scale 弹出得分缩放比例
-settings.editing.score.shadow 弹出得分阴影
-settings.editing.scoreOffX 弹出得分水平位移
-settings.editing.scoreOffY 弹出得分垂直位移
+settings.editing.score.color 得分弹窗颜色
+settings.editing.score.show 显示得分弹窗
+settings.editing.score.scale 得分弹窗缩放比例
+settings.editing.score.shadow 得分弹窗阴影
+settings.editing.scoreOffX 得分弹窗水平位移
+settings.editing.scoreOffY 得分弹窗垂直位移
 settings.editing.prog.color 进度条颜色
 settings.editing.prog.opacity 进度条不透明度
 settings.editing.prog.scale 进度条缩放比例
@@ -389,14 +389,14 @@ settings.editing.saturation 游戏界面饱和度
 settings.editing.menuSaturation 用户界面饱和度
 settings.editing.hue 游戏界面色相
 settings.editing.menuHue 用户界面色相
-settings.editing.vignette 晕影特效
+settings.editing.vignette 晕影强度
 settings.editing.feedLimit 击杀信息列表长度限制
 settings.editing.depth 深度图模式
 settings.editing.green 绿幕模式
 settings.editing.trailcol 曳光踪迹颜色
 settings.editing.ropecol 钩爪绳索颜色
-settings.editing.tracercol 子弹曳光颜色
-settings.editing.tracer 显示子弹曳光
+settings.editing.tracercol 子弹曳光
+settings.editing.tracer 子弹曳光
 settings.editing.tracer.offset 子弹曳光显示位移随机程度
 settings.shaders.header 着色器输入
 settings.mods.header 自定义
@@ -439,14 +439,14 @@ settings.social.bg.paste 社区界面背景图片网址
 windows.settings.header 游戏设置
 windows.mail.header Krunker 邮箱
 windows.servers.header 服务器
-windows.servers.none 没有可加入的房间…
-windows.servers.host + 创建游戏房间
-windows.servers.hide 隐藏已满的房间
-windows.servers.priority 优先显示默认地区
-windows.servers.online {0} 玩家在游戏中
-windows.servers.social {0} 玩家在社区中
-windows.loadout.header 更换武器类别
-windows.loadout.class 武器类别
+windows.servers.none 没有可加入的服务器…
+windows.servers.host + 创建游戏服务器
+windows.servers.hide 隐藏已满的服务器
+windows.servers.priority 默认地区优先
+windows.servers.online {0} 个玩家在游戏中
+windows.servers.social {0} 个玩家在社区浏览中
+windows.loadout.header 更换武器搭配
+windows.loadout.class 职业
 windows.loadout.primary 主武器
 windows.loadout.primary.attach 配件
 windows.loadout.primary.reticle 准星
@@ -466,8 +466,8 @@ windows.loadout.color.hair 头发颜色
 windows.loadout.dye 衣服染色
 windows.loadout.pet 宠物
 windows.loadout.stat 击杀战绩卡
-windows.loadout.flag 国家或地区旗帜
-windows.mods.drop 将模组文件放在此处或单击
+windows.loadout.flag 国家和地区旗帜
+windows.mods.drop 将模组文件放在此处或点击
 windows.mods.paste 粘贴模组网址
 windows.mods.load 加载模组
 windows.mods.none 没有找到任何模组
@@ -479,13 +479,13 @@ windows.mods.publish 发布模组
 windows.mods.viewer 查看器
 windows.account.header 账户
 windows.account.recover 联系 <a>recovery@yendis.ch</a> 找回你的账户。
-windows.class.header 选择武器类别
+windows.class.header 选择职业
 windows.controls.header 更改控制
 windows.controls.forward 前
 windows.controls.backward 后
 windows.controls.left 左
 windows.controls.right 右
-windows.controls.reload 装填弹药
+windows.controls.reload 换弹
 windows.controls.aim1 瞄准
 windows.controls.shoot1 射击
 windows.controls.inspect 检视武器
@@ -495,9 +495,9 @@ windows.controls.crouch 下蹲
 windows.controls.prim 主武器
 windows.controls.swap 副武器
 windows.controls.melee 近战武器
-windows.controls.equip 装备
+windows.controls.equip 拾取
 windows.controls.chat 文字聊天
-windows.controls.voice 语言聊天
+windows.controls.voice 语音聊天
 windows.controls.list 玩家列表
 windows.controls.board 排行榜
 windows.controls.interact 交互
@@ -521,7 +521,7 @@ windows.controls.streak2 连杀奖励 3
 windows.controls.streak3 连杀奖励 4
 windows.controls.streak4 连杀奖励 5
 windows.controls.prop 选择物体（长按）
-windows.controls.premium0 穿墙飞行模式
+windows.controls.premium0 飞天穿墙模式
 windows.controls.premium1 无敌模式
 windows.controls.premium2 自杀
 windows.controls.premium3 超高伤害
@@ -531,12 +531,12 @@ windows.controls.dev2 开发者专用键 3
 windows.controls.dev3 开发者专用键 4
 windows.controls.reset 重置进度并回到起点（仅限跑酷和速通模式）
 windows.controls.pretend 隐藏游戏
-windows.host.header 创建自定义游戏房间
+windows.host.header 创建自定义服务器
 windows.host.maps 服务器设置
 windows.host.cmaps 社区地图
 windows.host.raw 原始游戏数据
 windows.host.modes 选择游戏模式
-windows.host.classes 选择武器类别
+windows.host.classes 选择职业
 windows.host.settings 服务器设置
 windows.host.preset 创建默认设置
 windows.host.preset.load 加载默认设置中…
@@ -559,7 +559,7 @@ windows.publish.map.update 发布或更新
 windows.publish.map.login 登录以创建并上传地图！
 windows.theatre.header 影院模式
 windows.theatre.record 启用录制
-windows.theatre.key 录制按键
+windows.theatre.key 录制键
 windows.clans.header 战队
 windows.clans.members {0} 个战队成员
 windows.clans.requests 申请
@@ -572,10 +572,10 @@ windows.clans.join 加入战队
 windows.clans.login 登录以创建并加入战队！
 windows.store.header 商店
 windows.store.spin {0} 转盘
-windows.store.agree 通过此次购买，您将同意 {0}条款及细则
+windows.store.agree 确认购买即表示您同意 {0}条款及细则
 windows.store.purchase 购买 KR
 windows.store.voucher 兑换代金券
-windows.store.voucherinfo 从指定主播和活动获取代金券
+windows.store.voucherinfo 从指定主播和游戏活动获取代金券
 windows.store.market 市场
 windows.store.market2 Krunker 市场
 windows.store.premium 购买会员
@@ -619,16 +619,16 @@ windows.publish.mod.update 发布或更新
 windows.publish.mod.login 登录以创建并上传模组！
 windows.secondary.header 选择副武器
 windows.secondary.unlocked 已解锁
-windows.secondary.customOnly 仅限自定义房间
+windows.secondary.customOnly 仅限自定义服务器
 windows.secondary.premiumOnly 仅限会员
-windows.secondary.req 需要至少 {0} 级
+windows.secondary.req 需要 {0} 级
 windows.advertise.header 广告
 windows.support.header 支援
 windows.players.header 玩家列表
 windows.players.none 当前没有在线玩家…
 windows.join.header 加入
-windows.join.code 输入游戏房间网址
-windows.client.header 安装游戏客户端
+windows.join.code 输入服务器网址或代码
+windows.client.header 安装客户端
 windows.client.windows Windows 客户端
 windows.client.mac macOS 客户端
 windows.client.linux Linux 客户端
@@ -650,9 +650,9 @@ mod.loading 加载模组中…
 mod.invalid 模组文件不可用！
 matchmaker.full 已满
 matchmaker.full2 此服务器人数已满。
-matchmaker.updating 游戏更新中
+matchmaker.updating 游戏更新中…
 matchmaker.invalid 此服务器已关闭或不存在。
-matchmaker.none 服务器负载已达到上限
+matchmaker.none 服务器负载已达到上限。
 adblocker 禁用广告拦截器以获得免费 KR 转盘。
 ad-failed 广告加载失败，请稍后重试。
 streamers.views {0} 个观众
@@ -661,8 +661,8 @@ error.extentions 如果您有任何浏览器扩展程序，请禁用它们
 error.seek 点此搜索新的游戏
 custom.map.upload.limit 上传失败，地图数据大小上限为五十万个字符
 custom.map.missing 请选择至少一种地图
-custom.mode.missing 请选择至少一种模式
-custom.class.missing 请选择至少一种武器类别
+custom.mode.missing 请选择至少一种游戏模式
+custom.class.missing 请选择至少一种职业
 server.config.maxPlayers 最大玩家数
 server.config.minPlayers 最少玩家数
 server.config.lives 玩家生命数
@@ -703,11 +703,11 @@ server.config.wallJP 墙壁跳跃力量
 server.config.autoJump 自动跳跃
 server.config.bDrop 子弹下坠
 server.config.thirdPerson 第三人称
-server.config.requireCaptcha 需要 Captcha 验证
+server.config.requireCaptcha 启用人机验证
 server.config.nameTags 隐藏名牌
 server.config.kCams 死亡视角
 server.config.noReload 无需换弹
-server.config.private 私人房间
+server.config.private 私人服务器
 server.config.krRewards KR 奖励
 server.config.forceDefault 强制使用默认设置
 server.config.warmupTime 热身时间（分钟）
@@ -716,27 +716,27 @@ server.config.objtvTime 得分点存在时间（分钟）
 server.config.forceSpawn 自动重生时间（秒）
 server.config.intermTmr 中场休息时间（秒）
 server.config.scoreLimit 得分上限
-server.config.keepTScore 保留队伍分数
-server.config.forceC 强制使用特定武器
+server.config.keepTScore 保持队伍分数
+server.config.forceC 强制使用特定职业
 server.config.logTim 通关计时（速通、跑酷）
 server.config.hitBoxPad 玩家碰撞箱大小
 server.config.hpRegen 启用回血
 server.config.disableB 禁用地图边界
-server.config.throwMel 启用投掷近战武器
+server.config.throwMel 启用近战武器投掷
 server.config.noCosm 禁用服饰
 server.config.tstCmp Faceit 测试模式
-server.config.limitClasses 仅限一人一武器类别
+server.config.limitClasses 每个职业限一人
 server.config.tmSize 团队大小
-server.config.fallDmg 启用摔落伤害
+server.config.fallDmg 摔落伤害
 server.config.fallDmgThr 摔落伤害阈值
 server.config.noDraws 禁用平局
 server.config.bstOfR 最佳玩家
 server.config.chrgWeps 启用蓄力投掷
 social.login 登录或注册
 social.login.failed 登录失败
-social.login.buy 登录后购买
-social.login.sell 登录后出售
-social.login.gift 登录后赠送
+social.login.buy 登录以购买
+social.login.sell 登录以出售
+social.login.gift 登录以赠送
 social.login.proccessing 登录中…
 social.since 始于
 social.user.maps 此用户地图
@@ -747,11 +747,11 @@ social.market.price.low 最低价格
 social.market.price.list 输入价格
 social.market.searching 搜索中
 social.market.listed {0} 前上架
-social.market.list 发布该物品
-social.market.unlist 下架该物品
+social.market.list 发布物品
+social.market.unlist 下架物品
 social.market.unlisting 下架物品中…
 social.market.posting 发布物品中…
-social.market.req 需要至少 {0} 级
+social.market.req 需要 {0} 级
 social.market.cant KR 不足
 social.market.purchase 购买
 social.market.fee 无上架费用
@@ -767,7 +767,7 @@ social.market.spray 涂鸦
 social.market.dye 衣服染色
 social.market.none 没有找到任何物品
 social.market.login 您必须先登录。
-social.market.grace {0} 秒后上架
+social.market.grace {0} 后上架
 social.market.sort 筛选或排序
 social.market.filter 搜索
 social.market.sort2 排序
@@ -778,26 +778,26 @@ social.market.fee.gift 无费用
 social.market.gift 赠送 KR
 social.market.gift.msg 说点什么呢…
 respawn.auto 您将会在 {0} 秒内重生
-custom.host.ranked 排位赛中无法创建自定义房间。
+custom.host.ranked 排位赛中无法创建自定义服务器。
 funds.insufficient 资金余额不足
 funds.out 您似乎没有 KR 了
 custom.passcode.long 密码过长
-custom.passcode.input 请输入此房间密码以加入游戏
+custom.passcode.input 请输入此服务器密码以加入游戏
 custom.tryagain 请重试。
 purchase.kr.success 已添加 {0} KR 到您的账户
 limited.purchase.ask 您确定要以 {1} KR 购买 [{0}] 吗？
 limited.purchase.success 已添加 {0} 到您的库存
 pretend.exit 再次点击 [{0}] 退出
 settings.loaded 设置已加载
-settings.loaded.none 该设置为空白
+settings.loaded.none 没有找到任何设置
 account.login.required 您必须先登录
 account.banned.hack 此账户因使用外挂而被封禁
 account.banned.appeal 如果您想提出上诉，请联系：
 account.delete 您可以在此申请删除您的账户。请注意！如果此申请在14天内没有被取消，此账户的所有数据将会被永久抹除。
-account.delete.request 您确定要申请删除您的账户吗？
-account.delete.cancel 您确定要取消账户删除申请吗？
+account.delete.request 您确定要申请删除此账户吗？
+account.delete.cancel 您确定要取消申请删除此账户吗？
 spin.free.available 立即领取免费 KR！
-spin.free.claim 此免费 KR 转盘仅可在每小时完成一局比赛后获得。
+spin.free.claim 您必须在每小时内完成一场游戏才可以领取此转盘。
 spin.free.disable 您可以在设置中的「常规」选项卡里禁用此弹窗。
 mod.reset.0 重生后该设置将会生效。
 mod.reset.1 地图物体不会被重置。
@@ -806,10 +806,10 @@ stats.assists 助攻次数
 stats.nukes 使用核弹次数
 stats.melee 近战武器击杀次数
 stats.fistkills 空手击杀次数
-stats.thrownkills 投掷近战武器击杀次数
+stats.thrownkills 投掷击杀次数
 stats.headshots 暴击次数
 stats.wallbangs 穿墙击杀次数
-stats.sprays 涂鸦次数
+stats.sprays 涂鸦放置次数
 windows.host.default.settings 使用地图默认设置以允许玩家保存他们的进度及最高分数
 windows.host.default.commands * 房主命令 (/noclip, /god, /smite, /kill) 会在此模式中被禁用。
 windows.host.rewards 启用 KR 奖励将强制服务器使用地图默认设置，以允许玩家从此地图获得 KR：
@@ -824,16 +824,16 @@ windows.clan.delete 您确定要解散此战队吗？
 windows.clan.kick 您确定要从此战队中踢出 {0} 吗？
 windows.store.premium.purchase 您确定要购买 {0} 天的会员吗？
 windows.store.premium.gift 您确定要赠送「{0}」{1} 天的会员吗？
-windows.playerlist.ban 您确定要从此房间封禁并踢出 {0} 吗？
+windows.playerlist.ban 您确定要从此服务器封禁并踢出 {0} 吗？
 windows.playerlist.flag 您确定要标记 {0} 为外挂用户吗？
 windows.playerlist.unflag 您确定要取消标记 {0} 吗？
 windows.playerlist.punish 您确定要对 {0} 采取措施吗？
 item.view.open 打开模型查看器
 item.view.more 更多信息
 item.sell.cant 此物品不可被出售。
-item.sell.quick 您确定要闪售 {0} 吗？
+item.sell.quick 您确定要快速出售 {0} 吗？
 social.profile.stats 综合战绩
-social.profile.class 武器类别战绩
+social.profile.class 职业战绩
 social.profile.sales 出售记录
 social.profile.sales.market 市场出售额
 social.profile.skins [{0}] 个物品
