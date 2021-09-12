@@ -94,7 +94,7 @@ settings.network.lagComp 延迟补偿
 settings.popup.header 弹窗
 settings.popup.freeKRPop 显示免费 KR 弹窗
 settings.experimental.header 实验性
-settings.experimental.optNetwork 网络优化
+settings.experimental.optNetwork 网络最优化
 settings.experimental.aimFreezeFix 射击冻结修正（射击时限制帧率）
 settings.experimental.mouseFlickFix 鼠标反应过激修正（限制轮询率）
 settings.experimental.shaderRendering 实例化渲染
@@ -181,7 +181,7 @@ settings.interface.hp 动态血条
 settings.interface.dmgScale 伤害显示缩放比例
 settings.interface.killf 显示击杀列表
 settings.interface.ping 显示网络延时
-settings.interface.net-stats 显示网络状况
+settings.interface.net-stats 显示网络统计数据
 settings.interface.fps 显示帧数
 settings.interface.deaths 显示死亡数
 settings.interface.kd 显示战损率
