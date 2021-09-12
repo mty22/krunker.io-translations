@@ -74,7 +74,7 @@ app.spectate.mobile TAP UPANG MAPANOOD
 app.play.controller PINDUTIN ang SIMULA
 app.spectate.controller MAGSIMULANG MANOOD
 purchase.error May naganap na error
-purchase.error.click dito</a> subukan multi!
+purchase.error.click dito</a> subukan muli!
 purchase.error.limit Maaaring lumagpas ka sa iyong pang-araw-araw na limitasyon sa transaksyon. 
 settings.reset Mag-reset
 settings.reset.confirm Sigurado ka bang mag-reset ng inyong settings?
@@ -240,7 +240,7 @@ settings.crosshair.gap Gap
 settings.crosshair.dot Tuldok
 settings.crosshair.opacity.use Gumamit ng Pasadyang Opacity
 settings.crosshair.opacity.custom Pasadyang Opacity
-settings.crosshairm.header Crosshair (Throwing)
+settings.crosshairm.header Crosshair (Pagbabato)
 settings.crosshairm.type Uri 
 settings.crosshairm.type.1 Hugis
 settings.crosshairm.type.2 Larawan
@@ -259,7 +259,7 @@ settings.crosshairm.always Palaging Ipakita
 settings.crosshairm.color Kulay
 settings.crosshairm.shadow.color Shadow Color
 settings.crosshairm.shadow.thickness Shadow Thickness
-settings.crosshairm.size Size
+settings.crosshairm.size Laki
 settings.crosshairm.thickness Thickness
 settings.crosshairm.gap Gap
 settings.crosshairm.dot Tuldok
@@ -342,8 +342,8 @@ settings.viewmodel.fps FOV ng Armas
 settings.viewmodel.bobbing Pagtalbog ng Armas
 settings.viewmodel.leaning Pagsandal ang Armas
 settings.viewmodel.show.primary Ipakita ang Pangunahing Armas
-settings.viewmodel.show.secondary Ipakita ang Pandagdag Armas
-settings.viewmodel.roundArms Pa-bilog na braso
+settings.viewmodel.show.secondary Ipakita ang Sekundarya
+settings.viewmodel.roundArms Pa-silindro na braso
 settings.viewmodel.show.melee Ipakita ang Patalim
 settings.viewmodel.show.ads Itago ang armas kapag naka-ADS
 settings.viewmodel.toggleAim i-toggle ang pag-aim
@@ -693,7 +693,7 @@ server.config.t3Dmg Damage ng Pangkat 3
 server.config.t4Dmg Damage ng Pangkat 4
 server.config.t5Dmg Damage ng Pangkat 5
 server.config.selTeam Piliin ang Pangkat 
-server.config.allowSpect Panonood
+server.config.allowSpect Panonood ng Laro
 server.config.killRewards Gantimpala kapag nakapatay
 server.config.headshotOnly Mga headshot Lamang
 server.config.noSecondary Huwag gumamit ng mga Sekundarya
@@ -791,7 +791,7 @@ pretend.exit Pindutin muli ang [{0}] upang mag-exit
 settings.loaded Mga settings na-load
 settings.loaded.none Walang nahanap na mga settings
 account.login.required Kailangang naka-log in
-account.banned.hack Ipinagbawal ang Account na ito dahil sa Pangdaraya o kayapag-hack
+account.banned.hack Ipinagbawal ang Account na ito dahil sa pandaraya o kaya pag-hack
 account.banned.appeal Kung nais mong iapela ang iyong pagbabawal na maglaro, makipag-ugnay sa: appeals@yendis.ch
 account.delete Maaari kang humiling na tanggalin ang iyong account, kung ang kahilingan ay hindi nakansela sa loob ng 14 araw ang account at ang lahat ng nauugnay na data ay permanenteng aalisin.
 account.delete.request Sigurado ka bang nais mong humiling ng isang pagtanggal ng account?
@@ -804,11 +804,11 @@ mod.reset.1 Mga Bagay sa Mapa hindi ma-reset
 windows.profile.picture Palitan ang Larawan
 stats.assists Mga Pagtulong/Assist
 stats.nukes Mga Nuke
-stats.melee Melee Pagsaksak
+stats.melee Tinamaan ng talim
 stats.fistkills Pagbugbog
-stats.thrownkills Bumato ng Patalim
-stats.headshots Mga Headshot
-stats.wallbangs Mga Wallbang
+stats.thrownkills Mga binatuhan ng patalim
+stats.headshots Mga headshot
+stats.wallbangs Mga wallbang
 stats.sprays Nilagay na spray
 windows.host.default.settings Ang pagpapagana ng Default na Mga Setting ay nagbibigay-daan para sa pagtatago ng Player Progress at Highscores
 windows.host.default.commands * Ang Mga Command ng Host ay Hindi Pinapagana sa mode na ito: / noclip / god / smite atbp
