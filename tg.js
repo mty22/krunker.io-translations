@@ -507,8 +507,8 @@ windows.controls.drop Patak
 windows.controls.wepVis I-toggle ang Visibility ng Armas
 windows.controls.kickVoteY Tanggalin mula sa laro [Oo]
 windows.controls.kickVoteN Tanggalin mula sa laro [Hindi]
-windows.controls.kpdVoteY Botohin sa KPD [Oo]
-windows.controls.kpdVoteN Botohin sa KPD [Hindi]
+windows.controls.kpdVoteY Bumoto sa KPD [Oo]
+windows.controls.kpdVoteN Bumoto sa KPD [Hindi]
 windows.controls.specFree I-toggle ang Free Cam
 windows.controls.specObj I-toggle ang Objective Cam
 windows.controls.specFirst I-toggle ang First Person
