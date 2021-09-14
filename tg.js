@@ -245,7 +245,7 @@ settings.crosshairm.type Uri
 settings.crosshairm.type.1 Hugis
 settings.crosshairm.type.2 Larawan
 settings.crosshairm.type.3 Presisyon
-settings.crosshairm.style Istilo
+settings.crosshairm.style Stilo
 settings.crosshairm.style.0 Krus
 settings.crosshairm.style.1 Pabilog 
 settings.crosshairm.style.2 Punong Pabilog
