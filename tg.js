@@ -255,7 +255,7 @@ settings.crosshairm.image Image
 settings.crosshairm.image.paste Crosshair Image
 settings.crosshairm.image.width Image Width
 settings.crosshairm.image.height Image Height
-settings.crosshairm.always Palaging Ipakita
+settings.crosshairm.always Ipakita Palagi
 settings.crosshairm.color Kulay
 settings.crosshairm.shadow.color Shadow Color
 settings.crosshairm.shadow.thickness Shadow Thickness
