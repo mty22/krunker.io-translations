@@ -1,5 +1,5 @@
 module.exports = `
-menu.btn.ranked rango
+menu.btn.ranked ranggo
 menu.btn.shop Tindahan
 menu.btn.social Komunidad
 menu.btn.maps Laro at Mapa
@@ -507,8 +507,8 @@ windows.controls.drop Patak
 windows.controls.wepVis I-toggle ang Visibility ng Armas
 windows.controls.kickVoteY Tanggalin mula sa laro [Oo]
 windows.controls.kickVoteN Tanggalin mula sa laro [Hindi]
-windows.controls.kpdVoteY Vote sa KPD [Oo]
-windows.controls.kpdVoteN Vote sa KPD [Hindi]
+windows.controls.kpdVoteY Botohin sa KPD [Oo]
+windows.controls.kpdVoteN Botohin sa KPD [Hindi]
 windows.controls.specFree I-toggle ang Free Cam
 windows.controls.specObj I-toggle ang Objective Cam
 windows.controls.specFirst I-toggle ang First Person
@@ -582,7 +582,7 @@ windows.store.premium Bumili ng Premium
 windows.store.premium2 Krunker Premium
 windows.store.buyP Pumili ng isang Display name
 windows.store.buy Bumili at Magbenta ng mga kagamitan
-windows.store.wheels Mga Prize Wheels
+windows.store.wheels Papremyo
 windows.store.unlock I-unlock ang mga bagong disenyo ng mga armas at kagamitan
 windows.store.amount {0} KR sa account
 windows.store.login upang bumili at mag-unlock ng mga item mula sa tindahan!
@@ -642,7 +642,7 @@ windows.chall.header Mga Challenge
 windows.chall.login upang makumpleto ang mga challenge!
 thumbnail.upload.limit Failed. {0}kb Thumbnail Limit
 image.upload.limit Failed. {0}kb ang Limitasyon ng Larawan
-thumbnail.upload.error Thumbnail Error
+thumbnail.upload.error Nag-error ang Thumbnail
 mod.extracting Kumukuha ng {0} / {1}
 mod.disabled hindi pinagana ang mga mod
 mod.error Error sa mod!
