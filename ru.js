@@ -244,7 +244,7 @@ settings.crosshairm.header Crosshair (Throwing)
 settings.crosshairm.type Type
 settings.crosshairm.type.1 Shapes
 settings.crosshairm.type.2 Image
-settings.crosshairm.type.3 P:ision
+settings.crosshairm.type.3 Precision
 settings.crosshairm.style Style
 settings.crosshairm.style.0 Cross
 settings.crosshairm.style.1 Hollow Circle
