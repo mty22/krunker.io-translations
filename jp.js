@@ -88,17 +88,16 @@ settings.local.header 現地化 <span id="requiresRestart"><span style="color: #
 settings.local.region デフォルト地域
 settings.local.lang 言語
 settings.network.header ネットワーク
-settings.network.sendRate 高ティックレート
 settings.network.netRerouting 自動ルーティング (pingに影響します)
+settings.network.netRate ネットワークレート (Hz)
 settings.network.lagComp ラグ補正
-settings.network.hitReg 試験的な当たり判定
 settings.popup.header ポップアップ
 settings.popup.freeKRPop Free KRのポップアップを表示
 settings.experimental.header テスト中の設定
+settings.experimental.optNetwork ネットワークの最適化
 settings.experimental.aimFreezeFix エイム中のフリーズを修正
 settings.experimental.mouseFlickFix エイム飛びの補正
 settings.experimental.shaderRendering インスタンスレンダリング
-settings.experimental.staticRendering 静的レンダリング
 settings.client.header クライアント
 settings.client.unlimitedFrames FPS解放
 settings.client.gameCap ゲームキャプチャー
@@ -212,9 +211,11 @@ settings.interface.healthNum ネームタグ HP数
 settings.interface.healthColT ネームタグ HP色（チーム）
 settings.interface.healthColE ネームタグ HP色（敵）
 settings.interface.xpBarCol XPバーの色
+settings.interface.xpBarCol2 XPバーカラーの色2
 settings.interface.xpBarOpac XPバーの不透明度
 settings.crosshair.header クロスヘア
 settings.crosshair.type タイプ
+settings.crosshair.type.1 ダイナミック
 settings.crosshair.type.2 カスタム
 settings.crosshair.type.3 レイヤード
 settings.crosshair.type.4 画像
@@ -227,6 +228,8 @@ settings.crosshair.style.3 四角
 settings.crosshair.style.4 四角（塗りつぶし）
 settings.crosshair.image 画像
 settings.crosshair.image.paste クロスヘア画像
+settings.crosshair.image.width 画像の幅
+settings.crosshair.image.height 画像の高さ
 settings.crosshair.always 常時表示
 settings.crosshair.color 色
 settings.crosshair.shadow.color 影の色
@@ -237,6 +240,31 @@ settings.crosshair.gap ギャップ
 settings.crosshair.dot ドット
 settings.crosshair.opacity.use カスタム不透明度を使用
 settings.crosshair.opacity.custom カスタム不透明度
+settings.crosshairm.header クロスヘア（投擲物）
+settings.crosshairm.type タイプ
+settings.crosshairm.type.1 カスタム
+settings.crosshairm.type.2 画像
+settings.crosshairm.type.3 プレシジョン
+settings.crosshairm.style スタイル
+settings.crosshairm.style.0 クロス
+settings.crosshairm.style.1 円
+settings.crosshairm.style.2 円（塗りつぶし）
+settings.crosshairm.style.3 四角
+settings.crosshairm.style.4 四角（塗りつぶし）
+settings.crosshairm.image 画像
+settings.crosshairm.image.paste クロスヘア画像
+settings.crosshairm.image.width 画像の幅
+settings.crosshairm.image.height 画像の高さ
+settings.crosshairm.always 常時表示
+settings.crosshairm.color 色
+settings.crosshairm.shadow.color 影の色
+settings.crosshairm.shadow.thickness 影の濃さ
+settings.crosshairm.size サイズ
+settings.crosshairm.thickness 大きさ
+settings.crosshairm.gap ギャップ
+settings.crosshairm.dot ドット
+settings.crosshairm.opacity.use カスタム不透明度を使用
+settings.crosshairm.opacity.custom カスタム不透明度
 settings.hitmarker.header ヒットマーカー
 settings.hitmarker.color 色
 settings.hitmarker.kcolor キル色
@@ -261,6 +289,10 @@ settings.gameprivacy.header ゲームプレイプライバシー
 settings.gameprivacy.streamer 配信モード
 settings.gameprivacy.anon 匿名モード
 settings.gameprivacy.hideGameTitle ゲームタイトルを隠す
+settings.gameprivacy.verified 公認バッジを表示
+settings.gameprivacy.premium プレミアムバッジを表示
+settings.gameprivacy.partner パートナーバッジを表示
+settings.gameprivacy.rank ランクバッジを表示
 settings.gameplay.header ゲームプレイ
 settings.gameplay.gpSetts ゲームプレイ設定
 settings.gameplay.sensitivityX X感度
@@ -295,6 +327,8 @@ settings.audio.header オーディオ
 settings.audio.sound マスターボリューム
 settings.audio.ambient 環境音ボリューム
 settings.audio.voice ボイスチャットボリューム
+settings.audio.input マイク入力
+settings.audio.mic マイク音量
 settings.audio.weps 銃声ボリューム
 settings.audio.player プレイヤーボリューム
 settings.audio.skin 装飾品ボリューム
@@ -324,6 +358,7 @@ settings.viewmodel.weapSwapY 武器切り替え動作のY座標
 settings.viewmodel.weapReloadY リロード動作のY座標
 settings.viewmodel.yOffADS ADS時のY座標
 settings.viewmodel.adsFovMlt ADS時のFOV倍率
+settings.viewmodel.toggleADS ADS切り替え
 settings.editing.header 編集
 settings.editing.health.high HUD 高HP
 settings.editing.health.low HUD 低HP
@@ -343,6 +378,7 @@ settings.editing.progOffX 進捗バーX座標
 settings.editing.progOffY 進捗バーY座標
 settings.editing.progRot 進捗バーの角度
 settings.editing.progm.color バーの色
+settings.editing.progmo.color オーバーチャージ時の色
 settings.editing.progm.opacity バーの透明度
 settings.editing.progm.scale バーの大きさ
 settings.editing.progm.shadow バーの影
@@ -398,6 +434,8 @@ settings.mods.damage.paste ダメージオーバーレイ画像URL
 settings.mods.overlay ゲームオーバーレイ画像
 settings.mods.overlay.paste ゲームオーバーレイ画像URL
 settings.social.region 地域の統計
+settings.social.bg 背景色
+settings.social.bg.paste 背景画像のURL
 windows.settings.header ゲーム設定
 windows.mail.header Krunkerメール
 windows.servers.header サーバー
@@ -448,8 +486,8 @@ windows.controls.backward 後方
 windows.controls.left 左
 windows.controls.right 右
 windows.controls.reload リロード
-windows.controls.aim 狙う
-windows.controls.shoot 撃つ
+windows.controls.aim1 狙う
+windows.controls.shoot1 撃つ
 windows.controls.inspect 調べる
 windows.controls.spray スプレー
 windows.controls.jump ジャンプ
@@ -475,11 +513,14 @@ windows.controls.specFree フリーカメラ切り替え
 windows.controls.specObj オブジェクティブカメラ切り替え
 windows.controls.specFirst 一人称視点切り替え
 windows.controls.specNames ユーザー名表示切り替え
+windows.controls.specFocus プレイヤーのフォーカスを切り替え
+windows.controls.hidePlayers プレイヤーを非表示
 windows.controls.streak0 ストリーク1
 windows.controls.streak1 ストリーク2
 windows.controls.streak2 ストリーク3
 windows.controls.streak3 ストリーク4
 windows.controls.streak4 ストリーク5
+windows.controls.prop 物を選択（ホールド）
 windows.controls.premium0 ノークリップ
 windows.controls.premium1 ゴッドモード
 windows.controls.premium2 キル
@@ -689,7 +730,8 @@ server.config.tmSize チーム人数
 server.config.fallDmg 落下ダメージ
 server.config.fallDmgThr 落下ダメージしきい値
 server.config.noDraws 引き分けの無効化
-server.config.bstOfR ベスト・オブ
+server.config.bstOfR 最大試合数
+server.config.chrgWeps チャージ可能な武器
 social.login ログイン/登録
 social.login.failed ログインに失敗しました
 social.login.buy ログインして購入
