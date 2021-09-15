@@ -478,7 +478,7 @@ windows.mods.load.header Загрузить Моды
 windows.mods.publish Опубликовать Мод
 windows.mods.viewer Обзор
 windows.account.header Аккаунт
-windows.account.recover Чтобы восстановить аккаунт, свяжитесь с <a>krunker@yendis.ch</a>
+windows.account.recover Чтобы восстановить аккаунт, свяжитесь с <a>recovery@yendis.ch</a>
 windows.class.header Выбрать Класс
 windows.controls.header Управление
 windows.controls.forward Вперед
