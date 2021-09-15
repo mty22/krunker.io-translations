@@ -94,7 +94,7 @@ settings.network.lagComp Compensazione Lag
 settings.popup.header Popups
 settings.popup.freeKRPop Mostra Popup KR gratuiti
 settings.experimental.header Sperimentali
-settings.experimental.optNetwork Optimized Networking
+settings.experimental.optNetwork Rete ottimizzata 
 settings.experimental.aimFreezeFix Risolvi mirino bloccato
 settings.experimental.mouseFlickFix Risolvi Flick del mouse
 settings.experimental.shaderRendering Rendering a istanze
@@ -211,11 +211,11 @@ settings.interface.healthNum Numero punti vita
 settings.interface.healthColT Colore barra PV della squadra
 settings.interface.healthColE Colore barra PV del nemico
 settings.interface.xpBarCol Colore barra ESP.
-settings.interface.xpBarCol2 XP Bar Color 2
+settings.interface.xpBarCol2 Colore barra ESP 2
 settings.interface.xpBarOpac Opacità barra ESP.
 settings.crosshair.header Mirino
 settings.crosshair.type Tipo
-settings.crosshair.type.1 Dynamic
+settings.crosshair.type.1 Dinamico
 settings.crosshair.type.2 Personalizzato
 settings.crosshair.type.3 Stratificato
 settings.crosshair.type.4 Immagine
@@ -228,8 +228,8 @@ settings.crosshair.style.3 Quadrato vuoto
 settings.crosshair.style.4 Quadrato pieno
 settings.crosshair.image Immagine
 settings.crosshair.image.paste Immagine mirino
-settings.crosshair.image.width Image Width
-settings.crosshair.image.height Image Height
+settings.crosshair.image.width Larghezza immagine
+settings.crosshair.image.height Altezza immagine
 settings.crosshair.always Mostra sempre
 settings.crosshair.color Colore
 settings.crosshair.shadow.color Colore ombra
@@ -240,31 +240,31 @@ settings.crosshair.gap Divergenza
 settings.crosshair.dot Punto
 settings.crosshair.opacity.use Usa opacità personalizzata
 settings.crosshair.opacity.custom Opacità personalizzata
-settings.crosshairm.header Crosshair (Throwing)
-settings.crosshairm.type Type
-settings.crosshairm.type.1 Shapes
-settings.crosshairm.type.2 Image
-settings.crosshairm.type.3 Precision
-settings.crosshairm.style Style
-settings.crosshairm.style.0 Cross
-settings.crosshairm.style.1 Hollow Circle
-settings.crosshairm.style.2 Solid Circle
-settings.crosshairm.style.3 Hollow Square
-settings.crosshairm.style.4 Solid Square
-settings.crosshairm.image Image
-settings.crosshairm.image.paste Crosshair Image
-settings.crosshairm.image.width Image Width
-settings.crosshairm.image.height Image Height
-settings.crosshairm.always Always Show
-settings.crosshairm.color Color
-settings.crosshairm.shadow.color Shadow Color
-settings.crosshairm.shadow.thickness Shadow Thickness
-settings.crosshairm.size Size
-settings.crosshairm.thickness Thickness
-settings.crosshairm.gap Gap
-settings.crosshairm.dot Dot
-settings.crosshairm.opacity.use Use Custom Opacity
-settings.crosshairm.opacity.custom Custom Opacity
+settings.crosshairm.header Crosshair (Lancio)
+settings.crosshairm.type Tipi
+settings.crosshairm.type.1 Forme
+settings.crosshairm.type.2 Immagine
+settings.crosshairm.type.3 Precisione
+settings.crosshairm.style Stile
+settings.crosshairm.style.0 Croce
+settings.crosshairm.style.1 Cerchio vuoto
+settings.crosshairm.style.2 Cerchio pieno
+settings.crosshairm.style.3 Quadrato vuoto
+settings.crosshairm.style.4 Quadrato pieno
+settings.crosshairm.image Immagine
+settings.crosshairm.image.paste Immagine del mirino
+settings.crosshairm.image.width Larghezza immagine
+settings.crosshairm.image.height Altezza immagine
+settings.crosshairm.always Mostra sempre
+settings.crosshairm.color Colore
+settings.crosshairm.shadow.color Colore ombra
+settings.crosshairm.shadow.thickness Spessore ombra
+settings.crosshairm.size Dimensione
+settings.crosshairm.thickness Spessore
+settings.crosshairm.gap Distanza
+settings.crosshairm.dot Punto
+settings.crosshairm.opacity.use Utilizza opacità personalizzata
+settings.crosshairm.opacity.custom Personalizza opacità
 settings.hitmarker.header Hitmarker
 settings.hitmarker.color Colore
 settings.hitmarker.kcolor Colore uccisione
@@ -289,10 +289,10 @@ settings.gameprivacy.header Privacy gameplay
 settings.gameprivacy.streamer Modalità streamer
 settings.gameprivacy.anon Modalità anonima
 settings.gameprivacy.hideGameTitle Nascondi titolo gioco
-settings.gameprivacy.verified Show Verified Badge
-settings.gameprivacy.premium Show Premium Badge
-settings.gameprivacy.partner Show Partner Badge
-settings.gameprivacy.rank Show Ranked Badge
+settings.gameprivacy.verified Mostra badge verificato
+settings.gameprivacy.premium Mostra badge premium
+settings.gameprivacy.partner Mostra badge partner 
+settings.gameprivacy.rank Mostra badge rango
 settings.gameplay.header Gameplay
 settings.gameplay.gpSetts Impostazioni Gameplay
 settings.gameplay.sensitivityX Sensibilità X
@@ -327,8 +327,8 @@ settings.audio.header Audio
 settings.audio.sound Volume principale
 settings.audio.ambient Volume ambiente
 settings.audio.voice Volume voce
-settings.audio.input Audio/Mic Input
-settings.audio.mic Mic Volume
+settings.audio.input Input Audio/Microfono
+settings.audio.mic Volume Microfono
 settings.audio.weps Volume arma
 settings.audio.player Volume giocatori
 settings.audio.skin Volume cosmetici
@@ -358,7 +358,7 @@ settings.viewmodel.weapSwapY Scambia posizione Y arma
 settings.viewmodel.weapReloadY Posizione Y in ricarica
 settings.viewmodel.yOffADS Posizione Y arma quando miri
 settings.viewmodel.adsFovMlt Intensità FOV quando miri
-settings.viewmodel.toggleADS Toggle Weapon ADS
+settings.viewmodel.toggleADS Attiva/Disattiva zoom mira
 settings.editing.header Editing
 settings.editing.health.high HUD Vita alta
 settings.editing.health.low HUD Vita bassa
@@ -378,7 +378,7 @@ settings.editing.progOffX Posizione X barra progresso
 settings.editing.progOffY Posizione Y barra progresso
 settings.editing.progRot Rotazione barra progresso
 settings.editing.progm.color Colore barra di carica
-settings.editing.progmo.color Overcharge Color
+settings.editing.progmo.color Colore sovraccarica
 settings.editing.progm.opacity Opacità barra di carica
 settings.editing.progm.scale Dimensione barra di carica
 settings.editing.progm.shadow Ombra barra di carica
@@ -434,8 +434,8 @@ settings.mods.damage.paste URL immagine overlay danni
 settings.mods.overlay Immagine overlay di gioco
 settings.mods.overlay.paste URL immagine overlay di gioco
 settings.social.region Statistiche della regione
-settings.social.bg Background Image
-settings.social.bg.paste Background Image URL
+settings.social.bg Immagine dello sfondo 
+settings.social.bg.paste URL immagine dello sfondo
 windows.settings.header Impostazioni di gioco
 windows.mail.header Mail Krunker
 windows.servers.header Servers
