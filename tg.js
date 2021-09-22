@@ -1,5 +1,5 @@
 module.exports = `
-menu.btn.ranked rango
+menu.btn.ranked ranggo
 menu.btn.shop Tindahan
 menu.btn.social Komunidad
 menu.btn.maps Laro at Mapa
@@ -74,7 +74,7 @@ app.spectate.mobile TAP UPANG MAPANOOD
 app.play.controller PINDUTIN ang SIMULA
 app.spectate.controller MAGSIMULANG MANOOD
 purchase.error May naganap na error
-purchase.error.click dito</a> subukan multi!
+purchase.error.click dito</a> subukan muli!
 purchase.error.limit Maaaring lumagpas ka sa iyong pang-araw-araw na limitasyon sa transaksyon. 
 settings.reset Mag-reset
 settings.reset.confirm Sigurado ka bang mag-reset ng inyong settings?
@@ -89,7 +89,7 @@ settings.local.region Default na Rehiyon
 settings.local.lang Wika
 settings.network.header Network
 settings.network.netRerouting Auto Routing (Nakakaapekto sa Ping)
-settings.network.netRate Network Rate (Hz)
+settings.network.netRate Network Rate sa (Hz)
 settings.network.lagComp Paghabol sa Lag
 settings.popup.header Mga Popups
 settings.popup.freeKRPop Ipakita ang Libreng KR Popup
@@ -240,29 +240,29 @@ settings.crosshair.gap Gap
 settings.crosshair.dot Tuldok
 settings.crosshair.opacity.use Gumamit ng Pasadyang Opacity
 settings.crosshair.opacity.custom Pasadyang Opacity
-settings.crosshairm.header Crosshair (Throwing)
-settings.crosshairm.type Type
-settings.crosshairm.type.1 Shapes
-settings.crosshairm.type.2 Image
-settings.crosshairm.type.3 Precision
-settings.crosshairm.style Style
-settings.crosshairm.style.0 Cross
-settings.crosshairm.style.1 Hollow Circle
-settings.crosshairm.style.2 Solid Circle
-settings.crosshairm.style.3 Hollow Square
-settings.crosshairm.style.4 Solid Square
+settings.crosshairm.header Crosshair (Pagbabato)
+settings.crosshairm.type Uri 
+settings.crosshairm.type.1 Hugis
+settings.crosshairm.type.2 Larawan
+settings.crosshairm.type.3 Presisyon
+settings.crosshairm.style Stilo
+settings.crosshairm.style.0 Krus
+settings.crosshairm.style.1 Pabilog 
+settings.crosshairm.style.2 Punong Pabilog
+settings.crosshairm.style.3 Parisukat
+settings.crosshairm.style.4 Punong Parisukat
 settings.crosshairm.image Image
 settings.crosshairm.image.paste Crosshair Image
 settings.crosshairm.image.width Image Width
 settings.crosshairm.image.height Image Height
-settings.crosshairm.always Always Show
-settings.crosshairm.color Color
+settings.crosshairm.always Ipakita Palagi
+settings.crosshairm.color Kulay
 settings.crosshairm.shadow.color Shadow Color
 settings.crosshairm.shadow.thickness Shadow Thickness
-settings.crosshairm.size Size
+settings.crosshairm.size Laki
 settings.crosshairm.thickness Thickness
 settings.crosshairm.gap Gap
-settings.crosshairm.dot Dot
+settings.crosshairm.dot Tuldok
 settings.crosshairm.opacity.use Use Custom Opacity
 settings.crosshairm.opacity.custom Custom Opacity
 settings.hitmarker.header Hitmarker
@@ -289,10 +289,10 @@ settings.gameprivacy.header Pagkapribado ng Laro
 settings.gameprivacy.streamer Mode ng Streamer
 settings.gameprivacy.anon Anonymous Mode
 settings.gameprivacy.hideGameTitle Itago ang Pamagat ng Laro
-settings.gameprivacy.verified Show Verified Badge
-settings.gameprivacy.premium Show Premium Badge
-settings.gameprivacy.partner Show Partner Badge
-settings.gameprivacy.rank Show Ranked Badge
+settings.gameprivacy.verified Ipakita ang Verification Badge
+settings.gameprivacy.premium Ipakita ang Premium Badge
+settings.gameprivacy.partner Ipakita ang Partnered Badge
+settings.gameprivacy.rank Ipakita ang Ranked Badge
 settings.gameplay.header Gameplay
 settings.gameplay.gpSetts Settings sa Gameplay
 settings.gameplay.sensitivityX X Sensitivity
@@ -342,8 +342,8 @@ settings.viewmodel.fps FOV ng Armas
 settings.viewmodel.bobbing Pagtalbog ng Armas
 settings.viewmodel.leaning Pagsandal ang Armas
 settings.viewmodel.show.primary Ipakita ang Pangunahing Armas
-settings.viewmodel.show.secondary Ipakita ang Pandagdag Armas
-settings.viewmodel.roundArms Pa-bilog na braso
+settings.viewmodel.show.secondary Ipakita ang Sekundarya
+settings.viewmodel.roundArms Pa-silindro na braso
 settings.viewmodel.show.melee Ipakita ang Patalim
 settings.viewmodel.show.ads Itago ang armas kapag naka-ADS
 settings.viewmodel.toggleAim i-toggle ang pag-aim
@@ -378,7 +378,7 @@ settings.editing.progOffX Posisyon ng Progress Bar sa X axis
 settings.editing.progOffY Posisyon ng Progress Bar sa Y axis
 settings.editing.progRot Rotasyon ng Progress Bar
 settings.editing.progm.color Kulay ng Charge Bar
-settings.editing.progmo.color Overcharge Color
+settings.editing.progmo.color Kulay ng cooldown sa armas (Overcharge)
 settings.editing.progm.opacity Diin ng Charge Bar
 settings.editing.progm.scale Pagsukat ng Bar Scale
 settings.editing.progm.shadow Anino ng Charge Bar
@@ -397,7 +397,7 @@ settings.editing.trailcol Kulay ng Bullet Trail
 settings.editing.ropecol Kulay ng Grappler Rope
 settings.editing.tracercol Kulay ng Bullet Tracer
 settings.editing.tracer Mga Bullet Tracer
-settings.editing.tracer.offset Tracer Offset
+settings.editing.tracer.offset Offset ng Tracer
 settings.shaders.header Mga Input ng Shader
 settings.mods.header Modipikasyon
 settings.mods.load Kasalukuyang Ginagamit na Mods
@@ -507,20 +507,20 @@ windows.controls.drop Patak
 windows.controls.wepVis I-toggle ang Visibility ng Armas
 windows.controls.kickVoteY Tanggalin mula sa laro [Oo]
 windows.controls.kickVoteN Tanggalin mula sa laro [Hindi]
-windows.controls.kpdVoteY Vote sa KPD [Oo]
-windows.controls.kpdVoteN Vote sa KPD [Hindi]
+windows.controls.kpdVoteY Bumoto sa KPD [Oo]
+windows.controls.kpdVoteN Bumoto sa KPD [Hindi]
 windows.controls.specFree I-toggle ang Free Cam
 windows.controls.specObj I-toggle ang Objective Cam
 windows.controls.specFirst I-toggle ang First Person
 windows.controls.specNames I-toggle ang mga pangalan
-windows.controls.specFocus Toggle Focus Player
-windows.controls.hidePlayers Hide Players
+windows.controls.specFocus I-toggle and pokus sa isang manlalaro
+windows.controls.hidePlayers Itago ang mga manlalaro
 windows.controls.streak0 Streak 1
 windows.controls.streak1 Streak 2
 windows.controls.streak2 Streak 3
 windows.controls.streak3 Streak 4
 windows.controls.streak4 Streak 5
-windows.controls.prop Select Prop (Hold)
+windows.controls.prop Piliin ang Prop (Hold M1)
 windows.controls.premium0 Naka noclip
 windows.controls.premium1 Naka godmode
 windows.controls.premium2 Patayin
@@ -582,7 +582,7 @@ windows.store.premium Bumili ng Premium
 windows.store.premium2 Krunker Premium
 windows.store.buyP Pumili ng isang Display name
 windows.store.buy Bumili at Magbenta ng mga kagamitan
-windows.store.wheels Mga Prize Wheels
+windows.store.wheels Papremyo
 windows.store.unlock I-unlock ang mga bagong disenyo ng mga armas at kagamitan
 windows.store.amount {0} KR sa account
 windows.store.login upang bumili at mag-unlock ng mga item mula sa tindahan!
@@ -642,7 +642,7 @@ windows.chall.header Mga Challenge
 windows.chall.login upang makumpleto ang mga challenge!
 thumbnail.upload.limit Failed. {0}kb Thumbnail Limit
 image.upload.limit Failed. {0}kb ang Limitasyon ng Larawan
-thumbnail.upload.error Thumbnail Error
+thumbnail.upload.error Nag-error ang Thumbnail
 mod.extracting Kumukuha ng {0} / {1}
 mod.disabled hindi pinagana ang mga mod
 mod.error Error sa mod!
@@ -693,7 +693,7 @@ server.config.t3Dmg Damage ng Pangkat 3
 server.config.t4Dmg Damage ng Pangkat 4
 server.config.t5Dmg Damage ng Pangkat 5
 server.config.selTeam Piliin ang Pangkat 
-server.config.allowSpect Panonood
+server.config.allowSpect Panonood ng Laro
 server.config.killRewards Gantimpala kapag nakapatay
 server.config.headshotOnly Mga headshot Lamang
 server.config.noSecondary Huwag gumamit ng mga Sekundarya
@@ -731,7 +731,7 @@ server.config.fallDmg Damage kapag nahuhulog
 server.config.fallDmgThr Threshold ng Fall Damage
 server.config.noDraws Walang Draws
 server.config.bstOfR Best Of...
-server.config.chrgWeps Chargable Weapons
+server.config.chrgWeps Mga Armas na may charging
 social.login Mag-parehistro
 social.login.failed Hindi gumana ang pag-login
 social.login.buy Mag-login upang Bumili
@@ -791,7 +791,7 @@ pretend.exit Pindutin muli ang [{0}] upang mag-exit
 settings.loaded Mga settings na-load
 settings.loaded.none Walang nahanap na mga settings
 account.login.required Kailangang naka-log in
-account.banned.hack Ipinagbawal ang Account na ito dahil sa Pangdaraya o kayapag-hack
+account.banned.hack Ipinagbawal ang Account na ito dahil sa pandaraya o kaya pag-hack
 account.banned.appeal Kung nais mong iapela ang iyong pagbabawal na maglaro, makipag-ugnay sa: appeals@yendis.ch
 account.delete Maaari kang humiling na tanggalin ang iyong account, kung ang kahilingan ay hindi nakansela sa loob ng 14 araw ang account at ang lahat ng nauugnay na data ay permanenteng aalisin.
 account.delete.request Sigurado ka bang nais mong humiling ng isang pagtanggal ng account?
@@ -804,11 +804,11 @@ mod.reset.1 Mga Bagay sa Mapa hindi ma-reset
 windows.profile.picture Palitan ang Larawan
 stats.assists Mga Pagtulong/Assist
 stats.nukes Mga Nuke
-stats.melee Melee Pagsaksak
+stats.melee Tinamaan ng talim
 stats.fistkills Pagbugbog
-stats.thrownkills Bumato ng Patalim
-stats.headshots Mga Headshot
-stats.wallbangs Mga Wallbang
+stats.thrownkills Mga binatuhan ng patalim
+stats.headshots Mga headshot
+stats.wallbangs Mga wallbang
 stats.sprays Nilagay na spray
 windows.host.default.settings Ang pagpapagana ng Default na Mga Setting ay nagbibigay-daan para sa pagtatago ng Player Progress at Highscores
 windows.host.default.commands * Ang Mga Command ng Host ay Hindi Pinapagana sa mode na ito: / noclip / god / smite atbp
