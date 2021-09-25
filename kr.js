@@ -11,7 +11,7 @@ menu.btn.invite.clicked 초대 링크 복사됨
 menu.btn.join 게임 참가
 menu.btn.host 만들기
 menu.btn.browser 브라우저
-generic.wait 잠시만 기다리세요...
+generic.wait 잠시만 기다려주세요...
 generic.loading 로딩 중...
 generic.none 없음
 generic.connecting 연결 중...
@@ -49,7 +49,7 @@ generic.games.lost 패배한 게임
 generic.timep 플레이 시간
 generic.kills 처치
 generic.deaths 사망
-generic.kdr KDR
+generic.kdr 킬/뎃 비율
 generic.time 플레이 시간
 generic.logout 로그아웃
 generic.logout.sessions 모든 세션에서 로그아웃
@@ -64,9 +64,9 @@ player.killed 나를 죽인 플레이어
 player.killstreak {0} on a {1} Kill Streak
 player.inactive 장시간 활동하지 않아 게임에서 퇴장되었습니다
 player.disconnect 연결 끊김
-timer.end {0}초 후 다음 라운드가 시작합니다
+timer.end {0}초 후 다음 라운드가 시작
 leaderboard.empty 빈 로비
-popup.checkpoint 체크포인트!
+popup.checkpoint 체크포인트
 app.play 플레이하려면 클릭하세요
 app.spectate 관전하려면 클릭하세요
 app.play.mobile 플레이하려면 누르세요
@@ -77,7 +77,7 @@ purchase.error 오류가 발생했습니다
 purchase.error.click 여기</a>를 눌러서 다시 시도하세요!
 purchase.error.limit 일일 트레이드 한도를 초과했습니다
 settings.reset 초기화
-settings.reset.confirm 설정을 초기화할까요?
+settings.reset.confirm 설정을 초기화하시겠어요?
 settings.import 불러오기
 settings.export 내보내기
 settings.none 설정을 찾지 못했습니다
@@ -99,7 +99,7 @@ settings.experimental.aimFreezeFix 에임 멈춤 현상 해결
 settings.experimental.mouseFlickFix 마우스 순간이동 문제 해결
 settings.experimental.shaderRendering 인스턴스 렌더링
 settings.client.header 클라이언트
-settings.client.unlimitedFrames FPS 무제한
+settings.client.unlimitedFrames 무제한 FPS
 settings.client.gameCap 게임 캡처
 settings.client.experimental 시험 기능
 settings.client.discordRPC Discord 연동
@@ -806,7 +806,7 @@ stats.assists 처치 지원
 stats.nukes 뉴크
 stats.melee 근접 처치
 stats.fistkills 격투 처치
-stats.thrownkills 투척 처치
+stats.thrownkills 칼 투척 처치
 stats.headshots 헤드샷
 stats.wallbangs 관통 처치
 stats.sprays 스프레이 수
