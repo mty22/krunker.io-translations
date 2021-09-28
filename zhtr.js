@@ -443,8 +443,8 @@ windows.servers.none 沒有可加入的伺服器…
 windows.servers.host + 建立伺服器
 windows.servers.hide 隱藏已滿的伺服器
 windows.servers.priority 預設地區優先
-windows.servers.online {0} 玩家在遊戲中
-windows.servers.social {0} 玩家在社群瀏覽中
+windows.servers.online {0} 個玩家在遊戲中
+windows.servers.social {0} 個玩家在社群瀏覽中
 windows.loadout.header 更換武器搭配
 windows.loadout.class 職業
 windows.loadout.primary 主要武器
@@ -581,7 +581,7 @@ windows.store.market2 Krunker 市場
 windows.store.premium 購買會員
 windows.store.premium2 Krunker 會員
 windows.store.buyP 自訂顯示名稱以及更多會員專用功能
-windows.store.buy 購買物品
+windows.store.buy 買賣物品盡在
 windows.store.wheels 輪盤
 windows.store.unlock 解鎖新武器和物品
 windows.store.amount 您的帳戶還剩餘 {0} KR
@@ -634,7 +634,7 @@ windows.client.mac macOS 安裝程式
 windows.client.linux Linux 安裝程式
 windows.ranked.header 排位賽
 windows.ranked.login 登入以進行排位賽！
-windows.ranked.level 您至少需要 <span color="black">{0} 級</span>以進行排位賽！目前您的等級是 <span color="black">{1} 級</span>。
+windows.ranked.level 您至少需要 <span color="black">{0} 級</span> 以進行排位賽！目前您的等級是 <span color="black">{1} 級</span>。
 windows.ranked.mode.r1v1 單排
 windows.ranked.mode.r2v2 雙排
 windows.ranked.mode.r4v4 四排
@@ -752,7 +752,7 @@ social.market.unlist 下架物品
 social.market.unlisting 下架物品中…
 social.market.posting 上架物品中…
 social.market.req 需要 {0} 級
-social.market.cant KR 餘額不足
+social.market.cant KR 不足
 social.market.purchase 購買
 social.market.fee 無上架費用
 social.market.failed 失敗，請稍後重試
@@ -793,7 +793,7 @@ settings.loaded.none 沒有找到任何設定
 account.login.required 您必須先登入
 account.banned.hack 此帳戶因作弊而被封禁
 account.banned.appeal 如果您想提出上訴，請聯絡：
-account.delete 您可以在此申請刪除您的帳戶。請注意！如果此申請沒有在14天內被取消，您所有的帳戶資料將會被永久清除。
+account.delete 您可以在此申請刪除您的帳戶。請注意！如果此申請沒有在14天內被取消，此帳戶的所有資料將會被永久清除。
 account.delete.request 您確定要申請刪除此帳戶嗎？
 account.delete.cancel 您確定要取消申請刪除此帳戶嗎？
 spin.free.available 立即領取免費 KR！
@@ -812,15 +812,15 @@ stats.wallbangs 穿牆擊殺數
 stats.sprays 塗鴉數
 windows.host.default.settings 使用地圖預設設定以允許玩家儲存他們的進度及最高分數
 windows.host.default.commands * 房主指令 (/noclip, /god, /smite, /kill) 在此模式中將會被停用。
-windows.host.rewards 啟用 KR 獎勵將會強制伺服器使用地圖預設設定，以允許玩家從此地圖贏得 KR：
+windows.host.rewards 啟用 KR 獎勵將會強制伺服器使用地圖預設設定，以允許玩家從此地圖獲得 KR：
 windows.store.wheels.sub 試試您的運氣，轉動輪盤來贏取新外觀！
 windows.store.currency * 美元和您當地貨幣之間的匯率由支付服務提供商或銀行決定。
 windows.store.creator 購買 KR 時，考慮使用創作者代碼來支持您最喜歡的內容創作者
 windows.chall.customs 自訂伺服器內無法完成挑戰任務。
 twitch.link 您確定要連結您的 Twitch 帳戶嗎？
 twitch.unlink 您確定要取消連結您的 Twitch 帳戶嗎？
-windows.clan.leave 您確定要退出此公會嗎？
-windows.clan.delete 您確定要刪除此公會嗎？
+windows.clan.leave 您確定要離開此公會嗎？
+windows.clan.delete 您確定要解散此公會嗎？
 windows.clan.kick 您確定要從此公會踢出 {0} 嗎？
 windows.store.premium.purchase 您確定要購買 {0} 天的會員嗎？
 windows.store.premium.gift 您確定要贈送「{0}」{1} 天的會員嗎？
