@@ -15,7 +15,7 @@ Project information and discussion on Discord can be found in [Krunker Bunker](h
 
 Happy to continue and not sure on how to use GitHub? Have a look at this [Introduction to GitHub](https://lab.github.com/githubtraining/introduction-to-github) tutorial as it may answer many common questions!
 
-**Before translating Krunker into another language**, please search for an [existing issue](https://github.com/mty22/krunker.io-translations/issues) to see if another person is working on it, or if there's previously answered questions that may help you here! It should also be known without saying that use of tools such as Google Translator is not permitted. If you are found to be using it, you will not be eligible to participate in this project.
+After you've had a look at [status.txt](https://raw.githubusercontent.com/mty22/krunker.io-translations/main/status.txt), and **before translating Krunker into another language**, please search for an [existing issue](https://github.com/mty22/krunker.io-translations/issues) to see if another person is working on it, or if there's previously answered questions that may help you here! It should also be known without saying that use of tools such as Google Translator is not permitted. If you are found to be using it, you will not be eligible to participate in this project.
 
 Here's an example of searching for issues related to "Spanish":
 
@@ -24,9 +24,9 @@ Here's an example of searching for issues related to "Spanish":
 <br>
 </div>
 
-If you can't find anything, then please [create an issue](https://github.com/mty22/krunker.io-translations/issues/new) before commencing work!
+If you can't find anything, then please [create an issue](https://github.com/mty22/krunker.io-translations/issues/new) before commencing work! Please note that in some cases where there is an existing language in the game which needs updats, you can skip this step and commence work immediatley!
 
-**Once approval is given**, feel free to grab a copy of the [English](https://github.com/mty22/krunker.io-translations/blob/main/en.js) language file, find a buddy and translate where possible. If you work on a language translation without approval, you may not be eligible for KR Payment(s).
+After creating an issuee and **once approval is given** within the same issue, feel free to grab a copy of the [English](https://github.com/mty22/krunker.io-translations/blob/main/en.js) language file, find a buddy and translate where possible. If you work on a language translation without approval, you may not be eligible for KR Payment(s).
 
 In the scenario where an issue was created and closed, please comment on the original language issue and we will considering adding it in the future.
 
@@ -109,4 +109,4 @@ Contributors
 - [Tagalog](https://github.com/mty22/krunker.io-translations/blob/main/it.js) (Tagalog) - [iNotT](https://krunker.io/social.html?p=profile&q=iNotT) (ｒａｎｄｏｍ#1212), [daje1097](https://krunker.io/social.html?p=profile&q=daje1097) (daje1097#1298), [Jourdanais](https://krunker.io/social.html?p=profile&q=Jourdanais) (astagoth#4777), [StarRayX](https://krunker.io/social.html?p=profile&q=StarRayX) (Goos#6835), [-Navsy-17](https://krunker.io/social.html?p=profile&q=-Navsy-17) (-Nav'sy-17#0887), [TommyRomero](https://krunker.io/social.html?p=profile&q=TommyRomero) (TommyRomero#1141)
 - [Polish](https://github.com/mty22/krunker.io-translations/blob/main/pl.js) (Polish) - [xhg4](https://krunker.io/social.html?p=profile&q=xhg4) (xhg4#5231), [pamglint](https://krunker.io/social.html?p=profile&q=pamglint), [-isori](https://krunker.io/social.html?p=profile&q=-Isori) (isori#1234), stdavious
 
-Please note that all contributors will be moved to a new file in the future. If you contributed to this project, feel free top update the content above by submitting a pull request.
+Please note that all contributors will be moved to a new file in the future. If you contributed to this project, feel free top update the content above by submitting a pull request updating the information above.
