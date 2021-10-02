@@ -24,11 +24,11 @@ Here's an example of searching for issues related to "Spanish":
 <br>
 </div>
 
-If you can't find anything, then please [create an issue](https://github.com/mty22/krunker.io-translations/issues/new) before commencing work! Please note that in some cases where there is an existing language in the game which needs updats, you can skip this step and commence work immediatley!
+If you can't find anything, then please [create an issue](https://github.com/mty22/krunker.io-translations/issues/new) before commencing work! Please note that in some cases where there is an existing language in the game which needs updates, you can skip this step and commence work immediately!
 
-After creating an issuee and **once approval is given** within the same issue, feel free to grab a copy of the [English](https://github.com/mty22/krunker.io-translations/blob/main/en.js) language file, find a buddy and translate where possible. If you work on a language translation without approval, you may not be eligible for KR Payment(s).
+After creating an issue and **once approval is given** within the same issue, feel free to grab a copy of the [English](https://github.com/mty22/krunker.io-translations/blob/main/en.js) language file, find a buddy and translate where possible. If you work on a language translation without approval, you may not be eligible for KR Payment(s).
 
-In the scenario where an issue was created and closed, please comment on the original language issue and we will considering adding it in the future.
+In the scenario where an issue was created and closed, please comment on the original language issue and we will consider adding it in the future.
 
 Once you've completed your changes, please submit a [Pull Request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork):
 
@@ -92,8 +92,8 @@ As of Krunker version [v4.3.1](https://krunker.io/docs/versions.txt), the follow
 
 Contributors
 ------
-- [Simplified Chinese](https://github.com/mty22/krunker.io-translations/blob/main/zh.js) (简体中文) - [ReHou](https://krunker.io/social.html?p=profile&q=ReHou) (BenHou#8636), [Chair](https://krunker.io/social.html?p=profile&q=AnimeWeebTrash) (Chair#2384), [0v0katai](https://krunker.io/social.html?p=profile&q=0v0katai) (0v0katai#0001)
-- [Traditional Chinese](https://github.com/mty22/krunker.io-translations/blob/main/zhtr.js) (繁體中文) - [Awesome_Boy](https://krunker.io/social.html?p=profile&q=Awesome_Boy) (Awesome_Boy#7555), [WpyGG](https://krunker.io/social.html?p=profile&q=WpyGG) (WpyGG#4125), [0v0katai](https://krunker.io/social.html?p=profile&q=0v0katai) (0v0katai#0001)
+- [Simplified Chinese](https://github.com/mty22/krunker.io-translations/blob/main/zh.js) (简体中文) - [ReHou](https://krunker.io/social.html?p=profile&q=ReHou) (BenHou#8636), [Chair](https://krunker.io/social.html?p=profile&q=AnimeWeebTrash) (Chair#2384), [0v0katai](https://krunker.io/social.html?p=profile&q=0v0katai) (0v0katai#1265)
+- [Traditional Chinese](https://github.com/mty22/krunker.io-translations/blob/main/zhtr.js) (繁體中文) - [Awesome_Boy](https://krunker.io/social.html?p=profile&q=Awesome_Boy) (Awesome_Boy#7555), [WpyGG](https://krunker.io/social.html?p=profile&q=WpyGG) (WpyGG#4125), [0v0katai](https://krunker.io/social.html?p=profile&q=0v0katai) (0v0katai#1265)
 - [Japanese](https://github.com/mty22/krunker.io-translations/blob/main/jp.js) (日本語) - [frzn](https://krunker.io/social.html?p=frzn) (frzn#1030), [Hiro](https://krunker.io/social.html?p=Hiro527) (Hiro527#0527), [KnockerOut](https://krunker.io/social.html?p=profile&q=KnockerOut) (KnockerOut#5087), Minaaami🐈#8830, [nns](https://krunker.io/social.html?p=profile&q=nns__Twitch), [peyang-Celeron](https://krunker.io/social.html?p=peyang) (Peyang#0001)
 - [French](https://github.com/mty22/krunker.io-translations/blob/main/fr.js) (Français) - [Chwoubaka](https://krunker.io/social.html?p=Chwoubaka) (Chwoubaka#3009), [Atzelord](https://krunker.io/social.html?p=profile&q=Atzelord) (atzelord#0712), [enygmate](https://krunker.io/social.html?p=enygmate) (Enygmate#2222)
 - [Korean](https://github.com/mty22/krunker.io-translations/blob/main/kr.js) (한국어) - [GoonMandu](https://krunker.io/social.html?p=GoonMandu) (apinklover#4897) and [dojin](https://krunker.io/social.html?p=profile&q=dojin.) (dojin#0001), [YuniQ](https://krunker.io/social.html?p=profile&q=YuniQ) (YuniQ#3543), [zVaderX](https://krunker.io/social.html?p=profile&q=zVaderX) (zVaderX#7713), [tr0922](https://krunker.io/social.html?p=profile&q=tr0922) (tr0922#3835) and [BawAppie](https://krunker.io/social.html?p=profile&q=BawAppie) (Appie!#7749)
