@@ -313,7 +313,7 @@ settings.controller.deadZoneL 左搖桿死區
 settings.controller.deadZoneR 右搖桿死區
 settings.controller.triggerThres 觸發閾值
 settings.controller.vibration 震動回饋
-settings.controller.gradSpeed 視角平滑
+settings.controller.gradSpeed 平滑移動
 settings.controller.invert 垂直反轉
 settings.mobile.header 行動裝置
 settings.mobile.sensitivityX 水平靈敏度
@@ -321,7 +321,7 @@ settings.mobile.sensitivityY 垂直靈敏度
 settings.mobile.aimsensX 瞄準時水平靈敏度
 settings.mobile.aimsensY 瞄準時垂直靈敏度
 settings.mobile.vibration 震動回饋
-settings.mobile.gradSpeed 視角平滑
+settings.mobile.gradSpeed 平滑移動
 settings.mobile.invert 垂直反轉
 settings.audio.header 音訊
 settings.audio.sound 主音量
