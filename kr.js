@@ -6,7 +6,7 @@ menu.btn.maps 사용자 지정 게임
 menu.btn.mods Mod
 menu.btn.settings 설정
 menu.btn.customize 개인 설정
-menu.btn.invite 초대
+menu.btn.invite 링크복사
 menu.btn.invite.clicked 초대 링크 복사됨
 menu.btn.join 게임 참가
 menu.btn.host 만들기
@@ -24,7 +24,7 @@ generic.leave 나가기
 generic.default 기본
 generic.submit 제출
 generic.create 게임 만들기
-generic.random 무작위
+generic.random 랜덤
 generic.failed 실패
 generic.success 완료
 generic.name 이름
@@ -297,8 +297,8 @@ settings.gameplay.header 게임플레이
 settings.gameplay.gpSetts 게임플레이 설정
 settings.gameplay.sensitivityX 좌우 감도
 settings.gameplay.sensitivityY 상하 감도
-settings.gameplay.aimsensX 조준 좌우 감도
-settings.gameplay.aimsensY 조준 상하 감도
+settings.gameplay.aimsensX 줌인 좌우 감도
+settings.gameplay.aimsensY 줌인 상하 감도
 settings.gameplay.challenge 챌린지 모드
 settings.gameplay.invert 상하 반전
 settings.gameplay.onkillS 처치 시
@@ -307,8 +307,8 @@ settings.controller.header 게임패드
 settings.controller.sensitivityX 좌우 감도
 settings.controller.disableCons 게임패드 비활성화
 settings.controller.sensitivityY 상하 감도
-settings.controller.aimsensX 조준 좌우 감도
-settings.controller.aimsensY 조준 상하 감도
+settings.controller.aimsensX 줌인 좌우 감도
+settings.controller.aimsensY 줌인 상하 감도
 settings.controller.deadZoneL 입력 무시 범위 (좌)
 settings.controller.deadZoneR 입력 무시 범위 (우)
 settings.controller.triggerThres 트리거 역치값
@@ -415,7 +415,7 @@ settings.mods.dot 십자선 이미지
 settings.mods.dot.width 십자선 이미지 너비
 settings.mods.dot.height 십자선 이미지 높이
 settings.mods.dot.paste 십자선 이미지 URL
-settings.mods.endmessage 매치 종료 메시지
+settings.mods.endmessage 매치 끝날때 자동으로 전송되는 메시지
 settings.mods.profile 프로필 사진
 settings.mods.profile.paste 프로필 사진 URL
 settings.mods.ammo 탄약 아이콘
@@ -455,7 +455,7 @@ windows.loadout.secondary 보조무기
 windows.loadout.secondary.skin 보조무기 스킨
 windows.loadout.melee 근접무기
 windows.loadout.hat 모자
-windows.loadout.back 몸통
+windows.loadout.back 몸
 windows.loadout.waist 허리
 windows.loadout.shoe 신발
 windows.loadout.face 얼굴
@@ -486,9 +486,9 @@ windows.controls.backward 뒤
 windows.controls.left 좌
 windows.controls.right 우
 windows.controls.reload 재장전
-windows.controls.aim1 조준
+windows.controls.aim1 줌인
 windows.controls.shoot1 발사
-windows.controls.inspect 무기 자세히 보기
+windows.controls.inspect 무기 옆으로 돌려서 보기
 windows.controls.spray 스프레이
 windows.controls.jump 점프
 windows.controls.crouch 앉기
@@ -548,7 +548,7 @@ windows.spray.default 기본 스프레이
 windows.spray.spin 스프레이
 windows.maps.header 사용자 지정 게임
 windows.maps.none 찾은 게임이 없습니다!
-windows.maps.name 게임 이름
+windows.maps.name 
 windows.maps.editor 게임 편집기
 windows.maps.publish 게임 올리기
 windows.maps.community 개발자 커뮤니티
@@ -791,7 +791,7 @@ pretend.exit 나가려면 [{0}] 버튼을 다시 누르세요
 settings.loaded 설정 로딩 완료
 settings.loaded.none 설정 입력 존재하지 않음
 account.login.required 로그인 필요
-account.banned.hack 이 계정은 핵 사용으로 차단되었습니다.
+account.banned.hack 이 계정은 핵 사용으로 계정사용이 금지됨.
 account.banned.appeal 차단에 이의제기를 하려면, 여기에 연락을 취하세요.
 account.delete 계정의 완전삭제를 요청할 수 있고, 14일 내에 요청이 취소되지 않는다면 모든 연관정보가 영구적으로 삭제될 것입니다.
 account.delete.request 계정 삭제를 요청하시겠습니까?
@@ -806,10 +806,10 @@ stats.assists 처치 지원
 stats.nukes 뉴크
 stats.melee 근접 처치
 stats.fistkills 격투 처치
-stats.thrownkills 투척 처치
+stats.thrownkills 칼 투척 처치
 stats.headshots 헤드샷
-stats.wallbangs 관통 처치
-stats.sprays 스프레이 수
+stats.wallbangs 벽 관통 처치
+stats.sprays 스프레이를 사용한 수
 windows.host.default.settings 기본 설정을 사용하면 플레이어 진행률과 최고 점수를 저장할 수 있습니다
 windows.host.default.commands /noclip, /god, /smite와 같은 호스트 명령어는 비활성화됩니다 
 windows.host.rewards KR 보상을 허용하면 서버 내에서 기본 설정을 강제하고 플레이어들이 맵에서 KR을 받을 수 있습니다
@@ -854,7 +854,7 @@ social.trades.out 보냄
 social.trades.out.head 보낸 트레이드 요청 ({0})
 social.trades.history 기록
 social.trades.history.head 트레이드 기록 ({0})
-social.trades.decline 모두 거절
+social.trades.decline 트레이드 모두 거절
 social.trades.message 설정에서 트레이드 메시지를 활성화하세요
 social.trades.warning 이 트레이드에서는 아무런 아이템도 얻을 수 없습니다!
 social.trades.accept 정말 이 트레이드를 수락하시겠습니까?
