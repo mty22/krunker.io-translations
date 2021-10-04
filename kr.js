@@ -455,7 +455,7 @@ windows.loadout.secondary 보조무기
 windows.loadout.secondary.skin 보조무기 스킨
 windows.loadout.melee 근접무기
 windows.loadout.hat 모자
-windows.loadout.back 몸
+windows.loadout.back 등
 windows.loadout.waist 허리
 windows.loadout.shoe 신발
 windows.loadout.face 얼굴
@@ -548,7 +548,7 @@ windows.spray.default 기본 스프레이
 windows.spray.spin 스프레이
 windows.maps.header 사용자 지정 게임
 windows.maps.none 찾은 게임이 없습니다!
-windows.maps.name 
+windows.maps.name 게임 이름
 windows.maps.editor 게임 편집기
 windows.maps.publish 게임 올리기
 windows.maps.community 개발자 커뮤니티
@@ -791,7 +791,7 @@ pretend.exit 나가려면 [{0}] 버튼을 다시 누르세요
 settings.loaded 설정 로딩 완료
 settings.loaded.none 설정 입력 존재하지 않음
 account.login.required 로그인 필요
-account.banned.hack 이 계정은 핵 사용으로 계정사용이 금지됨.
+account.banned.hack 이 계정은 핵 사용으로 계정사용이 정지됨.
 account.banned.appeal 차단에 이의제기를 하려면, 여기에 연락을 취하세요.
 account.delete 계정의 완전삭제를 요청할 수 있고, 14일 내에 요청이 취소되지 않는다면 모든 연관정보가 영구적으로 삭제될 것입니다.
 account.delete.request 계정 삭제를 요청하시겠습니까?
