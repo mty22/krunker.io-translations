@@ -79,7 +79,7 @@ As of Krunker version [v5.0.3](https://krunker.io/docs/versions.txt), the follow
 - [Portuguese](https://github.com/mty22/krunker.io-translations/blob/main/pr.js)
 - [Japanese](https://github.com/mty22/krunker.io-translations/blob/main/jp.js)
 - [Simplified Chinese](https://github.com/mty22/krunker.io-translations/blob/main/zh.js)
-- [Traditional Chinese](https://github.com/mty22/krunker.io-translations/blob/main/trzh.js)
+- [Traditional Chinese](https://github.com/mty22/krunker.io-translations/blob/main/zhtr.js)
 - [French](https://github.com/mty22/krunker.io-translations/blob/main/fr.js)
 - [Finnish](https://github.com/mty22/krunker.io-translations/blob/main/fi.js)
 - [Dutch](https://github.com/mty22/krunker.io-translations/blob/main/nl.js)
@@ -88,7 +88,7 @@ As of Krunker version [v5.0.3](https://krunker.io/docs/versions.txt), the follow
 - [Russian](https://github.com/mty22/krunker.io-translations/blob/main/ru.js)
 - [Italian](https://github.com/mty22/krunker.io-translations/blob/main/it.js)
 - [Tagalog](https://github.com/mty22/krunker.io-translations/blob/main/tg.js)
-- [Turkish](https://github.com/mty22/krunker.io-translations/blob/main/work-in-progress/tr.js)
+- [Turkish](https://github.com/mty22/krunker.io-translations/blob/main/tr.js)
 
 Contributors
 ------
