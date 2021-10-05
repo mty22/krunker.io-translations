@@ -791,8 +791,8 @@ pretend.exit 나가려면 [{0}] 버튼을 다시 누르세요
 settings.loaded 설정 로딩 완료
 settings.loaded.none 설정 입력 존재하지 않음
 account.login.required 로그인 필요
-account.banned.hack 이 계정은 핵 사용으로 계정사용이 정지됨.
-account.banned.appeal 차단에 이의제기를 하려면, 여기에 연락을 취하세요.
+account.banned.hack 이 계정은 핵 사용으로 인해 정지되었습니다.
+account.banned.appeal 계정 정지에 이의제기를 하려면, 여기에 연락을 취하세요.
 account.delete 계정의 완전삭제를 요청할 수 있고, 14일 내에 요청이 취소되지 않는다면 모든 연관정보가 영구적으로 삭제될 것입니다.
 account.delete.request 계정 삭제를 요청하시겠습니까?
 account.delete.cancel 계정 삭제 요청을 취소하시겠습니까?
