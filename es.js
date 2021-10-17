@@ -463,7 +463,7 @@ windows.loadout.spray Grafitti
 windows.loadout.color.skin Color de piel
 windows.loadout.color.chat Color de nombres en el chat
 windows.loadout.color.hair Color de cabello
-windows.loadout.dye Colorante
+windows.loadout.dye Dye
 windows.loadout.pet Mascota
 windows.loadout.stat Estadística en tarjeta
 windows.loadout.flag Bandera de país
@@ -601,9 +601,9 @@ windows.attach.header Seleccione accesorio
 windows.reticle.header Seleccione retícula
 windows.reticle.unlocked Desbloqueado al nivel {0}
 windows.reticle.req Requiere nivel {0}
-windows.dye.header Seleccione colorante
-windows.dye.default Colorante por defecto
-windows.dye.spin Colorante
+windows.dye.header Seleccionar Dye
+windows.dye.default Dye por defecto
+windows.dye.spin Ruleta de Dye
 windows.changelog.header Notas de actualización
 windows.mods.community.header Mods de la comunidad
 windows.mods.community.fav Tus favoritos
@@ -764,7 +764,7 @@ social.market.shoe Zapatos
 social.market.pet Mascotas
 social.market.melee Arma cuerpo-a-cuerpo
 social.market.spray Grafittis
-social.market.dye Colorantes
+social.market.dye Dyes
 social.market.none No se han encontrado objetos'
 social.market.login Tienes que iniciar sesión.
 social.market.grace Listo en {0}
