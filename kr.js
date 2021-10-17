@@ -455,7 +455,7 @@ windows.loadout.secondary 보조무기
 windows.loadout.secondary.skin 보조무기 스킨
 windows.loadout.melee 근접무기
 windows.loadout.hat 모자
-windows.loadout.back 몸통
+windows.loadout.back 등
 windows.loadout.waist 허리
 windows.loadout.shoe 신발
 windows.loadout.face 얼굴
@@ -791,8 +791,8 @@ pretend.exit 나가려면 [{0}] 버튼을 다시 누르세요
 settings.loaded 설정 로딩 완료
 settings.loaded.none 설정 입력 존재하지 않음
 account.login.required 로그인 필요
-account.banned.hack 이 계정은 핵 사용으로 차단되었습니다.
-account.banned.appeal 차단에 이의제기를 하려면, 여기에 연락을 취하세요.
+account.banned.hack 이 계정은 핵 사용으로 인해 정지되었습니다.
+account.banned.appeal 계정 정지에 이의제기를 하려면, 여기에 연락을 취하세요.
 account.delete 계정의 완전삭제를 요청할 수 있고, 14일 내에 요청이 취소되지 않는다면 모든 연관정보가 영구적으로 삭제될 것입니다.
 account.delete.request 계정 삭제를 요청하시겠습니까?
 account.delete.cancel 계정 삭제 요청을 취소하시겠습니까?
@@ -808,7 +808,7 @@ stats.melee 근접 처치
 stats.fistkills 격투 처치
 stats.thrownkills 투척 처치
 stats.headshots 헤드샷
-stats.wallbangs 관통 처치
+stats.wallbangs 벽 관통 처치
 stats.sprays 스프레이 수
 windows.host.default.settings 기본 설정을 사용하면 플레이어 진행률과 최고 점수를 저장할 수 있습니다
 windows.host.default.commands /noclip, /god, /smite와 같은 호스트 명령어는 비활성화됩니다 
