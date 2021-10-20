@@ -61,7 +61,7 @@ generic.accuracy Precisión
 player.waiting Esperando jugadores
 player.died Has muerto
 player.killed Eliminado por
-player.killstreak {0} on a {1} Kill Streak
+player.killstreak {0} esta en una racha de {1} Muertes
 player.inactive Desconectado por inactividad
 player.disconnect DESCONECTADO
 timer.end Siguiente ronda en {0}
