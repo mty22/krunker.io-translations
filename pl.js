@@ -88,17 +88,16 @@ settings.local.header Lokalizacja <span id="requiresRestart"><span style="color:
 settings.local.region Domyślny Region
 settings.local.lang Język
 settings.network.header Sieć
-settings.network.sendRate Wysoki Tickrate
 settings.network.netRerouting Auto Routowanie (Wpływa na ping)
+settings.network.netRate Częstotliwość sieci (Hz)
 settings.network.lagComp Kompensacja lagów
-settings.network.hitReg Test hitregu
 settings.popup.header Wyskakujące okienka
 settings.popup.freeKRPop Wyświetl okienka o darmowym KR
 settings.experimental.header Eksperymentalne
+settings.experimental.optNetwork Optymalizacja sieci
 settings.experimental.aimFreezeFix Napraw zamrożenie przy celowaniu
 settings.experimental.mouseFlickFix Napraw mouse-flicki
 settings.experimental.shaderRendering Renderowanie przez instancje
-settings.experimental.staticRendering Renderowanie statyczne
 settings.client.header Klient
 settings.client.unlimitedFrames Nielimitowane FPS
 settings.client.gameCap Game Capture
@@ -212,10 +211,12 @@ settings.interface.healthNum Liczba HP w nazwie
 settings.interface.healthColT Kolor HP drużyny
 settings.interface.healthColE Kolor HP przeciwników
 settings.interface.xpBarCol Kolor paska XP
+settings.interface.xpBarCol2 Kolor paska XP 2
 settings.interface.xpBarOpac Przezroczystość paska XP
 settings.crosshair.header Celownik
 settings.crosshair.type Typ
-settings.crosshair.type.2 Dowolny
+settings.crosshair.type.1 Dynamiczny
+settings.crosshair.type.2 Figury
 settings.crosshair.type.3 Warstwowy
 settings.crosshair.type.4 Zdjęcie
 settings.crosshair.type.5 Precyzyjny
@@ -225,8 +226,10 @@ settings.crosshair.style.1 Okrąg
 settings.crosshair.style.2 Koło
 settings.crosshair.style.3 Pusty kwadrat
 settings.crosshair.style.4 Wypełniony kwadrat
-settings.crosshair.image Zjęcie
-settings.crosshair.image.paste Zdjęcie celownika
+settings.crosshair.image Obraz
+settings.crosshair.image.paste Obraz celownika
+settings.crosshair.image.width Szerokość obrazu
+settings.crosshair.image.height Wysokość obrazu
 settings.crosshair.always Zawsze wyświelaj
 settings.crosshair.color Kolor
 settings.crosshair.shadow.color Kolor cienia
@@ -235,8 +238,33 @@ settings.crosshair.size Wielkość
 settings.crosshair.thickness Grubość
 settings.crosshair.gap Odstęp
 settings.crosshair.dot Kropka
-settings.crosshair.opacity.use Użyj dowolnej przezroczystości
-settings.crosshair.opacity.custom Dowolna przezroczystość
+settings.crosshair.opacity.use Użyj własnej przezroczystości
+settings.crosshair.opacity.custom Własna przezroczystość
+settings.crosshairm.header Celownik (Rzucanie nożem)
+settings.crosshairm.type Typ
+settings.crosshairm.type.1 Figury
+settings.crosshairm.type.2 Obraz
+settings.crosshairm.type.3 Precyzyjny
+settings.crosshairm.style Styl
+settings.crosshairm.style.0 Krzyżyk
+settings.crosshairm.style.1 Okrąg
+settings.crosshairm.style.2 Koło
+settings.crosshairm.style.3 Kwadrat
+settings.crosshairm.style.4 Wypełniony kwadrat
+settings.crosshairm.image Obraz
+settings.crosshairm.image.paste Obraz celownika
+settings.crosshairm.image.width Szerokość obrazu
+settings.crosshairm.image.height Wysokość obrazu
+settings.crosshairm.always Zawsze wyświetlaj
+settings.crosshairm.color Kolor
+settings.crosshairm.shadow.color Kolor cienia
+settings.crosshairm.shadow.thickness Grubość cienia
+settings.crosshairm.size Rozmiar
+settings.crosshairm.thickness Grubość
+settings.crosshairm.gap Odstęp
+settings.crosshairm.dot Kropka
+settings.crosshairm.opacity.use Użyj własnej przezroczystości
+settings.crosshairm.opacity.custom Własna przezroczystość
 settings.hitmarker.header Hitmarker
 settings.hitmarker.color Kolor
 settings.hitmarker.kcolor Kolor przy zabiciu
@@ -261,6 +289,10 @@ settings.gameprivacy.header Prywatność gry
 settings.gameprivacy.streamer Tryb streamera
 settings.gameprivacy.anon Tryb anonimowy
 settings.gameprivacy.hideGameTitle Ukryj tytuł gry
+settings.gameprivacy.verified Wyświetlaj oznaczenie konta zweryfikowanego
+settings.gameprivacy.premium Wyświetlaj oznaczenie konta Premium
+settings.gameprivacy.partner Wyświetlaj oznaczenie konta partnerskiego
+settings.gameprivacy.rank Wyświetlaj oznaczenie rangi w trybie rankowanym
 settings.gameplay.header Gra
 settings.gameplay.gpSetts Ustawienia rozgrywki
 settings.gameplay.sensitivityX Czułość X
@@ -295,6 +327,8 @@ settings.audio.header Audio
 settings.audio.sound Uniwersalna głośność
 settings.audio.ambient Głośność otoczenia
 settings.audio.voice Głośność głosu
+settings.audio.input Wejście audio/mikrofonu
+settings.audio.mic Głośność mikrofonu
 settings.audio.weps Głośność broni
 settings.audio.player Głośność graczy
 settings.audio.skin Głośność elementów kosmetycznych
@@ -303,7 +337,7 @@ settings.audio.asset Głośność zasobów
 settings.audio.dialogue Głośność akcji
 settings.viewmodel.header Wyświetl model
 settings.viewmodel.vmSetts Ustawienia wyświetlania modelu
-settings.viewmodel.fov Pole widzenia
+settings.viewmodel.fov Pole widzenia (FOV)
 settings.viewmodel.fps Pole widzenia broni
 settings.viewmodel.bobbing Ruchliwość broni
 settings.viewmodel.leaning Pochylenie broni
@@ -324,6 +358,7 @@ settings.viewmodel.weapSwapY Zmiana broni Y
 settings.viewmodel.weapReloadY Przeładowanie broni Y
 settings.viewmodel.yOffADS Presunięcie Y przy celowaniu
 settings.viewmodel.adsFovMlt Siła FOV celowania
+settings.viewmodel.toggleADS Zmień siłę FOV celowania
 settings.editing.header Edycja
 settings.editing.health.high Wysokie HP w HUD
 settings.editing.health.low Niskie HP w HUD
@@ -343,6 +378,7 @@ settings.editing.progOffX Przesunięcie paska postępu w osi X
 settings.editing.progOffY Przesunięcie paska postępu w osi Y
 settings.editing.progRot Obrócenie paska postępu
 settings.editing.progm.color Kolor paska ładowania
+settings.editing.progmo.color Kolor przeciążenia
 settings.editing.progm.opacity Przezroczystość paska ładowania
 settings.editing.progm.scale Skala paska ładowania
 settings.editing.progm.shadow Cień paska ładowania
@@ -398,6 +434,8 @@ settings.mods.damage.paste URL obrazu nakładki obrażeń
 settings.mods.overlay Obraz nakładki gry
 settings.mods.overlay.paste URL obrazu nakładki gry
 settings.social.region Statystyki regionu
+settings.social.bg Obraz w tle
+settings.social.bg.paste URL obrazu w tle
 windows.settings.header Ustawienia gry
 windows.mail.header Krunker Mail
 windows.servers.header Serwery
@@ -448,8 +486,8 @@ windows.controls.backward Do tyłu
 windows.controls.left Lewo
 windows.controls.right Prawo
 windows.controls.reload Przeładuj
-windows.controls.aim Celuj
-windows.controls.shoot Strzelaj
+windows.controls.aim1 Celuj
+windows.controls.shoot1 Strzelaj
 windows.controls.inspect Pokaż broń
 windows.controls.spray Użyj spreju
 windows.controls.jump Skocz
@@ -475,11 +513,14 @@ windows.controls.specFree Przełącz tryb wolnej kamery
 windows.controls.specObj Przełącz tryb kamery celu
 windows.controls.specFirst Przełącz tryb kamery pierwszoosobowej
 windows.controls.specNames Przełącz wymuszone wyświetlanie nicków
+windows.controls.specFocus Zmień gracza, z którego perspektywy oglądasz rozgrywkę
+windows.controls.hidePlayers Ukryj graczy
 windows.controls.streak0 Seria 1
 windows.controls.streak1 Seria 2
 windows.controls.streak2 Seria 3
 windows.controls.streak3 Seria 4
 windows.controls.streak4 Seria 5
+windows.controls.prop Wybierz przykrywę (przytrzymaj)
 windows.controls.premium0 Noclip
 windows.controls.premium1 Tryb boga
 windows.controls.premium2 Zabij
@@ -488,7 +529,7 @@ windows.controls.dev0 Bind/Klawisz/Komenda deweloperska 1
 windows.controls.dev1 Bind/Klawisz/Komenda deweloperska 2
 windows.controls.dev2 Bind/Klawisz/Komenda deweloperska 3
 windows.controls.dev3 Bind/Klawisz/Komenda deweloperska 4
-windows.controls.reset Resetuj pozycję (Parkour i wyścigi)
+windows.controls.reset Resetuj pozycję (Parkour, etc.)
 windows.controls.pretend Ukryj grę
 windows.host.header Hostuj niestandardową grę
 windows.host.maps Ustaw serwer
@@ -690,6 +731,7 @@ server.config.fallDmg Obrażenia od updaku
 server.config.fallDmgThr Próg obrażeń od updaku
 server.config.noDraws Bez remisów
 server.config.bstOfR Najlepszy z
+server.config.chrgWeps Bronie wykorzystujące mechanikę ładowania
 social.login Zaloguj/Zarejestruj
 social.login.failed Logowanie nie powiodło się
 social.login.buy Zaloguj się by kupować
@@ -769,11 +811,11 @@ stats.headshots Trafienia w głowę
 stats.wallbangs Trafienia przez ściany
 stats.sprays Użycia sprejów
 windows.host.default.settings Włączenie domyślnych ustwaień pozwala na przechowywanie postępu graczy oraz najwyższych wyników
-windows.host.default.commands *Komendy hosta są wyłączone w tym trybie: /noclip /god /smite itp
+windows.host.default.commands Komendy hosta są wyłączone w tym trybie: /noclip /god /smite itp
 windows.host.rewards Włączenie nagród KR zmusza serwer do używania domyślnych ustawień i pozwala graczom zdobywać KR z funduszy mapy:
 windows.store.wheels.sub Wypróbuj swoje swoje szczęście i zakręć kołem, aby móc wygrać nowe skiny!
 windows.store.currency * Ceny w USD mogą być przeilczone na Twoją lokalną walutę po wartości wymiany ustalonej przez dostawcę płatności lub bank
-windows.store.creator Pomyśl nad wsparciem swoich ulubionych twórców treści gry (CC) używając ich kodu
+windows.store.creator Wesprzyj swoich ulubionych twórców treści gry (CC), używając ich kodu
 windows.chall.customs Nie można zdobywać wyzwań w niestandardowych meczach
 twitch.link Czy jesteś pewien, że chcesz połączyć konto gry z kontem na Twitchu?
 twitch.unlink Czy jesteś pewien, że chcesz rozłączyć konto gry z kontem na Twitchu?

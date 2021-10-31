@@ -88,17 +88,16 @@ settings.local.header Localizzazione <span id="requiresRestart"><span style="col
 settings.local.region Regione predefinita
 settings.local.lang Lingua
 settings.network.header Rete
-settings.network.sendRate Tickrate alto
 settings.network.netRerouting Instradamento automatico (Influisce sul Ping)
+settings.network.netRate Network Rate (Hz)
 settings.network.lagComp Compensazione Lag
-settings.network.hitReg Test registrazione colpi
 settings.popup.header Popups
 settings.popup.freeKRPop Mostra Popup KR gratuiti
 settings.experimental.header Sperimentali
+settings.experimental.optNetwork Rete ottimizzata 
 settings.experimental.aimFreezeFix Risolvi mirino bloccato
 settings.experimental.mouseFlickFix Risolvi Flick del mouse
 settings.experimental.shaderRendering Rendering a istanze
-settings.experimental.staticRendering Rendering statico
 settings.client.header Client
 settings.client.unlimitedFrames FPS illimitati
 settings.client.gameCap Cattura di gioco
@@ -212,9 +211,11 @@ settings.interface.healthNum Numero punti vita
 settings.interface.healthColT Colore barra PV della squadra
 settings.interface.healthColE Colore barra PV del nemico
 settings.interface.xpBarCol Colore barra ESP.
+settings.interface.xpBarCol2 Colore barra ESP 2
 settings.interface.xpBarOpac Opacità barra ESP.
 settings.crosshair.header Mirino
 settings.crosshair.type Tipo
+settings.crosshair.type.1 Dinamico
 settings.crosshair.type.2 Personalizzato
 settings.crosshair.type.3 Stratificato
 settings.crosshair.type.4 Immagine
@@ -227,6 +228,8 @@ settings.crosshair.style.3 Quadrato vuoto
 settings.crosshair.style.4 Quadrato pieno
 settings.crosshair.image Immagine
 settings.crosshair.image.paste Immagine mirino
+settings.crosshair.image.width Larghezza immagine
+settings.crosshair.image.height Altezza immagine
 settings.crosshair.always Mostra sempre
 settings.crosshair.color Colore
 settings.crosshair.shadow.color Colore ombra
@@ -237,6 +240,31 @@ settings.crosshair.gap Divergenza
 settings.crosshair.dot Punto
 settings.crosshair.opacity.use Usa opacità personalizzata
 settings.crosshair.opacity.custom Opacità personalizzata
+settings.crosshairm.header Crosshair (Lancio)
+settings.crosshairm.type Tipi
+settings.crosshairm.type.1 Forme
+settings.crosshairm.type.2 Immagine
+settings.crosshairm.type.3 Precisione
+settings.crosshairm.style Stile
+settings.crosshairm.style.0 Croce
+settings.crosshairm.style.1 Cerchio vuoto
+settings.crosshairm.style.2 Cerchio pieno
+settings.crosshairm.style.3 Quadrato vuoto
+settings.crosshairm.style.4 Quadrato pieno
+settings.crosshairm.image Immagine
+settings.crosshairm.image.paste Immagine del mirino
+settings.crosshairm.image.width Larghezza immagine
+settings.crosshairm.image.height Altezza immagine
+settings.crosshairm.always Mostra sempre
+settings.crosshairm.color Colore
+settings.crosshairm.shadow.color Colore ombra
+settings.crosshairm.shadow.thickness Spessore ombra
+settings.crosshairm.size Dimensione
+settings.crosshairm.thickness Spessore
+settings.crosshairm.gap Distanza
+settings.crosshairm.dot Punto
+settings.crosshairm.opacity.use Utilizza opacità personalizzata
+settings.crosshairm.opacity.custom Personalizza opacità
 settings.hitmarker.header Hitmarker
 settings.hitmarker.color Colore
 settings.hitmarker.kcolor Colore uccisione
@@ -261,6 +289,10 @@ settings.gameprivacy.header Privacy gameplay
 settings.gameprivacy.streamer Modalità streamer
 settings.gameprivacy.anon Modalità anonima
 settings.gameprivacy.hideGameTitle Nascondi titolo gioco
+settings.gameprivacy.verified Mostra badge verificato
+settings.gameprivacy.premium Mostra badge premium
+settings.gameprivacy.partner Mostra badge partner 
+settings.gameprivacy.rank Mostra badge rango
 settings.gameplay.header Gameplay
 settings.gameplay.gpSetts Impostazioni Gameplay
 settings.gameplay.sensitivityX Sensibilità X
@@ -295,6 +327,8 @@ settings.audio.header Audio
 settings.audio.sound Volume principale
 settings.audio.ambient Volume ambiente
 settings.audio.voice Volume voce
+settings.audio.input Input Audio/Microfono
+settings.audio.mic Volume Microfono
 settings.audio.weps Volume arma
 settings.audio.player Volume giocatori
 settings.audio.skin Volume cosmetici
@@ -324,6 +358,7 @@ settings.viewmodel.weapSwapY Scambia posizione Y arma
 settings.viewmodel.weapReloadY Posizione Y in ricarica
 settings.viewmodel.yOffADS Posizione Y arma quando miri
 settings.viewmodel.adsFovMlt Intensità FOV quando miri
+settings.viewmodel.toggleADS Attiva/Disattiva zoom mira
 settings.editing.header Editing
 settings.editing.health.high HUD Vita alta
 settings.editing.health.low HUD Vita bassa
@@ -343,6 +378,7 @@ settings.editing.progOffX Posizione X barra progresso
 settings.editing.progOffY Posizione Y barra progresso
 settings.editing.progRot Rotazione barra progresso
 settings.editing.progm.color Colore barra di carica
+settings.editing.progmo.color Colore sovraccarica
 settings.editing.progm.opacity Opacità barra di carica
 settings.editing.progm.scale Dimensione barra di carica
 settings.editing.progm.shadow Ombra barra di carica
@@ -398,6 +434,8 @@ settings.mods.damage.paste URL immagine overlay danni
 settings.mods.overlay Immagine overlay di gioco
 settings.mods.overlay.paste URL immagine overlay di gioco
 settings.social.region Statistiche della regione
+settings.social.bg Immagine dello sfondo 
+settings.social.bg.paste URL immagine dello sfondo
 windows.settings.header Impostazioni di gioco
 windows.mail.header Mail Krunker
 windows.servers.header Servers
@@ -448,8 +486,8 @@ windows.controls.backward Indietro
 windows.controls.left Sinistra
 windows.controls.right Destra
 windows.controls.reload Ricarica
-windows.controls.aim Mira
-windows.controls.shoot Spara
+windows.controls.aim1 Mira
+windows.controls.shoot1 Spara
 windows.controls.inspect Ispeziona
 windows.controls.spray Graffiti
 windows.controls.jump Salta
@@ -475,11 +513,14 @@ windows.controls.specFree Abilita cam libera
 windows.controls.specObj Aziona camera a obiettivo
 windows.controls.specFirst Abilita prima persona
 windows.controls.specNames Abilita nomi forzati
+windows.controls.specFocus Toggle Focus Player
+windows.controls.hidePlayers Hide Players
 windows.controls.streak0 Serie 1
 windows.controls.streak1 Serie 2
 windows.controls.streak2 Serie 3
 windows.controls.streak3 Serie 4
 windows.controls.streak4 Serie 5
+windows.controls.prop Select Prop (Hold)
 windows.controls.premium0 Noclip
 windows.controls.premium1 Godmode
 windows.controls.premium2 Kill
@@ -690,6 +731,7 @@ server.config.fallDmg Danno da caduta
 server.config.fallDmgThr Soglia del danno da caduta 
 server.config.noDraws Nessun pareggio
 server.config.bstOfR Al meglio di
+server.config.chrgWeps Chargable Weapons
 social.login Login/Registrati
 social.login.failed Login fallito
 social.login.buy Fai il login per comprare

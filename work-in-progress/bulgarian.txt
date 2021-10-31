@@ -1,2 +1,3 @@
 file: bg.js
-pull request: https://github.com/mty22/krunker.io-translations/pull/91
+pr 1: https://github.com/mty22/krunker.io-translations/pull/91
+pr 2: https://github.com/mty22/krunker.io-translations/pull/280

@@ -88,17 +88,16 @@ settings.local.header Localization <span id="requiresRestart"><span style="color
 settings.local.region डिफ़ॉल्ट क्षेत्र
 settings.local.lang भाषा
 settings.network.header नेटवर्क
-settings.network.sendRate ज़्यादा Tickrate
 settings.network.netRerouting ऑटो राउटिंग (पिंग को प्रभावित करता है)
+settings.network.netRate Network Rate (Hz)
 settings.network.lagComp लैग काम्पन्सेशन
-settings.network.hitReg Hitreg Test
 settings.popup.header पॉपअप
 settings.popup.freeKRPop मुफ्त KR पॉपअप
 settings.experimental.header आजमाइशी
+settings.experimental.optNetwork Optimized Networking
 settings.experimental.aimFreezeFix लक्ष्य के दौरान फ्रीज को ठीक करें
 settings.experimental.mouseFlickFix लक्ष्य के दौरान झटके को ठीक करें
 settings.experimental.shaderRendering शेडर रैडंर
-settings.experimental.staticRendering Static Rendering
 settings.client.header Client क्लाइंट
 settings.client.unlimitedFrames असीमित FPS
 settings.client.gameCap खेल कैप्चर
@@ -177,7 +176,7 @@ settings.interface.oldBrowser पुराने ब्राउज़र का
 settings.interface.rarityanim दुर्लभता एनिमेशन असमर्थ करें
 settings.interface.showPfp प्रोफ़ाइल चित्र दिखाएँ
 settings.interface.showTradeMsg व्यापार के संदेश दिखाएँ
-settings.interface.hideNonTrade Hide Non-Tradable Skins
+settings.interface.hideNonTrade व्यापार न होने वाली स्किन्स को छुपाएँ
 settings.interface.hp HP
 settings.interface.dmgScale डैमेज संकेतों का माप
 settings.interface.killf Kill Feed दिखाएँ
@@ -212,9 +211,11 @@ settings.interface.healthNum नैम-टैग HP संख्या
 settings.interface.healthColT नैम-टैग अपनी टीम के HP का रंग
 settings.interface.healthColE नैम-टैग दुश्मन के HP का रंग
 settings.interface.xpBarCol XP बार का रंग
+settings.interface.xpBarCol2 XP Bar Color 2
 settings.interface.xpBarOpac XP बार की पारदर्शकता
 settings.crosshair.header Crosshair
 settings.crosshair.type Crosshair का ढंग
+settings.crosshair.type.1 Dynamic
 settings.crosshair.type.2 कस्टम
 settings.crosshair.type.3 परतों वाला
 settings.crosshair.type.4 चित्र
@@ -227,6 +228,8 @@ settings.crosshair.style.3 खोखला चौकोर
 settings.crosshair.style.4 ठोस चौकोर
 settings.crosshair.image छवि
 settings.crosshair.image.paste Crosshair चित्र
+settings.crosshair.image.width Image Width
+settings.crosshair.image.height Image Height
 settings.crosshair.always हमेशा दिखाओ
 settings.crosshair.color रंग
 settings.crosshair.shadow.color छाया रंग
@@ -237,6 +240,31 @@ settings.crosshair.gap गैप
 settings.crosshair.dot बिंदु
 settings.crosshair.opacity.use कस्टम अपारदर्शिता का उपयोग करें
 settings.crosshair.opacity.custom कस्टम अपारदर्शिता
+settings.crosshairm.header Crosshair (Throwing)
+settings.crosshairm.type Type
+settings.crosshairm.type.1 Shapes
+settings.crosshairm.type.2 Image
+settings.crosshairm.type.3 Precision
+settings.crosshairm.style Style
+settings.crosshairm.style.0 Cross
+settings.crosshairm.style.1 Hollow Circle
+settings.crosshairm.style.2 Solid Circle
+settings.crosshairm.style.3 Hollow Square
+settings.crosshairm.style.4 Solid Square
+settings.crosshairm.image Image
+settings.crosshairm.image.paste Crosshair Image
+settings.crosshairm.image.width Image Width
+settings.crosshairm.image.height Image Height
+settings.crosshairm.always Always Show
+settings.crosshairm.color Color
+settings.crosshairm.shadow.color Shadow Color
+settings.crosshairm.shadow.thickness Shadow Thickness
+settings.crosshairm.size Size
+settings.crosshairm.thickness Thickness
+settings.crosshairm.gap Gap
+settings.crosshairm.dot Dot
+settings.crosshairm.opacity.use Use Custom Opacity
+settings.crosshairm.opacity.custom Custom Opacity
 settings.hitmarker.header हिटमार्कर
 settings.hitmarker.color रंग
 settings.hitmarker.kcolor हत्या करने पर रंग
@@ -261,8 +289,12 @@ settings.gameprivacy.header खेल की गोपनीयता
 settings.gameprivacy.streamer स्ट्रीमर मोड
 settings.gameprivacy.anon गुमनाम मोड
 settings.gameprivacy.hideGameTitle खेल शीर्षक छिपाएं
+settings.gameprivacy.verified Show Verified Badge
+settings.gameprivacy.premium Show Premium Badge
+settings.gameprivacy.partner Show Partner Badge
+settings.gameprivacy.rank Show Ranked Badge
 settings.gameplay.header गेमप्लेर
-settings.gameplay.gpSetts Gameplay Settings
+settings.gameplay.gpSetts गेमप्ले सेटिंग्स
 settings.gameplay.sensitivityX X-संवेदनशीलता
 settings.gameplay.sensitivityY Y-संवेदनशीलता
 settings.gameplay.aimsensX लक्ष्य X-संवेदनशीलता
@@ -295,6 +327,8 @@ settings.audio.header आवाज़
 settings.audio.sound मास्टर वॉल्यूम
 settings.audio.ambient एम्बियेन्ट वॉल्यूम
 settings.audio.voice वाणी वॉल्यूम
+settings.audio.input Audio/Mic Input
+settings.audio.mic Mic Volume
 settings.audio.weps हथियार वॉल्यूम
 settings.audio.player खिलाड़ी की वॉल्यूम
 settings.audio.skin पेहनावे की वॉल्यूम
@@ -302,7 +336,7 @@ settings.audio.ui UI वॉल्यूम
 settings.audio.asset एसेट वॉल्यूम
 settings.audio.dialogue एक्शन वॉल्यूम
 settings.viewmodel.header व्यू मॉडल
-settings.viewmodel.vmSetts View Model Settings
+settings.viewmodel.vmSetts व्यू मॉडल सेटिंग्स
 settings.viewmodel.fov FOV
 settings.viewmodel.fps हथियार की FOV
 settings.viewmodel.bobbing हथियार बोब्बिंग
@@ -324,6 +358,7 @@ settings.viewmodel.weapSwapY हथियार स्वाप-Y
 settings.viewmodel.weapReloadY हथियार रीलोड Y
 settings.viewmodel.yOffADS हथियार ADS Y-ऑफसेट
 settings.viewmodel.adsFovMlt ADS FOV की शक्ति
+settings.viewmodel.toggleADS Toggle Weapon ADS
 settings.editing.header एडिटिंग
 settings.editing.health.high HUD उच्च हेल्थ
 settings.editing.health.low HUD कम हेल्थ
@@ -343,6 +378,7 @@ settings.editing.progOffX प्रोग्रेस बार X-ऑफसे�
 settings.editing.progOffY प्रोग्रेस बार Y-ऑफसेट
 settings.editing.progRot प्रोग्रेस बार रोटेशन
 settings.editing.progm.color चार्ज बार रंग
+settings.editing.progmo.color Overcharge Color
 settings.editing.progm.opacity चार्ज बार अपारदर्शिता
 settings.editing.progm.scale चार्ज बार नाप
 settings.editing.progm.shadow चार्ज बार छाया
@@ -357,8 +393,8 @@ settings.editing.vignette विग्नेट
 settings.editing.feedLimit किलफीड सीमा
 settings.editing.depth डेप्थ मैप
 settings.editing.green ग्रीन स्क्रीन
-settings.editing.trailcol Bullet Trail Color
-settings.editing.ropecol Grapple Rope Color
+settings.editing.trailcol बुलेट ट्रेल का रंग
+settings.editing.ropecol ग्रेपल रोप का रंग
 settings.editing.tracercol बुलेट  ट्रेसर का रंग
 settings.editing.tracer बुलेट  ट्रेसर
 settings.editing.tracer.offset ट्रेसर ऑफसेट
@@ -398,6 +434,8 @@ settings.mods.damage.paste डैमेज ओवरलेस इमेज URL
 settings.mods.overlay खेल ओवरले इमेज
 settings.mods.overlay.paste खेल ओवरले इमेज URL
 settings.social.region रीजन स्टैट्स
+settings.social.bg Background Image
+settings.social.bg.paste Background Image URL
 windows.settings.header खेल समायोजन
 windows.mail.header क्रंकर मेल
 windows.servers.header सर्वर
@@ -448,8 +486,8 @@ windows.controls.backward पीछे
 windows.controls.left बाएं
 windows.controls.right दायें
 windows.controls.reload रीलोड
-windows.controls.aim एम्
-windows.controls.shoot गोली चलाना
+windows.controls.aim1 एम्
+windows.controls.shoot1 गोली चलाना
 windows.controls.inspect इंस्पेक्ट
 windows.controls.spray स्प्रे
 windows.controls.jump कूदना
@@ -467,19 +505,22 @@ windows.controls.interactSec सेकेंडरी इंटरैक्ट
 windows.controls.confirm कन्फर्म करे
 windows.controls.drop ड्रॉप
 windows.controls.wepVis हथियार की विजिबिलिटी टॉगल करें
-windows.controls.kickVoteY Vote Kick [Yes]
-windows.controls.kickVoteN Vote Kick [No]
-windows.controls.kpdVoteY KPD Vote [Yes]
-windows.controls.kpdVoteN KPD Vote [No]
+windows.controls.kickVoteY वोट किक [हाँ]
+windows.controls.kickVoteN वोट किक [नहीं]
+windows.controls.kpdVoteY KPD वोट [हाँ]
+windows.controls.kpdVoteN KPD वोट [नहीं]
 windows.controls.specFree Toggle Free Cam
 windows.controls.specObj Toggle Objective Cam
 windows.controls.specFirst Toggle First Person
 windows.controls.specNames Toggle Forced Names
+windows.controls.specFocus Toggle Focus Player
+windows.controls.hidePlayers Hide Players
 windows.controls.streak0 स्ट्रीक 1
 windows.controls.streak1 स्ट्रीक 2
 windows.controls.streak2 स्ट्रीक 3
 windows.controls.streak3 स्ट्रीक 4
 windows.controls.streak4 स्ट्रीक 5
+windows.controls.prop Select Prop (Hold)
 windows.controls.premium0 नोक्लिप
 windows.controls.premium1 गाड मोड
 windows.controls.premium2 खुद को नष्ट करे
@@ -578,8 +619,8 @@ windows.publish.mod.update प्रकाशित/अपडेट
 windows.publish.mod.login मॉड बनाने और अपलोड करने के लिए!
 windows.secondary.header सेकेंडरी चुने
 windows.secondary.unlocked उनलॉक्ड
-windows.secondary.customOnly Customs Only
-windows.secondary.premiumOnly Premium Only
+windows.secondary.customOnly सिर्फ कस्टम्स
+windows.secondary.premiumOnly सिर्फ प्रीमियम
 windows.secondary.req {0} पर अनलॉक हो जाता है
 windows.advertise.header विज्ञापित
 windows.support.header सपोर्ट
@@ -686,10 +727,11 @@ server.config.noCosm काज़्मेटिक
 server.config.tstCmp जाँच मोड
 server.config.limitClasses क्लास लिमिट करें
 server.config.tmSize टीम साइज़
-server.config.fallDmg Fall Damage
-server.config.fallDmgThr Fall Damage Thresh
-server.config.noDraws No Draws
-server.config.bstOfR Best of
+server.config.fallDmg फॉल डैमेज
+server.config.fallDmgThr फॉल डैमेज की सीमा
+server.config.noDraws कोई ड्रा नहीं
+server.config.bstOfR बेस्ट ऑफ़
+server.config.chrgWeps Chargable Weapons
 social.login लॉगिन/रजिस्टर
 social.login.failed लॉगिन असफल हुआ
 social.login.buy खरीदने के लिए लॉगिन करे
@@ -781,7 +823,7 @@ windows.clan.leave क्या आप वास्तव में क्लै
 windows.clan.delete क्या आप वास्तव में क्लैन और उसके डेटा को मिटाना चाहते है?
 windows.clan.kick क्या आप वास्तव में {0} को क्लैन से निकालना चाहते हैं?
 windows.store.premium.purchase क्या आप वास्तव में {0} दिनों के लिए Premium खरीदने वाले हैं?
-windows.store.premium.gift Are you sure you want to Gift '{0}' {1} days of Premium?
+windows.store.premium.gift क्या आप वास्तव में '{0}' को {1} दिन का प्रीमियम देना चाहते हैं ?
 windows.playerlist.ban क्या आप वास्तव में {0} को खेल से बैन करने वाले है?
 windows.playerlist.flag क्या आप वास्तव में {0} को हैकरटैग चाहते वाले हैं?
 windows.playerlist.unflag क्या आप वास्तव में {0} का हैकरटैग हटाने चाहते हैं?

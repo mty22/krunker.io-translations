@@ -88,17 +88,16 @@ settings.local.header Lokalisatie <span id="requiresRestart"><span style="color:
 settings.local.region Standaard Regio
 settings.local.lang Taal
 settings.network.header Netwerk
-settings.network.sendRate Hoge Tickrate
 settings.network.netRerouting Auto Routing (Beïnvloed Ping)
+settings.network.netRate Netwerk snelheid (Hz)
 settings.network.lagComp Lag Compensatie
-settings.network.hitReg Hitreg Test
 settings.popup.header Popups
 settings.popup.freeKRPop Toon Gratis KR Popup
 settings.experimental.header Experimenteel
+settings.experimental.optNetwork Geoptimaliseerd netwerken
 settings.experimental.aimFreezeFix Aim Freeze Fix
 settings.experimental.mouseFlickFix Muis Flick Fix
 settings.experimental.shaderRendering Instance Rendering
-settings.experimental.staticRendering Static Rendering
 settings.client.header Client
 settings.client.unlimitedFrames Unlimited FPS
 settings.client.gameCap Game Capture
@@ -124,7 +123,7 @@ settings.chat.chatOp Chat Doorzichtigheid
 settings.chat.chatBGOp Chat Achtergrond Doorzichtigheid
 settings.chat.chatHeight Chat Hoogte
 settings.chat.chatTimer Chat Timer (s)
-settings.chat.chatTextOutline Chat Text Outline
+settings.chat.chatTextOutline Chat Tekst Outline
 settings.chat.chatFilter Laster Filter
 settings.quality.header Prestatie
 settings.quality.updRate Frame Limiet
@@ -177,7 +176,7 @@ settings.interface.oldBrowser Gebruik Oude Browser
 settings.interface.rarityanim Schakel Zeldzaamheid Animaties uit
 settings.interface.showPfp Toon Profiel Avatar
 settings.interface.showTradeMsg Toon Trade Berichten
-settings.interface.hideNonTrade Hide Non-Tradable Skins
+settings.interface.hideNonTrade Verberg Niet Verhandelbare Skins
 settings.interface.hp Dynamische HP Bars
 settings.interface.dmgScale Schade Schaal
 settings.interface.killf Toon Kill Feed
@@ -212,9 +211,11 @@ settings.interface.healthNum Naam Gezondheid Nummer
 settings.interface.healthColT Naam Gezondheid Kleur Team
 settings.interface.healthColE Naam Gezondheid Kleur Tegenstanders
 settings.interface.xpBarCol XP Bar Kleur
+settings.interface.xpBarCol2 XP Bar Kleur 2
 settings.interface.xpBarOpac XP Bar Doorzichtigheid
 settings.crosshair.header Crosshair
 settings.crosshair.type Soort
+settings.crosshair.type.1 Dynamisch
 settings.crosshair.type.2 Custom
 settings.crosshair.type.3 Gelaagd
 settings.crosshair.type.4 Afbeelding
@@ -227,6 +228,8 @@ settings.crosshair.style.3 Holle Vierkant
 settings.crosshair.style.4 Vaste Vierkant
 settings.crosshair.image Afbeelding
 settings.crosshair.image.paste Crosshair Afbeelding
+settings.crosshair.image.width Afbeelding Breedte
+settings.crosshair.image.height Afbeelding Hoogte
 settings.crosshair.always Laat altijd zien
 settings.crosshair.color Kleur
 settings.crosshair.shadow.color Schaduw Kleur
@@ -237,6 +240,31 @@ settings.crosshair.gap Gat
 settings.crosshair.dot Punt
 settings.crosshair.opacity.use Gebruik Eigen Ondoorzichtigheid
 settings.crosshair.opacity.custom Eigen Ondoorzichtigheid
+settings.crosshairm.header Crosshair (Throwing)
+settings.crosshairm.type Type
+settings.crosshairm.type.1 Vormen
+settings.crosshairm.type.2 Afbeelding
+settings.crosshairm.type.3 Precisie
+settings.crosshairm.style Style
+settings.crosshairm.style.0 Kruis
+settings.crosshairm.style.1 Holle Cirkel
+settings.crosshairm.style.2 Vaste cirkel
+settings.crosshairm.style.3 Holle Vierkant
+settings.crosshairm.style.4 Vaste Vierkant
+settings.crosshairm.image Afbeelding
+settings.crosshairm.image.paste Crosshair Afbeelding
+settings.crosshairm.image.width Afbeelding Breedte
+settings.crosshairm.image.height Afbeelding Hoogte
+settings.crosshairm.always Altijd Laten Zien
+settings.crosshairm.color Kleur
+settings.crosshairm.shadow.color Schaduw Kleur
+settings.crosshairm.shadow.thickness Shadow Dikte
+settings.crosshairm.size Grootte
+settings.crosshairm.thickness Dikte
+settings.crosshairm.gap Opening
+settings.crosshairm.dot Punt
+settings.crosshairm.opacity.use Gebruik Custom Doorzichtigheid
+settings.crosshairm.opacity.custom Custom Doorzichtigheid
 settings.hitmarker.header Hitmarker
 settings.hitmarker.color Kleur
 settings.hitmarker.kcolor Killkleur
@@ -261,8 +289,12 @@ settings.gameprivacy.header Gameplay Privacy
 settings.gameprivacy.streamer Streamer Modus
 settings.gameprivacy.anon Anonieme Modus
 settings.gameprivacy.hideGameTitle Verstop Game Titel
+settings.gameprivacy.verified Verified Badge Weergeven
+settings.gameprivacy.premium Premium Badge Weergeven
+settings.gameprivacy.partner Partner Badge Weergeven
+settings.gameprivacy.rank Ranked Badge Weergeven
 settings.gameplay.header Gameplay
-settings.gameplay.gpSetts Gameplay Settings
+settings.gameplay.gpSetts Gameplay Instellingen
 settings.gameplay.sensitivityX X Gevoeligheid
 settings.gameplay.sensitivityY Y Gevoeligheid
 settings.gameplay.aimsensX Aim X Gevoeligheid
@@ -295,6 +327,8 @@ settings.audio.header Audio
 settings.audio.sound Meester Volume
 settings.audio.ambient Omringende Volume
 settings.audio.voice Stem Volume
+settings.audio.input Audio/Mic Invoer
+settings.audio.mic Mic Volume
 settings.audio.weps Wapen Volume
 settings.audio.player Speler Volume
 settings.audio.skin Cosmetica Volume
@@ -302,7 +336,7 @@ settings.audio.ui UI Volume
 settings.audio.asset Asset Volume
 settings.audio.dialogue Actie Volume
 settings.viewmodel.header Bekijk model
-settings.viewmodel.vmSetts View Model Settings
+settings.viewmodel.vmSetts Weergave Model Instellingen
 settings.viewmodel.fov Gezichtsveld
 settings.viewmodel.fps Wapen Gezichtsveld
 settings.viewmodel.bobbing Wapen Bobbing
@@ -324,6 +358,7 @@ settings.viewmodel.weapSwapY Wapen Wissel Y
 settings.viewmodel.weapReloadY Wapen Herlaad Y
 settings.viewmodel.yOffADS Wapen ADS Y Compensatie
 settings.viewmodel.adsFovMlt ADS FOV Kracht
+settings.viewmodel.toggleADS Schakel Wapen ADS
 settings.editing.header Bewerken
 settings.editing.health.high HUD Gezondheid Hoog
 settings.editing.health.low HUD Gezondheid Laag
@@ -343,6 +378,7 @@ settings.editing.progOffX Vooruitgang Bar X Compensatie
 settings.editing.progOffY Vooruitgang Bar Y Compensatie
 settings.editing.progRot Vooruitgang Bar Rotatie
 settings.editing.progm.color Verander Bar Kleur
+settings.editing.progmo.color Overlaad Kleur
 settings.editing.progm.opacity Verander Bar Ondoorzichtigheid
 settings.editing.progm.scale Verander Bar Schaal
 settings.editing.progm.shadow Verander Bar Schaduw
@@ -357,8 +393,8 @@ settings.editing.vignette Vignette
 settings.editing.feedLimit Killfeed Limiet
 settings.editing.depth Diepte Kaart
 settings.editing.green Green Screen
-settings.editing.trailcol Bullet Trail Color
-settings.editing.ropecol Grapple Rope Color
+settings.editing.trailcol Kogel Spoor Kleur
+settings.editing.ropecol Grapple Touw Kleur
 settings.editing.tracercol Kogel Tracers
 settings.editing.tracer Kogel Tracers
 settings.editing.tracer.offset Tracer Compensatie
@@ -398,6 +434,8 @@ settings.mods.damage.paste Schade Overlay Afbeelding URL
 settings.mods.overlay Game Overlay-afbeelding
 settings.mods.overlay.paste Game Overlay Afbeelding URL
 settings.social.region Regio Statistieken
+settings.social.bg Achtergrond Afbeelding
+settings.social.bg.paste Achtergrond Afbeelding URL
 windows.settings.header Game-instellingen
 windows.mail.header Krunker Mail
 windows.servers.header Servers
@@ -448,8 +486,8 @@ windows.controls.backward Achteruit
 windows.controls.left Links
 windows.controls.right Rechts
 windows.controls.reload Herladen
-windows.controls.aim Richt
-windows.controls.shoot Schiet
+windows.controls.aim1 Richt
+windows.controls.shoot1 Schiet
 windows.controls.inspect Inspecteren
 windows.controls.spray Spray
 windows.controls.jump Spring
@@ -467,19 +505,22 @@ windows.controls.interactSec Secundaire interactie
 windows.controls.confirm Bevestig Interactie
 windows.controls.drop Drop
 windows.controls.wepVis Wapenzichtbaarheid in- / uitschakelen
-windows.controls.kickVoteY Vote Kick [Yes]
-windows.controls.kickVoteN Vote Kick [No]
-windows.controls.kpdVoteY KPD Vote [Yes]
-windows.controls.kpdVoteN KPD Vote [No]
-windows.controls.specFree Toggle Free Cam
-windows.controls.specObj Toggle Objective Cam
-windows.controls.specFirst Toggle First Person
-windows.controls.specNames Toggle Forced Names
+windows.controls.kickVoteY Vote Kick [Ja]
+windows.controls.kickVoteN Vote Kick [Nee]
+windows.controls.kpdVoteY KPD Vote [Ja]
+windows.controls.kpdVoteN KPD Vote [Nee]
+windows.controls.specFree Schakel Free Cam
+windows.controls.specObj Schakel Objectief Cam
+windows.controls.specFirst Schakel Eerste Persoon
+windows.controls.specNames Schakel Geforceerde Namen
+windows.controls.specFocus Schakel Focus Speler
+windows.controls.hidePlayers Verberg Spelers
 windows.controls.streak0 Streak 1
 windows.controls.streak1 Streak 2
 windows.controls.streak2 Streak 3
 windows.controls.streak3 Streak 4
 windows.controls.streak4 Streak 5
+windows.controls.prop Selecteer Prop (Houd)
 windows.controls.premium0 Noclip
 windows.controls.premium1 Godmode
 windows.controls.premium2 Dood
@@ -578,8 +619,8 @@ windows.publish.mod.update Publiceren / bijwerken
 windows.publish.mod.login om mods te maken en te uploaden!
 windows.secondary.header Selecteer Secundair
 windows.secondary.unlocked Ontgrendeld
-windows.secondary.customOnly Customs Only
-windows.secondary.premiumOnly Premium Only
+windows.secondary.customOnly Alleen Customs
+windows.secondary.premiumOnly Alleen Premium
 windows.secondary.req Req lvl {0}
 windows.advertise.header Adverteren
 windows.support.header Ondersteuning
@@ -673,7 +714,7 @@ server.config.warmupTime Opwarm Tijd
 server.config.gamRounds Rounds
 server.config.objtvTime Objectief Tijd
 server.config.forceSpawn Auto Respawn Tijd
-server.config.intermTmr Intermission (s)
+server.config.intermTmr Onderbreking (s)
 server.config.scoreLimit Score Limiet
 server.config.keepTScore Houd Team Score
 server.config.forceC Dwing Modus Classes
@@ -685,11 +726,12 @@ server.config.throwMel Gooibare Melees
 server.config.noCosm Cosmetica Uitzetten
 server.config.tstCmp Test Mode
 server.config.limitClasses Limit Classes
-server.config.tmSize Team Size
-server.config.fallDmg Fall Damage
-server.config.fallDmgThr Fall Damage Thresh
-server.config.noDraws No Draws
-server.config.bstOfR Best of
+server.config.tmSize Team Grootte
+server.config.fallDmg Val Schade
+server.config.fallDmgThr Val Schade Thresh
+server.config.noDraws Geen Draws
+server.config.bstOfR Beste Van
+server.config.chrgWeps Chargable Wapens
 social.login Login/Registreer
 social.login.failed Login Mislukt
 social.login.buy Login om te Kopen
@@ -781,7 +823,7 @@ windows.clan.leave Weet je zeker dat je de clan wilt verlaten?
 windows.clan.delete Weet je zeker dat je de clan wilt verwijderen?
 windows.clan.kick Weet je zeker dat je {0} wilt kicken van de clan?
 windows.store.premium.purchase Weet je zeker dat je {0} dagen Premium wilt kopen?
-windows.store.premium.gift Are you sure you want to Gift '{0}' {1} days of Premium?
+windows.store.premium.gift Weet Je Zeker Dat Je'{0}' {1} Dagen Van Premium Cadeu Wilt Doen?
 windows.playerlist.ban Weet je zeker dat je {0} wilt verbannen van deze game?
 windows.playerlist.flag Weet je zeker dat je {0} wilt markeren?
 windows.playerlist.unflag Weet je zeker dat je {0} wilt onmarkeren?
@@ -817,5 +859,5 @@ social.trades.message SCHAKEL RUILBERICHTEN IN IN JE INSTELLINGEN
 social.trades.warning Je Krijgt Geen Items Van Deze Trade!
 social.trades.accept Weet Je Zeker Dat Je Deze Trade Wilt Accepteren?
 stats.airdrops KR-Packages
-settings.quality.flapAnim Sniper Flap Animation
+settings.quality.flapAnim Sniper Flap Animatie
 `;

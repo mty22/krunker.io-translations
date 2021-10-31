@@ -1,21 +1,32 @@
-29/JUL/2021 update -
+03/OCT/2021 update -
 
-Current statuses of languages in-game (these are prioritised):
+Current statuses of languages in-game (these are prioritised).
 
-Spanish - Up to date (v4.0.9)
-French - Up to date (v4.0.9)
-Japanese - Up to date (v4.0.9)
-Italian - Up to date (v4.0.9)
-Korean - Up to date (v4.0.9)
-Traditional Chinese - Up to date (v4.0.9)
-Polish - Up to date (v4.0.9)
+Read as "Language,live patch level". For example "Japanese,v4.2.2" means Japanese language is currently at v4.2.2 -- visible here: https://github.com/mty22/krunker.io-translations/commits/main/en.js
 
-Simplified Chinese - PR pending (v3.8.6)
-Tagalog - PR pending (v3.8.6)
 
-German - Updates required (v3.8.6)
-Portuguese - Updates required (v3.8.6)
-Finnish - Updates required (far behind, last update: pre-v3.8.0)
-Dutch - Updates required (last update: v3.8.2) - see https://github.com/mty22/krunker.io-translations/issues/219
-Hindi - Updates required (v3.8.6) - see https://github.com/mty22/krunker.io-translations/issues/221
-Russian - Updates required (v3.8.6)
+Up to date:
+
+Japanese,v4.2.2 - 5/SEP/21
+Korean,v4.2.2 - 5/SEP/21
+Dutch,v4.2.2 - 5/SEP/21
+French,v4.2.2 - 15/SEP/21
+Italian,v4.2.2 - 15/SEP/21
+Polish,v4.2.2 - 15/SEP/21
+Traditional Chinese,v4.2.2 - 03/OCT/21
+Simplified Chinese,v4.2.2 - 03/OCT/21
+Turkish,v4.2.2 - 03/OCT/21
+Tagalog,v4.2.2 - 03/OCT/21
+
+
+Pull requests pending:
+
+Finnish - Far behind, last update: pre-v3.8.0 - https://github.com/mty22/krunker.io-translations/pull/236
+Russian,v3.8.6 - https://github.com/mty22/krunker.io-translations/pull/231
+
+Updates required:
+
+Portuguese,v3.8.6 (Bonus KR available)
+Spanish,v4.0.9
+Hindi,v4.0.9
+German,v4.0.9
