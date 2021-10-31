@@ -99,16 +99,16 @@ settings.experimental.aimFreezeFix Tähtäyksen Jähmettymisen Korjaus
 settings.experimental.mouseFlickFix Hiiren Napsauttamisen Korjaus
 settings.experimental.shaderRendering Instance Rendering
 settings.client.header Client
-settings.client.unlimitedFrames Unlimited FPS
+settings.client.unlimitedFrames Rajaton FPS
 settings.client.gameCap Game Capture
-settings.client.experimental Experimental Features
+settings.client.experimental Kokeelliset ominaisuudet
 settings.client.discordRPC Discord RPC
 settings.client.resourceSwapper Resource Swapper
-settings.client.clearCache Clear Cache
+settings.client.clearCache Tyhjennä välimuisti
 settings.client.resetSettings Reset Client Settings
 settings.client.acceleratedCanvas Accelerated Canvas
-settings.client.angleBackend ANGLE Graphics Backend
-settings.client.colorProfile Color Profile
+settings.client.angleBackend Palvelinpään ANGLE Grafiika
+settings.client.colorProfile Väriprofiili
 settings.dev.header Kehittäjä
 settings.dev.forceUpdate Pakota Skinien Päivitys
 settings.dev.forceRegen Regeneroi Pelaaja
@@ -140,8 +140,8 @@ settings.quality.shadows Varjot
 settings.quality.softShad Heikot Varjot
 settings.quality.highResShad Korkealaatuiset Varjot
 settings.quality.shadowsDynamic Dynaamiset Varjot
-settings.quality.trails Luodin Polku
-settings.quality.yourTrails Luotisi Polku
+settings.quality.trails Luodin Vana
+settings.quality.yourTrails Luotisi Vana
 settings.quality.mflash Aseen Välähdys
 settings.quality.flap Tarkka-ampujan Aseen Läppä
 settings.quality.lowSpec Alhaiset Asetukset
@@ -176,7 +176,7 @@ settings.interface.oldBrowser Käytä Vanhaa Selainta
 settings.interface.rarityanim Kytke Harvinaiset Animaatiot Pois
 settings.interface.showPfp Näytä Profiilikuvat
 settings.interface.showTradeMsg Näytä Vaihtokauppojen Viestit
-settings.interface.hideNonTrade Hide Non-Tradable Skins
+settings.interface.hideNonTrade Piilota Ei-Vaihdettavat Skinit
 settings.interface.hp Dynaamiset HP-pisteet
 settings.interface.dmgScale Vahingon Laajuus
 settings.interface.killf Näytä Tappolista
@@ -299,7 +299,7 @@ settings.gameplay.sensitivityX X Herkkyys
 settings.gameplay.sensitivityY Y Herkkyys
 settings.gameplay.aimsensX Tähtäyksen X Herkkyys
 settings.gameplay.aimsensY Tähtäyksen Y Herkkyys
-settings.gameplay.challenge Challenge Mode
+settings.gameplay.challenge Haaste moodi
 settings.gameplay.invert Käännä Y-Akseli
 settings.gameplay.onkillS Tapossa
 settings.gameplay.scrollDir Vierityssuunta
@@ -335,17 +335,17 @@ settings.audio.skin Kosmetiikan Äänenvoimakkuus
 settings.audio.ui Käyttöliittymän Äänenvoimakkuus
 settings.audio.asset Assettien Äänenvoimakkuus
 settings.audio.dialogue Toiminnan Äänenvoimakkuus
-settings.viewmodel.header Viewmodeli
-settings.viewmodel.vmSetts View Model Settings
+settings.viewmodel.header Näkymämalli
+settings.viewmodel.vmSetts Tarkastele Näkymämallin Asetuksia
 settings.viewmodel.fov Näkökenttä
-settings.viewmodel.fps Aseen FOV
+settings.viewmodel.fps Aseen Näkökenttä
 settings.viewmodel.bobbing Aseen Heiluminen
 settings.viewmodel.leaning Aseen Kaltevuus
 settings.viewmodel.show.primary Näytä Ensisijainen Ase
 settings.viewmodel.show.secondary Näytä Toissijainen Ase
 settings.viewmodel.roundArms Pyöreät Kädet
 settings.viewmodel.show.melee Näytä Melee
-settings.viewmodel.show.ads Piilota Ase ADS:ssä
+settings.viewmodel.show.ads Piilota Ase Tähdättäessä
 settings.viewmodel.toggleAim Vaihda 
 settings.viewmodel.show.hands Näytä Kädet
 settings.viewmodel.leftHand Vasenkätinen
@@ -357,7 +357,7 @@ settings.viewmodel.zOff Aseen Z-Akseli
 settings.viewmodel.weapSwapY Aseen Vaihto Y-Akselissa
 settings.viewmodel.weapReloadY Aseen Lataus Y-Akselissa
 settings.viewmodel.yOffADS Tähtäyksen Y-Akseli
-settings.viewmodel.adsFovMlt Tähtäyksen FOV-Voimakkuus
+settings.viewmodel.adsFovMlt Tähtäyksen Näkökenttä-Voimakkuus
 settings.viewmodel.toggleADS Toggle Weapon ADS
 settings.editing.header Editoi
 settings.editing.health.high HUD Elämiä Paljon
@@ -393,24 +393,24 @@ settings.editing.vignette Vinjetti
 settings.editing.feedLimit Killfeedin Raja
 settings.editing.depth Depth Map
 settings.editing.green Väriavain
-settings.editing.trailcol Bullet Trail Color
-settings.editing.ropecol Grapple Rope Color
+settings.editing.trailcol Luodin Vanan Väri
+settings.editing.ropecol Heittokoukun Köyden Väri
 settings.editing.tracercol Luodin Tracerit
 settings.editing.tracer Luodin Tracerit
 settings.editing.tracer.offset Tracerin Offset
-settings.shaders.header Shaderin Syöte
+settings.shaders.header Varjostimen Syöte
 settings.mods.header Kustomointi
 settings.mods.load Lataa Modit
 settings.mods.logo Hyväksy Logon Muutokset
 settings.mods.auto Automaattisesti Lataa Modit
-settings.mods.borders Scopen Reunat
-settings.mods.borderCol Scopen Reunat
-settings.mods.borderOpac Scopen Reunojen Läpinäkyvyys
-settings.mods.scope Scopen Kuva
-settings.mods.scope.paste Scopen Kuvan URL
-settings.mods.scope.opacity Scopen Läpinäkyvyys
-settings.mods.scope.width Scopen Kuvan Leveys
-settings.mods.scope.height Scopen Kuvan Korkeus
+settings.mods.borders Tähtäimen Reunat
+settings.mods.borderCol Tähtäimen Reunat
+settings.mods.borderOpac Tähtäimen Reunojen Läpinäkyvyys
+settings.mods.scope Tähtäimen Kuva
+settings.mods.scope.paste Tähtäimen Kuvan URL
+settings.mods.scope.opacity Tähtäimen Läpinäkyvyys
+settings.mods.scope.width Tähtäimen Kuvan Leveys
+settings.mods.scope.height Tähtäimen Kuvan Korkeus
 settings.mods.dot Reticle Image
 settings.mods.dot.width Reticle-Kuvan Leveys
 settings.mods.dot.height Reticle-Kuvan Korkeus
@@ -437,7 +437,7 @@ settings.social.region Alueen Tilastot
 settings.social.bg Background Image
 settings.social.bg.paste Background Image URL
 windows.settings.header Peliasetukset
-windows.mail.header Kruner-Posti
+windows.mail.header Krunker-Posti
 windows.servers.header Palvelimet
 windows.servers.none Liityttäviä Pelejä Ei Löytynyt...
 windows.servers.host + Luo Peli
@@ -445,12 +445,12 @@ windows.servers.hide Piilota Täynnä Olevat
 windows.servers.priority Alueen Prioriteetti
 windows.servers.online {0} Pelinsisäinen
 windows.servers.social {0} Sosiaalisessa
-windows.loadout.header Vaihda Loadout
+windows.loadout.header Vaihda Varustusta
 windows.loadout.class Hahmo
 windows.loadout.primary Ensisijainen
 windows.loadout.primary.attach Lisävarusteet
 windows.loadout.primary.reticle Reticle
-windows.loadout.primary.scope Scope
+windows.loadout.primary.scope Tähtäin
 windows.loadout.secondary Toissijainen
 windows.loadout.secondary.skin Toissijainen Skini
 windows.loadout.melee Melee
@@ -525,10 +525,10 @@ windows.controls.premium0 Noclip
 windows.controls.premium1 Jumala-tila
 windows.controls.premium2 Tappo
 windows.controls.premium3 Smite
-windows.controls.dev0 Developer Bind 1
-windows.controls.dev1 Developer Bind 2
-windows.controls.dev2 Developer Bind 3
-windows.controls.dev3 Developer Bind 4
+windows.controls.dev0 Kehittäjän Pikanäppäin 1
+windows.controls.dev1 Kehittäjän Pikanäppäin 2
+windows.controls.dev2 Kehittäjän Pikanäppäin 3
+windows.controls.dev3 Kehittäjän Pikanäppäin 4
 windows.controls.reset Nollaa Sijainti (Race & Parkour)
 windows.controls.pretend Piilota Peli
 windows.host.header Luo Kustomoitu-Peli
@@ -587,9 +587,9 @@ windows.store.unlock Avaa uusia aseiden skinejä ja esineitä
 windows.store.amount {0} KR:ää käyttäjällä
 windows.store.login ostaaksesi ja avataksesi tavaroita kauppapaikalta!
 windows.store.purchasing Ostetaan...
-windows.store.unboxed {0}{1} unboxattu
+windows.store.unboxed {0}{1} unboxed
 windows.trade.header Kaupankäynti
-windows.scope.header Valitse Scope
+windows.scope.header Valitse Tähtäin
 windows.premium.header Premium
 windows.skin.header Valitse Skini
 windows.hat.header Valitse Hattu
@@ -601,9 +601,9 @@ windows.attach.header Valitse Lisävaruste
 windows.reticle.header Valitse Reticle
 windows.reticle.unlocked Avautuu tasolla {0}
 windows.reticle.req Vaadittu taso {0}
-windows.dye.header Valitse Dye
-windows.dye.default Oletus-Dye
-windows.dye.spin Dye
+windows.dye.header Valitse Värjäys
+windows.dye.default Oletus-Värjäys
+windows.dye.spin Värjäys
 windows.changelog.header Muutosloki
 windows.mods.community.header Yhteisömodit
 windows.mods.community.fav Suosikkisi
@@ -635,15 +635,15 @@ windows.client.linux Linux-Asennus
 windows.ranked.header Kilpailullinen
 windows.ranked.login pelataksesi kilpailullisia pelejä!
 windows.ranked.level Sinun pitää olla vähintään <span color="black">taso {0}</span> pelataksesi kilpailullisia pelejä! Tällä hetkellä olet <span color="black">taso {1}</span>.
-windows.ranked.mode.r1v1 Soolo
-windows.ranked.mode.r2v2 Duo
+windows.ranked.mode.r1v1 Yksinpeli
+windows.ranked.mode.r2v2 Kaksinpeli
 windows.ranked.mode.r4v4 Nelinpeli
 windows.chall.header Haasteet
 windows.chall.login aloittaaksesi haasteet!
 thumbnail.upload.limit Epäonnistui. Pikkukuvan minimi tiedostokoko {0}kb
 image.upload.limit Epäonnistui. Kuvan minimi tiedostokoko on {0}kb
 thumbnail.upload.error Pikkukuva - Virhe
-mod.extracting purataan {0}/{1}
+mod.extracting puretaan {0}/{1}
 mod.disabled modit pois päältä
 mod.error modi - virhe!
 mod.loading ladataan modia...
@@ -661,7 +661,7 @@ error.extentions Jos sinulla on laajennuksia, poista ne käytöstä
 error.seek Etsi uusi peli klikkaamalla
 custom.map.upload.limit Epäonnistui. 500 000 Pelin Merkkiraja
 custom.map.missing Valitse vähintään yksi Peli tai Kartta
-custom.mode.missing Valitse vähintään yksi Mode
+custom.mode.missing Valitse vähintään yksi Pelimuoto
 custom.class.missing Valitse vähintään yksi Hahmo
 server.config.maxPlayers Pelaajia
 server.config.minPlayers Minimimäärä Pelaajia
@@ -675,11 +675,11 @@ server.config.jumpMlt Hypyn Voimakkuus
 server.config.airStrf Air Strafing
 server.config.deltaMlt Aikaskaala
 server.config.strafeSpd Strafen Nopeus
-server.config.fiRat Ampumistiheys
+server.config.fiRat Ampumisnopeus
 server.config.reSpd Uudelleenlatauksen Nopeus
-server.config.slidTime Sliden Aika
+server.config.slidTime Liu'un Aika
 server.config.fixMov Liikekorjaus
-server.config.slidSpd Sliden Nopeus
+server.config.slidSpd Liu'un Nopeus
 server.config.healthMlt Elämänpisteiden Kerroin
 server.config.impulseMlt Aseimpulssi
 server.config.nameTeam1 Tiimin 1 Nimi
@@ -698,7 +698,7 @@ server.config.killRewards Tappopalkinnot
 server.config.headshotOnly Ainoastaan Pääosumat
 server.config.noSecondary Poista Toissijaiset Käytöstä
 server.config.noStreaks Poista Tappoputket Käytöstä
-server.config.canSlide Sliding
+server.config.canSlide Liukuminen
 server.config.wallJP Seinähypyn Voimakkuus
 server.config.autoJump Automaattinen Hyppääminen
 server.config.bDrop Luotien Pudotus
@@ -709,28 +709,28 @@ server.config.kCams Kill Cams
 server.config.noReload Ei Uudelleenlatausta
 server.config.private Yksityinen
 server.config.krRewards KR-Palkinnot
-server.config.forceDefault Force Default Settings
+server.config.forceDefault Pakota Oletusasetukset
 server.config.warmupTime Lämmittelyaika
-server.config.gamRounds Rounds
+server.config.gamRounds Kierroksia
 server.config.objtvTime Tavoitteen Kesto
 server.config.forceSpawn Automaattisen uudelleensyntymisen aika
 server.config.intermTmr Intermission (s)
 server.config.scoreLimit Pisteraja
 server.config.keepTScore Pidä Tiimin Pisteet
-server.config.forceC Pakota Moden Hahmot
+server.config.forceC Pakota Pelimuodon Hahmot
 server.config.logTim Lokiaika (Race, Parkour)
 server.config.hitBoxPad Hitbox Padding
 server.config.hpRegen Terveyden Regenerointi
 server.config.disableB Poista Reunat
 server.config.throwMel Heitettävät Meleet
-server.config.noCosm Disable Cosmetics
-server.config.tstCmp Test Mode
-server.config.limitClasses Limit Classes
-server.config.tmSize Team Size
-server.config.fallDmg Fall Damage
-server.config.fallDmgThr Fall Damage Thresh
-server.config.noDraws No Draws
-server.config.bstOfR Best of
+server.config.noCosm Estä Kosmeettiset Tavarat
+server.config.tstCmp Kokeile Pelimuotoa
+server.config.limitClasses Rajoita Luokkia
+server.config.tmSize Tiimin Koko
+server.config.fallDmg Putoamisvahinko
+server.config.fallDmgThr Putoamisvahingon Kynnys
+server.config.noDraws Ei Tasapelejä
+server.config.bstOfR Paras kolmesta
 server.config.chrgWeps Chargable Weapons
 social.login Kirjaudu/Rekisteröidy
 social.login.failed Kirjautuminen Epäonnistui
@@ -764,7 +764,7 @@ social.market.shoe Kenkäesine
 social.market.pet Lemmikkiesine
 social.market.melee Melee-Esine
 social.market.spray Spray-Esine
-social.market.dye Dye-Esine
+social.market.dye Värjäys
 social.market.none Esineitä Ei Löydetty
 social.market.login Sinun Pitää Olla Kirjautunut Sisään.
 social.market.grace valmiina {0} jälkeen
@@ -802,8 +802,8 @@ spin.free.disable Nämä popupit voi ottaa pois käytöstä "General Settings"-o
 mod.reset.0 Tulee voimaan uudelleensyntymisen jälkeen.
 mod.reset.1 Kartan Objektit eivät nollaudu
 windows.profile.picture Vaihta profiilikuva
-stats.assists Assistit
-stats.nukes Nuket
+stats.assists Avustukset
+stats.nukes Ydinpommit
 stats.melee Melee-tapot
 stats.fistkills Nyrkkitapot
 stats.thrownkills Heittotapot
@@ -859,5 +859,5 @@ social.trades.message HYVÄKSY VAIHTOVIESTIT ASETUKSISSA
 social.trades.warning Et saa yhtäkään esinettä tässä vaihtokaupassa!
 social.trades.accept Oletko varma, että haluat hyväksyä tämän vaihtokaupan?
 stats.airdrops KR-Paketit
-settings.quality.flapAnim Sniper Flap-animaatio
+settings.quality.flapAnim Tarkkuuskiväärin Läppä-animaatio
 `;
