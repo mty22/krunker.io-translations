@@ -30,18 +30,18 @@ generic.success Успешно свързване
 generic.name Име
 generic.level Ниво
 generic.score Точки
-generic.off изключено
+generic.off Изключено
 generic.defeat ЗАГУБА
 generic.victory ПОБЕДА
 generic.matchover МАЧЪТ СВЪРШИ
 generic.matchaband МАЧЪТ БЕ ИЗОСТАВЕН
 generic.follow Последвай
-generic.unfollow Прекратяване на следенето
+generic.unfollow Прекратяване на следването
 generic.followers Последователи
-generic.following Следвaщи
+generic.following Хора, който следвате
 generic.games Игри
-generic.wins Победи
-generic.lose Загуби
+generic.wins Победa
+generic.lose Загубa
 generic.clan Клан
 generic.games.played Изиграни Игри
 generic.games.won Спечелени Игри
@@ -61,8 +61,8 @@ generic.accuracy Точност
 player.waiting изчакване на играчи
 player.died Ти умря
 player.killed Убит от
-player.killstreak {0} on a {1} Kill Streak
-player.inactive Изгонен за бездействие
+player.killstreak {0} on a {1} Kill Streak 
+player.inactive Изгонен поради бездействие
 player.disconnect ВРЪЗКАТА ПРЕКЪСНА
 timer.end Следващият рунд след {0}
 leaderboard.empty Празно лоби
@@ -98,17 +98,17 @@ settings.experimental.optNetwork Optimized Networking
 settings.experimental.aimFreezeFix Поправи замръзването на прицелването
 settings.experimental.mouseFlickFix Поправи Flick-ването на мишката
 settings.experimental.shaderRendering Рендиране на инстацията
-settings.client.header Client
-settings.client.unlimitedFrames Unlimited FPS
-settings.client.gameCap Game Capture
-settings.client.experimental Experimental Features
+settings.client.header Клиент
+settings.client.unlimitedFrames Безкраен FPS
+settings.client.gameCap Заснемане на играта
+settings.client.experimental Експериментални функции
 settings.client.discordRPC Discord RPC
-settings.client.resourceSwapper Resource Swapper
-settings.client.clearCache Clear Cache
-settings.client.resetSettings Reset Client Settings
-settings.client.acceleratedCanvas Accelerated Canvas
+settings.client.resourceSwapper Разменяч на ресурси
+settings.client.clearCache Изчисти кеша
+settings.client.resetSettings Reset Настройки на клиента
+settings.client.acceleratedCanvas Ускорено платно
 settings.client.angleBackend ANGLE Graphics Backend
-settings.client.colorProfile Color Profile
+settings.client.colorProfile Цветен профил
 settings.dev.header Девелопър
 settings.dev.forceUpdate Принудително актуализиране на скинове
 settings.dev.forceRegen Винаги регенерирайте играча
@@ -151,16 +151,16 @@ settings.quality.textureAnim Анимация на текстурите
 settings.quality.objectAnim Анимация на обектите
 settings.quality.screenShake Клатене на екрана
 settings.quality.weaponShine Блестящи оръжия
-settings.quality.rendGamma Gamma
+settings.quality.rendGamma Гама
 settings.quality.lighting Светлина
-settings.quality.showExplo Показвай експлозии
-settings.quality.aspectRatio Aspect Ratio
+settings.quality.showExplo Покажи експлозии
+settings.quality.aspectRatio Съотношение
 settings.post.header Постът се обработва
 settings.post.post Постът се обработва
-settings.post.bloom Bloom
+settings.post.bloom Цъфтене
 settings.post.bloomThreshold Bloom Threshold
-settings.post.bloomStrength Bloom Strength
-settings.post.bloomRadius Bloom Radius
+settings.post.bloomStrength Сила на цъфтене
+settings.post.bloomRadius Радиус на цъфтене
 settings.post.ssao SSAO
 settings.post.ssaoRadius Радиус на SSAO
 settings.interface.hitInd Показвай индикатора при удар
@@ -207,29 +207,29 @@ settings.interface.nametagStyle.health Само за health на играча
 settings.interface.nametagStyle.name Само име
 settings.interface.nametagStyle.nameLvl Име и само левел
 settings.interface.nametagStyle.all Всичко
-settings.interface.healthNum Nametag Health Number
-settings.interface.healthColT Nametag Health Color Team
-settings.interface.healthColE Nametag Health Color Enemy
+settings.interface.healthNum Числа за табелка за здраве
+settings.interface.healthColT Цвят на съотборниковата табелка за здраве
+settings.interface.healthColE Цвят на противниковата табелка за здраве
 settings.interface.xpBarCol Цвят на лентата с XP
-settings.interface.xpBarCol2 XP Bar Color 2
+settings.interface.xpBarCol2 Цвят на лентата с XP 2
 settings.interface.xpBarOpac Прозрачност на лентата с XP
-settings.crosshair.header Crosshair
+settings.crosshair.header Мерник
 settings.crosshair.type Тип
-settings.crosshair.type.1 Dynamic
-settings.crosshair.type.2 Custom
-settings.crosshair.type.3 Layered
-settings.crosshair.type.4 Image
-settings.crosshair.type.5 Precision
-settings.crosshair.style Style
-settings.crosshair.style.0 Cross
+settings.crosshair.type.1 Динамичен
+settings.crosshair.type.2 По избор
+settings.crosshair.type.3 Наслоен
+settings.crosshair.type.4 Изображение
+settings.crosshair.type.5 Точен
+settings.crosshair.style Сил
+settings.crosshair.style.0 Кръст
 settings.crosshair.style.1 Празен кръг
 settings.crosshair.style.2 Запълнен кръг
 settings.crosshair.style.3 Празен квадрат
 settings.crosshair.style.4 Запълен квадрат
 settings.crosshair.image Изображение
-settings.crosshair.image.paste Изображение на Crosshair
-settings.crosshair.image.width Image Width
-settings.crosshair.image.height Image Height
+settings.crosshair.image.paste Изображение на мерника
+settings.crosshair.image.width Широчина на изображението
+settings.crosshair.image.height Височина на изображението
 settings.crosshair.always Показвай винаги
 settings.crosshair.color Цвят
 settings.crosshair.shadow.color Цвят на сянката
@@ -240,115 +240,115 @@ settings.crosshair.gap Празнина
 settings.crosshair.dot Точка
 settings.crosshair.opacity.use Използвай персонализирана прозачност
 settings.crosshair.opacity.custom Персонализирана прозрачност
-settings.crosshairm.header Crosshair (Throwing)
-settings.crosshairm.type Type
-settings.crosshairm.type.1 Shapes
-settings.crosshairm.type.2 Image
-settings.crosshairm.type.3 Precision
-settings.crosshairm.style Style
-settings.crosshairm.style.0 Cross
-settings.crosshairm.style.1 Hollow Circle
-settings.crosshairm.style.2 Solid Circle
-settings.crosshairm.style.3 Hollow Square
-settings.crosshairm.style.4 Solid Square
-settings.crosshairm.image Image
-settings.crosshairm.image.paste Crosshair Image
-settings.crosshairm.image.width Image Width
-settings.crosshairm.image.height Image Height
-settings.crosshairm.always Always Show
-settings.crosshairm.color Color
-settings.crosshairm.shadow.color Shadow Color
-settings.crosshairm.shadow.thickness Shadow Thickness
-settings.crosshairm.size Size
-settings.crosshairm.thickness Thickness
-settings.crosshairm.gap Gap
-settings.crosshairm.dot Dot
-settings.crosshairm.opacity.use Use Custom Opacity
-settings.crosshairm.opacity.custom Custom Opacity
-settings.hitmarker.header Hitmarker
+settings.crosshairm.header Мерник (Мятане)
+settings.crosshairm.type Тип
+settings.crosshairm.type.1 Форми
+settings.crosshairm.type.2 Изображение
+settings.crosshairm.type.3 Прецизен
+settings.crosshairm.style Стил
+settings.crosshairm.style.0 Кръст
+settings.crosshairm.style.1 Празен/Незапълнен кръг
+settings.crosshairm.style.2 Запълнен кръг
+settings.crosshairm.style.3 Празен/Незапълнен квадрат
+settings.crosshairm.style.4 Запълнен квадрат
+settings.crosshairm.image Изображение
+settings.crosshairm.image.paste Изображение на мерника
+settings.crosshairm.image.width Широчина на изображението
+settings.crosshairm.image.height Височина на изображението
+settings.crosshairm.always Винаги показвай
+settings.crosshairm.color Цвят
+settings.crosshairm.shadow.color Цвят на сенките
+settings.crosshairm.shadow.thickness Дебелина на сенките
+settings.crosshairm.size Размер
+settings.crosshairm.thickness Дебелина
+settings.crosshairm.gap Празнина
+settings.crosshairm.dot Точка
+settings.crosshairm.opacity.use Използвай персонализирана непрозрачност 
+settings.crosshairm.opacity.custom Персонализирана непрозрачност
+settings.hitmarker.header Хитмаркер
 settings.hitmarker.color Цвят
 settings.hitmarker.kcolor Цвят при убийство
 settings.hitmarker.thickness Дебелина
 settings.hitmarker.opacity Прозрачност
 settings.hitmarker.leng Дължина
 settings.hitmarker.spacing Разстояние
-settings.hitmarker.animD Големина на Anim
-settings.hitmarker.animS Скорост на Anim
+settings.hitmarker.animD Големина на Анимацията
+settings.hitmarker.animS Скорост на Анимацията
 settings.hitmarker.hitm Покажи
-settings.hitmarker.hitmFad Fade Speed
-settings.hitmarker.custom Изображение на Hitmarker
-settings.hitmarker.custom.paste URL изображение на Hitmarker
+settings.hitmarker.hitmFad Скорост на избледняване
+settings.hitmarker.custom Изображение на хитмаркера
+settings.hitmarker.custom.paste URL изображение на хитмаркера
 settings.onKillS.style.0 По подразбиране
 settings.onKillS.style.1 Намалете резолюцията
 settings.onKillS.style.2 Намалете FOV
 settings.onKillS.style.3 Увеличете FOV
-settings.serverb.header Браузер на сървъра
-settings.serverb.oldBrowser Privacy browser
+settings.serverb.header Браузър на сървъра
+settings.serverb.oldBrowser Браузър за поверителност
 settings.serverb.defaultRegionOnly Регион по подразбиране
-settings.gameprivacy.header Gameplay Privacy
-settings.gameprivacy.streamer Streamer Mode
-settings.gameprivacy.anon Anonymous Mode
+settings.gameprivacy.header Геймплей поверителност
+settings.gameprivacy.streamer Режим за стриймъри
+settings.gameprivacy.anon Анонимен режим
 settings.gameprivacy.hideGameTitle Скрий заглавието а играта
-settings.gameprivacy.verified Show Verified Badge
-settings.gameprivacy.premium Show Premium Badge
-settings.gameprivacy.partner Show Partner Badge
-settings.gameprivacy.rank Show Ranked Badge
-settings.gameplay.header Gameplay
-settings.gameplay.gpSetts Gameplay Settings
+settings.gameprivacy.verified Показване на потвъдена значка
+settings.gameprivacy.premium Показване на премиум значка
+settings.gameprivacy.partner Показване на партньорска значка
+settings.gameprivacy.rank Показване на класирана значка
+settings.gameplay.header Геймплей
+settings.gameplay.gpSetts Геймплей настройки
 settings.gameplay.sensitivityX Чуствителност Х
 settings.gameplay.sensitivityY Чуствителност Y
 settings.gameplay.aimsensX Прицелваща чувствителност Х
 settings.gameplay.aimsensY Прицелваща чувствителност Y
-settings.gameplay.challenge Challenge Mode
-settings.gameplay.invert размени Y-Axis
-settings.gameplay.onkillS On Kill
+settings.gameplay.challenge Активирай предизвикателен режим
+settings.gameplay.invert Размени Y-Axis
+settings.gameplay.onkillS На убийство
 settings.gameplay.scrollDir Дирекция на скролването
 settings.controller.header Контролер
 settings.controller.sensitivityX X чуствителност
 settings.controller.disableCons Деактивиране на контролери
 settings.controller.sensitivityY чувствителност Y
-settings.controller.aimsensX Aim X Sensitivity
-settings.controller.aimsensY Aim Y Sensitivity
-settings.controller.deadZoneL Dead Zone (Left)
-settings.controller.deadZoneR Dead Zone (Right)
+settings.controller.aimsensX Чувствителност X на прицелване
+settings.controller.aimsensY Чувсвителност Y на прицелване
+settings.controller.deadZoneL Мъртва зона (Ляво)
+settings.controller.deadZoneR Мъртва зона (Дясно)
 settings.controller.triggerThres Trigger Threshold
-settings.controller.vibration Vibration
+settings.controller.vibration Вибрация
 settings.controller.gradSpeed Gradual Speed
 settings.controller.invert Invert Y-Axis
-settings.mobile.header Mobile
+settings.mobile.header Мобилен
 settings.mobile.sensitivityX X Sensitivity
 settings.mobile.sensitivityY Y Sensitivity
 settings.mobile.aimsensX Aim X Sensitivity
 settings.mobile.aimsensY Aim Y Sensitivity
-settings.mobile.vibration Vibration
+settings.mobile.vibration Вибрация
 settings.mobile.gradSpeed Gradual Speed
 settings.mobile.invert Invert Y-Axis
-settings.audio.header Audio
+settings.audio.header Аудио
 settings.audio.sound Master Volume
 settings.audio.ambient Ambient Volume
-settings.audio.voice Voice Volume
+settings.audio.voice Звук на гласове
 settings.audio.input Audio/Mic Input
 settings.audio.mic Mic Volume
-settings.audio.weps Weapon Volume
-settings.audio.player Player Volume
+settings.audio.weps Звук на оръжията
+settings.audio.player Звук на играчите
 settings.audio.skin Cosmetics Volume
-settings.audio.ui UI Volume
+settings.audio.ui UI Звук
 settings.audio.asset Asset Volume
 settings.audio.dialogue Action Volume
 settings.viewmodel.header View Model
 settings.viewmodel.vmSetts View Model Settings
-settings.viewmodel.fov Field of View
-settings.viewmodel.fps Weapon FOV
+settings.viewmodel.fov Полезрение
+settings.viewmodel.fps Полезрение на оръжието
 settings.viewmodel.bobbing Weapon Bobbing
 settings.viewmodel.leaning Weapon Leaning
-settings.viewmodel.show.primary Show Primary
-settings.viewmodel.show.secondary Show Secondary
-settings.viewmodel.roundArms Rounded Arms
-settings.viewmodel.show.melee Show Melee
-settings.viewmodel.show.ads Hide Weapon on ADS
+settings.viewmodel.show.primary Покажи Главно оръжие
+settings.viewmodel.show.secondary Покажи Второ оръжие
+settings.viewmodel.roundArms Закръглени ръце
+settings.viewmodel.show.melee Покажи нож
+settings.viewmodel.show.ads Скриване на оръжие повреме на прицелване
 settings.viewmodel.toggleAim Toggle Aim
-settings.viewmodel.show.hands Show Hands
-settings.viewmodel.leftHand Left Handed
+settings.viewmodel.show.hands Покажи ръце
+settings.viewmodel.leftHand Левичар
 settings.viewmodel.aimAnim Weapon Aim Animation
 settings.viewmodel.rot Weapon Rotation
 settings.viewmodel.xOff Weapon X Offset
@@ -392,7 +392,7 @@ settings.editing.menuHue Color Hue (UI)
 settings.editing.vignette Vignette
 settings.editing.feedLimit Killfeed Limit
 settings.editing.depth Depth Map
-settings.editing.green Green Screen
+settings.editing.green Зелен екран
 settings.editing.trailcol Bullet Trail Color
 settings.editing.ropecol Grapple Rope Color
 settings.editing.tracercol Bullet Tracers
@@ -839,13 +839,13 @@ social.profile.sales.market Market Sales
 social.profile.skins Skins [{0}]
 social.profile.skins.none No published Skins from this user
 social.profile.games Games [{0}]
-social.profile.games.none No published Games from this user
+social.profile.games.none Никакви игри публикувани от този потребител
 social.profile.assets Assets [{0}]
 social.profile.assets.none No published Assets from this user
 social.profile.mods Mods [{0}]
 social.profile.mods.none No published Mods from this user
-social.search Search Results
-social.market.stats.rare Rarest Items
+social.search Резултати от търсенето
+social.market.stats.rare Най-рядките предмети
 social.market.stats.circulation In Circulation
 social.market.stats.units units Worldwide
 social.trades.in Incoming
@@ -854,10 +854,10 @@ social.trades.out Outgoing
 social.trades.out.head Outgoing Offers ({0})
 social.trades.history History
 social.trades.history.head Trade History ({0})
-social.trades.decline Decline All
-social.trades.message ENABLE TRADE MESSAGES IN SETTINGS
-social.trades.warning You get no items from this trade!
-social.trades.accept Are you sure you want to accept this offer?
-stats.airdrops KR-Packages
-settings.quality.flapAnim Sniper Flap Animation
+social.trades.decline Откажи всички
+social.trades.message ВКЛЮЧВАНЕ НА ТРЕЙДИНГ СЪОБЩЕНИЯТА В НАСТРОЙКИТЕ
+social.trades.warning Вие не получавате никакви предмети от този трейд
+social.trades.accept Сигурен ли сте че искате да приемете тази оферта?
+stats.airdrops KR-Пакет
+settings.quality.flapAnim Анимация на снайперска клапа
 `;
