@@ -24,7 +24,7 @@ generic.leave 나가기
 generic.default 기본
 generic.submit 제출
 generic.create 게임 만들기
-generic.random 무작위
+generic.random 랜덤
 generic.failed 실패
 generic.success 완료
 generic.name 이름
@@ -99,7 +99,7 @@ settings.experimental.aimFreezeFix 에임 멈춤 현상 해결
 settings.experimental.mouseFlickFix 마우스 순간이동 문제 해결
 settings.experimental.shaderRendering 인스턴스 렌더링
 settings.client.header 클라이언트
-settings.client.unlimitedFrames FPS 무제한
+settings.client.unlimitedFrames 무제한 FPS
 settings.client.gameCap 게임 캡처
 settings.client.experimental 시험 기능
 settings.client.discordRPC Discord 연동
