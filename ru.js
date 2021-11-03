@@ -61,7 +61,7 @@ generic.accuracy Точность
 player.waiting Ожидание игроков
 player.died Вы умерли
 player.killed Убиты
-player.killstreak {0} в {1} серии убийств
+player.killstreak {0} on a {1} Kill Streak
 player.inactive Удален за неактивность
 player.disconnect Отключен от сервера
 timer.end Следующий раунд через {0}
