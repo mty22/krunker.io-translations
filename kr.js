@@ -24,7 +24,7 @@ generic.leave 나가기
 generic.default 기본
 generic.submit 제출
 generic.create 게임 만들기
-generic.random 랜덤
+generic.random 무작위
 generic.failed 실패
 generic.success 완료
 generic.name 이름
