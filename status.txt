@@ -20,7 +20,7 @@ Tagalog,v4.2.2 - 03/OCT/21
 Spanish,v4.2.2
 Finnish,v4.2.2 - 31/OCT/21
 Russian,v4.2.2 - 31/OCT/21
-Portuguese,v4.2.2 - 21/DEC/21
+Portuguese,v4.2.2 - 13/DEC/21
 
 Pull requests pending:
 
