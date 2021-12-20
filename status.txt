@@ -1,4 +1,4 @@
-31/OCT/2021 update -
+21/DEC/2021 update -
 
 Current statuses of languages in-game (these are prioritised).
 
@@ -20,6 +20,7 @@ Tagalog,v4.2.2 - 03/OCT/21
 Spanish,v4.2.2
 Finnish,v4.2.2 - 31/OCT/21
 Russian,v4.2.2 - 31/OCT/21
+Portuguese,v4.2.2 - 21/DEC/21
 
 Pull requests pending:
 
@@ -27,6 +28,5 @@ N/A
 
 Updates required:
 
-Portuguese,v3.8.6 (Bonus KR available)
 Hindi,v4.0.9
 German,v4.0.9
