@@ -1,6 +1,6 @@
 module.exports = `
 menu.btn.ranked Classificata
-menu.btn.shop Shop
+menu.btn.shop Negozio
 menu.btn.social Social
 menu.btn.maps Mappe
 menu.btn.mods Mods
@@ -13,7 +13,7 @@ menu.btn.host Crea Partita
 menu.btn.browser Server
 generic.wait Per favore aspetta...
 generic.loading CARICAMENTO...
-generic.none Nessuna
+generic.none Niente
 generic.connecting CONNESSIONE...
 generic.select Seleziona
 generic.delete Elimina
@@ -37,8 +37,8 @@ generic.matchover PARTITA FINITA
 generic.matchaband PARTITA ABBANDONATA
 generic.follow Segui
 generic.unfollow Smetti di seguire
-generic.followers Followes
-generic.following Following
+generic.followers Seguaci
+generic.following Seguiti
 generic.games Partite
 generic.wins Vittorie
 generic.lose Sconfitte
@@ -46,7 +46,7 @@ generic.clan Clan
 generic.games.played Partite Giocate
 generic.games.won Partite Vinte
 generic.games.lost Partite Perse
-generic.timep Tempo Giocato
+generic.timep Tempo Di Gioco
 generic.kills Uccisioni
 generic.deaths Morti
 generic.kdr KDR
@@ -61,7 +61,7 @@ generic.accuracy Precisione
 player.waiting aspettando i giocatori
 player.died Sei morto
 player.killed Ucciso da
-player.killstreak {0} on a {1} Kill Streak
+player.killstreak {0} on a {1} Serie Di Uccisioni
 player.inactive Disconnesso per inattività
 player.disconnect DISCONNESSO
 timer.end Prossimo round in {0}
@@ -94,7 +94,7 @@ settings.network.lagComp Compensazione Lag
 settings.popup.header Popups
 settings.popup.freeKRPop Mostra Popup KR gratuiti
 settings.experimental.header Sperimentali
-settings.experimental.optNetwork Rete ottimizzata 
+settings.experimental.optNetwork Ottimizzazione Rete (sperimentale)
 settings.experimental.aimFreezeFix Risolvi mirino bloccato
 settings.experimental.mouseFlickFix Risolvi Flick del mouse
 settings.experimental.shaderRendering Rendering a istanze
@@ -137,7 +137,7 @@ settings.quality.renderdist Distanza di Rendering
 settings.quality.reflection Qualità riflessi
 settings.quality.antiAlias Antialiasing
 settings.quality.shadows Ombre
-settings.quality.softShad Ombre morbide
+settings.quality.softShad Ombre soffici
 settings.quality.highResShad Ombre alta risoluzione
 settings.quality.shadowsDynamic Ombre dinamiche
 settings.quality.trails Scia proiettili
@@ -175,7 +175,7 @@ settings.interface.scoreboard Usa il vecchio tabellone
 settings.interface.oldBrowser Usa il vecchio browser
 settings.interface.rarityanim Disabilita animazione rarità
 settings.interface.showPfp Mostra Immagini profilo
-settings.interface.showTradeMsg Mostra messaggi Trading
+settings.interface.showTradeMsg Mostra messaggi di scambio
 settings.interface.hideNonTrade Nascondi skin non scambiabili
 settings.interface.hp Barra PV dinamica
 settings.interface.dmgScale Dimensione danni
@@ -190,12 +190,12 @@ settings.interface.streak Mostra numero uccisioni consecutive
 settings.interface.score Mostra contatore punteggio
 settings.interface.spectators Mostra numero spettatori
 settings.interface.speed Mostra velocità di movimento
-settings.interface.speedOffX Posizione X velocità
-settings.interface.speedOffY Posizione Y velocità
+settings.interface.speedOffX Posizione X misuratore velocità
+settings.interface.speedOffY Posizione Y misuratore velocità
 settings.interface.speedOpacity Opacità velocità
-settings.interface.speedScale Dimensioni velocità
-settings.interface.speedColor Colore velocità (Corrente)
-settings.interface.speedColorMax Colore velocità (Massima)
+settings.interface.speedScale Dimensioni misuratore velocità
+settings.interface.speedColor Colore misuratore velocità (Corrente)
+settings.interface.speedColorMax Colore misuratore velocità (Massima)
 settings.interface.medals Mostra medaglie
 settings.interface.hideNames Visibilità Nametag
 settings.interface.hideNames.team Solo squadra
@@ -292,7 +292,7 @@ settings.gameprivacy.hideGameTitle Nascondi titolo gioco
 settings.gameprivacy.verified Mostra badge verificato
 settings.gameprivacy.premium Mostra badge premium
 settings.gameprivacy.partner Mostra badge partner 
-settings.gameprivacy.rank Mostra badge rango
+settings.gameprivacy.rank Mostra badge rango classificato
 settings.gameplay.header Gameplay
 settings.gameplay.gpSetts Impostazioni Gameplay
 settings.gameplay.sensitivityX Sensibilità X
@@ -464,7 +464,7 @@ windows.loadout.color.skin Colore pelle
 windows.loadout.color.chat Colore del nome in chat
 windows.loadout.color.hair Colore capelli
 windows.loadout.dye Tinta
-windows.loadout.pet Animale
+windows.loadout.pet Animale da compagnia
 windows.loadout.stat Statistica Killcard
 windows.loadout.flag Bandiera
 windows.mods.drop rilascia file Mod qui o clicca
@@ -645,7 +645,7 @@ image.upload.limit Fallito. Limite di {0}kb per l'immagine
 thumbnail.upload.error Errore Copertina
 mod.extracting estraendo {0}/{1}
 mod.disabled mods disablitate
-mod.error errore mod!
+mod.error c'è stato un errore nella mod!
 mod.loading caricamento mod...
 mod.invalid file mod invalido!
 matchmaker.full PIENO
@@ -697,9 +697,9 @@ server.config.allowSpect Spettatori
 server.config.killRewards Premi uccisioni
 server.config.headshotOnly Solo headshot
 server.config.noSecondary Disabilita secondarie
-server.config.noStreaks Disabilita serie
+server.config.noStreaks Disabilita serie di uccisioni
 server.config.canSlide Scivolare
-server.config.wallJP Forza salto dal muro
+server.config.wallJP  Salto dal muro
 server.config.autoJump Salto automatico
 server.config.bDrop Cadenza proiettili
 server.config.thirdPerson 3a persona
@@ -733,10 +733,10 @@ server.config.noDraws Nessun pareggio
 server.config.bstOfR Al meglio di
 server.config.chrgWeps Chargable Weapons
 social.login Login/Registrati
-social.login.failed Login fallito
-social.login.buy Fai il login per comprare
-social.login.sell Fai il login per vendere
-social.login.gift Fai il login per regalare
+social.login.failed C'è stato un errore nel login!
+social.login.buy Effettua il login per comprare
+social.login.sell Effettua il login per vendere
+social.login.gift Effettua il login per regalare
 social.login.proccessing Login in corso...
 social.since Dal
 social.user.maps Mappe degli utenti
@@ -754,7 +754,7 @@ social.market.posting Mettendo in vendita...
 social.market.req richiesto lvl {0}
 social.market.cant Non puoi permettertelo
 social.market.purchase Acquista
-social.market.fee Senza costi
+social.market.fee Gratis!
 social.market.failed Fallito. Riprova
 social.market.head Copricapo
 social.market.back Zaino
@@ -776,7 +776,7 @@ social.trading.submitting Inviando l'offerta...
 social.market.gift.amount Importo regalo in
 social.market.fee.gift Senza tassa
 social.market.gift Regala KR
-social.market.gift.msg Lascia un messaggio
+social.market.gift.msg Aggiungi un messaggio
 respawn.auto Rinascita automatica in {0}
 custom.host.ranked Non puoi creare una partita durante una Classificata.
 funds.insufficient Fondi insufficienti
@@ -820,7 +820,7 @@ windows.chall.customs Le sfide non possono essere completate nelle partite perso
 twitch.link Sei sicuro di voler aggiungere un account di twitch?
 twitch.unlink Sei sicuro di voler rimuovere il tuo account di twitch?
 windows.clan.leave Sei sicuro di voler lasciare il clan?
-windows.clan.delete Sei sicuro di voler eliminare il clan?
+windows.clan.delete Sei sicuro di voler eliminare definitivamente il clan?
 windows.clan.kick Sei sicuro di voler espellere {0} dal clan?
 windows.store.premium.purchase Sei sicuro di voler acquistare {0} giorni di Premium?
 windows.store.premium.gift Sei sicuro di voler regalare a '{0}' {1} giorni di Premium?
