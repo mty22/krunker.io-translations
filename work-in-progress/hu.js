@@ -91,13 +91,15 @@ settings.network.header Hálózat
 settings.network.netRerouting Automatikus útválasztás (Befolyásolja a Pinget)
 settings.network.netRate Network Rate (Hz)
 settings.network.lagComp Lag Kompenzálás
+settings.network.optNet Optimized Networking
 settings.popup.header Felugró ablakok
-settings.popup.freeKRPop Ingyenes KR ablak mutatása
 settings.experimental.header Kísérleti
-settings.experimental.optNetwork Optimized Networking
+settings.experimental.holiday Holiday Effects
 settings.experimental.aimFreezeFix Célzás befagyás Javítása
 settings.experimental.mouseFlickFix Egér Rándulás Javítása
 settings.experimental.shaderRendering Árnyékolt renderelés
+settings.experimental.mouseAccel Mouse Acceleration
+settings.experimental.tbInterp TB Interpolation
 settings.client.header Client
 settings.client.unlimitedFrames Unlimited FPS
 settings.client.gameCap Game Capture
@@ -109,6 +111,7 @@ settings.client.resetSettings Reset Client Settings
 settings.client.acceleratedCanvas Accelerated Canvas
 settings.client.angleBackend ANGLE Graphics Backend
 settings.client.colorProfile Color Profile
+settings.client.resourcePacks Resource Packs
 settings.dev.header Fejlesztő
 settings.dev.forceUpdate Kinézetek kényszerített frissítése
 settings.dev.forceRegen Mindig regenerálódjon a játékos
@@ -170,6 +173,7 @@ settings.interface.dmgCol Sebzés színe
 settings.interface.critCol Kritikális sebzés színe
 settings.interface.header Felület
 settings.interface.scale UI Mérete
+settings.interface.theme Game Theme
 settings.interface.ui UI Mutatása
 settings.interface.scoreboard Régi eredménytábla mutatása
 settings.interface.oldBrowser Régi böngésző használata
@@ -196,13 +200,13 @@ settings.interface.speedOpacity Sebesség átlátszóság
 settings.interface.speedScale Sebesség mérték
 settings.interface.speedColor Sebesség szín (Jelenlegi)
 settings.interface.speedColorMax Sebesség szín(Maximum)
-settings.interface.medals Medálok mutatása
 settings.interface.hideNames Nevek mutatása
 settings.interface.hideNames.team Kizárólag a csapat
 settings.interface.hideNames.enemy Kizárólag az ellenfél
 settings.interface.hideNames.all Mindenki
 settings.interface.nametagStyle Nevek stílusa
 settings.interface.nametagOpac Nevek átlátszósága
+settings.interface.nametagScale Nametag Scale
 settings.interface.nametagStyle.health Csak az élet
 settings.interface.nametagStyle.name Csak a név
 settings.interface.nametagStyle.nameLvl Csak a név és a szint
@@ -213,6 +217,13 @@ settings.interface.healthColE Az ellenséges csapat életének színe
 settings.interface.xpBarCol Szint sáv színe
 settings.interface.xpBarCol2 XP Bar Color 2
 settings.interface.xpBarOpac Szint sáv átlátszósága
+settings.medals.header Medals
+settings.medals.show Show Medals
+settings.medals.classic Classic Medals
+settings.medals.sound Play Medal Sounds
+settings.medals.scale Medal Scale
+settings.medals.xOff Medal X Offset
+settings.medals.yOff Medal Y Offset
 settings.crosshair.header Célkereszt
 settings.crosshair.type Típus
 settings.crosshair.type.1 Dynamic
@@ -289,10 +300,12 @@ settings.gameprivacy.header Játékélmény
 settings.gameprivacy.streamer Streamer mód
 settings.gameprivacy.anon Névtelen mód
 settings.gameprivacy.hideGameTitle A játék cím elrejtése
+settings.gameprivacy.showRegion Show Region Info
 settings.gameprivacy.verified Show Verified Badge
 settings.gameprivacy.premium Show Premium Badge
 settings.gameprivacy.partner Show Partner Badge
 settings.gameprivacy.rank Show Ranked Badge
+settings.gameprivacy.custom Show Custom Badge
 settings.gameplay.header Játék
 settings.gameplay.gpSetts Gameplay Settings
 settings.gameplay.sensitivityX X Érzékenység
@@ -329,6 +342,7 @@ settings.audio.ambient Környezeti hangerő
 settings.audio.voice Hangüzenet hangerő
 settings.audio.input Audio/Mic Input
 settings.audio.mic Mic Volume
+settings.audio.micquality Mic Quality
 settings.audio.weps Fegyver hangerő
 settings.audio.player Játékos hangerő
 settings.audio.skin Kinézeti tárgyak hangereje
@@ -445,6 +459,7 @@ windows.servers.hide Megteltek elrejtése
 windows.servers.priority Régió prioritás
 windows.servers.online {0} Játékban
 windows.servers.social {0} a közösségin
+windows.servers.editor {0} in Editor
 windows.loadout.header Fegyverek váltása
 windows.loadout.class Osztály
 windows.loadout.primary Elsődleges
@@ -465,8 +480,10 @@ windows.loadout.color.chat Csevegés név szín
 windows.loadout.color.hair Haj szín
 windows.loadout.dye Festék
 windows.loadout.pet Állat
+windows.loadout.wrist Wrist
 windows.loadout.stat Ölési kártya statisztika
 windows.loadout.flag Zászló
+windows.loadout.badge Custom Badge
 windows.mods.drop dobd ide a mod fájlt vagy klikkelj
 windows.mods.paste Másold be a mod URL-t
 windows.mods.load Mod betöltése
@@ -490,6 +507,7 @@ windows.controls.aim1 Célzás
 windows.controls.shoot1 Lövés
 windows.controls.inspect Szemlélés
 windows.controls.spray Spré
+windows.controls.sprayWheel Spray Wheel (Hold)
 windows.controls.jump Ugrás
 windows.controls.crouch Guggolás
 windows.controls.prim Elsődleges fegyver
@@ -520,15 +538,20 @@ windows.controls.streak1 Sorozat 2
 windows.controls.streak2 Sorozat 3
 windows.controls.streak3 Sorozat 4
 windows.controls.streak4 Sorozat 5
+windows.controls.taunt0 Taunt (Psst)
+windows.controls.taunt1 Taunt (Whistle)
+windows.controls.taunt2 Taunt (Fart)
+windows.controls.taunt3 Taunt (Meme)
+windows.controls.taunt4 Taunt (WTF is This?)
+windows.controls.taunt5 Taunt (Right Now!)
 windows.controls.prop Select Prop (Hold)
+windows.controls.propRand Select Random Prop
+windows.controls.propRot Toggle Rotation
+windows.controls.propRotR Reset Rotation
 windows.controls.premium0 Noclip
 windows.controls.premium1 Godmode
 windows.controls.premium2 Ölés
 windows.controls.premium3 Sújtás
-windows.controls.dev0 Developer Bind 1
-windows.controls.dev1 Developer Bind 2
-windows.controls.dev2 Developer Bind 3
-windows.controls.dev3 Developer Bind 4
 windows.controls.reset Pozíció visszaállítása (Verseny és Parkour)
 windows.controls.pretend Játék elrejtése
 windows.host.header Saját játék hosztolása
@@ -588,6 +611,7 @@ windows.store.amount {0} KR-ed van
 windows.store.login hogy tudj venni és feloldani dolgokat a boltban!
 windows.store.purchasing Vásárlás...
 windows.store.unboxed {0}{1} kinyitva
+windows.store.found {0}{1} found
 windows.trade.header Kereskedés
 windows.scope.header Scope kiválasztása
 windows.premium.header Prémium
@@ -635,9 +659,6 @@ windows.client.linux Linux telepítő
 windows.ranked.header Kompetitív
 windows.ranked.login hogy részt vehess kompetitív játékokban!
 windows.ranked.level Szükséges szint hogy játszhass kompetitívet: <span color="black">{0}</span>! Most a/az <span color="black">{1}.</span> szinten vagy.
-windows.ranked.mode.r1v1 Egyéni
-windows.ranked.mode.r2v2 Duó
-windows.ranked.mode.r4v4 Csapat
 windows.chall.header Kihívások
 windows.chall.login a kihívások feloldásáért!
 thumbnail.upload.limit Failed. {0}kb indexkép feltöltési korlát
@@ -649,10 +670,11 @@ mod.error mod hiba!
 mod.loading mod betöltése...
 mod.invalid hibás mod fájl
 matchmaker.full MEGTELT
-matchmaker.full2 A játék megtelt.
-matchmaker.updating A játék frissít
-matchmaker.invalid Játék nem találva.
-matchmaker.none A játék szerverek megteltek
+matchmaker.GameFull Game is full.
+matchmaker.NoServersMatchQuery GAME UPDATING
+matchmaker.InvalidGameId Game not found.
+matchmaker.NoAvailableServers Servers are at Max Capacity
+matchmaker.GameIssue Unknown Join Issue
 adblocker Kapcsold ki az ad blockert hogy tudj szerezni ingyen KR-t.
 ad-failed A reklámot nem tudtuk betölteni. Próbáld újra.
 streamers.views {0} néző
@@ -706,6 +728,7 @@ server.config.thirdPerson Külső nézet
 server.config.requireCaptcha Kell captcha
 server.config.nameTags Nevek elrejtése
 server.config.kCams Ölés kamera
+server.config.aAnon Allow Anonymous
 server.config.noReload Nincs újratöltés
 server.config.private Privát
 server.config.krRewards KR Jutalmak
@@ -762,9 +785,11 @@ social.market.waist Derék
 social.market.face Arc
 social.market.shoe Cipő
 social.market.pet Kisállat
+social.market.wrist Wrist Item
 social.market.melee Kés
 social.market.spray Spré
 social.market.dye Festék
+social.market.collectible Collectible Item
 social.market.none Nem találtunk ilyen tárgyakat
 social.market.login Be kell jelentkezned.
 social.market.grace Elérhető {0} idő múlva
@@ -809,7 +834,9 @@ stats.fistkills Elverések
 stats.thrownkills Bullseye-ok
 stats.headshots Fejlövések
 stats.wallbangs Fal lövések
+stats.crouches Crouches
 stats.sprays Elhelyezett sprék
+stats.kpd Helpful Reports
 windows.host.default.settings Az alapméretezett beállítások engedélyezése megengedi hogy tároljuk a játékos fejlődését, és pontszámait
 windows.host.default.commands *A hoszt parancsok ki vannak kapcsolva ebben a módban: /noclip /god /smite stb.
 windows.host.rewards A KR jutalmak engedélyezése kényszeríti a szervert az alap beállítások használatára és megengedi a játékosoknak hogy KR-t nyerjenek a pálya tőkéjéből.
@@ -831,7 +858,9 @@ windows.playerlist.punish Biztos meg akarod büntetni őt: {0}?
 item.view.open Open Model Viewer
 item.view.more More Information
 item.sell.cant Item cant be sold.
+item.sell.cant.krunker Item cant be sold on krunker.
 item.sell.quick Are you sure you want to Quick Sell {0}?
+item.sell.destroy Are you sure you want to Destroy {0}?
 social.profile.stats Overall Stats
 social.profile.class Class Stats
 social.profile.sales Sales
@@ -859,5 +888,39 @@ social.trades.message ENABLE TRADE MESSAGES IN SETTINGS
 social.trades.warning You get no items from this trade!
 social.trades.accept Are you sure you want to accept this offer?
 stats.airdrops KR-Packages
+stats.airdrops.stolen Airdrops Stolen
 settings.quality.flapAnim Sniper Flap Animation
+chall.name.hs Get {0} headshots {1}
+chall.name.ns Get {0} no-scopes {1}
+chall.name.ls Get {0} legshots {1}
+chall.name.ls Get {0} throwing knife kills {1}
+chall.name.ls Get {0} first bloods {1}
+chall.name.ls Get {0} longshots {1}
+chall.name.ls Get {0} legshots {1}
+chall.name.ls Get {0} throwing knife kills {1}
+chall.name.ls Get {0} first bloods {1}
+chall.name.ls Get {0} longshots {1}
+chall.name.ls Get {0} legshots {1}
+chall.name.ls Get {0} throwing knife kills {1}
+chall.name.ls Get {0} first bloods {1}
+chall.name.ls Get {0} longshots {1}
+chall.name.mk Get {0} melee kills {1}
+chall.name.fk Get {0} fist kills {1}
+chall.name.qs Get {0} quickscopes {1}
+chall.name.wb Get {0} wallbangs {1}
+chall.name.airk Get {0} mid-air kills {1}
+chall.name.ls Get {0} legshots {1}
+chall.name.ls Get {0} throwing knife kills {1}
+chall.name.ls Get {0} first bloods {1}
+chall.name.ls Get {0} longshots {1}
+chall.name.tk Get {0} turbo kills {1}
+chall.name.drk Get {0} drift kills {1}
+chall.name.kstk Get a {0} killstreak {1}
+chall.name.w Win {0} matches
+chall.name.d Die {0} times
+chall.name.score Get {0} score
+chall.name.dmg Deal {0} damage {1}
+chall.name.bzk Get {0} buzz kills {1}
+chall.name.cc Get {0} close-calls {1}
+chall.name.rk Deal {0} revenge kills {1}
 `;
