@@ -1,16 +1,16 @@
 module.exports = `
 menu.btn.ranked Chơi Rank
 menu.btn.shop Cửa hàng
-menu.btn.hub Krunker Hub
+menu.btn.social Hub
 menu.btn.maps Bản đồ/trò chơi khác
 menu.btn.mods Mods
 menu.btn.settings Cài đặt
 menu.btn.customize Tùy chỉnh
 menu.btn.invite Mời người chơi
-menu.btn.invite.Sao chép
+menu.btn.invite.clicked Copied
 menu.btn.join Tham gia 
 menu.btn.host Tạo phòng
-menu.btn.chơi Với nhiều người
+menu.btn.browser Servers
 generic.wait Hãy đợi vài giây...
 generic.loading Đang Tải...
 generic.none Không
@@ -25,7 +25,7 @@ generic.default Mặc Định
 generic.submit Nộp
 generic.create Tạo
 generic.random Ngẫu Nhiên
-generic.Ko thành công
+generic.failed Failed
 generic.success Thành công!
 generic.name Tên
 generic.level Cấp độ
@@ -65,7 +65,7 @@ player.killstreak {0} giết được {1} lần liên tục
 player.inactive bị Kick vì ko hoạt động
 player.disconnect Ko thể kết nối
 timer.end Trận đấu tiếp theo trong {0}
-leaderboard.sảnh trống 
+leaderboard.empty Empty Lobby
 popup.checkpoint Đã Đánh Dấu!
 app.play NHẤP VÀO ĐỂ CHƠI
 app.spectate NHẤP VÀO ĐỂ THEO DÕI TRẬN ĐẤU
@@ -88,19 +88,20 @@ settings.local.header Localization <span id="requiresRestart"><span style="color
 settings.local.region Khu vực mặt định
 settings.local.lang Ngôn ngữ
 settings.network.header Mạng 
-settings.network.sendRate Tỷ lệ đánh dấu cao 
 settings.network.netRerouting Định tuyến tự động (Ảnh hưởng đến Ping)
+settings.network.netRate Network Rate (Hz)
 settings.network.lagComp Lag Compensation
-settings.network.hitReg Hitreg Test
+settings.network.optNet Optimized Networking
 settings.popup.header Cửa sổ bật lên
-settings.popup.freeKRPop Hiển thị cửa sổ bật lên-KR miễn phí
 settings.experimental.header Thực nghiệm 
+settings.experimental.holiday Holiday Effects
 settings.experimental.aimFreezeFix Aim Freeze Fix
 settings.experimental.mouseFlickFix Sửa lỗi nhấp chuột
 settings.experimental.shaderRendering Instance Rendering
-settings.experimental.staticRendering Static Rendering
+settings.experimental.mouseAccel Mouse Acceleration
+settings.experimental.tbInterp TB Interpolation
 settings.client.header Client
-settings.client.unlimited Khung hình FPS không giới hạn
+settings.client.unlimitedFrames Unlimited FPS
 settings.client.gameCap Game Capture
 settings.client.experimental Experimental Features
 settings.client.discordRPC Discord RPC
@@ -110,6 +111,7 @@ settings.client.resetSettings Đặt lại cài đặt của client
 settings.client.acceleratedCanvas Accelerated Canvas
 settings.client.angleBackend ANGLE Graphics Backend
 settings.client.colorProfile Màu hồ sơ
+settings.client.resourcePacks Resource Packs
 settings.dev.header Developer
 settings.dev.forceUpdate Force Update Skins
 settings.dev.forceRegen Always Regenerate Player
@@ -171,6 +173,7 @@ settings.interface.dmgCol Màu Damege
 settings.interface.critCol Crit Color
 settings.interface.header Interface
 settings.interface.scale UI Scale
+settings.interface.theme Game Theme
 settings.interface.ui Hiển thị UI
 settings.interface.scoreboard Sử dụng bảng điểm cũ
 settings.interface.oldBrowser Sử dụng trình duyệt cũ
@@ -197,13 +200,13 @@ settings.interface.speedOpacity Speed Opacity
 settings.interface.speedScale Speed Scale
 settings.interface.speedColor Speed Color (Current)
 settings.interface.speedColorMax Speed Color (Max)
-settings.interface.medals Show Medals
 settings.interface.hideNames Hiển thị bảng tên
 settings.interface.hideNames.team Chỉ đồng đội
 settings.interface.hideNames.enemy Chỉ đối thủ
 settings.interface.hideNames.all Tất cả mọi người
 settings.interface.nametagStyle Kiểu bảng tên
 settings.interface.nametagOpac độ rõ bảng tên
+settings.interface.nametagScale Nametag Scale
 settings.interface.nametagStyle.health chỉ hiển thị máu
 settings.interface.nametagStyle.name chỉ hiển thị tên
 settings.interface.nametagStyle.nameLvl Chỉ hiển thị tên và cấp độ
@@ -212,9 +215,18 @@ settings.interface.healthNum Hiển thị số máu
 settings.interface.healthColT Màu HP đồng đội
 settings.interface.healthColE Màu HP địch
 settings.interface.xpBarCol Màu thanh XP 
+settings.interface.xpBarCol2 XP Bar Color 2
 settings.interface.xpBarOpac Độ trong suốt thanh XP
+settings.medals.header Medals
+settings.medals.show Show Medals
+settings.medals.classic Classic Medals
+settings.medals.sound Play Medal Sounds
+settings.medals.scale Medal Scale
+settings.medals.xOff Medal X Offset
+settings.medals.yOff Medal Y Offset
 settings.crosshair.header Tâm 
 settings.crosshair.type Thể loại
+settings.crosshair.type.1 Dynamic
 settings.crosshair.type.2 Tùy chỉnh 
 settings.crosshair.type.3 Layered
 settings.crosshair.type.4 Image
@@ -227,6 +239,8 @@ settings.crosshair.style.3 Hình vuống rỗng
 settings.crosshair.style.4 Hình vuông đầy
 settings.crosshair.image Hình ảnh
 settings.crosshair.image.paste Hình ảnh Tâm
+settings.crosshair.image.width Image Width
+settings.crosshair.image.height Image Height
 settings.crosshair.always Luôn hiển thị 
 settings.crosshair.color Màu tâm
 settings.crosshair.shadow.color Màu viền tâm
@@ -237,6 +251,31 @@ settings.crosshair.gap Khoảng cách tâm
 settings.crosshair.dot dấu chấm
 settings.crosshair.opacity.use Sử dụng độ trong suốt tùy chỉnh
 settings.crosshair.opacity.custom Độ trong suốt tùy chỉnh
+settings.crosshairm.header Crosshair (Throwing)
+settings.crosshairm.type Type
+settings.crosshairm.type.1 Shapes
+settings.crosshairm.type.2 Image
+settings.crosshairm.type.3 Precision
+settings.crosshairm.style Style
+settings.crosshairm.style.0 Cross
+settings.crosshairm.style.1 Hollow Circle
+settings.crosshairm.style.2 Solid Circle
+settings.crosshairm.style.3 Hollow Square
+settings.crosshairm.style.4 Solid Square
+settings.crosshairm.image Image
+settings.crosshairm.image.paste Crosshair Image
+settings.crosshairm.image.width Image Width
+settings.crosshairm.image.height Image Height
+settings.crosshairm.always Always Show
+settings.crosshairm.color Color
+settings.crosshairm.shadow.color Shadow Color
+settings.crosshairm.shadow.thickness Shadow Thickness
+settings.crosshairm.size Size
+settings.crosshairm.thickness Thickness
+settings.crosshairm.gap Gap
+settings.crosshairm.dot Dot
+settings.crosshairm.opacity.use Use Custom Opacity
+settings.crosshairm.opacity.custom Custom Opacity
 settings.hitmarker.header Hiển thị dấu trúng mục tiêu
 settings.hitmarker.color Màu
 settings.hitmarker.kcolor Màu giết
@@ -261,6 +300,12 @@ settings.gameprivacy.header Quyền riêng tư trong trò chơi
 settings.gameprivacy.streamer Chế độ streamer
 settings.gameprivacy.anon Chế độ ẩn danh
 settings.gameprivacy.hideGameTitle Ân tiêu đề trò chơi
+settings.gameprivacy.showRegion Show Region Info
+settings.gameprivacy.verified Show Verified Badge
+settings.gameprivacy.premium Show Premium Badge
+settings.gameprivacy.partner Show Partner Badge
+settings.gameprivacy.rank Show Ranked Badge
+settings.gameprivacy.custom Show Custom Badge
 settings.gameplay.header Gameplay
 settings.gameplay.gpSetts Cài đặt Gameplay
 settings.gameplay.sensitivityX X Độ nhạy
@@ -295,6 +340,9 @@ settings.audio.header Audio
 settings.audio.sound Master Volume
 settings.audio.ambient Âm lượng xung quanh
 settings.audio.voice Âm lượng tiếng nói
+settings.audio.input Audio/Mic Input
+settings.audio.mic Mic Volume
+settings.audio.micquality Mic Quality
 settings.audio.weps Âm lượng vũ khí
 settings.audio.player Âm lượng người chơi
 settings.audio.skin Cosmetics Volume
@@ -324,6 +372,7 @@ settings.viewmodel.weapSwapY Weapon Swap Y
 settings.viewmodel.weapReloadY Weapon Reload Y
 settings.viewmodel.yOffADS Weapon ADS Y Offset
 settings.viewmodel.adsFovMlt ADS FOV Power
+settings.viewmodel.toggleADS Toggle Weapon ADS
 settings.editing.header Chỉnh Sửa
 settings.editing.health.high HUD Health High
 settings.editing.health.low HUD Health Low
@@ -343,6 +392,7 @@ settings.editing.progOffX Progress Bar X Offset
 settings.editing.progOffY Progress Bar Y Offset
 settings.editing.progRot Progress Bar Rotation
 settings.editing.progm.color Charge Bar Color
+settings.editing.progmo.color Overcharge Color
 settings.editing.progm.opacity Charge Bar Opacity
 settings.editing.progm.scale Charge Bar Scale
 settings.editing.progm.shadow Charge Bar Shadow
@@ -398,6 +448,8 @@ settings.mods.damage.paste Damage Overlay Image URL
 settings.mods.overlay Game Overlay Image
 settings.mods.overlay.paste Game Overlay Image URL
 settings.social.region Region Stats
+settings.social.bg Background Image
+settings.social.bg.paste Background Image URL
 windows.settings.header Cài đặt game 
 windows.mail.header Hộp thư Krunker
 windows.servers.header Servers
@@ -407,6 +459,7 @@ windows.servers.hide Hide Full
 windows.servers.priority Region Priority
 windows.servers.online {0} Trong trò chơi
 windows.servers.social {0} Trên Social
+windows.servers.editor {0} in Editor
 windows.loadout.header Change Loadout
 windows.loadout.class class 
 windows.loadout.primary Vũ khí chính
@@ -427,8 +480,10 @@ windows.loadout.color.chat Màu tên trong hộp chat
 windows.loadout.color.hair Hair Color
 windows.loadout.dye Trang phục
 windows.loadout.pet Thú
+windows.loadout.wrist Wrist
 windows.loadout.stat Killcard stat
 windows.loadout.flag Cờ/quốc gia
+windows.loadout.badge Custom Badge
 windows.mods.drop thả file mod vào đây hoặc nhấp vào
 windows.mods.paste Dán URL mod
 windows.mods.load Tải mod
@@ -448,10 +503,11 @@ windows.controls.backward Đi lui
 windows.controls.left sang trái
 windows.controls.right sang phải
 windows.controls.reload Nạp đoạn
-windows.controls.aim Ngắm
-windows.controls.shoot Bắn
+windows.controls.aim1 Aim
+windows.controls.shoot1 Shoot
 windows.controls.inspect Quan sát vũ khí/ xem skin
 windows.controls.spray Phun sơn
+windows.controls.sprayWheel Spray Wheel (Hold)
 windows.controls.jump Nhảy
 windows.controls.crouch Cúi người
 windows.controls.prim Chuyển qua vũ khí chính
@@ -475,19 +531,27 @@ windows.controls.specFree Chuyển đổi Free Cam
 windows.controls.specObj Chuyển đổi Cam mục têu
 windows.controls.specFirst Chuyển đổi Góc nhìn thứ nhất
 windows.controls.specNames Chuyển đổi Forced Names
+windows.controls.specFocus Toggle Focus Player
+windows.controls.hidePlayers Hide Players
 windows.controls.streak0 Streak 1
 windows.controls.streak1 Streak 2
 windows.controls.streak2 Streak 3
 windows.controls.streak3 Streak 4
 windows.controls.streak4 Streak 5
+windows.controls.taunt0 Taunt (Psst)
+windows.controls.taunt1 Taunt (Whistle)
+windows.controls.taunt2 Taunt (Fart)
+windows.controls.taunt3 Taunt (Meme)
+windows.controls.taunt4 Taunt (WTF is This?)
+windows.controls.taunt5 Taunt (Right Now!)
+windows.controls.prop Open Prop Selection (Hold)
+windows.controls.propRand Select Random Prop
+windows.controls.propRot Toggle Rotation
+windows.controls.propRotR Reset Rotation
 windows.controls.premium0 Noclip
 windows.controls.premium1 Godmode
 windows.controls.premium2 Kill
 windows.controls.premium3 Smite
-windows.controls.dev0 Developer Bind 1
-windows.controls.dev1 Developer Bind 2
-windows.controls.dev2 Developer Bind 3
-windows.controls.dev3 Developer Bind 4
 windows.controls.reset Reset Position (Race & Parkour)
 windows.controls.pretend Ân Game 
 windows.host.header Tạo phòng 
@@ -547,6 +611,7 @@ windows.store.amount {0} KR Trong tài khoản
 windows.store.login Đăng nhập để mua và mở khóa Skins
 windows.store.purchasing Đang mua...
 windows.store.unboxed {0}{1} mở hộp
+windows.store.found {0}{1} found
 windows.trade.header Trading
 windows.scope.header Chọn ống ngắm
 windows.premium.header Premium
@@ -594,9 +659,6 @@ windows.client.linux Linux Installer
 windows.ranked.header Rank
 windows.ranked.login Đăng nhập để chơi Rank
 windows.ranked.level You must be at least <span color="black">level {0}</span> to play in ranked games! Right now you are at <span color="black">level {1}</span>.
-windows.ranked.mode.r1v1 Solo
-windows.ranked.mode.r2v2 Duo
-windows.ranked.mode.r4v4 Quad
 windows.chall.header Thử thách
 windows.chall.login Đăng nhập để hoàn thành thử thách!
 thumbnail.upload.limit Failed. {0}kb Thumbnail Limit
@@ -608,10 +670,11 @@ mod.error mod error!
 mod.loading Đang tải mod...
 mod.invalid file mod ko hợp lệ!
 matchmaker.full Đã đủ người
-matchmaker.full2 Game đã đủ người
-matchmaker.updating GAME ĐANG CẬP NHẬT
-matchmaker.invalid Game ko có
-matchmaker.none Server đã quá sức chứa
+matchmaker.GameFull Game is full.
+matchmaker.NoServersMatchQuery GAME UPDATING
+matchmaker.InvalidGameId Game not found.
+matchmaker.NoAvailableServers Servers are at Max Capacity
+matchmaker.GameIssue Unknown Join Issue
 adblocker Disable your ad blocker to receive free Krunkies.
 ad-failed ko tải được quảng cáo. Vui lòng thử lại. 
 streamers.views {0} người xem
@@ -665,6 +728,7 @@ server.config.thirdPerson Góc nhìn thứ 3
 server.config.requireCaptcha Require Captcha
 server.config.nameTags Ân tên
 server.config.kCams Kill Cams
+server.config.aAnon Allow Anonymous
 server.config.noReload Ko nạp đạn
 server.config.private riêng tư
 server.config.krRewards KR Rewards
@@ -690,6 +754,7 @@ server.config.fallDmg Fall Damage
 server.config.fallDmgThr Fall Damage Thresh
 server.config.noDraws No Draws
 server.config.bstOfR Best of
+server.config.chrgWeps Chargable Weapons
 social.login Đăng nhập/tạo tài khoản
 social.login.failed Đăng nhập thất bại
 social.login.buy Đăng nhập để mua
@@ -720,9 +785,11 @@ social.market.waist Thắt lưng
 social.market.face Mặt
 social.market.shoe Giày
 social.market.pet Thú 
+social.market.wrist Wrist Item
 social.market.melee Vũ khí cận chiến
 social.market.spray Phun sơn 
 social.market.dye Trang phục
+social.market.collectible Collectible Item
 social.market.none Ko tìm được item nào
 social.market.login Bạn cần phải đăng nhập.
 social.market.grace chuẩn bị trong {0}
@@ -767,7 +834,9 @@ stats.fistkills Beatdowns
 stats.thrownkills Bullseyes
 stats.headshots Trúng đầu
 stats.wallbangs Xuyên tường
+stats.crouches Crouches
 stats.sprays Sprays Placed
+stats.kpd Helpful Reports
 windows.host.default.settings Bật Cài đặt mặc định cho phép lưu trữ Tiến trình của người chơi và Điểm cao
 windows.host.default.commands *Host Commands are Disabled in this mode: /noclip /god /smite etc
 windows.host.rewards Việc bật Phần thưởng KR buộc Máy chủ sử dụng Cài đặt mặc định & cho phép người chơi kiếm KR từ quỹ bản đồ:
@@ -789,7 +858,9 @@ windows.playerlist.punish Bạn có chắc chắn muốn thực hiện hành đ�
 item.view.open Mở Model Viewer
 item.view.more Thêm thông tin
 item.sell.cant Không thể bán mặt hàng.
+item.sell.cant.krunker Item cant be sold on krunker.
 item.sell.quick Bạn có chắc chắn muốn Bán nhanh {0} không?
+item.sell.destroy Are you sure you want to Destroy {0}?
 social.profile.stats Overall Stats
 social.profile.class stats
 social.profile.sales Bán
@@ -817,5 +888,39 @@ social.trades.message cho phép bật tín nhắn khi trade trong cài đặt
 social.trades.warning Bạn không nhận được item nào từ giao dịch này!
 social.trades.accept Bạn có chắc chắn muốn đồng ý yêu cầu này không?
 stats.airdrops Thính KR
+stats.airdrops.stolen Airdrops Stolen
 settings.quality.flapAnim Nắp ống ngắm rung động (súng tỉa)
+chall.name.hs Get {0} headshots {1}
+chall.name.ns Get {0} no-scopes {1}
+chall.name.ls Get {0} legshots {1}
+chall.name.ls Get {0} throwing knife kills {1}
+chall.name.ls Get {0} first bloods {1}
+chall.name.ls Get {0} longshots {1}
+chall.name.ls Get {0} legshots {1}
+chall.name.ls Get {0} throwing knife kills {1}
+chall.name.ls Get {0} first bloods {1}
+chall.name.ls Get {0} longshots {1}
+chall.name.ls Get {0} legshots {1}
+chall.name.ls Get {0} throwing knife kills {1}
+chall.name.ls Get {0} first bloods {1}
+chall.name.ls Get {0} longshots {1}
+chall.name.mk Get {0} melee kills {1}
+chall.name.fk Get {0} fist kills {1}
+chall.name.qs Get {0} quickscopes {1}
+chall.name.wb Get {0} wallbangs {1}
+chall.name.airk Get {0} mid-air kills {1}
+chall.name.ls Get {0} legshots {1}
+chall.name.ls Get {0} throwing knife kills {1}
+chall.name.ls Get {0} first bloods {1}
+chall.name.ls Get {0} longshots {1}
+chall.name.tk Get {0} turbo kills {1}
+chall.name.drk Get {0} drift kills {1}
+chall.name.kstk Get a {0} killstreak {1}
+chall.name.w Win {0} matches
+chall.name.d Die {0} times
+chall.name.score Get {0} score
+chall.name.dmg Deal {0} damage {1}
+chall.name.bzk Get {0} buzz kills {1}
+chall.name.cc Get {0} close-calls {1}
+chall.name.rk Deal {0} revenge kills {1}
 `;
