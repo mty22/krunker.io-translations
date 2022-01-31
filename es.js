@@ -91,15 +91,15 @@ settings.network.header Conexión
 settings.network.netRerouting Enrutamiento automático (Afecta el ping)
 settings.network.netRate Network Rate (Hz)
 settings.network.lagComp Compensación de lag
-settings.network.optNet Optimized Networking
+settings.network.optNet Red Optimizada
 settings.popup.header Popups
 settings.experimental.header Experimental
-settings.experimental.holiday Holiday Effects
+settings.experimental.holiday Efectos Navideños
 settings.experimental.aimFreezeFix Arreglo de congelamiento al apuntar
 settings.experimental.mouseFlickFix Arreglo de Mouse Flick
 settings.experimental.shaderRendering Renderización de Instancias
-settings.experimental.mouseAccel Mouse Acceleration
-settings.experimental.tbInterp TB Interpolation
+settings.experimental.mouseAccel Aceleración de Mouse
+settings.experimental.tbInterp Interpolación
 settings.client.header Cliente
 settings.client.unlimitedFrames FPS Ilimitados
 settings.client.gameCap Captura de Juego
@@ -111,7 +111,7 @@ settings.client.resetSettings Reiniciar Configuraciones del Cliente
 settings.client.acceleratedCanvas Canvas Acelerados
 settings.client.angleBackend Gráficos Backend Angulares
 settings.client.colorProfile Perfil de Color
-settings.client.resourcePacks Resource Packs
+settings.client.resourcePacks Paquetes de Recursos
 settings.dev.header Desarrollador
 settings.dev.forceUpdate Forzar Actualización de Skins
 settings.dev.forceRegen Siempre Regenerar al Jugador
@@ -173,7 +173,7 @@ settings.interface.dmgCol Color de daño
 settings.interface.critCol Color de daño crítico
 settings.interface.header Interface
 settings.interface.scale Escala de interfaz
-settings.interface.theme Game Theme
+settings.interface.theme Tema
 settings.interface.ui Mostrar interfaz
 settings.interface.scoreboard Usar el viejo tablero de puntaciones
 settings.interface.oldBrowser Usar el navegador antiguo
@@ -206,7 +206,7 @@ settings.interface.hideNames.enemy Sólo del enemigo
 settings.interface.hideNames.all Todos
 settings.interface.nametagStyle Estilo del nombre
 settings.interface.nametagOpac Opacidad de nombre
-settings.interface.nametagScale Nametag Scale
+settings.interface.nametagScale Escala de Nombres
 settings.interface.nametagStyle.health Sólo salud
 settings.interface.nametagStyle.name Sólo nombre
 settings.interface.nametagStyle.nameLvl Sólo el nombre y el nivel
@@ -217,16 +217,16 @@ settings.interface.healthColE Color de la barra de salud del enemigo
 settings.interface.xpBarCol Color de la barra de experiencia
 settings.interface.xpBarCol2 XP Bar Color 2
 settings.interface.xpBarOpac Opacidad de la barra de experiencia
-settings.medals.header Medals
-settings.medals.show Show Medals
-settings.medals.classic Classic Medals
-settings.medals.sound Play Medal Sounds
-settings.medals.scale Medal Scale
-settings.medals.xOff Medal X Offset
-settings.medals.yOff Medal Y Offset
+settings.medals.header Medallas
+settings.medals.show Mostrar Medallas
+settings.medals.classic Medallas Clasicas
+settings.medals.sound Reproducir Sonidos de Medalla
+settings.medals.scale Escala de Medallas
+settings.medals.xOff Ubicacion de Medalla en  X
+settings.medals.yOff Ubicacion de Medalla en  Y
 settings.crosshair.header Retícula
 settings.crosshair.type Tipo
-settings.crosshair.type.1 Dynamic
+settings.crosshair.type.1 Dinamica
 settings.crosshair.type.2 Personalizado
 settings.crosshair.type.3 En capas
 settings.crosshair.type.4 Imagen
@@ -300,12 +300,12 @@ settings.gameprivacy.header Privacidad de Jugabilidad
 settings.gameprivacy.streamer Modo Streamer
 settings.gameprivacy.anon Modo Anónimo
 settings.gameprivacy.hideGameTitle Esconder Título del Juego
-settings.gameprivacy.showRegion Show Region Info
+settings.gameprivacy.showRegion Mostrar Informacion de la Región
 settings.gameprivacy.verified Show Verified Badge
 settings.gameprivacy.premium Show Premium Badge
 settings.gameprivacy.partner Show Partner Badge
-settings.gameprivacy.rank Show Ranked Badge
-settings.gameprivacy.custom Show Custom Badge
+settings.gameprivacy.rank Mostrar Insignia de Competitivo
+settings.gameprivacy.custom Mostrar Insignia Personalizada
 settings.gameplay.header Jugabilidad
 settings.gameplay.gpSetts Ajustes de Gameplay
 settings.gameplay.sensitivityX Sensibilidad X
@@ -340,9 +340,9 @@ settings.audio.header Audio
 settings.audio.sound Volumen Principal
 settings.audio.ambient Volumen de Ambientación
 settings.audio.voice Volumen de Chat de voz
-settings.audio.input Audio/Mic Input
-settings.audio.mic Mic Volume
-settings.audio.micquality Mic Quality
+settings.audio.input Entrada de Microfono/Audio
+settings.audio.mic Mic Volumen
+settings.audio.micquality Calidad de Audio
 settings.audio.weps Volumen de Armas
 settings.audio.player Volumen de Jugadores
 settings.audio.skin Volumen de Cosmeticos
@@ -459,7 +459,7 @@ windows.servers.hide Ocultar partidas llenas
 windows.servers.priority Prioridad de región
 windows.servers.online {0} en partida
 windows.servers.social {0} en social
-windows.servers.editor {0} in Editor
+windows.servers.editor {0} en Editor
 windows.loadout.header Cambiar equipamiento
 windows.loadout.class Clase
 windows.loadout.primary Arma Primaria
@@ -480,10 +480,10 @@ windows.loadout.color.chat Color de nombres en el chat
 windows.loadout.color.hair Color de cabello
 windows.loadout.dye Dye
 windows.loadout.pet Mascota
-windows.loadout.wrist Wrist
+windows.loadout.wrist Muñeca
 windows.loadout.stat Estadística en tarjeta
 windows.loadout.flag Bandera de país
-windows.loadout.badge Custom Badge
+windows.loadout.badge Insignia Personalizada
 windows.mods.drop arrastra el archivo de mod .zip aquí o haz click
 windows.mods.paste Pega la url del mod
 windows.mods.load Cargar mod
@@ -507,7 +507,7 @@ windows.controls.aim1 Apuntar
 windows.controls.shoot1 Disparar
 windows.controls.inspect Inspeccionar
 windows.controls.spray Usar Grafitti
-windows.controls.sprayWheel Spray Wheel (Hold)
+windows.controls.sprayWheel Ruleta de Sprays (Mantener Pulsado)
 windows.controls.jump Saltar
 windows.controls.crouch Agacharse,
 windows.controls.prim Arma Primaria
@@ -538,16 +538,16 @@ windows.controls.streak1 Racha 2
 windows.controls.streak2 Racha 3
 windows.controls.streak3 Racha 4
 windows.controls.streak4 Racha 5
-windows.controls.taunt0 Taunt (Psst)
-windows.controls.taunt1 Taunt (Whistle)
-windows.controls.taunt2 Taunt (Fart)
-windows.controls.taunt3 Taunt (Meme)
-windows.controls.taunt4 Taunt (WTF is This?)
-windows.controls.taunt5 Taunt (Right Now!)
-windows.controls.prop Select Prop (Hold)
-windows.controls.propRand Select Random Prop
-windows.controls.propRot Toggle Rotation
-windows.controls.propRotR Reset Rotation
+windows.controls.taunt0 Gesto (Psst)
+windows.controls.taunt1 Gesto (Chiflido)
+windows.controls.taunt2 Gesto (Pedo)
+windows.controls.taunt3 Gesto (Meme)
+windows.controls.taunt4 Gesto (WTF es esto?)
+windows.controls.taunt5 Gesto (Ahora mismo!)
+windows.controls.prop Seleccinar Prop (Mantener Presionado)
+windows.controls.propRand Seleccionar Prop Aleatorio
+windows.controls.propRot Alternar Rotación
+windows.controls.propRotR Reiniciar Rotación
 windows.controls.premium0 Noclip
 windows.controls.premium1 Godmode
 windows.controls.premium2 Kill
@@ -611,7 +611,7 @@ windows.store.amount {0} KR en tu cuenta
 windows.store.login para comprar y desbloquear objetos de la tienda!
 windows.store.purchasing Comprando...
 windows.store.unboxed {0}{1} abrió
-windows.store.found {0}{1} found
+windows.store.found {0}{1} Encontro
 windows.trade.header Intercambio
 windows.scope.header Seleccionar Mira
 windows.premium.header Premium
@@ -670,11 +670,11 @@ mod.error error de mod!
 mod.loading cargando mod...
 mod.invalid archivo de mod inválido!
 matchmaker.full LLENO
-matchmaker.GameFull Game is full.
-matchmaker.NoServersMatchQuery GAME UPDATING
-matchmaker.InvalidGameId Game not found.
-matchmaker.NoAvailableServers Servers are at Max Capacity
-matchmaker.GameIssue Unknown Join Issue
+matchmaker.GameFull Partida Llena.
+matchmaker.NoServersMatchQuery JUEGO ACTUALIZANDOSE
+matchmaker.InvalidGameId Partida no Encontrada.
+matchmaker.NoAvailableServers Los servidores estan al Maximo de Capacidad
+matchmaker.GameIssue Problema de Conexión Desconocido.
 adblocker Desactiva tu adblocker para recibir krunkies gratis.
 ad-failed El anuncio falló en cargar. Intentalo de nuevo más tarde.
 streamers.views {0} espectadores
@@ -728,7 +728,7 @@ server.config.thirdPerson Tercera persona
 server.config.requireCaptcha Requiere captcha
 server.config.nameTags Ocultar nombres
 server.config.kCams Cámara de Muertes
-server.config.aAnon Allow Anonymous
+server.config.aAnon Permitir modo Anonimo.
 server.config.noReload No recargar
 server.config.private Privado
 server.config.krRewards Recompensas de KR
@@ -785,11 +785,11 @@ social.market.waist Objeto de cintura
 social.market.face Caras
 social.market.shoe Zapatos
 social.market.pet Mascotas
-social.market.wrist Wrist Item
+social.market.wrist Objeto de Muñeca
 social.market.melee Arma cuerpo-a-cuerpo
 social.market.spray Grafittis
 social.market.dye Dyes
-social.market.collectible Collectible Item
+social.market.collectible Objeto Coleccionable
 social.market.none No se han encontrado objetos'
 social.market.login Tienes que iniciar sesión.
 social.market.grace Listo en {0}
@@ -834,9 +834,9 @@ stats.fistkills Bajas con Puños
 stats.thrownkills Bajas con Cuchillo Arrojadizo
 stats.headshots Tiros en la Cabeza
 stats.wallbangs Bajas a través de Paredes
-stats.crouches Crouches
+stats.crouches Agachamientos
 stats.sprays Sprays Colocados
-stats.kpd Helpful Reports
+stats.kpd Helpful Reportes
 windows.host.default.settings Habilitar las configuraciones predeterminadas permite guardar el progreso del jugador y puntajes mas altos
 windows.host.default.commands *Los comandos de hosteo están deshabilitados para este modo : /noclip /god /smite etc
 windows.host.rewards Activando Recompensas de KR forza al servidor a usar configuraciones por defecto y permite a los jugadores ganar recompenzas de los fondos del mapa:
@@ -858,9 +858,9 @@ windows.playerlist.punish Estás seguro de que quieres tomar acciones en {0}?
 item.view.open Abrir Visualizador de Modelos
 item.view.more Mas Información
 item.sell.cant El objeto no se puede Vender
-item.sell.cant.krunker Item cant be sold on krunker.
+item.sell.cant.krunker El item no se puede vender en Krunker.
 item.sell.quick Estás seguro de que quieres vender rápidamente {0}?
-item.sell.destroy Are you sure you want to Destroy {0}?
+item.sell.destroy Estas seguro de que quieres destruir? {0}?
 social.profile.stats Estadísticas Generales
 social.profile.class Estadísticas de Clases
 social.profile.sales Ventas
@@ -888,39 +888,39 @@ social.trades.message ACTIVA LOS MENSAJES DE INTERCAMBIO EN LAS CONFIGURACIONES
 social.trades.warning No obtienes objetos de este intercambio!
 social.trades.accept Estás seguro de qué quieres aceptar esta oferta?
 stats.airdrops Paquetes de KR
-stats.airdrops.stolen Airdrops Stolen
+stats.airdrops.stolen Paquetes Robados
 settings.quality.flapAnim Animación de Mirilla de Francotirador
-chall.name.hs Get {0} headshots {1}
-chall.name.ns Get {0} no-scopes {1}
-chall.name.ls Get {0} legshots {1}
-chall.name.ls Get {0} throwing knife kills {1}
-chall.name.ls Get {0} first bloods {1}
-chall.name.ls Get {0} longshots {1}
-chall.name.ls Get {0} legshots {1}
-chall.name.ls Get {0} throwing knife kills {1}
-chall.name.ls Get {0} first bloods {1}
-chall.name.ls Get {0} longshots {1}
-chall.name.ls Get {0} legshots {1}
-chall.name.ls Get {0} throwing knife kills {1}
-chall.name.ls Get {0} first bloods {1}
-chall.name.ls Get {0} longshots {1}
-chall.name.mk Get {0} melee kills {1}
-chall.name.fk Get {0} fist kills {1}
-chall.name.qs Get {0} quickscopes {1}
-chall.name.wb Get {0} wallbangs {1}
-chall.name.airk Get {0} mid-air kills {1}
-chall.name.ls Get {0} legshots {1}
-chall.name.ls Get {0} throwing knife kills {1}
-chall.name.ls Get {0} first bloods {1}
-chall.name.ls Get {0} longshots {1}
-chall.name.tk Get {0} turbo kills {1}
-chall.name.drk Get {0} drift kills {1}
-chall.name.kstk Get a {0} killstreak {1}
-chall.name.w Win {0} matches
-chall.name.d Die {0} times
-chall.name.score Get {0} score
-chall.name.dmg Deal {0} damage {1}
-chall.name.bzk Get {0} buzz kills {1}
-chall.name.cc Get {0} close-calls {1}
-chall.name.rk Deal {0} revenge kills {1}
+chall.name.hs Get {0} Disparo a la Cabeza {1}
+chall.name.ns Get {0} no-scope {1}
+chall.name.ls Get {0} Disparos a las Piernas {1}
+chall.name.ls Get {0} Bajas con Cuchillo Arrojadizo {1}
+chall.name.ls Get {0} Primera Sangre {1}
+chall.name.ls Get {0} Tiros Lejanos {1}
+chall.name.ls Get {0} Disparos a las Piernas {1}
+chall.name.ls Get {0} Bajas con Cuchillo Arrojadizo {1}
+chall.name.ls Get {0} Primera Sangre {1}
+chall.name.ls Get {0} Tiros Lejanos {1}
+chall.name.ls Get {0} Disparos a las Piernas {1}
+chall.name.ls Get {0} Bajas con Cuchillo Arrojadizo {1}
+chall.name.ls Get {0} Primera Sangre {1}
+chall.name.ls Get {0} Tiros Lejanos {1}
+chall.name.mk Get {0} Bajas con Cuchillo {1}
+chall.name.fk Get {0} Bajas con Puños {1}
+chall.name.qs Get {0} Quickscope {1}
+chall.name.wb Get {0} Disparos a traves de la Pared {1}
+chall.name.airk Get {0} Bajas en el Aire {1}
+chall.name.ls Get {0} Disparos a las Piernas {1}
+chall.name.ls Get {0} Bajas con Cuchillo Arrojadizo {1}
+chall.name.ls Get {0} Primera Sangre {1}
+chall.name.ls Get {0} Tiros Lejanos {1}
+chall.name.tk Get {0} Turbo Bajas {1}
+chall.name.drk Get {0} Bajas Deslizandose {1}
+chall.name.kstk Get a {0} Racha de Bajas {1}
+chall.name.w Win {0} Partidas
+chall.name.d Die {0} Tiempos
+chall.name.score Get {0} Puntuaciones
+chall.name.dmg Deal {0} Daño {1}
+chall.name.bzk Get {0} Multi Muerte {1}
+chall.name.cc Get {0} Muerte Cercana {1}
+chall.name.rk Deal {0} Asesinato por Venganza {1}
 `;
