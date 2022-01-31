@@ -91,13 +91,15 @@ settings.network.header 网络
 settings.network.netRerouting 动态路由（影响网络延时）
 settings.network.netRate 网络刷新率 (Hz)
 settings.network.lagComp 延迟补偿
+settings.network.optNet Optimized Networking
 settings.popup.header 弹窗
-settings.popup.freeKRPop 显示免费 KR 弹窗
 settings.experimental.header 实验性
-settings.experimental.optNetwork 网络最优化
+settings.experimental.holiday Holiday Effects
 settings.experimental.aimFreezeFix 瞄准冻结修正（射击时限制帧率）
 settings.experimental.mouseFlickFix 鼠标无故跳动修正（限制轮询率）
 settings.experimental.shaderRendering 实例化渲染
+settings.experimental.mouseAccel Mouse Acceleration
+settings.experimental.tbInterp TB Interpolation
 settings.client.header 客户端
 settings.client.unlimitedFrames 禁用垂直同步
 settings.client.gameCap 游戏捕获
@@ -109,6 +111,7 @@ settings.client.resetSettings 重置客户端设置
 settings.client.acceleratedCanvas 画布元素硬件加速
 settings.client.angleBackend 几乎原生图型抽象层引擎后端
 settings.client.colorProfile 色彩配置文件
+settings.client.resourcePacks Resource Packs
 settings.dev.header 开发者
 settings.dev.forceUpdate 强制刷新皮肤
 settings.dev.forceRegen 总是重生玩家
@@ -170,6 +173,7 @@ settings.interface.dmgCol 普通伤害值颜色
 settings.interface.critCol 暴击伤害值颜色
 settings.interface.header 界面
 settings.interface.scale 用户界面显示比例
+settings.interface.theme Game Theme
 settings.interface.ui 显示状态栏
 settings.interface.scoreboard 使用旧版记分板
 settings.interface.oldBrowser 使用旧版服务器浏览器
@@ -196,13 +200,13 @@ settings.interface.speedOpacity 移动速度计数器不透明度
 settings.interface.speedScale 移动速度计数器显示比例
 settings.interface.speedColor 当前速度颜色
 settings.interface.speedColorMax 最高速度颜色
-settings.interface.medals 显示勋章
 settings.interface.hideNames 名牌显示
 settings.interface.hideNames.team 仅限队友
 settings.interface.hideNames.enemy 仅限敌人
 settings.interface.hideNames.all 全部显示
 settings.interface.nametagStyle 名牌样式
 settings.interface.nametagOpac 名牌不透明度
+settings.interface.nametagScale Nametag Scale
 settings.interface.nametagStyle.health 仅限血条
 settings.interface.nametagStyle.name 仅限名称
 settings.interface.nametagStyle.nameLvl 名称和等级
@@ -213,6 +217,13 @@ settings.interface.healthColE 敌人血条颜色
 settings.interface.xpBarCol 经验条第一颜色
 settings.interface.xpBarCol2 经验条第二颜色
 settings.interface.xpBarOpac 经验条不透明度
+settings.medals.header Medals
+settings.medals.show Show Medals
+settings.medals.classic Classic Medals
+settings.medals.sound Play Medal Sounds
+settings.medals.scale Medal Scale
+settings.medals.xOff Medal X Offset
+settings.medals.yOff Medal Y Offset
 settings.crosshair.header 准星
 settings.crosshair.type 种类
 settings.crosshair.type.1 动态
@@ -289,10 +300,12 @@ settings.gameprivacy.header 游戏隐私
 settings.gameprivacy.streamer 主播模式
 settings.gameprivacy.anon 匿名模式
 settings.gameprivacy.hideGameTitle 隐藏游戏名称
+settings.gameprivacy.showRegion Show Region Info
 settings.gameprivacy.verified 显示验证徽章
 settings.gameprivacy.premium 显示会员徽章
 settings.gameprivacy.partner 显示游戏合作伙伴徽章
 settings.gameprivacy.rank 显示排位等级徽章
+settings.gameprivacy.custom Show Custom Badge
 settings.gameplay.header 游戏性
 settings.gameplay.gpSetts 游戏性配置类型
 settings.gameplay.sensitivityX 水平灵敏度
@@ -329,6 +342,7 @@ settings.audio.ambient 环境音量
 settings.audio.voice 语音音量
 settings.audio.input 音频或麦克风输入
 settings.audio.mic 麦克风音量
+settings.audio.micquality Mic Quality
 settings.audio.weps 武器音量
 settings.audio.player 玩家音量
 settings.audio.skin 服饰音量
@@ -445,6 +459,7 @@ windows.servers.hide 隐藏已满的服务器
 windows.servers.priority 默认地区优先
 windows.servers.online {0} 个玩家在游戏中
 windows.servers.social {0} 个玩家在社区浏览中
+windows.servers.editor {0} in Editor
 windows.loadout.header 更换武器搭配
 windows.loadout.class 职业
 windows.loadout.primary 主武器
@@ -465,8 +480,10 @@ windows.loadout.color.chat 聊天框内显示名称颜色
 windows.loadout.color.hair 头发颜色
 windows.loadout.dye 衣服染色
 windows.loadout.pet 宠物
+windows.loadout.wrist Wrist
 windows.loadout.stat 击杀战绩卡
 windows.loadout.flag 国家和地区旗帜
+windows.loadout.badge Custom Badge
 windows.mods.drop 将模组文件放在此处或点击
 windows.mods.paste 粘贴模组网址
 windows.mods.load 加载模组
@@ -490,6 +507,7 @@ windows.controls.aim1 瞄准
 windows.controls.shoot1 射击
 windows.controls.inspect 检视武器
 windows.controls.spray 涂鸦
+windows.controls.sprayWheel Spray Wheel (Hold)
 windows.controls.jump 跳跃
 windows.controls.crouch 下蹲
 windows.controls.prim 主武器
@@ -520,15 +538,20 @@ windows.controls.streak1 连杀奖励 2
 windows.controls.streak2 连杀奖励 3
 windows.controls.streak3 连杀奖励 4
 windows.controls.streak4 连杀奖励 5
+windows.controls.taunt0 Taunt (Psst)
+windows.controls.taunt1 Taunt (Whistle)
+windows.controls.taunt2 Taunt (Fart)
+windows.controls.taunt3 Taunt (Meme)
+windows.controls.taunt4 Taunt (WTF is This?)
+windows.controls.taunt5 Taunt (Right Now!)
 windows.controls.prop 选择物体（长按）
+windows.controls.propRand Select Random Prop
+windows.controls.propRot Toggle Rotation
+windows.controls.propRotR Reset Rotation
 windows.controls.premium0 飞天穿墙模式
 windows.controls.premium1 无敌模式
 windows.controls.premium2 自杀
 windows.controls.premium3 超高伤害
-windows.controls.dev0 开发者专用键 1
-windows.controls.dev1 开发者专用键 2
-windows.controls.dev2 开发者专用键 3
-windows.controls.dev3 开发者专用键 4
 windows.controls.reset 重置进度并回到起点（仅限跑酷和速通模式）
 windows.controls.pretend 隐藏游戏
 windows.host.header 创建自定义服务器
@@ -588,6 +611,7 @@ windows.store.amount 您的账户还剩余 {0} KR
 windows.store.login 登录以在商店中购买物品！
 windows.store.purchasing 购买中…
 windows.store.unboxed {0} 开箱获得了 {1}
+windows.store.found {0}{1} found
 windows.trade.header 交易
 windows.scope.header 选择狙击镜
 windows.premium.header 会员
@@ -635,9 +659,6 @@ windows.client.linux Linux 安装程序
 windows.ranked.header 排位赛
 windows.ranked.login 登录以进行排位赛！
 windows.ranked.level 您至少需要 <span color="black">{0} 级</span> 以进行排位赛！当前您的等级是 <span color="black">{1} 级</span>。
-windows.ranked.mode.r1v1 单排
-windows.ranked.mode.r2v2 双排
-windows.ranked.mode.r4v4 四排
 windows.chall.header 挑战任务
 windows.chall.login 登录以完成挑战任务！
 thumbnail.upload.limit 上传失败，缩略图大小上限为 {0}kb
@@ -649,10 +670,11 @@ mod.error 模组错误！
 mod.loading 加载模组中…
 mod.invalid 模组文件不可用！
 matchmaker.full 已满
-matchmaker.full2 此服务器人数已满。
-matchmaker.updating 游戏更新中…
-matchmaker.invalid 此服务器已关闭或不存在。
-matchmaker.none 服务器负载已达到上限。
+matchmaker.GameFull Game is full.
+matchmaker.NoServersMatchQuery GAME UPDATING
+matchmaker.InvalidGameId Game not found.
+matchmaker.NoAvailableServers Servers are at Max Capacity
+matchmaker.GameIssue Unknown Join Issue
 adblocker 禁用广告拦截器以获得免费 KR 转盘。
 ad-failed 广告加载失败，请稍后重试。
 streamers.views {0} 个观众
@@ -706,6 +728,7 @@ server.config.thirdPerson 第三人称
 server.config.requireCaptcha 启用人机验证
 server.config.nameTags 隐藏名牌
 server.config.kCams 死亡视角
+server.config.aAnon Allow Anonymous
 server.config.noReload 无需换弹
 server.config.private 私服
 server.config.krRewards KR 奖励
@@ -762,9 +785,11 @@ social.market.waist 腰部饰品
 social.market.face 表情
 social.market.shoe 鞋子
 social.market.pet 宠物
+social.market.wrist Wrist Item
 social.market.melee 近战武器
 social.market.spray 涂鸦
 social.market.dye 衣服染色
+social.market.collectible Collectible Item
 social.market.none 没有找到任何物品
 social.market.login 您必须先登录。
 social.market.grace {0} 后上架
@@ -809,7 +834,9 @@ stats.fistkills 空手击杀数
 stats.thrownkills 投掷击杀数
 stats.headshots 暴击数
 stats.wallbangs 穿墙击杀数
+stats.crouches Crouches
 stats.sprays 涂鸦数
+stats.kpd Helpful Reports
 windows.host.default.settings 使用地图默认设置以允许玩家保存他们的进度及最高分数
 windows.host.default.commands * 房主命令 (/noclip, /god, /smite, /kill) 在此模式中将会被禁用。
 windows.host.rewards 启用 KR 奖励将强制服务器使用地图默认设置，以允许玩家从此地图获得 KR：
@@ -831,7 +858,9 @@ windows.playerlist.punish 您确定要对 {0} 采取措施吗？
 item.view.open 打开模型查看器
 item.view.more 更多信息
 item.sell.cant 此物品不可被出售。
+item.sell.cant.krunker Item cant be sold on krunker.
 item.sell.quick 您确定要快速出售 {0} 吗？
+item.sell.destroy Are you sure you want to Destroy {0}?
 social.profile.stats 综合战绩
 social.profile.class 职业战绩
 social.profile.sales 出售记录
@@ -859,5 +888,39 @@ social.trades.message 在市场设置中启用「显示交易信息」选项
 social.trades.warning 您将不会在此交易中得到任何物品！
 social.trades.accept 您确定要接受此交易请求吗？
 stats.airdrops KR 空投
+stats.airdrops.stolen Airdrops Stolen
 settings.quality.flapAnim 狙击镜保护盖动画
+chall.name.hs Get {0} headshots {1}
+chall.name.ns Get {0} no-scopes {1}
+chall.name.ls Get {0} legshots {1}
+chall.name.ls Get {0} throwing knife kills {1}
+chall.name.ls Get {0} first bloods {1}
+chall.name.ls Get {0} longshots {1}
+chall.name.ls Get {0} legshots {1}
+chall.name.ls Get {0} throwing knife kills {1}
+chall.name.ls Get {0} first bloods {1}
+chall.name.ls Get {0} longshots {1}
+chall.name.ls Get {0} legshots {1}
+chall.name.ls Get {0} throwing knife kills {1}
+chall.name.ls Get {0} first bloods {1}
+chall.name.ls Get {0} longshots {1}
+chall.name.mk Get {0} melee kills {1}
+chall.name.fk Get {0} fist kills {1}
+chall.name.qs Get {0} quickscopes {1}
+chall.name.wb Get {0} wallbangs {1}
+chall.name.airk Get {0} mid-air kills {1}
+chall.name.ls Get {0} legshots {1}
+chall.name.ls Get {0} throwing knife kills {1}
+chall.name.ls Get {0} first bloods {1}
+chall.name.ls Get {0} longshots {1}
+chall.name.tk Get {0} turbo kills {1}
+chall.name.drk Get {0} drift kills {1}
+chall.name.kstk Get a {0} killstreak {1}
+chall.name.w Win {0} matches
+chall.name.d Die {0} times
+chall.name.score Get {0} score
+chall.name.dmg Deal {0} damage {1}
+chall.name.bzk Get {0} buzz kills {1}
+chall.name.cc Get {0} close-calls {1}
+chall.name.rk Deal {0} revenge kills {1}
 `;
