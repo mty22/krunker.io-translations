@@ -91,13 +91,15 @@ settings.network.header Ağ bağlantısı
 settings.network.netRerouting Otomatik Yönlendirme (Ping'i Etkiler)
 settings.network.netRate Ağ Oranı (Hz)
 settings.network.lagComp Lag Gecikmesi
+settings.network.optNet Optimized Networking
 settings.popup.header Popuplar
-settings.popup.freeKRPop Bedava KR Popularını Göster
 settings.experimental.header Deneysel
-settings.experimental.optNetwork Optimize Edilmiş Ağ
+settings.experimental.holiday Holiday Effects
 settings.experimental.aimFreezeFix Nişan Donmasını Düzelt
 settings.experimental.mouseFlickFix Fare Hareketini Düzelt
 settings.experimental.shaderRendering Örnek İşleme
+settings.experimental.mouseAccel Mouse Acceleration
+settings.experimental.tbInterp TB Interpolation
 settings.client.header Uygulama
 settings.client.unlimitedFrames Limitsiz FPS
 settings.client.gameCap Oyun Yakalama
@@ -109,6 +111,7 @@ settings.client.resetSettings Uygulama Ayarlarını Sıfırla
 settings.client.acceleratedCanvas Hızlandırılmış Tuval
 settings.client.angleBackend Açı Grafik Arka Ucu
 settings.client.colorProfile Profil Rengi
+settings.client.resourcePacks Resource Packs
 settings.dev.header Geliştirici
 settings.dev.forceUpdate Skin Güncellemelerini Zorla
 settings.dev.forceRegen Oyuncuyu Her Zaman Yenile
@@ -170,6 +173,7 @@ settings.interface.dmgCol Hasar Rengi
 settings.interface.critCol Krit Rengi
 settings.interface.header Arayüz
 settings.interface.scale UI Ölçeği
+settings.interface.theme Game Theme
 settings.interface.ui UI'yi Göster
 settings.interface.scoreboard Eski Skor Tablosunu Kullan
 settings.interface.oldBrowser Eski Tarayıcıyı Kullan
@@ -196,13 +200,13 @@ settings.interface.speedOpacity Hız Opaklığı
 settings.interface.speedScale Hız Büyüklüğü
 settings.interface.speedColor Hız Rengi (Anlık)
 settings.interface.speedColorMax Hız Rengi (Max)
-settings.interface.medals Madalyaları Göster
 settings.interface.hideNames İsim Kartı Tarzı
 settings.interface.hideNames.team Sadece Takım
 settings.interface.hideNames.enemy Sadece Rakip
 settings.interface.hideNames.all Herkes
 settings.interface.nametagStyle İsim Kartı Stili
 settings.interface.nametagOpac İsim Kartı Opaklığı
+settings.interface.nametagScale Nametag Scale
 settings.interface.nametagStyle.health Sadece Can
 settings.interface.nametagStyle.name Sadece İsim
 settings.interface.nametagStyle.nameLvl İsim ve Level
@@ -213,6 +217,13 @@ settings.interface.healthColE Düşman İsim Kartı Sağlık Rengi
 settings.interface.xpBarCol XP Barı Rengi
 settings.interface.xpBarCol2 XP Bar Color 2
 settings.interface.xpBarOpac XP Barı Opaklığı
+settings.medals.header Medals
+settings.medals.show Show Medals
+settings.medals.classic Classic Medals
+settings.medals.sound Play Medal Sounds
+settings.medals.scale Medal Scale
+settings.medals.xOff Medal X Offset
+settings.medals.yOff Medal Y Offset
 settings.crosshair.header Nişangah
 settings.crosshair.type Şekil
 settings.crosshair.type.1 Dinamik
@@ -289,10 +300,12 @@ settings.gameprivacy.header Oyun Gizliliği
 settings.gameprivacy.streamer Yayıncı Modu
 settings.gameprivacy.anon Anonim Modu
 settings.gameprivacy.hideGameTitle Oyun Başlığını Gizle
+settings.gameprivacy.showRegion Show Region Info
 settings.gameprivacy.verified Doğrulama Rozetini Göster
 settings.gameprivacy.premium Premium Rozetini Göster
 settings.gameprivacy.partner Ortaklık Rozetini Göster
 settings.gameprivacy.rank Dereceli Rozetini Göster
+settings.gameprivacy.custom Show Custom Badge
 settings.gameplay.header Oynanış
 settings.gameplay.gpSetts Oynanış Ayarları
 settings.gameplay.sensitivityX X Duyarlılığı
@@ -329,6 +342,7 @@ settings.audio.ambient Ambiyans Ses Seviyesi
 settings.audio.voice Ses Seviyesi
 settings.audio.input Ses/Mikrofon Girişi
 settings.audio.mic Mikrofon Ses Seviyesi
+settings.audio.micquality Mic Quality
 settings.audio.weps Silah Ses Seviyesi
 settings.audio.player Oyuncu Ses Seviyesi
 settings.audio.skin Kozmetik Ses Seviyesi
@@ -445,6 +459,7 @@ windows.servers.hide Dolu Lobileri Sakla
 windows.servers.priority Bölge Önceliği
 windows.servers.online {0} Oyunda
 windows.servers.social {0} Sosyal'de
+windows.servers.editor {0} in Editor
 windows.loadout.header Donanımı Değiştir
 windows.loadout.class Silah Sınıfları
 windows.loadout.primary Birincil
@@ -465,8 +480,10 @@ windows.loadout.color.chat Sohbet İsim Rengi
 windows.loadout.color.hair Saç Rengi
 windows.loadout.dye Kıyafet
 windows.loadout.pet Pet
+windows.loadout.wrist Wrist
 windows.loadout.stat Ölüm Kartı İstatistikleri
 windows.loadout.flag Ülke Bayrağı
+windows.loadout.badge Custom Badge
 windows.mods.drop mod dosyasını buraya bırakın veya tıklayın
 windows.mods.paste Mod URL'sini Yapıştır
 windows.mods.load Mod İndir
@@ -490,6 +507,7 @@ windows.controls.aim1 Nişan
 windows.controls.shoot1 Vur
 windows.controls.inspect İncele
 windows.controls.spray Sprey
+windows.controls.sprayWheel Spray Wheel (Hold)
 windows.controls.jump Zıpla
 windows.controls.crouch Eğil
 windows.controls.prim Birincil Silah
@@ -520,15 +538,20 @@ windows.controls.streak1 Seri 2
 windows.controls.streak2 Seri 3
 windows.controls.streak3 Seri 4
 windows.controls.streak4 Seri 5
+windows.controls.taunt0 Taunt (Psst)
+windows.controls.taunt1 Taunt (Whistle)
+windows.controls.taunt2 Taunt (Fart)
+windows.controls.taunt3 Taunt (Meme)
+windows.controls.taunt4 Taunt (WTF is This?)
+windows.controls.taunt5 Taunt (Right Now!)
 windows.controls.prop Nesne Seç (Tut)
+windows.controls.propRand Select Random Prop
+windows.controls.propRot Toggle Rotation
+windows.controls.propRotR Reset Rotation
 windows.controls.premium0 Noclip
 windows.controls.premium1 Tanrı modu
 windows.controls.premium2 Öldür
 windows.controls.premium3 Smite
-windows.controls.dev0 Geliştirici Bağı 1
-windows.controls.dev1 Geliştirici Bağı 2
-windows.controls.dev2 Geliştirici Bağı 3
-windows.controls.dev3 Geliştirici Bağı 4
 windows.controls.reset Pozisyonunu Sıfırla (Yarış & Parkur)
 windows.controls.pretend Oyunu Sakla
 windows.host.header Özel Oyun Kur
@@ -588,6 +611,7 @@ windows.store.amount Hesapta {0} KR var
 windows.store.login Mağazadan eşya satın almak veya açmak için!
 windows.store.purchasing Satın alınıyor...
 windows.store.unboxed {0}{1} eşyasını açtı
+windows.store.found {0}{1} found
 windows.trade.header Takaslama
 windows.scope.header Dürbün Seçin
 windows.premium.header Premium
@@ -635,9 +659,6 @@ windows.client.linux Linux Yükleyicisi
 windows.ranked.header Dereceli
 windows.ranked.login Derecelide oynamak için!
 windows.ranked.level Dereceli oynamak için en az <span color="black">level {0}</span> olman gerek! Şu anda <span color="black">level {1}</span>.
-windows.ranked.mode.r1v1 Tek
-windows.ranked.mode.r2v2 Çift
-windows.ranked.mode.r4v4 Dörtlü
 windows.chall.header Görevler
 windows.chall.login Görevleri tamamlamak için!
 thumbnail.upload.limit Başarısız. {0}kb Kapak Fotoğrafı Limiti
@@ -649,10 +670,11 @@ mod.error mod hatası!
 mod.loading mod yükleniyor...
 mod.invalid geçersiz mod dosyası!
 matchmaker.full FULL
-matchmaker.full2 Oyun full.
-matchmaker.updating OYUN GÜNCELLENİYOR
-matchmaker.invalid Oyun bulunamadı.
-matchmaker.none Sunucular maksimum kapasitede
+matchmaker.GameFull Game is full.
+matchmaker.NoServersMatchQuery GAME UPDATING
+matchmaker.InvalidGameId Game not found.
+matchmaker.NoAvailableServers Servers are at Max Capacity
+matchmaker.GameIssue Unknown Join Issue
 adblocker Bedava Krunkies alabilmek için reklam engelleyiciyi devre dışı bırakın.
 ad-failed Reklam yüklenemedi. Lütfen tekrar deneyin
 streamers.views {0} izleyici
@@ -706,6 +728,7 @@ server.config.thirdPerson 3. Kişi
 server.config.requireCaptcha Captcha Gerektir
 server.config.nameTags İsim Kutularını Sakla
 server.config.kCams Öldürülme Kamerası
+server.config.aAnon Allow Anonymous
 server.config.noReload Mermi Yenileme Yok
 server.config.private Özel
 server.config.krRewards KR Ödülleri
@@ -762,9 +785,11 @@ social.market.waist Bel
 social.market.face Yüz
 social.market.shoe Ayakkabı
 social.market.pet Pet
+social.market.wrist Wrist Item
 social.market.melee Bıçak
 social.market.spray Sprey
 social.market.dye Kıyafet
+social.market.collectible Collectible Item
 social.market.none Eşya bulunamadı
 social.market.login Giriş yapmalısınız.
 social.market.grace {0} içinde hazır
@@ -809,7 +834,9 @@ stats.fistkills Yumruklanan
 stats.thrownkills Bıçak Fırlatılan
 stats.headshots Kafadan Vurulan
 stats.wallbangs Wallbangler
+stats.crouches Crouches
 stats.sprays Sıkılan Spreyler
+stats.kpd Helpful Reports
 windows.host.default.settings Varsayılan ayarları açmak oyuncu ilerlemesini ve yüksek skorlarını depolar
 windows.host.default.commands *Kurucu ayarları şu modlarda kapalıdır: /noclip /god /smite vb.
 windows.host.rewards KR ödüllerini açmak sunucuyu varsayılan ayarlarda oynamaya zorlar & oyuncuların map para kaynağından para kazanmasını sağlar:
@@ -831,7 +858,9 @@ windows.playerlist.punish {0} kullanıcısının üzerinde işlem uygulamak iste
 item.view.open Model Görüntüleyiciyi Aç
 item.view.more Daha Çok Bilgi
 item.sell.cant Eşya satılamaz.
+item.sell.cant.krunker Item cant be sold on krunker.
 item.sell.quick {0} eşyasını hızlı satışa çıkarmak istediğinizden emin misiniz?
+item.sell.destroy Are you sure you want to Destroy {0}?
 social.profile.stats Genel İstatistikler
 social.profile.class Silah İstatistikleri
 social.profile.sales Satışlar
@@ -859,5 +888,39 @@ social.trades.message AYARLARDAN TAKAS MESAJLARINI ETKİNLEŞTİR.
 social.trades.warning Bu takastan eşya almıyorsun!
 social.trades.accept Bu teklifi kabul etmek istediğinden emin misin?
 stats.airdrops KR-Paketleri
+stats.airdrops.stolen Airdrops Stolen
 settings.quality.flapAnim Sniper Dürbün Kapağı Animasyonu
+chall.name.hs Get {0} headshots {1}
+chall.name.ns Get {0} no-scopes {1}
+chall.name.ls Get {0} legshots {1}
+chall.name.ls Get {0} throwing knife kills {1}
+chall.name.ls Get {0} first bloods {1}
+chall.name.ls Get {0} longshots {1}
+chall.name.ls Get {0} legshots {1}
+chall.name.ls Get {0} throwing knife kills {1}
+chall.name.ls Get {0} first bloods {1}
+chall.name.ls Get {0} longshots {1}
+chall.name.ls Get {0} legshots {1}
+chall.name.ls Get {0} throwing knife kills {1}
+chall.name.ls Get {0} first bloods {1}
+chall.name.ls Get {0} longshots {1}
+chall.name.mk Get {0} melee kills {1}
+chall.name.fk Get {0} fist kills {1}
+chall.name.qs Get {0} quickscopes {1}
+chall.name.wb Get {0} wallbangs {1}
+chall.name.airk Get {0} mid-air kills {1}
+chall.name.ls Get {0} legshots {1}
+chall.name.ls Get {0} throwing knife kills {1}
+chall.name.ls Get {0} first bloods {1}
+chall.name.ls Get {0} longshots {1}
+chall.name.tk Get {0} turbo kills {1}
+chall.name.drk Get {0} drift kills {1}
+chall.name.kstk Get a {0} killstreak {1}
+chall.name.w Win {0} matches
+chall.name.d Die {0} times
+chall.name.score Get {0} score
+chall.name.dmg Deal {0} damage {1}
+chall.name.bzk Get {0} buzz kills {1}
+chall.name.cc Get {0} close-calls {1}
+chall.name.rk Deal {0} revenge kills {1}
 `;
