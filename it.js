@@ -91,13 +91,15 @@ settings.network.header Rete
 settings.network.netRerouting Instradamento automatico (Influisce sul Ping)
 settings.network.netRate Network Rate (Hz)
 settings.network.lagComp Compensazione Lag
+settings.network.optNet Optimized Networking
 settings.popup.header Popups
-settings.popup.freeKRPop Mostra Popup KR gratuiti
 settings.experimental.header Sperimentali
-settings.experimental.optNetwork Rete ottimizzata 
+settings.experimental.holiday Holiday Effects
 settings.experimental.aimFreezeFix Risolvi mirino bloccato
 settings.experimental.mouseFlickFix Risolvi Flick del mouse
 settings.experimental.shaderRendering Rendering a istanze
+settings.experimental.mouseAccel Mouse Acceleration
+settings.experimental.tbInterp TB Interpolation
 settings.client.header Client
 settings.client.unlimitedFrames FPS illimitati
 settings.client.gameCap Cattura di gioco
@@ -109,6 +111,7 @@ settings.client.resetSettings Resetta impostazioni client
 settings.client.acceleratedCanvas Canvas accellerate
 settings.client.angleBackend Backend ANGLE Graphics
 settings.client.colorProfile Colore profilo
+settings.client.resourcePacks Resource Packs
 settings.dev.header Sviluppatore
 settings.dev.forceUpdate Forza aggiornamento Skin
 settings.dev.forceRegen Rigenera sempre il giocatore
@@ -170,6 +173,7 @@ settings.interface.dmgCol Colore danni
 settings.interface.critCol Colore danno critico
 settings.interface.header Interfaccia
 settings.interface.scale Scala UI
+settings.interface.theme Game Theme
 settings.interface.ui Mostra UI
 settings.interface.scoreboard Usa il vecchio tabellone
 settings.interface.oldBrowser Usa il vecchio browser
@@ -196,13 +200,13 @@ settings.interface.speedOpacity Opacità velocità
 settings.interface.speedScale Dimensioni velocità
 settings.interface.speedColor Colore velocità (Corrente)
 settings.interface.speedColorMax Colore velocità (Massima)
-settings.interface.medals Mostra medaglie
 settings.interface.hideNames Visibilità Nametag
 settings.interface.hideNames.team Solo squadra
 settings.interface.hideNames.enemy Solo nemico
 settings.interface.hideNames.all Tutti
 settings.interface.nametagStyle Stile Nametag
 settings.interface.nametagOpac Opacità Nametag
+settings.interface.nametagScale Nametag Scale
 settings.interface.nametagStyle.health Solo punti vita
 settings.interface.nametagStyle.name Solo nome
 settings.interface.nametagStyle.nameLvl Solo nome e livello
@@ -213,6 +217,13 @@ settings.interface.healthColE Colore barra PV del nemico
 settings.interface.xpBarCol Colore barra ESP.
 settings.interface.xpBarCol2 Colore barra ESP 2
 settings.interface.xpBarOpac Opacità barra ESP.
+settings.medals.header Medals
+settings.medals.show Show Medals
+settings.medals.classic Classic Medals
+settings.medals.sound Play Medal Sounds
+settings.medals.scale Medal Scale
+settings.medals.xOff Medal X Offset
+settings.medals.yOff Medal Y Offset
 settings.crosshair.header Mirino
 settings.crosshair.type Tipo
 settings.crosshair.type.1 Dinamico
@@ -289,10 +300,12 @@ settings.gameprivacy.header Privacy gameplay
 settings.gameprivacy.streamer Modalità streamer
 settings.gameprivacy.anon Modalità anonima
 settings.gameprivacy.hideGameTitle Nascondi titolo gioco
+settings.gameprivacy.showRegion Show Region Info
 settings.gameprivacy.verified Mostra badge verificato
 settings.gameprivacy.premium Mostra badge premium
 settings.gameprivacy.partner Mostra badge partner 
 settings.gameprivacy.rank Mostra badge rango
+settings.gameprivacy.custom Show Custom Badge
 settings.gameplay.header Gameplay
 settings.gameplay.gpSetts Impostazioni Gameplay
 settings.gameplay.sensitivityX Sensibilità X
@@ -329,6 +342,7 @@ settings.audio.ambient Volume ambiente
 settings.audio.voice Volume voce
 settings.audio.input Input Audio/Microfono
 settings.audio.mic Volume Microfono
+settings.audio.micquality Mic Quality
 settings.audio.weps Volume arma
 settings.audio.player Volume giocatori
 settings.audio.skin Volume cosmetici
@@ -445,6 +459,7 @@ windows.servers.hide Nascondi parite piene
 windows.servers.priority Priorità regione
 windows.servers.online {0} In Gioco
 windows.servers.social {0} nei Social
+windows.servers.editor {0} in Editor
 windows.loadout.header Cambia equipaggiamento
 windows.loadout.class Classi
 windows.loadout.primary Primaria
@@ -465,8 +480,10 @@ windows.loadout.color.chat Colore del nome in chat
 windows.loadout.color.hair Colore capelli
 windows.loadout.dye Tinta
 windows.loadout.pet Animale
+windows.loadout.wrist Wrist
 windows.loadout.stat Statistica Killcard
 windows.loadout.flag Bandiera
+windows.loadout.badge Custom Badge
 windows.mods.drop rilascia file Mod qui o clicca
 windows.mods.paste Incolla URL Mod
 windows.mods.load Carica Mod
@@ -490,6 +507,7 @@ windows.controls.aim1 Mira
 windows.controls.shoot1 Spara
 windows.controls.inspect Ispeziona
 windows.controls.spray Graffiti
+windows.controls.sprayWheel Spray Wheel (Hold)
 windows.controls.jump Salta
 windows.controls.crouch Accovacciati
 windows.controls.prim Arma primaria
@@ -520,15 +538,20 @@ windows.controls.streak1 Serie 2
 windows.controls.streak2 Serie 3
 windows.controls.streak3 Serie 4
 windows.controls.streak4 Serie 5
+windows.controls.taunt0 Taunt (Psst)
+windows.controls.taunt1 Taunt (Whistle)
+windows.controls.taunt2 Taunt (Fart)
+windows.controls.taunt3 Taunt (Meme)
+windows.controls.taunt4 Taunt (WTF is This?)
+windows.controls.taunt5 Taunt (Right Now!)
 windows.controls.prop Select Prop (Hold)
+windows.controls.propRand Select Random Prop
+windows.controls.propRot Toggle Rotation
+windows.controls.propRotR Reset Rotation
 windows.controls.premium0 Noclip
 windows.controls.premium1 Godmode
 windows.controls.premium2 Kill
 windows.controls.premium3 Smite
-windows.controls.dev0 Tasto sviluppatore 1
-windows.controls.dev1 Tasto sviluppatore 2
-windows.controls.dev2 Tasto sviluppatore 3
-windows.controls.dev3 Tasto sviluppatore 4
 windows.controls.reset Ripristina posizione (Gara & Parkour)
 windows.controls.pretend Nascondi gioco
 windows.host.header Crea partita personalizzata
@@ -588,6 +611,7 @@ windows.store.amount {0} KR sul conto
 windows.store.login per acquistare e sbloccare oggetti dal negozio!
 windows.store.purchasing Comprando...
 windows.store.unboxed {0}{1} ha aperto
+windows.store.found {0}{1} found
 windows.trade.header Trading
 windows.scope.header Scegli ottica
 windows.premium.header Premium
@@ -635,9 +659,6 @@ windows.client.linux Installer Linux
 windows.ranked.header Classificata
 windows.ranked.login per giocare partite classificate!
 windows.ranked.level Devi essere al <span color="black">livello {0}</span> per giocare una partita classificata! Ora sei al <span color="black">livello {1}</span>.
-windows.ranked.mode.r1v1 Solo
-windows.ranked.mode.r2v2 Duo
-windows.ranked.mode.r4v4 Squadra
 windows.chall.header Sfide
 windows.chall.login per completare le sfide!
 thumbnail.upload.limit Fallito. Limite di {0}kb per la copertina
@@ -649,10 +670,11 @@ mod.error errore mod!
 mod.loading caricamento mod...
 mod.invalid file mod invalido!
 matchmaker.full PIENO
-matchmaker.full2 La partita è piena.
-matchmaker.updating AGGIORNAMENTO DEL GIOCO
-matchmaker.invalid Partita non trovata.
-matchmaker.none I server sono alla capacità massima
+matchmaker.GameFull Game is full.
+matchmaker.NoServersMatchQuery GAME UPDATING
+matchmaker.InvalidGameId Game not found.
+matchmaker.NoAvailableServers Servers are at Max Capacity
+matchmaker.GameIssue Unknown Join Issue
 adblocker Disabilita l'ad blocker per ricevere krunkies gratis.
 ad-failed Pubblicità non caricata. Riprova.
 streamers.views {0} spettatori
@@ -706,6 +728,7 @@ server.config.thirdPerson 3a persona
 server.config.requireCaptcha Richiedi Captcha
 server.config.nameTags Nascondi Nametags
 server.config.kCams Camera uccisione
+server.config.aAnon Allow Anonymous
 server.config.noReload Niente ricarica
 server.config.private Privata
 server.config.krRewards Premi KR
@@ -762,9 +785,11 @@ social.market.waist Cintura
 social.market.face Volto
 social.market.shoe Scarpe
 social.market.pet Animale
+social.market.wrist Wrist Item
 social.market.melee Arma da mischia
 social.market.spray Graffiti
 social.market.dye Tinta
+social.market.collectible Collectible Item
 social.market.none Nessun oggetto trovato
 social.market.login Devi aver effettuato il login.
 social.market.grace pronto tra {0}
@@ -809,7 +834,9 @@ stats.fistkills Pestaggi
 stats.thrownkills Bullseyes
 stats.headshots Headshots
 stats.wallbangs Wallbangs
+stats.crouches Crouches
 stats.sprays Graffiti fatti
+stats.kpd Helpful Reports
 windows.host.default.settings Abilitare le impostazioni predefinite permette ai giocatori di mantenere il progresso del giocatore e i suoi punteggi migliori.
 windows.host.default.commands *I comandi dell'Host sono disabilitati in questa modalità: /noclip /god /smite etc
 windows.host.rewards Abilitare i premi in KR obbliga il Server all'utilizzo delle impostazioni predefinite e permette ai giocatori di guadagnare KR dai fondi della mappa:
@@ -831,7 +858,9 @@ windows.playerlist.punish Sei sicuro di voler prendere provvedimenti riguardo {0
 item.view.open Apri visualizzatore modelli
 item.view.more Più informazioni
 item.sell.cant L'oggetto non può essere venduto.
+item.sell.cant.krunker Item cant be sold on krunker.
 item.sell.quick Sei sicuro di voler vendere subito {0}?
+item.sell.destroy Are you sure you want to Destroy {0}?
 social.profile.stats Statistiche Generali
 social.profile.class Statistiche Classi
 social.profile.sales Vendite
@@ -859,5 +888,39 @@ social.trades.message PERMETTI I MESSAGGI DI TRADING DALLE IMPOSTAZIONI
 social.trades.warning Non riceverai alcun oggetto da questa transazione!
 social.trades.accept Sei sicuro di voler accettare questa offerta?
 stats.airdrops KR-Packages
+stats.airdrops.stolen Airdrops Stolen
 settings.quality.flapAnim Animazione copri ottica cecchino
+chall.name.hs Get {0} headshots {1}
+chall.name.ns Get {0} no-scopes {1}
+chall.name.ls Get {0} legshots {1}
+chall.name.ls Get {0} throwing knife kills {1}
+chall.name.ls Get {0} first bloods {1}
+chall.name.ls Get {0} longshots {1}
+chall.name.ls Get {0} legshots {1}
+chall.name.ls Get {0} throwing knife kills {1}
+chall.name.ls Get {0} first bloods {1}
+chall.name.ls Get {0} longshots {1}
+chall.name.ls Get {0} legshots {1}
+chall.name.ls Get {0} throwing knife kills {1}
+chall.name.ls Get {0} first bloods {1}
+chall.name.ls Get {0} longshots {1}
+chall.name.mk Get {0} melee kills {1}
+chall.name.fk Get {0} fist kills {1}
+chall.name.qs Get {0} quickscopes {1}
+chall.name.wb Get {0} wallbangs {1}
+chall.name.airk Get {0} mid-air kills {1}
+chall.name.ls Get {0} legshots {1}
+chall.name.ls Get {0} throwing knife kills {1}
+chall.name.ls Get {0} first bloods {1}
+chall.name.ls Get {0} longshots {1}
+chall.name.tk Get {0} turbo kills {1}
+chall.name.drk Get {0} drift kills {1}
+chall.name.kstk Get a {0} killstreak {1}
+chall.name.w Win {0} matches
+chall.name.d Die {0} times
+chall.name.score Get {0} score
+chall.name.dmg Deal {0} damage {1}
+chall.name.bzk Get {0} buzz kills {1}
+chall.name.cc Get {0} close-calls {1}
+chall.name.rk Deal {0} revenge kills {1}
 `;

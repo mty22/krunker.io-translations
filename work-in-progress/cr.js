@@ -91,13 +91,15 @@ settings.network.header Mreža
 settings.network.netRerouting Automatsko usmjeravanje (utječe na ping)
 settings.network.netRate Network Rate (Hz)
 settings.network.lagComp Lag naknada
+settings.network.optNet Optimized Networking
 settings.popup.header Skočni prozori
-settings.popup.freeKRPop Prikaži Free KR skočni prozor
 settings.experimental.header Eksperimentalno
-settings.experimental.optNetwork Optimized Networking
+settings.experimental.holiday Holiday Effects
 settings.experimental.aimFreezeFix Aim Freeze Popravka
 settings.experimental.mouseFlickFix Mouse Flick Popravka
 settings.experimental.shaderRendering Instance Rendering
+settings.experimental.mouseAccel Mouse Acceleration
+settings.experimental.tbInterp TB Interpolation
 settings.client.header Client
 settings.client.unlimitedFrames Unlimited FPS
 settings.client.gameCap Game Capture
@@ -109,6 +111,7 @@ settings.client.resetSettings Reset Client Settings
 settings.client.acceleratedCanvas Accelerated Canvas
 settings.client.angleBackend ANGLE Graphics Backend
 settings.client.colorProfile Color Profile
+settings.client.resourcePacks Resource Packs
 settings.dev.header Programer
 settings.dev.forceUpdate Prisilno ažuriraj skinove
 settings.dev.forceRegen Uvijek regeneriraj igrača
@@ -170,6 +173,7 @@ settings.interface.dmgCol Boja prikaza štete
 settings.interface.critCol Crit boja
 settings.interface.header Sučelje
 settings.interface.scale UI veličina
+settings.interface.theme Game Theme
 settings.interface.ui Prikaži UI
 settings.interface.scoreboard Koristi staru tabelu
 settings.interface.oldBrowser Koristi stari pretraživač
@@ -196,13 +200,13 @@ settings.interface.speedOpacity Prozirnost Prikaza Brzine
 settings.interface.speedScale Veličina Prikaza Brzine 
 settings.interface.speedColor Boja Prikaza Brzine (Trenutna)
 settings.interface.speedColorMax Boja Prikaza Brzine (Maksimalna)
-settings.interface.medals Prikaži medalje
 settings.interface.hideNames Prikaz oznaka s imenom 
 settings.interface.hideNames.team Samo tim
 settings.interface.hideNames.enemy Samo neprijatelji
 settings.interface.hideNames.all Svi
 settings.interface.nametagStyle Stil oznake sa imenom
 settings.interface.nametagOpac Prozirnost oznake sa imenom
+settings.interface.nametagScale Nametag Scale
 settings.interface.nametagStyle.health Samo HP
 settings.interface.nametagStyle.name Samo ime
 settings.interface.nametagStyle.nameLvl Samo ime i razina
@@ -213,6 +217,13 @@ settings.interface.healthColE Nametag Health boja neprijatelja
 settings.interface.xpBarCol Boja XP Bar-a
 settings.interface.xpBarCol2 XP Bar Color 2
 settings.interface.xpBarOpac Prozirnost XP Bar-a
+settings.medals.header Medals
+settings.medals.show Show Medals
+settings.medals.classic Classic Medals
+settings.medals.sound Play Medal Sounds
+settings.medals.scale Medal Scale
+settings.medals.xOff Medal X Offset
+settings.medals.yOff Medal Y Offset
 settings.crosshair.header Nišan
 settings.crosshair.type Tip
 settings.crosshair.type.1 Dynamic
@@ -289,10 +300,12 @@ settings.gameprivacy.header Privatnost igranja
 settings.gameprivacy.streamer Streamer Mod
 settings.gameprivacy.anon Anonimni Mod
 settings.gameprivacy.hideGameTitle Hide Game Title
+settings.gameprivacy.showRegion Show Region Info
 settings.gameprivacy.verified Show Verified Badge
 settings.gameprivacy.premium Show Premium Badge
 settings.gameprivacy.partner Show Partner Badge
 settings.gameprivacy.rank Show Ranked Badge
+settings.gameprivacy.custom Show Custom Badge
 settings.gameplay.header Igra
 settings.gameplay.gpSetts Gameplay Settings
 settings.gameplay.sensitivityX X Sensitivity
@@ -329,6 +342,7 @@ settings.audio.ambient Ambijent
 settings.audio.voice Glas
 settings.audio.input Audio/Mic Input
 settings.audio.mic Mic Volume
+settings.audio.micquality Mic Quality
 settings.audio.weps Oružje
 settings.audio.player Igrač
 settings.audio.skin Kozmetika
@@ -445,6 +459,7 @@ windows.servers.hide Sakrij pune mečeve
 windows.servers.priority Prioritet Regije
 windows.servers.online {0} U igri
 windows.servers.social {0} Social
+windows.servers.editor {0} in Editor
 windows.loadout.header Promijeni loadout
 windows.loadout.class Klasa
 windows.loadout.primary Primarno oružje
@@ -465,8 +480,10 @@ windows.loadout.color.chat Boja imena u četu
 windows.loadout.color.hair Boja kose
 windows.loadout.dye Farba
 windows.loadout.pet Ljubimac
+windows.loadout.wrist Wrist
 windows.loadout.stat Killcard Stat
 windows.loadout.flag Zastava
+windows.loadout.badge Custom Badge
 windows.mods.drop prebacite mod file ili kliknite
 windows.mods.paste Zalijepi URL mod-a
 windows.mods.load Učitaj Mod
@@ -490,6 +507,7 @@ windows.controls.aim1 Nišan
 windows.controls.shoot1 Pucaj
 windows.controls.inspect Inspect
 windows.controls.spray Sprej
+windows.controls.sprayWheel Spray Wheel (Hold)
 windows.controls.jump Skok
 windows.controls.crouch Čučanj
 windows.controls.prim Primarno Oružje
@@ -520,15 +538,20 @@ windows.controls.streak1 Streak 2
 windows.controls.streak2 Streak 3
 windows.controls.streak3 Streak 4
 windows.controls.streak4 Streak 5
+windows.controls.taunt0 Taunt (Psst)
+windows.controls.taunt1 Taunt (Whistle)
+windows.controls.taunt2 Taunt (Fart)
+windows.controls.taunt3 Taunt (Meme)
+windows.controls.taunt4 Taunt (WTF is This?)
+windows.controls.taunt5 Taunt (Right Now!)
 windows.controls.prop Select Prop (Hold)
+windows.controls.propRand Select Random Prop
+windows.controls.propRot Toggle Rotation
+windows.controls.propRotR Reset Rotation
 windows.controls.premium0 Noclip
 windows.controls.premium1 Godmode
 windows.controls.premium2 Kill
 windows.controls.premium3 Smite
-windows.controls.dev0 Developer Bind 1
-windows.controls.dev1 Developer Bind 2
-windows.controls.dev2 Developer Bind 3
-windows.controls.dev3 Developer Bind 4
 windows.controls.reset Resetuj Poziciju (Trka & Parkour)
 windows.controls.pretend Sakrij Igru
 windows.host.header Započni Sopstveni Meč
@@ -588,6 +611,7 @@ windows.store.amount {0} KR na računu
 windows.store.login da kupuješ i otključaš iteme sa tržišta!
 windows.store.purchasing Kupovanje...
 windows.store.unboxed {0}{1} otvorio je
+windows.store.found {0}{1} found
 windows.trade.header Razmjena
 windows.scope.header Izaberi optiku
 windows.premium.header Premium
@@ -635,9 +659,6 @@ windows.client.linux Linux Instaler
 windows.ranked.header Rangirana igra
 windows.ranked.login da igraš rangirane mečeve!
 windows.ranked.level Morate biti barem <span color="black">razina {0}</span> da igrate rangirane igre! Trenutno ste <span color="black">razina {1}</span>.
-windows.ranked.mode.r1v1 Solo
-windows.ranked.mode.r2v2 Duo
-windows.ranked.mode.r4v4 Quad
 windows.chall.header Izazovi
 windows.chall.login da radite izazove!
 thumbnail.upload.limit Neuspjeh. {0}kb limit minijature
@@ -649,10 +670,11 @@ mod.error greška sa modom
 mod.loading učitavanje moda...
 mod.invalid nepravilan mod fajl!
 matchmaker.full PUN MEČ
-matchmaker.full2 Igra je puna.
-matchmaker.updating IGRA SE AŽURIRA
-matchmaker.invalid Igra nije pronađena.
-matchmaker.none Server su maksimalnog kapaciteta.
+matchmaker.GameFull Game is full.
+matchmaker.NoServersMatchQuery GAME UPDATING
+matchmaker.InvalidGameId Game not found.
+matchmaker.NoAvailableServers Servers are at Max Capacity
+matchmaker.GameIssue Unknown Join Issue
 adblocker Isključite vaš AD Blocker da dobijete besplatan KR!
 ad-failed Reklama nije uspjela da se učita. Pokušajte ponovo.
 streamers.views {0} gledaoca.
@@ -706,6 +728,7 @@ server.config.thirdPerson Treće lice
 server.config.requireCaptcha Zahtjevaj Captcha
 server.config.nameTags Sakrij Imena
 server.config.kCams Kill Cams
+server.config.aAnon Allow Anonymous
 server.config.noReload No Reload
 server.config.private Privatno
 server.config.krRewards KR Nagrade
@@ -762,9 +785,11 @@ social.market.waist Waist Item
 social.market.face Face Item
 social.market.shoe Shoe Item
 social.market.pet Pet Item
+social.market.wrist Wrist Item
 social.market.melee Melee Item
 social.market.spray Spray Item
 social.market.dye Dye Item
+social.market.collectible Collectible Item
 social.market.none Nisu pronađeni item-i
 social.market.login Morate biti ulogovani.
 social.market.grace spreman za {0}
@@ -809,7 +834,9 @@ stats.fistkills Beatdowns
 stats.thrownkills Bullseyes
 stats.headshots Headshots
 stats.wallbangs Wallbangs
+stats.crouches Crouches
 stats.sprays Sprejova postavljeno
+stats.kpd Helpful Reports
 windows.host.default.settings Omogućavanje zadanih postavki omogućuje pohranu napretka igrača i najboljih rezultata
 windows.host.default.commands *Host komande su onemogućene u ovoj igri: /noclip /god /smite etc
 windows.host.rewards Omogućavanje KR nagrada prisiljava igrače da koriste zadane postavke i omogućuje igračima da zarade KR od sredstava pohranjenih u mapi:
@@ -831,7 +858,9 @@ windows.playerlist.punish Jeste li sigurni da želite poduzeti akciju na {0}?
 item.view.open Open Model Viewer
 item.view.more More Information
 item.sell.cant Item cant be sold.
+item.sell.cant.krunker Item cant be sold on krunker.
 item.sell.quick Are you sure you want to Quick Sell {0}?
+item.sell.destroy Are you sure you want to Destroy {0}?
 social.profile.stats Overall Stats
 social.profile.class Class Stats
 social.profile.sales Sales
@@ -859,5 +888,39 @@ social.trades.message ENABLE TRADE MESSAGES IN SETTINGS
 social.trades.warning You get no items from this trade!
 social.trades.accept Are you sure you want to accept this offer?
 stats.airdrops KR-Packages
+stats.airdrops.stolen Airdrops Stolen
 settings.quality.flapAnim Sniper Flap Animation
+chall.name.hs Get {0} headshots {1}
+chall.name.ns Get {0} no-scopes {1}
+chall.name.ls Get {0} legshots {1}
+chall.name.ls Get {0} throwing knife kills {1}
+chall.name.ls Get {0} first bloods {1}
+chall.name.ls Get {0} longshots {1}
+chall.name.ls Get {0} legshots {1}
+chall.name.ls Get {0} throwing knife kills {1}
+chall.name.ls Get {0} first bloods {1}
+chall.name.ls Get {0} longshots {1}
+chall.name.ls Get {0} legshots {1}
+chall.name.ls Get {0} throwing knife kills {1}
+chall.name.ls Get {0} first bloods {1}
+chall.name.ls Get {0} longshots {1}
+chall.name.mk Get {0} melee kills {1}
+chall.name.fk Get {0} fist kills {1}
+chall.name.qs Get {0} quickscopes {1}
+chall.name.wb Get {0} wallbangs {1}
+chall.name.airk Get {0} mid-air kills {1}
+chall.name.ls Get {0} legshots {1}
+chall.name.ls Get {0} throwing knife kills {1}
+chall.name.ls Get {0} first bloods {1}
+chall.name.ls Get {0} longshots {1}
+chall.name.tk Get {0} turbo kills {1}
+chall.name.drk Get {0} drift kills {1}
+chall.name.kstk Get a {0} killstreak {1}
+chall.name.w Win {0} matches
+chall.name.d Die {0} times
+chall.name.score Get {0} score
+chall.name.dmg Deal {0} damage {1}
+chall.name.bzk Get {0} buzz kills {1}
+chall.name.cc Get {0} close-calls {1}
+chall.name.rk Deal {0} revenge kills {1}
 `;

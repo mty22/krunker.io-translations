@@ -91,13 +91,15 @@ settings.network.header Network
 settings.network.netRerouting Auto Routing (Nakakaapekto sa Ping)
 settings.network.netRate Network Rate sa (Hz)
 settings.network.lagComp Paghabol sa Lag
+settings.network.optNet Optimized Networking
 settings.popup.header Mga Popups
-settings.popup.freeKRPop Ipakita ang Libreng KR Popup
 settings.experimental.header Experimental na Header
-settings.experimental.optNetwork Optimized Networking
+settings.experimental.holiday Holiday Effects
 settings.experimental.aimFreezeFix Pag-ayos ng Aim Freeze
 settings.experimental.mouseFlickFix Pag-ayos ng Mouse Flick
 settings.experimental.shaderRendering Pag-render
+settings.experimental.mouseAccel Mouse Acceleration
+settings.experimental.tbInterp TB Interpolation
 settings.client.header Kliyente
 settings.client.unlimitedFrames Unlimited na FPS
 settings.client.gameCap Record ng Laro
@@ -109,6 +111,7 @@ settings.client.resetSettings I-reset ang Settings ng Kliyent
 settings.client.acceleratedCanvas Accelerated ang Canvas
 settings.client.angleBackend ANGLE Graphics ang Backend
 settings.client.colorProfile Profile ng Kulay
+settings.client.resourcePacks Resource Packs
 settings.dev.header Sa Developer
 settings.dev.forceUpdate Sapilitang I-Update ang mga skins
 settings.dev.forceRegen Laging Regenerate ang Player
@@ -170,6 +173,7 @@ settings.interface.dmgCol Kulay ng pinsala sa health ng manlalaro
 settings.interface.critCol Kulay ng Kritikal
 settings.interface.header Itsura ng Interface
 settings.interface.scale  Sukat ng UI
+settings.interface.theme Game Theme
 settings.interface.ui Ipakita ang UI
 settings.interface.scoreboard Gumamit ng Lumang Scoreboard
 settings.interface.oldBrowser Gumamit ng Lumang Browser
@@ -196,13 +200,13 @@ settings.interface.speedOpacity Speed Opacity
 settings.interface.speedScale Scale ng Bilis
 settings.interface.speedColor Kulay ng Bilis (Kasalukuyan)
 settings.interface.speedColorMax Kulay ng Bilis (Max)
-settings.interface.medals Magpakita ng Medalya
 settings.interface.hideNames ipakita ang Pangalan
 settings.interface.hideNames.team Kasamahan Lamang
 settings.interface.hideNames.enemy Kalaban Lamang
 settings.interface.hideNames.all Lahat ng Pangalan
 settings.interface.nametagStyle Estilo ng Pangalan
 settings.interface.nametagOpac Diin ng Pangalan
+settings.interface.nametagScale Nametag Scale
 settings.interface.nametagStyle.health Health Lamang
 settings.interface.nametagStyle.name Pangalan Lamang
 settings.interface.nametagStyle.nameLvl Pangalan at antas lamang
@@ -213,6 +217,13 @@ settings.interface.healthColE Nametag Health Color Enemy
 settings.interface.xpBarCol Kulay ng XP Bar
 settings.interface.xpBarCol2 XP Bar Color 2
 settings.interface.xpBarOpac Diin ng XP Bar
+settings.medals.header Medals
+settings.medals.show Show Medals
+settings.medals.classic Classic Medals
+settings.medals.sound Play Medal Sounds
+settings.medals.scale Medal Scale
+settings.medals.xOff Medal X Offset
+settings.medals.yOff Medal Y Offset
 settings.crosshair.header Crosshair
 settings.crosshair.type Uri
 settings.crosshair.type.1 Dynamic
@@ -289,10 +300,12 @@ settings.gameprivacy.header Pagkapribado ng Laro
 settings.gameprivacy.streamer Mode ng Streamer
 settings.gameprivacy.anon Anonymous Mode
 settings.gameprivacy.hideGameTitle Itago ang Pamagat ng Laro
+settings.gameprivacy.showRegion Show Region Info
 settings.gameprivacy.verified Ipakita ang Verification Badge
 settings.gameprivacy.premium Ipakita ang Premium Badge
 settings.gameprivacy.partner Ipakita ang Partnered Badge
 settings.gameprivacy.rank Ipakita ang Ranked Badge
+settings.gameprivacy.custom Show Custom Badge
 settings.gameplay.header Gameplay
 settings.gameplay.gpSetts Settings sa Gameplay
 settings.gameplay.sensitivityX X Sensitivity
@@ -329,6 +342,7 @@ settings.audio.ambient Bolyum ng Ambiyansa
 settings.audio.voice Bolyum ng Boses
 settings.audio.input Audio/Mic Input
 settings.audio.mic Mic Volume
+settings.audio.micquality Mic Quality
 settings.audio.weps Bolyum ng Tunog ng Armas
 settings.audio.player Bolyum ng Player
 settings.audio.skin Bolyum ng Manlalaro
@@ -445,6 +459,7 @@ windows.servers.hide Itago
 windows.servers.priority Prayoridad ng Rehiyon
 windows.servers.online {0} Sa laro
 windows.servers.social {0} online sa Komunidad
+windows.servers.editor {0} in Editor
 windows.loadout.header Baguhin ang Loadout
 windows.loadout.class Mga Klase
 windows.loadout.primary Pangunahing Armas
@@ -465,8 +480,10 @@ windows.loadout.color.chat Kulay ng Pangalan sa Chat
 windows.loadout.color.hair Kulay ng Buhok
 windows.loadout.dye Kulay ng katawan
 windows.loadout.pet Alaga
+windows.loadout.wrist Wrist
 windows.loadout.stat Killcard Stat
 windows.loadout.flag Bandilang Pambansa
+windows.loadout.badge Custom Badge
 windows.mods.drop ihulog ang file ng mod dito o mag-click
 windows.mods.paste Ipaste ang Mod URL
 windows.mods.load Mag-load ng Mod
@@ -490,6 +507,7 @@ windows.controls.aim1 Mag-aim (puntirya)
 windows.controls.shoot1 Bumaril
 windows.controls.inspect Suriin
 windows.controls.spray Mag-spray
+windows.controls.sprayWheel Spray Wheel (Hold)
 windows.controls.jump Tumalon
 windows.controls.crouch Yumuko
 windows.controls.prim Pangunahing Armas
@@ -520,15 +538,20 @@ windows.controls.streak1 Streak 2
 windows.controls.streak2 Streak 3
 windows.controls.streak3 Streak 4
 windows.controls.streak4 Streak 5
+windows.controls.taunt0 Taunt (Psst)
+windows.controls.taunt1 Taunt (Whistle)
+windows.controls.taunt2 Taunt (Fart)
+windows.controls.taunt3 Taunt (Meme)
+windows.controls.taunt4 Taunt (WTF is This?)
+windows.controls.taunt5 Taunt (Right Now!)
 windows.controls.prop Piliin ang Prop (Hold M1)
+windows.controls.propRand Select Random Prop
+windows.controls.propRot Toggle Rotation
+windows.controls.propRotR Reset Rotation
 windows.controls.premium0 Naka noclip
 windows.controls.premium1 Naka godmode
 windows.controls.premium2 Patayin
 windows.controls.premium3 Smite
-windows.controls.dev0 Bind ng Dev 1
-windows.controls.dev1 Bind ng Dev 2
-windows.controls.dev2 Bind ng Dev 3
-windows.controls.dev3 Bind ng Dev 4
 windows.controls.reset Balik-Simula ang posisyon (Paligsahan at Parkour)
 windows.controls.pretend Itago ang Laro
 windows.host.header Host ng Custom na Laro
@@ -588,6 +611,7 @@ windows.store.amount {0} KR sa account
 windows.store.login upang bumili at mag-unlock ng mga item mula sa tindahan!
 windows.store.purchasing Binibili ...
 windows.store.unboxed {0} ay naka-unbox ng {1} 
+windows.store.found {0}{1} found
 windows.trade.header Kalakalan
 windows.scope.header Pumili ng scope
 windows.premium.header Premium
@@ -635,9 +659,6 @@ windows.client.linux Installer sa Linux
 windows.ranked.header Rango
 windows.ranked.login Login upang magpataasan ng inyong rango!
 windows.ranked.level Hindi ka bababa sa Antas na <span color = "black"> level {0} </span> upang maglaro sa may ranggo. Ikaw ay kasalukuyang nasa Antas <span color = "black"> level {1} ​​</span>.
-windows.ranked.mode.r1v1 Solo
-windows.ranked.mode.r2v2 Duo
-windows.ranked.mode.r4v4 Quad
 windows.chall.header Mga Challenge
 windows.chall.login upang makumpleto ang mga challenge!
 thumbnail.upload.limit Failed. {0}kb Thumbnail Limit
@@ -649,10 +670,11 @@ mod.error Error sa mod!
 mod.loading Naglo-load ng mod ...
 mod.invalid Imbalidong mod file!
 matchmaker.full PUNO
-matchmaker.full2 Puno na ang laro.
-matchmaker.updating NAG-UUPDATE ANG LARO
-matchmaker.invalid Hindi mahanap ang laro.
-matchmaker.none Ang mga server ay nasa Max Capacity
+matchmaker.GameFull Game is full.
+matchmaker.NoServersMatchQuery GAME UPDATING
+matchmaker.InvalidGameId Game not found.
+matchmaker.NoAvailableServers Servers are at Max Capacity
+matchmaker.GameIssue Unknown Join Issue
 adblocker Tanggalin ang iyong ad-blocker upang makatanggap ng mga libreng KR.
 ad-failed Hindi Nag-load ang Ad. Subukang muli.
 streamers.views {0} ang mga Nanonood
@@ -706,6 +728,7 @@ server.config.thirdPerson Tingin ng 3rd Person View
 server.config.requireCaptcha Kailangan ng CAPTCHA
 server.config.nameTags Itago ang mga Nametag
 server.config.kCams Mga Kill Cams
+server.config.aAnon Allow Anonymous
 server.config.noReload Walang Reload
 server.config.private Pribado
 server.config.krRewards Mga Gantimpala ng KR
@@ -762,9 +785,11 @@ social.market.waist Kagamitan sa Baywang
 social.market.face Mga Mukha
 social.market.shoe Mga Sapatos 
 social.market.pet Mga Alaga
+social.market.wrist Wrist Item
 social.market.melee Mga Patalim
 social.market.spray Mga Sprays
 social.market.dye Kulay ng Katawan
+social.market.collectible Collectible Item
 social.market.none Hindi matagpuan ang kagamitan
 social.market.login Maglogin ka muna.
 social.market.grace handa na sa {0}
@@ -809,7 +834,9 @@ stats.fistkills Pagbugbog
 stats.thrownkills Mga binatuhan ng patalim
 stats.headshots Mga headshot
 stats.wallbangs Mga wallbang
+stats.crouches Crouches
 stats.sprays Nilagay na spray
+stats.kpd Helpful Reports
 windows.host.default.settings Ang pagpapagana ng Default na Mga Setting ay nagbibigay-daan para sa pagtatago ng Player Progress at Highscores
 windows.host.default.commands * Ang Mga Command ng Host ay Hindi Pinapagana sa mode na ito: / noclip / god / smite atbp
 windows.host.rewards Pinipilit ng pagpapagana ng KR Rewards ang Server na gumamit ng Default na Mga Setting
@@ -831,7 +858,9 @@ windows.playerlist.punish Sigurado ka bang nais mong parusahin ang manlalarong s
 item.view.open Buksan ang Model Viewer
 item.view.more Iba pang Impormasyon
 item.sell.cant Hindi mabenta ang item na ito.
+item.sell.cant.krunker Item cant be sold on krunker.
 item.sell.quick Sigurado ka bang ibebenta mo ito agad {0}?
+item.sell.destroy Are you sure you want to Destroy {0}?
 social.profile.stats Kabuoang statistika
 social.profile.class Statistika ng mga Klase
 social.profile.sales Mga Binebenta
@@ -859,5 +888,39 @@ social.trades.message Payagan ang mga Trade Message at Pag-alok sa Settings
 social.trades.warning Wala kang makukuhang kagamitan sa Pag-alok na ito!
 social.trades.accept Nais mo bang tanggapin ang Pag-alok na ito?
 stats.airdrops Pakete ng KR
+stats.airdrops.stolen Airdrops Stolen
 settings.quality.flapAnim Animasyon ng Sniper flap
+chall.name.hs Get {0} headshots {1}
+chall.name.ns Get {0} no-scopes {1}
+chall.name.ls Get {0} legshots {1}
+chall.name.ls Get {0} throwing knife kills {1}
+chall.name.ls Get {0} first bloods {1}
+chall.name.ls Get {0} longshots {1}
+chall.name.ls Get {0} legshots {1}
+chall.name.ls Get {0} throwing knife kills {1}
+chall.name.ls Get {0} first bloods {1}
+chall.name.ls Get {0} longshots {1}
+chall.name.ls Get {0} legshots {1}
+chall.name.ls Get {0} throwing knife kills {1}
+chall.name.ls Get {0} first bloods {1}
+chall.name.ls Get {0} longshots {1}
+chall.name.mk Get {0} melee kills {1}
+chall.name.fk Get {0} fist kills {1}
+chall.name.qs Get {0} quickscopes {1}
+chall.name.wb Get {0} wallbangs {1}
+chall.name.airk Get {0} mid-air kills {1}
+chall.name.ls Get {0} legshots {1}
+chall.name.ls Get {0} throwing knife kills {1}
+chall.name.ls Get {0} first bloods {1}
+chall.name.ls Get {0} longshots {1}
+chall.name.tk Get {0} turbo kills {1}
+chall.name.drk Get {0} drift kills {1}
+chall.name.kstk Get a {0} killstreak {1}
+chall.name.w Win {0} matches
+chall.name.d Die {0} times
+chall.name.score Get {0} score
+chall.name.dmg Deal {0} damage {1}
+chall.name.bzk Get {0} buzz kills {1}
+chall.name.cc Get {0} close-calls {1}
+chall.name.rk Deal {0} revenge kills {1}
 `;

@@ -1,4 +1,4 @@
-21/DEC/2021 update -
+31/JAN/2022 update -
 
 Current statuses of languages in-game (these are prioritised).
 
@@ -7,20 +7,6 @@ Read as "Language,live patch level". For example "Japanese,v4.2.2" means Japanes
 
 Up to date:
 
-Japanese,v4.2.2 - 5/SEP/21
-Korean,v4.2.2 - 5/SEP/21
-Dutch,v4.2.2 - 5/SEP/21
-French,v4.2.2 - 15/SEP/21
-Italian,v4.2.2 - 15/SEP/21
-Polish,v4.2.2 - 15/SEP/21
-Traditional Chinese,v4.2.2 - 03/OCT/21
-Simplified Chinese,v4.2.2 - 03/OCT/21
-Turkish,v4.2.2 - 03/OCT/21
-Tagalog,v4.2.2 - 03/OCT/21
-Spanish,v4.2.2
-Finnish,v4.2.2 - 31/OCT/21
-Russian,v4.2.2 - 31/OCT/21
-Portuguese,v4.2.2 - 13/DEC/21
 
 Pull requests pending:
 
@@ -28,5 +14,19 @@ N/A
 
 Updates required:
 
-Hindi,v4.0.9
-German,v4.0.9
+Hindi,v4.0.9 (Bonus KR)
+German,v4.0.9 (Bonus KR)
+Japanese,v4.2.2
+Korean,v4.2.2
+Dutch,v4.2.2
+French,v4.2.2
+Italian,v4.2.2
+Polish,v4.2.2
+Traditional Chinese,v4.2.2
+Simplified Chinese,v4.2.2
+Turkish,v4.2.2
+Tagalog,v4.2.2
+Spanish,v4.2.2
+Finnish,v4.2.2
+Russian,v4.2.2
+Portuguese,v4.2.2

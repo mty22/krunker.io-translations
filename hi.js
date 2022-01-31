@@ -91,13 +91,15 @@ settings.network.header नेटवर्क
 settings.network.netRerouting ऑटो राउटिंग (पिंग को प्रभावित करता है)
 settings.network.netRate Network Rate (Hz)
 settings.network.lagComp लैग काम्पन्सेशन
+settings.network.optNet Optimized Networking
 settings.popup.header पॉपअप
-settings.popup.freeKRPop मुफ्त KR पॉपअप
 settings.experimental.header आजमाइशी
-settings.experimental.optNetwork Optimized Networking
+settings.experimental.holiday Holiday Effects
 settings.experimental.aimFreezeFix लक्ष्य के दौरान फ्रीज को ठीक करें
 settings.experimental.mouseFlickFix लक्ष्य के दौरान झटके को ठीक करें
 settings.experimental.shaderRendering शेडर रैडंर
+settings.experimental.mouseAccel Mouse Acceleration
+settings.experimental.tbInterp TB Interpolation
 settings.client.header Client क्लाइंट
 settings.client.unlimitedFrames असीमित FPS
 settings.client.gameCap खेल कैप्चर
@@ -109,6 +111,7 @@ settings.client.resetSettings रीसेट क्लाइंट सेटि
 settings.client.acceleratedCanvas एक्सेलरेटेड कैन्वस
 settings.client.angleBackend ऐंगल ग्राफ़िक्स बैकेंड
 settings.client.colorProfile रंग प्रोफ़ाइल
+settings.client.resourcePacks Resource Packs
 settings.dev.header डेवलपर
 settings.dev.forceUpdate बलपूर्वक श्रृंगार बदलें
 settings.dev.forceRegen हमेशा खिलाड़ी को पुनर्जीवित करें
@@ -170,6 +173,7 @@ settings.interface.dmgCol डैमेज संकेतों का रंग
 settings.interface.critCol घातक डैमेज संकेतों का रंग
 settings.interface.header इंटरफ़ेस
 settings.interface.scale UI का माप
+settings.interface.theme Game Theme
 settings.interface.ui UI दिखाएँ
 settings.interface.scoreboard पुराने स्कोरबोर्ड का उपयोग करें
 settings.interface.oldBrowser पुराने ब्राउज़र का उपयोग करें
@@ -196,13 +200,13 @@ settings.interface.speedOpacity गति काँटे की पारदर
 settings.interface.speedScale स्पीड स्केल
 settings.interface.speedColor गति काँटे का रंग (वर्तमान)
 settings.interface.speedColorMax गति काँटे का रंग (अधिकतम)
-settings.interface.medals पदक दिखाएं
 settings.interface.hideNames खिलाड़ी के नाम दिखाएँ
 settings.interface.hideNames.team केवल अपनी टीम के
 settings.interface.hideNames.enemy केवल दुश्मन के
 settings.interface.hideNames.all सभी के
 settings.interface.nametagStyle नैम-टैग स्टाइल
 settings.interface.nametagOpac नैम-टैग की पारदर्शकता
+settings.interface.nametagScale Nametag Scale
 settings.interface.nametagStyle.health केवल HP
 settings.interface.nametagStyle.name केवल नाम
 settings.interface.nametagStyle.nameLvl केवल नाम और लेवल
@@ -213,6 +217,13 @@ settings.interface.healthColE नैम-टैग दुश्मन के HP �
 settings.interface.xpBarCol XP बार का रंग
 settings.interface.xpBarCol2 XP Bar Color 2
 settings.interface.xpBarOpac XP बार की पारदर्शकता
+settings.medals.header Medals
+settings.medals.show Show Medals
+settings.medals.classic Classic Medals
+settings.medals.sound Play Medal Sounds
+settings.medals.scale Medal Scale
+settings.medals.xOff Medal X Offset
+settings.medals.yOff Medal Y Offset
 settings.crosshair.header Crosshair
 settings.crosshair.type Crosshair का ढंग
 settings.crosshair.type.1 Dynamic
@@ -289,10 +300,12 @@ settings.gameprivacy.header खेल की गोपनीयता
 settings.gameprivacy.streamer स्ट्रीमर मोड
 settings.gameprivacy.anon गुमनाम मोड
 settings.gameprivacy.hideGameTitle खेल शीर्षक छिपाएं
+settings.gameprivacy.showRegion Show Region Info
 settings.gameprivacy.verified Show Verified Badge
 settings.gameprivacy.premium Show Premium Badge
 settings.gameprivacy.partner Show Partner Badge
 settings.gameprivacy.rank Show Ranked Badge
+settings.gameprivacy.custom Show Custom Badge
 settings.gameplay.header गेमप्लेर
 settings.gameplay.gpSetts गेमप्ले सेटिंग्स
 settings.gameplay.sensitivityX X-संवेदनशीलता
@@ -329,6 +342,7 @@ settings.audio.ambient एम्बियेन्ट वॉल्यूम
 settings.audio.voice वाणी वॉल्यूम
 settings.audio.input Audio/Mic Input
 settings.audio.mic Mic Volume
+settings.audio.micquality Mic Quality
 settings.audio.weps हथियार वॉल्यूम
 settings.audio.player खिलाड़ी की वॉल्यूम
 settings.audio.skin पेहनावे की वॉल्यूम
@@ -445,6 +459,7 @@ windows.servers.hide फ़ुल सर्वर छिपाए
 windows.servers.priority रीजन की प्राथमिकता
 windows.servers.online {0} खेल में
 windows.servers.social {0} सोशल में
+windows.servers.editor {0} in Editor
 windows.loadout.header लोडआउट बदले
 windows.loadout.class क्लास
 windows.loadout.primary प्राइमरी
@@ -465,8 +480,10 @@ windows.loadout.color.chat चैट मे अपने नाम का रं
 windows.loadout.color.hair बाल का रंग
 windows.loadout.dye डाई
 windows.loadout.pet पेट
+windows.loadout.wrist Wrist
 windows.loadout.stat किलकार्ड स्टैटक
 windows.loadout.flag देश का झंडा
+windows.loadout.badge Custom Badge
 windows.mods.drop यहाँ मॉड फ़ाइल ड्रॉप या क्लिक करें
 windows.mods.paste पेस्ट मॉड URL
 windows.mods.load मॉड लोड करें
@@ -490,6 +507,7 @@ windows.controls.aim1 एम्
 windows.controls.shoot1 गोली चलाना
 windows.controls.inspect इंस्पेक्ट
 windows.controls.spray स्प्रे
+windows.controls.sprayWheel Spray Wheel (Hold)
 windows.controls.jump कूदना
 windows.controls.crouch झुकना
 windows.controls.prim प्राइमरी हथियार
@@ -520,15 +538,20 @@ windows.controls.streak1 स्ट्रीक 2
 windows.controls.streak2 स्ट्रीक 3
 windows.controls.streak3 स्ट्रीक 4
 windows.controls.streak4 स्ट्रीक 5
+windows.controls.taunt0 Taunt (Psst)
+windows.controls.taunt1 Taunt (Whistle)
+windows.controls.taunt2 Taunt (Fart)
+windows.controls.taunt3 Taunt (Meme)
+windows.controls.taunt4 Taunt (WTF is This?)
+windows.controls.taunt5 Taunt (Right Now!)
 windows.controls.prop Select Prop (Hold)
+windows.controls.propRand Select Random Prop
+windows.controls.propRot Toggle Rotation
+windows.controls.propRotR Reset Rotation
 windows.controls.premium0 नोक्लिप
 windows.controls.premium1 गाड मोड
 windows.controls.premium2 खुद को नष्ट करे
 windows.controls.premium3 स्माइट
-windows.controls.dev0 Developer Bind 1
-windows.controls.dev1 Developer Bind 2
-windows.controls.dev2 Developer Bind 3
-windows.controls.dev3 Developer Bind 4
 windows.controls.reset स्थान रिसेट करे (रेस & पार्कोर)
 windows.controls.pretend खेल छुपाए
 windows.host.header कस्टम खेल होस्ट करें
@@ -588,6 +611,7 @@ windows.store.amount अकाउंट में {0} KR है
 windows.store.login बाजार से आइटम्स अनलॉक करने के लिए!
 windows.store.purchasing खरिदा जा रह है...
 windows.store.unboxed {0}{1} अनबॉक्स्ड
+windows.store.found {0}{1} found
 windows.trade.header व्यापार करना
 windows.scope.header स्कोप चुने
 windows.premium.header प्रीमियम
@@ -635,9 +659,6 @@ windows.client.linux Linux इंस्टालर
 windows.ranked.header रैन्क्ड
 windows.ranked.login रैन्क्ड खेल खेलने के लिए!
 windows.ranked.level आपको कम से कम  <span color="black">लेवल  {0}</span> का होना जरूरी है रंकड खेल खेलने के लिए! आपका अभी यह  <span color="black">level {1}</span>.
-windows.ranked.mode.r1v1 सोलो
-windows.ranked.mode.r2v2 डुओ
-windows.ranked.mode.r4v4 क्वैड
 windows.chall.header चुनौती
 windows.chall.login चुनौतियों को ख़तम  करने के लिए
 thumbnail.upload.limit Failed. {0}kb थंबनेल  सीमा
@@ -649,10 +670,11 @@ mod.error मॉड एरर!
 mod.loading मॉड लोड हो रहा हे ...
 mod.invalid इनवैलिड मॉड फाइल !
 matchmaker.full फुल
-matchmaker.full2 खेल भरा हुआ है .
-matchmaker.updating खेल अपडेट हो रहा हे
-matchmaker.invalid खेल नहीं मिला.
-matchmaker.none सारे सरवर फूल हे
+matchmaker.GameFull Game is full.
+matchmaker.NoServersMatchQuery GAME UPDATING
+matchmaker.InvalidGameId Game not found.
+matchmaker.NoAvailableServers Servers are at Max Capacity
+matchmaker.GameIssue Unknown Join Issue
 adblocker KR प्राप्त करने के लिए, अपना adblocker बंद करें
 ad-failed विज्ञापन लोड होने में असफल हुआ । कृपया पुन: प्रयास करें
 streamers.views {0} दर्शक
@@ -706,6 +728,7 @@ server.config.thirdPerson थर्ड पर्सन
 server.config.requireCaptcha कैप्चा की आवश्यकता
 server.config.nameTags नाम के टैग छुपाए
 server.config.kCams किल केम्स
+server.config.aAnon Allow Anonymous
 server.config.noReload रीलोड ऑफ
 server.config.private प्राइवेट
 server.config.krRewards के.आर के पुरस्कार
@@ -762,9 +785,11 @@ social.market.waist कमर की आइटम
 social.market.face चेहरे की आइटम
 social.market.shoe जूते
 social.market.pet पेट
+social.market.wrist Wrist Item
 social.market.melee चाकू
 social.market.spray स्प्रे
 social.market.dye डाई
+social.market.collectible Collectible Item
 social.market.none कोई आइटम नहीं खोजी गयी
 social.market.login लॉग इन होना आवश्यक है.
 social.market.grace {0} में तैयार
@@ -809,7 +834,9 @@ stats.fistkills हाँथों द्वारा किये गए कि
 stats.thrownkills फेंके गए चाक़ू द्वारा किल
 stats.headshots हेड शाट
 stats.wallbangs वॉल बैंग
+stats.crouches Crouches
 stats.sprays स्प्रे काउन्ट
+stats.kpd Helpful Reports
 windows.host.default.settings मैप के सेटिंग्स को सक्षम करने से प्लेयर्स के डाटा (हाइ स्कॉर्ज़) को सेव किया जा सकता है
 windows.host.default.commands *होस्ट कमांड (/ noclip, /god, /smite, आदि) इस मोड में काम नहीं करेंगे
 windows.host.rewards यदि आप KR रिवार्ड्स को सक्षम करते है, तो सारे खिलाड़ियों को डिफ़ॉल्ट सेटिंग्स पर खेलना पड़ेगा और वे आपके मैप के खाते से KR भी जीत सकते है:
@@ -831,7 +858,9 @@ windows.playerlist.punish क्या आप वास्तव में {0} �
 item.view.open मॉडल व्यूअर खोलें
 item.view.more अधिक जानकारी
 item.sell.cant आइटम बेचा नहीं जा सकता
+item.sell.cant.krunker Item cant be sold on krunker.
 item.sell.quick क्या आप वास्तव में {0} की शीघ्र बिक्री करना चाहते है?
+item.sell.destroy Are you sure you want to Destroy {0}?
 social.profile.stats संपूर्ण आँकड़े
 social.profile.class हथियार के आँकड़े
 social.profile.sales बिक्री
@@ -859,5 +888,39 @@ social.trades.message कृपया सेटिंग से व्याप�
 social.trades.warning आपको इस व्यापार से कोइ वस्तु नही मिलेगा!
 social.trades.accept क्या आप वास्तव में इस ट्रेड को स्वीकार करना चाहते हैं?
 stats.airdrops KR पैकेज
+stats.airdrops.stolen Airdrops Stolen
 settings.quality.flapAnim स्नाइपर फ्लैप एनीमेशन
+chall.name.hs Get {0} headshots {1}
+chall.name.ns Get {0} no-scopes {1}
+chall.name.ls Get {0} legshots {1}
+chall.name.ls Get {0} throwing knife kills {1}
+chall.name.ls Get {0} first bloods {1}
+chall.name.ls Get {0} longshots {1}
+chall.name.ls Get {0} legshots {1}
+chall.name.ls Get {0} throwing knife kills {1}
+chall.name.ls Get {0} first bloods {1}
+chall.name.ls Get {0} longshots {1}
+chall.name.ls Get {0} legshots {1}
+chall.name.ls Get {0} throwing knife kills {1}
+chall.name.ls Get {0} first bloods {1}
+chall.name.ls Get {0} longshots {1}
+chall.name.mk Get {0} melee kills {1}
+chall.name.fk Get {0} fist kills {1}
+chall.name.qs Get {0} quickscopes {1}
+chall.name.wb Get {0} wallbangs {1}
+chall.name.airk Get {0} mid-air kills {1}
+chall.name.ls Get {0} legshots {1}
+chall.name.ls Get {0} throwing knife kills {1}
+chall.name.ls Get {0} first bloods {1}
+chall.name.ls Get {0} longshots {1}
+chall.name.tk Get {0} turbo kills {1}
+chall.name.drk Get {0} drift kills {1}
+chall.name.kstk Get a {0} killstreak {1}
+chall.name.w Win {0} matches
+chall.name.d Die {0} times
+chall.name.score Get {0} score
+chall.name.dmg Deal {0} damage {1}
+chall.name.bzk Get {0} buzz kills {1}
+chall.name.cc Get {0} close-calls {1}
+chall.name.rk Deal {0} revenge kills {1}
 `;
