@@ -922,5 +922,5 @@ chall.name.score Get {0} score
 chall.name.dmg Deal {0} damage {1}
 chall.name.bzk Get {0} buzz kills {1}
 chall.name.cc Get {0} close-calls {1}
-chall.name.rk Deal {0} revenge kills {1}
+chall.name.rk Deal {0} Pagganti {1}
 `;
