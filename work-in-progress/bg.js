@@ -91,13 +91,15 @@ settings.network.header Интернет връзка
 settings.network.netRerouting Автоматично маршрутизиране (Засяга пинга)
 settings.network.netRate Network Rate (Hz)
 settings.network.lagComp Компенсация на лага
+settings.network.optNet Optimized Networking
 settings.popup.header Изкачащи прозорци
-settings.popup.freeKRPop Покажи изкачащият прозорец за безплатни KR
 settings.experimental.header Експериментални настройки
-settings.experimental.optNetwork Optimized Networking
+settings.experimental.holiday Holiday Effects
 settings.experimental.aimFreezeFix Поправи замръзването на прицелването
 settings.experimental.mouseFlickFix Поправи Flick-ването на мишката
 settings.experimental.shaderRendering Рендиране на инстацията
+settings.experimental.mouseAccel Mouse Acceleration
+settings.experimental.tbInterp TB Interpolation
 settings.client.header Клиент
 settings.client.unlimitedFrames Безкраен FPS
 settings.client.gameCap Заснемане на играта
@@ -109,6 +111,7 @@ settings.client.resetSettings Reset Настройки на клиента
 settings.client.acceleratedCanvas Ускорено платно
 settings.client.angleBackend ANGLE Graphics Backend
 settings.client.colorProfile Цветен профил
+settings.client.resourcePacks Resource Packs
 settings.dev.header Девелопър
 settings.dev.forceUpdate Принудително актуализиране на скинове
 settings.dev.forceRegen Винаги регенерирайте играча
@@ -170,6 +173,7 @@ settings.interface.dmgCol цвят на Damage
 settings.interface.critCol цвят на Критични удари
 settings.interface.header Интерфейс
 settings.interface.scale Големина на UI
+settings.interface.theme Game Theme
 settings.interface.ui показвай UI
 settings.interface.scoreboard Използвай стария Scoreboard
 settings.interface.oldBrowser Използвай старият браузер
@@ -196,13 +200,13 @@ settings.interface.speedOpacity Прозрачност на скоростоме
 settings.interface.speedScale Размер на скоростометъра
 settings.interface.speedColor Цвят на скоростометъра (Current)
 settings.interface.speedColorMax Цвят на скоростометъра (Max)
-settings.interface.medals Покажи медали
 settings.interface.hideNames Показвай неймтагове
 settings.interface.hideNames.team Само на съотборниците
 settings.interface.hideNames.enemy Само на врага
 settings.interface.hideNames.all На всеки
 settings.interface.nametagStyle Стил на неймтага
 settings.interface.nametagOpac Прозрачност на неймтага
+settings.interface.nametagScale Nametag Scale
 settings.interface.nametagStyle.health Само за health на играча
 settings.interface.nametagStyle.name Само име
 settings.interface.nametagStyle.nameLvl Име и само левел
@@ -213,6 +217,13 @@ settings.interface.healthColE Цвят на противниковата таб�
 settings.interface.xpBarCol Цвят на лентата с XP
 settings.interface.xpBarCol2 Цвят на лентата с XP 2
 settings.interface.xpBarOpac Прозрачност на лентата с XP
+settings.medals.header Medals
+settings.medals.show Show Medals
+settings.medals.classic Classic Medals
+settings.medals.sound Play Medal Sounds
+settings.medals.scale Medal Scale
+settings.medals.xOff Medal X Offset
+settings.medals.yOff Medal Y Offset
 settings.crosshair.header Мерник
 settings.crosshair.type Тип
 settings.crosshair.type.1 Динамичен
@@ -289,10 +300,12 @@ settings.gameprivacy.header Геймплей поверителност
 settings.gameprivacy.streamer Режим за стриймъри
 settings.gameprivacy.anon Анонимен режим
 settings.gameprivacy.hideGameTitle Скрий заглавието а играта
+settings.gameprivacy.showRegion Show Region Info
 settings.gameprivacy.verified Показване на потвъдена значка
 settings.gameprivacy.premium Показване на премиум значка
 settings.gameprivacy.partner Показване на партньорска значка
 settings.gameprivacy.rank Показване на класирана значка
+settings.gameprivacy.custom Show Custom Badge
 settings.gameplay.header Геймплей
 settings.gameplay.gpSetts Геймплей настройки
 settings.gameplay.sensitivityX Чуствителност Х
@@ -329,6 +342,7 @@ settings.audio.ambient Ambient Volume
 settings.audio.voice Звук на гласове
 settings.audio.input Audio/Mic Input
 settings.audio.mic Mic Volume
+settings.audio.micquality Mic Quality
 settings.audio.weps Звук на оръжията
 settings.audio.player Звук на играчите
 settings.audio.skin Cosmetics Volume
@@ -445,6 +459,7 @@ windows.servers.hide Скрии пълни сървъри
 windows.servers.priority Приоритет на региона
 windows.servers.online {0} На линия
 windows.servers.social {0} В социалните
+windows.servers.editor {0} in Editor
 windows.loadout.header Смени loadout-a
 windows.loadout.class Клас
 windows.loadout.primary Основен
@@ -465,8 +480,10 @@ windows.loadout.color.chat Цвят на името в чата
 windows.loadout.color.hair Цвят на косата
 windows.loadout.dye Боя
 windows.loadout.pet Домашен любимец
+windows.loadout.wrist Wrist
 windows.loadout.stat Killcard Stat
 windows.loadout.flag Флаг на държавата
+windows.loadout.badge Custom Badge
 windows.mods.drop сложете файла с мода тук
 windows.mods.paste Сложете URL на мода
 windows.mods.load зареди мод
@@ -490,6 +507,7 @@ windows.controls.aim1 Прицели се
 windows.controls.shoot1 Стреляй
 windows.controls.inspect Инспектирай
 windows.controls.spray Нарисувай спрей
+windows.controls.sprayWheel Spray Wheel (Hold)
 windows.controls.jump Скочи
 windows.controls.crouch Клекни
 windows.controls.prim Главно оръжие
@@ -520,15 +538,20 @@ windows.controls.streak1 Поредица 2
 windows.controls.streak2 Поредица 3
 windows.controls.streak3 Поредица 4
 windows.controls.streak4 Поредица 5
+windows.controls.taunt0 Taunt (Psst)
+windows.controls.taunt1 Taunt (Whistle)
+windows.controls.taunt2 Taunt (Fart)
+windows.controls.taunt3 Taunt (Meme)
+windows.controls.taunt4 Taunt (WTF is This?)
+windows.controls.taunt5 Taunt (Right Now!)
 windows.controls.prop Select Prop (Hold)
+windows.controls.propRand Select Random Prop
+windows.controls.propRot Toggle Rotation
+windows.controls.propRotR Reset Rotation
 windows.controls.premium0 Noclip
 windows.controls.premium1 Godmode
 windows.controls.premium2 Убий
 windows.controls.premium3 Порази
-windows.controls.dev0 Developer Bind 1
-windows.controls.dev1 Developer Bind 2
-windows.controls.dev2 Developer Bind 3
-windows.controls.dev3 Developer Bind 4
 windows.controls.reset Рестартиране
 windows.controls.pretend Скрий играта
 windows.host.header Хостнете персонализирана игра
@@ -588,6 +611,7 @@ windows.store.amount {0} KR in account
 windows.store.login to buy and unlock items from the store!
 windows.store.purchasing Purchasing...
 windows.store.unboxed {0}{1} unboxed
+windows.store.found {0}{1} found
 windows.trade.header Trading
 windows.scope.header Select Scope
 windows.premium.header Premium
@@ -635,9 +659,6 @@ windows.client.linux Linux Installer
 windows.ranked.header Ranked
 windows.ranked.login to play in ranked games!
 windows.ranked.level You must be at least <span color="black">level {0}</span> to play in ranked games! Right now you are at <span color="black">level {1}</span>.
-windows.ranked.mode.r1v1 Solo
-windows.ranked.mode.r2v2 Duo
-windows.ranked.mode.r4v4 Quad
 windows.chall.header Challenges
 windows.chall.login to complete challenges!
 thumbnail.upload.limit Failed. {0}kb Thumbnail Limit
@@ -649,10 +670,11 @@ mod.error mod error!
 mod.loading loading mod...
 mod.invalid невалиден мод файл!
 matchmaker.full ПЪЛНА
-matchmaker.full2 Играта е пълна.
-matchmaker.updating АКТУАЛИЗИРАНЕ НА ИГРАТА
-matchmaker.invalid Играта не е намерена.
-matchmaker.none Сървърите са на максимален капацитет
+matchmaker.GameFull Game is full.
+matchmaker.NoServersMatchQuery GAME UPDATING
+matchmaker.InvalidGameId Game not found.
+matchmaker.NoAvailableServers Servers are at Max Capacity
+matchmaker.GameIssue Unknown Join Issue
 adblocker Деактивирайте вашия рекламен блокер, за да получите безплатни Krunkies.
 ad-failed Ad Failed to Load. Try again.
 streamers.views {0} viewers
@@ -706,6 +728,7 @@ server.config.thirdPerson 3rd Person
 server.config.requireCaptcha Require Captcha
 server.config.nameTags Hide Nametags
 server.config.kCams Kill Cams
+server.config.aAnon Allow Anonymous
 server.config.noReload No Reload
 server.config.private Private
 server.config.krRewards KR Rewards
@@ -762,9 +785,11 @@ social.market.waist Waist Item
 social.market.face Face Item
 social.market.shoe Shoe Item
 social.market.pet Домашен любимец елементи
+social.market.wrist Wrist Item
 social.market.melee Melee Item
 social.market.spray Спрей елементи
 social.market.dye Dye Item
+social.market.collectible Collectible Item
 social.market.none Няма намерени елементи
 social.market.login Трябва да сте свързани във вашият акаунт
 social.market.grace ready in {0}
@@ -809,7 +834,9 @@ stats.fistkills Beatdowns
 stats.thrownkills Меле
 stats.headshots Headshots
 stats.wallbangs Wallbangs
+stats.crouches Crouches
 stats.sprays Поставени спрейове
+stats.kpd Helpful Reports
 windows.host.default.settings Enabling Default Settings allows for storing Player Progress and Highscores
 windows.host.default.commands *Host Commands are Disabled in this mode: /noclip /god /smite etc
 windows.host.rewards Enabling KR Rewards forces the Server to use Default Settings & allows players to earn KR from the map funds:
@@ -831,7 +858,9 @@ windows.playerlist.punish Сигурни ли сте че искате да пр
 item.view.open Open Model Viewer
 item.view.more More Information
 item.sell.cant Item cant be sold.
+item.sell.cant.krunker Item cant be sold on krunker.
 item.sell.quick Are you sure you want to Quick Sell {0}?
+item.sell.destroy Are you sure you want to Destroy {0}?
 social.profile.stats Overall Stats
 social.profile.class Class Stats
 social.profile.sales Sales
@@ -859,5 +888,39 @@ social.trades.message ВКЛЮЧВАНЕ НА ТРЕЙДИНГ СЪОБЩЕНИ�
 social.trades.warning Вие не получавате никакви предмети от този трейд
 social.trades.accept Сигурен ли сте че искате да приемете тази оферта?
 stats.airdrops KR-Пакет
+stats.airdrops.stolen Airdrops Stolen
 settings.quality.flapAnim Анимация на снайперска клапа
+chall.name.hs Get {0} headshots {1}
+chall.name.ns Get {0} no-scopes {1}
+chall.name.ls Get {0} legshots {1}
+chall.name.ls Get {0} throwing knife kills {1}
+chall.name.ls Get {0} first bloods {1}
+chall.name.ls Get {0} longshots {1}
+chall.name.ls Get {0} legshots {1}
+chall.name.ls Get {0} throwing knife kills {1}
+chall.name.ls Get {0} first bloods {1}
+chall.name.ls Get {0} longshots {1}
+chall.name.ls Get {0} legshots {1}
+chall.name.ls Get {0} throwing knife kills {1}
+chall.name.ls Get {0} first bloods {1}
+chall.name.ls Get {0} longshots {1}
+chall.name.mk Get {0} melee kills {1}
+chall.name.fk Get {0} fist kills {1}
+chall.name.qs Get {0} quickscopes {1}
+chall.name.wb Get {0} wallbangs {1}
+chall.name.airk Get {0} mid-air kills {1}
+chall.name.ls Get {0} legshots {1}
+chall.name.ls Get {0} throwing knife kills {1}
+chall.name.ls Get {0} first bloods {1}
+chall.name.ls Get {0} longshots {1}
+chall.name.tk Get {0} turbo kills {1}
+chall.name.drk Get {0} drift kills {1}
+chall.name.kstk Get a {0} killstreak {1}
+chall.name.w Win {0} matches
+chall.name.d Die {0} times
+chall.name.score Get {0} score
+chall.name.dmg Deal {0} damage {1}
+chall.name.bzk Get {0} buzz kills {1}
+chall.name.cc Get {0} close-calls {1}
+chall.name.rk Deal {0} revenge kills {1}
 `;
