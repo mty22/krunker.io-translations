@@ -91,13 +91,15 @@ settings.network.header Netwerk
 settings.network.netRerouting Auto Routing (Beïnvloed Ping)
 settings.network.netRate Netwerk snelheid (Hz)
 settings.network.lagComp Lag Compensatie
+settings.network.optNet Optimized Networking
 settings.popup.header Popups
-settings.popup.freeKRPop Toon Gratis KR Popup
 settings.experimental.header Experimenteel
-settings.experimental.optNetwork Geoptimaliseerd netwerken
+settings.experimental.holiday Holiday Effects
 settings.experimental.aimFreezeFix Aim Freeze Fix
 settings.experimental.mouseFlickFix Muis Flick Fix
 settings.experimental.shaderRendering Instance Rendering
+settings.experimental.mouseAccel Mouse Acceleration
+settings.experimental.tbInterp TB Interpolation
 settings.client.header Client
 settings.client.unlimitedFrames Unlimited FPS
 settings.client.gameCap Game Capture
@@ -109,6 +111,7 @@ settings.client.resetSettings Reset Client Settings
 settings.client.acceleratedCanvas Accelerated Canvas
 settings.client.angleBackend ANGLE Graphics Backend
 settings.client.colorProfile Color Profile
+settings.client.resourcePacks Resource Packs
 settings.dev.header Developer
 settings.dev.forceUpdate Force Update Skins
 settings.dev.forceRegen Altijd Speler Regenereren
@@ -170,6 +173,7 @@ settings.interface.dmgCol Schade Kleur
 settings.interface.critCol Crit Kleur
 settings.interface.header Interface
 settings.interface.scale UI Grootte
+settings.interface.theme Game Theme
 settings.interface.ui Toon UI
 settings.interface.scoreboard Gebruik Oud Scorebord
 settings.interface.oldBrowser Gebruik Oude Browser
@@ -196,13 +200,13 @@ settings.interface.speedOpacity Snelheids Ondoorzichtigheid
 settings.interface.speedScale Snelheids Grootte
 settings.interface.speedColor Snelheids Kleur (Actueel)
 settings.interface.speedColorMax Snelheids Kleur (Max)
-settings.interface.medals Toon Medailles
 settings.interface.hideNames Naam Display
 settings.interface.hideNames.team Alleen Team
 settings.interface.hideNames.enemy Alleen Tegenstanders
 settings.interface.hideNames.all Iedereen
 settings.interface.nametagStyle Naam Stijl
 settings.interface.nametagOpac Naam Ondoorzichtigheid
+settings.interface.nametagScale Nametag Scale
 settings.interface.nametagStyle.health Alleen Gezondheid
 settings.interface.nametagStyle.name Alleen naam
 settings.interface.nametagStyle.nameLvl Alleen naam en level
@@ -213,6 +217,13 @@ settings.interface.healthColE Naam Gezondheid Kleur Tegenstanders
 settings.interface.xpBarCol XP Bar Kleur
 settings.interface.xpBarCol2 XP Bar Kleur 2
 settings.interface.xpBarOpac XP Bar Doorzichtigheid
+settings.medals.header Medals
+settings.medals.show Show Medals
+settings.medals.classic Classic Medals
+settings.medals.sound Play Medal Sounds
+settings.medals.scale Medal Scale
+settings.medals.xOff Medal X Offset
+settings.medals.yOff Medal Y Offset
 settings.crosshair.header Crosshair
 settings.crosshair.type Soort
 settings.crosshair.type.1 Dynamisch
@@ -289,10 +300,12 @@ settings.gameprivacy.header Gameplay Privacy
 settings.gameprivacy.streamer Streamer Modus
 settings.gameprivacy.anon Anonieme Modus
 settings.gameprivacy.hideGameTitle Verstop Game Titel
+settings.gameprivacy.showRegion Show Region Info
 settings.gameprivacy.verified Verified Badge Weergeven
 settings.gameprivacy.premium Premium Badge Weergeven
 settings.gameprivacy.partner Partner Badge Weergeven
 settings.gameprivacy.rank Ranked Badge Weergeven
+settings.gameprivacy.custom Show Custom Badge
 settings.gameplay.header Gameplay
 settings.gameplay.gpSetts Gameplay Instellingen
 settings.gameplay.sensitivityX X Gevoeligheid
@@ -329,6 +342,7 @@ settings.audio.ambient Omringende Volume
 settings.audio.voice Stem Volume
 settings.audio.input Audio/Mic Invoer
 settings.audio.mic Mic Volume
+settings.audio.micquality Mic Quality
 settings.audio.weps Wapen Volume
 settings.audio.player Speler Volume
 settings.audio.skin Cosmetica Volume
@@ -445,6 +459,7 @@ windows.servers.hide Verberg Volle
 windows.servers.priority Regio Prioriteit
 windows.servers.online {0} In game
 windows.servers.social {0} op Sociaal
+windows.servers.editor {0} in Editor
 windows.loadout.header Loadout wijzigen
 windows.loadout.class Class
 windows.loadout.primary Primair
@@ -465,8 +480,10 @@ windows.loadout.color.chat Chatnaam Kleur
 windows.loadout.color.hair Haarkleur
 windows.loadout.dye Kleurstof
 windows.loadout.pet Huisdier
+windows.loadout.wrist Wrist
 windows.loadout.stat Killkaart Stat
 windows.loadout.flag Landvlag
+windows.loadout.badge Custom Badge
 windows.mods.drop zet het mod-bestand hier neer of klik op
 windows.mods.paste Plak Mod Url
 windows.mods.load Laad Mod
@@ -490,6 +507,7 @@ windows.controls.aim1 Richt
 windows.controls.shoot1 Schiet
 windows.controls.inspect Inspecteren
 windows.controls.spray Spray
+windows.controls.sprayWheel Spray Wheel (Hold)
 windows.controls.jump Spring
 windows.controls.crouch Bukken
 windows.controls.prim Primair wapen
@@ -520,15 +538,20 @@ windows.controls.streak1 Streak 2
 windows.controls.streak2 Streak 3
 windows.controls.streak3 Streak 4
 windows.controls.streak4 Streak 5
+windows.controls.taunt0 Taunt (Psst)
+windows.controls.taunt1 Taunt (Whistle)
+windows.controls.taunt2 Taunt (Fart)
+windows.controls.taunt3 Taunt (Meme)
+windows.controls.taunt4 Taunt (WTF is This?)
+windows.controls.taunt5 Taunt (Right Now!)
 windows.controls.prop Selecteer Prop (Houd)
+windows.controls.propRand Select Random Prop
+windows.controls.propRot Toggle Rotation
+windows.controls.propRotR Reset Rotation
 windows.controls.premium0 Noclip
 windows.controls.premium1 Godmode
 windows.controls.premium2 Dood
 windows.controls.premium3 Smite
-windows.controls.dev0 Developer Bind 1
-windows.controls.dev1 Developer Bind 2
-windows.controls.dev2 Developer Bind 3
-windows.controls.dev3 Developer Bind 4
 windows.controls.reset Positie resetten (Race & Parkour)
 windows.controls.pretend Spel verbergen
 windows.host.header Host Aangepast spel
@@ -588,6 +611,7 @@ windows.store.amount {0} KR in account
 windows.store.login om items uit de winkel te kopen en te ontgrendelen!
 windows.store.purchasing Inkoop ...
 windows.store.unboxed {0} {1} geopend
+windows.store.found {0}{1} found
 windows.trade.header Ruilen
 windows.scope.header Selecteer Scope
 windows.premium.header Premium
@@ -635,9 +659,6 @@ windows.client.linux Linux Installateur
 windows.ranked.header Ranked
 windows.ranked.login om te spelen in ranked games!
 windows.ranked.level Je moet tenminste level <span color="black">level {0}</span> om te spelen in Ranked games! Op dit moment ben je <span color="black">level {1}</span>.
-windows.ranked.mode.r1v1 Solo
-windows.ranked.mode.r2v2 Duo
-windows.ranked.mode.r4v4 Quad
 windows.chall.header Challenges
 windows.chall.login om challenges te voltooien!
 thumbnail.upload.limit Gefaald. {0}kb Thumbnail Limiet
@@ -649,10 +670,11 @@ mod.error mod error!
 mod.loading mod laden...
 mod.invalid ongeldig mod bestand!
 matchmaker.full VOL
-matchmaker.full2 Game is vol.
-matchmaker.updating GAME UPDATEN
-matchmaker.invalid Game niet gevonden.
-matchmaker.none Servers zijn op Max capaciteit
+matchmaker.GameFull Game is full.
+matchmaker.NoServersMatchQuery GAME UPDATING
+matchmaker.InvalidGameId Game not found.
+matchmaker.NoAvailableServers Servers are at Max Capacity
+matchmaker.GameIssue Unknown Join Issue
 adblocker Doe je ad blocker uit om gratis Krunkies te krijgen.
 ad-failed Ad Mislukt om te laden. Probeer Opnieuw!
 streamers.views {0} kijkers
@@ -706,6 +728,7 @@ server.config.thirdPerson 3e Persoon
 server.config.requireCaptcha Captcha Vereist
 server.config.nameTags Verstop Naamplaatjes
 server.config.kCams Kill Camera
+server.config.aAnon Allow Anonymous
 server.config.noReload Niet Herladen
 server.config.private Privé
 server.config.krRewards KR Beloningen
@@ -762,9 +785,11 @@ social.market.waist Taille item
 social.market.face Gezicht Item
 social.market.shoe Schoen Item
 social.market.pet Huisdier Item
+social.market.wrist Wrist Item
 social.market.melee Melee Item
 social.market.spray Spray Item
 social.market.dye Kleurstof Item
+social.market.collectible Collectible Item
 social.market.none Geen Items Gevonden
 social.market.login Je moet ingelogd zijn.
 social.market.grace gereed in {0}
@@ -809,7 +834,9 @@ stats.fistkills Beatdowns
 stats.thrownkills Bullseyes
 stats.headshots Headshots
 stats.wallbangs Wallbangs
+stats.crouches Crouches
 stats.sprays Sprays Geplaatst
+stats.kpd Helpful Reports
 windows.host.default.settings Door standaardinstellingen in te schakelen, kan de voortgang van de speler en de highscores worden opgeslagen
 windows.host.default.commands *Host Commands zijn uitgeschakeld in deze modus: /noclip /god /smite etc.
 windows.host.rewards Door KR Beloningen in te schakelen, wordt de server gedwongen om standaardinstellingen te gebruiken en kunnen spelers KR verdienen van de map funds:
@@ -831,7 +858,9 @@ windows.playerlist.punish Weet je zeker dat je actie wilt ondernemen op {0}?
 item.view.open Open Model Viewer
 item.view.more Meer Informatie
 item.sell.cant Dit Item Kan Niet Verkocht Worden.
+item.sell.cant.krunker Item cant be sold on krunker.
 item.sell.quick Weet Je Zeker Dat Je Dit Snel Wilt Verkopen {0}?
+item.sell.destroy Are you sure you want to Destroy {0}?
 social.profile.stats Algemene Statistieken
 social.profile.class Class Statistieken
 social.profile.sales Verkopen
@@ -859,5 +888,39 @@ social.trades.message SCHAKEL RUILBERICHTEN IN IN JE INSTELLINGEN
 social.trades.warning Je Krijgt Geen Items Van Deze Trade!
 social.trades.accept Weet Je Zeker Dat Je Deze Trade Wilt Accepteren?
 stats.airdrops KR-Packages
+stats.airdrops.stolen Airdrops Stolen
 settings.quality.flapAnim Sniper Flap Animatie
+chall.name.hs Get {0} headshots {1}
+chall.name.ns Get {0} no-scopes {1}
+chall.name.ls Get {0} legshots {1}
+chall.name.ls Get {0} throwing knife kills {1}
+chall.name.ls Get {0} first bloods {1}
+chall.name.ls Get {0} longshots {1}
+chall.name.ls Get {0} legshots {1}
+chall.name.ls Get {0} throwing knife kills {1}
+chall.name.ls Get {0} first bloods {1}
+chall.name.ls Get {0} longshots {1}
+chall.name.ls Get {0} legshots {1}
+chall.name.ls Get {0} throwing knife kills {1}
+chall.name.ls Get {0} first bloods {1}
+chall.name.ls Get {0} longshots {1}
+chall.name.mk Get {0} melee kills {1}
+chall.name.fk Get {0} fist kills {1}
+chall.name.qs Get {0} quickscopes {1}
+chall.name.wb Get {0} wallbangs {1}
+chall.name.airk Get {0} mid-air kills {1}
+chall.name.ls Get {0} legshots {1}
+chall.name.ls Get {0} throwing knife kills {1}
+chall.name.ls Get {0} first bloods {1}
+chall.name.ls Get {0} longshots {1}
+chall.name.tk Get {0} turbo kills {1}
+chall.name.drk Get {0} drift kills {1}
+chall.name.kstk Get a {0} killstreak {1}
+chall.name.w Win {0} matches
+chall.name.d Die {0} times
+chall.name.score Get {0} score
+chall.name.dmg Deal {0} damage {1}
+chall.name.bzk Get {0} buzz kills {1}
+chall.name.cc Get {0} close-calls {1}
+chall.name.rk Deal {0} revenge kills {1}
 `;
