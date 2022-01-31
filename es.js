@@ -728,7 +728,7 @@ server.config.thirdPerson Tercera persona
 server.config.requireCaptcha Requiere captcha
 server.config.nameTags Ocultar nombres
 server.config.kCams Cámara de Muertes
-server.config.aAnon Permitir modo Anonimo.
+server.config.aAnon Permitir modo Anonimo
 server.config.noReload No recargar
 server.config.private Privado
 server.config.krRewards Recompensas de KR
