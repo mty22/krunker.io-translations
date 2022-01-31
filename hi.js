@@ -206,7 +206,7 @@ settings.interface.hideNames.enemy केवल दुश्मन के
 settings.interface.hideNames.all सभी के
 settings.interface.nametagStyle नैम-टैग स्टाइल
 settings.interface.nametagOpac नैम-टैग की पारदर्शकता
-settings.interface.nametagScale Nametag Scale
+settings.interface.nametagScale नैम-टैग की स्केल
 settings.interface.nametagStyle.health केवल HP
 settings.interface.nametagStyle.name केवल नाम
 settings.interface.nametagStyle.nameLvl केवल नाम और लेवल
@@ -217,11 +217,11 @@ settings.interface.healthColE नैम-टैग दुश्मन के HP �
 settings.interface.xpBarCol XP बार का रंग
 settings.interface.xpBarCol2 XP Bar Color 2
 settings.interface.xpBarOpac XP बार की पारदर्शकता
-settings.medals.header Medals
-settings.medals.show Show Medals
+settings.medals.header मेडल्स
+settings.medals.show मेडल्स दिखाएँ
 settings.medals.classic Classic Medals
-settings.medals.sound Play Medal Sounds
-settings.medals.scale Medal Scale
+settings.medals.sound मेडल साउंड्स बजाएं
+settings.medals.scale मेडल की स्केल
 settings.medals.xOff Medal X Offset
 settings.medals.yOff Medal Y Offset
 settings.crosshair.header Crosshair
@@ -459,7 +459,7 @@ windows.servers.hide फ़ुल सर्वर छिपाए
 windows.servers.priority रीजन की प्राथमिकता
 windows.servers.online {0} खेल में
 windows.servers.social {0} सोशल में
-windows.servers.editor {0} in Editor
+windows.servers.editor {0} एडिटर में
 windows.loadout.header लोडआउट बदले
 windows.loadout.class क्लास
 windows.loadout.primary प्राइमरी
@@ -480,7 +480,7 @@ windows.loadout.color.chat चैट मे अपने नाम का रं
 windows.loadout.color.hair बाल का रंग
 windows.loadout.dye डाई
 windows.loadout.pet पेट
-windows.loadout.wrist Wrist
+windows.loadout.wrist हाँथ
 windows.loadout.stat किलकार्ड स्टैटक
 windows.loadout.flag देश का झंडा
 windows.loadout.badge Custom Badge
@@ -611,7 +611,7 @@ windows.store.amount अकाउंट में {0} KR है
 windows.store.login बाजार से आइटम्स अनलॉक करने के लिए!
 windows.store.purchasing खरिदा जा रह है...
 windows.store.unboxed {0}{1} अनबॉक्स्ड
-windows.store.found {0}{1} found
+windows.store.found {0}{1} मिला
 windows.trade.header व्यापार करना
 windows.scope.header स्कोप चुने
 windows.premium.header प्रीमियम
@@ -670,10 +670,10 @@ mod.error मॉड एरर!
 mod.loading मॉड लोड हो रहा हे ...
 mod.invalid इनवैलिड मॉड फाइल !
 matchmaker.full फुल
-matchmaker.GameFull Game is full.
-matchmaker.NoServersMatchQuery GAME UPDATING
-matchmaker.InvalidGameId Game not found.
-matchmaker.NoAvailableServers Servers are at Max Capacity
+matchmaker.GameFull खेल भरा हुआ है
+matchmaker.NoServersMatchQuery खेल अपडेट हो रहा हे
+matchmaker.InvalidGameId खेल नहीं मिला.
+matchmaker.NoAvailableServers सारे सर्वर फुल् हैं
 matchmaker.GameIssue Unknown Join Issue
 adblocker KR प्राप्त करने के लिए, अपना adblocker बंद करें
 ad-failed विज्ञापन लोड होने में असफल हुआ । कृपया पुन: प्रयास करें
@@ -785,7 +785,7 @@ social.market.waist कमर की आइटम
 social.market.face चेहरे की आइटम
 social.market.shoe जूते
 social.market.pet पेट
-social.market.wrist Wrist Item
+social.market.wrist हाँथ का आइटम
 social.market.melee चाकू
 social.market.spray स्प्रे
 social.market.dye डाई
@@ -836,7 +836,7 @@ stats.headshots हेड शाट
 stats.wallbangs वॉल बैंग
 stats.crouches Crouches
 stats.sprays स्प्रे काउन्ट
-stats.kpd Helpful Reports
+stats.kpd मददगार रिपोर्टस
 windows.host.default.settings मैप के सेटिंग्स को सक्षम करने से प्लेयर्स के डाटा (हाइ स्कॉर्ज़) को सेव किया जा सकता है
 windows.host.default.commands *होस्ट कमांड (/ noclip, /god, /smite, आदि) इस मोड में काम नहीं करेंगे
 windows.host.rewards यदि आप KR रिवार्ड्स को सक्षम करते है, तो सारे खिलाड़ियों को डिफ़ॉल्ट सेटिंग्स पर खेलना पड़ेगा और वे आपके मैप के खाते से KR भी जीत सकते है:
@@ -858,9 +858,9 @@ windows.playerlist.punish क्या आप वास्तव में {0} �
 item.view.open मॉडल व्यूअर खोलें
 item.view.more अधिक जानकारी
 item.sell.cant आइटम बेचा नहीं जा सकता
-item.sell.cant.krunker Item cant be sold on krunker.
+item.sell.cant.krunker आइटम krunker पर बेचा नहीं जा सकता
 item.sell.quick क्या आप वास्तव में {0} की शीघ्र बिक्री करना चाहते है?
-item.sell.destroy Are you sure you want to Destroy {0}?
+item.sell.destroy क्या आप वास्तव में {0} को नष्ट करना चाहते हैं?
 social.profile.stats संपूर्ण आँकड़े
 social.profile.class हथियार के आँकड़े
 social.profile.sales बिक्री
@@ -890,37 +890,37 @@ social.trades.accept क्या आप वास्तव में इस ट
 stats.airdrops KR पैकेज
 stats.airdrops.stolen Airdrops Stolen
 settings.quality.flapAnim स्नाइपर फ्लैप एनीमेशन
-chall.name.hs Get {0} headshots {1}
-chall.name.ns Get {0} no-scopes {1}
+chall.name.hs Get {0} हैडशॉट्स {1}
+chall.name.ns Get {0} नो-स्कोप्स {1}
 chall.name.ls Get {0} legshots {1}
 chall.name.ls Get {0} throwing knife kills {1}
-chall.name.ls Get {0} first bloods {1}
+chall.name.ls Get {0} पहला किल {1}
 chall.name.ls Get {0} longshots {1}
 chall.name.ls Get {0} legshots {1}
 chall.name.ls Get {0} throwing knife kills {1}
-chall.name.ls Get {0} first bloods {1}
+chall.name.ls Get {0} पहला किल {1}
 chall.name.ls Get {0} longshots {1}
 chall.name.ls Get {0} legshots {1}
 chall.name.ls Get {0} throwing knife kills {1}
-chall.name.ls Get {0} first bloods {1}
+chall.name.ls Get {0} पहला किल {1}
 chall.name.ls Get {0} longshots {1}
-chall.name.mk Get {0} melee kills {1}
-chall.name.fk Get {0} fist kills {1}
+chall.name.mk Get {0} मिली किलज़ {1}
+chall.name.fk Get {0} हाँथों द्वारा किये गए किल {1}
 chall.name.qs Get {0} quickscopes {1}
 chall.name.wb Get {0} wallbangs {1}
 chall.name.airk Get {0} mid-air kills {1}
 chall.name.ls Get {0} legshots {1}
 chall.name.ls Get {0} throwing knife kills {1}
-chall.name.ls Get {0} first bloods {1}
+chall.name.ls Get {0}  पहला किल {1}
 chall.name.ls Get {0} longshots {1}
 chall.name.tk Get {0} turbo kills {1}
 chall.name.drk Get {0} drift kills {1}
 chall.name.kstk Get a {0} killstreak {1}
 chall.name.w Win {0} matches
-chall.name.d Die {0} times
-chall.name.score Get {0} score
-chall.name.dmg Deal {0} damage {1}
-chall.name.bzk Get {0} buzz kills {1}
+chall.name.d Die {0} समय
+chall.name.score Get {0} अंक
+chall.name.dmg Deal {0} डैमेज {1}
+chall.name.bzk Get {0} बज़ किलज़ {1}
 chall.name.cc Get {0} close-calls {1}
 chall.name.rk Deal {0} revenge kills {1}
 `;
