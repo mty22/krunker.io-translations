@@ -91,13 +91,15 @@ settings.network.header 네트워크
 settings.network.netRerouting 자동 라우팅 (핑에 영향을 줍니다)
 settings.network.netRate 네트워크 속도 (Hz)
 settings.network.lagComp 지연 시간 보정
+settings.network.optNet Optimized Networking
 settings.popup.header 팝업
-settings.popup.freeKRPop 무료 KR 팝업 보이기
 settings.experimental.header 실험적 설정
-settings.experimental.optNetwork 네트워킹 최적화
+settings.experimental.holiday Holiday Effects
 settings.experimental.aimFreezeFix 에임 멈춤 현상 해결
 settings.experimental.mouseFlickFix 마우스 순간이동 문제 해결
 settings.experimental.shaderRendering 인스턴스 렌더링
+settings.experimental.mouseAccel Mouse Acceleration
+settings.experimental.tbInterp TB Interpolation
 settings.client.header 클라이언트
 settings.client.unlimitedFrames 무제한 FPS
 settings.client.gameCap 게임 캡처
@@ -109,6 +111,7 @@ settings.client.resetSettings 클라이언트 설정 초기화
 settings.client.acceleratedCanvas 캔버스 가속
 settings.client.angleBackend ANGLE 그래픽 백엔드
 settings.client.colorProfile 프로필 색 설정
+settings.client.resourcePacks Resource Packs
 settings.dev.header 개발자
 settings.dev.forceUpdate 스킨 강제 업데이트
 settings.dev.forceRegen 항상 플레이어 재생성
@@ -170,6 +173,7 @@ settings.interface.dmgCol 피해량 색상
 settings.interface.critCol 치명타 색상
 settings.interface.header 인터페이스
 settings.interface.scale 인터페이스 크기
+settings.interface.theme Game Theme
 settings.interface.ui 인터페이스 표시
 settings.interface.scoreboard 구 점수판 사용
 settings.interface.oldBrowser 구 서버 탐색기 사용
@@ -196,13 +200,13 @@ settings.interface.speedOpacity 이동 속도 불투명도
 settings.interface.speedScale 이동 속도 크기
 settings.interface.speedColor  현재 속도 색상
 settings.interface.speedColorMax 최고 속도 색상
-settings.interface.medals 메달 표시
 settings.interface.hideNames 이름표 표시
 settings.interface.hideNames.team 팀원만 표시
 settings.interface.hideNames.enemy 상대만 표시
 settings.interface.hideNames.all 모두 표시
 settings.interface.nametagStyle 이름표 스타일
 settings.interface.nametagOpac 이름표 불투명도
+settings.interface.nametagScale Nametag Scale
 settings.interface.nametagStyle.health HP만 표시
 settings.interface.nametagStyle.name 이름만 표시
 settings.interface.nametagStyle.nameLvl 이름과 레벨만 표시
@@ -213,6 +217,13 @@ settings.interface.healthColE 상대 이름표 HP 색상
 settings.interface.xpBarCol XP 막대 색상
 settings.interface.xpBarCol2 XP 막대 색상 2
 settings.interface.xpBarOpac XP 막대 불투명도
+settings.medals.header Medals
+settings.medals.show Show Medals
+settings.medals.classic Classic Medals
+settings.medals.sound Play Medal Sounds
+settings.medals.scale Medal Scale
+settings.medals.xOff Medal X Offset
+settings.medals.yOff Medal Y Offset
 settings.crosshair.header 조준선
 settings.crosshair.type 종류
 settings.crosshair.type.1 동적
@@ -289,10 +300,12 @@ settings.gameprivacy.header 게임플레이 프라이버시
 settings.gameprivacy.streamer 스트리머 모드
 settings.gameprivacy.anon 익명 모드
 settings.gameprivacy.hideGameTitle 게임 제목 숨기기
+settings.gameprivacy.showRegion Show Region Info
 settings.gameprivacy.verified 베리파이 배지 표시
 settings.gameprivacy.premium 프리미엄 배지 표시
 settings.gameprivacy.partner 파트너 배지 표시
 settings.gameprivacy.rank 랭크전 배지 표시
+settings.gameprivacy.custom Show Custom Badge
 settings.gameplay.header 게임플레이
 settings.gameplay.gpSetts 게임플레이 설정
 settings.gameplay.sensitivityX 좌우 감도
@@ -329,6 +342,7 @@ settings.audio.ambient 환경 음량
 settings.audio.voice 음성 음량
 settings.audio.input 오디오/마이크 입력
 settings.audio.mic 마이크 음량
+settings.audio.micquality Mic Quality
 settings.audio.weps 무기 음량
 settings.audio.player 플레이어 음량
 settings.audio.skin 외형 아이템 음량
@@ -445,6 +459,7 @@ windows.servers.hide 가득 찬 게임 숨기기
 windows.servers.priority 지역 우선순위
 windows.servers.online 게임 중: {0}명
 windows.servers.social 소셜 페이지: {0}명
+windows.servers.editor {0} in Editor
 windows.loadout.header 무기 및 스킨 바꾸기
 windows.loadout.class 클래스
 windows.loadout.primary 주무기
@@ -465,8 +480,10 @@ windows.loadout.color.chat 채팅창 이름 색상
 windows.loadout.color.hair 머리카락 색상
 windows.loadout.dye 염료
 windows.loadout.pet 펫
+windows.loadout.wrist Wrist
 windows.loadout.stat 상대 처치 시 보일 스탯
 windows.loadout.flag 국기
+windows.loadout.badge Custom Badge
 windows.mods.drop Mod 파일을 여기에 드래그 또는 클릭
 windows.mods.paste Mod URL 붙여넣기
 windows.mods.load Mod 적용
@@ -490,6 +507,7 @@ windows.controls.aim1 조준
 windows.controls.shoot1 발사
 windows.controls.inspect 무기 자세히 보기
 windows.controls.spray 스프레이
+windows.controls.sprayWheel Spray Wheel (Hold)
 windows.controls.jump 점프
 windows.controls.crouch 앉기
 windows.controls.prim 주무기
@@ -520,15 +538,20 @@ windows.controls.streak1 연속 처치 2
 windows.controls.streak2 연속 처치 3
 windows.controls.streak3 연속 처치 4
 windows.controls.streak4 연속 처치 5
+windows.controls.taunt0 Taunt (Psst)
+windows.controls.taunt1 Taunt (Whistle)
+windows.controls.taunt2 Taunt (Fart)
+windows.controls.taunt3 Taunt (Meme)
+windows.controls.taunt4 Taunt (WTF is This?)
+windows.controls.taunt5 Taunt (Right Now!)
 windows.controls.prop 사물 선택 (홀드)
+windows.controls.propRand Select Random Prop
+windows.controls.propRot Toggle Rotation
+windows.controls.propRotR Reset Rotation
 windows.controls.premium0 벽 통과
 windows.controls.premium1 무적 모드
 windows.controls.premium2 자살
 windows.controls.premium3 즉사 모드
-windows.controls.dev0 개발자 단축키 1
-windows.controls.dev1 개발자 단축키 2
-windows.controls.dev2 개발자 단축키 3
-windows.controls.dev3 개발자 단축키 4
 windows.controls.reset 위치 초기화 (Race, Parkour 모드 전용)
 windows.controls.pretend 게임 숨기기
 windows.host.header 사용자 지정 게임 만들기
@@ -588,6 +611,7 @@ windows.store.amount {0} KR이 계정에 있습니다
 windows.store.login 로그인해서 마켓에서 아이템을 사고파세요!
 windows.store.purchasing 구매 중...
 windows.store.unboxed {0}님이 {1} 아이템을 뽑았습니다
+windows.store.found {0}{1} found
 windows.trade.header 트레이드 중
 windows.scope.header 스코프 선택
 windows.premium.header 프리미엄
@@ -635,9 +659,6 @@ windows.client.linux Linux
 windows.ranked.header 랭크
 windows.ranked.login 로그인해서 랭크 게임에 참가하세요!
 windows.ranked.level 랭크 게임을 하려면 최소<span color="black">{0}레벨</span>이어야 합니다! 지금 당신은 <span color="black">{1}레벨</span>입니다.
-windows.ranked.mode.r1v1 1대1
-windows.ranked.mode.r2v2 2대2
-windows.ranked.mode.r4v4 4대4
 windows.chall.header 챌린지
 windows.chall.login 로그인해서 챌린지에 도전하세요!
 thumbnail.upload.limit 섬네일 업로드 실패. 최대 {0}KB까지 가능합니다.
@@ -649,10 +670,11 @@ mod.error Mod 오류!
 mod.loading Mod 적용 중...
 mod.invalid 유효하지 않은 Mod 파일입니다!
 matchmaker.full 가득 찼습니다
-matchmaker.full2 게임이 가득 찼습니다.
-matchmaker.updating 게임 업데이트 중
-matchmaker.invalid 게임을 찾을 수 없습니다.
-matchmaker.none 서버 용량이 가득 찼습니다.
+matchmaker.GameFull Game is full.
+matchmaker.NoServersMatchQuery GAME UPDATING
+matchmaker.InvalidGameId Game not found.
+matchmaker.NoAvailableServers Servers are at Max Capacity
+matchmaker.GameIssue Unknown Join Issue
 adblocker 무료 KR을 받으려면 광고 차단기를 끄세요.
 ad-failed 광고를 불러오지 못하였습니다. 나중에 다시 시도하세요.
 streamers.views 시청자 {0}명
@@ -706,6 +728,7 @@ server.config.thirdPerson 3인칭
 server.config.requireCaptcha Captcha 요구하기
 server.config.nameTags 이름표 숨기기
 server.config.kCams 사망 화면
+server.config.aAnon Allow Anonymous
 server.config.noReload 재장전 없음
 server.config.private 비공개
 server.config.krRewards KR 보상
@@ -762,9 +785,11 @@ social.market.waist 허리 아이템
 social.market.face 얼굴 아이템
 social.market.shoe 신발 아이템
 social.market.pet 펫 아이템
+social.market.wrist Wrist Item
 social.market.melee 근접무기 아이템
 social.market.spray 스프레이 아이템
 social.market.dye 염료 아이템
+social.market.collectible Collectible Item
 social.market.none 찾은 아이템이 없습니다.
 social.market.login 먼저 로그인하십시오.
 social.market.grace {0}초 후에 준비됩니다.
@@ -809,7 +834,9 @@ stats.fistkills 격투 처치
 stats.thrownkills 투척 처치
 stats.headshots 헤드샷
 stats.wallbangs 벽 관통 처치
+stats.crouches Crouches
 stats.sprays 스프레이 수
+stats.kpd Helpful Reports
 windows.host.default.settings 기본 설정을 사용하면 플레이어 진행률과 최고 점수를 저장할 수 있습니다
 windows.host.default.commands /noclip, /god, /smite와 같은 호스트 명령어는 비활성화됩니다 
 windows.host.rewards KR 보상을 허용하면 서버 내에서 기본 설정을 강제하고 플레이어들이 맵에서 KR을 받을 수 있습니다
@@ -831,7 +858,9 @@ windows.playerlist.punish {0}님에 대해 조치를 취하시겠습니까?
 item.view.open 모델 뷰어 열기
 item.view.more 더 많은 정보
 item.sell.cant 이 아이템은 판매할 수 없습니다
+item.sell.cant.krunker Item cant be sold on krunker.
 item.sell.quick {0} 아이템을 빠른 판매할까요?
+item.sell.destroy Are you sure you want to Destroy {0}?
 social.profile.stats 기본 스탯
 social.profile.class 클래스 스탯
 social.profile.sales 판매
@@ -859,5 +888,39 @@ social.trades.message 설정에서 트레이드 메시지를 활성화하세요
 social.trades.warning 이 트레이드에서는 아무런 아이템도 얻을 수 없습니다!
 social.trades.accept 정말 이 트레이드를 수락하시겠습니까?
 stats.airdrops KR 패키지
+stats.airdrops.stolen Airdrops Stolen
 settings.quality.flapAnim 스나이퍼 스코프 덮개 애니메이션
+chall.name.hs Get {0} headshots {1}
+chall.name.ns Get {0} no-scopes {1}
+chall.name.ls Get {0} legshots {1}
+chall.name.ls Get {0} throwing knife kills {1}
+chall.name.ls Get {0} first bloods {1}
+chall.name.ls Get {0} longshots {1}
+chall.name.ls Get {0} legshots {1}
+chall.name.ls Get {0} throwing knife kills {1}
+chall.name.ls Get {0} first bloods {1}
+chall.name.ls Get {0} longshots {1}
+chall.name.ls Get {0} legshots {1}
+chall.name.ls Get {0} throwing knife kills {1}
+chall.name.ls Get {0} first bloods {1}
+chall.name.ls Get {0} longshots {1}
+chall.name.mk Get {0} melee kills {1}
+chall.name.fk Get {0} fist kills {1}
+chall.name.qs Get {0} quickscopes {1}
+chall.name.wb Get {0} wallbangs {1}
+chall.name.airk Get {0} mid-air kills {1}
+chall.name.ls Get {0} legshots {1}
+chall.name.ls Get {0} throwing knife kills {1}
+chall.name.ls Get {0} first bloods {1}
+chall.name.ls Get {0} longshots {1}
+chall.name.tk Get {0} turbo kills {1}
+chall.name.drk Get {0} drift kills {1}
+chall.name.kstk Get a {0} killstreak {1}
+chall.name.w Win {0} matches
+chall.name.d Die {0} times
+chall.name.score Get {0} score
+chall.name.dmg Deal {0} damage {1}
+chall.name.bzk Get {0} buzz kills {1}
+chall.name.cc Get {0} close-calls {1}
+chall.name.rk Deal {0} revenge kills {1}
 `;
