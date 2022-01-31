@@ -61,8 +61,8 @@ generic.accuracy Accuracy
 player.waiting Naghihintay ng mga manlalaro
 player.died Ikaw ay namatay
 player.killed Pinatay ni {0} si {1}
-player.killstreak {0} on a {1} Kill Streak
-player.inactive Pina-alis dahil sa walang aktibidad
+player.killstreak si {0} ay may {1} Killstreak
+player.inactive Walang nagaganap.
 player.disconnect HINDI MAKAKONEKTA
 timer.end Susunod na laro sa {0}
 leaderboard.empty Walang tao sa lobby
@@ -858,9 +858,9 @@ windows.playerlist.punish Sigurado ka bang nais mong parusahin ang manlalarong s
 item.view.open Buksan ang Model Viewer
 item.view.more Iba pang Impormasyon
 item.sell.cant Hindi mabenta ang item na ito.
-item.sell.cant.krunker Item cant be sold on krunker.
+item.sell.cant.krunker Hindi mabenta ang kagamitan sa Krunker.
 item.sell.quick Sigurado ka bang ibebenta mo ito agad {0}?
-item.sell.destroy Are you sure you want to Destroy {0}?
+item.sell.destroy Sigurado ka bang nais mo itong sirain {0}?
 social.profile.stats Kabuoang statistika
 social.profile.class Statistika ng mga Klase
 social.profile.sales Mga Binebenta
@@ -888,39 +888,39 @@ social.trades.message Payagan ang mga Trade Message at Pag-alok sa Settings
 social.trades.warning Wala kang makukuhang kagamitan sa Pag-alok na ito!
 social.trades.accept Nais mo bang tanggapin ang Pag-alok na ito?
 stats.airdrops Pakete ng KR
-stats.airdrops.stolen Airdrops Stolen
+stats.airdrops.stolen Ninakaw (airdrops)
 settings.quality.flapAnim Animasyon ng Sniper flap
-chall.name.hs Get {0} headshots {1}
-chall.name.ns Get {0} no-scopes {1}
-chall.name.ls Get {0} legshots {1}
-chall.name.ls Get {0} throwing knife kills {1}
-chall.name.ls Get {0} first bloods {1}
-chall.name.ls Get {0} longshots {1}
-chall.name.ls Get {0} legshots {1}
-chall.name.ls Get {0} throwing knife kills {1}
-chall.name.ls Get {0} first bloods {1}
-chall.name.ls Get {0} longshots {1}
-chall.name.ls Get {0} legshots {1}
-chall.name.ls Get {0} throwing knife kills {1}
-chall.name.ls Get {0} first bloods {1}
-chall.name.ls Get {0} longshots {1}
-chall.name.mk Get {0} melee kills {1}
-chall.name.fk Get {0} fist kills {1}
-chall.name.qs Get {0} quickscopes {1}
-chall.name.wb Get {0} wallbangs {1}
-chall.name.airk Get {0} mid-air kills {1}
-chall.name.ls Get {0} legshots {1}
-chall.name.ls Get {0} throwing knife kills {1}
-chall.name.ls Get {0} first bloods {1}
-chall.name.ls Get {0} longshots {1}
-chall.name.tk Get {0} turbo kills {1}
-chall.name.drk Get {0} drift kills {1}
-chall.name.kstk Get a {0} killstreak {1}
-chall.name.w Win {0} matches
-chall.name.d Die {0} times
-chall.name.score Get {0} score
-chall.name.dmg Deal {0} damage {1}
-chall.name.bzk Get {0} buzz kills {1}
-chall.name.cc Get {0} close-calls {1}
-chall.name.rk Deal {0} Pagganti {1}
+chall.name.hs Pumatay ng {0} beses na tumama sa ulo {1}
+chall.name.ns Pumatay ng {0} beses na walang scope {1}
+chall.name.ls Gawin ang {0} na tama sa binti {1}
+chall.name.ls Pumatay ng {0} beses pagbato ng talim {1}
+chall.name.ls Magkaroon ng {0} na unang pagpatay {1}
+chall.name.ls Gawin ang {0} na tama sa malayo {1}
+chall.name.ls Gawin ang {0} na tama sa paa {1}
+chall.name.ls Gawin ang {0} na binatong patalim {1}
+chall.name.ls Magkaroon ng {0} na unang pagpatay {1}
+chall.name.ls Gawin ang {0} na tama sa malayo {1}
+chall.name.ls Gawin ang {0} na tama sa paa {1}
+chall.name.ls Gawin ang {0} na binatong patalim {1}
+chall.name.ls Gawin ang {0} na unang pagpatay {1}
+chall.name.ls Gawin ang {0} na tama sa malayo {1}
+chall.name.mk Pumatay ng {0} gamit ang patalim {1}
+chall.name.fk Gawin ang {0} na pagbugbog {1}
+chall.name.qs Gawin ang {0} na mabilis-scope {1}
+chall.name.wb Gawin ang {0} na pagpapatay sa pader {1}
+chall.name.airk Gawin ang {0} pagpatay sa ere {1}
+chall.name.ls Gawin ang {0} tama sa paa {1}
+chall.name.ls Pumatay ng {0} beses pagbato ng talim {1}
+chall.name.ls Magkaroon ng {0} na unang pagpatay {1}
+chall.name.ls Gawin ang {0} tama sa malayo {1}
+chall.name.tk Gawin ang {0} mapwersang pagpatay {1}
+chall.name.drk Gawin ang {0} madulas na pagpatay {1}
+chall.name.kstk Makamit ang {0} na killstreak {1}
+chall.name.w Manalo ng {0} laro
+chall.name.d Mamatay ng {0} beses
+chall.name.score Makamit ang {0} puntos
+chall.name.dmg Tumira ng {0} na damage {1}
+chall.name.bzk Gawin ang {0} na panirang pagpatay {1}
+chall.name.cc Ikaw ay {0} beses muntikang mamatay {1}
+chall.name.rk Magkaroon ng {0} na higanti {1}
 `;
