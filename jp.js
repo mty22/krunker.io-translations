@@ -610,8 +610,8 @@ windows.store.unlock 新しい武器のスキンとアイテムをアンロッ�
 windows.store.amount アカウントに{0}KRあります
 windows.store.login してストアのアイテム購入・アンロックする!
 windows.store.purchasing 購入中...
-windows.store.unboxed {0}さんが{1}を獲得しました
-windows.store.found {0}さんが{1}を見つけました
+windows.store.unboxed {0}{1}が獲得しました: 
+windows.store.found {0}{1}が発見しました: 
 windows.trade.header トレード
 windows.scope.header スコープを選択
 windows.premium.header プレミアム
