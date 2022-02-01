@@ -538,10 +538,10 @@ windows.controls.streak1 연속 처치 2
 windows.controls.streak2 연속 처치 3
 windows.controls.streak3 연속 처치 4
 windows.controls.streak4 연속 처치 5
-windows.controls.taunt0 도발 (Psst)
-windows.controls.taunt1 도발 (Whistle)
-windows.controls.taunt2 도발 (Fart)
-windows.controls.taunt3 도발 (Meme)
+windows.controls.taunt0 도발 (관심 끌기)
+windows.controls.taunt1 도발 (휘파람)
+windows.controls.taunt2 도발 (방귀)
+windows.controls.taunt3 도발 (밈)
 windows.controls.taunt4 도발 (WTF is This?)
 windows.controls.taunt5 도발 (Right Now!)
 windows.controls.prop 사물 선택 (홀드)
