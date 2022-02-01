@@ -891,7 +891,7 @@ stats.airdrops KR-Pakete
 stats.airdrops.stolen Gestohlene KR-Pakete
 settings.quality.flapAnim Sniperklappenanimation
 chall.name.hs Erziele {0} Kopfschüsse {1}
-chall.name.ns Erziele {0} No-Scope-No-Scope-Abschüsse {1}
+chall.name.ns Erziele {0} No-Scope-Abschüsse {1}
 chall.name.ls Erziele {0} Beinschüsse {1}
 chall.name.ls Erziele {0} Wurfmesser-Abschüsse {1}
 chall.name.ls Erziele {0} erste Abschüsse {1}
