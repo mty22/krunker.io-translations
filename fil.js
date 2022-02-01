@@ -62,7 +62,7 @@ player.waiting Naghihintay ng mga manlalaro
 player.died Ikaw ay namatay
 player.killed Pinatay ni {0} si {1}
 player.killstreak si {0} ay may {1} Killstreak
-player.inactive Walang nagaganap.
+player.inactive Tanggal dahil inaktibo
 player.disconnect HINDI MAKAKONEKTA
 timer.end Susunod na laro sa {0}
 leaderboard.empty Walang tao sa lobby
@@ -173,7 +173,7 @@ settings.interface.dmgCol Kulay ng pinsala sa health ng manlalaro
 settings.interface.critCol Kulay ng Kritikal
 settings.interface.header Itsura ng Interface
 settings.interface.scale  Sukat ng UI
-settings.interface.theme Game Theme
+settings.interface.theme Tema ng UI
 settings.interface.ui Ipakita ang UI
 settings.interface.scoreboard Gumamit ng Lumang Scoreboard
 settings.interface.oldBrowser Gumamit ng Lumang Browser
@@ -480,11 +480,11 @@ windows.loadout.color.chat Kulay ng Pangalan sa Chat
 windows.loadout.color.hair Kulay ng Buhok
 windows.loadout.dye Kulay ng katawan
 windows.loadout.pet Alaga
-windows.loadout.wrist Wrist
-windows.loadout.stat Killcard Stat
+windows.loadout.wrist Pulsuhan
+windows.loadout.stat Stat sa Killcard
 windows.loadout.flag Bandilang Pambansa
 windows.loadout.badge Custom Badge
-windows.mods.drop ihulog ang file ng mod dito o mag-click
+windows.mods.drop ilagay ang file ng mod dito o mag-click
 windows.mods.paste Ipaste ang Mod URL
 windows.mods.load Mag-load ng Mod
 windows.mods.none Walang nahanap na Mod
@@ -496,18 +496,18 @@ windows.mods.publish I-akda ang Mod
 windows.mods.viewer Tignan at Suriin ang Mod
 windows.account.header Account
 windows.account.recover Upang mabawi ang mga account/s, I-contact ang <a>recovery@yendis.ch</a>
-windows.class.header Pumili ng Klase
+windows.class.header Pumili ng klase
 windows.controls.header Baguhin ang Mga Kontrol
 windows.controls.forward Pasulong
 windows.controls.backward Paatras
 windows.controls.left Kaliwa
 windows.controls.right Kanan
 windows.controls.reload I-reload
-windows.controls.aim1 Mag-aim (puntirya)
+windows.controls.aim1 Aim (puntirya)
 windows.controls.shoot1 Bumaril
 windows.controls.inspect Suriin
 windows.controls.spray Mag-spray
-windows.controls.sprayWheel Spray Wheel (Hold)
+windows.controls.sprayWheel Pamili ng Spray (Hold)
 windows.controls.jump Tumalon
 windows.controls.crouch Yumuko
 windows.controls.prim Pangunahing Armas
@@ -531,23 +531,23 @@ windows.controls.specFree I-toggle ang Free Cam
 windows.controls.specObj I-toggle ang Objective Cam
 windows.controls.specFirst I-toggle ang First Person
 windows.controls.specNames I-toggle ang mga pangalan
-windows.controls.specFocus I-toggle and pokus sa isang manlalaro
+windows.controls.specFocus I-toggle ang pokus sa isang manlalaro
 windows.controls.hidePlayers Itago ang mga manlalaro
-windows.controls.streak0 Streak 1
-windows.controls.streak1 Streak 2
-windows.controls.streak2 Streak 3
-windows.controls.streak3 Streak 4
-windows.controls.streak4 Streak 5
-windows.controls.taunt0 Taunt (Psst)
-windows.controls.taunt1 Taunt (Whistle)
-windows.controls.taunt2 Taunt (Fart)
-windows.controls.taunt3 Taunt (Meme)
-windows.controls.taunt4 Taunt (WTF is This?)
-windows.controls.taunt5 Taunt (Right Now!)
+windows.controls.streak0 Unang Streak
+windows.controls.streak1 Pangalawang Streak
+windows.controls.streak2 Pangatlong Streak
+windows.controls.streak3 Pangapat na Streak
+windows.controls.streak4 Panlimang Streak
+windows.controls.taunt0 Panukso (Psst)
+windows.controls.taunt1 Panukso (Sipol)
+windows.controls.taunt2 Panukso (Utot)
+windows.controls.taunt3 Panukso (Meme)
+windows.controls.taunt4 Panukso (WTF ano 'to?)
+windows.controls.taunt5 Panukso (Ngayon na!!)
 windows.controls.prop Piliin ang Prop (Hold M1)
-windows.controls.propRand Select Random Prop
-windows.controls.propRot Toggle Rotation
-windows.controls.propRotR Reset Rotation
+windows.controls.propRand Piliin ang kahit anong prop
+windows.controls.propRot I-toggle ang rotasyon
+windows.controls.propRotR I-reset rotasyon
 windows.controls.premium0 Naka noclip
 windows.controls.premium1 Naka godmode
 windows.controls.premium2 Patayin
@@ -635,7 +635,7 @@ windows.mods.community.new Mga Bagong Mod
 windows.mods.community.hot Sikat!
 windows.mods.community.name Pangalan ng Mod
 windows.mods.community.none Walang nahanap na Mod
-windows.publish.mod.header I-akda ang Mod
+windows.publish.mod.header Akda ang Mod
 windows.publish.mod.thumbnail No Thumbnail
 windows.publish.mod.name Pangalan ng Mod
 windows.publish.mod.paste URL ng Mod
