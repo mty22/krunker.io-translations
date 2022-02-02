@@ -785,7 +785,7 @@ social.market.waist कमर की आइटम
 social.market.face चेहरे की आइटम
 social.market.shoe जूते
 social.market.pet पेट
-social.market.wrist हाँथ का आइटम
+social.market.wrist हाँथ की वस्तु 
 social.market.melee चाकू
 social.market.spray स्प्रे
 social.market.dye डाई
