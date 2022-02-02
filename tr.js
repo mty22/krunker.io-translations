@@ -890,25 +890,25 @@ social.trades.accept Bu teklifi kabul etmek istediğinden emin misin?
 stats.airdrops KR-Paketleri
 stats.airdrops.stolen Airdrops Stolen
 settings.quality.flapAnim Sniper Dürbün Kapağı Animasyonu
-chall.name.hs {0} tane kafadan vuruş al {1}
-chall.name.ns {0} tane noskop al {1}
-chall.name.ls {0} tane bacaktan vuruş al {1}
-chall.name.tmk {0} tane bıçak atarak öldürme al {1}
-chall.name.fb {0} tane ilk kan al {1}
-chall.name.mk {0} tane bıçakla öldürme al {1}
-chall.name.fk {0} tane yumrukla öldürme al {1}
-chall.name.qs {0} tane hızlı dürbün öldürmesi al {1}
-chall.name.wb {0} tane wallbang al {1}
-chall.name.airk {0}tane havada öldürme al {1}
-chall.name.lns {0} tane uzaktan öldürme al {1}
-chall.name.tk {0} tane turbo öldürme al {1}
-chall.name.drk {0} tane kayarak öldürme al {1}
-chall.name.kstk {0} kişilik bir öldürme serisi elde et {1}
+chall.name.hs {1}'da {0} tane kafadan vuruş al 
+chall.name.ns {1}'da {0} tane noskop al 
+chall.name.ls {1}'da {0} tane bacaktan vuruş al 
+chall.name.tmk {1}'da {0} tane bıçak atarak öldürme al 
+chall.name.fb {1}'da {0} tane ilk kan al 
+chall.name.mk {1}'da {0} tane bıçakla öldürme al 
+chall.name.fk {1}'da {0} tane yumrukla öldürme al 
+chall.name.qs {1}'da {0} tane hızlı dürbün öldürmesi al 
+chall.name.wb {1}'da {0} tane wallbang al 
+chall.name.airk {1}'da {0} tane havada öldürme al 
+chall.name.lns {1}'da {0} tane uzaktan öldürme al 
+chall.name.tk {1}'da {0} tane turbo öldürme al 
+chall.name.drk {1}'da {0} tane kayarak öldürme al
+chall.name.kstk {1}'da {0} kişilik bir öldürme serisi elde et
 chall.name.w {0} tane maç kazan
 chall.name.d {0} kere öl
 chall.name.score {0} tane puan al
-chall.name.dmg {0} hasar ver {1}
-chall.name.bzk {0} tane hızlı öldürme al {1}
-chall.name.cc {0} tane dar kurtulma al {1}
-chall.name.rk {0} tane intikam öldürmesi al {1}
+chall.name.dmg {1}'da {0} hasar ver 
+chall.name.bzk {1}'da {0} tane hızlı öldürme al 
+chall.name.cc {1}'da {0} tane dar kurtulma al 
+chall.name.rk {1}'da {0} tane intikam öldürmesi al
 `;
