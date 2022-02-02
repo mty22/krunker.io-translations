@@ -4,7 +4,11 @@
 # Made by github.com/mty22
 
 # Variables
-basefile='en.js'
+if [ "$2" == 'wip' ]; then
+	basefile='../en.js'
+else
+	basefile='en.js'
+fi
 langfile="$1"
 newlangfile="new_${langfile}"
 changes="0"
