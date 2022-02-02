@@ -61,7 +61,7 @@ generic.accuracy सटीकता
 player.waiting खिलाड़ियों का इंतजार कर रहे हैं ...
 player.died तुम मर गए
 player.killed द्वारा मारे गए
-player.killstreak {0} on a {1} Kill Streak
+player.killstreak {0} {1} Kill Streak पर हैं 
 player.inactive इनैक्टिव
 player.disconnect डिस्कनेक्ट
 timer.end अगला दौर {0} में
@@ -239,12 +239,12 @@ settings.crosshair.style.3 खोखला चौकोर
 settings.crosshair.style.4 ठोस चौकोर
 settings.crosshair.image छवि
 settings.crosshair.image.paste Crosshair चित्र
-settings.crosshair.image.width Image Width
-settings.crosshair.image.height Image Height
+settings.crosshair.image.width चित्र की चौड़ाई
+settings.crosshair.image.height चित्र की लंबाई 
 settings.crosshair.always हमेशा दिखाओ
 settings.crosshair.color रंग
-settings.crosshair.shadow.color छाया रंग
-settings.crosshair.shadow.thickness छाया मोटाई
+settings.crosshair.shadow.color छाया का रंग
+settings.crosshair.shadow.thickness छाया की मोटाई
 settings.crosshair.size नाप
 settings.crosshair.thickness मोटाई
 settings.crosshair.gap गैप
@@ -252,30 +252,30 @@ settings.crosshair.dot बिंदु
 settings.crosshair.opacity.use कस्टम अपारदर्शिता का उपयोग करें
 settings.crosshair.opacity.custom कस्टम अपारदर्शिता
 settings.crosshairm.header Crosshair (Throwing)
-settings.crosshairm.type Type
-settings.crosshairm.type.1 Shapes
-settings.crosshairm.type.2 Image
-settings.crosshairm.type.3 Precision
-settings.crosshairm.style Style
-settings.crosshairm.style.0 Cross
-settings.crosshairm.style.1 Hollow Circle
-settings.crosshairm.style.2 Solid Circle
-settings.crosshairm.style.3 Hollow Square
-settings.crosshairm.style.4 Solid Square
-settings.crosshairm.image Image
-settings.crosshairm.image.paste Crosshair Image
-settings.crosshairm.image.width Image Width
-settings.crosshairm.image.height Image Height
-settings.crosshairm.always Always Show
-settings.crosshairm.color Color
-settings.crosshairm.shadow.color Shadow Color
-settings.crosshairm.shadow.thickness Shadow Thickness
-settings.crosshairm.size Size
-settings.crosshairm.thickness Thickness
-settings.crosshairm.gap Gap
-settings.crosshairm.dot Dot
-settings.crosshairm.opacity.use Use Custom Opacity
-settings.crosshairm.opacity.custom Custom Opacity
+settings.crosshairm.type प्रकार
+settings.crosshairm.type.1 आकार
+settings.crosshairm.type.2 इमेज
+settings.crosshairm.type.3 प्रिसिजन
+settings.crosshairm.style शैली
+settings.crosshairm.style.0 क्रॉस
+settings.crosshairm.style.1 खोखला सर्कल
+settings.crosshairm.style.2 ठोस सर्कल
+settings.crosshairm.style.3 खोखला चौकोर
+settings.crosshairm.style.4 ठोस चौकोर
+settings.crosshairm.image चित्र
+settings.crosshairm.image.paste Crosshair चित्र
+settings.crosshairm.image.width चित्र की चौड़ाई
+settings.crosshairm.image.height चित्र की लंबाई 
+settings.crosshairm.always हमेशा दिखाओ
+settings.crosshairm.color रंग
+settings.crosshairm.shadow.color छाया का रंग
+settings.crosshairm.shadow.thickness छाया की मोटाई
+settings.crosshairm.size  नाप
+settings.crosshairm.thickness मोटाई
+settings.crosshairm.gap गैप
+settings.crosshairm.dot बिंदु
+settings.crosshairm.opacity.use कस्टम अपारदर्शिता का उपयोग करें
+settings.crosshairm.opacity.custom कस्टम अपारदर्शिता
 settings.hitmarker.header हिटमार्कर
 settings.hitmarker.color रंग
 settings.hitmarker.kcolor हत्या करने पर रंग
@@ -300,12 +300,12 @@ settings.gameprivacy.header खेल की गोपनीयता
 settings.gameprivacy.streamer स्ट्रीमर मोड
 settings.gameprivacy.anon गुमनाम मोड
 settings.gameprivacy.hideGameTitle खेल शीर्षक छिपाएं
-settings.gameprivacy.showRegion Show Region Info
-settings.gameprivacy.verified Show Verified Badge
-settings.gameprivacy.premium Show Premium Badge
-settings.gameprivacy.partner Show Partner Badge
-settings.gameprivacy.rank Show Ranked Badge
-settings.gameprivacy.custom Show Custom Badge
+settings.gameprivacy.showRegion क्षेत्र की जानकारी दिखाएं
+settings.gameprivacy.verified Verified Badge दिखाएं
+settings.gameprivacy.premium Premium Badge दिखाएं
+settings.gameprivacy.partner Partner Badge दिखाएं
+settings.gameprivacy.rank Ranked Badge दिखाएं
+settings.gameprivacy.custom Custom Badge दिखाएं
 settings.gameplay.header गेमप्लेर
 settings.gameplay.gpSetts गेमप्ले सेटिंग्स
 settings.gameplay.sensitivityX X-संवेदनशीलता
@@ -892,31 +892,19 @@ stats.airdrops.stolen Airdrops Stolen
 settings.quality.flapAnim स्नाइपर फ्लैप एनीमेशन
 chall.name.hs Get {0} हैडशॉट्स {1}
 chall.name.ns Get {0} नो-स्कोप्स {1}
-chall.name.ls Get {0} legshots {1}
-chall.name.ls Get {0} throwing knife kills {1}
-chall.name.ls Get {0} पहला किल {1}
-chall.name.ls Get {0} longshots {1}
-chall.name.ls Get {0} legshots {1}
-chall.name.ls Get {0} throwing knife kills {1}
-chall.name.ls Get {0} पहला किल {1}
-chall.name.ls Get {0} longshots {1}
-chall.name.ls Get {0} legshots {1}
-chall.name.ls Get {0} throwing knife kills {1}
-chall.name.ls Get {0} पहला किल {1}
-chall.name.ls Get {0} longshots {1}
+chall.name.ls Get {0} लेगशॉट्स {1}
+chall.name.tmk Get {0} throwing knife kills {1}
+chall.name.fb Get {0} first bloods {1}
 chall.name.mk Get {0} मिली किलज़ {1}
 chall.name.fk Get {0} हाँथों द्वारा किये गए किल {1}
-chall.name.qs Get {0} quickscopes {1}
+chall.name.qs Get {0} क्विक-स्कोप्स {1}
 chall.name.wb Get {0} wallbangs {1}
 chall.name.airk Get {0} mid-air kills {1}
-chall.name.ls Get {0} legshots {1}
-chall.name.ls Get {0} throwing knife kills {1}
-chall.name.ls Get {0}  पहला किल {1}
-chall.name.ls Get {0} longshots {1}
+chall.name.lns Get {0} longshots {1}
 chall.name.tk Get {0} turbo kills {1}
 chall.name.drk Get {0} drift kills {1}
 chall.name.kstk Get a {0} killstreak {1}
-chall.name.w Win {0} matches
+chall.name.w Win {0} मैचेस 
 chall.name.d Die {0} समय
 chall.name.score Get {0} अंक
 chall.name.dmg Deal {0} डैमेज {1}
