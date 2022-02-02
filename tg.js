@@ -217,11 +217,11 @@ settings.interface.healthColE Nametag Health Color Enemy
 settings.interface.xpBarCol Kulay ng XP Bar
 settings.interface.xpBarCol2 XP Bar Color 2
 settings.interface.xpBarOpac Diin ng XP Bar
-settings.medals.header Medals
-settings.medals.show Show Medals
-settings.medals.classic Classic Medals
-settings.medals.sound Play Medal Sounds
-settings.medals.scale Medal Scale
+settings.medals.header Medalya
+settings.medals.show Ipakita ang mga Medalya
+settings.medals.classic Mga Lumang Medalya
+settings.medals.sound Parinig ang mga tunog mula sa Medalya
+settings.medals.scale Sukat ng Medalya
 settings.medals.xOff Medal X Offset
 settings.medals.yOff Medal Y Offset
 settings.crosshair.header Crosshair
@@ -301,12 +301,12 @@ settings.gameprivacy.streamer Mode ng Streamer
 settings.gameprivacy.anon Anonymous Mode
 settings.gameprivacy.hideGameTitle Itago ang Pamagat ng Laro
 settings.gameprivacy.showRegion Show Region Info
-settings.gameprivacy.verified Ipakita ang Verification Badge
-settings.gameprivacy.premium Ipakita ang Premium Badge
-settings.gameprivacy.partner Ipakita ang Partnered Badge
-settings.gameprivacy.rank Ipakita ang Ranked Badge
-settings.gameprivacy.custom Show Custom Badge
-settings.gameplay.header Gameplay
+settings.gameprivacy.verified Ipakita: Verification Badge
+settings.gameprivacy.premium Ipakita: Premium Badge
+settings.gameprivacy.partner Ipakita: Partnered Badge
+settings.gameprivacy.rank Ipakita: Ranked Badge
+settings.gameprivacy.custom Ipakita: Custom Badge
+settings.gameplay.header Sa Laro
 settings.gameplay.gpSetts Settings sa Gameplay
 settings.gameplay.sensitivityX X Sensitivity
 settings.gameplay.sensitivityY Y Sensitivity
@@ -538,16 +538,16 @@ windows.controls.streak1 Streak 2
 windows.controls.streak2 Streak 3
 windows.controls.streak3 Streak 4
 windows.controls.streak4 Streak 5
-windows.controls.taunt0 Taunt (Psst)
-windows.controls.taunt1 Taunt (Whistle)
-windows.controls.taunt2 Taunt (Fart)
-windows.controls.taunt3 Taunt (Meme)
-windows.controls.taunt4 Taunt (WTF is This?)
-windows.controls.taunt5 Taunt (Right Now!)
+windows.controls.taunt0 Panukso (Psst)
+windows.controls.taunt1 Panukso (Sipol)
+windows.controls.taunt2 Panukso (Utot)
+windows.controls.taunt3 Panukso (Meme)
+windows.controls.taunt4 Panukso (WTF ano 'to?)
+windows.controls.taunt5 Panukso (Ngayon na!!)
 windows.controls.prop Piliin ang Prop (Hold M1)
-windows.controls.propRand Select Random Prop
-windows.controls.propRot Toggle Rotation
-windows.controls.propRotR Reset Rotation
+windows.controls.propRand Piliin ang kahit anong prop
+windows.controls.propRot I-toggle ang rotasyon
+windows.controls.propRotR I-reset ang rotasyon
 windows.controls.premium0 Naka noclip
 windows.controls.premium1 Naka godmode
 windows.controls.premium2 Patayin
