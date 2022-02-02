@@ -887,8 +887,8 @@ social.trades.decline すべて拒否
 social.trades.message トレードメッセージを設定から有効にしてください
 social.trades.warning このトレードではあなたは何も手に入れません!
 social.trades.accept 本当にこの申請を許可しますか?
-stats.airdrops KRパッケージ
-stats.airdrops.stolen KRパッケージが盗まれました
+stats.airdrops エアドロップ
+stats.airdrops.stolen エアドロップが盗まれました
 settings.quality.flapAnim スナイパーフラップアニメーション
 chall.name.hs Get {0} headshots {1}
 chall.name.ns Get {0} no-scopes {1}
