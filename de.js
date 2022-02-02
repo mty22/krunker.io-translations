@@ -61,7 +61,7 @@ generic.accuracy Genauigkeit
 player.waiting Warten auf Spieler
 player.died Du bist gestorben
 player.killed Getötet von
-player.killstreak {0} on a {1} Kill Streak
+player.killstreak {0} auf einer Abschussserie von {1}
 player.inactive Wegen Inaktivität entfernt
 player.disconnect VERBINDUNG UNTERBROCHEN
 timer.end Nächste Runde startet in {0}
@@ -89,16 +89,16 @@ settings.local.region Standard Region
 settings.local.lang Sprache
 settings.network.header Netzwerk
 settings.network.netRerouting Auto Routing (Beeinflusst Ping)
-settings.network.netRate Network Rate (Hz)
+settings.network.netRate Netzwerk Rate (Hz)
 settings.network.lagComp Lag Minimierung
-settings.network.optNet Optimized Networking
+settings.network.optNet Optimiertes Networking
 settings.popup.header Popups
 settings.experimental.header Experimentell
-settings.experimental.holiday Holiday Effects
+settings.experimental.holiday Holiday Effekte
 settings.experimental.aimFreezeFix Aim Freeze Fix
 settings.experimental.mouseFlickFix Maus Flick Fix
 settings.experimental.shaderRendering Instanz Rendern
-settings.experimental.mouseAccel Mouse Acceleration
+settings.experimental.mouseAccel Mouse Beschleunigung
 settings.experimental.tbInterp TB Interpolation
 settings.client.header Client
 settings.client.unlimitedFrames Unlimitierte FPS
@@ -251,31 +251,31 @@ settings.crosshair.gap Lücke
 settings.crosshair.dot Punkt
 settings.crosshair.opacity.use benutzerdefinierte Deckkraft benutzen
 settings.crosshair.opacity.custom benutzerdefinierte Deckkraft
-settings.crosshairm.header Crosshair (Throwing)
-settings.crosshairm.type Type
-settings.crosshairm.type.1 Shapes
-settings.crosshairm.type.2 Image
-settings.crosshairm.type.3 Precision
-settings.crosshairm.style Style
+settings.crosshairm.header Crosshair (Werfen)
+settings.crosshairm.type Typ
+settings.crosshairm.type.1 Formen
+settings.crosshairm.type.2 Bild
+settings.crosshairm.type.3 Prezision
+settings.crosshairm.style Stil
 settings.crosshairm.style.0 Cross
-settings.crosshairm.style.1 Hollow Circle
-settings.crosshairm.style.2 Solid Circle
-settings.crosshairm.style.3 Hollow Square
-settings.crosshairm.style.4 Solid Square
-settings.crosshairm.image Image
-settings.crosshairm.image.paste Crosshair Image
-settings.crosshairm.image.width Image Width
-settings.crosshairm.image.height Image Height
-settings.crosshairm.always Always Show
-settings.crosshairm.color Color
-settings.crosshairm.shadow.color Shadow Color
-settings.crosshairm.shadow.thickness Shadow Thickness
-settings.crosshairm.size Size
-settings.crosshairm.thickness Thickness
-settings.crosshairm.gap Gap
-settings.crosshairm.dot Dot
-settings.crosshairm.opacity.use Use Custom Opacity
-settings.crosshairm.opacity.custom Custom Opacity
+settings.crosshairm.style.1 Hohler Kreis
+settings.crosshairm.style.2 Solider Kreis
+settings.crosshairm.style.3 Hohles Viereck
+settings.crosshairm.style.4 Solides Viereck
+settings.crosshairm.image Bild
+settings.crosshairm.image.paste Crosshair Bild
+settings.crosshairm.image.width Bild breite
+settings.crosshairm.image.height Bild höhe
+settings.crosshairm.always Immer anzeigen
+settings.crosshairm.color Farbe
+settings.crosshairm.shadow.color Schatten Farbe
+settings.crosshairm.shadow.thickness Schatten Dicke
+settings.crosshairm.size Größe
+settings.crosshairm.thickness Dicke
+settings.crosshairm.gap Abstand
+settings.crosshairm.dot Punkt
+settings.crosshairm.opacity.use Benutze benutzerdefendierte Opazizät
+settings.crosshairm.opacity.custom Benutzerdefendierte Opazität
 settings.hitmarker.header Hitmarker
 settings.hitmarker.color Farbe
 settings.hitmarker.kcolor Kill Farbe
@@ -300,14 +300,14 @@ settings.gameprivacy.header Gameplay-Datenschutz
 settings.gameprivacy.streamer Streamer Modus
 settings.gameprivacy.anon Anonymer Modus
 settings.gameprivacy.hideGameTitle Spieltitel ausblenden
-settings.gameprivacy.showRegion Show Region Info
-settings.gameprivacy.verified Show Verified Badge
-settings.gameprivacy.premium Show Premium Badge
-settings.gameprivacy.partner Show Partner Badge
-settings.gameprivacy.rank Show Ranked Badge
-settings.gameprivacy.custom Show Custom Badge
+settings.gameprivacy.showRegion Region anzeigen
+settings.gameprivacy.verified Zeige Verifikations Abzeichen
+settings.gameprivacy.premium Zeige Premium Abzeichen
+settings.gameprivacy.partner Zeige Partner Abzeichen
+settings.gameprivacy.rank Zeige ranked Abzeichen
+settings.gameprivacy.custom Zeige benutzerdefendiertes Abzeichen
 settings.gameplay.header Spielverlauf
-settings.gameplay.gpSetts Gameplay Settings
+settings.gameplay.gpSetts Gameplay Einstellungen
 settings.gameplay.sensitivityX X Empfindlichkeit
 settings.gameplay.sensitivityY Y Empfindlichkeit
 settings.gameplay.aimsensX Zielen X Empfindlichkeit
@@ -341,8 +341,8 @@ settings.audio.sound Ton
 settings.audio.ambient Umgebungs Lautstärke
 settings.audio.voice Lautstärke Sprach-Chat
 settings.audio.input Audio/Mic Input
-settings.audio.mic Mic Volume
-settings.audio.micquality Mic Quality
+settings.audio.mic Mikrofon Lautstärke
+settings.audio.micquality Mikrofon Qualität
 settings.audio.weps Waffen Lautstärke
 settings.audio.player Spieler Lautstärke
 settings.audio.skin Kosmetik Lautstärke
@@ -392,7 +392,7 @@ settings.editing.progOffX Fortschritts-Anzeige X Offset
 settings.editing.progOffY Fortschritts-Anzeige Y Offset
 settings.editing.progRot Fortschritts-Anzeige Drehung
 settings.editing.progm.color Auflade-Anzeige Farbe
-settings.editing.progmo.color Overcharge Color
+settings.editing.progmo.color Overcharge Farbe
 settings.editing.progm.opacity Auflade-Anzeige Deckkraft
 settings.editing.progm.scale Auflade-Anzeige Skalierung
 settings.editing.progm.shadow Auflade-Anzeige Schatten
@@ -507,7 +507,7 @@ windows.controls.aim1 Zielen
 windows.controls.shoot1 Schießen
 windows.controls.inspect Untersuchen
 windows.controls.spray Sprühen
-windows.controls.sprayWheel Spray Wheel (Hold)
+windows.controls.sprayWheel Grafitti Rad (Halten)
 windows.controls.jump Springen
 windows.controls.crouch Ducken
 windows.controls.prim Primäre Waffe
@@ -532,7 +532,7 @@ windows.controls.specObj Auf Zielkamera umschalten
 windows.controls.specFirst First Person umschalten
 windows.controls.specNames Erzwungene Namen umschalten
 windows.controls.specFocus Toggle Focus Player
-windows.controls.hidePlayers Hide Players
+windows.controls.hidePlayers Verstecke Spieler
 windows.controls.streak0 Abschussserie 1
 windows.controls.streak1 Abschussserie 2
 windows.controls.streak2 Abschussserie 3
@@ -544,10 +544,10 @@ windows.controls.taunt2 Taunt (Fart)
 windows.controls.taunt3 Taunt (Meme)
 windows.controls.taunt4 Taunt (WTF is This?)
 windows.controls.taunt5 Taunt (Right Now!)
-windows.controls.prop Select Prop (Hold)
-windows.controls.propRand Select Random Prop
-windows.controls.propRot Toggle Rotation
-windows.controls.propRotR Reset Rotation
+windows.controls.prop Wähle Prop aus (Halten)
+windows.controls.propRand Wähle Zufälligen Prop
+windows.controls.propRot Rotation mmschalten
+windows.controls.propRotR Rotation zurücksetzen
 windows.controls.premium0 Noclip
 windows.controls.premium1 Godmode
 windows.controls.premium2 Kill
@@ -611,7 +611,7 @@ windows.store.amount {0} KR im Konto
 windows.store.login Anmelden</a> um Gegenstände aus dem Shop zu kaufen und freizuschalten!
 windows.store.purchasing Kauf wird durchgeführt...
 windows.store.unboxed {0}{1} ausgepackt
-windows.store.found {0}{1} found
+windows.store.found {0}{1} fand
 windows.trade.header Handeln
 windows.scope.header Zielfernrohr auswählen
 windows.premium.header Premium
@@ -670,11 +670,11 @@ mod.error Mod Fehler!
 mod.loading Mod Lädt...
 mod.invalid Ungültige Mod-Datei!
 matchmaker.full VOLL
-matchmaker.GameFull Game is full.
-matchmaker.NoServersMatchQuery GAME UPDATING
-matchmaker.InvalidGameId Game not found.
-matchmaker.NoAvailableServers Servers are at Max Capacity
-matchmaker.GameIssue Unknown Join Issue
+matchmaker.GameFull Spiel ist voll.
+matchmaker.NoServersMatchQuery SPIEL AKTUALISIERT
+matchmaker.InvalidGameId Spiel nicht gefunden!
+matchmaker.NoAvailableServers Server sind auf maximaler Kapazität
+matchmaker.GameIssue Unbekannter beitrittsfehler
 adblocker Deaktiviere deinen AdBlocker um gratis Krunkies zu erhalten.
 ad-failed Werbung konnte nicht geladen werden. Versuch es noch einmal.
 streamers.views {0} Betrachter
@@ -728,7 +728,7 @@ server.config.thirdPerson Dritte Person
 server.config.requireCaptcha Benötigt Captcha
 server.config.nameTags Namen ausblenden
 server.config.kCams Kill Cams
-server.config.aAnon Allow Anonymous
+server.config.aAnon Erlaube Anonymous
 server.config.noReload Kein Nachladen
 server.config.private Privat
 server.config.krRewards KR Belohnung
@@ -827,7 +827,7 @@ spin.free.disable Diese Popups können in den generellen Einstellungen ausgescha
 mod.reset.0 Respawne um den Effekt zu erhalten
 mod.reset.1 Map Objekte werden nicht zurückgesetzt
 windows.profile.picture Bild ändern
-stats.assists Assists
+stats.assists Unterstützung
 stats.nukes Nukes
 stats.melee Nahkampf-Kills
 stats.fistkills Faust-Kills
@@ -836,7 +836,7 @@ stats.headshots Kopfschüsse
 stats.wallbangs Wallbangs
 stats.crouches Crouches
 stats.sprays Platzierte Graffitis
-stats.kpd Helpful Reports
+stats.kpd Hilfreiche reports
 windows.host.default.settings Durch aktivieren der Standardeinstellungen, können Spielerfortschritte und Höchstwerte gespeichert werden.
 windows.host.default.commands *Host Befehle sind in diesem Modus deaktiviert: /noclip /god /smite etc
 windows.host.rewards KR Belohnungen einzuschalten zwingt den Server Standard-Einstellungen zu verwenden und erlaubt Spielern KR von der Map Kasse zu verdienen
@@ -858,9 +858,9 @@ windows.playerlist.punish Bist du dir sicher dass du diese Aktion an {0} durchf�
 item.view.open Öffne Modell Ansicht
 item.view.more Mehr Informationen
 item.sell.cant Item kann nicht verkauft werden.
-item.sell.cant.krunker Item cant be sold on krunker.
+item.sell.cant.krunker Gegenstand kann nicht verkauft werden in Krunker.
 item.sell.quick Bist du dir sicher dass du {0} Schnellverkaufen willt? 
-item.sell.destroy Are you sure you want to Destroy {0}?
+item.sell.destroy Bist du dir sicher dass du {0} Zerlegen willst?
 social.profile.stats Insgesamte Statistiken
 social.profile.class Klassen Statistiken
 social.profile.sales Verkäufe
