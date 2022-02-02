@@ -53,11 +53,15 @@ If you find bugs or changes, please feel free to either:
 
 You're also welcome to modify [CODEOWNERS](https://github.com/mty22/krunker.io-translations/blob/main/CODEOWNERS) file if you wish to be added as a default reviewer.
 
-KR rewards and Krunker account verification is typically awarded based on contribution levels, typically from 500KR to 50,000KR. If you are curious, have a look at both [Payouts guide](https://github.com/mty22/krunker.io-translations/blob/main/kr_payment_guide.txt) and [Payouts sent](https://github.com/mty22/krunker.io-translations/blob/main/kr_payouts.csv).
+KR rewards, Krunker translator badge, Krunker account verification are typically awarded based on contribution levels and long term translation support. If you are curious, have a look at both [Payouts/reward guide](https://github.com/mty22/krunker.io-translations/blob/main/kr_payment_guide.txt) and [Payouts sent](https://github.com/mty22/krunker.io-translations/blob/main/kr_payouts.csv).
+
+Krunker badge in-game appears as follows on the player's profile:
+![Translator badge 1](https://site.idle.host/img/translator-badge-1.png)
+![Translator badge 2](https://site.idle.host/img/translator-badge-2.png)
 
 We will also assign the Translator Contributor role in [Krunker Bunker](https://discord.gg/krunker) Discord with a unique colour!
 
-![Translator Contributor](https://c8.idle.host/img/kb-translator-role-v2.png)
+![Translator Contributor](https://site.idle.host/img/kb-translator-role-v2.png)
 
 If you need any assistance, please reach out to Translator Contributors in [Krunker Bunker](https://discord.gg/krunker) Discord, or reach out to frzn on [Twitter](https://twitter.com/frznmatt) or Discord (frzn#1030) for further assistance.
 
