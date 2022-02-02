@@ -892,27 +892,14 @@ stats.airdrops.stolen Paquetes Robados
 settings.quality.flapAnim Animación de Mirilla de Francotirador
 chall.name.hs Get {0} Disparo a la Cabeza {1}
 chall.name.ns Get {0} no-scope {1}
-chall.name.ls Get {0} Disparos a las Piernas {1}
 chall.name.tmk Get {0} Bajas con Cuchillo Arrojadizo {1}
 chall.name.fb Get {0} Primera Sangre {1}
-chall.name.ls Get {0} Tiros Lejanos {1}
-chall.name.ls Get {0} Disparos a las Piernas {1}
-chall.name.ls Get {0} Bajas con Cuchillo Arrojadizo {1}
-chall.name.ls Get {0} Primera Sangre {1}
-chall.name.ls Get {0} Tiros Lejanos {1}
 chall.name.lns Get {0} Disparos a las Piernas {1}
-chall.name.ls Get {0} Bajas con Cuchillo Arrojadizo {1}
-chall.name.ls Get {0} Primera Sangre {1}
-chall.name.ls Get {0} Tiros Lejanos {1}
 chall.name.mk Get {0} Bajas con Cuchillo {1}
 chall.name.fk Get {0} Bajas con Puños {1}
 chall.name.qs Get {0} Quickscope {1}
 chall.name.wb Get {0} Disparos a traves de la Pared {1}
 chall.name.airk Get {0} Bajas en el Aire {1}
-chall.name.ls Get {0} Disparos a las Piernas {1}
-chall.name.ls Get {0} Bajas con Cuchillo Arrojadizo {1}
-chall.name.ls Get {0} Primera Sangre {1}
-chall.name.ls Get {0} Tiros Lejanos {1}
 chall.name.tk Get {0} Turbo Bajas {1}
 chall.name.drk Get {0} Bajas Deslizandose {1}
 chall.name.kstk Get a {0} Racha de Bajas {1}
