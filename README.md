@@ -56,7 +56,9 @@ You're also welcome to modify [CODEOWNERS](https://github.com/mty22/krunker.io-t
 KR rewards, Krunker translator badge, Krunker account verification are typically awarded based on contribution levels and long term translation support. If you are curious, have a look at both [Payouts/reward guide](https://github.com/mty22/krunker.io-translations/blob/main/kr_payment_guide.txt) and [Payouts sent](https://github.com/mty22/krunker.io-translations/blob/main/kr_payouts.csv).
 
 Krunker badge in-game appears as follows on the player's profile:
+
 ![Translator badge 1](https://site.idle.host/img/translator-badge-1.png)
+
 ![Translator badge 2](https://site.idle.host/img/translator-badge-2.png)
 
 We will also assign the Translator Contributor role in [Krunker Bunker](https://discord.gg/krunker) Discord with a unique colour!
