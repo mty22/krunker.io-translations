@@ -893,14 +893,14 @@ settings.quality.flapAnim Animasyon ng Sniper flap
 chall.name.hs Pumatay ng {0} beses na tumama sa ulo {1}
 chall.name.ns Pumatay ng {0} beses na walang scope {1}
 chall.name.ls Gawin ang {0} na tama sa binti {1}
-chall.name.ls Pumatay ng {0} beses pagbato ng talim {1}
-chall.name.ls Magkaroon ng {0} na unang pagpatay {1}
+chall.name.tmk Pumatay ng {0} beses pagbato ng talim {1}
+chall.name.fb Magkaroon ng {0} na unang pagpatay {1}
 chall.name.ls Gawin ang {0} na tama sa malayo {1}
 chall.name.ls Gawin ang {0} na tama sa paa {1}
 chall.name.ls Gawin ang {0} na binatong patalim {1}
 chall.name.ls Magkaroon ng {0} na unang pagpatay {1}
 chall.name.ls Gawin ang {0} na tama sa malayo {1}
-chall.name.ls Gawin ang {0} na tama sa paa {1}
+chall.name.lns Gawin ang {0} na tama sa paa {1}
 chall.name.ls Gawin ang {0} na binatong patalim {1}
 chall.name.ls Gawin ang {0} na unang pagpatay {1}
 chall.name.ls Gawin ang {0} na tama sa malayo {1}
