@@ -98,8 +98,8 @@ settings.experimental.holiday Holiday Effects
 settings.experimental.aimFreezeFix Pag-ayos ng Aim Freeze
 settings.experimental.mouseFlickFix Pag-ayos ng Mouse Flick
 settings.experimental.shaderRendering Pag-render
-settings.experimental.mouseAccel Mouse Acceleration
-settings.experimental.tbInterp TB Interpolation
+settings.experimental.mouseAccel Akselerasyon ng Mouse
+settings.experimental.tbInterp TB Interpolasyon
 settings.client.header Kliyente
 settings.client.unlimitedFrames Unlimited na FPS
 settings.client.gameCap Record ng Laro
@@ -217,10 +217,10 @@ settings.interface.healthColE Nametag Health Color Enemy
 settings.interface.xpBarCol Kulay ng XP Bar
 settings.interface.xpBarCol2 XP Bar Color 2
 settings.interface.xpBarOpac Diin ng XP Bar
-settings.medals.header Medals
-settings.medals.show Show Medals
-settings.medals.classic Classic Medals
-settings.medals.sound Play Medal Sounds
+settings.medals.header Medalya
+settings.medals.show Ipakita ang mga Medalya
+settings.medals.classic Mga Lumang Medalya
+settings.medals.sound Parinig ang mga tunog mula sa Medalya
 settings.medals.scale Medal Scale
 settings.medals.xOff Medal X Offset
 settings.medals.yOff Medal Y Offset
@@ -301,11 +301,11 @@ settings.gameprivacy.streamer Mode ng Streamer
 settings.gameprivacy.anon Anonymous Mode
 settings.gameprivacy.hideGameTitle Itago ang Pamagat ng Laro
 settings.gameprivacy.showRegion Show Region Info
-settings.gameprivacy.verified Ipakita ang Verification Badge
-settings.gameprivacy.premium Ipakita ang Premium Badge
-settings.gameprivacy.partner Ipakita ang Partnered Badge
-settings.gameprivacy.rank Ipakita ang Ranked Badge
-settings.gameprivacy.custom Show Custom Badge
+settings.gameprivacy.verified Ipakita - Verification Badge
+settings.gameprivacy.premium Ipakita - Premium Badge
+settings.gameprivacy.partner Ipakita - Partnered Badge
+settings.gameprivacy.rank Ipakita - Ranked Badge
+settings.gameprivacy.custom Ipakita - Custom Badge
 settings.gameplay.header Gameplay
 settings.gameplay.gpSetts Settings sa Gameplay
 settings.gameplay.sensitivityX X Sensitivity
@@ -459,8 +459,8 @@ windows.servers.hide Itago
 windows.servers.priority Prayoridad ng Rehiyon
 windows.servers.online {0} Sa laro
 windows.servers.social {0} online sa Komunidad
-windows.servers.editor {0} in Editor
-windows.loadout.header Baguhin ang Loadout
+windows.servers.editor {0} Sa Editor
+windows.loadout.header Ayusin ang Loadout
 windows.loadout.class Mga Klase
 windows.loadout.primary Pangunahing Armas
 windows.loadout.primary.attach Mga Attachment
@@ -518,9 +518,9 @@ windows.controls.chat Pag-Uusap
 windows.controls.voice Boses
 windows.controls.list Listahan ng mga manlalaro
 windows.controls.board Leaderboard
-windows.controls.interact Makipag-ugnay
-windows.controls.interactSec Pangalawang Pakikipag-ugnay
-windows.controls.confirm Kumpirmahin ang Pakikipag-ugnay
+windows.controls.interact Interaksyon
+windows.controls.interactSec Pangalawang Interaksyon
+windows.controls.confirm Kumpirmahin ang Interaksyon
 windows.controls.drop Patak
 windows.controls.wepVis I-toggle ang Visibility ng Armas
 windows.controls.kickVoteY Tanggalin mula sa laro [Oo]
@@ -611,7 +611,7 @@ windows.store.amount {0} KR sa account
 windows.store.login upang bumili at mag-unlock ng mga item mula sa tindahan!
 windows.store.purchasing Binibili ...
 windows.store.unboxed {0} ay naka-unbox ng {1} 
-windows.store.found {0}{1} found
+windows.store.found {0}{1} nahanap
 windows.trade.header Kalakalan
 windows.scope.header Pumili ng scope
 windows.premium.header Premium
@@ -670,11 +670,11 @@ mod.error Error sa mod!
 mod.loading Naglo-load ng mod ...
 mod.invalid Imbalidong mod file!
 matchmaker.full PUNO
-matchmaker.GameFull Game is full.
-matchmaker.NoServersMatchQuery GAME UPDATING
-matchmaker.InvalidGameId Game not found.
-matchmaker.NoAvailableServers Servers are at Max Capacity
-matchmaker.GameIssue Unknown Join Issue
+matchmaker.GameFull Puno ang laro.
+matchmaker.NoServersMatchQuery NAG-UUPDATE ANG LARO
+matchmaker.InvalidGameId Hindi nahanap ang laro.
+matchmaker.NoAvailableServers Puno ang mga server
+matchmaker.GameIssue Hindi matukoy ang isyu
 adblocker Tanggalin ang iyong ad-blocker upang makatanggap ng mga libreng KR.
 ad-failed Hindi Nag-load ang Ad. Subukang muli.
 streamers.views {0} ang mga Nanonood
@@ -773,7 +773,7 @@ social.market.listed nakalista {0} nakaraan
 social.market.list Listahan ng Item
 social.market.unlist Tanggalin sa lista
 social.market.unlisting  Pagtatanggal.....
-social.market.posting Posting Item...
+social.market.posting Pagpaskil ng Kagamitan...
 social.market.req Antas-{0} kinakailangan
 social.market.cant Hindi Kayang bumili!
 social.market.purchase Bumili
@@ -785,11 +785,11 @@ social.market.waist Kagamitan sa Baywang
 social.market.face Mga Mukha
 social.market.shoe Mga Sapatos 
 social.market.pet Mga Alaga
-social.market.wrist Wrist Item
+social.market.wrist Mga Relo o Alahas
 social.market.melee Mga Patalim
 social.market.spray Mga Sprays
 social.market.dye Kulay ng Katawan
-social.market.collectible Collectible Item
+social.market.collectible Mga Kolektible
 social.market.none Hindi matagpuan ang kagamitan
 social.market.login Maglogin ka muna.
 social.market.grace handa na sa {0}
@@ -836,7 +836,7 @@ stats.headshots Mga headshot
 stats.wallbangs Mga wallbang
 stats.crouches Crouches
 stats.sprays Nilagay na spray
-stats.kpd Helpful Reports
+stats.kpd Makabuluhang Report sa KPD
 windows.host.default.settings Ang pagpapagana ng Default na Mga Setting ay nagbibigay-daan para sa pagtatago ng Player Progress at Highscores
 windows.host.default.commands * Ang Mga Command ng Host ay Hindi Pinapagana sa mode na ito: / noclip / god / smite atbp
 windows.host.rewards Pinipilit ng pagpapagana ng KR Rewards ang Server na gumamit ng Default na Mga Setting
