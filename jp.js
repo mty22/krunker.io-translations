@@ -542,8 +542,8 @@ windows.controls.taunt0 挑発 (しー!)
 windows.controls.taunt1 挑発 (口笛)
 windows.controls.taunt2 挑発 (おなら)
 windows.controls.taunt3 挑発 (ミーム)
-windows.controls.taunt4 挑発 (WTF is This?)
-windows.controls.taunt5 挑発 (Right Now!)
+windows.controls.taunt4 挑発 (何だこれ?)
+windows.controls.taunt5 挑発 (さっさと来いよ!)
 windows.controls.prop 物を選択（ホールド）
 windows.controls.propRand ランダムな小道具を選択
 windows.controls.propRot 回転方向を切り替え
