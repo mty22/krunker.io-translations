@@ -62,7 +62,7 @@ player.waiting Naghihintay ng mga manlalaro
 player.died Ikaw ay namatay
 player.killed Pinatay ni {0} si {1}
 player.killstreak {0} on a {1} Kill Streak
-player.inactive Pina-alis dahil sa walang aktibidad
+player.inactive Tinanggal sa laro dahil inaktibo.
 player.disconnect HINDI MAKAKONEKTA
 timer.end Susunod na laro sa {0}
 leaderboard.empty Walang tao sa lobby
@@ -98,8 +98,8 @@ settings.experimental.holiday Holiday Effects
 settings.experimental.aimFreezeFix Pag-ayos ng Aim Freeze
 settings.experimental.mouseFlickFix Pag-ayos ng Mouse Flick
 settings.experimental.shaderRendering Pag-render
-settings.experimental.mouseAccel Mouse Acceleration
-settings.experimental.tbInterp TB Interpolation
+settings.experimental.mouseAccel Akselerasyon ng Mouse
+settings.experimental.tbInterp TB Interpolasyon
 settings.client.header Kliyente
 settings.client.unlimitedFrames Unlimited na FPS
 settings.client.gameCap Record ng Laro
@@ -459,8 +459,8 @@ windows.servers.hide Itago
 windows.servers.priority Prayoridad ng Rehiyon
 windows.servers.online {0} Sa laro
 windows.servers.social {0} online sa Komunidad
-windows.servers.editor {0} in Editor
-windows.loadout.header Baguhin ang Loadout
+windows.servers.editor {0} Sa Editor
+windows.loadout.header Ayusin ang Loadout
 windows.loadout.class Mga Klase
 windows.loadout.primary Pangunahing Armas
 windows.loadout.primary.attach Mga Attachment
@@ -518,9 +518,9 @@ windows.controls.chat Pag-Uusap
 windows.controls.voice Boses
 windows.controls.list Listahan ng mga manlalaro
 windows.controls.board Leaderboard
-windows.controls.interact Makipag-ugnay
-windows.controls.interactSec Pangalawang Pakikipag-ugnay
-windows.controls.confirm Kumpirmahin ang Pakikipag-ugnay
+windows.controls.interact Interaksyon
+windows.controls.interactSec Pangalawang Interaksyon
+windows.controls.confirm Kumpirmahin ang Interaksyon
 windows.controls.drop Patak
 windows.controls.wepVis I-toggle ang Visibility ng Armas
 windows.controls.kickVoteY Tanggalin mula sa laro [Oo]
@@ -533,11 +533,11 @@ windows.controls.specFirst I-toggle ang First Person
 windows.controls.specNames I-toggle ang mga pangalan
 windows.controls.specFocus I-toggle and pokus sa isang manlalaro
 windows.controls.hidePlayers Itago ang mga manlalaro
-windows.controls.streak0 Streak 1
-windows.controls.streak1 Streak 2
-windows.controls.streak2 Streak 3
-windows.controls.streak3 Streak 4
-windows.controls.streak4 Streak 5
+windows.controls.streak0 Unang Streak
+windows.controls.streak1 Pangalawang Streak
+windows.controls.streak2 Pangatlong Streak
+windows.controls.streak3 Pang-apat na Streak
+windows.controls.streak4 Panlimang Streak
 windows.controls.taunt0 Panukso (Psst)
 windows.controls.taunt1 Panukso (Sipol)
 windows.controls.taunt2 Panukso (Utot)
@@ -611,7 +611,7 @@ windows.store.amount {0} KR sa account
 windows.store.login upang bumili at mag-unlock ng mga item mula sa tindahan!
 windows.store.purchasing Binibili ...
 windows.store.unboxed {0} ay naka-unbox ng {1} 
-windows.store.found {0}{1} found
+windows.store.found {0}{1} nakahanap
 windows.trade.header Kalakalan
 windows.scope.header Pumili ng scope
 windows.premium.header Premium
@@ -635,7 +635,7 @@ windows.mods.community.new Mga Bagong Mod
 windows.mods.community.hot Sikat!
 windows.mods.community.name Pangalan ng Mod
 windows.mods.community.none Walang nahanap na Mod
-windows.publish.mod.header I-akda ang Mod
+windows.publish.mod.header Akda ang Mod
 windows.publish.mod.thumbnail No Thumbnail
 windows.publish.mod.name Pangalan ng Mod
 windows.publish.mod.paste URL ng Mod
@@ -670,11 +670,11 @@ mod.error Error sa mod!
 mod.loading Naglo-load ng mod ...
 mod.invalid Imbalidong mod file!
 matchmaker.full PUNO
-matchmaker.GameFull Game is full.
-matchmaker.NoServersMatchQuery GAME UPDATING
-matchmaker.InvalidGameId Game not found.
-matchmaker.NoAvailableServers Servers are at Max Capacity
-matchmaker.GameIssue Unknown Join Issue
+matchmaker.GameFull Puno ang laro.
+matchmaker.NoServersMatchQuery NAG-UUPDATE ANG LARO
+matchmaker.InvalidGameId Hindi nahanap ang laro
+matchmaker.NoAvailableServers Puno ang mga server
+matchmaker.GameIssue Hindi matukoy ang isyu
 adblocker Tanggalin ang iyong ad-blocker upang makatanggap ng mga libreng KR.
 ad-failed Hindi Nag-load ang Ad. Subukang muli.
 streamers.views {0} ang mga Nanonood
@@ -773,7 +773,7 @@ social.market.listed nakalista {0} nakaraan
 social.market.list Listahan ng Item
 social.market.unlist Tanggalin sa lista
 social.market.unlisting  Pagtatanggal.....
-social.market.posting Posting Item...
+social.market.posting Pagpaskil ng Kagamitan...
 social.market.req Antas-{0} kinakailangan
 social.market.cant Hindi Kayang bumili!
 social.market.purchase Bumili
@@ -785,11 +785,11 @@ social.market.waist Kagamitan sa Baywang
 social.market.face Mga Mukha
 social.market.shoe Mga Sapatos 
 social.market.pet Mga Alaga
-social.market.wrist Wrist Item
+social.market.wrist Mga Relo o Alahas
 social.market.melee Mga Patalim
 social.market.spray Mga Sprays
 social.market.dye Kulay ng Katawan
-social.market.collectible Collectible Item
+social.market.collectible Nakokolektang Kagamitan
 social.market.none Hindi matagpuan ang kagamitan
 social.market.login Maglogin ka muna.
 social.market.grace handa na sa {0}
@@ -836,7 +836,7 @@ stats.headshots Mga headshot
 stats.wallbangs Mga wallbang
 stats.crouches Crouches
 stats.sprays Nilagay na spray
-stats.kpd Helpful Reports
+stats.kpd Matulunging Report sa KPD
 windows.host.default.settings Ang pagpapagana ng Default na Mga Setting ay nagbibigay-daan para sa pagtatago ng Player Progress at Highscores
 windows.host.default.commands * Ang Mga Command ng Host ay Hindi Pinapagana sa mode na ito: / noclip / god / smite atbp
 windows.host.rewards Pinipilit ng pagpapagana ng KR Rewards ang Server na gumamit ng Default na Mga Setting
@@ -858,9 +858,9 @@ windows.playerlist.punish Sigurado ka bang nais mong parusahin ang manlalarong s
 item.view.open Buksan ang Model Viewer
 item.view.more Iba pang Impormasyon
 item.sell.cant Hindi mabenta ang item na ito.
-item.sell.cant.krunker Item cant be sold on krunker.
+item.sell.cant.krunker Hindi mabenta ang kagamitan sa Krunker
 item.sell.quick Sigurado ka bang ibebenta mo ito agad {0}?
-item.sell.destroy Are you sure you want to Destroy {0}?
+item.sell.destroy item.sell.destroy Siguradong nais mo itong sirain {0}?
 social.profile.stats Kabuoang statistika
 social.profile.class Statistika ng mga Klase
 social.profile.sales Mga Binebenta
@@ -889,7 +889,7 @@ social.trades.warning Wala kang makukuhang kagamitan sa Pag-alok na ito!
 social.trades.accept Nais mo bang tanggapin ang Pag-alok na ito?
 stats.airdrops Pakete ng KR
 stats.airdrops.stolen Ninakaw - Airdrops
-settings.quality.flapAnim Sniper Flap Animation
+settings.quality.flapAnim Animasyon ng Sniper flap
 chall.name.hs Pumatay ng {0} beses na tumama sa ulo {1}
 chall.name.ns chall.name.ns Pumatay ng {0} beses na walang scope {1}
 chall.name.ls Gawin ang {0} na tama sa binti {1}
