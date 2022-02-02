@@ -888,27 +888,27 @@ social.trades.message Payagan ang mga Trade Message at Pag-alok sa Settings
 social.trades.warning Wala kang makukuhang kagamitan sa Pag-alok na ito!
 social.trades.accept Nais mo bang tanggapin ang Pag-alok na ito?
 stats.airdrops Pakete ng KR
-stats.airdrops.stolen Airdrops Stolen
-settings.quality.flapAnim Animasyon ng Sniper flap
-chall.name.hs Get {0} headshots {1}
-chall.name.ns Get {0} no-scopes {1}
-chall.name.ls Get {0} legshots {1}
-chall.name.tmk Get {0} throwing knife kills {1}
-chall.name.fb Get {0} first bloods {1}
-chall.name.mk Get {0} melee kills {1}
-chall.name.fk Get {0} fist kills {1}
-chall.name.qs Get {0} quickscopes {1}
-chall.name.wb Get {0} wallbangs {1}
-chall.name.airk Get {0} mid-air kills {1}
-chall.name.lns Get {0} longshots {1}
-chall.name.tk Get {0} turbo kills {1}
-chall.name.drk Get {0} drift kills {1}
-chall.name.kstk Get a {0} killstreak {1}
-chall.name.w Win {0} matches
-chall.name.d Die {0} times
-chall.name.score Get {0} score
-chall.name.dmg Deal {0} damage {1}
-chall.name.bzk Get {0} buzz kills {1}
-chall.name.cc Get {0} close-calls {1}
-chall.name.rk Deal {0} revenge kills {1}
+stats.airdrops.stolen Ninakaw - Airdrops
+settings.quality.flapAnim Sniper Flap Animation
+chall.name.hs Pumatay ng {0} beses na tumama sa ulo {1}
+chall.name.ns chall.name.ns Pumatay ng {0} beses na walang scope {1}
+chall.name.ls Gawin ang {0} na tama sa binti {1}
+chall.name.tmk Pumatay ng {0} beses ng binatong talim {1}
+chall.name.fb Magkaroon ng {0} na unang pinatay {1}
+chall.name.mk Pumatay ng {0} beses gamit ang patalim {1}
+chall.name.fk Gawin ang {0} beses na pagbugbog {1}
+chall.name.qs {0} beses mabilis ang pag-scope {1}
+chall.name.wb {0} beses ang pagpatay mula pader {1}
+chall.name.airk Pumatay ng {0} na beses sa ere {1}
+chall.name.lns Pumatay ng {0} na beses mula sa malayo {1}
+chall.name.tk Pumatay ng {0} beses na may "turbo" {1}
+chall.name.drk Pumatay ng {0} na beses habang dumudulas {1}
+chall.name.kstk Makamit ang {0} na killstreak {1}
+chall.name.w Manalo ng {0} laro
+chall.name.d Mamatay ng {0} beses
+chall.name.score Makamit ang {0} puntos
+chall.name.dmg Tumira ng {0} na damage {1}
+chall.name.bzk Manira ng killstreak ng {0} beses {1}
+chall.name.cc Ikaw ay muntikang mamatay {0} na beses {1}
+chall.name.rk Makamit ang {0} na higanti
 `;
