@@ -53,7 +53,7 @@ If you find bugs or changes, please feel free to either:
 
 You're also welcome to modify [CODEOWNERS](https://github.com/mty22/krunker.io-translations/blob/main/CODEOWNERS) file if you wish to be added as a default reviewer.
 
-KR rewards, Krunker translator badge, Krunker account verification are typically awarded based on contribution levels and long term translation support. If you are curious, have a look at both [Payouts/reward guide](https://github.com/mty22/krunker.io-translations/blob/main/kr_payment_guide.txt) and [Payouts sent](https://github.com/mty22/krunker.io-translations/blob/main/kr_payouts.csv).
+KR rewards, Krunker translator badge and Krunker account verification are typically awarded based on contribution levels and long term translation support. If you are curious, have a look at both [Payouts/reward guide](https://github.com/mty22/krunker.io-translations/blob/main/kr_payment_guide.txt) and [Payouts sent](https://github.com/mty22/krunker.io-translations/blob/main/kr_payouts.csv).
 
 Krunker badge in-game appears as follows on the player's profile:
 
