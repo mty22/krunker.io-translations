@@ -468,7 +468,7 @@ windows.loadout.primary.reticle Fadenkreuz
 windows.loadout.primary.scope Zielfernrohr
 windows.loadout.secondary Sekundär Waffe
 windows.loadout.secondary.skin Sekundär Skin
-windows.loadout.melee Nahkampf
+windows.loadout.melee Messer
 windows.loadout.hat Hut
 windows.loadout.back Körper
 windows.loadout.waist Taille
@@ -512,7 +512,7 @@ windows.controls.jump Springen
 windows.controls.crouch Ducken
 windows.controls.prim Primäre Waffe
 windows.controls.swap Sekundäre Waffe
-windows.controls.melee Nahkampf Waffe
+windows.controls.melee Messer
 windows.controls.equip Ausrüstung
 windows.controls.chat Chat
 windows.controls.voice Sprachchat
@@ -620,7 +620,7 @@ windows.hat.header Hut auswählen
 windows.back.header Rückseite auswählen
 windows.waist.header Taille auswählen
 windows.face.header Gesicht auswählen
-windows.melee.header Nahkampf-Waffe auswählen
+windows.melee.header Messer auswählen
 windows.attach.header Aufsatz auswählen
 windows.reticle.header Fadenkreuz auswählen
 windows.reticle.unlocked Freigschaltet ab Level {0}
@@ -779,17 +779,17 @@ social.market.cant Kannst Du Dir nicht leisten
 social.market.purchase Kaufen
 social.market.fee Keine Gebühr fürs Listen
 social.market.failed Fehlgeschlagen. Versuche es erneut.
-social.market.head Gegenstand Kopf
-social.market.back Gegenstand Rücken
-social.market.waist Gegenstand Taille
-social.market.face Gegenstand Gesicht
-social.market.shoe Gegenstand Schuh
-social.market.pet Gegenstand Haustier
-social.market.wrist Gegenstand Handgelenk
-social.market.melee Gegenstand Nahkampfwaffe
-social.market.spray Gegenstand Spray
-social.market.dye Gegenstand Körperfarbe
-social.market.collectible Gegenstand Sammelstück
+social.market.head Kopf-Gegenstand
+social.market.back Rücken-Gegenstand
+social.market.waist Taille-Gegenstand
+social.market.face Gesicht-Gegenstand
+social.market.shoe Schuh-Gegenstand
+social.market.pet Haustier-Gegenstand
+social.market.wrist Handgelenk-Gegenstand
+social.market.melee Messer-Gegenstand
+social.market.spray Spray-Gegenstand
+social.market.dye Körperfarbe-Gegenstand
+social.market.collectible Sammelstück-Gegenstand
 social.market.none Keine Gegenstände gefunden
 social.market.login Du musst eingeloggt sein.
 social.market.grace bereit in {0}
@@ -829,7 +829,7 @@ mod.reset.1 Map Objekte werden nicht zurückgesetzt
 windows.profile.picture Bild ändern
 stats.assists Assists
 stats.nukes Nukes
-stats.melee Nahkampf-Abschüsse
+stats.melee Messer-Abschüsse
 stats.fistkills Faust-Abschüsse
 stats.thrownkills Wurfmesser-Abschüsse
 stats.headshots Kopfschüsse
@@ -859,7 +859,7 @@ item.view.open Öffne Modell Ansicht
 item.view.more Mehr Informationen
 item.sell.cant Item kann nicht verkauft werden.
 item.sell.cant.krunker Gegenstand kann nicht auf Krunker verkauft werden.
-item.sell.quick Bist du dir sicher dass du {0} Schnellverkaufen willt? 
+item.sell.quick Bist du dir sicher dass du {0} Schnellverkaufen willst? 
 item.sell.destroy Bist du dir sicher dass du {0} zerstören willst?
 social.profile.stats Insgesamte Statistiken
 social.profile.class Klassen Statistiken
@@ -893,26 +893,14 @@ settings.quality.flapAnim Sniperklappenanimation
 chall.name.hs Erziele {0} Kopfschüsse {1}
 chall.name.ns Erziele {0} No-Scope-Abschüsse {1}
 chall.name.ls Erziele {0} Beinschüsse {1}
-chall.name.ls Erziele {0} Wurfmesser-Abschüsse {1}
-chall.name.ls Erziele {0} erste Abschüsse {1}
-chall.name.ls Erziele {0} Weitschüsse {1}
-chall.name.ls Erziele {0} Beinschüsse {1}
-chall.name.ls Erziele {0} Wurfmesser-Abschüsse {1}
-chall.name.ls Erziele {0} erste Abschüsse {1}
-chall.name.ls Erziele {0} Weitschüsse {1}
-chall.name.ls Erziele {0} Beinschüsse {1}
-chall.name.ls Erziele {0} Wurfmesser-Abschüsse {1}
-chall.name.ls Erziele {0} erste Abschüsse {1}
-chall.name.ls Erziele {0} Weitschüsse {1}
+chall.name.tmk Erziele {0} Wurfmesser-Abschüsse {1}
+chall.name.fb Erziele {0} erste Abschüsse {1}
 chall.name.mk Erziele {0} Messer-Abschüsse {1}
-chall.name.fk Erziele {0} Nahkampf-Abschüsse {1}
+chall.name.fk Erziele {0} Faust-Abschüsse {1}
 chall.name.qs Erziele {0} Quickscope-Abschüsse {1}
 chall.name.wb Erziele {0} Wallbang-Abschüsse {1}
 chall.name.airk Erziele {0} Abschüsse in der Luft {1}
-chall.name.ls Erziele {0} Beinschüsse {1}
-chall.name.ls Erziele {0} Wurfmesser-Abschüsse {1}
-chall.name.ls Erziele {0} erste Abschüsse {1}
-chall.name.ls Erziele {0} Weitschüsse {1}
+chall.name.lns Erziele {0} Weitschüsse {1}
 chall.name.tk Erziele {0} schnelle Abschüsse {1}
 chall.name.drk Erziele {0} drift Abschüsse {1}
 chall.name.kstk Erziele eine {0} Abschussserie {1}
