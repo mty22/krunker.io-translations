@@ -859,7 +859,7 @@ item.view.open Öffne Modell Ansicht
 item.view.more Mehr Informationen
 item.sell.cant Item kann nicht verkauft werden.
 item.sell.cant.krunker Item cant be sold on krunker.
-item.sell.quick Bist du dir sicher dass du {0} Schnellverkaufen willt? 
+item.sell.quick Bist du dir sicher dass du {0} Schnellverkaufen willst? 
 item.sell.destroy Are you sure you want to Destroy {0}?
 social.profile.stats Insgesamte Statistiken
 social.profile.class Klassen Statistiken
@@ -890,25 +890,25 @@ social.trades.accept Bist du sicher, dass du dieses Angebot annehmen möchtest?
 stats.airdrops KR-Pakete
 stats.airdrops.stolen Airdrops Stolen
 settings.quality.flapAnim Sniperklappenanimation
-chall.name.hs Get {0} headshots {1}
-chall.name.ns Get {0} no-scopes {1}
-chall.name.ls Get {0} legshots {1}
-chall.name.tmk Get {0} throwing knife kills {1}
-chall.name.fb Get {0} first bloods {1}
-chall.name.mk Get {0} melee kills {1}
-chall.name.fk Get {0} fist kills {1}
-chall.name.qs Get {0} quickscopes {1}
-chall.name.wb Get {0} wallbangs {1}
-chall.name.airk Get {0} mid-air kills {1}
-chall.name.lns Get {0} longshots {1}
-chall.name.tk Get {0} turbo kills {1}
-chall.name.drk Get {0} drift kills {1}
-chall.name.kstk Get a {0} killstreak {1}
-chall.name.w Win {0} matches
-chall.name.d Die {0} times
-chall.name.score Get {0} score
-chall.name.dmg Deal {0} damage {1}
-chall.name.bzk Get {0} buzz kills {1}
-chall.name.cc Get {0} close-calls {1}
-chall.name.rk Deal {0} revenge kills {1}
+chall.name.hs Mache {0} Kopfschüsse {1}
+chall.name.ns Mache {0} no-scopes {1}
+chall.name.ls Mache {0} Beinschüsse {1}
+chall.name.tmk Mache {0} Wurfmesser kills {1}
+chall.name.fb Mache {0} first bloods {1}
+chall.name.mk Mache {0} Messer kills {1}
+chall.name.fk Mache {0} Faust kills {1}
+chall.name.qs Mache {0} quickscopes {1}
+chall.name.wb Mache {0} wallbangs {1}
+chall.name.airk Mache {0} mid-air kills {1}
+chall.name.lns Mache {0} Distanz kills {1}
+chall.name.tk Mache {0} turbo kills {1}
+chall.name.drk Mache {0} drift kills {1}
+chall.name.kstk Mache eine {0} killserie {1}
+chall.name.w Gewinne {0} Runden
+chall.name.d Stirb {0} mal
+chall.name.score Erreiche eine Punktzahl von {0} 
+chall.name.dmg Mache {0} Schaden {1}
+chall.name.bzk Mache {0} buzz kills {1}
+chall.name.cc Mache {0} close-calls {1}
+chall.name.rk Mache {0} revenge kills {1}
 `;
