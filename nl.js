@@ -94,11 +94,11 @@ settings.network.lagComp Lag Compensatie
 settings.network.optNet Geoptimaliseerde Netwerken
 settings.popup.header Popups
 settings.experimental.header Experimenteel
-settings.experimental.holiday Holiday Effecten
+settings.experimental.holiday Feestlijke effecten
 settings.experimental.aimFreezeFix Aim Freeze Fix
 settings.experimental.mouseFlickFix Muis Flick Fix
 settings.experimental.shaderRendering Instance Rendering
-settings.experimental.mouseAccel Muis Versnelling
+settings.experimental.mouseAccel Muis Acceleratie
 settings.experimental.tbInterp TB Interpolatie
 settings.client.header Client
 settings.client.unlimitedFrames Unlimited FPS
@@ -218,7 +218,7 @@ settings.interface.xpBarCol XP Bar Kleur
 settings.interface.xpBarCol2 XP Bar Kleur 2
 settings.interface.xpBarOpac XP Bar Doorzichtigheid
 settings.medals.header Medailles
-settings.medals.show Show Medailles
+settings.medals.show Weergeef Medailles
 settings.medals.classic Klassieke Medailles
 settings.medals.sound Speel Medaille Geluid
 settings.medals.scale Medaille Grootte
@@ -545,7 +545,7 @@ windows.controls.taunt3 Taunt (Meme)
 windows.controls.taunt4 Taunt (WTF is This?)
 windows.controls.taunt5 Taunt (Right Now!)
 windows.controls.prop Selecteer Prop (Houd)
-windows.controls.propRand Selecteer Willekeurig Prop
+windows.controls.propRand Selecteer Willekeurige Prop
 windows.controls.propRot Schakel Rotatie
 windows.controls.propRotR Reset Rotatie
 windows.controls.premium0 Noclip
