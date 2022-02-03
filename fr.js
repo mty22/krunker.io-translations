@@ -61,7 +61,7 @@ generic.accuracy Précision
 player.waiting En attente de joueurs
 player.died Vous êtes mort
 player.killed Tué par
-player.killstreak {0} on a {1} Kill Streak
+player.killstreak {0} sur une serie d'éliminations de {1}
 player.inactive Expulsé pour inactivité
 player.disconnect DÉCONNECTÉ
 timer.end Prochaine manche dans {0}
@@ -278,7 +278,7 @@ settings.crosshairm.opacity.use Utiliser une pacité personnalisée
 settings.crosshairm.opacity.custom Opacité personnalisée
 settings.hitmarker.header Indicateur de touche
 settings.hitmarker.color Couleur
-settings.hitmarker.kcolor Couleur du kill
+settings.hitmarker.kcolor Couleur de l'élimination
 settings.hitmarker.thickness Épaisseur
 settings.hitmarker.opacity Opacité
 settings.hitmarker.leng Longueur
@@ -480,10 +480,10 @@ windows.loadout.color.chat Couleur du pseudo dans le chat
 windows.loadout.color.hair Couleur de cheveux
 windows.loadout.dye Teinture
 windows.loadout.pet Animal de compagnie
-windows.loadout.wrist Wrist
+windows.loadout.wrist Poignet
 windows.loadout.stat Stat de la carte d’élimination
 windows.loadout.flag Drapeau
-windows.loadout.badge Custom Badge
+windows.loadout.badge Badge personnalisé
 windows.mods.drop Glissez un dossier de mod ici ou cliquez
 windows.mods.paste Lien URL du mod
 windows.mods.load Charger un mod
@@ -539,11 +539,11 @@ windows.controls.streak2 Série d’élimination 3
 windows.controls.streak3 Série d’élimination 4
 windows.controls.streak4 Série d’élimination 5
 windows.controls.taunt0 Taunt (Psst)
-windows.controls.taunt1 Taunt (Whistle)
-windows.controls.taunt2 Taunt (Fart)
+windows.controls.taunt1 Taunt (Sifflement)
+windows.controls.taunt2 Taunt (Pet)
 windows.controls.taunt3 Taunt (Meme)
 windows.controls.taunt4 Taunt (WTF is This?)
-windows.controls.taunt5 Taunt (Right Now!)
+windows.controls.taunt5 Taunt (Maintenant!)
 windows.controls.prop Selectionner l'objet (Tenir appuyé)
 windows.controls.propRand Select Random Prop
 windows.controls.propRot Toggle Rotation
@@ -611,7 +611,7 @@ windows.store.amount {0} KR sur votre compte
 windows.store.login pour acheter et obtenir des objets de la boutique !
 windows.store.purchasing En cours d’achat...
 windows.store.unboxed {0}{1} a obtenu
-windows.store.found {0}{1} found
+windows.store.found {0}{1} a trouvé
 windows.trade.header Échange
 windows.scope.header Sélectionner le viseur
 windows.premium.header Premium
@@ -670,11 +670,11 @@ mod.error Erreur du mod !
 mod.loading Chargement du mod...
 mod.invalid Fichier du mod invalide!
 matchmaker.full PLEIN
-matchmaker.GameFull Game is full.
-matchmaker.NoServersMatchQuery GAME UPDATING
-matchmaker.InvalidGameId Game not found.
-matchmaker.NoAvailableServers Servers are at Max Capacity
-matchmaker.GameIssue Unknown Join Issue
+matchmaker.GameFull La partie est pleine.
+matchmaker.NoServersMatchQuery LE JEU EST EN TRAIN DE SE METTRE A JOUR.
+matchmaker.InvalidGameId Partie pas trouvée.
+matchmaker.NoAvailableServers Les serveurs sont à la capacité maximale.
+matchmaker.GameIssue Problème de rejoignement inconnu
 adblocker Désactivez votre bloqueur de publicités pour obtenir des KR gratuits.
 ad-failed La publicité n’a pas pu être chargée. Réessayez plus tard.
 streamers.views {0} spectateurs
@@ -700,7 +700,7 @@ server.config.strafeSpd Vitesse de strafe
 server.config.fiRat Cadence de tir
 server.config.reSpd Vitesse de rechargement
 server.config.slidTime Durée de glissade
-server.config.fixMov Fixed Movement
+server.config.fixMov Mouvement fixe
 server.config.slidSpd VItesse de glissade
 server.config.healthMlt Multiplicateur de Santé
 server.config.impulseMlt Force de propulsion
@@ -721,17 +721,17 @@ server.config.headshotOnly Tir dans la tête uniquement
 server.config.noSecondary Désactiver les armes secondaires
 server.config.noStreaks Désactiver les séries d’élimination
 server.config.canSlide Glissade
-server.config.wallJP Force de walljump
+server.config.wallJP Force de saut de mur
 server.config.autoJump Saut automatique
 server.config.bDrop Gravité des projectiles
 server.config.thirdPerson Troisième personne
 server.config.requireCaptcha Captcha requis
 server.config.nameTags Cacher les pseudos
-server.config.kCams Kill Cams
-server.config.aAnon Allow Anonymous
+server.config.kCams Caméra des éliminations
+server.config.aAnon Autoriser les anonymes
 server.config.noReload Munitions illimitées
 server.config.private Privé
-server.config.krRewards KR Rewards
+server.config.krRewards Récompenses KR
 server.config.forceDefault Forcer les paramètres par défaut
 server.config.warmupTime Temps d’échauffement
 server.config.gamRounds Manches
@@ -753,7 +753,7 @@ server.config.tmSize Taille d'équipe
 server.config.fallDmg Dégat de chute
 server.config.fallDmgThr Seuil de dégat de chute
 server.config.noDraws Pas d'égalité
-server.config.bstOfR Best of
+server.config.bstOfR Meilleur des
 server.config.chrgWeps Armes de charge
 social.login Connexion / Inscription
 social.login.failed Connexion échouée
@@ -785,7 +785,7 @@ social.market.waist Bassin
 social.market.face Visage
 social.market.shoe Chaussure
 social.market.pet Animal de compagnie
-social.market.wrist Wrist Item
+social.market.wrist Accessoire de poignet
 social.market.melee Mêlée
 social.market.spray Tag
 social.market.dye Teinture
@@ -811,7 +811,7 @@ custom.passcode.input Entrer le mot de passe du serveur pour rejoindre
 custom.tryagain Veuillez réessayer.
 purchase.kr.success Ajouté {0} KR à votre compte
 limited.purchase.ask Êtes-vous sûr de vouloir acheter [{0}] pour {1} KR?
-limited.purchase.success Ajouté {0} to your inventory
+limited.purchase.success Ajouté {0} à votre inventaire
 pretend.exit Appuyer sur [{0}] de nouveau pour quitter
 settings.loaded Paramètres chargés
 settings.loaded.none Pas de paramètres trouvés
@@ -858,9 +858,9 @@ windows.playerlist.punish Êtes-vous sûr de vouloir prendre action sur {0}?
 item.view.open Ouvrir l'inspecteur de models
 item.view.more Plus d'informations
 item.sell.cant Cet objet ne peut pas être vendu.
-item.sell.cant.krunker Item cant be sold on krunker.
+item.sell.cant.krunker Cet objet ne peut pas être vendu sur Krunker.
 item.sell.quick Êtes-vous sûr de vouloir vendre instantanément {0}?
-item.sell.destroy Are you sure you want to Destroy {0}?
+item.sell.destroy Êtes-vous sûr de vouloir détruire {0}?
 social.profile.stats Stats globales
 social.profile.class Stats de classe
 social.profile.sales Ventes
