@@ -91,7 +91,7 @@ settings.network.header Réseau
 settings.network.netRerouting Routage automatique (affecte le Ping)
 settings.network.netRate Taux de rafraîchissement réseau (Hz)
 settings.network.lagComp Compensation du lag
-settings.network.optNet Réseautage optimizé
+settings.network.optNet Optimisation du réseau
 settings.popup.header Popups
 settings.experimental.header Expérimental
 settings.experimental.holiday Éffets de fêtes
@@ -111,7 +111,7 @@ settings.client.resetSettings Réinitialiser les paramètres du client
 settings.client.acceleratedCanvas Canvas accélérés
 settings.client.angleBackend ANGLE Graphics Backend
 settings.client.colorProfile Profil de couleur
-settings.client.resourcePacks Packs de resources
+settings.client.resourcePacks Packs de ressources
 settings.dev.header Développeur
 settings.dev.forceUpdate Forcer la mise à jour des skins
 settings.dev.forceRegen Toujours régénérer le joueur
@@ -173,7 +173,7 @@ settings.interface.dmgCol Couleur des dégâts
 settings.interface.critCol Couleur des critiques
 settings.interface.header Interface
 settings.interface.scale Taille de l'interface
-settings.interface.theme Theme du jeu
+settings.interface.theme Thème du jeu
 settings.interface.ui Afficher l'interface
 settings.interface.scoreboard Ancien tableau des scores
 settings.interface.oldBrowser Ancien navigateur de serveurs
@@ -217,13 +217,13 @@ settings.interface.healthColE Couleur de vie des ennemis
 settings.interface.xpBarCol Couleur de la barre d'xp
 settings.interface.xpBarCol2 Couleur 2 de la barre d'xp
 settings.interface.xpBarOpac Opacité de la barre d'xp
-settings.medals.header Medals Médailles
-settings.medals.show Show Medals Montrer les médeailles
+settings.medals.header Médailles
+settings.medals.show Montrer les médeailles
 settings.medals.classic Médailles classiques
 settings.medals.sound Jouer les sons des médailles
 settings.medals.scale Taille des médailles
-settings.medals.xOff Décalage des médailles X
-settings.medals.yOff Décalage des médailles Y
+settings.medals.xOff Décalage X des médailles 
+settings.medals.yOff Décalage Y des médailles 
 settings.crosshair.header Curseur
 settings.crosshair.type Type
 settings.crosshair.type.1 Dynamique
@@ -836,7 +836,7 @@ stats.headshots Tirs à la tête
 stats.wallbangs Tirs à travers les murs
 stats.crouches Accroupissements
 stats.sprays Tags placés
-stats.kpd Helpful Reports Plaintes utiles
+stats.kpd Plaintes utiles
 windows.host.default.settings Activer les paramètres par défaut permet le stockage du progrès des joueurs et des meilleurs scores.
 windows.host.default.commands *Les commandes d'host sont désactivées dans ce mode: /noclip /god /smite etc
 windows.host.rewards Activer les récompenses KR force le serveur à utiliser les paramètres par défaut et permet aux joueurs de gagner des KR depuis les fonds de la map:
@@ -888,7 +888,7 @@ social.trades.message ACTIVER LES MESSAGES D'ÉCHANGES DANS LES PARAMÈTRES
 social.trades.warning Vous ne recevez rien en échange!
 social.trades.accept Êtes-vous sûr de vouloir accepter cette offre?
 stats.airdrops Largage aérien de KR
-stats.airdrops.stolen Airdrops Stolen Largages aériens de KR volés
+stats.airdrops.stolen Largages aériens de KR volés
 settings.quality.flapAnim Animation du rabat de sniper
 chall.name.hs  Obtenez {0} tirs a la tête {1}
 chall.name.ns  Obtenez {0} tirs sans viser {1}
@@ -902,13 +902,13 @@ chall.name.wb  Obtenez {0} éliminations à travers un mur {1}
 chall.name.airk Obtenez {0} éliminations en l'air {1}
 chall.name.lns Obtenez {0} tirs de loin
 chall.name.tk  Obtenez {0} éliminations turbo {1}
-chall.name.drk Obtenez {0} éliminations derapantes {1}
+chall.name.drk Obtenez {0} éliminations dérapantes {1}
 chall.name.kstk Obtenez une serie d'éliminations de {0} {1}
 chall.name.w Gagnez {0} matchs
 chall.name.d Mourrez {0} fois
 chall.name.score Obtenez {0} score
 chall.name.dmg Faire {0} dégâts {1}
 chall.name.bzk Get {0} buzz kills {1}
-chall.name.cc Obtenez {0} échappés-belles {1}
-chall.name.rk Faire {0} éliminations de revenge {1}
+chall.name.cc Obtenez {0} échappées-belles {1}
+chall.name.rk Faire {0} éliminations de vengeance {1}
 `;
