@@ -51,8 +51,8 @@ generic.kills Mga Pinatay
 generic.deaths Mga Pagkamatay
 generic.kdr KDR
 generic.time Oras
-generic.logout Pag-Logout
-generic.logout.sessions Pag-logout sa lahat ng sesyon
+generic.logout Mag-Logout
+generic.logout.sessions Mag-logout sa lahat ng sesyon
 generic.username Username
 generic.password  Illagay ang password
 generic.register Mag-parehistro
@@ -150,7 +150,7 @@ settings.quality.flap Takip ng Sniper
 settings.quality.lowSpec Mababang Spec
 settings.quality.ambient Ambient na Shading
 settings.quality.ambientOld Lumang pag-shade (kung posible)
-settings.quality.textureAnim Buhay na animasyon ngTextura
+settings.quality.textureAnim Animasyon ng Textura
 settings.quality.objectAnim Mga Animasyong Bagay
 settings.quality.screenShake Pag-alog ng Screen
 settings.quality.weaponShine Kintab ng Armas
@@ -543,7 +543,7 @@ windows.controls.taunt1 Panukso (Sipol)
 windows.controls.taunt2 Panukso (Utot)
 windows.controls.taunt3 Panukso (Meme)
 windows.controls.taunt4 Panukso (WTF ano 'to?)
-windows.controls.taunt5 Panukso (Ngayon na!!)
+windows.controls.taunt5 Panukso (Ngayon na!)
 windows.controls.prop Piliin ang Prop (Hold M1)
 windows.controls.propRand Piliin ang kahit anong prop
 windows.controls.propRot I-toggle ang rotasyon
@@ -670,10 +670,10 @@ mod.error Error sa mod!
 mod.loading Naglo-load ng mod ...
 mod.invalid Imbalidong mod file!
 matchmaker.full PUNO
-matchmaker.GameFull Puno ang laro.
+matchmaker.GameFull Puno na ang laro.
 matchmaker.NoServersMatchQuery NAG-UUPDATE ANG LARO
-matchmaker.InvalidGameId Hindi nahanap ang laro
-matchmaker.NoAvailableServers Puno ang mga server
+matchmaker.InvalidGameId Hindi mahanap ang laro
+matchmaker.NoAvailableServers Puno na ang mga servers
 matchmaker.GameIssue Hindi matukoy ang isyu
 adblocker Tanggalin ang iyong ad-blocker upang makatanggap ng mga libreng KR.
 ad-failed Hindi Nag-load ang Ad. Subukang muli.
@@ -829,14 +829,14 @@ mod.reset.1 Mga Bagay sa Mapa hindi ma-reset
 windows.profile.picture Palitan ang Larawan
 stats.assists Mga Pagtulong/Assist
 stats.nukes Mga Nuke
-stats.melee Tinamaan ng talim
+stats.melee Nasaksak
 stats.fistkills Pagbugbog
-stats.thrownkills Mga binatuhan ng patalim
+stats.thrownkills Nabatuhan ng talim
 stats.headshots Mga headshot
 stats.wallbangs Mga wallbang
 stats.crouches Crouches
-stats.sprays Nilagay na spray
-stats.kpd Matulunging Report sa KPD
+stats.sprays Mga pag-spray
+stats.kpd Matulunging KPD report
 windows.host.default.settings Ang pagpapagana ng Default na Mga Setting ay nagbibigay-daan para sa pagtatago ng Player Progress at Highscores
 windows.host.default.commands * Ang Mga Command ng Host ay Hindi Pinapagana sa mode na ito: / noclip / god / smite atbp
 windows.host.rewards Pinipilit ng pagpapagana ng KR Rewards ang Server na gumamit ng Default na Mga Setting
@@ -888,7 +888,7 @@ social.trades.message Payagan ang mga Trade Message at Pag-alok sa Settings
 social.trades.warning Wala kang makukuhang kagamitan sa Pag-alok na ito!
 social.trades.accept Nais mo bang tanggapin ang Pag-alok na ito?
 stats.airdrops Pakete ng KR
-stats.airdrops.stolen Ninakaw - Airdrops
+stats.airdrops.stolen Ninakawang Airdrops
 settings.quality.flapAnim Animasyon ng Sniper flap
 chall.name.hs Pumatay ng {0} beses na tumama sa ulo {1}
 chall.name.ns chall.name.ns Pumatay ng {0} beses na walang scope {1}
@@ -910,5 +910,5 @@ chall.name.score Makamit ang {0} puntos
 chall.name.dmg Tumira ng {0} na damage {1}
 chall.name.bzk Manira ng killstreak ng {0} beses {1}
 chall.name.cc Ikaw ay muntikang mamatay {0} na beses {1}
-chall.name.rk Makamit ang {0} na higanti
+chall.name.rk Makamit ang {0} na paghiganti
 `;
