@@ -217,16 +217,16 @@ settings.interface.healthColE Color de la barra de salud del enemigo
 settings.interface.xpBarCol Color de la barra de experiencia
 settings.interface.xpBarCol2 XP Bar Color 2
 settings.interface.xpBarOpac Opacidad de la barra de experiencia
-settings.medals.header Medals
-settings.medals.show Show Medals
-settings.medals.classic Classic Medals
-settings.medals.sound Play Medal Sounds
-settings.medals.scale Medal Scale
+settings.medals.header Medallas
+settings.medals.show Ver medallas
+settings.medals.classic Medallas clasicas
+settings.medals.sound Escuchar sonido de las medallas
+settings.medals.scale Tamaño de la medalla
 settings.medals.xOff Medal X Offset
 settings.medals.yOff Medal Y Offset
 settings.crosshair.header Retícula
 settings.crosshair.type Tipo
-settings.crosshair.type.1 Dynamic
+settings.crosshair.type.1 Dinamico
 settings.crosshair.type.2 Personalizado
 settings.crosshair.type.3 En capas
 settings.crosshair.type.4 Imagen
@@ -239,8 +239,8 @@ settings.crosshair.style.3 Cuadrado vacío
 settings.crosshair.style.4 Cuadrado sólido
 settings.crosshair.image Imagen
 settings.crosshair.image.paste Imagen de retícula
-settings.crosshair.image.width Image Width
-settings.crosshair.image.height Image Height
+settings.crosshair.image.width Ancho de la imagen
+settings.crosshair.image.height altitud de la imagen
 settings.crosshair.always Mostrar siempre
 settings.crosshair.color Color de retícula
 settings.crosshair.shadow.color Color de sombra
@@ -252,26 +252,26 @@ settings.crosshair.dot Punto
 settings.crosshair.opacity.use Usar opacidad personalizada
 settings.crosshair.opacity.custom Opacidad personalizada
 settings.crosshairm.header Crosshair (Throwing)
-settings.crosshairm.type Type
-settings.crosshairm.type.1 Shapes
-settings.crosshairm.type.2 Image
+settings.crosshairm.type Tipo
+settings.crosshairm.type.1 Formas
+settings.crosshairm.type.2 Imagen
 settings.crosshairm.type.3 Precision
-settings.crosshairm.style Style
+settings.crosshairm.style Stilo
 settings.crosshairm.style.0 Cross
 settings.crosshairm.style.1 Hollow Circle
 settings.crosshairm.style.2 Solid Circle
 settings.crosshairm.style.3 Hollow Square
 settings.crosshairm.style.4 Solid Square
 settings.crosshairm.image Image
-settings.crosshairm.image.paste Crosshair Image
-settings.crosshairm.image.width Image Width
-settings.crosshairm.image.height Image Height
-settings.crosshairm.always Always Show
+settings.crosshairm.image.paste Imagen reticula
+settings.crosshairm.image.width Ancho de la imagen
+settings.crosshairm.image.height Alto de la imagen
+settings.crosshairm.always Ver siempre
 settings.crosshairm.color Color
-settings.crosshairm.shadow.color Shadow Color
+settings.crosshairm.shadow.color Color de la sombra
 settings.crosshairm.shadow.thickness Shadow Thickness
-settings.crosshairm.size Size
-settings.crosshairm.thickness Thickness
+settings.crosshairm.size Tamaño
+settings.crosshairm.thickness Anchura
 settings.crosshairm.gap Gap
 settings.crosshairm.dot Dot
 settings.crosshairm.opacity.use Use Custom Opacity
@@ -888,27 +888,27 @@ social.trades.message ACTIVA LOS MENSAJES DE INTERCAMBIO EN LAS CONFIGURACIONES
 social.trades.warning No obtienes objetos de este intercambio!
 social.trades.accept Estás seguro de qué quieres aceptar esta oferta?
 stats.airdrops Paquetes de KR
-stats.airdrops.stolen Airdrops Stolen
+stats.airdrops.stolen Paquetes de KR robados
 settings.quality.flapAnim Animación de Mirilla de Francotirador
 chall.name.hs Get {0} headshots {1}
 chall.name.ns Get {0} no-scopes {1}
 chall.name.ls Get {0} legshots {1}
-chall.name.tmk Get {0} throwing knife kills {1}
-chall.name.fb Get {0} first bloods {1}
-chall.name.mk Get {0} melee kills {1}
-chall.name.fk Get {0} fist kills {1}
+chall.name.tmk Get {0} Asesinatos lanzando cuchillo {1}
+chall.name.fb Get {0} Primera Muerte {1}
+chall.name.mk Get {0} asesinato cuerpo a cuerpo {1}
+chall.name.fk Get {0} asesinato a puños{1}
 chall.name.qs Get {0} quickscopes {1}
 chall.name.wb Get {0} wallbangs {1}
-chall.name.airk Get {0} mid-air kills {1}
-chall.name.lns Get {0} longshots {1}
-chall.name.tk Get {0} turbo kills {1}
-chall.name.drk Get {0} drift kills {1}
-chall.name.kstk Get a {0} killstreak {1}
-chall.name.w Win {0} matches
+chall.name.airk Get {0} Asesinato en medio del aire {1}
+chall.name.lns Get {0} Tiro a larga distancia {1}
+chall.name.tk Get {0} Asesinato turbo {1}
+chall.name.drk Get {0} Asesinato derrapando {1}
+chall.name.kstk Get a {0} asesinatos seguidos {1}
+chall.name.w Win {0} partidas
 chall.name.d Die {0} times
 chall.name.score Get {0} score
-chall.name.dmg Deal {0} damage {1}
+chall.name.dmg Deal {0} Daño {1}
 chall.name.bzk Get {0} buzz kills {1}
 chall.name.cc Get {0} close-calls {1}
-chall.name.rk Deal {0} revenge kills {1}
+chall.name.rk Deal {0} Venganzas {1}
 `;
