@@ -893,9 +893,9 @@ settings.quality.flapAnim Animazione copri ottica cecchino
 chall.name.hs Fai {0} colpi alla testa {1}
 chall.name.ns Fai {0} no-scope {1}
 chall.name.ls Fai {0} colpi alle gambe {1}
-chall.name.mk Fai {0} uccisioni corpo a corpo {1}
 chall.name.tmk Fai {0} uccisioni lanciando il coltello {1}
 chall.name.fb Get {0} first bloods {1}
+chall.name.mk Fai {0} uccisioni corpo a corpo {1}
 chall.name.fk Fai {0} uccisioni a mani nude {1}
 chall.name.qs Fai {0} quickscopes {1}
 chall.name.wb Fai {0} wallbangs {1}
