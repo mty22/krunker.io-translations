@@ -217,11 +217,11 @@ settings.interface.healthColE Couleur de vie des ennemis
 settings.interface.xpBarCol Couleur de la barre d'xp
 settings.interface.xpBarCol2 Couleur 2 de la barre d'xp
 settings.interface.xpBarOpac Opacité de la barre d'xp
-settings.medals.header Medals
-settings.medals.show Show Medals
-settings.medals.classic Classic Medals
-settings.medals.sound Play Medal Sounds
-settings.medals.scale Medal Scale
+settings.medals.header Médailles
+settings.medals.show Afficher les médailles
+settings.medals.classic Médailles classiques
+settings.medals.sound Jouer le son des médailles
+settings.medals.scale Barème des médailles
 settings.medals.xOff Medal X Offset
 settings.medals.yOff Medal Y Offset
 settings.crosshair.header Curseur
@@ -352,7 +352,7 @@ settings.audio.dialogue Volume des actions
 settings.viewmodel.header Afficher le modèle
 settings.viewmodel.vmSetts Voir les paramètres de modèle
 settings.viewmodel.fov Champ de vision
-settings.viewmodel.fps Champ de vision de l
+settings.viewmodel.fps Champ de vision de l'arme
 settings.viewmodel.bobbing Balancement de l’arme
 settings.viewmodel.leaning Inclinaison de l’arme
 settings.viewmodel.show.primary Afficher l’arme principale
@@ -480,10 +480,10 @@ windows.loadout.color.chat Couleur du pseudo dans le chat
 windows.loadout.color.hair Couleur de cheveux
 windows.loadout.dye Teinture
 windows.loadout.pet Animal de compagnie
-windows.loadout.wrist Wrist
+windows.loadout.wrist Bracelet
 windows.loadout.stat Stat de la carte d’élimination
 windows.loadout.flag Drapeau
-windows.loadout.badge Custom Badge
+windows.loadout.badge Badge personnalisé
 windows.mods.drop Glissez un dossier de mod ici ou cliquez
 windows.mods.paste Lien URL du mod
 windows.mods.load Charger un mod
@@ -545,9 +545,9 @@ windows.controls.taunt3 Taunt (Meme)
 windows.controls.taunt4 Taunt (WTF is This?)
 windows.controls.taunt5 Taunt (Right Now!)
 windows.controls.prop Selectionner l'objet (Tenir appuyé)
-windows.controls.propRand Select Random Prop
+windows.controls.propRand Sélectionnez un accessoire aléatoire
 windows.controls.propRot Toggle Rotation
-windows.controls.propRotR Reset Rotation
+windows.controls.propRotR Réinitialiser la rotation
 windows.controls.premium0 Noclip
 windows.controls.premium1 Invincibilité
 windows.controls.premium2 Suicide
@@ -594,7 +594,7 @@ windows.clans.view Voir les clans
 windows.clans.join Rejoindre un clan
 windows.clans.login pour créer ou rejoindre un clan !
 windows.store.header Boutique
-windows.store.spin {0} Spin
+windows.store.spin {0} Tourner la roue
 windows.store.agree En achetant, vous acceptez les {0}termes d’utilisation
 windows.store.purchase Acheter des KR
 windows.store.voucher Entrer un code
@@ -611,7 +611,7 @@ windows.store.amount {0} KR sur votre compte
 windows.store.login pour acheter et obtenir des objets de la boutique !
 windows.store.purchasing En cours d’achat...
 windows.store.unboxed {0}{1} a obtenu
-windows.store.found {0}{1} found
+windows.store.found {0}{1} a trouvé
 windows.trade.header Échange
 windows.scope.header Sélectionner le viseur
 windows.premium.header Premium
@@ -728,10 +728,10 @@ server.config.thirdPerson Troisième personne
 server.config.requireCaptcha Captcha requis
 server.config.nameTags Cacher les pseudos
 server.config.kCams Kill Cams
-server.config.aAnon Allow Anonymous
+server.config.aAnon Autoriser les joueurs anonymes
 server.config.noReload Munitions illimitées
 server.config.private Privé
-server.config.krRewards KR Rewards
+server.config.krRewards Récompenses KR
 server.config.forceDefault Forcer les paramètres par défaut
 server.config.warmupTime Temps d’échauffement
 server.config.gamRounds Manches
@@ -753,7 +753,7 @@ server.config.tmSize Taille d'équipe
 server.config.fallDmg Dégat de chute
 server.config.fallDmgThr Seuil de dégat de chute
 server.config.noDraws Pas d'égalité
-server.config.bstOfR Best of
+server.config.bstOfR Meilleur de
 server.config.chrgWeps Armes de charge
 social.login Connexion / Inscription
 social.login.failed Connexion échouée
@@ -785,7 +785,7 @@ social.market.waist Bassin
 social.market.face Visage
 social.market.shoe Chaussure
 social.market.pet Animal de compagnie
-social.market.wrist Wrist Item
+social.market.wrist Objet pour le poignet
 social.market.melee Mêlée
 social.market.spray Tag
 social.market.dye Teinture
@@ -860,7 +860,7 @@ item.view.more Plus d'informations
 item.sell.cant Cet objet ne peut pas être vendu.
 item.sell.cant.krunker Item cant be sold on krunker.
 item.sell.quick Êtes-vous sûr de vouloir vendre instantanément {0}?
-item.sell.destroy Are you sure you want to Destroy {0}?
+item.sell.destroy Êtes-vous sûr de vouloir détruire {0}?
 social.profile.stats Stats globales
 social.profile.class Stats de classe
 social.profile.sales Ventes
@@ -888,27 +888,27 @@ social.trades.message ACTIVER LES MESSAGES D'ÉCHANGES DANS LES PARAMÈTRES
 social.trades.warning Vous ne recevez rien en échange!
 social.trades.accept Êtes-vous sûr de vouloir accepter cette offre?
 stats.airdrops Paquets de KR
-stats.airdrops.stolen Airdrops Stolen
+stats.airdrops.stolen Airdrops volés
 settings.quality.flapAnim Animation du rabat de sniper
-chall.name.hs Get {0} headshots {1}
-chall.name.ns Get {0} no-scopes {1}
-chall.name.ls Get {0} legshots {1}
-chall.name.tmk Get {0} throwing knife kills {1}
-chall.name.fb Get {0} first bloods {1}
-chall.name.mk Get {0} melee kills {1}
-chall.name.fk Get {0} fist kills {1}
-chall.name.qs Get {0} quickscopes {1}
-chall.name.wb Get {0} wallbangs {1}
-chall.name.airk Get {0} mid-air kills {1}
-chall.name.lns Get {0} longshots {1}
-chall.name.tk Get {0} turbo kills {1}
-chall.name.drk Get {0} drift kills {1}
-chall.name.kstk Get a {0} killstreak {1}
-chall.name.w Win {0} matches
-chall.name.d Die {0} times
-chall.name.score Get {0} score
-chall.name.dmg Deal {0} damage {1}
-chall.name.bzk Get {0} buzz kills {1}
-chall.name.cc Get {0} close-calls {1}
-chall.name.rk Deal {0} revenge kills {1}
+chall.name.hs Obtenir {0} headshots {1}
+chall.name.ns Obtenir {0} no-scopes {1}
+chall.name.ls Obtenir {0} legshots {1}
+chall.name.tmk Obtenir {0} kills en lançant le couteau {1}
+chall.name.fb Obtenir {0} premiers kills {1}
+chall.name.mk Obtenir {0} melee kills {1}
+chall.name.fk Obtenir {0} fist kills {1}
+chall.name.qs Obtenir {0} quickscopes {1}
+chall.name.wb Obtenir {0} wallbangs {1}
+chall.name.airk Obtenir {0} mid-air kills {1}
+chall.name.lns Obtenir {0} tir de loin {1}
+chall.name.tk Obtenir {0} turbo kills {1}
+chall.name.drk Obtenir {0} drift kills {1}
+chall.name.kstk Obtenir a {0} killstreak {1}
+chall.name.w Gagner {0} parties
+chall.name.d Mourir {0} fois
+chall.name.score Obtenir {0} points
+chall.name.dmg Faire {0} dégâts {1}
+chall.name.bzk Obtenir {0} buzz kills {1}
+chall.name.cc Obtenir {0} close-calls {1}
+chall.name.rk Obtenir {0} revenge kills {1}
 `;
