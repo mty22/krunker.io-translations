@@ -34,18 +34,18 @@ generic.off Off
 generic.defeat PAGKATALO!
 generic.victory TAGUMPAY! 
 generic.matchover Pagtatapos ng laro
-generic.matchaband Inabandonang Paglaro
+generic.matchaband Inabandonang paglaro
 generic.follow Follow
 generic.unfollow I-Unfollow
-generic.followers Mga Tagasunod
-generic.following Mga Sinusunod
-generic.games Mga Laro
+generic.followers Followers
+generic.following Following
+generic.games Mga laro
 generic.wins Panalo
 generic.lose Pagkatalo 
 generic.clan Samahan
 generic.games.played Bilang ng nalaro
-generic.games.won Mga Panalo
-generic.games.lost  Mga Pagtalo
+generic.games.won Mga panalo
+generic.games.lost  Mga pagtalo
 generic.timep Oras na Naglaro
 generic.kills Mga Pinatay
 generic.deaths Mga Pagkamatay
@@ -55,7 +55,7 @@ generic.logout Mag-Logout
 generic.logout.sessions Mag-logout sa lahat ng sesyon
 generic.username Username
 generic.password  Illagay ang password
-generic.register Mag-parehistro
+generic.register Magparehistro
 generic.login Mag log-in
 generic.accuracy Accuracy
 player.waiting Naghihintay ng mga manlalaro
@@ -82,9 +82,9 @@ settings.import iangkat
 settings.export iluwas
 settings.none Walang nahanap na mga settings
 settings.backup Mga back-up settings
-settings.controls.change Lokal na Rehiyon 
+settings.controls.change Lokal na rehiyon 
 settings.controls.press Pindutin ang anumang key
-settings.local.header Localization <span id="requiresRestart"><span style="color: #eb5656">*</span> nangangailangan ng restart</span>
+settings.local.header Lokalisasyon <span id="requiresRestart"><span style="color: #eb5656">*</span> nangangailangan ng restart</span>
 settings.local.region Default na Rehiyon
 settings.local.lang Wika
 settings.network.header Network
@@ -93,7 +93,7 @@ settings.network.netRate Network Rate sa (Hz)
 settings.network.lagComp Paghabol sa Lag
 settings.network.optNet Optimized Networking
 settings.popup.header Mga Popups
-settings.experimental.header Experimental na Header
+settings.experimental.header Experimental
 settings.experimental.holiday Holiday Effects
 settings.experimental.aimFreezeFix Pag-ayos ng Aim Freeze
 settings.experimental.mouseFlickFix Pag-ayos ng Mouse Flick
@@ -183,16 +183,16 @@ settings.interface.showTradeMsg Ipakita ang Mga Mensahe sa Kalakal
 settings.interface.hideNonTrade Itago ang mga kagamitang hindi pwedeng ikalakal
 settings.interface.hp Mga Dynamic na HP Bar
 settings.interface.dmgScale Lawak ng Pinsala 
-settings.interface.killf Ipakita kung sino ang pumatay sa kapwa-manlalaro
+settings.interface.killf Ipakita kung sino ang pumatay sa kakampi
 settings.interface.ping Ipakita ang Ping
 settings.interface.net-stats Ipakita ang Mga Network Stats
 settings.interface.fps Ipakita ang FPS
 settings.interface.deaths Ipakita ang bilang na namatay ang Manlalaro
 settings.interface.kd Ipakita ng pag-iiba sa bilang ng pinatay at namatay
-settings.interface.kills Ipakita ang Bilang ng Kalabang Pinatay
-settings.interface.streak Ipakita ang Walang-tigil na Sunod-Sunod na pagpatay
-settings.interface.score Ipakita ang Bilang ng Iskor
-settings.interface.spectators Ipakita ang Bilang ng nanonood o sumasaksi sa laro
+settings.interface.kills Ipakita ang bilang ng kalabang pinatay
+settings.interface.streak Ipakita ang killstreak
+settings.interface.score Ipakita ang puntos o iskor
+settings.interface.spectators Ipakita ang bilang ng nanonood ng laro
 settings.interface.speed Ipakita ang bilis ng paggalaw
 settings.interface.speedOffX Bilis ng X Offset
 settings.interface.speedOffY Bilis ng Y Offset
@@ -201,7 +201,7 @@ settings.interface.speedScale Scale ng Bilis
 settings.interface.speedColor Kulay ng Bilis (Kasalukuyan)
 settings.interface.speedColorMax Kulay ng Bilis (Max)
 settings.interface.hideNames ipakita ang Pangalan
-settings.interface.hideNames.team Kasamahan Lamang
+settings.interface.hideNames.team Kakampi Lamang
 settings.interface.hideNames.enemy Kalaban Lamang
 settings.interface.hideNames.all Lahat ng Pangalan
 settings.interface.nametagStyle Estilo ng Pangalan
@@ -348,7 +348,7 @@ settings.audio.player Bolyum ng Player
 settings.audio.skin Bolyum ng Manlalaro
 settings.audio.ui UI Bolyum ng UI
 settings.audio.asset Bolyum ng Asset
-settings.audio.dialogue Bolyum ng dialogo
+settings.audio.dialogue Bolyum ng diyalogo
 settings.viewmodel.header Tingnan ang Modelo
 settings.viewmodel.vmSetts Settings ng View Model
 settings.viewmodel.fov Field of View (Sakop ng nakikita)
@@ -492,7 +492,7 @@ windows.mods.header Manager ng Mod
 windows.mods.guide Patnubay sa Mod
 windows.mods.list Listahan ng Mods
 windows.mods.load.header Mga Load na Mod
-windows.mods.publish I-akda ang Mod
+windows.mods.publish I-publish ang Mod
 windows.mods.viewer Tignan at Suriin ang Mod
 windows.account.header Account
 windows.account.recover Upang mabawi ang mga account/s, I-contact ang <a>recovery@yendis.ch</a>
@@ -552,14 +552,14 @@ windows.controls.premium0 Naka noclip
 windows.controls.premium1 Naka godmode
 windows.controls.premium2 Patayin
 windows.controls.premium3 Smite
-windows.controls.reset Balik-Simula ang posisyon (Paligsahan at Parkour)
+windows.controls.reset Balik sa simula (Paligsahan at Parkour)
 windows.controls.pretend Itago ang Laro
 windows.host.header Host ng Custom na Laro
 windows.host.maps Pag-setup ng Server
 windows.host.cmaps Laro mula sa Komunidad
 windows.host.raw Raw Data ng Laro
 windows.host.modes Piliin ang Uri ng Laro 
-windows.host.classes Piliin ang mga Gagamiting Uri ng Armas
+windows.host.classes Piliin ang Weapon Classes
 windows.host.settings Mga Settings ng Server
 windows.host.preset Handang Settings ng Host
 windows.host.preset.load Loading ang mga hinandang settings...
@@ -592,13 +592,13 @@ windows.clans.create Lumikha ng Samahan
 windows.clans.name Pangalan ng Samahan
 windows.clans.view Tignan ang mga Samahan
 windows.clans.join Sumali sa Samahan
-windows.clans.login Mag-login upang makagawa o makasali sa isang Samahan!
+windows.clans.login Mag-login upang gumagawa o sumali sa isang Samahan!
 windows.store.header Tindahan
 windows.store.spin {0} Premyo
 windows.store.agree Sa pamamagitan ng pagbili sumasang-ayon ka sa {0} Mga Tuntunin
 windows.store.purchase Bumili ng KR
 windows.store.voucher Gamitin ang voucher
-windows.store.voucherinfo Kumuha ng mga Voucher mula sa maraming mga Streamer at kaganapan
+windows.store.voucherinfo Kumuha ng mga voucher mula sa maraming mga Streamer at kaganapan
 windows.store.market Merkado
 windows.store.market2 Krunker Merkado
 windows.store.premium Bumili ng Premium
@@ -718,17 +718,17 @@ server.config.selTeam Piliin ang Pangkat
 server.config.allowSpect Panonood ng Laro
 server.config.killRewards Gantimpala kapag nakapatay
 server.config.headshotOnly Mga headshot Lamang
-server.config.noSecondary Huwag gumamit ng mga Sekundarya
-server.config.noStreaks Huwag paganahin ang mga Streaks
+server.config.noSecondary Bawal ang mga Sekundarya
+server.config.noStreaks Bawal ang killstreaks
 server.config.canSlide Pagdududulas
-server.config.wallJP Lakas ng paglukso sa mga pader
-server.config.autoJump Tumalon nang Awtomatiko
-server.config.bDrop Hulog ng Bala
+server.config.wallJP Lakas ng walljump
+server.config.autoJump Awtomatikong Pagtatalon
+server.config.bDrop Mga Bullet Drops
 server.config.thirdPerson Tingin ng 3rd Person View
 server.config.requireCaptcha Kailangan ng CAPTCHA
 server.config.nameTags Itago ang mga Nametag
 server.config.kCams Mga Kill Cams
-server.config.aAnon Allow Anonymous
+server.config.aAnon Payagan ang mga Anonymous
 server.config.noReload Walang Reload
 server.config.private Pribado
 server.config.krRewards Mga Gantimpala ng KR
@@ -834,16 +834,16 @@ stats.fistkills Pagbugbog
 stats.thrownkills Nabatuhan ng talim
 stats.headshots Mga headshot
 stats.wallbangs Mga wallbang
-stats.crouches Crouches
+stats.crouches Mga pagyuko
 stats.sprays Mga pag-spray
 stats.kpd Matulunging KPD report
 windows.host.default.settings Ang pagpapagana ng Default na Mga Setting ay nagbibigay-daan para sa pagtatago ng Player Progress at Highscores
 windows.host.default.commands * Ang Mga Command ng Host ay Hindi Pinapagana sa mode na ito: / noclip / god / smite atbp
 windows.host.rewards Pinipilit ng pagpapagana ng KR Rewards ang Server na gumamit ng Default na Mga Setting
-windows.store.wheels.sub Subukan ang iyong kapalaran at paikutin ang Prize wheel para sa isang pagkakataon upang manalo ng ilang mga bagong disenyo!
-windows.store.currency * Ang mga presyo sa USD ay maaaring mai-convert sa iyong lokal na pera sa isang rate ng palitan na tinukoy ng provider ng pagbabayad o bangko
+windows.store.wheels.sub Subukan ang iyong kapalaran at paikutin ang Papremyo para sa isang pagkakataon upang manalo ng ilang mga bagong disenyo!
+windows.store.currency * Ang mga presyo sa USD ay maaaring I-convert bilang Philippine Peso ayon sa halagang tinukoy ng inyong bangko o provider.
 windows.store.creator Tangkilikin ang inyong paboritong Content Creator o Streamer sa pamamagitan ng 'Creator Code'!
-windows.chall.customs Ang mga hamon o challenge ay hindi nakukumpleto sa mga kustom na laro
+windows.chall.customs Ang mga hamon o challenge ay hindi nakukumpleto sa mga kustom na laro.
 twitch.link Siguradong nais mo bang i-link ang Twitch account?
 twitch.unlink Siguradong nais mo bang i-unlink ang iyong Twitch account?
 windows.clan.leave Siguradong nais mo bang umalis sa hukbo/samahan ninyo?
@@ -857,12 +857,12 @@ windows.playerlist.unflag Sigurado ka bang nais mong I-Unflag si {0}?
 windows.playerlist.punish Sigurado ka bang nais mong parusahin ang manlalarong si {0}?
 item.view.open Buksan ang Model Viewer
 item.view.more Iba pang Impormasyon
-item.sell.cant Hindi mabenta ang item na ito.
+item.sell.cant Hindi mabenta ang kagamitang ito.
 item.sell.cant.krunker Hindi mabenta ang kagamitan sa Krunker
 item.sell.quick Sigurado ka bang ibebenta mo ito agad {0}?
 item.sell.destroy item.sell.destroy Siguradong nais mo itong sirain {0}?
 social.profile.stats Kabuoang statistika
-social.profile.class Statistika ng mga Klase
+social.profile.class Statistika ng mga Classes
 social.profile.sales Mga Binebenta
 social.profile.sales.market Mga Binebenta sa Merkado
 social.profile.skins Mga Skins o Disenyo [{0}]
