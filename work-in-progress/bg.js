@@ -13,7 +13,7 @@ menu.btn.host Хостни игра
 menu.btn.browser Сървъри
 generic.wait Моля почакайте...
 generic.loading ЗАРЕЖДАНЕ...
-generic.none None
+generic.none Нито един
 generic.connecting СВЪРЗВАНЕ...
 generic.select Избери
 generic.delete Изтрий
@@ -49,7 +49,7 @@ generic.games.lost Загубени Игри
 generic.timep Играно Време
 generic.kills Убийства
 generic.deaths Умирания
-generic.kdr KDR
+generic.kdr КСУ
 generic.time Време
 generic.logout Излез от профила си
 generic.logout.sessions Изход от всички сесии
@@ -98,16 +98,16 @@ settings.experimental.aimFreezeFix Поправи замръзването на 
 settings.experimental.mouseFlickFix Поправи Flick-ването на мишката
 settings.experimental.shaderRendering Рендиране на инстацията
 settings.client.header Client
-settings.client.unlimitedFrames Unlimited FPS
-settings.client.gameCap Game Capture
-settings.client.experimental Experimental Features
+settings.client.unlimitedFrames Неограничен кадрова честота
+settings.client.gameCap Запис на играта
+settings.client.experimental Експериментални предимства
 settings.client.discordRPC Discord RPC
 settings.client.resourceSwapper Resource Swapper
-settings.client.clearCache Clear Cache
+settings.client.clearCache Изтрий кеш-памет
 settings.client.resetSettings Reset Client Settings
 settings.client.acceleratedCanvas Accelerated Canvas
 settings.client.angleBackend ANGLE Graphics Backend
-settings.client.colorProfile Color Profile
+settings.client.colorProfile Цвят на профила
 settings.dev.header Девелопър
 settings.dev.forceUpdate Принудително актуализиране на скинове
 settings.dev.forceRegen Винаги регенерирайте играча
@@ -144,16 +144,16 @@ settings.quality.yourTrails Вашите стъпки
 settings.quality.mflash Показване на огъня при стреляне
 settings.quality.flap Sniper Flap
 settings.quality.lowSpec Ниски спецификации
-settings.quality.ambient Ambient Shading
-settings.quality.ambientOld Old Shading (когато е възможно)
+settings.quality.ambient Околни сянки
+settings.quality.ambientOld Стари сенки (когато е възможно)
 settings.quality.textureAnim Анимация на текстурите
 settings.quality.objectAnim Анимация на обектите
 settings.quality.screenShake Клатене на екрана
 settings.quality.weaponShine Блестящи оръжия
-settings.quality.rendGamma Gamma
+settings.quality.rendGamma Гама
 settings.quality.lighting Светлина
 settings.quality.showExplo Показвай експлозии
-settings.quality.aspectRatio Aspect Ratio
+settings.quality.aspectRatio Формат на изображение
 settings.post.header Постът се обработва
 settings.post.post Постът се обработва
 settings.post.bloom Bloom
@@ -210,14 +210,14 @@ settings.interface.healthColT Nametag Health Color Team
 settings.interface.healthColE Nametag Health Color Enemy
 settings.interface.xpBarCol Цвят на лентата с XP
 settings.interface.xpBarOpac Прозрачност на лентата с XP
-settings.crosshair.header Crosshair
+settings.crosshair.header Прицел
 settings.crosshair.type Тип
-settings.crosshair.type.2 Custom
+settings.crosshair.type.2 Персонализиран
 settings.crosshair.type.3 Layered
-settings.crosshair.type.4 Image
-settings.crosshair.type.5 Precision
-settings.crosshair.style Style
-settings.crosshair.style.0 Cross
+settings.crosshair.type.4 Картина
+settings.crosshair.type.5 Точност
+settings.crosshair.style Стил
+settings.crosshair.style.0 Кръст
 settings.crosshair.style.1 Празен кръг
 settings.crosshair.style.2 Запълнен кръг
 settings.crosshair.style.3 Празен квадрат
@@ -245,27 +245,27 @@ settings.hitmarker.animD Големина на Anim
 settings.hitmarker.animS Скорост на Anim
 settings.hitmarker.hitm Покажи
 settings.hitmarker.hitmFad Fade Speed
-settings.hitmarker.custom Изображение на Hitmarker
-settings.hitmarker.custom.paste URL изображение на Hitmarker
+settings.hitmarker.custom Изображение на Хитмаркер 
+settings.hitmarker.custom.paste URL изображение на Хитмаркер
 settings.onKillS.style.0 По подразбиране
 settings.onKillS.style.1 Намалете резолюцията
-settings.onKillS.style.2 Намалете FOV
-settings.onKillS.style.3 Увеличете FOV
+settings.onKillS.style.2 Намалете Поле зрениe
+settings.onKillS.style.3 Увеличете Поле зрениe
 settings.serverb.header Браузер на сървъра
-settings.serverb.oldBrowser Privacy browser
+settings.serverb.oldBrowser Браузър за поверителност
 settings.serverb.defaultRegionOnly Регион по подразбиране
-settings.gameprivacy.header Gameplay Privacy
-settings.gameprivacy.streamer Streamer Mode
-settings.gameprivacy.anon Anonymous Mode
+settings.gameprivacy.header Поверителност на геймплей
+settings.gameprivacy.streamer Стриймърски режим
+settings.gameprivacy.anon Анонимен режим
 settings.gameprivacy.hideGameTitle Скрий заглавието а играта
-settings.gameplay.header Gameplay
+settings.gameplay.header Геймплей
 settings.gameplay.sensitivityX Чуствителност Х
 settings.gameplay.sensitivityY Чуствителност Y
 settings.gameplay.aimsensX Прицелваща чувствителност Х
 settings.gameplay.aimsensY Прицелваща чувствителност Y
-settings.gameplay.challenge Challenge Mode
+settings.gameplay.challenge Предизвикателен режим
 settings.gameplay.invert размени Y-Axis
-settings.gameplay.onkillS On Kill
+settings.gameplay.onkillS На убийство
 settings.gameplay.scrollDir Дирекция на скролването
 settings.controller.header Контролер
 settings.controller.sensitivityX X чуствителност
@@ -279,15 +279,15 @@ settings.controller.triggerThres Trigger Threshold
 settings.controller.vibration Vibration
 settings.controller.gradSpeed Gradual Speed
 settings.controller.invert Invert Y-Axis
-settings.mobile.header Mobile
+settings.mobile.header Мобилен телефон
 settings.mobile.sensitivityX X Sensitivity
 settings.mobile.sensitivityY Y Sensitivity
 settings.mobile.aimsensX Aim X Sensitivity
 settings.mobile.aimsensY Aim Y Sensitivity
-settings.mobile.vibration Vibration
+settings.mobile.vibration Вибрация
 settings.mobile.gradSpeed Gradual Speed
 settings.mobile.invert Invert Y-Axis
-settings.audio.header Audio
+settings.audio.header Аудио
 settings.audio.sound Master Volume
 settings.audio.ambient Ambient Volume
 settings.audio.voice Voice Volume
@@ -298,18 +298,18 @@ settings.audio.ui UI Volume
 settings.audio.asset Asset Volume
 settings.audio.dialogue Action Volume
 settings.viewmodel.header View Model
-settings.viewmodel.fov Field of View
-settings.viewmodel.fps Weapon FOV
+settings.viewmodel.fov Поле зрениe
+settings.viewmodel.fps Поле зрениe на оръжието
 settings.viewmodel.bobbing Weapon Bobbing
 settings.viewmodel.leaning Weapon Leaning
-settings.viewmodel.show.primary Show Primary
-settings.viewmodel.show.secondary Show Secondary
-settings.viewmodel.roundArms Rounded Arms
-settings.viewmodel.show.melee Show Melee
+settings.viewmodel.show.primary Покажи основното оръжие
+settings.viewmodel.show.secondary Покажи второто оръжие
+settings.viewmodel.roundArms Закръглени ръце
+settings.viewmodel.show.melee Покажи острието
 settings.viewmodel.show.ads Hide Weapon on ADS
 settings.viewmodel.toggleAim Toggle Aim
-settings.viewmodel.show.hands Show Hands
-settings.viewmodel.leftHand Left Handed
+settings.viewmodel.show.hands Покажи ръцете
+settings.viewmodel.leftHand Левичар
 settings.viewmodel.aimAnim Weapon Aim Animation
 settings.viewmodel.rot Weapon Rotation
 settings.viewmodel.xOff Weapon X Offset
@@ -322,8 +322,8 @@ settings.viewmodel.adsFovMlt ADS FOV Power
 settings.editing.header Editing
 settings.editing.health.high HUD Health High
 settings.editing.health.low HUD Health Low
-settings.editing.speedLines Speed Lines
-settings.editing.spdLinesCol Speed Lines Color
+settings.editing.speedLines Линии на скоростта
+settings.editing.spdLinesCol Цвят на линиите на скоростта
 settings.editing.score.color Popup Score Color
 settings.editing.score.show Show Popup Score
 settings.editing.score.scale Popup Score Scale
@@ -351,12 +351,12 @@ settings.editing.menuHue Color Hue (UI)
 settings.editing.vignette Vignette
 settings.editing.feedLimit Killfeed Limit
 settings.editing.depth Depth Map
-settings.editing.green Green Screen
-settings.editing.tracercol Bullet Tracers
-settings.editing.tracer Bullet Tracers
+settings.editing.green Зелен екран
+settings.editing.tracercol Маркери на куршумите
+settings.editing.tracer Маркери на куршумите
 settings.editing.tracer.offset Tracer Offset
 settings.shaders.header Shader Inputs
-settings.mods.header Customization
+settings.mods.header Персонализиране
 settings.mods.load Зареди модове
 settings.mods.logo Разреши промени по логото
 settings.mods.auto Автоматичо зареждане на модове
@@ -392,7 +392,7 @@ settings.mods.overlay Изображение за наслагване на иг
 settings.mods.overlay.paste URL на изображението за наслагване на играта
 settings.social.region Статистики на региона
 windows.settings.header Настройки на играта
-windows.mail.header Krunker Mail
+windows.mail.header Пощата на крънкер
 windows.servers.header Сървъри
 windows.servers.none Не бяха намерени игри за присъединяване
 windows.servers.host + Хостни игра
@@ -466,7 +466,7 @@ windows.controls.streak2 Поредица 3
 windows.controls.streak3 Поредица 4
 windows.controls.streak4 Поредица 5
 windows.controls.premium0 Noclip
-windows.controls.premium1 Godmode
+windows.controls.premium1 Режим бог
 windows.controls.premium2 Убий
 windows.controls.premium3 Порази
 windows.controls.reset Рестартиране
@@ -509,46 +509,46 @@ windows.clans.create Създай клан
 windows.clans.name Име на клан
 windows.clans.view Виж кланове
 windows.clans.join Влез в клан
-windows.clans.login to create and join a clan!
-windows.store.header Store
-windows.store.spin {0} Spin
+windows.clans.login за да създадете и да се присъедините към един клан!
+windows.store.header Магазин
+windows.store.spin {0} Въртете
 windows.store.agree By purchasing you agree to the {0}Terms
-windows.store.purchase Purchase KR
+windows.store.purchase Купи KR
 windows.store.voucher Redeem Voucher
 windows.store.voucherinfo Get Vouchers from certain Streamers & Events
-windows.store.market Marketplace
-windows.store.market2 Krunker Market
+windows.store.market Пазар
+windows.store.market2 Пазарът на крънкер
 windows.store.premium Purchase Premium
 windows.store.premium2 Krunker Premium
 windows.store.buyP Choose a Display name & more with
 windows.store.buy Buy and Sell Items on the
 windows.store.wheels Prize Wheels
 windows.store.unlock Unlock new weapon skins and items
-windows.store.amount {0} KR in account
+windows.store.amount {0} KR в сметката
 windows.store.login to buy and unlock items from the store!
-windows.store.purchasing Purchasing...
+windows.store.purchasing Купуване...
 windows.store.unboxed {0}{1} unboxed
-windows.trade.header Trading
+windows.trade.header Търговия
 windows.scope.header Select Scope
 windows.premium.header Premium
 windows.skin.header Select Skin
-windows.hat.header Select Hat
-windows.back.header Select Back
-windows.waist.header Select Waist
-windows.face.header Select Face
-windows.melee.header Select Melee
+windows.hat.header Изберете шапка
+windows.back.header Изберете тяло
+windows.waist.header Изберете торс
+windows.face.header Изберете лице
+windows.melee.header Изберете острие
 windows.attach.header Select Attachment
 windows.reticle.header Select Reticle
-windows.reticle.unlocked Unlocked at lvl {0}
-windows.reticle.req Req lvl {0}
+windows.reticle.unlocked Отключено на ниво {0}
+windows.reticle.req Поискано ниво {0}
 windows.dye.header Select Dye
 windows.dye.default Default Dye
 windows.dye.spin Dye
 windows.changelog.header Changelog
 windows.mods.community.header Community Mods
-windows.mods.community.fav Your Favorites
+windows.mods.community.fav Вашите любими
 windows.mods.community.new New Mods
-windows.mods.community.hot Hot
+windows.mods.community.hot Готини
 windows.mods.community.name Mod Name
 windows.mods.community.none No Mods found
 windows.publish.mod.header Publish Mod
@@ -564,7 +564,7 @@ windows.advertise.header Advertise
 windows.support.header Support
 windows.players.header Player List
 windows.players.none No players currently...
-windows.join.header Join
+windows.join.header Присъединяване
 windows.join.code Enter Game URL/Code
 windows.client.header Client
 windows.client.windows Windows Installer
@@ -573,18 +573,18 @@ windows.client.linux Linux Installer
 windows.ranked.header Ranked
 windows.ranked.login to play in ranked games!
 windows.ranked.level You must be at least <span color="black">level {0}</span> to play in ranked games! Right now you are at <span color="black">level {1}</span>.
-windows.ranked.mode.r1v1 Solo
+windows.ranked.mode.r1v1 Соло
 windows.ranked.mode.r2v2 Duo
 windows.ranked.mode.r4v4 Quad
-windows.chall.header Challenges
+windows.chall.header Предизвикателства
 windows.chall.login to complete challenges!
 thumbnail.upload.limit Failed. {0}kb Thumbnail Limit
 image.upload.limit Failed. {0}kb Image Limit
 thumbnail.upload.error Thumbnail Error
 mod.extracting extracting {0}/{1}
-mod.disabled mods disabled
-mod.error mod error!
-mod.loading loading mod...
+mod.disabled Модовете са деактивирани
+mod.error Мода има грешка!
+mod.loading модът се зареждва...
 mod.invalid невалиден мод файл!
 matchmaker.full ПЪЛНА
 matchmaker.full2 Играта е пълна.
@@ -599,16 +599,16 @@ error.extentions If you have any extensions, disable them
 error.seek Try seeking a new game by clicking
 custom.map.upload.limit Failed. 500k Character Game Data Limit
 custom.map.missing Изберете поне една игра или карта
-custom.mode.missing Select at least one Mode
+custom.mode.missing Изберете поне един тип от игра
 custom.class.missing Изберете поне един клас
-server.config.maxPlayers Players
-server.config.minPlayers Min Players
-server.config.lives Lives
-server.config.gameTime Minutes
-server.config.gravMlt Gravity
+server.config.maxPlayers Играчи
+server.config.minPlayers Минимален брой играчи
+server.config.lives Животи
+server.config.gameTime Минути
+server.config.gravMlt Гравитаця
 server.config.tickRI Висок тикрейт
 server.config.maxPS Сървър за 40 играчи
-server.config.promServ Promote Server
+server.config.promServ Промотя на сървъра промотя
 server.config.jumpMlt Jump Force
 server.config.airStrf Air Strafing
 server.config.deltaMlt Time Scale
@@ -620,11 +620,11 @@ server.config.fixMov Fixed Movement
 server.config.slidSpd Скорост на плъзгане
 server.config.healthMlt Health Multiplier
 server.config.impulseMlt Импулс на оръжие
-server.config.nameTeam1 Team 1 Name
-server.config.nameTeam2 Team 2 Name
-server.config.nameTeam3 Team 3 Name
-server.config.nameTeam4 Team 4 Name
-server.config.nameTeam5 Team 5 Name
+server.config.nameTeam1 Име на отбор 1
+server.config.nameTeam2 Име на отбор 2
+server.config.nameTeam3 Име на отбор 3
+server.config.nameTeam4 Име на отбор 4
+server.config.nameTeam5 Име на отбор 5
 server.config.t1Dmg Team 1 Damage
 server.config.t2Dmg Team 2 Damage
 server.config.t3Dmg Team 3 Damage
@@ -632,8 +632,8 @@ server.config.t4Dmg Team 4 Damage
 server.config.t5Dmg Team 5 Damage
 server.config.selTeam Избиране на отбор
 server.config.allowSpect Наблюдение
-server.config.killRewards Kill Rewards
-server.config.headshotOnly Headshots Only
+server.config.killRewards Награди на убийство
+server.config.headshotOnly Изстрели в главата само
 server.config.noSecondary Disable Secondaries
 server.config.noStreaks Disable Streaks
 server.config.canSlide Плъзгане
@@ -642,17 +642,17 @@ server.config.autoJump Автоматичен скок
 server.config.bDrop Bullet Drop
 server.config.thirdPerson 3rd Person
 server.config.requireCaptcha Require Captcha
-server.config.nameTags Hide Nametags
+server.config.nameTags Скриване на имената
 server.config.kCams Kill Cams
-server.config.noReload No Reload
-server.config.private Private
-server.config.krRewards KR Rewards
+server.config.noReload Без презареждане
+server.config.private Частен
+server.config.krRewards KR награди
 server.config.forceDefault Force Default Settings
-server.config.warmupTime Warmup Time
-server.config.gamRounds Rounds
+server.config.warmupTime Време за загряване
+server.config.gamRounds Кръгове
 server.config.objtvTime Objective Time
 server.config.forceSpawn Auto Respawn Time
-server.config.scoreLimit Score Limit
+server.config.scoreLimit Лимит на точките
 server.config.keepTScore Keep Team Score
 server.config.forceC Force Mode Classes
 server.config.logTim Log Time (Race, Parkour)
@@ -664,13 +664,13 @@ server.config.noCosm Disable Cosmetics
 server.config.tstCmp Test Mode
 server.config.limitClasses Limit Classes
 server.config.tmSize Team Size
-social.login Login/Register
+social.login Логин/Регистрирайте се
 social.login.failed Login Failed
-social.login.buy Login to Buy
-social.login.sell Login to Sell
-social.login.gift Login to Gift
+social.login.buy Логин, за да купите
+social.login.sell Логин, за да продавате
+social.login.gift Логин, за да подарите
 social.login.proccessing Logging in...
-social.since Since
+social.since Откогато
 social.user.maps User Games
 social.user.mods User Mods
 social.maps.none No Games found...
