@@ -891,24 +891,24 @@ stats.airdrops KR-Packages
 stats.airdrops.stolen Rifornimenti Rubati
 settings.quality.flapAnim Animazione copri ottica cecchino
 chall.name.hs Fai {0} colpi alla testa {1}
-chall.name.ns Fai {0} no-scope {1}
-chall.name.ls Fai {0} colpi alle gambe {1}
+chall.name.ns Fai {0} no-scopes {1}
+chall.name.ls Fai {0} legshots {1}
 chall.name.tmk Fai {0} uccisioni lanciando il coltello {1}
-chall.name.fb Get {0} first bloods {1}
+chall.name.fb Fai {0} prime uccisioni {1}
 chall.name.mk Fai {0} uccisioni corpo a corpo {1}
 chall.name.fk Fai {0} uccisioni a mani nude {1}
 chall.name.qs Fai {0} quickscopes {1}
 chall.name.wb Fai {0} wallbangs {1}
 chall.name.airk Fai {0} uccisioni a mezz'aria {1}
-chall.name.ls Fai {0} colpi alle gambe {1}
 chall.name.lns Fai {0} longshots {1}
-chall.name.ls Fai {0} uccisioni lanciando il coltello {1}
-chall.name.ls Fai {0} prime uccisioni {1}
-chall.name.ls Fai {0} longshots {1}
 chall.name.tk Fai {0} turbo kills {1}
 chall.name.drk Fai {0} drift kills {1}
 chall.name.kstk Fai una serie di {0} uccisioni {1}
 chall.name.w Vinci {0} partite
 chall.name.d Muori {0} volte
+chall.name.score Fai {0} punti
+chall.name.dmg Infliggi {0} danni {1}
+chall.name.bzk Fai {0} buzz kills {1}
+chall.name.cc Fai {0} close-calls {1}
 chall.name.rk Infliggi {0} vendette {1}
 `;
