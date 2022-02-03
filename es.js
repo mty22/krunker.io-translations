@@ -219,14 +219,14 @@ settings.interface.xpBarCol2 XP Bar Color 2
 settings.interface.xpBarOpac Opacidad de la barra de experiencia
 settings.medals.header Medals
 settings.medals.show Show Medals
-settings.medals.classic Classic Medals
+settings.medals.classic Medallas clasicas
 settings.medals.sound Play Medal Sounds
 settings.medals.scale Medal Scale
 settings.medals.xOff Medal X Offset
 settings.medals.yOff Medal Y Offset
 settings.crosshair.header Retícula
 settings.crosshair.type Tipo
-settings.crosshair.type.1 Dynamic
+settings.crosshair.type.1 Dinamico
 settings.crosshair.type.2 Personalizado
 settings.crosshair.type.3 En capas
 settings.crosshair.type.4 Imagen
@@ -262,16 +262,16 @@ settings.crosshairm.style.1 Hollow Circle
 settings.crosshairm.style.2 Solid Circle
 settings.crosshairm.style.3 Hollow Square
 settings.crosshairm.style.4 Solid Square
-settings.crosshairm.image Image
+settings.crosshairm.image Imagen
 settings.crosshairm.image.paste Crosshair Image
 settings.crosshairm.image.width Image Width
 settings.crosshairm.image.height Image Height
 settings.crosshairm.always Always Show
 settings.crosshairm.color Color
 settings.crosshairm.shadow.color Shadow Color
-settings.crosshairm.shadow.thickness Shadow Thickness
-settings.crosshairm.size Size
-settings.crosshairm.thickness Thickness
+settings.crosshairm.shadow.thickness Grosor de sombra
+settings.crosshairm.size Tamaño
+settings.crosshairm.thickness Grosor
 settings.crosshairm.gap Gap
 settings.crosshairm.dot Dot
 settings.crosshairm.opacity.use Use Custom Opacity
