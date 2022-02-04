@@ -217,11 +217,11 @@ settings.interface.healthColE 敌人血条颜色
 settings.interface.xpBarCol 经验条第一颜色
 settings.interface.xpBarCol2 经验条第二颜色
 settings.interface.xpBarOpac 经验条不透明度
-settings.medals.header Medals
-settings.medals.show Show Medals
-settings.medals.classic Classic Medals
-settings.medals.sound Play Medal Sounds
-settings.medals.scale Medal Scale
+settings.medals.header Medals 奖牌
+settings.medals.show Show Medals 显示奖牌
+settings.medals.classic Classic Medals 旧奖牌
+settings.medals.sound Play Medal Sounds 奖牌的声音
+settings.medals.scale Medal Scale 奖牌的大小
 settings.medals.xOff Medal X Offset
 settings.medals.yOff Medal Y Offset
 settings.crosshair.header 准星
