@@ -662,72 +662,78 @@ server.config.disableB Disable Borders
 server.config.throwMel Throwable Melees
 server.config.noCosm Disable Cosmetics
 server.config.tstCmp Test Mode
-server.config.limitClasses Limit Classes
-server.config.tmSize Team Size
+server.config.limitClasses Ограничени класове
+server.config.tmSize Размер на екипа
+server.config.fallDmg Fall Damage
+server.config.fallDmgThr Fall Damage Thresh
+server.config.noDraws No Draws
+server.config.bstOfR Най-добър от
 social.login Логин/Регистрирайте се
 social.login.failed Login Failed
 social.login.buy Логин, за да купите
 social.login.sell Логин, за да продавате
 social.login.gift Логин, за да подарите
-social.login.proccessing Logging in...
+social.login.proccessing Влизане...
 social.since Откогато
 social.user.maps User Games
 social.user.mods User Mods
 social.maps.none No Games found...
 social.mods.none No Mods found...
-social.market.price.low Lowest Price
+social.market.price.low Най-ниската цена
 social.market.price.list List Price in
 social.market.searching Searching
 social.market.listed listed {0} ago
 social.market.list List Item
 social.market.unlist Отписване
 social.market.unlisting Премахване на елемента от пазарът ...
-social.market.posting Posting Item...
+social.market.posting Публикуване на вещать...
 social.market.req lvl {0} required
-social.market.cant Can't Afford
-social.market.purchase Purchase
+social.market.cant Не може да си го позволи
+social.market.purchase Купи
 social.market.fee No List Fee
-social.market.failed Failed. Try Again
+social.market.failed Се провали. Опитай пак
 social.market.head Head Item
 social.market.back Back Item
 social.market.waist Waist Item
 social.market.face Face Item
 social.market.shoe Shoe Item
 social.market.pet Домашен любимец елементи
+social.market.wrist Wrist Item
 social.market.melee Melee Item
 social.market.spray Спрей елементи
 social.market.dye Dye Item
+social.market.collectible Collectible Item
 social.market.none Няма намерени елементи
 social.market.login Трябва да сте свързани във вашият акаунт
-social.market.grace ready in {0}
+social.market.grace отов във {0}
 social.market.sort Filter/Sort
 social.market.filter Търсене
 social.market.sort2 Да сортира
-social.market.price.high Highest Price
+social.market.price.high Най-висока цена
 social.trading.submitting Submitting Offer...
-social.market.gift.amount Gift Amount in
-social.market.fee.gift No Fee
-social.market.gift Gift KR
-social.market.gift.msg Leave a message
-respawn.auto Auto Respawning in {0}
+social.market.gift.amount Сума за подарък в
+social.market.fee.gift Без такса
+social.market.gift Подари KR
+social.market.gift.msg Остави съобщение
+respawn.auto Автоматично възстановяване в {0}
 custom.host.ranked Can't host match while in ranked.
-funds.insufficient Insufficient Funds
-funds.out It appears you have run out of Krunkies.
-custom.passcode.long Password too long
+funds.insufficient Недостатъчни средства
+funds.out Изглежда, че сте нямате повече Krunkies.
+custom.passcode.long Паролата е твърде дълга
 custom.passcode.input Enter Server Password to join
-custom.tryagain Please try again.
-purchase.kr.success Added {0} KR to your account
-limited.purchase.ask Are you sure you want to purchase [{0}] for {1} KR?
-limited.purchase.success Added {0} to your inventory
-pretend.exit press [{0}] again to exit
-settings.loaded Settings Loaded
-settings.loaded.none No settings found
+custom.tryagain Моля, опитайте отново.
+purchase.kr.success Добавени са {0} KR към вашия акаунт
+limited.purchase.ask Сте ли сигорни че искате да закупите [{0}] за {1} KR?
+limited.purchase.success Добавен {0} към инвентара ви
+pretend.exit Натиснете [{0}] отново, за да излезете
+settings.loaded Настройките са заредени
+settings.loaded.none Няма намерени настройки
 account.login.required Must be logged in
 account.banned.hack This account has been banned for Hacking.
 account.banned.appeal If you want to appeal your ban, contact:
 account.delete You may request to delete your account, if the request is not cancelled within 14 days the account and all associated data will be permanently removed.
-account.delete.request Are you sure you want to request an account deletion?
-account.delete.cancel Are you sure you want to cancel account deletion?
+account.delete.request Сте ли сигорни че искате да поискате изтриване на акаунт?
+account.delete.cancel Сте ли сигорни че искате да отмените изтриването на акаунта?
 spin.free.available БЕЗПЛАТНИ KR РАЗПОЛАГАЕМ!
 spin.free.claim Това завъртане е достъпно само веднъж на всеки 1 час
 spin.free.disable These Popups can be disabled in General Settings
@@ -736,12 +742,14 @@ mod.reset.1 Обектите на играта не се нулират
 windows.profile.picture Промяна на картината
 stats.assists Асистенции
 stats.nukes Nukes
-stats.melee Нож
+stats.melee Убийство с острие
 stats.fistkills Beatdowns
-stats.thrownkills Меле
-stats.headshots Headshots
-stats.wallbangs Wallbangs
+stats.thrownkills Убийство с хвърлянето на острие
+stats.headshots Изстрели в главата
+stats.wallbangs Удар през стена
+stats.crouches Свиване
 stats.sprays Поставени спрейове
+stats.kpd Полезни доклади
 windows.host.default.settings Enabling Default Settings allows for storing Player Progress and Highscores
 windows.host.default.commands *Host Commands are Disabled in this mode: /noclip /god /smite etc
 windows.host.rewards Enabling KR Rewards forces the Server to use Default Settings & allows players to earn KR from the map funds:
@@ -754,41 +762,65 @@ twitch.unlink Сигурни ли сте че искате да прекрати
 windows.clan.leave Сигурни ли сте че искате да напуснете клана?
 windows.clan.delete Сигурни ли сте че  да изтриете клана?
 windows.clan.kick Сигурни ли сте че искате да изгоните {0} от клана?
-windows.store.premium.purchase Сигурни ли сте че искате да купите {0} дни Premium?
+windows.store.premium.purchase Сигурни ли сте че искате да купите {0} дни Премиум?
+windows.store.premium.gift Сигурни ли сте, че искате да подарите '{0}' {1} дни от Премиум?
 windows.playerlist.ban Сигурни ли сте че искате да забраните {0} от тази игра?
 windows.playerlist.flag Сигурни ли сте че искате да сигнализирате {0}?
 windows.playerlist.unflag Сигурни ли сте че искате да премахнете вашият сигнал от {0}?
 windows.playerlist.punish Сигурни ли сте че искате да предприемете действия срещу {0}?
 item.view.open Open Model Viewer
-item.view.more More Information
-item.sell.cant Item cant be sold.
-item.sell.quick Are you sure you want to Quick Sell {0}?
-social.profile.stats Overall Stats
-social.profile.class Class Stats
-social.profile.sales Sales
-social.profile.sales.market Market Sales
+item.view.more Повече информация
+item.sell.cant Вещът не може да бъде продаден.
+item.sell.cant.krunker Вещът не може да бъде продаден във krunker.
+item.sell.quick Сигурни ли сте, че искате да продавате бързо {0}?
+item.sell.destroy Сигурни ли сте, че искате да унищожите {0}?
+social.profile.stats Общи статистики
+social.profile.class Статистики на класа
+social.profile.sales Продажби
+social.profile.sales.market Пазарни продажби
 social.profile.skins Skins [{0}]
 social.profile.skins.none No published Skins from this user
-social.profile.games Games [{0}]
-social.profile.games.none No published Games from this user
-social.profile.assets Assets [{0}]
+social.profile.games Игри [{0}]
+social.profile.games.none Никакви игри публикувани от този потребител
+social.profile.assets Вещи [{0}]
 social.profile.assets.none No published Assets from this user
 social.profile.mods Mods [{0}]
 social.profile.mods.none No published Mods from this user
-social.search Search Results
-social.market.stats.rare Rarest Items
-social.market.stats.circulation In Circulation
-social.market.stats.units units Worldwide
-social.trades.in Incoming
-social.trades.in.head Incoming Offers ({0})
-social.trades.out Outgoing
-social.trades.out.head Outgoing Offers ({0})
-social.trades.history History
-social.trades.history.head Trade History ({0})
-social.trades.decline Decline All
-social.trades.message ENABLE TRADE MESSAGES IN SETTINGS
-social.trades.warning You get no items from this trade!
-social.trades.accept Are you sure you want to accept this offer?
-stats.airdrops KR-Packages
-settings.quality.flapAnim Sniper Flap Animation
-`;
+social.search Резултати от търсенето
+social.market.stats.rare Най-рядките предмети
+social.market.stats.circulation В циркулация
+social.market.stats.units Единици в цял свят
+social.trades.in Входящ
+social.trades.in.head Входящи оферти ({0})
+social.trades.out Изходящ
+social.trades.out.head Изходящи оферти ({0})
+social.trades.history История
+social.trades.history.head Търговска история ({0})
+social.trades.decline Откажи всички
+social.trades.message ВКЛЮЧВАНЕ НА ТРЕЙДИНГ СЪОБЩЕНИЯТА В НАСТРОЙКИТЕ
+social.trades.warning Вие не получавате никакви предмети от този трейд
+social.trades.accept Сигурен ли сте че искате да приемете тази оферта?
+stats.airdrops KR-Пакет
+stats.airdrops.stolen Откраднати въздушни сандъци
+settings.quality.flapAnim Анимация на снайперска клапа
+chall.name.hs Постигни {0} изстрели в главата {1}
+chall.name.ns Постигни {0} без прицел {1}
+chall.name.ls Постигни {0} изстрели в краката {1}
+chall.name.tmk Постигни {0} убийство с хвърлянето на острие {1}
+chall.name.fb Постигни {0} първо убийство {1}
+chall.name.mk Постигни {0} убийство с острие {1}
+chall.name.fk Постигни {0} убийство с юмрук {1}
+chall.name.qs Постигни {0} бърз прицел {1}
+chall.name.wb Постигни {0} удар през стена {1}
+chall.name.airk Постигни {0} убийство във въздуха {1}
+chall.name.lns Постигни {0} далечен изстрел {1}
+chall.name.tk Постигни {0} турбо убийство {1}
+chall.name.drk Постигни {0} дрифт убийство {1}
+chall.name.kstk Постигни {0} убийствена поредица {1}
+chall.name.w Спечелете {0} мача
+chall.name.d Умри {0} пъти
+chall.name.score Постигни {0} точки
+chall.name.dmg Направи {0} щети {1}
+chall.name.bzk Постигни {0} buzz kills {1}
+chall.name.cc Постигни {0} close-calls {1}
+chall.name.rk Направи {0} убийство отмъщение {1}
