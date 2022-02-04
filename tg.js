@@ -1,5 +1,5 @@
 module.exports = `
-menu.btn.ranked ranggo
+menu.btn.ranked Ranked
 menu.btn.shop Tindahan
 menu.btn.social Komunidad
 menu.btn.maps Laro at Mapa
@@ -17,15 +17,15 @@ generic.none Wala
 generic.connecting KUMOKONEKTA...
 generic.select Pumili
 generic.delete Tanggalin
-generic.save Mag-save
-generic.load Mag-Load
+generic.save I-save
+generic.load I-Load
 generic.search Humanap
 generic.leave Umalis
 generic.default Default
 generic.submit Sumite
 generic.create Lumikha
 generic.random Random
-generic.failed Nabigo
+generic.failed Nabigo.
 generic.success Tagumpay!
 generic.name Pangalan
 generic.level Antas
@@ -37,13 +37,13 @@ generic.matchover Pagtatapos ng laro
 generic.matchaband Inabandonang paglaro
 generic.follow Follow
 generic.unfollow I-Unfollow
-generic.followers Followers
-generic.following Following
+generic.followers Mga Followers
+generic.following Mga Finollow
 generic.games Mga laro
 generic.wins Panalo
 generic.lose Pagkatalo 
 generic.clan Samahan
-generic.games.played Bilang ng nalaro
+generic.games.played Blg. ng nalaro
 generic.games.won Mga panalo
 generic.games.lost  Mga pagtalo
 generic.timep Oras na Naglaro
@@ -53,13 +53,13 @@ generic.kdr KDR
 generic.time Oras
 generic.logout Mag-Logout
 generic.logout.sessions Mag-logout sa lahat ng sesyon
-generic.username Username
+generic.username Username/Pangalan
 generic.password  Illagay ang password
 generic.register Magparehistro
 generic.login Mag log-in
 generic.accuracy Accuracy
 player.waiting Naghihintay ng mga manlalaro
-player.died Ikaw ay namatay
+player.died Ika'y namatay
 player.killed Pinatay ni {0} si {1}
 player.killstreak {0} on a {1} Kill Streak
 player.inactive Tinanggal sa laro dahil inaktibo.
@@ -82,7 +82,7 @@ settings.import iangkat
 settings.export iluwas
 settings.none Walang nahanap na mga settings
 settings.backup Mga back-up settings
-settings.controls.change Lokal na rehiyon 
+settings.controls.change Palitan ang keybinds
 settings.controls.press Pindutin ang anumang key
 settings.local.header Lokalisasyon <span id="requiresRestart"><span style="color: #eb5656">*</span> nangangailangan ng restart</span>
 settings.local.region Default na Rehiyon
@@ -127,7 +127,7 @@ settings.chat.chatBGOp Chat BG Opacity
 settings.chat.chatHeight Tangkad ng Chat
 settings.chat.chatTimer Orasan ng pag-chat
 settings.chat.chatTextOutline Chat Text Outline
-settings.chat.chatFilter Pagsala at Pagtakip ng kabastusan at hindi nais na salita
+settings.chat.chatFilter Pagtakip ng kabastusan at masasamang salita
 settings.quality.header Kalidad 
 settings.quality.updRate Limitasyon sa Frame rate
 settings.quality.rendDst Distansya ng Pag-render
@@ -168,7 +168,7 @@ settings.post.ssao SSAO
 settings.post.ssaoRadius Lawak ng SSAO
 settings.interface.hitInd Ipakita ang Mga Indikator ng Hit
 settings.interface.hitColor Kulay ng Indikator ng Hit
-settings.interface.dmg Ipakita ang pinsala (sa health ng manlalaro)
+settings.interface.dmg Ipakita ang pinsala sa health ng manlalaro
 settings.interface.dmgCol Kulay ng pinsala sa health ng manlalaro
 settings.interface.critCol Kulay ng Kritikal
 settings.interface.header Itsura ng Interface
@@ -179,7 +179,7 @@ settings.interface.scoreboard Gumamit ng Lumang Scoreboard
 settings.interface.oldBrowser Gumamit ng Lumang Browser
 settings.interface.rarityanim Tigilan ang Animasyon ng Rarity
 settings.interface.showPfp Ipakita ang Mga Larawan sa Profile
-settings.interface.showTradeMsg Ipakita ang Mga Mensahe sa Kalakal
+settings.interface.showTradeMsg Ipakita ang mga mensahe sa Kalakal
 settings.interface.hideNonTrade Itago ang mga kagamitang hindi pwedeng ikalakal
 settings.interface.hp Mga Dynamic na HP Bar
 settings.interface.dmgScale Lawak ng Pinsala 
@@ -238,7 +238,7 @@ settings.crosshair.style.2 Ma-diin na Parisukat
 settings.crosshair.style.3 Hollow na Parisukat
 settings.crosshair.style.4 Ma-diin na Bilog
 settings.crosshair.image Larawan ng Crosshair
-settings.crosshair.image.paste I-dikit ang Larawan ng Crosshair
+settings.crosshair.image.paste I-paste ang Larawan ng Crosshair
 settings.crosshair.image.width Image Width
 settings.crosshair.image.height Image Height
 settings.crosshair.always Laging ipakita
@@ -274,8 +274,8 @@ settings.crosshairm.size Laki
 settings.crosshairm.thickness Thickness
 settings.crosshairm.gap Gap
 settings.crosshairm.dot Tuldok
-settings.crosshairm.opacity.use Use Custom Opacity
-settings.crosshairm.opacity.custom Custom Opacity
+settings.crosshairm.opacity.use Gumamit ng Custom Opacity
+settings.crosshairm.opacity.custom Ang Custom Opacity
 settings.hitmarker.header Hitmarker
 settings.hitmarker.color Kulay
 settings.hitmarker.kcolor Tanggalin ang Kulay
@@ -594,7 +594,7 @@ windows.clans.view Tignan ang mga Samahan
 windows.clans.join Sumali sa Samahan
 windows.clans.login Mag-login upang gumagawa o sumali sa isang Samahan!
 windows.store.header Tindahan
-windows.store.spin {0} Premyo
+windows.store.spin {0} Papremyo
 windows.store.agree Sa pamamagitan ng pagbili sumasang-ayon ka sa {0} Mga Tuntunin
 windows.store.purchase Bumili ng KR
 windows.store.voucher Gamitin ang voucher
@@ -603,7 +603,7 @@ windows.store.market Merkado
 windows.store.market2 Krunker Merkado
 windows.store.premium Bumili ng Premium
 windows.store.premium2 Krunker Premium
-windows.store.buyP Pumili ng isang Display name
+windows.store.buyP Pumili ng pangalang pan-display
 windows.store.buy Bumili at Magbenta ng mga kagamitan
 windows.store.wheels Papremyo
 windows.store.unlock I-unlock ang mga bagong disenyo ng mga armas at kagamitan
@@ -761,7 +761,7 @@ social.login.buy Mag-login upang Bumili
 social.login.sell Mag-login upang Magbenta
 social.login.gift Mag-login para sa mga regalo
 social.login.proccessing Naglolog-in......
-social.since Mula Noong
+social.since Nagsimula Noong
 social.user.maps Laro at Mapa
 social.user.mods Kanyang Mods
 social.maps.none Walang Nakitang Laro ...
@@ -773,7 +773,7 @@ social.market.listed nakalista {0} nakaraan
 social.market.list Listahan ng Item
 social.market.unlist Tanggalin sa lista
 social.market.unlisting  Pagtatanggal.....
-social.market.posting Pagpaskil ng Kagamitan...
+social.market.posting Pinapaskil ang kagamitan...
 social.market.req Antas-{0} kinakailangan
 social.market.cant Hindi Kayang bumili!
 social.market.purchase Bumili
@@ -803,7 +803,7 @@ social.market.fee.gift Walang Bayad
 social.market.gift Magregalo ng KR
 social.market.gift.msg Mag-iwan ng mensahe
 respawn.auto Auto Respawning sa {0}
-custom.host.ranked Hindi ma-host habang naglalaro sa 'Ranggo'
+custom.host.ranked Hindi ma-host habang naglalaro sa 'Ranked'
 funds.insufficient Hindi sapat na KR
 funds.out Ubos ang KR
 custom.passcode.long Masyadong mahaba ang password 
@@ -846,8 +846,8 @@ windows.store.creator Tangkilikin ang inyong paboritong Content Creator o Stream
 windows.chall.customs Ang mga hamon o challenge ay hindi nakukumpleto sa mga kustom na laro.
 twitch.link Siguradong nais mo bang i-link ang Twitch account?
 twitch.unlink Siguradong nais mo bang i-unlink ang iyong Twitch account?
-windows.clan.leave Siguradong nais mo bang umalis sa hukbo/samahan ninyo?
-windows.clan.delete Siguradong nais mo bang i-delete ang hukbo/samahan?
+windows.clan.leave Siguradong nais mo bang umalis sa samahan ninyo?
+windows.clan.delete Siguradong nais mo bang i-delete ang samahan?
 windows.clan.kick Sigurado ka bang nais mong i-kick si {0} at tanggalin sa samahan?
 windows.store.premium.purchase Nais mo bang bumili ng {0} araw ng Premium?
 windows.store.premium.gift Nais mo bang regaluhin si '{0}' ng {1} na araw ng Premium?
@@ -862,7 +862,7 @@ item.sell.cant.krunker Hindi mabenta ang kagamitan sa Krunker
 item.sell.quick Sigurado ka bang ibebenta mo ito agad {0}?
 item.sell.destroy item.sell.destroy Siguradong nais mo itong sirain {0}?
 social.profile.stats Kabuoang statistika
-social.profile.class Statistika ng mga Classes
+social.profile.class Statistika ng mga Klase
 social.profile.sales Mga Binebenta
 social.profile.sales.market Mga Binebenta sa Merkado
 social.profile.skins Mga Skins o Disenyo [{0}]
