@@ -1,21 +1,21 @@
-Please see this file as a *guide* for KR payments around changes within Krunker’s language files. For simplicity, we will work based on pull requests (PR).
+Please see this file as a *guide* for rewards offered around changes within Krunker’s language files. For simplicity, we will work based on pull requests (PR).
 
 If there are multiple pull requests fixing existing issues from the same person, pull requests may be aggregated together to prevent abuse of payments.
 
-KR will be sent to the user submitting the pull request, unless pre-arranged (ie. KR is being split between players based on work breakdowns).
+KR will be sent to the user submitting the pull request, unless pre-arranged (ie. KR is being split between players based on work breakdowns). Pull Request reviewers will also be rewarded for their efforts.
 
-Account verification is typically reserved for new translations where one or two people have solemnly worked on a pre-approved translation, providing quality work with little to no errors during the review process.
+Krunker account verification is typically reserved for new translations where one or two people have solemnly worked on a pre-approved translation, providing quality work with little to no errors during the review process. Krunker translator badge may be offered in-place should users not receive Krunker account verification. 
 
-Account verification is also reserved for users who continuously contribute to the Translation project while providing quality work with little to no errors during the review process and assist others when help is required.
+With that being said, both Krunker account verification and Krunker translator badge can also be awarded to users who continuously contribute to the Krunker Translation Project while providing quality work with little to no errors during the review process and assist others when help is required. This is entirely up to the descresion of Yendis staff or Krunker Translation Project managers. Regular contributors will more than likely receive the middle to upper end of the KR payments when demonstrating similar qualities as listed above.
 
-Regular contributors will more than likely receive the middle to upper end of the KR payments when demonstrating similar qualities as what is reserved for Account verification users.
+Existing languages translated and added in-game prior to Krunker v5.4.2 can apply to receive a Krunker translator badge by contacting frzn#1030 in private. This will also be assessed in a similar way with the aformentioned comments in regards to users who continuously contribute to the Krunker Translation Project.
 
-Changes to payments may be made at any point in time where required.
+The defintion of a contributor is defined as a person who participates in the Krunker Translation Project by either assisting other translators in Krunker Bunker or on GitHub (ie. providing assistance to Krunker Translation Project managers by assisting with GitHub actions such as PR's or Issues), or translating and or reviewing PR's.
 
-Abuse of this payment system will not be tolerated.
+Changes to this guide may be made at any point in time where required, and abuse of this system will not be tolerated. Yendis staff reserve the right to remove Krunker account verification, Krunker account badge(s) or Krunker Bunker roles where abuse has been identified, or any other scenario/action which reflects negative towards Krunker or the Krunker Translation Project.
 
 -----
-New translation - 50,000 KR per pull request + Krunker account verification based on workload breakdown (typically 500+ lines/changes), see notes above regarding verification.
+New translation - 50,000 KR per pull request + Krunker translator badge or Krunker account verification based on workload breakdown (typically 500+ lines/changes).
 
 Major changes - 25,000  KR to 35,000 KR per pull request (typically 249 to 499 lines/changes)
 

@@ -88,15 +88,18 @@ settings.local.header Localization <span id="requiresRestart"><span style="color
 settings.local.region Default Region
 settings.local.lang Language
 settings.network.header Network
-settings.network.sendRate High Tickrate
 settings.network.netRerouting Auto Routing (Affects Ping)
+settings.network.netRate Network Rate (Hz)
 settings.network.lagComp Lag Compensation
+settings.network.optNet Optimized Networking
 settings.popup.header Popups
-settings.popup.freeKRPop Show Free KR Popup
 settings.experimental.header Experimental
+settings.experimental.holiday Holiday Effects
 settings.experimental.aimFreezeFix Aim Freeze Fix
 settings.experimental.mouseFlickFix Mouse Flick Fix
 settings.experimental.shaderRendering Instance Rendering
+settings.experimental.mouseAccel Mouse Acceleration
+settings.experimental.tbInterp TB Interpolation
 settings.client.header Client
 settings.client.unlimitedFrames Unlimited FPS
 settings.client.gameCap Game Capture
@@ -108,6 +111,7 @@ settings.client.resetSettings Reset Client Settings
 settings.client.acceleratedCanvas Accelerated Canvas
 settings.client.angleBackend ANGLE Graphics Backend
 settings.client.colorProfile Color Profile
+settings.client.resourcePacks Resource Packs
 settings.dev.header Developer
 settings.dev.forceUpdate Force Update Skins
 settings.dev.forceRegen Always Regenerate Player
@@ -169,12 +173,14 @@ settings.interface.dmgCol Damage Color
 settings.interface.critCol Crit Color
 settings.interface.header Interface
 settings.interface.scale UI Scale
+settings.interface.theme Game Theme
 settings.interface.ui Show UI
 settings.interface.scoreboard Use Old Scoreboard
 settings.interface.oldBrowser Use Old Browser
 settings.interface.rarityanim Disable Rarity Animations
 settings.interface.showPfp Show Profile Pictures
 settings.interface.showTradeMsg Show Trade Messages
+settings.interface.hideNonTrade Hide Non-Tradable Skins
 settings.interface.hp Dynamic HP Bars
 settings.interface.dmgScale Damage Scale
 settings.interface.killf Show Kill Feed
@@ -194,13 +200,13 @@ settings.interface.speedOpacity Speed Opacity
 settings.interface.speedScale Speed Scale
 settings.interface.speedColor Speed Color (Current)
 settings.interface.speedColorMax Speed Color (Max)
-settings.interface.medals Show Medals
 settings.interface.hideNames Nametag Display
 settings.interface.hideNames.team Team Only
 settings.interface.hideNames.enemy Enemy Only
 settings.interface.hideNames.all Everyone
 settings.interface.nametagStyle Nametag Style
 settings.interface.nametagOpac Nametag Opacity
+settings.interface.nametagScale Nametag Scale
 settings.interface.nametagStyle.health Health Only
 settings.interface.nametagStyle.name Name Only
 settings.interface.nametagStyle.nameLvl Name & Level Only
@@ -209,10 +215,19 @@ settings.interface.healthNum Nametag Health Number
 settings.interface.healthColT Nametag Health Color Team
 settings.interface.healthColE Nametag Health Color Enemy
 settings.interface.xpBarCol XP Bar Color
+settings.interface.xpBarCol2 XP Bar Color 2
 settings.interface.xpBarOpac XP Bar Opacity
+settings.medals.header Medals
+settings.medals.show Show Medals
+settings.medals.classic Classic Medals
+settings.medals.sound Play Medal Sounds
+settings.medals.scale Medal Scale
+settings.medals.xOff Medal X Offset
+settings.medals.yOff Medal Y Offset
 settings.crosshair.header Crosshair
 settings.crosshair.type Type
-settings.crosshair.type.2 Custom
+settings.crosshair.type.1 Dynamic
+settings.crosshair.type.2 Shapes
 settings.crosshair.type.3 Layered
 settings.crosshair.type.4 Image
 settings.crosshair.type.5 Precision
@@ -224,6 +239,8 @@ settings.crosshair.style.3 Hollow Square
 settings.crosshair.style.4 Solid Square
 settings.crosshair.image Image
 settings.crosshair.image.paste Crosshair Image
+settings.crosshair.image.width Image Width
+settings.crosshair.image.height Image Height
 settings.crosshair.always Always Show
 settings.crosshair.color Color
 settings.crosshair.shadow.color Shadow Color
@@ -234,6 +251,31 @@ settings.crosshair.gap Gap
 settings.crosshair.dot Dot
 settings.crosshair.opacity.use Use Custom Opacity
 settings.crosshair.opacity.custom Custom Opacity
+settings.crosshairm.header Crosshair (Throwing)
+settings.crosshairm.type Type
+settings.crosshairm.type.1 Shapes
+settings.crosshairm.type.2 Image
+settings.crosshairm.type.3 Precision
+settings.crosshairm.style Style
+settings.crosshairm.style.0 Cross
+settings.crosshairm.style.1 Hollow Circle
+settings.crosshairm.style.2 Solid Circle
+settings.crosshairm.style.3 Hollow Square
+settings.crosshairm.style.4 Solid Square
+settings.crosshairm.image Image
+settings.crosshairm.image.paste Crosshair Image
+settings.crosshairm.image.width Image Width
+settings.crosshairm.image.height Image Height
+settings.crosshairm.always Always Show
+settings.crosshairm.color Color
+settings.crosshairm.shadow.color Shadow Color
+settings.crosshairm.shadow.thickness Shadow Thickness
+settings.crosshairm.size Size
+settings.crosshairm.thickness Thickness
+settings.crosshairm.gap Gap
+settings.crosshairm.dot Dot
+settings.crosshairm.opacity.use Use Custom Opacity
+settings.crosshairm.opacity.custom Custom Opacity
 settings.hitmarker.header Hitmarker
 settings.hitmarker.color Color
 settings.hitmarker.kcolor Kill Color
@@ -258,7 +300,14 @@ settings.gameprivacy.header Gameplay Privacy
 settings.gameprivacy.streamer Streamer Mode
 settings.gameprivacy.anon Anonymous Mode
 settings.gameprivacy.hideGameTitle Hide Game Title
+settings.gameprivacy.showRegion Show Region Info
+settings.gameprivacy.verified Show Verified Badge
+settings.gameprivacy.premium Show Premium Badge
+settings.gameprivacy.partner Show Partner Badge
+settings.gameprivacy.rank Show Ranked Badge
+settings.gameprivacy.custom Show Custom Badge
 settings.gameplay.header Gameplay
+settings.gameplay.gpSetts Gameplay Settings
 settings.gameplay.sensitivityX X Sensitivity
 settings.gameplay.sensitivityY Y Sensitivity
 settings.gameplay.aimsensX Aim X Sensitivity
@@ -291,6 +340,9 @@ settings.audio.header Audio
 settings.audio.sound Master Volume
 settings.audio.ambient Ambient Volume
 settings.audio.voice Voice Volume
+settings.audio.input Audio/Mic Input
+settings.audio.mic Mic Volume
+settings.audio.micquality Mic Quality
 settings.audio.weps Weapon Volume
 settings.audio.player Player Volume
 settings.audio.skin Cosmetics Volume
@@ -298,7 +350,8 @@ settings.audio.ui UI Volume
 settings.audio.asset Asset Volume
 settings.audio.dialogue Action Volume
 settings.viewmodel.header View Model
-settings.viewmodel.fov Field of View
+settings.viewmodel.vmSetts View Model Settings
+settings.viewmodel.fov Field of View (FOV)
 settings.viewmodel.fps Weapon FOV
 settings.viewmodel.bobbing Weapon Bobbing
 settings.viewmodel.leaning Weapon Leaning
@@ -318,7 +371,8 @@ settings.viewmodel.zOff Weapon Z Offset
 settings.viewmodel.weapSwapY Weapon Swap Y
 settings.viewmodel.weapReloadY Weapon Reload Y
 settings.viewmodel.yOffADS Weapon ADS Y Offset
-settings.viewmodel.adsFovMlt ADS FOV Power
+settings.viewmodel.adsFovMlt Weapon ADS FOV Power
+settings.viewmodel.toggleADS Toggle Weapon ADS
 settings.editing.header Editing
 settings.editing.health.high HUD Health High
 settings.editing.health.low HUD Health Low
@@ -338,6 +392,7 @@ settings.editing.progOffX Progress Bar X Offset
 settings.editing.progOffY Progress Bar Y Offset
 settings.editing.progRot Progress Bar Rotation
 settings.editing.progm.color Charge Bar Color
+settings.editing.progmo.color Overcharge Color
 settings.editing.progm.opacity Charge Bar Opacity
 settings.editing.progm.scale Charge Bar Scale
 settings.editing.progm.shadow Charge Bar Shadow
@@ -352,6 +407,8 @@ settings.editing.vignette Vignette
 settings.editing.feedLimit Killfeed Limit
 settings.editing.depth Depth Map
 settings.editing.green Green Screen
+settings.editing.trailcol Bullet Trail Color
+settings.editing.ropecol Grapple Rope Color
 settings.editing.tracercol Bullet Tracers
 settings.editing.tracer Bullet Tracers
 settings.editing.tracer.offset Tracer Offset
@@ -391,6 +448,8 @@ settings.mods.damage.paste Damage Overlay Image URL
 settings.mods.overlay Game Overlay Image
 settings.mods.overlay.paste Game Overlay Image URL
 settings.social.region Region Stats
+settings.social.bg Background Image
+settings.social.bg.paste Background Image URL
 windows.settings.header Game Settings
 windows.mail.header Krunker Mail
 windows.servers.header Servers
@@ -400,6 +459,7 @@ windows.servers.hide Hide Full
 windows.servers.priority Region Priority
 windows.servers.online {0} In Game
 windows.servers.social {0} on Social
+windows.servers.editor {0} in Editor
 windows.loadout.header Change Loadout
 windows.loadout.class Class
 windows.loadout.primary Primary
@@ -420,8 +480,10 @@ windows.loadout.color.chat Chat Name Color
 windows.loadout.color.hair Hair Color
 windows.loadout.dye Dye
 windows.loadout.pet Pet
+windows.loadout.wrist Wrist
 windows.loadout.stat Killcard Stat
 windows.loadout.flag Country Flag
+windows.loadout.badge Custom Badge
 windows.mods.drop drop mod file here or click
 windows.mods.paste Paste Mod Url
 windows.mods.load Load Mod
@@ -441,10 +503,11 @@ windows.controls.backward Backward
 windows.controls.left Left
 windows.controls.right Right
 windows.controls.reload Reload
-windows.controls.aim Aim
-windows.controls.shoot Shoot
+windows.controls.aim1 Aim
+windows.controls.shoot1 Shoot
 windows.controls.inspect Inspect
 windows.controls.spray Spray
+windows.controls.sprayWheel Spray Wheel (Hold)
 windows.controls.jump Jump
 windows.controls.crouch Crouch
 windows.controls.prim Primary Weapon
@@ -460,16 +523,36 @@ windows.controls.interactSec Secondary Interact
 windows.controls.confirm Confirm Interact
 windows.controls.drop Drop
 windows.controls.wepVis Toggle Weapon Visibility
+windows.controls.kickVoteY Vote Kick [Yes]
+windows.controls.kickVoteN Vote Kick [No]
+windows.controls.kpdVoteY KPD Vote [Yes]
+windows.controls.kpdVoteN KPD Vote [No]
+windows.controls.specFree Toggle Free Cam
+windows.controls.specObj Toggle Objective Cam
+windows.controls.specFirst Toggle First Person
+windows.controls.specNames Toggle Forced Names
+windows.controls.specFocus Toggle Focus Player
+windows.controls.hidePlayers Hide Players
 windows.controls.streak0 Streak 1
 windows.controls.streak1 Streak 2
 windows.controls.streak2 Streak 3
 windows.controls.streak3 Streak 4
 windows.controls.streak4 Streak 5
+windows.controls.taunt0 Taunt (Psst)
+windows.controls.taunt1 Taunt (Whistle)
+windows.controls.taunt2 Taunt (Fart)
+windows.controls.taunt3 Taunt (Meme)
+windows.controls.taunt4 Taunt (WTF is This?)
+windows.controls.taunt5 Taunt (Right Now!)
+windows.controls.prop Open Prop Selection (Hold)
+windows.controls.propRand Select Random Prop
+windows.controls.propRot Toggle Rotation
+windows.controls.propRotR Reset Rotation
 windows.controls.premium0 Noclip
 windows.controls.premium1 Godmode
 windows.controls.premium2 Kill
 windows.controls.premium3 Smite
-windows.controls.reset Reset Position (Race & Parkour)
+windows.controls.reset Reset Position (Parkour etc)
 windows.controls.pretend Hide Game
 windows.host.header Host Custom Game
 windows.host.maps Server Setup
@@ -528,6 +611,7 @@ windows.store.amount {0} KR in account
 windows.store.login to buy and unlock items from the store!
 windows.store.purchasing Purchasing...
 windows.store.unboxed {0}{1} unboxed
+windows.store.found {0}{1} found
 windows.trade.header Trading
 windows.scope.header Select Scope
 windows.premium.header Premium
@@ -559,6 +643,8 @@ windows.publish.mod.update Publish/Update
 windows.publish.mod.login to create and upload mods!
 windows.secondary.header Select Secondary
 windows.secondary.unlocked Unlocked
+windows.secondary.customOnly Customs Only
+windows.secondary.premiumOnly Premium Only
 windows.secondary.req Req lvl {0}
 windows.advertise.header Advertise
 windows.support.header Support
@@ -573,9 +659,6 @@ windows.client.linux Linux Installer
 windows.ranked.header Ranked
 windows.ranked.login to play in ranked games!
 windows.ranked.level You must be at least <span color="black">level {0}</span> to play in ranked games! Right now you are at <span color="black">level {1}</span>.
-windows.ranked.mode.r1v1 Solo
-windows.ranked.mode.r2v2 Duo
-windows.ranked.mode.r4v4 Quad
 windows.chall.header Challenges
 windows.chall.login to complete challenges!
 thumbnail.upload.limit Failed. {0}kb Thumbnail Limit
@@ -587,10 +670,11 @@ mod.error mod error!
 mod.loading loading mod...
 mod.invalid invalid mod file!
 matchmaker.full FULL
-matchmaker.full2 Game is full.
-matchmaker.updating GAME UPDATING
-matchmaker.invalid Game not found.
-matchmaker.none Servers are at Max Capacity
+matchmaker.GameFull Game is full.
+matchmaker.NoServersMatchQuery GAME UPDATING
+matchmaker.InvalidGameId Game not found.
+matchmaker.NoAvailableServers Servers are at Max Capacity
+matchmaker.GameIssue Unknown Join Issue
 adblocker Disable your ad blocker to receive free Krunkies.
 ad-failed Ad Failed to Load. Try again.
 streamers.views {0} viewers
@@ -644,6 +728,7 @@ server.config.thirdPerson 3rd Person
 server.config.requireCaptcha Require Captcha
 server.config.nameTags Hide Nametags
 server.config.kCams Kill Cams
+server.config.aAnon Allow Anonymous
 server.config.noReload No Reload
 server.config.private Private
 server.config.krRewards KR Rewards
@@ -652,6 +737,7 @@ server.config.warmupTime Warmup Time
 server.config.gamRounds Rounds
 server.config.objtvTime Objective Time
 server.config.forceSpawn Auto Respawn Time
+server.config.intermTmr Intermission (s)
 server.config.scoreLimit Score Limit
 server.config.keepTScore Keep Team Score
 server.config.forceC Force Mode Classes
@@ -664,6 +750,11 @@ server.config.noCosm Disable Cosmetics
 server.config.tstCmp Test Mode
 server.config.limitClasses Limit Classes
 server.config.tmSize Team Size
+server.config.fallDmg Fall Damage
+server.config.fallDmgThr Fall Damage Thresh
+server.config.noDraws No Draws
+server.config.bstOfR Best of
+server.config.chrgWeps Chargable Weapons
 social.login Login/Register
 social.login.failed Login Failed
 social.login.buy Login to Buy
@@ -694,9 +785,11 @@ social.market.waist Waist Item
 social.market.face Face Item
 social.market.shoe Shoe Item
 social.market.pet Pet Item
+social.market.wrist Wrist Item
 social.market.melee Melee Item
 social.market.spray Spray Item
 social.market.dye Dye Item
+social.market.collectible Collectible Item
 social.market.none No Items Found
 social.market.login You must be logged in.
 social.market.grace ready in {0}
@@ -741,13 +834,15 @@ stats.fistkills Beatdowns
 stats.thrownkills Bullseyes
 stats.headshots Headshots
 stats.wallbangs Wallbangs
+stats.crouches Crouches
 stats.sprays Sprays Placed
+stats.kpd Helpful Reports
 windows.host.default.settings Enabling Default Settings allows for storing Player Progress and Highscores
-windows.host.default.commands *Host Commands are Disabled in this mode: /noclip /god /smite etc
+windows.host.default.commands Host Commands are Disabled in this mode: /noclip /god /smite etc
 windows.host.rewards Enabling KR Rewards forces the Server to use Default Settings & allows players to earn KR from the map funds:
 windows.store.wheels.sub Try your luck and spin for a chance to win some new skins!
 windows.store.currency * Prices in USD can be converted to your local currency at an exchange rate defined by the payment provider or bank
-windows.store.creator Consider Supporting your favorite Content Creator by using a Creator Code
+windows.store.creator Support your favorite Content Creator by using a Creator Code
 windows.chall.customs Challenges can't be completed in Custom Matches
 twitch.link Are you sure you want to link a twitch account?
 twitch.unlink Are you sure you want to unlink your twitch account?
@@ -755,6 +850,7 @@ windows.clan.leave Are you sure you want to leave the clan?
 windows.clan.delete Are you sure you want to delete the clan?
 windows.clan.kick Are you sure you want kick {0} from the clan?
 windows.store.premium.purchase Are you sure you want to purchase {0} days of Premium?
+windows.store.premium.gift Are you sure you want to Gift '{0}' {1} days of Premium?
 windows.playerlist.ban Are you sure you want ban {0} from this game?
 windows.playerlist.flag Are you sure you want to Flag {0}?
 windows.playerlist.unflag Are you sure you want to Unflag {0}?
@@ -762,7 +858,9 @@ windows.playerlist.punish Are you sure you want to take action on {0}?
 item.view.open Open Model Viewer
 item.view.more More Information
 item.sell.cant Item cant be sold.
+item.sell.cant.krunker Item cant be sold on krunker.
 item.sell.quick Are you sure you want to Quick Sell {0}?
+item.sell.destroy Are you sure you want to Destroy {0}?
 social.profile.stats Overall Stats
 social.profile.class Class Stats
 social.profile.sales Sales
@@ -789,6 +887,28 @@ social.trades.decline Decline All
 social.trades.message ENABLE TRADE MESSAGES IN SETTINGS
 social.trades.warning You get no items from this trade!
 social.trades.accept Are you sure you want to accept this offer?
-stats.airdrops KR-Packages
+stats.airdrops Airdrops
+stats.airdrops.stolen Airdrops Stolen
 settings.quality.flapAnim Sniper Flap Animation
+chall.name.hs Get {0} headshots {1}
+chall.name.ns Get {0} no-scopes {1}
+chall.name.ls Get {0} legshots {1}
+chall.name.tmk Get {0} throwing knife kills {1}
+chall.name.fb Get {0} first bloods {1}
+chall.name.mk Get {0} melee kills {1}
+chall.name.fk Get {0} fist kills {1}
+chall.name.qs Get {0} quickscopes {1}
+chall.name.wb Get {0} wallbangs {1}
+chall.name.airk Get {0} mid-air kills {1}
+chall.name.lns Get {0} longshots {1}
+chall.name.tk Get {0} turbo kills {1}
+chall.name.drk Get {0} drift kills {1}
+chall.name.kstk Get a {0} killstreak {1}
+chall.name.w Win {0} matches
+chall.name.d Die {0} times
+chall.name.score Get {0} score
+chall.name.dmg Deal {0} damage {1}
+chall.name.bzk Get {0} buzz kills {1}
+chall.name.cc Get {0} close-calls {1}
+chall.name.rk Deal {0} revenge kills {1}
 `;

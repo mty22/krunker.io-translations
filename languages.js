@@ -9,8 +9,12 @@ module.exports.langNames = {
     "jp": "Japanese",
     "fr": "French",
     "fi": "Finnish",
-    "zh": "Chinese",
+    "zh": "Chinese (Simplified)",
+    "zhtr": "Chinese (Traditional)",
     "pl": "Polish",
     "hi": "Hindi",
     "ru": "Russian",
+    "it": "Italian",
+    "tg": "Tagalog",
+    "tr": "Turkish",
 }

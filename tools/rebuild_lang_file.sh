@@ -1,9 +1,14 @@
 #!/bin/bash
 # The purpose of this script is to rebuild non-English language files to include missing key:values which are periodically added to en.js
+# Requires package: dos2unix
 # Made by github.com/mty22
 
 # Variables
-basefile='en.js'
+if [ "$2" == 'wip' ]; then
+	basefile='../en.js'
+else
+	basefile='en.js'
+fi
 langfile="$1"
 newlangfile="new_${langfile}"
 changes="0"
@@ -40,10 +45,10 @@ while read -r line; do
 	# If the line exists in both files, copy it across to the new file.
 	key=$(echo $line | awk '{print$1}')
 	if [ "$(grep -Ec "(^|\s)$key($|\s)" $langfile)" == "1" ]; then
-		grep -ER "(^|\s)$key($|\s)" $langfile >> $newlangfile
+		grep -ER "(^|\s)$key($|\s)" $langfile | dos2unix >> $newlangfile
 	else
 		# Add in missing key:value
-		grep -ER "(^|\s)$key($|\s)" $basefile >> $newlangfile
+		grep -ER "(^|\s)$key($|\s)" $basefile | dos2unix >> $newlangfile
 		changes="1"
 	fi
 done < $basefile
