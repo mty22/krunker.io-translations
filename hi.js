@@ -61,7 +61,7 @@ generic.accuracy सटीकता
 player.waiting खिलाड़ियों का इंतजार कर रहे हैं ...
 player.died तुम मर गए
 player.killed द्वारा मारे गए
-player.killstreak {0} on a {1} Kill Streak
+player.killstreak {0} {1} Kill Streak पर हैं 
 player.inactive इनैक्टिव
 player.disconnect डिस्कनेक्ट
 timer.end अगला दौर {0} में
@@ -206,7 +206,7 @@ settings.interface.hideNames.enemy केवल दुश्मन के
 settings.interface.hideNames.all सभी के
 settings.interface.nametagStyle नैम-टैग स्टाइल
 settings.interface.nametagOpac नैम-टैग की पारदर्शकता
-settings.interface.nametagScale Nametag Scale
+settings.interface.nametagScale नैम-टैग की स्केल
 settings.interface.nametagStyle.health केवल HP
 settings.interface.nametagStyle.name केवल नाम
 settings.interface.nametagStyle.nameLvl केवल नाम और लेवल
@@ -217,11 +217,11 @@ settings.interface.healthColE नैम-टैग दुश्मन के HP �
 settings.interface.xpBarCol XP बार का रंग
 settings.interface.xpBarCol2 XP Bar Color 2
 settings.interface.xpBarOpac XP बार की पारदर्शकता
-settings.medals.header Medals
-settings.medals.show Show Medals
+settings.medals.header मेडल्स
+settings.medals.show मेडल्स दिखाएँ
 settings.medals.classic Classic Medals
-settings.medals.sound Play Medal Sounds
-settings.medals.scale Medal Scale
+settings.medals.sound मेडल साउंड्स बजाएं
+settings.medals.scale मेडल की स्केल
 settings.medals.xOff Medal X Offset
 settings.medals.yOff Medal Y Offset
 settings.crosshair.header Crosshair
@@ -239,12 +239,12 @@ settings.crosshair.style.3 खोखला चौकोर
 settings.crosshair.style.4 ठोस चौकोर
 settings.crosshair.image छवि
 settings.crosshair.image.paste Crosshair चित्र
-settings.crosshair.image.width Image Width
-settings.crosshair.image.height Image Height
+settings.crosshair.image.width चित्र की चौड़ाई
+settings.crosshair.image.height चित्र की लंबाई 
 settings.crosshair.always हमेशा दिखाओ
 settings.crosshair.color रंग
-settings.crosshair.shadow.color छाया रंग
-settings.crosshair.shadow.thickness छाया मोटाई
+settings.crosshair.shadow.color छाया का रंग
+settings.crosshair.shadow.thickness छाया की मोटाई
 settings.crosshair.size नाप
 settings.crosshair.thickness मोटाई
 settings.crosshair.gap गैप
@@ -252,30 +252,30 @@ settings.crosshair.dot बिंदु
 settings.crosshair.opacity.use कस्टम अपारदर्शिता का उपयोग करें
 settings.crosshair.opacity.custom कस्टम अपारदर्शिता
 settings.crosshairm.header Crosshair (Throwing)
-settings.crosshairm.type Type
-settings.crosshairm.type.1 Shapes
-settings.crosshairm.type.2 Image
-settings.crosshairm.type.3 Precision
-settings.crosshairm.style Style
-settings.crosshairm.style.0 Cross
-settings.crosshairm.style.1 Hollow Circle
-settings.crosshairm.style.2 Solid Circle
-settings.crosshairm.style.3 Hollow Square
-settings.crosshairm.style.4 Solid Square
-settings.crosshairm.image Image
-settings.crosshairm.image.paste Crosshair Image
-settings.crosshairm.image.width Image Width
-settings.crosshairm.image.height Image Height
-settings.crosshairm.always Always Show
-settings.crosshairm.color Color
-settings.crosshairm.shadow.color Shadow Color
-settings.crosshairm.shadow.thickness Shadow Thickness
-settings.crosshairm.size Size
-settings.crosshairm.thickness Thickness
-settings.crosshairm.gap Gap
-settings.crosshairm.dot Dot
-settings.crosshairm.opacity.use Use Custom Opacity
-settings.crosshairm.opacity.custom Custom Opacity
+settings.crosshairm.type प्रकार
+settings.crosshairm.type.1 आकार
+settings.crosshairm.type.2 इमेज
+settings.crosshairm.type.3 प्रिसिजन
+settings.crosshairm.style शैली
+settings.crosshairm.style.0 क्रॉस
+settings.crosshairm.style.1 खोखला सर्कल
+settings.crosshairm.style.2 ठोस सर्कल
+settings.crosshairm.style.3 खोखला चौकोर
+settings.crosshairm.style.4 ठोस चौकोर
+settings.crosshairm.image चित्र
+settings.crosshairm.image.paste Crosshair चित्र
+settings.crosshairm.image.width चित्र की चौड़ाई
+settings.crosshairm.image.height चित्र की लंबाई 
+settings.crosshairm.always हमेशा दिखाओ
+settings.crosshairm.color रंग
+settings.crosshairm.shadow.color छाया का रंग
+settings.crosshairm.shadow.thickness छाया की मोटाई
+settings.crosshairm.size  नाप
+settings.crosshairm.thickness मोटाई
+settings.crosshairm.gap गैप
+settings.crosshairm.dot बिंदु
+settings.crosshairm.opacity.use कस्टम अपारदर्शिता का उपयोग करें
+settings.crosshairm.opacity.custom कस्टम अपारदर्शिता
 settings.hitmarker.header हिटमार्कर
 settings.hitmarker.color रंग
 settings.hitmarker.kcolor हत्या करने पर रंग
@@ -300,12 +300,12 @@ settings.gameprivacy.header खेल की गोपनीयता
 settings.gameprivacy.streamer स्ट्रीमर मोड
 settings.gameprivacy.anon गुमनाम मोड
 settings.gameprivacy.hideGameTitle खेल शीर्षक छिपाएं
-settings.gameprivacy.showRegion Show Region Info
-settings.gameprivacy.verified Show Verified Badge
-settings.gameprivacy.premium Show Premium Badge
-settings.gameprivacy.partner Show Partner Badge
-settings.gameprivacy.rank Show Ranked Badge
-settings.gameprivacy.custom Show Custom Badge
+settings.gameprivacy.showRegion क्षेत्र की जानकारी दिखाएं
+settings.gameprivacy.verified Verified Badge दिखाएं
+settings.gameprivacy.premium Premium Badge दिखाएं
+settings.gameprivacy.partner Partner Badge दिखाएं
+settings.gameprivacy.rank Ranked Badge दिखाएं
+settings.gameprivacy.custom Custom Badge दिखाएं
 settings.gameplay.header गेमप्लेर
 settings.gameplay.gpSetts गेमप्ले सेटिंग्स
 settings.gameplay.sensitivityX X-संवेदनशीलता
@@ -459,7 +459,7 @@ windows.servers.hide फ़ुल सर्वर छिपाए
 windows.servers.priority रीजन की प्राथमिकता
 windows.servers.online {0} खेल में
 windows.servers.social {0} सोशल में
-windows.servers.editor {0} in Editor
+windows.servers.editor {0} एडिटर में
 windows.loadout.header लोडआउट बदले
 windows.loadout.class क्लास
 windows.loadout.primary प्राइमरी
@@ -480,7 +480,7 @@ windows.loadout.color.chat चैट मे अपने नाम का रं
 windows.loadout.color.hair बाल का रंग
 windows.loadout.dye डाई
 windows.loadout.pet पेट
-windows.loadout.wrist Wrist
+windows.loadout.wrist हाँथ
 windows.loadout.stat किलकार्ड स्टैटक
 windows.loadout.flag देश का झंडा
 windows.loadout.badge Custom Badge
@@ -611,7 +611,7 @@ windows.store.amount अकाउंट में {0} KR है
 windows.store.login बाजार से आइटम्स अनलॉक करने के लिए!
 windows.store.purchasing खरिदा जा रह है...
 windows.store.unboxed {0}{1} अनबॉक्स्ड
-windows.store.found {0}{1} found
+windows.store.found {0}{1} मिला
 windows.trade.header व्यापार करना
 windows.scope.header स्कोप चुने
 windows.premium.header प्रीमियम
@@ -670,10 +670,10 @@ mod.error मॉड एरर!
 mod.loading मॉड लोड हो रहा हे ...
 mod.invalid इनवैलिड मॉड फाइल !
 matchmaker.full फुल
-matchmaker.GameFull Game is full.
-matchmaker.NoServersMatchQuery GAME UPDATING
-matchmaker.InvalidGameId Game not found.
-matchmaker.NoAvailableServers Servers are at Max Capacity
+matchmaker.GameFull खेल भरा हुआ है
+matchmaker.NoServersMatchQuery खेल अपडेट हो रहा हे
+matchmaker.InvalidGameId खेल नहीं मिला.
+matchmaker.NoAvailableServers सारे सर्वर फुल् हैं
 matchmaker.GameIssue Unknown Join Issue
 adblocker KR प्राप्त करने के लिए, अपना adblocker बंद करें
 ad-failed विज्ञापन लोड होने में असफल हुआ । कृपया पुन: प्रयास करें
@@ -785,7 +785,7 @@ social.market.waist कमर की आइटम
 social.market.face चेहरे की आइटम
 social.market.shoe जूते
 social.market.pet पेट
-social.market.wrist Wrist Item
+social.market.wrist हाँथ की वस्तु 
 social.market.melee चाकू
 social.market.spray स्प्रे
 social.market.dye डाई
@@ -836,7 +836,7 @@ stats.headshots हेड शाट
 stats.wallbangs वॉल बैंग
 stats.crouches Crouches
 stats.sprays स्प्रे काउन्ट
-stats.kpd Helpful Reports
+stats.kpd मददगार रिपोर्टस
 windows.host.default.settings मैप के सेटिंग्स को सक्षम करने से प्लेयर्स के डाटा (हाइ स्कॉर्ज़) को सेव किया जा सकता है
 windows.host.default.commands *होस्ट कमांड (/ noclip, /god, /smite, आदि) इस मोड में काम नहीं करेंगे
 windows.host.rewards यदि आप KR रिवार्ड्स को सक्षम करते है, तो सारे खिलाड़ियों को डिफ़ॉल्ट सेटिंग्स पर खेलना पड़ेगा और वे आपके मैप के खाते से KR भी जीत सकते है:
@@ -858,9 +858,9 @@ windows.playerlist.punish क्या आप वास्तव में {0} �
 item.view.open मॉडल व्यूअर खोलें
 item.view.more अधिक जानकारी
 item.sell.cant आइटम बेचा नहीं जा सकता
-item.sell.cant.krunker Item cant be sold on krunker.
+item.sell.cant.krunker आइटम krunker पर बेचा नहीं जा सकता
 item.sell.quick क्या आप वास्तव में {0} की शीघ्र बिक्री करना चाहते है?
-item.sell.destroy Are you sure you want to Destroy {0}?
+item.sell.destroy क्या आप वास्तव में {0} को नष्ट करना चाहते हैं?
 social.profile.stats संपूर्ण आँकड़े
 social.profile.class हथियार के आँकड़े
 social.profile.sales बिक्री
@@ -890,25 +890,25 @@ social.trades.accept क्या आप वास्तव में इस ट
 stats.airdrops KR पैकेज
 stats.airdrops.stolen Airdrops Stolen
 settings.quality.flapAnim स्नाइपर फ्लैप एनीमेशन
-chall.name.hs Get {0} headshots {1}
-chall.name.ns Get {0} no-scopes {1}
-chall.name.ls Get {0} legshots {1}
+chall.name.hs Get {0} हैडशॉट्स {1}
+chall.name.ns Get {0} नो-स्कोप्स {1}
+chall.name.ls Get {0} लेगशॉट्स {1}
 chall.name.tmk Get {0} throwing knife kills {1}
 chall.name.fb Get {0} first bloods {1}
-chall.name.mk Get {0} melee kills {1}
-chall.name.fk Get {0} fist kills {1}
-chall.name.qs Get {0} quickscopes {1}
+chall.name.mk Get {0} मिली किलज़ {1}
+chall.name.fk Get {0} हाँथों द्वारा किये गए किल {1}
+chall.name.qs Get {0} क्विक-स्कोप्स {1}
 chall.name.wb Get {0} wallbangs {1}
 chall.name.airk Get {0} mid-air kills {1}
 chall.name.lns Get {0} longshots {1}
 chall.name.tk Get {0} turbo kills {1}
 chall.name.drk Get {0} drift kills {1}
 chall.name.kstk Get a {0} killstreak {1}
-chall.name.w Win {0} matches
-chall.name.d Die {0} times
-chall.name.score Get {0} score
-chall.name.dmg Deal {0} damage {1}
-chall.name.bzk Get {0} buzz kills {1}
+chall.name.w Win {0} मैचेस 
+chall.name.d Die {0} समय
+chall.name.score Get {0} अंक
+chall.name.dmg Deal {0} डैमेज {1}
+chall.name.bzk Get {0} बज़ किलज़ {1}
 chall.name.cc Get {0} close-calls {1}
 chall.name.rk Deal {0} revenge kills {1}
 `;
