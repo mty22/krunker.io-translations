@@ -33,8 +33,8 @@ generic.score Score
 generic.off Désactivé
 generic.defeat DÉFAITE
 generic.victory VICTOIRE
-generic.matchover MATCH TERMINÉ
-generic.matchaband MATCH ABANDONNÉ
+generic.matchover PARTIE TERMINÉ
+generic.matchaband PARTIE ABANDONNÉ
 generic.follow S’abonner
 generic.unfollow Se désabonner
 generic.followers Abonnés
@@ -352,7 +352,7 @@ settings.audio.dialogue Volume des actions
 settings.viewmodel.header Afficher le modèle
 settings.viewmodel.vmSetts Voir les paramètres de modèle
 settings.viewmodel.fov Champ de vision
-settings.viewmodel.fps Champ de vision de l
+settings.viewmodel.fps Champ de vision de l'arme
 settings.viewmodel.bobbing Balancement de l’arme
 settings.viewmodel.leaning Inclinaison de l’arme
 settings.viewmodel.show.primary Afficher l’arme principale
@@ -545,9 +545,9 @@ windows.controls.taunt3 Taunt (Meme)
 windows.controls.taunt4 Taunt (WTF is This?)
 windows.controls.taunt5 Taunt (Maintenant!)
 windows.controls.prop Selectionner l'objet (Tenir appuyé)
-windows.controls.propRand Select Random Prop
+windows.controls.propRand Sélectionnez un accessoire aléatoire
 windows.controls.propRot Toggle Rotation
-windows.controls.propRotR Reset Rotation
+windows.controls.propRotR Réinitialiser la rotation
 windows.controls.premium0 Noclip
 windows.controls.premium1 Invincibilité
 windows.controls.premium2 Suicide
@@ -594,7 +594,7 @@ windows.clans.view Voir les clans
 windows.clans.join Rejoindre un clan
 windows.clans.login pour créer ou rejoindre un clan !
 windows.store.header Boutique
-windows.store.spin {0} Spin
+windows.store.spin {0} Tourner la roue
 windows.store.agree En achetant, vous acceptez les {0}termes d’utilisation
 windows.store.purchase Acheter des KR
 windows.store.voucher Entrer un code
@@ -728,7 +728,7 @@ server.config.thirdPerson Troisième personne
 server.config.requireCaptcha Captcha requis
 server.config.nameTags Cacher les pseudos
 server.config.kCams Caméra des éliminations
-server.config.aAnon Autoriser les anonymes
+server.config.aAnon Autoriser les joueurs anonymes
 server.config.noReload Munitions illimitées
 server.config.private Privé
 server.config.krRewards Récompenses KR
@@ -803,7 +803,7 @@ social.market.fee.gift Aucun frais
 social.market.gift Offrir des KR
 social.market.gift.msg Laisser un message
 respawn.auto Réapparition automatique dans {0}
-custom.host.ranked Vous ne pouvez pas héberger de match pendant une partie classée.
+custom.host.ranked Vous ne pouvez pas héberger de partie pendant une partie classée.
 funds.insufficient Fonds insuffisants
 funds.out On dirait que vous êtes arrivé à court de KR.
 custom.passcode.long Mot de passe trop long
@@ -822,7 +822,7 @@ account.delete Vous pouvez demander la suppression de votre compte, si la requê
 account.delete.request Êtes-vous sûr de vouloir envoyer la requête de supression du compte ?
 account.delete.cancel Êtes-vous sûr de vouloir annuler la requête de supression du compte ?
 spin.free.available KR GRATUITS DISPONIBLES!
-spin.free.claim Vous pouvez réclamer cette récompense toutes les heures après un match.
+spin.free.claim Vous pouvez réclamer cette récompense toutes les heures après une partie.
 spin.free.disable Ces popups peuvent êtres désactivées dans les paramètres généraux
 mod.reset.0 Prendra effet après réapparition.
 mod.reset.1 Les objets de la map ne sont pas réinitialisés.
@@ -890,9 +890,9 @@ social.trades.accept Êtes-vous sûr de vouloir accepter cette offre?
 stats.airdrops Largage aérien de KR
 stats.airdrops.stolen Largages aériens de KR volés
 settings.quality.flapAnim Animation du rabat de sniper
-chall.name.hs  Obtenez {0} tirs a la tête {1}
+chall.name.hs  Obtenez {0} tirs à la tête {1}
 chall.name.ns  Obtenez {0} tirs sans viser {1}
-chall.name.ls  Obtenez {0} tirs a la jambe {1}
+chall.name.ls  Obtenez {0} tirs à la jambe {1}
 chall.name.tmk Obtenez {0} éliminations au lancer de couteau {1}
 chall.name.fb  Obtenez {0} premier sangs {1}
 chall.name.mk  Obtenez {0} éliminations à la mêlée
@@ -904,7 +904,7 @@ chall.name.lns Obtenez {0} tirs de loin
 chall.name.tk  Obtenez {0} éliminations turbo {1}
 chall.name.drk Obtenez {0} éliminations dérapantes {1}
 chall.name.kstk Obtenez une serie d'éliminations de {0} {1}
-chall.name.w Gagnez {0} matchs
+chall.name.w Gagnez {0} parties
 chall.name.d Mourrez {0} fois
 chall.name.score Obtenez {0} score
 chall.name.dmg Faire {0} dégâts {1}
