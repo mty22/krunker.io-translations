@@ -74,9 +74,9 @@ If you contributed in the past and can't find your name below (or simply wish to
 
 
 - [Turkish](https://github.com/mty22/krunker.io-translations/blob/main/tr.js) (Türkçe)
--- [SecretMember](https://krunker.io/social.html?p=profile&q=SecretMember) (SecretMember#0099)
--- [WinnerOgün](https://krunker.io/social.html?p=profile&q=Winner_Ogün) (W_O#1903)
--- [hon0urdy](https://krunker.io/social.html?p=profile&q=onurongunnn) (hon0urdy#5024)
+-- [SecretMember](https://krunker.io/social.html?p=profile&q=SecretMember) (SecretMember#0333)
+-- [WinnerOgün](https://krunker.io/social.html?p=profile&q=Winner_Ogün) (ogyn#1045)
+-- [hon0urdy](https://krunker.io/social.html?p=profile&q=onurongunnn) (honurdi#1840)
 -- [NathanNorth](https://krunker.io/social.html?p=profile&q=Axima) (NathanNorth#4365)
 
 - [Dutch](https://github.com/mty22/krunker.io-translations/blob/main/fi.js) (Nederlands)
