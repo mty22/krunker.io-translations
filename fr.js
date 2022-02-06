@@ -61,7 +61,7 @@ generic.accuracy Précision
 player.waiting En attente de joueurs
 player.died Vous êtes mort
 player.killed Tué par
-player.killstreak {0} on a {1} Kill Streak
+player.killstreak {0} sur une serie d'éliminations de {1}
 player.inactive Expulsé pour inactivité
 player.disconnect DÉCONNECTÉ
 timer.end Prochaine manche dans {0}
@@ -91,15 +91,15 @@ settings.network.header Réseau
 settings.network.netRerouting Routage automatique (affecte le Ping)
 settings.network.netRate Taux de rafraîchissement réseau (Hz)
 settings.network.lagComp Compensation du lag
-settings.network.optNet Optimized Networking
+settings.network.optNet Optimisation du réseau
 settings.popup.header Popups
 settings.experimental.header Expérimental
-settings.experimental.holiday Holiday Effects
+settings.experimental.holiday Éffets de fêtes
 settings.experimental.aimFreezeFix Correction du bug de visée bloquée
 settings.experimental.mouseFlickFix Correction des accoups de la souris
 settings.experimental.shaderRendering Instanciation géométrique
-settings.experimental.mouseAccel Mouse Acceleration
-settings.experimental.tbInterp TB Interpolation
+settings.experimental.mouseAccel Accélération de la souris
+settings.experimental.tbInterp  Interpolation TB
 settings.client.header Client
 settings.client.unlimitedFrames FPS illimités
 settings.client.gameCap Capture du jeu
@@ -111,7 +111,7 @@ settings.client.resetSettings Réinitialiser les paramètres du client
 settings.client.acceleratedCanvas Canvas accélérés
 settings.client.angleBackend ANGLE Graphics Backend
 settings.client.colorProfile Profil de couleur
-settings.client.resourcePacks Resource Packs
+settings.client.resourcePacks Packs de ressources
 settings.dev.header Développeur
 settings.dev.forceUpdate Forcer la mise à jour des skins
 settings.dev.forceRegen Toujours régénérer le joueur
@@ -173,7 +173,7 @@ settings.interface.dmgCol Couleur des dégâts
 settings.interface.critCol Couleur des critiques
 settings.interface.header Interface
 settings.interface.scale Taille de l'interface
-settings.interface.theme Game Theme
+settings.interface.theme Thème du jeu
 settings.interface.ui Afficher l'interface
 settings.interface.scoreboard Ancien tableau des scores
 settings.interface.oldBrowser Ancien navigateur de serveurs
@@ -217,13 +217,13 @@ settings.interface.healthColE Couleur de vie des ennemis
 settings.interface.xpBarCol Couleur de la barre d'xp
 settings.interface.xpBarCol2 Couleur 2 de la barre d'xp
 settings.interface.xpBarOpac Opacité de la barre d'xp
-settings.medals.header Medals
-settings.medals.show Show Medals
-settings.medals.classic Classic Medals
-settings.medals.sound Play Medal Sounds
-settings.medals.scale Medal Scale
-settings.medals.xOff Medal X Offset
-settings.medals.yOff Medal Y Offset
+settings.medals.header Médailles
+settings.medals.show Montrer les médeailles
+settings.medals.classic Médailles classiques
+settings.medals.sound Jouer les sons des médailles
+settings.medals.scale Taille des médailles
+settings.medals.xOff Décalage X des médailles 
+settings.medals.yOff Décalage Y des médailles 
 settings.crosshair.header Curseur
 settings.crosshair.type Type
 settings.crosshair.type.1 Dynamique
@@ -278,7 +278,7 @@ settings.crosshairm.opacity.use Utiliser une pacité personnalisée
 settings.crosshairm.opacity.custom Opacité personnalisée
 settings.hitmarker.header Indicateur de touche
 settings.hitmarker.color Couleur
-settings.hitmarker.kcolor Couleur du kill
+settings.hitmarker.kcolor Couleur de l'élimination
 settings.hitmarker.thickness Épaisseur
 settings.hitmarker.opacity Opacité
 settings.hitmarker.leng Longueur
@@ -342,7 +342,7 @@ settings.audio.ambient Volume ambiant
 settings.audio.voice Volume des voix
 settings.audio.input Entrée audio/micro
 settings.audio.mic Volume micro
-settings.audio.micquality Mic Quality
+settings.audio.micquality Qualité du micro
 settings.audio.weps Volume des armes
 settings.audio.player Volume des joueurs
 settings.audio.skin Volume des cosmétiques
@@ -480,10 +480,10 @@ windows.loadout.color.chat Couleur du pseudo dans le chat
 windows.loadout.color.hair Couleur de cheveux
 windows.loadout.dye Teinture
 windows.loadout.pet Animal de compagnie
-windows.loadout.wrist Wrist
+windows.loadout.wrist Poignet
 windows.loadout.stat Stat de la carte d’élimination
 windows.loadout.flag Drapeau
-windows.loadout.badge Custom Badge
+windows.loadout.badge Badge personnalisé
 windows.mods.drop Glissez un dossier de mod ici ou cliquez
 windows.mods.paste Lien URL du mod
 windows.mods.load Charger un mod
@@ -539,11 +539,11 @@ windows.controls.streak2 Série d’élimination 3
 windows.controls.streak3 Série d’élimination 4
 windows.controls.streak4 Série d’élimination 5
 windows.controls.taunt0 Taunt (Psst)
-windows.controls.taunt1 Taunt (Whistle)
-windows.controls.taunt2 Taunt (Fart)
+windows.controls.taunt1 Taunt (Sifflement)
+windows.controls.taunt2 Taunt (Pet)
 windows.controls.taunt3 Taunt (Meme)
 windows.controls.taunt4 Taunt (WTF is This?)
-windows.controls.taunt5 Taunt (Right Now!)
+windows.controls.taunt5 Taunt (Maintenant!)
 windows.controls.prop Selectionner l'objet (Tenir appuyé)
 windows.controls.propRand Select Random Prop
 windows.controls.propRot Toggle Rotation
@@ -611,7 +611,7 @@ windows.store.amount {0} KR sur votre compte
 windows.store.login pour acheter et obtenir des objets de la boutique !
 windows.store.purchasing En cours d’achat...
 windows.store.unboxed {0}{1} a obtenu
-windows.store.found {0}{1} found
+windows.store.found {0}{1} a trouvé
 windows.trade.header Échange
 windows.scope.header Sélectionner le viseur
 windows.premium.header Premium
@@ -670,11 +670,11 @@ mod.error Erreur du mod !
 mod.loading Chargement du mod...
 mod.invalid Fichier du mod invalide!
 matchmaker.full PLEIN
-matchmaker.GameFull Game is full.
-matchmaker.NoServersMatchQuery GAME UPDATING
-matchmaker.InvalidGameId Game not found.
-matchmaker.NoAvailableServers Servers are at Max Capacity
-matchmaker.GameIssue Unknown Join Issue
+matchmaker.GameFull La partie est pleine.
+matchmaker.NoServersMatchQuery LE JEU EST EN TRAIN DE SE METTRE A JOUR.
+matchmaker.InvalidGameId Partie pas trouvée.
+matchmaker.NoAvailableServers Les serveurs sont à la capacité maximale.
+matchmaker.GameIssue Problème de rejoignement inconnu
 adblocker Désactivez votre bloqueur de publicités pour obtenir des KR gratuits.
 ad-failed La publicité n’a pas pu être chargée. Réessayez plus tard.
 streamers.views {0} spectateurs
@@ -700,7 +700,7 @@ server.config.strafeSpd Vitesse de strafe
 server.config.fiRat Cadence de tir
 server.config.reSpd Vitesse de rechargement
 server.config.slidTime Durée de glissade
-server.config.fixMov Fixed Movement
+server.config.fixMov Mouvement fixe
 server.config.slidSpd VItesse de glissade
 server.config.healthMlt Multiplicateur de Santé
 server.config.impulseMlt Force de propulsion
@@ -721,17 +721,17 @@ server.config.headshotOnly Tir dans la tête uniquement
 server.config.noSecondary Désactiver les armes secondaires
 server.config.noStreaks Désactiver les séries d’élimination
 server.config.canSlide Glissade
-server.config.wallJP Force de walljump
+server.config.wallJP Force de saut de mur
 server.config.autoJump Saut automatique
 server.config.bDrop Gravité des projectiles
 server.config.thirdPerson Troisième personne
 server.config.requireCaptcha Captcha requis
 server.config.nameTags Cacher les pseudos
-server.config.kCams Kill Cams
-server.config.aAnon Allow Anonymous
+server.config.kCams Caméra des éliminations
+server.config.aAnon Autoriser les anonymes
 server.config.noReload Munitions illimitées
 server.config.private Privé
-server.config.krRewards KR Rewards
+server.config.krRewards Récompenses KR
 server.config.forceDefault Forcer les paramètres par défaut
 server.config.warmupTime Temps d’échauffement
 server.config.gamRounds Manches
@@ -753,7 +753,7 @@ server.config.tmSize Taille d'équipe
 server.config.fallDmg Dégat de chute
 server.config.fallDmgThr Seuil de dégat de chute
 server.config.noDraws Pas d'égalité
-server.config.bstOfR Best of
+server.config.bstOfR Meilleur des
 server.config.chrgWeps Armes de charge
 social.login Connexion / Inscription
 social.login.failed Connexion échouée
@@ -785,7 +785,7 @@ social.market.waist Bassin
 social.market.face Visage
 social.market.shoe Chaussure
 social.market.pet Animal de compagnie
-social.market.wrist Wrist Item
+social.market.wrist Accessoire de poignet
 social.market.melee Mêlée
 social.market.spray Tag
 social.market.dye Teinture
@@ -811,12 +811,12 @@ custom.passcode.input Entrer le mot de passe du serveur pour rejoindre
 custom.tryagain Veuillez réessayer.
 purchase.kr.success Ajouté {0} KR à votre compte
 limited.purchase.ask Êtes-vous sûr de vouloir acheter [{0}] pour {1} KR?
-limited.purchase.success Ajouté {0} to your inventory
+limited.purchase.success Ajouté {0} à votre inventaire
 pretend.exit Appuyer sur [{0}] de nouveau pour quitter
 settings.loaded Paramètres chargés
 settings.loaded.none Pas de paramètres trouvés
 account.login.required Doit être connecté
-account.banned.hack Ce compte a été banni pour cheat.
+account.banned.hack Ce compte a été banni pour tricherie.
 account.banned.appeal Si vous souhaitez faire une demande de débannissement, contactez:
 account.delete Vous pouvez demander la suppression de votre compte, si la requête n'est pas annulée sous 14 jours, le compte et les données associées à celui-ci seront supprimées.
 account.delete.request Êtes-vous sûr de vouloir envoyer la requête de supression du compte ?
@@ -831,12 +831,12 @@ stats.assists Aides
 stats.nukes Nukes
 stats.melee Mêlées
 stats.fistkills Kills aux points
-stats.thrownkills Kills aux jets de mêlée
+stats.thrownkills Kills aux lancers de mêlée
 stats.headshots Tirs à la tête
 stats.wallbangs Tirs à travers les murs
-stats.crouches Crouches
+stats.crouches Accroupissements
 stats.sprays Tags placés
-stats.kpd Helpful Reports
+stats.kpd Plaintes utiles
 windows.host.default.settings Activer les paramètres par défaut permet le stockage du progrès des joueurs et des meilleurs scores.
 windows.host.default.commands *Les commandes d'host sont désactivées dans ce mode: /noclip /god /smite etc
 windows.host.rewards Activer les récompenses KR force le serveur à utiliser les paramètres par défaut et permet aux joueurs de gagner des KR depuis les fonds de la map:
@@ -858,9 +858,9 @@ windows.playerlist.punish Êtes-vous sûr de vouloir prendre action sur {0}?
 item.view.open Ouvrir l'inspecteur de models
 item.view.more Plus d'informations
 item.sell.cant Cet objet ne peut pas être vendu.
-item.sell.cant.krunker Item cant be sold on krunker.
+item.sell.cant.krunker Cet objet ne peut pas être vendu sur Krunker.
 item.sell.quick Êtes-vous sûr de vouloir vendre instantanément {0}?
-item.sell.destroy Are you sure you want to Destroy {0}?
+item.sell.destroy Êtes-vous sûr de vouloir détruire {0}?
 social.profile.stats Stats globales
 social.profile.class Stats de classe
 social.profile.sales Ventes
@@ -887,28 +887,28 @@ social.trades.decline Refuser tout
 social.trades.message ACTIVER LES MESSAGES D'ÉCHANGES DANS LES PARAMÈTRES
 social.trades.warning Vous ne recevez rien en échange!
 social.trades.accept Êtes-vous sûr de vouloir accepter cette offre?
-stats.airdrops Paquets de KR
-stats.airdrops.stolen Airdrops Stolen
+stats.airdrops Largage aérien de KR
+stats.airdrops.stolen Largages aériens de KR volés
 settings.quality.flapAnim Animation du rabat de sniper
-chall.name.hs Get {0} headshots {1}
-chall.name.ns Get {0} no-scopes {1}
-chall.name.ls Get {0} legshots {1}
-chall.name.tmk Get {0} throwing knife kills {1}
-chall.name.fb Get {0} first bloods {1}
-chall.name.mk Get {0} melee kills {1}
-chall.name.fk Get {0} fist kills {1}
-chall.name.qs Get {0} quickscopes {1}
-chall.name.wb Get {0} wallbangs {1}
-chall.name.airk Get {0} mid-air kills {1}
-chall.name.lns Get {0} longshots {1}
-chall.name.tk Get {0} turbo kills {1}
-chall.name.drk Get {0} drift kills {1}
-chall.name.kstk Get a {0} killstreak {1}
-chall.name.w Win {0} matches
-chall.name.d Die {0} times
-chall.name.score Get {0} score
-chall.name.dmg Deal {0} damage {1}
+chall.name.hs  Obtenez {0} tirs a la tête {1}
+chall.name.ns  Obtenez {0} tirs sans viser {1}
+chall.name.ls  Obtenez {0} tirs a la jambe {1}
+chall.name.tmk Obtenez {0} éliminations au lancer de couteau {1}
+chall.name.fb  Obtenez {0} premier sangs {1}
+chall.name.mk  Obtenez {0} éliminations à la mêlée
+chall.name.fk  Obtenez {0} éliminations au poing {1}
+chall.name.qs  Obtenez {0} éliminations à la visée rapide {1}
+chall.name.wb  Obtenez {0} éliminations à travers un mur {1}
+chall.name.airk Obtenez {0} éliminations en l'air {1}
+chall.name.lns Obtenez {0} tirs de loin
+chall.name.tk  Obtenez {0} éliminations turbo {1}
+chall.name.drk Obtenez {0} éliminations dérapantes {1}
+chall.name.kstk Obtenez une serie d'éliminations de {0} {1}
+chall.name.w Gagnez {0} matchs
+chall.name.d Mourrez {0} fois
+chall.name.score Obtenez {0} score
+chall.name.dmg Faire {0} dégâts {1}
 chall.name.bzk Get {0} buzz kills {1}
-chall.name.cc Get {0} close-calls {1}
-chall.name.rk Deal {0} revenge kills {1}
+chall.name.cc Obtenez {0} échappées-belles {1}
+chall.name.rk Faire {0} éliminations de vengeance {1}
 `;
