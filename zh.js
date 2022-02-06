@@ -753,7 +753,7 @@ server.config.tmSize 团队大小
 server.config.fallDmg 摔落伤害
 server.config.fallDmgThr 摔落伤害临界值
 server.config.noDraws 禁用平局
-server.config.bstOfR 最佳玩家
+server.config.bstOfR 赛点制
 server.config.chrgWeps 蓄力投掷
 social.login 登录或注册
 social.login.failed 登录失败
