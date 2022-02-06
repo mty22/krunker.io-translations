@@ -10,7 +10,7 @@ With that being said, both Krunker account verification and Krunker translator b
 
 Existing languages translated and added in-game prior to Krunker v5.4.2 can apply to receive a Krunker translator badge by contacting frzn#1030 in private. This will also be assessed in a similar way with the aformentioned comments in regards to users who continuously contribute to the Krunker Translation Project.
 
-The defintion of a contributor is defined as a person who participates in the Krunker Translation Project by either assisting other translators in Krunker Bunker or on GitHub (ie. providing assistance to Krunker Translation Project managers by assisting with GitHub actions such as PR's or Issues), or translating and or reviewing PR's.
+The defintion of a contributor is defined as a person who participates in the Krunker Translation Project by either assisting other translators in Krunker Bunker or on GitHub (ie. providing assistance to Krunker Translation Project managers by assisting with GitHub actions such as PR's or Issues), or translating and or reviewing PR's. All eligible contribors will receive the Discord Translation Contributor role.
 
 Changes to this guide may be made at any point in time where required, and abuse of this system will not be tolerated. Yendis staff reserve the right to remove Krunker account verification, Krunker account badge(s) or Krunker Bunker roles where abuse has been identified, or any other scenario/action which reflects negative towards Krunker or the Krunker Translation Project.
 
