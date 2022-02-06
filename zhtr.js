@@ -893,26 +893,14 @@ settings.quality.flapAnim 狙擊鏡保護蓋動畫
 chall.name.hs Get {0} headshots {1}
 chall.name.ns Get {0} no-scopes {1}
 chall.name.ls Get {0} legshots {1}
-chall.name.ls Get {0} throwing knife kills {1}
-chall.name.ls Get {0} first bloods {1}
-chall.name.ls Get {0} longshots {1}
-chall.name.ls Get {0} legshots {1}
-chall.name.ls Get {0} throwing knife kills {1}
-chall.name.ls Get {0} first bloods {1}
-chall.name.ls Get {0} longshots {1}
-chall.name.ls Get {0} legshots {1}
-chall.name.ls Get {0} throwing knife kills {1}
-chall.name.ls Get {0} first bloods {1}
-chall.name.ls Get {0} longshots {1}
+chall.name.tmk Get {0} throwing knife kills {1}
+chall.name.fb Get {0} first bloods {1}
 chall.name.mk Get {0} melee kills {1}
 chall.name.fk Get {0} fist kills {1}
 chall.name.qs Get {0} quickscopes {1}
 chall.name.wb Get {0} wallbangs {1}
 chall.name.airk Get {0} mid-air kills {1}
-chall.name.ls Get {0} legshots {1}
-chall.name.ls Get {0} throwing knife kills {1}
-chall.name.ls Get {0} first bloods {1}
-chall.name.ls Get {0} longshots {1}
+chall.name.lns Get {0} longshots {1}
 chall.name.tk Get {0} turbo kills {1}
 chall.name.drk Get {0} drift kills {1}
 chall.name.kstk Get a {0} killstreak {1}
