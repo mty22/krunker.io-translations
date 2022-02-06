@@ -459,7 +459,7 @@ windows.servers.hide 가득 찬 게임 숨기기
 windows.servers.priority 지역 우선순위
 windows.servers.online 게임 중: {0}명
 windows.servers.social 소셜 페이지: {0}명
-windows.servers.editor 편집기: {0}명
+windows.servers.editor 맵 에디터: {0}명
 windows.loadout.header 무기 및 스킨 바꾸기
 windows.loadout.class 클래스
 windows.loadout.primary 주무기
@@ -507,7 +507,7 @@ windows.controls.aim1 조준
 windows.controls.shoot1 발사
 windows.controls.inspect 무기 자세히 보기
 windows.controls.spray 스프레이
-windows.controls.sprayWheel 스프레이 휠 (홀드)
+windows.controls.sprayWheel 스프레이 메뉴 (홀드)
 windows.controls.jump 점프
 windows.controls.crouch 앉기
 windows.controls.prim 주무기
@@ -542,8 +542,8 @@ windows.controls.taunt0 도발 (관심 끌기)
 windows.controls.taunt1 도발 (휘파람)
 windows.controls.taunt2 도발 (방귀)
 windows.controls.taunt3 도발 (밈)
-windows.controls.taunt4 도발 (WTF is This?)
-windows.controls.taunt5 도발 (Right Now!)
+windows.controls.taunt4 도발 (이게 뭐야?)
+windows.controls.taunt5 도발 (지금 당장!)
 windows.controls.prop 사물 선택 (홀드)
 windows.controls.propRand 무작위 사물 선택
 windows.controls.propRot 회전 전환
@@ -572,7 +572,7 @@ windows.spray.spin 스프레이
 windows.maps.header 사용자 지정 게임
 windows.maps.none 찾은 게임이 없습니다!
 windows.maps.name 게임 이름
-windows.maps.editor 게임 편집기
+windows.maps.editor 게임 에디터
 windows.maps.publish 게임 올리기
 windows.maps.community 개발자 커뮤니티
 windows.publish.map.header 게임 업로드 또는 업데이트
@@ -610,8 +610,8 @@ windows.store.unlock 새 무기 스킨과 아이템을 얻으세요!
 windows.store.amount {0} KR이 계정에 있습니다
 windows.store.login 로그인해서 마켓에서 아이템을 사고파세요!
 windows.store.purchasing 구매 중...
-windows.store.unboxed {0}님이 {1} 아이템을 뽑았습니다
-windows.store.found {0}{1}님이 아이템을 찾았습니다
+windows.store.unboxed {0}{1}님이 아이템을 뽑음:
+windows.store.found {0}{1}님이 아이템을 찾음:
 windows.trade.header 트레이드 중
 windows.scope.header 스코프 선택
 windows.premium.header 프리미엄
@@ -673,7 +673,7 @@ matchmaker.full 가득 찼습니다
 matchmaker.GameFull 게임이 가득 찼습니다
 matchmaker.NoServersMatchQuery 게임이 업데이트 중입니다
 matchmaker.InvalidGameId 게임을 찾을 수 없습니다
-matchmaker.NoAvailableServers 서버가 최대 수용량에 도달했습니다
+matchmaker.NoAvailableServers 서버 수용량이 가득 찼습니다
 matchmaker.GameIssue 알 수 없는 참가 문제가 발생했습니다
 adblocker 무료 KR을 받으려면 광고 차단기를 끄세요.
 ad-failed 광고를 불러오지 못하였습니다. 나중에 다시 시도하세요.
@@ -806,7 +806,7 @@ respawn.auto {0}초 후 자동 리스폰
 custom.host.ranked 랭크전 준비 중 게임 만들기 불가
 funds.insufficient 돈이 부족합니다
 funds.out KR이 부족합니다
-custom.passcode.long 비밀번호가 너무 길음
+custom.passcode.long 비밀번호가 너무 긺
 custom.passcode.input 참가를 위해 서버 비밀번호를 입력하세요
 custom.tryagain 다시 시도해 주십시오
 purchase.kr.success {0} KR을 계정에 추가하였습니다
@@ -836,7 +836,7 @@ stats.headshots 헤드샷
 stats.wallbangs 벽 관통 처치
 stats.crouches 앉기
 stats.sprays 스프레이 수
-stats.kpd 유용한 신고
+stats.kpd 유용한 신고 수
 windows.host.default.settings 기본 설정을 사용하면 플레이어 진행률과 최고 점수를 저장할 수 있습니다
 windows.host.default.commands /noclip, /god, /smite와 같은 호스트 명령어는 비활성화됩니다 
 windows.host.rewards KR 보상을 허용하면 서버 내에서 기본 설정을 강제하고 플레이어들이 맵에서 KR을 받을 수 있습니다
@@ -860,7 +860,7 @@ item.view.more 더 많은 정보
 item.sell.cant 이 아이템은 판매할 수 없습니다
 item.sell.cant.krunker 아이템을 Krunker에서 판매할 수 없습니다.
 item.sell.quick {0} 아이템을 빠른 판매할까요?
-item.sell.destroy {0} 아이템을 파기할까요?
+item.sell.destroy {0} 아이템을 파괴할까요?
 social.profile.stats 기본 스탯
 social.profile.class 클래스 스탯
 social.profile.sales 판매
