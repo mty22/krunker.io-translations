@@ -42,7 +42,7 @@ generic.following 個追隨中
 generic.games 遊玩局數
 generic.wins 勝場數
 generic.lose 敗場數
-generic.clan 公會
+generic.clan 戰隊
 generic.games.played 遊玩局數
 generic.games.won 勝場數
 generic.games.lost 敗場數
@@ -127,7 +127,7 @@ settings.chat.chatBGOp 聊天欄背景不透明度
 settings.chat.chatHeight 聊天欄高度
 settings.chat.chatTimer 聊天欄文字顯示時間
 settings.chat.chatTextOutline 聊天欄文字輪廓
-settings.chat.chatFilter 髒話過濾器
+settings.chat.chatFilter 髒話過濾（僅限英文）
 settings.quality.header 遊戲性能
 settings.quality.updRate 幀率上限
 settings.quality.rendDst 渲染距離
@@ -145,7 +145,7 @@ settings.quality.highResShad 高解析度陰影
 settings.quality.shadowsDynamic 動態陰影
 settings.quality.trails 顯示曳光蹤跡
 settings.quality.yourTrails 顯示自身子彈
-settings.quality.mflash 槍口火焰
+settings.quality.mflash 槍口閃光
 settings.quality.flap 顯示狙擊鏡保護蓋
 settings.quality.lowSpec 低規格模式
 settings.quality.ambient 環境陰影深淺程度
@@ -340,7 +340,7 @@ settings.audio.header 音訊
 settings.audio.sound 主音量
 settings.audio.ambient 環境音量
 settings.audio.voice 語音音量
-settings.audio.input 音訊或麥克風輸入
+settings.audio.input 音訊輸入
 settings.audio.mic 麥克風音量
 settings.audio.micquality 麥克風音質
 settings.audio.weps 武器音量
@@ -548,10 +548,10 @@ windows.controls.prop 選擇物體（長按）
 windows.controls.propRand 隨機選擇物體
 windows.controls.propRot 切換物體旋轉角度
 windows.controls.propRotR 重設物體旋轉角度
-windows.controls.premium0 穿牆飛行模式
-windows.controls.premium1 無敵模式
+windows.controls.premium0 穿牆飛行
+windows.controls.premium1 無敵
 windows.controls.premium2 自殺
-windows.controls.premium3 超高傷害
+windows.controls.premium3 瞬間擊殺
 windows.controls.reset 重設進度並回到起點（跑酷）
 windows.controls.pretend 隱藏遊戲
 windows.host.header 建立客製化伺服器
@@ -583,16 +583,16 @@ windows.publish.map.login 登入以建立並上傳地圖！
 windows.theatre.header 影院模式
 windows.theatre.record 啟用錄製
 windows.theatre.key 錄製鍵
-windows.clans.header 公會
-windows.clans.members {0} 個公會成員
+windows.clans.header 戰隊
+windows.clans.members {0} 個戰隊成員
 windows.clans.requests 申請
 windows.clans.requests.none 無申請
-windows.clans.page [{0}] 公會頁面
-windows.clans.create 建立公會
-windows.clans.name 公會名稱
-windows.clans.view 瀏覽公會
-windows.clans.join 加入公會
-windows.clans.login 登入以建立並加入公會！
+windows.clans.page [{0}] 戰隊頁面
+windows.clans.create 建立戰隊
+windows.clans.name 戰隊名稱
+windows.clans.view 瀏覽戰隊
+windows.clans.join 加入戰隊
+windows.clans.login 登入以建立並加入戰隊！
 windows.store.header 商店
 windows.store.spin {0} 輪盤
 windows.store.agree 確認購買即表示你同意 {0}條款及細則
@@ -801,7 +801,7 @@ social.trading.submitting 發送交易請求中…
 social.market.gift.amount 贈送金額
 social.market.fee.gift 無費用
 social.market.gift 贈送 KR
-social.market.gift.msg 說點什麼呢…
+social.market.gift.msg 講點什麼呢…
 respawn.auto 你將會在 {0} 秒後自動復活
 custom.host.ranked 排位賽中無法建立客製化伺服器。
 funds.insufficient 資金餘額不足
@@ -846,9 +846,9 @@ windows.store.creator 購買 KR 時，考慮使用創作者代碼來支持你最
 windows.chall.customs 客製化伺服器內無法完成挑戰任務。
 twitch.link 你確定要連結你的 Twitch 帳戶嗎？
 twitch.unlink 你確定要取消連結你的 Twitch 帳戶嗎？
-windows.clan.leave 你確定要離開此公會嗎？
-windows.clan.delete 你確定要解散此公會嗎？
-windows.clan.kick 你確定要從此公會踢出 {0} 嗎？
+windows.clan.leave 你確定要離開此戰隊嗎？
+windows.clan.delete 你確定要解散此戰隊嗎？
+windows.clan.kick 你確定要從此戰隊踢出 {0} 嗎？
 windows.store.premium.purchase 你確定要購買 {0} 天的會員嗎？
 windows.store.premium.gift 你確定要贈送「{0}」{1} 天的會員嗎？
 windows.playerlist.ban 你確定要從此伺服器封禁並踢出 {0} 嗎？

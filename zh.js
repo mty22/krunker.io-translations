@@ -42,7 +42,7 @@ generic.following 个关注中
 generic.games 游玩局数
 generic.wins 胜场数
 generic.lose 败场数
-generic.clan 战队
+generic.clan 公会
 generic.games.played 游玩局数
 generic.games.won 胜场数
 generic.games.lost 败场数
@@ -127,7 +127,7 @@ settings.chat.chatBGOp 聊天窗口背景不透明度
 settings.chat.chatHeight 聊天窗口高度
 settings.chat.chatTimer 聊天文本显示时间
 settings.chat.chatTextOutline 聊天文本轮廓
-settings.chat.chatFilter 脏话过滤器
+settings.chat.chatFilter 脏话过滤（仅限英文）
 settings.quality.header 游戏性能
 settings.quality.updRate 帧率上限
 settings.quality.rendDst 渲染距离
@@ -145,7 +145,7 @@ settings.quality.highResShad 高分辨率阴影
 settings.quality.shadowsDynamic 动态阴影
 settings.quality.trails 显示曳光踪迹
 settings.quality.yourTrails 显示自身子弹
-settings.quality.mflash 枪口火焰
+settings.quality.mflash 枪口闪光
 settings.quality.flap 显示狙击镜保护盖
 settings.quality.lowSpec 低规格模式
 settings.quality.ambient 环境阴影深浅程度
@@ -340,7 +340,7 @@ settings.audio.header 音频
 settings.audio.sound 主音量
 settings.audio.ambient 环境音量
 settings.audio.voice 语音音量
-settings.audio.input 音频或麦克风输入
+settings.audio.input 音频输入
 settings.audio.mic 麦克风音量
 settings.audio.micquality 麦克风音质
 settings.audio.weps 武器音量
@@ -548,10 +548,10 @@ windows.controls.prop 选择物体（长按）
 windows.controls.propRand 选择任意物体
 windows.controls.propRot 切换物体旋转角度
 windows.controls.propRotR 重置物体旋转角度
-windows.controls.premium0 飞天穿墙模式
-windows.controls.premium1 无敌模式
+windows.controls.premium0 飞天穿墙
+windows.controls.premium1 无敌
 windows.controls.premium2 自杀
-windows.controls.premium3 超高伤害
+windows.controls.premium3 瞬间击杀
 windows.controls.reset 重置进度并回到起点（仅限跑酷和速通模式）
 windows.controls.pretend 隐藏游戏
 windows.host.header 创建自定义服务器
@@ -583,16 +583,16 @@ windows.publish.map.login 登录以创建并上传地图！
 windows.theatre.header 影院模式
 windows.theatre.record 启用录制
 windows.theatre.key 录制键
-windows.clans.header 战队
-windows.clans.members {0} 个战队成员
+windows.clans.header 公会
+windows.clans.members {0} 个公会成员
 windows.clans.requests 申请
 windows.clans.requests.none 没有申请
-windows.clans.page [{0}] 战队页面
-windows.clans.create 创建战队
-windows.clans.name 战队名称
-windows.clans.view 浏览战队
-windows.clans.join 加入战队
-windows.clans.login 登录以创建并加入战队！
+windows.clans.page [{0}] 公会页面
+windows.clans.create 创建公会
+windows.clans.name 公会名称
+windows.clans.view 浏览公会
+windows.clans.join 加入公会
+windows.clans.login 登录以创建并加入公会！
 windows.store.header 商店
 windows.store.spin {0} 转盘
 windows.store.agree 确认购买即表示你同意 {0}条款及细则
@@ -846,9 +846,9 @@ windows.store.creator 购买 KR 时，考虑使用创作者代码以支持你喜
 windows.chall.customs 自定义服务器内无法完成挑战任务。
 twitch.link 你确定要链接你的 Twitch 账户吗？
 twitch.unlink 你确定要取消链接你的 Twitch 账户吗？
-windows.clan.leave 你确定要离开此战队吗？
-windows.clan.delete 你确定要解散此战队吗？
-windows.clan.kick 你确定要从此战队踢出 {0} 吗？
+windows.clan.leave 你确定要离开此公会吗？
+windows.clan.delete 你确定要解散此公会吗？
+windows.clan.kick 你确定要从此公会踢出 {0} 吗？
 windows.store.premium.purchase 你确定要购买 {0} 天的会员吗？
 windows.store.premium.gift 你确定要赠送「{0}」{1} 天的会员吗？
 windows.playerlist.ban 你确定要从此服务器封禁并踢出 {0} 吗？
