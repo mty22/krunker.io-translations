@@ -28,6 +28,7 @@ If you contributed in the past and can't find your name below (or simply wish to
 -- [Chwoubaka](https://krunker.io/social.html?p=Chwoubaka) (Chwoubaka#3009)
 -- [Atzelord](https://krunker.io/social.html?p=profile&q=Atzelord) (atzelord#0712)
 -- [enygmate](https://krunker.io/social.html?p=enygmate) (Enygmate#2222)
+-- [nerdyboyobob](https://krunker.io/social.html?p=profile&q=nerdyboyobob) (nerdy#5827)
 
 - [Korean](https://github.com/mty22/krunker.io-translations/blob/main/kr.js) (한국어)
 -- [GoonMandu](https://krunker.io/social.html?p=GoonMandu) (goonmandu#4897)
