@@ -6,24 +6,26 @@ Read as "Language,live patch level". For example "Japanese,v4.2.2" means Japanes
 
 
 Up to date:
-Hindi,v5.4.2
-French,v5.4.2
-Portuguese,v5.4.2
-Turkish,v5.4.2
+
+    Hindi,v5.4.2
+    French,v5.4.2
+    Turkish,v5.4.2
+    Dutch,v5.4.2
 
 In progress/further updates required:
 
+    Portuguese,v5.4.2
+
 Updates required:
 
-German,v4.0.9 (Bonus KR)
-Japanese,v4.2.2
-Korean,v4.2.2
-Dutch,v4.2.2
-Italian,v4.2.2
-Polish,v4.2.2
-Traditional Chinese,v4.2.2
-Simplified Chinese,v4.2.2
-Tagalog,v4.2.2
-Spanish,v4.2.2
-Finnish,v4.2.2
-Russian,v4.2.2
+    German,v4.0.9 (Bonus KR)
+    Japanese,v4.2.2
+    Korean,v4.2.2
+    Italian,v4.2.2
+    Polish,v4.2.2
+    Traditional Chinese,v4.2.2
+    Simplified Chinese,v4.2.2
+    Tagalog,v4.2.2
+    Spanish,v4.2.2
+    Finnish,v4.2.2
+    Russian,v4.2.2

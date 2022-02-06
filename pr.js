@@ -892,27 +892,15 @@ stats.airdrops.stolen Pacote de KR Robados
 settings.quality.flapAnim Animação de Flap
 chall.name.hs Matar {0} com tiros na cabeça {1}
 chall.name.ns Matar {0} sem mira {1}
-chall.name.ls Matar {0} com tiros nas pernas {1}
-chall.name.ls Matar {0} atirando a faca {1}
-chall.name.ls Obter {0} primeiras mortes {1}
-chall.name.ls Matar {0} com tiros de longa distancia {1}
-chall.name.ls Matar {0} com tiros nas pernas {1}
-chall.name.ls Matar {0} atirando a faca {1}
-chall.name.ls Obter {0} primeiras mortes {1}
-chall.name.ls Matar {0} com tiros de longa distancia {1}
-chall.name.ls Matar {0} com tiros nas pernas {1}
-chall.name.ls Matar {0} atirando a faca {1}
-chall.name.ls Obter {0} primeiras mortes {1}
-chall.name.ls Matar {0} com tiros de longa distancia {1}
+chall.name.ls Get {0} legshots {1}
+chall.name.tmk Get {0} throwing knife kills {1}
+chall.name.fb Get {0} first bloods {1}
 chall.name.mk Matar {0} com a faca {1}
 chall.name.fk Matar {0} com os punhos {1}
 chall.name.qs Matar {0} com tiros de mira rápida {1}
 chall.name.wb Matar {0} Varados {1}
 chall.name.airk Matar {0} no ar {1}
-chall.name.ls Matar {0} com tiros nas pernas {1}
-chall.name.ls Matar {0} atirando a faca {1}
-chall.name.ls Obter {0} primeiras mortes {1}
-chall.name.ls Matar {0} com tiros de longa distancia {1}
+chall.name.lns Get {0} longshots {1}
 chall.name.tk Matar {0} a alta velocidade {1}
 chall.name.drk Matar {0} a deslizar {1}
 chall.name.kstk Obter {0} mortes seguidas {1}
