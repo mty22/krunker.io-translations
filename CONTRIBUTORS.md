@@ -69,6 +69,9 @@ If you contributed in the past and can't find your name below (or simply wish to
 -- [ZEUDE](https://krunker.io/social.html?p=profile&q=zeude)
 -- [Keval](https://krunker.io/social.html?p=profile&q=TheDevKeval)
 -- [Slogllykop](https://krunker.io/social.html?p=profile&q=slogllykop)
+-- [Inspire-24](https://krunker.io/social.html?p=profile&q=DADDY_AWM)
+-- [Inspire](https://krunker.io/social.html?p=profile&q=BluZed)
+
 
 - [Turkish](https://github.com/mty22/krunker.io-translations/blob/main/tr.js) (Türkçe)
 -- [SecretMember](https://krunker.io/social.html?p=profile&q=SecretMember) (SecretMember#0099)
