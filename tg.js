@@ -37,8 +37,8 @@ generic.matchover Pagtatapos ng laro
 generic.matchaband Inabandonang paglaro
 generic.follow Follow
 generic.unfollow I-Unfollow
-generic.followers Mga Followers
-generic.following Mga Finollow
+generic.followers Mga Tagahanga
+generic.following Mga Hinahangaan
 generic.games Mga laro
 generic.wins Panalo
 generic.lose Pagkatalo 
@@ -219,7 +219,7 @@ settings.interface.xpBarCol2 XP Bar Color 2
 settings.interface.xpBarOpac Diin ng XP Bar
 settings.medals.header Medalya
 settings.medals.show Ipakita ang mga Medalya
-settings.medals.classic Mga Lumang Medalya
+settings.medals.classic Mga Klasikong Medalya
 settings.medals.sound Parinig ang mga tunog mula sa Medalya
 settings.medals.scale Sukat ng Medalya
 settings.medals.xOff Medal X Offset
