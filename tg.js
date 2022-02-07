@@ -67,10 +67,10 @@ player.disconnect HINDI MAKAKONEKTA
 timer.end Susunod na laro sa {0}
 leaderboard.empty Walang tao sa lobby
 popup.checkpoint Checkpoint!
-app.play Pindutin upang maglaro
-app.spectate Pindutin upang manood
-app.play.mobile PINDUTIN UPANG MAKAPAGLARO
-app.spectate.mobile TAP UPANG MAPANOOD
+app.play PINDUTIN UPANG MAGLARO
+app.spectate PINDUTIN PARA MAPANOOD
+app.play.mobile I-TAP UPANG MAGLARO
+app.spectate.mobile I-TAP PARA MAPANOOD
 app.play.controller PINDUTIN ang SIMULA
 app.spectate.controller MAGSIMULANG MANOOD
 purchase.error May naganap na error
