@@ -61,12 +61,12 @@ generic.accuracy Doğruluk Oranı
 player.waiting oyuncu bekleniyor
 player.died Öldün
 player.killed Tarafından öldürüldün
-player.killstreak {0} on a {1} Kill Streak
+player.killstreak {0} {1} kişilik bir öldürme serisinde
 player.inactive İnaktiflikten dolayı atıldınız
 player.disconnect BAĞLANTI KESİLDİ
 timer.end Sonraki maç için {0} kaldı
 leaderboard.empty Boş Lobi
-popup.checkpoint Checkpoint!
+popup.checkpoint Kontrol Noktası!
 app.play OYNAMAK İÇİN TIKLAYIN
 app.spectate İZLEMEK İÇİN TIKLAYIN
 app.play.mobile OYNAMAK İÇİN DOKUNUN
@@ -91,15 +91,15 @@ settings.network.header Ağ bağlantısı
 settings.network.netRerouting Otomatik Yönlendirme (Ping'i Etkiler)
 settings.network.netRate Ağ Oranı (Hz)
 settings.network.lagComp Lag Gecikmesi
-settings.network.optNet Optimized Networking
+settings.network.optNet Optimize Edilmiş Ağ
 settings.popup.header Popuplar
 settings.experimental.header Deneysel
-settings.experimental.holiday Holiday Effects
+settings.experimental.holiday Noel Efektleri
 settings.experimental.aimFreezeFix Nişan Donmasını Düzelt
 settings.experimental.mouseFlickFix Fare Hareketini Düzelt
 settings.experimental.shaderRendering Örnek İşleme
-settings.experimental.mouseAccel Mouse Acceleration
-settings.experimental.tbInterp TB Interpolation
+settings.experimental.mouseAccel Fare İvmesi
+settings.experimental.tbInterp TB Eklentisi
 settings.client.header Uygulama
 settings.client.unlimitedFrames Limitsiz FPS
 settings.client.gameCap Oyun Yakalama
@@ -111,7 +111,7 @@ settings.client.resetSettings Uygulama Ayarlarını Sıfırla
 settings.client.acceleratedCanvas Hızlandırılmış Tuval
 settings.client.angleBackend Açı Grafik Arka Ucu
 settings.client.colorProfile Profil Rengi
-settings.client.resourcePacks Resource Packs
+settings.client.resourcePacks Kaynak Paketleri
 settings.dev.header Geliştirici
 settings.dev.forceUpdate Skin Güncellemelerini Zorla
 settings.dev.forceRegen Oyuncuyu Her Zaman Yenile
@@ -173,7 +173,7 @@ settings.interface.dmgCol Hasar Rengi
 settings.interface.critCol Krit Rengi
 settings.interface.header Arayüz
 settings.interface.scale UI Ölçeği
-settings.interface.theme Game Theme
+settings.interface.theme Oyun Teması
 settings.interface.ui UI'yi Göster
 settings.interface.scoreboard Eski Skor Tablosunu Kullan
 settings.interface.oldBrowser Eski Tarayıcıyı Kullan
@@ -206,7 +206,7 @@ settings.interface.hideNames.enemy Sadece Rakip
 settings.interface.hideNames.all Herkes
 settings.interface.nametagStyle İsim Kartı Stili
 settings.interface.nametagOpac İsim Kartı Opaklığı
-settings.interface.nametagScale Nametag Scale
+settings.interface.nametagScale İsim Kartı Boyu
 settings.interface.nametagStyle.health Sadece Can
 settings.interface.nametagStyle.name Sadece İsim
 settings.interface.nametagStyle.nameLvl İsim ve Level
@@ -217,13 +217,13 @@ settings.interface.healthColE Düşman İsim Kartı Sağlık Rengi
 settings.interface.xpBarCol XP Barı Rengi
 settings.interface.xpBarCol2 XP Bar Color 2
 settings.interface.xpBarOpac XP Barı Opaklığı
-settings.medals.header Medals
-settings.medals.show Show Medals
-settings.medals.classic Classic Medals
-settings.medals.sound Play Medal Sounds
-settings.medals.scale Medal Scale
-settings.medals.xOff Medal X Offset
-settings.medals.yOff Medal Y Offset
+settings.medals.header Madalyalar
+settings.medals.show Madalyaları Göster
+settings.medals.classic Klasik Madalyalar
+settings.medals.sound Madalya Seslerini Oynat
+settings.medals.scale Madalya Boyu
+settings.medals.xOff Madalya X Konumu
+settings.medals.yOff Madalya Y Konumu
 settings.crosshair.header Nişangah
 settings.crosshair.type Şekil
 settings.crosshair.type.1 Dinamik
@@ -305,7 +305,7 @@ settings.gameprivacy.verified Doğrulama Rozetini Göster
 settings.gameprivacy.premium Premium Rozetini Göster
 settings.gameprivacy.partner Ortaklık Rozetini Göster
 settings.gameprivacy.rank Dereceli Rozetini Göster
-settings.gameprivacy.custom Show Custom Badge
+settings.gameprivacy.custom Özel Rozetini Göster
 settings.gameplay.header Oynanış
 settings.gameplay.gpSetts Oynanış Ayarları
 settings.gameplay.sensitivityX X Duyarlılığı
@@ -483,7 +483,7 @@ windows.loadout.pet Pet
 windows.loadout.wrist Wrist
 windows.loadout.stat Ölüm Kartı İstatistikleri
 windows.loadout.flag Ülke Bayrağı
-windows.loadout.badge Custom Badge
+windows.loadout.badge Özel Rozet
 windows.mods.drop mod dosyasını buraya bırakın veya tıklayın
 windows.mods.paste Mod URL'sini Yapıştır
 windows.mods.load Mod İndir
@@ -507,7 +507,7 @@ windows.controls.aim1 Nişan
 windows.controls.shoot1 Vur
 windows.controls.inspect İncele
 windows.controls.spray Sprey
-windows.controls.sprayWheel Spray Wheel (Hold)
+windows.controls.sprayWheel Fare Tekerleği (Basılı Tut)
 windows.controls.jump Zıpla
 windows.controls.crouch Eğil
 windows.controls.prim Birincil Silah
@@ -521,12 +521,12 @@ windows.controls.board Liderlik Tablosu
 windows.controls.interact Etkileşim
 windows.controls.interactSec İkincil Etkileşim
 windows.controls.confirm Etkileşimi Onayla
-windows.controls.drop Drop
+windows.controls.drop Bırak
 windows.controls.wepVis Silah Görünürlüğünü Değiştir
-windows.controls.kickVoteY Atma Oyu [yes]
-windows.controls.kickVoteN Atma Oyu [no]
-windows.controls.kpdVoteY KPD Oyu [yes]
-windows.controls.kpdVoteN KPD Oyu [no]
+windows.controls.kickVoteY Atma Oyu [evet]
+windows.controls.kickVoteN Atma Oyu [hayır]
+windows.controls.kpdVoteY KPD Oyu [evet]
+windows.controls.kpdVoteN KPD Oyu [hayır]
 windows.controls.specFree Serbest Kamerayı Aç/Kapat
 windows.controls.specObj Objektif Kamerayı Aç/Kapa
 windows.controls.specFirst Birincil Kişiyi Aç/Kapa
@@ -539,15 +539,15 @@ windows.controls.streak2 Seri 3
 windows.controls.streak3 Seri 4
 windows.controls.streak4 Seri 5
 windows.controls.taunt0 Taunt (Psst)
-windows.controls.taunt1 Taunt (Whistle)
-windows.controls.taunt2 Taunt (Fart)
+windows.controls.taunt1 Taunt (Islık)
+windows.controls.taunt2 Taunt (Osuruk)
 windows.controls.taunt3 Taunt (Meme)
-windows.controls.taunt4 Taunt (WTF is This?)
-windows.controls.taunt5 Taunt (Right Now!)
+windows.controls.taunt4 Taunt (Bu ne böyle?)
+windows.controls.taunt5 Taunt (Tam Şimdi!)
 windows.controls.prop Nesne Seç (Tut)
-windows.controls.propRand Select Random Prop
-windows.controls.propRot Toggle Rotation
-windows.controls.propRotR Reset Rotation
+windows.controls.propRand Rastgele Nesne Seç
+windows.controls.propRot Rotasyon Aç/Kapa
+windows.controls.propRotR Rotasyonu Sıfırla
 windows.controls.premium0 Noclip
 windows.controls.premium1 Tanrı modu
 windows.controls.premium2 Öldür
@@ -611,7 +611,7 @@ windows.store.amount Hesapta {0} KR var
 windows.store.login Mağazadan eşya satın almak veya açmak için!
 windows.store.purchasing Satın alınıyor...
 windows.store.unboxed {0}{1} eşyasını açtı
-windows.store.found {0}{1} found
+windows.store.found {0}{1} buldu
 windows.trade.header Takaslama
 windows.scope.header Dürbün Seçin
 windows.premium.header Premium
@@ -670,11 +670,11 @@ mod.error mod hatası!
 mod.loading mod yükleniyor...
 mod.invalid geçersiz mod dosyası!
 matchmaker.full FULL
-matchmaker.GameFull Game is full.
-matchmaker.NoServersMatchQuery GAME UPDATING
-matchmaker.InvalidGameId Game not found.
-matchmaker.NoAvailableServers Servers are at Max Capacity
-matchmaker.GameIssue Unknown Join Issue
+matchmaker.GameFull Oyun Dolu.
+matchmaker.NoServersMatchQuery Oyun Güncelleniyor.
+matchmaker.InvalidGameId Oyun Bulunamadı.
+matchmaker.NoAvailableServers Sunucular Maksimum Kapasitede.
+matchmaker.GameIssue Bilinmeyen Katılım Sorunu
 adblocker Bedava Krunkies alabilmek için reklam engelleyiciyi devre dışı bırakın.
 ad-failed Reklam yüklenemedi. Lütfen tekrar deneyin
 streamers.views {0} izleyici
@@ -728,7 +728,7 @@ server.config.thirdPerson 3. Kişi
 server.config.requireCaptcha Captcha Gerektir
 server.config.nameTags İsim Kutularını Sakla
 server.config.kCams Öldürülme Kamerası
-server.config.aAnon Allow Anonymous
+server.config.aAnon Anonime İzin Ver
 server.config.noReload Mermi Yenileme Yok
 server.config.private Özel
 server.config.krRewards KR Ödülleri
@@ -785,11 +785,11 @@ social.market.waist Bel
 social.market.face Yüz
 social.market.shoe Ayakkabı
 social.market.pet Pet
-social.market.wrist Wrist Item
+social.market.wrist Bilek Eşyası
 social.market.melee Bıçak
 social.market.spray Sprey
 social.market.dye Kıyafet
-social.market.collectible Collectible Item
+social.market.collectible Koleksiyonluk Eşya
 social.market.none Eşya bulunamadı
 social.market.login Giriş yapmalısınız.
 social.market.grace {0} içinde hazır
@@ -834,9 +834,9 @@ stats.fistkills Yumruklanan
 stats.thrownkills Bıçak Fırlatılan
 stats.headshots Kafadan Vurulan
 stats.wallbangs Wallbangler
-stats.crouches Crouches
+stats.crouches Çömelmeler
 stats.sprays Sıkılan Spreyler
-stats.kpd Helpful Reports
+stats.kpd Yardımcı Raporlar
 windows.host.default.settings Varsayılan ayarları açmak oyuncu ilerlemesini ve yüksek skorlarını depolar
 windows.host.default.commands *Kurucu ayarları şu modlarda kapalıdır: /noclip /god /smite vb.
 windows.host.rewards KR ödüllerini açmak sunucuyu varsayılan ayarlarda oynamaya zorlar & oyuncuların map para kaynağından para kazanmasını sağlar:
@@ -858,9 +858,9 @@ windows.playerlist.punish {0} kullanıcısının üzerinde işlem uygulamak iste
 item.view.open Model Görüntüleyiciyi Aç
 item.view.more Daha Çok Bilgi
 item.sell.cant Eşya satılamaz.
-item.sell.cant.krunker Item cant be sold on krunker.
+item.sell.cant.krunker Eşya Krunker'da Satılamaz.
 item.sell.quick {0} eşyasını hızlı satışa çıkarmak istediğinizden emin misiniz?
-item.sell.destroy Are you sure you want to Destroy {0}?
+item.sell.destroy {0}'ı yok etmek istediğinden emin misin?
 social.profile.stats Genel İstatistikler
 social.profile.class Silah İstatistikleri
 social.profile.sales Satışlar
@@ -888,7 +888,7 @@ social.trades.message AYARLARDAN TAKAS MESAJLARINI ETKİNLEŞTİR.
 social.trades.warning Bu takastan eşya almıyorsun!
 social.trades.accept Bu teklifi kabul etmek istediğinden emin misin?
 stats.airdrops KR-Paketleri
-stats.airdrops.stolen Airdrops Stolen
+stats.airdrops.stolen Çalınan KR-Paketleri
 settings.quality.flapAnim Sniper Dürbün Kapağı Animasyonu
 chall.name.hs {1}'da {0} tane kafadan vuruş al 
 chall.name.ns {1}'da {0} tane noskop al 
