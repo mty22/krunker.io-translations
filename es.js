@@ -94,7 +94,7 @@ settings.network.lagComp Compensación de lag
 settings.network.optNet Red Optimizada
 settings.popup.header Popups
 settings.experimental.header Experimental
-settings.experimental.holiday Efectos Navideños
+settings.experimental.holiday Efectos Festivos
 settings.experimental.aimFreezeFix Arreglo de congelamiento al apuntar
 settings.experimental.mouseFlickFix Arreglo de Mouse Flick
 settings.experimental.shaderRendering Renderización de Instancias
@@ -173,8 +173,8 @@ settings.interface.dmgCol Color de daño
 settings.interface.critCol Color de daño crítico
 settings.interface.header Interface
 settings.interface.scale Escala de interfaz
-settings.interface.theme Tema
-settings.interface.ui Mostrar interfaz
+settings.interface.theme Tema de la Interfaz
+settings.interface.ui Mostrar Interfaz
 settings.interface.scoreboard Usar el viejo tablero de puntaciones
 settings.interface.oldBrowser Usar el navegador antiguo
 settings.interface.rarityanim Desactivar animaciones de rareza
@@ -219,14 +219,14 @@ settings.interface.xpBarCol2 XP Bar Color 2
 settings.interface.xpBarOpac Opacidad de la barra de experiencia
 settings.medals.header Medallas
 settings.medals.show Mostrar Medallas
-settings.medals.classic Medallas Clasicas
+settings.medals.classic Medallas Clásicas
 settings.medals.sound Reproducir Sonidos de Medalla
 settings.medals.scale Escala de Medallas
-settings.medals.xOff Ubicacion de Medalla en  X
-settings.medals.yOff Ubicacion de Medalla en  Y
+settings.medals.xOff Ubicación de Medalla en  X
+settings.medals.yOff Ubicación de Medalla en  Y
 settings.crosshair.header Retícula
 settings.crosshair.type Tipo
-settings.crosshair.type.1 Dinamica
+settings.crosshair.type.1 Dinámica
 settings.crosshair.type.2 Personalizado
 settings.crosshair.type.3 En capas
 settings.crosshair.type.4 Imagen
@@ -239,12 +239,12 @@ settings.crosshair.style.3 Cuadrado vacío
 settings.crosshair.style.4 Cuadrado sólido
 settings.crosshair.image Imagen
 settings.crosshair.image.paste Imagen de retícula
-settings.crosshair.image.width Image Width
-settings.crosshair.image.height Image Height
-settings.crosshair.always Mostrar siempre
-settings.crosshair.color Color de retícula
-settings.crosshair.shadow.color Color de sombra
-settings.crosshair.shadow.thickness Grosor de sombra
+settings.crosshair.image.width Ancho de la Imagen
+settings.crosshair.image.height Alto de la Imagen
+settings.crosshair.always Mostrar Siempre
+settings.crosshair.color Color de Retícula
+settings.crosshair.shadow.color Color de Sombra
+settings.crosshair.shadow.thickness Grosor de Sombra
 settings.crosshair.size Tamaño
 settings.crosshair.thickness Grosor
 settings.crosshair.gap Separación
@@ -252,30 +252,30 @@ settings.crosshair.dot Punto
 settings.crosshair.opacity.use Usar opacidad personalizada
 settings.crosshair.opacity.custom Opacidad personalizada
 settings.crosshairm.header Crosshair (Throwing)
-settings.crosshairm.type Type
-settings.crosshairm.type.1 Shapes
-settings.crosshairm.type.2 Image
+settings.crosshairm.type Tipo
+settings.crosshairm.type.1 Formas
+settings.crosshairm.type.2 Imagen
 settings.crosshairm.type.3 Precision
-settings.crosshairm.style Style
-settings.crosshairm.style.0 Cross
-settings.crosshairm.style.1 Hollow Circle
-settings.crosshairm.style.2 Solid Circle
-settings.crosshairm.style.3 Hollow Square
-settings.crosshairm.style.4 Solid Square
-settings.crosshairm.image Image
-settings.crosshairm.image.paste Crosshair Image
-settings.crosshairm.image.width Image Width
-settings.crosshairm.image.height Image Height
-settings.crosshairm.always Always Show
+settings.crosshairm.style Estilo
+settings.crosshairm.style.0 Cruz
+settings.crosshairm.style.1 Circulo Vacio
+settings.crosshairm.style.2 Circulo Sólido
+settings.crosshairm.style.3 Cuadrado Vacío
+settings.crosshairm.style.4 Cuadrado Sólido
+settings.crosshairm.image Imagen
+settings.crosshairm.image.paste Imagen de Retícula
+settings.crosshairm.image.width Ancho de Imagen
+settings.crosshairm.image.height Alto de Imagen
+settings.crosshairm.always Siempre Mostrar
 settings.crosshairm.color Color
-settings.crosshairm.shadow.color Shadow Color
-settings.crosshairm.shadow.thickness Shadow Thickness
-settings.crosshairm.size Size
-settings.crosshairm.thickness Thickness
-settings.crosshairm.gap Gap
-settings.crosshairm.dot Dot
-settings.crosshairm.opacity.use Use Custom Opacity
-settings.crosshairm.opacity.custom Custom Opacity
+settings.crosshairm.shadow.color Color de Sombra
+settings.crosshairm.shadow.thickness Grosor de Sombra
+settings.crosshairm.size Tamaño
+settings.crosshairm.thickness Grosor
+settings.crosshairm.gap Espacio
+settings.crosshairm.dot Punto
+settings.crosshairm.opacity.use Usar Opacidad Personalizada
+settings.crosshairm.opacity.custom Opacidad Personalizada
 settings.hitmarker.header Hitmarker
 settings.hitmarker.color Color
 settings.hitmarker.kcolor Color de baja
@@ -300,7 +300,7 @@ settings.gameprivacy.header Privacidad de Jugabilidad
 settings.gameprivacy.streamer Modo Streamer
 settings.gameprivacy.anon Modo Anónimo
 settings.gameprivacy.hideGameTitle Esconder Título del Juego
-settings.gameprivacy.showRegion Mostrar Informacion de la Región
+settings.gameprivacy.showRegion Mostrar Información de la Región
 settings.gameprivacy.verified Show Verified Badge
 settings.gameprivacy.premium Show Premium Badge
 settings.gameprivacy.partner Show Partner Badge
@@ -340,9 +340,9 @@ settings.audio.header Audio
 settings.audio.sound Volumen Principal
 settings.audio.ambient Volumen de Ambientación
 settings.audio.voice Volumen de Chat de voz
-settings.audio.input Entrada de Microfono/Audio
+settings.audio.input Entrada de Micrófono/Audio
 settings.audio.mic Mic Volumen
-settings.audio.micquality Calidad de Audio
+settings.audio.micquality Calidad de Microfófono
 settings.audio.weps Volumen de Armas
 settings.audio.player Volumen de Jugadores
 settings.audio.skin Volumen de Cosmeticos
@@ -611,7 +611,7 @@ windows.store.amount {0} KR en tu cuenta
 windows.store.login para comprar y desbloquear objetos de la tienda!
 windows.store.purchasing Comprando...
 windows.store.unboxed {0}{1} abrió
-windows.store.found {0}{1} Encontro
+windows.store.found {0}{1} Encontró
 windows.trade.header Intercambio
 windows.scope.header Seleccionar Mira
 windows.premium.header Premium
@@ -673,7 +673,7 @@ matchmaker.full LLENO
 matchmaker.GameFull Partida Llena.
 matchmaker.NoServersMatchQuery JUEGO ACTUALIZANDOSE
 matchmaker.InvalidGameId Partida no Encontrada.
-matchmaker.NoAvailableServers Los servidores estan al Maximo de Capacidad
+matchmaker.NoAvailableServers Los servidores estan al Máximo de Capacidad
 matchmaker.GameIssue Problema de Conexión Desconocido.
 adblocker Desactiva tu adblocker para recibir krunkies gratis.
 ad-failed El anuncio falló en cargar. Intentalo de nuevo más tarde.
@@ -860,7 +860,7 @@ item.view.more Mas Información
 item.sell.cant El objeto no se puede Vender
 item.sell.cant.krunker El item no se puede vender en Krunker.
 item.sell.quick Estás seguro de que quieres vender rápidamente {0}?
-item.sell.destroy Estas seguro de que quieres destruir? {0}?
+item.sell.destroy Estás seguro de que quieres destruir? {0}?
 social.profile.stats Estadísticas Generales
 social.profile.class Estadísticas de Clases
 social.profile.sales Ventas
@@ -888,26 +888,28 @@ social.trades.message ACTIVA LOS MENSAJES DE INTERCAMBIO EN LAS CONFIGURACIONES
 social.trades.warning No obtienes objetos de este intercambio!
 social.trades.accept Estás seguro de qué quieres aceptar esta oferta?
 stats.airdrops Paquetes de KR
-stats.airdrops.stolen Paquetes Robados
+stats.airdrops.stolen Paquetes de KR Robados
 settings.quality.flapAnim Animación de Mirilla de Francotirador
-chall.name.hs Get {0} Disparo a la Cabeza {1}
-chall.name.ns Get {0} no-scope {1}
-chall.name.tmk Get {0} Bajas con Cuchillo Arrojadizo {1}
-chall.name.fb Get {0} Primera Sangre {1}
-chall.name.lns Get {0} Disparos a las Piernas {1}
-chall.name.mk Get {0} Bajas con Cuchillo {1}
-chall.name.fk Get {0} Bajas con Puños {1}
-chall.name.qs Get {0} Quickscope {1}
-chall.name.wb Get {0} Disparos a traves de la Pared {1}
-chall.name.airk Get {0} Bajas en el Aire {1}
-chall.name.tk Get {0} Turbo Bajas {1}
-chall.name.drk Get {0} Bajas Deslizandose {1}
-chall.name.kstk Get a {0} Racha de Bajas {1}
-chall.name.w Win {0} Partidas
+chall.name.hs Obtén {0} Disparos a la Cabeza {1}
+chall.name.ns Obtén {0} no-scope {1}
+chall.name.ls Obtén {0} Disparos desde la Cadera {1}
+chall.name.tmk Obtén {0} Bajas con Cuchillo Arrojadizo {1}
+chall.name.fb Obtén {0} Primera Sangre {1}
+chall.name.lns Obtén {0} Disparos a las Piernas {1}
+chall.name.mk Obtén {0} Bajas con Cuchillo {1}
+chall.name.fk Obtén {0} Bajas con Puños {1}
+chall.name.qs Obtén {0} Quickscope {1}
+chall.name.wb Obtén {0} Disparos a través de la Pared {1}
+chall.name.airk Obtén {0} Bajas en el Aire {1}
+chall.name.lns Obtén {0} Tiros Lejanos {1}
+chall.name.tk Obtén {0} Turbo Bajas {1}
+chall.name.drk Obten {0} Bajas Derrapando {1}
+chall.name.kstk Obtén una {0} Racha de Bajas {1}
+chall.name.w Gana {0} Partidas
 chall.name.d Die {0} Tiempos
-chall.name.score Get {0} Puntuaciones
-chall.name.dmg Deal {0} Daño {1}
-chall.name.bzk Get {0} Multi Muerte {1}
-chall.name.cc Get {0} Muerte Cercana {1}
-chall.name.rk Deal {0} Asesinato por Venganza {1}
+chall.name.score Obtén {0} Puntuaciones
+chall.name.dmg Haz {0} Daño {1}
+chall.name.bzk Obtén {0} Multi Muerte {1}
+chall.name.cc Obtén {0} Muerte Cercana {1}
+chall.name.rk Haz {0} Asesinato por Venganza {1}
 `;
