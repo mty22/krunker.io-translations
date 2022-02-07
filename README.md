@@ -13,7 +13,7 @@ Project information and discussion on Discord can be found in [Krunker Bunker](h
 ## I want to contirbute, how can I help?
 *New here? Want to know what you can help with?* First, have a look at the current [status.txt](https://github.com/mty22/krunker.io-translations/blob/main/status.txt) file which gives you a quick overview of what's going on!
 
-Happy to continue and not sure on how to use GitHub? Have a look at this [Introduction to GitHub](https://lab.github.com/githubtraining/introduction-to-github) tutorial as it may answer many common questions!
+Happy to continue and not sure on how to use GitHub? Have a look at this [Introduction to GitHub](https://lab.github.com/githubtraining/introduction-to-github) tutorial as it may answer many common questions! Some users also use Git clients such as [Sourcetree](https://www.sourcetreeapp.com/) in order to make things easier!
 
 ## First step towards contributing..
 After you've had a look at [status.txt](https://raw.githubusercontent.com/mty22/krunker.io-translations/main/status.txt), and **before translating Krunker into another language**, please search for an [existing issue](https://github.com/mty22/krunker.io-translations/issues) to see if another person is working on it, or if there's previously answered questions that may help you here!
