@@ -13,7 +13,7 @@ menu.btn.host Crea Partita
 menu.btn.browser Server
 generic.wait Per favore aspetta...
 generic.loading CARICAMENTO...
-generic.none Nessuna
+generic.none Niente
 generic.connecting CONNESSIONE...
 generic.select Seleziona
 generic.delete Elimina
@@ -37,8 +37,8 @@ generic.matchover PARTITA FINITA
 generic.matchaband PARTITA ABBANDONATA
 generic.follow Segui
 generic.unfollow Smetti di seguire
-generic.followers Followes
-generic.following Following
+generic.followers Followers
+generic.following Seguiti
 generic.games Partite
 generic.wins Vittorie
 generic.lose Sconfitte
@@ -46,7 +46,7 @@ generic.clan Clan
 generic.games.played Partite Giocate
 generic.games.won Partite Vinte
 generic.games.lost Partite Perse
-generic.timep Tempo Giocato
+generic.timep Tempo di Gioco
 generic.kills Uccisioni
 generic.deaths Morti
 generic.kdr KDR
@@ -94,6 +94,7 @@ settings.network.lagComp Compensazione Lag
 settings.network.optNet Networking Ottimizzato
 settings.popup.header Popups
 settings.experimental.header Sperimentali
+settings.experimental.optNetwork Ottimizzazione Rete
 settings.experimental.holiday Effetti Festività
 settings.experimental.aimFreezeFix Risolvi mirino bloccato
 settings.experimental.mouseFlickFix Risolvi Flick del mouse
@@ -304,7 +305,7 @@ settings.gameprivacy.showRegion Mostra info regione
 settings.gameprivacy.verified Mostra badge verificato
 settings.gameprivacy.premium Mostra badge premium
 settings.gameprivacy.partner Mostra badge partner 
-settings.gameprivacy.rank Mostra badge rango
+settings.gameprivacy.rank Mostra badge rango classificato
 settings.gameprivacy.custom Mostra badge personalizzati
 settings.gameplay.header Gameplay
 settings.gameplay.gpSetts Impostazioni Gameplay
@@ -479,7 +480,7 @@ windows.loadout.color.skin Colore pelle
 windows.loadout.color.chat Colore del nome in chat
 windows.loadout.color.hair Colore capelli
 windows.loadout.dye Tinta
-windows.loadout.pet Animale
+windows.loadout.pet Animaletto
 windows.loadout.wrist Polso
 windows.loadout.stat Statistica Killcard
 windows.loadout.flag Bandiera
@@ -666,7 +667,7 @@ image.upload.limit Fallito. Limite di {0}kb per l'immagine
 thumbnail.upload.error Errore Copertina
 mod.extracting estraendo {0}/{1}
 mod.disabled mods disablitate
-mod.error errore mod!
+mod.error C'è un errore nella mod!
 mod.loading caricamento mod...
 mod.invalid file mod invalido!
 matchmaker.full PIENO
@@ -719,7 +720,7 @@ server.config.allowSpect Spettatori
 server.config.killRewards Premi uccisioni
 server.config.headshotOnly Solo headshot
 server.config.noSecondary Disabilita secondarie
-server.config.noStreaks Disabilita serie
+server.config.noStreaks Disabilita serie uccisioni
 server.config.canSlide Scivolare
 server.config.wallJP Forza salto dal muro
 server.config.autoJump Salto automatico
@@ -757,9 +758,9 @@ server.config.bstOfR Al meglio di
 server.config.chrgWeps Chargable Weapons
 social.login Login/Registrati
 social.login.failed Login fallito
-social.login.buy Fai il login per comprare
-social.login.sell Fai il login per vendere
-social.login.gift Fai il login per regalare
+social.login.buy Effettua il login per comprare
+social.login.sell Effettua il login per vendere
+social.login.gift Effettua il login per regalare
 social.login.proccessing Login in corso...
 social.since Dal
 social.user.maps Mappe degli utenti
@@ -777,7 +778,7 @@ social.market.posting Mettendo in vendita...
 social.market.req richiesto lvl {0}
 social.market.cant Non puoi permettertelo
 social.market.purchase Acquista
-social.market.fee Senza costi
+social.market.fee Gratis
 social.market.failed Fallito. Riprova
 social.market.head Copricapo
 social.market.back Zaino
@@ -801,7 +802,7 @@ social.trading.submitting Inviando l'offerta...
 social.market.gift.amount Importo regalo in
 social.market.fee.gift Senza tassa
 social.market.gift Regala KR
-social.market.gift.msg Lascia un messaggio
+social.market.gift.msg Aggiungi un messaggio
 respawn.auto Rinascita automatica in {0}
 custom.host.ranked Non puoi creare una partita durante una Classificata.
 funds.insufficient Fondi insufficienti
