@@ -217,13 +217,13 @@ settings.interface.healthColE 敵人血條顏色
 settings.interface.xpBarCol 經驗條第一顏色
 settings.interface.xpBarCol2 經驗條第二顏色
 settings.interface.xpBarOpac 經驗條不透明度
-settings.medals.header 獎牌
-settings.medals.show 顯示獎牌
-settings.medals.classic 經典獎牌
-settings.medals.sound 播放獎牌音效
-settings.medals.scale 獎牌顯示比例
-settings.medals.xOff 獎牌水平座標
-settings.medals.yOff 獎牌垂直座標
+settings.medals.header 擊殺獎牌
+settings.medals.show 顯示擊殺獎牌
+settings.medals.classic 經典擊殺獎牌
+settings.medals.sound 播放擊殺獎牌音效
+settings.medals.scale 擊殺獎牌顯示比例
+settings.medals.xOff 擊殺獎牌水平座標
+settings.medals.yOff 擊殺獎牌垂直座標
 settings.crosshair.header 準星
 settings.crosshair.type 種類
 settings.crosshair.type.1 動態
@@ -305,7 +305,7 @@ settings.gameprivacy.verified 顯示驗證徽章
 settings.gameprivacy.premium 顯示會員徽章
 settings.gameprivacy.partner 顯示遊戲合作夥伴徽章
 settings.gameprivacy.rank 顯示排位等級徽章
-settings.gameprivacy.custom 顯示客製化徽章
+settings.gameprivacy.custom 顯示特殊徽章
 settings.gameplay.header 遊戲性
 settings.gameplay.gpSetts 遊戲性設定類型
 settings.gameplay.sensitivityX 水平靈敏度
@@ -483,7 +483,7 @@ windows.loadout.pet 寵物
 windows.loadout.wrist 手腕
 windows.loadout.stat 擊殺戰績卡
 windows.loadout.flag 國家和地區旗幟
-windows.loadout.badge 客製化徽章
+windows.loadout.badge 特殊徽章
 windows.mods.drop 將模組檔案放在此處或點擊
 windows.mods.paste 貼上模組網址
 windows.mods.load 載入模組
@@ -542,7 +542,7 @@ windows.controls.taunt0 挑釁（噗嗤聲）
 windows.controls.taunt1 挑釁（口哨聲）
 windows.controls.taunt2 挑釁（放屁聲）
 windows.controls.taunt3 挑釁（迷因聲）
-windows.controls.taunt4 挑釁（這是什麼鬼？）
+windows.controls.taunt4 挑釁（這到底是什麼鬼？）
 windows.controls.taunt5 挑釁（就是現在！）
 windows.controls.prop 選擇物體（長按）
 windows.controls.propRand 隨機選擇物體
@@ -592,10 +592,10 @@ windows.clans.create 建立戰隊
 windows.clans.name 戰隊名稱
 windows.clans.view 瀏覽戰隊
 windows.clans.join 加入戰隊
-windows.clans.login 登入以建立並加入戰隊！
+windows.clans.login 登入以建立或加入戰隊！
 windows.store.header 商店
 windows.store.spin {0} 輪盤
-windows.store.agree 確認購買即表示你同意 {0}條款及細則
+windows.store.agree 確認購買即表示你同意{0}條款及細則
 windows.store.purchase 購買 KR
 windows.store.voucher 兌換代金券
 windows.store.voucherinfo 從指定實況主和遊戲活動獲取代金券
@@ -673,7 +673,7 @@ matchmaker.full 已滿
 matchmaker.GameFull 此伺服器人數已滿。
 matchmaker.NoServersMatchQuery 遊戲更新中
 matchmaker.InvalidGameId 此伺服器已關閉或不存在。
-matchmaker.NoAvailableServers 伺服器負載已達到上限
+matchmaker.NoAvailableServers 目前沒有任何空閒的伺服器
 matchmaker.GameIssue 加入時出現未知問題
 adblocker 停用廣告攔截器以獲得免費 KR 輪盤。
 ad-failed 廣告載入失敗，請稍後重試。

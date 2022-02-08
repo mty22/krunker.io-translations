@@ -217,13 +217,13 @@ settings.interface.healthColE 敌人血条颜色
 settings.interface.xpBarCol 经验条第一颜色
 settings.interface.xpBarCol2 经验条第二颜色
 settings.interface.xpBarOpac 经验条不透明度
-settings.medals.header 奖牌
-settings.medals.show 显示奖牌
-settings.medals.classic 经典奖牌
-settings.medals.sound 播放奖牌音效
-settings.medals.scale 奖牌显示比例
-settings.medals.xOff 奖牌水平坐标
-settings.medals.yOff 奖牌垂直坐标
+settings.medals.header 击杀奖牌
+settings.medals.show 显示击杀奖牌
+settings.medals.classic 经典击杀奖牌
+settings.medals.sound 播放击杀奖牌音效
+settings.medals.scale 击杀奖牌显示比例
+settings.medals.xOff 击杀奖牌水平坐标
+settings.medals.yOff 击杀奖牌垂直坐标
 settings.crosshair.header 准星
 settings.crosshair.type 种类
 settings.crosshair.type.1 动态
@@ -305,7 +305,7 @@ settings.gameprivacy.verified 显示验证徽章
 settings.gameprivacy.premium 显示会员徽章
 settings.gameprivacy.partner 显示游戏合作伙伴徽章
 settings.gameprivacy.rank 显示排位等级徽章
-settings.gameprivacy.custom 显示自定义徽章
+settings.gameprivacy.custom 显示特殊徽章
 settings.gameplay.header 游戏性
 settings.gameplay.gpSetts 游戏性配置类型
 settings.gameplay.sensitivityX 水平灵敏度
@@ -483,7 +483,7 @@ windows.loadout.pet 宠物
 windows.loadout.wrist 手腕
 windows.loadout.stat 击杀战绩卡
 windows.loadout.flag 国家和地区旗帜
-windows.loadout.badge 自定义徽章
+windows.loadout.badge 特殊徽章
 windows.mods.drop 将模组文件放在此处或点击
 windows.mods.paste 粘贴模组网址
 windows.mods.load 加载模组
@@ -542,7 +542,7 @@ windows.controls.taunt0 嘲讽（噗嗤声）
 windows.controls.taunt1 嘲讽（口哨声）
 windows.controls.taunt2 嘲讽（放屁声）
 windows.controls.taunt3 嘲讽（模因声）
-windows.controls.taunt4 嘲讽（这TM是什么鬼？）
+windows.controls.taunt4 嘲讽（这到底是什么鬼？）
 windows.controls.taunt5 嘲讽（就是现在！）
 windows.controls.prop 选择物体（长按）
 windows.controls.propRand 选择任意物体
@@ -592,7 +592,7 @@ windows.clans.create 创建公会
 windows.clans.name 公会名称
 windows.clans.view 浏览公会
 windows.clans.join 加入公会
-windows.clans.login 登录以创建并加入公会！
+windows.clans.login 登录以创建或加入公会！
 windows.store.header 商店
 windows.store.spin {0} 转盘
 windows.store.agree 确认购买即表示你同意 {0}条款及细则
@@ -673,13 +673,13 @@ matchmaker.full 已满
 matchmaker.GameFull 此服务器人数已满。
 matchmaker.NoServersMatchQuery 游戏更新中
 matchmaker.InvalidGameId 此服务器已关闭或不存在。
-matchmaker.NoAvailableServers 服务器负载已达到上限
+matchmaker.NoAvailableServers 当前没有任何空闲的服务器
 matchmaker.GameIssue 加入时出现未知问题
 adblocker 禁用广告拦截器以获得免费 KR 转盘。
 ad-failed 广告加载失败，请稍后重试。
 streamers.views {0} 个观众
 streamers.none 当前没有任何 Twitch 直播！
-error.extentions 如果你有任何浏览器扩展程序，请禁用它们
+error.extentions 如果你有任何浏览器插件，请禁用它们
 error.seek 点此搜索新的游戏
 custom.map.upload.limit 上传失败，地图数据大小上限为五十万个字符
 custom.map.missing 请选择至少一种地图
