@@ -890,25 +890,25 @@ social.trades.accept Bu teklifi kabul etmek istediğinden emin misin?
 stats.airdrops KR-Paketleri
 stats.airdrops.stolen Airdrops Stolen
 settings.quality.flapAnim Sniper Dürbün Kapağı Animasyonu
-chall.name.hs Get {0} headshots {1}
-chall.name.ns Get {0} no-scopes {1}
-chall.name.ls Get {0} legshots {1}
-chall.name.tmk Get {0} throwing knife kills {1}
-chall.name.fb Get {0} first bloods {1}
-chall.name.mk Get {0} melee kills {1}
-chall.name.fk Get {0} fist kills {1}
-chall.name.qs Get {0} quickscopes {1}
-chall.name.wb Get {0} wallbangs {1}
-chall.name.airk Get {0} mid-air kills {1}
-chall.name.lns Get {0} longshots {1}
-chall.name.tk Get {0} turbo kills {1}
-chall.name.drk Get {0} drift kills {1}
-chall.name.kstk Get a {0} killstreak {1}
-chall.name.w Win {0} matches
-chall.name.d Die {0} times
-chall.name.score Get {0} score
-chall.name.dmg Deal {0} damage {1}
-chall.name.bzk Get {0} buzz kills {1}
-chall.name.cc Get {0} close-calls {1}
-chall.name.rk Deal {0} revenge kills {1}
+chall.name.hs {1}'da {0} tane kafadan vuruş al 
+chall.name.ns {1}'da {0} tane noskop al 
+chall.name.ls {1}'da {0} tane bacaktan vuruş al 
+chall.name.tmk {1}'da {0} tane bıçak atarak öldürme al 
+chall.name.fb {1}'da {0} tane ilk kan al 
+chall.name.mk {1}'da {0} tane bıçakla öldürme al 
+chall.name.fk {1}'da {0} tane yumrukla öldürme al 
+chall.name.qs {1}'da {0} tane hızlı dürbün öldürmesi al 
+chall.name.wb {1}'da {0} tane wallbang al 
+chall.name.airk {1}'da {0} tane havada öldürme al 
+chall.name.lns {1}'da {0} tane uzaktan öldürme al 
+chall.name.tk {1}'da {0} tane turbo öldürme al 
+chall.name.drk {1}'da {0} tane kayarak öldürme al
+chall.name.kstk {1}'da {0} kişilik bir öldürme serisi elde et
+chall.name.w {0} tane maç kazan
+chall.name.d {0} kere öl
+chall.name.score {0} tane puan al
+chall.name.dmg {1}'da {0} hasar ver 
+chall.name.bzk {1}'da {0} tane hızlı öldürme al 
+chall.name.cc {1}'da {0} tane dar kurtulma al 
+chall.name.rk {1}'da {0} tane intikam öldürmesi al
 `;
