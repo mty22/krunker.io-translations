@@ -611,73 +611,73 @@ windows.premium.header Премиум
 windows.skin.header Изберете вещ
 windows.hat.header Изберете шапка
 windows.back.header Изберете тяло
-windows.waist.header Изберете торс
+windows.waist.header Изберете вещ за кръст
 windows.face.header Изберете лице
 windows.melee.header Изберете острие
 windows.attach.header Select Attachment
 windows.reticle.header Select Reticle
 windows.reticle.unlocked Отключено на ниво {0}
 windows.reticle.req Поискано ниво {0}
-windows.dye.header Select Dye
-windows.dye.default Default Dye
-windows.dye.spin Dye
-windows.changelog.header Changelog
-windows.mods.community.header Community Mods
+windows.dye.header Изберете цвят на костюма
+windows.dye.default Цвят на костюма по подразбиране
+windows.dye.spin Цвят на костюма
+windows.changelog.header Регистър на промените
+windows.mods.community.header Модове на общността
 windows.mods.community.fav Вашите любими
-windows.mods.community.new New Mods
+windows.mods.community.new Нови модове
 windows.mods.community.hot Готини
-windows.mods.community.name Mod Name
-windows.mods.community.none No Mods found
-windows.publish.mod.header Publish Mod
-windows.publish.mod.thumbnail No Thumbnail
-windows.publish.mod.name Mod Name
-windows.publish.mod.paste Mod Url
-windows.publish.mod.update Publish/Update
-windows.publish.mod.login to create and upload mods!
-windows.secondary.header Select Secondary
-windows.secondary.unlocked Unlocked
-windows.secondary.customOnly Customs Only
-windows.secondary.premiumOnly Premium Only
-windows.secondary.req Req lvl {0}
-windows.advertise.header Advertise
-windows.support.header Support
-windows.players.header Player List
-windows.players.none No players currently...
+windows.mods.community.name Име на мода
+windows.mods.community.none Няма намерени модове
+windows.publish.mod.header Публикуване на мод
+windows.publish.mod.thumbnail Без намалени версии на снимката
+windows.publish.mod.name Име на мода
+windows.publish.mod.paste URL на мода
+windows.publish.mod.update Публикуване/Актуализиране
+windows.publish.mod.login Логин за създаване и качване на модове!
+windows.secondary.header Изберете второто оръжие
+windows.secondary.unlocked Отключен
+windows.secondary.customOnly Само персонализирани
+windows.secondary.premiumOnly Само премиум
+windows.secondary.req Задължително ниво {0}
+windows.advertise.header Рекламирайте
+windows.support.header Помощ
+windows.players.header Списък с играчите
+windows.players.none В момента няма играчи...
 windows.join.header Присъединяване
-windows.join.code Enter Game URL/Code
-windows.client.header Client
-windows.client.windows Windows Installer
-windows.client.mac macOS Installer
-windows.client.linux Linux Installer
-windows.ranked.header Ranked
-windows.ranked.login to play in ranked games!
-windows.ranked.level You must be at least <span color="black">level {0}</span> to play in ranked games! Right now you are at <span color="black">level {1}</span>.
+windows.join.code Въведете URL/код на играта
+windows.client.header Клиент
+windows.client.windows Инсталатор за Windows
+windows.client.mac Инсталатор за macOS
+windows.client.linux Инсталатор за Linux
+windows.ranked.header Класиран
+windows.ranked.login Логин да играете в класирани игри!
+windows.ranked.level Трябва да си поне <span color="black">ниво {0}</span> да играете в класирани игри! Точно сега сте в<span color="black">ниво {1}</span>.
 windows.ranked.mode.r1v1 Соло
-windows.ranked.mode.r2v2 Duo
-windows.ranked.mode.r4v4 Quad
+windows.ranked.mode.r2v2 Дует
+windows.ranked.mode.r4v4 Куадро
 windows.chall.header Предизвикателства
-windows.chall.login to complete challenges!
-thumbnail.upload.limit Failed. {0}kb Thumbnail Limit
-image.upload.limit Failed. {0}kb Image Limit
-thumbnail.upload.error Thumbnail Error
-mod.extracting extracting {0}/{1}
+windows.chall.login Логин за да завършите предизвикателствата!
+thumbnail.upload.limit Се провали. {0}kb ограничение за намалената версия на снимката
+image.upload.limit Се провали. {0}kb ограничение на снимката
+thumbnail.upload.error Грешка в намалената версия на снимката
+mod.extracting Екстрактиране {0}/{1}
 mod.disabled Модовете са деактивирани
 mod.error Мода има грешка!
 mod.loading модът се зареждва...
 mod.invalid невалиден мод файл!
 matchmaker.full ПЪЛНА
-matchmaker.GameFull Game is full.
-matchmaker.NoServersMatchQuery GAME UPDATING
-matchmaker.InvalidGameId Game not found.
-matchmaker.NoAvailableServers Servers are at Max Capacity
-matchmaker.GameIssue Unknown Join Issue
+matchmaker.GameFull Играта е пълна.
+matchmaker.NoServersMatchQuery АКТУАЛИЗИРАНЕ НА ИГРАТА
+matchmaker.InvalidGameId Играта не е намерена.
+matchmaker.NoAvailableServers Сървърите са с максимален капацитет
+matchmaker.GameIssue Неизвестен проблем с присъединяването
 adblocker Деактивирайте вашия рекламен блокер, за да получите безплатни Krunkies.
-ad-failed Ad Failed to Load. Try again.
-streamers.views {0} viewers
-streamers.none No active streams!
-error.extentions If you have any extensions, disable them
-error.seek Try seeking a new game by clicking
-custom.map.upload.limit Failed. 500k Character Game Data Limit
+ad-failed Рекламата не се зареди. Опитай пак.
+streamers.views {0} зрители
+streamers.none Няма активни стримери!
+error.extentions Ако имате екстензии, деактивирайте ги
+error.seek Опитайте да потърсите нова игра, като щракнете
+custom.map.upload.limit Failed. 500k Ограничение на букви на данните за играта
 custom.map.missing Изберете поне една игра или карта
 custom.mode.missing Изберете поне един тип от игра
 custom.class.missing Изберете поне един клас
@@ -689,14 +689,14 @@ server.config.gravMlt Гравитаця
 server.config.tickRI Висок тикрейт
 server.config.maxPS Сървър за 40 играчи
 server.config.promServ Промотя на сървъра промотя
-server.config.jumpMlt Jump Force
-server.config.airStrf Air Strafing
+server.config.jumpMlt Сила на скок
+server.config.airStrf Въздушен страфинг
 server.config.deltaMlt Time Scale
 server.config.strafeSpd Strafe Speed
-server.config.fiRat Fire Rate
+server.config.fiRat Скорост на стрелба
 server.config.reSpd Скорост на презареждане
-server.config.slidTime Slide Time
-server.config.fixMov Fixed Movement
+server.config.slidTime Време на плъзгане
+server.config.fixMov Фиксирано движение
 server.config.slidSpd Скорост на плъзгане
 server.config.healthMlt Health Multiplier
 server.config.impulseMlt Импулс на оръжие
