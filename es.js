@@ -91,15 +91,15 @@ settings.network.header Conexión
 settings.network.netRerouting Enrutamiento automático (Afecta el ping)
 settings.network.netRate Network Rate (Hz)
 settings.network.lagComp Compensación de lag
-settings.network.optNet Optimized Networking
+settings.network.optNet Red Optimizada
 settings.popup.header Popups
 settings.experimental.header Experimental
-settings.experimental.holiday Holiday Effects
+settings.experimental.holiday Efectos Festivos
 settings.experimental.aimFreezeFix Arreglo de congelamiento al apuntar
 settings.experimental.mouseFlickFix Arreglo de Mouse Flick
 settings.experimental.shaderRendering Renderización de Instancias
-settings.experimental.mouseAccel Mouse Acceleration
-settings.experimental.tbInterp TB Interpolation
+settings.experimental.mouseAccel Aceleración de Mouse
+settings.experimental.tbInterp Interpolación
 settings.client.header Cliente
 settings.client.unlimitedFrames FPS Ilimitados
 settings.client.gameCap Captura de Juego
@@ -111,7 +111,7 @@ settings.client.resetSettings Reiniciar Configuraciones del Cliente
 settings.client.acceleratedCanvas Canvas Acelerados
 settings.client.angleBackend Gráficos Backend Angulares
 settings.client.colorProfile Perfil de Color
-settings.client.resourcePacks Resource Packs
+settings.client.resourcePacks Paquetes de Recursos
 settings.dev.header Desarrollador
 settings.dev.forceUpdate Forzar Actualización de Skins
 settings.dev.forceRegen Siempre Regenerar al Jugador
@@ -173,8 +173,8 @@ settings.interface.dmgCol Color de daño
 settings.interface.critCol Color de daño crítico
 settings.interface.header Interface
 settings.interface.scale Escala de interfaz
-settings.interface.theme Game Theme
-settings.interface.ui Mostrar interfaz
+settings.interface.theme Tema de la Interfaz
+settings.interface.ui Mostrar Interfaz
 settings.interface.scoreboard Usar el viejo tablero de puntaciones
 settings.interface.oldBrowser Usar el navegador antiguo
 settings.interface.rarityanim Desactivar animaciones de rareza
@@ -206,7 +206,7 @@ settings.interface.hideNames.enemy Sólo del enemigo
 settings.interface.hideNames.all Todos
 settings.interface.nametagStyle Estilo del nombre
 settings.interface.nametagOpac Opacidad de nombre
-settings.interface.nametagScale Nametag Scale
+settings.interface.nametagScale Escala de Nombres
 settings.interface.nametagStyle.health Sólo salud
 settings.interface.nametagStyle.name Sólo nombre
 settings.interface.nametagStyle.nameLvl Sólo el nombre y el nivel
@@ -217,16 +217,16 @@ settings.interface.healthColE Color de la barra de salud del enemigo
 settings.interface.xpBarCol Color de la barra de experiencia
 settings.interface.xpBarCol2 XP Bar Color 2
 settings.interface.xpBarOpac Opacidad de la barra de experiencia
-settings.medals.header Medals
-settings.medals.show Show Medals
-settings.medals.classic Classic Medals
-settings.medals.sound Play Medal Sounds
-settings.medals.scale Medal Scale
-settings.medals.xOff Medal X Offset
-settings.medals.yOff Medal Y Offset
+settings.medals.header Medallas
+settings.medals.show Mostrar Medallas
+settings.medals.classic Medallas Clásicas
+settings.medals.sound Reproducir Sonidos de Medalla
+settings.medals.scale Escala de Medallas
+settings.medals.xOff Ubicación de Medalla en  X
+settings.medals.yOff Ubicación de Medalla en  Y
 settings.crosshair.header Retícula
 settings.crosshair.type Tipo
-settings.crosshair.type.1 Dynamic
+settings.crosshair.type.1 Dinámica
 settings.crosshair.type.2 Personalizado
 settings.crosshair.type.3 En capas
 settings.crosshair.type.4 Imagen
@@ -239,12 +239,12 @@ settings.crosshair.style.3 Cuadrado vacío
 settings.crosshair.style.4 Cuadrado sólido
 settings.crosshair.image Imagen
 settings.crosshair.image.paste Imagen de retícula
-settings.crosshair.image.width Image Width
-settings.crosshair.image.height Image Height
-settings.crosshair.always Mostrar siempre
-settings.crosshair.color Color de retícula
-settings.crosshair.shadow.color Color de sombra
-settings.crosshair.shadow.thickness Grosor de sombra
+settings.crosshair.image.width Ancho de la Imagen
+settings.crosshair.image.height Alto de la Imagen
+settings.crosshair.always Mostrar Siempre
+settings.crosshair.color Color de Retícula
+settings.crosshair.shadow.color Color de Sombra
+settings.crosshair.shadow.thickness Grosor de Sombra
 settings.crosshair.size Tamaño
 settings.crosshair.thickness Grosor
 settings.crosshair.gap Separación
@@ -252,30 +252,30 @@ settings.crosshair.dot Punto
 settings.crosshair.opacity.use Usar opacidad personalizada
 settings.crosshair.opacity.custom Opacidad personalizada
 settings.crosshairm.header Crosshair (Throwing)
-settings.crosshairm.type Type
-settings.crosshairm.type.1 Shapes
-settings.crosshairm.type.2 Image
+settings.crosshairm.type Tipo
+settings.crosshairm.type.1 Formas
+settings.crosshairm.type.2 Imagen
 settings.crosshairm.type.3 Precision
-settings.crosshairm.style Style
-settings.crosshairm.style.0 Cross
-settings.crosshairm.style.1 Hollow Circle
-settings.crosshairm.style.2 Solid Circle
-settings.crosshairm.style.3 Hollow Square
-settings.crosshairm.style.4 Solid Square
-settings.crosshairm.image Image
-settings.crosshairm.image.paste Crosshair Image
-settings.crosshairm.image.width Image Width
-settings.crosshairm.image.height Image Height
-settings.crosshairm.always Always Show
+settings.crosshairm.style Estilo
+settings.crosshairm.style.0 Cruz
+settings.crosshairm.style.1 Circulo Vacio
+settings.crosshairm.style.2 Circulo Sólido
+settings.crosshairm.style.3 Cuadrado Vacío
+settings.crosshairm.style.4 Cuadrado Sólido
+settings.crosshairm.image Imagen
+settings.crosshairm.image.paste Imagen de Retícula
+settings.crosshairm.image.width Ancho de Imagen
+settings.crosshairm.image.height Alto de Imagen
+settings.crosshairm.always Siempre Mostrar
 settings.crosshairm.color Color
-settings.crosshairm.shadow.color Shadow Color
-settings.crosshairm.shadow.thickness Shadow Thickness
-settings.crosshairm.size Size
-settings.crosshairm.thickness Thickness
-settings.crosshairm.gap Gap
-settings.crosshairm.dot Dot
-settings.crosshairm.opacity.use Use Custom Opacity
-settings.crosshairm.opacity.custom Custom Opacity
+settings.crosshairm.shadow.color Color de Sombra
+settings.crosshairm.shadow.thickness Grosor de Sombra
+settings.crosshairm.size Tamaño
+settings.crosshairm.thickness Grosor
+settings.crosshairm.gap Espacio
+settings.crosshairm.dot Punto
+settings.crosshairm.opacity.use Usar Opacidad Personalizada
+settings.crosshairm.opacity.custom Opacidad Personalizada
 settings.hitmarker.header Hitmarker
 settings.hitmarker.color Color
 settings.hitmarker.kcolor Color de baja
@@ -300,12 +300,12 @@ settings.gameprivacy.header Privacidad de Jugabilidad
 settings.gameprivacy.streamer Modo Streamer
 settings.gameprivacy.anon Modo Anónimo
 settings.gameprivacy.hideGameTitle Esconder Título del Juego
-settings.gameprivacy.showRegion Show Region Info
+settings.gameprivacy.showRegion Mostrar Información de la Región
 settings.gameprivacy.verified Show Verified Badge
 settings.gameprivacy.premium Show Premium Badge
 settings.gameprivacy.partner Show Partner Badge
-settings.gameprivacy.rank Show Ranked Badge
-settings.gameprivacy.custom Show Custom Badge
+settings.gameprivacy.rank Mostrar Insignia de Competitivo
+settings.gameprivacy.custom Mostrar Insignia Personalizada
 settings.gameplay.header Jugabilidad
 settings.gameplay.gpSetts Ajustes de Gameplay
 settings.gameplay.sensitivityX Sensibilidad X
@@ -340,9 +340,9 @@ settings.audio.header Audio
 settings.audio.sound Volumen Principal
 settings.audio.ambient Volumen de Ambientación
 settings.audio.voice Volumen de Chat de voz
-settings.audio.input Audio/Mic Input
-settings.audio.mic Mic Volume
-settings.audio.micquality Mic Quality
+settings.audio.input Entrada de Micrófono/Audio
+settings.audio.mic Mic Volumen
+settings.audio.micquality Calidad de Microfófono
 settings.audio.weps Volumen de Armas
 settings.audio.player Volumen de Jugadores
 settings.audio.skin Volumen de Cosmeticos
@@ -459,7 +459,7 @@ windows.servers.hide Ocultar partidas llenas
 windows.servers.priority Prioridad de región
 windows.servers.online {0} en partida
 windows.servers.social {0} en social
-windows.servers.editor {0} in Editor
+windows.servers.editor {0} en Editor
 windows.loadout.header Cambiar equipamiento
 windows.loadout.class Clase
 windows.loadout.primary Arma Primaria
@@ -480,10 +480,10 @@ windows.loadout.color.chat Color de nombres en el chat
 windows.loadout.color.hair Color de cabello
 windows.loadout.dye Dye
 windows.loadout.pet Mascota
-windows.loadout.wrist Wrist
+windows.loadout.wrist Muñeca
 windows.loadout.stat Estadística en tarjeta
 windows.loadout.flag Bandera de país
-windows.loadout.badge Custom Badge
+windows.loadout.badge Insignia Personalizada
 windows.mods.drop arrastra el archivo de mod .zip aquí o haz click
 windows.mods.paste Pega la url del mod
 windows.mods.load Cargar mod
@@ -507,7 +507,7 @@ windows.controls.aim1 Apuntar
 windows.controls.shoot1 Disparar
 windows.controls.inspect Inspeccionar
 windows.controls.spray Usar Grafitti
-windows.controls.sprayWheel Spray Wheel (Hold)
+windows.controls.sprayWheel Ruleta de Sprays (Mantener Pulsado)
 windows.controls.jump Saltar
 windows.controls.crouch Agacharse,
 windows.controls.prim Arma Primaria
@@ -538,16 +538,16 @@ windows.controls.streak1 Racha 2
 windows.controls.streak2 Racha 3
 windows.controls.streak3 Racha 4
 windows.controls.streak4 Racha 5
-windows.controls.taunt0 Taunt (Psst)
-windows.controls.taunt1 Taunt (Whistle)
-windows.controls.taunt2 Taunt (Fart)
-windows.controls.taunt3 Taunt (Meme)
-windows.controls.taunt4 Taunt (WTF is This?)
-windows.controls.taunt5 Taunt (Right Now!)
-windows.controls.prop Select Prop (Hold)
-windows.controls.propRand Select Random Prop
-windows.controls.propRot Toggle Rotation
-windows.controls.propRotR Reset Rotation
+windows.controls.taunt0 Gesto (Psst)
+windows.controls.taunt1 Gesto (Chiflido)
+windows.controls.taunt2 Gesto (Pedo)
+windows.controls.taunt3 Gesto (Meme)
+windows.controls.taunt4 Gesto (WTF es esto?)
+windows.controls.taunt5 Gesto (Ahora mismo!)
+windows.controls.prop Seleccinar Prop (Mantener Presionado)
+windows.controls.propRand Seleccionar Prop Aleatorio
+windows.controls.propRot Alternar Rotación
+windows.controls.propRotR Reiniciar Rotación
 windows.controls.premium0 Noclip
 windows.controls.premium1 Godmode
 windows.controls.premium2 Kill
@@ -611,7 +611,7 @@ windows.store.amount {0} KR en tu cuenta
 windows.store.login para comprar y desbloquear objetos de la tienda!
 windows.store.purchasing Comprando...
 windows.store.unboxed {0}{1} abrió
-windows.store.found {0}{1} found
+windows.store.found {0}{1} Encontró
 windows.trade.header Intercambio
 windows.scope.header Seleccionar Mira
 windows.premium.header Premium
@@ -670,11 +670,11 @@ mod.error error de mod!
 mod.loading cargando mod...
 mod.invalid archivo de mod inválido!
 matchmaker.full LLENO
-matchmaker.GameFull Game is full.
-matchmaker.NoServersMatchQuery GAME UPDATING
-matchmaker.InvalidGameId Game not found.
-matchmaker.NoAvailableServers Servers are at Max Capacity
-matchmaker.GameIssue Unknown Join Issue
+matchmaker.GameFull Partida Llena.
+matchmaker.NoServersMatchQuery JUEGO ACTUALIZANDOSE
+matchmaker.InvalidGameId Partida no Encontrada.
+matchmaker.NoAvailableServers Los servidores estan al Máximo de Capacidad
+matchmaker.GameIssue Problema de Conexión Desconocido.
 adblocker Desactiva tu adblocker para recibir krunkies gratis.
 ad-failed El anuncio falló en cargar. Intentalo de nuevo más tarde.
 streamers.views {0} espectadores
@@ -728,7 +728,7 @@ server.config.thirdPerson Tercera persona
 server.config.requireCaptcha Requiere captcha
 server.config.nameTags Ocultar nombres
 server.config.kCams Cámara de Muertes
-server.config.aAnon Allow Anonymous
+server.config.aAnon Permitir modo Anonimo
 server.config.noReload No recargar
 server.config.private Privado
 server.config.krRewards Recompensas de KR
@@ -785,11 +785,11 @@ social.market.waist Objeto de cintura
 social.market.face Caras
 social.market.shoe Zapatos
 social.market.pet Mascotas
-social.market.wrist Wrist Item
+social.market.wrist Objeto de Muñeca
 social.market.melee Arma cuerpo-a-cuerpo
 social.market.spray Grafittis
 social.market.dye Dyes
-social.market.collectible Collectible Item
+social.market.collectible Objeto Coleccionable
 social.market.none No se han encontrado objetos'
 social.market.login Tienes que iniciar sesión.
 social.market.grace Listo en {0}
@@ -834,9 +834,9 @@ stats.fistkills Bajas con Puños
 stats.thrownkills Bajas con Cuchillo Arrojadizo
 stats.headshots Tiros en la Cabeza
 stats.wallbangs Bajas a través de Paredes
-stats.crouches Crouches
+stats.crouches Agachamientos
 stats.sprays Sprays Colocados
-stats.kpd Helpful Reports
+stats.kpd Helpful Reportes
 windows.host.default.settings Habilitar las configuraciones predeterminadas permite guardar el progreso del jugador y puntajes mas altos
 windows.host.default.commands *Los comandos de hosteo están deshabilitados para este modo : /noclip /god /smite etc
 windows.host.rewards Activando Recompensas de KR forza al servidor a usar configuraciones por defecto y permite a los jugadores ganar recompenzas de los fondos del mapa:
@@ -858,9 +858,9 @@ windows.playerlist.punish Estás seguro de que quieres tomar acciones en {0}?
 item.view.open Abrir Visualizador de Modelos
 item.view.more Mas Información
 item.sell.cant El objeto no se puede Vender
-item.sell.cant.krunker Item cant be sold on krunker.
+item.sell.cant.krunker El item no se puede vender en Krunker.
 item.sell.quick Estás seguro de que quieres vender rápidamente {0}?
-item.sell.destroy Are you sure you want to Destroy {0}?
+item.sell.destroy Estás seguro de que quieres destruir? {0}?
 social.profile.stats Estadísticas Generales
 social.profile.class Estadísticas de Clases
 social.profile.sales Ventas
@@ -888,27 +888,27 @@ social.trades.message ACTIVA LOS MENSAJES DE INTERCAMBIO EN LAS CONFIGURACIONES
 social.trades.warning No obtienes objetos de este intercambio!
 social.trades.accept Estás seguro de qué quieres aceptar esta oferta?
 stats.airdrops Paquetes de KR
-stats.airdrops.stolen Airdrops Stolen
+stats.airdrops.stolen Paquetes de KR Robados
 settings.quality.flapAnim Animación de Mirilla de Francotirador
-chall.name.hs Get {0} headshots {1}
-chall.name.ns Get {0} no-scopes {1}
-chall.name.ls Get {0} legshots {1}
-chall.name.tmk Get {0} throwing knife kills {1}
-chall.name.fb Get {0} first bloods {1}
-chall.name.mk Get {0} melee kills {1}
-chall.name.fk Get {0} fist kills {1}
-chall.name.qs Get {0} quickscopes {1}
-chall.name.wb Get {0} wallbangs {1}
-chall.name.airk Get {0} mid-air kills {1}
-chall.name.lns Get {0} longshots {1}
-chall.name.tk Get {0} turbo kills {1}
-chall.name.drk Get {0} drift kills {1}
-chall.name.kstk Get a {0} killstreak {1}
-chall.name.w Win {0} matches
-chall.name.d Die {0} times
-chall.name.score Get {0} score
-chall.name.dmg Deal {0} damage {1}
-chall.name.bzk Get {0} buzz kills {1}
-chall.name.cc Get {0} close-calls {1}
-chall.name.rk Deal {0} revenge kills {1}
+chall.name.hs Obtén {0} Disparos a la Cabeza {1}
+chall.name.ns Obtén {0} no-scope {1}
+chall.name.ls Obtén {0} Disparos desde la Cadera {1}
+chall.name.tmk Obtén {0} Bajas con Cuchillo Arrojadizo {1}
+chall.name.fb Obtén {0} Primera Sangre {1}
+chall.name.mk Obtén {0} Bajas con Cuchillo {1}
+chall.name.fk Obtén {0} Bajas con Puños {1}
+chall.name.qs Obtén {0} Quickscope {1}
+chall.name.wb Obtén {0} Disparos a través de la Pared {1}
+chall.name.airk Obtén {0} Bajas en el Aire {1}
+chall.name.lns Obtén {0} Tiros Lejanos {1}
+chall.name.tk Obtén {0} Turbo Bajas {1}
+chall.name.drk Obten {0} Bajas Derrapando {1}
+chall.name.kstk Obtén una {0} Racha de Bajas {1}
+chall.name.w Gana {0} Partidas
+chall.name.d Die {0} Tiempos
+chall.name.score Obtén {0} Puntuaciones
+chall.name.dmg Haz {0} Daño {1}
+chall.name.bzk Obtén {0} Multi Muerte {1}
+chall.name.cc Obtén {0} Muerte Cercana {1}
+chall.name.rk Haz {0} Asesinato por Venganza {1}
 `;

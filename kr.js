@@ -91,15 +91,15 @@ settings.network.header 네트워크
 settings.network.netRerouting 자동 라우팅 (핑에 영향을 줍니다)
 settings.network.netRate 네트워크 속도 (Hz)
 settings.network.lagComp 지연 시간 보정
-settings.network.optNet Optimized Networking
+settings.network.optNet 네트워크 최적화
 settings.popup.header 팝업
 settings.experimental.header 실험적 설정
-settings.experimental.holiday Holiday Effects
+settings.experimental.holiday 기념일 효과
 settings.experimental.aimFreezeFix 에임 멈춤 현상 해결
 settings.experimental.mouseFlickFix 마우스 순간이동 문제 해결
 settings.experimental.shaderRendering 인스턴스 렌더링
-settings.experimental.mouseAccel Mouse Acceleration
-settings.experimental.tbInterp TB Interpolation
+settings.experimental.mouseAccel 마우스 가속
+settings.experimental.tbInterp 움직임 보간
 settings.client.header 클라이언트
 settings.client.unlimitedFrames 무제한 FPS
 settings.client.gameCap 게임 캡처
@@ -111,7 +111,7 @@ settings.client.resetSettings 클라이언트 설정 초기화
 settings.client.acceleratedCanvas 캔버스 가속
 settings.client.angleBackend ANGLE 그래픽 백엔드
 settings.client.colorProfile 프로필 색 설정
-settings.client.resourcePacks Resource Packs
+settings.client.resourcePacks 리소스 팩
 settings.dev.header 개발자
 settings.dev.forceUpdate 스킨 강제 업데이트
 settings.dev.forceRegen 항상 플레이어 재생성
@@ -173,7 +173,7 @@ settings.interface.dmgCol 피해량 색상
 settings.interface.critCol 치명타 색상
 settings.interface.header 인터페이스
 settings.interface.scale 인터페이스 크기
-settings.interface.theme Game Theme
+settings.interface.theme 게임 테마
 settings.interface.ui 인터페이스 표시
 settings.interface.scoreboard 구 점수판 사용
 settings.interface.oldBrowser 구 서버 탐색기 사용
@@ -206,7 +206,7 @@ settings.interface.hideNames.enemy 상대만 표시
 settings.interface.hideNames.all 모두 표시
 settings.interface.nametagStyle 이름표 스타일
 settings.interface.nametagOpac 이름표 불투명도
-settings.interface.nametagScale Nametag Scale
+settings.interface.nametagScale 이름표 크기
 settings.interface.nametagStyle.health HP만 표시
 settings.interface.nametagStyle.name 이름만 표시
 settings.interface.nametagStyle.nameLvl 이름과 레벨만 표시
@@ -217,13 +217,13 @@ settings.interface.healthColE 상대 이름표 HP 색상
 settings.interface.xpBarCol XP 막대 색상
 settings.interface.xpBarCol2 XP 막대 색상 2
 settings.interface.xpBarOpac XP 막대 불투명도
-settings.medals.header Medals
-settings.medals.show Show Medals
-settings.medals.classic Classic Medals
-settings.medals.sound Play Medal Sounds
-settings.medals.scale Medal Scale
-settings.medals.xOff Medal X Offset
-settings.medals.yOff Medal Y Offset
+settings.medals.header 메달
+settings.medals.show 메달 표시
+settings.medals.classic 클래식 메달
+settings.medals.sound 메달 소리
+settings.medals.scale 메달 크기
+settings.medals.xOff 메달 좌우 위치
+settings.medals.yOff 메달 상하 위치
 settings.crosshair.header 조준선
 settings.crosshair.type 종류
 settings.crosshair.type.1 동적
@@ -300,12 +300,12 @@ settings.gameprivacy.header 게임플레이 프라이버시
 settings.gameprivacy.streamer 스트리머 모드
 settings.gameprivacy.anon 익명 모드
 settings.gameprivacy.hideGameTitle 게임 제목 숨기기
-settings.gameprivacy.showRegion Show Region Info
+settings.gameprivacy.showRegion 지역 정보 표시
 settings.gameprivacy.verified 베리파이 배지 표시
 settings.gameprivacy.premium 프리미엄 배지 표시
 settings.gameprivacy.partner 파트너 배지 표시
 settings.gameprivacy.rank 랭크전 배지 표시
-settings.gameprivacy.custom Show Custom Badge
+settings.gameprivacy.custom 사용자 지정 배지 표시
 settings.gameplay.header 게임플레이
 settings.gameplay.gpSetts 게임플레이 설정
 settings.gameplay.sensitivityX 좌우 감도
@@ -342,7 +342,7 @@ settings.audio.ambient 환경 음량
 settings.audio.voice 음성 음량
 settings.audio.input 오디오/마이크 입력
 settings.audio.mic 마이크 음량
-settings.audio.micquality Mic Quality
+settings.audio.micquality 마이크 음질
 settings.audio.weps 무기 음량
 settings.audio.player 플레이어 음량
 settings.audio.skin 외형 아이템 음량
@@ -459,7 +459,7 @@ windows.servers.hide 가득 찬 게임 숨기기
 windows.servers.priority 지역 우선순위
 windows.servers.online 게임 중: {0}명
 windows.servers.social 소셜 페이지: {0}명
-windows.servers.editor {0} in Editor
+windows.servers.editor 맵 에디터: {0}명
 windows.loadout.header 무기 및 스킨 바꾸기
 windows.loadout.class 클래스
 windows.loadout.primary 주무기
@@ -483,7 +483,7 @@ windows.loadout.pet 펫
 windows.loadout.wrist Wrist
 windows.loadout.stat 상대 처치 시 보일 스탯
 windows.loadout.flag 국기
-windows.loadout.badge Custom Badge
+windows.loadout.badge 사용자 지정 배지
 windows.mods.drop Mod 파일을 여기에 드래그 또는 클릭
 windows.mods.paste Mod URL 붙여넣기
 windows.mods.load Mod 적용
@@ -507,7 +507,7 @@ windows.controls.aim1 조준
 windows.controls.shoot1 발사
 windows.controls.inspect 무기 자세히 보기
 windows.controls.spray 스프레이
-windows.controls.sprayWheel Spray Wheel (Hold)
+windows.controls.sprayWheel 스프레이 메뉴 (홀드)
 windows.controls.jump 점프
 windows.controls.crouch 앉기
 windows.controls.prim 주무기
@@ -538,16 +538,16 @@ windows.controls.streak1 연속 처치 2
 windows.controls.streak2 연속 처치 3
 windows.controls.streak3 연속 처치 4
 windows.controls.streak4 연속 처치 5
-windows.controls.taunt0 Taunt (Psst)
-windows.controls.taunt1 Taunt (Whistle)
-windows.controls.taunt2 Taunt (Fart)
-windows.controls.taunt3 Taunt (Meme)
-windows.controls.taunt4 Taunt (WTF is This?)
-windows.controls.taunt5 Taunt (Right Now!)
+windows.controls.taunt0 도발 (관심 끌기)
+windows.controls.taunt1 도발 (휘파람)
+windows.controls.taunt2 도발 (방귀)
+windows.controls.taunt3 도발 (밈)
+windows.controls.taunt4 도발 (이게 뭐야?)
+windows.controls.taunt5 도발 (지금 당장!)
 windows.controls.prop 사물 선택 (홀드)
-windows.controls.propRand Select Random Prop
-windows.controls.propRot Toggle Rotation
-windows.controls.propRotR Reset Rotation
+windows.controls.propRand 무작위 사물 선택
+windows.controls.propRot 회전 전환
+windows.controls.propRotR 회전 초기화
 windows.controls.premium0 벽 통과
 windows.controls.premium1 무적 모드
 windows.controls.premium2 자살
@@ -572,7 +572,7 @@ windows.spray.spin 스프레이
 windows.maps.header 사용자 지정 게임
 windows.maps.none 찾은 게임이 없습니다!
 windows.maps.name 게임 이름
-windows.maps.editor 게임 편집기
+windows.maps.editor 게임 에디터
 windows.maps.publish 게임 올리기
 windows.maps.community 개발자 커뮤니티
 windows.publish.map.header 게임 업로드 또는 업데이트
@@ -610,8 +610,8 @@ windows.store.unlock 새 무기 스킨과 아이템을 얻으세요!
 windows.store.amount {0} KR이 계정에 있습니다
 windows.store.login 로그인해서 마켓에서 아이템을 사고파세요!
 windows.store.purchasing 구매 중...
-windows.store.unboxed {0}님이 {1} 아이템을 뽑았습니다
-windows.store.found {0}{1} found
+windows.store.unboxed {0}{1}님이 아이템을 뽑음:
+windows.store.found {0}{1}님이 아이템을 찾음:
 windows.trade.header 트레이드 중
 windows.scope.header 스코프 선택
 windows.premium.header 프리미엄
@@ -670,11 +670,11 @@ mod.error Mod 오류!
 mod.loading Mod 적용 중...
 mod.invalid 유효하지 않은 Mod 파일입니다!
 matchmaker.full 가득 찼습니다
-matchmaker.GameFull Game is full.
-matchmaker.NoServersMatchQuery GAME UPDATING
-matchmaker.InvalidGameId Game not found.
-matchmaker.NoAvailableServers Servers are at Max Capacity
-matchmaker.GameIssue Unknown Join Issue
+matchmaker.GameFull 게임이 가득 찼습니다
+matchmaker.NoServersMatchQuery 게임이 업데이트 중입니다
+matchmaker.InvalidGameId 게임을 찾을 수 없습니다
+matchmaker.NoAvailableServers 서버 수용량이 가득 찼습니다
+matchmaker.GameIssue 알 수 없는 참가 문제가 발생했습니다
 adblocker 무료 KR을 받으려면 광고 차단기를 끄세요.
 ad-failed 광고를 불러오지 못하였습니다. 나중에 다시 시도하세요.
 streamers.views 시청자 {0}명
@@ -728,7 +728,7 @@ server.config.thirdPerson 3인칭
 server.config.requireCaptcha Captcha 요구하기
 server.config.nameTags 이름표 숨기기
 server.config.kCams 사망 화면
-server.config.aAnon Allow Anonymous
+server.config.aAnon 익명 모드 허용
 server.config.noReload 재장전 없음
 server.config.private 비공개
 server.config.krRewards KR 보상
@@ -785,11 +785,11 @@ social.market.waist 허리 아이템
 social.market.face 얼굴 아이템
 social.market.shoe 신발 아이템
 social.market.pet 펫 아이템
-social.market.wrist Wrist Item
+social.market.wrist 손목 아이템
 social.market.melee 근접무기 아이템
 social.market.spray 스프레이 아이템
 social.market.dye 염료 아이템
-social.market.collectible Collectible Item
+social.market.collectible 수집품 아이템
 social.market.none 찾은 아이템이 없습니다.
 social.market.login 먼저 로그인하십시오.
 social.market.grace {0}초 후에 준비됩니다.
@@ -806,7 +806,7 @@ respawn.auto {0}초 후 자동 리스폰
 custom.host.ranked 랭크전 준비 중 게임 만들기 불가
 funds.insufficient 돈이 부족합니다
 funds.out KR이 부족합니다
-custom.passcode.long 비밀번호가 너무 길음
+custom.passcode.long 비밀번호가 너무 긺
 custom.passcode.input 참가를 위해 서버 비밀번호를 입력하세요
 custom.tryagain 다시 시도해 주십시오
 purchase.kr.success {0} KR을 계정에 추가하였습니다
@@ -834,9 +834,9 @@ stats.fistkills 격투 처치
 stats.thrownkills 투척 처치
 stats.headshots 헤드샷
 stats.wallbangs 벽 관통 처치
-stats.crouches Crouches
+stats.crouches 앉기
 stats.sprays 스프레이 수
-stats.kpd Helpful Reports
+stats.kpd 유용한 신고 수
 windows.host.default.settings 기본 설정을 사용하면 플레이어 진행률과 최고 점수를 저장할 수 있습니다
 windows.host.default.commands /noclip, /god, /smite와 같은 호스트 명령어는 비활성화됩니다 
 windows.host.rewards KR 보상을 허용하면 서버 내에서 기본 설정을 강제하고 플레이어들이 맵에서 KR을 받을 수 있습니다
@@ -858,9 +858,9 @@ windows.playerlist.punish {0}님에 대해 조치를 취하시겠습니까?
 item.view.open 모델 뷰어 열기
 item.view.more 더 많은 정보
 item.sell.cant 이 아이템은 판매할 수 없습니다
-item.sell.cant.krunker Item cant be sold on krunker.
+item.sell.cant.krunker 아이템을 Krunker에서 판매할 수 없습니다.
 item.sell.quick {0} 아이템을 빠른 판매할까요?
-item.sell.destroy Are you sure you want to Destroy {0}?
+item.sell.destroy {0} 아이템을 파괴할까요?
 social.profile.stats 기본 스탯
 social.profile.class 클래스 스탯
 social.profile.sales 판매
@@ -888,7 +888,7 @@ social.trades.message 설정에서 트레이드 메시지를 활성화하세요
 social.trades.warning 이 트레이드에서는 아무런 아이템도 얻을 수 없습니다!
 social.trades.accept 정말 이 트레이드를 수락하시겠습니까?
 stats.airdrops KR 패키지
-stats.airdrops.stolen Airdrops Stolen
+stats.airdrops.stolen 뺏은 패키지
 settings.quality.flapAnim 스나이퍼 스코프 덮개 애니메이션
 chall.name.hs Get {0} headshots {1}
 chall.name.ns Get {0} no-scopes {1}
