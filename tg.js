@@ -25,7 +25,7 @@ generic.default Default
 generic.submit Sumite
 generic.create Lumikha
 generic.random Random
-generic.failed Nabigo.
+generic.failed Nabigo
 generic.success Tagumpay!
 generic.name Pangalan
 generic.level Antas
@@ -62,7 +62,7 @@ player.waiting Naghihintay ng mga manlalaro
 player.died Ika'y namatay
 player.killed Pinatay ni {0} si {1}
 player.killstreak {0} on a {1} Kill Streak
-player.inactive Tinanggal sa laro dahil inaktibo.
+player.inactive Tinanggal sa laro dahil inaktibo
 player.disconnect HINDI MAKAKONEKTA
 timer.end Susunod na laro sa {0}
 leaderboard.empty Walang tao sa lobby
@@ -80,7 +80,7 @@ settings.reset Mag-reset
 settings.reset.confirm Sigurado ka bang mag-reset ng inyong settings?
 settings.import iangkat
 settings.export iluwas
-settings.none Walang Nahanap na Mga settings.
+settings.none Walang Nahanap na Mga settings
 settings.backup Mga Back-up Settings
 settings.controls.change Palitan ang Keybinds
 settings.controls.press Pindutin ang Anumang Key
@@ -843,7 +843,7 @@ windows.host.rewards Pinipilit ng pagpapagana ng KR Rewards ang Server na gumami
 windows.store.wheels.sub Subukan ang iyong kapalaran at paikutin ang Papremyo para sa isang pagkakataon upang manalo ng ilang mga bagong disenyo!
 windows.store.currency * Ang mga presyo sa USD ay maaaring I-convert bilang Philippine Peso ayon sa halagang tinukoy ng inyong bangko o provider.
 windows.store.creator Tangkilikin ang inyong paboritong Content Creator o Streamer sa pamamagitan ng 'Creator Code'!
-windows.chall.customs Ang mga hamon o challenge ay hindi nakukumpleto sa mga kustom na laro.
+windows.chall.customs Ang mga hamon o challenge ay hindi nakukumpleto sa mga kustom na laro
 twitch.link Siguradong nais mo bang i-link ang Twitch account?
 twitch.unlink Siguradong nais mo bang i-unlink ang iyong Twitch account?
 windows.clan.leave Siguradong nais mo bang umalis sa samahan ninyo?
