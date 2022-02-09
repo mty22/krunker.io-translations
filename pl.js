@@ -908,7 +908,7 @@ chall.name.w Wygraj {0} meczów
 chall.name.d Zgiń {0} razy
 chall.name.score Zdobądź {0} punktów
 chall.name.dmg Zadaj {0} obrażeń {1}
-chall.name.bzk Zdobądź {0} buzz kills {1}
+chall.name.bzk Zakończ {0} serii zabójstw innych graczy {1}
 chall.name.cc Zdobądź {0} zabójstw, prawie samemu ginąc {1}
 chall.name.rk Zdobądź {0} zabójstw w odwecie {1}
 `;
