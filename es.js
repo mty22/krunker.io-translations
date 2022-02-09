@@ -895,7 +895,6 @@ chall.name.ns Obtén {0} no-scope {1}
 chall.name.ls Obtén {0} Disparos desde la Cadera {1}
 chall.name.tmk Obtén {0} Bajas con Cuchillo Arrojadizo {1}
 chall.name.fb Obtén {0} Primera Sangre {1}
-chall.name.lns Obtén {0} Disparos a las Piernas {1}
 chall.name.mk Obtén {0} Bajas con Cuchillo {1}
 chall.name.fk Obtén {0} Bajas con Puños {1}
 chall.name.qs Obtén {0} Quickscope {1}
