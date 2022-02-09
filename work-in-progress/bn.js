@@ -248,56 +248,56 @@ settings.crosshair.shadow.thickness ছায়ার পুরুত্ব
 settings.crosshair.size আকার
 settings.crosshair.thickness পুরুত্ব
 settings.crosshair.gap ফাঁক
-settings.crosshair.dot Dot
-settings.crosshair.opacity.use Use Custom Opacity
-settings.crosshair.opacity.custom Custom Opacity
+settings.crosshair.dot ডট
+settings.crosshair.opacity.use কাস্টম অপাসিটি ব্যবহার করুন
+settings.crosshair.opacity.custom কাস্টম অপাসিট
 settings.crosshairm.header Crosshair (Throwing)
 settings.crosshairm.type Type
-settings.crosshairm.type.1 Shapes
-settings.crosshairm.type.2 Image
-settings.crosshairm.type.3 Precision
+settings.crosshairm.type.1 আকার
+settings.crosshairm.type.2 ছবি
+settings.crosshairm.type.3 যথার্থতা
 settings.crosshairm.style Style
-settings.crosshairm.style.0 Cross
-settings.crosshairm.style.1 Hollow Circle
-settings.crosshairm.style.2 Solid Circle
-settings.crosshairm.style.3 Hollow Square
-settings.crosshairm.style.4 Solid Square
-settings.crosshairm.image Image
-settings.crosshairm.image.paste Crosshair Image
-settings.crosshairm.image.width Image Width
-settings.crosshairm.image.height Image Height
-settings.crosshairm.always Always Show
-settings.crosshairm.color Color
-settings.crosshairm.shadow.color Shadow Color
-settings.crosshairm.shadow.thickness Shadow Thickness
-settings.crosshairm.size Size
-settings.crosshairm.thickness Thickness
-settings.crosshairm.gap Gap
-settings.crosshairm.dot Dot
-settings.crosshairm.opacity.use Use Custom Opacity
-settings.crosshairm.opacity.custom Custom Opacity
+settings.crosshairm.style.0 ক্রস
+settings.crosshairm.style.1 ফাঁপা বৃত্ত
+settings.crosshairm.style.2 কঠিন বৃত্ত
+settings.crosshairm.style.3 ফাঁপা স্কোয়ার
+settings.crosshairm.style.4 সলিড স্কোয়ার
+settings.crosshairm.image ইমেজ
+settings.crosshairm.image.paste Crosshair ছবি
+settings.crosshairm.image.width ছবির প্রস্থ
+settings.crosshairm.image.height ছবির উচ্চতা
+settings.crosshairm.always সবসময় প্রদর্শন
+settings.crosshairm.color রঙ
+settings.crosshairm.shadow.color ছায়া রঙ
+settings.crosshairm.shadow.thickness ছায়ার পুরুত্ব
+settings.crosshairm.size আকার
+settings.crosshairm.thickness পুরুত্ব
+settings.crosshairm.gap ফাঁক
+settings.crosshairm.dot ডট
+settings.crosshairm.opacity.use কাস্টম অপাসিটি ব্যবহার করুন
+settings.crosshairm.opacity.custom কাস্টম অপাসিট
 settings.hitmarker.header Hitmarker
-settings.hitmarker.color Color
-settings.hitmarker.kcolor Kill Color
-settings.hitmarker.thickness Thickness
-settings.hitmarker.opacity Opacity
-settings.hitmarker.leng Length
-settings.hitmarker.spacing Spacing
+settings.hitmarker.color রঙ
+settings.hitmarker.kcolor কিল কালার
+settings.hitmarker.thickness পুরুত্ব
+settings.hitmarker.opacity স্বচ্ছতা
+settings.hitmarker.leng দৈর্ঘ্য
+settings.hitmarker.spacing ব্যবধান
 settings.hitmarker.animD Anim Size
 settings.hitmarker.animS Anim Speed
-settings.hitmarker.hitm Show
+settings.hitmarker.hitm দেখাব
 settings.hitmarker.hitmFad Fade Speed
-settings.hitmarker.custom Hitmarker Image
-settings.hitmarker.custom.paste Hitmarker Image URL
+settings.hitmarker.custom Hitmarker ছবি
+settings.hitmarker.custom.paste Hitmarker ছবির URL
 settings.onKillS.style.0 Default
-settings.onKillS.style.1 Reduce Resolution
-settings.onKillS.style.2 Reduce FOV
-settings.onKillS.style.3 Increase FOV
-settings.serverb.header Server Browser
-settings.serverb.oldBrowser Legacy Browser
-settings.serverb.defaultRegionOnly Default Region Only
-settings.gameprivacy.header Gameplay Privacy
-settings.gameprivacy.streamer Streamer Mode
+settings.onKillS.style.1 রেজোলিউশন হ্রাস করুন
+settings.onKillS.style.2 FOV হ্রাস করুন
+settings.onKillS.style.3 FOV বাড়ান
+settings.serverb.header সার্ভার ব্রাউজার
+settings.serverb.oldBrowser লিগ্যাসি ব্রাউজার
+settings.serverb.defaultRegionOnly শুধুমাত্র ডিফল্ট অঞ্চল
+settings.gameprivacy.header গেমপ্লে গোপনীয়তা
+settings.gameprivacy.streamer স্ট্রীমার মোড
 settings.gameprivacy.anon Anonymous Mode
 settings.gameprivacy.hideGameTitle Hide Game Title
 settings.gameprivacy.showRegion Show Region Info
