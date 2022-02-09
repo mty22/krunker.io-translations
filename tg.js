@@ -480,12 +480,12 @@ windows.loadout.color.chat Kulay ng Pangalan sa Chat
 windows.loadout.color.hair Kulay ng Buhok
 windows.loadout.dye Kulay ng katawan
 windows.loadout.pet Alaga
-windows.loadout.wrist Wrist
-windows.loadout.stat Killcard Stat
+windows.loadout.wrist Pulsuhan
+windows.loadout.stat Stat sa Killcard
 windows.loadout.flag Bandilang Pambansa
 windows.loadout.badge Custom Badge
-windows.mods.drop ihulog ang file ng mod dito o mag-click
-windows.mods.paste Ipaste ang Mod URL
+windows.mods.drop Ilagay ang file ng mod dito o i-click
+windows.mods.paste Ipaste Ang Mod URL
 windows.mods.load Mag-load ng Mod
 windows.mods.none Walang nahanap na Mod
 windows.mods.header Manager ng Mod
@@ -529,10 +529,10 @@ windows.controls.kpdVoteY Bumoto sa KPD [Oo]
 windows.controls.kpdVoteN Bumoto sa KPD [Hindi]
 windows.controls.specFree I-toggle ang Free Cam
 windows.controls.specObj I-toggle ang Objective Cam
-windows.controls.specFirst I-toggle ang First Person
-windows.controls.specNames I-toggle ang mga pangalan
-windows.controls.specFocus I-toggle and pokus sa isang manlalaro
-windows.controls.hidePlayers Itago ang mga manlalaro
+windows.controls.specFirst I-toggle Ang First-Person
+windows.controls.specNames I-toggle Ang Mga Pangalan
+windows.controls.specFocus I-toggle Ang Pokus sa Isang Manlalaro
+windows.controls.hidePlayers Itago Ang Mga Manlalaro
 windows.controls.streak0 Unang Streak
 windows.controls.streak1 Pangalawang Streak
 windows.controls.streak2 Pangatlong Streak
