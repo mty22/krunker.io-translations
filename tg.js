@@ -61,8 +61,8 @@ generic.accuracy Accuracy
 player.waiting Naghihintay ng mga manlalaro
 player.died Ikaw ay namatay
 player.killed Pinatay ni {0} si {1}
-player.killstreak {0} on a {1} Kill Streak
-player.inactive Pina-alis dahil sa walang aktibidad
+player.killstreak si {0} ay may {1} Killstreak
+player.inactive Tanggal dahil inaktibo
 player.disconnect HINDI MAKAKONEKTA
 timer.end Susunod na laro sa {0}
 leaderboard.empty Walang tao sa lobby
@@ -98,8 +98,8 @@ settings.experimental.holiday Holiday Effects
 settings.experimental.aimFreezeFix Pag-ayos ng Aim Freeze
 settings.experimental.mouseFlickFix Pag-ayos ng Mouse Flick
 settings.experimental.shaderRendering Pag-render
-settings.experimental.mouseAccel Mouse Acceleration
-settings.experimental.tbInterp TB Interpolation
+settings.experimental.mouseAccel Akselerasyon ng Mouse
+settings.experimental.tbInterp TB Interpolasyon
 settings.client.header Kliyente
 settings.client.unlimitedFrames Unlimited na FPS
 settings.client.gameCap Record ng Laro
@@ -173,7 +173,7 @@ settings.interface.dmgCol Kulay ng pinsala sa health ng manlalaro
 settings.interface.critCol Kulay ng Kritikal
 settings.interface.header Itsura ng Interface
 settings.interface.scale  Sukat ng UI
-settings.interface.theme Game Theme
+settings.interface.theme Tema ng UI
 settings.interface.ui Ipakita ang UI
 settings.interface.scoreboard Gumamit ng Lumang Scoreboard
 settings.interface.oldBrowser Gumamit ng Lumang Browser
@@ -217,10 +217,10 @@ settings.interface.healthColE Nametag Health Color Enemy
 settings.interface.xpBarCol Kulay ng XP Bar
 settings.interface.xpBarCol2 XP Bar Color 2
 settings.interface.xpBarOpac Diin ng XP Bar
-settings.medals.header Medals
-settings.medals.show Show Medals
-settings.medals.classic Classic Medals
-settings.medals.sound Play Medal Sounds
+settings.medals.header Medalya
+settings.medals.show Ipakita ang mga Medalya
+settings.medals.classic Mga Lumang Medalya
+settings.medals.sound Parinig ang mga tunog mula sa Medalya
 settings.medals.scale Medal Scale
 settings.medals.xOff Medal X Offset
 settings.medals.yOff Medal Y Offset
@@ -301,11 +301,11 @@ settings.gameprivacy.streamer Mode ng Streamer
 settings.gameprivacy.anon Anonymous Mode
 settings.gameprivacy.hideGameTitle Itago ang Pamagat ng Laro
 settings.gameprivacy.showRegion Show Region Info
-settings.gameprivacy.verified Ipakita ang Verification Badge
-settings.gameprivacy.premium Ipakita ang Premium Badge
-settings.gameprivacy.partner Ipakita ang Partnered Badge
-settings.gameprivacy.rank Ipakita ang Ranked Badge
-settings.gameprivacy.custom Show Custom Badge
+settings.gameprivacy.verified Ipakita - Verification Badge
+settings.gameprivacy.premium Ipakita - Premium Badge
+settings.gameprivacy.partner Ipakita - Partnered Badge
+settings.gameprivacy.rank Ipakita - Ranked Badge
+settings.gameprivacy.custom Ipakita - Custom Badge
 settings.gameplay.header Gameplay
 settings.gameplay.gpSetts Settings sa Gameplay
 settings.gameplay.sensitivityX X Sensitivity
@@ -459,8 +459,8 @@ windows.servers.hide Itago
 windows.servers.priority Prayoridad ng Rehiyon
 windows.servers.online {0} Sa laro
 windows.servers.social {0} online sa Komunidad
-windows.servers.editor {0} in Editor
-windows.loadout.header Baguhin ang Loadout
+windows.servers.editor {0} Sa Editor
+windows.loadout.header Ayusin ang Loadout
 windows.loadout.class Mga Klase
 windows.loadout.primary Pangunahing Armas
 windows.loadout.primary.attach Mga Attachment
@@ -480,11 +480,11 @@ windows.loadout.color.chat Kulay ng Pangalan sa Chat
 windows.loadout.color.hair Kulay ng Buhok
 windows.loadout.dye Kulay ng katawan
 windows.loadout.pet Alaga
-windows.loadout.wrist Wrist
-windows.loadout.stat Killcard Stat
+windows.loadout.wrist Pulsuhan
+windows.loadout.stat Stat sa Killcard
 windows.loadout.flag Bandilang Pambansa
 windows.loadout.badge Custom Badge
-windows.mods.drop ihulog ang file ng mod dito o mag-click
+windows.mods.drop ilagay ang file ng mod dito o mag-click
 windows.mods.paste Ipaste ang Mod URL
 windows.mods.load Mag-load ng Mod
 windows.mods.none Walang nahanap na Mod
@@ -496,18 +496,18 @@ windows.mods.publish I-akda ang Mod
 windows.mods.viewer Tignan at Suriin ang Mod
 windows.account.header Account
 windows.account.recover Upang mabawi ang mga account/s, I-contact ang <a>recovery@yendis.ch</a>
-windows.class.header Pumili ng Klase
+windows.class.header Pumili ng klase
 windows.controls.header Baguhin ang Mga Kontrol
 windows.controls.forward Pasulong
 windows.controls.backward Paatras
 windows.controls.left Kaliwa
 windows.controls.right Kanan
 windows.controls.reload I-reload
-windows.controls.aim1 Mag-aim (puntirya)
+windows.controls.aim1 Aim (puntirya)
 windows.controls.shoot1 Bumaril
 windows.controls.inspect Suriin
 windows.controls.spray Mag-spray
-windows.controls.sprayWheel Spray Wheel (Hold)
+windows.controls.sprayWheel Pamili ng Spray (Hold)
 windows.controls.jump Tumalon
 windows.controls.crouch Yumuko
 windows.controls.prim Pangunahing Armas
@@ -518,9 +518,9 @@ windows.controls.chat Pag-Uusap
 windows.controls.voice Boses
 windows.controls.list Listahan ng mga manlalaro
 windows.controls.board Leaderboard
-windows.controls.interact Makipag-ugnay
-windows.controls.interactSec Pangalawang Pakikipag-ugnay
-windows.controls.confirm Kumpirmahin ang Pakikipag-ugnay
+windows.controls.interact Interaksyon
+windows.controls.interactSec Pangalawang Interaksyon
+windows.controls.confirm Kumpirmahin ang Interaksyon
 windows.controls.drop Patak
 windows.controls.wepVis I-toggle ang Visibility ng Armas
 windows.controls.kickVoteY Tanggalin mula sa laro [Oo]
@@ -531,23 +531,23 @@ windows.controls.specFree I-toggle ang Free Cam
 windows.controls.specObj I-toggle ang Objective Cam
 windows.controls.specFirst I-toggle ang First Person
 windows.controls.specNames I-toggle ang mga pangalan
-windows.controls.specFocus I-toggle and pokus sa isang manlalaro
+windows.controls.specFocus I-toggle ang pokus sa isang manlalaro
 windows.controls.hidePlayers Itago ang mga manlalaro
-windows.controls.streak0 Streak 1
-windows.controls.streak1 Streak 2
-windows.controls.streak2 Streak 3
-windows.controls.streak3 Streak 4
-windows.controls.streak4 Streak 5
-windows.controls.taunt0 Taunt (Psst)
-windows.controls.taunt1 Taunt (Whistle)
-windows.controls.taunt2 Taunt (Fart)
-windows.controls.taunt3 Taunt (Meme)
-windows.controls.taunt4 Taunt (WTF is This?)
-windows.controls.taunt5 Taunt (Right Now!)
+windows.controls.streak0 Unang Streak
+windows.controls.streak1 Pangalawang Streak
+windows.controls.streak2 Pangatlong Streak
+windows.controls.streak3 Pangapat na Streak
+windows.controls.streak4 Panlimang Streak
+windows.controls.taunt0 Panukso (Psst)
+windows.controls.taunt1 Panukso (Sipol)
+windows.controls.taunt2 Panukso (Utot)
+windows.controls.taunt3 Panukso (Meme)
+windows.controls.taunt4 Panukso (WTF ano 'to?)
+windows.controls.taunt5 Panukso (Ngayon na!!)
 windows.controls.prop Piliin ang Prop (Hold M1)
-windows.controls.propRand Select Random Prop
-windows.controls.propRot Toggle Rotation
-windows.controls.propRotR Reset Rotation
+windows.controls.propRand Piliin ang kahit anong prop
+windows.controls.propRot I-toggle ang rotasyon
+windows.controls.propRotR I-reset rotasyon
 windows.controls.premium0 Naka noclip
 windows.controls.premium1 Naka godmode
 windows.controls.premium2 Patayin
@@ -611,7 +611,7 @@ windows.store.amount {0} KR sa account
 windows.store.login upang bumili at mag-unlock ng mga item mula sa tindahan!
 windows.store.purchasing Binibili ...
 windows.store.unboxed {0} ay naka-unbox ng {1} 
-windows.store.found {0}{1} found
+windows.store.found {0}{1} nahanap
 windows.trade.header Kalakalan
 windows.scope.header Pumili ng scope
 windows.premium.header Premium
@@ -635,7 +635,7 @@ windows.mods.community.new Mga Bagong Mod
 windows.mods.community.hot Sikat!
 windows.mods.community.name Pangalan ng Mod
 windows.mods.community.none Walang nahanap na Mod
-windows.publish.mod.header I-akda ang Mod
+windows.publish.mod.header Akda ang Mod
 windows.publish.mod.thumbnail No Thumbnail
 windows.publish.mod.name Pangalan ng Mod
 windows.publish.mod.paste URL ng Mod
@@ -670,11 +670,11 @@ mod.error Error sa mod!
 mod.loading Naglo-load ng mod ...
 mod.invalid Imbalidong mod file!
 matchmaker.full PUNO
-matchmaker.GameFull Game is full.
-matchmaker.NoServersMatchQuery GAME UPDATING
-matchmaker.InvalidGameId Game not found.
-matchmaker.NoAvailableServers Servers are at Max Capacity
-matchmaker.GameIssue Unknown Join Issue
+matchmaker.GameFull Puno ang laro.
+matchmaker.NoServersMatchQuery NAG-UUPDATE ANG LARO
+matchmaker.InvalidGameId Hindi nahanap ang laro.
+matchmaker.NoAvailableServers Puno ang mga server
+matchmaker.GameIssue Hindi matukoy ang isyu
 adblocker Tanggalin ang iyong ad-blocker upang makatanggap ng mga libreng KR.
 ad-failed Hindi Nag-load ang Ad. Subukang muli.
 streamers.views {0} ang mga Nanonood
@@ -773,7 +773,7 @@ social.market.listed nakalista {0} nakaraan
 social.market.list Listahan ng Item
 social.market.unlist Tanggalin sa lista
 social.market.unlisting  Pagtatanggal.....
-social.market.posting Posting Item...
+social.market.posting Pagpaskil ng Kagamitan...
 social.market.req Antas-{0} kinakailangan
 social.market.cant Hindi Kayang bumili!
 social.market.purchase Bumili
@@ -785,11 +785,11 @@ social.market.waist Kagamitan sa Baywang
 social.market.face Mga Mukha
 social.market.shoe Mga Sapatos 
 social.market.pet Mga Alaga
-social.market.wrist Wrist Item
+social.market.wrist Mga Relo o Alahas
 social.market.melee Mga Patalim
 social.market.spray Mga Sprays
 social.market.dye Kulay ng Katawan
-social.market.collectible Collectible Item
+social.market.collectible Mga Kolektible
 social.market.none Hindi matagpuan ang kagamitan
 social.market.login Maglogin ka muna.
 social.market.grace handa na sa {0}
@@ -836,7 +836,7 @@ stats.headshots Mga headshot
 stats.wallbangs Mga wallbang
 stats.crouches Crouches
 stats.sprays Nilagay na spray
-stats.kpd Helpful Reports
+stats.kpd Makabuluhang Report sa KPD
 windows.host.default.settings Ang pagpapagana ng Default na Mga Setting ay nagbibigay-daan para sa pagtatago ng Player Progress at Highscores
 windows.host.default.commands * Ang Mga Command ng Host ay Hindi Pinapagana sa mode na ito: / noclip / god / smite atbp
 windows.host.rewards Pinipilit ng pagpapagana ng KR Rewards ang Server na gumamit ng Default na Mga Setting
@@ -858,9 +858,9 @@ windows.playerlist.punish Sigurado ka bang nais mong parusahin ang manlalarong s
 item.view.open Buksan ang Model Viewer
 item.view.more Iba pang Impormasyon
 item.sell.cant Hindi mabenta ang item na ito.
-item.sell.cant.krunker Item cant be sold on krunker.
+item.sell.cant.krunker Hindi mabenta ang kagamitan sa Krunker.
 item.sell.quick Sigurado ka bang ibebenta mo ito agad {0}?
-item.sell.destroy Are you sure you want to Destroy {0}?
+item.sell.destroy Sigurado ka bang nais mo itong sirain {0}?
 social.profile.stats Kabuoang statistika
 social.profile.class Statistika ng mga Klase
 social.profile.sales Mga Binebenta
@@ -888,27 +888,27 @@ social.trades.message Payagan ang mga Trade Message at Pag-alok sa Settings
 social.trades.warning Wala kang makukuhang kagamitan sa Pag-alok na ito!
 social.trades.accept Nais mo bang tanggapin ang Pag-alok na ito?
 stats.airdrops Pakete ng KR
-stats.airdrops.stolen Airdrops Stolen
+stats.airdrops.stolen Ninakaw (airdrops)
 settings.quality.flapAnim Animasyon ng Sniper flap
-chall.name.hs Get {0} headshots {1}
-chall.name.ns Get {0} no-scopes {1}
+chall.name.hs Pumatay ng {0} beses na tumama sa ulo {1}
+chall.name.ns Pumatay ng {0} beses na walang scope {1}
 chall.name.ls Get {0} legshots {1}
-chall.name.tmk Get {0} throwing knife kills {1}
-chall.name.fb Get {0} first bloods {1}
-chall.name.mk Get {0} melee kills {1}
-chall.name.fk Get {0} fist kills {1}
-chall.name.qs Get {0} quickscopes {1}
-chall.name.wb Get {0} wallbangs {1}
-chall.name.airk Get {0} mid-air kills {1}
-chall.name.lns Get {0} longshots {1}
-chall.name.tk Get {0} turbo kills {1}
-chall.name.drk Get {0} drift kills {1}
-chall.name.kstk Get a {0} killstreak {1}
-chall.name.w Win {0} matches
-chall.name.d Die {0} times
-chall.name.score Get {0} score
-chall.name.dmg Deal {0} damage {1}
-chall.name.bzk Get {0} buzz kills {1}
-chall.name.cc Get {0} close-calls {1}
-chall.name.rk Deal {0} revenge kills {1}
+chall.name.tmk Pumatay ng {0} beses pagbato ng talim {1}
+chall.name.fb Magkaroon ng {0} na unang pagpatay {1}
+chall.name.mk Pumatay ng {0} gamit ang patalim {1}
+chall.name.fk Gawin ang {0} na pagbugbog {1}
+chall.name.qs Gawin ang {0} na mabilis-scope {1}
+chall.name.wb Gawin ang {0} na pagpapatay sa pader {1}
+chall.name.airk Gawin ang {0} pagpatay sa ere {1}
+chall.name.lns Gawin ang {0} na tama sa paa {1}
+chall.name.tk Gawin ang {0} mapwersang pagpatay {1}
+chall.name.drk Gawin ang {0} madulas na pagpatay {1}
+chall.name.kstk Makamit ang {0} na killstreak {1}
+chall.name.w Manalo ng {0} laro
+chall.name.d Mamatay ng {0} beses
+chall.name.score Makamit ang {0} puntos
+chall.name.dmg Tumira ng {0} na damage {1}
+chall.name.bzk Gawin ang {0} na panirang pagpatay {1}
+chall.name.cc Ikaw ay {0} beses muntikang mamatay {1}
+chall.name.rk Magkaroon ng {0} na higanti {1}
 `;
