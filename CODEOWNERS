@@ -2,10 +2,13 @@
 # More on CODEOWNERS files: https://help.github.com/en/github/creating-cloning-and-archiving-repositories/about-code-owners
 
 # German
-#de.js
+de.js @bodeneinheit @AndoKPD
+
+# Dutch
+nl.js @nickauthentic @gluzly @AdoreMe-GitHub
 
 # Spanish
-es.js @xlNightmare @MGVoltJesk
+es.js @xlNightmare
 
 # Finnish
 fi.js @DefinitelyJypa
@@ -14,10 +17,10 @@ fi.js @DefinitelyJypa
 fr.js @enygmate
 
 # Japanese
-jp.js @Hiro527 @KnockerOut
+jp.js @Hiro527 @hassich
 
 # Korean
-kr.js @dojinshi @YuniQ152 @apinklover @Baw-Appie
+kr.js @dojinshi @YuniQ152 @apinklover @Baw-Appie @GoonMandu
 
 # Portuguese
 pr.js @xlNightmare
@@ -34,3 +37,6 @@ pl.js @xhg4
 
 # Turkish
 tr.js @SecretMember @KenTechYT @hon0urdy
+
+# Tagalog
+tg.js @callmedandann @Navsy17

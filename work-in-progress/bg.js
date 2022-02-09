@@ -13,7 +13,7 @@ menu.btn.host Хостни игра
 menu.btn.browser Сървъри
 generic.wait Моля почакайте...
 generic.loading ЗАРЕЖДАНЕ...
-generic.none None
+generic.none Нито един
 generic.connecting СВЪРЗВАНЕ...
 generic.select Избери
 generic.delete Изтрий
@@ -49,7 +49,7 @@ generic.games.lost Загубени Игри
 generic.timep Играно Време
 generic.kills Убийства
 generic.deaths Умирания
-generic.kdr KDR
+generic.kdr КСУ
 generic.time Време
 generic.logout Излез от профила си
 generic.logout.sessions Изход от всички сесии
@@ -101,16 +101,16 @@ settings.experimental.shaderRendering Рендиране на инстацият
 settings.experimental.mouseAccel Mouse Acceleration
 settings.experimental.tbInterp TB Interpolation
 settings.client.header Клиент
-settings.client.unlimitedFrames Безкраен FPS
-settings.client.gameCap Заснемане на играта
-settings.client.experimental Експериментални функции
+settings.client.unlimitedFrames Неограничен кадрова честота
+settings.client.gameCap Запис на играта
+settings.client.experimental Експериментални предимства
 settings.client.discordRPC Discord RPC
 settings.client.resourceSwapper Разменяч на ресурси
-settings.client.clearCache Изчисти кеша
-settings.client.resetSettings Reset Настройки на клиента
+settings.client.clearCache Изчисти кеш-памет
+settings.client.resetSettings Рестартиране на настройки на клиента
 settings.client.acceleratedCanvas Ускорено платно
 settings.client.angleBackend ANGLE Graphics Backend
-settings.client.colorProfile Цветен профил
+settings.client.colorProfile Цвят на профила
 settings.client.resourcePacks Resource Packs
 settings.dev.header Девелопър
 settings.dev.forceUpdate Принудително актуализиране на скинове
@@ -148,8 +148,8 @@ settings.quality.yourTrails Вашите стъпки
 settings.quality.mflash Показване на огъня при стреляне
 settings.quality.flap Sniper Flap
 settings.quality.lowSpec Ниски спецификации
-settings.quality.ambient Ambient Shading
-settings.quality.ambientOld Old Shading (когато е възможно)
+settings.quality.ambient Околни сянки
+settings.quality.ambientOld Стари сенки (когато е възможно)
 settings.quality.textureAnim Анимация на текстурите
 settings.quality.objectAnim Анимация на обектите
 settings.quality.screenShake Клатене на екрана
@@ -224,14 +224,14 @@ settings.medals.sound Play Medal Sounds
 settings.medals.scale Medal Scale
 settings.medals.xOff Medal X Offset
 settings.medals.yOff Medal Y Offset
-settings.crosshair.header Мерник
+settings.crosshair.header Прицел
 settings.crosshair.type Тип
 settings.crosshair.type.1 Динамичен
-settings.crosshair.type.2 По избор
+settings.crosshair.type.2 Персонализиран
 settings.crosshair.type.3 Наслоен
 settings.crosshair.type.4 Изображение
-settings.crosshair.type.5 Точен
-settings.crosshair.style Сил
+settings.crosshair.type.5 Точност
+settings.crosshair.style Стил
 settings.crosshair.style.0 Кръст
 settings.crosshair.style.1 Празен кръг
 settings.crosshair.style.2 Запълнен кръг
@@ -291,15 +291,15 @@ settings.hitmarker.custom Изображение на хитмаркера
 settings.hitmarker.custom.paste URL изображение на хитмаркера
 settings.onKillS.style.0 По подразбиране
 settings.onKillS.style.1 Намалете резолюцията
-settings.onKillS.style.2 Намалете FOV
-settings.onKillS.style.3 Увеличете FOV
+settings.onKillS.style.2 Намалете Поле зрениe
+settings.onKillS.style.3 Увеличете Поле зрениe
 settings.serverb.header Браузър на сървъра
 settings.serverb.oldBrowser Браузър за поверителност
 settings.serverb.defaultRegionOnly Регион по подразбиране
 settings.gameprivacy.header Геймплей поверителност
-settings.gameprivacy.streamer Режим за стриймъри
+settings.gameprivacy.streamer Стриймърски режим
 settings.gameprivacy.anon Анонимен режим
-settings.gameprivacy.hideGameTitle Скрий заглавието а играта
+settings.gameprivacy.hideGameTitle Скрий заглавието на играта
 settings.gameprivacy.showRegion Show Region Info
 settings.gameprivacy.verified Показване на потвъдена значка
 settings.gameprivacy.premium Показване на премиум значка
@@ -312,7 +312,7 @@ settings.gameplay.sensitivityX Чуствителност Х
 settings.gameplay.sensitivityY Чуствителност Y
 settings.gameplay.aimsensX Прицелваща чувствителност Х
 settings.gameplay.aimsensY Прицелваща чувствителност Y
-settings.gameplay.challenge Активирай предизвикателен режим
+settings.gameplay.challenge Предизвикателен режим
 settings.gameplay.invert Размени Y-Axis
 settings.gameplay.onkillS На убийство
 settings.gameplay.scrollDir Дирекция на скролването
@@ -328,7 +328,7 @@ settings.controller.triggerThres Trigger Threshold
 settings.controller.vibration Вибрация
 settings.controller.gradSpeed Gradual Speed
 settings.controller.invert Invert Y-Axis
-settings.mobile.header Мобилен
+settings.mobile.header Мобилен телефон
 settings.mobile.sensitivityX X Sensitivity
 settings.mobile.sensitivityY Y Sensitivity
 settings.mobile.aimsensX Aim X Sensitivity
@@ -358,10 +358,10 @@ settings.viewmodel.leaning Weapon Leaning
 settings.viewmodel.show.primary Покажи Главно оръжие
 settings.viewmodel.show.secondary Покажи Второ оръжие
 settings.viewmodel.roundArms Закръглени ръце
-settings.viewmodel.show.melee Покажи нож
+settings.viewmodel.show.melee Покажи острието
 settings.viewmodel.show.ads Скриване на оръжие повреме на прицелване
 settings.viewmodel.toggleAim Toggle Aim
-settings.viewmodel.show.hands Покажи ръце
+settings.viewmodel.show.hands Покажи ръцете
 settings.viewmodel.leftHand Левичар
 settings.viewmodel.aimAnim Weapon Aim Animation
 settings.viewmodel.rot Weapon Rotation
@@ -376,8 +376,8 @@ settings.viewmodel.toggleADS Toggle Weapon ADS
 settings.editing.header Editing
 settings.editing.health.high HUD Health High
 settings.editing.health.low HUD Health Low
-settings.editing.speedLines Speed Lines
-settings.editing.spdLinesCol Speed Lines Color
+settings.editing.speedLines Линии на скоростта
+settings.editing.spdLinesCol Цвят на линиите на скоростта
 settings.editing.score.color Popup Score Color
 settings.editing.score.show Show Popup Score
 settings.editing.score.scale Popup Score Scale
@@ -409,11 +409,11 @@ settings.editing.depth Depth Map
 settings.editing.green Зелен екран
 settings.editing.trailcol Bullet Trail Color
 settings.editing.ropecol Grapple Rope Color
-settings.editing.tracercol Bullet Tracers
-settings.editing.tracer Bullet Tracers
+settings.editing.tracercol Маркери на куршумите
+settings.editing.tracer Маркери на куршумите
 settings.editing.tracer.offset Tracer Offset
 settings.shaders.header Shader Inputs
-settings.mods.header Customization
+settings.mods.header Персонализиране
 settings.mods.load Зареди модове
 settings.mods.logo Разреши промени по логото
 settings.mods.auto Автоматичо зареждане на модове
@@ -451,7 +451,7 @@ settings.social.region Статистики на региона
 settings.social.bg Background Image
 settings.social.bg.paste Background Image URL
 windows.settings.header Настройки на играта
-windows.mail.header Krunker Mail
+windows.mail.header Пощата на крънкер
 windows.servers.header Сървъри
 windows.servers.none Не бяха намерени игри за присъединяване
 windows.servers.host + Хостни игра
@@ -549,7 +549,7 @@ windows.controls.propRand Select Random Prop
 windows.controls.propRot Toggle Rotation
 windows.controls.propRotR Reset Rotation
 windows.controls.premium0 Noclip
-windows.controls.premium1 Godmode
+windows.controls.premium1 Режим бог
 windows.controls.premium2 Убий
 windows.controls.premium3 Порази
 windows.controls.reset Рестартиране
@@ -592,47 +592,47 @@ windows.clans.create Създай клан
 windows.clans.name Име на клан
 windows.clans.view Виж кланове
 windows.clans.join Влез в клан
-windows.clans.login to create and join a clan!
-windows.store.header Store
-windows.store.spin {0} Spin
+windows.clans.login за да създадете и да се присъедините към един клан!
+windows.store.header Магазин
+windows.store.spin {0} Въртете
 windows.store.agree By purchasing you agree to the {0}Terms
-windows.store.purchase Purchase KR
+windows.store.purchase Купи KR
 windows.store.voucher Redeem Voucher
 windows.store.voucherinfo Get Vouchers from certain Streamers & Events
-windows.store.market Marketplace
-windows.store.market2 Krunker Market
+windows.store.market Пазар
+windows.store.market2 Пазарът на крънкер
 windows.store.premium Purchase Premium
 windows.store.premium2 Krunker Premium
 windows.store.buyP Choose a Display name & more with
 windows.store.buy Buy and Sell Items on the
 windows.store.wheels Prize Wheels
 windows.store.unlock Unlock new weapon skins and items
-windows.store.amount {0} KR in account
+windows.store.amount {0} KR в сметката
 windows.store.login to buy and unlock items from the store!
-windows.store.purchasing Purchasing...
+windows.store.purchasing Купуване...
 windows.store.unboxed {0}{1} unboxed
 windows.store.found {0}{1} found
-windows.trade.header Trading
+windows.trade.header Търговия
 windows.scope.header Select Scope
 windows.premium.header Premium
 windows.skin.header Select Skin
-windows.hat.header Select Hat
-windows.back.header Select Back
-windows.waist.header Select Waist
-windows.face.header Select Face
-windows.melee.header Select Melee
+windows.hat.header Изберете шапка
+windows.back.header Изберете тяло
+windows.waist.header Изберете торс
+windows.face.header Изберете лице
+windows.melee.header Изберете острие
 windows.attach.header Select Attachment
 windows.reticle.header Select Reticle
-windows.reticle.unlocked Unlocked at lvl {0}
-windows.reticle.req Req lvl {0}
+windows.reticle.unlocked Отключено на ниво {0}
+windows.reticle.req Поискано ниво {0}
 windows.dye.header Select Dye
 windows.dye.default Default Dye
 windows.dye.spin Dye
 windows.changelog.header Changelog
 windows.mods.community.header Community Mods
-windows.mods.community.fav Your Favorites
+windows.mods.community.fav Вашите любими
 windows.mods.community.new New Mods
-windows.mods.community.hot Hot
+windows.mods.community.hot Готини
 windows.mods.community.name Mod Name
 windows.mods.community.none No Mods found
 windows.publish.mod.header Publish Mod
@@ -650,7 +650,7 @@ windows.advertise.header Advertise
 windows.support.header Support
 windows.players.header Player List
 windows.players.none No players currently...
-windows.join.header Join
+windows.join.header Присъединяване
 windows.join.code Enter Game URL/Code
 windows.client.header Client
 windows.client.windows Windows Installer
@@ -659,15 +659,18 @@ windows.client.linux Linux Installer
 windows.ranked.header Ranked
 windows.ranked.login to play in ranked games!
 windows.ranked.level You must be at least <span color="black">level {0}</span> to play in ranked games! Right now you are at <span color="black">level {1}</span>.
-windows.chall.header Challenges
+windows.ranked.mode.r1v1 Соло
+windows.ranked.mode.r2v2 Duo
+windows.ranked.mode.r4v4 Quad
+windows.chall.header Предизвикателства
 windows.chall.login to complete challenges!
 thumbnail.upload.limit Failed. {0}kb Thumbnail Limit
 image.upload.limit Failed. {0}kb Image Limit
 thumbnail.upload.error Thumbnail Error
 mod.extracting extracting {0}/{1}
-mod.disabled mods disabled
-mod.error mod error!
-mod.loading loading mod...
+mod.disabled Модовете са деактивирани
+mod.error Мода има грешка!
+mod.loading модът се зареждва...
 mod.invalid невалиден мод файл!
 matchmaker.full ПЪЛНА
 matchmaker.GameFull Game is full.
@@ -683,16 +686,16 @@ error.extentions If you have any extensions, disable them
 error.seek Try seeking a new game by clicking
 custom.map.upload.limit Failed. 500k Character Game Data Limit
 custom.map.missing Изберете поне една игра или карта
-custom.mode.missing Select at least one Mode
+custom.mode.missing Изберете поне един тип от игра
 custom.class.missing Изберете поне един клас
-server.config.maxPlayers Players
-server.config.minPlayers Min Players
-server.config.lives Lives
-server.config.gameTime Minutes
-server.config.gravMlt Gravity
+server.config.maxPlayers Играчи
+server.config.minPlayers Минимален брой играчи
+server.config.lives Животи
+server.config.gameTime Минути
+server.config.gravMlt Гравитаця
 server.config.tickRI Висок тикрейт
 server.config.maxPS Сървър за 40 играчи
-server.config.promServ Promote Server
+server.config.promServ Промотя на сървъра промотя
 server.config.jumpMlt Jump Force
 server.config.airStrf Air Strafing
 server.config.deltaMlt Time Scale
@@ -704,11 +707,11 @@ server.config.fixMov Fixed Movement
 server.config.slidSpd Скорост на плъзгане
 server.config.healthMlt Health Multiplier
 server.config.impulseMlt Импулс на оръжие
-server.config.nameTeam1 Team 1 Name
-server.config.nameTeam2 Team 2 Name
-server.config.nameTeam3 Team 3 Name
-server.config.nameTeam4 Team 4 Name
-server.config.nameTeam5 Team 5 Name
+server.config.nameTeam1 Име на отбор 1
+server.config.nameTeam2 Име на отбор 2
+server.config.nameTeam3 Име на отбор 3
+server.config.nameTeam4 Име на отбор 4
+server.config.nameTeam5 Име на отбор 5
 server.config.t1Dmg Team 1 Damage
 server.config.t2Dmg Team 2 Damage
 server.config.t3Dmg Team 3 Damage
@@ -716,8 +719,8 @@ server.config.t4Dmg Team 4 Damage
 server.config.t5Dmg Team 5 Damage
 server.config.selTeam Избиране на отбор
 server.config.allowSpect Наблюдение
-server.config.killRewards Kill Rewards
-server.config.headshotOnly Headshots Only
+server.config.killRewards Награди на убийство
+server.config.headshotOnly Изстрели в главата само
 server.config.noSecondary Disable Secondaries
 server.config.noStreaks Disable Streaks
 server.config.canSlide Плъзгане
@@ -726,19 +729,19 @@ server.config.autoJump Автоматичен скок
 server.config.bDrop Bullet Drop
 server.config.thirdPerson 3rd Person
 server.config.requireCaptcha Require Captcha
-server.config.nameTags Hide Nametags
+server.config.nameTags Скриване на имената
 server.config.kCams Kill Cams
 server.config.aAnon Allow Anonymous
-server.config.noReload No Reload
-server.config.private Private
-server.config.krRewards KR Rewards
+server.config.noReload Без презареждане
+server.config.private Частен
+server.config.krRewards KR награди
 server.config.forceDefault Force Default Settings
-server.config.warmupTime Warmup Time
-server.config.gamRounds Rounds
+server.config.warmupTime Време за загряване
+server.config.gamRounds Кръгове
 server.config.objtvTime Objective Time
 server.config.forceSpawn Auto Respawn Time
 server.config.intermTmr Intermission (s)
-server.config.scoreLimit Score Limit
+server.config.scoreLimit Лимит на точките
 server.config.keepTScore Keep Team Score
 server.config.forceC Force Mode Classes
 server.config.logTim Log Time (Race, Parkour)
@@ -748,37 +751,37 @@ server.config.disableB Disable Borders
 server.config.throwMel Throwable Melees
 server.config.noCosm Disable Cosmetics
 server.config.tstCmp Test Mode
-server.config.limitClasses Limit Classes
-server.config.tmSize Team Size
+server.config.limitClasses Ограничени класове
+server.config.tmSize Размер на екипа
 server.config.fallDmg Fall Damage
 server.config.fallDmgThr Fall Damage Thresh
 server.config.noDraws No Draws
-server.config.bstOfR Best of
+server.config.bstOfR Най-добър от
 server.config.chrgWeps Chargable Weapons
-social.login Login/Register
+social.login Логин/Регистрирайте се
 social.login.failed Login Failed
-social.login.buy Login to Buy
-social.login.sell Login to Sell
-social.login.gift Login to Gift
-social.login.proccessing Logging in...
-social.since Since
+social.login.buy Логин, за да купите
+social.login.sell Логин, за да продавате
+social.login.gift Логин, за да подарите
+social.login.proccessing Влизане...
+social.since Откогато
 social.user.maps User Games
 social.user.mods User Mods
 social.maps.none No Games found...
 social.mods.none No Mods found...
-social.market.price.low Lowest Price
+social.market.price.low Най-ниската цена
 social.market.price.list List Price in
 social.market.searching Searching
 social.market.listed listed {0} ago
 social.market.list List Item
 social.market.unlist Отписване
 social.market.unlisting Премахване на елемента от пазарът ...
-social.market.posting Posting Item...
+social.market.posting Публикуване на вещать...
 social.market.req lvl {0} required
-social.market.cant Can't Afford
-social.market.purchase Purchase
+social.market.cant Не може да си го позволи
+social.market.purchase Купи
 social.market.fee No List Fee
-social.market.failed Failed. Try Again
+social.market.failed Се провали. Опитай пак
 social.market.head Head Item
 social.market.back Back Item
 social.market.waist Waist Item
@@ -792,35 +795,35 @@ social.market.dye Dye Item
 social.market.collectible Collectible Item
 social.market.none Няма намерени елементи
 social.market.login Трябва да сте свързани във вашият акаунт
-social.market.grace ready in {0}
+social.market.grace отов във {0}
 social.market.sort Filter/Sort
 social.market.filter Търсене
 social.market.sort2 Да сортира
-social.market.price.high Highest Price
+social.market.price.high Най-висока цена
 social.trading.submitting Submitting Offer...
-social.market.gift.amount Gift Amount in
-social.market.fee.gift No Fee
-social.market.gift Gift KR
-social.market.gift.msg Leave a message
-respawn.auto Auto Respawning in {0}
+social.market.gift.amount Сума за подарък в
+social.market.fee.gift Без такса
+social.market.gift Подари KR
+social.market.gift.msg Остави съобщение
+respawn.auto Автоматично възстановяване в {0}
 custom.host.ranked Can't host match while in ranked.
-funds.insufficient Insufficient Funds
-funds.out It appears you have run out of Krunkies.
-custom.passcode.long Password too long
+funds.insufficient Недостатъчни средства
+funds.out Изглежда, че сте нямате повече Krunkies.
+custom.passcode.long Паролата е твърде дълга
 custom.passcode.input Enter Server Password to join
-custom.tryagain Please try again.
-purchase.kr.success Added {0} KR to your account
-limited.purchase.ask Are you sure you want to purchase [{0}] for {1} KR?
-limited.purchase.success Added {0} to your inventory
-pretend.exit press [{0}] again to exit
-settings.loaded Settings Loaded
-settings.loaded.none No settings found
+custom.tryagain Моля, опитайте отново.
+purchase.kr.success Добавени са {0} KR към вашия акаунт
+limited.purchase.ask Сте ли сигорни че искате да закупите [{0}] за {1} KR?
+limited.purchase.success Добавен {0} към инвентара ви
+pretend.exit Натиснете [{0}] отново, за да излезете
+settings.loaded Настройките са заредени
+settings.loaded.none Няма намерени настройки
 account.login.required Must be logged in
 account.banned.hack This account has been banned for Hacking.
 account.banned.appeal If you want to appeal your ban, contact:
 account.delete You may request to delete your account, if the request is not cancelled within 14 days the account and all associated data will be permanently removed.
-account.delete.request Are you sure you want to request an account deletion?
-account.delete.cancel Are you sure you want to cancel account deletion?
+account.delete.request Сте ли сигорни че искате да поискате изтриване на акаунт?
+account.delete.cancel Сте ли сигорни че искате да отмените изтриването на акаунта?
 spin.free.available БЕЗПЛАТНИ KR РАЗПОЛАГАЕМ!
 spin.free.claim Това завъртане е достъпно само веднъж на всеки 1 час
 spin.free.disable These Popups can be disabled in General Settings
@@ -829,14 +832,14 @@ mod.reset.1 Обектите на играта не се нулират
 windows.profile.picture Промяна на картината
 stats.assists Асистенции
 stats.nukes Nukes
-stats.melee Нож
+stats.melee Убийство с острие
 stats.fistkills Beatdowns
-stats.thrownkills Меле
-stats.headshots Headshots
-stats.wallbangs Wallbangs
-stats.crouches Crouches
+stats.thrownkills Убийство с хвърляне на острие
+stats.headshots Изстрели в главата
+stats.wallbangs Удар през стена
+stats.crouches Свиване
 stats.sprays Поставени спрейове
-stats.kpd Helpful Reports
+stats.kpd Полезни доклади
 windows.host.default.settings Enabling Default Settings allows for storing Player Progress and Highscores
 windows.host.default.commands *Host Commands are Disabled in this mode: /noclip /god /smite etc
 windows.host.rewards Enabling KR Rewards forces the Server to use Default Settings & allows players to earn KR from the map funds:
@@ -849,66 +852,66 @@ twitch.unlink Сигурни ли сте че искате да прекрати
 windows.clan.leave Сигурни ли сте че искате да напуснете клана?
 windows.clan.delete Сигурни ли сте че  да изтриете клана?
 windows.clan.kick Сигурни ли сте че искате да изгоните {0} от клана?
-windows.store.premium.purchase Сигурни ли сте че искате да купите {0} дни Premium?
-windows.store.premium.gift Are you sure you want to Gift '{0}' {1} days of Premium?
+windows.store.premium.purchase Сигурни ли сте че искате да купите {0} дни Премиум?
+windows.store.premium.gift Сигурни ли сте, че искате да подарите '{0}' {1} дни от Премиум?
 windows.playerlist.ban Сигурни ли сте че искате да забраните {0} от тази игра?
 windows.playerlist.flag Сигурни ли сте че искате да сигнализирате {0}?
 windows.playerlist.unflag Сигурни ли сте че искате да премахнете вашият сигнал от {0}?
 windows.playerlist.punish Сигурни ли сте че искате да предприемете действия срещу {0}?
 item.view.open Open Model Viewer
-item.view.more More Information
-item.sell.cant Item cant be sold.
-item.sell.cant.krunker Item cant be sold on krunker.
-item.sell.quick Are you sure you want to Quick Sell {0}?
-item.sell.destroy Are you sure you want to Destroy {0}?
-social.profile.stats Overall Stats
-social.profile.class Class Stats
-social.profile.sales Sales
-social.profile.sales.market Market Sales
+item.view.more Повече информация
+item.sell.cant Вещът не може да бъде продаден.
+item.sell.cant.krunker Вещът не може да бъде продаден във krunker.
+item.sell.quick Сигурни ли сте, че искате да продавате бързо {0}?
+item.sell.destroy Сигурни ли сте, че искате да унищожите {0}?
+social.profile.stats Общи статистики
+social.profile.class Статистики на класа
+social.profile.sales Продажби
+social.profile.sales.market Пазарни продажби
 social.profile.skins Skins [{0}]
 social.profile.skins.none No published Skins from this user
-social.profile.games Games [{0}]
+social.profile.games Игри [{0}]
 social.profile.games.none Никакви игри публикувани от този потребител
-social.profile.assets Assets [{0}]
+social.profile.assets Вещи [{0}]
 social.profile.assets.none No published Assets from this user
 social.profile.mods Mods [{0}]
 social.profile.mods.none No published Mods from this user
 social.search Резултати от търсенето
 social.market.stats.rare Най-рядките предмети
-social.market.stats.circulation In Circulation
-social.market.stats.units units Worldwide
-social.trades.in Incoming
-social.trades.in.head Incoming Offers ({0})
-social.trades.out Outgoing
-social.trades.out.head Outgoing Offers ({0})
-social.trades.history History
-social.trades.history.head Trade History ({0})
+social.market.stats.circulation В циркулация
+social.market.stats.units Единици в цял свят
+social.trades.in Входящ
+social.trades.in.head Входящи оферти ({0})
+social.trades.out Изходящ
+social.trades.out.head Изходящи оферти ({0})
+social.trades.history История
+social.trades.history.head Търговска история ({0})
 social.trades.decline Откажи всички
 social.trades.message ВКЛЮЧВАНЕ НА ТРЕЙДИНГ СЪОБЩЕНИЯТА В НАСТРОЙКИТЕ
 social.trades.warning Вие не получавате никакви предмети от този трейд
 social.trades.accept Сигурен ли сте че искате да приемете тази оферта?
 stats.airdrops KR-Пакет
-stats.airdrops.stolen Airdrops Stolen
+stats.airdrops.stolen Откраднати въздушни сандъци
 settings.quality.flapAnim Анимация на снайперска клапа
-chall.name.hs Get {0} headshots {1}
-chall.name.ns Get {0} no-scopes {1}
-chall.name.ls Get {0} legshots {1}
-chall.name.tmk Get {0} throwing knife kills {1}
-chall.name.fb Get {0} first bloods {1}
-chall.name.mk Get {0} melee kills {1}
-chall.name.fk Get {0} fist kills {1}
-chall.name.qs Get {0} quickscopes {1}
-chall.name.wb Get {0} wallbangs {1}
-chall.name.airk Get {0} mid-air kills {1}
-chall.name.lns Get {0} longshots {1}
-chall.name.tk Get {0} turbo kills {1}
-chall.name.drk Get {0} drift kills {1}
-chall.name.kstk Get a {0} killstreak {1}
-chall.name.w Win {0} matches
-chall.name.d Die {0} times
-chall.name.score Get {0} score
-chall.name.dmg Deal {0} damage {1}
-chall.name.bzk Get {0} buzz kills {1}
-chall.name.cc Get {0} close-calls {1}
-chall.name.rk Deal {0} revenge kills {1}
+chall.name.hs Постигни {0} изстрели в главата {1}
+chall.name.ns Постигни {0} без прицел {1}
+chall.name.ls Постигни {0} изстрели в краката {1}
+chall.name.tmk Постигни {0} убийство с хвърлянето на острие {1}
+chall.name.fb Постигни {0} първо убийство {1}
+chall.name.mk Постигни {0} убийство с острие {1}
+chall.name.fk Постигни {0} убийство с юмрук {1}
+chall.name.qs Постигни {0} бърз прицел {1}
+chall.name.wb Постигни {0} удар през стена {1}
+chall.name.airk Постигни {0} убийство във въздуха {1}
+chall.name.lns Постигни {0} далечен изстрел {1}
+chall.name.tk Постигни {0} турбо убийство {1}
+chall.name.drk Постигни {0} дрифт убийство {1}
+chall.name.kstk Постигни {0} убийствена поредица {1}
+chall.name.w Спечелете {0} мача
+chall.name.d Умри {0} пъти
+chall.name.score Постигни {0} точки
+chall.name.dmg Направи {0} щети {1}
+chall.name.bzk Постигни {0} buzz kills {1}
+chall.name.cc Постигни {0} close-calls {1}
+chall.name.rk Направи {0} убийство отмъщение {1}
 `;
