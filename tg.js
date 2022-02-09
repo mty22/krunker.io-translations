@@ -80,10 +80,10 @@ settings.reset Mag-reset
 settings.reset.confirm Sigurado ka bang mag-reset ng inyong settings?
 settings.import iangkat
 settings.export iluwas
-settings.none Walang nahanap na mga settings
-settings.backup Mga back-up settings
-settings.controls.change Palitan ang keybinds
-settings.controls.press Pindutin ang anumang key
+settings.none Walang Nahanap na Mga settings.
+settings.backup Mga Back-up Settings
+settings.controls.change Palitan ang Keybinds
+settings.controls.press Pindutin ang Anumang Key
 settings.local.header Lokalisasyon <span id="requiresRestart"><span style="color: #eb5656">*</span> nangangailangan ng restart</span>
 settings.local.region Default na Rehiyon
 settings.local.lang Wika
@@ -106,40 +106,40 @@ settings.client.gameCap Record ng Laro
 settings.client.experimental Experimental Features
 settings.client.discordRPC RPC sa Discord
 settings.client.resourceSwapper Pagpalit ng Resources
-settings.client.clearCache I-clear ang Cache
-settings.client.resetSettings I-reset ang Settings ng Kliyent
-settings.client.acceleratedCanvas Accelerated ang Canvas
-settings.client.angleBackend ANGLE Graphics ang Backend
+settings.client.clearCache I-clear Ang Cache
+settings.client.resetSettings I-reset Ang Settings ng Kliyent
+settings.client.acceleratedCanvas Accelerated Ang Canvas
+settings.client.angleBackend ANGLE Graphics Ang Backend
 settings.client.colorProfile Profile ng Kulay
 settings.client.resourcePacks Resource Packs
 settings.dev.header Sa Developer
-settings.dev.forceUpdate Sapilitang I-Update ang mga skins
-settings.dev.forceRegen Laging Regenerate ang Player
-settings.dev.extraBan Impormasyon ukol sa Ban
+settings.dev.forceUpdate Sapilitang I-Update Ang Mga skins
+settings.dev.forceRegen Laging Regenerate Ang Player
+settings.dev.extraBan Impormasyon Ukol sa Ban
 settings.chat.header Usapan o Chat
-settings.chat.chat Ipakita ang Chat Box
+settings.chat.chat Ipakita Ang Chat Box
 settings.chat.chat.all Palagi
-settings.chat.chat.focus Focus kapag binibigyang-pansin
-settings.chat.messages Ipakita ang Mga mensahe ng Player
-settings.chat.unboxings Ipakita ang Mga Unboxing
-settings.chat.chatOp Opacity ng chat
+settings.chat.chat.focus Focus Kapag Binibigyang-pansin
+settings.chat.messages Ipakita Ang Mga Mensahe ng Player
+settings.chat.unboxings Ipakita Ang Mga Unboxing
+settings.chat.chatOp Opacity ng Chat
 settings.chat.chatBGOp Chat BG Opacity
 settings.chat.chatHeight Tangkad ng Chat
-settings.chat.chatTimer Orasan ng pag-chat
+settings.chat.chatTimer Orasan ng Pag-chat
 settings.chat.chatTextOutline Chat Text Outline
-settings.chat.chatFilter Pagtakip ng kabastusan at masasamang salita
+settings.chat.chatFilter Pagtakip ng Kabastusan at Bulgar na Salita
 settings.quality.header Kalidad 
-settings.quality.updRate Limitasyon sa Frame rate
+settings.quality.updRate Limitasyon sa Frame Rate
 settings.quality.rendDst Distansya ng Pag-render
 settings.quality.res Kalinawan
 settings.quality.part Mga Tinga
-settings.quality.mapDet Mga detalye ng Mapa
-settings.quality.noTex Walang tekstura
-settings.quality.partdist Distansiya ng mga Particle
+settings.quality.mapDet Mga Detalye ng Mapa
+settings.quality.noTex Walang Tekstura
+settings.quality.partdist Distansiya ng Mga Particle
 settings.quality.renderdist Distansya ng Pag-render
 settings.quality.reflection Kalidad ng Repleksyon
-settings.quality.antiAlias Anti aliasing
-settings.quality.shadows Mga anino
+settings.quality.antiAlias Anti-aliasing
+settings.quality.shadows Mga Anino
 settings.quality.softShad Mahinhin na Anino
 settings.quality.highResShad Malinaw na Anino
 settings.quality.shadowsDynamic Mga Dynamic na Shadow 
@@ -149,7 +149,7 @@ settings.quality.mflash Pagputok ng Muzzle
 settings.quality.flap Takip ng Sniper
 settings.quality.lowSpec Mababang Spec
 settings.quality.ambient Ambient na Shading
-settings.quality.ambientOld Lumang pag-shade (kung posible)
+settings.quality.ambientOld Lumang Pag-shade (kung posible)
 settings.quality.textureAnim Animasyon ng Textura
 settings.quality.objectAnim Mga Animasyong Bagay
 settings.quality.screenShake Pag-alog ng Screen
@@ -166,41 +166,41 @@ settings.post.bloomStrength Lakas ng Pagningning
 settings.post.bloomRadius  Lawak ng Pagningning
 settings.post.ssao SSAO
 settings.post.ssaoRadius Lawak ng SSAO
-settings.interface.hitInd Ipakita ang Mga Indikator ng Hit
+settings.interface.hitInd Ipakita Ang Mga Indikator ng Hit
 settings.interface.hitColor Kulay ng Indikator ng Hit
-settings.interface.dmg Ipakita ang pinsala sa health ng manlalaro
-settings.interface.dmgCol Kulay ng pinsala sa health ng manlalaro
+settings.interface.dmg Ipakita Ang Damage sa Manlalaro
+settings.interface.dmgCol Kulay ng Damage sa Manlalaro
 settings.interface.critCol Kulay ng Kritikal
 settings.interface.header Itsura ng Interface
 settings.interface.scale  Sukat ng UI
 settings.interface.theme Game Theme
-settings.interface.ui Ipakita ang UI
+settings.interface.ui Ipakita Ang UI
 settings.interface.scoreboard Gumamit ng Lumang Scoreboard
 settings.interface.oldBrowser Gumamit ng Lumang Browser
-settings.interface.rarityanim Tigilan ang Animasyon ng Rarity
-settings.interface.showPfp Ipakita ang Mga Larawan sa Profile
-settings.interface.showTradeMsg Ipakita ang mga mensahe sa Kalakal
+settings.interface.rarityanim Tigilan Ang Animasyon ng Rarity
+settings.interface.showPfp Ipakita Ang Mga Larawan sa Profile
+settings.interface.showTradeMsg Ipakita mga Mensahe sa Pagkalakal
 settings.interface.hideNonTrade Itago ang mga kagamitang hindi pwedeng ikalakal
 settings.interface.hp Mga Dynamic na HP Bar
 settings.interface.dmgScale Lawak ng Pinsala 
-settings.interface.killf Ipakita kung sino ang pumatay sa kakampi
-settings.interface.ping Ipakita ang Ping
-settings.interface.net-stats Ipakita ang Mga Network Stats
-settings.interface.fps Ipakita ang FPS
-settings.interface.deaths Ipakita ang bilang na namatay ang Manlalaro
-settings.interface.kd Ipakita ng pag-iiba sa bilang ng pinatay at namatay
-settings.interface.kills Ipakita ang bilang ng kalabang pinatay
-settings.interface.streak Ipakita ang killstreak
-settings.interface.score Ipakita ang puntos o iskor
-settings.interface.spectators Ipakita ang bilang ng nanonood ng laro
-settings.interface.speed Ipakita ang bilis ng paggalaw
+settings.interface.killf Ipakita Ang Talaan ng Mga Namamatay
+settings.interface.ping Ipakita Ang Ping
+settings.interface.net-stats Ipakita Ang Mga Network Stats
+settings.interface.fps Ipakita Ang FPS
+settings.interface.deaths Ipakita Ang Beses Na Namatay
+settings.interface.kd Ipakita ANG Pag-iiba sa Napatay/Pinatay
+settings.interface.kills Ipakita Ang Blg. ng Kalabang Napatay
+settings.interface.streak Ipakita Ang Killstreak
+settings.interface.score Ipakita Ang Puntos o Iskor
+settings.interface.spectators Ipakita Ang Bilang ng Mga Nanonood
+settings.interface.speed Ipakita Ang Bilis ng Paggalaw
 settings.interface.speedOffX Bilis ng X Offset
 settings.interface.speedOffY Bilis ng Y Offset
 settings.interface.speedOpacity Speed Opacity
 settings.interface.speedScale Scale ng Bilis
 settings.interface.speedColor Kulay ng Bilis (Kasalukuyan)
 settings.interface.speedColorMax Kulay ng Bilis (Max)
-settings.interface.hideNames ipakita ang Pangalan
+settings.interface.hideNames Ipakita Ang Pangalan
 settings.interface.hideNames.team Kakampi Lamang
 settings.interface.hideNames.enemy Kalaban Lamang
 settings.interface.hideNames.all Lahat ng Pangalan
@@ -209,7 +209,7 @@ settings.interface.nametagOpac Diin ng Pangalan
 settings.interface.nametagScale Nametag Scale
 settings.interface.nametagStyle.health Health Lamang
 settings.interface.nametagStyle.name Pangalan Lamang
-settings.interface.nametagStyle.nameLvl Pangalan at antas lamang
+settings.interface.nametagStyle.nameLvl Pangalan at Antas Lamang
 settings.interface.nametagStyle.all Lahat ng Impormasyon
 settings.interface.healthNum Bilang ng Health
 settings.interface.healthColT Kulay ng Health
@@ -218,9 +218,9 @@ settings.interface.xpBarCol Kulay ng XP Bar
 settings.interface.xpBarCol2 XP Bar Color 2
 settings.interface.xpBarOpac Diin ng XP Bar
 settings.medals.header Medalya
-settings.medals.show Ipakita ang mga Medalya
+settings.medals.show Ipakita Ang Mga Medalya
 settings.medals.classic Mga Klasikong Medalya
-settings.medals.sound Parinig ang mga tunog mula sa Medalya
+settings.medals.sound Pagpatunog Mula Sa Medalya
 settings.medals.scale Sukat ng Medalya
 settings.medals.xOff Medal X Offset
 settings.medals.yOff Medal Y Offset
@@ -239,8 +239,8 @@ settings.crosshair.style.3 Hollow na Parisukat
 settings.crosshair.style.4 Ma-diin na Bilog
 settings.crosshair.image Larawan ng Crosshair
 settings.crosshair.image.paste I-paste ang Larawan ng Crosshair
-settings.crosshair.image.width Image Width
-settings.crosshair.image.height Image Height
+settings.crosshair.image.width Lapad ng Larawan
+settings.crosshair.image.height Taas ng Larawan
 settings.crosshair.always Laging ipakita
 settings.crosshair.color Kulay
 settings.crosshair.shadow.color Kulay ng Anino
@@ -264,8 +264,8 @@ settings.crosshairm.style.3 Parisukat
 settings.crosshairm.style.4 Punong Parisukat
 settings.crosshairm.image Image
 settings.crosshairm.image.paste Crosshair Image
-settings.crosshairm.image.width Image Width
-settings.crosshairm.image.height Image Height
+settings.crosshairm.image.width Lapad ng Crosshair
+settings.crosshairm.image.height Taas ng Crosshair
 settings.crosshairm.always Ipakita Palagi
 settings.crosshairm.color Kulay
 settings.crosshairm.shadow.color Shadow Color
@@ -357,11 +357,11 @@ settings.viewmodel.bobbing Pagtalbog ng Armas
 settings.viewmodel.leaning Pagsandal ang Armas
 settings.viewmodel.show.primary Ipakita ang Pangunahing Armas
 settings.viewmodel.show.secondary Ipakita ang Sekundarya
-settings.viewmodel.roundArms Pa-silindro na braso
-settings.viewmodel.show.melee Ipakita ang Patalim
-settings.viewmodel.show.ads Itago ang armas kapag naka-ADS
-settings.viewmodel.toggleAim i-toggle ang pag-aim
-settings.viewmodel.show.hands Ipakita ang Kamay
+settings.viewmodel.roundArms Pa-silindro na Braso
+settings.viewmodel.show.melee Ipakita Ang Patalim
+settings.viewmodel.show.ads Itago Ang Armas Kapag naka-ADS
+settings.viewmodel.toggleAim I-toggle Ang Pag-aim
+settings.viewmodel.show.hands Ipakita Ang Kamay
 settings.viewmodel.leftHand Kaliwete
 settings.viewmodel.aimAnim Animasyon ng Pag-Aim 
 settings.viewmodel.rot Rotasyon ng Armas 
@@ -374,12 +374,12 @@ settings.viewmodel.yOffADS Y Offset ng Armas
 settings.viewmodel.adsFovMlt Lakas ng ADS FOV
 settings.viewmodel.toggleADS Toggle Weapon ADS
 settings.editing.header Pag-edit
-settings.editing.health.high HUD kapag Health High
-settings.editing.health.low HUD kapag Health Low
-settings.editing.speedLines Mga Linyang pakitang-bilis
-settings.editing.spdLinesCol Kulay ng mga Linyang pakitang-bilis
-settings.editing.score.color kulay ng popup na puntos
-settings.editing.score.show ipakita ang popup na puntos
+settings.editing.health.high HUD Kapag Maraming Health
+settings.editing.health.low HUD Kapag Konti ang Health
+settings.editing.speedLines Mga Linyang Pakitang-bilis
+settings.editing.spdLinesCol Kulay ng Mga Linyang Pakitang-bilis
+settings.editing.score.color kulay ng Popup na Puntos
+settings.editing.score.show ipakita ang Popup na Puntos
 settings.editing.score.scale I-scale ng Puntos 
 settings.editing.score.shadow Anino ng Puntos
 settings.editing.scoreOffX Posisyon ng Pop-Up sa X axis
@@ -399,9 +399,9 @@ settings.editing.progm.shadow Anino ng Charge Bar
 settings.editing.progmOffX Offset ng Charge Bar
 settings.editing.progmOffY Offset ng Charge Bar
 settings.editing.progmRot Rotasyon ng Charge Bar
-settings.editing.saturation Saturasyon sa loob ng laro
+settings.editing.saturation Saturasyon sa Loob ng Laro
 settings.editing.menuSaturation Saturation sa UI
-settings.editing.hue Kulay sa loob ng laro
+settings.editing.hue Kulay Sa Loob ng laro
 settings.editing.menuHue Kulay ng Hue sa UI
 settings.editing.vignette Vignette
 settings.editing.feedLimit Limitasyon ng Killfeed
@@ -416,7 +416,7 @@ settings.shaders.header Mga Input ng Shader
 settings.mods.header Modipikasyon
 settings.mods.load Kasalukuyang Ginagamit na Mods
 settings.mods.logo Payagan ang Mga Pagbabago sa Logo
-settings.mods.auto Awtomatik I-load ang mga Mods
+settings.mods.auto Awtomatik I-load Ang Mga Mods
 settings.mods.borders Mga Hangganan ng Saklaw
 settings.mods.borderCol Kulay ng Hangganan ng Saklaw
 settings.mods.borderOpac Opacity ng Hangganan ng Scope
@@ -458,7 +458,7 @@ windows.servers.host Mag-host ng Laro
 windows.servers.hide Itago
 windows.servers.priority Prayoridad ng Rehiyon
 windows.servers.online {0} Sa laro
-windows.servers.social {0} online sa Komunidad
+windows.servers.social {0} Online sa Komunidad
 windows.servers.editor {0} Sa Editor
 windows.loadout.header Ayusin ang Loadout
 windows.loadout.class Mga Klase
@@ -516,13 +516,13 @@ windows.controls.melee Patalim
 windows.controls.equip Gamitin
 windows.controls.chat Pag-Uusap
 windows.controls.voice Boses
-windows.controls.list Listahan ng mga manlalaro
+windows.controls.list Listahan Ng Mga Manlalaro
 windows.controls.board Leaderboard
 windows.controls.interact Interaksyon
 windows.controls.interactSec Pangalawang Interaksyon
-windows.controls.confirm Kumpirmahin ang Interaksyon
+windows.controls.confirm Kumpirmahin Ang Interaksyon
 windows.controls.drop Patak
-windows.controls.wepVis I-toggle ang Visibility ng Armas
+windows.controls.wepVis I-toggle Ang Visibility ng Armas
 windows.controls.kickVoteY Tanggalin mula sa laro [Oo]
 windows.controls.kickVoteN Tanggalin mula sa laro [Hindi]
 windows.controls.kpdVoteY Bumoto sa KPD [Oo]
@@ -665,13 +665,13 @@ thumbnail.upload.limit Failed. {0}kb Thumbnail Limit
 image.upload.limit Failed. {0}kb ang Limitasyon ng Larawan
 thumbnail.upload.error Nag-error ang Thumbnail
 mod.extracting Kumukuha ng {0} / {1}
-mod.disabled hindi pinagana ang mga mod
+mod.disabled Hindi pinagana ang mga mod
 mod.error Error sa mod!
 mod.loading Naglo-load ng mod ...
 mod.invalid Imbalidong mod file!
 matchmaker.full PUNO
 matchmaker.GameFull Puno na ang laro.
-matchmaker.NoServersMatchQuery NAG-UUPDATE ANG LARO
+matchmaker.NoServersMatchQuery NAG-UUPDATE ANG LARO!
 matchmaker.InvalidGameId Hindi mahanap ang laro
 matchmaker.NoAvailableServers Puno na ang mga servers
 matchmaker.GameIssue Hindi matukoy ang isyu
@@ -714,39 +714,39 @@ server.config.t2Dmg Damage ng Pangkat 2
 server.config.t3Dmg Damage ng Pangkat 3
 server.config.t4Dmg Damage ng Pangkat 4
 server.config.t5Dmg Damage ng Pangkat 5
-server.config.selTeam Piliin ang Pangkat 
+server.config.selTeam Piliin Ang Pangkat 
 server.config.allowSpect Panonood ng Laro
 server.config.killRewards Gantimpala kapag nakapatay
 server.config.headshotOnly Mga headshot Lamang
-server.config.noSecondary Bawal ang mga Sekundarya
-server.config.noStreaks Bawal ang killstreaks
+server.config.noSecondary Bawal Ang Mga Sekundarya
+server.config.noStreaks Bawal Ang killstreaks
 server.config.canSlide Pagdududulas
 server.config.wallJP Lakas ng walljump
 server.config.autoJump Awtomatikong Pagtatalon
 server.config.bDrop Mga Bullet Drops
 server.config.thirdPerson Tingin ng 3rd Person View
 server.config.requireCaptcha Kailangan ng CAPTCHA
-server.config.nameTags Itago ang mga Nametag
+server.config.nameTags Itago Ang Mga Nametag
 server.config.kCams Mga Kill Cams
-server.config.aAnon Payagan ang mga Anonymous
+server.config.aAnon Payagan Ang Mga Anonymous
 server.config.noReload Walang Reload
 server.config.private Pribado
 server.config.krRewards Mga Gantimpala ng KR
-server.config.forceDefault Pilitin ang Default na Mga Setting
-server.config.warmupTime Oras para maghanda
+server.config.forceDefault Pilitin Ang Default na Mga Setting
+server.config.warmupTime Oras Para Maghanda
 server.config.gamRounds Rounds
 server.config.objtvTime Oras ng Layunin
 server.config.forceSpawn Limitasyon ng Iskor
 server.config.intermTmr Intermisyons {0}
 server.config.scoreLimit Limitasyon ng Kalidad
-server.config.keepTScore Panatilihin ang Marka ng Koponan
-server.config.forceC Pilitin ang mga Klase ng Mode
+server.config.keepTScore Panatilihin Ang Marka ng Koponan
+server.config.forceC Pilitin Ang mga Klase ng Mode Lamang
 server.config.logTim Oras ng Pag-log (Paligsahan, Parkour)
 server.config.hitBoxPad Hitbox Padding
 server.config.hpRegen Health Regen
-server.config.disableB Huwag paganahin ang Mga Hangganan
-server.config.throwMel Bumato ng patalim
-server.config.noCosm Huwag magpakita ng Kosmetiko
+server.config.disableB Huwag Paganahin ang Mga Hangganan
+server.config.throwMel Bumato ng Patalim
+server.config.noCosm Huwag Magpakita ng Kosmetiko
 server.config.tstCmp Test Mode
 server.config.limitClasses Limita ng mga Klase
 server.config.tmSize Laki ng Pangkat
