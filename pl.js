@@ -673,7 +673,7 @@ matchmaker.full PEŁNA
 matchmaker.GameFull Gra pełna.
 matchmaker.NoServersMatchQuery GRA AKTUALIZUJE SIĘ
 matchmaker.InvalidGameId Gry nie znaleziono.
-matchmaker.NoAvailableServers Serwery są pod maksymalnym obciążeniem
+matchmaker.NoAvailableServers Serwery są pełne
 matchmaker.GameIssue Nieznany błąd dołączania
 adblocker Wyłącz adblock aby otrzymywać darmowe KR.
 ad-failed Nie udało się załadować reklamy. Spróbuj ponownie.
