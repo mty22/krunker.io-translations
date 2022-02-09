@@ -123,21 +123,21 @@ settings.chat.chat.focus যখন ফোকাসড
 settings.chat.messages প্লেয়ার মেসেজ দেখান
 settings.chat.unboxings আনবক্সিং দেখান
 settings.chat.chatOp চ্যাট অস্বচ্ছতা
-settings.chat.chatBGOp Chat BG Opacity
-settings.chat.chatHeight Chat Height
-settings.chat.chatTimer Chat Timer (s)
+settings.chat.chatBGOp চ্যাট স্বচ্ছতা
+settings.chat.chatHeight চ্যাটের উচ্চতা
+settings.chat.chatTimer কতক্ষণ চ্যাট আপনার স্ক্রিনে থাকবে (s)
 settings.chat.chatTextOutline Chat Text Outline
 settings.chat.chatFilter Profanity Filter
-settings.quality.header Performance
-settings.quality.updRate Frame Cap
-settings.quality.rendDst Render Distance
+settings.quality.header কর্মক্ষমতা
+settings.quality.updRate কত fps চান
+settings.quality.rendDst আপনি খেলায় কতদূর দেখতে চান
 settings.quality.res Resolution
-settings.quality.part Particles
+settings.quality.part বন্দুকের পাশ থেকে গুলি পড়ছে
 settings.quality.mapDet মাপের  বিবরণ
 settings.quality.noTex No Textures
-settings.quality.partdist Particle Distance
-settings.quality.renderdist Render Distance
-settings.quality.reflection Reflection Quality
+settings.quality.partdist কণার দূরত্ব
+settings.quality.renderdist আপনি খেলায় কতদূর দেখতে চান
+settings.quality.reflection প্রতিফলন
 settings.quality.antiAlias অ্যান্টিলিয়াসিং
 settings.quality.shadows ছায়া
 settings.quality.softShad নরম ছায়া
@@ -171,83 +171,83 @@ settings.interface.hitColor Hit Indicator Color
 settings.interface.dmg Show Damage
 settings.interface.dmgCol Damage Color
 settings.interface.critCol Crit Color
-settings.interface.header Interface
-settings.interface.scale UI Scale
-settings.interface.theme Game Theme
-settings.interface.ui Show UI
-settings.interface.scoreboard Use Old Scoreboard
-settings.interface.oldBrowser Use Old Browser
+settings.interface.header ইন্টারফেস
+settings.interface.scale UI স্কেল
+settings.interface.theme খেলা থিম
+settings.interface.ui UI দেখাব
+settings.interface.scoreboard পুরানো স্কোরবোর্ড ব্যবহার করুন
+settings.interface.oldBrowser পুরানো ব্রাউজার ব্যবহার করুন
 settings.interface.rarityanim Disable Rarity Animations
-settings.interface.showPfp Show Profile Pictures
-settings.interface.showTradeMsg Show Trade Messages
-settings.interface.hideNonTrade Hide Non-Tradable Skins
+settings.interface.showPfp প্রোফাইল ছবি দেখাব
+settings.interface.showTradeMsg বাণিজ্য বার্তা দেখাব
+settings.interface.hideNonTrade অ-বাণিজ্যযোগ্য স্কিন লুকান
 settings.interface.hp Dynamic HP Bars
 settings.interface.dmgScale Damage Scale
-settings.interface.killf Show Kill Feed
+settings.interface.killf কিল ফিড দেখাব
 settings.interface.ping Show Ping
 settings.interface.net-stats Show Network Stats
 settings.interface.fps Show FPS
-settings.interface.deaths Show Death Counter
+settings.interface.deaths ডেথ কাউন্টার দেখাব
 settings.interface.kd Show K/D Counter
-settings.interface.kills Show Kill Counter
-settings.interface.streak Show Streak Counter
-settings.interface.score Show Score Counter
-settings.interface.spectators Show Spectator Counter
-settings.interface.speed Show Movement Speed
-settings.interface.speedOffX Speed X Offset
+settings.interface.kills কিল কাউন্টার দেখাব
+settings.interface.streak স্ট্রিক কাউন্টার দেখাব
+settings.interface.score স্কোর কাউন্টার দেখাব
+settings.interface.spectators স্পেক্টেটর কাউন্টার দেখাব
+settings.interface.speed চলাচলের গতি দেখাব
+settings.interface.speedOffX Speed X offset
 settings.interface.speedOffY Speed Y Offset
-settings.interface.speedOpacity Speed Opacity
-settings.interface.speedScale Speed Scale
-settings.interface.speedColor Speed Color (Current)
-settings.interface.speedColorMax Speed Color (Max)
-settings.interface.hideNames Nametag Display
-settings.interface.hideNames.team Team Only
-settings.interface.hideNames.enemy Enemy Only
-settings.interface.hideNames.all Everyone
+settings.interface.speedOpacity গতির স্বচ্ছতা
+settings.interface.speedScale গতির স্কেল
+settings.interface.speedColor গতির রঙ (বর্তমান)
+settings.interface.speedColorMax গতির রঙ (সর্বোচ্চ)
+settings.interface.hideNames Nametag প্রদর্শন
+settings.interface.hideNames.team শুধুমাত্র দল
+settings.interface.hideNames.enemy শুধু শত্রু
+settings.interface.hideNames.all সবার
 settings.interface.nametagStyle Nametag Style
-settings.interface.nametagOpac Nametag Opacity
-settings.interface.nametagScale Nametag Scale
-settings.interface.nametagStyle.health Health Only
-settings.interface.nametagStyle.name Name Only
-settings.interface.nametagStyle.nameLvl Name & Level Only
-settings.interface.nametagStyle.all Everything
-settings.interface.healthNum Nametag Health Number
-settings.interface.healthColT Nametag Health Color Team
-settings.interface.healthColE Nametag Health Color Enemy
-settings.interface.xpBarCol XP Bar Color
-settings.interface.xpBarCol2 XP Bar Color 2
-settings.interface.xpBarOpac XP Bar Opacity
-settings.medals.header Medals
-settings.medals.show Show Medals
-settings.medals.classic Classic Medals
-settings.medals.sound Play Medal Sounds
-settings.medals.scale Medal Scale
+settings.interface.nametagOpac নাম ট্যাগ স্বচ্ছতা
+settings.interface.nametagScale নাম ট্যাগ স্কেল
+settings.interface.nametagStyle.health শুধুমাত্র প্রাণ
+settings.interface.nametagStyle.name শুধু নাম
+settings.interface.nametagStyle.nameLvl শুধুমাত্র নাম এবং লেভেল
+settings.interface.nametagStyle.all সবকিছু
+settings.interface.healthNum Nametag প্রাণ নম্বর
+settings.interface.healthColT Nametag হেলথ কালার টিম
+settings.interface.healthColE Nametag হেলথ কালার শত্রু
+settings.interface.xpBarCol XP বার রঙ
+settings.interface.xpBarCol2 XP বার রঙ 2
+settings.interface.xpBarOpac XP বারের স্বচ্ছতা
+settings.medals.header মেডেল
+settings.medals.show মেডেল দেখাব
+settings.medals.classic ক্লাসিক মেডেল
+settings.medals.sound মেডেল সাউন্ড প্লে করুন
+settings.medals.scale মেডেল স্কেল
 settings.medals.xOff Medal X Offset
 settings.medals.yOff Medal Y Offset
 settings.crosshair.header Crosshair
 settings.crosshair.type Type
 settings.crosshair.type.1 Dynamic
-settings.crosshair.type.2 Shapes
-settings.crosshair.type.3 Layered
-settings.crosshair.type.4 Image
-settings.crosshair.type.5 Precision
+settings.crosshair.type.2 আকার
+settings.crosshair.type.3 স্তরযুক্ত
+settings.crosshair.type.4 ছবি
+settings.crosshair.type.5 যথার্থতা
 settings.crosshair.style Style
-settings.crosshair.style.0 Cross
-settings.crosshair.style.1 Hollow Circle
-settings.crosshair.style.2 Solid Circle
-settings.crosshair.style.3 Hollow Square
-settings.crosshair.style.4 Solid Square
-settings.crosshair.image Image
-settings.crosshair.image.paste Crosshair Image
-settings.crosshair.image.width Image Width
-settings.crosshair.image.height Image Height
-settings.crosshair.always Always Show
-settings.crosshair.color Color
-settings.crosshair.shadow.color Shadow Color
-settings.crosshair.shadow.thickness Shadow Thickness
-settings.crosshair.size Size
-settings.crosshair.thickness Thickness
-settings.crosshair.gap Gap
+settings.crosshair.style.0 ক্রস
+settings.crosshair.style.1 ফাঁপা বৃত্ত
+settings.crosshair.style.2 কঠিন বৃত্ত
+settings.crosshair.style.3 ফাঁপা স্কোয়ার
+settings.crosshair.style.4 সলিড স্কোয়ার
+settings.crosshair.image ছবি
+settings.crosshair.image.paste Crosshair ছবি
+settings.crosshair.image.width ছবির প্রস্থ
+settings.crosshair.image.height ছবির উচ্চতা
+settings.crosshair.always সবসময় প্রদর্শন
+settings.crosshair.color রঙ
+settings.crosshair.shadow.color রঙের ছায়া
+settings.crosshair.shadow.thickness ছায়ার পুরুত্ব
+settings.crosshair.size আকার
+settings.crosshair.thickness পুরুত্ব
+settings.crosshair.gap ফাঁক
 settings.crosshair.dot Dot
 settings.crosshair.opacity.use Use Custom Opacity
 settings.crosshair.opacity.custom Custom Opacity
