@@ -538,20 +538,20 @@ windows.controls.streak1 Seri 2
 windows.controls.streak2 Seri 3
 windows.controls.streak3 Seri 4
 windows.controls.streak4 Seri 5
-windows.controls.taunt0 Taunt (Psst)
-windows.controls.taunt1 Taunt (Islık)
-windows.controls.taunt2 Taunt (Osuruk)
-windows.controls.taunt3 Taunt (Meme)
-windows.controls.taunt4 Taunt (Bu ne böyle?)
-windows.controls.taunt5 Taunt (Tam Şimdi!)
+windows.controls.taunt0 Alay (Psst)
+windows.controls.taunt1 Alay (Islık)
+windows.controls.taunt2 Alay (Osuruk)
+windows.controls.taunt3 Alay (Şaka)
+windows.controls.taunt4 Alay (Bu ne böyle?)
+windows.controls.taunt5 Alay (Tam Şimdi!)
 windows.controls.prop Nesne Seç (Tut)
 windows.controls.propRand Rastgele Nesne Seç
 windows.controls.propRot Rotasyon Aç/Kapa
 windows.controls.propRotR Rotasyonu Sıfırla
-windows.controls.premium0 Noclip
-windows.controls.premium1 Tanrı modu
+windows.controls.premium0 Klipsiz
+windows.controls.premium1 Tanrı Modu
 windows.controls.premium2 Öldür
-windows.controls.premium3 Smite
+windows.controls.premium3 Anında Öldürme
 windows.controls.reset Pozisyonunu Sıfırla (Yarış & Parkur)
 windows.controls.pretend Oyunu Sakla
 windows.host.header Özel Oyun Kur
@@ -754,7 +754,7 @@ server.config.fallDmg Düşüş Hasarı
 server.config.fallDmgThr Düşüş Hasarı Harmanı
 server.config.noDraws Beraberlik Yok
 server.config.bstOfR En iyiler
-server.config.chrgWeps Chargable Weapons
+server.config.chrgWeps Şarj Edilebilir Silahlar
 social.login Giriş yap/Kayıt ol
 social.login.failed Giriş başarısız oldu
 social.login.buy Satın almak için giriş yap
@@ -784,7 +784,7 @@ social.market.back Vücut
 social.market.waist Bel
 social.market.face Yüz
 social.market.shoe Ayakkabı
-social.market.pet Pet
+social.market.pet Evcil Hayvan
 social.market.wrist Bilek Eşyası
 social.market.melee Bıçak
 social.market.spray Sprey
@@ -828,7 +828,7 @@ mod.reset.0 Etkiyi spawnlandıktan sonra alacak.
 mod.reset.1 Map Objeleri sıfırlanmaz.
 windows.profile.picture Resim Değiştir
 stats.assists Asistler
-stats.nukes Nukeler
+stats.nukes Nükleer Bombalar
 stats.melee Bıçaklanan
 stats.fistkills Yumruklanan
 stats.thrownkills Bıçak Fırlatılan
@@ -838,7 +838,7 @@ stats.crouches Çömelmeler
 stats.sprays Sıkılan Spreyler
 stats.kpd Yardımcı Raporlar
 windows.host.default.settings Varsayılan ayarları açmak oyuncu ilerlemesini ve yüksek skorlarını depolar
-windows.host.default.commands *Kurucu ayarları şu modlarda kapalıdır: /noclip /god /smite vb.
+windows.host.default.commands *Kurucu ayarları şu modlarda kapalıdır: /klipsiz /tanrı /anında öldürme vb.
 windows.host.rewards KR ödüllerini açmak sunucuyu varsayılan ayarlarda oynamaya zorlar & oyuncuların map para kaynağından para kazanmasını sağlar:
 windows.store.wheels.sub Şansını dene ve eşya kazanmak için çarkı çevir!
 windows.store.currency * Fiyatlar ABD dolarıdır, ödeme sağlayıcısı veya banka tarafindan tanımlanan bir döviz kuru üzerinden yerel para biriminize dönüştürülebilir
