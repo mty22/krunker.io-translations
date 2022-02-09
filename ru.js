@@ -223,7 +223,7 @@ settings.medals.classic Стандартные медали
 settings.medals.sound Звук получения медалей
 settings.medals.scale Масштаб медали
 settings.medals.xOff Медаль по оси Х
-settings.medals.yOff Медаль по оси У
+settings.medals.yOff Медаль по оси Y
 settings.crosshair.header Прицел
 settings.crosshair.type Тип
 settings.crosshair.type.1 Динамический
