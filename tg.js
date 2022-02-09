@@ -507,7 +507,7 @@ windows.controls.aim1 Mag-aim (puntirya)
 windows.controls.shoot1 Bumaril
 windows.controls.inspect Suriin
 windows.controls.spray Mag-spray
-windows.controls.sprayWheel Spray Wheel (Hold)
+windows.controls.sprayWheel Pumili ng Spray (Hold)
 windows.controls.jump Tumalon
 windows.controls.crouch Yumuko
 windows.controls.prim Pangunahing Armas
