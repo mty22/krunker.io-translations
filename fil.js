@@ -892,27 +892,15 @@ stats.airdrops.stolen Ninakaw (airdrops)
 settings.quality.flapAnim Animasyon ng Sniper flap
 chall.name.hs Pumatay ng {0} beses na tumama sa ulo {1}
 chall.name.ns Pumatay ng {0} beses na walang scope {1}
-chall.name.ls Gawin ang {0} na tama sa binti {1}
+chall.name.ls Get {0} legshots {1}
 chall.name.tmk Pumatay ng {0} beses pagbato ng talim {1}
 chall.name.fb Magkaroon ng {0} na unang pagpatay {1}
-chall.name.ls Gawin ang {0} na tama sa malayo {1}
-chall.name.ls Gawin ang {0} na tama sa paa {1}
-chall.name.ls Gawin ang {0} na binatong patalim {1}
-chall.name.ls Magkaroon ng {0} na unang pagpatay {1}
-chall.name.ls Gawin ang {0} na tama sa malayo {1}
-chall.name.lns Gawin ang {0} na tama sa paa {1}
-chall.name.ls Gawin ang {0} na binatong patalim {1}
-chall.name.ls Gawin ang {0} na unang pagpatay {1}
-chall.name.ls Gawin ang {0} na tama sa malayo {1}
 chall.name.mk Pumatay ng {0} gamit ang patalim {1}
 chall.name.fk Gawin ang {0} na pagbugbog {1}
 chall.name.qs Gawin ang {0} na mabilis-scope {1}
 chall.name.wb Gawin ang {0} na pagpapatay sa pader {1}
 chall.name.airk Gawin ang {0} pagpatay sa ere {1}
-chall.name.ls Gawin ang {0} tama sa paa {1}
-chall.name.ls Pumatay ng {0} beses pagbato ng talim {1}
-chall.name.ls Magkaroon ng {0} na unang pagpatay {1}
-chall.name.ls Gawin ang {0} tama sa malayo {1}
+chall.name.lns Gawin ang {0} na tama sa paa {1}
 chall.name.tk Gawin ang {0} mapwersang pagpatay {1}
 chall.name.drk Gawin ang {0} madulas na pagpatay {1}
 chall.name.kstk Makamit ang {0} na killstreak {1}
