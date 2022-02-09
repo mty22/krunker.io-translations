@@ -47,7 +47,7 @@ generic.games.played gespielte Spiele
 generic.games.won gewonnene Spiele
 generic.games.lost verlorene Spiele
 generic.timep Spielzeit
-generic.kills Kills
+generic.kills Abschüsse
 generic.deaths Tode
 generic.kdr KDR
 generic.time Zeit
@@ -61,7 +61,7 @@ generic.accuracy Genauigkeit
 player.waiting Warten auf Spieler
 player.died Du bist gestorben
 player.killed Getötet von
-player.killstreak {0} on a {1} Kill Streak
+player.killstreak {0} auf einer {1} Abschussserie
 player.inactive Wegen Inaktivität entfernt
 player.disconnect VERBINDUNG UNTERBROCHEN
 timer.end Nächste Runde startet in {0}
@@ -91,14 +91,14 @@ settings.network.header Netzwerk
 settings.network.netRerouting Auto Routing (Beeinflusst Ping)
 settings.network.netRate Network Rate (Hz)
 settings.network.lagComp Lag Minimierung
-settings.network.optNet Optimized Networking
+settings.network.optNet Optimierte Verbindung
 settings.popup.header Popups
 settings.experimental.header Experimentell
-settings.experimental.holiday Holiday Effects
+settings.experimental.holiday Feiertags-Effekte
 settings.experimental.aimFreezeFix Aim Freeze Fix
 settings.experimental.mouseFlickFix Maus Flick Fix
 settings.experimental.shaderRendering Instanz Rendern
-settings.experimental.mouseAccel Mouse Acceleration
+settings.experimental.mouseAccel Mausbeschleunigung
 settings.experimental.tbInterp TB Interpolation
 settings.client.header Client
 settings.client.unlimitedFrames Unlimitierte FPS
@@ -111,7 +111,7 @@ settings.client.resetSettings Clienteinstellungen zurücksetzen
 settings.client.acceleratedCanvas Accelerated Canvas
 settings.client.angleBackend ANGLE Graphics Backend
 settings.client.colorProfile Farbprofil
-settings.client.resourcePacks Resource Packs
+settings.client.resourcePacks Resource Pakete
 settings.dev.header Entwickler
 settings.dev.forceUpdate Skin Update erzwingen
 settings.dev.forceRegen Spieler immer neu generieren
@@ -173,7 +173,7 @@ settings.interface.dmgCol Schadens-Farbe
 settings.interface.critCol Kritischer Treffer Farbe
 settings.interface.header Schnittstelle
 settings.interface.scale Benutzeroberfläche skalieren
-settings.interface.theme Game Theme
+settings.interface.theme Spieldesign
 settings.interface.ui Benutzeroberfläche anzeigen
 settings.interface.scoreboard Alte Anzeigetafel
 settings.interface.oldBrowser Alter Server Browser
@@ -189,7 +189,7 @@ settings.interface.net-stats Netzwerkstatistiken anzeigen
 settings.interface.fps FPS-Rate anzeigen
 settings.interface.deaths Tode anzeigen
 settings.interface.kd K/D Zähler anzeigen
-settings.interface.kills Kill-Streaks anzeigen
+settings.interface.kills Abschussserie anzeigen
 settings.interface.streak Abschussserienzähler anzeigen
 settings.interface.score Punktezähler anzeigen
 settings.interface.spectators Zuschauerzahl anzeigen
@@ -206,7 +206,7 @@ settings.interface.hideNames.enemy Nur Gegner
 settings.interface.hideNames.all Jeder
 settings.interface.nametagStyle Namensanzeige-Style
 settings.interface.nametagOpac Namensanzeige Dreckkraft
-settings.interface.nametagScale Nametag Scale
+settings.interface.nametagScale Nametag Skalierung
 settings.interface.nametagStyle.health Nur HP
 settings.interface.nametagStyle.name Nur Name
 settings.interface.nametagStyle.nameLvl Nur Name und Level
@@ -217,13 +217,13 @@ settings.interface.healthColE Nametag Gegner-HP-Farbe
 settings.interface.xpBarCol XP Leisten-Farbe
 settings.interface.xpBarCol2 XP Bar Color 2
 settings.interface.xpBarOpac XP Leisten-Deckkraft
-settings.medals.header Medals
-settings.medals.show Show Medals
-settings.medals.classic Classic Medals
-settings.medals.sound Play Medal Sounds
-settings.medals.scale Medal Scale
-settings.medals.xOff Medal X Offset
-settings.medals.yOff Medal Y Offset
+settings.medals.header Medallien
+settings.medals.show Zeige Medallien
+settings.medals.classic Klassische Medallien
+settings.medals.sound Spiele Medallien Ton
+settings.medals.scale Medallien Skalierung
+settings.medals.xOff Medallien X Offset
+settings.medals.yOff Medallien Y Offset
 settings.crosshair.header Fadenkreuz
 settings.crosshair.type Typ
 settings.crosshair.type.1 Dynamic
@@ -239,43 +239,43 @@ settings.crosshair.style.3 Hohles Quadrat
 settings.crosshair.style.4 Volles Quadrat
 settings.crosshair.image Bild
 settings.crosshair.image.paste Fadenkreuz-Bild
-settings.crosshair.image.width Image Width
-settings.crosshair.image.height Image Height
+settings.crosshair.image.width Fadenkreuz-Breite
+settings.crosshair.image.height Fadenkreuz-Höhe
 settings.crosshair.always Immer anzeigen
 settings.crosshair.color Farbe
 settings.crosshair.shadow.color Schatten-Farbe
-settings.crosshair.shadow.thickness Schatten-Breite
+settings.crosshair.shadow.thickness Schatten-Stärke
 settings.crosshair.size Größe
-settings.crosshair.thickness Breite
+settings.crosshair.thickness Stärke
 settings.crosshair.gap Lücke
 settings.crosshair.dot Punkt
 settings.crosshair.opacity.use benutzerdefinierte Deckkraft benutzen
 settings.crosshair.opacity.custom benutzerdefinierte Deckkraft
-settings.crosshairm.header Crosshair (Throwing)
-settings.crosshairm.type Type
-settings.crosshairm.type.1 Shapes
-settings.crosshairm.type.2 Image
-settings.crosshairm.type.3 Precision
-settings.crosshairm.style Style
-settings.crosshairm.style.0 Cross
-settings.crosshairm.style.1 Hollow Circle
-settings.crosshairm.style.2 Solid Circle
-settings.crosshairm.style.3 Hollow Square
-settings.crosshairm.style.4 Solid Square
-settings.crosshairm.image Image
-settings.crosshairm.image.paste Crosshair Image
-settings.crosshairm.image.width Image Width
-settings.crosshairm.image.height Image Height
-settings.crosshairm.always Always Show
-settings.crosshairm.color Color
-settings.crosshairm.shadow.color Shadow Color
-settings.crosshairm.shadow.thickness Shadow Thickness
-settings.crosshairm.size Size
-settings.crosshairm.thickness Thickness
-settings.crosshairm.gap Gap
-settings.crosshairm.dot Dot
-settings.crosshairm.opacity.use Use Custom Opacity
-settings.crosshairm.opacity.custom Custom Opacity
+settings.crosshairm.header Fadenkreuz (Wurf)
+settings.crosshairm.type Typ
+settings.crosshairm.type.1 Formen
+settings.crosshairm.type.2 Bilder
+settings.crosshairm.type.3 Präzision
+settings.crosshairm.style Stil
+settings.crosshairm.style.0 Kreuz
+settings.crosshairm.style.1 Hohler Kreis
+settings.crosshairm.style.2 Voller Kreis
+settings.crosshairm.style.3 Hohles Quadrat
+settings.crosshairm.style.4 Volles Quadrat
+settings.crosshairm.image Bild
+settings.crosshairm.image.paste Fadenkreuz-Bild
+settings.crosshairm.image.width Fadenkreuz-Breite
+settings.crosshairm.image.height Fadenkreuz-Höhe
+settings.crosshairm.always Immer anzeigen
+settings.crosshairm.color Farbe
+settings.crosshairm.shadow.color Schatten-Farbe
+settings.crosshairm.shadow.thickness Schatten-Stärke
+settings.crosshairm.size Größe
+settings.crosshairm.thickness Stärke
+settings.crosshairm.gap Lücke
+settings.crosshairm.dot Punkt
+settings.crosshairm.opacity.use benutzerdefinierte Deckkraft benutzen
+settings.crosshairm.opacity.custom benutzerdefinierte Deckkraft
 settings.hitmarker.header Hitmarker
 settings.hitmarker.color Farbe
 settings.hitmarker.kcolor Kill Farbe
@@ -294,18 +294,18 @@ settings.onKillS.style.1 Auflösung reduzieren
 settings.onKillS.style.2 Sichtfeld reduzieren
 settings.onKillS.style.3 Sichfeld erhöhen
 settings.serverb.header Server Browser
-settings.serverb.oldBrowser Legacy Browser
+settings.serverb.oldBrowser Klassischer Browser
 settings.serverb.defaultRegionOnly Nur Standard Region
 settings.gameprivacy.header Gameplay-Datenschutz
 settings.gameprivacy.streamer Streamer Modus
 settings.gameprivacy.anon Anonymer Modus
 settings.gameprivacy.hideGameTitle Spieltitel ausblenden
-settings.gameprivacy.showRegion Show Region Info
-settings.gameprivacy.verified Show Verified Badge
-settings.gameprivacy.premium Show Premium Badge
-settings.gameprivacy.partner Show Partner Badge
-settings.gameprivacy.rank Show Ranked Badge
-settings.gameprivacy.custom Show Custom Badge
+settings.gameprivacy.showRegion Zeige Regionen Info
+settings.gameprivacy.verified Zeige Verifizierten Abzeichen
+settings.gameprivacy.premium Zeige Premium Abzeichen
+settings.gameprivacy.partner Zeige Partner Abzeichen
+settings.gameprivacy.rank Zeige Ranked Abzeichen
+settings.gameprivacy.custom Zeige Benutzerdefiniertes Abzeichen
 settings.gameplay.header Spielverlauf
 settings.gameplay.gpSetts Gameplay Settings
 settings.gameplay.sensitivityX X Empfindlichkeit
@@ -314,7 +314,7 @@ settings.gameplay.aimsensX Zielen X Empfindlichkeit
 settings.gameplay.aimsensY Zielen Y Empfindlichkeit
 settings.gameplay.challenge Herausforderungs-Modus
 settings.gameplay.invert Y-Achse umkehren
-settings.gameplay.onkillS Beim Kill
+settings.gameplay.onkillS Beim Abschuss
 settings.gameplay.scrollDir Scroll Richtung
 settings.controller.header Controller
 settings.controller.sensitivityX X Empfindlichkeit
@@ -340,9 +340,9 @@ settings.audio.header Audio
 settings.audio.sound Ton
 settings.audio.ambient Umgebungs Lautstärke
 settings.audio.voice Lautstärke Sprach-Chat
-settings.audio.input Audio/Mic Input
-settings.audio.mic Mic Volume
-settings.audio.micquality Mic Quality
+settings.audio.input Audio/Mikrofon Eingabe
+settings.audio.mic Mikrofon Lautstärke
+settings.audio.micquality Mikrofon Qualität
 settings.audio.weps Waffen Lautstärke
 settings.audio.player Spieler Lautstärke
 settings.audio.skin Kosmetik Lautstärke
@@ -434,8 +434,8 @@ settings.mods.profile Profilbild
 settings.mods.profile.paste Profilbild URL
 settings.mods.ammo Munitionssymbol Bild
 settings.mods.ammo.paste Munitionssymbol Bild URL
-settings.mods.kills Kills Symbol Bild
-settings.mods.kills.paste Kills Symbol Bild URL
+settings.mods.kills Abschuss Symbol Bild
+settings.mods.kills.paste Abschuss Symbol Bild URL
 settings.mods.deaths Tode Symbol Bild
 settings.mods.deaths.paste Tode Symbol Bild URL
 settings.mods.streak Abschussserie Symbol Bild
@@ -448,8 +448,8 @@ settings.mods.damage.paste Schadens-Overlay Bild URL
 settings.mods.overlay Spiel Overlay Bild
 settings.mods.overlay.paste Spiel Overlay Bild URL
 settings.social.region Regions-Statistiken
-settings.social.bg Background Image
-settings.social.bg.paste Background Image URL
+settings.social.bg Hintergrundbild
+settings.social.bg.paste Hintergrundbild URL
 windows.settings.header Spieleinstellungen
 windows.mail.header Krunker Mail
 windows.servers.header Server Browser
@@ -459,7 +459,7 @@ windows.servers.hide Volle Spiele ausblenden
 windows.servers.priority Regions-Priorität
 windows.servers.online {0} im Spiel
 windows.servers.social {0} im Sozialbereich
-windows.servers.editor {0} in Editor
+windows.servers.editor {0} im Map-Bearbeiter
 windows.loadout.header Ausrüstung ändern
 windows.loadout.class Klasse
 windows.loadout.primary Primäre Waffe
@@ -468,7 +468,7 @@ windows.loadout.primary.reticle Fadenkreuz
 windows.loadout.primary.scope Zielfernrohr
 windows.loadout.secondary Sekundär Waffe
 windows.loadout.secondary.skin Sekundär Skin
-windows.loadout.melee Nahkampf
+windows.loadout.melee Messer
 windows.loadout.hat Hut
 windows.loadout.back Körper
 windows.loadout.waist Taille
@@ -480,10 +480,10 @@ windows.loadout.color.chat Namens-Farbe (im Chat)
 windows.loadout.color.hair Haarfarbe
 windows.loadout.dye Körperfarbe
 windows.loadout.pet Haustier
-windows.loadout.wrist Wrist
+windows.loadout.wrist Handgelenk
 windows.loadout.stat Killcard Statistiken
 windows.loadout.flag Länderflagge
-windows.loadout.badge Custom Badge
+windows.loadout.badge Benutzerdefiniertes Abzeichen
 windows.mods.drop Mods hier hinziehen oder klicken
 windows.mods.paste Mod-Url einfügen
 windows.mods.load Mods laden
@@ -507,12 +507,12 @@ windows.controls.aim1 Zielen
 windows.controls.shoot1 Schießen
 windows.controls.inspect Untersuchen
 windows.controls.spray Sprühen
-windows.controls.sprayWheel Spray Wheel (Hold)
+windows.controls.sprayWheel Spray Auswahl (Halten)
 windows.controls.jump Springen
 windows.controls.crouch Ducken
 windows.controls.prim Primäre Waffe
 windows.controls.swap Sekundäre Waffe
-windows.controls.melee Nahkampf Waffe
+windows.controls.melee Messer
 windows.controls.equip Ausrüstung
 windows.controls.chat Chat
 windows.controls.voice Sprachchat
@@ -531,23 +531,23 @@ windows.controls.specFree Auf freie Kamera umschalten
 windows.controls.specObj Auf Zielkamera umschalten
 windows.controls.specFirst First Person umschalten
 windows.controls.specNames Erzwungene Namen umschalten
-windows.controls.specFocus Toggle Focus Player
-windows.controls.hidePlayers Hide Players
+windows.controls.specFocus Spielerfokus umschalten
+windows.controls.hidePlayers Verstecke Spieler
 windows.controls.streak0 Abschussserie 1
 windows.controls.streak1 Abschussserie 2
 windows.controls.streak2 Abschussserie 3
 windows.controls.streak3 Abschussserie 4
 windows.controls.streak4 Abschussserie 5
-windows.controls.taunt0 Taunt (Psst)
-windows.controls.taunt1 Taunt (Whistle)
-windows.controls.taunt2 Taunt (Fart)
-windows.controls.taunt3 Taunt (Meme)
-windows.controls.taunt4 Taunt (WTF is This?)
-windows.controls.taunt5 Taunt (Right Now!)
-windows.controls.prop Select Prop (Hold)
-windows.controls.propRand Select Random Prop
-windows.controls.propRot Toggle Rotation
-windows.controls.propRotR Reset Rotation
+windows.controls.taunt0 Geräusch (Psst)
+windows.controls.taunt1 Geräusch (Pfeifen)
+windows.controls.taunt2 Geräusch (Furzen)
+windows.controls.taunt3 Geräusch (Meme)
+windows.controls.taunt4 Geräusch (WTF is This?)
+windows.controls.taunt5 Geräusch (Right Now!)
+windows.controls.prop Wähle Gestalt (Hold)
+windows.controls.propRand Wähle zufällige Gestalt
+windows.controls.propRot Rotation umschalten
+windows.controls.propRotR Rotation zurücksetzen
 windows.controls.premium0 Noclip
 windows.controls.premium1 Godmode
 windows.controls.premium2 Kill
@@ -611,7 +611,7 @@ windows.store.amount {0} KR im Konto
 windows.store.login Anmelden</a> um Gegenstände aus dem Shop zu kaufen und freizuschalten!
 windows.store.purchasing Kauf wird durchgeführt...
 windows.store.unboxed {0}{1} ausgepackt
-windows.store.found {0}{1} found
+windows.store.found {0}{1} gefunden
 windows.trade.header Handeln
 windows.scope.header Zielfernrohr auswählen
 windows.premium.header Premium
@@ -620,7 +620,7 @@ windows.hat.header Hut auswählen
 windows.back.header Rückseite auswählen
 windows.waist.header Taille auswählen
 windows.face.header Gesicht auswählen
-windows.melee.header Nahkampf-Waffe auswählen
+windows.melee.header Messer auswählen
 windows.attach.header Aufsatz auswählen
 windows.reticle.header Fadenkreuz auswählen
 windows.reticle.unlocked Freigschaltet ab Level {0}
@@ -653,9 +653,9 @@ windows.players.none Keine Spieler im Moment...
 windows.join.header Beitreten
 windows.join.code Spiel URL/Code eingeben
 windows.client.header Client
-windows.client.windows Windows Installer
-windows.client.mac macOS Installer
-windows.client.linux Linux Installer
+windows.client.windows Windows Installationsprogramm
+windows.client.mac macOS Installationsprogramm
+windows.client.linux Linux Installationsprogramm
 windows.ranked.header Ranked
 windows.ranked.login um Ranked zu spielen!
 windows.ranked.level Du musst mindestens <span color="black">level {0}</span> um Ranked spielen zu können! Jetzt bist du <span color="black">level {1}</span>.
@@ -670,11 +670,11 @@ mod.error Mod Fehler!
 mod.loading Mod Lädt...
 mod.invalid Ungültige Mod-Datei!
 matchmaker.full VOLL
-matchmaker.GameFull Game is full.
-matchmaker.NoServersMatchQuery GAME UPDATING
-matchmaker.InvalidGameId Game not found.
-matchmaker.NoAvailableServers Servers are at Max Capacity
-matchmaker.GameIssue Unknown Join Issue
+matchmaker.GameFull Das Spiel ist voll.
+matchmaker.NoServersMatchQuery SPIEL WIRD AKTUALISIERT
+matchmaker.InvalidGameId Spiel wurde nicht gefunden.
+matchmaker.NoAvailableServers Server sind ausgelastet
+matchmaker.GameIssue Unbekannter Beitrittsfehler
 adblocker Deaktiviere deinen AdBlocker um gratis Krunkies zu erhalten.
 ad-failed Werbung konnte nicht geladen werden. Versuch es noch einmal.
 streamers.views {0} Betrachter
@@ -728,7 +728,7 @@ server.config.thirdPerson Dritte Person
 server.config.requireCaptcha Benötigt Captcha
 server.config.nameTags Namen ausblenden
 server.config.kCams Kill Cams
-server.config.aAnon Allow Anonymous
+server.config.aAnon Anonymen Modus erlauben
 server.config.noReload Kein Nachladen
 server.config.private Privat
 server.config.krRewards KR Belohnung
@@ -779,17 +779,17 @@ social.market.cant Kannst Du Dir nicht leisten
 social.market.purchase Kaufen
 social.market.fee Keine Gebühr fürs Listen
 social.market.failed Fehlgeschlagen. Versuche es erneut.
-social.market.head Gegenstand Kopf
-social.market.back Gegenstand Rücken
-social.market.waist Gegenstand Taille
-social.market.face Gegenstand Gesicht
-social.market.shoe Gegenstand Schuh
-social.market.pet Gegenstand Haustier
-social.market.wrist Wrist Item
-social.market.melee Gegenstand Nahkampfwaffe
-social.market.spray Gegenstand Spray
-social.market.dye Gegenstand Körperfarbe
-social.market.collectible Collectible Item
+social.market.head Kopf-Gegenstand
+social.market.back Rücken-Gegenstand
+social.market.waist Taille-Gegenstand
+social.market.face Gesicht-Gegenstand
+social.market.shoe Schuh-Gegenstand
+social.market.pet Haustier-Gegenstand
+social.market.wrist Handgelenk-Gegenstand
+social.market.melee Messer-Gegenstand
+social.market.spray Spray-Gegenstand
+social.market.dye Körperfarbe-Gegenstand
+social.market.collectible Sammelstück-Gegenstand
 social.market.none Keine Gegenstände gefunden
 social.market.login Du musst eingeloggt sein.
 social.market.grace bereit in {0}
@@ -829,14 +829,14 @@ mod.reset.1 Map Objekte werden nicht zurückgesetzt
 windows.profile.picture Bild ändern
 stats.assists Assists
 stats.nukes Nukes
-stats.melee Nahkampf-Kills
-stats.fistkills Faust-Kills
-stats.thrownkills Wurfmesser-Kills
+stats.melee Messer-Abschüsse
+stats.fistkills Faust-Abschüsse
+stats.thrownkills Wurfmesser-Abschüsse
 stats.headshots Kopfschüsse
 stats.wallbangs Wallbangs
-stats.crouches Crouches
+stats.crouches Hocken
 stats.sprays Platzierte Graffitis
-stats.kpd Helpful Reports
+stats.kpd Nützliche Reports
 windows.host.default.settings Durch aktivieren der Standardeinstellungen, können Spielerfortschritte und Höchstwerte gespeichert werden.
 windows.host.default.commands *Host Befehle sind in diesem Modus deaktiviert: /noclip /god /smite etc
 windows.host.rewards KR Belohnungen einzuschalten zwingt den Server Standard-Einstellungen zu verwenden und erlaubt Spielern KR von der Map Kasse zu verdienen
@@ -858,9 +858,9 @@ windows.playerlist.punish Bist du dir sicher dass du diese Aktion an {0} durchf�
 item.view.open Öffne Modell Ansicht
 item.view.more Mehr Informationen
 item.sell.cant Item kann nicht verkauft werden.
-item.sell.cant.krunker Item cant be sold on krunker.
-item.sell.quick Bist du dir sicher dass du {0} Schnellverkaufen willt? 
-item.sell.destroy Are you sure you want to Destroy {0}?
+item.sell.cant.krunker Gegenstand kann nicht auf Krunker verkauft werden.
+item.sell.quick Bist du dir sicher dass du {0} Schnellverkaufen willst? 
+item.sell.destroy Bist du dir sicher dass du {0} zerstören willst?
 social.profile.stats Insgesamte Statistiken
 social.profile.class Klassen Statistiken
 social.profile.sales Verkäufe
@@ -888,27 +888,27 @@ social.trades.message AKTIVIERE HANDELSNACHRICHTEN IN DEN EINSTELLUNGEN
 social.trades.warning Du bekommst keine Items aus diesem Handel!
 social.trades.accept Bist du sicher, dass du dieses Angebot annehmen möchtest?
 stats.airdrops KR-Pakete
-stats.airdrops.stolen Airdrops Stolen
+stats.airdrops.stolen Gestohlene KR-Pakete
 settings.quality.flapAnim Sniperklappenanimation
-chall.name.hs Get {0} headshots {1}
-chall.name.ns Get {0} no-scopes {1}
-chall.name.ls Get {0} legshots {1}
-chall.name.tmk Get {0} throwing knife kills {1}
-chall.name.fb Get {0} first bloods {1}
-chall.name.mk Get {0} melee kills {1}
-chall.name.fk Get {0} fist kills {1}
-chall.name.qs Get {0} quickscopes {1}
-chall.name.wb Get {0} wallbangs {1}
-chall.name.airk Get {0} mid-air kills {1}
-chall.name.lns Get {0} longshots {1}
-chall.name.tk Get {0} turbo kills {1}
-chall.name.drk Get {0} drift kills {1}
-chall.name.kstk Get a {0} killstreak {1}
-chall.name.w Win {0} matches
-chall.name.d Die {0} times
-chall.name.score Get {0} score
-chall.name.dmg Deal {0} damage {1}
-chall.name.bzk Get {0} buzz kills {1}
-chall.name.cc Get {0} close-calls {1}
-chall.name.rk Deal {0} revenge kills {1}
+chall.name.hs Erziele {0} Kopfschüsse {1}
+chall.name.ns Erziele {0} No-Scope-Abschüsse {1}
+chall.name.ls Erziele {0} Beinschüsse {1}
+chall.name.tmk Erziele {0} Wurfmesser-Abschüsse {1}
+chall.name.fb Erziele {0} erste Abschüsse {1}
+chall.name.mk Erziele {0} Messer-Abschüsse {1}
+chall.name.fk Erziele {0} Faust-Abschüsse {1}
+chall.name.qs Erziele {0} Quickscope-Abschüsse {1}
+chall.name.wb Erziele {0} Wallbang-Abschüsse {1}
+chall.name.airk Erziele {0} Abschüsse in der Luft {1}
+chall.name.lns Erziele {0} Weitschüsse {1}
+chall.name.tk Erziele {0} schnelle Abschüsse {1}
+chall.name.drk Erziele {0} drift Abschüsse {1}
+chall.name.kstk Erziele eine {0} Abschussserie {1}
+chall.name.w Gewinne {0} Spiele
+chall.name.d Stirb {0} mal
+chall.name.score Erziele {0} Punkte
+chall.name.dmg {0} Schaden zufügen {1}
+chall.name.bzk Erziele {0} Spielverderber-Abschüsse {1}
+chall.name.cc Erziele {0} hauchnahe Abschüsse {1}
+chall.name.rk Erziele {0} Vergeltungs-Abschüsse {1}
 `;
