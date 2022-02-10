@@ -298,73 +298,73 @@ settings.serverb.oldBrowser লিগ্যাসি ব্রাউজার
 settings.serverb.defaultRegionOnly শুধুমাত্র ডিফল্ট অঞ্চল
 settings.gameprivacy.header গেমপ্লে গোপনীয়তা
 settings.gameprivacy.streamer স্ট্রীমার মোড
-settings.gameprivacy.anon Anonymous Mode
-settings.gameprivacy.hideGameTitle Hide Game Title
-settings.gameprivacy.showRegion Show Region Info
-settings.gameprivacy.verified Show Verified Badge
-settings.gameprivacy.premium Show Premium Badge
-settings.gameprivacy.partner Show Partner Badge
-settings.gameprivacy.rank Show Ranked Badge
-settings.gameprivacy.custom Show Custom Badge
-settings.gameplay.header Gameplay
-settings.gameplay.gpSetts Gameplay Settings
+settings.gameprivacy.anon বেনামী মোড
+settings.gameprivacy.hideGameTitle গেমের শিরোনাম লুকান
+settings.gameprivacy.showRegion অঞ্চলের তথ্য দেখাব
+settings.gameprivacy.verified ভেরিফাইড ব্যাজ দেখাব
+settings.gameprivacy.premium প্রিমিয়াম ব্যাজ দেখাব
+settings.gameprivacy.partner পার্টনার ব্যাজ দেখাব
+settings.gameprivacy.rank র‍্যাঙ্কড ব্যাজ দেখাব
+settings.gameprivacy.custom কাস্টম ব্যাজ দেখাব
+settings.gameplay.header গেমপ্লে
+settings.gameplay.gpSetts গেমপ্লে সেটিংস
 settings.gameplay.sensitivityX X Sensitivity
 settings.gameplay.sensitivityY Y Sensitivity
 settings.gameplay.aimsensX Aim X Sensitivity
 settings.gameplay.aimsensY Aim Y Sensitivity
-settings.gameplay.challenge Challenge Mode
+settings.gameplay.challenge চ্যালেঞ্জ মোড
 settings.gameplay.invert Invert Y-Axis
-settings.gameplay.onkillS On Kill
-settings.gameplay.scrollDir Scroll Direction
-settings.controller.header Controller
+settings.gameplay.onkillS অন কিল
+settings.gameplay.scrollDir স্ক্রোল দিক
+settings.controller.header নিয়ন্ত্রক
 settings.controller.sensitivityX X Sensitivity
-settings.controller.disableCons Disable Controllers
+settings.controller.disableCons কন্ট্রোলার অক্ষম করুন
 settings.controller.sensitivityY Y Sensitivity
 settings.controller.aimsensX Aim X Sensitivity
 settings.controller.aimsensY Aim Y Sensitivity
 settings.controller.deadZoneL Dead Zone (Left)
 settings.controller.deadZoneR Dead Zone (Right)
-settings.controller.triggerThres Trigger Threshold
-settings.controller.vibration Vibration
-settings.controller.gradSpeed Gradual Speed
+settings.controller.triggerThres ট্রিগার থ্রেশহোল্ড
+settings.controller.vibration কম্পন
+settings.controller.gradSpeed ধীরে ধীরে গতি
 settings.controller.invert Invert Y-Axis
-settings.mobile.header Mobile
+settings.mobile.header মুঠোফোন
 settings.mobile.sensitivityX X Sensitivity
 settings.mobile.sensitivityY Y Sensitivity
 settings.mobile.aimsensX Aim X Sensitivity
 settings.mobile.aimsensY Aim Y Sensitivity
-settings.mobile.vibration Vibration
-settings.mobile.gradSpeed Gradual Speed
+settings.mobile.vibration কম্পন
+settings.mobile.gradSpeed ধীরে ধীরে গতি
 settings.mobile.invert Invert Y-Axis
-settings.audio.header Audio
-settings.audio.sound Master Volume
+settings.audio.header অডিও
+settings.audio.sound মাস্টার ভলিউম
 settings.audio.ambient Ambient Volume
-settings.audio.voice Voice Volume
-settings.audio.input Audio/Mic Input
-settings.audio.mic Mic Volume
-settings.audio.micquality Mic Quality
-settings.audio.weps Weapon Volume
-settings.audio.player Player Volume
-settings.audio.skin Cosmetics Volume
-settings.audio.ui UI Volume
+settings.audio.voice ভয়েস ভলিউম
+settings.audio.input অডিও/মাইক ইনপুট
+settings.audio.mic মাইকের ভলিউম
+settings.audio.micquality মাইকের গুণমান
+settings.audio.weps অস্ত্রের শব্দ
+settings.audio.player খেলওয়ার এর শব্দ
+settings.audio.skin কসমেটিক ভলিউম
+settings.audio.ui UI ভলিউম
 settings.audio.asset Asset Volume
-settings.audio.dialogue Action Volume
-settings.viewmodel.header View Model
-settings.viewmodel.vmSetts View Model Settings
+settings.audio.dialogue অ্যাকশন ভলিউম
+settings.viewmodel.header মডেল দেখুন
+settings.viewmodel.vmSetts মডেল সেটিংস দেখুন
 settings.viewmodel.fov Field of View (FOV)
 settings.viewmodel.fps Weapon FOV
 settings.viewmodel.bobbing Weapon Bobbing
 settings.viewmodel.leaning Weapon Leaning
-settings.viewmodel.show.primary Show Primary
-settings.viewmodel.show.secondary Show Secondary
+settings.viewmodel.show.primary প্রথম অস্ত্র দেখাব
+settings.viewmodel.show.secondary দ্বিতীয় অস্ত্র দেখাব
 settings.viewmodel.roundArms Rounded Arms
-settings.viewmodel.show.melee Show Melee
+settings.viewmodel.show.melee চাকু দেখাব
 settings.viewmodel.show.ads Hide Weapon on ADS
 settings.viewmodel.toggleAim Toggle Aim
-settings.viewmodel.show.hands Show Hands
-settings.viewmodel.leftHand Left Handed
+settings.viewmodel.show.hands হাত দেখাব
+settings.viewmodel.leftHand বাঁ হাতী
 settings.viewmodel.aimAnim Weapon Aim Animation
-settings.viewmodel.rot Weapon Rotation
+settings.viewmodel.rot অস্ত্রের ঘূর্ণন
 settings.viewmodel.xOff Weapon X Offset
 settings.viewmodel.yOff Weapon Y Offset
 settings.viewmodel.zOff Weapon Z Offset
