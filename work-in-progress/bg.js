@@ -471,7 +471,7 @@ windows.loadout.spray Спрей
 windows.loadout.color.skin Цвят на кожата
 windows.loadout.color.chat Цвят на името в чата
 windows.loadout.color.hair Цвят на косата
-windows.loadout.dye Боя
+windows.loadout.dye Цвят на костюма
 windows.loadout.pet Домашен любимец
 windows.loadout.wrist Вещ за китката
 windows.loadout.stat Статистика на картата за убийство
@@ -698,112 +698,112 @@ server.config.reSpd Скорост на презареждане
 server.config.slidTime Време на плъзгане
 server.config.fixMov Фиксирано движение
 server.config.slidSpd Скорост на плъзгане
-server.config.healthMlt Health Multiplier
+server.config.healthMlt Множител за регенериране
 server.config.impulseMlt Импулс на оръжие
 server.config.nameTeam1 Име на отбор 1
 server.config.nameTeam2 Име на отбор 2
 server.config.nameTeam3 Име на отбор 3
 server.config.nameTeam4 Име на отбор 4
 server.config.nameTeam5 Име на отбор 5
-server.config.t1Dmg Team 1 Damage
-server.config.t2Dmg Team 2 Damage
-server.config.t3Dmg Team 3 Damage
-server.config.t4Dmg Team 4 Damage
-server.config.t5Dmg Team 5 Damage
+server.config.t1Dmg Щети на отбор 1
+server.config.t2Dmg Щети на отбор 2
+server.config.t3Dmg Щети на отбор 3
+server.config.t4Dmg Щети на отбор 4
+server.config.t5Dmg Щети на отбор 5
 server.config.selTeam Избиране на отбор
 server.config.allowSpect Наблюдение
 server.config.killRewards Награди на убийство
 server.config.headshotOnly Изстрели в главата само
-server.config.noSecondary Disable Secondaries
-server.config.noStreaks Disable Streaks
+server.config.noSecondary Деактивирайте второто оръжие
+server.config.noStreaks Деактивиране на поредица
 server.config.canSlide Плъзгане
 server.config.wallJP Сила на скок върху стената
 server.config.autoJump Автоматичен скок
-server.config.bDrop Bullet Drop
-server.config.thirdPerson 3rd Person
-server.config.requireCaptcha Require Captcha
+server.config.bDrop Забавяне на куршум
+server.config.thirdPerson 3-то лице
+server.config.requireCaptcha Изискване на Капча
 server.config.nameTags Скриване на имената
-server.config.kCams Kill Cams
-server.config.aAnon Allow Anonymous
+server.config.kCams Кам на убийство
+server.config.aAnon Разрешаване на анонимни 
 server.config.noReload Без презареждане
 server.config.private Частен
 server.config.krRewards KR награди
-server.config.forceDefault Force Default Settings
+server.config.forceDefault Принудително задаване на настройките по подразбиране
 server.config.warmupTime Време за загряване
 server.config.gamRounds Кръгове
-server.config.objtvTime Objective Time
-server.config.forceSpawn Auto Respawn Time
-server.config.intermTmr Intermission (s)
+server.config.objtvTime Време на обектива
+server.config.forceSpawn Време за автоматично възраждане
+server.config.intermTmr Прекъсване (ия)
 server.config.scoreLimit Лимит на точките
-server.config.keepTScore Keep Team Score
-server.config.forceC Force Mode Classes
-server.config.logTim Log Time (Race, Parkour)
-server.config.hitBoxPad Hitbox Padding
-server.config.hpRegen Health Regen
-server.config.disableB Disable Borders
-server.config.throwMel Throwable Melees
-server.config.noCosm Disable Cosmetics
-server.config.tstCmp Test Mode
+server.config.keepTScore Запазете отборния резултат
+server.config.forceC Класове в силов режим
+server.config.logTim Регистрирано време (състезание, паркур)
+server.config.hitBoxPad Подплънка на хитбокс
+server.config.hpRegen Регенериране на живот 
+server.config.disableB Деактивирайте границите
+server.config.throwMel Острие което може да се хвърля
+server.config.noCosm Деактивирайте козметиката
+server.config.tstCmp Тестов режим
 server.config.limitClasses Ограничени класове
 server.config.tmSize Размер на екипа
-server.config.fallDmg Fall Damage
-server.config.fallDmgThr Fall Damage Thresh
-server.config.noDraws No Draws
+server.config.fallDmg Щети от падане
+server.config.fallDmgThr Щети от падане вършея
+server.config.noDraws Без равенство
 server.config.bstOfR Най-добър от
-server.config.chrgWeps Chargable Weapons
+server.config.chrgWeps Зареждаеми оръжия
 social.login Логин/Регистрирайте се
-social.login.failed Login Failed
+social.login.failed Неуспешен логин
 social.login.buy Логин, за да купите
 social.login.sell Логин, за да продавате
 social.login.gift Логин, за да подарите
 social.login.proccessing Влизане...
 social.since Откогато
-social.user.maps User Games
-social.user.mods User Mods
-social.maps.none No Games found...
-social.mods.none No Mods found...
+social.user.maps Игри на потребителя
+social.user.mods Модове на потребителя
+social.maps.none Няма намерени игри...
+social.mods.none Няма намерени модове...
 social.market.price.low Най-ниската цена
-social.market.price.list List Price in
-social.market.searching Searching
-social.market.listed listed {0} ago
-social.market.list List Item
+social.market.price.list Пусната цена в
+social.market.searching Търсене
+social.market.listed Пуснати преди {0}
+social.market.list Пусни вещ за продажба
 social.market.unlist Отписване
 social.market.unlisting Премахване на елемента от пазарът ...
 social.market.posting Публикуване на вещать...
-social.market.req lvl {0} required
+social.market.req Изисква се ниво {0}
 social.market.cant Не може да си го позволи
 social.market.purchase Купи
-social.market.fee No List Fee
+social.market.fee Без такса за пускане на пазарът
 social.market.failed Се провали. Опитай пак
-social.market.head Head Item
-social.market.back Back Item
-social.market.waist Waist Item
-social.market.face Face Item
-social.market.shoe Shoe Item
+social.market.head Вещ за глава
+social.market.back Вещ за тяло
+social.market.waist Вещ за торс
+social.market.face Лице
+social.market.shoe Oбувки
 social.market.pet Домашен любимец елементи
-social.market.wrist Wrist Item
-social.market.melee Melee Item
+social.market.wrist Вещ за китката
+social.market.melee Острие
 social.market.spray Спрей елементи
-social.market.dye Dye Item
-social.market.collectible Collectible Item
+social.market.dye Вещ за цветът на костюма
+social.market.collectible Колекционерски вещи
 social.market.none Няма намерени елементи
 social.market.login Трябва да сте свързани във вашият акаунт
-social.market.grace отов във {0}
-social.market.sort Filter/Sort
+social.market.grace Готов във {0}
+social.market.sort Филтриране/Сортиране
 social.market.filter Търсене
 social.market.sort2 Да сортира
 social.market.price.high Най-висока цена
-social.trading.submitting Submitting Offer...
+social.trading.submitting Изпращане на оферта...
 social.market.gift.amount Сума за подарък в
 social.market.fee.gift Без такса
 social.market.gift Подари KR
 social.market.gift.msg Остави съобщение
 respawn.auto Автоматично възстановяване в {0}
-custom.host.ranked Can't host match while in ranked.
+custom.host.ranked Не може да създадете мач, докато сте в класиране.
 funds.insufficient Недостатъчни средства
 funds.out Изглежда, че сте нямате повече Krunkies.
 custom.passcode.long Паролата е твърде дълга
-custom.passcode.input Enter Server Password to join
+custom.passcode.input Въведете парола на сървъра, за да се присъедините
 custom.tryagain Моля, опитайте отново.
 purchase.kr.success Добавени са {0} KR към вашия акаунт
 limited.purchase.ask Сте ли сигорни че искате да закупите [{0}] за {1} KR?
@@ -811,37 +811,37 @@ limited.purchase.success Добавен {0} към инвентара ви
 pretend.exit Натиснете [{0}] отново, за да излезете
 settings.loaded Настройките са заредени
 settings.loaded.none Няма намерени настройки
-account.login.required Must be logged in
-account.banned.hack This account has been banned for Hacking.
-account.banned.appeal If you want to appeal your ban, contact:
-account.delete You may request to delete your account, if the request is not cancelled within 14 days the account and all associated data will be permanently removed.
+account.login.required Трябва да сте влезли в вашият акаунт
+account.banned.hack Този акаунт е баниран за хакване.
+account.banned.appeal Ако искате да обжалвате банът си, свържете се с:
+account.delete Можете да поискате изтриване на вашия акаунт, ако заявката не бъде анулирана в рамките на 14 дни, акаунтът и всички свързани данни ще бъдат перманентно премахнати.
 account.delete.request Сте ли сигорни че искате да поискате изтриване на акаунт?
 account.delete.cancel Сте ли сигорни че искате да отмените изтриването на акаунта?
 spin.free.available БЕЗПЛАТНИ KR РАЗПОЛАГАЕМ!
 spin.free.claim Това завъртане е достъпно само веднъж на всеки 1 час
-spin.free.disable These Popups can be disabled in General Settings
+spin.free.disable Тези реклами могат да бъдат деактивирани в общите настройки
 mod.reset.0 Ще влезе в ефект след възраждането.
 mod.reset.1 Обектите на играта не се нулират
 windows.profile.picture Промяна на картината
 stats.assists Асистенции
-stats.nukes Nukes
+stats.nukes Бомби
 stats.melee Убийство с острие
-stats.fistkills Beatdowns
+stats.fistkills Разбивания
 stats.thrownkills Убийство с хвърляне на острие
 stats.headshots Изстрели в главата
 stats.wallbangs Удар през стена
 stats.crouches Свиване
 stats.sprays Поставени спрейове
 stats.kpd Полезни доклади
-windows.host.default.settings Enabling Default Settings allows for storing Player Progress and Highscores
-windows.host.default.commands *Host Commands are Disabled in this mode: /noclip /god /smite etc
-windows.host.rewards Enabling KR Rewards forces the Server to use Default Settings & allows players to earn KR from the map funds:
-windows.store.wheels.sub Try your luck and spin for a chance to win some new skins!
-windows.store.currency * Prices in USD can be converted to your local currency at an exchange rate defined by the payment provider or bank
-windows.store.creator Consider Support your favorite Content Creator by using a Creator Code
+windows.host.default.settings Активирането на настройките по подразбиране позволява съхраняване на напредъка на играча и най-високите резултати
+windows.host.default.commands *Командите на домакин са деактивирани в този режим: /Без клип /Режим бог /Порази и т.н
+windows.host.rewards Активирането на KR Награди принуждава сървъра да използва настройки по подразбиране и позволява на играчите да печелят KR от средствата на играта:
+windows.store.wheels.sub Опитайте късмета си и завъртете колелото за шанс да спечелите няколко нови вещи!
+windows.store.currency * Цените в щатски долари могат да бъдат конвертирани във вашата местна валута по обменен курс, определен от доставчика на плащане или банката
+windows.store.creator Помислете да подкрепите любимия си стриймър, като използвате код на създател
 windows.chall.customs Предизвикателствата не могат да бъдат изпълнени в персонализирани игри
-twitch.link Сигурни ли сте че искате да си свържете профила в twitch?
-twitch.unlink Сигурни ли сте че искате да прекратите връзката на вашия профила в twitch?
+twitch.link Сигурни ли сте че искате да си свържете профила в туич?
+twitch.unlink Сигурни ли сте че искате да прекратите връзката на вашия профила в туич?
 windows.clan.leave Сигурни ли сте че искате да напуснете клана?
 windows.clan.delete Сигурни ли сте че  да изтриете клана?
 windows.clan.kick Сигурни ли сте че искате да изгоните {0} от клана?
@@ -851,24 +851,24 @@ windows.playerlist.ban Сигурни ли сте че искате да заб�
 windows.playerlist.flag Сигурни ли сте че искате да сигнализирате {0}?
 windows.playerlist.unflag Сигурни ли сте че искате да премахнете вашият сигнал от {0}?
 windows.playerlist.punish Сигурни ли сте че искате да предприемете действия срещу {0}?
-item.view.open Open Model Viewer
+item.view.open Отворете преглед на модела
 item.view.more Повече информация
 item.sell.cant Вещът не може да бъде продаден.
-item.sell.cant.krunker Вещът не може да бъде продаден във krunker.
+item.sell.cant.krunker Вещът не може да бъде продаден във крънкер.
 item.sell.quick Сигурни ли сте, че искате да продавате бързо {0}?
 item.sell.destroy Сигурни ли сте, че искате да унищожите {0}?
 social.profile.stats Общи статистики
 social.profile.class Статистики на класа
 social.profile.sales Продажби
 social.profile.sales.market Пазарни продажби
-social.profile.skins Skins [{0}]
-social.profile.skins.none No published Skins from this user
+social.profile.skins Оръжия [{0}]
+social.profile.skins.none Няма публикувани оръжия от този потребител
 social.profile.games Игри [{0}]
 social.profile.games.none Никакви игри публикувани от този потребител
 social.profile.assets Вещи [{0}]
-social.profile.assets.none No published Assets from this user
-social.profile.mods Mods [{0}]
-social.profile.mods.none No published Mods from this user
+social.profile.assets.none Няма публикувани вещи от този потребител
+social.profile.mods Модове [{0}]
+social.profile.mods.none Няма публикувани модове от този потребител
 social.search Резултати от търсенето
 social.market.stats.rare Най-рядките предмети
 social.market.stats.circulation В циркулация
@@ -904,7 +904,7 @@ chall.name.w Спечелете {0} мача
 chall.name.d Умри {0} пъти
 chall.name.score Постигни {0} точки
 chall.name.dmg Направи {0} щети {1}
-chall.name.bzk Постигни {0} buzz kills {1}
-chall.name.cc Постигни {0} close-calls {1}
+chall.name.bzk Постигни {0} шумно обиство {1}
+chall.name.cc Постигни {0} близка смърт {1}
 chall.name.rk Направи {0} убийство отмъщение {1}
 `;
