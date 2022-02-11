@@ -64,7 +64,7 @@ You're also welcome to modify [CODEOWNERS](https://github.com/mty22/krunker.io-t
 Please click [here](https://github.com/mty22/krunker.io-translations/blob/main/CONTIRBUTORS.md) to view the full list of contributors!
 
 ## Rewards?
-KR rewards, Discord Trnaslator Contributor role, Krunker translator badge and Krunker account verification are typically awarded based on contribution levels and long term translation support.
+KR rewards, Discord Translator Contributor role, Krunker translator badge and Krunker account verification are typically awarded based on contribution levels and long term translation support.
 
 If you are curious, have a look at both [Payouts/reward guide](https://github.com/mty22/krunker.io-translations/blob/main/kr_payment_guide.txt) and [Payouts sent](https://github.com/mty22/krunker.io-translations/blob/main/kr_payouts.csv).
 
