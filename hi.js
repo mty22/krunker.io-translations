@@ -73,7 +73,7 @@ app.play.mobile खेलने के लिए टैप करें
 app.spectate.mobile स्पैक्टेट करे
 app.play.controller START दबाएं
 app.spectate.controller स्पैक्टेट करे
-purchase.error ERROR
+purchase.error एरर
 purchase.error.click यहां क्लिक करें  </a> और फिर से प्रयास करें!
 purchase.error.limit आप अपनी दैनिक लेनदेन सीमा को पार कर चुकें हैं
 settings.reset रीसेट
@@ -82,7 +82,7 @@ settings.import इम्पोर्ट
 settings.export ऐक्सपोर्ट
 settings.none कोई सेटिंग नहीं मिली
 settings.backup बैकअप सेटिंग्स
-settings.controls.change Keybinds
+settings.controls.change कीबइंडस 
 settings.controls.press किसी भी Key को दबाएं
 settings.local.header Localization <span id="requiresRestart"><span style="color: #eb5656">*</span> requires restart</span>
 settings.local.region डिफ़ॉल्ट क्षेत्र
@@ -301,11 +301,11 @@ settings.gameprivacy.streamer स्ट्रीमर मोड
 settings.gameprivacy.anon गुमनाम मोड
 settings.gameprivacy.hideGameTitle खेल शीर्षक छिपाएं
 settings.gameprivacy.showRegion क्षेत्र की जानकारी दिखाएं
-settings.gameprivacy.verified Verified Badge दिखाएं
-settings.gameprivacy.premium Premium Badge दिखाएं
-settings.gameprivacy.partner Partner Badge दिखाएं
-settings.gameprivacy.rank Ranked Badge दिखाएं
-settings.gameprivacy.custom Custom Badge दिखाएं
+settings.gameprivacy.verified Verified बैज दिखाएं
+settings.gameprivacy.premium Premium बैज दिखाएं
+settings.gameprivacy.partner Partner बैज दिखाएं
+settings.gameprivacy.rank Ranked बैज दिखाएं
+settings.gameprivacy.custom Custom बैज दिखाएं
 settings.gameplay.header गेमप्लेर
 settings.gameplay.gpSetts गेमप्ले सेटिंग्स
 settings.gameplay.sensitivityX X-संवेदनशीलता
@@ -448,8 +448,8 @@ settings.mods.damage.paste डैमेज ओवरलेस इमेज URL
 settings.mods.overlay खेल ओवरले इमेज
 settings.mods.overlay.paste खेल ओवरले इमेज URL
 settings.social.region रीजन स्टैट्स
-settings.social.bg Background Image
-settings.social.bg.paste Background Image URL
+settings.social.bg बैकग्राउंड चित्र
+settings.social.bg.paste बैकग्राउंड चित्र URL
 windows.settings.header खेल समायोजन
 windows.mail.header क्रंकर मेल
 windows.servers.header सर्वर
@@ -483,7 +483,7 @@ windows.loadout.pet पेट
 windows.loadout.wrist हाँथ
 windows.loadout.stat किलकार्ड स्टैटक
 windows.loadout.flag देश का झंडा
-windows.loadout.badge Custom Badge
+windows.loadout.badge Custom बैज
 windows.mods.drop यहाँ मॉड फ़ाइल ड्रॉप या क्लिक करें
 windows.mods.paste पेस्ट मॉड URL
 windows.mods.load मॉड लोड करें
@@ -789,7 +789,7 @@ social.market.wrist हाँथ की वस्तु
 social.market.melee चाकू
 social.market.spray स्प्रे
 social.market.dye डाई
-social.market.collectible Collectible Item
+social.market.collectible Collectible चीज
 social.market.none कोई आइटम नहीं खोजी गयी
 social.market.login लॉग इन होना आवश्यक है.
 social.market.grace {0} में तैयार
