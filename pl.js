@@ -91,14 +91,14 @@ settings.network.header Sieć
 settings.network.netRerouting Auto Routowanie (Wpływa na ping)
 settings.network.netRate Częstotliwość sieci (Hz)
 settings.network.lagComp Kompensacja lagów
-settings.network.optNet Optimized Networking
+settings.network.optNet Optymalizacja sieci
 settings.popup.header Wyskakujące okienka
 settings.experimental.header Eksperymentalne
-settings.experimental.holiday Holiday Effects
+settings.experimental.holiday Efekty Świąteczne
 settings.experimental.aimFreezeFix Napraw zamrożenie przy celowaniu
 settings.experimental.mouseFlickFix Napraw mouse-flicki
 settings.experimental.shaderRendering Renderowanie przez instancje
-settings.experimental.mouseAccel Mouse Acceleration
+settings.experimental.mouseAccel Przyspieszanie myszy (Zwiększ precyzję wskaźnika)
 settings.experimental.tbInterp TB Interpolation
 settings.client.header Klient
 settings.client.unlimitedFrames Nielimitowane FPS
@@ -111,7 +111,7 @@ settings.client.resetSettings Zresetuj ustawienia klienta
 settings.client.acceleratedCanvas Wspomagane sprzętowo renderowanie canvas
 settings.client.angleBackend Grafika ANGLE
 settings.client.colorProfile Profil kolorów
-settings.client.resourcePacks Resource Packs
+settings.client.resourcePacks Paczki zasobów
 settings.dev.header Programista
 settings.dev.forceUpdate Wymuś aktualizację skinów
 settings.dev.forceRegen Zawsze regeneruj graczy
@@ -173,7 +173,7 @@ settings.interface.dmgCol Kolor obrażeń
 settings.interface.critCol Kolor obrażeń krytycznych
 settings.interface.header Interfejs
 settings.interface.scale Skala interfejsu
-settings.interface.theme Game Theme
+settings.interface.theme Motyw gry
 settings.interface.ui Pokaż interfejs
 settings.interface.scoreboard Użyj starej tablicy wyników
 settings.interface.oldBrowser Użyj starej przeglądarki
@@ -206,7 +206,7 @@ settings.interface.hideNames.enemy Tylko dla przeciwników
 settings.interface.hideNames.all Dla wszystkich
 settings.interface.nametagStyle Styl nazw
 settings.interface.nametagOpac Przezroczystość nazw
-settings.interface.nametagScale Nametag Scale
+settings.interface.nametagScale Rozmiar nazw
 settings.interface.nametagStyle.health Tylko HP
 settings.interface.nametagStyle.name Tylko nazwa
 settings.interface.nametagStyle.nameLvl Tylko nazwa i poziom
@@ -217,13 +217,13 @@ settings.interface.healthColE Kolor HP przeciwników
 settings.interface.xpBarCol Kolor paska XP
 settings.interface.xpBarCol2 Kolor paska XP 2
 settings.interface.xpBarOpac Przezroczystość paska XP
-settings.medals.header Medals
-settings.medals.show Show Medals
-settings.medals.classic Classic Medals
-settings.medals.sound Play Medal Sounds
-settings.medals.scale Medal Scale
-settings.medals.xOff Medal X Offset
-settings.medals.yOff Medal Y Offset
+settings.medals.header Medale
+settings.medals.show Pokazuj medale
+settings.medals.classic Medale klasyczne
+settings.medals.sound Odtwarzaj dźwięki medali
+settings.medals.scale Rozmiar medali
+settings.medals.xOff Przesunięcie ikon medali w osi X
+settings.medals.yOff Przesunięcie ikon medali w osi Y
 settings.crosshair.header Celownik
 settings.crosshair.type Typ
 settings.crosshair.type.1 Dynamiczny
@@ -300,12 +300,12 @@ settings.gameprivacy.header Prywatność gry
 settings.gameprivacy.streamer Tryb streamera
 settings.gameprivacy.anon Tryb anonimowy
 settings.gameprivacy.hideGameTitle Ukryj tytuł gry
-settings.gameprivacy.showRegion Show Region Info
+settings.gameprivacy.showRegion Pokazuj informacje o regionie
 settings.gameprivacy.verified Wyświetlaj oznaczenie konta zweryfikowanego
 settings.gameprivacy.premium Wyświetlaj oznaczenie konta Premium
 settings.gameprivacy.partner Wyświetlaj oznaczenie konta partnerskiego
 settings.gameprivacy.rank Wyświetlaj oznaczenie rangi w trybie rankowanym
-settings.gameprivacy.custom Show Custom Badge
+settings.gameprivacy.custom Pokazuj niestandardową odznakę
 settings.gameplay.header Gra
 settings.gameplay.gpSetts Ustawienia rozgrywki
 settings.gameplay.sensitivityX Czułość X
@@ -342,7 +342,7 @@ settings.audio.ambient Głośność otoczenia
 settings.audio.voice Głośność głosu
 settings.audio.input Wejście audio/mikrofonu
 settings.audio.mic Głośność mikrofonu
-settings.audio.micquality Mic Quality
+settings.audio.micquality Jakość mikrofonu
 settings.audio.weps Głośność broni
 settings.audio.player Głośność graczy
 settings.audio.skin Głośność elementów kosmetycznych
@@ -459,7 +459,7 @@ windows.servers.hide Ukryj pełne
 windows.servers.priority Priorytet regionu
 windows.servers.online {0} w grze
 windows.servers.social {0} w Hubie
-windows.servers.editor {0} in Editor
+windows.servers.editor {0} w Edytorze
 windows.loadout.header Zmień wyposażenie
 windows.loadout.class Klasa
 windows.loadout.primary Broń główna
@@ -480,10 +480,10 @@ windows.loadout.color.chat Kolor nazwy w czacie
 windows.loadout.color.hair Kolor włosów
 windows.loadout.dye Barwnik
 windows.loadout.pet Zwierzak
-windows.loadout.wrist Wrist
+windows.loadout.wrist Nadgarstek
 windows.loadout.stat Statystyki przy zabiciu
 windows.loadout.flag Flaga kraju
-windows.loadout.badge Custom Badge
+windows.loadout.badge Niestandardowa odznaka
 windows.mods.drop upuść tu plik modyfikacji lub naciśnij
 windows.mods.paste Wklej URL modyfikacji
 windows.mods.load Załaduj modyfikacje
@@ -507,7 +507,7 @@ windows.controls.aim1 Celuj
 windows.controls.shoot1 Strzelaj
 windows.controls.inspect Pokaż broń
 windows.controls.spray Użyj spreju
-windows.controls.sprayWheel Spray Wheel (Hold)
+windows.controls.sprayWheel Kółko sprejów (Przytrzymaj)
 windows.controls.jump Skocz
 windows.controls.crouch Przyklęknij
 windows.controls.prim Główna broń
@@ -538,16 +538,16 @@ windows.controls.streak1 Seria 2
 windows.controls.streak2 Seria 3
 windows.controls.streak3 Seria 4
 windows.controls.streak4 Seria 5
-windows.controls.taunt0 Taunt (Psst)
-windows.controls.taunt1 Taunt (Whistle)
-windows.controls.taunt2 Taunt (Fart)
-windows.controls.taunt3 Taunt (Meme)
-windows.controls.taunt4 Taunt (WTF is This?)
-windows.controls.taunt5 Taunt (Right Now!)
+windows.controls.taunt0 Przynęta/drwina (Psst)
+windows.controls.taunt1 Przynęta/drwina (Gwizdanie)
+windows.controls.taunt2 Przynęta/drwina (Pierdnięcie)
+windows.controls.taunt3 Przynęta/drwina (Meme)
+windows.controls.taunt4 Przynęta/drwina (WTF is This?)
+windows.controls.taunt5 Przynęta/drwina (Teraz!)
 windows.controls.prop Wybierz przykrywę (przytrzymaj)
-windows.controls.propRand Select Random Prop
-windows.controls.propRot Toggle Rotation
-windows.controls.propRotR Reset Rotation
+windows.controls.propRand Wybierz losową przykrywę
+windows.controls.propRot Przełącz rotację
+windows.controls.propRotR Zresetuj rotację
 windows.controls.premium0 Noclip
 windows.controls.premium1 Tryb boga
 windows.controls.premium2 Zabij
@@ -611,7 +611,7 @@ windows.store.amount {0} KR na koncie
 windows.store.login aby kupować i odblokowywać nowe przedmioty w sklepie!
 windows.store.purchasing Kupowanie...
 windows.store.unboxed {0} odpakował {1}
-windows.store.found {0}{1} found
+windows.store.found {0}{1} znalazł
 windows.trade.header Handel
 windows.scope.header Wybierz lunetę
 windows.premium.header Premium
@@ -670,11 +670,11 @@ mod.error błąd modyfikacji!
 mod.loading ładowanie modyfikacji...
 mod.invalid błędny plik modyfikacji!
 matchmaker.full PEŁNA
-matchmaker.GameFull Game is full.
-matchmaker.NoServersMatchQuery GAME UPDATING
-matchmaker.InvalidGameId Game not found.
-matchmaker.NoAvailableServers Servers are at Max Capacity
-matchmaker.GameIssue Unknown Join Issue
+matchmaker.GameFull Gra pełna.
+matchmaker.NoServersMatchQuery GRA AKTUALIZUJE SIĘ
+matchmaker.InvalidGameId Gry nie znaleziono.
+matchmaker.NoAvailableServers Serwery są pełne
+matchmaker.GameIssue Nieznany błąd dołączania
 adblocker Wyłącz adblock aby otrzymywać darmowe KR.
 ad-failed Nie udało się załadować reklamy. Spróbuj ponownie.
 streamers.views {0} oglądających
@@ -728,7 +728,7 @@ server.config.thirdPerson Tryb trzecioosobowy
 server.config.requireCaptcha Wymagaj captchy
 server.config.nameTags Ukryj nazwy nad graczami
 server.config.kCams Kamery zabójstw
-server.config.aAnon Allow Anonymous
+server.config.aAnon Zezwalaj na korzystanie z trybu anonimowego
 server.config.noReload Bez przeładowywania
 server.config.private Prywatna gra
 server.config.krRewards Nagrody KR
@@ -785,11 +785,11 @@ social.market.waist Przedmiot na talię
 social.market.face Przedmiot na twarz
 social.market.shoe Przedmiot butów
 social.market.pet Przedmiot zwierzaka
-social.market.wrist Wrist Item
+social.market.wrist Przedmiot nadgarstka
 social.market.melee Przedmiot broni białej
 social.market.spray Przedmiot spreju
 social.market.dye Przedmiot barwnika
-social.market.collectible Collectible Item
+social.market.collectible Przedmiot kolekcjonerski
 social.market.none Nie znaleziono przedmiotów
 social.market.login Musisz być zalogowany.
 social.market.grace gotowy w {0}
@@ -834,9 +834,9 @@ stats.fistkills Zabójstwa w wyniku pobicia
 stats.thrownkills Zabójstwa w wyniku rzutu bronią białą
 stats.headshots Trafienia w głowę
 stats.wallbangs Trafienia przez ściany
-stats.crouches Crouches
+stats.crouches Przykucnięcia
 stats.sprays Użycia sprejów
-stats.kpd Helpful Reports
+stats.kpd Helpful Raporty
 windows.host.default.settings Włączenie domyślnych ustwaień pozwala na przechowywanie postępu graczy oraz najwyższych wyników
 windows.host.default.commands Komendy hosta są wyłączone w tym trybie: /noclip /god /smite itp
 windows.host.rewards Włączenie nagród KR zmusza serwer do używania domyślnych ustawień i pozwala graczom zdobywać KR z funduszy mapy:
@@ -858,9 +858,9 @@ windows.playerlist.punish Czy jesteś pewien, że chesz podjąć akcję dotyczą
 item.view.open Otwórz przeglądarkę modeli
 item.view.more Więcej informacji
 item.sell.cant Przedmiot nie może zostać sprzedany.
-item.sell.cant.krunker Item cant be sold on krunker.
+item.sell.cant.krunker Przedmiot nie może być sprzedany w krunker.
 item.sell.quick Czy na pewno chcesz szybko sprzedać {0}?
-item.sell.destroy Are you sure you want to Destroy {0}?
+item.sell.destroy Czy na pewno chcesz zniszczyć {0}?
 social.profile.stats Statystyki ogólne
 social.profile.class Statystyki klas
 social.profile.sales Sprzedaż
@@ -888,27 +888,27 @@ social.trades.message WŁĄCZ WIADOMOŚĆI O HANDLU W USTAWIENIACH
 social.trades.warning Nie dostaniesz żadnych przedmiotów z tej wymiany!
 social.trades.accept Czy na pewno chcesz przyjąć tę ofertę?
 stats.airdrops Paczki KR
-stats.airdrops.stolen Airdrops Stolen
+stats.airdrops.stolen Skradzione paczki KR
 settings.quality.flapAnim Animowana klapka snajperska
-chall.name.hs Get {0} headshots {1}
-chall.name.ns Get {0} no-scopes {1}
-chall.name.ls Get {0} legshots {1}
-chall.name.tmk Get {0} throwing knife kills {1}
-chall.name.fb Get {0} first bloods {1}
-chall.name.mk Get {0} melee kills {1}
-chall.name.fk Get {0} fist kills {1}
-chall.name.qs Get {0} quickscopes {1}
-chall.name.wb Get {0} wallbangs {1}
-chall.name.airk Get {0} mid-air kills {1}
-chall.name.lns Get {0} longshots {1}
-chall.name.tk Get {0} turbo kills {1}
-chall.name.drk Get {0} drift kills {1}
-chall.name.kstk Get a {0} killstreak {1}
-chall.name.w Win {0} matches
-chall.name.d Die {0} times
-chall.name.score Get {0} score
-chall.name.dmg Deal {0} damage {1}
-chall.name.bzk Get {0} buzz kills {1}
-chall.name.cc Get {0} close-calls {1}
-chall.name.rk Deal {0} revenge kills {1}
+chall.name.hs Zdobądź {0} zabójstw przez strzał w głowę {1}
+chall.name.ns Zdobądź {0} zabójstw bez przybliżania snajperką {1}
+chall.name.ls Zdobądź {0} zabójstw przez strzał w nogę {1}
+chall.name.tmk Zdobądź {0} zabójstw, rzucając bronią białą {1}
+chall.name.fb Zdobądź {0} pierwszych zabójstw w grze {1}
+chall.name.mk Zdobądź {0} zabójstw bronią białą {1}
+chall.name.fk Zdobądź {0} zabójstw pięściami {1}
+chall.name.qs Zdobądź {0} zabójstw przy szybkim przybliżeniu snajperki {1}
+chall.name.wb Zdobądź {0} zabójstw, strzelając przez ścianę {1}
+chall.name.airk Zdobądź {0} zabójstw w powietrzu {1}
+chall.name.lns Zdobądź {0} zabójstw z daleka {1}
+chall.name.tk Zdobądź {0} zabójstw, poruszając się z wysoką szybkością {1}
+chall.name.drk Zdobądź {0} zabójstw podczas poślizgu {1}
+chall.name.kstk Zdobądź serię {0} zabóstw {1}
+chall.name.w Wygraj {0} meczów
+chall.name.d Zgiń {0} razy
+chall.name.score Zdobądź {0} punktów
+chall.name.dmg Zadaj {0} obrażeń {1}
+chall.name.bzk Zakończ {0} serii zabójstw innych graczy {1}
+chall.name.cc Zdobądź {0} zabójstw, prawie samemu ginąc {1}
+chall.name.rk Zdobądź {0} zabójstw w odwecie {1}
 `;
