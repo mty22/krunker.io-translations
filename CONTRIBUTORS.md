@@ -108,6 +108,6 @@ If you contributed in the past and can't find your name below (or simply wish to
 -- [xhg4](https://krunker.io/social.html?p=profile&q=xhg4) (DescriptionIcy#5231)
 -- [pamglint](https://krunker.io/social.html?p=profile&q=pamglint)
 -- [-isori](https://krunker.io/social.html?p=profile&q=-Isori)
--- .[JestemKaktus](https://krunker.io/social.html?p=profile&q=JestemKaktus) (KaktusDev#3612)
+-- [JestemKaktus](https://krunker.io/social.html?p=profile&q=JestemKaktus) (KaktusDev#3612)
 -- Chonker1337
 -- stdavious
