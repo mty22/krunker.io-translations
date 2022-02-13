@@ -82,8 +82,10 @@ settings.import ধুকান
 settings.export বের করুন
 settings.none কোনো সেটিংস পাওয়া যায়নি
 settings.backup ব্যাকআপ সেটিংস
-settings.controls.কীবাইন্ড পরিবর্তন করুন
+settings.controls.change Keybinds
 settings.controls.press যেকোনো বোতাম চাপ দিন
+settings.controls.leaderboard InGame Leaderboard Trigger Type
+settings.controls.voicechat Voicechat Trigger Type
 settings.local.header Localization <span id="requiresRestart"><span style="color: #eb5656">*</span> requires restart</span>
 settings.local.region ডিফল্ট অঞ্চল
 settings.local.lang ভাষা
@@ -92,6 +94,7 @@ settings.network.netRerouting অটো রাউটিং (পিংকে প�
 settings.network.netRate Network Rate (Hz)
 settings.network.lagComp ল্যাগ ক্ষতিপূরণ
 settings.network.optNet অপ্টিমাইজড নেটওয়ার্কিং
+settings.network.quickplay Force Quickplay
 settings.popup.header পপআপ
 settings.experimental.header পরীক্ষামূলক
 settings.experimental.holiday ছুটির প্রভাব
@@ -646,6 +649,12 @@ windows.secondary.unlocked Unlocked
 windows.secondary.customOnly Customs Only
 windows.secondary.premiumOnly Premium Only
 windows.secondary.req Req lvl {0}
+windows.skins.unlocked Unlocked
+windows.skins.customOnly Customs Only
+windows.skins.premiumOnly Premium Only
+windows.skins.classOnly Req {0}
+windows.skins.req Req lvl {0}
+windows.skins.default Default Skin
 windows.advertise.header Advertise
 windows.support.header Support
 windows.players.header Player List
@@ -911,4 +920,63 @@ chall.name.dmg Deal {0} damage {1}
 chall.name.bzk Get {0} buzz kills {1}
 chall.name.cc Get {0} close-calls {1}
 chall.name.rk Deal {0} revenge kills {1}
+event.doubleXP 2x Class XP enabled for this match
+ranked.join Joined Ranked Match. Abandoning a match will result in a temporary ban
+ranked.progress Game in Progress
+ranked.team Please join a Team
+ranked.switch Can't switch while in-game
+ranked.spectate Spectating Disabled in Ranked
+ranked.login Login to Spawn
+ranked.sync Missing Sync Data
+ranked.team.spawn Please join a Team to Spawn
+ranked.class.spawn Please select a Class to Spawn
+modes.round.win Your Team has secured this round
+modes.round.loss This round is no longer winnable
+modes.round.switch Switching Sides. Prepare for the next Round
+modes.trade.success Trade Successful
+modes.prophunt.limit [Prop Hunt] You are out of prop switches
+modes.prophunt.left [Prop Hunt] You have {0} switches remaining
+modes.prophunt.rotation.on [Prop Hunt] Rotation Enabled
+modes.prophunt.rotation.off [Prop Hunt] Rotation Disabled
+modes.prophunt.rotation.reset [Prop Hunt] Rotation reset.
+commands.login Login to use this command
+commands.connected {0} connected, {1} in menu
+commands.host {0} is the current Host.
+commands.noclip.on Noclip - Enabled
+commands.noclip.off Noclip - Disabled
+commands.god.on God mode - Enabled
+commands.god.off God mode - Disabled
+commands.god.on.other God mode - Enabled for {0}
+commands.god.off.other God mode - Disabled for {0}
+commands.smite.on Smite - Enabled
+commands.smite.off Smite - Disabled
+commands.smite.on.other Smite - Enabled for {0}
+commands.smite.off.other Smite - Disabled for {0}
+commands.perk Gave {0} {1}
+commands.maxperk Gave {0} MAX {1}
+commands.unlimited.on Unlimited Ammo - Enabled
+commands.unlimited.off Unlimited Ammo - Disabled
+commands.unlimited.on.other Unlimited Ammo - Enabled for {0}
+commands.unlimited.off.other Unlimited Ammo - Disabled for {0}
+commands.spraybypass.on Unlimited Ammo - Enabled
+commands.spraybypass.off Unlimited Ammo - Disabled
+commands.spraybypass.on.other Unlimited Ammo - Enabled for {0}
+commands.spraybypass.off.other Unlimited Ammo - Disabled for {0}
+commands.suspect.invalid Invalid suspect info
+commands.suspect.menu Suspect in menu
+commands.suspect.left Suspect has left
+commands.suspect.found Suspect Found. Spectating: {0}, Spawned: {1}, Name: {2}
+commands.forfeit.next Must play atleast 1 round
+commands.forfeit.wait Wait till match starts to forfeit
+commands.forfeit.later Please try again in a few seconds
+commands.forfeit.voted You already voted.
+commands.forfeit.limit You can only start one vote per game
+commands.forfeit.ended Forfeiting Game
+commands.forfeit.ended.other Other Team Forfeited
+server.message.join {0} joined the game
+server.message.left {0} left the game
+server.message.kicked {0} was kicked
+server.message.banned {0} was banned
+server.message.votekicked {0} was vote kicked
+server.message.arrested {0} was arrested by the K.P.D
 `;
