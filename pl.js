@@ -610,8 +610,8 @@ windows.store.unlock Odblokuj nowe skiny i przedmioty
 windows.store.amount {0} KR na koncie
 windows.store.login aby kupować i odblokowywać nowe przedmioty w sklepie!
 windows.store.purchasing Kupowanie...
-windows.store.unboxed {0} odpakował {1}
-windows.store.found {0}{1} znalazł
+windows.store.unboxed {0} unboxed {1}
+windows.store.found {0}{1} found
 windows.trade.header Handel
 windows.scope.header Wybierz lunetę
 windows.premium.header Premium
