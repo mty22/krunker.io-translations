@@ -1,5 +1,5 @@
 module.exports = `
-menu.btn.ranked ranggo
+menu.btn.ranked Ranked
 menu.btn.shop Tindahan
 menu.btn.social Komunidad
 menu.btn.maps Laro at Mapa
@@ -17,8 +17,8 @@ generic.none Wala
 generic.connecting KUMOKONEKTA...
 generic.select Pumili
 generic.delete Tanggalin
-generic.save Mag-save
-generic.load Mag-Load
+generic.save I-save
+generic.load I-Load
 generic.search Humanap
 generic.leave Umalis
 generic.default Default
@@ -34,43 +34,43 @@ generic.off Off
 generic.defeat PAGKATALO!
 generic.victory TAGUMPAY! 
 generic.matchover Pagtatapos ng laro
-generic.matchaband Inabandonang Paglaro
+generic.matchaband Inabandonang paglaro
 generic.follow Follow
 generic.unfollow I-Unfollow
-generic.followers Mga Tagasunod
-generic.following Mga Sinusunod
-generic.games Mga Laro
+generic.followers Mga Tagahanga
+generic.following Mga Hinahangaan
+generic.games Mga laro
 generic.wins Panalo
 generic.lose Pagkatalo 
 generic.clan Samahan
-generic.games.played Bilang ng nalaro
-generic.games.won Mga Panalo
-generic.games.lost  Mga Pagtalo
+generic.games.played Blg. ng nalaro
+generic.games.won Mga panalo
+generic.games.lost  Mga pagtalo
 generic.timep Oras na Naglaro
 generic.kills Mga Pinatay
 generic.deaths Mga Pagkamatay
 generic.kdr KDR
 generic.time Oras
-generic.logout Pag-Logout
-generic.logout.sessions Pag-logout sa lahat ng sesyon
-generic.username Username
+generic.logout Mag-Logout
+generic.logout.sessions Mag-logout sa lahat ng sesyon
+generic.username Username/Pangalan
 generic.password  Illagay ang password
-generic.register Mag-parehistro
+generic.register Magparehistro
 generic.login Mag log-in
 generic.accuracy Accuracy
 player.waiting Naghihintay ng mga manlalaro
-player.died Ikaw ay namatay
+player.died Ika'y namatay
 player.killed Pinatay ni {0} si {1}
-player.killstreak si {0} ay may {1} Killstreak
-player.inactive Tanggal dahil inaktibo
+player.killstreak {0} on a {1} Kill Streak
+player.inactive Tinanggal sa laro dahil inaktibo
 player.disconnect HINDI MAKAKONEKTA
 timer.end Susunod na laro sa {0}
 leaderboard.empty Walang tao sa lobby
 popup.checkpoint Checkpoint!
-app.play Pindutin upang maglaro
-app.spectate Pindutin upang manood
-app.play.mobile PINDUTIN UPANG MAKAPAGLARO
-app.spectate.mobile TAP UPANG MAPANOOD
+app.play PINDUTIN UPANG MAGLARO
+app.spectate PINDUTIN PARA MAPANOOD
+app.play.mobile I-TAP UPANG MAGLARO
+app.spectate.mobile I-TAP PARA MAPANOOD
 app.play.controller PINDUTIN ang SIMULA
 app.spectate.controller MAGSIMULANG MANOOD
 purchase.error May naganap na error
@@ -80,11 +80,11 @@ settings.reset Mag-reset
 settings.reset.confirm Sigurado ka bang mag-reset ng inyong settings?
 settings.import iangkat
 settings.export iluwas
-settings.none Walang nahanap na mga settings
-settings.backup Mga back-up settings
-settings.controls.change Lokal na Rehiyon 
-settings.controls.press Pindutin ang anumang key
-settings.local.header Localization <span id="requiresRestart"><span style="color: #eb5656">*</span> nangangailangan ng restart</span>
+settings.none Walang Nahanap na Mga settings
+settings.backup Mga Back-up Settings
+settings.controls.change Palitan ang Keybinds
+settings.controls.press Pindutin ang Anumang Key
+settings.local.header Lokalisasyon <span id="requiresRestart"><span style="color: #eb5656">*</span> nangangailangan ng restart</span>
 settings.local.region Default na Rehiyon
 settings.local.lang Wika
 settings.network.header Network
@@ -93,7 +93,7 @@ settings.network.netRate Network Rate sa (Hz)
 settings.network.lagComp Paghabol sa Lag
 settings.network.optNet Optimized Networking
 settings.popup.header Mga Popups
-settings.experimental.header Experimental na Header
+settings.experimental.header Experimental
 settings.experimental.holiday Holiday Effects
 settings.experimental.aimFreezeFix Pag-ayos ng Aim Freeze
 settings.experimental.mouseFlickFix Pag-ayos ng Mouse Flick
@@ -106,40 +106,40 @@ settings.client.gameCap Record ng Laro
 settings.client.experimental Experimental Features
 settings.client.discordRPC RPC sa Discord
 settings.client.resourceSwapper Pagpalit ng Resources
-settings.client.clearCache I-clear ang Cache
-settings.client.resetSettings I-reset ang Settings ng Kliyent
-settings.client.acceleratedCanvas Accelerated ang Canvas
-settings.client.angleBackend ANGLE Graphics ang Backend
+settings.client.clearCache I-clear Ang Cache
+settings.client.resetSettings I-reset Ang Settings ng Kliyent
+settings.client.acceleratedCanvas Accelerated Ang Canvas
+settings.client.angleBackend ANGLE Graphics Ang Backend
 settings.client.colorProfile Profile ng Kulay
 settings.client.resourcePacks Resource Packs
 settings.dev.header Sa Developer
-settings.dev.forceUpdate Sapilitang I-Update ang mga skins
-settings.dev.forceRegen Laging Regenerate ang Player
-settings.dev.extraBan Impormasyon ukol sa Ban
+settings.dev.forceUpdate Sapilitang I-Update Ang Mga skins
+settings.dev.forceRegen Laging Regenerate Ang Player
+settings.dev.extraBan Impormasyon Ukol sa Ban
 settings.chat.header Usapan o Chat
-settings.chat.chat Ipakita ang Chat Box
+settings.chat.chat Ipakita Ang Chat Box
 settings.chat.chat.all Palagi
-settings.chat.chat.focus Focus kapag binibigyang-pansin
-settings.chat.messages Ipakita ang Mga mensahe ng Player
-settings.chat.unboxings Ipakita ang Mga Unboxing
-settings.chat.chatOp Opacity ng chat
+settings.chat.chat.focus Focus Kapag Binibigyang-pansin
+settings.chat.messages Ipakita Ang Mga Mensahe ng Player
+settings.chat.unboxings Ipakita Ang Mga Unboxing
+settings.chat.chatOp Opacity ng Chat
 settings.chat.chatBGOp Chat BG Opacity
 settings.chat.chatHeight Tangkad ng Chat
-settings.chat.chatTimer Orasan ng pag-chat
+settings.chat.chatTimer Orasan ng Pag-chat
 settings.chat.chatTextOutline Chat Text Outline
-settings.chat.chatFilter Pagsala at Pagtakip ng kabastusan at hindi nais na salita
+settings.chat.chatFilter Pagtakip ng Kabastusan at Bulgar na Salita
 settings.quality.header Kalidad 
-settings.quality.updRate Limitasyon sa Frame rate
+settings.quality.updRate Limitasyon sa Frame Rate
 settings.quality.rendDst Distansya ng Pag-render
 settings.quality.res Kalinawan
 settings.quality.part Mga Tinga
-settings.quality.mapDet Mga detalye ng Mapa
-settings.quality.noTex Walang tekstura
-settings.quality.partdist Distansiya ng mga Particle
+settings.quality.mapDet Mga Detalye ng Mapa
+settings.quality.noTex Walang Tekstura
+settings.quality.partdist Distansiya ng Mga Particle
 settings.quality.renderdist Distansya ng Pag-render
 settings.quality.reflection Kalidad ng Repleksyon
-settings.quality.antiAlias Anti aliasing
-settings.quality.shadows Mga anino
+settings.quality.antiAlias Anti-aliasing
+settings.quality.shadows Mga Anino
 settings.quality.softShad Mahinhin na Anino
 settings.quality.highResShad Malinaw na Anino
 settings.quality.shadowsDynamic Mga Dynamic na Shadow 
@@ -149,8 +149,8 @@ settings.quality.mflash Pagputok ng Muzzle
 settings.quality.flap Takip ng Sniper
 settings.quality.lowSpec Mababang Spec
 settings.quality.ambient Ambient na Shading
-settings.quality.ambientOld Lumang pag-shade (kung posible)
-settings.quality.textureAnim Buhay na animasyon ngTextura
+settings.quality.ambientOld Lumang Pag-shade (kung posible)
+settings.quality.textureAnim Animasyon ng Textura
 settings.quality.objectAnim Mga Animasyong Bagay
 settings.quality.screenShake Pag-alog ng Screen
 settings.quality.weaponShine Kintab ng Armas
@@ -166,42 +166,42 @@ settings.post.bloomStrength Lakas ng Pagningning
 settings.post.bloomRadius  Lawak ng Pagningning
 settings.post.ssao SSAO
 settings.post.ssaoRadius Lawak ng SSAO
-settings.interface.hitInd Ipakita ang Mga Indikator ng Hit
+settings.interface.hitInd Ipakita Ang Mga Indikator ng Hit
 settings.interface.hitColor Kulay ng Indikator ng Hit
-settings.interface.dmg Ipakita ang pinsala (sa health ng manlalaro)
-settings.interface.dmgCol Kulay ng pinsala sa health ng manlalaro
+settings.interface.dmg Ipakita Ang Damage sa Manlalaro
+settings.interface.dmgCol Kulay ng Damage sa Manlalaro
 settings.interface.critCol Kulay ng Kritikal
 settings.interface.header Itsura ng Interface
 settings.interface.scale  Sukat ng UI
-settings.interface.theme Tema ng UI
-settings.interface.ui Ipakita ang UI
+settings.interface.theme Game Theme
+settings.interface.ui Ipakita Ang UI
 settings.interface.scoreboard Gumamit ng Lumang Scoreboard
 settings.interface.oldBrowser Gumamit ng Lumang Browser
-settings.interface.rarityanim Tigilan ang Animasyon ng Rarity
-settings.interface.showPfp Ipakita ang Mga Larawan sa Profile
-settings.interface.showTradeMsg Ipakita ang Mga Mensahe sa Kalakal
+settings.interface.rarityanim Tigilan Ang Animasyon ng Rarity
+settings.interface.showPfp Ipakita Ang Mga Larawan sa Profile
+settings.interface.showTradeMsg Ipakita mga Mensahe sa Pagkalakal
 settings.interface.hideNonTrade Itago ang mga kagamitang hindi pwedeng ikalakal
 settings.interface.hp Mga Dynamic na HP Bar
 settings.interface.dmgScale Lawak ng Pinsala 
-settings.interface.killf Ipakita kung sino ang pumatay sa kapwa-manlalaro
-settings.interface.ping Ipakita ang Ping
-settings.interface.net-stats Ipakita ang Mga Network Stats
-settings.interface.fps Ipakita ang FPS
-settings.interface.deaths Ipakita ang bilang na namatay ang Manlalaro
-settings.interface.kd Ipakita ng pag-iiba sa bilang ng pinatay at namatay
-settings.interface.kills Ipakita ang Bilang ng Kalabang Pinatay
-settings.interface.streak Ipakita ang Walang-tigil na Sunod-Sunod na pagpatay
-settings.interface.score Ipakita ang Bilang ng Iskor
-settings.interface.spectators Ipakita ang Bilang ng nanonood o sumasaksi sa laro
-settings.interface.speed Ipakita ang bilis ng paggalaw
+settings.interface.killf Ipakita Ang Talaan ng Mga Namamatay
+settings.interface.ping Ipakita Ang Ping
+settings.interface.net-stats Ipakita Ang Mga Network Stats
+settings.interface.fps Ipakita Ang FPS
+settings.interface.deaths Ipakita Ang Beses Na Namatay
+settings.interface.kd Ipakita ANG Pag-iiba sa Napatay/Pinatay
+settings.interface.kills Ipakita Ang Blg. ng Kalabang Napatay
+settings.interface.streak Ipakita Ang Killstreak
+settings.interface.score Ipakita Ang Puntos o Iskor
+settings.interface.spectators Ipakita Ang Bilang ng Mga Nanonood
+settings.interface.speed Ipakita Ang Bilis ng Paggalaw
 settings.interface.speedOffX Bilis ng X Offset
 settings.interface.speedOffY Bilis ng Y Offset
 settings.interface.speedOpacity Speed Opacity
 settings.interface.speedScale Scale ng Bilis
 settings.interface.speedColor Kulay ng Bilis (Kasalukuyan)
 settings.interface.speedColorMax Kulay ng Bilis (Max)
-settings.interface.hideNames ipakita ang Pangalan
-settings.interface.hideNames.team Kasamahan Lamang
+settings.interface.hideNames Ipakita Ang Pangalan
+settings.interface.hideNames.team Kakampi Lamang
 settings.interface.hideNames.enemy Kalaban Lamang
 settings.interface.hideNames.all Lahat ng Pangalan
 settings.interface.nametagStyle Estilo ng Pangalan
@@ -209,7 +209,7 @@ settings.interface.nametagOpac Diin ng Pangalan
 settings.interface.nametagScale Nametag Scale
 settings.interface.nametagStyle.health Health Lamang
 settings.interface.nametagStyle.name Pangalan Lamang
-settings.interface.nametagStyle.nameLvl Pangalan at antas lamang
+settings.interface.nametagStyle.nameLvl Pangalan at Antas Lamang
 settings.interface.nametagStyle.all Lahat ng Impormasyon
 settings.interface.healthNum Bilang ng Health
 settings.interface.healthColT Kulay ng Health
@@ -218,10 +218,10 @@ settings.interface.xpBarCol Kulay ng XP Bar
 settings.interface.xpBarCol2 XP Bar Color 2
 settings.interface.xpBarOpac Diin ng XP Bar
 settings.medals.header Medalya
-settings.medals.show Ipakita ang mga Medalya
-settings.medals.classic Mga Lumang Medalya
-settings.medals.sound Parinig ang mga tunog mula sa Medalya
-settings.medals.scale Medal Scale
+settings.medals.show Ipakita Ang Mga Medalya
+settings.medals.classic Mga Klasikong Medalya
+settings.medals.sound Pagpatunog Mula Sa Medalya
+settings.medals.scale Sukat ng Medalya
 settings.medals.xOff Medal X Offset
 settings.medals.yOff Medal Y Offset
 settings.crosshair.header Crosshair
@@ -238,9 +238,9 @@ settings.crosshair.style.2 Ma-diin na Parisukat
 settings.crosshair.style.3 Hollow na Parisukat
 settings.crosshair.style.4 Ma-diin na Bilog
 settings.crosshair.image Larawan ng Crosshair
-settings.crosshair.image.paste I-dikit ang Larawan ng Crosshair
-settings.crosshair.image.width Image Width
-settings.crosshair.image.height Image Height
+settings.crosshair.image.paste I-paste ang Larawan ng Crosshair
+settings.crosshair.image.width Lapad ng Larawan
+settings.crosshair.image.height Taas ng Larawan
 settings.crosshair.always Laging ipakita
 settings.crosshair.color Kulay
 settings.crosshair.shadow.color Kulay ng Anino
@@ -264,8 +264,8 @@ settings.crosshairm.style.3 Parisukat
 settings.crosshairm.style.4 Punong Parisukat
 settings.crosshairm.image Image
 settings.crosshairm.image.paste Crosshair Image
-settings.crosshairm.image.width Image Width
-settings.crosshairm.image.height Image Height
+settings.crosshairm.image.width Lapad ng Crosshair
+settings.crosshairm.image.height Taas ng Crosshair
 settings.crosshairm.always Ipakita Palagi
 settings.crosshairm.color Kulay
 settings.crosshairm.shadow.color Shadow Color
@@ -274,8 +274,8 @@ settings.crosshairm.size Laki
 settings.crosshairm.thickness Thickness
 settings.crosshairm.gap Gap
 settings.crosshairm.dot Tuldok
-settings.crosshairm.opacity.use Use Custom Opacity
-settings.crosshairm.opacity.custom Custom Opacity
+settings.crosshairm.opacity.use Gumamit ng Custom Opacity
+settings.crosshairm.opacity.custom Ang Custom Opacity
 settings.hitmarker.header Hitmarker
 settings.hitmarker.color Kulay
 settings.hitmarker.kcolor Tanggalin ang Kulay
@@ -301,12 +301,12 @@ settings.gameprivacy.streamer Mode ng Streamer
 settings.gameprivacy.anon Anonymous Mode
 settings.gameprivacy.hideGameTitle Itago ang Pamagat ng Laro
 settings.gameprivacy.showRegion Show Region Info
-settings.gameprivacy.verified Ipakita - Verification Badge
-settings.gameprivacy.premium Ipakita - Premium Badge
-settings.gameprivacy.partner Ipakita - Partnered Badge
-settings.gameprivacy.rank Ipakita - Ranked Badge
-settings.gameprivacy.custom Ipakita - Custom Badge
-settings.gameplay.header Gameplay
+settings.gameprivacy.verified Ipakita: Verification Badge
+settings.gameprivacy.premium Ipakita: Premium Badge
+settings.gameprivacy.partner Ipakita: Partnered Badge
+settings.gameprivacy.rank Ipakita: Ranked Badge
+settings.gameprivacy.custom Ipakita: Custom Badge
+settings.gameplay.header Sa Laro
 settings.gameplay.gpSetts Settings sa Gameplay
 settings.gameplay.sensitivityX X Sensitivity
 settings.gameplay.sensitivityY Y Sensitivity
@@ -348,7 +348,7 @@ settings.audio.player Bolyum ng Player
 settings.audio.skin Bolyum ng Manlalaro
 settings.audio.ui UI Bolyum ng UI
 settings.audio.asset Bolyum ng Asset
-settings.audio.dialogue Bolyum ng dialogo
+settings.audio.dialogue Bolyum ng diyalogo
 settings.viewmodel.header Tingnan ang Modelo
 settings.viewmodel.vmSetts Settings ng View Model
 settings.viewmodel.fov Field of View (Sakop ng nakikita)
@@ -357,11 +357,11 @@ settings.viewmodel.bobbing Pagtalbog ng Armas
 settings.viewmodel.leaning Pagsandal ang Armas
 settings.viewmodel.show.primary Ipakita ang Pangunahing Armas
 settings.viewmodel.show.secondary Ipakita ang Sekundarya
-settings.viewmodel.roundArms Pa-silindro na braso
-settings.viewmodel.show.melee Ipakita ang Patalim
-settings.viewmodel.show.ads Itago ang armas kapag naka-ADS
-settings.viewmodel.toggleAim i-toggle ang pag-aim
-settings.viewmodel.show.hands Ipakita ang Kamay
+settings.viewmodel.roundArms Pa-silindro na Braso
+settings.viewmodel.show.melee Ipakita Ang Patalim
+settings.viewmodel.show.ads Itago Ang Armas Kapag naka-ADS
+settings.viewmodel.toggleAim I-toggle Ang Pag-aim
+settings.viewmodel.show.hands Ipakita Ang Kamay
 settings.viewmodel.leftHand Kaliwete
 settings.viewmodel.aimAnim Animasyon ng Pag-Aim 
 settings.viewmodel.rot Rotasyon ng Armas 
@@ -374,12 +374,12 @@ settings.viewmodel.yOffADS Y Offset ng Armas
 settings.viewmodel.adsFovMlt Lakas ng ADS FOV
 settings.viewmodel.toggleADS Toggle Weapon ADS
 settings.editing.header Pag-edit
-settings.editing.health.high HUD kapag Health High
-settings.editing.health.low HUD kapag Health Low
-settings.editing.speedLines Mga Linyang pakitang-bilis
-settings.editing.spdLinesCol Kulay ng mga Linyang pakitang-bilis
-settings.editing.score.color kulay ng popup na puntos
-settings.editing.score.show ipakita ang popup na puntos
+settings.editing.health.high HUD Kapag Maraming Health
+settings.editing.health.low HUD Kapag Konti ang Health
+settings.editing.speedLines Mga Linyang Pakitang-bilis
+settings.editing.spdLinesCol Kulay ng Mga Linyang Pakitang-bilis
+settings.editing.score.color kulay ng Popup na Puntos
+settings.editing.score.show ipakita ang Popup na Puntos
 settings.editing.score.scale I-scale ng Puntos 
 settings.editing.score.shadow Anino ng Puntos
 settings.editing.scoreOffX Posisyon ng Pop-Up sa X axis
@@ -399,9 +399,9 @@ settings.editing.progm.shadow Anino ng Charge Bar
 settings.editing.progmOffX Offset ng Charge Bar
 settings.editing.progmOffY Offset ng Charge Bar
 settings.editing.progmRot Rotasyon ng Charge Bar
-settings.editing.saturation Saturasyon sa loob ng laro
+settings.editing.saturation Saturasyon sa Loob ng Laro
 settings.editing.menuSaturation Saturation sa UI
-settings.editing.hue Kulay sa loob ng laro
+settings.editing.hue Kulay Sa Loob ng laro
 settings.editing.menuHue Kulay ng Hue sa UI
 settings.editing.vignette Vignette
 settings.editing.feedLimit Limitasyon ng Killfeed
@@ -416,7 +416,7 @@ settings.shaders.header Mga Input ng Shader
 settings.mods.header Modipikasyon
 settings.mods.load Kasalukuyang Ginagamit na Mods
 settings.mods.logo Payagan ang Mga Pagbabago sa Logo
-settings.mods.auto Awtomatik I-load ang mga Mods
+settings.mods.auto Awtomatik I-load Ang Mga Mods
 settings.mods.borders Mga Hangganan ng Saklaw
 settings.mods.borderCol Kulay ng Hangganan ng Saklaw
 settings.mods.borderOpac Opacity ng Hangganan ng Scope
@@ -458,7 +458,7 @@ windows.servers.host Mag-host ng Laro
 windows.servers.hide Itago
 windows.servers.priority Prayoridad ng Rehiyon
 windows.servers.online {0} Sa laro
-windows.servers.social {0} online sa Komunidad
+windows.servers.social {0} Online sa Komunidad
 windows.servers.editor {0} Sa Editor
 windows.loadout.header Ayusin ang Loadout
 windows.loadout.class Mga Klase
@@ -484,30 +484,30 @@ windows.loadout.wrist Pulsuhan
 windows.loadout.stat Stat sa Killcard
 windows.loadout.flag Bandilang Pambansa
 windows.loadout.badge Custom Badge
-windows.mods.drop ilagay ang file ng mod dito o mag-click
-windows.mods.paste Ipaste ang Mod URL
+windows.mods.drop Ilagay ang file ng mod dito o i-click
+windows.mods.paste Ipaste Ang Mod URL
 windows.mods.load Mag-load ng Mod
 windows.mods.none Walang nahanap na Mod
 windows.mods.header Manager ng Mod
 windows.mods.guide Patnubay sa Mod
 windows.mods.list Listahan ng Mods
 windows.mods.load.header Mga Load na Mod
-windows.mods.publish I-akda ang Mod
+windows.mods.publish I-publish ang Mod
 windows.mods.viewer Tignan at Suriin ang Mod
 windows.account.header Account
 windows.account.recover Upang mabawi ang mga account/s, I-contact ang <a>recovery@yendis.ch</a>
-windows.class.header Pumili ng klase
+windows.class.header Pumili ng Klase
 windows.controls.header Baguhin ang Mga Kontrol
 windows.controls.forward Pasulong
 windows.controls.backward Paatras
 windows.controls.left Kaliwa
 windows.controls.right Kanan
 windows.controls.reload I-reload
-windows.controls.aim1 Aim (puntirya)
+windows.controls.aim1 Mag-aim (puntirya)
 windows.controls.shoot1 Bumaril
 windows.controls.inspect Suriin
 windows.controls.spray Mag-spray
-windows.controls.sprayWheel Pamili ng Spray (Hold)
+windows.controls.sprayWheel Pumili ng Spray (Hold)
 windows.controls.jump Tumalon
 windows.controls.crouch Yumuko
 windows.controls.prim Pangunahing Armas
@@ -516,50 +516,50 @@ windows.controls.melee Patalim
 windows.controls.equip Gamitin
 windows.controls.chat Pag-Uusap
 windows.controls.voice Boses
-windows.controls.list Listahan ng mga manlalaro
+windows.controls.list Listahan Ng Mga Manlalaro
 windows.controls.board Leaderboard
 windows.controls.interact Interaksyon
 windows.controls.interactSec Pangalawang Interaksyon
-windows.controls.confirm Kumpirmahin ang Interaksyon
+windows.controls.confirm Kumpirmahin Ang Interaksyon
 windows.controls.drop Patak
-windows.controls.wepVis I-toggle ang Visibility ng Armas
+windows.controls.wepVis I-toggle Ang Visibility ng Armas
 windows.controls.kickVoteY Tanggalin mula sa laro [Oo]
 windows.controls.kickVoteN Tanggalin mula sa laro [Hindi]
 windows.controls.kpdVoteY Bumoto sa KPD [Oo]
 windows.controls.kpdVoteN Bumoto sa KPD [Hindi]
 windows.controls.specFree I-toggle ang Free Cam
 windows.controls.specObj I-toggle ang Objective Cam
-windows.controls.specFirst I-toggle ang First Person
-windows.controls.specNames I-toggle ang mga pangalan
-windows.controls.specFocus I-toggle ang pokus sa isang manlalaro
-windows.controls.hidePlayers Itago ang mga manlalaro
+windows.controls.specFirst I-toggle Ang First-Person
+windows.controls.specNames I-toggle Ang Mga Pangalan
+windows.controls.specFocus I-toggle Ang Pokus sa Isang Manlalaro
+windows.controls.hidePlayers Itago Ang Mga Manlalaro
 windows.controls.streak0 Unang Streak
 windows.controls.streak1 Pangalawang Streak
 windows.controls.streak2 Pangatlong Streak
-windows.controls.streak3 Pangapat na Streak
+windows.controls.streak3 Pang-apat na Streak
 windows.controls.streak4 Panlimang Streak
 windows.controls.taunt0 Panukso (Psst)
 windows.controls.taunt1 Panukso (Sipol)
 windows.controls.taunt2 Panukso (Utot)
 windows.controls.taunt3 Panukso (Meme)
 windows.controls.taunt4 Panukso (WTF ano 'to?)
-windows.controls.taunt5 Panukso (Ngayon na!!)
+windows.controls.taunt5 Panukso (Ngayon na!)
 windows.controls.prop Piliin ang Prop (Hold M1)
 windows.controls.propRand Piliin ang kahit anong prop
 windows.controls.propRot I-toggle ang rotasyon
-windows.controls.propRotR I-reset rotasyon
+windows.controls.propRotR I-reset ang rotasyon
 windows.controls.premium0 Naka noclip
 windows.controls.premium1 Naka godmode
 windows.controls.premium2 Patayin
 windows.controls.premium3 Smite
-windows.controls.reset Balik-Simula ang posisyon (Paligsahan at Parkour)
+windows.controls.reset Balik sa simula (Paligsahan at Parkour)
 windows.controls.pretend Itago ang Laro
 windows.host.header Host ng Custom na Laro
 windows.host.maps Pag-setup ng Server
 windows.host.cmaps Laro mula sa Komunidad
 windows.host.raw Raw Data ng Laro
 windows.host.modes Piliin ang Uri ng Laro 
-windows.host.classes Piliin ang mga Gagamiting Uri ng Armas
+windows.host.classes Piliin ang Weapon Classes
 windows.host.settings Mga Settings ng Server
 windows.host.preset Handang Settings ng Host
 windows.host.preset.load Loading ang mga hinandang settings...
@@ -592,18 +592,18 @@ windows.clans.create Lumikha ng Samahan
 windows.clans.name Pangalan ng Samahan
 windows.clans.view Tignan ang mga Samahan
 windows.clans.join Sumali sa Samahan
-windows.clans.login Mag-login upang makagawa o makasali sa isang Samahan!
+windows.clans.login Mag-login upang gumagawa o sumali sa isang Samahan!
 windows.store.header Tindahan
-windows.store.spin {0} Premyo
+windows.store.spin {0} Papremyo
 windows.store.agree Sa pamamagitan ng pagbili sumasang-ayon ka sa {0} Mga Tuntunin
 windows.store.purchase Bumili ng KR
 windows.store.voucher Gamitin ang voucher
-windows.store.voucherinfo Kumuha ng mga Voucher mula sa maraming mga Streamer at kaganapan
+windows.store.voucherinfo Kumuha ng mga voucher mula sa maraming mga Streamer at kaganapan
 windows.store.market Merkado
 windows.store.market2 Krunker Merkado
 windows.store.premium Bumili ng Premium
 windows.store.premium2 Krunker Premium
-windows.store.buyP Pumili ng isang Display name
+windows.store.buyP Pumili ng pangalang pan-display
 windows.store.buy Bumili at Magbenta ng mga kagamitan
 windows.store.wheels Papremyo
 windows.store.unlock I-unlock ang mga bagong disenyo ng mga armas at kagamitan
@@ -611,7 +611,7 @@ windows.store.amount {0} KR sa account
 windows.store.login upang bumili at mag-unlock ng mga item mula sa tindahan!
 windows.store.purchasing Binibili ...
 windows.store.unboxed {0} ay naka-unbox ng {1} 
-windows.store.found {0}{1} nahanap
+windows.store.found {0}{1} nakahanap
 windows.trade.header Kalakalan
 windows.scope.header Pumili ng scope
 windows.premium.header Premium
@@ -665,15 +665,15 @@ thumbnail.upload.limit Failed. {0}kb Thumbnail Limit
 image.upload.limit Failed. {0}kb ang Limitasyon ng Larawan
 thumbnail.upload.error Nag-error ang Thumbnail
 mod.extracting Kumukuha ng {0} / {1}
-mod.disabled hindi pinagana ang mga mod
+mod.disabled Hindi pinagana ang mga mod
 mod.error Error sa mod!
 mod.loading Naglo-load ng mod ...
 mod.invalid Imbalidong mod file!
 matchmaker.full PUNO
-matchmaker.GameFull Puno ang laro.
-matchmaker.NoServersMatchQuery NAG-UUPDATE ANG LARO
-matchmaker.InvalidGameId Hindi nahanap ang laro.
-matchmaker.NoAvailableServers Puno ang mga server
+matchmaker.GameFull Puno na ang laro.
+matchmaker.NoServersMatchQuery NAG-UUPDATE ANG LARO!
+matchmaker.InvalidGameId Hindi mahanap ang laro
+matchmaker.NoAvailableServers Puno na ang mga servers
 matchmaker.GameIssue Hindi matukoy ang isyu
 adblocker Tanggalin ang iyong ad-blocker upang makatanggap ng mga libreng KR.
 ad-failed Hindi Nag-load ang Ad. Subukang muli.
@@ -714,39 +714,39 @@ server.config.t2Dmg Damage ng Pangkat 2
 server.config.t3Dmg Damage ng Pangkat 3
 server.config.t4Dmg Damage ng Pangkat 4
 server.config.t5Dmg Damage ng Pangkat 5
-server.config.selTeam Piliin ang Pangkat 
+server.config.selTeam Piliin Ang Pangkat 
 server.config.allowSpect Panonood ng Laro
 server.config.killRewards Gantimpala kapag nakapatay
 server.config.headshotOnly Mga headshot Lamang
-server.config.noSecondary Huwag gumamit ng mga Sekundarya
-server.config.noStreaks Huwag paganahin ang mga Streaks
+server.config.noSecondary Bawal Ang Mga Sekundarya
+server.config.noStreaks Bawal Ang killstreaks
 server.config.canSlide Pagdududulas
-server.config.wallJP Lakas ng paglukso sa mga pader
-server.config.autoJump Tumalon nang Awtomatiko
-server.config.bDrop Hulog ng Bala
+server.config.wallJP Lakas ng walljump
+server.config.autoJump Awtomatikong Pagtatalon
+server.config.bDrop Mga Bullet Drops
 server.config.thirdPerson Tingin ng 3rd Person View
 server.config.requireCaptcha Kailangan ng CAPTCHA
-server.config.nameTags Itago ang mga Nametag
+server.config.nameTags Itago Ang Mga Nametag
 server.config.kCams Mga Kill Cams
-server.config.aAnon Allow Anonymous
+server.config.aAnon Payagan Ang Mga Anonymous
 server.config.noReload Walang Reload
 server.config.private Pribado
 server.config.krRewards Mga Gantimpala ng KR
-server.config.forceDefault Pilitin ang Default na Mga Setting
-server.config.warmupTime Oras para maghanda
+server.config.forceDefault Pilitin Ang Default na Mga Setting
+server.config.warmupTime Oras Para Maghanda
 server.config.gamRounds Rounds
 server.config.objtvTime Oras ng Layunin
 server.config.forceSpawn Limitasyon ng Iskor
 server.config.intermTmr Intermisyons {0}
 server.config.scoreLimit Limitasyon ng Kalidad
-server.config.keepTScore Panatilihin ang Marka ng Koponan
-server.config.forceC Pilitin ang mga Klase ng Mode
+server.config.keepTScore Panatilihin Ang Marka ng Koponan
+server.config.forceC Pilitin Ang mga Klase ng Mode Lamang
 server.config.logTim Oras ng Pag-log (Paligsahan, Parkour)
 server.config.hitBoxPad Hitbox Padding
 server.config.hpRegen Health Regen
-server.config.disableB Huwag paganahin ang Mga Hangganan
-server.config.throwMel Bumato ng patalim
-server.config.noCosm Huwag magpakita ng Kosmetiko
+server.config.disableB Huwag Paganahin ang Mga Hangganan
+server.config.throwMel Bumato ng Patalim
+server.config.noCosm Huwag Magpakita ng Kosmetiko
 server.config.tstCmp Test Mode
 server.config.limitClasses Limita ng mga Klase
 server.config.tmSize Laki ng Pangkat
@@ -761,7 +761,7 @@ social.login.buy Mag-login upang Bumili
 social.login.sell Mag-login upang Magbenta
 social.login.gift Mag-login para sa mga regalo
 social.login.proccessing Naglolog-in......
-social.since Mula Noong
+social.since Nagsimula Noong
 social.user.maps Laro at Mapa
 social.user.mods Kanyang Mods
 social.maps.none Walang Nakitang Laro ...
@@ -773,7 +773,7 @@ social.market.listed nakalista {0} nakaraan
 social.market.list Listahan ng Item
 social.market.unlist Tanggalin sa lista
 social.market.unlisting  Pagtatanggal.....
-social.market.posting Pagpaskil ng Kagamitan...
+social.market.posting Pinapaskil ang kagamitan...
 social.market.req Antas-{0} kinakailangan
 social.market.cant Hindi Kayang bumili!
 social.market.purchase Bumili
@@ -789,7 +789,7 @@ social.market.wrist Mga Relo o Alahas
 social.market.melee Mga Patalim
 social.market.spray Mga Sprays
 social.market.dye Kulay ng Katawan
-social.market.collectible Mga Kolektible
+social.market.collectible Nakokolektang Kagamitan
 social.market.none Hindi matagpuan ang kagamitan
 social.market.login Maglogin ka muna.
 social.market.grace handa na sa {0}
@@ -803,7 +803,7 @@ social.market.fee.gift Walang Bayad
 social.market.gift Magregalo ng KR
 social.market.gift.msg Mag-iwan ng mensahe
 respawn.auto Auto Respawning sa {0}
-custom.host.ranked Hindi ma-host habang naglalaro sa 'Ranggo'
+custom.host.ranked Hindi ma-host habang naglalaro sa 'Ranked'
 funds.insufficient Hindi sapat na KR
 funds.out Ubos ang KR
 custom.passcode.long Masyadong mahaba ang password 
@@ -829,25 +829,25 @@ mod.reset.1 Mga Bagay sa Mapa hindi ma-reset
 windows.profile.picture Palitan ang Larawan
 stats.assists Mga Pagtulong/Assist
 stats.nukes Mga Nuke
-stats.melee Tinamaan ng talim
+stats.melee Nasaksak
 stats.fistkills Pagbugbog
-stats.thrownkills Mga binatuhan ng patalim
+stats.thrownkills Nabatuhan ng talim
 stats.headshots Mga headshot
 stats.wallbangs Mga wallbang
-stats.crouches Crouches
-stats.sprays Nilagay na spray
-stats.kpd Makabuluhang Report sa KPD
+stats.crouches Mga pagyuko
+stats.sprays Mga pag-spray
+stats.kpd Matulunging KPD report
 windows.host.default.settings Ang pagpapagana ng Default na Mga Setting ay nagbibigay-daan para sa pagtatago ng Player Progress at Highscores
 windows.host.default.commands * Ang Mga Command ng Host ay Hindi Pinapagana sa mode na ito: / noclip / god / smite atbp
 windows.host.rewards Pinipilit ng pagpapagana ng KR Rewards ang Server na gumamit ng Default na Mga Setting
-windows.store.wheels.sub Subukan ang iyong kapalaran at paikutin ang Prize wheel para sa isang pagkakataon upang manalo ng ilang mga bagong disenyo!
-windows.store.currency * Ang mga presyo sa USD ay maaaring mai-convert sa iyong lokal na pera sa isang rate ng palitan na tinukoy ng provider ng pagbabayad o bangko
+windows.store.wheels.sub Subukan ang iyong kapalaran at paikutin ang Papremyo para sa isang pagkakataon upang manalo ng ilang mga bagong disenyo!
+windows.store.currency * Ang mga presyo sa USD ay maaaring I-convert bilang Philippine Peso ayon sa halagang tinukoy ng inyong bangko o provider.
 windows.store.creator Tangkilikin ang inyong paboritong Content Creator o Streamer sa pamamagitan ng 'Creator Code'!
 windows.chall.customs Ang mga hamon o challenge ay hindi nakukumpleto sa mga kustom na laro
 twitch.link Siguradong nais mo bang i-link ang Twitch account?
 twitch.unlink Siguradong nais mo bang i-unlink ang iyong Twitch account?
-windows.clan.leave Siguradong nais mo bang umalis sa hukbo/samahan ninyo?
-windows.clan.delete Siguradong nais mo bang i-delete ang hukbo/samahan?
+windows.clan.leave Siguradong nais mo bang umalis sa samahan ninyo?
+windows.clan.delete Siguradong nais mo bang i-delete ang samahan?
 windows.clan.kick Sigurado ka bang nais mong i-kick si {0} at tanggalin sa samahan?
 windows.store.premium.purchase Nais mo bang bumili ng {0} araw ng Premium?
 windows.store.premium.gift Nais mo bang regaluhin si '{0}' ng {1} na araw ng Premium?
@@ -857,10 +857,10 @@ windows.playerlist.unflag Sigurado ka bang nais mong I-Unflag si {0}?
 windows.playerlist.punish Sigurado ka bang nais mong parusahin ang manlalarong si {0}?
 item.view.open Buksan ang Model Viewer
 item.view.more Iba pang Impormasyon
-item.sell.cant Hindi mabenta ang item na ito.
-item.sell.cant.krunker Hindi mabenta ang kagamitan sa Krunker.
+item.sell.cant Hindi mabenta ang kagamitang ito.
+item.sell.cant.krunker Hindi mabenta ang kagamitan sa Krunker
 item.sell.quick Sigurado ka bang ibebenta mo ito agad {0}?
-item.sell.destroy Sigurado ka bang nais mo itong sirain {0}?
+item.sell.destroy item.sell.destroy Siguradong nais mo itong sirain {0}?
 social.profile.stats Kabuoang statistika
 social.profile.class Statistika ng mga Klase
 social.profile.sales Mga Binebenta
@@ -888,27 +888,27 @@ social.trades.message Payagan ang mga Trade Message at Pag-alok sa Settings
 social.trades.warning Wala kang makukuhang kagamitan sa Pag-alok na ito!
 social.trades.accept Nais mo bang tanggapin ang Pag-alok na ito?
 stats.airdrops Pakete ng KR
-stats.airdrops.stolen Ninakaw (airdrops)
+stats.airdrops.stolen Ninakawang Airdrops
 settings.quality.flapAnim Animasyon ng Sniper flap
 chall.name.hs Pumatay ng {0} beses na tumama sa ulo {1}
-chall.name.ns Pumatay ng {0} beses na walang scope {1}
-chall.name.ls Get {0} legshots {1}
-chall.name.tmk Pumatay ng {0} beses pagbato ng talim {1}
-chall.name.fb Magkaroon ng {0} na unang pagpatay {1}
-chall.name.mk Pumatay ng {0} gamit ang patalim {1}
-chall.name.fk Gawin ang {0} na pagbugbog {1}
-chall.name.qs Gawin ang {0} na mabilis-scope {1}
-chall.name.wb Gawin ang {0} na pagpapatay sa pader {1}
-chall.name.airk Gawin ang {0} pagpatay sa ere {1}
-chall.name.lns Gawin ang {0} na tama sa paa {1}
-chall.name.tk Gawin ang {0} mapwersang pagpatay {1}
-chall.name.drk Gawin ang {0} madulas na pagpatay {1}
+chall.name.ns chall.name.ns Pumatay ng {0} beses na walang scope {1}
+chall.name.ls Gawin ang {0} na tama sa binti {1}
+chall.name.tmk Pumatay ng {0} beses ng binatong talim {1}
+chall.name.fb Magkaroon ng {0} na unang pinatay {1}
+chall.name.mk Pumatay ng {0} beses gamit ang patalim {1}
+chall.name.fk Gawin ang {0} beses na pagbugbog {1}
+chall.name.qs {0} beses mabilis ang pag-scope {1}
+chall.name.wb {0} beses ang pagpatay mula pader {1}
+chall.name.airk Pumatay ng {0} na beses sa ere {1}
+chall.name.lns Pumatay ng {0} na beses mula sa malayo {1}
+chall.name.tk Pumatay ng {0} beses na may "turbo" {1}
+chall.name.drk Pumatay ng {0} na beses habang dumudulas {1}
 chall.name.kstk Makamit ang {0} na killstreak {1}
 chall.name.w Manalo ng {0} laro
 chall.name.d Mamatay ng {0} beses
 chall.name.score Makamit ang {0} puntos
 chall.name.dmg Tumira ng {0} na damage {1}
-chall.name.bzk Gawin ang {0} na panirang pagpatay {1}
-chall.name.cc Ikaw ay {0} beses muntikang mamatay {1}
-chall.name.rk Magkaroon ng {0} na higanti {1}
+chall.name.bzk Manira ng killstreak ng {0} beses {1}
+chall.name.cc Ikaw ay muntikang mamatay {0} na beses {1}
+chall.name.rk Makamit ang {0} na paghiganti
 `;
