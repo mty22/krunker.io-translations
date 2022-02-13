@@ -838,7 +838,7 @@ stats.crouches Çömelmeler
 stats.sprays Sıkılan Spreyler
 stats.kpd Yardımcı Raporlar
 windows.host.default.settings Varsayılan ayarları açmak oyuncu ilerlemesini ve yüksek skorlarını depolar
-windows.host.default.commands *Kurucu ayarları şu modlarda kapalıdır: /klipsiz /tanrı /anında öldürme vb.
+windows.host.default.commands *Kurucu ayarları şu modlarda kapalıdır: /noclip /god /smite öldürme vb.
 windows.host.rewards KR ödüllerini açmak sunucuyu varsayılan ayarlarda oynamaya zorlar & oyuncuların map para kaynağından para kazanmasını sağlar:
 windows.store.wheels.sub Şansını dene ve eşya kazanmak için çarkı çevir!
 windows.store.currency * Fiyatlar ABD dolarıdır, ödeme sağlayıcısı veya banka tarafindan tanımlanan bir döviz kuru üzerinden yerel para biriminize dönüştürülebilir
