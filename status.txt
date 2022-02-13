@@ -6,25 +6,25 @@ Read as "Language,live patch level". For example "Japanese,v4.2.2" means Japanes
 
 Up to date:
 
-    French,v5.4.2
-    Turkish,v5.4.2
-    Dutch,v5.4.2
-    Russian,v5.4.2
-    German,v5.4.2
-    Japanese,v5.4.2
-    Korean,v5.4.2
-    Italian,v5.4.2
-    Spanish,v5.4.2
-    Polish,v5.4.2
-    Traditional Chinese,v5.4.2
-    Simplified Chinese,v5.4.2
-    Tagalog,v5.4.2
 
 In progress/further updates required:
 
-    Portuguese,v5.4.2
-    Hindi,v5.4.2 -- https://github.com/mty22/krunker.io-translations/pull/339/files
 
 Updates required:
 
-    Finnish,v4.2.2
+    Finnish,v4.2.2 -- https://github.com/mty22/krunker.io-translations/pull/345
+    Hindi,v5.4.4 -- https://github.com/mty22/krunker.io-translations/pull/339
+    French,v5.4.4
+    Turkish,v5.4.4
+    Dutch,v5.4.4
+    Russian,v5.4.4
+    German,v5.4.4
+    Japanese,v5.4.4
+    Korean,v5.4.4
+    Italian,v5.4.4
+    Spanish,v5.4.4
+    Polish,v5.4.4
+    Traditional Chinese,v5.4.4
+    Simplified Chinese,v5.4.4
+    Tagalog,v5.4.4
+    Portuguese,v5.4.4
