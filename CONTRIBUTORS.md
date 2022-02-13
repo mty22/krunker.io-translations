@@ -107,6 +107,7 @@ If you contributed in the past and can't find your name below (or simply wish to
 - [Polish](https://github.com/mty22/krunker.io-translations/blob/main/pl.js) (Polish)
 -- [xhg4](https://krunker.io/social.html?p=profile&q=xhg4) (DescriptionIcy#5231)
 -- [pamglint](https://krunker.io/social.html?p=profile&q=pamglint)
--- [-isori](https://krunker.io/social.html?p=profile&q=-Isori) (isori#1234)
+-- [-isori](https://krunker.io/social.html?p=profile&q=-Isori)
+-- .[JestemKaktus](https://krunker.io/social.html?p=profile&q=JestemKaktus) (KaktusDev#3612)
 -- Chonker1337
 -- stdavious
