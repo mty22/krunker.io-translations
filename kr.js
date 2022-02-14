@@ -958,12 +958,12 @@ commands.unlimited.on 무한탄창 모드 활성화됨
 commands.unlimited.off 무한탄창 모드 비활성화됨
 commands.unlimited.on.other {0}님 무한 탄창 모드 활성화됨
 commands.unlimited.off.other {0}님 무한 탄창 모드 비활성화됨
-commands.spraybypass.on Unlimited Ammo - Enabled
-commands.spraybypass.off Unlimited Ammo - Disabled
-commands.spraybypass.on.other Unlimited Ammo - Enabled for {0}
-commands.spraybypass.off.other Unlimited Ammo - Disabled for {0}
-commands.suspect.invalid 유효하지 않은 용의자 정보
-commands.suspect.menu 용의자가 메뉴 내 있습니다
+commands.spraybypass.on 무한 스프레이 모드 활성화됨
+commands.spraybypass.off 무한 스프레이 모드 비활성화됨
+commands.spraybypass.on.other {0}님 무한 스프레이 모드 활성화됨
+commands.spraybypass.off.other {0}님 무한 스프레이 모드 비활성화됨
+commands.suspect.invalid 잘못된 용의자 정보
+commands.suspect.menu 용의자가 메뉴에 있습니다
 commands.suspect.left 용의자가 게임을 나갔습니다
 commands.suspect.found 용의자 찾음. 관전중: {0}, 게임중: {1}, 이름: {2}
 commands.forfeit.next 적어도 한 라운드는 플레이해야 합니다
