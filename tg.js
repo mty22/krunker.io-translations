@@ -920,7 +920,7 @@ chall.name.dmg Tumira ng {0} na damage {1}
 chall.name.bzk Manira ng killstreak ng {0} beses {1}
 chall.name.cc Ikaw ay muntikang mamatay {0} na beses {1}
 chall.name.rk Makamit ang {0} na paghiganti
-event.doubleXP 2x Class XP enabled for this match
+event.doubleXP 2x Class XP ay naka-enabled para sa larong ito
 ranked.join Naka-join na sa Ranked match. Ang pag-abandona ay mag reresulta sa temporary ban. 
 ranked.progress Kasalukuyang naglalaro
 ranked.team Pumili muna ng team
@@ -946,33 +946,33 @@ commands.noclip.on Noclip - Naka-enabled
 commands.noclip.off Noclip - Naka-disabled
 commands.god.on God mode - Naka-enabled
 commands.god.off God mode - Naka-disabled
-commands.god.on.other God mode - Enabled for {0}
-commands.god.off.other God mode - Disabled for {0}
-commands.smite.on Smite - Enabled
-commands.smite.off Smite - Disabled
-commands.smite.on.other Smite - Enabled for {0}
-commands.smite.off.other Smite - Disabled for {0}
+commands.god.on.other God mode - Naka-enabled ng {0}
+commands.god.off.other God mode - Naka-disabled ng {0}
+commands.smite.on Smite - Naka-enabled
+commands.smite.off Smite - Naka-disabled
+commands.smite.on.other Smite - Naka-enabled ng {0}
+commands.smite.off.other Smite - Naka-disabled ng {0}
 commands.perk Gave {0} {1}
 commands.maxperk Gave {0} MAX {1}
-commands.unlimited.on Unlimited Ammo - Enabled
-commands.unlimited.off Unlimited Ammo - Disabled
-commands.unlimited.on.other Unlimited Ammo - Enabled for {0}
-commands.unlimited.off.other Unlimited Ammo - Disabled for {0}
-commands.spraybypass.on Unlimited Ammo - Enabled
-commands.spraybypass.off Unlimited Ammo - Disabled
-commands.spraybypass.on.other Unlimited Ammo - Enabled for {0}
-commands.spraybypass.off.other Unlimited Ammo - Disabled for {0}
+commands.unlimited.on Unlimited na Ammo - Naka-enabled
+commands.unlimited.off Unlimited na Ammo - Naka-disabled
+commands.unlimited.on.other Unlimited na Ammo - Naka-enabled ng {0}
+commands.unlimited.off.other Unlimited na Ammo - Naka-disabled ng {0}
+commands.spraybypass.on Unlimited na Ammo - Naka-enabled
+commands.spraybypass.off Unlimited na Ammo - Naka-disabled
+commands.spraybypass.on.other Unlimited na Ammo - Naka-enabled ng {0}
+commands.spraybypass.off.other Unlimited na Ammo - Naka-disabled ng {0}
 commands.suspect.invalid Invalid suspect info
 commands.suspect.menu Suspect in menu
 commands.suspect.left Suspect has left
 commands.suspect.found Suspect Found. Spectating: {0}, Spawned: {1}, Name: {2}
-commands.forfeit.next Must play atleast 1 round
-commands.forfeit.wait Wait till match starts to forfeit
-commands.forfeit.later Please try again in a few seconds
-commands.forfeit.voted You already voted.
-commands.forfeit.limit You can only start one vote per game
-commands.forfeit.ended Forfeiting Game
-commands.forfeit.ended.other Other Team Forfeited
+commands.forfeit.next Kailangan maglaro muna ng 1 round
+commands.forfeit.wait Maghintay munang magsimula ang laro para maka-forfeit 
+commands.forfeit.later I-try again sa ilang segundo 
+commands.forfeit.voted Ikaw ay naka vote na.
+commands.forfeit.limit Isang beses kalang makakaboto sa isang laro
+commands.forfeit.ended Fino-forfeit na ang laro
+commands.forfeit.ended.other Nag-forfeit na ang kabilang team
 server.message.join {0} joined the game
 server.message.left {0} left the game
 server.message.kicked {0} was kicked
