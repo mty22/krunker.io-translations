@@ -934,7 +934,7 @@ modes.round.win Twoja drużyna zabezpieczyła sobie tę rundę
 modes.round.loss Nie jest możliwe wygranie tej rundy przez Twoją drużynę
 modes.round.switch Zamiana stron. Przygotuj się na następną rundę
 modes.trade.success Wymiana zakończona sukcesem
-modes.prophunt.limit [Chowany] Nie możesz zmieniać przykrywek więcej razy
+modes.prophunt.limit [Chowany] Skończyły Ci się zmiany przykrywek
 modes.prophunt.left [Chowany] You have {0} switches remaining
 modes.prophunt.rotation.on [Chowany] Rotacja włączona
 modes.prophunt.rotation.off [Chowany] Rotacja wyłączona
