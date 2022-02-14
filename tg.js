@@ -926,10 +926,10 @@ ranked.progress Game in Progress
 ranked.team Please join a Team
 ranked.switch Can't switch while in-game
 ranked.spectate Spectating Disabled in Ranked
-ranked.login Login to Spawn
+ranked.login Maglog-in para Mag-spawn
 ranked.sync Missing Sync Data
-ranked.team.spawn Please join a Team to Spawn
-ranked.class.spawn Please select a Class to Spawn
+ranked.team.spawn Sumali sa Pangkat para Mag-spawn
+ranked.class.spawn Pumili ng Klase para Mag-spawn
 modes.round.win Your Team has secured this round
 modes.round.loss This round is no longer winnable
 modes.round.switch Switching Sides. Prepare for the next Round
@@ -939,9 +939,9 @@ modes.prophunt.left [Prop Hunt] You have {0} switches remaining
 modes.prophunt.rotation.on [Prop Hunt] Rotation Enabled
 modes.prophunt.rotation.off [Prop Hunt] Rotation Disabled
 modes.prophunt.rotation.reset [Prop Hunt] Rotation reset.
-commands.login Login to use this command
-commands.connected {0} connected, {1} in menu
-commands.host {0} is the current Host.
+commands.login Maglog-in upang gamitin ang command
+commands.connected {0} connected, {1} nasa menu 
+commands.host Si {0} ang kasalukuyang host.
 commands.noclip.on Noclip - Enabled
 commands.noclip.off Noclip - Disabled
 commands.god.on God mode - Enabled
@@ -973,10 +973,10 @@ commands.forfeit.voted You already voted.
 commands.forfeit.limit You can only start one vote per game
 commands.forfeit.ended Forfeiting Game
 commands.forfeit.ended.other Other Team Forfeited
-server.message.join {0} joined the game
-server.message.left {0} left the game
-server.message.kicked {0} was kicked
-server.message.banned {0} was banned
-server.message.votekicked {0} was vote kicked
-server.message.arrested {0} was arrested by the K.P.D
+server.message.join Si {0} ay sumali sa laro
+server.message.left Si {0} ay umalis sa laro
+server.message.kicked Si {0} ay tinanggal sa laro
+server.message.banned Si {0} ay pinagbawalan maglaro
+server.message.votekicked Si {0} ay binoto para tanggalin
+server.message.arrested Si {0} ay arestado ng K.P.D
 `;
