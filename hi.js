@@ -649,12 +649,12 @@ windows.secondary.unlocked उनलॉक्ड
 windows.secondary.customOnly सिर्फ कस्टम्स
 windows.secondary.premiumOnly सिर्फ प्रीमियम
 windows.secondary.req {0} पर अनलॉक हो जाता है
-windows.skins.unlocked Unlocked
-windows.skins.customOnly Customs Only
-windows.skins.premiumOnly Premium Only
-windows.skins.classOnly Req {0}
-windows.skins.req Req lvl {0}
-windows.skins.default Default Skin
+windows.skins.unlocked उनलॉक्ड
+windows.skins.customOnly सिर्फ कस्टम्स
+windows.skins.premiumOnly सिर्फ प्रीमियम
+windows.skins.classOnly {0} ज़रूरी है 
+windows.skins.req {0} लेवेल ज़रूरी है 
+windows.skins.default डिफ़ॉल्ट स्किन 
 windows.advertise.header विज्ञापित
 windows.support.header सपोर्ट
 windows.players.header प्लेयर लिस्ट
@@ -922,61 +922,61 @@ chall.name.cc Get {0} close-calls {1}
 chall.name.rk Deal {0} revenge kills {1}
 event.doubleXP 2x Class XP enabled for this match
 ranked.join Joined Ranked Match. Abandoning a match will result in a temporary ban
-ranked.progress Game in Progress
-ranked.team Please join a Team
+ranked.progress खेल चल रहा है 
+ranked.team कृपया एक टीम जॉइन करें
 ranked.switch Can't switch while in-game
 ranked.spectate Spectating Disabled in Ranked
-ranked.login Login to Spawn
+ranked.login रेस्पॉन करने के लिए लॉगिन करें
 ranked.sync Missing Sync Data
-ranked.team.spawn Please join a Team to Spawn
-ranked.class.spawn Please select a Class to Spawn
-modes.round.win Your Team has secured this round
-modes.round.loss This round is no longer winnable
+ranked.team.spawn कृपया रेस्पॉन करने के लिए एक टीम जॉइन करें 
+ranked.class.spawn कृपया रेस्पॉन करने के लिए एक क्लास सेलेक्ट करें 
+modes.round.win आपकी टीम ने यह राउंड सिक्युर कर लिया है 
+modes.round.loss यह राउंड अब जीता नहीं जा सकता 
 modes.round.switch Switching Sides. Prepare for the next Round
-modes.trade.success Trade Successful
+modes.trade.success ट्रेड सफल रहा
 modes.prophunt.limit [Prop Hunt] You are out of prop switches
 modes.prophunt.left [Prop Hunt] You have {0} switches remaining
 modes.prophunt.rotation.on [Prop Hunt] Rotation Enabled
 modes.prophunt.rotation.off [Prop Hunt] Rotation Disabled
 modes.prophunt.rotation.reset [Prop Hunt] Rotation reset.
-commands.login Login to use this command
+commands.login इस कमांड को इस्तिमल करने के लिए लॉगिन करें
 commands.connected {0} connected, {1} in menu
-commands.host {0} is the current Host.
-commands.noclip.on Noclip - Enabled
-commands.noclip.off Noclip - Disabled
-commands.god.on God mode - Enabled
-commands.god.off God mode - Disabled
-commands.god.on.other God mode - Enabled for {0}
-commands.god.off.other God mode - Disabled for {0}
-commands.smite.on Smite - Enabled
-commands.smite.off Smite - Disabled
-commands.smite.on.other Smite - Enabled for {0}
-commands.smite.off.other Smite - Disabled for {0}
-commands.perk Gave {0} {1}
+commands.host {0} मौजूदा होस्ट हैं.
+commands.noclip.on Noclip - इनेबल्ड
+commands.noclip.off Noclip - डिसेबल्ड
+commands.god.on गॉड मोड - इनेबल्ड
+commands.god.off गॉड मोड - डिसेबल्ड
+commands.god.on.other गॉड मोड - {0} के लिए इनेबल्ड
+commands.god.off.other गॉड मोड - {0} के लिए डिसेबल्ड
+commands.smite.on Smite - इनेबल्ड
+commands.smite.off Smite - डिसेबल्ड
+commands.smite.on.other Smite - {0} के लिए इनेबल्ड
+commands.smite.off.other Smite - {0} के लिए डिसेबल्ड
+commands.perk दिया {0} {1}
 commands.maxperk Gave {0} MAX {1}
-commands.unlimited.on Unlimited Ammo - Enabled
-commands.unlimited.off Unlimited Ammo - Disabled
-commands.unlimited.on.other Unlimited Ammo - Enabled for {0}
-commands.unlimited.off.other Unlimited Ammo - Disabled for {0}
-commands.spraybypass.on Unlimited Ammo - Enabled
-commands.spraybypass.off Unlimited Ammo - Disabled
-commands.spraybypass.on.other Unlimited Ammo - Enabled for {0}
-commands.spraybypass.off.other Unlimited Ammo - Disabled for {0}
+commands.unlimited.on अनलिमिटेड Ammo - इनेबल्ड
+commands.unlimited.off अनलिमिटेड Ammo - डिसेबल्ड
+commands.unlimited.on.other अनलिमिटेड Ammo - {0} के लिए इनेबल्ड
+commands.unlimited.off.other अनलिमिटेड Ammo - {0} के लिए डिसेबल्ड
+commands.spraybypass.on अनलिमिटेड Ammo - इनेबल्ड
+commands.spraybypass.off अनलिमिटेड Ammo - डिसेबल्ड
+commands.spraybypass.on.other अनलिमिटेड Ammo - {0} के लिए इनेबल्ड
+commands.spraybypass.off.other अनलिमिटेड Ammo - {0} के लिए डिसेबल्ड
 commands.suspect.invalid Invalid suspect info
-commands.suspect.menu Suspect in menu
-commands.suspect.left Suspect has left
+commands.suspect.menu ससपेक्ट मेन्यू में है 
+commands.suspect.left ससपेक्ट ने मैच छोड़ दिया 
 commands.suspect.found Suspect Found. Spectating: {0}, Spawned: {1}, Name: {2}
-commands.forfeit.next Must play atleast 1 round
-commands.forfeit.wait Wait till match starts to forfeit
-commands.forfeit.later Please try again in a few seconds
-commands.forfeit.voted You already voted.
-commands.forfeit.limit You can only start one vote per game
-commands.forfeit.ended Forfeiting Game
+commands.forfeit.next 1 राउंड खेलना ज़रूरी है 
+commands.forfeit.wait forfeit करने के लिए मैच शुरू होने दें 
+commands.forfeit.later कृपया कुछ देर बाद कोशिश करें 
+commands.forfeit.voted आप पहले वोटे कर चुके हैं
+commands.forfeit.limit आप एक गेम मे एक ही बार वोट शुरू कर सकते हैं
+commands.forfeit.ended Forfeiting गेम 
 commands.forfeit.ended.other Other Team Forfeited
-server.message.join {0} joined the game
-server.message.left {0} left the game
+server.message.join {0} ने गेम जॉइन किया
+server.message.left {0} ने गेम छोड़ दिया 
 server.message.kicked {0} was kicked
 server.message.banned {0} was banned
 server.message.votekicked {0} was vote kicked
-server.message.arrested {0} was arrested by the K.P.D
+server.message.arrested {0} को K.P.D ने गिरफ्तार किया
 `;
