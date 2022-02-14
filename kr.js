@@ -920,63 +920,63 @@ chall.name.dmg Deal {0} damage {1}
 chall.name.bzk Get {0} buzz kills {1}
 chall.name.cc Get {0} close-calls {1}
 chall.name.rk Deal {0} revenge kills {1}
-event.doubleXP 2x Class XP enabled for this match
-ranked.join Joined Ranked Match. Abandoning a match will result in a temporary ban
-ranked.progress Game in Progress
-ranked.team Please join a Team
-ranked.switch Can't switch while in-game
-ranked.spectate Spectating Disabled in Ranked
-ranked.login Login to Spawn
-ranked.sync Missing Sync Data
-ranked.team.spawn Please join a Team to Spawn
-ranked.class.spawn Please select a Class to Spawn
-modes.round.win Your Team has secured this round
-modes.round.loss This round is no longer winnable
-modes.round.switch Switching Sides. Prepare for the next Round
-modes.trade.success Trade Successful
-modes.prophunt.limit [Prop Hunt] You are out of prop switches
-modes.prophunt.left [Prop Hunt] You have {0} switches remaining
-modes.prophunt.rotation.on [Prop Hunt] Rotation Enabled
-modes.prophunt.rotation.off [Prop Hunt] Rotation Disabled
-modes.prophunt.rotation.reset [Prop Hunt] Rotation reset.
-commands.login Login to use this command
-commands.connected {0} connected, {1} in menu
-commands.host {0} is the current Host.
-commands.noclip.on Noclip - Enabled
-commands.noclip.off Noclip - Disabled
-commands.god.on God mode - Enabled
-commands.god.off God mode - Disabled
-commands.god.on.other God mode - Enabled for {0}
-commands.god.off.other God mode - Disabled for {0}
-commands.smite.on Smite - Enabled
-commands.smite.off Smite - Disabled
-commands.smite.on.other Smite - Enabled for {0}
-commands.smite.off.other Smite - Disabled for {0}
-commands.perk Gave {0} {1}
-commands.maxperk Gave {0} MAX {1}
-commands.unlimited.on Unlimited Ammo - Enabled
-commands.unlimited.off Unlimited Ammo - Disabled
-commands.unlimited.on.other Unlimited Ammo - Enabled for {0}
-commands.unlimited.off.other Unlimited Ammo - Disabled for {0}
-commands.spraybypass.on Unlimited Ammo - Enabled
-commands.spraybypass.off Unlimited Ammo - Disabled
-commands.spraybypass.on.other Unlimited Ammo - Enabled for {0}
-commands.spraybypass.off.other Unlimited Ammo - Disabled for {0}
-commands.suspect.invalid Invalid suspect info
-commands.suspect.menu Suspect in menu
-commands.suspect.left Suspect has left
-commands.suspect.found Suspect Found. Spectating: {0}, Spawned: {1}, Name: {2}
-commands.forfeit.next Must play atleast 1 round
-commands.forfeit.wait Wait till match starts to forfeit
-commands.forfeit.later Please try again in a few seconds
-commands.forfeit.voted You already voted.
-commands.forfeit.limit You can only start one vote per game
-commands.forfeit.ended Forfeiting Game
-commands.forfeit.ended.other Other Team Forfeited
-server.message.join {0} joined the game
-server.message.left {0} left the game
-server.message.kicked {0} was kicked
-server.message.banned {0} was banned
-server.message.votekicked {0} was vote kicked
-server.message.arrested {0} was arrested by the K.P.D
+event.doubleXP 2x Class XP enabled for this match 이번 판에서는 클래스 경험치를 두배로 얻습니다!
+ranked.join Joined Ranked Match. Abandoning a match will result in a temporary ban 랭크전을 참가하셨습니다. 게임 중간에 나가는것은 일시적인 밴을 줄것입니다.
+ranked.progress Game in Progress 게임이 현재 진행중에 있습니다.
+ranked.team Please join a Team 팀에 참가하십시오.
+ranked.switch Can't switch while in-game 게임이 진행중에는 바꿀수 없습니다.
+ranked.spectate Spectating Disabled in Ranked 랭크전에는 관전이 불가합니다.
+ranked.login Login to Spawn 스폰하려면 로그인을 하십시오.
+ranked.sync Missing Sync Data 싱크데이터 오류
+ranked.team.spawn Please join a Team to Spawn 스폰하려면 팀을 참가하십시오.
+ranked.class.spawn Please select a Class to Spawn 스폰하려면 클레스를 선택해주십시오.
+modes.round.win Your Team has secured this round 당신의 팀이 이번판을 이겼습니다.
+modes.round.loss This round is no longer winnable 이판은 더 이상 이길수 없습니다.
+modes.round.switch Switching Sides. Prepare for the next Round 다음판을 준비하십시오.
+modes.trade.success Trade Successful 트레이드 성공
+modes.prophunt.limit [Prop Hunt] You are out of prop switches 당신은 더 이상 사물을 바꿀수 없습니다.
+modes.prophunt.left [Prop Hunt] You have {0} switches remaining 당신은 사물을 {0} 번 바꿀수 있습니다.
+modes.prophunt.rotation.on [Prop Hunt] Rotation Enabled 회전 켜짐
+modes.prophunt.rotation.off [Prop Hunt] Rotation Disabled 회전 꺼짐
+modes.prophunt.rotation.reset [Prop Hunt] Rotation reset. 회전 리셋.
+commands.login Login to use this command 이 명령어를 사용하려면 로그인을 하십시오.
+commands.connected {0} connected, {1} in menu {0} 연결됨, {1} 이 메뉴에 있음
+commands.host {0} is the current Host. {0} 이 현재 호스트임.
+commands.noclip.on Noclip - Enabled 노클립 - 켜짐
+commands.noclip.off Noclip - Disabled 노클립 - 꺼짐
+commands.god.on God mode - Enabled 무적모드 - 켜짐
+commands.god.off God mode - Disabled 무적모드 - 꺼짐
+commands.god.on.other God mode - Enabled for {0} 무적모드 - {0} 에게 켜짐
+commands.god.off.other God mode - Disabled for {0} 무적모드 - {0} 에게 꺼짐
+commands.smite.on Smite - Enabled 스마이트 - 켜짐
+commands.smite.off Smite - Disabled 스마이트 - 꺼짐
+commands.smite.on.other Smite - Enabled for {0} 스마이트 - {0} 에게 켜짐
+commands.smite.off.other Smite - Disabled for {0}스마이트 - {0) 에게 꺼짐
+commands.perk Gave {0} {1} {0} 에게 {1} 을줌.
+commands.maxperk Gave {0} MAX {1} {0} 에게 최대 {1} 을줌
+commands.unlimited.on Unlimited Ammo - Enabled 총알 무한 - 켜짐
+commands.unlimited.off Unlimited Ammo - Disabled 총알 무한 - 꺼짐
+commands.unlimited.on.other Unlimited Ammo - Enabled for {0} 총알 무한 - {0} 에게 켜짐
+commands.unlimited.off.other Unlimited Ammo - Disabled for {0} 총알 무한 - {0} 에게 꺼짐
+commands.spraybypass.on Unlimited Ammo - Enabled 총알 무한 - 켜짐
+commands.spraybypass.off Unlimited Ammo - Disabled 총알 무한 - 꺼짐
+commands.spraybypass.on.other Unlimited Ammo - Enabled for {0} 총알 무한 - {0} 에게 켜짐
+commands.spraybypass.off.other Unlimited Ammo - Disabled for {0} 총알 무한 - {0} 에게 꺼짐
+commands.suspect.invalid Invalid suspect info 잘못된 용의자 정보
+commands.suspect.menu Suspect in menu 용의자는 메뉴에 있음
+commands.suspect.left Suspect has left 용의자 떠남
+commands.suspect.found Suspect Found. Spectating: {0}, Spawned: {1}, Name: {2} 용의자 찾음. {0} 관전중, {1} 스폰함, 이름 : {2}
+commands.forfeit.next Must play atleast 1 round 적어도 1판을 플레이 하십시오.
+commands.forfeit.wait Wait till match starts to forfeit 게임이 항복 될때까지 기다리십시오.
+commands.forfeit.later Please try again in a few seconds 몇초후에 다시 시도해주십시오.
+commands.forfeit.voted You already voted. 이미 투표함.
+commands.forfeit.limit You can only start one vote per game 투표는 한판마다 한번씩 할수있음.
+commands.forfeit.ended Forfeiting Game 게임 항복중...
+commands.forfeit.ended.other Other Team Forfeited 상대편 항복함
+server.message.join {0} joined the game {0} 게임 참가함
+server.message.left {0} left the game {0} 게임 떠남
+server.message.kicked {0} was kicked {0} 추방됨
+server.message.banned {0} was banned {0} 밴됨
+server.message.votekicked {0} was vote kicked {0}는 보트킥됨
+server.message.arrested {0} was arrested by the K.P.D {0}는 K.P.D 에게 잡혀감
 `;
