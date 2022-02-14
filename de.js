@@ -920,63 +920,63 @@ chall.name.dmg {0} Schaden zufügen {1}
 chall.name.bzk Erziele {0} Spielverderber-Abschüsse {1}
 chall.name.cc Erziele {0} hauchnahe Abschüsse {1}
 chall.name.rk Erziele {0} Vergeltungs-Abschüsse {1}
-event.doubleXP 2x Class XP enabled for this match
-ranked.join Joined Ranked Match. Abandoning a match will result in a temporary ban
-ranked.progress Game in Progress
-ranked.team Please join a Team
-ranked.switch Can't switch while in-game
-ranked.spectate Spectating Disabled in Ranked
-ranked.login Login to Spawn
+event.doubleXP 2x Klassen XP ein für dieses Match
+ranked.join Joined Ranked Spiel beigetreten. Ein ranked Match verlassen wird mit einem temporären Bann bestraft
+ranked.progress Spiel in Gange
+ranked.team Tritt einem Team bei
+ranked.switch Du kannst während der Runde deine Klasse nicht wechseln
+ranked.spectate Zuschauen ist im Ranked modus nicht gestattet
+ranked.login Logge dich ein um zu spawnen
 ranked.sync Missing Sync Data
-ranked.team.spawn Please join a Team to Spawn
-ranked.class.spawn Please select a Class to Spawn
-modes.round.win Your Team has secured this round
-modes.round.loss This round is no longer winnable
-modes.round.switch Switching Sides. Prepare for the next Round
-modes.trade.success Trade Successful
-modes.prophunt.limit [Prop Hunt] You are out of prop switches
-modes.prophunt.left [Prop Hunt] You have {0} switches remaining
-modes.prophunt.rotation.on [Prop Hunt] Rotation Enabled
-modes.prophunt.rotation.off [Prop Hunt] Rotation Disabled
-modes.prophunt.rotation.reset [Prop Hunt] Rotation reset.
-commands.login Login to use this command
-commands.connected {0} connected, {1} in menu
-commands.host {0} is the current Host.
-commands.noclip.on Noclip - Enabled
-commands.noclip.off Noclip - Disabled
-commands.god.on God mode - Enabled
-commands.god.off God mode - Disabled
-commands.god.on.other God mode - Enabled for {0}
-commands.god.off.other God mode - Disabled for {0}
-commands.smite.on Smite - Enabled
-commands.smite.off Smite - Disabled
-commands.smite.on.other Smite - Enabled for {0}
-commands.smite.off.other Smite - Disabled for {0}
-commands.perk Gave {0} {1}
+ranked.team.spawn Bitte tritt einem Team bei um zu spawnen
+ranked.class.spawn Bitte wähle eine Klasse aus um zu spawnen
+modes.round.win Dein Team hat diese Runde gesichert
+modes.round.loss Dein Team kann diese Runde nicht mehr gewinnen
+modes.round.switch Seitenwechsel Bereite dich auf die nächste Runde vor
+modes.trade.success Trade Erfolgreich
+modes.prophunt.limit [Prop Hunt] Du kannst dich nichtmehr verwandeln
+modes.prophunt.left [Prop Hunt] Du hast noch {0} Verwandlungen übrig
+modes.prophunt.rotation.on [Prop Hunt] Rotation ein
+modes.prophunt.rotation.off [Prop Hunt] Rotation aus
+modes.prophunt.rotation.reset [Prop Hunt] Rotation zurückgesetzt.
+commands.login Logge dich ein um diesen Befehl zu verwenden
+commands.connected {0} Verbunden, {1} im Menü
+commands.host {0} ist der momentanige Host.
+commands.noclip.on Noclip - Ein
+commands.noclip.off Noclip - Aus
+commands.god.on God mode - Ein
+commands.god.off God mode - Aus
+commands.god.on.other God mode - Ein für {0}
+commands.god.off.other God mode - Aus für {0}
+commands.smite.on Smite - Ein
+commands.smite.off Smite - Aus
+commands.smite.on.other Smite - Ein für {0}
+commands.smite.off.other Smite - Aus für {0}
+commands.perk {0} hat {1} erhalten
 commands.maxperk Gave {0} MAX {1}
-commands.unlimited.on Unlimited Ammo - Enabled
-commands.unlimited.off Unlimited Ammo - Disabled
-commands.unlimited.on.other Unlimited Ammo - Enabled for {0}
-commands.unlimited.off.other Unlimited Ammo - Disabled for {0}
-commands.spraybypass.on Unlimited Ammo - Enabled
-commands.spraybypass.off Unlimited Ammo - Disabled
-commands.spraybypass.on.other Unlimited Ammo - Enabled for {0}
-commands.spraybypass.off.other Unlimited Ammo - Disabled for {0}
-commands.suspect.invalid Invalid suspect info
-commands.suspect.menu Suspect in menu
-commands.suspect.left Suspect has left
+commands.unlimited.on Unlimited Ammo - Ein
+commands.unlimited.off Unlimited Ammo - Aus
+commands.unlimited.on.other Unlimited Ammo - Ein für {0}
+commands.unlimited.off.other Unlimited Ammo - Aus für {0}
+commands.spraybypass.on Unlimited Ammo - Ein
+commands.spraybypass.off Unlimited Ammo - Aus
+commands.spraybypass.on.other Unlimited Ammo - Ein für {0}
+commands.spraybypass.off.other Unlimited Ammo - Aus für {0}
+commands.suspect.invalid Ungültige Tatverdächtiger Info
+commands.suspect.menu Tatverdächtiger ist im Menü
+commands.suspect.left Tatverdächtiger hat das Spiel verlassen
 commands.suspect.found Suspect Found. Spectating: {0}, Spawned: {1}, Name: {2}
-commands.forfeit.next Must play atleast 1 round
-commands.forfeit.wait Wait till match starts to forfeit
-commands.forfeit.later Please try again in a few seconds
-commands.forfeit.voted You already voted.
-commands.forfeit.limit You can only start one vote per game
-commands.forfeit.ended Forfeiting Game
-commands.forfeit.ended.other Other Team Forfeited
-server.message.join {0} joined the game
-server.message.left {0} left the game
-server.message.kicked {0} was kicked
-server.message.banned {0} was banned
-server.message.votekicked {0} was vote kicked
-server.message.arrested {0} was arrested by the K.P.D
+commands.forfeit.next Du musst mindestens eine Runde spielen
+commands.forfeit.wait Warte bis das Match startet um aufzugeben
+commands.forfeit.later Versuche es in ein paar Sekunden erneut
+commands.forfeit.voted Du hast schon abgestimmt
+commands.forfeit.limit Du kannst nur eine Abstimmung pro Spiel starten
+commands.forfeit.ended Spiel wird aufgegeben
+commands.forfeit.ended.other Das andere Team hat aufgegeben
+server.message.join {0} ist dem Spiel beigetreten
+server.message.left {0} hat das Spiel verlassen
+server.message.kicked {0} wurde gekickt
+server.message.banned {0} wurde gebannt
+server.message.votekicked {0} wurde per Abstimmung gekickt
+server.message.arrested {0} wurde vom K.P.D verhaftet
 `;
