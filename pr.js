@@ -84,6 +84,8 @@ settings.none Nenhuma Configuração Encontrada
 settings.backup Backup de Configurações
 settings.controls.change Mudar Controles
 settings.controls.press Pressione Qualquer Tecla
+settings.controls.leaderboard Tipo de Ativação de Placar de Líder 
+settings.controls.voicechat Tipo de Ativação de Chat de Voz 
 settings.local.header Localização <span id="requiresRestart"><span style="color: #eb5656">*</span> restart requerido</span>
 settings.local.region Região de Origem
 settings.local.lang Linguagem
@@ -92,6 +94,7 @@ settings.network.netRerouting Rotação Automática (Afeta A Conexão)
 settings.network.netRate Network Rate (Hz)
 settings.network.lagComp Compensação de Lag
 settings.network.optNet Otimização de rede
+settings.network.quickplay Forçar Jogar Rápido
 settings.popup.header Pop-Ups
 settings.experimental.header Configurações Experimentais
 settings.experimental.holiday Efeitos de Ocasiões especiais
@@ -646,6 +649,12 @@ windows.secondary.unlocked Desbloqueado no nível {0}
 windows.secondary.customOnly Personalizados Apenas
 windows.secondary.premiumOnly Premium Apenas
 windows.secondary.req Nível Requerido {0}
+windows.skins.unlocked Desbloqueado
+windows.skins.customOnly Customizados Apenas
+windows.skins.premiumOnly Premium Apenas
+windows.skins.classOnly Req {0}
+windows.skins.req Req lvl {0}
+windows.skins.default Skin Padrão
 windows.advertise.header Anunciar
 windows.support.header Suporte
 windows.players.header Lista de Jogadores
@@ -892,27 +901,15 @@ stats.airdrops.stolen Pacote de KR Robados
 settings.quality.flapAnim Animação de Flap
 chall.name.hs Matar {0} com tiros na cabeça {1}
 chall.name.ns Matar {0} sem mira {1}
-chall.name.ls Matar {0} com tiros nas pernas {1}
-chall.name.ls Matar {0} atirando a faca {1}
-chall.name.ls Obter {0} primeiras mortes {1}
-chall.name.ls Matar {0} com tiros de longa distancia {1}
-chall.name.ls Matar {0} com tiros nas pernas {1}
-chall.name.ls Matar {0} atirando a faca {1}
-chall.name.ls Obter {0} primeiras mortes {1}
-chall.name.ls Matar {0} com tiros de longa distancia {1}
-chall.name.ls Matar {0} com tiros nas pernas {1}
-chall.name.ls Matar {0} atirando a faca {1}
-chall.name.ls Obter {0} primeiras mortes {1}
-chall.name.ls Matar {0} com tiros de longa distancia {1}
+chall.name.ls Get {0} legshots {1}
+chall.name.tmk Get {0} throwing knife kills {1}
+chall.name.fb Get {0} first bloods {1}
 chall.name.mk Matar {0} com a faca {1}
 chall.name.fk Matar {0} com os punhos {1}
 chall.name.qs Matar {0} com tiros de mira rápida {1}
 chall.name.wb Matar {0} Varados {1}
 chall.name.airk Matar {0} no ar {1}
-chall.name.ls Matar {0} com tiros nas pernas {1}
-chall.name.ls Matar {0} atirando a faca {1}
-chall.name.ls Obter {0} primeiras mortes {1}
-chall.name.ls Matar {0} com tiros de longa distancia {1}
+chall.name.lns Get {0} longshots {1}
 chall.name.tk Matar {0} a alta velocidade {1}
 chall.name.drk Matar {0} a deslizar {1}
 chall.name.kstk Obter {0} mortes seguidas {1}
@@ -923,4 +920,63 @@ chall.name.dmg Causar {0} dano {1}
 chall.name.bzk Matar {0} enquanto estão numa sequência de mortes {1}
 chall.name.cc Matar {0} com pouca vida {1}
 chall.name.rk Obter {0} mortes de vingança {1}
+event.doubleXP 2x Classe XP ativado para esta partida
+ranked.join Entrou em uma Partida Rankeada. Abandonar a partida resultará de um tempo de suspensão.
+ranked.progress Jogo Decorrendo
+ranked.team Por Favor entre em um time
+ranked.switch Não pode alterar com o jogo decorrendo
+ranked.spectate Não pode espectar em partida rankeada
+ranked.login Faça Login para fazer spawn
+ranked.sync Faltanto dados de Sync
+ranked.team.spawn Entre em um time para fazer spawn
+ranked.class.spawn Por Favor selecione uma classe para fazer spawn
+modes.round.win Seu Time segurou a vitória desta rounda
+modes.round.loss Esta rounda não é mais vencível
+modes.round.switch Mudando de lados. Se prepare para a próxima rounda
+modes.trade.success Troca Feita com Sucesso!
+modes.prophunt.limit [Caça ao Acessório] Você esgotou suas mudanças de Acessórios
+modes.prophunt.left [Caça ao Acessório] Você tem {0} mudanças de Acessórios restantes
+modes.prophunt.rotation.on [Caça ao Acessório] Rotação Ativa
+modes.prophunt.rotation.off [Caça ao Acessório] Rotação Desativa
+modes.prophunt.rotation.reset [Caça ao Acessório] Resetar Rotação.
+commands.login Faça login para usar esse comando!
+commands.connected {0} connectados, {1} em menu
+commands.host {0} é o anfitrião atual.
+commands.noclip.on Noclip - Ativo
+commands.noclip.off Noclip - Desativo
+commands.god.on Modo Deus - Ativo
+commands.god.off Modo Deuse - Desativo
+commands.god.on.other Modo Deus - Ativo por {0}
+commands.god.off.other Modo Deus - Desativo por {0}
+commands.smite.on Smite - Ativo
+commands.smite.off Smite - Desativo
+commands.smite.on.other Smite - Ativo por {0}
+commands.smite.off.other Smite - Desativo por {0}
+commands.perk Deu {0} {1}
+commands.maxperk Deu {0} MAX {1}
+commands.unlimited.on Munição Infinita - Ativo
+commands.unlimited.off Munição Infinita - Desativo
+commands.unlimited.on.other Munição Infinita - Ativo por {0}
+commands.unlimited.off.other Munição Infinita - Desativo por {0}
+commands.spraybypass.on Munição Infinita - Ativo
+commands.spraybypass.off Munição Infinita - Desativo 
+commands.spraybypass.on.other Munição Infinita - Ativo por {0}
+commands.spraybypass.off.other Munição Infinita - Desativo por {0}
+commands.suspect.invalid Informação de suspeito inválida
+commands.suspect.menu Suspeito em menu
+commands.suspect.left Suspeito saiu
+commands.suspect.found Suspeito encontrado. Espectando: {0}, Spawnou: {1}, Nome: {2}
+commands.forfeit.next Deve jogar pelo menos 1 rounda
+commands.forfeit.wait Espera pelo início da rounda para desistir 
+commands.forfeit.later Tente denovo em alguns segundos 
+commands.forfeit.voted Você já votou.
+commands.forfeit.limit Só pode começar uma votação 1 vez por jogo
+commands.forfeit.ended Jogo por Desistência
+commands.forfeit.ended.other Outro time desistio
+server.message.join {0} entrou no jogo
+server.message.left {0} saiu do jogo
+server.message.kicked {0} foi expluso
+server.message.banned {0} foi banido
+server.message.votekicked {0} foi expluso por voto
+server.message.arrested {0} foi detido pela K.P.D
 `;
