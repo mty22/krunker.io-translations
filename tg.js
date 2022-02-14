@@ -921,19 +921,19 @@ chall.name.bzk Manira ng killstreak ng {0} beses {1}
 chall.name.cc Ikaw ay muntikang mamatay {0} na beses {1}
 chall.name.rk Makamit ang {0} na paghiganti
 event.doubleXP 2x Class XP enabled for this match
-ranked.join Joined Ranked Match. Abandoning a match will result in a temporary ban
-ranked.progress Game in Progress
-ranked.team Please join a Team
-ranked.switch Can't switch while in-game
-ranked.spectate Spectating Disabled in Ranked
-ranked.login Login to Spawn
+ranked.join Naka-join na sa Ranked match. Ang pag-abandona ay mag reresulta sa temporary ban. 
+ranked.progress Kasalukuyang naglalaro
+ranked.team Pumili muna ng team
+ranked.switch Hindi makapag switch habang naglalaro
+ranked.spectate Naka-disable ang panonood sa ranked
+ranked.login Mag-login upang maka-spawn
 ranked.sync Missing Sync Data
-ranked.team.spawn Please join a Team to Spawn
-ranked.class.spawn Please select a Class to Spawn
-modes.round.win Your Team has secured this round
-modes.round.loss This round is no longer winnable
-modes.round.switch Switching Sides. Prepare for the next Round
-modes.trade.success Trade Successful
+ranked.team.spawn Pumili muna ng team para maka-spawn
+ranked.class.spawn Pumili muna ng Klas para maka-spawn
+modes.round.win Na-secure na ng team mo ang round na ito
+modes.round.loss Hindi na winnable ang round na ito. 
+modes.round.switch Switching Sides. Mag-prepare para sa susunod na round.
+modes.trade.success Matagumpay ang trade 
 modes.prophunt.limit [Prop Hunt] You are out of prop switches
 modes.prophunt.left [Prop Hunt] You have {0} switches remaining
 modes.prophunt.rotation.on [Prop Hunt] Rotation Enabled
@@ -942,10 +942,10 @@ modes.prophunt.rotation.reset [Prop Hunt] Rotation reset.
 commands.login Login to use this command
 commands.connected {0} connected, {1} in menu
 commands.host {0} is the current Host.
-commands.noclip.on Noclip - Enabled
-commands.noclip.off Noclip - Disabled
-commands.god.on God mode - Enabled
-commands.god.off God mode - Disabled
+commands.noclip.on Noclip - Naka-enabled
+commands.noclip.off Noclip - Naka-disabled
+commands.god.on God mode - Naka-enabled
+commands.god.off God mode - Naka-disabled
 commands.god.on.other God mode - Enabled for {0}
 commands.god.off.other God mode - Disabled for {0}
 commands.smite.on Smite - Enabled
