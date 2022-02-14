@@ -649,12 +649,12 @@ windows.secondary.unlocked Odblokowane
 windows.secondary.customOnly Dostępne tylko w rozgrywkach niestandardowych
 windows.secondary.premiumOnly Dostępne tylko dla użytkowników Premium
 windows.secondary.req Wymaga poziomu {0}
-windows.skins.unlocked Unlocked
-windows.skins.customOnly Customs Only
-windows.skins.premiumOnly Premium Only
+windows.skins.unlocked Odblokowane
+windows.skins.customOnly Tylko w grach spersonalizowanych
+windows.skins.premiumOnly Tylko dla graczy premium
 windows.skins.classOnly Req {0}
-windows.skins.req Req lvl {0}
-windows.skins.default Default Skin
+windows.skins.req Wymagany poziom {0}
+windows.skins.default Domyślna skórka
 windows.advertise.header Reklamuj
 windows.support.header Wsparcie
 windows.players.header Lista graczy
@@ -920,63 +920,63 @@ chall.name.dmg Zadaj {0} obrażeń {1}
 chall.name.bzk Zakończ {0} serii zabójstw innych graczy {1}
 chall.name.cc Zdobądź {0} zabójstw, prawie samemu ginąc {1}
 chall.name.rk Zdobądź {0} zabójstw w odwecie {1}
-event.doubleXP 2x Class XP enabled for this match
-ranked.join Joined Ranked Match. Abandoning a match will result in a temporary ban
-ranked.progress Game in Progress
-ranked.team Please join a Team
-ranked.switch Can't switch while in-game
-ranked.spectate Spectating Disabled in Ranked
-ranked.login Login to Spawn
-ranked.sync Missing Sync Data
-ranked.team.spawn Please join a Team to Spawn
-ranked.class.spawn Please select a Class to Spawn
-modes.round.win Your Team has secured this round
-modes.round.loss This round is no longer winnable
-modes.round.switch Switching Sides. Prepare for the next Round
-modes.trade.success Trade Successful
-modes.prophunt.limit [Prop Hunt] You are out of prop switches
-modes.prophunt.left [Prop Hunt] You have {0} switches remaining
-modes.prophunt.rotation.on [Prop Hunt] Rotation Enabled
-modes.prophunt.rotation.off [Prop Hunt] Rotation Disabled
-modes.prophunt.rotation.reset [Prop Hunt] Rotation reset.
-commands.login Login to use this command
+event.doubleXP Podwójne doświadczenie klas w tej grze
+ranked.join Dołączono do rozgrywki rankowanej. Opuszczenie rozgrywki będzie skutkować tymczasowym banem
+ranked.progress Rozgrywka w trakcie
+ranked.team Dołącz do drużyny
+ranked.switch Nie można zmieniać w trakcie rozgrywki
+ranked.spectate Obserwowanie jest wyłączone w rozgrywkach rankowanych
+ranked.login Zaloguj się, aby dołączyć do rozgrywki
+ranked.sync Brak danych synchronizacji
+ranked.team.spawn Dołącz do drużyny, aby dołączyć do rozgrywki
+ranked.class.spawn Wybierz klasę, aby dołączyć do rozgrywki
+modes.round.win Twoja drużyna zabezpieczyła sobie tę rundę
+modes.round.loss Nie jest możliwe wygranie tej rundy przez Twoją drużynę
+modes.round.switch Zamiana stron. Przygotuj się na następną rundę
+modes.trade.success Wymiana zakończona sukcesem
+modes.prophunt.limit [Chowany] Nie możesz zmieniać przykrywek więcej razy
+modes.prophunt.left [Chowany] You have {0} switches remaining
+modes.prophunt.rotation.on [Chowany] Rotacja włączona
+modes.prophunt.rotation.off [Chowany] Rotacja wyłączona
+modes.prophunt.rotation.reset [Chowany] Rotacja zresetowana.
+commands.login Zaloguj się, aby skorzystać z tej komendy
 commands.connected {0} connected, {1} in menu
-commands.host {0} is the current Host.
-commands.noclip.on Noclip - Enabled
-commands.noclip.off Noclip - Disabled
-commands.god.on God mode - Enabled
-commands.god.off God mode - Disabled
-commands.god.on.other God mode - Enabled for {0}
-commands.god.off.other God mode - Disabled for {0}
-commands.smite.on Smite - Enabled
-commands.smite.off Smite - Disabled
-commands.smite.on.other Smite - Enabled for {0}
-commands.smite.off.other Smite - Disabled for {0}
-commands.perk Gave {0} {1}
-commands.maxperk Gave {0} MAX {1}
-commands.unlimited.on Unlimited Ammo - Enabled
-commands.unlimited.off Unlimited Ammo - Disabled
-commands.unlimited.on.other Unlimited Ammo - Enabled for {0}
-commands.unlimited.off.other Unlimited Ammo - Disabled for {0}
-commands.spraybypass.on Unlimited Ammo - Enabled
-commands.spraybypass.off Unlimited Ammo - Disabled
-commands.spraybypass.on.other Unlimited Ammo - Enabled for {0}
-commands.spraybypass.off.other Unlimited Ammo - Disabled for {0}
-commands.suspect.invalid Invalid suspect info
-commands.suspect.menu Suspect in menu
-commands.suspect.left Suspect has left
-commands.suspect.found Suspect Found. Spectating: {0}, Spawned: {1}, Name: {2}
-commands.forfeit.next Must play atleast 1 round
-commands.forfeit.wait Wait till match starts to forfeit
-commands.forfeit.later Please try again in a few seconds
-commands.forfeit.voted You already voted.
-commands.forfeit.limit You can only start one vote per game
-commands.forfeit.ended Forfeiting Game
-commands.forfeit.ended.other Other Team Forfeited
-server.message.join {0} joined the game
-server.message.left {0} left the game
-server.message.kicked {0} was kicked
-server.message.banned {0} was banned
-server.message.votekicked {0} was vote kicked
-server.message.arrested {0} was arrested by the K.P.D
+commands.host {0} jest obecnym hostem.
+commands.noclip.on Noclip - włączony
+commands.noclip.off Noclip - wyłączony
+commands.god.on Tryb Boga - włączony
+commands.god.off Tryb Boga - wyłączony
+commands.god.on.other Tryb Boga - włączony dla {0}
+commands.god.off.other Tryb Boga - wyłączony dla {0}
+commands.smite.on Smite - włączony
+commands.smite.off Smite - wyłączony
+commands.smite.on.other Smite - włączony dla {0}
+commands.smite.off.other Smite - wyłączony dla {0}
+commands.perk Dano {0} {1}
+commands.maxperk Dano {0} MAX {1}
+commands.unlimited.on Nielimitowana amunicja Ammo - włączona
+commands.unlimited.off Nielimitowana amunicja - wyłączona
+commands.unlimited.on.other Nielimitowana amunicja - włączona dla {0}
+commands.unlimited.off.other Nielimitowana amunicja - wyłączona dla {0}
+commands.spraybypass.on Nielimitowana amunicja - włączona
+commands.spraybypass.off Nielimitowana amunicja - wyłączona
+commands.spraybypass.on.other Nielimitowana amunicja - włączona dla {0}
+commands.spraybypass.off.other Nielimitowana amunicja - wyłączona dla {0}
+commands.suspect.invalid Niepoprawne dane podejrzanego
+commands.suspect.menu Podejrzany jest w menu
+commands.suspect.left Podejrzany opuścił grę
+commands.suspect.found Podejrzany znaleziony. Obserwujący: {0}, W grze: {1}, Imię: {2}
+commands.forfeit.next Należy rozegrać przynajmniej jedną rozgrywkę
+commands.forfeit.wait Należy zaczekać na początek rozgrywki, aby się wycofać
+commands.forfeit.later Spróbuj ponownie za kilka sekund
+commands.forfeit.voted Już zagłosowałeś.
+commands.forfeit.limit Możesz rozpocząć tylko jedno głosowanie w ciągu jednej rozgrywki
+commands.forfeit.ended Wycofywanie się z gry
+commands.forfeit.ended.other Druga drużyna się wycofała
+server.message.join {0} dołączył do gry
+server.message.left {0} opuścił grę
+server.message.kicked {0} został wyrzucony
+server.message.banned {0} został zbanowany
+server.message.votekicked {0} został wyrzucony w drodze głosowania
+server.message.arrested {0} został aresztowany przez K.P.D.
 `;
