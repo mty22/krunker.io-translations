@@ -958,10 +958,10 @@ commands.unlimited.on Unlimited Ammo - Enabled
 commands.unlimited.off Unlimited Ammo - Disabled
 commands.unlimited.on.other Unlimited Ammo - Enabled for {0}
 commands.unlimited.off.other Unlimited Ammo - Disabled for {0}
-commands.spraybypass.on Unlimited Ammo - Enabled
-commands.spraybypass.off Unlimited Ammo - Disabled
-commands.spraybypass.on.other Unlimited Ammo - Enabled for {0}
-commands.spraybypass.off.other Unlimited Ammo - Disabled for {0}
+commands.spraybypass.on Unlimited Sprays - Enabled
+commands.spraybypass.off Unlimited Sprays - Disabled
+commands.spraybypass.on.other Unlimited Sprays - Enabled for {0}
+commands.spraybypass.off.other Unlimited Sprays - Disabled for {0}
 commands.suspect.invalid Invalid suspect info
 commands.suspect.menu Suspect in menu
 commands.suspect.left Suspect has left
