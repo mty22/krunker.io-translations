@@ -916,7 +916,7 @@ chall.name.kstk {0}명 연속 처치 달성 - {1}
 chall.name.w 게임 {0}판 승리하기
 chall.name.d {0}번 죽기
 chall.name.score {0}점 얻기
-chall.name.dmg {0} 피해량을 입히기 - {1}
+chall.name.dmg {0} 피해량 입히기 - {1}
 chall.name.bzk 연속 처치 {0}번 끊기 - {1}
 chall.name.cc 아슬아슬 처치 {0}번 하기
 chall.name.rk 복수 처치 {0}번 하기
