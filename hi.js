@@ -924,7 +924,7 @@ event.doubleXP 2x Class XP enabled for this match
 ranked.join Joined Ranked Match. Abandoning a match will result in a temporary ban
 ranked.progress खेल चल रहा है 
 ranked.team कृपया एक टीम जॉइन करें
-ranked.switch Can't switch while in-game
+ranked.switch खेल के बीच मे नहीं बदल सकते
 ranked.spectate Spectating Disabled in Ranked
 ranked.login रेस्पॉन करने के लिए लॉगिन करें
 ranked.sync Missing Sync Data
