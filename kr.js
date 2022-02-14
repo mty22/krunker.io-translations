@@ -899,27 +899,27 @@ social.trades.accept 정말 이 트레이드를 수락하시겠습니까?
 stats.airdrops KR 패키지
 stats.airdrops.stolen 뺏은 패키지
 settings.quality.flapAnim 스나이퍼 스코프 덮개 애니메이션
-chall.name.hs Get {0} headshots {1}
-chall.name.ns Get {0} no-scopes {1}
-chall.name.ls Get {0} legshots {1}
-chall.name.tmk Get {0} throwing knife kills {1}
-chall.name.fb Get {0} first bloods {1}
-chall.name.mk Get {0} melee kills {1}
-chall.name.fk Get {0} fist kills {1}
-chall.name.qs Get {0} quickscopes {1}
-chall.name.wb Get {0} wallbangs {1}
-chall.name.airk Get {0} mid-air kills {1}
-chall.name.lns Get {0} longshots {1}
-chall.name.tk Get {0} turbo kills {1}
-chall.name.drk Get {0} drift kills {1}
-chall.name.kstk Get a {0} killstreak {1}
-chall.name.w Win {0} matches
-chall.name.d Die {0} times
-chall.name.score Get {0} score
-chall.name.dmg Deal {0} damage {1}
-chall.name.bzk Get {0} buzz kills {1}
-chall.name.cc Get {0} close-calls {1}
-chall.name.rk Deal {0} revenge kills {1}
+chall.name.hs 헤드샷으로 {0}명 처치하기 - {1}
+chall.name.ns 노스코프로 {0}명 처치하기 - {1}
+chall.name.ls 다리샷으로 {0}명 처치하기 - {1}
+chall.name.tmk 근접무기 던지기로 {0}명 처치하기 - {1}
+chall.name.fb 퍼스트 블러드 {0}번 하기 - {1}
+chall.name.mk 근접무기로 {0}명 처치하기 - {1}
+chall.name.fk 주먹으로 {0}명 처치하기 - {1}
+chall.name.qs 패줌으로 {0}명 처치하기- {1}
+chall.name.wb 벽을 뚫고 {0}명 처치하기 - {1}
+chall.name.airk 공중에서 {0}명 처치하기 - {1}
+chall.name.lns 원거리에서 {0}명 처치하기 - {1}
+chall.name.tk 고속으로 {0}명 처치하기 - {1}
+chall.name.drk 슬라이딩 중 {0}명 처치하기 - {1}
+chall.name.kstk {0}명 연속 처치 달성 - {1}
+chall.name.w 게임 {0}판 승리하기
+chall.name.d {0}번 죽기
+chall.name.score {0}점 얻기
+chall.name.dmg {0} 피해량을 입히기 - {1}
+chall.name.bzk 연속 처치 {0}번 끊기 - {1}
+chall.name.cc 아슬아슬 처치 {0}번 하기
+chall.name.rk 복수 처치 {0}번 하기
 event.doubleXP 이 게임에서 얻는 클래스 경험치는 2배입니다
 ranked.join 랭크전을 참가했습니다. 게임 도중 나갈 경우 랭크전 임시 정지 조치될 수 있습니다.
 ranked.progress 게임 진행 중
