@@ -906,7 +906,7 @@ chall.name.tmk 근접무기 던지기로 {0}명 처치하기 - {1}
 chall.name.fb 퍼스트 블러드 {0}번 하기 - {1}
 chall.name.mk 근접무기로 {0}명 처치하기 - {1}
 chall.name.fk 주먹으로 {0}명 처치하기 - {1}
-chall.name.qs 패줌으로 {0}명 처치하기- {1}
+chall.name.qs 패줌으로 {0}명 처치하기 - {1}
 chall.name.wb 벽을 뚫고 {0}명 처치하기 - {1}
 chall.name.airk 공중에서 {0}명 처치하기 - {1}
 chall.name.lns 원거리에서 {0}명 처치하기 - {1}
