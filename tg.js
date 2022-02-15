@@ -922,17 +922,17 @@ chall.name.cc Ikaw ay muntikang mamatay {0} na beses {1}
 chall.name.rk Makamit ang {0} na paghiganti
 event.doubleXP 2x Class XP ay naka-enabled para sa larong ito
 ranked.join Naka-join na sa Ranked match. Ang pag-abandona ay mag reresulta sa temporary ban. 
-ranked.progress Kasalukuyang naglalaro
-ranked.team Pumili muna ng team
-ranked.switch Hindi makapag makapagpalit habang naglalaro
+ranked.progress Kasalukuyang nasa laro
+ranked.team Pumili muna ng grupo
+ranked.switch Hindi pwedeng mag palit habang naglalaro
 ranked.spectate Naka-disable ang panonood sa ranked
 ranked.login Mag-login upang maka-spawn
 ranked.sync Nawawala ang Sync Data
-ranked.team.spawn Pumili muna ng team para maka-spawn
+ranked.team.spawn Pumili muna ng grupo para makapag spawn
 ranked.class.spawn Pumili muna ng Klas para maka-spawn
-modes.round.win Na-secure na ng team mo ang round na ito
+modes.round.win Na-secure na ng grupo mo and laban na ito
 modes.round.loss Hindi na maipapanalo ang laban na ito.
-modes.round.switch Magpapalit ng posisyon. Mag-prepare para sa susunod na round.
+modes.round.switch Magpapalit ng posisyon. Mag handa para sa susunod na laban
 modes.trade.success Matagumpay ang trade 
 modes.prophunt.limit [Prop Hunt] You are out of prop switches
 modes.prophunt.left [Prop Hunt] You have {0} switches remaining
