@@ -84,8 +84,8 @@ settings.none Nie znaleziono ustawień
 settings.backup Ustawienia przywracania
 settings.controls.change Ustawienia klawiszy
 settings.controls.press Naciśnij jakikolwiek klawisz
-settings.controls.leaderboard InGame Leaderboard Trigger Type
-settings.controls.voicechat Voicechat Trigger Type
+settings.controls.leaderboard Typ przełącznika tabeli wyników
+settings.controls.voicechat Typ przełącznika czatu głosowego
 settings.local.header Lokalizacja <span id="requiresRestart"><span style="color: #eb5656">*</span> wymaga restartu</span>
 settings.local.region Domyślny Region
 settings.local.lang Język
@@ -94,7 +94,7 @@ settings.network.netRerouting Auto Routowanie (Wpływa na ping)
 settings.network.netRate Częstotliwość sieci (Hz)
 settings.network.lagComp Kompensacja lagów
 settings.network.optNet Optymalizacja sieci
-settings.network.quickplay Force Quickplay
+settings.network.quickplay Wymuś szybką grę
 settings.popup.header Wyskakujące okienka
 settings.experimental.header Eksperymentalne
 settings.experimental.holiday Efekty Świąteczne
