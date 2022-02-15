@@ -934,14 +934,14 @@ modes.round.win Na-secure na ng grupo mo ang laban na ito
 modes.round.loss Hindi na maipapanalo ang laban na ito.
 modes.round.switch Magpapalit ng posisyon. Mag handa para sa susunod na laban.
 modes.trade.success Matagumpay ang trade 
-modes.prophunt.limit [Prop Hunt] You are out of prop switches
-modes.prophunt.left [Prop Hunt] You have {0} switches remaining
-modes.prophunt.rotation.on [Prop Hunt] Rotation Enabled
-modes.prophunt.rotation.off [Prop Hunt] Rotation Disabled
-modes.prophunt.rotation.reset [Prop Hunt] Rotation reset.
-commands.login Login to use this command
-commands.connected {0} connected, {1} in menu
-commands.host {0} is the current Host.
+modes.prophunt.limit [Prop Hunt] Wala ka ng palitan ng props
+modes.prophunt.left [Prop Hunt] Ikaw ay may {0} natitirang palitan
+modes.prophunt.rotation.on [Prop Hunt] Rotation May Bisa
+modes.prophunt.rotation.off [Prop Hunt] Rotation Walang Bisa
+modes.prophunt.rotation.reset [Prop Hunt] Rotation ay na reset.
+commands.login Mag-login upang magamit ang command na ito
+commands.connected {0} karugtong, {1} nasa menu
+commands.host Si {0} ay ang current na host.
 commands.noclip.on Noclip - Naka-enabled
 commands.noclip.off Noclip - Naka-disabled
 commands.god.on God mode - Naka-enabled
