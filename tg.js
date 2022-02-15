@@ -927,7 +927,7 @@ ranked.team Pumili muna ng team
 ranked.switch Hindi makapag switch habang naglalaro
 ranked.spectate Naka-disable ang panonood sa ranked
 ranked.login Mag-login upang maka-spawn
-ranked.sync Missing Sync Data
+ranked.sync Missing ang Sync Data
 ranked.team.spawn Pumili muna ng team para maka-spawn
 ranked.class.spawn Pumili muna ng Klas para maka-spawn
 modes.round.win Na-secure na ng team mo ang round na ito
