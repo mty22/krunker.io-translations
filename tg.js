@@ -930,9 +930,9 @@ ranked.login Mag-login upang maka-spawn
 ranked.sync Nawawala ang Sync Data
 ranked.team.spawn Pumili muna ng grupo para makapag spawn
 ranked.class.spawn Pumili muna ng Klas para maka-spawn
-modes.round.win Na-secure na ng grupo mo and laban na ito
+modes.round.win Na-secure na ng grupo mo ang laban na ito
 modes.round.loss Hindi na maipapanalo ang laban na ito.
-modes.round.switch Magpapalit ng posisyon. Mag handa para sa susunod na laban
+modes.round.switch Magpapalit ng posisyon. Mag handa para sa susunod na laban.
 modes.trade.success Matagumpay ang trade 
 modes.prophunt.limit [Prop Hunt] You are out of prop switches
 modes.prophunt.left [Prop Hunt] You have {0} switches remaining
@@ -962,10 +962,10 @@ commands.spraybypass.on Unlimited na Ammo - Naka-enabled
 commands.spraybypass.off Unlimited na Ammo - Naka-disabled
 commands.spraybypass.on.other Unlimited na Ammo - Naka-enabled ng {0}
 commands.spraybypass.off.other Unlimited na Ammo - Naka-disabled ng {0}
-commands.suspect.invalid Invalid ang inpormasyon ng suspect
+commands.suspect.invalid Walang bisa ang inpormasyon ng suspect
 commands.suspect.menu Suspect sa Menu
 commands.suspect.left Ang suspect ay umalis
-commands.suspect.found Nahanap na ang suspect. spectating: {0}, Spawned: {1}, pangalan: {2}
+commands.suspect.found Nahanap na ang suspect. nanonood: {0}, spawned: {1}, pangalan: {2}
 commands.forfeit.next Kailangan maglaro muna ng 1 laban
 commands.forfeit.wait Maghintay munang magsimula ang laro para maka-forfeit 
 commands.forfeit.later Ulitin muli sa ilang segundo 
