@@ -924,15 +924,15 @@ event.doubleXP 2x Class XP ay naka-enabled para sa larong ito
 ranked.join Naka-join na sa Ranked match. Ang pag-abandona ay mag reresulta sa temporary ban. 
 ranked.progress Kasalukuyang naglalaro
 ranked.team Pumili muna ng team
-ranked.switch Hindi makapag switch habang naglalaro
+ranked.switch Hindi makapag makapagpalit habang naglalaro
 ranked.spectate Naka-disable ang panonood sa ranked
 ranked.login Mag-login upang maka-spawn
-ranked.sync Missing ang Sync Data
+ranked.sync Nawawala ang Sync Data
 ranked.team.spawn Pumili muna ng team para maka-spawn
 ranked.class.spawn Pumili muna ng Klas para maka-spawn
 modes.round.win Na-secure na ng team mo ang round na ito
-modes.round.loss Hindi na winnable ang round na ito. 
-modes.round.switch Switching Sides. Mag-prepare para sa susunod na round.
+modes.round.loss Hindi na maipapanalo ang laban na ito.
+modes.round.switch Magpapalit ng posisyon. Mag-prepare para sa susunod na round.
 modes.trade.success Matagumpay ang trade 
 modes.prophunt.limit [Prop Hunt] You are out of prop switches
 modes.prophunt.left [Prop Hunt] You have {0} switches remaining
@@ -966,9 +966,9 @@ commands.suspect.invalid Invalid suspect info
 commands.suspect.menu Suspect in menu
 commands.suspect.left Suspect has left
 commands.suspect.found Suspect Found. Spectating: {0}, Spawned: {1}, Name: {2}
-commands.forfeit.next Kailangan maglaro muna ng 1 round
+commands.forfeit.next Kailangan maglaro muna ng 1 laban
 commands.forfeit.wait Maghintay munang magsimula ang laro para maka-forfeit 
-commands.forfeit.later I-try again sa ilang segundo 
+commands.forfeit.later Ulitin muli sa ilang segundo 
 commands.forfeit.voted Ikaw ay naka vote na.
 commands.forfeit.limit Isang beses kalang makakaboto sa isang laro
 commands.forfeit.ended Fino-forfeit na ang laro
