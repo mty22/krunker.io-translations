@@ -962,10 +962,10 @@ commands.spraybypass.on Unlimited na Ammo - Naka-enabled
 commands.spraybypass.off Unlimited na Ammo - Naka-disabled
 commands.spraybypass.on.other Unlimited na Ammo - Naka-enabled ng {0}
 commands.spraybypass.off.other Unlimited na Ammo - Naka-disabled ng {0}
-commands.suspect.invalid Invalid suspect info
-commands.suspect.menu Suspect in menu
-commands.suspect.left Suspect has left
-commands.suspect.found Suspect Found. Spectating: {0}, Spawned: {1}, Name: {2}
+commands.suspect.invalid Invalid ang inpormasyon ng suspect
+commands.suspect.menu Suspect sa Menu
+commands.suspect.left Ang suspect ay umalis
+commands.suspect.found Nahanap na ang suspect. spectating: {0}, Spawned: {1}, pangalan: {2}
 commands.forfeit.next Kailangan maglaro muna ng 1 laban
 commands.forfeit.wait Maghintay munang magsimula ang laro para maka-forfeit 
 commands.forfeit.later Ulitin muli sa ilang segundo 
@@ -973,9 +973,9 @@ commands.forfeit.voted Ikaw ay naka vote na.
 commands.forfeit.limit Isang beses kalang makakaboto sa isang laro
 commands.forfeit.ended Fino-forfeit na ang laro
 commands.forfeit.ended.other Nag-forfeit na ang kabilang team
-server.message.join {0} joined the game
-server.message.left {0} left the game
-server.message.kicked {0} was kicked
+server.message.join {0} sumali sa laro
+server.message.left {0} umalis sa laro
+server.message.kicked {0} ay napatalsik
 server.message.banned {0} was banned
 server.message.votekicked {0} was vote kicked
 server.message.arrested {0} was arrested by the K.P.D
