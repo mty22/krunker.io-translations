@@ -39,11 +39,11 @@ generic.follow 追隨
 generic.unfollow 取消追隨
 generic.followers 個追隨者
 generic.following 個追隨中
-generic.games 遊玩局數
+generic.games 遊玩場數
 generic.wins 勝場數
 generic.lose 敗場數
 generic.clan 戰隊
-generic.games.played 遊玩局數
+generic.games.played 遊玩場數
 generic.games.won 勝場數
 generic.games.lost 敗場數
 generic.timep 遊玩時間
@@ -65,7 +65,7 @@ player.killstreak {0} on a {1} Kill Streak
 player.inactive 由於你的閒置時間過長，你已被踢出此伺服器
 player.disconnect 連線已中斷
 timer.end 下一場將在 {0} 後開始
-leaderboard.empty 這裡沒有任何玩家…
+leaderboard.empty 這裡沒有任何玩家
 popup.checkpoint 存檔點！
 app.play 點擊開始遊戲
 app.spectate 點擊開始觀戰
@@ -73,7 +73,7 @@ app.play.mobile 輕觸開始遊戲
 app.spectate.mobile 輕觸開始觀戰
 app.play.controller 按下開始鍵開始遊戲
 app.spectate.controller 按下開始鍵開始觀戰
-purchase.error 發生錯誤！
+purchase.error 發生錯誤
 purchase.error.click 點此</a> 重試！
 purchase.error.limit 你可能已超出每日交易額度
 settings.reset 重設
@@ -84,17 +84,17 @@ settings.none 沒有找到任何設定
 settings.backup 備份設定
 settings.controls.change 按鍵設定
 settings.controls.press 按任意鍵
-settings.controls.leaderboard InGame Leaderboard Trigger Type
-settings.controls.voicechat Voicechat Trigger Type
+settings.controls.leaderboard 遊戲內計分版觸發類型
+settings.controls.voicechat 語音聊天觸發類型
 settings.local.header 在地化 <span id="requiresRestart"><span style="color: #eb5656">*</span> 需要重啟遊戲</span>
-settings.local.region 預設伺服器地區
+settings.local.region 預設地區
 settings.local.lang 語言
 settings.network.header 網路
 settings.network.netRerouting 動態路由（影響網路時延）
 settings.network.netRate 網路更新率 (Hz)
 settings.network.lagComp 延遲補償
 settings.network.optNet 網路最佳化
-settings.network.quickplay Force Quickplay
+settings.network.quickplay 強制快速遊玩
 settings.popup.header 彈出視窗
 settings.experimental.header 實驗性
 settings.experimental.holiday 節日效果
@@ -116,13 +116,13 @@ settings.client.angleBackend 幾乎原生圖型抽象層引擎後端
 settings.client.colorProfile 色彩設定檔
 settings.client.resourcePacks 資源包
 settings.dev.header 開發者
-settings.dev.forceUpdate 強制更新外觀
+settings.dev.forceUpdate 強制更新造型
 settings.dev.forceRegen 總是復活玩家
 settings.dev.extraBan 額外封禁資訊
 settings.chat.header 聊天
 settings.chat.chat 顯示聊天欄
 settings.chat.chat.all 總是
-settings.chat.chat.focus 聚焦到「輸入訊息」欄位時
+settings.chat.chat.focus 聚焦到 [Enter Message] 欄位時
 settings.chat.messages 顯示玩家訊息
 settings.chat.unboxings 顯示玩家開箱訊息
 settings.chat.chatOp 聊天欄不透明度
@@ -154,7 +154,7 @@ settings.quality.lowSpec 低規格模式
 settings.quality.ambient 環境陰影深淺程度
 settings.quality.ambientOld 舊版陰影渲染演算法（當可用時）
 settings.quality.textureAnim 紋理動畫
-settings.quality.objectAnim 地圖物體動畫
+settings.quality.objectAnim 地圖物品動畫
 settings.quality.screenShake 螢幕抖動
 settings.quality.weaponShine 武器光澤
 settings.quality.rendGamma 伽馬強度
@@ -162,7 +162,7 @@ settings.quality.lighting 光照品質
 settings.quality.showExplo 顯示爆炸效果
 settings.quality.aspectRatio 畫面寬高比
 settings.post.header 後期處理
-settings.post.post 啟用後期處理
+settings.post.post 後期處理
 settings.post.bloom 高光
 settings.post.bloomThreshold 高光臨界值
 settings.post.bloomStrength 高光強度
@@ -180,10 +180,10 @@ settings.interface.theme 遊戲主題
 settings.interface.ui 顯示狀態欄
 settings.interface.scoreboard 使用舊版計分板
 settings.interface.oldBrowser 使用舊版伺服器瀏覽器
-settings.interface.rarityanim 停用稀有物品動畫
+settings.interface.rarityanim 停用稀有度動畫
 settings.interface.showPfp 顯示玩家頭像
 settings.interface.showTradeMsg 顯示交易訊息
-settings.interface.hideNonTrade 隱藏不可交易的外觀
+settings.interface.hideNonTrade 隱藏不可交易的造型
 settings.interface.hp 動態血條
 settings.interface.dmgScale 傷害值顯示比例
 settings.interface.killf 顯示擊殺訊息
@@ -206,15 +206,15 @@ settings.interface.speedColorMax 最高速度顏色
 settings.interface.hideNames 名牌顯示
 settings.interface.hideNames.team 僅限隊友
 settings.interface.hideNames.enemy 僅限敵人
-settings.interface.hideNames.all 全部顯示
+settings.interface.hideNames.all 全部
 settings.interface.nametagStyle 名牌樣式
 settings.interface.nametagOpac 名牌不透明度
 settings.interface.nametagScale 名牌顯示比例
 settings.interface.nametagStyle.health 僅限血條
 settings.interface.nametagStyle.name 僅限名稱
-settings.interface.nametagStyle.nameLvl 名稱和等級
-settings.interface.nametagStyle.all 全部顯示
-settings.interface.healthNum 顯示血量
+settings.interface.nametagStyle.nameLvl 僅限名稱和等級
+settings.interface.nametagStyle.all 全部
+settings.interface.healthNum 血量
 settings.interface.healthColT 隊友血條顏色
 settings.interface.healthColE 敵人血條顏色
 settings.interface.xpBarCol 經驗條第一顏色
@@ -288,7 +288,7 @@ settings.hitmarker.leng 長度
 settings.hitmarker.spacing 間距
 settings.hitmarker.animD 擴散大小
 settings.hitmarker.animS 擴散速度
-settings.hitmarker.hitm 顯示命中標記
+settings.hitmarker.hitm 顯示
 settings.hitmarker.hitmFad 淡出速度
 settings.hitmarker.custom 命中標記圖片
 settings.hitmarker.custom.paste 命中標記圖片網址
@@ -297,7 +297,7 @@ settings.onKillS.style.1 降低解析度
 settings.onKillS.style.2 降低視角廣度
 settings.onKillS.style.3 增加視角廣度
 settings.serverb.header 伺服器瀏覽器
-settings.serverb.oldBrowser 舊版伺服器瀏覽器
+settings.serverb.oldBrowser 舊版瀏覽器
 settings.serverb.defaultRegionOnly 僅顯示預設地區的伺服器
 settings.gameprivacy.header 遊戲隱私
 settings.gameprivacy.streamer 實況主模式
@@ -307,10 +307,10 @@ settings.gameprivacy.showRegion 顯示地區資訊
 settings.gameprivacy.verified 顯示驗證徽章
 settings.gameprivacy.premium 顯示會員徽章
 settings.gameprivacy.partner 顯示遊戲合作夥伴徽章
-settings.gameprivacy.rank 顯示排位等級徽章
+settings.gameprivacy.rank 顯示段位徽章
 settings.gameprivacy.custom 顯示特殊徽章
 settings.gameplay.header 遊戲性
-settings.gameplay.gpSetts 遊戲性設定類型
+settings.gameplay.gpSetts 設定類型
 settings.gameplay.sensitivityX 水平靈敏度
 settings.gameplay.sensitivityY 垂直靈敏度
 settings.gameplay.aimsensX 瞄準時水平靈敏度
@@ -353,9 +353,9 @@ settings.audio.ui 使用者介面音量
 settings.audio.asset 地圖元件音量
 settings.audio.dialogue 互動音量
 settings.viewmodel.header 模型
-settings.viewmodel.vmSetts 模型設定類型
+settings.viewmodel.vmSetts 設定類型
 settings.viewmodel.fov 視角廣度
-settings.viewmodel.fps 武器長短
+settings.viewmodel.fps 武器視場
 settings.viewmodel.bobbing 武器晃動幅度
 settings.viewmodel.leaning 轉動時武器偏航幅度
 settings.viewmodel.show.primary 顯示主要武器
@@ -403,9 +403,9 @@ settings.editing.progmOffX 蓄力條水平座標
 settings.editing.progmOffY 蓄力條垂直座標
 settings.editing.progmRot 蓄力條旋轉角度
 settings.editing.saturation 遊戲環境飽和度
-settings.editing.menuSaturation 標題畫面飽和度
+settings.editing.menuSaturation 使用者介面飽和度
 settings.editing.hue 遊戲環境色相
-settings.editing.menuHue 標題畫面色相
+settings.editing.menuHue 使用者介面色相
 settings.editing.vignette 暈影強度
 settings.editing.feedLimit 擊殺訊息列表長度限制
 settings.editing.depth 景深圖模式
@@ -461,7 +461,7 @@ windows.servers.host + 建立伺服器
 windows.servers.hide 隱藏已滿的伺服器
 windows.servers.priority 預設地區優先
 windows.servers.online {0} 個玩家在遊戲中
-windows.servers.social {0} 個玩家在社群瀏覽中
+windows.servers.social {0} 個玩家在社群中
 windows.servers.editor {0} 個玩家在地圖編輯器中
 windows.loadout.header 更換武器搭配
 windows.loadout.class 職業
@@ -470,7 +470,7 @@ windows.loadout.primary.attach 配件
 windows.loadout.primary.reticle 瞄準鏡標線
 windows.loadout.primary.scope 狙擊鏡分劃版
 windows.loadout.secondary 次要武器
-windows.loadout.secondary.skin 次要武器外觀
+windows.loadout.secondary.skin 次要武器造型
 windows.loadout.melee 近戰武器
 windows.loadout.hat 帽子
 windows.loadout.back 背部
@@ -525,7 +525,7 @@ windows.controls.interact 互動
 windows.controls.interactSec 次要互動
 windows.controls.confirm 確認互動
 windows.controls.drop 丟棄
-windows.controls.wepVis 切換武器可見度
+windows.controls.wepVis 武器可見度切換鍵
 windows.controls.kickVoteY 投票踢出玩家［是］
 windows.controls.kickVoteN 投票踢出玩家［否］
 windows.controls.kpdVoteY KPD 投票［是］
@@ -547,15 +547,15 @@ windows.controls.taunt2 挑釁（放屁聲）
 windows.controls.taunt3 挑釁（迷因聲）
 windows.controls.taunt4 挑釁（這到底是什麼鬼？）
 windows.controls.taunt5 挑釁（就是現在！）
-windows.controls.prop 選擇物體（長按）
-windows.controls.propRand 隨機選擇物體
-windows.controls.propRot 切換物體旋轉角度
-windows.controls.propRotR 重設物體旋轉角度
+windows.controls.prop 選擇物品（長按）
+windows.controls.propRand 隨機選擇物品
+windows.controls.propRot 物品旋轉切換鍵
+windows.controls.propRotR 重設物品旋轉
 windows.controls.premium0 穿牆飛行
 windows.controls.premium1 無敵
 windows.controls.premium2 自殺
 windows.controls.premium3 瞬間擊殺
-windows.controls.reset 重設進度並回到起點（跑酷）
+windows.controls.reset 重設進度並回到起點（跑酷等）
 windows.controls.pretend 隱藏遊戲
 windows.host.header 建立客製化伺服器
 windows.host.maps 伺服器設定
@@ -606,7 +606,7 @@ windows.store.market 市場
 windows.store.market2 Krunker 市場
 windows.store.premium 購買會員
 windows.store.premium2 Krunker 會員
-windows.store.buyP 自訂顯示名稱以及更多會員專用功能
+windows.store.buyP 自訂顯示名稱以及更多會員專屬功能
 windows.store.buy 買賣物品盡在
 windows.store.wheels 輪盤
 windows.store.unlock 解鎖新武器和物品
@@ -618,7 +618,7 @@ windows.store.found {0} 找到了 {1}
 windows.trade.header 交易
 windows.scope.header 選擇狙擊鏡
 windows.premium.header 會員
-windows.skin.header 選擇外觀
+windows.skin.header 選擇造型
 windows.hat.header 選擇帽子
 windows.back.header 選擇背部飾品
 windows.waist.header 選擇腰部飾品
@@ -647,14 +647,14 @@ windows.publish.mod.login 登入以建立並上傳模組！
 windows.secondary.header 選擇次要武器
 windows.secondary.unlocked 已解鎖
 windows.secondary.customOnly 僅限客製化伺服器
-windows.secondary.premiumOnly 僅限會員
+windows.secondary.premiumOnly 會員專屬
 windows.secondary.req 需要 {0} 級
-windows.skins.unlocked Unlocked
-windows.skins.customOnly Customs Only
-windows.skins.premiumOnly Premium Only
-windows.skins.classOnly Req {0}
-windows.skins.req Req lvl {0}
-windows.skins.default Default Skin
+windows.skins.unlocked 已解鎖
+windows.skins.customOnly 僅限客製化伺服器
+windows.skins.premiumOnly 會員專屬
+windows.skins.classOnly 需要 {0}
+windows.skins.req 需要 {0} 級
+windows.skins.default 預設造型
 windows.advertise.header 廣告
 windows.support.header 支援
 windows.players.header 玩家列表
@@ -703,7 +703,7 @@ server.config.tickRI 高配伺服器
 server.config.maxPS 40 名玩家伺服器
 server.config.promServ 推廣伺服器
 server.config.jumpMlt 跳躍力量
-server.config.airStrf 啟用空中轉向
+server.config.airStrf 空中轉向
 server.config.deltaMlt 時間倍數
 server.config.strafeSpd 空中轉向速度
 server.config.fiRat 武器射速
@@ -729,12 +729,12 @@ server.config.killRewards 擊殺獎勵
 server.config.headshotOnly 僅限爆頭
 server.config.noSecondary 停用次要武器
 server.config.noStreaks 停用連殺
-server.config.canSlide 啟用滑行
+server.config.canSlide 滑行
 server.config.wallJP 牆壁跳躍力量
 server.config.autoJump 自動跳躍
 server.config.bDrop 子彈下墜
 server.config.thirdPerson 第三人稱
-server.config.requireCaptcha 啟用人機驗證
+server.config.requireCaptcha 需要人機驗證
 server.config.nameTags 隱藏名牌
 server.config.kCams 死亡視角
 server.config.aAnon 允許匿名玩家
@@ -834,7 +834,7 @@ spin.free.available 立即領取免費 KR！
 spin.free.claim 你必須在每小時內完成一場遊戲才能領取此輪盤。
 spin.free.disable 你可以在設定的 [General] 欄標裡關閉此彈出視窗。
 mod.reset.0 復活後此設定將會生效。
-mod.reset.1 地圖物體不會被重設。
+mod.reset.1 地圖物品不會被重設。
 windows.profile.picture 更改頭像
 stats.assists 助攻數
 stats.nukes 核彈數
@@ -845,11 +845,11 @@ stats.headshots 爆頭數
 stats.wallbangs 穿牆擊殺數
 stats.crouches 蹲下次數
 stats.sprays 塗鴉數
-stats.kpd 有效報告數
-windows.host.default.settings 使用地圖預設設定以允許玩家儲存他們的進度及最高分數
-windows.host.default.commands * 房主指令 (/noclip, /god, /smite, /kill) 在此模式中將會被停用。
+stats.kpd 有效檢舉數
+windows.host.default.settings 啟用地圖預設設定以允許玩家儲存他們的進度及最高分數
+windows.host.default.commands * 房主指令 (/noclip, /god, /smite 等) 在此模式中將會被停用。
 windows.host.rewards 啟用 KR 獎勵將會強制伺服器使用地圖預設設定，以允許玩家從此地圖獲得 KR：
-windows.store.wheels.sub 試試你的運氣，轉動輪盤來贏取新外觀！
+windows.store.wheels.sub 試試你的運氣，轉動輪盤來贏取新造型！
 windows.store.currency * 美元和你當地貨幣之間的匯率由支付服務提供商或銀行決定。
 windows.store.creator 購買 KR 時，考慮使用創作者代碼來支持你最喜歡的內容創作者
 windows.chall.customs 客製化伺服器內無法完成挑戰任務。
@@ -859,23 +859,23 @@ windows.clan.leave 你確定要離開此戰隊嗎？
 windows.clan.delete 你確定要解散此戰隊嗎？
 windows.clan.kick 你確定要從此戰隊踢出 {0} 嗎？
 windows.store.premium.purchase 你確定要購買 {0} 天的會員嗎？
-windows.store.premium.gift 你確定要贈送「{0}」{1} 天的會員嗎？
+windows.store.premium.gift 你確定要贈送 '{0}' {1} 天的會員嗎？
 windows.playerlist.ban 你確定要從此伺服器封禁並踢出 {0} 嗎？
 windows.playerlist.flag 你確定要標記 {0} 嗎？
 windows.playerlist.unflag 你確定要取消標記 {0} 嗎？
 windows.playerlist.punish 你確定要對 {0} 採取行動嗎？
 item.view.open 打開模型檢視器
 item.view.more 更多資訊
-item.sell.cant 此物品不可被出售。
-item.sell.cant.krunker 此物品不能在 Krunker 被出售。
+item.sell.cant 此物品不能被出售。
+item.sell.cant.krunker 此物品不能在 Krunker 內被出售。
 item.sell.quick 你確定要快速出售 {0} 嗎？
 item.sell.destroy 你確定要分解 {0} 嗎？
 social.profile.stats 綜合戰績
 social.profile.class 職業戰績
 social.profile.sales 出售記錄
 social.profile.sales.market 市場出售額
-social.profile.skins [{0}] 個外觀
-social.profile.skins.none 此玩家沒有已發行的外觀
+social.profile.skins [{0}] 個造型
+social.profile.skins.none 此玩家沒有已發行的造型
 social.profile.games [{0}] 個地圖
 social.profile.games.none 此玩家沒有已發行的地圖
 social.profile.assets [{0}] 個地圖元件
@@ -912,71 +912,71 @@ chall.name.airk 在 {1} 取得 {0} 個空中擊殺
 chall.name.lns 在 {1} 取得 {0} 個遠射擊殺
 chall.name.tk 在 {1} 取得 {0} 個渦輪擊殺
 chall.name.drk 在 {1} 取得 {0} 個滑行擊殺
-chall.name.kstk 取得 {0} 連殺
+chall.name.kstk 在 {1} 取得 {0} 連殺
 chall.name.w 取得 {0} 場勝利
 chall.name.d 死亡 {0} 次
-chall.name.score 在 {1} 取得 {0} 分
-chall.name.dmg 在 {1} 造成 {0} 傷害
+chall.name.score 取得 {0} 分
+chall.name.dmg 在 {1} 造成 {0} 點傷害
 chall.name.bzk 在 {1} 取得 {0} 連殺終止擊殺
 chall.name.cc 在 {1} 取得 {0} 殘血擊殺
 chall.name.rk 在 {1} 取得 {0} 復仇擊殺
-event.doubleXP 2x Class XP enabled for this match
-ranked.join Joined Ranked Match. Abandoning a match will result in a temporary ban
-ranked.progress Game in Progress
-ranked.team Please join a Team
-ranked.switch Can't switch while in-game
-ranked.spectate Spectating Disabled in Ranked
-ranked.login Login to Spawn
-ranked.sync Missing Sync Data
-ranked.team.spawn Please join a Team to Spawn
-ranked.class.spawn Please select a Class to Spawn
-modes.round.win Your Team has secured this round
-modes.round.loss This round is no longer winnable
-modes.round.switch Switching Sides. Prepare for the next Round
-modes.trade.success Trade Successful
-modes.prophunt.limit [Prop Hunt] You are out of prop switches
-modes.prophunt.left [Prop Hunt] You have {0} switches remaining
-modes.prophunt.rotation.on [Prop Hunt] Rotation Enabled
-modes.prophunt.rotation.off [Prop Hunt] Rotation Disabled
-modes.prophunt.rotation.reset [Prop Hunt] Rotation reset.
-commands.login Login to use this command
-commands.connected {0} connected, {1} in menu
-commands.host {0} is the current Host.
-commands.noclip.on Noclip - Enabled
-commands.noclip.off Noclip - Disabled
-commands.god.on God mode - Enabled
-commands.god.off God mode - Disabled
-commands.god.on.other God mode - Enabled for {0}
-commands.god.off.other God mode - Disabled for {0}
-commands.smite.on Smite - Enabled
-commands.smite.off Smite - Disabled
-commands.smite.on.other Smite - Enabled for {0}
-commands.smite.off.other Smite - Disabled for {0}
-commands.perk Gave {0} {1}
-commands.maxperk Gave {0} MAX {1}
-commands.unlimited.on Unlimited Ammo - Enabled
-commands.unlimited.off Unlimited Ammo - Disabled
-commands.unlimited.on.other Unlimited Ammo - Enabled for {0}
-commands.unlimited.off.other Unlimited Ammo - Disabled for {0}
-commands.spraybypass.on Unlimited Ammo - Enabled
-commands.spraybypass.off Unlimited Ammo - Disabled
-commands.spraybypass.on.other Unlimited Ammo - Enabled for {0}
-commands.spraybypass.off.other Unlimited Ammo - Disabled for {0}
-commands.suspect.invalid Invalid suspect info
-commands.suspect.menu Suspect in menu
-commands.suspect.left Suspect has left
-commands.suspect.found Suspect Found. Spectating: {0}, Spawned: {1}, Name: {2}
-commands.forfeit.next Must play atleast 1 round
-commands.forfeit.wait Wait till match starts to forfeit
-commands.forfeit.later Please try again in a few seconds
-commands.forfeit.voted You already voted.
-commands.forfeit.limit You can only start one vote per game
-commands.forfeit.ended Forfeiting Game
-commands.forfeit.ended.other Other Team Forfeited
-server.message.join {0} joined the game
-server.message.left {0} left the game
-server.message.kicked {0} was kicked
-server.message.banned {0} was banned
-server.message.votekicked {0} was vote kicked
-server.message.arrested {0} was arrested by the K.P.D
+event.doubleXP 已為此場比賽啟用雙倍職業經驗獎勵
+ranked.join 已加入排位賽。罷賽將受到暫時性禁賽懲罰
+ranked.progress 比賽進行中
+ranked.team 請加入隊伍
+ranked.switch 回合開始後無法轉職
+ranked.spectate 排位賽中無法使用旁觀功能
+ranked.login 登入以進入比賽
+ranked.sync 缺失同步資料
+ranked.team.spawn 請先加入隊伍以進入比賽
+ranked.class.spawn 請先選擇職業以進入比賽
+modes.round.win 你的隊伍已贏下此回合
+modes.round.loss 此回合不再可勝
+modes.round.switch 已交換雙方的初始位置。請做好下一回合的準備
+modes.trade.success 交易成功
+modes.prophunt.limit ［物品獵殺］你已用盡所有物品切換次數
+modes.prophunt.left ［物品獵殺］你還剩餘 {0} 個物品切換次數
+modes.prophunt.rotation.on ［物品獵殺］已啟用物品旋轉
+modes.prophunt.rotation.off ［物品獵殺］已停用物品旋轉
+modes.prophunt.rotation.reset ［物品獵殺］已重設物品旋轉。
+commands.login 登入以使用此指令
+commands.connected {0} 個玩家已連線，{1} 個玩家在標題畫面
+commands.host {0} 是目前服主。
+commands.noclip.on 穿牆飛行 - 已啟用
+commands.noclip.off 穿牆飛行 - 已停用
+commands.god.on 無敵 - 已啟用
+commands.god.off 無敵 - 已停用
+commands.god.on.other 無敵 - 已為 {0} 啟用
+commands.god.off.other 無敵 - 已為 {0} 停用
+commands.smite.on 瞬間擊殺 - 已啟用
+commands.smite.off 瞬間擊殺 - 已停用
+commands.smite.on.other 瞬間擊殺 - 已為 {0} 啟用
+commands.smite.off.other 瞬間擊殺 - 已為 {0} 停用
+commands.perk 已給予 {0} {1}
+commands.maxperk 已給予 {0} 最高等級的 {1}
+commands.unlimited.on 無限子彈 - 已啟用
+commands.unlimited.off 無限子彈 - 已停用
+commands.unlimited.on.other 無限子彈 - 已為 {0} 啟用
+commands.unlimited.off.other 無限子彈 - 已為 {0} 停用
+commands.spraybypass.on 無限塗鴉 - 已啟用
+commands.spraybypass.off 無限塗鴉 - 已停用
+commands.spraybypass.on.other 無限塗鴉 - 已為 {0} 啟用
+commands.spraybypass.off.other 無限塗鴉 - 已為 {0} 停用
+commands.suspect.invalid 無效的嫌疑玩家資訊
+commands.suspect.menu 嫌疑玩家在標題畫面
+commands.suspect.left 嫌疑玩家已離開
+commands.suspect.found 已找到嫌疑玩家。是否在旁觀：{0}，是否在地圖內：{1}，名稱：{2}
+commands.forfeit.next 必須先完成一個回合
+commands.forfeit.wait 等待至回合開始後才能發起投降
+commands.forfeit.later 請等待數秒後再重試
+commands.forfeit.voted 你已經投過票了。
+commands.forfeit.limit 你只能發起一次投降
+commands.forfeit.ended 投降中
+commands.forfeit.ended.other 敵方隊伍已投降
+server.message.join {0} 已加入此伺服器
+server.message.left {0} 已離開此伺服器
+server.message.kicked {0} 已被踢出
+server.message.banned {0} 已被封禁
+server.message.votekicked {0} 已被投票踢出
+server.message.arrested {0} 已被 K.P.D 逮捕
 `;
