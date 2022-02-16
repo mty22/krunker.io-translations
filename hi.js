@@ -82,7 +82,7 @@ settings.import इम्पोर्ट
 settings.export ऐक्सपोर्ट
 settings.none कोई सेटिंग नहीं मिली
 settings.backup बैकअप सेटिंग्स
-settings.controls.change Keybinds 
+settings.controls.change Keybinds
 settings.controls.press किसी भी Key को दबाएं
 settings.local.header Localization <span id="requiresRestart"><span style="color: #eb5656">*</span> requires restart</span>
 settings.local.region डिफ़ॉल्ट क्षेत्र
