@@ -971,7 +971,7 @@ commands.forfeit.wait Maghintay munang magsimula ang laro para maka-forfeit
 commands.forfeit.later Ulitin muli sa ilang segundo 
 commands.forfeit.voted Ikaw ay naka vote na.
 commands.forfeit.limit Isang beses kalang makakaboto sa isang laro
-commands.forfeit.ended Fino-forfeit na ang laro
+commands.forfeit.ended Iiwan na ang laro
 commands.forfeit.ended.other Umalis na ang kabilang team
 server.message.join {0} sumali sa laro
 server.message.left {0} umalis sa laro
