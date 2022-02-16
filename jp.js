@@ -920,11 +920,11 @@ chall.name.dmg Deal {0} damage {1}
 chall.name.bzk Get {0} buzz kills {1}
 chall.name.cc Get {0} close-calls {1}
 chall.name.rk Deal {0} revenge kills {1}
-event.doubleXP クラスXP二倍有効
-ranked.join ランクマッチに入りました。 途中で抜けると一時的にバンされます
+event.doubleXP このマッチではクラスXPが2倍になります
+ranked.join ランクマッチに参加しました。マッチ放棄を行うとBANの対象になります
 ranked.progress マッチ中
 ranked.team チームに入ってください
-ranked.switch マッチ中にクラスは変えられません
+ranked.switch マッチ中にクラスを変更できません
 ranked.spectate ランクマッチでは観戦できません
 ranked.login ログインしてスポーン
 ranked.sync Missing Sync Data
@@ -932,7 +932,7 @@ ranked.team.spawn スポーンするにはチームを選択してください
 ranked.class.spawn スポーンするにはクラスを選択してください
 modes.round.win このラウンドの勝利が確定しました
 modes.round.loss このラウンドの敗北が確定しました
-modes.round.switch サイドを変えます。 次のラウンドの準備をしてください
+modes.round.switch サイドを交代します。次のラウンドの準備をしてください
 modes.trade.success トレード成功
 modes.prophunt.limit [Prop Hunt] You are out of prop switches
 modes.prophunt.left [Prop Hunt] You have {0} switches remaining
@@ -966,12 +966,12 @@ commands.suspect.invalid Invalid suspect info
 commands.suspect.menu Suspect in menu
 commands.suspect.left Suspect has left
 commands.suspect.found Suspect Found. Spectating: {0}, Spawned: {1}, Name: {2}
-commands.forfeit.next 最低1ラウンドプレイ
+commands.forfeit.next 最低1ラウンドプレイする必要があります
 commands.forfeit.wait 降参するにはマッチが始まるまで待ってください
 commands.forfeit.later 数秒後にもう一度やり直してください
 commands.forfeit.voted 投票済
-commands.forfeit.limit 投票を開始するのは1マッチにつき1度です
-commands.forfeit.ended 降参します
+commands.forfeit.limit 投票を行えるのは1マッチにつき1回までです
+commands.forfeit.ended 降参しました
 commands.forfeit.ended.other 相手が降参しました
 server.message.join {0} joined the game
 server.message.left {0} left the game
