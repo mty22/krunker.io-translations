@@ -402,7 +402,7 @@ settings.editing.progmRot Latautumispalkin Rotaatio
 settings.editing.saturation Saturaatio (Pelinsisäinen)
 settings.editing.menuSaturation Saturaatio (UI)
 settings.editing.hue Värisävy (Pelinsisäinen)
-settings.editing.menuHue Värisävy (UI)
+settings.editing.menuHue Värisävy (UI) 
 settings.editing.vignette Vinjetti
 settings.editing.feedLimit Tappolistan Raja
 settings.editing.depth Syvyyskartta
@@ -595,7 +595,7 @@ windows.clans.join Liity Klaaniin
 windows.clans.login luodaksesi tai liittyäksesi Klaaniin!
 windows.store.header Kauppa
 windows.store.spin {0} Spin
-windows.store.agree Ostamalla Hyväksyt {0}Käyttöehdot
+windows.store.agree Ostamalla Hyväksyt {0} Käyttöehdot
 windows.store.purchase Osta KR:ää
 windows.store.voucher Lunasta Koodi
 windows.store.voucherinfo Saa Koodeja tietyiltä striimaajilta & tapahtumista!
@@ -819,8 +819,8 @@ account.login.required Pitää olla kirjautuneena sisään
 account.banned.hack Tämä käyttäjä on saanut porttikiellon huijaamisesta.
 account.banned.appeal Jos haluat valittaa, ota yhteyttä:
 account.delete Voit pyytää käyttäjäsi poistamista, jos et hylkää pyyntöäsi 14 päivän kuluessa, käyttäjäsi ja kaikki muu siihen liittyvä tieto poistetaan pysyvästi.
-account.delete.request Oletko varma, että haluat lähettää käyttäjäpoistopyynnön?
-account.delete.cancel Oletko varma, että haluat hylätä käyttäjäpoistopyynnön?
+account.delete.request Oletko varma, että haluat lähettää käyttäjänpoistopyynnön?
+account.delete.cancel Oletko varma, että haluat hylätä käyttäjänpoistopyynnön?
 spin.free.available ILMAISTA KR:ÄÄ SAATAVILLA!
 spin.free.claim Tämä spin on lunastettavissa kerran tunnissa ottelun päätyttyä.
 spin.free.disable Nämä popupit voi ottaa pois käytöstä "General Settings"-osiosta.
@@ -848,7 +848,7 @@ twitch.link Oletko varma, että haluat linkittää Twitch-käyttäjäsi?
 twitch.unlink Oletko varma, että haluat poistaa Twitch-käyttäjäsi linkityksen?
 windows.clan.leave Oletko varma, että haluat poistua klaanista?
 windows.clan.delete Oletko varma, että haluat poistaa klaanisi?
-windows.clan.kick Oletko varma, että haluat poistaa {0}:nklaanista?
+windows.clan.kick Oletko varma, että haluat poistaa {0}:n klaanista?
 windows.store.premium.purchase Oletko varma, että haluat ostaa {0} päivää Premiumia?
 windows.store.premium.gift Oletko varma, että haluat lahjoittaa '{0}' {1} päivää Premiumia?
 windows.playerlist.ban Oletko varma, että haluat antaa porttikiellon Käyttäjälle {0}?
