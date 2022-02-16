@@ -921,7 +921,7 @@ chall.name.bzk Manira ng killstreak ng {0} beses {1}
 chall.name.cc Ikaw ay muntikang mamatay {0} na beses {1}
 chall.name.rk Makamit ang {0} na paghiganti
 event.doubleXP 2x Class XP ay enabled para sa larong ito
-ranked.join Naka-join na sa Ranked match. Ang pag-abandona ay mag reresulta sa temporary ban. 
+ranked.join Nakasali na sa Ranked match. Ang pag-abandona ay mag reresulta sa temporary ban. 
 ranked.progress Kasalukuyang nasa laro
 ranked.team Pumili muna ng grupo
 ranked.switch Hindi pwedeng mag palit habang naglalaro
@@ -930,7 +930,7 @@ ranked.login Mag-login upang maka-spawn
 ranked.sync Nawawala ang Sync Data
 ranked.team.spawn Pumili muna ng grupo para makapag spawn
 ranked.class.spawn Pumili muna ng Klase para maka-spawn
-modes.round.win Na-secure na ng grupo mo ang labang ito
+modes.round.win Panalo na kayo sa round na ito.
 modes.round.loss Hindi na maipapanalo ang laban na ito.
 modes.round.switch Magpapalit ng posisyon. Mag handa para sa susunod na laban.
 modes.trade.success Matagumpay ang trade 
