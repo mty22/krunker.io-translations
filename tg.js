@@ -954,14 +954,14 @@ commands.smite.on.other Smite - Naka-enabled ng {0}
 commands.smite.off.other Smite - Naka-disabled ng {0}
 commands.perk Gave {0} {1}
 commands.maxperk Gave {0} MAX {1}
-commands.unlimited.on Unlimited na Ammo - Naka-enabled
-commands.unlimited.off Unlimited na Ammo - Naka-disabled
-commands.unlimited.on.other Unlimited na Ammo - Naka-enabled ng {0}
-commands.unlimited.off.other Unlimited na Ammo - Naka-disabled ng {0}
-commands.spraybypass.on Unlimited na Ammo - Naka-enabled
-commands.spraybypass.off Unlimited na Ammo - Naka-disabled
-commands.spraybypass.on.other Unlimited na Ammo - Naka-enabled ng {0}
-commands.spraybypass.off.other Unlimited na Ammo - Naka-disabled ng {0}
+commands.unlimited.on Unlimited na Bala - Naka-enabled
+commands.unlimited.off Unlimited na Bala - Naka-disabled
+commands.unlimited.on.other Unlimited na Bala - Naka-enabled ng {0}
+commands.unlimited.off.other Unlimited na Bala - Naka-disabled ng {0}
+commands.spraybypass.on Unlimited na Bala - Naka-enabled
+commands.spraybypass.off Unlimited na Bala - Naka-disabled
+commands.spraybypass.on.other Unlimited na Bala - Naka-enabled ng {0}
+commands.spraybypass.off.other Unlimited na Bala - Naka-disabled ng {0}
 commands.suspect.invalid Walang bisa ang inpormasyon ng suspect
 commands.suspect.menu Suspect sa Menu
 commands.suspect.left Ang suspect ay umalis
@@ -976,7 +976,7 @@ commands.forfeit.ended.other Umalis na ang kabilang team
 server.message.join {0} sumali sa laro
 server.message.left {0} umalis sa laro
 server.message.kicked {0} ay napatalsik
-server.message.banned {0} was banned
-server.message.votekicked {0} was vote kicked
-server.message.arrested {0} was arrested by the K.P.D
+server.message.banned si {0} ay na-ban
+server.message.votekicked si {0} ay na vote-kicked
+server.message.arrested si {0} ay nahuli ng K.P.D
 `;
