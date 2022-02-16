@@ -921,7 +921,7 @@ chall.name.bzk Get {0} buzz kills {1}
 chall.name.cc Get {0} close-calls {1}
 chall.name.rk Deal {0} revenge kills {1}
 event.doubleXP このマッチではクラスXPが2倍になります
-ranked.join ランクマッチに参加しました。マッチ放棄を行うとBANの対象になります
+ranked.join ランクマッチに参加しました。マッチ放棄を行うと一時的にBANされます
 ranked.progress マッチ中
 ranked.team チームに入ってください
 ranked.switch マッチ中にクラスを変更できません
