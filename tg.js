@@ -967,15 +967,15 @@ commands.suspect.menu Suspect sa Menu
 commands.suspect.left Ang suspect ay umalis
 commands.suspect.found Nahanap na ang suspect. nanonood: {0}, spawned: {1}, pangalan: {2}
 commands.forfeit.next Kailangan maglaro muna ng 1 laban
-commands.forfeit.wait Maghintay munang magsimula ang laro para maka-forfeit 
-commands.forfeit.later Ulitin muli sa ilang segundo 
+commands.forfeit.wait Hintayin munang magsimula ang laro upang maka-forfeit 
+commands.forfeit.later Ulitin nalang muli mamaya
 commands.forfeit.voted Ikaw ay naka vote na.
 commands.forfeit.limit Isang beses kalang makakaboto sa isang laro
-commands.forfeit.ended Iiwan na ang laro
+commands.forfeit.ended Iniwan na ang laro
 commands.forfeit.ended.other Umalis na ang kabilang team
-server.message.join {0} sumali sa laro
-server.message.left {0} umalis sa laro
-server.message.kicked {0} ay napatalsik
+server.message.join si {0} ay sumali sa laro
+server.message.left si {0} ay umalis sa laro
+server.message.kicked si {0} ay natanggal sa laro
 server.message.banned si {0} ay na-ban
 server.message.votekicked si {0} ay na vote-kicked
 server.message.arrested si {0} ay nahuli ng K.P.D
