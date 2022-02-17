@@ -924,18 +924,18 @@ event.doubleXP 2x Class XP ingeschakeld voor deze match
 ranked.join Joined Ranked Match. Het verlaten van een match resulteert in een tijdelijke ban.
 ranked.progress Spel Bezig
 ranked.team Join een team AUB
-ranked.switch Kan niet switchen tijdens de game
+ranked.switch Kan niet wisselen tijdens de game
 ranked.spectate Spectaten is uitgeschakeld in Ranked
 ranked.login Login om te spawnen
 ranked.sync Missende Sync Data
-ranked.team.spawn Join een Team om to Spawnen
+ranked.team.spawn Join een team om te spawnen
 ranked.class.spawn Selecteer een Class om te Spawnen
 modes.round.win Jouw Team heeft deze ronde gewonnen
 modes.round.loss Deze ronde is niet meer te winnen
 modes.round.switch Wisselen van kant. Bereid je voor op de volgende ronde.
 modes.trade.success Trade Succesvol
-modes.prophunt.limit [Prop Hunt] Je hebt geen prop switches meer
-modes.prophunt.left [Prop Hunt] Je hebt {0} switches over
+modes.prophunt.limit [Prop Hunt] Je hebt geen prop wissels meer
+modes.prophunt.left [Prop Hunt] Je hebt {0} wissels over
 modes.prophunt.rotation.on [Prop Hunt] Rotatie Ingeschakeld
 modes.prophunt.rotation.off [Prop Hunt] Rotatie Uitgeschakeld
 modes.prophunt.rotation.reset [Prop Hunt] Rotatie reset.
@@ -944,30 +944,30 @@ commands.connected {0} connected, {1} in menu
 commands.host {0} is de huidige Host.
 commands.noclip.on Noclip - Ingeschakeld
 commands.noclip.off Noclip - Uitgeschakeld
-commands.god.on God mode - Ingeschakeld
-commands.god.off God mode - Uitgeschakeld
-commands.god.on.other God mode - Ingeschakeld voor {0}
-commands.god.off.other God mode - Uitgeschakeld voor {0}
+commands.god.on God Modus - Ingeschakeld
+commands.god.off God Modus - Uitgeschakeld
+commands.god.on.other God Modus - Ingeschakeld voor {0}
+commands.god.off.other God Modus - Uitgeschakeld voor {0}
 commands.smite.on Smite - Ingeschakeld
 commands.smite.off Smite - Uitgeschakeld
 commands.smite.on.other Smite - Ingeschakeld voor {0}
 commands.smite.off.other Smite - Ingeschakeld voor {0}
 commands.perk Gaf {0} {1}
 commands.maxperk Gaf {0} MAX {1}
-commands.unlimited.on Unlimited Ammo - Ingeschakeld
-commands.unlimited.off Unlimited Ammo - Ingeschakeld
-commands.unlimited.on.other Unlimited Ammo - Ingeschakeld voor {0}
-commands.unlimited.off.other Unlimited Ammo - Ingeschakeld voor {0}
-commands.spraybypass.on Unlimited Ammo - Ingeschakeld
-commands.spraybypass.off Unlimited Ammo - Ingeschakeld
-commands.spraybypass.on.other Unlimited Ammo - Ingeschakeld voor {0}
-commands.spraybypass.off.other Unlimited Ammo - Ingeschakeld voor {0}
+commands.unlimited.on Onbeperkte munitie - Ingeschakeld
+commands.unlimited.off Onbeperkte munitie - Ingeschakeld
+commands.unlimited.on.other Onbeperkte munitie - Ingeschakeld voor {0}
+commands.unlimited.off.other Onbeperkte munitie - Ingeschakeld voor {0}
+commands.spraybypass.on Onbeperkte munitie - Ingeschakeld
+commands.spraybypass.off Onbeperkte munitie - Ingeschakeld
+commands.spraybypass.on.other Onbeperkte munitie - Ingeschakeld voor {0}
+commands.spraybypass.off.other Onbeperkte munitie - Ingeschakeld voor {0}
 commands.suspect.invalid Ongeldige Verdachte info
 commands.suspect.menu Verdachte in menu
 commands.suspect.left Verdachte heeft het spel verlaten
 commands.suspect.found Verdachte Gevonden. Spectating: {0}, Spawned: {1}, Naam: {2}
 commands.forfeit.next Moet minimaal 1 ronde spelen
-commands.forfeit.wait Wacht tot de wedstrijd begint om te forfeiten
+commands.forfeit.wait Wacht tot de wedstrijd begint om op te geven
 commands.forfeit.later Probeer het opnieuw over een paar seconden
 commands.forfeit.voted Je hebt al gestemd.
 commands.forfeit.limit Je kunt maar één stem per spel starten.
@@ -975,7 +975,7 @@ commands.forfeit.ended Spel aan het Opgeven.
 commands.forfeit.ended.other Andere Team heeft het Opgegeven
 server.message.join {0} doet mee aan het spel
 server.message.left {0} heeft het spel verlaten
-server.message.kicked {0} werd gekicked
+server.message.kicked {0} werd eruit gegooid
 server.message.banned {0} werd gebanned
 server.message.votekicked {0} werd weggestemd
 server.message.arrested {0} werd gearresteerd door de KPD
