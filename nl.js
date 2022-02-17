@@ -94,7 +94,7 @@ settings.network.netRerouting Auto Routing (Beïnvloed Ping)
 settings.network.netRate Netwerk snelheid (Hz)
 settings.network.lagComp Lag Compensatie
 settings.network.optNet Geoptimaliseerde Netwerken
-settings.network.quickplay Forceer Quickplay
+settings.network.quickplay Forceer Snel Spel
 settings.popup.header Popups
 settings.experimental.header Experimenteel
 settings.experimental.holiday Feestlijke effecten
@@ -921,7 +921,7 @@ chall.name.bzk Get {0} buzz kills {1}
 chall.name.cc Get {0} close-calls {1}
 chall.name.rk Deal {0} wraak kills {1}
 event.doubleXP 2x Class XP ingeschakeld voor deze match
-ranked.join Joined Ranked Match. Het verlaten van een match resulteert in een tijdelijke ban.
+ranked.join Joined Ranked Match. Het verlaten van een match resulteert in een tijdelijke verbanning.
 ranked.progress Spel Bezig
 ranked.team Join een team AUB
 ranked.switch Kan niet wisselen tijdens de game
