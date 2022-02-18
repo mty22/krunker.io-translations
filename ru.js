@@ -61,7 +61,7 @@ generic.accuracy Точность
 player.waiting Ожидание игроков
 player.died Вы умерли
 player.killed Убиты
-player.killstreak {0} on a {1} Kill Streak
+player.killstreak {0} сделал {1} убийств подряд!
 player.inactive Удален за неактивность
 player.disconnect Отключен от сервера
 timer.end Следующий раунд через {0}
@@ -84,8 +84,8 @@ settings.none Настройки не найдены
 settings.backup Резервные настройки
 settings.controls.change Управление
 settings.controls.press Нажмите любую клавишу
-settings.controls.leaderboard InGame Leaderboard Trigger Type
-settings.controls.voicechat Voicechat Trigger Type
+settings.controls.leaderboard Триггер списка лидеров
+settings.controls.voicechat Триггер голосового чата
 settings.local.header Локализация <span id="requiresRestart"><span style="color: #eb5656">*</span> требует перезагрузки</span>
 settings.local.region Регион по умолчанию
 settings.local.lang Язык
@@ -94,7 +94,7 @@ settings.network.netRerouting Автоматическая маршрутиза�
 settings.network.netRate Частота обновления (Hz)
 settings.network.lagComp Компенсация задержки
 settings.network.optNet Optimized Networking
-settings.network.quickplay Force Quickplay
+settings.network.quickplay Принужденный квикплей
 settings.popup.header Всплывающие окна
 settings.experimental.header Экспериментальные
 settings.experimental.holiday Праздничный эффект
@@ -187,7 +187,7 @@ settings.interface.hideNonTrade Скрыть нетрейдабельные ск
 settings.interface.hp Динамическая полоса здоровья
 settings.interface.dmgScale Масштаб информации о наносимом уроне
 settings.interface.killf Показывать убийства подряд
-settings.interface.ping Показывать PING
+settings.interface.ping Показывать Пинг
 settings.interface.net-stats Показывать сетевую статистику
 settings.interface.fps Показывать FPS
 settings.interface.deaths Показывать счетчик смертей
@@ -649,12 +649,12 @@ windows.secondary.unlocked Разблокировано
 windows.secondary.customOnly Только для Пользовательских Игр
 windows.secondary.premiumOnly Только для Премиум-пользователей
 windows.secondary.req Требуется уровень {0}
-windows.skins.unlocked Unlocked
-windows.skins.customOnly Customs Only
-windows.skins.premiumOnly Premium Only
+windows.skins.unlocked Заблокировано
+windows.skins.customOnly Только Кастом игры
+windows.skins.premiumOnly Только для игроков с Премиумом
 windows.skins.classOnly Req {0}
-windows.skins.req Req lvl {0}
-windows.skins.default Default Skin
+windows.skins.req Нужен {0} уровень
+windows.skins.default Стандартный скин
 windows.advertise.header Объявление
 windows.support.header Поддержка
 windows.players.header Список игроков
@@ -901,15 +901,15 @@ stats.airdrops.stolen Похищенные аирдропы
 settings.quality.flapAnim Анимация снайперской крышки
 chall.name.hs Сделано {0} убийств в голову {1}
 chall.name.ns Сделано {0} ноускопов {1}
-chall.name.ls Get {0} legshots {1}
-chall.name.tmk Get {0} throwing knife kills {1}
-chall.name.fb Get {0} first bloods {1}
+chall.name.ls Сделано {0} киллов в ногу {1}
+chall.name.tmk Сделано {0} убийств, кидая нож {1}
+chall.name.fb Сделано {0} первых убийств за матч {1}
 chall.name.mk Сделано {0} убийств ножом {1}
 chall.name.fk Сделано {0} первых убийств {1}
 chall.name.qs Сделано {0} убийств быстро прицелившись {1}
 chall.name.wb Сделано {0} убийств прострелом {1}
 chall.name.airk Сделано {0} убийств в прыжке {1}
-chall.name.lns Get {0} longshots {1}
+chall.name.lns Сделано {0} убийств издалека {1}
 chall.name.tk Сделано {0} турбо убийств {1}
 chall.name.drk Сделано {0} убийств в присяде {1}
 chall.name.kstk Сделано a {0} убийств подряд {1}
@@ -920,20 +920,20 @@ chall.name.dmg Нанесено {0} урона {1}
 chall.name.bzk Сделано {0} обрывов серий убийств {1}
 chall.name.cc Сделано {0} убийств при смерти {1}
 chall.name.rk Сделано {0} отмщений {1}
-event.doubleXP 2x Class XP enabled for this match
-ranked.join Joined Ranked Match. Abandoning a match will result in a temporary ban
-ranked.progress Game in Progress
-ranked.team Please join a Team
-ranked.switch Can't switch while in-game
-ranked.spectate Spectating Disabled in Ranked
-ranked.login Login to Spawn
-ranked.sync Missing Sync Data
-ranked.team.spawn Please join a Team to Spawn
-ranked.class.spawn Please select a Class to Spawn
-modes.round.win Your Team has secured this round
-modes.round.loss This round is no longer winnable
-modes.round.switch Switching Sides. Prepare for the next Round
-modes.trade.success Trade Successful
+event.doubleXP В этом матче вы будете получать 2x больше опыта на класс
+ranked.join Вы присоединились к ранговой игре. За преждевременный выход до конца матча вы получите временный бан.
+ranked.progress Игра продолжается.
+ranked.team Пожалуйста, присоединитесь к команде
+ranked.switch Вы не можете менять класс/команду во время игры
+ranked.spectate Вы не можете играть за наблюдателя в ранговом матче
+ranked.login Войдите в аккаунт для начала
+ranked.sync Не удается синхронизировать данные
+ranked.team.spawn Присоединитесь к команде для начала
+ranked.class.spawn Выберите класс для начала
+modes.round.win Ваша команда победила этот раунд!
+modes.round.loss Ваша команда проиграла этот раунд
+modes.round.switch Смена сторон. Приготовьтесь к следующему раунду
+modes.trade.success Успешный обмен!
 modes.prophunt.limit [Prop Hunt] You are out of prop switches
 modes.prophunt.left [Prop Hunt] You have {0} switches remaining
 modes.prophunt.rotation.on [Prop Hunt] Rotation Enabled
