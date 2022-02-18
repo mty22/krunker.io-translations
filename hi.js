@@ -926,10 +926,10 @@ ranked.progress खेल चल रहा है
 ranked.team कृपया एक टीम जॉइन करें
 ranked.switch खेल के बीच मे नहीं बदल सकते
 ranked.spectate Spectating Disabled in Ranked
-ranked.login रेस्पॉन करने के लिए लॉगिन करें
+ranked.login स्पॉन करने के लिए लॉगिन करें
 ranked.sync Missing Sync Data
-ranked.team.spawn कृपया रेस्पॉन करने के लिए एक टीम जॉइन करें 
-ranked.class.spawn कृपया रेस्पॉन करने के लिए एक क्लास सेलेक्ट करें 
+ranked.team.spawn कृपया स्पॉन करने के लिए एक टीम जॉइन करें 
+ranked.class.spawn कृपया स्पॉन करने के लिए एक क्लास सेलेक्ट करें 
 modes.round.win आपकी टीम ने यह राउंड सिक्युर कर लिया है 
 modes.round.loss यह राउंड अब जीता नहीं जा सकता 
 modes.round.switch Switching Sides. Prepare for the next Round
