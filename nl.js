@@ -58,10 +58,10 @@ generic.password Wachtwoord Invoeren
 generic.register Registreren
 generic.login Inloggen
 generic.accuracy Nauwkeurigheid
-player.waiting wachten op spelers
+player.waiting Wachten op spelers
 player.died Je stierf
 player.killed Gedood door
-player.killstreak {0} on a {1} Kill Streak
+player.killstreak {0} heeft een {1} Killstreak
 player.inactive Gekicked voor inactiviteit
 player.disconnect VERBINDING VERBROKEN
 timer.end Volgende ronde in {0}
@@ -90,7 +90,7 @@ settings.local.header Lokalisatie <span id="requiresRestart"><span style="color:
 settings.local.region Standaard Regio
 settings.local.lang Taal
 settings.network.header Netwerk
-settings.network.netRerouting Auto Routing (Beïnvloed Ping)
+settings.network.netRerouting Auto Routing (Beïnvloedt Ping)
 settings.network.netRate Netwerk snelheid (Hz)
 settings.network.lagComp Lag Compensatie
 settings.network.optNet Geoptimaliseerde Netwerken
@@ -104,7 +104,7 @@ settings.experimental.shaderRendering Instance Rendering
 settings.experimental.mouseAccel Muis Acceleratie
 settings.experimental.tbInterp TB Interpolatie
 settings.client.header Client
-settings.client.unlimitedFrames Unlimited FPS
+settings.client.unlimitedFrames Onbeperkt FPS
 settings.client.gameCap Game Capture
 settings.client.experimental Experimental Features
 settings.client.discordRPC Discord RPC
@@ -132,8 +132,8 @@ settings.chat.chatTimer Chat Timer (s)
 settings.chat.chatTextOutline Chat Tekst Outline
 settings.chat.chatFilter Laster Filter
 settings.quality.header Prestatie
-settings.quality.updRate Frame Limiet
-settings.quality.rendDst Render Afstand
+settings.quality.updRate Framelimiet
+settings.quality.rendDst Renderafstand
 settings.quality.res Resolutie
 settings.quality.part Particles
 settings.quality.mapDet Map Details
@@ -178,7 +178,7 @@ settings.interface.header Interface
 settings.interface.scale UI Grootte
 settings.interface.theme Game Thema
 settings.interface.ui Toon UI
-settings.interface.scoreboard Gebruik Oud Scorebord
+settings.interface.scoreboard Gebruik Oude Scorebord
 settings.interface.oldBrowser Gebruik Oude Browser
 settings.interface.rarityanim Schakel Zeldzaamheid Animaties uit
 settings.interface.showPfp Toon Profiel Avatar
@@ -254,7 +254,7 @@ settings.crosshair.gap Gat
 settings.crosshair.dot Punt
 settings.crosshair.opacity.use Gebruik Eigen Ondoorzichtigheid
 settings.crosshair.opacity.custom Eigen Ondoorzichtigheid
-settings.crosshairm.header Crosshair (Throwing)
+settings.crosshairm.header Crosshair (Gooiend)
 settings.crosshairm.type Type
 settings.crosshairm.type.1 Vormen
 settings.crosshairm.type.2 Afbeelding
@@ -460,7 +460,7 @@ windows.servers.none Geen Beschikbare Games Gevonden...
 windows.servers.host + Host spel
 windows.servers.hide Verberg Volle
 windows.servers.priority Regio Prioriteit
-windows.servers.online {0} In game
+windows.servers.online {0} In-game
 windows.servers.social {0} op Sociaal
 windows.servers.editor {0} in Editor
 windows.loadout.header Loadout wijzigen
@@ -487,7 +487,7 @@ windows.loadout.wrist Pols
 windows.loadout.stat Killkaart Stat
 windows.loadout.flag Landvlag
 windows.loadout.badge Custom Badge
-windows.mods.drop zet het mod-bestand hier neer of klik op
+windows.mods.drop Drop het mod-bestand hier neer of klik op
 windows.mods.paste Plak Mod Url
 windows.mods.load Laad Mod
 windows.mods.none Geen mods gevonden
@@ -599,7 +599,7 @@ windows.clans.login om een ​​clan te maken en er lid van te worden!
 windows.store.header Winkel
 windows.store.spin {0} Spin
 windows.store.agree Door te kopen, gaat u akkoord met de {0} voorwaarden
-windows.store.purchase Aankoop KR
+windows.store.purchase Koop KR
 windows.store.voucher Voucher inwisselen
 windows.store.voucherinfo Ontvang vouchers van bepaalde Streamers & Events
 windows.store.market Marktplaats
@@ -673,18 +673,18 @@ windows.chall.login om challenges te voltooien!
 thumbnail.upload.limit Gefaald. {0}kb Thumbnail Limiet
 image.upload.limit Gefaald. {0}kb Foto Limiet
 thumbnail.upload.error Thumbnail Error
-mod.extracting extracting {0}/{1}
-mod.disabled mods uitgeschakeld
-mod.error mod error!
-mod.loading mod laden...
-mod.invalid ongeldig mod bestand!
+mod.extracting Uitpakken {0}/{1}
+mod.disabled Mods uitgeschakeld
+mod.error Mod error!
+mod.loading Mod laden...
+mod.invalid Ongeldig mod bestand!
 matchmaker.full VOL
 matchmaker.GameFull Game is vol.
 matchmaker.NoServersMatchQuery GAME AAN HET UPDATEN
 matchmaker.InvalidGameId Game niet gevonden.
 matchmaker.NoAvailableServers Servers zijn op maximale capaciteit
-matchmaker.GameIssue Unknown Join Issue
-adblocker Zet je ad blocker uit om gratis Krunkies te krijgen.
+matchmaker.GameIssue Onbekend joinfout
+adblocker Zet je adblocker uit om gratis Krunkies te krijgen.
 ad-failed Ad Mislukt om te laden. Probeer Opnieuw!
 streamers.views {0} kijkers
 streamers.none Geen actieve streams!
@@ -711,7 +711,7 @@ server.config.reSpd Herlaad Snelheid
 server.config.slidTime Glijd Tijd
 server.config.fixMov Fixed Movement
 server.config.slidSpd Glijd Snelheid
-server.config.healthMlt Gezondheid Vermenigvuldiger
+server.config.healthMlt HP Vermenigvuldiger
 server.config.impulseMlt Wapen Impuls
 server.config.nameTeam1 Team 1 Naam
 server.config.nameTeam2 Team 2 Naam
@@ -756,9 +756,9 @@ server.config.hpRegen Gezondheid Regen
 server.config.disableB Borders Uitzetten
 server.config.throwMel Gooibare Melees
 server.config.noCosm Cosmetica Uitzetten
-server.config.tstCmp Test Mode
+server.config.tstCmp Testmodus
 server.config.limitClasses Limit Classes
-server.config.tmSize Team Grootte
+server.config.tmSize Teamgrootte
 server.config.fallDmg Val Schade
 server.config.fallDmgThr Val Schade Thresh
 server.config.noDraws Geen Draws
@@ -769,7 +769,7 @@ social.login.failed Login Mislukt
 social.login.buy Login om te Kopen
 social.login.sell Login om te Verkopen
 social.login.gift Login om te Giften
-social.login.proccessing Inloggen...
+social.login.proccessing Bezig met inloggen...
 social.since Sinds
 social.user.maps Speler Games
 social.user.mods Speler Mods
@@ -867,7 +867,7 @@ windows.playerlist.punish Weet je zeker dat je actie wilt ondernemen op {0}?
 item.view.open Open Model Viewer
 item.view.more Meer Informatie
 item.sell.cant Dit Item Kan Niet Verkocht Worden.
-item.sell.cant.krunker Item cant be sold on krunker.
+item.sell.cant.krunker Item kan niet verkocht worden op Krunker.
 item.sell.quick Weet Je Zeker Dat Je Dit Snel Wilt Verkopen {0}?
 item.sell.destroy Are you sure you want to Destroy {0}?
 social.profile.stats Algemene Statistieken
@@ -920,13 +920,13 @@ chall.name.dmg Deal {0} schade {1}
 chall.name.bzk Get {0} buzz kills {1}
 chall.name.cc Get {0} close-calls {1}
 chall.name.rk Deal {0} wraak kills {1}
-event.doubleXP 2x Class XP enabled for this match
-ranked.join Joined Ranked Match. Abandoning a match will result in a temporary ban
-ranked.progress Game in Progress
-ranked.team Please join a Team
+event.doubleXP 2x Class XP ingeschakeld voor deze game.
+ranked.join Ranked game gejoined. Het vroeg verlaten van de game verbant je tijdelijk.
+ranked.progress Game bezig
+ranked.team Join een team A.U.B.
 ranked.switch Can't switch while in-game
-ranked.spectate Spectating Disabled in Ranked
-ranked.login Login to Spawn
+ranked.spectate Toekijken is uitgeschakeld in Ranked
+ranked.login Log-in om te spawnen
 ranked.sync Missing Sync Data
 ranked.team.spawn Please join a Team to Spawn
 ranked.class.spawn Please select a Class to Spawn
@@ -973,10 +973,10 @@ commands.forfeit.voted You already voted.
 commands.forfeit.limit You can only start one vote per game
 commands.forfeit.ended Forfeiting Game
 commands.forfeit.ended.other Other Team Forfeited
-server.message.join {0} joined the game
-server.message.left {0} left the game
-server.message.kicked {0} was kicked
-server.message.banned {0} was banned
-server.message.votekicked {0} was vote kicked
-server.message.arrested {0} was arrested by the K.P.D
+server.message.join {0} heeft de game gejoined
+server.message.left {0} heeft de game verlaten
+server.message.kicked {0} is gekicked
+server.message.banned {0} is verbannen
+server.message.votekicked {0} is ge-votekicked
+server.message.arrested {0} is gearresteerd door de K.P.D
 `;
