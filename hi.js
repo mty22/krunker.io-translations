@@ -114,7 +114,7 @@ settings.client.resetSettings रीसेट क्लाइंट सेटि
 settings.client.acceleratedCanvas एक्सेलरेटेड कैन्वस
 settings.client.angleBackend ऐंगल ग्राफ़िक्स बैकेंड
 settings.client.colorProfile रंग प्रोफ़ाइल
-settings.client.resourcePacks Resource Packs
+settings.client.resourcePacks Resource Packs 
 settings.dev.header डेवलपर
 settings.dev.forceUpdate बलपूर्वक श्रृंगार बदलें
 settings.dev.forceRegen हमेशा खिलाड़ी को पुनर्जीवित करें
@@ -975,8 +975,8 @@ commands.forfeit.ended Forfeiting गेम
 commands.forfeit.ended.other Other Team Forfeited
 server.message.join {0} ने गेम जॉइन किया
 server.message.left {0} ने गेम छोड़ दिया 
-server.message.kicked {0} was kicked
-server.message.banned {0} was banned
+server.message.kicked {0} को किक किया गया
+server.message.banned {0} को बैन किया गया 
 server.message.votekicked {0} was vote kicked
 server.message.arrested {0} को K.P.D ने गिरफ्तार किया
 `;
