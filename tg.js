@@ -962,8 +962,8 @@ commands.spraybypass.on Unlimited na Bala - Naka-enabled
 commands.spraybypass.off Unlimited na Bala - Naka-disabled
 commands.spraybypass.on.other Unlimited na Bala - Naka-enabled ng {0}
 commands.spraybypass.off.other Unlimited na Bala - Naka-disabled ng {0}
-commands.suspect.invalid Walang bisa ang inpormasyon ng suspect
-commands.suspect.menu Suspect sa Menu
+commands.suspect.invalid Walang bisa na inpormasyon ang suspect
+commands.suspect.menu Ang suspect ay nasa Menu
 commands.suspect.left Ang suspect ay umalis
 commands.suspect.found Nahanap na ang suspect. nanonood: {0}, spawned: {1}, pangalan: {2}
 commands.forfeit.next Kailangan maglaro muna ng 1 laban
