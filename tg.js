@@ -952,8 +952,8 @@ commands.smite.on Smite - Naka-enabled
 commands.smite.off Smite - Naka-disabled
 commands.smite.on.other Smite - Naka-enabled ng {0}
 commands.smite.off.other Smite - Naka-disabled ng {0}
-commands.perk Gave {0} {1}
-commands.maxperk Gave {0} MAX {1}
+commands.perk Binigyan si {0} {1}
+commands.maxperk Binigyan si {0} MAX {1}
 commands.unlimited.on Unlimited na Bala - Naka-enabled
 commands.unlimited.off Unlimited na Bala - Naka-disabled
 commands.unlimited.on.other Unlimited na Bala - Naka-enabled ng {0}
