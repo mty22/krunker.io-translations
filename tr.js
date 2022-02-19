@@ -921,7 +921,7 @@ chall.name.bzk {1}'da {0} tane hızlı öldürme al
 chall.name.cc {1}'da {0} tane dar kurtulma al 
 chall.name.rk {1}'da {0} tane intikam öldürmesi al
 event.doubleXP 2x Klas Tecrübesi bu maç için etkinleştirildi
-ranked.join Dereceli Maça Katıldı. Maç bitmeden çıkmak geçici bana sebep olacaktır
+ranked.join Dereceli Maça Katıldı. Maç bitmeden çıkmak geçici cezaya sebep olacaktır
 ranked.progress Maç devam etmekte
 ranked.team Lütfen bir takıma katılın
 ranked.switch Maç Sırasında Klas Değiştirilemez
