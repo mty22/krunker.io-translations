@@ -551,8 +551,8 @@ windows.controls.prop 選擇物品（長按）
 windows.controls.propRand 隨機選擇物品
 windows.controls.propRot 物品旋轉切換鍵
 windows.controls.propRotR 重設物品旋轉
-windows.controls.premium0 穿牆飛行
-windows.controls.premium1 無敵
+windows.controls.premium0 飛天模式
+windows.controls.premium1 無敵模式
 windows.controls.premium2 自殺
 windows.controls.premium3 瞬間擊殺
 windows.controls.reset 重設進度並回到起點（跑酷等）
@@ -920,16 +920,16 @@ chall.name.dmg 在 {1} 造成 {0} 點傷害
 chall.name.bzk 在 {1} 取得 {0} 連殺終止擊殺
 chall.name.cc 在 {1} 取得 {0} 殘血擊殺
 chall.name.rk 在 {1} 取得 {0} 復仇擊殺
-event.doubleXP 已為此場比賽啟用雙倍職業經驗獎勵
+event.doubleXP 已為此場比賽啟用雙倍職業經驗
 ranked.join 已加入排位賽。罷賽將受到暫時性禁賽懲罰
 ranked.progress 比賽進行中
 ranked.team 請加入隊伍
-ranked.switch 回合開始後無法轉職
-ranked.spectate 排位賽中無法使用旁觀功能
+ranked.switch 回合開始後無法換槍
+ranked.spectate 排位賽中禁止觀戰
 ranked.login 登入以進入比賽
 ranked.sync 缺失同步資料
-ranked.team.spawn 請先加入隊伍以進入比賽
-ranked.class.spawn 請先選擇職業以進入比賽
+ranked.team.spawn 請先加入隊伍再進入比賽
+ranked.class.spawn 請先選擇職業再進入比賽
 modes.round.win 你的隊伍已贏下此回合
 modes.round.loss 此回合不再可勝
 modes.round.switch 已交換雙方的初始位置。請做好下一回合的準備
@@ -942,12 +942,12 @@ modes.prophunt.rotation.reset ［物品獵殺］已重設物品旋轉。
 commands.login 登入以使用此指令
 commands.connected {0} 個玩家已連線，{1} 個玩家在標題畫面
 commands.host {0} 是目前服主。
-commands.noclip.on 穿牆飛行 - 已啟用
-commands.noclip.off 穿牆飛行 - 已停用
-commands.god.on 無敵 - 已啟用
-commands.god.off 無敵 - 已停用
-commands.god.on.other 無敵 - 已為 {0} 啟用
-commands.god.off.other 無敵 - 已為 {0} 停用
+commands.noclip.on 飛天模式 - 已啟用
+commands.noclip.off 飛天模式 - 已停用
+commands.god.on 無敵模式 - 已啟用
+commands.god.off 無敵模式 - 已停用
+commands.god.on.other 無敵模式 - 已為 {0} 啟用
+commands.god.off.other 無敵模式 - 已為 {0} 停用
 commands.smite.on 瞬間擊殺 - 已啟用
 commands.smite.off 瞬間擊殺 - 已停用
 commands.smite.on.other 瞬間擊殺 - 已為 {0} 啟用

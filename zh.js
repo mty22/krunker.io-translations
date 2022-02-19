@@ -551,8 +551,8 @@ windows.controls.prop 选择物品（长按）
 windows.controls.propRand 选择任意物品
 windows.controls.propRot 物品旋转切换键
 windows.controls.propRotR 重置物品旋转
-windows.controls.premium0 飞天穿墙
-windows.controls.premium1 无敌
+windows.controls.premium0 飞天模式
+windows.controls.premium1 无敌模式
 windows.controls.premium2 自杀
 windows.controls.premium3 瞬间击杀
 windows.controls.reset 重置进度并回到起点（跑酷等）
@@ -920,16 +920,16 @@ chall.name.dmg 在 {1} 造成 {0} 点伤害
 chall.name.bzk 在 {1} 取得 {0} 连杀终止击杀
 chall.name.cc 在 {1} 取得 {0} 残血击杀
 chall.name.rk 在 {1} 取得 {0} 复仇击杀
-event.doubleXP 已为此场比赛启用双倍职业经验奖励
+event.doubleXP 已为此场比赛启用双倍职业经验
 ranked.join 已加入排位赛。罢赛将会受到暂时性禁赛惩罚
 ranked.progress 比赛进行中
 ranked.team 请加入队伍
-ranked.switch 回合开始后无法转职
-ranked.spectate 排位赛中无法使用旁观功能
+ranked.switch 回合开始后无法换枪
+ranked.spectate 排位赛中禁止观战
 ranked.login 登录以进入比赛
 ranked.sync 缺失同步数据
-ranked.team.spawn 请先加入队伍以进入比赛
-ranked.class.spawn 请先选择职业以进入比赛
+ranked.team.spawn 请先加入队伍再进入比赛
+ranked.class.spawn 请先选择职业再进入比赛
 modes.round.win 你的队伍已赢下此回合
 modes.round.loss 此回合不再可胜
 modes.round.switch 已交换双方的初始位置。请做好下一回合的准备
@@ -942,12 +942,12 @@ modes.prophunt.rotation.reset ［物品猎杀］已重置物品旋转。
 commands.login 登录以使用此命令
 commands.connected {0} 个玩家已连接，{1} 个玩家在标题画面
 commands.host {0} 是当前服主。
-commands.noclip.on 飞天穿墙 - 已启用
-commands.noclip.off 飞天穿墙 - 已禁用
-commands.god.on 无敌 - 已启用
-commands.god.off 无敌 - 已禁用
-commands.god.on.other 无敌 - 已为 {0} 启用
-commands.god.off.other 无敌 - 已为 {0} 禁用
+commands.noclip.on 飞天模式 - 已启用
+commands.noclip.off 飞天模式 - 已禁用
+commands.god.on 无敌模式 - 已启用
+commands.god.off 无敌模式 - 已禁用
+commands.god.on.other 无敌模式 - 已为 {0} 启用
+commands.god.off.other 无敌模式 - 已为 {0} 禁用
 commands.smite.on 瞬间击杀 - 已启用
 commands.smite.off 瞬间击杀 - 已禁用
 commands.smite.on.other 瞬间击杀 - 已为 {0} 启用
