@@ -836,7 +836,7 @@ spin.free.disable Ang mga Popup na ito ay maaaring hindi paganahin sa Mga Pangka
 mod.reset.0 Lumabas ang mga 'Effects' pagkatapos mag-respawn
 mod.reset.1 Mga Bagay sa Mapa hindi ma-reset
 windows.profile.picture Palitan ang Larawan
-stats.assists Mga Pagtulong/Assist
+stats.assists Mga Assist
 stats.nukes Mga Nuke
 stats.melee Nasaksak
 stats.fistkills Pagbugbog
@@ -890,7 +890,7 @@ social.trades.in Papasok
 social.trades.in.head Pumapasok na Pag-aalok ({0})
 social.trades.out Palabas
 social.trades.out.head Palabas na Pag-aalok ({0})
-social.trades.history Talaan ng mga alok
+social.trades.history Talaan ng mga pag-aalok
 social.trades.history.head Kasaysayan ng Pag-kakalakalan ({0})
 social.trades.decline Tanggihan Lahat
 social.trades.message Payagan ang mga Trade Message at Pag-alok sa Settings
@@ -925,15 +925,15 @@ ranked.join Nakasali na sa Ranked match. Ang pag-abandona ay mag reresulta sa te
 ranked.progress Kasalukuyang nasa laro
 ranked.team Pumili muna ng grupo
 ranked.switch Hindi pwedeng mag palit habang naglalaro
-ranked.spectate Naka-disable ang pag-nood sa ranked
+ranked.spectate Naka-disable ang panonood sa ranked
 ranked.login Mag-login upang maka-spawn
 ranked.sync Nawawala ang Sync Data
 ranked.team.spawn Pumili muna ng grupo para makapag spawn
 ranked.class.spawn Pumili muna ng Klase para maka-spawn
 modes.round.win Panalo na kayo sa round na ito.
 modes.round.loss Hindi na maipapanalo ang laban na ito.
-modes.round.switch Magpapalit ng posisyon. Mag handa para sa susunod na laban.
-modes.trade.success Matagumpay ang trade 
+modes.round.switch Magpapalit ng posisyon. Maghanda para sa susunod na laban.
+modes.trade.success Matagumpay ang trade.
 modes.prophunt.limit [Prop Hunt] Wala ka nang natitirang palitan ng props
 modes.prophunt.left [Prop Hunt] Ikaw ay may {0} na natitirang palitan
 modes.prophunt.rotation.on [Prop Hunt] Rotation May Bisa
@@ -962,21 +962,21 @@ commands.spraybypass.on Unlimited na Bala - Naka-enabled
 commands.spraybypass.off Unlimited na Bala - Naka-disabled
 commands.spraybypass.on.other Unlimited na Bala - Naka-enabled ng {0}
 commands.spraybypass.off.other Unlimited na Bala - Naka-disabled ng {0}
-commands.suspect.invalid walang valid na inpormasyon ang suspect
-commands.suspect.menu Ang suspect ay nasa Menu
-commands.suspect.left Ang suspect ay umalis
-commands.suspect.found Nahanap na ang suspect. nanonood: {0}, spawned: {1}, pangalan: {2}
+commands.suspect.invalid walang valid na inpormasyon ang suspek
+commands.suspect.menu Ang suspek ay nasa menu
+commands.suspect.left Ang suspek ay umalis
+commands.suspect.found Nahanap na ang suspek. nanonood: {0}, spawned: {1}, pangalan: {2}
 commands.forfeit.next Kailangan maglaro muna ng 1 laban
 commands.forfeit.wait Hintayin munang magsimula ang laro upang maka-forfeit 
 commands.forfeit.later Ulitin nalang muli mamaya
-commands.forfeit.voted Ikaw ay naka vote na.
-commands.forfeit.limit Isang beses kalang makakaboto sa isang laro
+commands.forfeit.voted Ikaw ay bumoto na.
+commands.forfeit.limit Isang beses kalang makababoto sa isang laro
 commands.forfeit.ended Iniwan na ang laro
-commands.forfeit.ended.other Umalis na ang kabilang team
+commands.forfeit.ended.other Umalis na ang kabilang grupo
 server.message.join si {0} ay sumali sa laro
 server.message.left si {0} ay umalis sa laro
 server.message.kicked si {0} ay natanggal sa laro
 server.message.banned si {0} ay na-ban
-server.message.votekicked si {0} ay na vote-kicked
+server.message.votekicked na vote-kick si {0} 
 server.message.arrested si {0} ay nahuli ng K.P.D
 `;
