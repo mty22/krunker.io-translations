@@ -1,5 +1,5 @@
 module.exports = `
-menu.btn.ranked Ranked
+menu.btn.ranked റാങ്ക് ചെയ്തു
 menu.btn.shop Shop
 menu.btn.social Hub
 menu.btn.maps Games
