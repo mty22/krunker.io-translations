@@ -1,14 +1,14 @@
 module.exports = `
 menu.btn.ranked റാങ്ക് ചെയ്തു
-menu.btn.shop Shop
-menu.btn.social Hub
-menu.btn.maps Games
-menu.btn.mods Mods
-menu.btn.settings Settings
-menu.btn.customize Customize
-menu.btn.invite Invite
-menu.btn.invite.clicked Copied
-menu.btn.join Join
+menu.btn.shop കട
+menu.btn.social ഹബ്
+menu.btn.maps ഗെയിമുകൾ
+menu.btn.mods മോഡുകൾ
+menu.btn.settings ക്രമീകരണങ്ങൾ
+menu.btn.customize ഇഷ്ടാനുസൃതമാക്കുക
+menu.btn.invite ക്ഷണിക്കുക
+menu.btn.invite.clicked പകർത്തി
+menu.btn.join ചേരുക
 menu.btn.host Host Game
 menu.btn.browser Servers
 generic.wait Please wait...
