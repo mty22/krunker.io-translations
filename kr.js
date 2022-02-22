@@ -946,22 +946,22 @@ commands.noclip.on 벽 무시 활성화됨
 commands.noclip.off 벽 무시 비활성화됨
 commands.god.on 무적모드 활성화됨
 commands.god.off 무적모드 비활성화됨
-commands.god.on.other {0}님 무적모드 활성화됨
-commands.god.off.other {0}님 무적모드 비활성화됨
+commands.god.on.other {0}님의 무적모드 활성화됨
+commands.god.off.other {0}님의 무적모드 비활성화됨
 commands.smite.on 즉사 모드 활성화됨
 commands.smite.off 즉사 모드 비활성화됨
-commands.smite.on.other {0}님 즉사 모드 활성화됨
-commands.smite.off.other {0}님 즉사 모드 비활성화됨
+commands.smite.on.other {0}님의 즉사 모드 활성화됨
+commands.smite.off.other {0}님의 즉사 모드 비활성화됨
 commands.perk {0}님에게 {1} 보너스를 부여했습니다
 commands.maxperk {0}님에게 {1} 보너스 최고치를 부여했습니다
 commands.unlimited.on 무한탄창 모드 활성화됨
 commands.unlimited.off 무한탄창 모드 비활성화됨
-commands.unlimited.on.other {0}님 무한 탄창 모드 활성화됨
-commands.unlimited.off.other {0}님 무한 탄창 모드 비활성화됨
+commands.unlimited.on.other {0}님의 무한 탄창 모드 활성화됨
+commands.unlimited.off.other {0}님의 무한 탄창 모드 비활성화됨
 commands.spraybypass.on 무한 스프레이 모드 활성화됨
 commands.spraybypass.off 무한 스프레이 모드 비활성화됨
-commands.spraybypass.on.other {0}님 무한 스프레이 모드 활성화됨
-commands.spraybypass.off.other {0}님 무한 스프레이 모드 비활성화됨
+commands.spraybypass.on.other {0}님의 무한 스프레이 모드 활성화됨
+commands.spraybypass.off.other {0}님의 무한 스프레이 모드 비활성화됨
 commands.suspect.invalid 잘못된 용의자 정보
 commands.suspect.menu 용의자가 메뉴에 있습니다
 commands.suspect.left 용의자가 게임을 나갔습니다
