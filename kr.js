@@ -85,7 +85,7 @@ settings.backup 설정 백업
 settings.controls.change 조작키 설정
 settings.controls.press 아무 키나 누르십시오
 settings.controls.leaderboard 게임 내 리더보드 보이기/숨기기 유형
-settings.controls.voicechat Voicechat Trigger Type
+settings.controls.voicechat 음성 채팅 켜기/끄기 
 settings.local.header 언어 설정 <span id="requiresRestart"><span style="color: #eb5656">*</span>재시작 필요</span>
 settings.local.region 기본 지역
 settings.local.lang 언어
@@ -512,7 +512,7 @@ windows.controls.inspect 무기 자세히 보기
 windows.controls.spray 스프레이
 windows.controls.sprayWheel 스프레이 메뉴 (홀드)
 windows.controls.jump 점프
-windows.controls.crouch 앉기
+windows.controls.crouch 
 windows.controls.prim 주무기
 windows.controls.swap 보조무기
 windows.controls.melee 근접무기
@@ -654,7 +654,7 @@ windows.skins.customOnly 커스텀 게임 전용
 windows.skins.premiumOnly 프리미엄 전용
 windows.skins.classOnly {0} 필요
 windows.skins.req {0}레벨 필요
-windows.skins.default Default Skin
+windows.skins.default 기본 스킨
 windows.advertise.header 광고하기
 windows.support.header 고객지원
 windows.players.header 플레이어 목록
@@ -910,16 +910,16 @@ chall.name.qs 패줌으로 {0}명 처치하기 - {1}
 chall.name.wb 벽을 뚫고 {0}명 처치하기 - {1}
 chall.name.airk 공중에서 {0}명 처치하기 - {1}
 chall.name.lns 원거리에서 {0}명 처치하기 - {1}
-chall.name.tk 고속으로 {0}명 처치하기 - {1}
+chall.name.tk Turbo Kill {0}명 처치하기 - {1}
 chall.name.drk 슬라이딩 중 {0}명 처치하기 - {1}
-chall.name.kstk {0}명 연속 처치 달성 - {1}
+chall.name.kstk {0}명 연속 처치 달성하기 - {1}
 chall.name.w 게임 {0}판 승리하기
 chall.name.d {0}번 죽기
 chall.name.score {0}점 얻기
 chall.name.dmg {0} 피해량 입히기 - {1}
 chall.name.bzk 연속 처치 {0}번 끊기 - {1}
-chall.name.cc 아슬아슬 처치 {0}번 하기
-chall.name.rk 복수 처치 {0}번 하기
+chall.name.cc Close Call {0}번 하기 - {1}
+chall.name.rk 복수 처치 {0}번 하기 - {1}
 event.doubleXP 이 게임에서 얻는 클래스 경험치는 2배입니다
 ranked.join 랭크전을 참가했습니다. 게임 도중 나갈 경우 랭크전 임시 정지 조치될 수 있습니다.
 ranked.progress 게임 진행 중
