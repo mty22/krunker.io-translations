@@ -512,7 +512,7 @@ windows.controls.inspect 무기 자세히 보기
 windows.controls.spray 스프레이
 windows.controls.sprayWheel 스프레이 메뉴 (홀드)
 windows.controls.jump 점프
-windows.controls.crouch 
+windows.controls.crouch 웅크리기
 windows.controls.prim 주무기
 windows.controls.swap 보조무기
 windows.controls.melee 근접무기
