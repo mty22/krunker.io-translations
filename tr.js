@@ -968,9 +968,9 @@ commands.suspect.left şüpheli Oyundan Ayrıldı
 commands.suspect.found Şüpheli Bulundu. İzliyor: {0}, Oynuyor: {1}, İsim: {2}
 commands.forfeit.next En az 1 tur oynanmalı
 commands.forfeit.wait Pes etmek için maçın başlamasını bekle
-commands.forfeit.later Lütfen birkaç saniye içinde yine deneyin.
+commands.forfeit.later Lütfen birkaç saniye içinde yine deneyin
 commands.forfeit.voted Çoktan oy verdin.
-commands.forfeit.limit Oyun başına sadece 1 oy başlatabilirsin.
+commands.forfeit.limit Oyun başına sadece 1 oy başlatabilirsin
 commands.forfeit.ended Pes ediliyor
 commands.forfeit.ended.other Diğer Takım Pes Etti
 server.message.join {0} oyuna katıldı
