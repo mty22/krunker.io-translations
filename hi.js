@@ -61,7 +61,7 @@ generic.accuracy सटीकता
 player.waiting खिलाड़ियों का इंतजार कर रहे हैं ...
 player.died तुम मर गए
 player.killed द्वारा मारे गए
-player.killstreak {0} on a {1} Kill Streak
+player.killstreak {0} {1} Kill Streak पर हैं
 player.inactive इनैक्टिव
 player.disconnect डिस्कनेक्ट
 timer.end अगला दौर {0} में
@@ -73,7 +73,7 @@ app.play.mobile खेलने के लिए टैप करें
 app.spectate.mobile स्पैक्टेट करे
 app.play.controller START दबाएं
 app.spectate.controller स्पैक्टेट करे
-purchase.error ERROR
+purchase.error एरर
 purchase.error.click यहां क्लिक करें  </a> और फिर से प्रयास करें!
 purchase.error.limit आप अपनी दैनिक लेनदेन सीमा को पार कर चुकें हैं
 settings.reset रीसेट
@@ -84,6 +84,8 @@ settings.none कोई सेटिंग नहीं मिली
 settings.backup बैकअप सेटिंग्स
 settings.controls.change Keybinds
 settings.controls.press किसी भी Key को दबाएं
+settings.controls.leaderboard InGame Leaderboard Trigger Type
+settings.controls.voicechat Voicechat Trigger Type
 settings.local.header Localization <span id="requiresRestart"><span style="color: #eb5656">*</span> requires restart</span>
 settings.local.region डिफ़ॉल्ट क्षेत्र
 settings.local.lang भाषा
@@ -92,6 +94,7 @@ settings.network.netRerouting ऑटो राउटिंग (पिंग क�
 settings.network.netRate Network Rate (Hz)
 settings.network.lagComp लैग काम्पन्सेशन
 settings.network.optNet Optimized Networking
+settings.network.quickplay Force Quickplay
 settings.popup.header पॉपअप
 settings.experimental.header आजमाइशी
 settings.experimental.holiday Holiday Effects
@@ -206,7 +209,7 @@ settings.interface.hideNames.enemy केवल दुश्मन के
 settings.interface.hideNames.all सभी के
 settings.interface.nametagStyle नैम-टैग स्टाइल
 settings.interface.nametagOpac नैम-टैग की पारदर्शकता
-settings.interface.nametagScale Nametag Scale
+settings.interface.nametagScale नैम-टैग की स्केल
 settings.interface.nametagStyle.health केवल HP
 settings.interface.nametagStyle.name केवल नाम
 settings.interface.nametagStyle.nameLvl केवल नाम और लेवल
@@ -217,11 +220,11 @@ settings.interface.healthColE नैम-टैग दुश्मन के HP �
 settings.interface.xpBarCol XP बार का रंग
 settings.interface.xpBarCol2 XP Bar Color 2
 settings.interface.xpBarOpac XP बार की पारदर्शकता
-settings.medals.header Medals
-settings.medals.show Show Medals
+settings.medals.header मेडल्स
+settings.medals.show मेडल्स दिखाएँ
 settings.medals.classic Classic Medals
-settings.medals.sound Play Medal Sounds
-settings.medals.scale Medal Scale
+settings.medals.sound मेडल साउंड्स बजाएं
+settings.medals.scale मेडल की स्केल
 settings.medals.xOff Medal X Offset
 settings.medals.yOff Medal Y Offset
 settings.crosshair.header Crosshair
@@ -239,12 +242,12 @@ settings.crosshair.style.3 खोखला चौकोर
 settings.crosshair.style.4 ठोस चौकोर
 settings.crosshair.image छवि
 settings.crosshair.image.paste Crosshair चित्र
-settings.crosshair.image.width Image Width
-settings.crosshair.image.height Image Height
+settings.crosshair.image.width चित्र की चौड़ाई
+settings.crosshair.image.height चित्र की लंबाई
 settings.crosshair.always हमेशा दिखाओ
 settings.crosshair.color रंग
-settings.crosshair.shadow.color छाया रंग
-settings.crosshair.shadow.thickness छाया मोटाई
+settings.crosshair.shadow.color छाया का रंग
+settings.crosshair.shadow.thickness छाया की मोटाई
 settings.crosshair.size नाप
 settings.crosshair.thickness मोटाई
 settings.crosshair.gap गैप
@@ -252,30 +255,30 @@ settings.crosshair.dot बिंदु
 settings.crosshair.opacity.use कस्टम अपारदर्शिता का उपयोग करें
 settings.crosshair.opacity.custom कस्टम अपारदर्शिता
 settings.crosshairm.header Crosshair (Throwing)
-settings.crosshairm.type Type
-settings.crosshairm.type.1 Shapes
-settings.crosshairm.type.2 Image
-settings.crosshairm.type.3 Precision
-settings.crosshairm.style Style
-settings.crosshairm.style.0 Cross
-settings.crosshairm.style.1 Hollow Circle
-settings.crosshairm.style.2 Solid Circle
-settings.crosshairm.style.3 Hollow Square
-settings.crosshairm.style.4 Solid Square
-settings.crosshairm.image Image
-settings.crosshairm.image.paste Crosshair Image
-settings.crosshairm.image.width Image Width
-settings.crosshairm.image.height Image Height
-settings.crosshairm.always Always Show
-settings.crosshairm.color Color
-settings.crosshairm.shadow.color Shadow Color
-settings.crosshairm.shadow.thickness Shadow Thickness
-settings.crosshairm.size Size
-settings.crosshairm.thickness Thickness
-settings.crosshairm.gap Gap
-settings.crosshairm.dot Dot
-settings.crosshairm.opacity.use Use Custom Opacity
-settings.crosshairm.opacity.custom Custom Opacity
+settings.crosshairm.type प्रकार
+settings.crosshairm.type.1 आकार
+settings.crosshairm.type.2 इमेज
+settings.crosshairm.type.3 प्रिसिजन
+settings.crosshairm.style शैली
+settings.crosshairm.style.0 क्रॉस
+settings.crosshairm.style.1 खोखला सर्कल
+settings.crosshairm.style.2 ठोस सर्कल
+settings.crosshairm.style.3 खोखला चौकोर
+settings.crosshairm.style.4 ठोस चौकोर
+settings.crosshairm.image चित्र
+settings.crosshairm.image.paste Crosshair चित्र
+settings.crosshairm.image.width चित्र की चौड़ाई
+settings.crosshairm.image.height चित्र की लंबाई
+settings.crosshairm.always हमेशा दिखाओ
+settings.crosshairm.color रंग
+settings.crosshairm.shadow.color छाया का रंग
+settings.crosshairm.shadow.thickness छाया की मोटाई
+settings.crosshairm.size  नाप
+settings.crosshairm.thickness मोटाई
+settings.crosshairm.gap गैप
+settings.crosshairm.dot बिंदु
+settings.crosshairm.opacity.use कस्टम अपारदर्शिता का उपयोग करें
+settings.crosshairm.opacity.custom कस्टम अपारदर्शिता
 settings.hitmarker.header हिटमार्कर
 settings.hitmarker.color रंग
 settings.hitmarker.kcolor हत्या करने पर रंग
@@ -300,12 +303,12 @@ settings.gameprivacy.header खेल की गोपनीयता
 settings.gameprivacy.streamer स्ट्रीमर मोड
 settings.gameprivacy.anon गुमनाम मोड
 settings.gameprivacy.hideGameTitle खेल शीर्षक छिपाएं
-settings.gameprivacy.showRegion Show Region Info
-settings.gameprivacy.verified Show Verified Badge
-settings.gameprivacy.premium Show Premium Badge
-settings.gameprivacy.partner Show Partner Badge
-settings.gameprivacy.rank Show Ranked Badge
-settings.gameprivacy.custom Show Custom Badge
+settings.gameprivacy.showRegion क्षेत्र की जानकारी दिखाएं
+settings.gameprivacy.verified Verified बैज दिखाएं
+settings.gameprivacy.premium Premium बैज दिखाएं
+settings.gameprivacy.partner Partner बैज दिखाएं
+settings.gameprivacy.rank Ranked बैज दिखाएं
+settings.gameprivacy.custom Custom बैज दिखाएं
 settings.gameplay.header गेमप्लेर
 settings.gameplay.gpSetts गेमप्ले सेटिंग्स
 settings.gameplay.sensitivityX X-संवेदनशीलता
@@ -448,8 +451,8 @@ settings.mods.damage.paste डैमेज ओवरलेस इमेज URL
 settings.mods.overlay खेल ओवरले इमेज
 settings.mods.overlay.paste खेल ओवरले इमेज URL
 settings.social.region रीजन स्टैट्स
-settings.social.bg Background Image
-settings.social.bg.paste Background Image URL
+settings.social.bg बैकग्राउंड चित्र
+settings.social.bg.paste बैकग्राउंड चित्र URL
 windows.settings.header खेल समायोजन
 windows.mail.header क्रंकर मेल
 windows.servers.header सर्वर
@@ -459,7 +462,7 @@ windows.servers.hide फ़ुल सर्वर छिपाए
 windows.servers.priority रीजन की प्राथमिकता
 windows.servers.online {0} खेल में
 windows.servers.social {0} सोशल में
-windows.servers.editor {0} in Editor
+windows.servers.editor {0} एडिटर में
 windows.loadout.header लोडआउट बदले
 windows.loadout.class क्लास
 windows.loadout.primary प्राइमरी
@@ -480,10 +483,10 @@ windows.loadout.color.chat चैट मे अपने नाम का रं
 windows.loadout.color.hair बाल का रंग
 windows.loadout.dye डाई
 windows.loadout.pet पेट
-windows.loadout.wrist Wrist
+windows.loadout.wrist हाँथ
 windows.loadout.stat किलकार्ड स्टैटक
 windows.loadout.flag देश का झंडा
-windows.loadout.badge Custom Badge
+windows.loadout.badge Custom बैज
 windows.mods.drop यहाँ मॉड फ़ाइल ड्रॉप या क्लिक करें
 windows.mods.paste पेस्ट मॉड URL
 windows.mods.load मॉड लोड करें
@@ -611,7 +614,7 @@ windows.store.amount अकाउंट में {0} KR है
 windows.store.login बाजार से आइटम्स अनलॉक करने के लिए!
 windows.store.purchasing खरिदा जा रह है...
 windows.store.unboxed {0}{1} अनबॉक्स्ड
-windows.store.found {0}{1} found
+windows.store.found {0}{1} मिला
 windows.trade.header व्यापार करना
 windows.scope.header स्कोप चुने
 windows.premium.header प्रीमियम
@@ -646,6 +649,12 @@ windows.secondary.unlocked उनलॉक्ड
 windows.secondary.customOnly सिर्फ कस्टम्स
 windows.secondary.premiumOnly सिर्फ प्रीमियम
 windows.secondary.req {0} पर अनलॉक हो जाता है
+windows.skins.unlocked उनलॉक्ड
+windows.skins.customOnly सिर्फ कस्टम्स
+windows.skins.premiumOnly सिर्फ प्रीमियम
+windows.skins.classOnly {0} ज़रूरी है
+windows.skins.req {0} लेवेल ज़रूरी है
+windows.skins.default डिफ़ॉल्ट स्किन
 windows.advertise.header विज्ञापित
 windows.support.header सपोर्ट
 windows.players.header प्लेयर लिस्ट
@@ -670,10 +679,10 @@ mod.error मॉड एरर!
 mod.loading मॉड लोड हो रहा हे ...
 mod.invalid इनवैलिड मॉड फाइल !
 matchmaker.full फुल
-matchmaker.GameFull Game is full.
-matchmaker.NoServersMatchQuery GAME UPDATING
-matchmaker.InvalidGameId Game not found.
-matchmaker.NoAvailableServers Servers are at Max Capacity
+matchmaker.GameFull खेल भरा हुआ है
+matchmaker.NoServersMatchQuery खेल अपडेट हो रहा हे
+matchmaker.InvalidGameId खेल नहीं मिला.
+matchmaker.NoAvailableServers सारे सर्वर फुल् हैं
 matchmaker.GameIssue Unknown Join Issue
 adblocker KR प्राप्त करने के लिए, अपना adblocker बंद करें
 ad-failed विज्ञापन लोड होने में असफल हुआ । कृपया पुन: प्रयास करें
@@ -785,11 +794,11 @@ social.market.waist कमर की आइटम
 social.market.face चेहरे की आइटम
 social.market.shoe जूते
 social.market.pet पेट
-social.market.wrist Wrist Item
+social.market.wrist हाँथ की वस्तु
 social.market.melee चाकू
 social.market.spray स्प्रे
 social.market.dye डाई
-social.market.collectible Collectible Item
+social.market.collectible Collectible चीज
 social.market.none कोई आइटम नहीं खोजी गयी
 social.market.login लॉग इन होना आवश्यक है.
 social.market.grace {0} में तैयार
@@ -836,7 +845,7 @@ stats.headshots हेड शाट
 stats.wallbangs वॉल बैंग
 stats.crouches Crouches
 stats.sprays स्प्रे काउन्ट
-stats.kpd Helpful Reports
+stats.kpd मददगार रिपोर्टस
 windows.host.default.settings मैप के सेटिंग्स को सक्षम करने से प्लेयर्स के डाटा (हाइ स्कॉर्ज़) को सेव किया जा सकता है
 windows.host.default.commands *होस्ट कमांड (/ noclip, /god, /smite, आदि) इस मोड में काम नहीं करेंगे
 windows.host.rewards यदि आप KR रिवार्ड्स को सक्षम करते है, तो सारे खिलाड़ियों को डिफ़ॉल्ट सेटिंग्स पर खेलना पड़ेगा और वे आपके मैप के खाते से KR भी जीत सकते है:
@@ -858,9 +867,9 @@ windows.playerlist.punish क्या आप वास्तव में {0} �
 item.view.open मॉडल व्यूअर खोलें
 item.view.more अधिक जानकारी
 item.sell.cant आइटम बेचा नहीं जा सकता
-item.sell.cant.krunker Item cant be sold on krunker.
+item.sell.cant.krunker आइटम krunker पर बेचा नहीं जा सकता
 item.sell.quick क्या आप वास्तव में {0} की शीघ्र बिक्री करना चाहते है?
-item.sell.destroy Are you sure you want to Destroy {0}?
+item.sell.destroy क्या आप वास्तव में {0} को नष्ट करना चाहते हैं?
 social.profile.stats संपूर्ण आँकड़े
 social.profile.class हथियार के आँकड़े
 social.profile.sales बिक्री
@@ -890,25 +899,84 @@ social.trades.accept क्या आप वास्तव में इस ट
 stats.airdrops KR पैकेज
 stats.airdrops.stolen Airdrops Stolen
 settings.quality.flapAnim स्नाइपर फ्लैप एनीमेशन
-chall.name.hs Get {0} headshots {1}
-chall.name.ns Get {0} no-scopes {1}
-chall.name.ls Get {0} legshots {1}
+chall.name.hs Get {0} हैडशॉट्स {1}
+chall.name.ns Get {0} नो-स्कोप्स {1}
+chall.name.ls Get {0} लेगशॉट्स {1}
 chall.name.tmk Get {0} throwing knife kills {1}
 chall.name.fb Get {0} first bloods {1}
-chall.name.mk Get {0} melee kills {1}
-chall.name.fk Get {0} fist kills {1}
-chall.name.qs Get {0} quickscopes {1}
+chall.name.mk Get {0} मिली किलज़ {1}
+chall.name.fk Get {0} हाँथों द्वारा किये गए किल {1}
+chall.name.qs Get {0} क्विक-स्कोप्स {1}
 chall.name.wb Get {0} wallbangs {1}
 chall.name.airk Get {0} mid-air kills {1}
 chall.name.lns Get {0} longshots {1}
 chall.name.tk Get {0} turbo kills {1}
 chall.name.drk Get {0} drift kills {1}
 chall.name.kstk Get a {0} killstreak {1}
-chall.name.w Win {0} matches
-chall.name.d Die {0} times
-chall.name.score Get {0} score
-chall.name.dmg Deal {0} damage {1}
-chall.name.bzk Get {0} buzz kills {1}
+chall.name.w Win {0} मैचेस
+chall.name.d Die {0} समय
+chall.name.score Get {0} अंक
+chall.name.dmg Deal {0} डैमेज {1}
+chall.name.bzk Get {0} बज़ किलज़ {1}
 chall.name.cc Get {0} close-calls {1}
 chall.name.rk Deal {0} revenge kills {1}
+event.doubleXP 2x Class XP enabled for this match
+ranked.join Joined Ranked Match. Abandoning a match will result in a temporary ban
+ranked.progress खेल चल रहा है
+ranked.team कृपया एक टीम जॉइन करें
+ranked.switch खेल के बीच मे नहीं बदल सकते
+ranked.spectate Spectating Disabled in Ranked
+ranked.login स्पॉन करने के लिए लॉगिन करें
+ranked.sync Missing Sync Data
+ranked.team.spawn कृपया स्पॉन करने के लिए एक टीम जॉइन करें
+ranked.class.spawn कृपया स्पॉन करने के लिए एक क्लास सेलेक्ट करें
+modes.round.win आपकी टीम ने यह राउंड सिक्युर कर लिया है
+modes.round.loss यह राउंड अब जीता नहीं जा सकता
+modes.round.switch Switching Sides. Prepare for the next Round
+modes.trade.success ट्रेड सफल रहा
+modes.prophunt.limit [Prop Hunt] You are out of prop switches
+modes.prophunt.left [Prop Hunt] You have {0} switches remaining
+modes.prophunt.rotation.on [Prop Hunt] Rotation Enabled
+modes.prophunt.rotation.off [Prop Hunt] Rotation Disabled
+modes.prophunt.rotation.reset [Prop Hunt] Rotation reset.
+commands.login इस कमांड को इस्तिमल करने के लिए लॉगिन करें
+commands.connected {0} connected, {1} in menu
+commands.host {0} मौजूदा होस्ट हैं.
+commands.noclip.on Noclip - इनेबल्ड
+commands.noclip.off Noclip - डिसेबल्ड
+commands.god.on गॉड मोड - इनेबल्ड
+commands.god.off गॉड मोड - डिसेबल्ड
+commands.god.on.other गॉड मोड - {0} के लिए इनेबल्ड
+commands.god.off.other गॉड मोड - {0} के लिए डिसेबल्ड
+commands.smite.on Smite - इनेबल्ड
+commands.smite.off Smite - डिसेबल्ड
+commands.smite.on.other Smite - {0} के लिए इनेबल्ड
+commands.smite.off.other Smite - {0} के लिए डिसेबल्ड
+commands.perk दिया {0} {1}
+commands.maxperk Gave {0} MAX {1}
+commands.unlimited.on अनलिमिटेड Ammo - इनेबल्ड
+commands.unlimited.off अनलिमिटेड Ammo - डिसेबल्ड
+commands.unlimited.on.other अनलिमिटेड Ammo - {0} के लिए इनेबल्ड
+commands.unlimited.off.other अनलिमिटेड Ammo - {0} के लिए डिसेबल्ड
+commands.spraybypass.on अनलिमिटेड Ammo - इनेबल्ड
+commands.spraybypass.off अनलिमिटेड Ammo - डिसेबल्ड
+commands.spraybypass.on.other अनलिमिटेड Ammo - {0} के लिए इनेबल्ड
+commands.spraybypass.off.other अनलिमिटेड Ammo - {0} के लिए डिसेबल्ड
+commands.suspect.invalid Invalid suspect info
+commands.suspect.menu ससपेक्ट मेन्यू में है
+commands.suspect.left ससपेक्ट ने मैच छोड़ दिया
+commands.suspect.found Suspect Found. Spectating: {0}, Spawned: {1}, Name: {2}
+commands.forfeit.next 1 राउंड खेलना ज़रूरी है
+commands.forfeit.wait forfeit करने के लिए मैच शुरू होने दें
+commands.forfeit.later कृपया कुछ देर बाद कोशिश करें
+commands.forfeit.voted आप पहले वोटे कर चुके हैं
+commands.forfeit.limit आप एक गेम मे एक ही बार वोट शुरू कर सकते हैं
+commands.forfeit.ended Forfeiting गेम
+commands.forfeit.ended.other Other Team Forfeited
+server.message.join {0} ने गेम जॉइन किया
+server.message.left {0} ने गेम छोड़ दिया
+server.message.kicked {0} को किक किया गया
+server.message.banned {0} को बैन किया गया
+server.message.votekicked {0} was vote kicked
+server.message.arrested {0} को K.P.D ने गिरफ्तार किया
 `;
