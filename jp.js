@@ -649,12 +649,12 @@ windows.secondary.unlocked アンロック済み
 windows.secondary.customOnly カスタムゲーム専用
 windows.secondary.premiumOnly プレミアム専用
 windows.secondary.req レベル{0}が必要
-windows.skins.unlocked Unlocked
+windows.skins.unlocked アンロック済
 windows.skins.customOnly Customs Only
 windows.skins.premiumOnly Premium Only
 windows.skins.classOnly Req {0}
 windows.skins.req Req lvl {0}
-windows.skins.default Default Skin
+windows.skins.default デフォルトスキン
 windows.advertise.header 広告
 windows.support.header サポート
 windows.players.header プレイヤーリスト
@@ -920,42 +920,42 @@ chall.name.dmg Deal {0} damage {1}
 chall.name.bzk Get {0} buzz kills {1}
 chall.name.cc Get {0} close-calls {1}
 chall.name.rk Deal {0} revenge kills {1}
-event.doubleXP 2x Class XP enabled for this match
-ranked.join Joined Ranked Match. Abandoning a match will result in a temporary ban
-ranked.progress Game in Progress
-ranked.team Please join a Team
-ranked.switch Can't switch while in-game
-ranked.spectate Spectating Disabled in Ranked
-ranked.login Login to Spawn
+event.doubleXP このマッチではクラスXPが2倍になります
+ranked.join ランクマッチに参加しました。マッチ放棄を行うと一時的にBANされます
+ranked.progress マッチ中
+ranked.team チームに入ってください
+ranked.switch マッチ中にクラスを変更できません
+ranked.spectate ランクマッチでは観戦できません
+ranked.login ログインしてスポーン
 ranked.sync Missing Sync Data
-ranked.team.spawn Please join a Team to Spawn
-ranked.class.spawn Please select a Class to Spawn
-modes.round.win Your Team has secured this round
-modes.round.loss This round is no longer winnable
-modes.round.switch Switching Sides. Prepare for the next Round
-modes.trade.success Trade Successful
+ranked.team.spawn スポーンするにはチームを選択してください
+ranked.class.spawn スポーンするにはクラスを選択してください
+modes.round.win このラウンドの勝利が確定しました
+modes.round.loss このラウンドの敗北が確定しました
+modes.round.switch サイドを交代します。次のラウンドの準備をしてください
+modes.trade.success トレード成功
 modes.prophunt.limit [Prop Hunt] You are out of prop switches
 modes.prophunt.left [Prop Hunt] You have {0} switches remaining
 modes.prophunt.rotation.on [Prop Hunt] Rotation Enabled
 modes.prophunt.rotation.off [Prop Hunt] Rotation Disabled
 modes.prophunt.rotation.reset [Prop Hunt] Rotation reset.
-commands.login Login to use this command
+commands.login このコマンドを使うにはログインしてください
 commands.connected {0} connected, {1} in menu
 commands.host {0} is the current Host.
-commands.noclip.on Noclip - Enabled
-commands.noclip.off Noclip - Disabled
-commands.god.on God mode - Enabled
-commands.god.off God mode - Disabled
+commands.noclip.on ノークリップ - 有効
+commands.noclip.off ノークリップ - 無効
+commands.god.on ゴッドモード - 有効
+commands.god.off ゴッドモード - 無効
 commands.god.on.other God mode - Enabled for {0}
 commands.god.off.other God mode - Disabled for {0}
-commands.smite.on Smite - Enabled
-commands.smite.off Smite - Disabled
+commands.smite.on スマイト - 有効
+commands.smite.off スマイト - 無効
 commands.smite.on.other Smite - Enabled for {0}
 commands.smite.off.other Smite - Disabled for {0}
 commands.perk Gave {0} {1}
 commands.maxperk Gave {0} MAX {1}
-commands.unlimited.on Unlimited Ammo - Enabled
-commands.unlimited.off Unlimited Ammo - Disabled
+commands.unlimited.on 弾薬無制限 - 有効
+commands.unlimited.off 弾薬無制限 - 無効
 commands.unlimited.on.other Unlimited Ammo - Enabled for {0}
 commands.unlimited.off.other Unlimited Ammo - Disabled for {0}
 commands.spraybypass.on Unlimited Ammo - Enabled
@@ -966,13 +966,13 @@ commands.suspect.invalid Invalid suspect info
 commands.suspect.menu Suspect in menu
 commands.suspect.left Suspect has left
 commands.suspect.found Suspect Found. Spectating: {0}, Spawned: {1}, Name: {2}
-commands.forfeit.next Must play atleast 1 round
-commands.forfeit.wait Wait till match starts to forfeit
-commands.forfeit.later Please try again in a few seconds
-commands.forfeit.voted You already voted.
-commands.forfeit.limit You can only start one vote per game
-commands.forfeit.ended Forfeiting Game
-commands.forfeit.ended.other Other Team Forfeited
+commands.forfeit.next 最低1ラウンドプレイする必要があります
+commands.forfeit.wait 降参するにはマッチが始まるまで待ってください
+commands.forfeit.later 数秒後にもう一度やり直してください
+commands.forfeit.voted 投票済
+commands.forfeit.limit 投票を行えるのは1マッチにつき1回までです
+commands.forfeit.ended 降参しました
+commands.forfeit.ended.other 相手が降参しました
 server.message.join {0} joined the game
 server.message.left {0} left the game
 server.message.kicked {0} was kicked
