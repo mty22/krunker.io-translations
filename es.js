@@ -84,8 +84,8 @@ settings.none No se han encontrado configuraciones
 settings.backup Respaldar configuraciones
 settings.controls.change Ajustar controles
 settings.controls.press Presione cualquier tecla
-settings.controls.leaderboard InGame Leaderboard Trigger Type
-settings.controls.voicechat Voicechat Trigger Type
+settings.controls.leaderboard Tipo de Trigger de Tabla
+settings.controls.voicechat Tipo de Trigger de Voz
 settings.local.header Localización <span id="requiresRestart"><span style="color: #eb5656">*</span> requiere reiniciar </span>
 settings.local.region Región por defecto
 settings.local.lang Idioma
@@ -94,7 +94,7 @@ settings.network.netRerouting Enrutamiento automático (Afecta el ping)
 settings.network.netRate Network Rate (Hz)
 settings.network.lagComp Compensación de lag
 settings.network.optNet Red Optimizada
-settings.network.quickplay Force Quickplay
+settings.network.quickplay Forzar Partida Rapida
 settings.popup.header Popups
 settings.experimental.header Experimental
 settings.experimental.holiday Efectos Festivos
@@ -646,15 +646,15 @@ windows.publish.mod.update Publicar/actualizar
 windows.publish.mod.login para crear y subir mods!
 windows.secondary.header Seleccionar secundaria
 windows.secondary.unlocked Desbloqueada
-windows.secondary.customOnly Solo Customs
+windows.secondary.customOnly Solo Personalizadas
 windows.secondary.premiumOnly Solo Premium
 windows.secondary.req Requiere nivel {0}
-windows.skins.unlocked Unlocked
-windows.skins.customOnly Customs Only
-windows.skins.premiumOnly Premium Only
-windows.skins.classOnly Req {0}
-windows.skins.req Req lvl {0}
-windows.skins.default Default Skin
+windows.skins.unlocked Desbloqueado
+windows.skins.customOnly Solo Personalizadas
+windows.skins.premiumOnly Solo Premiun
+windows.skins.classOnly Requiere {0}
+windows.skins.req Requiere Nivel {0}
+windows.skins.default Skin por Defecto
 windows.advertise.header Promover
 windows.support.header Apoyar
 windows.players.header Lista de jugadores
@@ -920,63 +920,63 @@ chall.name.dmg Haz {0} Daño {1}
 chall.name.bzk Obtén {0} Multi Muerte {1}
 chall.name.cc Obtén {0} Muerte Cercana {1}
 chall.name.rk Haz {0} Asesinato por Venganza {1}
-event.doubleXP 2x Class XP enabled for this match
-ranked.join Joined Ranked Match. Abandoning a match will result in a temporary ban
-ranked.progress Game in Progress
-ranked.team Please join a Team
-ranked.switch Can't switch while in-game
-ranked.spectate Spectating Disabled in Ranked
-ranked.login Login to Spawn
-ranked.sync Missing Sync Data
-ranked.team.spawn Please join a Team to Spawn
-ranked.class.spawn Please select a Class to Spawn
-modes.round.win Your Team has secured this round
-modes.round.loss This round is no longer winnable
-modes.round.switch Switching Sides. Prepare for the next Round
-modes.trade.success Trade Successful
-modes.prophunt.limit [Prop Hunt] You are out of prop switches
-modes.prophunt.left [Prop Hunt] You have {0} switches remaining
-modes.prophunt.rotation.on [Prop Hunt] Rotation Enabled
-modes.prophunt.rotation.off [Prop Hunt] Rotation Disabled
-modes.prophunt.rotation.reset [Prop Hunt] Rotation reset.
-commands.login Login to use this command
-commands.connected {0} connected, {1} in menu
-commands.host {0} is the current Host.
-commands.noclip.on Noclip - Enabled
-commands.noclip.off Noclip - Disabled
-commands.god.on God mode - Enabled
-commands.god.off God mode - Disabled
-commands.god.on.other God mode - Enabled for {0}
-commands.god.off.other God mode - Disabled for {0}
-commands.smite.on Smite - Enabled
-commands.smite.off Smite - Disabled
-commands.smite.on.other Smite - Enabled for {0}
-commands.smite.off.other Smite - Disabled for {0}
-commands.perk Gave {0} {1}
+event.doubleXP Experiencia X2 Activada para esta Partida
+ranked.join Unido a partida Competitiva. El abandono de partidas competitivas resultara en un baneo temporal.
+ranked.progress Partida en progreso.
+ranked.team Porfavor unete a un equipo
+ranked.switch Cambio desactivado durante Partida
+ranked.spectate Modo espectador deshabilitado en competitivo
+ranked.login Iniciar Sesion para Spawnear
+ranked.sync Faltan datos de Sincronización
+ranked.team.spawn Porfavor unete a un equipo para Spawnear.
+ranked.class.spawn Selecciona una clase para Spawnear
+modes.round.win Tu equipo ha asegurado esta Ronda.
+modes.round.loss Esta ronda ya no es Ganable.
+modes.round.switch Cambiando lados. Preparate para la siguiente ronda.
+modes.trade.success Intercambio Exitoso
+modes.prophunt.limit [Prop Hunt] No tienes mas cambios de Prop.
+modes.prophunt.left [Prop Hunt] Tienes {0} cambios Restantes.
+modes.prophunt.rotation.on [Prop Hunt] Rotación Activada
+modes.prophunt.rotation.off [Prop Hunt] Rotación Desactivada
+modes.prophunt.rotation.reset [Prop Hunt] Reseteo de Rotación
+commands.login Inicia sesión para usar comandos.
+commands.connected {0} Conectados, {1} en el Menú.
+commands.host {0} es el Host.
+commands.noclip.on Noclip - Activado
+commands.noclip.off Noclip - Desactivado
+commands.god.on God mode - Activado
+commands.god.off God mode - Desactivado
+commands.god.on.other God mode - Activado por {0}
+commands.god.off.other God mode - Desactivado por {0}
+commands.smite.on Smite - Activado
+commands.smite.off Smite - Desactivado
+commands.smite.on.other Smite - Activado por {0}
+commands.smite.off.other Smite - Desactivado por {0}
+commands.perk Dio {0} {1}
 commands.maxperk Gave {0} MAX {1}
-commands.unlimited.on Unlimited Ammo - Enabled
-commands.unlimited.off Unlimited Ammo - Disabled
-commands.unlimited.on.other Unlimited Ammo - Enabled for {0}
-commands.unlimited.off.other Unlimited Ammo - Disabled for {0}
-commands.spraybypass.on Unlimited Ammo - Enabled
-commands.spraybypass.off Unlimited Ammo - Disabled
-commands.spraybypass.on.other Unlimited Ammo - Enabled for {0}
-commands.spraybypass.off.other Unlimited Ammo - Disabled for {0}
-commands.suspect.invalid Invalid suspect info
-commands.suspect.menu Suspect in menu
-commands.suspect.left Suspect has left
-commands.suspect.found Suspect Found. Spectating: {0}, Spawned: {1}, Name: {2}
-commands.forfeit.next Must play atleast 1 round
-commands.forfeit.wait Wait till match starts to forfeit
-commands.forfeit.later Please try again in a few seconds
-commands.forfeit.voted You already voted.
-commands.forfeit.limit You can only start one vote per game
-commands.forfeit.ended Forfeiting Game
-commands.forfeit.ended.other Other Team Forfeited
-server.message.join {0} joined the game
-server.message.left {0} left the game
-server.message.kicked {0} was kicked
-server.message.banned {0} was banned
-server.message.votekicked {0} was vote kicked
-server.message.arrested {0} was arrested by the K.P.D
+commands.unlimited.on Unlimited Ammo - Activado
+commands.unlimited.off Unlimited Ammo - Desactivado
+commands.unlimited.on.other Unlimited Ammo - Activado por {0}
+commands.unlimited.off.other Unlimited Ammo - Desactivado por {0}
+commands.spraybypass.on Unlimited Ammo - Activado
+commands.spraybypass.off Unlimited Ammo - Desactivado
+commands.spraybypass.on.other Unlimited Ammo - Activado por {0}
+commands.spraybypass.off.other Unlimited Ammo - Desactivado por {0}
+commands.suspect.invalid Información Invalida
+commands.suspect.menu Sospechoso en el Menú
+commands.suspect.left Sospechoso abandono la Partida.
+commands.suspect.found Sospechoso encontrado, Espectando: {0}, Spawneo: {1}, Nombre: {2}
+commands.forfeit.next Se tiene que jugar al menos una ronda.
+commands.forfeit.wait Espera a que la partida Inicie para Rendirte.
+commands.forfeit.later Porfavor intenta de nuevo en unos segundos
+commands.forfeit.voted Ya has votado.
+commands.forfeit.limit Solo puedes iniciar un voto por partida.
+commands.forfeit.ended Tu equipo se ha rendido.
+commands.forfeit.ended.other El equipo enemigo se rindió.
+server.message.join {0} Se ha unido a la partida.
+server.message.left {0} Ha abandonado la partida.
+server.message.kicked {0} fue Expulsado
+server.message.banned {0} fue Baneado
+server.message.votekicked {0} fue Expulsado por Voto
+server.message.arrested {0} Fue arrestado por la K.P.D
 `;
