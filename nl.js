@@ -970,7 +970,7 @@ commands.forfeit.next Moet minimaal 1 ronde spelen
 commands.forfeit.wait Wacht tot de wedstrijd begint om op te geven
 commands.forfeit.later Probeer het opnieuw over een paar seconden
 commands.forfeit.voted Je hebt al gestemd.
-commands.forfeit.limit Je kunt maar één stem per spel starten.
+commands.forfeit.limit Je kunt maar één stem per spel starten
 commands.forfeit.ended Spel aan het Opgeven.
 commands.forfeit.ended.other Andere Team heeft het Opgegeven
 server.message.join {0} doet mee aan het spel
