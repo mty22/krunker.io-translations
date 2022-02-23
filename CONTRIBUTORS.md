@@ -62,6 +62,7 @@ If you contributed in the past and can't find your name below (or simply wish to
 * [Entasy](https://krunker.io/social.html?p=profile&q=Entasy) (Entasy#7837)
 * [SheepWithAim](https://krunker.io/social.html?p=profile&q=SheepWithAim) (TheSheep#8362)
 * [ItsPiki](https://krunker.io/social.html?p=profile&q=ItsPiki) (ItsPiki#4655)
+* [DetectGamer](https://krunker.io/social.html?p=profile&q=DetectGamer) (Mäjellä Kusti#1066)
 
 # [Hindi](https://github.com/mty22/krunker.io-translations/blob/main/hi.js) (हिन्दी)
 * [BitES](https://krunker.io/social.html?p=profile&q=BitES) (BitES#7783)
