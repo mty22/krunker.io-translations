@@ -61,6 +61,7 @@ If you contributed in the past and can't find your name below (or simply wish to
 -- [Jypa](https://krunker.io/social.html?p=profile&q=Jypa) (Jypa#0001)
 -- [Entasy](https://krunker.io/social.html?p=profile&q=Entasy) (Entasy#7837)
 -- [SheepWithAim](https://krunker.io/social.html?p=profile&q=SheepWithAim) (TheSheep#8362)
+-- [ItsPiki](https://krunker.io/social.html?p=profile&q=ItsPiki) (ItsPiki#4655)
 
 - [Hindi](https://github.com/mty22/krunker.io-translations/blob/main/hi.js) (हिन्दी)
 -- [BitES](https://krunker.io/social.html?p=profile&q=BitES) (BitES#7783)
@@ -72,10 +73,10 @@ If you contributed in the past and can't find your name below (or simply wish to
 -- [Slogllykop](https://krunker.io/social.html?p=profile&q=slogllykop)
 -- [Inspire-24](https://krunker.io/social.html?p=profile&q=DADDY_AWM)
 -- [BluZed](https://krunker.io/social.html?p=profile&q=BluZed)
-
+-- [akshutcoder](https://krunker.io/social.html?p=profile&q=akshutcoder) (Thomas Shelby#6969)
 
 - [Turkish](https://github.com/mty22/krunker.io-translations/blob/main/tr.js) (Türkçe)
--- [SecretMember](https://krunker.io/social.html?p=profile&q=SecretMember) (SecretMember#0333)
+-- [Secret](https://krunker.io/social.html?p=profile&q=Secret) (SecretMember#0333)
 -- [WinnerOgün](https://krunker.io/social.html?p=profile&q=Winner_Ogün) (ogyn#1045)
 -- [hon0urdy](https://krunker.io/social.html?p=profile&q=onurongunnn) (honurdi#1840)
 -- [NathanNorth](https://krunker.io/social.html?p=profile&q=Axima) (NathanNorth#4365)
@@ -104,6 +105,11 @@ If you contributed in the past and can't find your name below (or simply wish to
 -- [StarRayX](https://krunker.io/social.html?p=profile&q=StarRayX) (Goos#6835)
 -- [-Navsy-17](https://krunker.io/social.html?p=profile&q=-Navsy-17) (-Nav'sy-17#0887)
 -- [TommyRomero](https://krunker.io/social.html?p=profile&q=TommyRomero) (TommyRomero#1141)
+-- [dandan](https://krunker.io/social.html?p=profile&q=DAndanDAn10) (dandan#6679)
+-- [Captain_Jay](https://krunker.io/social.html?p=profile&q=Captain_Jay)
+-- [KrunkerMarkzt](https://krunker.io/social.html?p=profile&q=KrunkerMarkzt)
+-- [Dreamcatcher_](https://krunker.io/social.html?p=profile&q=Dreamcatcher_)
+-- [Jaehnvnct](https://krunker.io/social.html?p=profile&q=Jaehnout)
 
 - [Polish](https://github.com/mty22/krunker.io-translations/blob/main/pl.js) (Polish)
 -- [xhg4](https://krunker.io/social.html?p=profile&q=xhg4) (DescriptionIcy#5231)
