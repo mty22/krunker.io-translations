@@ -220,14 +220,14 @@ settings.interface.healthColE Vihollistiimin Nimierkkien Väri
 settings.interface.xpBarCol XP-palkin Väri
 settings.interface.xpBarCol2 XP-palkin Väri 2
 settings.interface.xpBarOpac XP-palkin Läpinäkyvyys
-settings.medals.header Mitalit 
-settings.medals.show Näytä Mitalit 
-settings.medals.classic Vanhat Mitalit 
-settings.medals.sound Soita Mitalin Ääni 
-settings.medals.scale Mitalin Koko 
-settings.medals.xOff Mitalin Sijainti X 
-settings.medals.yOff Mitali Sijainti Y 
-settings.crosshair.header Crosshair
+settings.medals.header Mitalit
+settings.medals.show Näytä Mitalit
+settings.medals.classic Vanhat Mitalit
+settings.medals.sound Soita Mitalin Ääni
+settings.medals.scale Mitalin Koko
+settings.medals.xOff Mitalin Sijainti X
+settings.medals.yOff Mitali Sijainti Y
+settings.crosshair.header Crosshair
 settings.crosshair.type Tyyppi
 settings.crosshair.type.1 Dynaaminen
 settings.crosshair.type.2 Muodot
@@ -254,31 +254,31 @@ settings.crosshair.gap Etäisyys
 settings.crosshair.dot Piste
 settings.crosshair.opacity.use Käytä Mukautettua Läpinäkyvyyttä
 settings.crosshair.opacity.custom Mukautettu Läpinäkyvyys
-settings.crosshairm.header Crosshair (Puukkoa Heitettäessä)  
-settings.crosshairm.type Tyyppi 
-settings.crosshairm.type.1 Muodot 
-settings.crosshairm.type.2 Kuva 
-settings.crosshairm.type.3 Eritelty Risti
-settings.crosshairm.style Tyyli 
-settings.crosshairm.style.0 Risti 
-settings.crosshairm.style.1 Ontto Ympyrä 
-settings.crosshairm.style.2 Kiinteä Ympyrä 
-settings.crosshairm.style.3 Ontto Neliö 
-settings.crosshairm.style.4 Kiinteä Neliö  
-settings.crosshairm.image Kuva  
-settings.crosshairm.image.paste Crosshairin Kuva  
-settings.crosshairm.image.width Kuvan Leveys  
-settings.crosshairm.image.height Kuvan Korkeus  
-settings.crosshairm.always Näytä Aina  
-settings.crosshairm.color Väri  
-settings.crosshairm.shadow.color Varjon Väri  
-settings.crosshairm.shadow.thickness Varjon Paksuus 
-settings.crosshairm.size Koko 
-settings.crosshairm.thickness Paksuus 
-settings.crosshairm.gap Etäisyys 
-settings.crosshairm.dot Piste 
-settings.crosshairm.opacity.use Käytä Mukautettua Läpinäkyvyyttä 
-settings.crosshairm.opacity.custom Mukautettu Läpinäkyvyys
+settings.crosshairm.header Crosshair (Puukkoa Heitettäessä)
+settings.crosshairm.type Tyyppi
+settings.crosshairm.type.1 Muodot
+settings.crosshairm.type.2 Kuva
+settings.crosshairm.type.3 Eritelty Risti
+settings.crosshairm.style Tyyli
+settings.crosshairm.style.0 Risti
+settings.crosshairm.style.1 Ontto Ympyrä
+settings.crosshairm.style.2 Kiinteä Ympyrä
+settings.crosshairm.style.3 Ontto Neliö
+settings.crosshairm.style.4 Kiinteä Neliö 
+settings.crosshairm.image Kuva 
+settings.crosshairm.image.paste Crosshairin Kuva 
+settings.crosshairm.image.width Kuvan Leveys 
+settings.crosshairm.image.height Kuvan Korkeus 
+settings.crosshairm.always Näytä Aina 
+settings.crosshairm.color Väri 
+settings.crosshairm.shadow.color Varjon Väri 
+settings.crosshairm.shadow.thickness Varjon Paksuus
+settings.crosshairm.size Koko
+settings.crosshairm.thickness Paksuus
+settings.crosshairm.gap Etäisyys
+settings.crosshairm.dot Piste
+settings.crosshairm.opacity.use Käytä Mukautettua Läpinäkyvyyttä
+settings.crosshairm.opacity.custom Mukautettu Läpinäkyvyys
 settings.hitmarker.header Näytä Osuma
 settings.hitmarker.color Väri
 settings.hitmarker.kcolor Tappoväri
@@ -899,27 +899,27 @@ social.trades.accept Oletko varma, että haluat hyväksyä tämän vaihtokaupan?
 stats.airdrops KR-Paketit
 stats.airdrops.stolen Airdroppeja Varastettu
 settings.quality.flapAnim Tarkkuuskiväärin Läpän Animaatio
-chall.name.hs Saa {0} headshottia {1} 
-chall.name.ns Saa {0} no-scopea {1} 
-chall.name.ls Saa {0} legshottia {1} 
-chall.name.tmk Saa {0} puukonheittotappoa {1} 
-chall.name.fb Saa {0} ensimmäistä tappoa {1} 
-chall.name.mk Saa {0} melee-tappoa {1} 
-chall.name.fk Saa {0} nyrkkitappoa {1} 
-chall.name.qs Saa {0} quickscopea {1} 
-chall.name.wb Saa {0} wallbangia {1}
-chall.name.airk Saa {0} mid-air-tappoa {1} 
-chall.name.lns Saa {0} longshottia {1} 
-chall.name.tk Saa {0} turbo-tappoa {1} 
-chall.name.drk Saa {0} drifti-tappoa {1} 
-chall.name.kstk Saa {0}:n tappoputki {1} 
-chall.name.w Voita {0} ottelua 
-chall.name.d Kuole {0} kertaa 
-chall.name.score Saa {0} pistettä 
-chall.name.dmg Tee {0} vahinkoa {1} 
-chall.name.bzk Saa {0} buzz-tappoa {1} 
-chall.name.cc Saa {0} läheltä piti-tappoa {1} 
-chall.name.rk Saa {0} kostotappoa {1} 
+chall.name.hs Saa {0} headshottia {1}
+chall.name.ns Saa {0} no-scopea {1}
+chall.name.ls Saa {0} legshottia {1}
+chall.name.tmk Saa {0} puukonheittotappoa {1}
+chall.name.fb Saa {0} ensimmäistä tappoa {1}
+chall.name.mk Saa {0} melee-tappoa {1}
+chall.name.fk Saa {0} nyrkkitappoa {1}
+chall.name.qs Saa {0} quickscopea {1}
+chall.name.wb Saa {0} wallbangia {1}
+chall.name.airk Saa {0} mid-air-tappoa {1}
+chall.name.lns Saa {0} longshottia {1}
+chall.name.tk Saa {0} turbo-tappoa {1}
+chall.name.drk Saa {0} drifti-tappoa {1}
+chall.name.kstk Saa {0}:n tappoputki {1}
+chall.name.w Voita {0} ottelua
+chall.name.d Kuole {0} kertaa
+chall.name.score Saa {0} pistettä
+chall.name.dmg Tee {0} vahinkoa {1}
+chall.name.bzk Saa {0} buzz-tappoa {1}
+chall.name.cc Saa {0} läheltä piti-tappoa {1}
+chall.name.rk Saa {0} kostotappoa {1}
 event.doubleXP 2x Class XP enabled for this match
 ranked.join Joined Ranked Match. Abandoning a match will result in a temporary ban
 ranked.progress Game in Progress
