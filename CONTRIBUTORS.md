@@ -79,6 +79,7 @@ If you contributed in the past and can't find your name below (or simply wish to
 -- [WinnerOgün](https://krunker.io/social.html?p=profile&q=Winner_Ogün) (ogyn#1045)
 -- [hon0urdy](https://krunker.io/social.html?p=profile&q=onurongunnn) (honurdi#1840)
 -- [NathanNorth](https://krunker.io/social.html?p=profile&q=Axima) (NathanNorth#4365)
+-- [lelprodude](https://krunker.io/social.html?p=profile&q=lelprodude) (lelprodude#3795)
 
 - [Dutch](https://github.com/mty22/krunker.io-translations/blob/main/fi.js) (Nederlands)
 -- [Semliot](https://krunker.io/social.html?p=profile&q=Semliot) (Semliot#0070)
@@ -107,6 +108,7 @@ If you contributed in the past and can't find your name below (or simply wish to
 - [Polish](https://github.com/mty22/krunker.io-translations/blob/main/pl.js) (Polish)
 -- [xhg4](https://krunker.io/social.html?p=profile&q=xhg4) (DescriptionIcy#5231)
 -- [pamglint](https://krunker.io/social.html?p=profile&q=pamglint)
--- [-isori](https://krunker.io/social.html?p=profile&q=-Isori) (isori#1234)
+-- [-isori](https://krunker.io/social.html?p=profile&q=-Isori)
+-- [JestemKaktus](https://krunker.io/social.html?p=profile&q=JestemKaktus) (KaktusDev#3612)
 -- Chonker1337
 -- stdavious

@@ -84,6 +84,8 @@ settings.none Nie znaleziono ustawień
 settings.backup Ustawienia przywracania
 settings.controls.change Ustawienia klawiszy
 settings.controls.press Naciśnij jakikolwiek klawisz
+settings.controls.leaderboard Typ przełącznika tabeli wyników
+settings.controls.voicechat Typ przełącznika czatu głosowego
 settings.local.header Lokalizacja <span id="requiresRestart"><span style="color: #eb5656">*</span> wymaga restartu</span>
 settings.local.region Domyślny Region
 settings.local.lang Język
@@ -92,6 +94,7 @@ settings.network.netRerouting Auto Routowanie (Wpływa na ping)
 settings.network.netRate Częstotliwość sieci (Hz)
 settings.network.lagComp Kompensacja lagów
 settings.network.optNet Optymalizacja sieci
+settings.network.quickplay Wymuś szybką grę
 settings.popup.header Wyskakujące okienka
 settings.experimental.header Eksperymentalne
 settings.experimental.holiday Efekty Świąteczne
@@ -646,6 +649,12 @@ windows.secondary.unlocked Odblokowane
 windows.secondary.customOnly Dostępne tylko w rozgrywkach niestandardowych
 windows.secondary.premiumOnly Dostępne tylko dla użytkowników Premium
 windows.secondary.req Wymaga poziomu {0}
+windows.skins.unlocked Odblokowane
+windows.skins.customOnly Tylko w grach spersonalizowanych
+windows.skins.premiumOnly Tylko dla graczy premium
+windows.skins.classOnly Req {0}
+windows.skins.req Wymagany poziom {0}
+windows.skins.default Domyślna skórka
 windows.advertise.header Reklamuj
 windows.support.header Wsparcie
 windows.players.header Lista graczy
@@ -911,4 +920,63 @@ chall.name.dmg Zadaj {0} obrażeń {1}
 chall.name.bzk Zakończ {0} serii zabójstw innych graczy {1}
 chall.name.cc Zdobądź {0} zabójstw, prawie samemu ginąc {1}
 chall.name.rk Zdobądź {0} zabójstw w odwecie {1}
+event.doubleXP Podwójne doświadczenie klas w tej grze
+ranked.join Dołączono do rozgrywki rankowanej. Opuszczenie rozgrywki będzie skutkować tymczasowym banem
+ranked.progress Rozgrywka w trakcie
+ranked.team Dołącz do drużyny
+ranked.switch Nie można zmieniać w trakcie rozgrywki
+ranked.spectate Obserwowanie jest wyłączone w rozgrywkach rankowanych
+ranked.login Zaloguj się, aby dołączyć do rozgrywki
+ranked.sync Brak danych synchronizacji
+ranked.team.spawn Dołącz do drużyny, aby dołączyć do rozgrywki
+ranked.class.spawn Wybierz klasę, aby dołączyć do rozgrywki
+modes.round.win Twoja drużyna zabezpieczyła sobie tę rundę
+modes.round.loss Nie jest możliwe wygranie tej rundy przez Twoją drużynę
+modes.round.switch Zamiana stron. Przygotuj się na następną rundę
+modes.trade.success Wymiana zakończona sukcesem
+modes.prophunt.limit [Chowany] Skończyły Ci się zmiany przykrywek
+modes.prophunt.left [Chowany] You have {0} switches remaining
+modes.prophunt.rotation.on [Chowany] Rotacja włączona
+modes.prophunt.rotation.off [Chowany] Rotacja wyłączona
+modes.prophunt.rotation.reset [Chowany] Rotacja zresetowana.
+commands.login Zaloguj się, aby skorzystać z tej komendy
+commands.connected {0} connected, {1} in menu
+commands.host {0} jest obecnym hostem.
+commands.noclip.on Noclip - włączony
+commands.noclip.off Noclip - wyłączony
+commands.god.on Tryb Boga - włączony
+commands.god.off Tryb Boga - wyłączony
+commands.god.on.other Tryb Boga - włączony dla {0}
+commands.god.off.other Tryb Boga - wyłączony dla {0}
+commands.smite.on Smite - włączony
+commands.smite.off Smite - wyłączony
+commands.smite.on.other Smite - włączony dla {0}
+commands.smite.off.other Smite - wyłączony dla {0}
+commands.perk Dano {0} {1}
+commands.maxperk Dano {0} MAX {1}
+commands.unlimited.on Nielimitowana amunicja Ammo - włączona
+commands.unlimited.off Nielimitowana amunicja - wyłączona
+commands.unlimited.on.other Nielimitowana amunicja - włączona dla {0}
+commands.unlimited.off.other Nielimitowana amunicja - wyłączona dla {0}
+commands.spraybypass.on Nielimitowana amunicja - włączona
+commands.spraybypass.off Nielimitowana amunicja - wyłączona
+commands.spraybypass.on.other Nielimitowana amunicja - włączona dla {0}
+commands.spraybypass.off.other Nielimitowana amunicja - wyłączona dla {0}
+commands.suspect.invalid Niepoprawne dane podejrzanego
+commands.suspect.menu Podejrzany jest w menu
+commands.suspect.left Podejrzany opuścił grę
+commands.suspect.found Podejrzany znaleziony. Obserwujący: {0}, W grze: {1}, Imię: {2}
+commands.forfeit.next Należy rozegrać przynajmniej jedną rozgrywkę
+commands.forfeit.wait Należy zaczekać na początek rozgrywki, aby się wycofać
+commands.forfeit.later Spróbuj ponownie za kilka sekund
+commands.forfeit.voted Już zagłosowałeś.
+commands.forfeit.limit Możesz rozpocząć tylko jedno głosowanie w ciągu jednej rozgrywki
+commands.forfeit.ended Wycofywanie się z gry
+commands.forfeit.ended.other Druga drużyna się wycofała
+server.message.join {0} dołączył do gry
+server.message.left {0} opuścił grę
+server.message.kicked {0} został wyrzucony
+server.message.banned {0} został zbanowany
+server.message.votekicked {0} został wyrzucony w drodze głosowania
+server.message.arrested {0} został aresztowany przez K.P.D.
 `;
