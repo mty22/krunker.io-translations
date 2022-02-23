@@ -85,7 +85,7 @@ settings.backup Respaldar configuraciones
 settings.controls.change Ajustar controles
 settings.controls.press Presione cualquier tecla
 settings.controls.leaderboard Tipo de Trigger de Tabla
-settings.controls.voicechat Tipo de Trigger de Voz
+settings.controls.voicechat Tipo de Trigger de Chat de Voz
 settings.local.header Localización <span id="requiresRestart"><span style="color: #eb5656">*</span> requiere reiniciar </span>
 settings.local.region Región por defecto
 settings.local.lang Idioma
@@ -923,16 +923,16 @@ chall.name.rk Haz {0} Asesinato por Venganza {1}
 event.doubleXP Experiencia X2 Activada para esta Partida
 ranked.join Unido a partida Competitiva. El abandono de partidas competitivas resultara en un baneo temporal.
 ranked.progress Partida en progreso.
-ranked.team Porfavor unete a un equipo
+ranked.team Por favor únete a un equipo
 ranked.switch Cambio desactivado durante Partida
 ranked.spectate Modo espectador deshabilitado en competitivo
-ranked.login Iniciar Sesion para Spawnear
+ranked.login Iniciar Sesión para Spawnear
 ranked.sync Faltan datos de Sincronización
-ranked.team.spawn Porfavor unete a un equipo para Spawnear.
+ranked.team.spawn Porfavor únete a un equipo para Spawnear.
 ranked.class.spawn Selecciona una clase para Spawnear
 modes.round.win Tu equipo ha asegurado esta Ronda.
 modes.round.loss Esta ronda ya no es Ganable.
-modes.round.switch Cambiando lados. Preparate para la siguiente ronda.
+modes.round.switch Cambiando lados. Prepárate para la siguiente ronda.
 modes.trade.success Intercambio Exitoso
 modes.prophunt.limit [Prop Hunt] No tienes mas cambios de Prop.
 modes.prophunt.left [Prop Hunt] Tienes {0} cambios Restantes.
@@ -952,7 +952,7 @@ commands.smite.on Smite - Activado
 commands.smite.off Smite - Desactivado
 commands.smite.on.other Smite - Activado por {0}
 commands.smite.off.other Smite - Desactivado por {0}
-commands.perk Dio {0} {1}
+commands.perk Dió {0} {1}
 commands.maxperk Gave {0} MAX {1}
 commands.unlimited.on Unlimited Ammo - Activado
 commands.unlimited.off Unlimited Ammo - Desactivado
@@ -964,11 +964,11 @@ commands.spraybypass.on.other Unlimited Ammo - Activado por {0}
 commands.spraybypass.off.other Unlimited Ammo - Desactivado por {0}
 commands.suspect.invalid Información Invalida
 commands.suspect.menu Sospechoso en el Menú
-commands.suspect.left Sospechoso abandono la Partida.
+commands.suspect.left Sospechoso abandonó la Partida.
 commands.suspect.found Sospechoso encontrado, Espectando: {0}, Spawneo: {1}, Nombre: {2}
 commands.forfeit.next Se tiene que jugar al menos una ronda.
 commands.forfeit.wait Espera a que la partida Inicie para Rendirte.
-commands.forfeit.later Porfavor intenta de nuevo en unos segundos
+commands.forfeit.later Por favor intenta de nuevo en unos segundos
 commands.forfeit.voted Ya has votado.
 commands.forfeit.limit Solo puedes iniciar un voto por partida.
 commands.forfeit.ended Tu equipo se ha rendido.
