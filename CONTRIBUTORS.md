@@ -104,7 +104,7 @@ If you contributed in the past and can't find your name below (or simply wish to
 * [daje1097](https://krunker.io/social.html?p=profile&q=daje1097) (daje1097#1298)
 * [Jourdanais](https://krunker.io/social.html?p=profile&q=Jourdanais) (astagoth#4777)
 * [StarRayX](https://krunker.io/social.html?p=profile&q=StarRayX) (Goos#6835)
-* [-Navsy-17](https://krunker.io/social.html?p=profile&q=-Navsy-17) (-Nav'sy-17#0887)
+* [-Navsy-17](https://krunker.io/social.html?p=profile&q=-Navsy-17) (-Navvsygation-#0887)
 * [TommyRomero](https://krunker.io/social.html?p=profile&q=TommyRomero) (TommyRomero#1141)
 * [dandan](https://krunker.io/social.html?p=profile&q=DAndanDAn10) (dandan#6679)
 * [Captain_Jay](https://krunker.io/social.html?p=profile&q=Captain_Jay) (Captain Jay#4560)
