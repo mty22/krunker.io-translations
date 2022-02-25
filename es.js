@@ -921,7 +921,7 @@ chall.name.bzk Obtén {0} Multi Muerte {1}
 chall.name.cc Obtén {0} Muerte Cercana {1}
 chall.name.rk Haz {0} Asesinato por Venganza {1}
 event.doubleXP Experiencia X2 Activada para esta Partida
-ranked.join Unido a partida Competitiva. El abandono de partidas competitivas resultara en un baneo temporal.
+ranked.join Unido a partida Competitiva. El abandono de partidas competitivas resultara en una suspención temporal.
 ranked.progress Partida en progreso.
 ranked.team Por favor únete a un equipo
 ranked.switch Cambio desactivado durante Partida
