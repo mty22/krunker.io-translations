@@ -1,4 +1,4 @@
-23/FEB/2022 update -
+27/FEB/2022 update -i
 
 Current statuses of languages in-game (these are prioritised).
 
@@ -15,13 +15,13 @@ Up to date or needing some updates:
     Turkish,v5.4.5
     Finnish,v5.4.5
     Tagalog,v5.4.5
+    German,v5.4.5
+    Spanish,v5.4.5
+    Traditional Chinese,v5.4.5
+    Simplified Chinese,v5.4.5
 
 Updates required:
 
     French,v5.4.4
     Russian,v5.4.4
-    German,v5.4.4
     Italian,v5.4.4
-    Spanish,v5.4.4
-    Traditional Chinese,v5.4.4
-    Simplified Chinese,v5.4.4
