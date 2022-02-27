@@ -925,15 +925,15 @@ ranked.join Partie classée rejoint. Abandonner une partie résultera en un ban 
 ranked.progress Partie en cours
 ranked.team Veuillez rejoindre une équipe
 ranked.switch Vous ne pouvez pas changer pendant la partie
-ranked.spectate Le visionnage est désactivée en Classée
+ranked.spectate Le visionnage est désactivé en Classée
 ranked.login Connectez vous pour apparaitre
 ranked.sync Données de sync manquante
 ranked.team.spawn Veuillez rejoindre une equipe pour apparaitre
 ranked.class.spawn Veuillez choisir une classe pour apparaitre
-modes.round.win Votre equipé a securisé ce round
+modes.round.win Votre équipe a securisé ce round
 modes.round.loss Ce round n'est plus gagnable
 modes.round.switch Changement des cotés. Preparez vous au prochain round
-modes.trade.success Echange réussi
+modes.trade.success Échange réussi
 modes.prophunt.limit [Prop Hunt] Vous etes a court de changements de props.
 modes.prophunt.left [Prop Hunt] Vous avez {0} changements restants
 modes.prophunt.rotation.on [Prop Hunt] Rotation activée
