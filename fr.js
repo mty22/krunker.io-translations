@@ -472,11 +472,11 @@ windows.loadout.primary.scope Viseur
 windows.loadout.secondary Arme secondaire
 windows.loadout.secondary.skin Skin de l’arme secondaire
 windows.loadout.melee Skin de l’arme de mêlée
-windows.loadout.hat Chapeau
+windows.loadout.hat Tête
 windows.loadout.back Corps
 windows.loadout.waist Bassin
 windows.loadout.shoe Chaussures
-windows.loadout.face Tête
+windows.loadout.face Visage
 windows.loadout.spray Tag
 windows.loadout.color.skin Couleur de peau
 windows.loadout.color.chat Couleur du pseudo dans le chat
