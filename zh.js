@@ -39,11 +39,11 @@ generic.follow 关注
 generic.unfollow 取消关注
 generic.followers 个关注者
 generic.following 个关注中
-generic.games 游玩局数
+generic.games 游玩场数
 generic.wins 胜场数
 generic.lose 败场数
 generic.clan 公会
-generic.games.played 游玩局数
+generic.games.played 游玩场数
 generic.games.won 胜场数
 generic.games.lost 败场数
 generic.timep 游玩时间
@@ -65,7 +65,7 @@ player.killstreak {0} on a {1} Kill Streak
 player.inactive 由于你的空闲时间过长，你已被踢出此服务器
 player.disconnect 连接已断开
 timer.end 下一场将在 {0} 后开始
-leaderboard.empty 这里没有任何玩家…
+leaderboard.empty 这里没有任何玩家
 popup.checkpoint 检查点！
 app.play 点击开始游戏
 app.spectate 点击开始观战
@@ -73,7 +73,7 @@ app.play.mobile 点击屏幕开始游戏
 app.spectate.mobile 点击屏幕开始观战
 app.play.controller 按下开始键开始游戏
 app.spectate.controller 按下开始键开始观战
-purchase.error 出错了！
+purchase.error 出错了
 purchase.error.click 点此</a> 重试！
 purchase.error.limit 你可能已超出每日交易限额
 settings.reset 重置
@@ -84,17 +84,17 @@ settings.none 没有找到任何设置
 settings.backup 备份设置
 settings.controls.change 按键设置
 settings.controls.press 按任意键
-settings.controls.leaderboard InGame Leaderboard Trigger Type
-settings.controls.voicechat Voicechat Trigger Type
+settings.controls.leaderboard 游戏内记分板触发类型
+settings.controls.voicechat 语音聊天触发类型
 settings.local.header 本地化 <span id="requiresRestart"><span style="color: #eb5656">*</span> 需要重启游戏</span>
-settings.local.region 默认服务器地区
+settings.local.region 默认地区
 settings.local.lang 语言
 settings.network.header 网络
 settings.network.netRerouting 动态路由（影响网络延时）
 settings.network.netRate 网络刷新率 (Hz)
 settings.network.lagComp 延迟补偿
 settings.network.optNet 网络最优化
-settings.network.quickplay Force Quickplay
+settings.network.quickplay 强制快速游玩
 settings.popup.header 弹窗
 settings.experimental.header 实验性
 settings.experimental.holiday 节日效果
@@ -122,7 +122,7 @@ settings.dev.extraBan 更多封禁信息
 settings.chat.header 聊天
 settings.chat.chat 显示聊天窗口
 settings.chat.chat.all 总是
-settings.chat.chat.focus 聚焦到「输入信息」字段时
+settings.chat.chat.focus 聚焦到 [Enter Message] 字段时
 settings.chat.messages 显示玩家信息
 settings.chat.unboxings 显示玩家开箱信息
 settings.chat.chatOp 聊天窗口不透明度
@@ -154,7 +154,7 @@ settings.quality.lowSpec 低规格模式
 settings.quality.ambient 环境阴影深浅程度
 settings.quality.ambientOld 旧版阴影渲染算法（当可用时）
 settings.quality.textureAnim 纹理动画
-settings.quality.objectAnim 地图物体动画
+settings.quality.objectAnim 地图物品动画
 settings.quality.screenShake 屏幕晃动
 settings.quality.weaponShine 武器光泽
 settings.quality.rendGamma 伽马强度
@@ -162,7 +162,7 @@ settings.quality.lighting 光照质量
 settings.quality.showExplo 显示爆炸特效
 settings.quality.aspectRatio 画面宽高比
 settings.post.header 后期处理
-settings.post.post 启用后期处理
+settings.post.post 后期处理
 settings.post.bloom 高光
 settings.post.bloomThreshold 高光临界值
 settings.post.bloomStrength 高光强度
@@ -180,13 +180,13 @@ settings.interface.theme 游戏主题
 settings.interface.ui 显示状态栏
 settings.interface.scoreboard 使用旧版记分板
 settings.interface.oldBrowser 使用旧版服务器浏览器
-settings.interface.rarityanim 禁用稀有物品动画
+settings.interface.rarityanim 禁用稀有度动画
 settings.interface.showPfp 显示玩家头像
 settings.interface.showTradeMsg 显示交易信息
 settings.interface.hideNonTrade 隐藏不可交易的皮肤
 settings.interface.hp 动态血条
-settings.interface.dmgScale 伤害显示显示比例
-settings.interface.killf 显示击杀列表
+settings.interface.dmgScale 伤害值显示比例
+settings.interface.killf 显示击杀信息
 settings.interface.ping 显示网络延时
 settings.interface.net-stats 显示网络统计数据
 settings.interface.fps 显示帧数
@@ -206,15 +206,15 @@ settings.interface.speedColorMax 最高速度颜色
 settings.interface.hideNames 名牌显示
 settings.interface.hideNames.team 仅限队友
 settings.interface.hideNames.enemy 仅限敌人
-settings.interface.hideNames.all 全部显示
+settings.interface.hideNames.all 全部
 settings.interface.nametagStyle 名牌样式
 settings.interface.nametagOpac 名牌不透明度
 settings.interface.nametagScale 名牌显示比例
 settings.interface.nametagStyle.health 仅限血条
 settings.interface.nametagStyle.name 仅限名称
-settings.interface.nametagStyle.nameLvl 名称和等级
-settings.interface.nametagStyle.all 全部显示
-settings.interface.healthNum 显示血量
+settings.interface.nametagStyle.nameLvl 仅限名称和等级
+settings.interface.nametagStyle.all 全部
+settings.interface.healthNum 血量
 settings.interface.healthColT 队友血条颜色
 settings.interface.healthColE 敌人血条颜色
 settings.interface.xpBarCol 经验条第一颜色
@@ -288,7 +288,7 @@ settings.hitmarker.leng 长度
 settings.hitmarker.spacing 间距
 settings.hitmarker.animD 扩散大小
 settings.hitmarker.animS 扩散速度
-settings.hitmarker.hitm 显示命中标记
+settings.hitmarker.hitm 显示
 settings.hitmarker.hitmFad 淡出速度
 settings.hitmarker.custom 命中标记图片
 settings.hitmarker.custom.paste 命中标记图片网址
@@ -297,7 +297,7 @@ settings.onKillS.style.1 降低分辨率
 settings.onKillS.style.2 降低视场角度
 settings.onKillS.style.3 增加视场角度
 settings.serverb.header 服务器浏览器
-settings.serverb.oldBrowser 旧版服务器浏览器
+settings.serverb.oldBrowser 旧版浏览器
 settings.serverb.defaultRegionOnly 仅显示默认地区的服务器
 settings.gameprivacy.header 游戏隐私
 settings.gameprivacy.streamer 主播模式
@@ -307,10 +307,10 @@ settings.gameprivacy.showRegion 显示地区信息
 settings.gameprivacy.verified 显示验证徽章
 settings.gameprivacy.premium 显示会员徽章
 settings.gameprivacy.partner 显示游戏合作伙伴徽章
-settings.gameprivacy.rank 显示排位等级徽章
+settings.gameprivacy.rank 显示段位徽章
 settings.gameprivacy.custom 显示特殊徽章
 settings.gameplay.header 游戏性
-settings.gameplay.gpSetts 游戏性配置类型
+settings.gameplay.gpSetts 配置类型
 settings.gameplay.sensitivityX 水平灵敏度
 settings.gameplay.sensitivityY 垂直灵敏度
 settings.gameplay.aimsensX 瞄准时水平灵敏度
@@ -353,9 +353,9 @@ settings.audio.ui 用户界面音量
 settings.audio.asset 地图组件音量
 settings.audio.dialogue 交互音量
 settings.viewmodel.header 模型
-settings.viewmodel.vmSetts 模型配置类型
+settings.viewmodel.vmSetts 配置类型
 settings.viewmodel.fov 视场角度
-settings.viewmodel.fps 武器长短
+settings.viewmodel.fps 武器视场
 settings.viewmodel.bobbing 武器晃动幅度
 settings.viewmodel.leaning 转动时武器偏航幅度
 settings.viewmodel.show.primary 显示主武器
@@ -376,7 +376,7 @@ settings.viewmodel.weapReloadY 换弹时武器的垂直移动幅度
 settings.viewmodel.yOffADS 瞄准时武器相对于准星的垂直位移
 settings.viewmodel.adsFovMlt 瞄准时视场缩放乘比
 settings.viewmodel.toggleADS 切换瞄准
-settings.editing.header 状态栏编辑
+settings.editing.header 编辑
 settings.editing.health.high 高血量颜色
 settings.editing.health.low 低血量颜色
 settings.editing.speedLines 速度线不透明度
@@ -403,9 +403,9 @@ settings.editing.progmOffX 蓄力条水平坐标
 settings.editing.progmOffY 蓄力条垂直坐标
 settings.editing.progmRot 蓄力条旋转角度
 settings.editing.saturation 游戏环境饱和度
-settings.editing.menuSaturation 标题画面饱和度
+settings.editing.menuSaturation 用户界面饱和度
 settings.editing.hue 游戏环境色相
-settings.editing.menuHue 标题画面色相
+settings.editing.menuHue 用户界面色相
 settings.editing.vignette 晕影强度
 settings.editing.feedLimit 击杀信息列表长度限制
 settings.editing.depth 深度图模式
@@ -432,7 +432,7 @@ settings.mods.dot 瞄准镜标线图片
 settings.mods.dot.width 瞄准镜标线图片宽度
 settings.mods.dot.height 瞄准镜标线图片高度
 settings.mods.dot.paste 瞄准镜标线图片网址
-settings.mods.endmessage 比赛结束后自动消息
+settings.mods.endmessage 比赛结束后自动信息
 settings.mods.profile 头像图片
 settings.mods.profile.paste 头像图片网址
 settings.mods.ammo 弹药图标
@@ -461,7 +461,7 @@ windows.servers.host + 创建服务器
 windows.servers.hide 隐藏已满的服务器
 windows.servers.priority 默认地区优先
 windows.servers.online {0} 个玩家在游戏中
-windows.servers.social {0} 个玩家在社区浏览中
+windows.servers.social {0} 个玩家在社区中
 windows.servers.editor {0} 个玩家在地图编辑器中
 windows.loadout.header 更换武器搭配
 windows.loadout.class 职业
@@ -525,7 +525,7 @@ windows.controls.interact 交互
 windows.controls.interactSec 次要交互
 windows.controls.confirm 确认交互
 windows.controls.drop 丢弃
-windows.controls.wepVis 切换武器可见度
+windows.controls.wepVis 武器可见度切换键
 windows.controls.kickVoteY 投票踢出玩家［是］
 windows.controls.kickVoteN 投票踢出玩家［否］
 windows.controls.kpdVoteY KPD 投票［是］
@@ -547,15 +547,15 @@ windows.controls.taunt2 嘲讽（放屁声）
 windows.controls.taunt3 嘲讽（模因声）
 windows.controls.taunt4 嘲讽（这到底是什么鬼？）
 windows.controls.taunt5 嘲讽（就是现在！）
-windows.controls.prop 选择物体（长按）
-windows.controls.propRand 选择任意物体
-windows.controls.propRot 切换物体旋转角度
-windows.controls.propRotR 重置物体旋转角度
-windows.controls.premium0 飞天穿墙
-windows.controls.premium1 无敌
+windows.controls.prop 选择物品（长按）
+windows.controls.propRand 选择任意物品
+windows.controls.propRot 物品旋转切换键
+windows.controls.propRotR 重置物品旋转
+windows.controls.premium0 飞天模式
+windows.controls.premium1 无敌模式
 windows.controls.premium2 自杀
 windows.controls.premium3 瞬间击杀
-windows.controls.reset 重置进度并回到起点（仅限跑酷和速通模式）
+windows.controls.reset 重置进度并回到起点（跑酷等）
 windows.controls.pretend 隐藏游戏
 windows.host.header 创建自定义服务器
 windows.host.maps 服务器设置
@@ -598,7 +598,7 @@ windows.clans.join 加入公会
 windows.clans.login 登录以创建或加入公会！
 windows.store.header 商店
 windows.store.spin {0} 转盘
-windows.store.agree 确认购买即表示你同意 {0}条款及细则
+windows.store.agree 确认购买即表示你同意{0}条款及细则
 windows.store.purchase 购买 KR
 windows.store.voucher 兑换代金券
 windows.store.voucherinfo 从指定主播和游戏活动获取代金券
@@ -606,7 +606,7 @@ windows.store.market 市场
 windows.store.market2 Krunker 市场
 windows.store.premium 购买会员
 windows.store.premium2 Krunker 会员
-windows.store.buyP 购买会员后，你将可以自定义你的显示名称和体验更多专用功能！
+windows.store.buyP 购买会员后，你将可以自定义你的显示名称和体验更多专属功能！
 windows.store.buy 买卖物品尽在
 windows.store.wheels 转盘
 windows.store.unlock 解锁新武器和物品
@@ -647,14 +647,14 @@ windows.publish.mod.login 登录以创建并上传模组！
 windows.secondary.header 选择副武器
 windows.secondary.unlocked 已解锁
 windows.secondary.customOnly 仅限自定义服务器
-windows.secondary.premiumOnly 仅限会员
+windows.secondary.premiumOnly 会员专属
 windows.secondary.req 需要 {0} 级
-windows.skins.unlocked Unlocked
-windows.skins.customOnly Customs Only
-windows.skins.premiumOnly Premium Only
-windows.skins.classOnly Req {0}
-windows.skins.req Req lvl {0}
-windows.skins.default Default Skin
+windows.skins.unlocked 已解锁
+windows.skins.customOnly 仅限自定义服务器
+windows.skins.premiumOnly 会员专属
+windows.skins.classOnly 需要 {0}
+windows.skins.req 需要 {0} 级
+windows.skins.default 默认皮肤
 windows.advertise.header 广告
 windows.support.header 支援
 windows.players.header 玩家列表
@@ -667,7 +667,7 @@ windows.client.mac macOS 安装程序
 windows.client.linux Linux 安装程序
 windows.ranked.header 排位赛
 windows.ranked.login 登录以进行排位赛！
-windows.ranked.level 你至少需要 <span color="black">{0} 级</span> 以进行排位赛！当前你的等级是 <span color="black">{1} 级</span>。
+windows.ranked.level 你至少需要 <span color="black">{0} 级</span> 以进行排位赛！当前你处于 <span color="black">{1} 级</span>。
 windows.chall.header 挑战任务
 windows.chall.login 登录以完成挑战任务！
 thumbnail.upload.limit 上传失败，缩略图大小上限为 {0}kb
@@ -703,7 +703,7 @@ server.config.tickRI 高性能服务器
 server.config.maxPS 40 名玩家服务器
 server.config.promServ 推广服务器
 server.config.jumpMlt 跳跃力量
-server.config.airStrf 启用空中转向
+server.config.airStrf 空中转向
 server.config.deltaMlt 时间倍数
 server.config.strafeSpd 空中转向速度
 server.config.fiRat 武器射速
@@ -729,12 +729,12 @@ server.config.killRewards 击杀奖励
 server.config.headshotOnly 仅限爆头
 server.config.noSecondary 禁用副武器
 server.config.noStreaks 禁用连杀
-server.config.canSlide 启用滑铲
+server.config.canSlide 滑铲
 server.config.wallJP 墙壁跳跃力量
 server.config.autoJump 自动跳跃
 server.config.bDrop 子弹下坠
 server.config.thirdPerson 第三人称
-server.config.requireCaptcha 启用人机验证
+server.config.requireCaptcha 需要人机验证
 server.config.nameTags 隐藏名牌
 server.config.kCams 死亡视角
 server.config.aAnon 允许匿名玩家
@@ -743,7 +743,7 @@ server.config.private 私服
 server.config.krRewards KR 奖励
 server.config.forceDefault 强制使用默认设置
 server.config.warmupTime 热身时间（分钟）
-server.config.gamRounds 游戏局数
+server.config.gamRounds 局数
 server.config.objtvTime 得分点存在时间（分钟）
 server.config.forceSpawn 自动重生时间（秒）
 server.config.intermTmr 中场休息时间（秒）
@@ -772,7 +772,7 @@ social.login.gift 登录以赠送
 social.login.proccessing 登录中…
 social.since 始于
 social.user.maps 此玩家地图
-social.user.mods 此用玩家模组
+social.user.mods 此玩家模组
 social.maps.none 没有找到任何地图…
 social.mods.none 没有找到任何模组…
 social.market.price.low 最低价格
@@ -834,7 +834,7 @@ spin.free.available 立即领取免费 KR！
 spin.free.claim 你必须在每小时内完成一场游戏才能领取此转盘。
 spin.free.disable 你可以在设置的 [General] 选项卡里禁用此弹窗。
 mod.reset.0 重生后此设置将会生效。
-mod.reset.1 地图物体不会被重置。
+mod.reset.1 地图物品不会被重置。
 windows.profile.picture 更改头像
 stats.assists 助攻数
 stats.nukes 核弹数
@@ -845,9 +845,9 @@ stats.headshots 爆头数
 stats.wallbangs 穿墙击杀数
 stats.crouches 下蹲次数
 stats.sprays 涂鸦数
-stats.kpd 有效报告数
-windows.host.default.settings 使用地图默认设置以允许玩家保存他们的进度及最高分数
-windows.host.default.commands * 房主命令 (/noclip, /god, /smite, /kill) 在此模式中将会被禁用。
+stats.kpd 有效举报数
+windows.host.default.settings 启用地图默认设置以允许玩家保存他们的进度及最高分数
+windows.host.default.commands * 房主命令 (/noclip, /god, /smite 等) 在此模式中将会被禁用。
 windows.host.rewards 启用 KR 奖励将强制服务器使用地图默认设置，以允许玩家从此地图获得 KR：
 windows.store.wheels.sub 试试你的运气，转动奖盘来赢得全新皮肤！
 windows.store.currency * 美元和你当地货币之间的汇率由支付服务提供商或银行决定。
@@ -859,15 +859,15 @@ windows.clan.leave 你确定要离开此公会吗？
 windows.clan.delete 你确定要解散此公会吗？
 windows.clan.kick 你确定要从此公会踢出 {0} 吗？
 windows.store.premium.purchase 你确定要购买 {0} 天的会员吗？
-windows.store.premium.gift 你确定要赠送「{0}」{1} 天的会员吗？
+windows.store.premium.gift 你确定要赠送 '{0}' {1} 天的会员吗？
 windows.playerlist.ban 你确定要从此服务器封禁并踢出 {0} 吗？
 windows.playerlist.flag 你确定要标记 {0} 吗？
 windows.playerlist.unflag 你确定要取消标记 {0} 吗？
 windows.playerlist.punish 你确定要对 {0} 采取措施吗？
 item.view.open 打开模型查看器
 item.view.more 更多信息
-item.sell.cant 此物品不可被出售。
-item.sell.cant.krunker 此物品不可在 Krunker 中被出售。
+item.sell.cant 此物品不能被出售。
+item.sell.cant.krunker 此物品不能在 Krunker 内被出售。
 item.sell.quick 你确定要快速出售 {0} 吗？
 item.sell.destroy 你确定要分解 {0} 吗？
 social.profile.stats 综合战绩
@@ -916,67 +916,67 @@ chall.name.kstk 在 {1} 取得 {0} 连杀
 chall.name.w 取得 {0} 场胜利
 chall.name.d 死亡 {0} 次
 chall.name.score 取得 {0} 分
-chall.name.dmg 造成 {0} 点伤害
+chall.name.dmg 在 {1} 造成 {0} 点伤害
 chall.name.bzk 在 {1} 取得 {0} 连杀终止击杀
 chall.name.cc 在 {1} 取得 {0} 残血击杀
 chall.name.rk 在 {1} 取得 {0} 复仇击杀
-event.doubleXP 2x Class XP enabled for this match
-ranked.join Joined Ranked Match. Abandoning a match will result in a temporary ban
-ranked.progress Game in Progress
-ranked.team Please join a Team
-ranked.switch Can't switch while in-game
-ranked.spectate Spectating Disabled in Ranked
-ranked.login Login to Spawn
-ranked.sync Missing Sync Data
-ranked.team.spawn Please join a Team to Spawn
-ranked.class.spawn Please select a Class to Spawn
-modes.round.win Your Team has secured this round
-modes.round.loss This round is no longer winnable
-modes.round.switch Switching Sides. Prepare for the next Round
-modes.trade.success Trade Successful
-modes.prophunt.limit [Prop Hunt] You are out of prop switches
-modes.prophunt.left [Prop Hunt] You have {0} switches remaining
-modes.prophunt.rotation.on [Prop Hunt] Rotation Enabled
-modes.prophunt.rotation.off [Prop Hunt] Rotation Disabled
-modes.prophunt.rotation.reset [Prop Hunt] Rotation reset.
-commands.login Login to use this command
-commands.connected {0} connected, {1} in menu
-commands.host {0} is the current Host.
-commands.noclip.on Noclip - Enabled
-commands.noclip.off Noclip - Disabled
-commands.god.on God mode - Enabled
-commands.god.off God mode - Disabled
-commands.god.on.other God mode - Enabled for {0}
-commands.god.off.other God mode - Disabled for {0}
-commands.smite.on Smite - Enabled
-commands.smite.off Smite - Disabled
-commands.smite.on.other Smite - Enabled for {0}
-commands.smite.off.other Smite - Disabled for {0}
-commands.perk Gave {0} {1}
-commands.maxperk Gave {0} MAX {1}
-commands.unlimited.on Unlimited Ammo - Enabled
-commands.unlimited.off Unlimited Ammo - Disabled
-commands.unlimited.on.other Unlimited Ammo - Enabled for {0}
-commands.unlimited.off.other Unlimited Ammo - Disabled for {0}
-commands.spraybypass.on Unlimited Ammo - Enabled
-commands.spraybypass.off Unlimited Ammo - Disabled
-commands.spraybypass.on.other Unlimited Ammo - Enabled for {0}
-commands.spraybypass.off.other Unlimited Ammo - Disabled for {0}
-commands.suspect.invalid Invalid suspect info
-commands.suspect.menu Suspect in menu
-commands.suspect.left Suspect has left
-commands.suspect.found Suspect Found. Spectating: {0}, Spawned: {1}, Name: {2}
-commands.forfeit.next Must play atleast 1 round
-commands.forfeit.wait Wait till match starts to forfeit
-commands.forfeit.later Please try again in a few seconds
-commands.forfeit.voted You already voted.
-commands.forfeit.limit You can only start one vote per game
-commands.forfeit.ended Forfeiting Game
-commands.forfeit.ended.other Other Team Forfeited
-server.message.join {0} joined the game
-server.message.left {0} left the game
-server.message.kicked {0} was kicked
-server.message.banned {0} was banned
-server.message.votekicked {0} was vote kicked
-server.message.arrested {0} was arrested by the K.P.D
+event.doubleXP 已为此场比赛启用双倍职业经验
+ranked.join 已加入排位赛。罢赛将会受到暂时性禁赛惩罚
+ranked.progress 比赛进行中
+ranked.team 请加入队伍
+ranked.switch 回合开始后无法换枪
+ranked.spectate 排位赛中禁止观战
+ranked.login 登录以进入比赛
+ranked.sync 缺失同步数据
+ranked.team.spawn 请先加入队伍再进入比赛
+ranked.class.spawn 请先选择职业再进入比赛
+modes.round.win 你的队伍已赢下此回合
+modes.round.loss 此回合不再可胜
+modes.round.switch 已交换双方的初始位置。请做好下一回合的准备
+modes.trade.success 交易成功
+modes.prophunt.limit ［物品猎杀］你已用尽所有物品切换次数
+modes.prophunt.left ［物品猎杀］你还剩余 {0} 个物品切换次数
+modes.prophunt.rotation.on ［物品猎杀］已启用物品旋转
+modes.prophunt.rotation.off ［物品猎杀］已禁用物品旋转
+modes.prophunt.rotation.reset ［物品猎杀］已重置物品旋转。
+commands.login 登录以使用此命令
+commands.connected {0} 个玩家已连接，{1} 个玩家在标题画面
+commands.host {0} 是当前服主。
+commands.noclip.on 飞天模式 - 已启用
+commands.noclip.off 飞天模式 - 已禁用
+commands.god.on 无敌模式 - 已启用
+commands.god.off 无敌模式 - 已禁用
+commands.god.on.other 无敌模式 - 已为 {0} 启用
+commands.god.off.other 无敌模式 - 已为 {0} 禁用
+commands.smite.on 瞬间击杀 - 已启用
+commands.smite.off 瞬间击杀 - 已禁用
+commands.smite.on.other 瞬间击杀 - 已为 {0} 启用
+commands.smite.off.other 瞬间击杀 - 已为 {0} 禁用
+commands.perk 已给予 {0} {1}
+commands.maxperk 已给予 {0} 最高等级的 {1}
+commands.unlimited.on 无限子弹 - 已启用
+commands.unlimited.off 无限子弹 - 已禁用
+commands.unlimited.on.other 无限子弹 - 已为 {0} 启用
+commands.unlimited.off.other 无限子弹 - 已为 {0} 禁用
+commands.spraybypass.on 无限涂鸦 - 已启用
+commands.spraybypass.off 无限涂鸦 - 已禁用
+commands.spraybypass.on.other 无限涂鸦 - 已为 {0} 启用
+commands.spraybypass.off.other 无限涂鸦 - 已为 {0} 禁用
+commands.suspect.invalid 无效的嫌疑玩家信息
+commands.suspect.menu 嫌疑玩家在标题画面
+commands.suspect.left 嫌疑玩家已离开
+commands.suspect.found 已找到嫌疑玩家。是否在旁观：{0}，是否在地图内：{1}，名称：{2}
+commands.forfeit.next 必须先完成一个回合
+commands.forfeit.wait 等待至回合开始后才能发起投降
+commands.forfeit.later 请等待数秒后再重试
+commands.forfeit.voted 你已经投过票了。
+commands.forfeit.limit 你只能发起一次投降
+commands.forfeit.ended 投降中
+commands.forfeit.ended.other 敌方队伍已投降
+server.message.join {0} 已加入此服务器
+server.message.left {0} 已离开此服务器
+server.message.kicked {0} 已被踢出
+server.message.banned {0} 已被封禁
+server.message.votekicked {0} 已被投票踢出
+server.message.arrested {0} 已被 K.P.D 逮捕
 `;
