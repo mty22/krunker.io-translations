@@ -10,11 +10,13 @@ If you contributed in the past and can't find your name below (or simply wish to
 * [ReHou](https://krunker.io/social.html?p=profile&q=ReHou) (BenHou#8636)
 * [Chair](https://krunker.io/social.html?p=profile&q=AnimeWeebTrash) (Chair#2384)
 * [0v0katai](https://krunker.io/social.html?p=profile&q=0v0katai) (0v0katai#1265)
+* [Yurei](https://krunker.io/social.html?p=profile&q=icatgirl) (Yurei#0709)
 
 # [Traditional Chinese](https://github.com/mty22/krunker.io-translations/blob/main/zhtr.js) (繁體中文)
 * [Awesome_Boy](https://krunker.io/social.html?p=profile&q=Awesome_Boy) (Awesome_Boy#7555)
 * [WpyGG](https://krunker.io/social.html?p=profile&q=WpyGG) (WpyGG#4125)
 * [0v0katai](https://krunker.io/social.html?p=profile&q=0v0katai) (0v0katai#1265)
+* [Yurei](https://krunker.io/social.html?p=profile&q=icatgirl) (Yurei#0709)
 
 # [Japanese](https://github.com/mty22/krunker.io-translations/blob/main/jp.js) (日本語)
 * [frzn](https://krunker.io/social.html?p=frzn) (frzn#1030)
