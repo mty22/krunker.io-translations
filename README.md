@@ -82,7 +82,7 @@ If you need any assistance, please reach out to Translator Contributors in [Krun
 
 ## Current Krunker language support
 
-As of Krunker version [v5.4.5](https://krunker.io/docs/versions.txt), the following languages have been added to the game:
+As of Krunker version [v5.4.6](https://krunker.io/docs/versions.txt), the following languages have been added to the game:
 
 - [English](https://github.com/mty22/krunker.io-translations/blob/main/en.js)
 - [Spanish](https://github.com/mty22/krunker.io-translations/blob/main/es.js)
