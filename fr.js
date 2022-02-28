@@ -303,12 +303,12 @@ settings.gameprivacy.header Confidentialité en jeu
 settings.gameprivacy.streamer Mode Streameur
 settings.gameprivacy.anon Mode Anonyme
 settings.gameprivacy.hideGameTitle Cacher le nom du jeu
-settings.gameprivacy.showRegion Show Region Info
+settings.gameprivacy.showRegion Afficher l'info de région
 settings.gameprivacy.verified Afficher le badge de vérification
 settings.gameprivacy.premium Afficher le badge de premium
 settings.gameprivacy.partner Afficher le badge de partenaire
 settings.gameprivacy.rank Afficher le badge de ranked
-settings.gameprivacy.custom Show Custom Badge
+settings.gameprivacy.custom Show Badge personnalisé
 settings.gameplay.header Jouabilité
 settings.gameplay.gpSetts Paramètres de jeu
 settings.gameplay.sensitivityX Sensibilité X
@@ -462,7 +462,7 @@ windows.servers.hide Cacher les parties pleines
 windows.servers.priority Région prioritaire
 windows.servers.online {0} En jeu
 windows.servers.social {0} Dans le social
-windows.servers.editor {0} in Editor
+windows.servers.editor {0} dans l'Éditeur
 windows.loadout.header Changer l'équipement
 windows.loadout.class Classe
 windows.loadout.primary Arme principale
@@ -510,7 +510,7 @@ windows.controls.aim1 Viser
 windows.controls.shoot1 Tirer
 windows.controls.inspect Inspecter
 windows.controls.spray Taguer
-windows.controls.sprayWheel Spray Wheel (Hold)
+windows.controls.sprayWheel Roue des tags (Maintenir)
 windows.controls.jump Sauter
 windows.controls.crouch S’accroupir
 windows.controls.prim Arme principale
@@ -548,9 +548,9 @@ windows.controls.taunt3 Taunt (Meme)
 windows.controls.taunt4 Taunt (WTF is This?)
 windows.controls.taunt5 Taunt (Maintenant!)
 windows.controls.prop Selectionner l'objet (Tenir appuyé)
-windows.controls.propRand Select Random Prop
-windows.controls.propRot Toggle Rotation
-windows.controls.propRotR Reset Rotation
+windows.controls.propRand Selectionner un Prop aléatoire
+windows.controls.propRot Activer la rotation
+windows.controls.propRotR Réinitialiser la rotation
 windows.controls.premium0 Noclip
 windows.controls.premium1 Invincibilité
 windows.controls.premium2 Suicide
@@ -649,12 +649,12 @@ windows.secondary.unlocked Débloqué
 windows.secondary.customOnly Partie perso. uniquement
 windows.secondary.premiumOnly Premium uniquement
 windows.secondary.req Niveau {0} requis
-windows.skins.unlocked Unlocked
-windows.skins.customOnly Customs Only
-windows.skins.premiumOnly Premium Only
+windows.skins.unlocked Débloqué
+windows.skins.customOnly Parties perso. uniquement
+windows.skins.premiumOnly Premium uniquement
 windows.skins.classOnly Req {0}
 windows.skins.req Req lvl {0}
-windows.skins.default Default Skin
+windows.skins.default Skin par défaut
 windows.advertise.header Faire de la pub
 windows.support.header Support
 windows.players.header Liste des joueurs
@@ -759,7 +759,7 @@ server.config.noCosm Désactiver les cosmétiques
 server.config.tstCmp Mode de Test
 server.config.limitClasses Limiter les classes
 server.config.tmSize Taille d'équipe
-server.config.fallDmg Dégat de chute
+server.config.fallDmg Dégats de chute
 server.config.fallDmgThr Seuil de dégat de chute
 server.config.noDraws Pas d'égalité
 server.config.bstOfR Meilleur des
@@ -839,7 +839,7 @@ windows.profile.picture Changer l'image
 stats.assists Aides
 stats.nukes Nukes
 stats.melee Mêlées
-stats.fistkills Kills aux points
+stats.fistkills Kills aux poings
 stats.thrownkills Kills aux lancers de mêlée
 stats.headshots Tirs à la tête
 stats.wallbangs Tirs à travers les murs
@@ -921,18 +921,18 @@ chall.name.bzk Get {0} buzz kills {1}
 chall.name.cc Obtenez {0} échappées-belles {1}
 chall.name.rk Faire {0} éliminations de vengeance {1}
 event.doubleXP 2x XP de la classe activée pour cette partie
-ranked.join Partie classée rejoint. Abandonner une partie résultera en un ban temporaire
+ranked.join Partie classée rejointe. Abandonner une partie résultera en un bannissement temporaire
 ranked.progress Partie en cours
 ranked.team Veuillez rejoindre une équipe
 ranked.switch Vous ne pouvez pas changer pendant la partie
 ranked.spectate Le visionnage est désactivé en Classée
 ranked.login Connectez vous pour apparaitre
 ranked.sync Données de sync manquante
-ranked.team.spawn Veuillez rejoindre une equipe pour apparaitre
-ranked.class.spawn Veuillez choisir une classe pour apparaitre
-modes.round.win Votre équipe a securisé ce round
-modes.round.loss Ce round n'est plus gagnable
-modes.round.switch Changement des cotés. Preparez vous au prochain round
+ranked.team.spawn Veuillez rejoindre une equipe pour apparaître
+ranked.class.spawn Veuillez choisir une classe pour apparaître
+modes.round.win Votre équipe a securisé cette manche
+modes.round.loss Cette manche n'est plus gagnable
+modes.round.switch Changement des cotés. Preparez vous à la prochaine manche
 modes.trade.success Échange réussi
 modes.prophunt.limit [Prop Hunt] Vous etes a court de changements de props.
 modes.prophunt.left [Prop Hunt] Vous avez {0} changements restants
@@ -952,8 +952,8 @@ commands.smite.on Smite - Activé
 commands.smite.off Smite - Désactivé
 commands.smite.on.other Smite - Activé pour {0}
 commands.smite.off.other Smite - Désactivé pour {0}
-commands.perk Gave {0} {1}
-commands.maxperk Gave {0} MAX {1}
+commands.perk Donné {0} {1}
+commands.maxperk Donné {0} MAX {1}
 commands.unlimited.on Munitions infinies - Activées
 commands.unlimited.off Munitions infinies - Désactivées
 commands.unlimited.on.other Munitions infinies - Activées pour {0}
@@ -965,13 +965,13 @@ commands.spraybypass.off.other Munitions infinies - Désactivées pour {0}
 commands.suspect.invalid Info du suspect invalide
 commands.suspect.menu Le suspect est dans le menu
 commands.suspect.left Le suspect a quitté
-commands.suspect.found Suspect trouvé. Spectating: {0}, Spawned: {1}, Nom: {2}
-commands.forfeit.next Vous devez jouer au moins 1 round
+commands.suspect.found Suspect trouvé. En train de visionner: {0}, Apparus: {1}, Nom: {2}
+commands.forfeit.next Vous devez jouer au moins une manche
 commands.forfeit.wait Veuillez attendre jusqu'a que la partie commencer pour déclarer forfait
 commands.forfeit.later Veuillez réessayer dans quelques secondes.
 commands.forfeit.voted Vous avez deja voté.
-commands.forfeit.limit Vous ne pouvez que commencer un vote par partie
-commands.forfeit.ended Forfeiting Game
+commands.forfeit.limit Vous ne pouvez commencer qu'un vote par partie
+commands.forfeit.ended Abandon de la partie
 commands.forfeit.ended.other Autre equipe a abandonnée
 server.message.join {0} a rejoint la partie
 server.message.left {0} a quitté la partie
