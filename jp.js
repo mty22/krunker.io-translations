@@ -940,7 +940,7 @@ modes.prophunt.rotation.on [Prop Hunt] 回転が有効
 modes.prophunt.rotation.off [Prop Hunt] 回転が無効
 modes.prophunt.rotation.reset [Prop Hunt] 回転をリセットしました
 commands.login このコマンドを使うにはログインしてください
-commands.connected {0} 人が接続済み, {1} 人がメニューで待機しています
+commands.connected {0} 人が接続済み、 {1} 人がメニューで待機しています
 commands.host {0} が現在のホストです
 commands.noclip.on ノークリップが有効
 commands.noclip.off ノークリップが無効
