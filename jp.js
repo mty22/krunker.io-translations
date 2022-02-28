@@ -587,7 +587,7 @@ windows.theatre.header シアターモード
 windows.theatre.record 録画を有効にする
 windows.theatre.key レコードキー
 windows.clans.header クラン
-windows.clans.members メンバー ({0}) 
+windows.clans.members メンバー ({0})
 windows.clans.requests リクエスト
 windows.clans.requests.none リクエストなし
 windows.clans.page [{0}]のクランページ
@@ -978,5 +978,5 @@ server.message.left {0} がゲームから退出しました
 server.message.kicked {0} がキックされました
 server.message.banned {0} がBANされました
 server.message.votekicked {0} が投票によりキックされました
-server.message.arrested {0} がK.P.DによりBANされました
+server.message.arrested {0} がK.P.Dにより逮捕されました
 `;
