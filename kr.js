@@ -61,7 +61,7 @@ generic.accuracy 명중률
 player.waiting 플레이어 기다리는 중
 player.died 죽었습니다
 player.killed 나를 죽인 플레이어
-player.killstreak {0} on a {1} Kill Streak
+player.killstreak {0}님이 {1}연속 킬을 하는 중
 player.inactive 장시간 활동하지 않아 게임에서 퇴장되었습니다
 player.disconnect 연결 끊김
 timer.end {0}초 후 다음 라운드가 시작합니다
@@ -104,7 +104,7 @@ settings.experimental.shaderRendering 인스턴스 렌더링
 settings.experimental.mouseAccel 마우스 가속
 settings.experimental.tbInterp 움직임 보간
 settings.client.header 클라이언트
-settings.client.unlimitedFrames 무제한 FPS
+settings.client.unlimitedFrames FPS 미제한
 settings.client.gameCap 게임 캡처
 settings.client.experimental 시험 기능
 settings.client.discordRPC Discord 연동
@@ -131,7 +131,7 @@ settings.chat.chatHeight 채팅 높이
 settings.chat.chatTimer 채팅 사라지기 타이머
 settings.chat.chatTextOutline 채팅 글자 테두리
 settings.chat.chatFilter 욕설 필터링
-settings.quality.header 성능
+settings.quality.header 고사양
 settings.quality.updRate FPS 제한
 settings.quality.rendDst 렌더 거리
 settings.quality.res 해상도
@@ -183,7 +183,7 @@ settings.interface.oldBrowser 구 서버 탐색기 사용
 settings.interface.rarityanim 희귀도 애니메이션 끄기
 settings.interface.showPfp 프로필 사진 표시
 settings.interface.showTradeMsg 트레이드 메시지 표시
-settings.interface.hideNonTrade 트레이드 불가 스킨 숨기기
+settings.interface.hideNonTrade 트레이드 불가 아이템 숨기기
 settings.interface.hp 동적 HP 막대
 settings.interface.dmgScale 피해량 숫자 크기
 settings.interface.killf 킬로그 표시
@@ -568,7 +568,7 @@ windows.host.preset 호스트 프리셋
 windows.host.preset.load 프리셋 적용 중...
 windows.host.preset.name 프리셋 이름
 windows.host.start 게임 시작하기
-windows.host.rehost 게임 시작하기 (플레이어 데리고 오기)
+windows.host.rehost 게임 시작하기 (플레이어 초대하기)
 windows.spray.header 스프레이 선택
 windows.spray.default 기본 스프레이
 windows.spray.spin 스프레이
@@ -906,7 +906,7 @@ chall.name.tmk 근접무기 던지기로 {0}명 처치하기 - {1}
 chall.name.fb 퍼스트 블러드 {0}번 하기 - {1}
 chall.name.mk 근접무기로 {0}명 처치하기 - {1}
 chall.name.fk 주먹으로 {0}명 처치하기 - {1}
-chall.name.qs 패줌으로 {0}명 처치하기 - {1}
+chall.name.qs 퀵 스코프로 {0}명 처치하기 - {1}
 chall.name.wb 벽을 뚫고 {0}명 처치하기 - {1}
 chall.name.airk 공중에서 {0}명 처치하기 - {1}
 chall.name.lns 원거리에서 {0}명 처치하기 - {1}
@@ -954,8 +954,8 @@ commands.smite.on.other {0}님의 즉사 모드 활성화됨
 commands.smite.off.other {0}님의 즉사 모드 비활성화됨
 commands.perk {0}님에게 {1} 보너스를 부여했습니다
 commands.maxperk {0}님에게 {1} 보너스 최고치를 부여했습니다
-commands.unlimited.on 무한탄창 모드 활성화됨
-commands.unlimited.off 무한탄창 모드 비활성화됨
+commands.unlimited.on 무한 탄창 모드 활성화됨
+commands.unlimited.off 무한 탄창 모드 비활성화됨
 commands.unlimited.on.other {0}님의 무한 탄창 모드 활성화됨
 commands.unlimited.off.other {0}님의 무한 탄창 모드 비활성화됨
 commands.spraybypass.on 무한 스프레이 모드 활성화됨
