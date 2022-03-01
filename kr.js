@@ -104,7 +104,7 @@ settings.experimental.shaderRendering 인스턴스 렌더링
 settings.experimental.mouseAccel 마우스 가속
 settings.experimental.tbInterp 움직임 보간
 settings.client.header 클라이언트
-settings.client.unlimitedFrames FPS 미제한
+settings.client.unlimitedFrames 무제한 FPS
 settings.client.gameCap 게임 캡처
 settings.client.experimental 시험 기능
 settings.client.discordRPC Discord 연동
@@ -131,7 +131,7 @@ settings.chat.chatHeight 채팅 높이
 settings.chat.chatTimer 채팅 사라지기 타이머
 settings.chat.chatTextOutline 채팅 글자 테두리
 settings.chat.chatFilter 욕설 필터링
-settings.quality.header 고사양
+settings.quality.header 품질
 settings.quality.updRate FPS 제한
 settings.quality.rendDst 렌더 거리
 settings.quality.res 해상도
@@ -568,7 +568,7 @@ windows.host.preset 호스트 프리셋
 windows.host.preset.load 프리셋 적용 중...
 windows.host.preset.name 프리셋 이름
 windows.host.start 게임 시작하기
-windows.host.rehost 게임 시작하기 (플레이어 초대하기)
+windows.host.rehost 게임 시작하기 (플레이어 유지하기)
 windows.spray.header 스프레이 선택
 windows.spray.default 기본 스프레이
 windows.spray.spin 스프레이
