@@ -650,10 +650,10 @@ windows.secondary.customOnly カスタムゲーム専用
 windows.secondary.premiumOnly プレミアム専用
 windows.secondary.req レベル{0}が必要
 windows.skins.unlocked アンロック済
-windows.skins.customOnly Customs Only
-windows.skins.premiumOnly Premium Only
-windows.skins.classOnly Req {0}
-windows.skins.req Req lvl {0}
+windows.skins.customOnly カスタムゲーム専用
+windows.skins.premiumOnly プレミアム専用
+windows.skins.classOnly Req 1v1 {0}
+windows.skins.req レベル{0}が必要
 windows.skins.default デフォルトスキン
 windows.advertise.header 広告
 windows.support.header サポート
@@ -760,7 +760,7 @@ server.config.tstCmp テストモード
 server.config.limitClasses クラス制限
 server.config.tmSize チーム人数
 server.config.fallDmg 落下ダメージ
-server.config.fallDmgThr 落下ダメージしきい値
+server.config.fallDmgThr 落下ダメージ閾値
 server.config.noDraws 引き分けの無効化
 server.config.bstOfR 最大試合数
 server.config.chrgWeps チャージ可能な武器
@@ -787,7 +787,7 @@ social.market.req レベル{0}が必要
 social.market.cant KRが足りません
 social.market.purchase 購入
 social.market.fee 手数料なし
-social.market.failed 失敗しました。もう一度試してください.
+social.market.failed 失敗しました。もう一度試してください。
 social.market.head 頭アイテム
 social.market.back 背中アイテム
 social.market.waist 腰アイテム
@@ -800,7 +800,7 @@ social.market.spray スプレーアイテム
 social.market.dye 服装アイテム
 social.market.collectible 収集可能なアイテム
 social.market.none アイテムが見つかりません
-social.market.login ログインしている必要があります.
+social.market.login ログインしている必要があります。
 social.market.grace {0}秒後に有効になります
 social.market.sort フィルター/並び替え
 social.market.filter 検索
@@ -845,7 +845,7 @@ stats.headshots ヘッドショット
 stats.wallbangs 壁抜きキル
 stats.crouches しゃがみ回数
 stats.sprays スプレー回数
-stats.kpd Helpful Reports
+stats.kpd 有用なレポート
 windows.host.default.settings デフォルト設定を有効にすることでプレイヤーの進捗とハイスコアを保存することができます
 windows.host.default.commands *ホストコマンド(/noclip /god /smite 等)はこのモードでは無効化されています
 windows.host.rewards KR報酬を有効にした場合デフォルト設定の使用が強制され、プレイヤーがこのマップの資産からKR報酬を入手することができるようになります:
@@ -883,7 +883,7 @@ social.profile.assets.none このユーザーによって公開されたアセ�
 social.profile.mods Mods [{0}]
 social.profile.mods.none このユーザーによって公開されたMODはありません
 social.search 検索結果
-social.market.stats.rare レアなアイテム
+social.market.stats.rare 最もレアなアイテム
 social.market.stats.circulation 流通量
 social.market.stats.units 個 (全地域)
 social.trades.in 受信済み
@@ -899,27 +899,27 @@ social.trades.accept 本当にこの申請を許可しますか?
 stats.airdrops エアドロップ
 stats.airdrops.stolen エアドロップが盗まれました
 settings.quality.flapAnim スナイパーフラップアニメーション
-chall.name.hs Get {0} headshots {1}
-chall.name.ns Get {0} no-scopes {1}
-chall.name.ls Get {0} legshots {1}
-chall.name.tmk Get {0} throwing knife kills {1}
-chall.name.fb Get {0} first bloods {1}
-chall.name.mk Get {0} melee kills {1}
-chall.name.fk Get {0} fist kills {1}
-chall.name.qs Get {0} quickscopes {1}
-chall.name.wb Get {0} wallbangs {1}
-chall.name.airk Get {0} mid-air kills {1}
-chall.name.lns Get {0} longshots {1}
-chall.name.tk Get {0} turbo kills {1}
-chall.name.drk Get {0} drift kills {1}
-chall.name.kstk Get a {0} killstreak {1}
-chall.name.w Win {0} matches
-chall.name.d Die {0} times
-chall.name.score Get {0} score
-chall.name.dmg Deal {0} damage {1}
-chall.name.bzk Get {0} buzz kills {1}
-chall.name.cc Get {0} close-calls {1}
-chall.name.rk Deal {0} revenge kills {1}
+chall.name.hs {0} ヘッドショットを得る {1}
+chall.name.ns {0} ノースコープを得る {1}
+chall.name.ls {0} レッグショットを得る {1}
+chall.name.tmk {0} 投げナイフキルを得る {1}
+chall.name.fb {0} ファーストブラッドを得る {1}
+chall.name.mk {0} 近接武器キルを得る {1}
+chall.name.fk {0} 拳キルを得る {1}
+chall.name.qs {0} クイックスコープを得る {1}
+chall.name.wb {0} 壁抜きキルを得る {1}
+chall.name.airk {0} 空中キルを得る {1}
+chall.name.lns {0} ロングショットを得る {1}
+chall.name.tk {0} ターボキルを得る {1}
+chall.name.drk {0} ドリフトキルを得る {1}
+chall.name.kstk {0} キルストリークを得る {1}
+chall.name.w {0} 試合勝利する
+chall.name.d {0} 回死亡する
+chall.name.score {0} スコア得る
+chall.name.dmg {0} ダメージ与える {1}
+chall.name.bzk {0} バズキルを得る {1}
+chall.name.cc {0} クローズコールを得る {1}
+chall.name.rk {0} リベンジキルを得る {1}
 event.doubleXP このマッチではクラスXPが2倍になります
 ranked.join ランクマッチに参加しました。マッチ放棄を行うと一時的にBANされます
 ranked.progress マッチ中
@@ -927,45 +927,45 @@ ranked.team チームに入ってください
 ranked.switch マッチ中にクラスを変更できません
 ranked.spectate ランクマッチでは観戦できません
 ranked.login ログインしてスポーン
-ranked.sync Missing Sync Data
+ranked.sync 同期データ欠損
 ranked.team.spawn スポーンするにはチームを選択してください
 ranked.class.spawn スポーンするにはクラスを選択してください
 modes.round.win このラウンドの勝利が確定しました
 modes.round.loss このラウンドの敗北が確定しました
 modes.round.switch サイドを交代します。次のラウンドの準備をしてください
 modes.trade.success トレード成功
-modes.prophunt.limit [Prop Hunt] You are out of prop switches
-modes.prophunt.left [Prop Hunt] You have {0} switches remaining
-modes.prophunt.rotation.on [Prop Hunt] Rotation Enabled
-modes.prophunt.rotation.off [Prop Hunt] Rotation Disabled
-modes.prophunt.rotation.reset [Prop Hunt] Rotation reset.
+modes.prophunt.limit [Prop Hunt] プロップスイッチ切れです
+modes.prophunt.left [Prop Hunt] {0} スイッチ残っています
+modes.prophunt.rotation.on [Prop Hunt] 回転有効
+modes.prophunt.rotation.off [Prop Hunt] 回転無効
+modes.prophunt.rotation.reset [Prop Hunt] 回転がリセットされました。
 commands.login このコマンドを使うにはログインしてください
-commands.connected {0} connected, {1} in menu
-commands.host {0} is the current Host.
+commands.connected {0} が接続済, {1} がメニューにいます
+commands.host {0} が現在のホストです。
 commands.noclip.on ノークリップ - 有効
 commands.noclip.off ノークリップ - 無効
 commands.god.on ゴッドモード - 有効
 commands.god.off ゴッドモード - 無効
-commands.god.on.other God mode - Enabled for {0}
-commands.god.off.other God mode - Disabled for {0}
+commands.god.on.other ゴッドモード - {0} に有効
+commands.god.off.other ゴッドモード - {0} に無効
 commands.smite.on スマイト - 有効
 commands.smite.off スマイト - 無効
-commands.smite.on.other Smite - Enabled for {0}
-commands.smite.off.other Smite - Disabled for {0}
+commands.smite.on.other スマイト - {0} に有効
+commands.smite.off.other スマイト - {0} に無効
 commands.perk Gave {0} {1}
 commands.maxperk Gave {0} MAX {1}
 commands.unlimited.on 弾薬無制限 - 有効
 commands.unlimited.off 弾薬無制限 - 無効
-commands.unlimited.on.other Unlimited Ammo - Enabled for {0}
-commands.unlimited.off.other Unlimited Ammo - Disabled for {0}
-commands.spraybypass.on Unlimited Ammo - Enabled
-commands.spraybypass.off Unlimited Ammo - Disabled
-commands.spraybypass.on.other Unlimited Ammo - Enabled for {0}
-commands.spraybypass.off.other Unlimited Ammo - Disabled for {0}
-commands.suspect.invalid Invalid suspect info
-commands.suspect.menu Suspect in menu
-commands.suspect.left Suspect has left
-commands.suspect.found Suspect Found. Spectating: {0}, Spawned: {1}, Name: {2}
+commands.unlimited.on.other 弾薬無制限 - {0} に有効
+commands.unlimited.off.other 弾薬無制限 - {0} に有効
+commands.spraybypass.on スプレー無制限 - 有効
+commands.spraybypass.off スプレー無制限 - 無効
+commands.spraybypass.on.other スプレー無制限 - {0} に有効
+commands.spraybypass.off.other スプレー無制限 - {0} に無効
+commands.suspect.invalid 無効な容疑者の情報
+commands.suspect.menu 容疑者がメニューにいます
+commands.suspect.left 容疑者が退出しました
+commands.suspect.found 容疑者を発見。スペクテート中: {0}, スポーン済: {1}, 名前: {2}
 commands.forfeit.next 最低1ラウンドプレイする必要があります
 commands.forfeit.wait 降参するにはマッチが始まるまで待ってください
 commands.forfeit.later 数秒後にもう一度やり直してください
@@ -973,10 +973,10 @@ commands.forfeit.voted 投票済
 commands.forfeit.limit 投票を行えるのは1マッチにつき1回までです
 commands.forfeit.ended 降参しました
 commands.forfeit.ended.other 相手が降参しました
-server.message.join {0} joined the game
-server.message.left {0} left the game
-server.message.kicked {0} was kicked
-server.message.banned {0} was banned
-server.message.votekicked {0} was vote kicked
-server.message.arrested {0} was arrested by the K.P.D
+server.message.join {0} がゲームに参加しました
+server.message.left {0} がゲームから退出しました
+server.message.kicked {0} がキックされました
+server.message.banned {0} がBANされました
+server.message.votekicked {0} が投票によりキックされました
+server.message.arrested {0} がK.P.Dに逮捕されました
 `;
