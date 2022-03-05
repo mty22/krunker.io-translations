@@ -118,7 +118,7 @@ settings.client.resourcePacks リソースパック
 settings.dev.header 開発者
 settings.dev.forceUpdate 強制的にスキンをアップデート
 settings.dev.forceRegen 常にプレイヤーを再生成
-settings.dev.extraBan 詳細なBAN情報
+settings.dev.extraBan BANの詳細情報
 settings.chat.header チャット
 settings.chat.chat チャットボックスを表示
 settings.chat.chat.all 常時
@@ -361,7 +361,7 @@ settings.viewmodel.leaning 武器の傾き
 settings.viewmodel.show.primary メイン武器表示
 settings.viewmodel.show.secondary サブ武器表示
 settings.viewmodel.roundArms 腕を丸くする
-settings.viewmodel.show.melee ナイフを表示
+settings.viewmodel.show.melee 近接武器を表示
 settings.viewmodel.show.ads ADS時に武器を隠す
 settings.viewmodel.toggleAim エイム切り替え
 settings.viewmodel.show.hands 手を表示
@@ -547,7 +547,7 @@ windows.controls.taunt2 挑発 (おなら)
 windows.controls.taunt3 挑発 (ミーム)
 windows.controls.taunt4 挑発 (何だこれ?)
 windows.controls.taunt5 挑発 (さっさと来いよ!)
-windows.controls.prop 物を選択（ホールド）
+windows.controls.prop 小道具選択を開く（ホールド）
 windows.controls.propRand ランダムな小道具を選択
 windows.controls.propRot 回転方向を切り替え
 windows.controls.propRotR 回転をリセット
@@ -578,10 +578,10 @@ windows.maps.name ゲーム名
 windows.maps.editor ゲームエディター
 windows.maps.publish ゲームを公開する
 windows.maps.community 開発コミュニティー
-windows.publish.map.header ゲームを公開またはアップデートする
+windows.publish.map.header ゲームを公開または更新する
 windows.publish.map.thumbnail サムネイルなし
 windows.publish.map.paste ゲームデータの貼り付け
-windows.publish.map.update 更新
+windows.publish.map.update 公開/更新
 windows.publish.map.login してゲームを作成・アップロードしよう!
 windows.theatre.header シアターモード
 windows.theatre.record 録画を有効にする
@@ -604,8 +604,8 @@ windows.store.voucher クーポンを利用する
 windows.store.voucherinfo 配信やイベントのクーポンを入手する
 windows.store.market マーケットプレイス
 windows.store.market2 Krunkerマーケット
-windows.store.premium Premiumを購入
-windows.store.premium2 Krunker Premium
+windows.store.premium プレミアムを購入
+windows.store.premium2 Krunkerプレミアム
 windows.store.buyP 表示名などを選択してください -
 windows.store.buy アイテムを売買する -
 windows.store.wheels 賞品ルーレット
@@ -646,8 +646,8 @@ windows.publish.mod.update 公開/更新
 windows.publish.mod.login してMODを作成・アップロードする!
 windows.secondary.header サブ武器を選択
 windows.secondary.unlocked アンロック済み
-windows.secondary.customOnly カスタムゲーム専用
-windows.secondary.premiumOnly プレミアム専用
+windows.secondary.customOnly カスタムゲーム限定
+windows.secondary.premiumOnly プレミアム限定
 windows.secondary.req レベル{0}が必要
 windows.skins.unlocked アンロック済
 windows.skins.customOnly Customs Only
@@ -883,7 +883,7 @@ social.profile.assets.none このユーザーによって公開されたアセ�
 social.profile.mods Mods [{0}]
 social.profile.mods.none このユーザーによって公開されたMODはありません
 social.search 検索結果
-social.market.stats.rare レアなアイテム
+social.market.stats.rare 最もレアなアイテム
 social.market.stats.circulation 流通量
 social.market.stats.units 個 (全地域)
 social.trades.in 受信済み
@@ -893,7 +893,7 @@ social.trades.out.head 送信した申請 ({0})
 social.trades.history 履歴
 social.trades.history.head トレード履歴 ({0})
 social.trades.decline すべて拒否
-social.trades.message トレードメッセージを設定から有効にしてください
+social.trades.message トレードメッセージを設定で有効にしてください
 social.trades.warning このトレードではあなたは何も手に入れません!
 social.trades.accept 本当にこの申請を許可しますか?
 stats.airdrops エアドロップ
