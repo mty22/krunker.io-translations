@@ -575,7 +575,7 @@ windows.spray.spin Spray
 windows.maps.header Benutzerdefinierte Map
 windows.maps.none Keine Map gefunden!
 windows.maps.name Map-Name
-windows.maps.editor Map-Bearbeiter
+windows.maps.editor Map-Editor
 windows.maps.publish Map veröffentlichen
 windows.maps.community Map Community
 windows.publish.map.header Map veröffentlichen
@@ -755,7 +755,7 @@ server.config.hitBoxPad Hitbox Polsterung
 server.config.hpRegen Lebens-Regeneration
 server.config.disableB Grenzen deaktivieren
 server.config.throwMel Werfbare Messer
-server.config.noCosm Kosmetik deaktivieren
+server.config.noCosm Kosmetische Gegenstände deaktivieren
 server.config.tstCmp Testmodus
 server.config.limitClasses Limitierte Klassen
 server.config.tmSize Teamgröße
@@ -763,7 +763,7 @@ server.config.fallDmg Fallschaden
 server.config.fallDmgThr Fallschaden-Schwellenwert
 server.config.noDraws Keine Unentschieden
 server.config.bstOfR Der beste aus
-server.config.chrgWeps Chargable Weapons
+server.config.chrgWeps Chargable Weapons Aufladbare Waffen
 social.login Anmelden/Registrieren
 social.login.failed Anmeldung fehlgeschlagen
 social.login.buy Zum Kaufen anmelden
@@ -774,7 +774,7 @@ social.since Seit
 social.user.maps Benutzer Maps
 social.user.mods Benutzer Mods
 social.maps.none Keine Maps gefunden...
-social.mods.none Keine Mods found...
+social.mods.none Keine Mods gefunden...
 social.market.price.low Niedrigster Preis
 social.market.price.list Preis anzeigen in
 social.market.searching Suchen
