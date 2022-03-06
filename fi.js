@@ -920,63 +920,63 @@ chall.name.dmg Tee {0} vahinkoa {1}
 chall.name.bzk Saa {0} buzz-tappoa {1}
 chall.name.cc Saa {0} läheltä piti-tappoa {1}
 chall.name.rk Saa {0} kostotappoa {1}
-event.doubleXP 2x Class XP enabled for this match
-ranked.join Joined Ranked Match. Abandoning a match will result in a temporary ban
-ranked.progress Game in Progress
-ranked.team Please join a Team
-ranked.switch Can't switch while in-game
-ranked.spectate Spectating Disabled in Ranked
-ranked.login Login to Spawn
-ranked.sync Missing Sync Data
-ranked.team.spawn Please join a Team to Spawn
-ranked.class.spawn Please select a Class to Spawn
-modes.round.win Your Team has secured this round
-modes.round.loss This round is no longer winnable
-modes.round.switch Switching Sides. Prepare for the next Round
-modes.trade.success Trade Successful
-modes.prophunt.limit [Prop Hunt] You are out of prop switches
-modes.prophunt.left [Prop Hunt] You have {0} switches remaining
-modes.prophunt.rotation.on [Prop Hunt] Rotation Enabled
-modes.prophunt.rotation.off [Prop Hunt] Rotation Disabled
-modes.prophunt.rotation.reset [Prop Hunt] Rotation reset.
-commands.login Login to use this command
-commands.connected {0} connected, {1} in menu
-commands.host {0} is the current Host.
-commands.noclip.on Noclip - Enabled
-commands.noclip.off Noclip - Disabled
-commands.god.on God mode - Enabled
-commands.god.off God mode - Disabled
-commands.god.on.other God mode - Enabled for {0}
-commands.god.off.other God mode - Disabled for {0}
-commands.smite.on Smite - Enabled
-commands.smite.off Smite - Disabled
-commands.smite.on.other Smite - Enabled for {0}
-commands.smite.off.other Smite - Disabled for {0}
-commands.perk Gave {0} {1}
-commands.maxperk Gave {0} MAX {1}
-commands.unlimited.on Unlimited Ammo - Enabled
-commands.unlimited.off Unlimited Ammo - Disabled
-commands.unlimited.on.other Unlimited Ammo - Enabled for {0}
-commands.unlimited.off.other Unlimited Ammo - Disabled for {0}
-commands.spraybypass.on Unlimited Ammo - Enabled
-commands.spraybypass.off Unlimited Ammo - Disabled
-commands.spraybypass.on.other Unlimited Ammo - Enabled for {0}
-commands.spraybypass.off.other Unlimited Ammo - Disabled for {0}
-commands.suspect.invalid Invalid suspect info
-commands.suspect.menu Suspect in menu
-commands.suspect.left Suspect has left
-commands.suspect.found Suspect Found. Spectating: {0}, Spawned: {1}, Name: {2}
-commands.forfeit.next Must play atleast 1 round
-commands.forfeit.wait Wait till match starts to forfeit
-commands.forfeit.later Please try again in a few seconds
-commands.forfeit.voted You already voted.
-commands.forfeit.limit You can only start one vote per game
-commands.forfeit.ended Forfeiting Game
-commands.forfeit.ended.other Other Team Forfeited
-server.message.join {0} joined the game
-server.message.left {0} left the game
-server.message.kicked {0} was kicked
-server.message.banned {0} was banned
-server.message.votekicked {0} was vote kicked
-server.message.arrested {0} was arrested by the K.P.D
+event.doubleXP Kaksinkertainen Hahmon XP käytössä tässä ottelussa
+ranked.join Liitytty kilpailulliseen otteluun. Ottelun keskeyttäminen johtaa väliaikaiseen porttikieltoon
+ranked.progress Peli Käynnissä
+ranked.team Liity Joukkueeseen
+ranked.switch Et voi vaihtaa kun olet pelissä
+ranked.spectate Katselu on Pois Käytöstä Kilpailullisessa
+ranked.login Kirjaudu sisään syntyäksesi
+ranked.sync Synkronointidata Puuttuu
+ranked.team.spawn Liity Joukkueeseen Syntyäksesi
+ranked.class.spawn Valitse Hahmo Syntyäksesi
+modes.round.win Joukkueesi on turvannut erän
+modes.round.loss Tätä erää ei voi enää voittaa
+modes.round.switch Vaihdetaan Puolia. Valmistaudu seuraavaan Erään
+modes.trade.success Vaihtokauppa Onnistui
+modes.prophunt.limit [Prop Hunt] Prop-vaihtosi ovat loppuneet
+modes.prophunt.left [Prop Hunt] Sinulla on {0} vaihtoa jäljellä
+modes.prophunt.rotation.on [Prop Hunt] Rotaatio päällä
+modes.prophunt.rotation.off [Prop Hunt] Rotaatio pois
+modes.prophunt.rotation.reset [Prop Hunt] Rotaatio resetoitu
+commands.login Kirjaudu sisään käyttääksesi tätä komentoa
+commands.connected {0} yhdistettynä, {1} valikossa
+commands.host {0} on tämänhetkinen isäntä
+commands.noclip.on Noclip - Päällä
+commands.noclip.off Noclip - Pois Päältä
+commands.god.on Jumalatila - Päällä
+commands.god.off Jumalatila - Pois Päältä
+commands.god.on.other Jumalatila - Päällä {0}:n ajan
+commands.god.off.other Jumalatila - Pois Päältä {0}:n ajan
+commands.smite.on Tappo - Päällä
+commands.smite.off Tappo - Pois Päältä
+commands.smite.on.other Tappo - Päällä {0}:n ajan
+commands.smite.off.other Tappo - Pois Päältä {0}:n ajan
+commands.perk Annettiin {0}:lle {1}
+commands.maxperk Annettiin {0}:lle MAX {1}
+commands.unlimited.on Rajoittamattomat Ammukset - Päällä
+commands.unlimited.off Rajoittamattomat Ammukset - Pois Päältä
+commands.unlimited.on.other Rajoittamattomat Ammukset - Päällä {0}:n ajan
+commands.unlimited.off.other Rajoittamattomat Ammukset - Pois Päältä {0}:n ajan
+commands.spraybypass.on Rajoittamattomat Ammukset - Päällä
+commands.spraybypass.off Rajoittamattomat Ammukset - Pois Päältä
+commands.spraybypass.on.other Rajoittamattomat Ammukset - Päällä {0}:n ajan
+commands.spraybypass.off.other Rajoittamattomat Ammukset - Pois Päältä {0}:n ajan
+commands.suspect.invalid Virheelliset tiedot epäillystä
+commands.suspect.menu Epäilty on valikossa
+commands.suspect.left Epäilty on lähtenyt
+commands.suspect.found Epäilty löytynyt. Katsellaan: {0}, Syntynyt: {1}, Nimi: {2}
+commands.forfeit.next Täytyy pelata vähintään yksi erä
+commands.forfeit.wait Odota ottelun alkamista ennen luovuttamista
+commands.forfeit.later Yritäthän uudelleen muutaman sekunnin kuluttua
+commands.forfeit.voted Olet jo äänestänyt.
+commands.forfeit.limit Voit aloittaa vain yhden äänestyksen pelin aikana.
+commands.forfeit.ended Luovutetaan Peliä
+commands.forfeit.ended.other Toinen joukkue luovutti
+server.message.join {0} liittyi peliin
+server.message.left {0} lähti pelistä
+server.message.kicked {0} potkaistiin ulos
+server.message.banned {0}:lle annettiin porttikielto
+server.message.votekicked {0} äänestettiin ulos
+server.message.arrested K.P.D pidätti pelaajan {0}
 `;
