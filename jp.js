@@ -94,7 +94,7 @@ settings.network.netRerouting 自動ルーティング (pingに影響します)
 settings.network.netRate ネットワークレート (Hz)
 settings.network.lagComp ラグ補正
 settings.network.optNet ネットワークの最適化
-settings.network.quickplay クイックプレイを矯正
+settings.network.quickplay クイックプレイを強制
 settings.popup.header ポップアップ
 settings.experimental.header テスト中の設定
 settings.experimental.holiday ホリデーエフェクト
@@ -927,7 +927,7 @@ ranked.team チームに入ってください
 ranked.switch マッチ中にクラスを変更できません
 ranked.spectate ランクマッチでは観戦できません
 ranked.login ログインしてスポーン
-ranked.sync 同期用データが失われました
+ranked.sync 同期用データが欠損しています
 ranked.team.spawn スポーンするにはチームを選択してください
 ranked.class.spawn スポーンするにはクラスを選択してください
 modes.round.win このラウンドの勝利が確定しました
