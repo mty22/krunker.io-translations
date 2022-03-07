@@ -277,7 +277,7 @@ settings.crosshairm.size Taille
 settings.crosshairm.thickness Épaisseur
 settings.crosshairm.gap Écart
 settings.crosshairm.dot Point
-settings.crosshairm.opacity.use Utiliser une pacité personnalisée
+settings.crosshairm.opacity.use Utiliser une opacité personnalisée
 settings.crosshairm.opacity.custom Opacité personnalisée
 settings.hitmarker.header Indicateur de touche
 settings.hitmarker.color Couleur
@@ -297,8 +297,8 @@ settings.onKillS.style.1 Réduire la Résolution
 settings.onKillS.style.2 Réduire le champ de vision
 settings.onKillS.style.3 Augmenter le champ de vision
 settings.serverb.header Naviguateur de serveurs
-settings.serverb.oldBrowser Ancien naviguateur
-settings.serverb.defaultRegionOnly Region par défaut seulement
+settings.serverb.oldBrowser Ancien navigateur
+settings.serverb.defaultRegionOnly Région par défaut seulement
 settings.gameprivacy.header Confidentialité en jeu
 settings.gameprivacy.streamer Mode Streameur
 settings.gameprivacy.anon Mode Anonyme
