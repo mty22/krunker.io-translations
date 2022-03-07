@@ -221,7 +221,7 @@ settings.interface.xpBarCol Couleur de la barre d'xp
 settings.interface.xpBarCol2 Couleur 2 de la barre d'xp
 settings.interface.xpBarOpac Opacité de la barre d'xp
 settings.medals.header Médailles
-settings.medals.show Montrer les médeailles
+settings.medals.show Montrer les médailles
 settings.medals.classic Médailles classiques
 settings.medals.sound Jouer les sons des médailles
 settings.medals.scale Taille des médailles
@@ -296,8 +296,8 @@ settings.onKillS.style.0 Par défaut
 settings.onKillS.style.1 Réduire la Résolution
 settings.onKillS.style.2 Réduire le champ de vision
 settings.onKillS.style.3 Augmenter le champ de vision
-settings.serverb.header Naviguateur de serveurs
-settings.serverb.oldBrowser Ancien naviguateur
+settings.serverb.header Navigateur de serveurs
+settings.serverb.oldBrowser Ancien navigateur
 settings.serverb.defaultRegionOnly Region par défaut seulement
 settings.gameprivacy.header Confidentialité en jeu
 settings.gameprivacy.streamer Mode Streameur
@@ -780,7 +780,7 @@ social.market.price.list Prix de mise en vente
 social.market.searching Recherche
 social.market.listed mis en vente il y a {0}
 social.market.list Mettre en vente
-social.market.unlist Retirer
+social.market.unlist Retirer de la vente
 social.market.unlisting Retrait de l’objet en cours...
 social.market.posting Mise en vente de l’objet...
 social.market.req niveau {0} requis
@@ -899,9 +899,9 @@ social.trades.accept Êtes-vous sûr de vouloir accepter cette offre?
 stats.airdrops Largage aérien de KR
 stats.airdrops.stolen Largages aériens de KR volés
 settings.quality.flapAnim Animation du rabat de sniper
-chall.name.hs  Obtenez {0} tirs a la tête {1}
+chall.name.hs  Obtenez {0} tirs à la tête {1}
 chall.name.ns  Obtenez {0} tirs sans viser {1}
-chall.name.ls  Obtenez {0} tirs a la jambe {1}
+chall.name.ls  Obtenez {0} tirs à la jambe {1}
 chall.name.tmk Obtenez {0} éliminations au lancer de couteau {1}
 chall.name.fb  Obtenez {0} premier sangs {1}
 chall.name.mk  Obtenez {0} éliminations à la mêlée
@@ -912,7 +912,7 @@ chall.name.airk Obtenez {0} éliminations en l'air {1}
 chall.name.lns Obtenez {0} tirs de loin
 chall.name.tk  Obtenez {0} éliminations turbo {1}
 chall.name.drk Obtenez {0} éliminations dérapantes {1}
-chall.name.kstk Obtenez une serie d'éliminations de {0} {1}
+chall.name.kstk Obtenez une série d'éliminations de {0} {1}
 chall.name.w Gagnez {0} matchs
 chall.name.d Mourrez {0} fois
 chall.name.score Obtenez {0} score
@@ -921,62 +921,62 @@ chall.name.bzk Get {0} buzz kills {1}
 chall.name.cc Obtenez {0} échappées-belles {1}
 chall.name.rk Faire {0} éliminations de vengeance {1}
 event.doubleXP 2x Class XP enabled for this match
-ranked.join Joined Ranked Match. Abandoning a match will result in a temporary ban
-ranked.progress Game in Progress
-ranked.team Please join a Team
-ranked.switch Can't switch while in-game
-ranked.spectate Spectating Disabled in Ranked
-ranked.login Login to Spawn
+ranked.join Match classé rejoint. Vous serez banni temporairement si vous abandonnez un match 
+ranked.progress Partie en cours
+ranked.team Rejoignez une équipe
+ranked.switch Impossible de changer de classe pendant le match
+ranked.spectate Mode spectateur désactivé en partie classée
+ranked.login Connectez-vous pour apparaître
 ranked.sync Missing Sync Data
-ranked.team.spawn Please join a Team to Spawn
-ranked.class.spawn Please select a Class to Spawn
-modes.round.win Your Team has secured this round
-modes.round.loss This round is no longer winnable
-modes.round.switch Switching Sides. Prepare for the next Round
-modes.trade.success Trade Successful
+ranked.team.spawn Rejoignez une équipe pour apparaître
+ranked.class.spawn Choisissez une classe pour apparaître
+modes.round.win Votre équipe a assurée la victoire
+modes.round.loss L'équipe adverse a assurée la victoire
+modes.round.switch Changement de côté. Préparez-vous à la prochaine manche
+modes.trade.success Échange réussi
 modes.prophunt.limit [Prop Hunt] You are out of prop switches
 modes.prophunt.left [Prop Hunt] You have {0} switches remaining
 modes.prophunt.rotation.on [Prop Hunt] Rotation Enabled
 modes.prophunt.rotation.off [Prop Hunt] Rotation Disabled
 modes.prophunt.rotation.reset [Prop Hunt] Rotation reset.
-commands.login Login to use this command
-commands.connected {0} connected, {1} in menu
-commands.host {0} is the current Host.
-commands.noclip.on Noclip - Enabled
-commands.noclip.off Noclip - Disabled
-commands.god.on God mode - Enabled
-commands.god.off God mode - Disabled
-commands.god.on.other God mode - Enabled for {0}
-commands.god.off.other God mode - Disabled for {0}
-commands.smite.on Smite - Enabled
-commands.smite.off Smite - Disabled
-commands.smite.on.other Smite - Enabled for {0}
-commands.smite.off.other Smite - Disabled for {0}
+commands.login Connectez-vous pour utiliser cette commande
+commands.connected {0} connecté, {1} dans le menu
+commands.host {0} est l'hôte actuel.
+commands.noclip.on Noclip - Activé
+commands.noclip.off Noclip - Désactivé
+commands.god.on Invicibilité - Activé
+commands.god.off Invicibilité - Désactivé
+commands.god.on.other Invicibilité - Activé pour {0}
+commands.god.off.other Invicibilité - Désactivé pour {0}
+commands.smite.on Smite - Activé
+commands.smite.off Smite - Désactivé
+commands.smite.on.other Smite - Activé pour {0}
+commands.smite.off.other Smite - Désactivé pour {0}
 commands.perk Gave {0} {1}
 commands.maxperk Gave {0} MAX {1}
-commands.unlimited.on Unlimited Ammo - Enabled
-commands.unlimited.off Unlimited Ammo - Disabled
-commands.unlimited.on.other Unlimited Ammo - Enabled for {0}
-commands.unlimited.off.other Unlimited Ammo - Disabled for {0}
-commands.spraybypass.on Unlimited Ammo - Enabled
-commands.spraybypass.off Unlimited Ammo - Disabled
-commands.spraybypass.on.other Unlimited Ammo - Enabled for {0}
-commands.spraybypass.off.other Unlimited Ammo - Disabled for {0}
-commands.suspect.invalid Invalid suspect info
-commands.suspect.menu Suspect in menu
-commands.suspect.left Suspect has left
-commands.suspect.found Suspect Found. Spectating: {0}, Spawned: {1}, Name: {2}
+commands.unlimited.on Munitions illimitées - Activé
+commands.unlimited.off Munitions illimitées - Désactivé
+commands.unlimited.on.other Munitions illimitées - Activé pour {0}
+commands.unlimited.off.other Munitions illimitées - Désactivé pour {0}
+commands.spraybypass.on Munitions illimitées - Activé
+commands.spraybypass.off Munitions illimitées - Désactivé
+commands.spraybypass.on.other Munitions illimitées - Activé pour {0}
+commands.spraybypass.off.other Munitions illimitées - Désactivé pour {0}
+commands.suspect.invalid Informations sur le suspect invalides
+commands.suspect.menu Suspect dans le menu
+commands.suspect.left Suspect a quitté le match
+commands.suspect.found Suspect trouvé. Spectating: {0}, Spawned: {1}, Name: {2}
 commands.forfeit.next Must play atleast 1 round
-commands.forfeit.wait Wait till match starts to forfeit
-commands.forfeit.later Please try again in a few seconds
-commands.forfeit.voted You already voted.
+commands.forfeit.wait Attendez que le match commence pour déclarer forfait
+commands.forfeit.later Veuillez réessayer dans quelques secondes
+commands.forfeit.voted Vous avez déjà voté.
 commands.forfeit.limit You can only start one vote per game
-commands.forfeit.ended Forfeiting Game
-commands.forfeit.ended.other Other Team Forfeited
-server.message.join {0} joined the game
-server.message.left {0} left the game
-server.message.kicked {0} was kicked
-server.message.banned {0} was banned
-server.message.votekicked {0} was vote kicked
-server.message.arrested {0} was arrested by the K.P.D
+commands.forfeit.ended Abandon du match
+commands.forfeit.ended.other L'autre équipe a déclaré forfait
+server.message.join {0} a rejoint le match
+server.message.left {0} a quitté le match
+server.message.kicked {0} a été expulsé
+server.message.banned {0} a été banni
+server.message.votekicked {0} a été expulsé par vote
+server.message.arrested {0} a été arrêté par le K.P.D
 `;
