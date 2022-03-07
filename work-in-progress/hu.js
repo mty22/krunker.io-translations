@@ -1,6 +1,6 @@
 module.exports = `
-menu.btn.ranked Kompetitív
-menu.btn.shop Bolt
+menu.btn.ranked Rangsorolt
+menu.btn.shop Piac
 menu.btn.social Közösségi
 menu.btn.maps Pályák
 menu.btn.mods Modok
@@ -19,7 +19,7 @@ generic.select Kiválaszt
 generic.delete Töröl
 generic.save Ment
 generic.load Betölt
-generic.search Keres
+generic.search Keresés
 generic.leave Kilép
 generic.default Alapméretezett
 generic.submit Beküld
@@ -30,7 +30,7 @@ generic.success Sikeres!
 generic.name Név
 generic.level Szint
 generic.score Pontszám
-generic.off ki
+generic.off Ki
 generic.defeat VERESÉG
 generic.victory GYŐZELEM
 generic.matchover VÉGE A MECCSNEK
@@ -38,21 +38,21 @@ generic.matchaband MECCS ELHAGYVA
 generic.follow Követés
 generic.unfollow Kikövetés
 generic.followers Követők
-generic.following Követettek
+generic.following Követed
 generic.games Játékok
 generic.wins Győzelmek
 generic.lose Vereségek
 generic.clan Klán
-generic.games.played Játszott menetek
+generic.games.played Lejátszott menetek
 generic.games.won Nyert menetek
 generic.games.lost Vesztett menetek
 generic.timep Játékkal töltött idő
-generic.kills Őlések
-generic.deaths Halálok
+generic.kills Ölések
+generic.deaths Halál
 generic.kdr KDA
 generic.time Idő
 generic.logout Kijelentkezés
-generic.logout.sessions Kijelentkezés mindenhonnan
+generic.logout.sessions Kijelentkezés mindenből
 generic.username Felhasználónév megadása
 generic.password Jelszó megadása
 generic.register Regisztrálás
@@ -61,14 +61,14 @@ generic.accuracy Pontosság
 player.waiting várakozás játékosokra
 player.died Meghaltál
 player.killed {0} megölt
-player.killstreak {0} on a {1} Kill Streak
+player.killstreak {0} játékos sorozatgyilkossága {1}
 player.inactive Inaktivitásért kirúgva
 player.disconnect LECSATLAKOZVA
 timer.end Következő játék indul: {0}
 leaderboard.empty Üres szoba
 popup.checkpoint Ellenörző pont!
 app.play KATTINTS A JÁTÉKHOZ
-app.spectate KATTINTS A MEGFIGYELÉSHEZ
+app.spectate KATTINTS A MUSTRÁHOZ
 app.play.mobile PÖTTYINTS A JÁTÉKHOZ
 app.spectate.mobile PÖTTYINTS A MEGFIGYELÉSHEZ
 app.play.controller NYOMD MEG A STARTOT
@@ -84,37 +84,37 @@ settings.none Nem találtunk beállításokat
 settings.backup Beállítások mentése
 settings.controls.change Billentyűk
 settings.controls.press Nyomj meg egy gombot
-settings.controls.leaderboard InGame Leaderboard Trigger Type
-settings.controls.voicechat Voicechat Trigger Type
+settings.controls.leaderboard Játékbeli ranglista aktiváló típus
+settings.controls.voicechat Hangcsevegés aktiváló típus
 settings.local.header Lokalizálás <span id="requiresRestart"><span style="color: #eb5656">*</span> újraindítás szükséges</span>
 settings.local.region Alapértelmezett régió
 settings.local.lang Nyelv
 settings.network.header Hálózat
 settings.network.netRerouting Automatikus útválasztás (Befolyásolja a Pinget)
-settings.network.netRate Network Rate (Hz)
+settings.network.netRate Hálózati ráta (Hz)
 settings.network.lagComp Lag Kompenzálás
-settings.network.optNet Optimized Networking
-settings.network.quickplay Force Quickplay
+settings.network.optNet Optimalizált hálózat
+settings.network.quickplay Gyorsjáték kényszerítése
 settings.popup.header Felugró ablakok
 settings.experimental.header Kísérleti
-settings.experimental.holiday Holiday Effects
+settings.experimental.holiday Ünnepi effektusok
 settings.experimental.aimFreezeFix Célzás befagyás Javítása
 settings.experimental.mouseFlickFix Egér Rándulás Javítása
 settings.experimental.shaderRendering Árnyékolt renderelés
-settings.experimental.mouseAccel Mouse Acceleration
-settings.experimental.tbInterp TB Interpolation
-settings.client.header Client
-settings.client.unlimitedFrames Unlimited FPS
-settings.client.gameCap Game Capture
-settings.client.experimental Experimental Features
+settings.experimental.mouseAccel Egér gyorsítás
+settings.experimental.tbInterp TB interpoláció
+settings.client.header Kliens
+settings.client.unlimitedFrames Korlátlan FPS
+settings.client.gameCap Játék felvétel
+settings.client.experimental Kísérleti funkciók
 settings.client.discordRPC Discord RPC
 settings.client.resourceSwapper Resource Swapper
-settings.client.clearCache Clear Cache
-settings.client.resetSettings Reset Client Settings
-settings.client.acceleratedCanvas Accelerated Canvas
-settings.client.angleBackend ANGLE Graphics Backend
-settings.client.colorProfile Color Profile
-settings.client.resourcePacks Resource Packs
+settings.client.clearCache Gyorsítótár törlése
+settings.client.resetSettings Kliens beállítások visszaállítása
+settings.client.acceleratedCanvas Gyorsított vászon
+settings.client.angleBackend ANGLE Grafikai Backend
+settings.client.colorProfile Színprofil
+settings.client.resourcePacks Erőforrás csomagok
 settings.dev.header Fejlesztő
 settings.dev.forceUpdate Kinézetek kényszerített frissítése
 settings.dev.forceRegen Mindig regenerálódjon a játékos
@@ -129,7 +129,7 @@ settings.chat.chatOp Csevegés átlátszósága
 settings.chat.chatBGOp Csevegés hátterének átlátszósága
 settings.chat.chatHeight Csevegés magassága
 settings.chat.chatTimer Csevegés idő (s)
-settings.chat.chatTextOutline Csevegés Szöveg körvonal
+settings.chat.chatTextOutline Csevegés Szöveg körvonala
 settings.chat.chatFilter Káromkodás szűrő
 settings.quality.header Teljesítmény
 settings.quality.updRate Képkocka Határ
@@ -141,7 +141,7 @@ settings.quality.noTex Nincs textúra
 settings.quality.partdist Részecske távolság
 settings.quality.renderdist Renderelési távolság
 settings.quality.reflection Visszaverődési minőség
-settings.quality.antiAlias Antialiasing
+settings.quality.antiAlias Színtelenítés
 settings.quality.shadows Árnyékok
 settings.quality.softShad Lágy árnyékok
 settings.quality.highResShad Nagy-felbontású Árnyékok
@@ -169,14 +169,14 @@ settings.post.bloomStrength Fényesség erőssége
 settings.post.bloomRadius Fényesség mérete
 settings.post.ssao SSAO
 settings.post.ssaoRadius SSAO Méret
-settings.interface.hitInd Találat jelzők mutatása
-settings.interface.hitColor Találat jelzők színe
+settings.interface.hitInd Találati jelzők mutatása
+settings.interface.hitColor Találati jelzők színe
 settings.interface.dmg Sebzés mutatása
 settings.interface.dmgCol Sebzés színe
-settings.interface.critCol Kritikális sebzés színe
+settings.interface.critCol Kritikus sebzés színe
 settings.interface.header Felület
-settings.interface.scale UI Mérete
-settings.interface.theme Game Theme
+settings.interface.scale Felhasználói felület Mérete
+settings.interface.theme Játék témája
 settings.interface.ui UI Mutatása
 settings.interface.scoreboard Régi eredménytábla mutatása
 settings.interface.oldBrowser Régi böngésző használata
@@ -220,16 +220,16 @@ settings.interface.healthColE Az ellenséges csapat életének színe
 settings.interface.xpBarCol Szint sáv színe
 settings.interface.xpBarCol2 XP Bar Color 2
 settings.interface.xpBarOpac Szint sáv átlátszósága
-settings.medals.header Medals
-settings.medals.show Show Medals
-settings.medals.classic Classic Medals
-settings.medals.sound Play Medal Sounds
-settings.medals.scale Medal Scale
-settings.medals.xOff Medal X Offset
-settings.medals.yOff Medal Y Offset
+settings.medals.header Medálok
+settings.medals.show Medálok megjelenítése
+settings.medals.classic Klasszikus medálok
+settings.medals.sound Medál hangok legjátszása
+settings.medals.scale Medál mérete
+settings.medals.xOff Medál X pozíció
+settings.medals.yOff Medál Y pozíció
 settings.crosshair.header Célkereszt
 settings.crosshair.type Típus
-settings.crosshair.type.1 Dynamic
+settings.crosshair.type.1 Dinamikus
 settings.crosshair.type.2 Egyéni
 settings.crosshair.type.3 Réteges
 settings.crosshair.type.4 Kép
@@ -242,8 +242,8 @@ settings.crosshair.style.3 Üres négyzet
 settings.crosshair.style.4 Telített négyzet
 settings.crosshair.image Kép
 settings.crosshair.image.paste Célkereszt kép
-settings.crosshair.image.width Image Width
-settings.crosshair.image.height Image Height
+settings.crosshair.image.width Kép szélessége
+settings.crosshair.image.height Kép magassága
 settings.crosshair.always Mindig mutassa
 settings.crosshair.color Szín
 settings.crosshair.shadow.color Árnyék színe
@@ -252,33 +252,33 @@ settings.crosshair.size Méret
 settings.crosshair.thickness Vastagság
 settings.crosshair.gap Rés
 settings.crosshair.dot Pont
-settings.crosshair.opacity.use Egyéni átlátszóság használata
+settings.crosshair.opacity.use Egyéni átláthatóság használata
 settings.crosshair.opacity.custom Egyéni átlátszóság
-settings.crosshairm.header Crosshair (Throwing)
-settings.crosshairm.type Type
-settings.crosshairm.type.1 Shapes
-settings.crosshairm.type.2 Image
-settings.crosshairm.type.3 Precision
-settings.crosshairm.style Style
-settings.crosshairm.style.0 Cross
-settings.crosshairm.style.1 Hollow Circle
-settings.crosshairm.style.2 Solid Circle
-settings.crosshairm.style.3 Hollow Square
-settings.crosshairm.style.4 Solid Square
-settings.crosshairm.image Image
-settings.crosshairm.image.paste Crosshair Image
-settings.crosshairm.image.width Image Width
-settings.crosshairm.image.height Image Height
-settings.crosshairm.always Always Show
-settings.crosshairm.color Color
-settings.crosshairm.shadow.color Shadow Color
-settings.crosshairm.shadow.thickness Shadow Thickness
-settings.crosshairm.size Size
-settings.crosshairm.thickness Thickness
-settings.crosshairm.gap Gap
-settings.crosshairm.dot Dot
-settings.crosshairm.opacity.use Use Custom Opacity
-settings.crosshairm.opacity.custom Custom Opacity
+settings.crosshairm.header Célkereszt (Dobás)
+settings.crosshairm.type Típus
+settings.crosshairm.type.1 Formák
+settings.crosshairm.type.2 Kép
+settings.crosshairm.type.3 Precizitás
+settings.crosshairm.style Stílus
+settings.crosshairm.style.0 Kereszt
+settings.crosshairm.style.1 Üreges kör
+settings.crosshairm.style.2 Tömör kör
+settings.crosshairm.style.3 Üreges tér
+settings.crosshairm.style.4 Tömör négyzet
+settings.crosshairm.image Kép
+settings.crosshairm.image.paste Célkereszt Kép
+settings.crosshairm.image.width Kép szélesség
+settings.crosshairm.image.height Kép magasság
+settings.crosshairm.always Mindig jelenjen meg
+settings.crosshairm.color Szín
+settings.crosshairm.shadow.color Árnyék szín
+settings.crosshairm.shadow.thickness Árnyék vastagság
+settings.crosshairm.size Méret
+settings.crosshairm.thickness Vastagság
+settings.crosshairm.gap Rés
+settings.crosshairm.dot Pont
+settings.crosshairm.opacity.use Egyedi
+settings.crosshairm.opacity.custom Egyedi átláthatóság
 settings.hitmarker.header Találatjelző
 settings.hitmarker.color Szín
 settings.hitmarker.kcolor Ölés szín
@@ -286,8 +286,8 @@ settings.hitmarker.thickness Vastagság
 settings.hitmarker.opacity Átlátszóság
 settings.hitmarker.leng Hosszúság
 settings.hitmarker.spacing Távolság
-settings.hitmarker.animD Anim Méret
-settings.hitmarker.animS Anim Sebesség
+settings.hitmarker.animD Animáció Mérete
+settings.hitmarker.animS Animáció Sebessége
 settings.hitmarker.hitm Mutat
 settings.hitmarker.hitmFad Halványodási sebesség
 settings.hitmarker.custom Találatjelző kép
@@ -303,12 +303,12 @@ settings.gameprivacy.header Játékélmény
 settings.gameprivacy.streamer Streamer mód
 settings.gameprivacy.anon Névtelen mód
 settings.gameprivacy.hideGameTitle A játék cím elrejtése
-settings.gameprivacy.showRegion Show Region Info
-settings.gameprivacy.verified Show Verified Badge
-settings.gameprivacy.premium Show Premium Badge
-settings.gameprivacy.partner Show Partner Badge
-settings.gameprivacy.rank Show Ranked Badge
-settings.gameprivacy.custom Show Custom Badge
+settings.gameprivacy.showRegion Régió megjelenítése
+settings.gameprivacy.verified Hitelesített plecsni megjelenítése
+settings.gameprivacy.premium Prémium plecsni megjelenítése
+settings.gameprivacy.partner Partner plecsni megjelenítése
+settings.gameprivacy.rank Rangsorolt plecsni megjelenítése
+settings.gameprivacy.custom Egyedi kitúző megjelenítése
 settings.gameplay.header Játék
 settings.gameplay.gpSetts Gameplay Settings
 settings.gameplay.sensitivityX X Érzékenység
@@ -343,9 +343,9 @@ settings.audio.header Hang
 settings.audio.sound Fő hangerő
 settings.audio.ambient Környezeti hangerő
 settings.audio.voice Hangüzenet hangerő
-settings.audio.input Audio/Mic Input
-settings.audio.mic Mic Volume
-settings.audio.micquality Mic Quality
+settings.audio.input Hang/Mikrofon bemenet
+settings.audio.mic Mikrofon hangereje
+settings.audio.micquality Mikrofon minősége
 settings.audio.weps Fegyver hangerő
 settings.audio.player Játékos hangerő
 settings.audio.skin Kinézeti tárgyak hangereje
@@ -353,7 +353,7 @@ settings.audio.ui UI hangerő
 settings.audio.asset Tárgyak hangerő
 settings.audio.dialogue Akció hangerő
 settings.viewmodel.header Belső kinézet
-settings.viewmodel.vmSetts View Model Settings
+settings.viewmodel.vmSetts Modelbeállítások megtekintése
 settings.viewmodel.fov Látómező
 settings.viewmodel.fps Fegyver látómező
 settings.viewmodel.bobbing Fegyver lengés
@@ -410,8 +410,8 @@ settings.editing.vignette Keret
 settings.editing.feedLimit Killfeed határ
 settings.editing.depth Mélység térkép
 settings.editing.green Zöld háttér
-settings.editing.trailcol Bullet Trail Color
-settings.editing.ropecol Grapple Rope Color
+settings.editing.trailcol Bullet Trail Színe
+settings.editing.ropecol Grapple Rope Színe
 settings.editing.tracercol Lövedék nyomjelzők színe
 settings.editing.tracer Lövedék nyomjelzők
 settings.editing.tracer.offset Nyomjelző eltolás
@@ -422,52 +422,52 @@ settings.mods.logo Logo változtatás engedélyezése
 settings.mods.auto Modok automatikus betöltése
 settings.mods.borders Scope határok
 settings.mods.borderCol Scope határok színe
-settings.mods.borderOpac Scope jatárok átlátszósága
+settings.mods.borderOpac Scope határok átláthatósága
 settings.mods.scope Scope kép
 settings.mods.scope.paste Scope kép URL
 settings.mods.scope.opacity Scope átlátszóság
 settings.mods.scope.width Scope kép szélesség
 settings.mods.scope.height Scope kép magasság
-settings.mods.dot Hajszálkereszt kép
-settings.mods.dot.width Hajszálkereszt kép szélessége
-settings.mods.dot.height Hajszálkereszt kép magassága
-settings.mods.dot.paste Hajszálkereszt URL
+settings.mods.dot Retikula kép
+settings.mods.dot.width Retikula kép szélessége
+settings.mods.dot.height Retikula kép magassága
+settings.mods.dot.paste Retikula URL
 settings.mods.endmessage Meccs záró üzenet
 settings.mods.profile Profil kép
-settings.mods.profile.paste Profil kép URL
+settings.mods.profile.paste Profil kép linkje
 settings.mods.ammo Lőszer ikon kép
-settings.mods.ammo.paste Lőszer ikon kép URL
+settings.mods.ammo.paste Lőszer ikon kép linkje
 settings.mods.kills Ölések ikon kép
-settings.mods.kills.paste Ölések ikon kép URL
+settings.mods.kills.paste Ölések ikon kép linkje
 settings.mods.deaths Halálok ikon kép
-settings.mods.deaths.paste Halálok ikon kép URL
+settings.mods.deaths.paste Halálok ikon kép linkje
 settings.mods.streak Sorozat számláló ikon kép
-settings.mods.streak.paste Sorozat számláló ikon kép URL
+settings.mods.streak.paste Sorozat számláló ikon kép linkje
 settings.mods.timer Időmérő ikon kép
 settings.mods.timer.paste Időmérő ikon kép URL
 settings.mods.usedamage Sebzés átfedés használata
 settings.mods.damage Sebzés átfedés kép
-settings.mods.damage.paste Sebzés átfedés kép URL
+settings.mods.damage.paste Sebzés átfedés kép linkje
 settings.mods.overlay Játék átfedés kép
-settings.mods.overlay.paste Játék átfedés kép URL
+settings.mods.overlay.paste Játék átfedés kép linkje
 settings.social.region Régió statisztikák
-settings.social.bg Background Image
-settings.social.bg.paste Background Image URL
+settings.social.bg Háttérkép
+settings.social.bg.paste Háttérkép linkje
 windows.settings.header Játék beállítások
 windows.mail.header Krunker levél
 windows.servers.header Szerverek
-windows.servers.none Egy szerver sincs...
+windows.servers.none Nem lehet csatlakozni egy játékhoz sem...
 windows.servers.host + Játék hosztolása
 windows.servers.hide Megteltek elrejtése
 windows.servers.priority Régió prioritás
 windows.servers.online {0} Játékban
 windows.servers.social {0} a közösségin
-windows.servers.editor {0} in Editor
+windows.servers.editor {0} a szerkesztőben
 windows.loadout.header Fegyverek váltása
 windows.loadout.class Osztály
 windows.loadout.primary Elsődleges
 windows.loadout.primary.attach Tartozék
-windows.loadout.primary.reticle Hajszálkereszt
+windows.loadout.primary.reticle Retikula
 windows.loadout.primary.scope Scope
 windows.loadout.secondary Másodlagos
 windows.loadout.secondary.skin Másodlagos kinéet
@@ -479,14 +479,14 @@ windows.loadout.shoe Cipők
 windows.loadout.face Arc
 windows.loadout.spray Spré
 windows.loadout.color.skin Bőrszín
-windows.loadout.color.chat Csevegés név szín
+windows.loadout.color.chat Csevegési név színe
 windows.loadout.color.hair Haj szín
-windows.loadout.dye Festék
-windows.loadout.pet Állat
-windows.loadout.wrist Wrist
-windows.loadout.stat Ölési kártya statisztika
+windows.loadout.dye Testfesték
+windows.loadout.pet Kedvenc
+windows.loadout.wrist Csukló
+windows.loadout.stat Gyilkos kártya statisztika
 windows.loadout.flag Zászló
-windows.loadout.badge Custom Badge
+windows.loadout.badge Egyedi kitűző
 windows.mods.drop dobd ide a mod fájlt vagy klikkelj
 windows.mods.paste Másold be a mod URL-t
 windows.mods.load Mod betöltése
@@ -510,7 +510,7 @@ windows.controls.aim1 Célzás
 windows.controls.shoot1 Lövés
 windows.controls.inspect Szemlélés
 windows.controls.spray Spré
-windows.controls.sprayWheel Spray Wheel (Hold)
+windows.controls.sprayWheel Spré kerék (Tartsd lenyomva)
 windows.controls.jump Ugrás
 windows.controls.crouch Guggolás
 windows.controls.prim Elsődleges fegyver
@@ -526,27 +526,27 @@ windows.controls.interactSec Másodlagos interakció
 windows.controls.confirm Interakció megerősítése
 windows.controls.drop Eldob
 windows.controls.wepVis Fegyver láthatóság váltása
-windows.controls.kickVoteY Vote Kick [Yes]
-windows.controls.kickVoteN Vote Kick [No]
-windows.controls.kpdVoteY KPD Vote [Yes]
-windows.controls.kpdVoteN KPD Vote [No]
-windows.controls.specFree Toggle Free Cam
+windows.controls.kickVoteY Vote Kick [Igen]
+windows.controls.kickVoteN Vote Kick [Nem]
+windows.controls.kpdVoteY KPD Vote [Igen]
+windows.controls.kpdVoteN KPD Vote [Nem]
+windows.controls.specFree Szabad kamerára váltás
 windows.controls.specObj Toggle Objective Cam
-windows.controls.specFirst Toggle First Person
+windows.controls.specFirst Belsőnézetre váltás
 windows.controls.specNames Toggle Forced Names
 windows.controls.specFocus Toggle Focus Player
-windows.controls.hidePlayers Hide Players
+windows.controls.hidePlayers Játékosok elrejtése
 windows.controls.streak0 Sorozat 1
 windows.controls.streak1 Sorozat 2
 windows.controls.streak2 Sorozat 3
 windows.controls.streak3 Sorozat 4
 windows.controls.streak4 Sorozat 5
-windows.controls.taunt0 Taunt (Psst)
-windows.controls.taunt1 Taunt (Whistle)
-windows.controls.taunt2 Taunt (Fart)
-windows.controls.taunt3 Taunt (Meme)
-windows.controls.taunt4 Taunt (WTF is This?)
-windows.controls.taunt5 Taunt (Right Now!)
+windows.controls.taunt0 Gúnyolódás (Psst)
+windows.controls.taunt1 Gúnyolódás (Fütty)
+windows.controls.taunt2 Gúnyolódás (Fing)
+windows.controls.taunt3 Gúnyolódás (Meme)
+windows.controls.taunt4 Gúnyolódás (WTF is This?)
+windows.controls.taunt5 Gúnyolódás (Right Now!)
 windows.controls.prop Select Prop (Hold)
 windows.controls.propRand Select Random Prop
 windows.controls.propRot Toggle Rotation
@@ -573,7 +573,7 @@ windows.spray.header Spré kiválasztása
 windows.spray.default Ingyenes spré
 windows.spray.spin Spré
 windows.maps.header Egyedi játékok
-windows.maps.none Nem találtunk játékokat!
+windows.maps.none Nem találtunk ilyen játékot!
 windows.maps.name Játék neve
 windows.maps.editor Játék készítő
 windows.maps.publish Játék publikálása
@@ -581,7 +581,7 @@ windows.maps.community Fejlesztői közösség
 windows.publish.map.header Publikáld vagy frissítsd a játékot
 windows.publish.map.thumbnail Nincs indexkép
 windows.publish.map.paste Játék adat beillesztése
-windows.publish.map.update Publikál/Frissít
+windows.publish.map.update Közzétesz/Frissít
 windows.publish.map.login hogy létre tudj hozni és fel tudj tölteni játékokat!
 windows.theatre.header Színház mód
 windows.theatre.record Felvétel engedélyezése
@@ -595,7 +595,7 @@ windows.clans.create Klán létrehozása
 windows.clans.name Klán neve
 windows.clans.view Klánok megtekintése
 windows.clans.join Belépés a klánba
-windows.clans.login hogy létre tudj hozni és be tudj lépni klánokba!
+windows.clans.login hogy létre tudj hozni és csatlakozni egy klánhoz!
 windows.store.header Bolt
 windows.store.spin {0} Pörgetés
 windows.store.agree A megvétellel elfogadod a {0} Feltételeket
@@ -608,13 +608,13 @@ windows.store.premium Prémium vásárlása
 windows.store.premium2 Krunker prémium
 windows.store.buyP Válassz egy becenevet és még több mindent ezzel:
 windows.store.buy Vegyél és adj el dolgokat itt:
-windows.store.wheels Szerencse kerék
+windows.store.wheels Szerencsekerék
 windows.store.unlock Oldj fel új fegyver kinézeteket és tárgyakat
 windows.store.amount {0} KR-ed van
 windows.store.login hogy tudj venni és feloldani dolgokat a boltban!
 windows.store.purchasing Vásárlás...
 windows.store.unboxed {0}{1} kinyitva
-windows.store.found {0}{1} found
+windows.store.found {0}{1} megtalálva
 windows.trade.header Kereskedés
 windows.scope.header Scope kiválasztása
 windows.premium.header Prémium
@@ -625,13 +625,13 @@ windows.waist.header Derék kiválasztása
 windows.face.header Arc kiválasztása
 windows.melee.header Kés kiválasztása
 windows.attach.header Tartozék kiválasztása
-windows.reticle.header Hajszálkereszt kiválasztása
+windows.reticle.header Retikula kiválasztása
 windows.reticle.unlocked Feloldva a {0}. szinten
 windows.reticle.req Szükséges szint: {0}
-windows.dye.header Festék kiválasztása
-windows.dye.default Alapértelmezett festék
-windows.dye.spin Festék
-windows.changelog.header Változási napló
+windows.dye.header Testesték kiválasztása
+windows.dye.default Alapértelmezett testfesték
+windows.dye.spin Testfesték
+windows.changelog.header Nyilvántartási napló
 windows.mods.community.header Közösségi modok
 windows.mods.community.fav Kedvencek
 windows.mods.community.new Új modok
@@ -647,16 +647,16 @@ windows.publish.mod.login hogy létrehozz és feltöltsd modokat!
 windows.secondary.header Másodlagos fegyver kiválasztása
 windows.secondary.unlocked Feloldva
 windows.secondary.customOnly Customs Only
-windows.secondary.premiumOnly Premium Only
+windows.secondary.premiumOnly Csak Premium
 windows.secondary.req Szükséges szint: {0}
-windows.skins.unlocked Unlocked
+windows.skins.unlocked Feloldva
 windows.skins.customOnly Customs Only
-windows.skins.premiumOnly Premium Only
-windows.skins.classOnly Req {0}
-windows.skins.req Req lvl {0}
-windows.skins.default Default Skin
+windows.skins.premiumOnly Csak Premium
+windows.skins.classOnly Szükséges {0}
+windows.skins.req Szükséges szint {0}
+windows.skins.default Alapértelmezett kinézet
 windows.advertise.header Hirdetés
-windows.support.header Ügyfélszolgálat
+windows.support.header Támogatók
 windows.players.header Játékos lista
 windows.players.none Jeleneleg nincsenek játékosok
 windows.join.header Belépés
@@ -665,12 +665,12 @@ windows.client.header Kliens
 windows.client.windows Windows telepítő
 windows.client.mac macOS telpítő
 windows.client.linux Linux telepítő
-windows.ranked.header Kompetitív
-windows.ranked.login hogy részt vehess kompetitív játékokban!
-windows.ranked.level Szükséges szint hogy játszhass kompetitívet: <span color="black">{0}</span>! Most a/az <span color="black">{1}.</span> szinten vagy.
+windows.ranked.header Rangsorolt
+windows.ranked.login hogy részt vehess rangsorolt játékokban!
+windows.ranked.level Szükséges szint hogy játszhass rangsoroltat: <span color="black">{0}</span>! Most a/az <span color="black">{1}.</span> szinten vagy.
 windows.chall.header Kihívások
 windows.chall.login a kihívások feloldásáért!
-thumbnail.upload.limit Failed. {0}kb indexkép feltöltési korlát
+thumbnail.upload.limit Meghiúsult. {0}kb indexkép feltöltési korlát
 image.upload.limit Failed. {0}kb kép feltöltési korlát
 thumbnail.upload.error Indexkép error
 mod.extracting kibontás {0}/{1}
@@ -679,10 +679,10 @@ mod.error mod hiba!
 mod.loading mod betöltése...
 mod.invalid hibás mod fájl
 matchmaker.full MEGTELT
-matchmaker.GameFull Game is full.
-matchmaker.NoServersMatchQuery GAME UPDATING
-matchmaker.InvalidGameId Game not found.
-matchmaker.NoAvailableServers Servers are at Max Capacity
+matchmaker.GameFull Nincs szabad hely
+matchmaker.NoServersMatchQuery JÁTÉK FRISSÍTÉSE FOLYAMATBAN
+matchmaker.InvalidGameId Játék nem található
+matchmaker.NoAvailableServers Foglalt az összes szerver
 matchmaker.GameIssue Unknown Join Issue
 adblocker Kapcsold ki az ad blockert hogy tudj szerezni ingyen KR-t.
 ad-failed A reklámot nem tudtuk betölteni. Próbáld újra.
@@ -699,17 +699,17 @@ server.config.minPlayers Minimum játékosok
 server.config.lives Életek
 server.config.gameTime Perc
 server.config.gravMlt Gravitáció
-server.config.tickRI Magas tickrate
+server.config.tickRI Magas órajel
 server.config.maxPS 40 Fős szerver
 server.config.promServ Szerver népszerűsítése
 server.config.jumpMlt Ugrás ereje
 server.config.airStrf Légi kanyarodás
 server.config.deltaMlt Idő sebessége
-server.config.strafeSpd Kanyarosdás sebessége
+server.config.strafeSpd Kanyarodás sebessége
 server.config.fiRat Tüzelési sebesség
 server.config.reSpd Újratöltési sebesség
 server.config.slidTime Csúszási idő
-server.config.fixMov Javított mozdás
+server.config.fixMov Javított mozgás
 server.config.slidSpd Csúszási sebesség
 server.config.healthMlt Élet többszörözés
 server.config.impulseMlt Fegyver hatótávolság
@@ -723,47 +723,47 @@ server.config.t2Dmg Csapat 2 sebzése
 server.config.t3Dmg Csapat 3 sebzése
 server.config.t4Dmg Csapat 4 sebzése
 server.config.t5Dmg Csapat 5 sebzése
-server.config.selTeam Csapat választás
+server.config.selTeam Csapat kiválasztás
 server.config.allowSpect Megfigyelők
-server.config.killRewards Ölési jutalmak
+server.config.killRewards Gyilkolási jutalmak
 server.config.headshotOnly Csak fejbelövés
 server.config.noSecondary Másodlagos fegyverek kikapcsolása
 server.config.noStreaks Sorozatok kikapcsolása
 server.config.canSlide Csúszás
-server.config.wallJP Falugrás nagységa
-server.config.autoJump AUtomatikus ugrás
-server.config.bDrop Lövedék esése
+server.config.wallJP Falugrás nagysága
+server.config.autoJump Automatikus ugrás
+server.config.bDrop Lövedék lejtése
 server.config.thirdPerson Külső nézet
 server.config.requireCaptcha Kell captcha
 server.config.nameTags Nevek elrejtése
-server.config.kCams Ölés kamera
-server.config.aAnon Allow Anonymous
+server.config.kCams Gyilkos mustra
+server.config.aAnon Anonymous engedélyezése
 server.config.noReload Nincs újratöltés
 server.config.private Privát
 server.config.krRewards KR Jutalmak
 server.config.forceDefault Alapértelmezett beállítások kényszerítése
 server.config.warmupTime Bemelegítési idő
-server.config.gamRounds Rounds
-server.config.objtvTime Pont hosszúsága
+server.config.gamRounds Körök
+server.config.objtvTime Pont ideje
 server.config.forceSpawn Automatikus újraéledés ideje
-server.config.intermTmr Intermission (s)
+server.config.intermTmr Szünet (s)
 server.config.scoreLimit Pontszám határ
 server.config.keepTScore Csapat pontszám megtartása
 server.config.forceC Módspecifikus osztályok kényszerítése
 server.config.logTim Idő (Verseny, Parkour)
 server.config.hitBoxPad Hitbox méret
-server.config.hpRegen Regenerálódás
+server.config.hpRegen Gyógyulás
 server.config.disableB Határok kikapcsolása
 server.config.throwMel Eldobható kések
 server.config.noCosm Kinézetek kikapcsolása
-server.config.tstCmp Test Mode
+server.config.tstCmp Teszt mód
 server.config.limitClasses Limit Classes
 server.config.tmSize Team Size
 server.config.fallDmg Fall Damage
 server.config.fallDmgThr Fall Damage Thresh
 server.config.noDraws No Draws
-server.config.bstOfR Best of
-server.config.chrgWeps Chargable Weapons
+server.config.bstOfR Legjobb
+server.config.chrgWeps Díjköteles fegyver
 social.login Bejelentkezés/Regisztrálás
 social.login.failed Sikertelen bejelentkezés
 social.login.buy Jelentkezz be a vásárláshoz
@@ -773,7 +773,7 @@ social.login.proccessing Bejelentkezés...
 social.since Ekkortól:
 social.user.maps Felhasználó játékai
 social.user.mods Felhasználó modjai
-social.maps.none Nem találtunk játékokat...
+social.maps.none Ilyen játék nem található...
 social.mods.none Nem találtunk modokat...
 social.market.price.low Legalacsonyabb ár
 social.market.price.list Add meg az árat:
@@ -784,21 +784,21 @@ social.market.unlist Levétel
 social.market.unlisting Levétel...
 social.market.posting Listázás...
 social.market.req {0}. szint szükséges
-social.market.cant Nincs elég KR-ed
+social.market.cant Nem telik rá
 social.market.purchase Megvásárlás
 social.market.fee Nincs listadíj
-social.market.failed Sikertelen. Próbáld  újra
+social.market.failed Sikertelen. Próbáld újra
 social.market.head Fej
 social.market.back Hát
 social.market.waist Derék
 social.market.face Arc
 social.market.shoe Cipő
-social.market.pet Kisállat
-social.market.wrist Wrist Item
+social.market.pet Kedvenc
+social.market.wrist Csukló tárgy
 social.market.melee Kés
 social.market.spray Spré
-social.market.dye Festék
-social.market.collectible Collectible Item
+social.market.dye Testfesték
+social.market.collectible Gyűjthető tárgy
 social.market.none Nem találtunk ilyen tárgyakat
 social.market.login Be kell jelentkezned.
 social.market.grace Elérhető {0} idő múlva
@@ -810,23 +810,23 @@ social.trading.submitting Ajánlat elküldése...
 social.market.gift.amount Az ajándék mennyisége ebben:
 social.market.fee.gift Díjmentes
 social.market.gift KR ajándékozása
-social.market.gift.msg Adj hozzá egy üzenetet
+social.market.gift.msg Hagyj üzenetet
 respawn.auto Automatikus újraéledés: {0}
-custom.host.ranked Nem tudsz meccset hosztolni amíg kimpetitívezel.
+custom.host.ranked Rangsorolt meccsben nem tudsz hosztolni.
 funds.insufficient Fedezethiány
 funds.out Úgy látszik elfogyott a KR-ed.
-custom.passcode.long tÚL Túl hosszú a jelszó
+custom.passcode.long Túl hosszú a jelszó
 custom.passcode.input Add meg a szerver jelszavát a belépéshez
-custom.tryagain Próbáld újra.
+custom.tryagain Kérlek próbáld újra.
 purchase.kr.success {0} KR hozzá lett adva a fiókodhoz
 limited.purchase.ask Biztos meg akarod venni ezt: [{0}] {1} KR-ért?
-limited.purchase.success {0} KR hozzáadva a a fiókodhoz
-pretend.exit Nyomd meg a [{0}] gombot a kilépéshez
+limited.purchase.success {0} hozzáadva a a fiókodhoz
+pretend.exit Nyomd meg újra [{0}] gombot a kilépéshez
 settings.loaded Beállítások betöltve
 settings.loaded.none Nem találtunk beállításokat
 account.login.required Be kell jelentkezned
-account.banned.hack Ezt a fiókot bannolták hackelés miatt.
-account.banned.appeal Ha fellebbezni szeretnél a ban ellen, vedd fel a kapcsolatot:
+account.banned.hack Ezt a fiókot kitiltották hackelés miatt.
+account.banned.appeal Ha fellebbezni szeretnél a kitiltás ellen, vedd fel a kapcsolatot:
 account.delete Kérheted a fiókod törlését, ha a kérelmet nem mondod vissza 14 napon belül, a fiókod és az összes vele kapcsolatos adat véglegesen törölve lesz.
 account.delete.request Biztosan szeretnéd kérni a fiókod törlését?
 account.delete.cancel Biztosan visszamondod a fiókod törlését?
@@ -843,9 +843,9 @@ stats.fistkills Elverések
 stats.thrownkills Bullseye-ok
 stats.headshots Fejlövések
 stats.wallbangs Fal lövések
-stats.crouches Crouches
+stats.crouches Guggolás
 stats.sprays Elhelyezett sprék
-stats.kpd Helpful Reports
+stats.kpd Helpful Feljelentések
 windows.host.default.settings Az alapméretezett beállítások engedélyezése megengedi hogy tároljuk a játékos fejlődését, és pontszámait
 windows.host.default.commands *A hoszt parancsok ki vannak kapcsolva ebben a módban: /noclip /god /smite stb.
 windows.host.rewards A KR jutalmak engedélyezése kényszeríti a szervert az alap beállítások használatára és megengedi a játékosoknak hogy KR-t nyerjenek a pálya tőkéjéből.
@@ -857,126 +857,126 @@ twitch.link Biztos hozzá akarod kötni a twitch fiókodat ehhez a krunker fiók
 twitch.unlink Biztos szét akarod kapcsolni a twitch fiókodat a krunker fiókoddal?
 windows.clan.leave Biztos ki akarsz lépni a klánból?
 windows.clan.delete Biztos törölni akarod a klánt?
-windows.clan.kick Biztos ki akarod rugni őt: {0} a klánból?
-windows.store.premium.purchase Biztos meg akarod venni a prémiumot {0} napra?
-windows.store.premium.gift Are you sure you want to Gift '{0}' {1} days of Premium?
-windows.playerlist.ban Biztos ki akaord bannolni őt: {0} a játékból?
-windows.playerlist.flag Biztos meg akarod jelölni őt: {0}?
+windows.clan.kick Biztos kiszeretnéd rúgni: {0} a klánból?
+windows.store.premium.purchase Biztos megszeretnéd venni a prémiumot {0} napra?
+windows.store.premium.gift Biztos, hogy szeretnél ajándékozni '{0}' {1} napi Premiumot?
+windows.playerlist.ban Biztos kiszeretnéd bannolni őt: {0} a játékból?
+windows.playerlist.flag Biztos megszeretnéd jelölni őt: {0}?
 windows.playerlist.unflag Biztos el akarod távolítani a megjelölést róla: {0}?
 windows.playerlist.punish Biztos meg akarod büntetni őt: {0}?
-item.view.open Open Model Viewer
-item.view.more More Information
-item.sell.cant Item cant be sold.
-item.sell.cant.krunker Item cant be sold on krunker.
-item.sell.quick Are you sure you want to Quick Sell {0}?
-item.sell.destroy Are you sure you want to Destroy {0}?
-social.profile.stats Overall Stats
-social.profile.class Class Stats
-social.profile.sales Sales
-social.profile.sales.market Market Sales
-social.profile.skins Skins [{0}]
-social.profile.skins.none No published Skins from this user
-social.profile.games Games [{0}]
-social.profile.games.none No published Games from this user
+item.view.open Model megtekintése
+item.view.more További információ
+item.sell.cant Ezt a tárgyat nem adhatod el
+item.sell.cant.krunker Ezt a tárgyat nem adhatod el Krunkerben.
+item.sell.quick Biztos gyorsan elszeretnéd adni a kovetkezőt: {0}?
+item.sell.destroy Biztosan megakarod semmisíteni a következőt: {0}?
+social.profile.stats Statisztika összefoglaló
+social.profile.class Kaszt statisztika
+social.profile.sales Eladások
+social.profile.sales.market Piac eladások
+social.profile.skins Kinézetek [{0}]
+social.profile.skins.none Ez a játékos nem tett közzé kinézetet
+social.profile.games Játékok [{0}]
+social.profile.games.none Ez a játékos nem tett közzé játékot
 social.profile.assets Assets [{0}]
-social.profile.assets.none No published Assets from this user
-social.profile.mods Mods [{0}]
-social.profile.mods.none No published Mods from this user
-social.search Search Results
-social.market.stats.rare Rarest Items
-social.market.stats.circulation In Circulation
-social.market.stats.units units Worldwide
-social.trades.in Incoming
-social.trades.in.head Incoming Offers ({0})
-social.trades.out Outgoing
-social.trades.out.head Outgoing Offers ({0})
-social.trades.history History
-social.trades.history.head Trade History ({0})
-social.trades.decline Decline All
-social.trades.message ENABLE TRADE MESSAGES IN SETTINGS
-social.trades.warning You get no items from this trade!
-social.trades.accept Are you sure you want to accept this offer?
-stats.airdrops KR-Packages
-stats.airdrops.stolen Airdrops Stolen
-settings.quality.flapAnim Sniper Flap Animation
-chall.name.hs Get {0} headshots {1}
-chall.name.ns Get {0} no-scopes {1}
-chall.name.ls Get {0} legshots {1}
-chall.name.tmk Get {0} throwing knife kills {1}
-chall.name.fb Get {0} first bloods {1}
-chall.name.mk Get {0} melee kills {1}
-chall.name.fk Get {0} fist kills {1}
-chall.name.qs Get {0} quickscopes {1}
-chall.name.wb Get {0} wallbangs {1}
-chall.name.airk Get {0} mid-air kills {1}
-chall.name.lns Get {0} longshots {1}
-chall.name.tk Get {0} turbo kills {1}
-chall.name.drk Get {0} drift kills {1}
-chall.name.kstk Get a {0} killstreak {1}
-chall.name.w Win {0} matches
-chall.name.d Die {0} times
-chall.name.score Get {0} score
-chall.name.dmg Deal {0} damage {1}
-chall.name.bzk Get {0} buzz kills {1}
-chall.name.cc Get {0} close-calls {1}
-chall.name.rk Deal {0} revenge kills {1}
-event.doubleXP 2x Class XP enabled for this match
-ranked.join Joined Ranked Match. Abandoning a match will result in a temporary ban
-ranked.progress Game in Progress
-ranked.team Please join a Team
-ranked.switch Can't switch while in-game
-ranked.spectate Spectating Disabled in Ranked
-ranked.login Login to Spawn
-ranked.sync Missing Sync Data
-ranked.team.spawn Please join a Team to Spawn
-ranked.class.spawn Please select a Class to Spawn
-modes.round.win Your Team has secured this round
-modes.round.loss This round is no longer winnable
-modes.round.switch Switching Sides. Prepare for the next Round
-modes.trade.success Trade Successful
-modes.prophunt.limit [Prop Hunt] You are out of prop switches
-modes.prophunt.left [Prop Hunt] You have {0} switches remaining
-modes.prophunt.rotation.on [Prop Hunt] Rotation Enabled
-modes.prophunt.rotation.off [Prop Hunt] Rotation Disabled
-modes.prophunt.rotation.reset [Prop Hunt] Rotation reset.
-commands.login Login to use this command
-commands.connected {0} connected, {1} in menu
-commands.host {0} is the current Host.
-commands.noclip.on Noclip - Enabled
-commands.noclip.off Noclip - Disabled
-commands.god.on God mode - Enabled
-commands.god.off God mode - Disabled
-commands.god.on.other God mode - Enabled for {0}
-commands.god.off.other God mode - Disabled for {0}
-commands.smite.on Smite - Enabled
-commands.smite.off Smite - Disabled
-commands.smite.on.other Smite - Enabled for {0}
-commands.smite.off.other Smite - Disabled for {0}
-commands.perk Gave {0} {1}
-commands.maxperk Gave {0} MAX {1}
-commands.unlimited.on Unlimited Ammo - Enabled
-commands.unlimited.off Unlimited Ammo - Disabled
-commands.unlimited.on.other Unlimited Ammo - Enabled for {0}
-commands.unlimited.off.other Unlimited Ammo - Disabled for {0}
-commands.spraybypass.on Unlimited Sprays - Enabled
-commands.spraybypass.off Unlimited Sprays - Disabled
-commands.spraybypass.on.other Unlimited Sprays - Enabled for {0}
-commands.spraybypass.off.other Unlimited Sprays - Disabled for {0}
-commands.suspect.invalid Invalid suspect info
-commands.suspect.menu Suspect in menu
-commands.suspect.left Suspect has left
-commands.suspect.found Suspect Found. Spectating: {0}, Spawned: {1}, Name: {2}
-commands.forfeit.next Must play atleast 1 round
-commands.forfeit.wait Wait till match starts to forfeit
-commands.forfeit.later Please try again in a few seconds
-commands.forfeit.voted You already voted.
-commands.forfeit.limit You can only start one vote per game
-commands.forfeit.ended Forfeiting Game
-commands.forfeit.ended.other Other Team Forfeited
-server.message.join {0} joined the game
-server.message.left {0} left the game
-server.message.kicked {0} was kicked
-server.message.banned {0} was banned
-server.message.votekicked {0} was vote kicked
-server.message.arrested {0} was arrested by the K.P.D
+social.profile.assets.none Ez a játékos nem tett közzé tartalmat
+social.profile.mods Modok [{0}]
+social.profile.mods.none Ez a játékos nem tett közzé modot
+social.search Keresési találatok
+social.market.stats.rare Ritka tárgyak
+social.market.stats.circulation Forgalomban
+social.market.stats.units egységek világszerte
+social.trades.in Bejővő
+social.trades.in.head Bejővő ajánlatok ({0})
+social.trades.out Kimenő
+social.trades.out.head Kimenő ajánlatok ({0})
+social.trades.history Előzmények
+social.trades.history.head Csere előzmények ({0})
+social.trades.decline Összes elutasítása
+social.trades.message CSERE ÜZENETEK ENGEDÉLYEZÉSE A BEÁLLÍTÁSOKBAN
+social.trades.warning Nem kapsz tárgyat ebből a cseréből
+social.trades.accept Biztosan elszeretnéd fogadni ezt a cserét?
+stats.airdrops KR-Csomagok
+stats.airdrops.stolen Légdroppok ellopva
+settings.quality.flapAnim Sniper fékszárny animáció
+chall.name.hs Szerezz {0} fejlövést {1}
+chall.name.ns Szerezz {0} no-scope-ot {1}
+chall.name.ls Szerezz {0} láblövést {1}
+chall.name.tmk Szerezz {0} kés hajítást {1}
+chall.name.fb Szerezz {0} elsőgyilkosságot {1}
+chall.name.mk Szerezz {0} közelharci gyilkosságot {1}
+chall.name.fk Szerezz {0} ökölcsapást {1}
+chall.name.qs Szerezz {0} gyorslövést {1}
+chall.name.wb Szerezz {0} falon át lövést {1}
+chall.name.airk Szerezz {0} levegőbeli ölést {1}
+chall.name.lns Szerezz {0} hosszú lövést {1}
+chall.name.tk Szerezz {0} turbó ölést {1}
+chall.name.drk Szerezz {0} drift ölést {1}
+chall.name.kstk Szerezz {0} sorozatgyilkosságot {1}
+chall.name.w Nyerj {0} meccset
+chall.name.d Halj {0} alkalommal
+chall.name.score Szerezz {0} score
+chall.name.dmg Okozz {0} sebzést {1}
+chall.name.bzk Szerezz {0} zümmögés ölést {1}
+chall.name.cc Szerezz {0} közeli ölést {1}
+chall.name.rk Okozz {0} bosszú ülést {1}
+event.doubleXP Kétszeres XP a Kasztra bekapcsolva erre a meccsre.
+ranked.join Rangsorolt meccshez való csatlakozás. Rangsorolt meccs elhagyása ideiglenes kitiltással jár!
+ranked.progress Játék folyamatban
+ranked.team Kérlek csatlakozz egy csapatba
+ranked.switch Játék közben nem tudsz kasztot váltani
+ranked.spectate Néző mód kikapcsolva Rangsoroltban
+ranked.login Jelentkezz be a belépéshez
+ranked.sync Hiányzó szinkronizálási adatok
+ranked.team.spawn Kérlek, csatlakozz egy csapathoz a belépéshez
+ranked.class.spawn Válassz egy kasztot a belépéshez
+modes.round.win A csapatod biztosította ezt a kört
+modes.round.loss Ez a forduló már nem nyerhető meg
+modes.round.switch Térfélcsere! Készülj fel a következő fordulóra
+modes.trade.success Sikeres csere!
+modes.prophunt.limit [Bujócska] Kifogytak a kellékek kapcsolók
+modes.prophunt.left [Bujócska] {0} kapcsolód maradt
+modes.prophunt.rotation.on [Bujócska] Rotáció engedélyezve
+modes.prophunt.rotation.off [Bujócska] Rotáció letiltva
+modes.prophunt.rotation.reset [Bujócska] Rotáció alapheléyzetbe állítva.
+commands.login Jelentkezz be, hogy használhatsd ezt a parancsot.
+commands.connected {0} csatlakozva, {1} a menüben
+commands.host {0} a jelenlegi házigazda.
+commands.noclip.on Áthaladás - engedélyezve
+commands.noclip.off Áthaladás - letiltva
+commands.god.on Isten mód - engedélyezve
+commands.god.off Isten mód - letiltva
+commands.god.on.other Isten mód - engedélyezve neki: {0}
+commands.god.off.other Isten mód - letiltva neki: {0}
+commands.smite.on Lesújt - Enabled
+commands.smite.off Lesújt - Disabled
+commands.smite.on.other Lesújt - engedélyezve neki: {0}
+commands.smite.off.other Lesújt - letiltva neki: {0}
+commands.perk Adva {0} {1}
+commands.maxperk adva {0} MAX {1}
+commands.unlimited.on Korlátlan lőszer - engedélyezve
+commands.unlimited.off Korlátlan lőszer - letiltva
+commands.unlimited.on.other Korlátlan lőszer - engedélyezve neki: {0}
+commands.unlimited.off.other Korlátlan lőszer - letiltva neki: {0}
+commands.spraybypass.on Korlátlan Spré - engedélyezve
+commands.spraybypass.off Korlátlan Spré - letiltva
+commands.spraybypass.on.other Végtelen Spré - engedélyezve neki: {0}
+commands.spraybypass.off.other Végtelen Spré - letiltva neki: {0}
+commands.suspect.invalid Hibás gyanusított információ
+commands.suspect.menu Gyanusított a menüben
+commands.suspect.left Gyanusított kilépett
+commands.suspect.found Gyanusított megtalálva. Nézik: {0}, Belépve: {1}, Név: {2}
+commands.forfeit.next Legalább 1 kört le kell játszani
+commands.forfeit.wait Várd meg, amíg a meccs elkezdődik mielőtt feladnád
+commands.forfeit.later Kérlek próbáld újra pár másodperc múlva
+commands.forfeit.voted Már szavaztál.
+commands.forfeit.limit Játékonként csak egy szavazást indíthatsz el
+commands.forfeit.ended Meccs feladása
+commands.forfeit.ended.other Az ellenséges csapat feladta
+server.message.join {0} csatlakozott a játékból
+server.message.left {0} elhagyta a játékhoz
+server.message.kicked {0} ki lett rúgva
+server.message.banned {0} ki lett tiltva
+server.message.votekicked {0} ki lett szavazva
+server.message.arrested {0} le lett tartóztatva a K.P.D által.
 `;
