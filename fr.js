@@ -932,7 +932,7 @@ ranked.team.spawn Rejoignez une équipe pour apparaître
 ranked.class.spawn Choisissez une classe pour apparaître
 modes.round.win Votre équipe a assurée la victoire
 modes.round.loss L'équipe adverse a assurée la victoire
-modes.round.switch Changement de côté. Préparez-vous pour le prochain round
+modes.round.switch Changement de côté. Préparez-vous pour la prochaie manche
 modes.trade.success Échange réussi
 modes.prophunt.limit [Prop Hunt] You are out of prop switches
 modes.prophunt.left [Prop Hunt] You have {0} switches remaining
