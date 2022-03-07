@@ -64,7 +64,7 @@ player.killed Sinut Tappoi
 player.killstreak {0} on a {1} Kill Streak
 player.inactive Heitetty ulos toimettomuuden vuoksi
 player.disconnect YHTEYS KATKENNUT
-timer.end Seuraava peli alkaa {0}:n kuluttu
+timer.end Seuraava peli alkaa {0}:n kuluttua
 leaderboard.empty Tyhjä Serveri
 popup.checkpoint Tallennuspiste!
 app.play KLIKKAA PELATAKSESI
@@ -85,7 +85,7 @@ settings.backup Varmuuskopiointiasetukset
 settings.controls.change Näppäinasetukset
 settings.controls.press Paina mitä tahansa näppäintä
 settings.controls.leaderboard InGame Leaderboard Trigger Type
-settings.controls.voicechat Voicechat Trigger Type
+settings.controls.voicechat Äänipuhelun Laukaisimen tyyppi
 settings.local.header Lokalisointi <span id="requiresRestart"><span style="color: #eb5656">*</span> vaatii uudelleenkäynnistyksen</span>
 settings.local.region Oletusalue
 settings.local.lang Kieli
@@ -94,7 +94,7 @@ settings.network.netRerouting Automaattinen Reititys (Vaikuttaa Viiveeseen)
 settings.network.netRate Netin Taajuus (Hz)
 settings.network.lagComp Viiveen Korjaus
 settings.network.optNet Optimoitu Nettiyhteys
-settings.network.quickplay Force Quickplay
+settings.network.quickplay Pakota Nopeapelaus
 settings.popup.header Ponnahdusikkunat
 settings.experimental.header Kokeelliset Asetukset
 settings.experimental.holiday Loma-Efektit
@@ -103,7 +103,7 @@ settings.experimental.mouseFlickFix Hiiren Nopean Liikahtamisen Korjaus
 settings.experimental.shaderRendering Instance Rendering
 settings.experimental.mouseAccel Hiiren Kiihtyvyys
 settings.experimental.tbInterp TB Interpolaatio
-settings.client.header Client
+settings.client.header Ohjelma
 settings.client.unlimitedFrames Rajaton FPS
 settings.client.gameCap Tallenna Ottelu
 settings.client.experimental Kokeelliset ominaisuudet
@@ -548,7 +548,7 @@ windows.controls.taunt3 Päästä Ääni (Meme)
 windows.controls.taunt4 Päästä Ääni (WTF is This?)
 windows.controls.taunt5 Päästä Ääni (Right Now!)
 windows.controls.prop Valitse Prop (Pidä Painettuna)
-windows.controls.propRand Valitsr Satunnainen Prop
+windows.controls.propRand Valitse Satunnainen Prop
 windows.controls.propRot Vaihda Rotaatio
 windows.controls.propRotR Resetoi Rotaatio
 windows.controls.premium0 Noclip
@@ -570,7 +570,7 @@ windows.host.preset.name Esiasetuksen nimi
 windows.host.start Aloita Peli
 windows.host.rehost Aloita Peli (Tuo Pelaajia)
 windows.spray.header Valitse Spray
-windows.spray.default Vapauta Spray
+windows.spray.default Ilmainen Spray
 windows.spray.spin Spray
 windows.maps.header Kustomoidut Pelit
 windows.maps.none Pelejä Ei Löydetty!
