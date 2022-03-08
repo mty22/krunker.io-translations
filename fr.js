@@ -921,7 +921,7 @@ chall.name.bzk Get {0} buzz kills {1}
 chall.name.cc Obtenez {0} échappées-belles {1}
 chall.name.rk Faire {0} éliminations de vengeance {1}
 event.doubleXP Double XP de classe activée pour cette partie
-ranked.join Joined Match classé rejoint. Vous serez banni temporairement si vous abandonnez un match.
+ranked.join Match classé rejoint. Vous serez banni temporairement si vous abandonnez un match.
 ranked.progress Partie en cours
 ranked.team Rejoignez une équipe
 ranked.switch Impossible de changer de classe pendant le match
