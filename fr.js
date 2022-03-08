@@ -966,7 +966,7 @@ commands.suspect.invalid Informations sur le suspect invalides
 commands.suspect.menu Suspect dans le menu
 commands.suspect.left Suspect a quitté le match
 commands.suspect.found Suspect trouvé. Spectating: {0}, Spawned: {1}, Name: {2}
-commands.forfeit.next Must play atleast 1 round
+commands.forfeit.next Doit jouer au moins une manche
 commands.forfeit.wait Attendez que le match commence pour déclarer forfait
 commands.forfeit.later Veuillez réessayer dans quelques secondes
 commands.forfeit.voted Vous avez déjà voté.
