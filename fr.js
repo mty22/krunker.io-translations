@@ -927,7 +927,7 @@ ranked.team Rejoignez une équipe
 ranked.switch Impossible de changer de classe pendant le match
 ranked.spectate Mode spectateur désactivé en partie classée
 ranked.login Connectez-vous pour apparaître
-ranked.sync Données synchronisées manquantes
+ranked.sync Données de synchronisation manquantes
 ranked.team.spawn Rejoignez une équipe pour apparaître
 ranked.class.spawn Choisissez une classe pour apparaître
 modes.round.win Votre équipe a assurée la victoire
