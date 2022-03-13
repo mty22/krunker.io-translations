@@ -96,7 +96,7 @@ settings.network.lagComp ラグ補正
 settings.network.optNet ネットワークの最適化
 settings.network.quickplay Force Quickplay
 settings.popup.header ポップアップ
-settings.experimental.header 実験的機能
+settings.experimental.header テスト中の設定
 settings.experimental.holiday ホリデーエフェクト
 settings.experimental.aimFreezeFix エイム中のフリーズを修正
 settings.experimental.mouseFlickFix エイム飛びの補正
@@ -106,7 +106,7 @@ settings.experimental.tbInterp 動きの補完
 settings.client.header クライアント
 settings.client.unlimitedFrames FPS解放
 settings.client.gameCap ゲームキャプチャー
-settings.client.experimental 実験的機能
+settings.client.experimental テスト中の設定
 settings.client.discordRPC Discord RPC
 settings.client.resourceSwapper リソーススワッパー
 settings.client.clearCache キャッシュをクリア
@@ -149,7 +149,7 @@ settings.quality.shadowsDynamic ダイナミックシャドウ
 settings.quality.trails 他プレイヤーの弾道
 settings.quality.yourTrails 自分の弾道
 settings.quality.mflash マズルフラッシュ
-settings.quality.flap スナイパーフラップを表示
+settings.quality.flap スナイパーフラップ
 settings.quality.lowSpec 低スペック
 settings.quality.ambient シェーディング (環境光)
 settings.quality.ambientOld 古いシェーディング (可能な場合のみ)
@@ -249,7 +249,7 @@ settings.crosshair.color 色
 settings.crosshair.shadow.color 影の色
 settings.crosshair.shadow.thickness 影の濃さ
 settings.crosshair.size サイズ
-settings.crosshair.thickness 太さ
+settings.crosshair.thickness 大きさ
 settings.crosshair.gap ギャップ
 settings.crosshair.dot ドット
 settings.crosshair.opacity.use カスタム不透明度を使用
@@ -274,7 +274,7 @@ settings.crosshairm.color 色
 settings.crosshairm.shadow.color 影の色
 settings.crosshairm.shadow.thickness 影の濃さ
 settings.crosshairm.size サイズ
-settings.crosshairm.thickness 太さ
+settings.crosshairm.thickness 大きさ
 settings.crosshairm.gap ギャップ
 settings.crosshairm.dot ドット
 settings.crosshairm.opacity.use カスタム不透明度を使用
@@ -388,7 +388,7 @@ settings.editing.score.shadow ポップアップスコアの影
 settings.editing.scoreOffX ポップアップスコアX座標
 settings.editing.scoreOffY ポップアップスコアY座標
 settings.editing.prog.color 進捗バーの色
-settings.editing.prog.opacity 進捗バーの不透明度
+settings.editing.prog.opacity 進捗バーの透明度
 settings.editing.prog.scale 進捗バーの大きさ
 settings.editing.prog.shadow 進捗バーの影
 settings.editing.progOffX 進捗バーX座標
@@ -412,9 +412,9 @@ settings.editing.depth マップの深さ
 settings.editing.green グリーンスクリーン
 settings.editing.trailcol 弾道の色
 settings.editing.ropecol グラップルの色
-settings.editing.tracercol 曳光弾の色
-settings.editing.tracer 曳光弾
-settings.editing.tracer.offset 曳光弾の座標
+settings.editing.tracercol 弾丸の色
+settings.editing.tracer 弾丸の色
+settings.editing.tracer.offset 弾丸の座標
 settings.shaders.header シェーダー入力
 settings.mods.header カスタマイズ
 settings.mods.load MODをロード
@@ -422,10 +422,10 @@ settings.mods.logo ロゴの変更を許可
 settings.mods.auto MODを自動ロード
 settings.mods.borders スコープボーダー
 settings.mods.borderCol スコープボーダーの色
-settings.mods.borderOpac スコープボーダーの不透明度
+settings.mods.borderOpac スコープボーダーの透明度
 settings.mods.scope スコープ画像
 settings.mods.scope.paste スコープ画像URL
-settings.mods.scope.opacity スコープ画像の不透明度
+settings.mods.scope.opacity スコープ画像の透明度
 settings.mods.scope.width スコープ画像の幅
 settings.mods.scope.height スコープ画像の高さ
 settings.mods.dot レティクル画像
@@ -585,7 +585,7 @@ windows.publish.map.update 公開/更新
 windows.publish.map.login してゲームを作成・アップロードしよう!
 windows.theatre.header シアターモード
 windows.theatre.record 録画を有効にする
-windows.theatre.key 録画キー
+windows.theatre.key レコードキー
 windows.clans.header クラン
 windows.clans.members メンバー ({0})　
 windows.clans.requests リクエスト
@@ -655,7 +655,7 @@ windows.skins.premiumOnly Premium Only
 windows.skins.classOnly Req {0}
 windows.skins.req Req lvl {0}
 windows.skins.default デフォルトスキン
-windows.advertise.header 宣伝する
+windows.advertise.header 広告
 windows.support.header サポート
 windows.players.header プレイヤーリスト
 windows.players.none 現在、プレイヤーはいません...
@@ -683,7 +683,7 @@ matchmaker.GameFull ゲームが満員です
 matchmaker.NoServersMatchQuery ゲームを更新中
 matchmaker.InvalidGameId ゲームが見つかりません
 matchmaker.NoAvailableServers サーバーが満員です
-matchmaker.GameIssue 不明なゲーム参加時の問題
+matchmaker.GameIssue 不明なゲームの問題
 adblocker 無料でKRを受け取るには、広告ブロッカーを無効にしてください
 ad-failed 広告の読み込みに失敗しました。後でもう一度試してください
 streamers.views {0}人が観戦中
@@ -744,13 +744,13 @@ server.config.krRewards KR報酬
 server.config.forceDefault 強制的にデフォルトの設定を使用
 server.config.warmupTime ウォームアップ時間 (分)
 server.config.gamRounds ラウンド数
-server.config.objtvTime オブジェクティブの時間
+server.config.objtvTime オブジェクトごとの時間
 server.config.forceSpawn 自動リスポーン時間
 server.config.intermTmr 休憩時間 (秒)
 server.config.scoreLimit スコア制限
 server.config.keepTScore チームのスコアを維持
 server.config.forceC クラスを強制的に指定
-server.config.logTim タイムを記録する (レース, パルクール)
+server.config.logTim タイムを記録する (Race, Parkour)
 server.config.hitBoxPad ヒットボックススケール
 server.config.hpRegen HP回復
 server.config.disableB ボーダー無効
@@ -812,25 +812,25 @@ social.market.fee.gift 手数料なし
 social.market.gift KR をギフトする
 social.market.gift.msg メッセージを残す
 respawn.auto {0}秒後に自動リスポーンします
-custom.host.ranked ランクマッチ中にゲームをホストすることは出来ません。
+custom.host.ranked ランクマッチ中にゲームをホストすることは出来ません
 funds.insufficient 資金不足です
-funds.out KRを使い切りました。
+funds.out KRを使い切りました
 custom.passcode.long パスワードが長すぎます
 custom.passcode.input 参加するにはパスワードを入力してください
-custom.tryagain もう一度やり直してください。
+custom.tryagain もう一度やり直してください
 purchase.kr.success {0}KRをあなたのアカウントに追加しました
 limited.purchase.ask [{0}]を{1}KRで購入しますか?
 limited.purchase.success {0}をインベントリに追加しました
 pretend.exit もう一度[{0}]を押してゲームから離れる
 settings.loaded 設定を読み込みました
 settings.loaded.none 設定が見つかりません
-account.login.required ログインしている必要があります
+account.login.required ログインが必要です
 account.banned.hack このアカウントはチート行為によってBANされました
 account.banned.appeal もしアカウントのBANについて異議申し立てがある場合はこちらへ:
 account.delete アカウント削除のリクエストがされた場合、14日以内にキャンセルされなければアカウントと関連するすべてのデータは永久に削除されます
 account.delete.request 本当にアカウント削除をリクエストしますか?
 account.delete.cancel 本当にアカウント削除のリクエストを取り消しますか?
-spin.free.available フリーKRが入手可能です!
+spin.free.available フリーKRが利用可能です!
 spin.free.claim このスピンは試合終了後、一時間に一回回すことができます
 spin.free.disable このポップアップは設定から非表示にすることができます
 mod.reset.0 リスポーン後から有効になります
@@ -855,7 +855,7 @@ windows.store.creator クリエイターコードを使ってあなたのお気�
 windows.chall.customs カスタムマッチ内でチャレンジをクリアすることはできません
 twitch.link 本当にtwitchアカウントとリンクしますか?
 twitch.unlink 本当にtwitchアカウントとのリンクを解除しますか?
-windows.clan.leave 本当にこのクランから脱退しますか?
+windows.clan.leave 本当にこのクランを離れますか?
 windows.clan.delete 本当にこのクランを削除しますか?
 windows.clan.kick 本当に{0}をこのクランからキックしますか?
 windows.store.premium.purchase 本当に{0}日分のプレミアムを購入しますか?
@@ -868,11 +868,11 @@ item.view.open モデルビューワーを開く
 item.view.more 詳細
 item.sell.cant このアイテムは販売できません
 item.sell.cant.krunker このアイテムはKrunker内で販売できません
-item.sell.quick 本当に{0}をクイックセルしますか?
+item.sell.quick 本当に{0}をクイックセールしますか?
 item.sell.destroy 本当に{0}を破壊しますか?
 social.profile.stats 全体の統計
 social.profile.class クラスごとの統計
-social.profile.sales 売上
+social.profile.sales 販売
 social.profile.sales.market マーケットの利益
 social.profile.skins Skins [{0}]
 social.profile.skins.none このユーザーによって公開されたスキンはありません
@@ -884,7 +884,7 @@ social.profile.mods Mods [{0}]
 social.profile.mods.none このユーザーによって公開されたMODはありません
 social.search 検索結果
 social.market.stats.rare 最もレアなアイテム
-social.market.stats.circulation 流通中
+social.market.stats.circulation 流通量
 social.market.stats.units 個 (全地域)
 social.trades.in 受信済み
 social.trades.in.head 受信した申請 ({0})
@@ -921,7 +921,7 @@ chall.name.bzk Get {0} buzz kills {1}
 chall.name.cc Get {0} close-calls {1}
 chall.name.rk Deal {0} revenge kills {1}
 event.doubleXP このマッチではクラスXPが2倍になります
-ranked.join ランクマッチに参加しました。マッチを放棄すると時的にBANされます
+ranked.join ランクマッチに参加しました。マッチ放棄を行うと一時的にBANされます
 ranked.progress マッチ中
 ranked.team チームに入ってください
 ranked.switch マッチ中にクラスを変更できません
@@ -970,8 +970,8 @@ commands.forfeit.next 最低1ラウンドプレイする必要があります
 commands.forfeit.wait 降参するにはマッチが始まるまで待ってください
 commands.forfeit.later 数秒後にもう一度やり直してください
 commands.forfeit.voted 投票済
-commands.forfeit.limit 投票の開始は1マッチにつき1回までです
-commands.forfeit.ended 降参中
+commands.forfeit.limit 投票を行えるのは1マッチにつき1回までです
+commands.forfeit.ended 降参しました
 commands.forfeit.ended.other 相手が降参しました
 server.message.join {0} joined the game
 server.message.left {0} left the game
