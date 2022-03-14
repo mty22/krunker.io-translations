@@ -1,4 +1,4 @@
-module.exports = `
+module.exports 出口、推出
 menu.btn.ranked 排位赛
 menu.btn.shop 商店
 menu.btn.social 社区
