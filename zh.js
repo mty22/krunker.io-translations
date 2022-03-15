@@ -1,7 +1,7 @@
 module.exports = `
 menu.btn.ranked 排位赛
 menu.btn.shop 商店
-menu.btn.social 社区
+menu.btn.social 社交
 menu.btn.maps 地图
 menu.btn.mods 模组
 menu.btn.settings 设置
@@ -29,7 +29,7 @@ generic.failed 失败
 generic.success 成功！
 generic.name 用户名
 generic.level 等级
-generic.score 总得分
+generic.score 得分
 generic.off 关
 generic.defeat 失败
 generic.victory 胜利
@@ -37,12 +37,12 @@ generic.matchover 比赛结束
 generic.matchaband 比赛被迫终止
 generic.follow 关注
 generic.unfollow 取消关注
-generic.followers 个关注者
-generic.following 个关注中
+generic.followers 个跟随者
+generic.following 个跟随中
 generic.games 游玩场数
 generic.wins 胜场数
 generic.lose 败场数
-generic.clan 公会
+generic.clan 团体
 generic.games.played 游玩场数
 generic.games.won 胜场数
 generic.games.lost 败场数
@@ -59,8 +59,8 @@ generic.register 注册
 generic.login 登录
 generic.accuracy 命中率
 player.waiting 等待更多玩家加入
-player.died 你死了
-player.killed 被此玩家击杀
+player.died 你已经死了
+player.killed 已经被此玩家击杀
 player.killstreak {0} on a {1} Kill Streak
 player.inactive 由于你的空闲时间过长，你已被踢出此服务器
 player.disconnect 连接已断开
@@ -75,7 +75,7 @@ app.play.controller 按下开始键开始游戏
 app.spectate.controller 按下开始键开始观战
 purchase.error 出错了
 purchase.error.click 点此</a> 重试！
-purchase.error.limit 你可能已超出每日交易限额
+purchase.error.limit 你已超出每日交易限额
 settings.reset 重置
 settings.reset.confirm 你确定要重置所有设置吗？
 settings.import 导入
@@ -122,7 +122,7 @@ settings.dev.extraBan 更多封禁信息
 settings.chat.header 聊天
 settings.chat.chat 显示聊天窗口
 settings.chat.chat.all 总是
-settings.chat.chat.focus 聚焦到 [Enter Message] 字段时
+settings.chat.chat.focus 聚焦到 [Enter Message] 内容时
 settings.chat.messages 显示玩家信息
 settings.chat.unboxings 显示玩家开箱信息
 settings.chat.chatOp 聊天窗口不透明度
@@ -210,10 +210,10 @@ settings.interface.hideNames.all 全部
 settings.interface.nametagStyle 名牌样式
 settings.interface.nametagOpac 名牌不透明度
 settings.interface.nametagScale 名牌显示比例
-settings.interface.nametagStyle.health 仅限血条
-settings.interface.nametagStyle.name 仅限名称
-settings.interface.nametagStyle.nameLvl 仅限名称和等级
-settings.interface.nametagStyle.all 全部
+settings.interface.nametagStyle.health 只显示血条
+settings.interface.nametagStyle.name 只显示名称
+settings.interface.nametagStyle.nameLvl 只显示名称和等级
+settings.interface.nametagStyle.all 显示全部
 settings.interface.healthNum 血量
 settings.interface.healthColT 队友血条颜色
 settings.interface.healthColE 敌人血条颜色
