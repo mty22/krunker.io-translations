@@ -37,7 +37,7 @@ generic.matchover 比赛结束
 generic.matchaband 比赛被迫终止
 generic.follow 关注
 generic.unfollow 取消关注
-generic.followers 个关注者
+generic.followers 个粉丝
 generic.following 个关注中
 generic.games 游玩场数
 generic.wins 胜场数
