@@ -690,7 +690,7 @@ streamers.views {0} viewers
 streamers.none No active streams!
 error.extentions If you have any extensions, disable them
 error.seek Try seeking a new game by clicking
-custom.map.upload.limit Failed. 500k Character Game Data Limit
+custom.map.upload.limit Failed. 500kb Character Game Data Limit
 custom.map.missing Select at least one Game or Map
 custom.mode.missing Select at least one Mode
 custom.class.missing Select at least one Class
