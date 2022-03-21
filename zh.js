@@ -830,7 +830,7 @@ account.banned.appeal 如果你想提出上诉，请联系：
 account.delete 你可以在此申请删除你的账户。请注意！如果此申请在14天内没有被取消，此账户的所有数据将会被永久抹除。
 account.delete.request 你确定要申请删除此账户吗？
 account.delete.cancel 你确定要取消申请删除此账户吗？
-spin.free.available 立即领取免费 KR！
+spin.free.available 可领取免费 KR！
 spin.free.claim 你必须在每小时内完成一场游戏才能领取此转盘。
 spin.free.disable 你可以在设置的 [General] 选项卡里禁用此弹窗。
 mod.reset.0 重生后此设置将会生效。
@@ -896,7 +896,7 @@ social.trades.decline 全部拒绝
 social.trades.message 在市场设置中启用「显示交易信息」选项
 social.trades.warning 你将不会在此交易中得到任何物品！
 social.trades.accept 你确定要接受此交易请求吗？
-stats.airdrops KR 空投
+stats.airdrops KR KR空投
 stats.airdrops.stolen 偷取空投次数
 settings.quality.flapAnim 狙击镜保护盖动画
 chall.name.hs 在 {1} 取得 {0} 个爆头
