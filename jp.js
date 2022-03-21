@@ -11,10 +11,10 @@ menu.btn.invite.clicked コピーしました
 menu.btn.join 参加する
 menu.btn.host ゲームをホスト
 menu.btn.browser サーバー
-generic.wait お待ちください ...
-generic.loading ロード中 ...
+generic.wait お待ちください...
+generic.loading ロード中...
 generic.none なし
-generic.connecting 接続中 ...
+generic.connecting 接続中...
 generic.select 選択
 generic.delete 削除
 generic.save セーブ
@@ -26,7 +26,7 @@ generic.submit 送信
 generic.create 作成
 generic.random ランダム
 generic.failed 失敗
-generic.success 成功！
+generic.success 成功!
 generic.name 名前
 generic.level レベル
 generic.score スコア
@@ -64,20 +64,20 @@ player.killed Killed By
 player.killstreak {0} on a {1} Kill Streak
 player.inactive 一定時間操作がなかったためゲームから切断されました
 player.disconnect 回線が切断されました
-timer.end 次のラウンドまであと {0} 秒
+timer.end 次のラウンドまであと{0}秒
 leaderboard.empty 空のロビー
-popup.checkpoint チェックポイント！
+popup.checkpoint チェックポイント!
 app.play クリックしてプレイ
 app.spectate クリックして観戦する
 app.play.mobile タップしてプレイ
 app.spectate.mobile タップして観戦する
-app.play.controller START を押してください
-app.spectate.controller START を押して観戦する
+app.play.controller STARTを押してください
+app.spectate.controller STARTを押して観戦する
 purchase.error エラーが発生しました
-purchase.error.click ここをクリック </a> して、もう一度試してください！
-purchase.error.limit 1 日の取引限度額を超えている可能性があります
+purchase.error.click ここをクリック</a>して、もう一度試してください!
+purchase.error.limit 1日の取引限度額を超えている可能性があります
 settings.reset リセット
-settings.reset.confirm 全ての設定をリセットしてもよろしいですか？
+settings.reset.confirm 全ての設定をリセットしてもよろしいですか?
 settings.import インポート
 settings.export エクスポート
 settings.none 設定が見つかりません
@@ -90,8 +90,8 @@ settings.local.header 現地化 <span id="requiresRestart"><span style="color: #
 settings.local.region デフォルト地域
 settings.local.lang 言語
 settings.network.header ネットワーク
-settings.network.netRerouting 自動ルーティング（ ping に影響します）
-settings.network.netRate ネットワークレート（ Hz ）
+settings.network.netRerouting 自動ルーティング (pingに影響します)
+settings.network.netRate ネットワークレート (Hz)
 settings.network.lagComp ラグ補正
 settings.network.optNet ネットワークの最適化
 settings.network.quickplay クイックプレイを強制
@@ -104,7 +104,7 @@ settings.experimental.shaderRendering インスタンスレンダリング
 settings.experimental.mouseAccel マウス加速
 settings.experimental.tbInterp 動きの補完
 settings.client.header クライアント
-settings.client.unlimitedFrames FPS 解放
+settings.client.unlimitedFrames FPS解放
 settings.client.gameCap ゲームキャプチャー
 settings.client.experimental 実験的機能
 settings.client.discordRPC Discord RPC
@@ -112,13 +112,13 @@ settings.client.resourceSwapper リソーススワッパー
 settings.client.clearCache キャッシュをクリア
 settings.client.resetSettings クライアントの設定をリセット
 settings.client.acceleratedCanvas ハードウェアアクセラレーション
-settings.client.angleBackend ANGLE グラフィックスバックエンド
+settings.client.angleBackend ANGLEグラフィックスバックエンド
 settings.client.colorProfile カラープロファイル
 settings.client.resourcePacks リソースパック
 settings.dev.header 開発者
 settings.dev.forceUpdate 強制的にスキンをアップデート
 settings.dev.forceRegen 常にプレイヤーを再生成
-settings.dev.extraBan 詳細な BAN 情報
+settings.dev.extraBan 詳細なBAN情報
 settings.chat.header チャット
 settings.chat.chat チャットボックスを表示
 settings.chat.chat.all 常時
@@ -130,7 +130,7 @@ settings.chat.chatBGOp チャット背景不透明度
 settings.chat.chatHeight チャットの高さ
 settings.chat.chatTimer チャットタイマー
 settings.chat.chatTextOutline チャット文字輪郭線表示
-settings.chat.chatFilter 英語 NG ワードフィルター
+settings.chat.chatFilter 英語NGワードフィルター
 settings.quality.header パフォーマンス
 settings.quality.updRate フレームレート制限
 settings.quality.rendDst レンダリング距離
@@ -151,8 +151,8 @@ settings.quality.yourTrails 自分の弾道
 settings.quality.mflash マズルフラッシュ
 settings.quality.flap スナイパーフラップを表示
 settings.quality.lowSpec 低スペック
-settings.quality.ambient シェーディング（環境光）
-settings.quality.ambientOld 古いシェーディング（可能な場合のみ）
+settings.quality.ambient シェーディング (環境光)
+settings.quality.ambientOld 古いシェーディング (可能な場合のみ)
 settings.quality.textureAnim テクスチャアニメーション
 settings.quality.objectAnim オブジェクトアニメーション
 settings.quality.screenShake 画面の振動
@@ -168,41 +168,41 @@ settings.post.bloomThreshold ブルームのしきい値
 settings.post.bloomStrength ブルームの強さ
 settings.post.bloomRadius ブルームの半径
 settings.post.ssao SSAO
-settings.post.ssaoRadius SSAO の半径
+settings.post.ssaoRadius SSAOの半径
 settings.interface.hitInd ヒットマーカーを表示
 settings.interface.hitColor ヒットマーカーの色
 settings.interface.dmg ダメージを表示
 settings.interface.dmgCol ダメージの色
 settings.interface.critCol クリティカルヒットの色
 settings.interface.header インターフェイス
-settings.interface.scale UI スケール
+settings.interface.scale UIスケール
 settings.interface.theme ゲームテーマ
-settings.interface.ui UI を表示
+settings.interface.ui UIを表示
 settings.interface.scoreboard 古いスコアボードを使用
 settings.interface.oldBrowser 古いブラウザーを使用
 settings.interface.rarityanim レアアイテムアニメーション
 settings.interface.showPfp プロフィール画像を表示
 settings.interface.showTradeMsg トレードメッセージを表示
 settings.interface.hideNonTrade トレード不可なスキンを隠す
-settings.interface.hp ダイナミック HP バー
+settings.interface.hp ダイナミック HPバー
 settings.interface.dmgScale ダメージスケール
 settings.interface.killf キルフィードを表示
 settings.interface.ping pingを表示
 settings.interface.net-stats ネットワーク統計を表示
-settings.interface.fps FPS を表示
+settings.interface.fps FPSを表示
 settings.interface.deaths デスカウンターを表示
-settings.interface.kd K/D カウンターを表示
+settings.interface.kd K/Dカウンターを表示
 settings.interface.kills キルカウンターを表示
 settings.interface.streak キルストリークカウンターを表示
 settings.interface.score スコアカウンターを表示
 settings.interface.spectators 観戦者カウンターを表示
 settings.interface.speed 移動スピードを表示
-settings.interface.speedOffX スピード表示 X 座標
-settings.interface.speedOffY スピード表示 Y 座標
+settings.interface.speedOffX スピード表示X座標
+settings.interface.speedOffY スピード表示Y座標
 settings.interface.speedOpacity スピード不透明度
 settings.interface.speedScale スピードスケール
-settings.interface.speedColor スピード色（現在）
-settings.interface.speedColorMax スピード色（最大）
+settings.interface.speedColor スピード色 (現在)
+settings.interface.speedColorMax スピード色 (最大)
 settings.interface.hideNames ネームタグ表示
 settings.interface.hideNames.team チームのみ
 settings.interface.hideNames.enemy 敵のみ
@@ -210,23 +210,23 @@ settings.interface.hideNames.all 全員
 settings.interface.nametagStyle ネームタグスタイル
 settings.interface.nametagOpac ネームタグ不透明度
 settings.interface.nametagScale ネームタグスケール
-settings.interface.nametagStyle.health HP のみ
+settings.interface.nametagStyle.health HPのみ
 settings.interface.nametagStyle.name ネームタグのみ
 settings.interface.nametagStyle.nameLvl ネームタグとレベルのみ
 settings.interface.nametagStyle.all 全て
-settings.interface.healthNum ネームタグ HP 数
-settings.interface.healthColT ネームタグ HP 色（チーム）
-settings.interface.healthColE ネームタグ HP 色（敵）
-settings.interface.xpBarCol XP バーの色
-settings.interface.xpBarCol2 XP バーカラーの色 2
-settings.interface.xpBarOpac XP バーの不透明度
+settings.interface.healthNum ネームタグHP数
+settings.interface.healthColT ネームタグHP色 (チーム)
+settings.interface.healthColE ネームタグHP色 (敵)
+settings.interface.xpBarCol XPバーの色
+settings.interface.xpBarCol2 XPバーカラーの色2
+settings.interface.xpBarOpac XPバーの不透明度
 settings.medals.header メダル
 settings.medals.show メダルを表示
 settings.medals.classic 古いメダル
 settings.medals.sound メダルの効果音
 settings.medals.scale メダルスケール
-settings.medals.xOff メダル X 座標
-settings.medals.yOff メダル Y 座標
+settings.medals.xOff メダルX座標
+settings.medals.yOff メダルY座標
 settings.crosshair.header クロスヘア
 settings.crosshair.type タイプ
 settings.crosshair.type.1 ダイナミック
@@ -237,9 +237,9 @@ settings.crosshair.type.5 プレシジョン
 settings.crosshair.style スタイル
 settings.crosshair.style.0 クロス
 settings.crosshair.style.1 円
-settings.crosshair.style.2 円（塗りつぶし）
+settings.crosshair.style.2 円 (塗りつぶし)
 settings.crosshair.style.3 四角
-settings.crosshair.style.4 四角（塗りつぶし）
+settings.crosshair.style.4 四角 (塗りつぶし)
 settings.crosshair.image 画像
 settings.crosshair.image.paste クロスヘア画像
 settings.crosshair.image.width 画像の幅
@@ -254,7 +254,7 @@ settings.crosshair.gap ギャップ
 settings.crosshair.dot ドット
 settings.crosshair.opacity.use カスタム不透明度を使用
 settings.crosshair.opacity.custom カスタム不透明度
-settings.crosshairm.header クロスヘア（投擲物）
+settings.crosshairm.header クロスヘア (投擲物)
 settings.crosshairm.type タイプ
 settings.crosshairm.type.1 カスタム
 settings.crosshairm.type.2 画像
@@ -262,9 +262,9 @@ settings.crosshairm.type.3 プレシジョン
 settings.crosshairm.style スタイル
 settings.crosshairm.style.0 クロス
 settings.crosshairm.style.1 円
-settings.crosshairm.style.2 円（塗りつぶし）
+settings.crosshairm.style.2 円 (塗りつぶし)
 settings.crosshairm.style.3 四角
-settings.crosshairm.style.4 四角（塗りつぶし）
+settings.crosshairm.style.4 四角 (塗りつぶし)
 settings.crosshairm.image 画像
 settings.crosshairm.image.paste クロスヘア画像
 settings.crosshairm.image.width 画像の幅
@@ -291,11 +291,11 @@ settings.hitmarker.animS アニメーションスピード
 settings.hitmarker.hitm 表示
 settings.hitmarker.hitmFad フェードスピード
 settings.hitmarker.custom ヒットマーカー画像
-settings.hitmarker.custom.paste ヒットマーカー画像 URL
+settings.hitmarker.custom.paste ヒットマーカー画像URL
 settings.onKillS.style.0 デフォルト
 settings.onKillS.style.1 解像度を下げる
-settings.onKillS.style.2 FOV を下げる
-settings.onKillS.style.3 FOV を上げる
+settings.onKillS.style.2 FOVを下げる
+settings.onKillS.style.3 FOVを上げる
 settings.serverb.header サーバーブラウザー
 settings.serverb.oldBrowser 古いサーバーブラウザー
 settings.serverb.defaultRegionOnly デフォルトの地域のみ
@@ -311,34 +311,34 @@ settings.gameprivacy.rank ランクバッジを表示
 settings.gameprivacy.custom カスタムバッジを表示
 settings.gameplay.header ゲームプレイ
 settings.gameplay.gpSetts ゲームプレイ設定
-settings.gameplay.sensitivityX X 感度
-settings.gameplay.sensitivityY Y 感度
-settings.gameplay.aimsensX エイム時 X 感度
-settings.gameplay.aimsensY エイム時 Y 感度
+settings.gameplay.sensitivityX X感度
+settings.gameplay.sensitivityY Y感度
+settings.gameplay.aimsensX エイム時X感度
+settings.gameplay.aimsensY エイム時Y感度
 settings.gameplay.challenge チャレンジモード
-settings.gameplay.invert Y 軸反転
+settings.gameplay.invert Y軸反転
 settings.gameplay.onkillS オンキル
 settings.gameplay.scrollDir スクロール方向
 settings.controller.header コントローラー
-settings.controller.sensitivityX X 感度
+settings.controller.sensitivityX X感度
 settings.controller.disableCons コントローラーを無効化
-settings.controller.sensitivityY Y 感度
-settings.controller.aimsensX エイム時 X 感度
-settings.controller.aimsensY エイム時 Y 感度
-settings.controller.deadZoneL デッドゾーン（左）
-settings.controller.deadZoneR デッドゾーン（右）
+settings.controller.sensitivityY Y感度
+settings.controller.aimsensX エイム時X感度
+settings.controller.aimsensY エイム時Y感度
+settings.controller.deadZoneL デッドゾーン (左)
+settings.controller.deadZoneR デッドゾーン (右)
 settings.controller.triggerThres トリガーしきい値
 settings.controller.vibration 振動
 settings.controller.gradSpeed 加速を緩やかにする
-settings.controller.invert Y 軸反転
+settings.controller.invert Y軸反転
 settings.mobile.header モバイル
-settings.mobile.sensitivityX X 感度
-settings.mobile.sensitivityY Y 感度
-settings.mobile.aimsensX エイム時 X 感度
-settings.mobile.aimsensY エイム時 Y 感度
+settings.mobile.sensitivityX X感度
+settings.mobile.sensitivityY Y感度
+settings.mobile.aimsensX エイム時X感度
+settings.mobile.aimsensY エイム時Y感度
 settings.mobile.vibration 振動
 settings.mobile.gradSpeed 加速を緩やかにする
-settings.mobile.invert Y 軸反転
+settings.mobile.invert Y軸反転
 settings.audio.header オーディオ
 settings.audio.sound マスターボリューム
 settings.audio.ambient 環境音ボリューム
@@ -354,59 +354,59 @@ settings.audio.asset アセットボリューム
 settings.audio.dialogue アクションボリューム
 settings.viewmodel.header モデル表示
 settings.viewmodel.vmSetts モデルの設定を表示
-settings.viewmodel.fov 視野（ FOV ）
-settings.viewmodel.fps 武器 FOV
+settings.viewmodel.fov 視野 (FOV)
+settings.viewmodel.fps 武器FOV
 settings.viewmodel.bobbing 武器の揺れ
 settings.viewmodel.leaning 武器の傾き
 settings.viewmodel.show.primary メイン武器表示
 settings.viewmodel.show.secondary サブ武器表示
 settings.viewmodel.roundArms 腕を丸くする
 settings.viewmodel.show.melee 近接武器を表示
-settings.viewmodel.show.ads ADS 時に武器を隠す
+settings.viewmodel.show.ads ADS時に武器を隠す
 settings.viewmodel.toggleAim エイム切り替え
 settings.viewmodel.show.hands 手を表示
 settings.viewmodel.leftHand 左利きモード
 settings.viewmodel.aimAnim エイムアニメーション
 settings.viewmodel.rot 武器回転
-settings.viewmodel.xOff 武器表示 X 座標
-settings.viewmodel.yOff 武器表示 Y 座標
-settings.viewmodel.zOff 武器表示 Z 座標
-settings.viewmodel.weapSwapY 武器切り替え動作の Y 座標
-settings.viewmodel.weapReloadY リロード動作の Y 座標
-settings.viewmodel.yOffADS ADS 時の Y 座標
-settings.viewmodel.adsFovMlt ADS 時の FOV 倍率
-settings.viewmodel.toggleADS ADS 切り替え
+settings.viewmodel.xOff 武器表示X座標
+settings.viewmodel.yOff 武器表示Y座標
+settings.viewmodel.zOff 武器表示Z座標
+settings.viewmodel.weapSwapY 武器切り替え動作のY座標
+settings.viewmodel.weapReloadY リロード動作のY座標
+settings.viewmodel.yOffADS ADS 時のY座標
+settings.viewmodel.adsFovMlt ADS時のFOV倍率
+settings.viewmodel.toggleADS ADS切り替え
 settings.editing.header 編集
-settings.editing.health.high HUD 高 HP
-settings.editing.health.low HUD 低 HP
+settings.editing.health.high HUD高HP
+settings.editing.health.low HUD低HP
 settings.editing.speedLines スピードライン
 settings.editing.spdLinesCol スピードライン色
 settings.editing.score.color ポップアップスコアの色
 settings.editing.score.show ポップアップスコアを表示
 settings.editing.score.scale ポップアップスコアスケール
 settings.editing.score.shadow ポップアップスコアの影
-settings.editing.scoreOffX ポップアップスコア X 座標
-settings.editing.scoreOffY ポップアップスコア Y 座標
+settings.editing.scoreOffX ポップアップスコアX座標
+settings.editing.scoreOffY ポップアップスコアY座標
 settings.editing.prog.color 進捗バーの色
 settings.editing.prog.opacity 進捗バーの不透明度
 settings.editing.prog.scale 進捗バーの大きさ
 settings.editing.prog.shadow 進捗バーの影
-settings.editing.progOffX 進捗バー X 座標
-settings.editing.progOffY 進捗バー Y 座標
+settings.editing.progOffX 進捗バーX座標
+settings.editing.progOffY 進捗バーY座標
 settings.editing.progRot 進捗バーの角度
 settings.editing.progm.color バーの色
 settings.editing.progmo.color オーバーチャージ時の色
 settings.editing.progm.opacity バーの不透明度
 settings.editing.progm.scale バーの大きさ
 settings.editing.progm.shadow バーの影
-settings.editing.progmOffX バー X 座標
-settings.editing.progmOffY バー Y 座標
+settings.editing.progmOffX バーX座標
+settings.editing.progmOffY バーY座標
 settings.editing.progmRot バーの角度
-settings.editing.saturation 彩度（ゲーム内）
-settings.editing.menuSaturation 彩度（ UI ）
-settings.editing.hue 色相（ゲーム内）
-settings.editing.menuHue 色相（ UI ）
-settings.editing.vignette ビネット効果（画像の周辺を暗くする）
+settings.editing.saturation 彩度 (ゲーム内)
+settings.editing.menuSaturation 彩度 (UI)
+settings.editing.hue 色相 (ゲーム内)
+settings.editing.menuHue 色相 (UI)
+settings.editing.vignette ビネット効果 (画像の周辺を暗くする)
 settings.editing.feedLimit キルフィード制限
 settings.editing.depth マップの深さ
 settings.editing.green グリーンスクリーン
@@ -424,45 +424,45 @@ settings.mods.borders スコープボーダー
 settings.mods.borderCol スコープボーダーの色
 settings.mods.borderOpac スコープボーダーの不透明度
 settings.mods.scope スコープ画像
-settings.mods.scope.paste スコープ画像 URL
+settings.mods.scope.paste スコープ画像URL
 settings.mods.scope.opacity スコープ画像の不透明度
 settings.mods.scope.width スコープ画像の幅
 settings.mods.scope.height スコープ画像の高さ
 settings.mods.dot レティクル画像
 settings.mods.dot.width レティクル画像幅
 settings.mods.dot.height レティクル画像高さ
-settings.mods.dot.paste レティクル URL
+settings.mods.dot.paste レティクルURL
 settings.mods.endmessage 試合終了メッセージ
 settings.mods.profile プロフィール画像
-settings.mods.profile.paste プロフィール画像 URL
+settings.mods.profile.paste プロフィール画像URL
 settings.mods.ammo 弾薬アイコン画像
-settings.mods.ammo.paste 弾薬アイコン画像 URL
+settings.mods.ammo.paste 弾薬アイコン画像URL
 settings.mods.kills キルアイコン画像
-settings.mods.kills.paste キルアイコン画像 URL
+settings.mods.kills.paste キルアイコン画像URL
 settings.mods.deaths デスアイコン画像
-settings.mods.deaths.paste デスアイコン画像 URL
+settings.mods.deaths.paste デスアイコン画像URL
 settings.mods.streak ストリークカウンターアイコン画像
-settings.mods.streak.paste ストリークカウンターアイコン画像 URL
+settings.mods.streak.paste ストリークカウンターアイコン画像URL
 settings.mods.timer タイマーアイコン画像
-settings.mods.timer.paste タイマーアイコン画像 URL
+settings.mods.timer.paste タイマーアイコン画像URL
 settings.mods.usedamage ダメージオーバーレイを使用
 settings.mods.damage ダメージオーバーレイ画像
-settings.mods.damage.paste ダメージオーバーレイ画像 URL
+settings.mods.damage.paste ダメージオーバーレイ画像URL
 settings.mods.overlay ゲームオーバーレイ画像
-settings.mods.overlay.paste ゲームオーバーレイ画像 URL
+settings.mods.overlay.paste ゲームオーバーレイ画像URL
 settings.social.region 地域の統計
 settings.social.bg 背景色
-settings.social.bg.paste 背景画像の URL
+settings.social.bg.paste 背景画像のURL
 windows.settings.header ゲーム設定
 windows.mail.header Krunker メール
 windows.servers.header サーバー
-windows.servers.none 参加可能なゲームが見つかりません ...
+windows.servers.none 参加可能なゲームが見つかりません...
 windows.servers.host + ゲームをホストする
 windows.servers.hide 満員のゲームを隠す
 windows.servers.priority 地域優先順位
-windows.servers.online ゲーム内に {0} 人のプレイヤー
-windows.servers.social ソーシャルに {0} 人
-windows.servers.editor エディターに {0} 人
+windows.servers.online ゲーム内に{0}人のプレイヤー
+windows.servers.social ソーシャルに{0}人
+windows.servers.editor エディターに{0}人
 windows.loadout.header ロードアウトを変更
 windows.loadout.class クラス
 windows.loadout.primary メイン武器
@@ -488,17 +488,17 @@ windows.loadout.stat キルカードの統計
 windows.loadout.flag 国旗
 windows.loadout.badge カスタムバッジ
 windows.mods.drop ここにMODファイルをドロップするか、クリックしてください
-windows.mods.paste MOD URL を貼り付け
-windows.mods.load MOD をロード
-windows.mods.none MOD が見つかりません
-windows.mods.header MOD マネージャー
-windows.mods.guide MOD ガイド
-windows.mods.list MOD リスト
-windows.mods.load.header MOD をロード
-windows.mods.publish MOD を公開する
+windows.mods.paste MOD URLを貼り付け
+windows.mods.load MODをロード
+windows.mods.none MODが見つかりません
+windows.mods.header MODマネージャー
+windows.mods.guide MODガイド
+windows.mods.list MODリスト
+windows.mods.load.header MODをロード
+windows.mods.publish MODを公開する
 windows.mods.viewer 観戦者
 windows.account.header アカウント
-windows.account.recover アカウントを回復するには、 <a>recovery@yendis.ch</a> に連絡してください
+windows.account.recover アカウントを回復するには、<a>recovery@yendis.ch</a>に連絡してください
 windows.class.header クラスを選択
 windows.controls.header コントロールを変更
 windows.controls.forward 前方
@@ -510,7 +510,7 @@ windows.controls.aim1 狙う
 windows.controls.shoot1 撃つ
 windows.controls.inspect 調べる
 windows.controls.spray スプレー
-windows.controls.sprayWheel スプレーホイール（ホールド）
+windows.controls.sprayWheel スプレーホイール (ホールド)
 windows.controls.jump ジャンプ
 windows.controls.crouch しゃがむ
 windows.controls.prim メイン武器
@@ -526,28 +526,28 @@ windows.controls.interactSec サブアクションボタン
 windows.controls.confirm アクションを確定する
 windows.controls.drop 落とす
 windows.controls.wepVis 武器表示切り替え
-windows.controls.kickVoteY キック投票［賛成］
-windows.controls.kickVoteN キック投票［反対］
-windows.controls.kpdVoteY KPD投票［賛成］
-windows.controls.kpdVoteN KPD投票［反対］
+windows.controls.kickVoteY キック投票 [賛成]
+windows.controls.kickVoteN キック投票 [反対]
+windows.controls.kpdVoteY KPD投票 [賛成]
+windows.controls.kpdVoteN KPD投票 [反対]
 windows.controls.specFree フリーカメラ切り替え
 windows.controls.specObj オブジェクティブカメラ切り替え
 windows.controls.specFirst 一人称視点切り替え
 windows.controls.specNames ユーザー名表示切り替え
 windows.controls.specFocus プレイヤーのフォーカスを切り替え
 windows.controls.hidePlayers プレイヤーを非表示
-windows.controls.streak0 ストリーク 1
-windows.controls.streak1 ストリーク 2
-windows.controls.streak2 ストリーク 3
-windows.controls.streak3 ストリーク 4
-windows.controls.streak4 ストリーク 5
-windows.controls.taunt0 挑発（しー！）
-windows.controls.taunt1 挑発（口笛）
-windows.controls.taunt2 挑発（おなら）
-windows.controls.taunt3 挑発（ミーム）
-windows.controls.taunt4 挑発（何だこれ？）
-windows.controls.taunt5 挑発（さっさと来いよ！）
-windows.controls.prop 物を選択（ホールド）
+windows.controls.streak0 ストリーク1
+windows.controls.streak1 ストリーク2
+windows.controls.streak2 ストリーク3
+windows.controls.streak3 ストリーク4
+windows.controls.streak4 ストリーク5
+windows.controls.taunt0 挑発 (しー!)
+windows.controls.taunt1 挑発 (口笛)
+windows.controls.taunt2 挑発 (おなら)
+windows.controls.taunt3 挑発 (ミーム)
+windows.controls.taunt4 挑発 (何だこれ?)
+windows.controls.taunt5 挑発 (さっさと来いよ!)
+windows.controls.prop 物を選択 (ホールド)
 windows.controls.propRand ランダムな小道具を選択
 windows.controls.propRot 回転方向を切り替え
 windows.controls.propRotR 回転をリセット
@@ -555,7 +555,7 @@ windows.controls.premium0 ノークリップ
 windows.controls.premium1 ゴッドモード
 windows.controls.premium2 キル
 windows.controls.premium3 スマイト
-windows.controls.reset 位置をリセットする（レースとパルクール）
+windows.controls.reset 位置をリセットする (レースとパルクール)
 windows.controls.pretend ゲームを非表示にする
 windows.host.header カスタムゲームを作る
 windows.host.maps サーバー設定
@@ -565,15 +565,15 @@ windows.host.modes モードを選択
 windows.host.classes クラスを選択
 windows.host.settings サーバー設定
 windows.host.preset ホストプリセット
-windows.host.preset.load プリセットロード中 ...
+windows.host.preset.load プリセットロード中...
 windows.host.preset.name プリセット名
 windows.host.start ゲームを始める
-windows.host.rehost ゲームを始める（プレーヤーを連れてくる）
+windows.host.rehost ゲームを始める (プレーヤーを連れてくる)
 windows.spray.header スプレーを選択
 windows.spray.default デフォルトスプレー
 windows.spray.spin スプレー
 windows.maps.header カスタムゲーム
-windows.maps.none ゲームが見つかりません！
+windows.maps.none ゲームが見つかりません!
 windows.maps.name ゲーム名
 windows.maps.editor ゲームエディター
 windows.maps.publish ゲームを公開する
@@ -581,40 +581,40 @@ windows.maps.community 開発コミュニティー
 windows.publish.map.header ゲームを公開または更新する
 windows.publish.map.thumbnail サムネイルなし
 windows.publish.map.paste ゲームデータの貼り付け
-windows.publish.map.update 公開／更新
-windows.publish.map.login してゲームを作成・アップロードしよう！
+windows.publish.map.update 公開/更新
+windows.publish.map.login してゲームを作成·アップロードしよう!
 windows.theatre.header シアターモード
 windows.theatre.record 録画を有効にする
 windows.theatre.key 録画キー
 windows.clans.header クラン
-windows.clans.members メンバー ({0})
+windows.clans.members メンバー({0})
 windows.clans.requests リクエスト
 windows.clans.requests.none リクエストなし
-windows.clans.page [{0}] のクランページ
+windows.clans.page [{0}]のクランページ
 windows.clans.create クランを作る
 windows.clans.name クラン名
 windows.clans.view クランを見る
 windows.clans.join クランに参加する
-windows.clans.login してクランを作成・参加する！
+windows.clans.login してクランを作成·参加する！
 windows.store.header ストア
 windows.store.spin {0} Spin
-windows.store.agree 本購入を通して、 {0} 規約に同意したものと見なされます。
+windows.store.agree 本購入を通して、{0}規約に同意したものと見なされます
 windows.store.purchase KRを購入
 windows.store.voucher クーポンを利用する
 windows.store.voucherinfo 配信やイベントのクーポンを入手する
 windows.store.market マーケットプレイス
-windows.store.market2 Krunker マーケット
-windows.store.premium Premium を購入
+windows.store.market2 Krunkerマーケット
+windows.store.premium Premiumを購入
 windows.store.premium2 Krunker Premium
 windows.store.buyP 表示名などを選択してください -
 windows.store.buy アイテムを売買する -
 windows.store.wheels 賞品ルーレット
 windows.store.unlock 新しい武器のスキンとアイテムをアンロック
-windows.store.amount アカウントに {0}KR あります
-windows.store.login してストアのアイテム購入・アンロックする！
-windows.store.purchasing 購入中 ...
-windows.store.unboxed {0}{1} が獲得しました： 
-windows.store.found {0}{1} が発見しました： 
+windows.store.amount アカウントに{0}KRあります
+windows.store.login してストアのアイテム購入·アンロックする!
+windows.store.purchasing 購入中...
+windows.store.unboxed {0}{1}が獲得しました: 
+windows.store.found {0}{1}が発見しました: 
 windows.trade.header トレード
 windows.scope.header スコープを選択
 windows.premium.header プレミアム
@@ -626,81 +626,81 @@ windows.face.header 顔を選択
 windows.melee.header 近接武器を選択
 windows.attach.header アタッチメントを選択
 windows.reticle.header レティクルを選択
-windows.reticle.unlocked レベル {0} でアンロック
-windows.reticle.req レベル {0} が必要
+windows.reticle.unlocked レベル{0}でアンロック
+windows.reticle.req レベル{0}が必要
 windows.dye.header 服装を選択
 windows.dye.default デフォルト服装色
 windows.dye.spin 服装色変更
 windows.changelog.header 変更履歴
-windows.mods.community.header コミュニティー MOD
+windows.mods.community.header コミュニティーMOD
 windows.mods.community.fav お気に入り
-windows.mods.community.new 新しい MOD
+windows.mods.community.new 新しいMOD
 windows.mods.community.hot 人気
-windows.mods.community.name MOD 名
-windows.mods.community.none MOD が見つかりません
-windows.publish.mod.header MOD を公開
+windows.mods.community.name MOD名
+windows.mods.community.none MODが見つかりません
+windows.publish.mod.header MODを公開
 windows.publish.mod.thumbnail サムネイルなし
-windows.publish.mod.name MOD 名
+windows.publish.mod.name MOD名
 windows.publish.mod.paste MOD URL
-windows.publish.mod.update 公開／更新
-windows.publish.mod.login して MOD を作成・アップロードする！
+windows.publish.mod.update 公開/更新
+windows.publish.mod.login して MODを作成·アップロードする!
 windows.secondary.header サブ武器を選択
 windows.secondary.unlocked アンロック済み
 windows.secondary.customOnly カスタムゲーム限定
 windows.secondary.premiumOnly プレミアム限定
-windows.secondary.req レベル {0} が必要
+windows.secondary.req レベル{0}が必要
 windows.skins.unlocked アンロック済
 windows.skins.customOnly カスタムマッチ限定
 windows.skins.premiumOnly プレミアム限定
-windows.skins.classOnly {0} 限定
-windows.skins.req レベル {0} が必要
+windows.skins.classOnly {0}限定
+windows.skins.req レベル {0}が必要
 windows.skins.default デフォルトスキン
 windows.advertise.header 宣伝する
 windows.support.header サポート
 windows.players.header プレイヤーリスト
-windows.players.none 現在、プレイヤーはいません ...
+windows.players.none 現在、プレイヤーはいません...
 windows.join.header 参加する
-windows.join.code ゲーム URL ／コードを入力
+windows.join.code ゲームURL/コードを入力
 windows.client.header クライアント
 windows.client.windows Windowsインストーラー
 windows.client.mac macOSインストーラー
 windows.client.linux Linuxインストーラー
 windows.ranked.header ランクマッチ
-windows.ranked.login してランクマッチをプレイする！
-windows.ranked.level ランクマッチに参加するには <span color="black">レベル {0}</span> 以上でなければなりません。現在のあなたのレベルは <span color="black">レベル {1}</span>です。
+windows.ranked.login してランクマッチをプレイする!
+windows.ranked.level ランクマッチに参加するには<span color="black">レベル{0}</span>以上でなければなりません。現在のあなたのレベルは<span color="black">レベル{1}</span>です。
 windows.chall.header チャレンジ
-windows.chall.login してチャレンジを完了させよう！
-thumbnail.upload.limit 失敗しました。サムネイルサイズ制限は {0}kb です
-image.upload.limit 失敗しました。画像サイズ制限は {0}kb です
+windows.chall.login してチャレンジを完了させよう!
+thumbnail.upload.limit 失敗しました。サムネイルサイズ制限は{0}kbです
+image.upload.limit 失敗しました。画像サイズ制限は{0}kbです
 thumbnail.upload.error サムネイルエラー
 mod.extracting 抽出中 {0}/{1}
 mod.disabled MODが無効になっています
 mod.error MODエラー!
-mod.loading MODをロード中 ...
-mod.invalid 無効なMODファイル！
+mod.loading MODをロード中...
+mod.invalid 無効なMODファイル!
 matchmaker.full 満
 matchmaker.GameFull ゲームが満員です。
 matchmaker.NoServersMatchQuery ゲーム更新中
 matchmaker.InvalidGameId ゲームが見つかりません。
 matchmaker.NoAvailableServers サーバーが満員です
-matchmaker.GameIssue 不明なゲームの問題
+matchmaker.GameIssue 不明なゲーム参加時の問題
 adblocker 無料KRを受け取るには、広告ブロッカーを無効にしてください。
 ad-failed 広告の読み込みに失敗しました。後でもう一度試してください。
-streamers.views {0} 人が観戦中
-streamers.none Twitch の配信はありません！
+streamers.views {0}人が観戦中
+streamers.none Twitchの配信はありません!
 error.extentions 拡張機能がある場合は無効にしてください。
 error.seek クリックして新しいゲームを探してください
-custom.map.upload.limit 失敗しました。ゲームデータは 500kb に制限されています
-custom.map.missing 1 つ以上のゲーム／マップを選択してください
-custom.mode.missing 1 つ以上のモードを選択してください
-custom.class.missing 1 つ以上のクラスを選択してください
+custom.map.upload.limit 失敗しました。ゲームデータは500kbに制限されています
+custom.map.missing 1つ以上のゲーム/マップを選択してください
+custom.mode.missing 1つ以上のモードを選択してください
+custom.class.missing 1つ以上のクラスを選択してください
 server.config.maxPlayers 最大プレーヤー
 server.config.minPlayers 最小プレーヤー
 server.config.lives ライフ
-server.config.gameTime ゲーム時間（分）
+server.config.gameTime ゲーム時間 (分)
 server.config.gravMlt 重力
 server.config.tickRI 高ティックレート
-server.config.maxPS 40 人のサーバー
+server.config.maxPS 40人のサーバー
 server.config.promServ サーバーを宣伝する
 server.config.jumpMlt ジャンプ力
 server.config.airStrf エアーストレイフ
@@ -711,18 +711,18 @@ server.config.reSpd リロード速度
 server.config.slidTime スライド時間
 server.config.fixMov 修正された動作
 server.config.slidSpd スライドのスピード
-server.config.healthMlt HP 倍率
+server.config.healthMlt HP倍率
 server.config.impulseMlt 発砲時の跳ね返り率
-server.config.nameTeam1 チーム 1 の名前
-server.config.nameTeam2 チーム 2 の名前
-server.config.nameTeam3 チーム 3 の名前
-server.config.nameTeam4 チーム 4 の名前
-server.config.nameTeam5 チーム 5 の名前
-server.config.t1Dmg チーム 1 のダメージ
-server.config.t2Dmg チーム 2 のダメージ
-server.config.t3Dmg チーム 3 のダメージ
-server.config.t4Dmg チーム 4 のダメージ
-server.config.t5Dmg チーム 5 のダメージ
+server.config.nameTeam1 チーム1の名前
+server.config.nameTeam2 チーム2の名前
+server.config.nameTeam3 チーム3の名前
+server.config.nameTeam4 チーム4の名前
+server.config.nameTeam5 チーム5の名前
+server.config.t1Dmg チーム1のダメージ
+server.config.t2Dmg チーム2のダメージ
+server.config.t3Dmg チーム3のダメージ
+server.config.t4Dmg チーム4のダメージ
+server.config.t5Dmg チーム5のダメージ
 server.config.selTeam チームを選択
 server.config.allowSpect 観戦モード
 server.config.killRewards キル報酬
@@ -734,25 +734,25 @@ server.config.wallJP 壁ジャンプ力
 server.config.autoJump 自動ジャンプ
 server.config.bDrop 弾道落下
 server.config.thirdPerson 三人称視点
-server.config.requireCaptcha Captcha が必要
+server.config.requireCaptcha Captchaが必要
 server.config.nameTags ネームタグを非表示
 server.config.kCams キルカメラ
 server.config.aAnon Anonymousモードを許可
 server.config.noReload リロード禁止
 server.config.private プライベート
-server.config.krRewards KR 報酬
+server.config.krRewards KR報酬
 server.config.forceDefault 強制的にデフォルト設定を使用
-server.config.warmupTime ウォームアップ時間（分）
+server.config.warmupTime ウォームアップ時間 (分)
 server.config.gamRounds ラウンド数
 server.config.objtvTime オブジェクティブごとの時間
 server.config.forceSpawn 自動リスポーン時間
-server.config.intermTmr 休憩時間（秒）
+server.config.intermTmr 休憩時間 (秒)
 server.config.scoreLimit スコア制限
 server.config.keepTScore チームのスコアを維持
 server.config.forceC クラスを強制的に指定
-server.config.logTim タイムを記録する（レース、パルクール）
+server.config.logTim タイムを記録する (レース、パルクール)
 server.config.hitBoxPad ヒットボックスの大きさ
-server.config.hpRegen HP 回復
+server.config.hpRegen HP回復
 server.config.disableB ボーダー無効
 server.config.throwMel 投げナイフ
 server.config.noCosm 装飾品を無効化
@@ -764,27 +764,27 @@ server.config.fallDmgThr 落下ダメージしきい値
 server.config.noDraws 引き分けの無効化
 server.config.bstOfR 最大試合数
 server.config.chrgWeps チャージ可能な武器
-social.login ログイン／登録
+social.login ログイン/登録
 social.login.failed ログインに失敗しました
 social.login.buy ログインして購入
 social.login.sell ログインして販売
 social.login.gift ログインしてギフトする
-social.login.proccessing ログイン中 ...
+social.login.proccessing ログイン中...
 social.since 作成日
 social.user.maps ユーザーゲーム
-social.user.mods ユーザー MOD
-social.maps.none ゲームが見つかりません ...
-social.mods.none MODが見つかりません ...
+social.user.mods ユーザーMOD
+social.maps.none ゲームが見つかりません...
+social.mods.none MODが見つかりません...
 social.market.price.low 最安値
 social.market.price.list リスト価格を入力 -
 social.market.searching 検索中
-social.market.listed {0} 前にリストされました
+social.market.listed {0}前にリストされました
 social.market.list アイテムをリスト
 social.market.unlist リストから外す
-social.market.unlisting アイテムをリストから外しています ...
-social.market.posting アイテム投稿中 ...
-social.market.req レベル {0} が必要
-social.market.cant KR が足りません
+social.market.unlisting アイテムをリストから外しています...
+social.market.posting アイテム投稿中...
+social.market.req レベル{0}が必要
+social.market.cant KRが足りません
 social.market.purchase 購入
 social.market.fee 手数料なし
 social.market.failed 失敗しました。もう一度試してください
@@ -801,36 +801,36 @@ social.market.dye 服装アイテム
 social.market.collectible 収集可能なアイテム
 social.market.none アイテムが見つかりません
 social.market.login ログインしている必要があります。
-social.market.grace {0} 秒後に有効になります
-social.market.sort フィルター／並び替え
+social.market.grace {0}秒後に有効になります
+social.market.sort フィルター/並び替え
 social.market.filter 検索
 social.market.sort2 並び替え
 social.market.price.high 最高価格
-social.trading.submitting オファーの提出中 ...
+social.trading.submitting オファーの提出中...
 social.market.gift.amount ギフト額
 social.market.fee.gift 手数料なし
 social.market.gift KRをギフトする
 social.market.gift.msg メッセージを残す
-respawn.auto {0} 秒後に自動リスポーンします
+respawn.auto {0}秒後に自動リスポーンします
 custom.host.ranked ランクマッチ中にゲームをホストすることは出来ません。
 funds.insufficient 資金不足です
 funds.out KR を使い切りました。
 custom.passcode.long パスワードが長すぎます
 custom.passcode.input 参加するにはパスワードを入力してください
 custom.tryagain もう一度やり直してください。
-purchase.kr.success {0}KR をあなたのアカウントに追加しました
-limited.purchase.ask 本当に [{0}] を {1}KR で購入しますか？
-limited.purchase.success {0} をインベントリに追加しました
-pretend.exit もう一度 [{0}] を押してゲームから離れる
+purchase.kr.success {0}KRをあなたのアカウントに追加しました
+limited.purchase.ask 本当に [{0}]を{1}KRで購入しますか？
+limited.purchase.success {0}をインベントリに追加しました
+pretend.exit もう一度 [{0}]を押してゲームから離れる
 settings.loaded 設定を読み込みました
 settings.loaded.none 設定が見つかりません
 account.login.required ログインしている必要があります
-account.banned.hack このアカウントはチート行為によって BAN されました
-account.banned.appeal もしアカウントの BAN について異議申し立てがある場合はこちらへ：
-account.delete アカウント削除のリクエストがされた場合、 14 日以内にキャンセルされなければアカウントと関連するすべてのデータは永久に削除されます。
-account.delete.request 本当にアカウント削除をリクエストしますか？
-account.delete.cancel 本当にアカウント削除のリクエストを取り消しますか？
-spin.free.available フリー KR が入手可能です！
+account.banned.hack このアカウントはチート行為によってBANされました
+account.banned.appeal もしアカウントのBANについて異議申し立てがある場合はこちらへ:
+account.delete アカウント削除のリクエストがされた場合、14日以内にキャンセルされなければアカウントと関連するすべてのデータは永久に削除されます。
+account.delete.request 本当にアカウント削除をリクエストしますか?
+account.delete.cancel 本当にアカウント削除のリクエストを取り消しますか?
+spin.free.available フリーKRが入手可能です!
 spin.free.claim このスピンは試合終了後、一時間に一回回すことができます。
 spin.free.disable このポップアップは設定から非表示にすることができます
 mod.reset.0 リスポーン後から有効になります。
@@ -847,29 +847,29 @@ stats.crouches しゃがみ回数
 stats.sprays スプレー回数
 stats.kpd 有用なレポート
 windows.host.default.settings デフォルト設定を有効にすることでプレイヤーの進捗とハイスコアを保存することができます
-windows.host.default.commands ＊ホストコマンド（ /noclip /god /smite 等）はこのモードでは無効化されています
-windows.host.rewards KR報酬を有効にした場合デフォルト設定の使用が強制され、プレイヤーがこのマップの資産から KR 報酬を入手することができるようになります：
-windows.store.wheels.sub 新しいスキンを手に入れるためにスピンで運試しをしましょう！
+windows.host.default.commands ＊ホストコマンド (/noclip /god /smite 等) はこのモードでは無効化されています
+windows.host.rewards KR報酬を有効にした場合デフォルト設定の使用が強制され、プレイヤーがこのマップの資産からKR報酬を入手することができるようになります:
+windows.store.wheels.sub 新しいスキンを手に入れるためにスピンで運試しをしましょう!
 windows.store.currency * 米ドルでの金額表記はあなたの国の通貨に変換され、その際の両替レートは支払いサービスや銀行が定めたものによります
 windows.store.creator クリエイターコードを使ってあなたのお気に入りのクリエイターを支援しましょう
 windows.chall.customs カスタムマッチ内でチャレンジをクリアすることはできません
-twitch.link 本当に twitch アカウントとリンクしますか？
-twitch.unlink 本当に twitch アカウントとのリンクを解除しますか？
-windows.clan.leave 本当にこのクランから脱退しますか？
-windows.clan.delete 本当にこのクランを削除しますか？
-windows.clan.kick 本当に {0} をこのクランからキックしますか？
-windows.store.premium.purchase 本当に {0} 日分のプレミアムを購入しますか？
-windows.store.premium.gift 本当に '{0}' に {1} 日分のプレミアムを贈りますか？
-windows.playerlist.ban 本当に {0} をこのゲームから BAN しますか？
-windows.playerlist.flag 本当に {0} にハッカータグを付けますか？
-windows.playerlist.unflag 本当に {0} のハッカータグを解除しますか？
-windows.playerlist.punish 本当に {0} にアクションを起こしますか？
+twitch.link 本当に twitchアカウントとリンクしますか?
+twitch.unlink 本当に twitchアカウントとのリンクを解除しますか?
+windows.clan.leave 本当にこのクランから脱退しますか?
+windows.clan.delete 本当にこのクランを削除しますか?
+windows.clan.kick 本当に{0}をこのクランからキックしますか?
+windows.store.premium.purchase 本当に{0}日分のプレミアムを購入しますか?
+windows.store.premium.gift 本当に'{0}'に{1}日分のプレミアムを贈りますか?
+windows.playerlist.ban 本当に{0}をこのゲームからBANしますか?
+windows.playerlist.flag 本当に{0}にハッカータグを付けますか?
+windows.playerlist.unflag 本当に{0}のハッカータグを解除しますか?
+windows.playerlist.punish 本当に{0}にアクションを起こしますか?
 item.view.open モデルビューワーを開く
 item.view.more 詳細
 item.sell.cant このアイテムは販売できません
-item.sell.cant.krunker このアイテムは Krunker 内で販売できません
-item.sell.quick 本当に {0} をクイックセルしますか？
-item.sell.destroy 本当に {0} を破壊しますか？
+item.sell.cant.krunker このアイテムはKrunker内で販売できません
+item.sell.quick 本当に{0}をクイックセルしますか?
+item.sell.destroy 本当に{0}を破壊しますか?
 social.profile.stats 全体の統計
 social.profile.class クラスごとの統計
 social.profile.sales 売上
@@ -881,11 +881,11 @@ social.profile.games.none このユーザーによって公開されたゲーム
 social.profile.assets Assets [{0}]
 social.profile.assets.none このユーザーによって公開されたアセットはありません
 social.profile.mods Mods [{0}]
-social.profile.mods.none このユーザーによって公開された MOD はありません
+social.profile.mods.none このユーザーによって公開されたMODはありません
 social.search 検索結果
 social.market.stats.rare 最もレアなアイテム
 social.market.stats.circulation 流通中
-social.market.stats.units 個（全地域）
+social.market.stats.units 個 (全地域)
 social.trades.in 受信済み
 social.trades.in.head 受信した申請 ({0})
 social.trades.out 送信済み
@@ -894,8 +894,8 @@ social.trades.history 履歴
 social.trades.history.head トレード履歴 ({0})
 social.trades.decline すべて拒否
 social.trades.message トレードメッセージを設定から有効にしてください
-social.trades.warning このトレードではあなたは何も手に入れません！
-social.trades.accept 本当にこの申請を許可しますか？
+social.trades.warning このトレードではあなたは何も手に入れません!
+social.trades.accept 本当にこの申請を許可しますか?
 stats.airdrops エアドロップ
 stats.airdrops.stolen エアドロップが盗まれました
 settings.quality.flapAnim スナイパーフラップアニメーション
@@ -920,8 +920,8 @@ chall.name.dmg Deal {0} damage {1}
 chall.name.bzk Get {0} buzz kills {1}
 chall.name.cc Get {0} close-calls {1}
 chall.name.rk Deal {0} revenge kills {1}
-event.doubleXP このマッチではクラス XP が 2 倍になります
-ranked.join ランクマッチに参加しました。マッチを放棄すると一時的に BAN されます
+event.doubleXP このマッチではクラスXPが2倍になります
+ranked.join ランクマッチに参加しました。マッチを放棄すると一時的にBANされます
 ranked.progress マッチ中
 ranked.team チームに入ってください
 ranked.switch マッチ中にクラスを変更できません
@@ -935,48 +935,48 @@ modes.round.loss このラウンドの敗北が確定しました
 modes.round.switch サイドを交代します。次のラウンドの準備をしてください
 modes.trade.success トレード成功
 modes.prophunt.limit [Prop Hunt] あなたはもうスイッチを持っていません
-modes.prophunt.left [Prop Hunt] あなたはあと {0} 個のスイッチを持っています
+modes.prophunt.left [Prop Hunt] あなたはあと{0}個のスイッチを持っています
 modes.prophunt.rotation.on [Prop Hunt] 回転が有効
 modes.prophunt.rotation.off [Prop Hunt] 回転が無効
-modes.prophunt.rotation.reset [Prop Hunt] 回転をリセットしました
+modes.prophunt.rotation.reset [Prop Hunt] 回転をリセットしました。
 commands.login このコマンドを使うにはログインしてください
-commands.connected {0} 人が接続済み、 {1} 人がメニューで待機しています
-commands.host {0} が現在のホストです
+commands.connected {0}人が接続済み、{1}人がメニューで待機しています
+commands.host {0}が現在のホストです。
 commands.noclip.on ノークリップが有効
 commands.noclip.off ノークリップが無効
 commands.god.on ゴッドモードが有効
 commands.god.off ゴッドモードが無効
-commands.god.on.other {0} のゴッドモードが有効
-commands.god.off.other {0} のゴッドモードが無効
+commands.god.on.other {0}のゴッドモードが有効
+commands.god.off.other {0}のゴッドモードが無効
 commands.smite.on スマイトが有効
 commands.smite.off スマイトが無効
-commands.smite.on.other {0} のスマイトが有効
-commands.smite.off.other {0} のスマイトが有効
-commands.perk {0} に {1} を与えました
-commands.maxperk {0} に最大の {1} を与えました
+commands.smite.on.other {0}のスマイトが有効
+commands.smite.off.other {0}のスマイトが有効
+commands.perk {0}に{1}を与えました
+commands.maxperk {0}に最大の{1}を与えました
 commands.unlimited.on 弾薬無制限が有効
 commands.unlimited.off 弾薬無制限が無効
-commands.unlimited.on.other {0} の弾薬無制限が有効
-commands.unlimited.off.other {0} の弾薬無制限が有効
+commands.unlimited.on.other {0}の弾薬無制限が有効
+commands.unlimited.off.other {0}の弾薬無制限が有効
 commands.spraybypass.on スプレー無制限が有効
 commands.spraybypass.off スプレー無制限が無効
-commands.spraybypass.on.other {0} のスプレー無制限が有効
-commands.spraybypass.off.other {0} のスプレー無制限が無効
+commands.spraybypass.on.other {0}のスプレー無制限が有効
+commands.spraybypass.off.other {0}のスプレー無制限が無効
 commands.suspect.invalid 容疑者情報が無効
 commands.suspect.menu 容疑者はメニューで待機中
 commands.suspect.left 容疑者がゲームを退出
-commands.suspect.found 容疑者を発見しました。 観戦中： {0}, スポーン済み： {1}, 名前： {2}
+commands.suspect.found 容疑者を発見しました。 観戦中: {0}, スポーン済み: {1}, 名前: {2}
 commands.forfeit.next 最低1ラウンドプレイする必要があります
 commands.forfeit.wait 降参するにはマッチが始まるまで待ってください
 commands.forfeit.later 数秒後にもう一度やり直してください
-commands.forfeit.voted 投票済
-commands.forfeit.limit 投票の開始は 1 マッチにつき 1 回までです
+commands.forfeit.voted 投票済みです。
+commands.forfeit.limit 投票の開始は1マッチにつき1回までです
 commands.forfeit.ended 降参中
 commands.forfeit.ended.other 相手が降参しました
-server.message.join {0} がゲームに参加しました
-server.message.left {0} がゲームから退出しました
-server.message.kicked {0} がキックされました
-server.message.banned {0} が BAN されました
-server.message.votekicked {0} が投票によりキックされました
-server.message.arrested {0} が K.P.D により逮捕されました
+server.message.join {0}がゲームに参加しました
+server.message.left {0}がゲームから退出しました
+server.message.kicked {0}がキックされました
+server.message.banned {0}がBANされました
+server.message.votekicked {0}が投票によりキックされました
+server.message.arrested {0}がK.P.D.により逮捕されました
 `;
