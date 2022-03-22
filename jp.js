@@ -184,7 +184,7 @@ settings.interface.rarityanim レアアイテムアニメーション
 settings.interface.showPfp プロフィール画像を表示
 settings.interface.showTradeMsg トレードメッセージを表示
 settings.interface.hideNonTrade トレード不可なスキンを隠す
-settings.interface.hp ダイナミック HPバー
+settings.interface.hp ダイナミックHPバー
 settings.interface.dmgScale ダメージスケール
 settings.interface.killf キルフィードを表示
 settings.interface.ping pingを表示
@@ -643,7 +643,7 @@ windows.publish.mod.thumbnail サムネイルなし
 windows.publish.mod.name MOD名
 windows.publish.mod.paste MOD URL
 windows.publish.mod.update 公開/更新
-windows.publish.mod.login して MODを作成·アップロードする!
+windows.publish.mod.login してMODを作成·アップロードする!
 windows.secondary.header サブ武器を選択
 windows.secondary.unlocked アンロック済み
 windows.secondary.customOnly カスタムゲーム限定
@@ -821,7 +821,7 @@ custom.tryagain もう一度やり直してください。
 purchase.kr.success {0}KRをあなたのアカウントに追加しました
 limited.purchase.ask 本当に[{0}]を{1}KRで購入しますか?
 limited.purchase.success {0}をインベントリに追加しました
-pretend.exit もう一度 [{0}]を押してゲームから離れる
+pretend.exit もう一度[{0}]を押してゲームから離れる
 settings.loaded 設定を読み込みました
 settings.loaded.none 設定が見つかりません
 account.login.required ログインしている必要があります
@@ -847,14 +847,14 @@ stats.crouches しゃがみ回数
 stats.sprays スプレー回数
 stats.kpd 有用なレポート
 windows.host.default.settings デフォルト設定を有効にすることでプレイヤーの進捗とハイスコアを保存することができます
-windows.host.default.commands *ホストコマンド (/noclip /god /smite 等) はこのモードでは無効化されています
+windows.host.default.commands *ホストコマンド(/noclip /god /smite 等)はこのモードでは無効化されています
 windows.host.rewards KR報酬を有効にした場合デフォルト設定の使用が強制され、プレイヤーがこのマップの資産からKR報酬を入手することができるようになります:
 windows.store.wheels.sub 新しいスキンを手に入れるためにスピンで運試しをしましょう!
 windows.store.currency *米ドルでの金額表記はあなたの国の通貨に変換され、その際の両替レートは支払いサービスや銀行が定めたものによります
 windows.store.creator クリエイターコードを使ってあなたのお気に入りのクリエイターを支援しましょう
 windows.chall.customs カスタムマッチ内でチャレンジをクリアすることはできません
-twitch.link 本当に twitchアカウントとリンクしますか?
-twitch.unlink 本当に twitchアカウントとのリンクを解除しますか?
+twitch.link 本当にtwitchアカウントとリンクしますか?
+twitch.unlink 本当にtwitchアカウントとのリンクを解除しますか?
 windows.clan.leave 本当にこのクランから脱退しますか?
 windows.clan.delete 本当にこのクランを削除しますか?
 windows.clan.kick 本当に{0}をこのクランからキックしますか?
@@ -965,7 +965,7 @@ commands.spraybypass.off.other {0}のスプレー無制限が無効
 commands.suspect.invalid 容疑者情報が無効
 commands.suspect.menu 容疑者はメニューで待機中
 commands.suspect.left 容疑者がゲームを退出
-commands.suspect.found 容疑者を発見しました。 観戦中: {0}, スポーン済み: {1}, 名前: {2}
+commands.suspect.found 容疑者を発見しました。観戦中: {0}, スポーン済み: {1}, 名前: {2}
 commands.forfeit.next 最低1ラウンドプレイする必要があります
 commands.forfeit.wait 降参するにはマッチが始まるまで待ってください
 commands.forfeit.later 数秒後にもう一度やり直してください
