@@ -373,7 +373,7 @@ settings.viewmodel.yOff 武器表示Y座標
 settings.viewmodel.zOff 武器表示Z座標
 settings.viewmodel.weapSwapY 武器切り替え動作のY座標
 settings.viewmodel.weapReloadY リロード動作のY座標
-settings.viewmodel.yOffADS ADS 時のY座標
+settings.viewmodel.yOffADS ADS時のY座標
 settings.viewmodel.adsFovMlt ADS時のFOV倍率
 settings.viewmodel.toggleADS ADS切り替え
 settings.editing.header 編集
@@ -417,9 +417,9 @@ settings.editing.tracer 曳光弾の色
 settings.editing.tracer.offset 曳光弾の座標
 settings.shaders.header シェーダー入力
 settings.mods.header カスタマイズ
-settings.mods.load MOD をロード
+settings.mods.load MODをロード
 settings.mods.logo ロゴの変更を許可
-settings.mods.auto MOD を自動ロード
+settings.mods.auto MODを自動ロード
 settings.mods.borders スコープボーダー
 settings.mods.borderCol スコープボーダーの色
 settings.mods.borderOpac スコープボーダーの不透明度
@@ -454,7 +454,7 @@ settings.social.region 地域の統計
 settings.social.bg 背景色
 settings.social.bg.paste 背景画像のURL
 windows.settings.header ゲーム設定
-windows.mail.header Krunker メール
+windows.mail.header Krunkerメール
 windows.servers.header サーバー
 windows.servers.none 参加可能なゲームが見つかりません...
 windows.servers.host + ゲームをホストする
@@ -595,7 +595,7 @@ windows.clans.create クランを作る
 windows.clans.name クラン名
 windows.clans.view クランを見る
 windows.clans.join クランに参加する
-windows.clans.login してクランを作成·参加する！
+windows.clans.login してクランを作成·参加する!
 windows.store.header ストア
 windows.store.spin {0} Spin
 windows.store.agree 本購入を通して、{0}規約に同意したものと見なされます
@@ -653,7 +653,7 @@ windows.skins.unlocked アンロック済
 windows.skins.customOnly カスタムマッチ限定
 windows.skins.premiumOnly プレミアム限定
 windows.skins.classOnly {0}限定
-windows.skins.req レベル {0}が必要
+windows.skins.req レベル{0}が必要
 windows.skins.default デフォルトスキン
 windows.advertise.header 宣伝する
 windows.support.header サポート
@@ -814,12 +814,12 @@ social.market.gift.msg メッセージを残す
 respawn.auto {0}秒後に自動リスポーンします
 custom.host.ranked ランクマッチ中にゲームをホストすることは出来ません。
 funds.insufficient 資金不足です
-funds.out KR を使い切りました。
+funds.out KRを使い切りました。
 custom.passcode.long パスワードが長すぎます
 custom.passcode.input 参加するにはパスワードを入力してください
 custom.tryagain もう一度やり直してください。
 purchase.kr.success {0}KRをあなたのアカウントに追加しました
-limited.purchase.ask 本当に [{0}]を{1}KRで購入しますか？
+limited.purchase.ask 本当に[{0}]を{1}KRで購入しますか?
 limited.purchase.success {0}をインベントリに追加しました
 pretend.exit もう一度 [{0}]を押してゲームから離れる
 settings.loaded 設定を読み込みました
@@ -847,10 +847,10 @@ stats.crouches しゃがみ回数
 stats.sprays スプレー回数
 stats.kpd 有用なレポート
 windows.host.default.settings デフォルト設定を有効にすることでプレイヤーの進捗とハイスコアを保存することができます
-windows.host.default.commands ＊ホストコマンド (/noclip /god /smite 等) はこのモードでは無効化されています
+windows.host.default.commands *ホストコマンド (/noclip /god /smite 等) はこのモードでは無効化されています
 windows.host.rewards KR報酬を有効にした場合デフォルト設定の使用が強制され、プレイヤーがこのマップの資産からKR報酬を入手することができるようになります:
 windows.store.wheels.sub 新しいスキンを手に入れるためにスピンで運試しをしましょう!
-windows.store.currency * 米ドルでの金額表記はあなたの国の通貨に変換され、その際の両替レートは支払いサービスや銀行が定めたものによります
+windows.store.currency *米ドルでの金額表記はあなたの国の通貨に変換され、その際の両替レートは支払いサービスや銀行が定めたものによります
 windows.store.creator クリエイターコードを使ってあなたのお気に入りのクリエイターを支援しましょう
 windows.chall.customs カスタムマッチ内でチャレンジをクリアすることはできません
 twitch.link 本当に twitchアカウントとリンクしますか?
