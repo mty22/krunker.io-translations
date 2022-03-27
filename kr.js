@@ -973,7 +973,7 @@ commands.forfeit.voted 이미 투표했습니다
 commands.forfeit.limit 항복 투표는 한 번밖에 할 수 없습니다
 commands.forfeit.ended 항복 처리 중...
 commands.forfeit.ended.other 상대 팀이 항복했습니다
-server.message.join {0}님이 게임을 참가했습니다
+server.message.join {0}님이 게임에 참가했습니다
 server.message.left {0}님이 게임을 떠났습니다
 server.message.kicked {0}님이 퇴장되었습니다
 server.message.banned {0}님이 영구 퇴장되었습니다
