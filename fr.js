@@ -6,7 +6,7 @@ menu.btn.maps Mini-jeux
 menu.btn.mods Mods
 menu.btn.settings Réglages
 menu.btn.customize Personnaliser
-menu.btn.invite Inviter
+menu.btn.invite Invite
 menu.btn.invite.clicked Copié
 menu.btn.join Rejoindre
 menu.btn.host Héberger
@@ -978,5 +978,5 @@ server.message.left {0} left the game
 server.message.kicked {0} was kicked
 server.message.banned {0} was banned
 server.message.votekicked {0} was vote kicked
-server.message.arrested {0} was arrested by the K.P.D
+server.message.arrested {0} a été arrêté par la kpd
 `;
