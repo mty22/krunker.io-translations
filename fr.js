@@ -920,48 +920,48 @@ chall.name.dmg Faire {0} dégâts {1}
 chall.name.bzk Get {0} buzz kills {1}
 chall.name.cc Obtenez {0} échappées-belles {1}
 chall.name.rk Faire {0} éliminations de vengeance {1}
-event.doubleXP 2x Class XP enabled for this match
-ranked.join Joined Ranked Match. Abandoning a match will result in a temporary ban
-ranked.progress Game in Progress
-ranked.team Please join a Team
-ranked.switch Can't switch while in-game
-ranked.spectate Spectating Disabled in Ranked
-ranked.login Login to Spawn
-ranked.sync Missing Sync Data
-ranked.team.spawn Please join a Team to Spawn
-ranked.class.spawn Please select a Class to Spawn
-modes.round.win Your Team has secured this round
-modes.round.loss This round is no longer winnable
-modes.round.switch Switching Sides. Prepare for the next Round
-modes.trade.success Trade Successful
+event.doubleXP 2x Class XP activé pour cette partie
+ranked.join Joined Ranked Match. Abandonner un match mènera à une suspension
+ranked.progress Jeu en cours
+ranked.team Veuillez rejoindre une équipe
+ranked.switch Impossible de changer dans la partie
+ranked.spectate [Spectating] désactivé en classé
+ranked.login Connectez-vous pour [spawn]
+ranked.sync Données de synchronisation manquantes
+ranked.team.spawn Veuillez rejoindre une équipe pour [spawn]
+ranked.class.spawn Veuillez sélectionner une arme pour [spawn]
+modes.round.win Votre équipe a sécurisé la manche
+modes.round.loss La manche n'est plus gagnable
+modes.round.switch Changement de côté. Préparez-vous pour la prochaine manche
+modes.trade.success Échange réussi
 modes.prophunt.limit [Prop Hunt] You are out of prop switches
-modes.prophunt.left [Prop Hunt] You have {0} switches remaining
-modes.prophunt.rotation.on [Prop Hunt] Rotation Enabled
-modes.prophunt.rotation.off [Prop Hunt] Rotation Disabled
-modes.prophunt.rotation.reset [Prop Hunt] Rotation reset.
-commands.login Login to use this command
-commands.connected {0} connected, {1} in menu
-commands.host {0} is the current Host.
-commands.noclip.on Noclip - Enabled
-commands.noclip.off Noclip - Disabled
-commands.god.on God mode - Enabled
-commands.god.off God mode - Disabled
-commands.god.on.other God mode - Enabled for {0}
-commands.god.off.other God mode - Disabled for {0}
-commands.smite.on Smite - Enabled
-commands.smite.off Smite - Disabled
-commands.smite.on.other Smite - Enabled for {0}
-commands.smite.off.other Smite - Disabled for {0}
+modes.prophunt.left [Prop Hunt] Vous avez {0} switches remaining
+modes.prophunt.rotation.on [Prop Hunt] Rotation Activé
+modes.prophunt.rotation.off [Prop Hunt] Rotation Désactivé
+modes.prophunt.rotation.reset [Prop Hunt] Rotation réinitialisée.
+commands.login Connectez-vous pour accéder à cette commande
+commands.connected {0} connectés, {1} dans le menu
+commands.host {0} est l'hôte actuel.
+commands.noclip.on Noclip - Activé
+commands.noclip.off Noclip - Désactivé
+commands.god.on God mode - Activé
+commands.god.off God mode - Désactivé
+commands.god.on.other God mode - Activé pour {0}
+commands.god.off.other God mode - Désactivé pour {0}
+commands.smite.on Smite - Activé
+commands.smite.off Smite - Désactivé
+commands.smite.on.other Smite - Activé pour {0}
+commands.smite.off.other Smite - Désactivé pour {0}
 commands.perk Gave {0} {1}
 commands.maxperk Gave {0} MAX {1}
 commands.unlimited.on Munitions illimitées - Activé
-commands.unlimited.off Munitions illimitées - Desactivé
+commands.unlimited.off Munitions illimitées - Désactivé
 commands.unlimited.on.other Munitions illimitées - Activé pour {0}
-commands.unlimited.off.other Munitions illimitées - Desactivé pour {0}
+commands.unlimited.off.other Munitions illimitées - Désactivé pour {0}
 commands.spraybypass.on Munitions illimitées - Activé
-commands.spraybypass.off Munitions illimitées - Desactivé
+commands.spraybypass.off Munitions illimitées - Désactivé
 commands.spraybypass.on.other Munitions illimitées - Activé pour {0}
-commands.spraybypass.off.other Munitions illimitées - Desactivé pour {0}
+commands.spraybypass.off.other Munitions illimitées - Désactivé pour {0}
 commands.suspect.invalid Info du suspect invalide
 commands.suspect.menu Suspect est dans le menu
 commands.suspect.left Suspect est parti
@@ -970,7 +970,7 @@ commands.forfeit.next Doit au moins jouer une manche
 commands.forfeit.wait Attendre jusqu'à ce que la partie ait commencé pour abandonner  
 commands.forfeit.later Réessayer dans quelques secondes
 commands.forfeit.voted Tu as déjà voté.
-commands.forfeit.limit You can only start one vote per game
+commands.forfeit.limit Vous ne pouvez commencer qu'un vote par partie
 commands.forfeit.ended a abandonné la partie
 commands.forfeit.ended.other l'équipe adverse a déclarée forfait
 server.message.join {0} a joint la partie
