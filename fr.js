@@ -3,8 +3,8 @@ menu.btn.ranked Classée
 menu.btn.shop Boutique
 menu.btn.social Social
 menu.btn.maps Mini-jeux
-menu.btn.mods Mods
-menu.btn.settings Réglages
+menu.btn.mods Modes
+menu.btn.settings Paramètres
 menu.btn.customize Personnaliser
 menu.btn.invite Inviter
 menu.btn.invite.clicked Copié
@@ -839,8 +839,8 @@ windows.profile.picture Changer l'image
 stats.assists Aides
 stats.nukes Nukes
 stats.melee Mêlées
-stats.fistkills Kills aux points
-stats.thrownkills Kills aux lancers de mêlée
+stats.fistkills Tuages au poignets
+stats.thrownkills Tuages aux lancers de mêlée
 stats.headshots Tirs à la tête
 stats.wallbangs Tirs à travers les murs
 stats.crouches Accroupissements
@@ -923,60 +923,59 @@ chall.name.rk Faire {0} éliminations de vengeance {1}
 event.doubleXP 2x Class XP enabled for this match
 ranked.join Joined Ranked Match. Abandoning a match will result in a temporary ban
 ranked.progress Game in Progress
-ranked.team Please join a Team
+ranked.team Joindre une équipe
 ranked.switch Can't switch while in-game
 ranked.spectate Spectating Disabled in Ranked
-ranked.login Login to Spawn
+ranked.login S'inscrire pour jouer
 ranked.sync Missing Sync Data
-ranked.team.spawn Please join a Team to Spawn
-ranked.class.spawn Please select a Class to Spawn
-modes.round.win Your Team has secured this round
-modes.round.loss This round is no longer winnable
-modes.round.switch Switching Sides. Prepare for the next Round
-modes.trade.success Trade Successful
+ranked.team.spawn Joindre une équipe pour jouer
+ranked.class.spawn Choisisé une classe pour jouer
+modes.round.win Votre équipe a gagner cette ronde
+modes.round.loss Vous ne pouvez plus gagner cette ronde
+modes.round.switch Switching Sides. Preparez-vous pour la prochaine ronde
+modes.trade.success Interaction était un success
 modes.prophunt.limit [Prop Hunt] You are out of prop switches
 modes.prophunt.left [Prop Hunt] You have {0} switches remaining
 modes.prophunt.rotation.on [Prop Hunt] Rotation Enabled
 modes.prophunt.rotation.off [Prop Hunt] Rotation Disabled
 modes.prophunt.rotation.reset [Prop Hunt] Rotation reset.
-commands.login Login to use this command
+commands.login S'inscrire pour utiliser ce paramètre
 commands.connected {0} connected, {1} in menu
 commands.host {0} is the current Host.
 commands.noclip.on Noclip - Enabled
 commands.noclip.off Noclip - Disabled
-commands.god.on God mode - Enabled
-commands.god.off God mode - Disabled
-commands.god.on.other God mode - Enabled for {0}
-commands.god.off.other God mode - Disabled for {0}
+commands.god.on Mode dieux - Enabled
+commands.god.off Mode dieux - Disabled
+commands.god.on.other Mode dieux - Enabled for {0}
+commands.god.off.other Mode dieux - Disabled for {0}
 commands.smite.on Smite - Enabled
 commands.smite.off Smite - Disabled
 commands.smite.on.other Smite - Enabled for {0}
 commands.smite.off.other Smite - Disabled for {0}
 commands.perk Gave {0} {1}
 commands.maxperk Gave {0} MAX {1}
-commands.unlimited.on Unlimited Ammo - Enabled
-commands.unlimited.off Unlimited Ammo - Disabled
-commands.unlimited.on.other Unlimited Ammo - Enabled for {0}
-commands.unlimited.off.other Unlimited Ammo - Disabled for {0}
-commands.spraybypass.on Unlimited Ammo - Enabled
-commands.spraybypass.off Unlimited Ammo - Disabled
-commands.spraybypass.on.other Unlimited Ammo - Enabled for {0}
-commands.spraybypass.off.other Unlimited Ammo - Disabled for {0}
-commands.suspect.invalid Invalid suspect info
-commands.suspect.menu Suspect in menu
-commands.suspect.left Suspect has left
+commands.unlimited.on Munitions illimité - Enabled
+commands.unlimited.off Munitions illimité - Disabled
+commands.unlimited.on.other Munitions illimité - Enabled for {0}
+commands.unlimited.off.other Munitions illimité - Disabled for {0}
+commands.spraybypass.on Munitions illimité - Enabled
+commands.spraybypass.off Munitions illimité - Disabled
+commands.spraybypass.on.other Munitions illimité - Enabled for {0}
+commands.spraybypass.off.other Munitions illimité - Disabled for {0}
+commands.suspect.invalid Info de suspect invalide
+commands.suspect.menu Suspect est dans le menu
+commands.suspect.left Suspect est partie
 commands.suspect.found Suspect Found. Spectating: {0}, Spawned: {1}, Name: {2}
-commands.forfeit.next Must play atleast 1 round
+commands.forfeit.next Vous devez jouer au moins une ronde
 commands.forfeit.wait Wait till match starts to forfeit
-commands.forfeit.later Please try again in a few seconds
-commands.forfeit.voted You already voted.
-commands.forfeit.limit You can only start one vote per game
+commands.forfeit.later Essayer encore dans une couples de secondes
+commands.forfeit.voted Vous-avez déjà voté
+commands.forfeit.limit Tu ne peux que commencer un vote par jeu
 commands.forfeit.ended Forfeiting Game
 commands.forfeit.ended.other Other Team Forfeited
-server.message.join {0} joined the game
-server.message.left {0} left the game
-server.message.kicked {0} was kicked
-server.message.banned {0} was banned
-server.message.votekicked {0} was vote kicked
-server.message.arrested {0} was arrested by the K.P.D
-`;
+server.message.join {0} S'est join au jeu
+server.message.left {0} Est partie du jeu
+server.message.kicked {0} Était kicked
+server.message.banned {0} Était banned
+server.message.votekicked {0} Était retirer par le vote
+server.message.arrested {0} Était arrêté par le K.P.D
