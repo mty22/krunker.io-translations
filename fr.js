@@ -938,7 +938,7 @@ modes.prophunt.limit [Prop Hunt] You are out of prop switches
 modes.prophunt.left [Prop Hunt] Vous avez {0} switches remaining
 modes.prophunt.rotation.on [Prop Hunt] Rotation activée
 modes.prophunt.rotation.off [Prop Hunt] Rotation désactivée
-modes.prophunt.rotation.reset [Prop Hunt] Rotation réinitialisée.
+modes.prophunt.rotation.reset [Prop Hunt] Rotation réinitialisée
 commands.login Connectez-vous pour accéder à cette commande
 commands.connected {0} connectés, {1} dans le menu
 commands.host {0} est l'hôte actuel.
