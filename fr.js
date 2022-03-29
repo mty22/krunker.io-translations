@@ -978,5 +978,5 @@ server.message.left {0} left the game
 server.message.kicked {0} was kicked
 server.message.banned {0} was banned
 server.message.votekicked {0} was vote kicked
-server.message.arrested {0} a été arrêté par le kpd
+server.message.arrested {0} a été arrêté par le K.P.D
 `;
