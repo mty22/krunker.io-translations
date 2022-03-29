@@ -6,7 +6,7 @@ menu.btn.maps Mini-jeux
 menu.btn.mods Mods
 menu.btn.settings Réglages
 menu.btn.customize Personnaliser
-menu.btn.invite Invite
+menu.btn.invite Inviter
 menu.btn.invite.clicked Copié
 menu.btn.join Rejoindre
 menu.btn.host Héberger
@@ -954,29 +954,29 @@ commands.smite.on.other Smite - Enabled for {0}
 commands.smite.off.other Smite - Disabled for {0}
 commands.perk Gave {0} {1}
 commands.maxperk Gave {0} MAX {1}
-commands.unlimited.on Unlimited Ammo - Enabled
-commands.unlimited.off Unlimited Ammo - Disabled
-commands.unlimited.on.other Unlimited Ammo - Enabled for {0}
-commands.unlimited.off.other Unlimited Ammo - Disabled for {0}
-commands.spraybypass.on Unlimited Ammo - Enabled
-commands.spraybypass.off Unlimited Ammo - Disabled
-commands.spraybypass.on.other Unlimited Ammo - Enabled for {0}
-commands.spraybypass.off.other Unlimited Ammo - Disabled for {0}
-commands.suspect.invalid Invalid suspect info
-commands.suspect.menu Suspect in menu
-commands.suspect.left Suspect has left
-commands.suspect.found Suspect Found. Spectating: {0}, Spawned: {1}, Name: {2}
-commands.forfeit.next Must play atleast 1 round
-commands.forfeit.wait Wait till match starts to forfeit
-commands.forfeit.later Please try again in a few seconds
-commands.forfeit.voted You already voted.
+commands.unlimited.on Munitions illimitées - Activé
+commands.unlimited.off Munitions illimitées - Desactivé
+commands.unlimited.on.other Munitions illimitées - Activé pour {0}
+commands.unlimited.off.other Munitions illimitées - Desactivé pour {0}
+commands.spraybypass.on Munitions illimitées - Activé
+commands.spraybypass.off Munitions illimitées - Desactivé
+commands.spraybypass.on.other Munitions illimitées - Activé pour {0}
+commands.spraybypass.off.other Munitions illimitées - Desactivé pour {0}
+commands.suspect.invalid Info du suspect invalide
+commands.suspect.menu Suspect est dans le menu
+commands.suspect.left Suspect est parti
+commands.suspect.found Suspect trouvé. Spectating: {0}, Spawned: {1}, Nom: {2}
+commands.forfeit.next Doit au moins jouer une manche
+commands.forfeit.wait Attendre jusqu'à ce que la partie ait commencé pour abandonner  
+commands.forfeit.later Réessayer dans quelques secondes
+commands.forfeit.voted Tu as déjà voté.
 commands.forfeit.limit You can only start one vote per game
-commands.forfeit.ended Forfeiting Game
-commands.forfeit.ended.other Other Team Forfeited
-server.message.join {0} joined the game
-server.message.left {0} left the game
-server.message.kicked {0} was kicked
-server.message.banned {0} was banned
-server.message.votekicked {0} was vote kicked
+commands.forfeit.ended a abandonné la partie
+commands.forfeit.ended.other l'équipe adverse a déclarée forfait
+server.message.join {0} a joint la partie
+server.message.left {0} a quitté la partie
+server.message.kicked {0} a été renvoyé
+server.message.banned {0} a été banni
+server.message.votekicked {0} a été renvoyé par vote 
 server.message.arrested {0} a été arrêté par le K.P.D
 `;
