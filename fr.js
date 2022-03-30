@@ -201,7 +201,7 @@ settings.interface.speedOffX Décalage en X de la vitesse
 settings.interface.speedOffY Décalage en Y de la vitesse
 settings.interface.speedOpacity Opacité de la vitesse
 settings.interface.speedScale Taille de la vitesse
-settings.interface.speedColor Couleur de la vitesse actuelle
+settings.interface.speedColor Couleur de la vitesse
 settings.interface.speedColorMax Couleur de la vitesse max
 settings.interface.hideNames Affichage des pseudos
 settings.interface.hideNames.team Alliés uniquement
@@ -209,7 +209,7 @@ settings.interface.hideNames.enemy Ennemis uniquement
 settings.interface.hideNames.all Tout le monde
 settings.interface.nametagStyle Style du pseudo
 settings.interface.nametagOpac Opacité du pseudo
-settings.interface.nametagScale Nametag Scale
+settings.interface.nametagScale Taille du pseudo
 settings.interface.nametagStyle.health Barre de vie uniquement
 settings.interface.nametagStyle.name Pseudo uniquement
 settings.interface.nametagStyle.nameLvl Pseudo et niveau uniquement
