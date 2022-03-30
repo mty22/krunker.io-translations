@@ -207,8 +207,8 @@ settings.interface.hideNames Affichage des pseudos
 settings.interface.hideNames.team Alliés uniquement
 settings.interface.hideNames.enemy Ennemis uniquement
 settings.interface.hideNames.all Tout le monde
-settings.interface.nametagStyle Style des pseudo
-settings.interface.nametagOpac Opacité des pseudo
+settings.interface.nametagStyle Style du pseudo
+settings.interface.nametagOpac Opacité du pseudo
 settings.interface.nametagScale Nametag Scale
 settings.interface.nametagStyle.health Barre de vie uniquement
 settings.interface.nametagStyle.name Pseudo uniquement
