@@ -207,8 +207,8 @@ settings.interface.hideNames Affichage des pseudos
 settings.interface.hideNames.team Alliés uniquement
 settings.interface.hideNames.enemy Ennemis uniquement
 settings.interface.hideNames.all Tout le monde
-settings.interface.nametagStyle Style des pseudos
-settings.interface.nametagOpac Opacité des pseudos
+settings.interface.nametagStyle Style des pseudo
+settings.interface.nametagOpac Opacité des pseudo
 settings.interface.nametagScale Nametag Scale
 settings.interface.nametagStyle.health Barre de vie uniquement
 settings.interface.nametagStyle.name Pseudo uniquement
@@ -892,7 +892,7 @@ social.trades.out Envoyé
 social.trades.out.head Offres envoyées ({0})
 social.trades.history Historique
 social.trades.history.head Historique d'échanges ({0})
-social.trades.decline Refuser tout
+social.trades.decline Tout refuser
 social.trades.message ACTIVER LES MESSAGES D'ÉCHANGES DANS LES PARAMÈTRES
 social.trades.warning Vous ne recevez rien en échange!
 social.trades.accept Êtes-vous sûr de vouloir accepter cette offre?
@@ -975,8 +975,8 @@ commands.forfeit.ended a abandonné la partie
 commands.forfeit.ended.other l'équipe adverse a déclarée forfait
 server.message.join {0} a joint la partie
 server.message.left {0} a quitté la partie
-server.message.kicked {0} a été renvoyé
+server.message.kicked {0} a été exclu
 server.message.banned {0} a été banni
-server.message.votekicked {0} a été renvoyé par vote 
+server.message.votekicked {0} a été exclu par vote 
 server.message.arrested {0} a été arrêté par le K.P.D
 `;
