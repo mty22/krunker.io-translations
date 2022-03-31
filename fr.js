@@ -934,7 +934,7 @@ modes.round.win Votre équipe a sécurisé la manche
 modes.round.loss La manche n'est plus gagnable
 modes.round.switch Changement de côté. Préparez-vous pour la prochaine manche
 modes.trade.success Échange réussi
-modes.prophunt.limit [Prop Hunt] You are out of prop switches
+modes.prophunt.limit [Prop Hunt] Vous ne pouvez plus vous transformer
 modes.prophunt.left [Prop Hunt] Vous avez {0} switches remaining
 modes.prophunt.rotation.on [Prop Hunt] Rotation activée
 modes.prophunt.rotation.off [Prop Hunt] Rotation désactivée
@@ -952,8 +952,8 @@ commands.smite.on Smite - Activé
 commands.smite.off Smite - Désactivé
 commands.smite.on.other Smite - Activé pour {0}
 commands.smite.off.other Smite - Désactivé pour {0}
-commands.perk Gave {0} {1}
-commands.maxperk Gave {0} MAX {1}
+commands.perk Donné {1} à {0}
+commands.maxperk Donné MAX {1} à {0}
 commands.unlimited.on Munitions illimitées - Activé
 commands.unlimited.off Munitions illimitées - Désactivé
 commands.unlimited.on.other Munitions illimitées - Activé pour {0}
