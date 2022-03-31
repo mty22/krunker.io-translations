@@ -965,7 +965,7 @@ commands.spraybypass.off.other Munitions illimitées - Désactivé pour {0}
 commands.suspect.invalid Info du suspect invalide
 commands.suspect.menu Suspect est dans le menu
 commands.suspect.left Suspect est parti
-commands.suspect.found Suspect trouvé. Spectating: {0}, Spawned: {1}, Nom: {2}
+commands.suspect.found Suspect trouvé. En train de visionner: {0}, Apparus: {1}, Nom: {2}
 commands.forfeit.next Doit au moins jouer une manche
 commands.forfeit.wait Attendre jusqu'à ce que la partie ait commencé pour abandonner  
 commands.forfeit.later Réessayer dans quelques secondes
