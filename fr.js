@@ -920,7 +920,7 @@ chall.name.dmg Faire {0} dégâts {1}
 chall.name.bzk Get {0} buzz kills {1}
 chall.name.cc Obtenez {0} échappées-belles {1}
 chall.name.rk Faire {0} éliminations de vengeance {1}
-event.doubleXP 2x Class XP activé pour cette partie
+event.doubleXP Double XP activé pour cette partie
 ranked.join Joined Ranked Match. Abandonner un match mènera à une suspension
 ranked.progress Partie en cours
 ranked.team Veuillez rejoindre une équipe
