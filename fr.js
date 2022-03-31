@@ -84,8 +84,8 @@ settings.none Aucun réglage trouvé
 settings.backup Paramètres de sauvegarde
 settings.controls.change Contrôles
 settings.controls.press Appuyez sur n'importe quelle touche
-settings.controls.leaderboard InGame Leaderboard Trigger Type
-settings.controls.voicechat Voicechat Trigger Type
+settings.controls.leaderboard Type d'activation du leaderboard en jeu
+settings.controls.voicechat Type d'activation du chat vocal
 settings.local.header La localisation <span id="requiresRestart"><span style="color: #eb5656">*</span> nécessite le redémarrage</span>
 settings.local.region Région par défaut
 settings.local.lang Langue
@@ -94,7 +94,7 @@ settings.network.netRerouting Routage automatique (affecte le Ping)
 settings.network.netRate Taux de rafraîchissement réseau (Hz)
 settings.network.lagComp Compensation du lag
 settings.network.optNet Optimisation du réseau
-settings.network.quickplay Force Quickplay
+settings.network.quickplay Forcer le Quickplay
 settings.popup.header Popups
 settings.experimental.header Expérimental
 settings.experimental.holiday Éffets de fêtes
@@ -221,7 +221,7 @@ settings.interface.xpBarCol Couleur de la barre d'xp
 settings.interface.xpBarCol2 Couleur 2 de la barre d'xp
 settings.interface.xpBarOpac Opacité de la barre d'xp
 settings.medals.header Médailles
-settings.medals.show Montrer les médeailles
+settings.medals.show Montrer les médailles
 settings.medals.classic Médailles classiques
 settings.medals.sound Jouer les sons des médailles
 settings.medals.scale Taille des médailles
@@ -277,7 +277,7 @@ settings.crosshairm.size Taille
 settings.crosshairm.thickness Épaisseur
 settings.crosshairm.gap Écart
 settings.crosshairm.dot Point
-settings.crosshairm.opacity.use Utiliser une pacité personnalisée
+settings.crosshairm.opacity.use Utiliser une opacité personnalisée
 settings.crosshairm.opacity.custom Opacité personnalisée
 settings.hitmarker.header Indicateur de touche
 settings.hitmarker.color Couleur
@@ -296,19 +296,19 @@ settings.onKillS.style.0 Par défaut
 settings.onKillS.style.1 Réduire la Résolution
 settings.onKillS.style.2 Réduire le champ de vision
 settings.onKillS.style.3 Augmenter le champ de vision
-settings.serverb.header Naviguateur de serveurs
+settings.serverb.header Navigateur de serveurs
 settings.serverb.oldBrowser Ancien naviguateur
-settings.serverb.defaultRegionOnly Region par défaut seulement
+settings.serverb.defaultRegionOnly Région par défaut seulement
 settings.gameprivacy.header Confidentialité en jeu
 settings.gameprivacy.streamer Mode Streameur
 settings.gameprivacy.anon Mode Anonyme
 settings.gameprivacy.hideGameTitle Cacher le nom du jeu
-settings.gameprivacy.showRegion Show Region Info
+settings.gameprivacy.showRegion Afficher l'info de région
 settings.gameprivacy.verified Afficher le badge de vérification
 settings.gameprivacy.premium Afficher le badge de premium
 settings.gameprivacy.partner Afficher le badge de partenaire
 settings.gameprivacy.rank Afficher le badge de ranked
-settings.gameprivacy.custom Show Custom Badge
+settings.gameprivacy.custom Montrer le badge personnalisé
 settings.gameplay.header Jouabilité
 settings.gameplay.gpSetts Paramètres de jeu
 settings.gameplay.sensitivityX Sensibilité X
@@ -421,8 +421,8 @@ settings.mods.load Autoriser les mods
 settings.mods.logo Autoriser le changement du logo
 settings.mods.auto Charger automatiquement les mods
 settings.mods.borders Bordures du viseur
-settings.mods.borderCol Scope Borders
-settings.mods.borderOpac Scope Borders Opacity
+settings.mods.borderCol Bordures du viseur
+settings.mods.borderOpac Opacité des bordures du viseur
 settings.mods.scope Image du viseur
 settings.mods.scope.paste Lien image du viseur
 settings.mods.scope.opacity Opacité du viseur
@@ -462,7 +462,7 @@ windows.servers.hide Cacher les parties pleines
 windows.servers.priority Région prioritaire
 windows.servers.online {0} En jeu
 windows.servers.social {0} Dans le social
-windows.servers.editor {0} in Editor
+windows.servers.editor {0} Dans l'éditeur
 windows.loadout.header Changer l'équipement
 windows.loadout.class Classe
 windows.loadout.primary Arme principale
@@ -472,11 +472,11 @@ windows.loadout.primary.scope Viseur
 windows.loadout.secondary Arme secondaire
 windows.loadout.secondary.skin Skin de l’arme secondaire
 windows.loadout.melee Skin de l’arme de mêlée
-windows.loadout.hat Chapeau
+windows.loadout.hat Tête
 windows.loadout.back Corps
 windows.loadout.waist Bassin
 windows.loadout.shoe Chaussures
-windows.loadout.face Tête
+windows.loadout.face Visage
 windows.loadout.spray Tag
 windows.loadout.color.skin Couleur de peau
 windows.loadout.color.chat Couleur du pseudo dans le chat
@@ -510,7 +510,7 @@ windows.controls.aim1 Viser
 windows.controls.shoot1 Tirer
 windows.controls.inspect Inspecter
 windows.controls.spray Taguer
-windows.controls.sprayWheel Spray Wheel (Hold)
+windows.controls.sprayWheel Roue des tags (Maintenir)
 windows.controls.jump Sauter
 windows.controls.crouch S’accroupir
 windows.controls.prim Arme principale
@@ -541,16 +541,16 @@ windows.controls.streak1 Série d’élimination 2
 windows.controls.streak2 Série d’élimination 3
 windows.controls.streak3 Série d’élimination 4
 windows.controls.streak4 Série d’élimination 5
-windows.controls.taunt0 Taunt (Psst)
-windows.controls.taunt1 Taunt (Sifflement)
-windows.controls.taunt2 Taunt (Pet)
-windows.controls.taunt3 Taunt (Meme)
-windows.controls.taunt4 Taunt (WTF is This?)
-windows.controls.taunt5 Taunt (Maintenant!)
-windows.controls.prop Selectionner l'objet (Tenir appuyé)
-windows.controls.propRand Select Random Prop
-windows.controls.propRot Toggle Rotation
-windows.controls.propRotR Reset Rotation
+windows.controls.taunt0 Indice (Psst)
+windows.controls.taunt1 Indice (Sifflement)
+windows.controls.taunt2 Indice (Pet)
+windows.controls.taunt3 Indice (Meme)
+windows.controls.taunt4 Indice (WTF is This?)
+windows.controls.taunt5 Indice (Maintenant!)
+windows.controls.prop Séléctionner un objet (Tenir appuyé)
+windows.controls.propRand Séléctionner un Prop aléatoire
+windows.controls.propRot Activer la rotation
+windows.controls.propRotR Réinitialiser la rotation
 windows.controls.premium0 Noclip
 windows.controls.premium1 Invincibilité
 windows.controls.premium2 Suicide
@@ -649,12 +649,12 @@ windows.secondary.unlocked Débloqué
 windows.secondary.customOnly Partie perso. uniquement
 windows.secondary.premiumOnly Premium uniquement
 windows.secondary.req Niveau {0} requis
-windows.skins.unlocked Unlocked
-windows.skins.customOnly Customs Only
-windows.skins.premiumOnly Premium Only
-windows.skins.classOnly Req {0}
-windows.skins.req Req lvl {0}
-windows.skins.default Default Skin
+windows.skins.unlocked Débloqué
+windows.skins.customOnly Parties personalisées uniquement
+windows.skins.premiumOnly Premium uniquement
+windows.skins.classOnly requis {0}
+windows.skins.req Niveau {0} requis
+windows.skins.default Skin par défaut
 windows.advertise.header Faire de la pub
 windows.support.header Support
 windows.players.header Liste des joueurs
@@ -759,7 +759,7 @@ server.config.noCosm Désactiver les cosmétiques
 server.config.tstCmp Mode de Test
 server.config.limitClasses Limiter les classes
 server.config.tmSize Taille d'équipe
-server.config.fallDmg Dégat de chute
+server.config.fallDmg Dégâts de chute
 server.config.fallDmgThr Seuil de dégat de chute
 server.config.noDraws Pas d'égalité
 server.config.bstOfR Meilleur des
@@ -780,7 +780,7 @@ social.market.price.list Prix de mise en vente
 social.market.searching Recherche
 social.market.listed mis en vente il y a {0}
 social.market.list Mettre en vente
-social.market.unlist Retirer
+social.market.unlist Retirer de la vente
 social.market.unlisting Retrait de l’objet en cours...
 social.market.posting Mise en vente de l’objet...
 social.market.req niveau {0} requis
@@ -839,7 +839,7 @@ windows.profile.picture Changer l'image
 stats.assists Aides
 stats.nukes Nukes
 stats.melee Mêlées
-stats.fistkills Kills aux points
+stats.fistkills Kills aux poings
 stats.thrownkills Kills aux lancers de mêlée
 stats.headshots Tirs à la tête
 stats.wallbangs Tirs à travers les murs
@@ -899,9 +899,9 @@ social.trades.accept Êtes-vous sûr de vouloir accepter cette offre?
 stats.airdrops Largage aérien de KR
 stats.airdrops.stolen Largages aériens de KR volés
 settings.quality.flapAnim Animation du rabat de sniper
-chall.name.hs  Obtenez {0} tirs a la tête {1}
+chall.name.hs  Obtenez {0} tirs à la tête {1}
 chall.name.ns  Obtenez {0} tirs sans viser {1}
-chall.name.ls  Obtenez {0} tirs a la jambe {1}
+chall.name.ls  Obtenez {0} tirs à la jambe {1}
 chall.name.tmk Obtenez {0} éliminations au lancer de couteau {1}
 chall.name.fb  Obtenez {0} premier sangs {1}
 chall.name.mk  Obtenez {0} éliminations à la mêlée
@@ -912,7 +912,7 @@ chall.name.airk Obtenez {0} éliminations en l'air {1}
 chall.name.lns Obtenez {0} tirs de loin
 chall.name.tk  Obtenez {0} éliminations turbo {1}
 chall.name.drk Obtenez {0} éliminations dérapantes {1}
-chall.name.kstk Obtenez une serie d'éliminations de {0} {1}
+chall.name.kstk Obtenez une série d'éliminations de {0} {1}
 chall.name.w Gagnez {0} matchs
 chall.name.d Mourrez {0} fois
 chall.name.score Obtenez {0} score
