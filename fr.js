@@ -966,14 +966,14 @@ commands.suspect.invalid Info du suspect invalide
 commands.suspect.menu Suspect est dans le menu
 commands.suspect.left Suspect est parti
 commands.suspect.found Suspect trouvé. En train de visionner: {0}, Apparus: {1}, Nom: {2}
-commands.forfeit.next Doit au moins jouer une manche
+commands.forfeit.next Vous devez jouer au moins une manche
 commands.forfeit.wait Attendre jusqu'à ce que la partie ait commencé pour abandonner  
 commands.forfeit.later Réessayer dans quelques secondes
-commands.forfeit.voted Tu as déjà voté.
+commands.forfeit.voted Vous avez déjà voté.
 commands.forfeit.limit Vous ne pouvez commencer qu'un vote par partie
 commands.forfeit.ended a abandonné la partie
-commands.forfeit.ended.other l'équipe adverse a déclarée forfait
-server.message.join {0} a joint la partie
+commands.forfeit.ended.other L'équipe adverse a déclarée forfait
+server.message.join {0} a rejoint la partie
 server.message.left {0} a quitté la partie
 server.message.kicked {0} a été exclu
 server.message.banned {0} a été banni
