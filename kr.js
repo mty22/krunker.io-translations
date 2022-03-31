@@ -9,7 +9,7 @@ menu.btn.customize 개인 설정
 menu.btn.invite 초대
 menu.btn.invite.clicked 초대 링크 복사됨
 menu.btn.join 게임 참가
-menu.btn.host 만들기
+menu.btn.host 호스트 
 menu.btn.browser 브라우저
 generic.wait 잠시만 기다리세요...
 generic.loading 로딩 중...
