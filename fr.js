@@ -652,7 +652,7 @@ windows.secondary.req Niveau {0} requis
 windows.skins.unlocked Débloqué
 windows.skins.customOnly Parties personalisées uniquement
 windows.skins.premiumOnly Premium uniquement
-windows.skins.classOnly requis {0}
+windows.skins.classOnly Requis {0}
 windows.skins.req Niveau {0} requis
 windows.skins.default Skin par défaut
 windows.advertise.header Faire de la pub
