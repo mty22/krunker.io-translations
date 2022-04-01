@@ -954,8 +954,8 @@ commands.smite.on.other {0}님의 즉사 모드 활성화됨
 commands.smite.off.other {0}님의 즉사 모드 비활성화됨
 commands.perk {0}님에게 {1} 보너스를 부여했습니다
 commands.maxperk {0}님에게 {1} 보너스 최고치를 부여했습니다
-commands.unlimited.on 무한탄창 모드 활성화됨
-commands.unlimited.off 무한탄창 모드 비활성화됨
+commands.unlimited.on 무한 탄창 모드 활성화됨
+commands.unlimited.off 무한 탄창 모드 비활성화됨
 commands.unlimited.on.other {0}님의 무한 탄창 모드 활성화됨
 commands.unlimited.off.other {0}님의 무한 탄창 모드 비활성화됨
 commands.spraybypass.on 무한 스프레이 모드 활성화됨
