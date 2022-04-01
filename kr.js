@@ -1,15 +1,15 @@
 module.exports = `
-menu.btn.ranked 랭크전
+menu.btn.ranked 랭킹전
 menu.btn.shop 상점
-menu.btn.social 허브
+menu.btn.social 소셜
 menu.btn.maps 사용자 지정 게임
-menu.btn.mods Mod
+menu.btn.mods 모드
 menu.btn.settings 설정
-menu.btn.customize 개인 설정
+menu.btn.customize 커스텀 설정
 menu.btn.invite 초대
 menu.btn.invite.clicked 초대 링크 복사됨
 menu.btn.join 게임 참가
-menu.btn.host 호스트 
+menu.btn.host 호스트
 menu.btn.browser 브라우저
 generic.wait 잠시만 기다리세요...
 generic.loading 로딩 중...
@@ -21,7 +21,7 @@ generic.save 저장
 generic.load 불러오기
 generic.search 검색
 generic.leave 나가기
-generic.default 기본
+generic.default 기본값
 generic.submit 제출
 generic.create 게임 만들기
 generic.random 무작위
@@ -34,25 +34,25 @@ generic.off 끄기
 generic.defeat 패배
 generic.victory 승리
 generic.matchover 매치 종료
-generic.matchaband 상대가 게임을 나갔습니다
+generic.matchaband 게임이 취소되었습니다
 generic.follow 팔로우
 generic.unfollow 언팔로우
 generic.followers 팔로워
 generic.following 팔로잉
-generic.games 게임 수
+generic.games 게임
 generic.wins 승리
-generic.lose 패배
+generic.lose 패배 
 generic.clan 클랜
 generic.games.played 플레이한 게임
 generic.games.won 승리한 게임
 generic.games.lost 패배한 게임
 generic.timep 플레이 시간
-generic.kills 처치
+generic.kills 킬
 generic.deaths 사망
-generic.kdr KDR
+generic.kdr 킬뎃
 generic.time 플레이 시간
 generic.logout 로그아웃
-generic.logout.sessions 모든 세션에서 로그아웃
+generic.logout.sessions 모든 기기에서 로그아웃
 generic.username 아이디
 generic.password 비밀번호
 generic.register 회원가입
@@ -75,7 +75,7 @@ app.play.controller 플레이하려면 START를 누르세요
 app.spectate.controller 관전하려면 START를 누르세요
 purchase.error 오류가 발생했습니다
 purchase.error.click 여기</a>를 눌러서 다시 시도하세요!
-purchase.error.limit 일일 트레이드 한도를 초과했습니다
+purchase.error.limit 일일 교환 한도를 초과했습니다
 settings.reset 초기화
 settings.reset.confirm 설정을 초기화할까요?
 settings.import 불러오기
@@ -94,7 +94,7 @@ settings.network.netRerouting 자동 라우팅 (핑에 영향을 줍니다)
 settings.network.netRate 네트워크 속도 (Hz)
 settings.network.lagComp 지연 시간 보정
 settings.network.optNet 네트워크 최적화
-settings.network.quickplay 빠른 플레이 강제
+settings.network.quickplay 빠른 플레이 
 settings.popup.header 팝업
 settings.experimental.header 실험적 설정
 settings.experimental.holiday 기념일 효과
@@ -107,7 +107,7 @@ settings.client.header 클라이언트
 settings.client.unlimitedFrames 무제한 FPS
 settings.client.gameCap 게임 캡처
 settings.client.experimental 시험 기능
-settings.client.discordRPC Discord 연동
+settings.client.discordRPC Discord (디스코드) 연동
 settings.client.resourceSwapper 리소스 교체 활성화
 settings.client.clearCache 캐시 삭제하기
 settings.client.resetSettings 클라이언트 설정 초기화
@@ -124,11 +124,11 @@ settings.chat.chat 채팅창 표시
 settings.chat.chat.all 항상
 settings.chat.chat.focus 입력 중에만
 settings.chat.messages 플레이어 메시지 표시
-settings.chat.unboxings 스핀 결과 표시
+settings.chat.unboxings 뽑기 결과 표시
 settings.chat.chatOp 채팅 불투명도
 settings.chat.chatBGOp 채팅 배경 불투명도
 settings.chat.chatHeight 채팅 높이
-settings.chat.chatTimer 채팅 사라지기 타이머
+settings.chat.chatTimer 채팅 글자가 사라지는 시간
 settings.chat.chatTextOutline 채팅 글자 테두리
 settings.chat.chatFilter 욕설 필터링
 settings.quality.header 성능
@@ -291,7 +291,7 @@ settings.hitmarker.animS 애니메이션 속도
 settings.hitmarker.hitm 표시
 settings.hitmarker.hitmFad 사라짐 속도
 settings.hitmarker.custom 히트마커 이미지
-settings.hitmarker.custom.paste 히트마커 URL
+settings.hitmarker.custom.paste 히트마커 URL(링크)
 settings.onKillS.style.0 기본
 settings.onKillS.style.1 해상도 축소
 settings.onKillS.style.2 FOV 축소
@@ -304,10 +304,10 @@ settings.gameprivacy.streamer 스트리머 모드
 settings.gameprivacy.anon 익명 모드
 settings.gameprivacy.hideGameTitle 게임 제목 숨기기
 settings.gameprivacy.showRegion 지역 정보 표시
-settings.gameprivacy.verified 베리파이 배지 표시
+settings.gameprivacy.verified 인증 배지 표시
 settings.gameprivacy.premium 프리미엄 배지 표시
 settings.gameprivacy.partner 파트너 배지 표시
-settings.gameprivacy.rank 랭크전 배지 표시
+settings.gameprivacy.rank 랭킹전 배지 표시
 settings.gameprivacy.custom 사용자 지정 배지 표시
 settings.gameplay.header 게임플레이
 settings.gameplay.gpSetts 게임플레이 설정
@@ -378,7 +378,7 @@ settings.viewmodel.adsFovMlt 무기 조준 배율
 settings.viewmodel.toggleADS 무기 조준 전환
 settings.editing.header 인터페이스 효과
 settings.editing.health.high HUD HP 정상 색상
-settings.editing.health.low HUD HP 낮음 색상
+settings.editing.health.low HUD HP 낮은 색상
 settings.editing.speedLines 속도 효과선
 settings.editing.spdLinesCol 속도 효과선 색상
 settings.editing.score.color 점수 팝업 색상
@@ -417,46 +417,46 @@ settings.editing.tracer 예광탄
 settings.editing.tracer.offset 예광탄 시작점 위치
 settings.shaders.header 셰이더 입력
 settings.mods.header 사용자 설정
-settings.mods.load Mod 사용
+settings.mods.load 모드 사용
 settings.mods.logo 로고 변경 허용
-settings.mods.auto Mod 자동 적용
+settings.mods.auto 모드 자동 적용
 settings.mods.borders 스나이퍼 스코프 경계
 settings.mods.borderCol 스코프 테두리
 settings.mods.borderOpac 스코프 테두리 불투명도
 settings.mods.scope 스코프 이미지
-settings.mods.scope.paste 스코프 이미지 URL
+settings.mods.scope.paste 스코프 이미지 URL(링크)
 settings.mods.scope.opacity 스코프 불투명도
 settings.mods.scope.width 스코프 이미지 너비
 settings.mods.scope.height 스코프 이미지 높이
 settings.mods.dot 십자선 이미지
 settings.mods.dot.width 십자선 이미지 너비
 settings.mods.dot.height 십자선 이미지 높이
-settings.mods.dot.paste 십자선 이미지 URL
+settings.mods.dot.paste 십자선 이미지 URL(링크)
 settings.mods.endmessage 매치 종료 메시지
 settings.mods.profile 프로필 사진
-settings.mods.profile.paste 프로필 사진 URL
+settings.mods.profile.paste 프로필 사진 URL(링크)
 settings.mods.ammo 탄약 아이콘
-settings.mods.ammo.paste 탄약 아이콘 URL
+settings.mods.ammo.paste 탄약 아이콘 URL(링크)
 settings.mods.kills 처치 수 아이콘
-settings.mods.kills.paste 처치 수 아이콘 URL
+settings.mods.kills.paste 처지 수 아이콘 URL(링크)
 settings.mods.deaths 사망 수 아이콘
-settings.mods.deaths.paste 사망 수 아이콘 URL
+settings.mods.deaths.paste 사망 수 아이콘 URL(링크)
 settings.mods.streak 연속 처치 수 아이콘
 settings.mods.streak.paste 연속 처치 수 아이콘
 settings.mods.timer 타이머 아이콘
-settings.mods.timer.paste 타이머 아이콘 URL
+settings.mods.timer.paste 타이머 아이콘 URL(링크)
 settings.mods.usedamage 피해량 오버레이 사용
 settings.mods.damage 피해량 오버레이 이미지
-settings.mods.damage.paste 피해량 오버레이 이미지 URL
+settings.mods.damage.paste 피해량 오버레이 이미지 URL(링크)
 settings.mods.overlay 게임 오버레이 이미지
-settings.mods.overlay.paste 게임 오버레이 이미지 URL
+settings.mods.overlay.paste 게임 오버레이 이미지 URL(링크)
 settings.social.region 지역 스탯
 settings.social.bg 배경 이미지
-settings.social.bg.paste 배경 이미지 URL
+settings.social.bg.paste 배경 이미지 URL(링크)
 windows.settings.header 게임 설정
 windows.mail.header Krunker 메일
 windows.servers.header 서버
-windows.servers.none 참가할 수 있는 게임이 없습니다.
+windows.servers.none 참가할 수 있는 게임이 없습니다
 windows.servers.host + 게임 만들기
 windows.servers.hide 가득 찬 게임 숨기기
 windows.servers.priority 지역 우선순위
@@ -487,15 +487,15 @@ windows.loadout.wrist 손목
 windows.loadout.stat 상대 처치 시 보일 스탯
 windows.loadout.flag 국기
 windows.loadout.badge 사용자 지정 배지
-windows.mods.drop Mod 파일을 여기에 드래그 또는 클릭
-windows.mods.paste Mod URL 붙여넣기
-windows.mods.load Mod 적용
-windows.mods.none 찾은 Mod가 없습니다
-windows.mods.header Mod 관리
-windows.mods.guide Mod 가이드
-windows.mods.list Mod 목록
-windows.mods.load.header Mod 적용
-windows.mods.publish Mod 업로드
+windows.mods.drop 모드 파일을 여기에 드래그 또는 클릭
+windows.mods.paste 모드 URL(링크) 붙여넣기
+windows.mods.load 모드 적용
+windows.mods.none 찾은 모드가 없습니다
+windows.mods.header 모드 관리
+windows.mods.guide 모드 가이드
+windows.mods.list 모드 목록
+windows.mods.load.header 모드 적용
+windows.mods.publish 모드 업로드
 windows.mods.viewer 뷰어
 windows.account.header 계정
 windows.account.recover 계정 복구는 <a>recovery@yendis.ch</a>로 이메일을 보내십시오
@@ -632,18 +632,18 @@ windows.dye.header 염료 선택
 windows.dye.default 기본 염료
 windows.dye.spin 염료
 windows.changelog.header 업데이트 기록 (영어)
-windows.mods.community.header 커뮤니티 Mod
+windows.mods.community.header 커뮤니티 모드
 windows.mods.community.fav 즐겨찾기
-windows.mods.community.new 새 Mod
-windows.mods.community.hot 인기 Mod
-windows.mods.community.name Mod 이름
-windows.mods.community.none Mod 없음
-windows.publish.mod.header Mod 업로드
+windows.mods.community.new 새 모드
+windows.mods.community.hot 인기 모드
+windows.mods.community.name 모드 이름
+windows.mods.community.none 모드 없음
+windows.publish.mod.header 모드 업로드
 windows.publish.mod.thumbnail 섬네일 없음
-windows.publish.mod.name Mod 이름
-windows.publish.mod.paste Mod URL
+windows.publish.mod.name 모드 이름
+windows.publish.mod.paste 모드 URL(링크)
 windows.publish.mod.update 업로드
-windows.publish.mod.login 로그인해서 Mod를 만들고 업로드하세요!
+windows.publish.mod.login 로그인해서 모드를 만들고 업로드하세요!
 windows.secondary.header 보조무기 선택
 windows.secondary.unlocked 잠금 해제됨
 windows.secondary.customOnly 사용자 지정 게임 전용
@@ -660,11 +660,11 @@ windows.support.header 고객지원
 windows.players.header 플레이어 목록
 windows.players.none 현재 플레이어가 없습니다...
 windows.join.header 참가
-windows.join.code 게임 URL이나 코드를 입력하세요
+windows.join.code 게임 URL(링크)이나 코드를 입력하세요
 windows.client.header 클라이언트
-windows.client.windows Windows
-windows.client.mac macOS
-windows.client.linux Linux
+windows.client.windows Windows(윈도우)
+windows.client.mac macOS(맥)
+windows.client.linux Linux(리눅스)
 windows.ranked.header 랭크
 windows.ranked.login 로그인해서 랭크 게임에 참가하세요!
 windows.ranked.level 랭크 게임을 하려면 최소<span color="black">{0}레벨</span>이어야 합니다! 지금 당신은 <span color="black">{1}레벨</span>입니다.
@@ -677,7 +677,7 @@ mod.extracting Mod 추출 중... {0}/{1}
 mod.disabled Mod가 비활성화되어 있습니다
 mod.error Mod 오류!
 mod.loading Mod 적용 중...
-mod.invalid 유효하지 않은 Mod 파일입니다!
+mod.invalid 유효하지 않은 모드 파일입니다!
 matchmaker.full 가득 찼습니다
 matchmaker.GameFull 게임이 가득 찼습니다
 matchmaker.NoServersMatchQuery 게임이 업데이트 중입니다
@@ -689,7 +689,7 @@ ad-failed 광고를 불러오지 못하였습니다. 나중에 다시 시도하�
 streamers.views 시청자 {0}명
 streamers.none 생방송이 없습니다!
 error.extentions 확장 프로그램을 사용하고 있다면 비활성화 해주십시오.
-error.seek 다른 게임을 찾아보려면 here를 클릭하세요.
+error.seek 다른 게임을 찾아보려면 여기를 클릭하세요.
 custom.map.upload.limit 실패했습니다. 맵 데이터는 500KB 이내여야 합니다.
 custom.map.missing 최소 하나의 맵을 선택하세요.
 custom.mode.missing 최소 하나의 게임 모드를 선택하세요.
@@ -772,9 +772,9 @@ social.login.gift KR을 주려면 로그인하세요
 social.login.proccessing 로그인 중...
 social.since 시작일
 social.user.maps 이 유저의 게임
-social.user.mods 이 유저의 Mod
+social.user.mods 이 유저의 모드
 social.maps.none 찾은 게임이 없습니다
-social.mods.none 찾은 Mod가 없습니다
+social.mods.none 찾은 모드 없습니다
 social.market.price.low 가격 오름차순
 social.market.price.list 가격 정렬 방법
 social.market.searching 검색 중...
@@ -787,7 +787,7 @@ social.market.req {0}레벨 이상이어야 합니다.
 social.market.cant KR이 부족합니다
 social.market.purchase 구매
 social.market.fee 게시 수수료 없음
-social.market.failed 실패했습니다. 다시 해보십시오.
+social.market.failed 실패했습니다, 다시 시도하십시오
 social.market.head 머리 아이템
 social.market.back 몸통 아이템
 social.market.waist 허리 아이템
@@ -812,7 +812,7 @@ social.market.fee.gift 수수료 없음
 social.market.gift KR 선물하기
 social.market.gift.msg 메시지 남기기
 respawn.auto {0}초 후 자동 리스폰
-custom.host.ranked 랭크전 준비 중 게임 만들기 불가
+custom.host.ranked 랭킹전 준비 중 게임 만들기 불가
 funds.insufficient 돈이 부족합니다
 funds.out KR이 부족합니다
 custom.passcode.long 너무 긴 비밀번호
@@ -837,7 +837,7 @@ mod.reset.0 리스폰 후 적용됩니다.
 mod.reset.1 맵 물체는 새로고침의 영향을 받지 않음
 windows.profile.picture 프로필 사진 변경
 stats.assists 어시스트
-stats.nukes 뉴크
+stats.nukes 뉴크(핵폭탄)
 stats.melee 근접 처치
 stats.fistkills 격투 처치
 stats.thrownkills 투척 처치
@@ -881,7 +881,7 @@ social.profile.games.none 이 유저가 게시한 게임이 없습니다
 social.profile.assets 에셋 [{0}]
 social.profile.assets.none 이 유저가 게시한 에셋이 없습니다
 social.profile.mods Mod [{0}]
-social.profile.mods.none 이 유저가 게시한 Mod가 없습니다
+social.profile.mods.none 이 유저가 게시한 모드가 없습니다
 social.search 검색 결과
 social.market.stats.rare 희귀 아이템
 social.market.stats.circulation 유통 개수
