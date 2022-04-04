@@ -649,7 +649,7 @@ windows.secondary.unlocked उनलॉक्ड
 windows.secondary.customOnly सिर्फ कस्टम्स
 windows.secondary.premiumOnly सिर्फ प्रीमियम
 windows.secondary.req {0} पर अनलॉक हो जाता है
-windows.skins.unlocked उनलॉक्ड
+windows.skins.unlocked अनलॉक्ड
 windows.skins.customOnly सिर्फ कस्टम्स
 windows.skins.premiumOnly सिर्फ प्रीमियम
 windows.skins.classOnly {0} ज़रूरी है
@@ -930,7 +930,7 @@ ranked.login स्पॉन करने के लिए लॉगिन क�
 ranked.sync Missing Sync Data
 ranked.team.spawn कृपया स्पॉन करने के लिए एक टीम जॉइन करें
 ranked.class.spawn कृपया स्पॉन करने के लिए एक क्लास सेलेक्ट करें
-modes.round.win आपकी टीम ने यह राउंड सिक्युर कर लिया है
+modes.round.win आपकी टीम ने यह राउंड जीत लिया है
 modes.round.loss यह राउंड अब जीता नहीं जा सकता
 modes.round.switch Switching Sides. Prepare for the next Round
 modes.trade.success ट्रेड सफल रहा
@@ -952,7 +952,7 @@ commands.smite.on Smite - इनेबल्ड
 commands.smite.off Smite - डिसेबल्ड
 commands.smite.on.other Smite - {0} के लिए इनेबल्ड
 commands.smite.off.other Smite - {0} के लिए डिसेबल्ड
-commands.perk दिया {0} {1}
+commands.perk {1} को {0} दिया
 commands.maxperk Gave {0} MAX {1}
 commands.unlimited.on अनलिमिटेड Ammo - इनेबल्ड
 commands.unlimited.off अनलिमिटेड Ammo - डिसेबल्ड
@@ -969,7 +969,7 @@ commands.suspect.found Suspect Found. Spectating: {0}, Spawned: {1}, Name: {2}
 commands.forfeit.next 1 राउंड खेलना ज़रूरी है
 commands.forfeit.wait forfeit करने के लिए मैच शुरू होने दें
 commands.forfeit.later कृपया कुछ देर बाद कोशिश करें
-commands.forfeit.voted आप पहले वोटे कर चुके हैं
+commands.forfeit.voted आप पहले वोट कर चुके हैं
 commands.forfeit.limit आप एक गेम मे एक ही बार वोट शुरू कर सकते हैं
 commands.forfeit.ended Forfeiting गेम
 commands.forfeit.ended.other Other Team Forfeited
@@ -978,5 +978,5 @@ server.message.left {0} ने गेम छोड़ दिया
 server.message.kicked {0} को किक किया गया
 server.message.banned {0} को बैन किया गया
 server.message.votekicked {0} was vote kicked
-server.message.arrested {0} को K.P.D ने गिरफ्तार किया
+server.message.arrested {0} को K.P.D ने गिरफ्तार कर लिया
 `;
