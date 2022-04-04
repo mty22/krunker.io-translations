@@ -35,7 +35,7 @@ If you contributed in the past and can't find your name below (or simply wish to
 * [nerdyboyobob](https://krunker.io/social.html?p=profile&q=nerdyboyobob) (nerdy#5827)
 
 # [Korean](https://github.com/mty22/krunker.io-translations/blob/main/kr.js) (한국어)
-* [GoonMandu](https://krunker.io/social.html?p=GoonMandu) (goonmandu#4897)
+* [GoonMandu](https://krunker.io/social.html?p=profile&q=GoonMandu) (goonmandu#4897)
 * [dojin](https://krunker.io/social.html?p=profile&q=dojin.) (dojin#0001)
 * [YuniQ](https://krunker.io/social.html?p=profile&q=YuniQ) (YuniQ#3543)
 * [zVaderX](https://krunker.io/social.html?p=profile&q=zVaderX) (zVaderX#7713)
