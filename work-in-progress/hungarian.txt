@@ -1,2 +1,3 @@
 file: hu.js
 pull request: https://github.com/mty22/krunker.io-translations/pull/89
+pr2: https://github.com/mty22/krunker.io-translations/pull/380
