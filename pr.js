@@ -901,15 +901,15 @@ stats.airdrops.stolen Pacote de KR Robados
 settings.quality.flapAnim Animação de Flap
 chall.name.hs Matar {0} com tiros na cabeça {1}
 chall.name.ns Matar {0} sem mira {1}
-chall.name.ls Get {0} legshots {1}
-chall.name.tmk Get {0} throwing knife kills {1}
-chall.name.fb Get {0} first bloods {1}
+chall.name.ls Matar {0} com tiros na perna {1}
+chall.name.tmk Matar {0} atirando a faca {1}
+chall.name.fb Obter {0} primeiras mortes {1}
 chall.name.mk Matar {0} com a faca {1}
 chall.name.fk Matar {0} com os punhos {1}
 chall.name.qs Matar {0} com tiros de mira rápida {1}
 chall.name.wb Matar {0} Varados {1}
 chall.name.airk Matar {0} no ar {1}
-chall.name.lns Get {0} longshots {1}
+chall.name.lns Matar {0} com tiros de longa distancia {1}
 chall.name.tk Matar {0} a alta velocidade {1}
 chall.name.drk Matar {0} a deslizar {1}
 chall.name.kstk Obter {0} mortes seguidas {1}
@@ -922,7 +922,7 @@ chall.name.cc Matar {0} com pouca vida {1}
 chall.name.rk Obter {0} mortes de vingança {1}
 event.doubleXP 2x Classe XP ativado para esta partida
 ranked.join Entrou em uma Partida Rankeada. Abandonar a partida resultará de um tempo de suspensão.
-ranked.progress Jogo Decorrendo
+ranked.progress Jogo em progresso
 ranked.team Por Favor entre em um time
 ranked.switch Não pode alterar com o jogo decorrendo
 ranked.spectate Não pode espectar em partida rankeada
@@ -977,6 +977,6 @@ server.message.join {0} entrou no jogo
 server.message.left {0} saiu do jogo
 server.message.kicked {0} foi expluso
 server.message.banned {0} foi banido
-server.message.votekicked {0} foi expluso por voto
+server.message.votekicked {0} foi expulso por voto
 server.message.arrested {0} foi detido pela K.P.D
 `;
