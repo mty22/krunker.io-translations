@@ -34,7 +34,7 @@ generic.off 끄기
 generic.defeat 패배
 generic.victory 승리
 generic.matchover 매치 종료
-generic.matchaband 상대가 게임을 나갔습니다
+generic.matchaband 게임이 취소되었습니다 
 generic.follow 팔로우
 generic.unfollow 언팔로우
 generic.followers 팔로워
