@@ -10,7 +10,7 @@ This repo contains all the language files for [krunker.io](https://krunker.io)
 
 Project information and discussion on Discord can be found in [Krunker Bunker](https://discord.gg/krunker) channels **#krunker-translation** and **#krunker-translators**. In order to participate, you will need to react to respective 'Translator Notif' role to gain access.
 
-## I want to contirbute, how can I help?
+## I want to contribute, how can I help?
 *New here? Want to know what you can help with?* First, have a look at the current [status.txt](https://github.com/mty22/krunker.io-translations/blob/main/status.txt) file which gives you a quick overview of what's going on!
 
 Happy to continue and not sure on how to use GitHub? Have a look at this [Introduction to GitHub](https://lab.github.com/githubtraining/introduction-to-github) tutorial as it may answer many common questions! Some users also use Git clients such as [Sourcetree](https://www.sourcetreeapp.com/) in order to make things easier!

@@ -214,9 +214,9 @@ settings.interface.nametagStyle.health HPのみ
 settings.interface.nametagStyle.name ネームタグのみ
 settings.interface.nametagStyle.nameLvl ネームタグとレベルのみ
 settings.interface.nametagStyle.all 全て
-settings.interface.healthNum ネームタグHP数
-settings.interface.healthColT ネームタグHP色 (チーム)
-settings.interface.healthColE ネームタグHP色 (敵)
+settings.interface.healthNum ネームタグ HP数
+settings.interface.healthColT ネームタグ HP色(チーム)
+settings.interface.healthColE ネームタグ HP色(敵)
 settings.interface.xpBarCol XPバーの色
 settings.interface.xpBarCol2 XPバーカラーの色2
 settings.interface.xpBarOpac XPバーの不透明度
@@ -237,9 +237,9 @@ settings.crosshair.type.5 プレシジョン
 settings.crosshair.style スタイル
 settings.crosshair.style.0 クロス
 settings.crosshair.style.1 円
-settings.crosshair.style.2 円 (塗りつぶし)
+settings.crosshair.style.2 円(塗りつぶし)
 settings.crosshair.style.3 四角
-settings.crosshair.style.4 四角 (塗りつぶし)
+settings.crosshair.style.4 四角(塗りつぶし)
 settings.crosshair.image 画像
 settings.crosshair.image.paste クロスヘア画像
 settings.crosshair.image.width 画像の幅
@@ -254,7 +254,7 @@ settings.crosshair.gap ギャップ
 settings.crosshair.dot ドット
 settings.crosshair.opacity.use カスタム不透明度を使用
 settings.crosshair.opacity.custom カスタム不透明度
-settings.crosshairm.header クロスヘア (投擲物)
+settings.crosshairm.header クロスヘア(投擲物)
 settings.crosshairm.type タイプ
 settings.crosshairm.type.1 カスタム
 settings.crosshairm.type.2 画像
@@ -262,9 +262,9 @@ settings.crosshairm.type.3 プレシジョン
 settings.crosshairm.style スタイル
 settings.crosshairm.style.0 クロス
 settings.crosshairm.style.1 円
-settings.crosshairm.style.2 円 (塗りつぶし)
+settings.crosshairm.style.2 円(塗りつぶし)
 settings.crosshairm.style.3 四角
-settings.crosshairm.style.4 四角 (塗りつぶし)
+settings.crosshairm.style.4 四角(塗りつぶし)
 settings.crosshairm.image 画像
 settings.crosshairm.image.paste クロスヘア画像
 settings.crosshairm.image.width 画像の幅
@@ -406,7 +406,7 @@ settings.editing.saturation 彩度 (ゲーム内)
 settings.editing.menuSaturation 彩度 (UI)
 settings.editing.hue 色相 (ゲーム内)
 settings.editing.menuHue 色相 (UI)
-settings.editing.vignette ビネット効果 (画像の周辺を暗くする)
+settings.editing.vignette ビネット効果(画像の周辺を暗くする)
 settings.editing.feedLimit キルフィード制限
 settings.editing.depth マップの深さ
 settings.editing.green グリーンスクリーン
@@ -547,7 +547,7 @@ windows.controls.taunt2 挑発 (おなら)
 windows.controls.taunt3 挑発 (ミーム)
 windows.controls.taunt4 挑発 (何だこれ?)
 windows.controls.taunt5 挑発 (さっさと来いよ!)
-windows.controls.prop 物を選択 (ホールド)
+windows.controls.prop 物を選択(ホールド)
 windows.controls.propRand ランダムな小道具を選択
 windows.controls.propRot 回転方向を切り替え
 windows.controls.propRotR 回転をリセット
@@ -587,7 +587,7 @@ windows.theatre.header シアターモード
 windows.theatre.record 録画を有効にする
 windows.theatre.key 録画キー
 windows.clans.header クラン
-windows.clans.members メンバー({0})
+windows.clans.members メンバー ({0})
 windows.clans.requests リクエスト
 windows.clans.requests.none リクエストなし
 windows.clans.page [{0}]のクランページ
@@ -787,7 +787,7 @@ social.market.req レベル{0}が必要
 social.market.cant KRが足りません
 social.market.purchase 購入
 social.market.fee 手数料なし
-social.market.failed 失敗しました。もう一度試してください
+social.market.failed 失敗しました。もう一度試してください。
 social.market.head 頭アイテム
 social.market.back 背中アイテム
 social.market.waist 腰アイテム
