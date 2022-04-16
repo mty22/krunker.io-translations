@@ -84,8 +84,8 @@ settings.none 設定が見つかりません
 settings.backup 設定のバックアップ
 settings.controls.change キー設定
 settings.controls.press 任意のキーを押してください
-settings.controls.leaderboard InGame Leaderboard Trigger Type
-settings.controls.voicechat Voicechat Trigger Type
+settings.controls.leaderboard インゲームリーダーボードのトリガータイプ
+settings.controls.voicechat ボイスチャットのトリガータイプ
 settings.local.header 現地化 <span id="requiresRestart"><span style="color: #eb5656">*</span> 再起動が必要です</span>
 settings.local.region デフォルト地域
 settings.local.lang 言語
@@ -94,7 +94,7 @@ settings.network.netRerouting 自動ルーティング (pingに影響します)
 settings.network.netRate ネットワークレート (Hz)
 settings.network.lagComp ラグ補正
 settings.network.optNet ネットワークの最適化
-settings.network.quickplay Force Quickplay
+settings.network.quickplay クイックプレイを強制
 settings.popup.header ポップアップ
 settings.experimental.header テスト中の設定
 settings.experimental.holiday ホリデーエフェクト
@@ -215,8 +215,8 @@ settings.interface.nametagStyle.name ネームタグのみ
 settings.interface.nametagStyle.nameLvl ネームタグとレベルのみ
 settings.interface.nametagStyle.all 全て
 settings.interface.healthNum ネームタグ HP数
-settings.interface.healthColT ネームタグ HP色（チーム）
-settings.interface.healthColE ネームタグ HP色（敵）
+settings.interface.healthColT ネームタグ HP色(チーム)
+settings.interface.healthColE ネームタグ HP色(敵)
 settings.interface.xpBarCol XPバーの色
 settings.interface.xpBarCol2 XPバーカラーの色2
 settings.interface.xpBarOpac XPバーの不透明度
@@ -237,9 +237,9 @@ settings.crosshair.type.5 プレシジョン
 settings.crosshair.style スタイル
 settings.crosshair.style.0 クロス
 settings.crosshair.style.1 円
-settings.crosshair.style.2 円（塗りつぶし）
+settings.crosshair.style.2 円(塗りつぶし)
 settings.crosshair.style.3 四角
-settings.crosshair.style.4 四角（塗りつぶし）
+settings.crosshair.style.4 四角(塗りつぶし)
 settings.crosshair.image 画像
 settings.crosshair.image.paste クロスヘア画像
 settings.crosshair.image.width 画像の幅
@@ -254,7 +254,7 @@ settings.crosshair.gap ギャップ
 settings.crosshair.dot ドット
 settings.crosshair.opacity.use カスタム不透明度を使用
 settings.crosshair.opacity.custom カスタム不透明度
-settings.crosshairm.header クロスヘア（投擲物）
+settings.crosshairm.header クロスヘア(投擲物)
 settings.crosshairm.type タイプ
 settings.crosshairm.type.1 カスタム
 settings.crosshairm.type.2 画像
@@ -262,9 +262,9 @@ settings.crosshairm.type.3 プレシジョン
 settings.crosshairm.style スタイル
 settings.crosshairm.style.0 クロス
 settings.crosshairm.style.1 円
-settings.crosshairm.style.2 円（塗りつぶし）
+settings.crosshairm.style.2 円(塗りつぶし)
 settings.crosshairm.style.3 四角
-settings.crosshairm.style.4 四角（塗りつぶし）
+settings.crosshairm.style.4 四角(塗りつぶし)
 settings.crosshairm.image 画像
 settings.crosshairm.image.paste クロスヘア画像
 settings.crosshairm.image.width 画像の幅
@@ -406,7 +406,7 @@ settings.editing.saturation 彩度 (ゲーム内)
 settings.editing.menuSaturation 彩度 (UI)
 settings.editing.hue 色相 (ゲーム内)
 settings.editing.menuHue 色相 (UI)
-settings.editing.vignette ビネット効果（画像の周辺を暗くする）
+settings.editing.vignette ビネット効果(画像の周辺を暗くする)
 settings.editing.feedLimit キルフィード制限
 settings.editing.depth マップの深さ
 settings.editing.green グリーンスクリーン
@@ -547,7 +547,7 @@ windows.controls.taunt2 挑発 (おなら)
 windows.controls.taunt3 挑発 (ミーム)
 windows.controls.taunt4 挑発 (何だこれ?)
 windows.controls.taunt5 挑発 (さっさと来いよ!)
-windows.controls.prop 物を選択（ホールド）
+windows.controls.prop 物を選択(ホールド)
 windows.controls.propRand ランダムな小道具を選択
 windows.controls.propRot 回転方向を切り替え
 windows.controls.propRotR 回転をリセット
@@ -587,7 +587,7 @@ windows.theatre.header シアターモード
 windows.theatre.record 録画を有効にする
 windows.theatre.key レコードキー
 windows.clans.header クラン
-windows.clans.members メンバー ({0})　
+windows.clans.members メンバー ({0})
 windows.clans.requests リクエスト
 windows.clans.requests.none リクエストなし
 windows.clans.page [{0}]のクランページ
@@ -649,12 +649,12 @@ windows.secondary.unlocked アンロック済み
 windows.secondary.customOnly カスタムゲーム専用
 windows.secondary.premiumOnly プレミアム専用
 windows.secondary.req レベル{0}が必要
-windows.skins.unlocked Unlocked
-windows.skins.customOnly Customs Only
-windows.skins.premiumOnly Premium Only
-windows.skins.classOnly Req {0}
-windows.skins.req Req lvl {0}
-windows.skins.default Default Skin
+windows.skins.unlocked アンロック済
+windows.skins.customOnly カスタムマッチ限定
+windows.skins.premiumOnly プレミアム限定
+windows.skins.classOnly {0}限定
+windows.skins.req 必要レベル {0}
+windows.skins.default デフォルトスキン
 windows.advertise.header 広告
 windows.support.header サポート
 windows.players.header プレイヤーリスト
@@ -787,7 +787,7 @@ social.market.req レベル{0}が必要
 social.market.cant KRが足りません
 social.market.purchase 購入
 social.market.fee 手数料なし
-social.market.failed 失敗しました。もう一度試してください.
+social.market.failed 失敗しました。もう一度試してください。
 social.market.head 頭アイテム
 social.market.back 背中アイテム
 social.market.waist 腰アイテム
@@ -800,7 +800,7 @@ social.market.spray スプレーアイテム
 social.market.dye 服装アイテム
 social.market.collectible 収集可能なアイテム
 social.market.none アイテムが見つかりません
-social.market.login ログインしている必要があります.
+social.market.login ログインしている必要があります。
 social.market.grace {0}秒後に有効になります
 social.market.sort フィルター/並び替え
 social.market.filter 検索
@@ -920,63 +920,63 @@ chall.name.dmg Deal {0} damage {1}
 chall.name.bzk Get {0} buzz kills {1}
 chall.name.cc Get {0} close-calls {1}
 chall.name.rk Deal {0} revenge kills {1}
-event.doubleXP 2x Class XP enabled for this match
-ranked.join Joined Ranked Match. Abandoning a match will result in a temporary ban
-ranked.progress Game in Progress
-ranked.team Please join a Team
-ranked.switch Can't switch while in-game
-ranked.spectate Spectating Disabled in Ranked
-ranked.login Login to Spawn
-ranked.sync Missing Sync Data
-ranked.team.spawn Please join a Team to Spawn
-ranked.class.spawn Please select a Class to Spawn
-modes.round.win Your Team has secured this round
-modes.round.loss This round is no longer winnable
-modes.round.switch Switching Sides. Prepare for the next Round
-modes.trade.success Trade Successful
-modes.prophunt.limit [Prop Hunt] You are out of prop switches
-modes.prophunt.left [Prop Hunt] You have {0} switches remaining
-modes.prophunt.rotation.on [Prop Hunt] Rotation Enabled
-modes.prophunt.rotation.off [Prop Hunt] Rotation Disabled
-modes.prophunt.rotation.reset [Prop Hunt] Rotation reset.
-commands.login Login to use this command
-commands.connected {0} connected, {1} in menu
-commands.host {0} is the current Host.
-commands.noclip.on Noclip - Enabled
-commands.noclip.off Noclip - Disabled
-commands.god.on God mode - Enabled
-commands.god.off God mode - Disabled
-commands.god.on.other God mode - Enabled for {0}
-commands.god.off.other God mode - Disabled for {0}
-commands.smite.on Smite - Enabled
-commands.smite.off Smite - Disabled
-commands.smite.on.other Smite - Enabled for {0}
-commands.smite.off.other Smite - Disabled for {0}
-commands.perk Gave {0} {1}
-commands.maxperk Gave {0} MAX {1}
-commands.unlimited.on Unlimited Ammo - Enabled
-commands.unlimited.off Unlimited Ammo - Disabled
-commands.unlimited.on.other Unlimited Ammo - Enabled for {0}
-commands.unlimited.off.other Unlimited Ammo - Disabled for {0}
-commands.spraybypass.on Unlimited Ammo - Enabled
-commands.spraybypass.off Unlimited Ammo - Disabled
-commands.spraybypass.on.other Unlimited Ammo - Enabled for {0}
-commands.spraybypass.off.other Unlimited Ammo - Disabled for {0}
-commands.suspect.invalid Invalid suspect info
-commands.suspect.menu Suspect in menu
-commands.suspect.left Suspect has left
-commands.suspect.found Suspect Found. Spectating: {0}, Spawned: {1}, Name: {2}
-commands.forfeit.next Must play atleast 1 round
-commands.forfeit.wait Wait till match starts to forfeit
-commands.forfeit.later Please try again in a few seconds
-commands.forfeit.voted You already voted.
-commands.forfeit.limit You can only start one vote per game
-commands.forfeit.ended Forfeiting Game
-commands.forfeit.ended.other Other Team Forfeited
-server.message.join {0} joined the game
-server.message.left {0} left the game
-server.message.kicked {0} was kicked
-server.message.banned {0} was banned
-server.message.votekicked {0} was vote kicked
-server.message.arrested {0} was arrested by the K.P.D
+event.doubleXP このマッチではクラスXPが2倍になります
+ranked.join ランクマッチに参加しました。マッチ放棄を行うと一時的にBANされます
+ranked.progress マッチ中
+ranked.team チームに入ってください
+ranked.switch マッチ中にクラスを変更できません
+ranked.spectate ランクマッチでは観戦できません
+ranked.login ログインしてスポーン
+ranked.sync 同期用データが欠損しています
+ranked.team.spawn スポーンするにはチームを選択してください
+ranked.class.spawn スポーンするにはクラスを選択してください
+modes.round.win このラウンドの勝利が確定しました
+modes.round.loss このラウンドの敗北が確定しました
+modes.round.switch サイドを交代します。次のラウンドの準備をしてください
+modes.trade.success トレード成功
+modes.prophunt.limit [Prop Hunt] あなたはもうスイッチを持っていません
+modes.prophunt.left [Prop Hunt] あなたはあと {0} 個のスイッチを持っています
+modes.prophunt.rotation.on [Prop Hunt] 回転が有効
+modes.prophunt.rotation.off [Prop Hunt] 回転が無効
+modes.prophunt.rotation.reset [Prop Hunt] 回転をリセットしました
+commands.login このコマンドを使うにはログインしてください
+commands.connected {0} 人が接続済み、 {1} 人がメニューで待機しています
+commands.host {0} が現在のホストです
+commands.noclip.on ノークリップが有効
+commands.noclip.off ノークリップが無効
+commands.god.on ゴッドモードが有効
+commands.god.off ゴッドモードが無効
+commands.god.on.other {0}のゴッドモードが有効
+commands.god.off.other {0}のゴッドモードが無効
+commands.smite.on スマイトが有効
+commands.smite.off スマイトが無効
+commands.smite.on.other {0}のスマイトが有効
+commands.smite.off.other {0}のスマイトが有効
+commands.perk {0} に {1} を与えました
+commands.maxperk {0} に最大の {1} を与えました
+commands.unlimited.on 弾薬無制限が有効
+commands.unlimited.off 弾薬無制限が無効
+commands.unlimited.on.other {0}の弾薬無制限が有効
+commands.unlimited.off.other {0}の弾薬無制限が有効
+commands.spraybypass.on スプレー無制限が有効
+commands.spraybypass.off スプレー無制限が無効
+commands.spraybypass.on.other {0}のスプレー無制限が有効
+commands.spraybypass.off.other {0}のスプレー無制限が無効
+commands.suspect.invalid 容疑者情報が無効
+commands.suspect.menu 容疑者はメニューで待機中
+commands.suspect.left 容疑者がゲームを退出
+commands.suspect.found 容疑者を発見しました。 観戦中: {0}, スポーン済み: {1}, 名前: {2}
+commands.forfeit.next 最低1ラウンドプレイする必要があります
+commands.forfeit.wait 降参するにはマッチが始まるまで待ってください
+commands.forfeit.later 数秒後にもう一度やり直してください
+commands.forfeit.voted 投票済
+commands.forfeit.limit 投票を行えるのは1マッチにつき1回までです
+commands.forfeit.ended 降参しました
+commands.forfeit.ended.other 相手が降参しました
+server.message.join {0} がゲームに参加しました
+server.message.left {0} がゲームから退出しました
+server.message.kicked {0} がキックされました
+server.message.banned {0} がBANされました
+server.message.votekicked {0} が投票によりキックされました
+server.message.arrested {0} がK.P.Dにより逮捕されました
 `;

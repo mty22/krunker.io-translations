@@ -836,7 +836,7 @@ spin.free.disable Ang mga Popup na ito ay maaaring hindi paganahin sa Mga Pangka
 mod.reset.0 Lumabas ang mga 'Effects' pagkatapos mag-respawn
 mod.reset.1 Mga Bagay sa Mapa hindi ma-reset
 windows.profile.picture Palitan ang Larawan
-stats.assists Mga Pagtulong/Assist
+stats.assists Mga Assist
 stats.nukes Mga Nuke
 stats.melee Nasaksak
 stats.fistkills Pagbugbog
@@ -890,7 +890,7 @@ social.trades.in Papasok
 social.trades.in.head Pumapasok na Pag-aalok ({0})
 social.trades.out Palabas
 social.trades.out.head Palabas na Pag-aalok ({0})
-social.trades.history Talaan ng mga alok
+social.trades.history Talaan ng mga pag-aalok
 social.trades.history.head Kasaysayan ng Pag-kakalakalan ({0})
 social.trades.decline Tanggihan Lahat
 social.trades.message Payagan ang mga Trade Message at Pag-alok sa Settings
@@ -920,63 +920,63 @@ chall.name.dmg Tumira ng {0} na damage {1}
 chall.name.bzk Manira ng killstreak ng {0} beses {1}
 chall.name.cc Ikaw ay muntikang mamatay {0} na beses {1}
 chall.name.rk Makamit ang {0} na paghiganti
-event.doubleXP 2x Class XP enabled for this match
-ranked.join Joined Ranked Match. Abandoning a match will result in a temporary ban
-ranked.progress Game in Progress
-ranked.team Please join a Team
-ranked.switch Can't switch while in-game
-ranked.spectate Spectating Disabled in Ranked
-ranked.login Login to Spawn
-ranked.sync Missing Sync Data
-ranked.team.spawn Please join a Team to Spawn
-ranked.class.spawn Please select a Class to Spawn
-modes.round.win Your Team has secured this round
-modes.round.loss This round is no longer winnable
-modes.round.switch Switching Sides. Prepare for the next Round
-modes.trade.success Trade Successful
-modes.prophunt.limit [Prop Hunt] You are out of prop switches
-modes.prophunt.left [Prop Hunt] You have {0} switches remaining
-modes.prophunt.rotation.on [Prop Hunt] Rotation Enabled
-modes.prophunt.rotation.off [Prop Hunt] Rotation Disabled
-modes.prophunt.rotation.reset [Prop Hunt] Rotation reset.
-commands.login Login to use this command
-commands.connected {0} connected, {1} in menu
-commands.host {0} is the current Host.
-commands.noclip.on Noclip - Enabled
-commands.noclip.off Noclip - Disabled
-commands.god.on God mode - Enabled
-commands.god.off God mode - Disabled
-commands.god.on.other God mode - Enabled for {0}
-commands.god.off.other God mode - Disabled for {0}
-commands.smite.on Smite - Enabled
-commands.smite.off Smite - Disabled
-commands.smite.on.other Smite - Enabled for {0}
-commands.smite.off.other Smite - Disabled for {0}
-commands.perk Gave {0} {1}
-commands.maxperk Gave {0} MAX {1}
-commands.unlimited.on Unlimited Ammo - Enabled
-commands.unlimited.off Unlimited Ammo - Disabled
-commands.unlimited.on.other Unlimited Ammo - Enabled for {0}
-commands.unlimited.off.other Unlimited Ammo - Disabled for {0}
-commands.spraybypass.on Unlimited Ammo - Enabled
-commands.spraybypass.off Unlimited Ammo - Disabled
-commands.spraybypass.on.other Unlimited Ammo - Enabled for {0}
-commands.spraybypass.off.other Unlimited Ammo - Disabled for {0}
-commands.suspect.invalid Invalid suspect info
-commands.suspect.menu Suspect in menu
-commands.suspect.left Suspect has left
-commands.suspect.found Suspect Found. Spectating: {0}, Spawned: {1}, Name: {2}
-commands.forfeit.next Must play atleast 1 round
-commands.forfeit.wait Wait till match starts to forfeit
-commands.forfeit.later Please try again in a few seconds
-commands.forfeit.voted You already voted.
-commands.forfeit.limit You can only start one vote per game
-commands.forfeit.ended Forfeiting Game
-commands.forfeit.ended.other Other Team Forfeited
-server.message.join {0} joined the game
-server.message.left {0} left the game
-server.message.kicked {0} was kicked
-server.message.banned {0} was banned
-server.message.votekicked {0} was vote kicked
-server.message.arrested {0} was arrested by the K.P.D
+event.doubleXP 2x Class XP ay enabled para sa larong ito
+ranked.join Nakasali na sa Ranked match. Ang pag-abandona ay mag reresulta sa temporary ban. 
+ranked.progress Kasalukuyang nasa laro
+ranked.team Pumili muna ng grupo
+ranked.switch Hindi pwedeng mag palit habang naglalaro
+ranked.spectate Naka-disable ang panonood sa ranked
+ranked.login Mag-login upang maka-spawn
+ranked.sync Nawawala ang Sync Data
+ranked.team.spawn Pumili muna ng grupo para makapag spawn
+ranked.class.spawn Pumili muna ng Klase para maka-spawn
+modes.round.win Panalo na kayo sa round na ito.
+modes.round.loss Hindi na maipapanalo ang laban na ito.
+modes.round.switch Magpapalit ng posisyon. Maghanda para sa susunod na laban.
+modes.trade.success Matagumpay ang trade.
+modes.prophunt.limit [Prop Hunt] Wala ka nang natitirang palitan ng props
+modes.prophunt.left [Prop Hunt] Ikaw ay may {0} na natitirang palitan
+modes.prophunt.rotation.on [Prop Hunt] Rotation May Bisa
+modes.prophunt.rotation.off [Prop Hunt] Rotation Walang Bisa
+modes.prophunt.rotation.reset [Prop Hunt] Rotation ay na reset.
+commands.login Mag-login upang magamit ang command na ito
+commands.connected {0} karugtong, {1} nasa menu
+commands.host Si {0} ay ang current na host.
+commands.noclip.on Noclip - Naka-enabled
+commands.noclip.off Noclip - Naka-disabled
+commands.god.on God mode - Naka-enabled
+commands.god.off God mode - Naka-disabled
+commands.god.on.other God mode - Naka-enabled ng {0}
+commands.god.off.other God mode - Naka-disabled ng {0}
+commands.smite.on Smite - Naka-enabled
+commands.smite.off Smite - Naka-disabled
+commands.smite.on.other Smite - Naka-enabled ng {0}
+commands.smite.off.other Smite - Naka-disabled ng {0}
+commands.perk Binigyan si {0} {1}
+commands.maxperk Binigyan si {0} MAX {1}
+commands.unlimited.on Unlimited na Bala - Naka-enabled
+commands.unlimited.off Unlimited na Bala - Naka-disabled
+commands.unlimited.on.other Unlimited na Bala - Naka-enabled ng {0}
+commands.unlimited.off.other Unlimited na Bala - Naka-disabled ng {0}
+commands.spraybypass.on Unlimited na Bala - Naka-enabled
+commands.spraybypass.off Unlimited na Bala - Naka-disabled
+commands.spraybypass.on.other Unlimited na Bala - Naka-enabled ng {0}
+commands.spraybypass.off.other Unlimited na Bala - Naka-disabled ng {0}
+commands.suspect.invalid walang valid na inpormasyon ang suspek
+commands.suspect.menu Ang suspek ay nasa menu
+commands.suspect.left Ang suspek ay umalis
+commands.suspect.found Nahanap na ang suspek. nanonood: {0}, spawned: {1}, pangalan: {2}
+commands.forfeit.next Kailangan maglaro muna ng 1 laban
+commands.forfeit.wait Hintayin munang magsimula ang laro upang maka-forfeit 
+commands.forfeit.later Ulitin nalang muli mamaya
+commands.forfeit.voted Ikaw ay bumoto na.
+commands.forfeit.limit Isang beses kalang makababoto sa isang laro
+commands.forfeit.ended Iniwan na ang laro
+commands.forfeit.ended.other Umalis na ang kabilang grupo
+server.message.join si {0} ay sumali sa laro
+server.message.left si {0} ay umalis sa laro
+server.message.kicked si {0} ay natanggal sa laro
+server.message.banned si {0} ay na-ban
+server.message.votekicked na vote-kick si {0} 
+server.message.arrested si {0} ay nahuli ng K.P.D
 `;

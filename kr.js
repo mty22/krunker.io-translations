@@ -55,7 +55,7 @@ generic.logout 로그아웃
 generic.logout.sessions 모든 세션에서 로그아웃
 generic.username 아이디
 generic.password 비밀번호
-generic.register 가입
+generic.register 회원가입
 generic.login 로그인
 generic.accuracy 명중률
 player.waiting 플레이어 기다리는 중
@@ -84,8 +84,8 @@ settings.none 설정을 찾지 못했습니다
 settings.backup 설정 백업
 settings.controls.change 조작키 설정
 settings.controls.press 아무 키나 누르십시오
-settings.controls.leaderboard InGame Leaderboard Trigger Type
-settings.controls.voicechat Voicechat Trigger Type
+settings.controls.leaderboard 게임 내 리더보드 보이기/숨기기 유형
+settings.controls.voicechat 음성 채팅 켜기/끄기 
 settings.local.header 언어 설정 <span id="requiresRestart"><span style="color: #eb5656">*</span>재시작 필요</span>
 settings.local.region 기본 지역
 settings.local.lang 언어
@@ -94,7 +94,7 @@ settings.network.netRerouting 자동 라우팅 (핑에 영향을 줍니다)
 settings.network.netRate 네트워크 속도 (Hz)
 settings.network.lagComp 지연 시간 보정
 settings.network.optNet 네트워크 최적화
-settings.network.quickplay Force Quickplay
+settings.network.quickplay 빠른 플레이 강제
 settings.popup.header 팝업
 settings.experimental.header 실험적 설정
 settings.experimental.holiday 기념일 효과
@@ -131,7 +131,7 @@ settings.chat.chatHeight 채팅 높이
 settings.chat.chatTimer 채팅 사라지기 타이머
 settings.chat.chatTextOutline 채팅 글자 테두리
 settings.chat.chatFilter 욕설 필터링
-settings.quality.header 성능
+settings.quality.header 품질
 settings.quality.updRate FPS 제한
 settings.quality.rendDst 렌더 거리
 settings.quality.res 해상도
@@ -183,7 +183,7 @@ settings.interface.oldBrowser 구 서버 탐색기 사용
 settings.interface.rarityanim 희귀도 애니메이션 끄기
 settings.interface.showPfp 프로필 사진 표시
 settings.interface.showTradeMsg 트레이드 메시지 표시
-settings.interface.hideNonTrade 트레이드 불가 스킨 숨기기
+settings.interface.hideNonTrade 트레이드 불가 아이템 숨기기
 settings.interface.hp 동적 HP 막대
 settings.interface.dmgScale 피해량 숫자 크기
 settings.interface.killf 킬로그 표시
@@ -254,7 +254,7 @@ settings.crosshair.gap 틈
 settings.crosshair.dot 점
 settings.crosshair.opacity.use 사용자 지정 불투명도 사용
 settings.crosshair.opacity.custom 불투명도
-settings.crosshairm.header 조준선 (던지기)
+settings.crosshairm.header 던지기 조준선
 settings.crosshairm.type 종류
 settings.crosshairm.type.1 도형
 settings.crosshairm.type.2 이미지
@@ -483,7 +483,7 @@ windows.loadout.color.chat 채팅창 이름 색상
 windows.loadout.color.hair 머리카락 색상
 windows.loadout.dye 염료
 windows.loadout.pet 펫
-windows.loadout.wrist Wrist
+windows.loadout.wrist 손목
 windows.loadout.stat 상대 처치 시 보일 스탯
 windows.loadout.flag 국기
 windows.loadout.badge 사용자 지정 배지
@@ -512,7 +512,7 @@ windows.controls.inspect 무기 자세히 보기
 windows.controls.spray 스프레이
 windows.controls.sprayWheel 스프레이 메뉴 (홀드)
 windows.controls.jump 점프
-windows.controls.crouch 앉기
+windows.controls.crouch 웅크리기
 windows.controls.prim 주무기
 windows.controls.swap 보조무기
 windows.controls.melee 근접무기
@@ -568,7 +568,7 @@ windows.host.preset 호스트 프리셋
 windows.host.preset.load 프리셋 적용 중...
 windows.host.preset.name 프리셋 이름
 windows.host.start 게임 시작하기
-windows.host.rehost 게임 시작하기 (플레이어 데리고 오기)
+windows.host.rehost 게임 시작하기 (플레이어 유지하기)
 windows.spray.header 스프레이 선택
 windows.spray.default 기본 스프레이
 windows.spray.spin 스프레이
@@ -607,11 +607,11 @@ windows.store.market2 Krunker 마켓
 windows.store.premium 프리미엄 구독
 windows.store.premium2 Krunker 프리미엄
 windows.store.buyP Krunker 프리미엄으로 표시 이름을 바꾸고 더 많은 혜택을 누리세요!
-windows.store.buy 아이템을 사고팔 때는
+windows.store.buy 아이템을 거래할 때는
 windows.store.wheels 경품 뽑기
 windows.store.unlock 새 무기 스킨과 아이템을 얻으세요!
-windows.store.amount {0} KR이 계정에 있습니다
-windows.store.login 로그인해서 마켓에서 아이템을 사고파세요!
+windows.store.amount {0} KR 보유
+windows.store.login 로그인해서 마켓에서 아이템을 거래하세요!
 windows.store.purchasing 구매 중...
 windows.store.unboxed {0}{1}님이 아이템을 뽑음:
 windows.store.found {0}{1}님이 아이템을 찾음:
@@ -631,7 +631,7 @@ windows.reticle.req {0}레벨 필요
 windows.dye.header 염료 선택
 windows.dye.default 기본 염료
 windows.dye.spin 염료
-windows.changelog.header 영어 패치 노트
+windows.changelog.header 업데이트 기록 (영어)
 windows.mods.community.header 커뮤니티 Mod
 windows.mods.community.fav 즐겨찾기
 windows.mods.community.new 새 Mod
@@ -649,12 +649,12 @@ windows.secondary.unlocked 잠금 해제됨
 windows.secondary.customOnly 사용자 지정 게임 전용
 windows.secondary.premiumOnly 프리미엄 전용
 windows.secondary.req {0}레벨 필요
-windows.skins.unlocked Unlocked
-windows.skins.customOnly Customs Only
-windows.skins.premiumOnly Premium Only
-windows.skins.classOnly Req {0}
-windows.skins.req Req lvl {0}
-windows.skins.default Default Skin
+windows.skins.unlocked 잠금 해제됨
+windows.skins.customOnly 커스텀 게임 전용
+windows.skins.premiumOnly 프리미엄 전용
+windows.skins.classOnly {0} 필요
+windows.skins.req {0}레벨 필요
+windows.skins.default 기본 스킨
 windows.advertise.header 광고하기
 windows.support.header 고객지원
 windows.players.header 플레이어 목록
@@ -773,16 +773,16 @@ social.login.proccessing 로그인 중...
 social.since 시작일
 social.user.maps 이 유저의 게임
 social.user.mods 이 유저의 Mod
-social.maps.none 찾은 게임이 없습니다...
-social.mods.none 찾은 Mod가 없습니다...
+social.maps.none 찾은 게임이 없습니다
+social.mods.none 찾은 Mod가 없습니다
 social.market.price.low 가격 오름차순
 social.market.price.list 가격 정렬 방법
 social.market.searching 검색 중...
 social.market.listed {0} 전에 게시됨
 social.market.list 아이템 게시하기
 social.market.unlist 게시 취소하기
-social.market.unlisting 게시 취소 중...
-social.market.posting 아이템 게시 중...
+social.market.unlisting 게시 취소 중
+social.market.posting 아이템 게시 중
 social.market.req {0}레벨 이상이어야 합니다.
 social.market.cant KR이 부족합니다
 social.market.purchase 구매
@@ -806,19 +806,19 @@ social.market.sort 필터/정렬
 social.market.filter 검색
 social.market.sort2 정렬
 social.market.price.high 가격 내림차순
-social.trading.submitting 트레이드 요청 보내는 중...
+social.trading.submitting 트레이드 요청 보내는 중
 social.market.gift.amount 선물할
 social.market.fee.gift 수수료 없음
 social.market.gift KR 선물하기
-social.market.gift.msg 문자 남기기
+social.market.gift.msg 메시지 남기기
 respawn.auto {0}초 후 자동 리스폰
 custom.host.ranked 랭크전 준비 중 게임 만들기 불가
 funds.insufficient 돈이 부족합니다
 funds.out KR이 부족합니다
-custom.passcode.long 비밀번호가 너무 긺
-custom.passcode.input 참가를 위해 서버 비밀번호를 입력하세요
+custom.passcode.long 너무 긴 비밀번호
+custom.passcode.input 참가하려면 게임 비밀번호를 입력하세요
 custom.tryagain 다시 시도해 주십시오
-purchase.kr.success {0} KR을 계정에 추가하였습니다
+purchase.kr.success 계정에 {0} KR을 추가하였습니다
 limited.purchase.ask [{0}] 아이템을 {1} KR로 구매하시겠습니까?
 limited.purchase.success {0} 아이템을 인벤토리에 추가하였습니다
 pretend.exit 나가려면 [{0}] 버튼을 다시 누르세요
@@ -827,39 +827,39 @@ settings.loaded.none 설정 입력 존재하지 않음
 account.login.required 로그인 필요
 account.banned.hack 이 계정은 핵 사용으로 인해 정지되었습니다.
 account.banned.appeal 계정 정지에 이의제기를 하려면, 여기에 연락을 취하세요.
-account.delete 계정의 완전삭제를 요청할 수 있고, 14일 내에 요청이 취소되지 않는다면 모든 연관정보가 영구적으로 삭제될 것입니다.
+account.delete 계정의 완전 삭제를 요청할 수 있고, 14일 내에 취소하지 않으면 모든 정보가 영구적으로 삭제됩니다.
 account.delete.request 계정 삭제를 요청하시겠습니까?
 account.delete.cancel 계정 삭제 요청을 취소하시겠습니까?
-spin.free.available 무료 KR 받기!
-spin.free.claim 이 스핀은 한 시간마다 한 게임을 끝낸 후에 얻을 수 있습니다!
+spin.free.available 무료 KR 받기
+spin.free.claim 이 스핀은 한 시간마다 한 게임을 끝낸 후에 얻을 수 있습니다
 spin.free.disable 이 팝업들은 설정에서 차단할 수 있습니다
 mod.reset.0 리스폰 후 적용됩니다.
 mod.reset.1 맵 물체는 새로고침의 영향을 받지 않음
 windows.profile.picture 프로필 사진 변경
-stats.assists 처치 지원
+stats.assists 어시스트
 stats.nukes 뉴크
 stats.melee 근접 처치
 stats.fistkills 격투 처치
 stats.thrownkills 투척 처치
 stats.headshots 헤드샷
 stats.wallbangs 벽 관통 처치
-stats.crouches 앉기
+stats.crouches 웅크리기
 stats.sprays 스프레이 수
 stats.kpd 유용한 신고 수
 windows.host.default.settings 기본 설정을 사용하면 플레이어 진행률과 최고 점수를 저장할 수 있습니다
-windows.host.default.commands /noclip, /god, /smite와 같은 호스트 명령어는 비활성화됩니다 
+windows.host.default.commands /noclip, /god, /smite와 같은 호스트 명령어는 비활성화됩니다
 windows.host.rewards KR 보상을 허용하면 서버 내에서 기본 설정을 강제하고 플레이어들이 맵에서 KR을 받을 수 있습니다
 windows.store.wheels.sub 스핀을 돌려 운을 시험하고 새 스킨을 얻을 기회를 노려보세요!
 windows.store.currency * 미국 달러(USD)로 표시된 가격은 결제 제공업체나 은행에서 정한 환율에 따라 현지 통화로 환전될 수 있습니다
-windows.store.creator 당신이 가장 좋아하는 크리에이터를 위해 크리에이터 코드를 사용하세요
+windows.store.creator 당신이 좋아하는 크리에이터의 코드를 사용하세요
 windows.chall.customs 사용자 지정 게임에서는 챌린지를 진행할 수 없습니다
 twitch.link Twitch 계정을 연동하겠습니까?
 twitch.unlink Twitch 계정의 연동을 해제하시겠습니까?
 windows.clan.leave 클랜을 탈퇴하시겠습니까?
 windows.clan.delete 클랜을 해체하시겠습니까?
 windows.clan.kick {0}님을 클랜에서 추방하시겠습니까?
-windows.store.premium.purchase {0}일 치의 프리미엄을 구매하시겠습니까?
-windows.store.premium.gift '{0}'님에게 {1}일 치의 프리미엄을 선물하시겠습니까?
+windows.store.premium.purchase 프리미엄 {0}일을 구매하시겠습니까?
+windows.store.premium.gift {0}님에게 프리미엄 {1}일을 선물하시겠습니까?
 windows.playerlist.ban {0}님을 이 게임에서 차단하시겠습니까?
 windows.playerlist.flag {0}님에게 해커 태그를 지정하시겠습니까?
 windows.playerlist.unflag {0}님의 해커 태그를 제거하시겠습니까?
@@ -899,84 +899,84 @@ social.trades.accept 정말 이 트레이드를 수락하시겠습니까?
 stats.airdrops KR 패키지
 stats.airdrops.stolen 뺏은 패키지
 settings.quality.flapAnim 스나이퍼 스코프 덮개 애니메이션
-chall.name.hs Get {0} headshots {1}
-chall.name.ns Get {0} no-scopes {1}
-chall.name.ls Get {0} legshots {1}
-chall.name.tmk Get {0} throwing knife kills {1}
-chall.name.fb Get {0} first bloods {1}
-chall.name.mk Get {0} melee kills {1}
-chall.name.fk Get {0} fist kills {1}
-chall.name.qs Get {0} quickscopes {1}
-chall.name.wb Get {0} wallbangs {1}
-chall.name.airk Get {0} mid-air kills {1}
-chall.name.lns Get {0} longshots {1}
-chall.name.tk Get {0} turbo kills {1}
-chall.name.drk Get {0} drift kills {1}
-chall.name.kstk Get a {0} killstreak {1}
-chall.name.w Win {0} matches
-chall.name.d Die {0} times
-chall.name.score Get {0} score
-chall.name.dmg Deal {0} damage {1}
-chall.name.bzk Get {0} buzz kills {1}
-chall.name.cc Get {0} close-calls {1}
-chall.name.rk Deal {0} revenge kills {1}
-event.doubleXP 2x Class XP enabled for this match
-ranked.join Joined Ranked Match. Abandoning a match will result in a temporary ban
-ranked.progress Game in Progress
-ranked.team Please join a Team
-ranked.switch Can't switch while in-game
-ranked.spectate Spectating Disabled in Ranked
-ranked.login Login to Spawn
-ranked.sync Missing Sync Data
-ranked.team.spawn Please join a Team to Spawn
-ranked.class.spawn Please select a Class to Spawn
-modes.round.win Your Team has secured this round
-modes.round.loss This round is no longer winnable
-modes.round.switch Switching Sides. Prepare for the next Round
-modes.trade.success Trade Successful
-modes.prophunt.limit [Prop Hunt] You are out of prop switches
-modes.prophunt.left [Prop Hunt] You have {0} switches remaining
-modes.prophunt.rotation.on [Prop Hunt] Rotation Enabled
-modes.prophunt.rotation.off [Prop Hunt] Rotation Disabled
-modes.prophunt.rotation.reset [Prop Hunt] Rotation reset.
-commands.login Login to use this command
-commands.connected {0} connected, {1} in menu
-commands.host {0} is the current Host.
-commands.noclip.on Noclip - Enabled
-commands.noclip.off Noclip - Disabled
-commands.god.on God mode - Enabled
-commands.god.off God mode - Disabled
-commands.god.on.other God mode - Enabled for {0}
-commands.god.off.other God mode - Disabled for {0}
-commands.smite.on Smite - Enabled
-commands.smite.off Smite - Disabled
-commands.smite.on.other Smite - Enabled for {0}
-commands.smite.off.other Smite - Disabled for {0}
-commands.perk Gave {0} {1}
-commands.maxperk Gave {0} MAX {1}
-commands.unlimited.on Unlimited Ammo - Enabled
-commands.unlimited.off Unlimited Ammo - Disabled
-commands.unlimited.on.other Unlimited Ammo - Enabled for {0}
-commands.unlimited.off.other Unlimited Ammo - Disabled for {0}
-commands.spraybypass.on Unlimited Ammo - Enabled
-commands.spraybypass.off Unlimited Ammo - Disabled
-commands.spraybypass.on.other Unlimited Ammo - Enabled for {0}
-commands.spraybypass.off.other Unlimited Ammo - Disabled for {0}
-commands.suspect.invalid Invalid suspect info
-commands.suspect.menu Suspect in menu
-commands.suspect.left Suspect has left
-commands.suspect.found Suspect Found. Spectating: {0}, Spawned: {1}, Name: {2}
-commands.forfeit.next Must play atleast 1 round
-commands.forfeit.wait Wait till match starts to forfeit
-commands.forfeit.later Please try again in a few seconds
-commands.forfeit.voted You already voted.
-commands.forfeit.limit You can only start one vote per game
-commands.forfeit.ended Forfeiting Game
-commands.forfeit.ended.other Other Team Forfeited
-server.message.join {0} joined the game
-server.message.left {0} left the game
-server.message.kicked {0} was kicked
-server.message.banned {0} was banned
-server.message.votekicked {0} was vote kicked
-server.message.arrested {0} was arrested by the K.P.D
+chall.name.hs 헤드샷으로 {0}명 처치하기 - {1}
+chall.name.ns 노스코프로 {0}명 처치하기 - {1}
+chall.name.ls 다리샷으로 {0}명 처치하기 - {1}
+chall.name.tmk 근접무기 던지기로 {0}명 처치하기 - {1}
+chall.name.fb 퍼스트 블러드 {0}번 하기 - {1}
+chall.name.mk 근접무기로 {0}명 처치하기 - {1}
+chall.name.fk 주먹으로 {0}명 처치하기 - {1}
+chall.name.qs 퀵 스코프로 {0}명 처치하기 - {1}
+chall.name.wb 벽을 뚫고 {0}명 처치하기 - {1}
+chall.name.airk 공중에서 {0}명 처치하기 - {1}
+chall.name.lns 원거리에서 {0}명 처치하기 - {1}
+chall.name.tk Turbo Kill {0}명 처치하기 - {1}
+chall.name.drk 슬라이딩 중 {0}명 처치하기 - {1}
+chall.name.kstk {0}명 연속 처치 달성하기 - {1}
+chall.name.w 게임 {0}판 승리하기
+chall.name.d {0}번 죽기
+chall.name.score {0}점 얻기
+chall.name.dmg {0} 피해량 입히기 - {1}
+chall.name.bzk 연속 처치 {0}번 끊기 - {1}
+chall.name.cc Close Call {0}번 하기 - {1}
+chall.name.rk 복수 처치 {0}번 하기 - {1}
+event.doubleXP 이 게임에서 얻는 클래스 경험치는 2배입니다
+ranked.join 랭크전을 참가했습니다. 게임 도중 나갈 경우 랭크전 임시 정지 조치될 수 있습니다.
+ranked.progress 게임 진행 중
+ranked.team 팀을 고르세요
+ranked.switch 게임 진행 중에는 클래스를 바꿀 수 없습니다.
+ranked.spectate 랭크전에서는 관전할 수 없습니다.
+ranked.login 스폰하려면 로그인하세요
+ranked.sync 동기화 데이터 찾지 못함
+ranked.team.spawn 스폰하려면 팀을 선택하세요
+ranked.class.spawn 스폰하려면 클래스를 선택하세요
+modes.round.win 당신의 팀이 이번 라운드를 확보했습니다
+modes.round.loss 이번 라운드는 더 이상 이길 수 없습니다.
+modes.round.switch 공수 변경 중. 다음 라운드를 준비하세요
+modes.trade.success 트레이드 완료
+modes.prophunt.limit [프롭헌트] 사물 변경권이 없습니다
+modes.prophunt.left [프롭헌트] 사물 변경권 {0}개 남음
+modes.prophunt.rotation.on [프롭헌트] 회전 활성화됨
+modes.prophunt.rotation.off [프롭헌트] 회전 비활성화됨
+modes.prophunt.rotation.reset [프롭헌트] 회전 초기화됨
+commands.login 이 명령어를 사용하려면 로그인하세요
+commands.connected 게임중 {0}명, 메뉴 내 {1}명
+commands.host 이 게임의 호스트는 {0}님입니다.
+commands.noclip.on 벽 무시 활성화됨
+commands.noclip.off 벽 무시 비활성화됨
+commands.god.on 무적모드 활성화됨
+commands.god.off 무적모드 비활성화됨
+commands.god.on.other {0}님의 무적모드 활성화됨
+commands.god.off.other {0}님의 무적모드 비활성화됨
+commands.smite.on 즉사 모드 활성화됨
+commands.smite.off 즉사 모드 비활성화됨
+commands.smite.on.other {0}님의 즉사 모드 활성화됨
+commands.smite.off.other {0}님의 즉사 모드 비활성화됨
+commands.perk {0}님에게 {1} 보너스를 부여했습니다
+commands.maxperk {0}님에게 {1} 보너스 최고치를 부여했습니다
+commands.unlimited.on 무한 탄창 모드 활성화됨
+commands.unlimited.off 무한 탄창 모드 비활성화됨
+commands.unlimited.on.other {0}님의 무한 탄창 모드 활성화됨
+commands.unlimited.off.other {0}님의 무한 탄창 모드 비활성화됨
+commands.spraybypass.on 무한 스프레이 모드 활성화됨
+commands.spraybypass.off 무한 스프레이 모드 비활성화됨
+commands.spraybypass.on.other {0}님의 무한 스프레이 모드 활성화됨
+commands.spraybypass.off.other {0}님의 무한 스프레이 모드 비활성화됨
+commands.suspect.invalid 잘못된 용의자 정보
+commands.suspect.menu 용의자가 메뉴에 있습니다
+commands.suspect.left 용의자가 게임을 나갔습니다
+commands.suspect.found 용의자 찾음. 관전중: {0}, 게임중: {1}, 이름: {2}
+commands.forfeit.next 적어도 한 라운드는 플레이해야 합니다
+commands.forfeit.wait 게임 시작 후에 항복할 수 있습니다
+commands.forfeit.later 몇 초 후 다시 시도하세요
+commands.forfeit.voted 이미 투표했습니다
+commands.forfeit.limit 항복 투표는 한 번밖에 할 수 없습니다
+commands.forfeit.ended 항복 처리 중...
+commands.forfeit.ended.other 상대 팀이 항복했습니다
+server.message.join {0}님이 게임에 참가했습니다
+server.message.left {0}님이 게임을 떠났습니다
+server.message.kicked {0}님이 퇴장되었습니다
+server.message.banned {0}님이 영구 퇴장되었습니다
+server.message.votekicked {0}님이 투표 퇴장되었습니다
+server.message.arrested KPD가 {0}님을 체포했습니다
 `;
