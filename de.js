@@ -462,7 +462,7 @@ windows.servers.hide Volle Spiele ausblenden
 windows.servers.priority Regions-Priorität
 windows.servers.online {0} im Spiel
 windows.servers.social {0} im Sozialbereich
-windows.servers.editor {0} im Map-Bearbeitungsmodus
+windows.servers.editor {0} im Map-Editor
 windows.loadout.header Ausrüstung ändern
 windows.loadout.class Klasse
 windows.loadout.primary Primäre Waffe
@@ -575,7 +575,7 @@ windows.spray.spin Spray
 windows.maps.header Benutzerdefinierte Map
 windows.maps.none Keine Map gefunden!
 windows.maps.name Map-Name
-windows.maps.editor im Map-Bearbeitungsmodus
+windows.maps.editor Map-Editor
 windows.maps.publish Map veröffentlichen
 windows.maps.community Map Community
 windows.publish.map.header Map veröffentlichen
