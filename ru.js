@@ -936,8 +936,8 @@ modes.round.switch Смена сторон. Приготовьтесь к сле
 modes.trade.success Успешный обмен!
 modes.prophunt.limit [Prop Hunt] You are out of prop switches
 modes.prophunt.left [Prop Hunt] You have {0} switches remaining
-modes.prophunt.rotation.on [Prop Hunt] Rotation Enabled
-modes.prophunt.rotation.off [Prop Hunt] Rotation Disabled
+modes.prophunt.rotation.on [Prop Hunt] Вращение включено
+modes.prophunt.rotation.off [Prop Hunt] Вращение выключено
 modes.prophunt.rotation.reset [Prop Hunt] Rotation reset.
 commands.login Login to use this command
 commands.connected {0} connected, {1} in menu
