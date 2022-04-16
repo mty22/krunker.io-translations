@@ -91,6 +91,8 @@ If you contributed in the past and can't find your name below (or simply wish to
 -- [coeg](https://krunker.io/social.html?p=profile&q=coeg%E2%A0%80%E2%A0%80) (coeg#0523)
 -- [Пингвин](https://krunker.io/social.html?p=profile&q=%D0%9F%D0%B8%D0%BD%D0%B3%D0%B2%D0%B8%D0%BD) (TiXoNyA#5598)
 -- [Yurikan4ik](https://krunker.io/social.html?p=profile&q=Yurikan4ik) (Yurikan4ik#7933)
+-- [Calibri_Light](https://krunker.io/social.html?p=profile&q=Calibri_Light) (CalibriLightYT#8184)
+
 
 - [Italian](https://github.com/mty22/krunker.io-translations/blob/main/it.js) (Italiano)
 -- [MrGira](https://krunker.io/social.html?p=profile&q=MrGira) (MrGira#0999)
