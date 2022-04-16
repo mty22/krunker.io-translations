@@ -967,12 +967,12 @@ commands.suspect.menu Подозрительный игрок в меню
 commands.suspect.left Подозрительный игрок вышел из игры
 commands.suspect.found Обнаружен подозрительный игрок. Наблюдатель: {0}, Появился: {1}, Имя: {2}
 commands.forfeit.next Нужно сыграть хотя-бы 1 раунд
-commands.forfeit.wait Wait till match starts to forfeit
+commands.forfeit.wait Дождитесь до начала матча, чтобы сдаться
 commands.forfeit.later Попробуйте еще раз позже.
 commands.forfeit.voted Вы уже проголосовали.
 commands.forfeit.limit Вы можете начать только одно голосование за матч
-commands.forfeit.ended Forfeiting Game
-commands.forfeit.ended.other Other Team Forfeited
+commands.forfeit.ended Сдаемся...
+commands.forfeit.ended.other Вражеская команда сдалась
 server.message.join {0} приесоединился к игре
 server.message.left {0} вышел из игры
 server.message.kicked {0} был кикнут
