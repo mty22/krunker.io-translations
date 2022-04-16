@@ -977,6 +977,6 @@ server.message.join {0} joined the game
 server.message.left {0} left the game
 server.message.kicked {0} was kicked
 server.message.banned {0} was banned
-server.message.votekicked {0} was vote kicked
-server.message.arrested {0} was arrested by the K.P.D
+server.message.votekicked {0} был кикнут
+server.message.arrested {0} был арестован K.P.D
 `;
