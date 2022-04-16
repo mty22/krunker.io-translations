@@ -938,39 +938,39 @@ modes.prophunt.limit [Prop Hunt] You are out of prop switches
 modes.prophunt.left [Prop Hunt] You have {0} switches remaining
 modes.prophunt.rotation.on [Prop Hunt] Вращение включено
 modes.prophunt.rotation.off [Prop Hunt] Вращение выключено
-modes.prophunt.rotation.reset [Prop Hunt] Rotation reset.
-commands.login Login to use this command
-commands.connected {0} connected, {1} in menu
-commands.host {0} is the current Host.
-commands.noclip.on Noclip - Enabled
-commands.noclip.off Noclip - Disabled
-commands.god.on God mode - Enabled
-commands.god.off God mode - Disabled
-commands.god.on.other God mode - Enabled for {0}
-commands.god.off.other God mode - Disabled for {0}
+modes.prophunt.rotation.reset [Prop Hunt] Сброс вращения.
+commands.login Войдите, чтобы использовать эту команду
+commands.connected {0} подключено, {1} в меню
+commands.host {0} является хостом.
+commands.noclip.on Ноклип включен
+commands.noclip.off Ноклип выключен
+commands.god.on Режим бога включен
+commands.god.off Режим бога выключен
+commands.god.on.other Режим бога включен для {0}
+commands.god.off.other Режим бога выключен для {0}
 commands.smite.on Smite - Enabled
 commands.smite.off Smite - Disabled
 commands.smite.on.other Smite - Enabled for {0}
 commands.smite.off.other Smite - Disabled for {0}
-commands.perk Gave {0} {1}
-commands.maxperk Gave {0} MAX {1}
-commands.unlimited.on Unlimited Ammo - Enabled
-commands.unlimited.off Unlimited Ammo - Disabled
-commands.unlimited.on.other Unlimited Ammo - Enabled for {0}
-commands.unlimited.off.other Unlimited Ammo - Disabled for {0}
-commands.spraybypass.on Unlimited Ammo - Enabled
-commands.spraybypass.off Unlimited Ammo - Disabled
-commands.spraybypass.on.other Unlimited Ammo - Enabled for {0}
-commands.spraybypass.off.other Unlimited Ammo - Disabled for {0}
-commands.suspect.invalid Invalid suspect info
-commands.suspect.menu Suspect in menu
-commands.suspect.left Suspect has left
-commands.suspect.found Suspect Found. Spectating: {0}, Spawned: {1}, Name: {2}
-commands.forfeit.next Must play atleast 1 round
+commands.perk Выдано {0} {1}
+commands.maxperk Выдано {0} MAX {1}
+commands.unlimited.on Бесконечные патроны включены
+commands.unlimited.off Бесконечные патроны выключены
+commands.unlimited.on.other Бесконечные патроны включены для {0}
+commands.unlimited.off.other Бесконечные патроны выключены для {0}
+commands.spraybypass.on Бесконечные патроны включены
+commands.spraybypass.off Бесконечные патроны выключены
+commands.spraybypass.on.other Бесконечные патроны включены для {0}
+commands.spraybypass.off.other Бесконечные патроны выключены для {0}
+commands.suspect.invalid Некорректная информация о подозреваемом
+commands.suspect.menu Подозрительный игрок в меню
+commands.suspect.left Подозрительный игрок вышел из игры
+commands.suspect.found Обнаружен подозрительный игрок. Наблюдатель: {0}, Появился: {1}, Имя: {2}
+commands.forfeit.next Нужно сыграть хотя-бы 1 раунд
 commands.forfeit.wait Wait till match starts to forfeit
-commands.forfeit.later Please try again in a few seconds
-commands.forfeit.voted You already voted.
-commands.forfeit.limit You can only start one vote per game
+commands.forfeit.later Попробуйте еще раз позже.
+commands.forfeit.voted Вы уже проголосовали.
+commands.forfeit.limit Вы можете начать только одно голосование за матч
 commands.forfeit.ended Forfeiting Game
 commands.forfeit.ended.other Other Team Forfeited
 server.message.join {0} приесоединился к игре
