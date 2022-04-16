@@ -973,8 +973,8 @@ commands.forfeit.voted You already voted.
 commands.forfeit.limit You can only start one vote per game
 commands.forfeit.ended Forfeiting Game
 commands.forfeit.ended.other Other Team Forfeited
-server.message.join {0} joined the game
-server.message.left {0} left the game
+server.message.join {0} приесоединился к игре
+server.message.left {0} вышел из игры
 server.message.kicked {0} был кикнут
 server.message.banned {0} был забанен
 server.message.votekicked {0} был кикнут голосованием
