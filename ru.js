@@ -948,10 +948,10 @@ commands.god.on Режим бога включен
 commands.god.off Режим бога выключен
 commands.god.on.other Режим бога включен для {0}
 commands.god.off.other Режим бога выключен для {0}
-commands.smite.on Smite - Enabled
-commands.smite.off Smite - Disabled
-commands.smite.on.other Smite - Enabled for {0}
-commands.smite.off.other Smite - Disabled for {0}
+commands.smite.on Бесконечный урон включен
+commands.smite.off Бесконечный урон выключен
+commands.smite.on.other Бесконечный урон включен для {0}
+commands.smite.off.other Бесконечный урон выключен для {0}
 commands.perk Выдано {0} {1}
 commands.maxperk Выдано {0} MAX {1}
 commands.unlimited.on Бесконечные патроны включены
