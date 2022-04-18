@@ -934,8 +934,8 @@ modes.round.win Ваша команда победила этот раунд!
 modes.round.loss Ваша команда проиграла этот раунд
 modes.round.switch Смена сторон. Приготовьтесь к следующему раунду
 modes.trade.success Успешный обмен!
-modes.prophunt.limit [Prop Hunt] You are out of prop switches
-modes.prophunt.left [Prop Hunt] You have {0} switches remaining
+modes.prophunt.limit [Prop Hunt] Вы больше не можете изменить свой облик!
+modes.prophunt.left [Prop Hunt] Вы можете изменить облик {0} раз
 modes.prophunt.rotation.on [Prop Hunt] Вращение включено
 modes.prophunt.rotation.off [Prop Hunt] Вращение выключено
 modes.prophunt.rotation.reset [Prop Hunt] Сброс вращения.
