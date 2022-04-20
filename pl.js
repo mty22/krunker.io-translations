@@ -178,8 +178,8 @@ settings.interface.header Interfejs
 settings.interface.scale Rozmiar interfejsu
 settings.interface.theme Motyw gry
 settings.interface.ui Pokazuj interfejs
-settings.interface.scoreboard Użyj starej tablicy wyników
-settings.interface.oldBrowser Użyj starej przeglądarki
+settings.interface.scoreboard Używaj starej tablicy wyników
+settings.interface.oldBrowser Używaj starej przeglądarki
 settings.interface.rarityanim Wyłącz animacje rzadkości
 settings.interface.showPfp Wyświetlaj zdjęcia profilowe
 settings.interface.showTradeMsg Wyświetlaj wiadomości o handlu
@@ -204,8 +204,8 @@ settings.interface.speedScale Rozmiar licznika prędkości
 settings.interface.speedColor Kolor licznika prędkości (Obecnej)
 settings.interface.speedColorMax Kolor licznika prędkości (Maksymalnej)
 settings.interface.hideNames Pokazuj nazwy nad graczami
-settings.interface.hideNames.team Tylko dla drużyny
-settings.interface.hideNames.enemy Tylko dla przeciwników
+settings.interface.hideNames.team Tylko sojusznicy
+settings.interface.hideNames.enemy Tylko przeciwnicy
 settings.interface.hideNames.all Dla wszystkich
 settings.interface.nametagStyle Styl nazw
 settings.interface.nametagOpac Przezroczystość nazw
@@ -252,7 +252,7 @@ settings.crosshair.size Wielkość
 settings.crosshair.thickness Grubość
 settings.crosshair.gap Odstęp
 settings.crosshair.dot Kropka
-settings.crosshair.opacity.use Użyj własnej przezroczystości
+settings.crosshair.opacity.use Używaj własnej przezroczystości
 settings.crosshair.opacity.custom Własna przezroczystość
 settings.crosshairm.header Celownik (Rzucanie nożem)
 settings.crosshairm.type Typ
@@ -277,7 +277,7 @@ settings.crosshairm.size Rozmiar
 settings.crosshairm.thickness Grubość
 settings.crosshairm.gap Odstęp
 settings.crosshairm.dot Kropka
-settings.crosshairm.opacity.use Użyj własnej przezroczystości
+settings.crosshairm.opacity.use Używaj własnej przezroczystości
 settings.crosshairm.opacity.custom Własna przezroczystość
 settings.hitmarker.header Znacznik trafienia
 settings.hitmarker.color Kolor
@@ -420,7 +420,7 @@ settings.mods.header Konfiguracja
 settings.mods.load Wczytaj modyfikacje
 settings.mods.logo Zezwól na zmianę logo
 settings.mods.auto Automatycznie wczytaj modyfikacje
-settings.mods.borders Granice celownika
+settings.mods.borders Obramowanie lunety
 settings.mods.borderCol Obramowanie lunety
 settings.mods.borderOpac Przezroczystość obramowania lunety
 settings.mods.scope Obraz lunety
@@ -445,7 +445,7 @@ settings.mods.streak Ikona licznika serii zabójstw
 settings.mods.streak.paste URL ikony licznika serii zabójstw
 settings.mods.timer Ikona czasomierza
 settings.mods.timer.paste URL ikony czasomierza
-settings.mods.usedamage Użyj nakładki obrażeń
+settings.mods.usedamage Używaj nakładki obrażeń
 settings.mods.damage Obraz nakładki obrażeń
 settings.mods.damage.paste URL obrazu nakładki obrażeń
 settings.mods.overlay Obraz nakładki gry
@@ -508,7 +508,7 @@ windows.controls.right Prawo
 windows.controls.reload Przeładuj
 windows.controls.aim1 Celuj
 windows.controls.shoot1 Strzelaj
-windows.controls.inspect Pokazuj broń
+windows.controls.inspect Pokaż broń
 windows.controls.spray Użyj sprayu
 windows.controls.sprayWheel Kółko sprayów (Przytrzymaj)
 windows.controls.jump Skocz
@@ -764,8 +764,8 @@ server.config.fallDmgThr Próg obrażeń od upadku
 server.config.noDraws Bez remisów
 server.config.bstOfR Najlepszy z
 server.config.chrgWeps Bronie wykorzystujące mechanikę ładowania
-social.login Zaloguj/Zarejestruj
-social.login.failed Logowanie nie powiodło się
+social.login Zaloguj/Zarejestruj się
+social.login.failed Logowanie się nie powiodło
 social.login.buy Zaloguj się, aby kupować
 social.login.sell Zaloguj się, aby sprzedawać
 social.login.gift Zaloguj się, aby darować
@@ -851,7 +851,7 @@ windows.host.default.commands Komendy hosta są wyłączone w tym trybie: /nocli
 windows.host.rewards Włączenie nagród KR zmusza serwer do używania domyślnych ustawień i pozwala graczom zdobywać KR z funduszy mapy:
 windows.store.wheels.sub Spróbuj szczęścia i zakręć kołem, aby wygrać nowe skórki!
 windows.store.currency * Ceny w USD mogą zostać przeliczone na lokalną walutę po kursie wymiany określonym przez dostawców płatności lub bank
-windows.store.creator Wesprzyj swojego ulubionego twórcę treści, używając ich kodu.
+windows.store.creator Wesprzyj swojego ulubionego twórcę treści, używając ich kodu
 windows.chall.customs Nie można robić wyzwań w niestandardowych meczach
 twitch.link Czy jesteś pewien, że chcesz połączyć konto gry z kontem na Twitchu?
 twitch.unlink Czy jesteś pewien, że chcesz rozłączyć konto gry z kontem na Twitchu?
@@ -921,7 +921,7 @@ chall.name.bzk Zakończ {0} serii zabójstw innych graczy {1}
 chall.name.cc Zdobądź {0} zabójstw, prawie samemu ginąc {1}
 chall.name.rk Zdobądź {0} zabójstw w odwecie {1}
 event.doubleXP Podwójne doświadczenie klasy w tej grze
-ranked.join Dołączono do rozgrywki rankingowej. Opuszczenie rozgrywki będzie skutkować tymczasowym banem
+ranked.join Dołączono do rozgrywki rankingowej. Opuszczenie jej skutkuje tymczasowym banem
 ranked.progress Rozgrywka w trakcie
 ranked.team Dołącz do drużyny
 ranked.switch Nie można zmieniać w trakcie rozgrywki
