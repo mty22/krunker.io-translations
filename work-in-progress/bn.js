@@ -1,373 +1,373 @@
 module.exports = `
-menu.btn.ranked Ranked
-menu.btn.shop Shop
-menu.btn.social Hub
-menu.btn.maps Games
-menu.btn.mods Mods
-menu.btn.settings Settings
-menu.btn.customize Customize
-menu.btn.invite Invite
-menu.btn.invite.clicked Copied
-menu.btn.join Join
-menu.btn.host Host Game
-menu.btn.browser Servers
-generic.wait Please wait...
-generic.loading LOADING...
-generic.none None
-generic.connecting CONNECTING...
-generic.select Select
-generic.delete Delete
-generic.save Save
-generic.load Load
-generic.search Search
-generic.leave Leave
-generic.default Default
-generic.submit Submit
-generic.create Create
-generic.random Random
-generic.failed Failed
-generic.success Success!
-generic.name Name
-generic.level Level
-generic.score Score
-generic.off Off
-generic.defeat DEFEAT
-generic.victory VICTORY
-generic.matchover MATCH OVER
-generic.matchaband MATCH ABANDONED
-generic.follow Follow
-generic.unfollow Unfollow
-generic.followers Followers
-generic.following following
-generic.games Games
-generic.wins Wins
-generic.lose Losses
-generic.clan Clan
-generic.games.played Games Played
-generic.games.won Games Won
-generic.games.lost Games Lost
-generic.timep Time Played
-generic.kills Kills
-generic.deaths Deaths
+menu.btn.ranked র‍্যাঙ্কড
+menu.btn.shop দোকান
+menu.btn.social মণ্ডলী
+menu.btn.maps আরো খেলা
+menu.btn.mods মোড
+menu.btn.settings সেটিংস
+menu.btn.customize শাজান
+menu.btn.invite আমন্ত্রণ জানান
+menu.btn.invite.clicked অনুলিপি করা হল
+menu.btn.join যোগ দিন
+menu.btn.host হোস্ট করুন
+menu.btn.browser সার্ভারস
+generic.wait অনুগ্রহপূর্বক অপেক্ষা করুন...
+generic.loading লোড হচ্ছে...
+generic.none কিছু না
+generic.connecting সংযোগ করা হচ্ছে...
+generic.select নির্বাচন করুন
+generic.delete মুছে ফেলুন
+generic.save সংরক্ষণ করুন
+generic.load লোড
+generic.search অনুসন্ধান করুন
+generic.leave বের হন
+generic.default ডিফল্ট
+generic.submit জমা দিন
+generic.create তৈরি করুন
+generic.random এলোমেলো
+generic.failed ব্যর্থ হয়েছে
+generic.success সফল হয়েছে!
+generic.name নাম
+generic.level লক্ষ্যসন্ধান
+generic.score স্কোর
+generic.off বন্ধ
+generic.defeat পরাজয়
+generic.victory বিজয়
+generic.matchover ম্যাচ ওভার
+generic.matchaband ম্যাচ পরিত্যক্ত
+generic.follow ফলো করুন
+generic.unfollow আনফলো
+generic.followers ফলোকারিরা
+generic.following ফলো করছে
+generic.games গেম
+generic.wins জয়
+generic.lose হারা
+generic.clan বংশ
+generic.games.played গেম খেলেছে
+generic.games.won গেম জিতেছে
+generic.games.lost গেম হেরেছে
+generic.timep সময় খেলেছে
+generic.kills হত্যা করেছে
+generic.deaths মৃত্যু হয়েছে
 generic.kdr KDR
-generic.time Time
-generic.logout Logout
-generic.logout.sessions Logout of all Sessions
-generic.username Enter Username
-generic.password Enter Password
-generic.register Register
-generic.login Login
-generic.accuracy Accuracy
-player.waiting waiting for players
-player.died You died
-player.killed Killed By
+generic.time সময়
+generic.logout লগ আউট করুন
+generic.logout.sessions সমস্ত সেশন থেকে লগআউট
+generic.username ব্যবহারকারীর নাম লিখুন
+generic.password পাসওয়ার্ড লিখুন
+generic.register একাউন্ট খুলন
+generic.login লগইন করুন
+generic.accuracy যথাযথতা
+player.waiting খেলোয়াড়দের জন্য অপেক্ষা করছে
+player.died আপনি মরেছেন
+player.killed দ্বারা নিহত
 player.killstreak {0} on a {1} Kill Streak
-player.inactive Kicked for inactivity
-player.disconnect DISCONNECTED
-timer.end Next Round in {0}
-leaderboard.empty Empty Lobby
-popup.checkpoint Checkpoint!
-app.play CLICK TO PLAY
-app.spectate CLICK TO SPECTATE
-app.play.mobile TAP TO PLAY
-app.spectate.mobile TAP TO SPECTATE
-app.play.controller PRESS START
-app.spectate.controller START to SPECTATE
-purchase.error Error occurred
-purchase.error.click click here</a> and try again!
-purchase.error.limit You may have exceeded your daily transaction limit
-settings.reset Reset
-settings.reset.confirm Are you sure you want to reset all your settings?
-settings.import Import
-settings.export Export
-settings.none No settings found
-settings.backup Backup Settings
+player.inactive নিষ্ক্রিয়তার জন্য বের করা হল
+player.disconnect সংযোগ বিচ্ছিন্ন
+timer.end পরবর্তী রাউন্ড {0}
+leaderboard.empty খালি লবি
+popup.checkpoint চেকপয়েন্ট !
+app.play খেলতে ক্লিক করুন
+app.spectate দেখতে ক্লিক করুন
+app.play.mobile খেলার জন্য স্পর্শ করুন
+app.spectate.mobile দেখতে ট্যাপ করুন
+app.play.controller শুরু টিপুন
+app.spectate.controller দেখতে শুরু করুন
+purchase.error ERROR
+purchase.error.click এখানে ক্লিক করুন</a> এবং আবার চেষ্টা করো!
+purchase.error.limit আপনি হয়তো আপনার দৈনিক লেনদেনের সীমা অতিক্রম করেছেন
+settings.reset রিসেট
+settings.reset.confirm আপনি কি আপনার সমস্ত সেটিংস রিসেট করার বিষয়ে নিশ্চিত?
+settings.import ধুকান
+settings.export বের করুন
+settings.none কোনো সেটিংস পাওয়া যায়নি
+settings.backup ব্যাকআপ সেটিংস
 settings.controls.change Keybinds
-settings.controls.press Press any Key
+settings.controls.press যেকোনো বোতাম চাপ দিন
 settings.controls.leaderboard InGame Leaderboard Trigger Type
 settings.controls.voicechat Voicechat Trigger Type
 settings.local.header Localization <span id="requiresRestart"><span style="color: #eb5656">*</span> requires restart</span>
-settings.local.region Default Region
-settings.local.lang Language
-settings.network.header Network
-settings.network.netRerouting Auto Routing (Affects Ping)
+settings.local.region ডিফল্ট অঞ্চল
+settings.local.lang ভাষা
+settings.network.header নেটওয়ার্ক
+settings.network.netRerouting অটো রাউটিং (পিংকে প্রভাবিত করে)
 settings.network.netRate Network Rate (Hz)
-settings.network.lagComp Lag Compensation
-settings.network.optNet Optimized Networking
+settings.network.lagComp ল্যাগ ক্ষতিপূরণ
+settings.network.optNet অপ্টিমাইজড নেটওয়ার্কিং
 settings.network.quickplay Force Quickplay
-settings.popup.header Popups
-settings.experimental.header Experimental
-settings.experimental.holiday Holiday Effects
-settings.experimental.aimFreezeFix Aim Freeze Fix
-settings.experimental.mouseFlickFix Mouse Flick Fix
-settings.experimental.shaderRendering Instance Rendering
+settings.popup.header পপআপ
+settings.experimental.header পরীক্ষামূলক
+settings.experimental.holiday ছুটির প্রভাব
+settings.experimental.aimFreezeFix লক্ষ্য ফ্রিজ ফিক্স
+settings.experimental.mouseFlickFix মাউস ফ্লিক ফিক্স
+settings.experimental.shaderRendering ইনস্ট্যান্স রেন্ডারিং
 settings.experimental.mouseAccel Mouse Acceleration
 settings.experimental.tbInterp TB Interpolation
-settings.client.header Client
-settings.client.unlimitedFrames Unlimited FPS
-settings.client.gameCap Game Capture
-settings.client.experimental Experimental Features
-settings.client.discordRPC Discord RPC
-settings.client.resourceSwapper Resource Swapper
-settings.client.clearCache Clear Cache
-settings.client.resetSettings Reset Client Settings
-settings.client.acceleratedCanvas Accelerated Canvas
-settings.client.angleBackend ANGLE Graphics Backend
-settings.client.colorProfile Color Profile
+settings.client.header ক্লায়েন্ট
+settings.client.unlimitedFrames সীমাহীন FPS
+settings.client.gameCap Game ক্যাপচার
+settings.client.experimental পরীক্ষামূলক বৈশিষ্ট্য
+settings.client.discordRPC ডিসকর্ড RPC
+settings.client.resourceSwapper রিসোর্স সোয়াপার
+settings.client.clearCache ক্যাশে সাফ করুন
+settings.client.resetSettings ক্লায়েন্ট সেটিংস রিসেট করুন
+settings.client.acceleratedCanvas এক্সেলরেটেড ক্যানভাস
+settings.client.angleBackend অ্যাঙ্গল গ্রাফিক ব্যাকেন্ড
+settings.client.colorProfile রঙ প্রোফাইল
 settings.client.resourcePacks Resource Packs
-settings.dev.header Developer
-settings.dev.forceUpdate Force Update Skins
-settings.dev.forceRegen Always Regenerate Player
-settings.dev.extraBan Extra Ban Info
-settings.chat.header Chat
-settings.chat.chat Show Chat Box
-settings.chat.chat.all Always
-settings.chat.chat.focus While Focused
-settings.chat.messages Show Player Messages
-settings.chat.unboxings Show Unboxings
-settings.chat.chatOp Chat Opacity
-settings.chat.chatBGOp Chat BG Opacity
-settings.chat.chatHeight Chat Height
-settings.chat.chatTimer Chat Timer (s)
+settings.dev.header বিকাশকারী
+settings.dev.forceUpdate ফোর্স আপডেট স্কিন
+settings.dev.forceRegen সবসময় প্লেয়ার রিজেনারেট করুন
+settings.dev.extraBan অতিরিক্ত নিষেধাজ্ঞার তথ্য
+settings.chat.header গালগল্প
+settings.chat.chat চ্যাট বক্স দেখান
+settings.chat.chat.all সর্বদা
+settings.chat.chat.focus যখন ফোকাসড
+settings.chat.messages প্লেয়ার মেসেজ দেখান
+settings.chat.unboxings আনবক্সিং দেখান
+settings.chat.chatOp চ্যাট অস্বচ্ছতা
+settings.chat.chatBGOp চ্যাট স্বচ্ছতা
+settings.chat.chatHeight চ্যাটের উচ্চতা
+settings.chat.chatTimer কতক্ষণ চ্যাট আপনার স্ক্রিনে থাকবে (s)
 settings.chat.chatTextOutline Chat Text Outline
 settings.chat.chatFilter Profanity Filter
-settings.quality.header Performance
-settings.quality.updRate Frame Cap
-settings.quality.rendDst Render Distance
+settings.quality.header কর্মক্ষমতা
+settings.quality.updRate কত fps চান
+settings.quality.rendDst আপনি খেলায় কতদূর দেখতে চান
 settings.quality.res Resolution
-settings.quality.part Particles
-settings.quality.mapDet Map Details
+settings.quality.part বন্দুকের পাশ থেকে গুলি পড়ছে
+settings.quality.mapDet মাপের  বিবরণ
 settings.quality.noTex No Textures
-settings.quality.partdist Particle Distance
-settings.quality.renderdist Render Distance
-settings.quality.reflection Reflection Quality
-settings.quality.antiAlias Antialiasing
-settings.quality.shadows Shadows
-settings.quality.softShad Soft Shadows
+settings.quality.partdist কণার দূরত্ব
+settings.quality.renderdist আপনি খেলায় কতদূর দেখতে চান
+settings.quality.reflection প্রতিফলন
+settings.quality.antiAlias অ্যান্টিলিয়াসিং
+settings.quality.shadows ছায়া
+settings.quality.softShad নরম ছায়া
 settings.quality.highResShad High-Res Shadows
-settings.quality.shadowsDynamic Dynamic Shadows
-settings.quality.trails Bullet Trails
-settings.quality.yourTrails Your Trails
-settings.quality.mflash Muzzle Flash
-settings.quality.flap Show Sniper Flap
-settings.quality.lowSpec Low Spec
-settings.quality.ambient Ambient Shading
+settings.quality.shadowsDynamic গতিশীল ছায়া
+settings.quality.trails বুলেট ট্রেইল
+settings.quality.yourTrails আপনার ট্রেলস
+settings.quality.mflash মজল ফ্ল্যাশ
+settings.quality.flap স্নাইপার ফ্ল্যাপ
+settings.quality.lowSpec কম স্পেসিফিকেশন
+settings.quality.ambient এম্বিয়েন্ট সেডিং
 settings.quality.ambientOld Old Shading (When Possible)
-settings.quality.textureAnim Texture Animations
-settings.quality.objectAnim Object Animations
-settings.quality.screenShake Screen Shake
-settings.quality.weaponShine Weapons Shine
-settings.quality.rendGamma Gamma
-settings.quality.lighting Lighting
-settings.quality.showExplo Show Explosions
-settings.quality.aspectRatio Aspect Ratio
-settings.post.header Post Processing
-settings.post.post Post Processing
-settings.post.bloom Bloom
+settings.quality.textureAnim টেক্সচার অ্যানিমেশন
+settings.quality.objectAnim অবজেক্ট অ্যানিমেশন
+settings.quality.screenShake স্ক্রিন ঝাঁকা
+settings.quality.weaponShine অস্ত্র চমকানো
+settings.quality.rendGamma গামা
+settings.quality.lighting লাইটিং
+settings.quality.showExplo বিস্ফোরণ দেখান
+settings.quality.aspectRatio আনুমানিক অনুপাত
+settings.post.header পোস্ট প্রসেসিং
+settings.post.post পোস্ট প্রসেসিং
+settings.post.bloom পুষ্প
 settings.post.bloomThreshold Bloom Threshold
-settings.post.bloomStrength Bloom Strength
-settings.post.bloomRadius Bloom Radius
+settings.post.bloomStrength ব্লুম শক্তি
+settings.post.bloomRadius ব্লুম ব্যাসার্ধ
 settings.post.ssao SSAO
-settings.post.ssaoRadius SSAO Radius
+settings.post.ssaoRadius SSAO ব্যাসার্ধ
 settings.interface.hitInd Show Hit Indicators
 settings.interface.hitColor Hit Indicator Color
 settings.interface.dmg Show Damage
 settings.interface.dmgCol Damage Color
 settings.interface.critCol Crit Color
-settings.interface.header Interface
-settings.interface.scale UI Scale
-settings.interface.theme Game Theme
-settings.interface.ui Show UI
-settings.interface.scoreboard Use Old Scoreboard
-settings.interface.oldBrowser Use Old Browser
+settings.interface.header ইন্টারফেস
+settings.interface.scale UI স্কেল
+settings.interface.theme খেলা থিম
+settings.interface.ui UI দেখাব
+settings.interface.scoreboard পুরানো স্কোরবোর্ড ব্যবহার করুন
+settings.interface.oldBrowser পুরানো ব্রাউজার ব্যবহার করুন
 settings.interface.rarityanim Disable Rarity Animations
-settings.interface.showPfp Show Profile Pictures
-settings.interface.showTradeMsg Show Trade Messages
-settings.interface.hideNonTrade Hide Non-Tradable Skins
+settings.interface.showPfp প্রোফাইল ছবি দেখাব
+settings.interface.showTradeMsg বাণিজ্য বার্তা দেখাব
+settings.interface.hideNonTrade অ-বাণিজ্যযোগ্য স্কিন লুকান
 settings.interface.hp Dynamic HP Bars
 settings.interface.dmgScale Damage Scale
-settings.interface.killf Show Kill Feed
+settings.interface.killf কিল ফিড দেখাব
 settings.interface.ping Show Ping
 settings.interface.net-stats Show Network Stats
 settings.interface.fps Show FPS
-settings.interface.deaths Show Death Counter
+settings.interface.deaths ডেথ কাউন্টার দেখাব
 settings.interface.kd Show K/D Counter
-settings.interface.kills Show Kill Counter
-settings.interface.streak Show Streak Counter
-settings.interface.score Show Score Counter
-settings.interface.spectators Show Spectator Counter
-settings.interface.speed Show Movement Speed
-settings.interface.speedOffX Speed X Offset
+settings.interface.kills কিল কাউন্টার দেখাব
+settings.interface.streak স্ট্রিক কাউন্টার দেখাব
+settings.interface.score স্কোর কাউন্টার দেখাব
+settings.interface.spectators স্পেক্টেটর কাউন্টার দেখাব
+settings.interface.speed চলাচলের গতি দেখাব
+settings.interface.speedOffX Speed X offset
 settings.interface.speedOffY Speed Y Offset
-settings.interface.speedOpacity Speed Opacity
-settings.interface.speedScale Speed Scale
-settings.interface.speedColor Speed Color (Current)
-settings.interface.speedColorMax Speed Color (Max)
-settings.interface.hideNames Nametag Display
-settings.interface.hideNames.team Team Only
-settings.interface.hideNames.enemy Enemy Only
-settings.interface.hideNames.all Everyone
+settings.interface.speedOpacity গতির স্বচ্ছতা
+settings.interface.speedScale গতির স্কেল
+settings.interface.speedColor গতির রঙ (বর্তমান)
+settings.interface.speedColorMax গতির রঙ (সর্বোচ্চ)
+settings.interface.hideNames Nametag প্রদর্শন
+settings.interface.hideNames.team শুধুমাত্র দল
+settings.interface.hideNames.enemy শুধু শত্রু
+settings.interface.hideNames.all সবার
 settings.interface.nametagStyle Nametag Style
-settings.interface.nametagOpac Nametag Opacity
-settings.interface.nametagScale Nametag Scale
-settings.interface.nametagStyle.health Health Only
-settings.interface.nametagStyle.name Name Only
-settings.interface.nametagStyle.nameLvl Name & Level Only
-settings.interface.nametagStyle.all Everything
-settings.interface.healthNum Nametag Health Number
-settings.interface.healthColT Nametag Health Color Team
-settings.interface.healthColE Nametag Health Color Enemy
-settings.interface.xpBarCol XP Bar Color
-settings.interface.xpBarCol2 XP Bar Color 2
-settings.interface.xpBarOpac XP Bar Opacity
-settings.medals.header Medals
-settings.medals.show Show Medals
-settings.medals.classic Classic Medals
-settings.medals.sound Play Medal Sounds
-settings.medals.scale Medal Scale
+settings.interface.nametagOpac নাম ট্যাগ স্বচ্ছতা
+settings.interface.nametagScale নাম ট্যাগ স্কেল
+settings.interface.nametagStyle.health শুধুমাত্র প্রাণ
+settings.interface.nametagStyle.name শুধু নাম
+settings.interface.nametagStyle.nameLvl শুধুমাত্র নাম এবং লেভেল
+settings.interface.nametagStyle.all সবকিছু
+settings.interface.healthNum Nametag প্রাণ নম্বর
+settings.interface.healthColT Nametag হেলথ কালার টিম
+settings.interface.healthColE Nametag হেলথ কালার শত্রু
+settings.interface.xpBarCol XP বার রঙ
+settings.interface.xpBarCol2 XP বার রঙ 2
+settings.interface.xpBarOpac XP বারের স্বচ্ছতা
+settings.medals.header মেডেল
+settings.medals.show মেডেল দেখাব
+settings.medals.classic ক্লাসিক মেডেল
+settings.medals.sound মেডেল সাউন্ড প্লে করুন
+settings.medals.scale মেডেল স্কেল
 settings.medals.xOff Medal X Offset
 settings.medals.yOff Medal Y Offset
 settings.crosshair.header Crosshair
 settings.crosshair.type Type
 settings.crosshair.type.1 Dynamic
-settings.crosshair.type.2 Shapes
-settings.crosshair.type.3 Layered
-settings.crosshair.type.4 Image
-settings.crosshair.type.5 Precision
+settings.crosshair.type.2 আকার
+settings.crosshair.type.3 স্তরযুক্ত
+settings.crosshair.type.4 ছবি
+settings.crosshair.type.5 যথার্থতা
 settings.crosshair.style Style
-settings.crosshair.style.0 Cross
-settings.crosshair.style.1 Hollow Circle
-settings.crosshair.style.2 Solid Circle
-settings.crosshair.style.3 Hollow Square
-settings.crosshair.style.4 Solid Square
-settings.crosshair.image Image
-settings.crosshair.image.paste Crosshair Image
-settings.crosshair.image.width Image Width
-settings.crosshair.image.height Image Height
-settings.crosshair.always Always Show
-settings.crosshair.color Color
-settings.crosshair.shadow.color Shadow Color
-settings.crosshair.shadow.thickness Shadow Thickness
-settings.crosshair.size Size
-settings.crosshair.thickness Thickness
-settings.crosshair.gap Gap
-settings.crosshair.dot Dot
-settings.crosshair.opacity.use Use Custom Opacity
-settings.crosshair.opacity.custom Custom Opacity
+settings.crosshair.style.0 ক্রস
+settings.crosshair.style.1 ফাঁপা বৃত্ত
+settings.crosshair.style.2 কঠিন বৃত্ত
+settings.crosshair.style.3 ফাঁপা স্কোয়ার
+settings.crosshair.style.4 সলিড স্কোয়ার
+settings.crosshair.image ছবি
+settings.crosshair.image.paste Crosshair ছবি
+settings.crosshair.image.width ছবির প্রস্থ
+settings.crosshair.image.height ছবির উচ্চতা
+settings.crosshair.always সবসময় প্রদর্শন
+settings.crosshair.color রঙ
+settings.crosshair.shadow.color রঙের ছায়া
+settings.crosshair.shadow.thickness ছায়ার পুরুত্ব
+settings.crosshair.size আকার
+settings.crosshair.thickness পুরুত্ব
+settings.crosshair.gap ফাঁক
+settings.crosshair.dot ডট
+settings.crosshair.opacity.use কাস্টম অপাসিটি ব্যবহার করুন
+settings.crosshair.opacity.custom কাস্টম অপাসিট
 settings.crosshairm.header Crosshair (Throwing)
 settings.crosshairm.type Type
-settings.crosshairm.type.1 Shapes
-settings.crosshairm.type.2 Image
-settings.crosshairm.type.3 Precision
+settings.crosshairm.type.1 আকার
+settings.crosshairm.type.2 ছবি
+settings.crosshairm.type.3 যথার্থতা
 settings.crosshairm.style Style
-settings.crosshairm.style.0 Cross
-settings.crosshairm.style.1 Hollow Circle
-settings.crosshairm.style.2 Solid Circle
-settings.crosshairm.style.3 Hollow Square
-settings.crosshairm.style.4 Solid Square
-settings.crosshairm.image Image
-settings.crosshairm.image.paste Crosshair Image
-settings.crosshairm.image.width Image Width
-settings.crosshairm.image.height Image Height
-settings.crosshairm.always Always Show
-settings.crosshairm.color Color
-settings.crosshairm.shadow.color Shadow Color
-settings.crosshairm.shadow.thickness Shadow Thickness
-settings.crosshairm.size Size
-settings.crosshairm.thickness Thickness
-settings.crosshairm.gap Gap
-settings.crosshairm.dot Dot
-settings.crosshairm.opacity.use Use Custom Opacity
-settings.crosshairm.opacity.custom Custom Opacity
+settings.crosshairm.style.0 ক্রস
+settings.crosshairm.style.1 ফাঁপা বৃত্ত
+settings.crosshairm.style.2 কঠিন বৃত্ত
+settings.crosshairm.style.3 ফাঁপা স্কোয়ার
+settings.crosshairm.style.4 সলিড স্কোয়ার
+settings.crosshairm.image ইমেজ
+settings.crosshairm.image.paste Crosshair ছবি
+settings.crosshairm.image.width ছবির প্রস্থ
+settings.crosshairm.image.height ছবির উচ্চতা
+settings.crosshairm.always সবসময় প্রদর্শন
+settings.crosshairm.color রঙ
+settings.crosshairm.shadow.color ছায়া রঙ
+settings.crosshairm.shadow.thickness ছায়ার পুরুত্ব
+settings.crosshairm.size আকার
+settings.crosshairm.thickness পুরুত্ব
+settings.crosshairm.gap ফাঁক
+settings.crosshairm.dot ডট
+settings.crosshairm.opacity.use কাস্টম অপাসিটি ব্যবহার করুন
+settings.crosshairm.opacity.custom কাস্টম অপাসিট
 settings.hitmarker.header Hitmarker
-settings.hitmarker.color Color
-settings.hitmarker.kcolor Kill Color
-settings.hitmarker.thickness Thickness
-settings.hitmarker.opacity Opacity
-settings.hitmarker.leng Length
-settings.hitmarker.spacing Spacing
+settings.hitmarker.color রঙ
+settings.hitmarker.kcolor কিল কালার
+settings.hitmarker.thickness পুরুত্ব
+settings.hitmarker.opacity স্বচ্ছতা
+settings.hitmarker.leng দৈর্ঘ্য
+settings.hitmarker.spacing ব্যবধান
 settings.hitmarker.animD Anim Size
 settings.hitmarker.animS Anim Speed
-settings.hitmarker.hitm Show
+settings.hitmarker.hitm দেখাব
 settings.hitmarker.hitmFad Fade Speed
-settings.hitmarker.custom Hitmarker Image
-settings.hitmarker.custom.paste Hitmarker Image URL
+settings.hitmarker.custom Hitmarker ছবি
+settings.hitmarker.custom.paste Hitmarker ছবির URL
 settings.onKillS.style.0 Default
-settings.onKillS.style.1 Reduce Resolution
-settings.onKillS.style.2 Reduce FOV
-settings.onKillS.style.3 Increase FOV
-settings.serverb.header Server Browser
-settings.serverb.oldBrowser Legacy Browser
-settings.serverb.defaultRegionOnly Default Region Only
-settings.gameprivacy.header Gameplay Privacy
-settings.gameprivacy.streamer Streamer Mode
-settings.gameprivacy.anon Anonymous Mode
-settings.gameprivacy.hideGameTitle Hide Game Title
-settings.gameprivacy.showRegion Show Region Info
-settings.gameprivacy.verified Show Verified Badge
-settings.gameprivacy.premium Show Premium Badge
-settings.gameprivacy.partner Show Partner Badge
-settings.gameprivacy.rank Show Ranked Badge
-settings.gameprivacy.custom Show Custom Badge
-settings.gameplay.header Gameplay
-settings.gameplay.gpSetts Gameplay Settings
+settings.onKillS.style.1 রেজোলিউশন হ্রাস করুন
+settings.onKillS.style.2 FOV হ্রাস করুন
+settings.onKillS.style.3 FOV বাড়ান
+settings.serverb.header সার্ভার ব্রাউজার
+settings.serverb.oldBrowser লিগ্যাসি ব্রাউজার
+settings.serverb.defaultRegionOnly শুধুমাত্র ডিফল্ট অঞ্চল
+settings.gameprivacy.header গেমপ্লে গোপনীয়তা
+settings.gameprivacy.streamer স্ট্রীমার মোড
+settings.gameprivacy.anon বেনামী মোড
+settings.gameprivacy.hideGameTitle গেমের শিরোনাম লুকান
+settings.gameprivacy.showRegion অঞ্চলের তথ্য দেখাব
+settings.gameprivacy.verified ভেরিফাইড ব্যাজ দেখাব
+settings.gameprivacy.premium প্রিমিয়াম ব্যাজ দেখাব
+settings.gameprivacy.partner পার্টনার ব্যাজ দেখাব
+settings.gameprivacy.rank র‍্যাঙ্কড ব্যাজ দেখাব
+settings.gameprivacy.custom কাস্টম ব্যাজ দেখাব
+settings.gameplay.header গেমপ্লে
+settings.gameplay.gpSetts গেমপ্লে সেটিংস
 settings.gameplay.sensitivityX X Sensitivity
 settings.gameplay.sensitivityY Y Sensitivity
 settings.gameplay.aimsensX Aim X Sensitivity
 settings.gameplay.aimsensY Aim Y Sensitivity
-settings.gameplay.challenge Challenge Mode
+settings.gameplay.challenge চ্যালেঞ্জ মোড
 settings.gameplay.invert Invert Y-Axis
-settings.gameplay.onkillS On Kill
-settings.gameplay.scrollDir Scroll Direction
-settings.controller.header Controller
+settings.gameplay.onkillS অন কিল
+settings.gameplay.scrollDir স্ক্রোল দিক
+settings.controller.header নিয়ন্ত্রক
 settings.controller.sensitivityX X Sensitivity
-settings.controller.disableCons Disable Controllers
+settings.controller.disableCons কন্ট্রোলার অক্ষম করুন
 settings.controller.sensitivityY Y Sensitivity
 settings.controller.aimsensX Aim X Sensitivity
 settings.controller.aimsensY Aim Y Sensitivity
 settings.controller.deadZoneL Dead Zone (Left)
 settings.controller.deadZoneR Dead Zone (Right)
-settings.controller.triggerThres Trigger Threshold
-settings.controller.vibration Vibration
-settings.controller.gradSpeed Gradual Speed
+settings.controller.triggerThres ট্রিগার থ্রেশহোল্ড
+settings.controller.vibration কম্পন
+settings.controller.gradSpeed ধীরে ধীরে গতি
 settings.controller.invert Invert Y-Axis
-settings.mobile.header Mobile
+settings.mobile.header মুঠোফোন
 settings.mobile.sensitivityX X Sensitivity
 settings.mobile.sensitivityY Y Sensitivity
 settings.mobile.aimsensX Aim X Sensitivity
 settings.mobile.aimsensY Aim Y Sensitivity
-settings.mobile.vibration Vibration
-settings.mobile.gradSpeed Gradual Speed
+settings.mobile.vibration কম্পন
+settings.mobile.gradSpeed ধীরে ধীরে গতি
 settings.mobile.invert Invert Y-Axis
-settings.audio.header Audio
-settings.audio.sound Master Volume
+settings.audio.header অডিও
+settings.audio.sound মাস্টার ভলিউম
 settings.audio.ambient Ambient Volume
-settings.audio.voice Voice Volume
-settings.audio.input Audio/Mic Input
-settings.audio.mic Mic Volume
-settings.audio.micquality Mic Quality
-settings.audio.weps Weapon Volume
-settings.audio.player Player Volume
-settings.audio.skin Cosmetics Volume
-settings.audio.ui UI Volume
+settings.audio.voice ভয়েস ভলিউম
+settings.audio.input অডিও/মাইক ইনপুট
+settings.audio.mic মাইকের ভলিউম
+settings.audio.micquality মাইকের গুণমান
+settings.audio.weps অস্ত্রের শব্দ
+settings.audio.player খেলওয়ার এর শব্দ
+settings.audio.skin কসমেটিক ভলিউম
+settings.audio.ui UI ভলিউম
 settings.audio.asset Asset Volume
-settings.audio.dialogue Action Volume
-settings.viewmodel.header View Model
-settings.viewmodel.vmSetts View Model Settings
+settings.audio.dialogue অ্যাকশন ভলিউম
+settings.viewmodel.header মডেল দেখুন
+settings.viewmodel.vmSetts মডেল সেটিংস দেখুন
 settings.viewmodel.fov Field of View (FOV)
 settings.viewmodel.fps Weapon FOV
 settings.viewmodel.bobbing Weapon Bobbing
 settings.viewmodel.leaning Weapon Leaning
-settings.viewmodel.show.primary Show Primary
-settings.viewmodel.show.secondary Show Secondary
+settings.viewmodel.show.primary প্রথম অস্ত্র দেখাব
+settings.viewmodel.show.secondary দ্বিতীয় অস্ত্র দেখাব
 settings.viewmodel.roundArms Rounded Arms
-settings.viewmodel.show.melee Show Melee
+settings.viewmodel.show.melee চাকু দেখাব
 settings.viewmodel.show.ads Hide Weapon on ADS
 settings.viewmodel.toggleAim Toggle Aim
-settings.viewmodel.show.hands Show Hands
-settings.viewmodel.leftHand Left Handed
+settings.viewmodel.show.hands হাত দেখাব
+settings.viewmodel.leftHand বাঁ হাতী
 settings.viewmodel.aimAnim Weapon Aim Animation
-settings.viewmodel.rot Weapon Rotation
+settings.viewmodel.rot অস্ত্রের ঘূর্ণন
 settings.viewmodel.xOff Weapon X Offset
 settings.viewmodel.yOff Weapon Y Offset
 settings.viewmodel.zOff Weapon Z Offset
@@ -520,7 +520,7 @@ windows.controls.equip Equipment
 windows.controls.chat Chat
 windows.controls.voice Voice
 windows.controls.list Player List
-windows.controls.board InGame Leaderboard
+windows.controls.board Leaderboard
 windows.controls.interact Interact
 windows.controls.interactSec Secondary Interact
 windows.controls.confirm Confirm Interact

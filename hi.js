@@ -61,7 +61,7 @@ generic.accuracy सटीकता
 player.waiting खिलाड़ियों का इंतजार कर रहे हैं ...
 player.died तुम मर गए
 player.killed द्वारा मारे गए
-player.killstreak {0} {1} Kill Streak पर हैं 
+player.killstreak {0} {1} Kill Streak पर हैं
 player.inactive इनैक्टिव
 player.disconnect डिस्कनेक्ट
 timer.end अगला दौर {0} में
@@ -73,7 +73,7 @@ app.play.mobile खेलने के लिए टैप करें
 app.spectate.mobile स्पैक्टेट करे
 app.play.controller START दबाएं
 app.spectate.controller स्पैक्टेट करे
-purchase.error ERROR
+purchase.error एरर
 purchase.error.click यहां क्लिक करें  </a> और फिर से प्रयास करें!
 purchase.error.limit आप अपनी दैनिक लेनदेन सीमा को पार कर चुकें हैं
 settings.reset रीसेट
@@ -84,6 +84,8 @@ settings.none कोई सेटिंग नहीं मिली
 settings.backup बैकअप सेटिंग्स
 settings.controls.change Keybinds
 settings.controls.press किसी भी Key को दबाएं
+settings.controls.leaderboard InGame Leaderboard Trigger Type
+settings.controls.voicechat Voicechat Trigger Type
 settings.local.header Localization <span id="requiresRestart"><span style="color: #eb5656">*</span> requires restart</span>
 settings.local.region डिफ़ॉल्ट क्षेत्र
 settings.local.lang भाषा
@@ -92,6 +94,7 @@ settings.network.netRerouting ऑटो राउटिंग (पिंग क�
 settings.network.netRate Network Rate (Hz)
 settings.network.lagComp लैग काम्पन्सेशन
 settings.network.optNet Optimized Networking
+settings.network.quickplay Force Quickplay
 settings.popup.header पॉपअप
 settings.experimental.header आजमाइशी
 settings.experimental.holiday Holiday Effects
@@ -240,7 +243,7 @@ settings.crosshair.style.4 ठोस चौकोर
 settings.crosshair.image छवि
 settings.crosshair.image.paste Crosshair चित्र
 settings.crosshair.image.width चित्र की चौड़ाई
-settings.crosshair.image.height चित्र की लंबाई 
+settings.crosshair.image.height चित्र की लंबाई
 settings.crosshair.always हमेशा दिखाओ
 settings.crosshair.color रंग
 settings.crosshair.shadow.color छाया का रंग
@@ -265,7 +268,7 @@ settings.crosshairm.style.4 ठोस चौकोर
 settings.crosshairm.image चित्र
 settings.crosshairm.image.paste Crosshair चित्र
 settings.crosshairm.image.width चित्र की चौड़ाई
-settings.crosshairm.image.height चित्र की लंबाई 
+settings.crosshairm.image.height चित्र की लंबाई
 settings.crosshairm.always हमेशा दिखाओ
 settings.crosshairm.color रंग
 settings.crosshairm.shadow.color छाया का रंग
@@ -301,11 +304,11 @@ settings.gameprivacy.streamer स्ट्रीमर मोड
 settings.gameprivacy.anon गुमनाम मोड
 settings.gameprivacy.hideGameTitle खेल शीर्षक छिपाएं
 settings.gameprivacy.showRegion क्षेत्र की जानकारी दिखाएं
-settings.gameprivacy.verified Verified Badge दिखाएं
-settings.gameprivacy.premium Premium Badge दिखाएं
-settings.gameprivacy.partner Partner Badge दिखाएं
-settings.gameprivacy.rank Ranked Badge दिखाएं
-settings.gameprivacy.custom Custom Badge दिखाएं
+settings.gameprivacy.verified Verified बैज दिखाएं
+settings.gameprivacy.premium Premium बैज दिखाएं
+settings.gameprivacy.partner Partner बैज दिखाएं
+settings.gameprivacy.rank Ranked बैज दिखाएं
+settings.gameprivacy.custom Custom बैज दिखाएं
 settings.gameplay.header गेमप्लेर
 settings.gameplay.gpSetts गेमप्ले सेटिंग्स
 settings.gameplay.sensitivityX X-संवेदनशीलता
@@ -448,8 +451,8 @@ settings.mods.damage.paste डैमेज ओवरलेस इमेज URL
 settings.mods.overlay खेल ओवरले इमेज
 settings.mods.overlay.paste खेल ओवरले इमेज URL
 settings.social.region रीजन स्टैट्स
-settings.social.bg Background Image
-settings.social.bg.paste Background Image URL
+settings.social.bg बैकग्राउंड चित्र
+settings.social.bg.paste बैकग्राउंड चित्र URL
 windows.settings.header खेल समायोजन
 windows.mail.header क्रंकर मेल
 windows.servers.header सर्वर
@@ -483,7 +486,7 @@ windows.loadout.pet पेट
 windows.loadout.wrist हाँथ
 windows.loadout.stat किलकार्ड स्टैटक
 windows.loadout.flag देश का झंडा
-windows.loadout.badge Custom Badge
+windows.loadout.badge Custom बैज
 windows.mods.drop यहाँ मॉड फ़ाइल ड्रॉप या क्लिक करें
 windows.mods.paste पेस्ट मॉड URL
 windows.mods.load मॉड लोड करें
@@ -646,6 +649,12 @@ windows.secondary.unlocked उनलॉक्ड
 windows.secondary.customOnly सिर्फ कस्टम्स
 windows.secondary.premiumOnly सिर्फ प्रीमियम
 windows.secondary.req {0} पर अनलॉक हो जाता है
+windows.skins.unlocked अनलॉक्ड
+windows.skins.customOnly सिर्फ कस्टम्स
+windows.skins.premiumOnly सिर्फ प्रीमियम
+windows.skins.classOnly {0} ज़रूरी है
+windows.skins.req {0} लेवेल ज़रूरी है
+windows.skins.default डिफ़ॉल्ट स्किन
 windows.advertise.header विज्ञापित
 windows.support.header सपोर्ट
 windows.players.header प्लेयर लिस्ट
@@ -785,11 +794,11 @@ social.market.waist कमर की आइटम
 social.market.face चेहरे की आइटम
 social.market.shoe जूते
 social.market.pet पेट
-social.market.wrist हाँथ की वस्तु 
+social.market.wrist हाँथ की वस्तु
 social.market.melee चाकू
 social.market.spray स्प्रे
 social.market.dye डाई
-social.market.collectible Collectible Item
+social.market.collectible Collectible चीज
 social.market.none कोई आइटम नहीं खोजी गयी
 social.market.login लॉग इन होना आवश्यक है.
 social.market.grace {0} में तैयार
@@ -904,11 +913,70 @@ chall.name.lns Get {0} longshots {1}
 chall.name.tk Get {0} turbo kills {1}
 chall.name.drk Get {0} drift kills {1}
 chall.name.kstk Get a {0} killstreak {1}
-chall.name.w Win {0} मैचेस 
+chall.name.w Win {0} मैचेस
 chall.name.d Die {0} समय
 chall.name.score Get {0} अंक
 chall.name.dmg Deal {0} डैमेज {1}
 chall.name.bzk Get {0} बज़ किलज़ {1}
 chall.name.cc Get {0} close-calls {1}
 chall.name.rk Deal {0} revenge kills {1}
+event.doubleXP 2x Class XP enabled for this match
+ranked.join Joined Ranked Match. Abandoning a match will result in a temporary ban
+ranked.progress खेल चल रहा है
+ranked.team कृपया एक टीम जॉइन करें
+ranked.switch खेल के बीच मे नहीं बदल सकते
+ranked.spectate Spectating Disabled in Ranked
+ranked.login स्पॉन करने के लिए लॉगिन करें
+ranked.sync Missing Sync Data
+ranked.team.spawn कृपया स्पॉन करने के लिए एक टीम जॉइन करें
+ranked.class.spawn कृपया स्पॉन करने के लिए एक क्लास सेलेक्ट करें
+modes.round.win आपकी टीम ने यह राउंड जीत लिया है
+modes.round.loss यह राउंड अब जीता नहीं जा सकता
+modes.round.switch Switching Sides. Prepare for the next Round
+modes.trade.success ट्रेड सफल रहा
+modes.prophunt.limit [Prop Hunt] You are out of prop switches
+modes.prophunt.left [Prop Hunt] You have {0} switches remaining
+modes.prophunt.rotation.on [Prop Hunt] Rotation Enabled
+modes.prophunt.rotation.off [Prop Hunt] Rotation Disabled
+modes.prophunt.rotation.reset [Prop Hunt] Rotation reset.
+commands.login इस कमांड को इस्तिमल करने के लिए लॉगिन करें
+commands.connected {0} connected, {1} in menu
+commands.host {0} मौजूदा होस्ट हैं.
+commands.noclip.on Noclip - इनेबल्ड
+commands.noclip.off Noclip - डिसेबल्ड
+commands.god.on गॉड मोड - इनेबल्ड
+commands.god.off गॉड मोड - डिसेबल्ड
+commands.god.on.other गॉड मोड - {0} के लिए इनेबल्ड
+commands.god.off.other गॉड मोड - {0} के लिए डिसेबल्ड
+commands.smite.on Smite - इनेबल्ड
+commands.smite.off Smite - डिसेबल्ड
+commands.smite.on.other Smite - {0} के लिए इनेबल्ड
+commands.smite.off.other Smite - {0} के लिए डिसेबल्ड
+commands.perk {1} को {0} दिया
+commands.maxperk Gave {0} MAX {1}
+commands.unlimited.on अनलिमिटेड Ammo - इनेबल्ड
+commands.unlimited.off अनलिमिटेड Ammo - डिसेबल्ड
+commands.unlimited.on.other अनलिमिटेड Ammo - {0} के लिए इनेबल्ड
+commands.unlimited.off.other अनलिमिटेड Ammo - {0} के लिए डिसेबल्ड
+commands.spraybypass.on अनलिमिटेड Ammo - इनेबल्ड
+commands.spraybypass.off अनलिमिटेड Ammo - डिसेबल्ड
+commands.spraybypass.on.other अनलिमिटेड Ammo - {0} के लिए इनेबल्ड
+commands.spraybypass.off.other अनलिमिटेड Ammo - {0} के लिए डिसेबल्ड
+commands.suspect.invalid Invalid suspect info
+commands.suspect.menu ससपेक्ट मेन्यू में है
+commands.suspect.left ससपेक्ट ने मैच छोड़ दिया
+commands.suspect.found Suspect Found. Spectating: {0}, Spawned: {1}, Name: {2}
+commands.forfeit.next 1 राउंड खेलना ज़रूरी है
+commands.forfeit.wait forfeit करने के लिए मैच शुरू होने दें
+commands.forfeit.later कृपया कुछ देर बाद कोशिश करें
+commands.forfeit.voted आप पहले वोट कर चुके हैं
+commands.forfeit.limit आप एक गेम मे एक ही बार वोट शुरू कर सकते हैं
+commands.forfeit.ended Forfeiting गेम
+commands.forfeit.ended.other Other Team Forfeited
+server.message.join {0} ने गेम जॉइन किया
+server.message.left {0} ने गेम छोड़ दिया
+server.message.kicked {0} को किक किया गया
+server.message.banned {0} को बैन किया गया
+server.message.votekicked {0} was vote kicked
+server.message.arrested {0} को K.P.D ने गिरफ्तार कर लिया
 `;

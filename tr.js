@@ -61,12 +61,12 @@ generic.accuracy Doğruluk Oranı
 player.waiting oyuncu bekleniyor
 player.died Öldün
 player.killed Tarafından öldürüldün
-player.killstreak {0} on a {1} Kill Streak
+player.killstreak {0} {1} kişilik bir öldürme serisinde
 player.inactive İnaktiflikten dolayı atıldınız
 player.disconnect BAĞLANTI KESİLDİ
 timer.end Sonraki maç için {0} kaldı
 leaderboard.empty Boş Lobi
-popup.checkpoint Checkpoint!
+popup.checkpoint Kontrol Noktası!
 app.play OYNAMAK İÇİN TIKLAYIN
 app.spectate İZLEMEK İÇİN TIKLAYIN
 app.play.mobile OYNAMAK İÇİN DOKUNUN
@@ -84,6 +84,8 @@ settings.none Ayarlar bulunamadı
 settings.backup Yedek Ayarlar
 settings.controls.change Tuş Ayarları
 settings.controls.press Herhangi bir tuşa basın
+settings.controls.leaderboard InGame Leaderboard Trigger Type
+settings.controls.voicechat Voicechat Trigger Type
 settings.local.header Localization <span id="requiresRestart"><span style="color: #eb5656">*</span> yeniden başlatma gerektirir</span>
 settings.local.region Varsayılan Bölge
 settings.local.lang Dil
@@ -91,15 +93,16 @@ settings.network.header Ağ bağlantısı
 settings.network.netRerouting Otomatik Yönlendirme (Ping'i Etkiler)
 settings.network.netRate Ağ Oranı (Hz)
 settings.network.lagComp Lag Gecikmesi
-settings.network.optNet Optimized Networking
+settings.network.optNet Optimize Edilmiş Ağ
+settings.network.quickplay Force Quickplay
 settings.popup.header Popuplar
 settings.experimental.header Deneysel
-settings.experimental.holiday Holiday Effects
+settings.experimental.holiday Noel Efektleri
 settings.experimental.aimFreezeFix Nişan Donmasını Düzelt
 settings.experimental.mouseFlickFix Fare Hareketini Düzelt
 settings.experimental.shaderRendering Örnek İşleme
-settings.experimental.mouseAccel Mouse Acceleration
-settings.experimental.tbInterp TB Interpolation
+settings.experimental.mouseAccel Fare İvmesi
+settings.experimental.tbInterp TB Eklentisi
 settings.client.header Uygulama
 settings.client.unlimitedFrames Limitsiz FPS
 settings.client.gameCap Oyun Yakalama
@@ -111,7 +114,7 @@ settings.client.resetSettings Uygulama Ayarlarını Sıfırla
 settings.client.acceleratedCanvas Hızlandırılmış Tuval
 settings.client.angleBackend Açı Grafik Arka Ucu
 settings.client.colorProfile Profil Rengi
-settings.client.resourcePacks Resource Packs
+settings.client.resourcePacks Kaynak Paketleri
 settings.dev.header Geliştirici
 settings.dev.forceUpdate Skin Güncellemelerini Zorla
 settings.dev.forceRegen Oyuncuyu Her Zaman Yenile
@@ -173,7 +176,7 @@ settings.interface.dmgCol Hasar Rengi
 settings.interface.critCol Krit Rengi
 settings.interface.header Arayüz
 settings.interface.scale UI Ölçeği
-settings.interface.theme Game Theme
+settings.interface.theme Oyun Teması
 settings.interface.ui UI'yi Göster
 settings.interface.scoreboard Eski Skor Tablosunu Kullan
 settings.interface.oldBrowser Eski Tarayıcıyı Kullan
@@ -206,7 +209,7 @@ settings.interface.hideNames.enemy Sadece Rakip
 settings.interface.hideNames.all Herkes
 settings.interface.nametagStyle İsim Kartı Stili
 settings.interface.nametagOpac İsim Kartı Opaklığı
-settings.interface.nametagScale Nametag Scale
+settings.interface.nametagScale İsim Kartı Boyu
 settings.interface.nametagStyle.health Sadece Can
 settings.interface.nametagStyle.name Sadece İsim
 settings.interface.nametagStyle.nameLvl İsim ve Level
@@ -217,13 +220,13 @@ settings.interface.healthColE Düşman İsim Kartı Sağlık Rengi
 settings.interface.xpBarCol XP Barı Rengi
 settings.interface.xpBarCol2 XP Bar Color 2
 settings.interface.xpBarOpac XP Barı Opaklığı
-settings.medals.header Medals
-settings.medals.show Show Medals
-settings.medals.classic Classic Medals
-settings.medals.sound Play Medal Sounds
-settings.medals.scale Medal Scale
-settings.medals.xOff Medal X Offset
-settings.medals.yOff Medal Y Offset
+settings.medals.header Madalyalar
+settings.medals.show Madalyaları Göster
+settings.medals.classic Klasik Madalyalar
+settings.medals.sound Madalya Seslerini Oynat
+settings.medals.scale Madalya Boyu
+settings.medals.xOff Madalya X Konumu
+settings.medals.yOff Madalya Y Konumu
 settings.crosshair.header Nişangah
 settings.crosshair.type Şekil
 settings.crosshair.type.1 Dinamik
@@ -305,7 +308,7 @@ settings.gameprivacy.verified Doğrulama Rozetini Göster
 settings.gameprivacy.premium Premium Rozetini Göster
 settings.gameprivacy.partner Ortaklık Rozetini Göster
 settings.gameprivacy.rank Dereceli Rozetini Göster
-settings.gameprivacy.custom Show Custom Badge
+settings.gameprivacy.custom Özel Rozetini Göster
 settings.gameplay.header Oynanış
 settings.gameplay.gpSetts Oynanış Ayarları
 settings.gameplay.sensitivityX X Duyarlılığı
@@ -483,7 +486,7 @@ windows.loadout.pet Pet
 windows.loadout.wrist Wrist
 windows.loadout.stat Ölüm Kartı İstatistikleri
 windows.loadout.flag Ülke Bayrağı
-windows.loadout.badge Custom Badge
+windows.loadout.badge Özel Rozet
 windows.mods.drop mod dosyasını buraya bırakın veya tıklayın
 windows.mods.paste Mod URL'sini Yapıştır
 windows.mods.load Mod İndir
@@ -507,7 +510,7 @@ windows.controls.aim1 Nişan
 windows.controls.shoot1 Vur
 windows.controls.inspect İncele
 windows.controls.spray Sprey
-windows.controls.sprayWheel Spray Wheel (Hold)
+windows.controls.sprayWheel Fare Tekerleği (Basılı Tut)
 windows.controls.jump Zıpla
 windows.controls.crouch Eğil
 windows.controls.prim Birincil Silah
@@ -521,12 +524,12 @@ windows.controls.board Liderlik Tablosu
 windows.controls.interact Etkileşim
 windows.controls.interactSec İkincil Etkileşim
 windows.controls.confirm Etkileşimi Onayla
-windows.controls.drop Drop
+windows.controls.drop Bırak
 windows.controls.wepVis Silah Görünürlüğünü Değiştir
-windows.controls.kickVoteY Atma Oyu [yes]
-windows.controls.kickVoteN Atma Oyu [no]
-windows.controls.kpdVoteY KPD Oyu [yes]
-windows.controls.kpdVoteN KPD Oyu [no]
+windows.controls.kickVoteY Atma Oyu [evet]
+windows.controls.kickVoteN Atma Oyu [hayır]
+windows.controls.kpdVoteY KPD Oyu [evet]
+windows.controls.kpdVoteN KPD Oyu [hayır]
 windows.controls.specFree Serbest Kamerayı Aç/Kapat
 windows.controls.specObj Objektif Kamerayı Aç/Kapa
 windows.controls.specFirst Birincil Kişiyi Aç/Kapa
@@ -538,20 +541,20 @@ windows.controls.streak1 Seri 2
 windows.controls.streak2 Seri 3
 windows.controls.streak3 Seri 4
 windows.controls.streak4 Seri 5
-windows.controls.taunt0 Taunt (Psst)
-windows.controls.taunt1 Taunt (Whistle)
-windows.controls.taunt2 Taunt (Fart)
-windows.controls.taunt3 Taunt (Meme)
-windows.controls.taunt4 Taunt (WTF is This?)
-windows.controls.taunt5 Taunt (Right Now!)
+windows.controls.taunt0 Alay (Psst)
+windows.controls.taunt1 Alay (Islık)
+windows.controls.taunt2 Alay (Osuruk)
+windows.controls.taunt3 Alay (Şaka)
+windows.controls.taunt4 Alay (Bu ne böyle?)
+windows.controls.taunt5 Alay (Tam Şimdi!)
 windows.controls.prop Nesne Seç (Tut)
-windows.controls.propRand Select Random Prop
-windows.controls.propRot Toggle Rotation
-windows.controls.propRotR Reset Rotation
-windows.controls.premium0 Noclip
-windows.controls.premium1 Tanrı modu
+windows.controls.propRand Rastgele Nesne Seç
+windows.controls.propRot Rotasyon Aç/Kapa
+windows.controls.propRotR Rotasyonu Sıfırla
+windows.controls.premium0 Klipsiz
+windows.controls.premium1 Tanrı Modu
 windows.controls.premium2 Öldür
-windows.controls.premium3 Smite
+windows.controls.premium3 Anında Öldürme
 windows.controls.reset Pozisyonunu Sıfırla (Yarış & Parkur)
 windows.controls.pretend Oyunu Sakla
 windows.host.header Özel Oyun Kur
@@ -611,7 +614,7 @@ windows.store.amount Hesapta {0} KR var
 windows.store.login Mağazadan eşya satın almak veya açmak için!
 windows.store.purchasing Satın alınıyor...
 windows.store.unboxed {0}{1} eşyasını açtı
-windows.store.found {0}{1} found
+windows.store.found {0}{1} buldu
 windows.trade.header Takaslama
 windows.scope.header Dürbün Seçin
 windows.premium.header Premium
@@ -646,6 +649,12 @@ windows.secondary.unlocked Açıldı
 windows.secondary.customOnly Sadece Özel
 windows.secondary.premiumOnly Sadece Premium
 windows.secondary.req lvl {0} gerektirir
+windows.skins.unlocked Unlocked
+windows.skins.customOnly Customs Only
+windows.skins.premiumOnly Premium Only
+windows.skins.classOnly Req {0}
+windows.skins.req Req lvl {0}
+windows.skins.default Default Skin
 windows.advertise.header Reklam yap
 windows.support.header Destek
 windows.players.header Oyuncu Listesi
@@ -670,11 +679,11 @@ mod.error mod hatası!
 mod.loading mod yükleniyor...
 mod.invalid geçersiz mod dosyası!
 matchmaker.full FULL
-matchmaker.GameFull Game is full.
-matchmaker.NoServersMatchQuery GAME UPDATING
-matchmaker.InvalidGameId Game not found.
-matchmaker.NoAvailableServers Servers are at Max Capacity
-matchmaker.GameIssue Unknown Join Issue
+matchmaker.GameFull Oyun Dolu.
+matchmaker.NoServersMatchQuery Oyun Güncelleniyor.
+matchmaker.InvalidGameId Oyun Bulunamadı.
+matchmaker.NoAvailableServers Sunucular Maksimum Kapasitede.
+matchmaker.GameIssue Bilinmeyen Katılım Sorunu
 adblocker Bedava Krunkies alabilmek için reklam engelleyiciyi devre dışı bırakın.
 ad-failed Reklam yüklenemedi. Lütfen tekrar deneyin
 streamers.views {0} izleyici
@@ -728,7 +737,7 @@ server.config.thirdPerson 3. Kişi
 server.config.requireCaptcha Captcha Gerektir
 server.config.nameTags İsim Kutularını Sakla
 server.config.kCams Öldürülme Kamerası
-server.config.aAnon Allow Anonymous
+server.config.aAnon Anonime İzin Ver
 server.config.noReload Mermi Yenileme Yok
 server.config.private Özel
 server.config.krRewards KR Ödülleri
@@ -754,7 +763,7 @@ server.config.fallDmg Düşüş Hasarı
 server.config.fallDmgThr Düşüş Hasarı Harmanı
 server.config.noDraws Beraberlik Yok
 server.config.bstOfR En iyiler
-server.config.chrgWeps Chargable Weapons
+server.config.chrgWeps Şarj Edilebilir Silahlar
 social.login Giriş yap/Kayıt ol
 social.login.failed Giriş başarısız oldu
 social.login.buy Satın almak için giriş yap
@@ -784,12 +793,12 @@ social.market.back Vücut
 social.market.waist Bel
 social.market.face Yüz
 social.market.shoe Ayakkabı
-social.market.pet Pet
-social.market.wrist Wrist Item
+social.market.pet Evcil Hayvan
+social.market.wrist Bilek Eşyası
 social.market.melee Bıçak
 social.market.spray Sprey
 social.market.dye Kıyafet
-social.market.collectible Collectible Item
+social.market.collectible Koleksiyonluk Eşya
 social.market.none Eşya bulunamadı
 social.market.login Giriş yapmalısınız.
 social.market.grace {0} içinde hazır
@@ -828,17 +837,17 @@ mod.reset.0 Etkiyi spawnlandıktan sonra alacak.
 mod.reset.1 Map Objeleri sıfırlanmaz.
 windows.profile.picture Resim Değiştir
 stats.assists Asistler
-stats.nukes Nukeler
+stats.nukes Nükleer Bombalar
 stats.melee Bıçaklanan
 stats.fistkills Yumruklanan
 stats.thrownkills Bıçak Fırlatılan
 stats.headshots Kafadan Vurulan
 stats.wallbangs Wallbangler
-stats.crouches Crouches
+stats.crouches Çömelmeler
 stats.sprays Sıkılan Spreyler
-stats.kpd Helpful Reports
+stats.kpd Yardımcı Raporlar
 windows.host.default.settings Varsayılan ayarları açmak oyuncu ilerlemesini ve yüksek skorlarını depolar
-windows.host.default.commands *Kurucu ayarları şu modlarda kapalıdır: /noclip /god /smite vb.
+windows.host.default.commands *Kurucu ayarları şu modlarda kapalıdır: /noclip /god /smite öldürme vb.
 windows.host.rewards KR ödüllerini açmak sunucuyu varsayılan ayarlarda oynamaya zorlar & oyuncuların map para kaynağından para kazanmasını sağlar:
 windows.store.wheels.sub Şansını dene ve eşya kazanmak için çarkı çevir!
 windows.store.currency * Fiyatlar ABD dolarıdır, ödeme sağlayıcısı veya banka tarafindan tanımlanan bir döviz kuru üzerinden yerel para biriminize dönüştürülebilir
@@ -858,9 +867,9 @@ windows.playerlist.punish {0} kullanıcısının üzerinde işlem uygulamak iste
 item.view.open Model Görüntüleyiciyi Aç
 item.view.more Daha Çok Bilgi
 item.sell.cant Eşya satılamaz.
-item.sell.cant.krunker Item cant be sold on krunker.
+item.sell.cant.krunker Eşya Krunker'da Satılamaz.
 item.sell.quick {0} eşyasını hızlı satışa çıkarmak istediğinizden emin misiniz?
-item.sell.destroy Are you sure you want to Destroy {0}?
+item.sell.destroy {0}'ı yok etmek istediğinden emin misin?
 social.profile.stats Genel İstatistikler
 social.profile.class Silah İstatistikleri
 social.profile.sales Satışlar
@@ -888,7 +897,7 @@ social.trades.message AYARLARDAN TAKAS MESAJLARINI ETKİNLEŞTİR.
 social.trades.warning Bu takastan eşya almıyorsun!
 social.trades.accept Bu teklifi kabul etmek istediğinden emin misin?
 stats.airdrops KR-Paketleri
-stats.airdrops.stolen Airdrops Stolen
+stats.airdrops.stolen Çalınan KR-Paketleri
 settings.quality.flapAnim Sniper Dürbün Kapağı Animasyonu
 chall.name.hs {1}'da {0} tane kafadan vuruş al 
 chall.name.ns {1}'da {0} tane noskop al 
@@ -911,4 +920,63 @@ chall.name.dmg {1}'da {0} hasar ver
 chall.name.bzk {1}'da {0} tane hızlı öldürme al 
 chall.name.cc {1}'da {0} tane dar kurtulma al 
 chall.name.rk {1}'da {0} tane intikam öldürmesi al
+event.doubleXP 2x Klas Tecrübesi bu maç için etkinleştirildi
+ranked.join Dereceli Maça Katıldı. Maç bitmeden çıkmak geçici cezaya sebep olacaktır
+ranked.progress Maç devam etmekte
+ranked.team Lütfen bir takıma katılın
+ranked.switch Maç Sırasında Klas Değiştirilemez
+ranked.spectate İzleme Dereceli Oyunlarda Kullanılamaz
+ranked.login Doğmak İçin Giriş Yapın
+ranked.sync Eksik Senkronizasyon Verileri
+ranked.team.spawn Doğmak İçin Lütfen Bir Takıma Katılın
+ranked.class.spawn Doğmak İçin Lütfen Bir Klas Seçin
+modes.round.win Takımın bu turu güvence altına aldı
+modes.round.loss Bu tur artık kazanılamaz
+modes.round.switch Taraflar değişiyor. Bir sonraki tura hazırlanın
+modes.trade.success Takas başarılı
+modes.prophunt.limit [Eşya Avı] Eşya değismen kalmadı
+modes.prophunt.left [Eşya Avı] Şu anda {0} eşya değismen var
+modes.prophunt.rotation.on [Eşya Avı] Rotasyon Açık
+modes.prophunt.rotation.off [Eşya Avı] Rotasyon Kapalı
+modes.prophunt.rotation.reset [Eşya Avı] Rotasyon Sıfırlandı.
+commands.login Bu komutu kullanmak için hesap açın
+commands.connected {0} bağlı, {1} menüde
+commands.host {0} şu anki sunucu.
+commands.noclip.on Klipsiz - Açıldı
+commands.noclip.off Klipsiz - Kapandı
+commands.god.on Tanrı modu - Açıldı
+commands.god.off Tanrı modu - Kapandı
+commands.god.on.other Tanrı modu - {0} için açıldı
+commands.god.off.other Tanrı Modu - {0} için kapandı
+commands.smite.on Anında Öldürme - Açıldı
+commands.smite.off Anında Öldürme - Kapandı
+commands.smite.on.other Anında Öldürme - {0} için açıldı
+commands.smite.off.other Anında Öldürme - {0} için kapandı
+commands.perk {0}'a {1} verildi
+commands.maxperk {0}'a MAKSİMUM {1} verildi
+commands.unlimited.on Sonsuz Mermi - Açıldı
+commands.unlimited.off Sonsuz Mermi - Kapandı
+commands.unlimited.on.other Sonsuz Mermi - {0} için açıldı
+commands.unlimited.off.other Sonsuz Mermi - {0} için kapandı
+commands.spraybypass.on Sonsuz Spreyler - Açıldı
+commands.spraybypass.off Sonsuz Spreyler - Kapandı
+commands.spraybypass.on.other Sonsuz Spreyler - {0} için açıldı.
+commands.spraybypass.off.other Sonsuz Spreyler - {0} için açıldı.
+commands.suspect.invalid Hatalı Şüpheli Bilgisi
+commands.suspect.menu Şüpheli Menüde
+commands.suspect.left şüpheli Oyundan Ayrıldı
+commands.suspect.found Şüpheli Bulundu. İzliyor: {0}, Oynuyor: {1}, İsim: {2}
+commands.forfeit.next En az 1 tur oynanmalı
+commands.forfeit.wait Pes etmek için maçın başlamasını bekle
+commands.forfeit.later Lütfen birkaç saniye içinde yine deneyin
+commands.forfeit.voted Çoktan oy verdin.
+commands.forfeit.limit Oyun başına sadece 1 oy başlatabilirsin
+commands.forfeit.ended Pes ediliyor
+commands.forfeit.ended.other Diğer Takım Pes Etti
+server.message.join {0} oyuna katıldı
+server.message.left {0} oyundan ayrıldı
+server.message.kicked {0} oyundan kovuldu
+server.message.banned {0} oyundan banlandı
+server.message.votekicked {0} oy birliğiyle kovuldu
+server.message.arrested {0} K.P.D tarafından gözaltına alındı
 `;

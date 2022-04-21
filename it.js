@@ -13,7 +13,7 @@ menu.btn.host Crea Partita
 menu.btn.browser Server
 generic.wait Per favore aspetta...
 generic.loading CARICAMENTO...
-generic.none Nessuna
+generic.none Niente
 generic.connecting CONNESSIONE...
 generic.select Seleziona
 generic.delete Elimina
@@ -37,8 +37,8 @@ generic.matchover PARTITA FINITA
 generic.matchaband PARTITA ABBANDONATA
 generic.follow Segui
 generic.unfollow Smetti di seguire
-generic.followers Followes
-generic.following Following
+generic.followers Followers
+generic.following Seguiti
 generic.games Partite
 generic.wins Vittorie
 generic.lose Sconfitte
@@ -46,7 +46,7 @@ generic.clan Clan
 generic.games.played Partite Giocate
 generic.games.won Partite Vinte
 generic.games.lost Partite Perse
-generic.timep Tempo Giocato
+generic.timep Tempo di Gioco
 generic.kills Uccisioni
 generic.deaths Morti
 generic.kdr KDR
@@ -84,6 +84,8 @@ settings.none Nessuna impostazione trovata
 settings.backup Backup Impostazioni
 settings.controls.change Associazione tasti
 settings.controls.press Premi un tasto qualsiasi
+settings.controls.leaderboard InGame Leaderboard Trigger Type
+settings.controls.voicechat Voicechat Trigger Type
 settings.local.header Localizzazione <span id="requiresRestart"><span style="color: #eb5656">*</span> necessita un riavvio</span>
 settings.local.region Regione predefinita
 settings.local.lang Lingua
@@ -91,15 +93,16 @@ settings.network.header Rete
 settings.network.netRerouting Instradamento automatico (Influisce sul Ping)
 settings.network.netRate Network Rate (Hz)
 settings.network.lagComp Compensazione Lag
-settings.network.optNet Optimized Networking
+settings.network.optNet Networking Ottimizzato
+settings.network.quickplay Force Quickplay
 settings.popup.header Popups
 settings.experimental.header Sperimentali
-settings.experimental.holiday Holiday Effects
+settings.experimental.holiday Effetti Festività
 settings.experimental.aimFreezeFix Risolvi mirino bloccato
 settings.experimental.mouseFlickFix Risolvi Flick del mouse
 settings.experimental.shaderRendering Rendering a istanze
-settings.experimental.mouseAccel Mouse Acceleration
-settings.experimental.tbInterp TB Interpolation
+settings.experimental.mouseAccel Accelerazione Mouse
+settings.experimental.tbInterp Interpolazione TB
 settings.client.header Client
 settings.client.unlimitedFrames FPS illimitati
 settings.client.gameCap Cattura di gioco
@@ -111,7 +114,7 @@ settings.client.resetSettings Resetta impostazioni client
 settings.client.acceleratedCanvas Canvas accellerate
 settings.client.angleBackend Backend ANGLE Graphics
 settings.client.colorProfile Colore profilo
-settings.client.resourcePacks Resource Packs
+settings.client.resourcePacks Pacchetti Risorse
 settings.dev.header Sviluppatore
 settings.dev.forceUpdate Forza aggiornamento Skin
 settings.dev.forceRegen Rigenera sempre il giocatore
@@ -173,7 +176,7 @@ settings.interface.dmgCol Colore danni
 settings.interface.critCol Colore danno critico
 settings.interface.header Interfaccia
 settings.interface.scale Scala UI
-settings.interface.theme Game Theme
+settings.interface.theme Tema di gioco
 settings.interface.ui Mostra UI
 settings.interface.scoreboard Usa il vecchio tabellone
 settings.interface.oldBrowser Usa il vecchio browser
@@ -206,7 +209,7 @@ settings.interface.hideNames.enemy Solo nemico
 settings.interface.hideNames.all Tutti
 settings.interface.nametagStyle Stile Nametag
 settings.interface.nametagOpac Opacità Nametag
-settings.interface.nametagScale Nametag Scale
+settings.interface.nametagScale Dimensione Nametag
 settings.interface.nametagStyle.health Solo punti vita
 settings.interface.nametagStyle.name Solo nome
 settings.interface.nametagStyle.nameLvl Solo nome e livello
@@ -217,13 +220,13 @@ settings.interface.healthColE Colore barra PV del nemico
 settings.interface.xpBarCol Colore barra ESP.
 settings.interface.xpBarCol2 Colore barra ESP 2
 settings.interface.xpBarOpac Opacità barra ESP.
-settings.medals.header Medals
-settings.medals.show Show Medals
-settings.medals.classic Classic Medals
-settings.medals.sound Play Medal Sounds
-settings.medals.scale Medal Scale
-settings.medals.xOff Medal X Offset
-settings.medals.yOff Medal Y Offset
+settings.medals.header Medaglie
+settings.medals.show Mostra Medaglie
+settings.medals.classic Medaglie Classice
+settings.medals.sound Riproduci suono delle medaglie
+settings.medals.scale Dimensione della medeglia
+settings.medals.xOff Posizione X Medaglia
+settings.medals.yOff Posizione Y Medaglia
 settings.crosshair.header Mirino
 settings.crosshair.type Tipo
 settings.crosshair.type.1 Dinamico
@@ -300,12 +303,12 @@ settings.gameprivacy.header Privacy gameplay
 settings.gameprivacy.streamer Modalità streamer
 settings.gameprivacy.anon Modalità anonima
 settings.gameprivacy.hideGameTitle Nascondi titolo gioco
-settings.gameprivacy.showRegion Show Region Info
+settings.gameprivacy.showRegion Mostra info regione
 settings.gameprivacy.verified Mostra badge verificato
 settings.gameprivacy.premium Mostra badge premium
 settings.gameprivacy.partner Mostra badge partner 
-settings.gameprivacy.rank Mostra badge rango
-settings.gameprivacy.custom Show Custom Badge
+settings.gameprivacy.rank Mostra badge rango classificato
+settings.gameprivacy.custom Mostra badge personalizzati
 settings.gameplay.header Gameplay
 settings.gameplay.gpSetts Impostazioni Gameplay
 settings.gameplay.sensitivityX Sensibilità X
@@ -342,7 +345,7 @@ settings.audio.ambient Volume ambiente
 settings.audio.voice Volume voce
 settings.audio.input Input Audio/Microfono
 settings.audio.mic Volume Microfono
-settings.audio.micquality Mic Quality
+settings.audio.micquality Qualità Microfono
 settings.audio.weps Volume arma
 settings.audio.player Volume giocatori
 settings.audio.skin Volume cosmetici
@@ -459,7 +462,7 @@ windows.servers.hide Nascondi parite piene
 windows.servers.priority Priorità regione
 windows.servers.online {0} In Gioco
 windows.servers.social {0} nei Social
-windows.servers.editor {0} in Editor
+windows.servers.editor {0} nell'Editor
 windows.loadout.header Cambia equipaggiamento
 windows.loadout.class Classi
 windows.loadout.primary Primaria
@@ -479,11 +482,11 @@ windows.loadout.color.skin Colore pelle
 windows.loadout.color.chat Colore del nome in chat
 windows.loadout.color.hair Colore capelli
 windows.loadout.dye Tinta
-windows.loadout.pet Animale
-windows.loadout.wrist Wrist
+windows.loadout.pet Animaletto
+windows.loadout.wrist Polso
 windows.loadout.stat Statistica Killcard
 windows.loadout.flag Bandiera
-windows.loadout.badge Custom Badge
+windows.loadout.badge Badge Personalizzato
 windows.mods.drop rilascia file Mod qui o clicca
 windows.mods.paste Incolla URL Mod
 windows.mods.load Carica Mod
@@ -507,7 +510,7 @@ windows.controls.aim1 Mira
 windows.controls.shoot1 Spara
 windows.controls.inspect Ispeziona
 windows.controls.spray Graffiti
-windows.controls.sprayWheel Spray Wheel (Hold)
+windows.controls.sprayWheel Menu Graffiti (Tieni premuto)
 windows.controls.jump Salta
 windows.controls.crouch Accovacciati
 windows.controls.prim Arma primaria
@@ -531,23 +534,23 @@ windows.controls.specFree Abilita cam libera
 windows.controls.specObj Aziona camera a obiettivo
 windows.controls.specFirst Abilita prima persona
 windows.controls.specNames Abilita nomi forzati
-windows.controls.specFocus Toggle Focus Player
-windows.controls.hidePlayers Hide Players
+windows.controls.specFocus Aziona Focus sul giocatore
+windows.controls.hidePlayers Nascondi giocatori
 windows.controls.streak0 Serie 1
 windows.controls.streak1 Serie 2
 windows.controls.streak2 Serie 3
 windows.controls.streak3 Serie 4
 windows.controls.streak4 Serie 5
-windows.controls.taunt0 Taunt (Psst)
-windows.controls.taunt1 Taunt (Whistle)
-windows.controls.taunt2 Taunt (Fart)
-windows.controls.taunt3 Taunt (Meme)
-windows.controls.taunt4 Taunt (WTF is This?)
-windows.controls.taunt5 Taunt (Right Now!)
-windows.controls.prop Select Prop (Hold)
-windows.controls.propRand Select Random Prop
-windows.controls.propRot Toggle Rotation
-windows.controls.propRotR Reset Rotation
+windows.controls.taunt0 Provocazione (Psst)
+windows.controls.taunt1 Provocazione (Fischia)
+windows.controls.taunt2 Provocazione (Scorreggia)
+windows.controls.taunt3 Provocazione (Meme)
+windows.controls.taunt4 Provocazione (WTF is This?)
+windows.controls.taunt5 Provocazione (Ora!)
+windows.controls.prop Seleziona Prop (Tieni premuto)
+windows.controls.propRand Seleziona Prop a caso
+windows.controls.propRot Aziona Rotazione
+windows.controls.propRotR Resetta Rotazione
 windows.controls.premium0 Noclip
 windows.controls.premium1 Godmode
 windows.controls.premium2 Kill
@@ -611,7 +614,7 @@ windows.store.amount {0} KR sul conto
 windows.store.login per acquistare e sbloccare oggetti dal negozio!
 windows.store.purchasing Comprando...
 windows.store.unboxed {0}{1} ha aperto
-windows.store.found {0}{1} found
+windows.store.found {0}{1} trovati
 windows.trade.header Trading
 windows.scope.header Scegli ottica
 windows.premium.header Premium
@@ -646,6 +649,12 @@ windows.secondary.unlocked Sbloccate
 windows.secondary.customOnly Solo personalizzate
 windows.secondary.premiumOnly Solo premium
 windows.secondary.req Lvl ric. {0}
+windows.skins.unlocked Unlocked
+windows.skins.customOnly Customs Only
+windows.skins.premiumOnly Premium Only
+windows.skins.classOnly Req {0}
+windows.skins.req Req lvl {0}
+windows.skins.default Default Skin
 windows.advertise.header Pubblicizza
 windows.support.header Supportare
 windows.players.header Lista giocatori
@@ -666,15 +675,15 @@ image.upload.limit Fallito. Limite di {0}kb per l'immagine
 thumbnail.upload.error Errore Copertina
 mod.extracting estraendo {0}/{1}
 mod.disabled mods disablitate
-mod.error errore mod!
+mod.error C'è un errore nella mod!
 mod.loading caricamento mod...
 mod.invalid file mod invalido!
 matchmaker.full PIENO
-matchmaker.GameFull Game is full.
-matchmaker.NoServersMatchQuery GAME UPDATING
-matchmaker.InvalidGameId Game not found.
-matchmaker.NoAvailableServers Servers are at Max Capacity
-matchmaker.GameIssue Unknown Join Issue
+matchmaker.GameFull La partita è piena.
+matchmaker.NoServersMatchQuery AGGIORNAMENTO DEL GIOCO
+matchmaker.InvalidGameId Partita non trovata.
+matchmaker.NoAvailableServers I server hanno raggiunto la capacità massima
+matchmaker.GameIssue Problema Sconosciuto
 adblocker Disabilita l'ad blocker per ricevere krunkies gratis.
 ad-failed Pubblicità non caricata. Riprova.
 streamers.views {0} spettatori
@@ -719,7 +728,7 @@ server.config.allowSpect Spettatori
 server.config.killRewards Premi uccisioni
 server.config.headshotOnly Solo headshot
 server.config.noSecondary Disabilita secondarie
-server.config.noStreaks Disabilita serie
+server.config.noStreaks Disabilita serie uccisioni
 server.config.canSlide Scivolare
 server.config.wallJP Forza salto dal muro
 server.config.autoJump Salto automatico
@@ -728,7 +737,7 @@ server.config.thirdPerson 3a persona
 server.config.requireCaptcha Richiedi Captcha
 server.config.nameTags Nascondi Nametags
 server.config.kCams Camera uccisione
-server.config.aAnon Allow Anonymous
+server.config.aAnon Consenti anonimo
 server.config.noReload Niente ricarica
 server.config.private Privata
 server.config.krRewards Premi KR
@@ -757,9 +766,9 @@ server.config.bstOfR Al meglio di
 server.config.chrgWeps Chargable Weapons
 social.login Login/Registrati
 social.login.failed Login fallito
-social.login.buy Fai il login per comprare
-social.login.sell Fai il login per vendere
-social.login.gift Fai il login per regalare
+social.login.buy Effettua il login per comprare
+social.login.sell Effettua il login per vendere
+social.login.gift Effettua il login per regalare
 social.login.proccessing Login in corso...
 social.since Dal
 social.user.maps Mappe degli utenti
@@ -777,7 +786,7 @@ social.market.posting Mettendo in vendita...
 social.market.req richiesto lvl {0}
 social.market.cant Non puoi permettertelo
 social.market.purchase Acquista
-social.market.fee Senza costi
+social.market.fee Gratis
 social.market.failed Fallito. Riprova
 social.market.head Copricapo
 social.market.back Zaino
@@ -785,11 +794,11 @@ social.market.waist Cintura
 social.market.face Volto
 social.market.shoe Scarpe
 social.market.pet Animale
-social.market.wrist Wrist Item
+social.market.wrist Bracciale
 social.market.melee Arma da mischia
 social.market.spray Graffiti
 social.market.dye Tinta
-social.market.collectible Collectible Item
+social.market.collectible Oggetto collezionabile
 social.market.none Nessun oggetto trovato
 social.market.login Devi aver effettuato il login.
 social.market.grace pronto tra {0}
@@ -801,7 +810,7 @@ social.trading.submitting Inviando l'offerta...
 social.market.gift.amount Importo regalo in
 social.market.fee.gift Senza tassa
 social.market.gift Regala KR
-social.market.gift.msg Lascia un messaggio
+social.market.gift.msg Aggiungi un messaggio
 respawn.auto Rinascita automatica in {0}
 custom.host.ranked Non puoi creare una partita durante una Classificata.
 funds.insufficient Fondi insufficienti
@@ -834,9 +843,9 @@ stats.fistkills Pestaggi
 stats.thrownkills Bullseyes
 stats.headshots Headshots
 stats.wallbangs Wallbangs
-stats.crouches Crouches
+stats.crouches Accovacciamenti
 stats.sprays Graffiti fatti
-stats.kpd Helpful Reports
+stats.kpd Segnalazioni utili
 windows.host.default.settings Abilitare le impostazioni predefinite permette ai giocatori di mantenere il progresso del giocatore e i suoi punteggi migliori.
 windows.host.default.commands *I comandi dell'Host sono disabilitati in questa modalità: /noclip /god /smite etc
 windows.host.rewards Abilitare i premi in KR obbliga il Server all'utilizzo delle impostazioni predefinite e permette ai giocatori di guadagnare KR dai fondi della mappa:
@@ -858,9 +867,9 @@ windows.playerlist.punish Sei sicuro di voler prendere provvedimenti riguardo {0
 item.view.open Apri visualizzatore modelli
 item.view.more Più informazioni
 item.sell.cant L'oggetto non può essere venduto.
-item.sell.cant.krunker Item cant be sold on krunker.
+item.sell.cant.krunker L'oggetto non può essere venduto su Krunker.
 item.sell.quick Sei sicuro di voler vendere subito {0}?
-item.sell.destroy Are you sure you want to Destroy {0}?
+item.sell.destroy Sei sicuro di voler Distruggere {0}?
 social.profile.stats Statistiche Generali
 social.profile.class Statistiche Classi
 social.profile.sales Vendite
@@ -888,27 +897,86 @@ social.trades.message PERMETTI I MESSAGGI DI TRADING DALLE IMPOSTAZIONI
 social.trades.warning Non riceverai alcun oggetto da questa transazione!
 social.trades.accept Sei sicuro di voler accettare questa offerta?
 stats.airdrops KR-Packages
-stats.airdrops.stolen Airdrops Stolen
+stats.airdrops.stolen Rifornimenti Rubati
 settings.quality.flapAnim Animazione copri ottica cecchino
-chall.name.hs Get {0} headshots {1}
-chall.name.ns Get {0} no-scopes {1}
-chall.name.ls Get {0} legshots {1}
-chall.name.tmk Get {0} throwing knife kills {1}
-chall.name.fb Get {0} first bloods {1}
-chall.name.mk Get {0} melee kills {1}
-chall.name.fk Get {0} fist kills {1}
-chall.name.qs Get {0} quickscopes {1}
-chall.name.wb Get {0} wallbangs {1}
-chall.name.airk Get {0} mid-air kills {1}
-chall.name.lns Get {0} longshots {1}
-chall.name.tk Get {0} turbo kills {1}
-chall.name.drk Get {0} drift kills {1}
-chall.name.kstk Get a {0} killstreak {1}
-chall.name.w Win {0} matches
-chall.name.d Die {0} times
-chall.name.score Get {0} score
-chall.name.dmg Deal {0} damage {1}
-chall.name.bzk Get {0} buzz kills {1}
-chall.name.cc Get {0} close-calls {1}
-chall.name.rk Deal {0} revenge kills {1}
+chall.name.hs Fai {0} colpi alla testa {1}
+chall.name.ns Fai {0} no-scopes {1}
+chall.name.ls Fai {0} colpi alle gambe {1}
+chall.name.tmk Fai {0} uccisioni lanciando il coltello {1}
+chall.name.fb Fai {0} prime uccisioni {1}
+chall.name.mk Fai {0} uccisioni corpo a corpo {1}
+chall.name.fk Fai {0} uccisioni a mani nude {1}
+chall.name.qs Fai {0} quickscopes {1}
+chall.name.wb Fai {0} wallbangs {1}
+chall.name.airk Fai {0} uccisioni a mezz'aria {1}
+chall.name.lns Fai {0} longshots {1}
+chall.name.tk Fai {0} turbo kills {1}
+chall.name.drk Fai {0} drift kills {1}
+chall.name.kstk Fai a {0} killstreak {1}
+chall.name.w Vinci {0} partite
+chall.name.d Muori {0} volte
+chall.name.score Fai {0} punti
+chall.name.dmg Infliggi {0} danni {1}
+chall.name.bzk Fai {0} buzz kills {1}
+chall.name.cc Fai {0} close-calls {1}
+chall.name.rk Infliggi {0} vendette {1}
+event.doubleXP 2x Class XP enabled for this match
+ranked.join Joined Ranked Match. Abandoning a match will result in a temporary ban
+ranked.progress Game in Progress
+ranked.team Please join a Team
+ranked.switch Can't switch while in-game
+ranked.spectate Spectating Disabled in Ranked
+ranked.login Login to Spawn
+ranked.sync Missing Sync Data
+ranked.team.spawn Please join a Team to Spawn
+ranked.class.spawn Please select a Class to Spawn
+modes.round.win Your Team has secured this round
+modes.round.loss This round is no longer winnable
+modes.round.switch Switching Sides. Prepare for the next Round
+modes.trade.success Trade Successful
+modes.prophunt.limit [Prop Hunt] You are out of prop switches
+modes.prophunt.left [Prop Hunt] You have {0} switches remaining
+modes.prophunt.rotation.on [Prop Hunt] Rotation Enabled
+modes.prophunt.rotation.off [Prop Hunt] Rotation Disabled
+modes.prophunt.rotation.reset [Prop Hunt] Rotation reset.
+commands.login Login to use this command
+commands.connected {0} connected, {1} in menu
+commands.host {0} is the current Host.
+commands.noclip.on Noclip - Enabled
+commands.noclip.off Noclip - Disabled
+commands.god.on God mode - Enabled
+commands.god.off God mode - Disabled
+commands.god.on.other God mode - Enabled for {0}
+commands.god.off.other God mode - Disabled for {0}
+commands.smite.on Smite - Enabled
+commands.smite.off Smite - Disabled
+commands.smite.on.other Smite - Enabled for {0}
+commands.smite.off.other Smite - Disabled for {0}
+commands.perk Gave {0} {1}
+commands.maxperk Gave {0} MAX {1}
+commands.unlimited.on Unlimited Ammo - Enabled
+commands.unlimited.off Unlimited Ammo - Disabled
+commands.unlimited.on.other Unlimited Ammo - Enabled for {0}
+commands.unlimited.off.other Unlimited Ammo - Disabled for {0}
+commands.spraybypass.on Unlimited Ammo - Enabled
+commands.spraybypass.off Unlimited Ammo - Disabled
+commands.spraybypass.on.other Unlimited Ammo - Enabled for {0}
+commands.spraybypass.off.other Unlimited Ammo - Disabled for {0}
+commands.suspect.invalid Invalid suspect info
+commands.suspect.menu Suspect in menu
+commands.suspect.left Suspect has left
+commands.suspect.found Suspect Found. Spectating: {0}, Spawned: {1}, Name: {2}
+commands.forfeit.next Must play atleast 1 round
+commands.forfeit.wait Wait till match starts to forfeit
+commands.forfeit.later Please try again in a few seconds
+commands.forfeit.voted You already voted.
+commands.forfeit.limit You can only start one vote per game
+commands.forfeit.ended Forfeiting Game
+commands.forfeit.ended.other Other Team Forfeited
+server.message.join {0} joined the game
+server.message.left {0} left the game
+server.message.kicked {0} was kicked
+server.message.banned {0} was banned
+server.message.votekicked {0} was vote kicked
+server.message.arrested {0} was arrested by the K.P.D
 `;

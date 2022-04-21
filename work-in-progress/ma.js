@@ -1,103 +1,103 @@
 module.exports = `
-menu.btn.ranked Ranked
-menu.btn.shop Shop
-menu.btn.social Hub
-menu.btn.maps Games
-menu.btn.mods Mods
-menu.btn.settings Settings
-menu.btn.customize Customize
-menu.btn.invite Invite
-menu.btn.invite.clicked Copied
-menu.btn.join Join
+menu.btn.ranked റാങ്ക് ചെയ്തു
+menu.btn.shop കട
+menu.btn.social ഹബ്
+menu.btn.maps ഗെയിമുകൾ
+menu.btn.mods മോഡുകൾ
+menu.btn.settings ക്രമീകരണങ്ങൾ
+menu.btn.customize ഇഷ്ടാനുസൃതമാക്കുക
+menu.btn.invite ക്ഷണിക്കുക
+menu.btn.invite.clicked പകർത്തി
+menu.btn.join ചേരുക
 menu.btn.host Host Game
-menu.btn.browser Servers
-generic.wait Please wait...
-generic.loading LOADING...
-generic.none None
-generic.connecting CONNECTING...
-generic.select Select
-generic.delete Delete
-generic.save Save
-generic.load Load
-generic.search Search
-generic.leave Leave
-generic.default Default
-generic.submit Submit
-generic.create Create
-generic.random Random
-generic.failed Failed
-generic.success Success!
-generic.name Name
-generic.level Level
-generic.score Score
-generic.off Off
-generic.defeat DEFEAT
-generic.victory VICTORY
-generic.matchover MATCH OVER
-generic.matchaband MATCH ABANDONED
-generic.follow Follow
-generic.unfollow Unfollow
-generic.followers Followers
-generic.following following
-generic.games Games
-generic.wins Wins
-generic.lose Losses
-generic.clan Clan
-generic.games.played Games Played
-generic.games.won Games Won
-generic.games.lost Games Lost
-generic.timep Time Played
-generic.kills Kills
-generic.deaths Deaths
-generic.kdr KDR
-generic.time Time
-generic.logout Logout
-generic.logout.sessions Logout of all Sessions
-generic.username Enter Username
-generic.password Enter Password
-generic.register Register
-generic.login Login
-generic.accuracy Accuracy
-player.waiting waiting for players
-player.died You died
-player.killed Killed By
-player.killstreak {0} on a {1} Kill Streak
-player.inactive Kicked for inactivity
-player.disconnect DISCONNECTED
-timer.end Next Round in {0}
-leaderboard.empty Empty Lobby
-popup.checkpoint Checkpoint!
-app.play CLICK TO PLAY
-app.spectate CLICK TO SPECTATE
-app.play.mobile TAP TO PLAY
-app.spectate.mobile TAP TO SPECTATE
-app.play.controller PRESS START
-app.spectate.controller START to SPECTATE
-purchase.error Error occurred
-purchase.error.click click here</a> and try again!
-purchase.error.limit You may have exceeded your daily transaction limit
-settings.reset Reset
-settings.reset.confirm Are you sure you want to reset all your settings?
-settings.import Import
-settings.export Export
-settings.none No settings found
-settings.backup Backup Settings
-settings.controls.change Keybinds
-settings.controls.press Press any Key
-settings.controls.leaderboard InGame Leaderboard Trigger Type
-settings.controls.voicechat Voicechat Trigger Type
-settings.local.header Localization <span id="requiresRestart"><span style="color: #eb5656">*</span> requires restart</span>
-settings.local.region Default Region
-settings.local.lang Language
-settings.network.header Network
-settings.network.netRerouting Auto Routing (Affects Ping)
-settings.network.netRate Network Rate (Hz)
-settings.network.lagComp Lag Compensation
-settings.network.optNet Optimized Networking
-settings.network.quickplay Force Quickplay
-settings.popup.header Popups
-settings.experimental.header Experimental
-settings.experimental.holiday Holiday Effects
+menu.btn.browser സെർവറുകൾ
+generic.wait കാത്തിരിക്കൂ...
+generic.loading ലോഡിംഗ്...
+generic.none ഒന്നുമില്ല
+generic.connecting ബന്ധിപ്പിക്കുന്നു.
+generic.select തിരഞ്ഞെടുക്കുക
+generic.delete ഇല്ലാതാക്കുക
+generic.save രക്ഷിക്കും
+generic.load ലോഡ് ചെയ്യുക
+generic.search തിരയുക
+generic.leave വിട്ടേക്കുക
+generic.default സ്ഥിരസ്ഥിതി
+generic.submit സമർപ്പിക്കുക
+generic.create സൃഷ്ടിക്കാൻ
+generic.random ക്രമരഹിതം
+generic.failed പരാജയപ്പെട്ടു
+generic.success വിജയം!
+generic.name പേര്
+generic.level ലെവൽ
+generic.score സ്കോർ
+generic.off ഓഫ്
+generic.defeat പരാജയം
+generic.victory വിജയം
+generic.matchover മാച്ച് ഓവർ
+generic.matchaband മത്സരം ഉപേക്ഷിച്ചു
+generic.follow പിന്തുടരുക
+generic.unfollow പിന്തുടരാതിരിക്കുക
+generic.followers അനുയായികൾ
+generic.following പിന്തുടരുന്നു
+generic.games ഗെയിമുകൾ
+generic.wins വിജയിക്കുന്നു
+generic.lose നഷ്ടങ്ങൾ
+generic.clan കുലം
+generic.games.played കളിച്ച കളികൾ
+generic.games.won ഗെയിമുകൾ വിജയിച്ചു
+generic.games.lost ഗെയിമുകൾ നഷ്ടപ്പെട്ടു
+generic.timep കളിച്ച സമയം
+generic.kills കൊല്ലുന്നു
+generic.deaths മരണങ്ങൾ
+generic.kdr കെ.ഡി.ആർ
+generic.time സമയം
+generic.logout പുറത്തുകടക്കുക
+generic.logout.sessions എല്ലാ സെഷനുകളുടെയും ലോഗ്ഔട്ട്
+generic.username ഉപയോക്തൃനാമം നൽകുക
+generic.password പാസ്വേഡ് നല്കൂ
+generic.register രജിസ്റ്റർ ചെയ്യുക
+generic.login ലോഗിൻ
+generic.accuracy കൃത്യത
+player.waiting കളിക്കാർക്കായി കാത്തിരിക്കുന്നു
+player.died നീ മരിച്ചു
+player.killed കൊലപ്പെടുത്തിയത്
+player.killstreak ഒരു {1} കിൽ സ്ട്രീക്കിൽ {0}
+player.inactive നിഷ് ക്രിയത്വത്തിന്റെ പേരിൽ ചവിട്ടി
+player.disconnect വിച്ഛേദിച്ചു
+timer.end അടുത്ത റൗണ്ട് {0}-ൽ
+leaderboard.empty ശൂന്യമായ ലോബി
+popup.checkpoint ചെക്ക് പോയിന്റ്!
+app.play കളിക്കാൻ ക്ലിക്ക് ചെയ്യുക
+app.spectate കാണാൻ ക്ലിക്ക് ചെയ്യുക
+app.play.mobile കളിക്കാൻ ടാപ്പ് ചെയ്യുക
+app.spectate.mobile കാണാൻ ടാപ്പ് ചെയ്യുക
+app.play.controller ആരംഭിക്കുക അമർത്തുക
+app.spectate.controller സ്പെക്റ്റേറ്റ്-ലേക്ക് ആരംഭിക്കുക
+purchase.error പിശക് സംഭവിച്ചു
+purchase.error.click ഇവിടെ ക്ലിക്ക് ചെയ്യുക</a> വീണ്ടും ശ്രമിക്കുക!
+purchase.error.limit നിങ്ങളുടെ പ്രതിദിന ഇടപാട് പരിധി നിങ്ങൾ കവിഞ്ഞിരിക്കാം
+settings.reset പുനഃസജ്ജമാക്കുക
+settings.reset.confirm നിങ്ങളുടെ എല്ലാ ക്രമീകരണങ്ങളും പുനഃസജ്ജമാക്കണമെന്ന് തീർച്ചയാണോ?
+settings.import ഇറക്കുമതി ചെയ്യുക
+settings.export കയറ്റുമതി
+settings.none ക്രമീകരണങ്ങളൊന്നും കണ്ടെത്തിയില്ല
+settings.backup ബാക്കപ്പ് ക്രമീകരണങ്ങൾ
+settings.controls.change കീബൈൻഡുകൾ
+settings.controls.press ഏതെങ്കിലും കീ അമർത്തുക
+settings.controls.leaderboard ഇൻഗെയിം ലീഡർബോർഡ് ട്രിഗർ തരം
+settings.controls.voicechat വോയ്സ് ചാറ്റ് ട്രിഗർ തരം
+settings.local.header പ്രാദേശികവൽക്കരണത്തിന് <span id="requiresRestart"><span style="color: #eb5656">*</span> പുനരാരംഭിക്കേണ്ടതുണ്ട്</span>
+settings.local.region സ്ഥിരസ്ഥിതി മേഖല
+settings.local.lang ഭാഷ
+settings.network.header നെറ്റ്വർക്ക്
+settings.network.netRerouting ഓട്ടോ റൂട്ടിംഗ് (പിംഗിനെ ബാധിക്കുന്നു)
+settings.network.netRate നെറ്റ് വർക്ക് നിരക്ക് (Hz)
+settings.network.lagComp കാലതാമസം നഷ്ടപരിഹാരം
+settings.network.optNet ഒപ്റ്റിമൈസ് ചെയ്ത നെറ്റ്വർക്കിംഗ്
+settings.network.quickplay ക്വിക്ക്പ്ലേ നിർബന്ധിക്കുക
+settings.popup.header പോപ്പ് അപ്പുകൾ
+settings.experimental.header പരീക്ഷണാത്മകം 
+settings.experimental.holiday അവധിക്കാല ഇഫക്റ്റുകൾ
 settings.experimental.aimFreezeFix Aim Freeze Fix
 settings.experimental.mouseFlickFix Mouse Flick Fix
 settings.experimental.shaderRendering Instance Rendering

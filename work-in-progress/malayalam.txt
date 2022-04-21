@@ -1,0 +1,3 @@
+file: ma.js
+pr1: https://github.com/mty22/krunker.io-translations/pull/365
+pr2: https://github.com/mty22/krunker.io-translations/pull/371
