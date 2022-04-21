@@ -20,7 +20,7 @@ If you contributed in the past and can't find your name below (or simply wish to
 
 # [Japanese](https://github.com/mty22/krunker.io-translations/blob/main/jp.js) (日本語)
 * [frzn](https://krunker.io/social.html?p=profile&q=frzn) (frzn#1030)
-* [Hiro](https://krunker.io/social.html?p=profile&q=Hiro527) (nullA1m#7777)
+* [Hiro](https://krunker.io/social.html?p=profile&q=Hiro527) (Hiro527#7777)
 * [KnockerOut](https://krunker.io/social.html?p=profile&q=KnockerOut) (KnockerOut#5087)
 * Minaaami🐈#8830
 * [nns](https://krunker.io/social.html?p=profile&q=nns__Twitch)
