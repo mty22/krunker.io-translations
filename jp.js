@@ -412,9 +412,9 @@ settings.editing.depth マップの深さ
 settings.editing.green グリーンスクリーン
 settings.editing.trailcol 弾道の色
 settings.editing.ropecol グラップルの色
-settings.editing.tracercol 曳光弾の色
-settings.editing.tracer 曳光弾の色
-settings.editing.tracer.offset 曳光弾の座標
+settings.editing.tracercol 弾丸の色
+settings.editing.tracer 弾丸の色
+settings.editing.tracer.offset 弾丸の座標
 settings.shaders.header シェーダー入力
 settings.mods.header カスタマイズ
 settings.mods.load MODをロード
@@ -683,7 +683,7 @@ matchmaker.GameFull ゲームが満員です。
 matchmaker.NoServersMatchQuery ゲーム更新中
 matchmaker.InvalidGameId ゲームが見つかりません。
 matchmaker.NoAvailableServers サーバーが満員です
-matchmaker.GameIssue 不明なゲーム参加時の問題
+matchmaker.GameIssue ゲーム参加時の不明な問題
 adblocker 無料KRを受け取るには、広告ブロッカーを無効にしてください。
 ad-failed 広告の読み込みに失敗しました。後でもう一度試してください。
 streamers.views {0}人が観戦中
@@ -710,7 +710,7 @@ server.config.fiRat 連射速度
 server.config.reSpd リロード速度
 server.config.slidTime スライド時間
 server.config.fixMov 修正された動作
-server.config.slidSpd スライドのスピード
+server.config.slidSpd スライディングのスピード
 server.config.healthMlt HP倍率
 server.config.impulseMlt 発砲時の跳ね返り率
 server.config.nameTeam1 チーム1の名前
@@ -978,5 +978,5 @@ server.message.left {0}がゲームから退出しました
 server.message.kicked {0}がキックされました
 server.message.banned {0}がBANされました
 server.message.votekicked {0}が投票によりキックされました
-server.message.arrested {0}がK.P.D.により逮捕されました
+server.message.arrested {0}がK.P.Dにより逮捕されました
 `;
