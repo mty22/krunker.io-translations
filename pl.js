@@ -419,7 +419,7 @@ settings.shaders.header Wejścia do shaderów
 settings.mods.header Konfiguracja
 settings.mods.load Wczytaj modyfikacje
 settings.mods.logo Zezwól na zmianę logo
-settings.mods.auto Automatycznie wczytaj modyfikacje
+settings.mods.auto Automatycznie wczytuj modyfikacje
 settings.mods.borders Obramowanie lunety
 settings.mods.borderCol Obramowanie lunety
 settings.mods.borderOpac Przezroczystość obramowania lunety
@@ -568,7 +568,7 @@ windows.host.preset Zapisane ustawienia
 windows.host.preset.load Ładowanie zapisanego ustawienia...
 windows.host.preset.name Nazwa zapisanego ustawienia
 windows.host.start Rozpocznij grę
-windows.host.rehost Rozpocznij grę (Przybierz graczy)
+windows.host.rehost Rozpocznij grę (Przenieś graczy)
 windows.spray.header Wybierz spray
 windows.spray.default Darmowy spray
 windows.spray.spin Spray
@@ -646,7 +646,7 @@ windows.publish.mod.update Opublikuj/Zaktualizuj
 windows.publish.mod.login aby tworzyć i udostępniać modyfikacje!
 windows.secondary.header Wybierz drugą broń
 windows.secondary.unlocked Odblokowane
-windows.secondary.customOnly Dostępne tylko w rozgrywkach niestandardowych
+windows.secondary.customOnly Dostępne tylko w grach niestandardowych
 windows.secondary.premiumOnly Dostępne tylko dla użytkowników Premium
 windows.secondary.req Wymaga poziomu {0}
 windows.skins.unlocked Odblokowane
@@ -812,7 +812,7 @@ social.market.fee.gift Brak podatku
 social.market.gift Wyślij KR
 social.market.gift.msg Zostaw wiadomość
 respawn.auto Automatyczne odrodzenie za {0}
-custom.host.ranked Nie możesz hostować gier, gdy grasz w trybie rankingowym.
+custom.host.ranked Nie możesz utworzyć gry niestandardowej, gdy grasz w trybie rankingowym.
 funds.insufficient Niewystarczające fundusze
 funds.out Wygląda na to, że skończyło Ci się KR.
 custom.passcode.long Zbyt długie hasło
@@ -921,11 +921,11 @@ chall.name.bzk Zakończ {0} serii zabójstw innych graczy {1}
 chall.name.cc Zdobądź {0} zabójstw, prawie samemu ginąc {1}
 chall.name.rk Zdobądź {0} zabójstw w odwecie {1}
 event.doubleXP Podwójne doświadczenie klasy w tej grze
-ranked.join Dołączono do rozgrywki rankingowej. Opuszczenie jej skutkuje tymczasowym banem
-ranked.progress Rozgrywka w trakcie
+ranked.join Dołączono do gry rankingowej. Opuszczenie jej skutkuje tymczasowym banem
+ranked.progress Gra w toku
 ranked.team Dołącz do drużyny
 ranked.switch Nie można zmieniać w trakcie rozgrywki
-ranked.spectate Oglądanie jest wyłączone w rozgrywkach rankingowych
+ranked.spectate Oglądanie jest wyłączone w grach rankingowych
 ranked.login Zaloguj się, aby dołączyć do rozgrywki
 ranked.sync Brak danych synchronizacji
 ranked.team.spawn Dołącz do drużyny, aby dołączyć do rozgrywki
@@ -967,7 +967,7 @@ commands.suspect.menu Podejrzany jest w menu
 commands.suspect.left Podejrzany opuścił grę
 commands.suspect.found Podejrzany znaleziony. Oglądający: {0}, W grze: {1}, Nazwa: {2}
 commands.forfeit.next Należy rozegrać przynajmniej jedną rundę
-commands.forfeit.wait Należy zaczekać na początek rozgrywki, aby się wycofać
+commands.forfeit.wait Należy zaczekać na rozpoczęcie się gry, aby się wycofać
 commands.forfeit.later Spróbuj ponownie za kilka sekund
 commands.forfeit.voted Już zagłosowałeś.
 commands.forfeit.limit Możesz rozpocząć tylko jedno głosowanie w ciągu jednej gry
