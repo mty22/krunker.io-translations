@@ -7,7 +7,7 @@ menu.btn.mods 模组
 menu.btn.settings 设置
 menu.btn.customize 自定义
 menu.btn.invite 邀请
-menu.btn.invite.clicked 已复制
+menu.btn.invite.clicked 已复制到剪贴板
 menu.btn.join 加入服务器
 menu.btn.host 创建服务器
 menu.btn.browser 浏览服务器
@@ -20,7 +20,7 @@ generic.delete 删除
 generic.save 保存
 generic.load 加载
 generic.search 搜索
-generic.leave 离开
+generic.leave 退出
 generic.default 默认
 generic.submit 提交
 generic.create 创建
@@ -42,7 +42,7 @@ generic.following 个关注中
 generic.games 游玩场数
 generic.wins 胜场数
 generic.lose 败场数
-generic.clan 公会
+generic.clan 兵团
 generic.games.played 游玩场数
 generic.games.won 胜场数
 generic.games.lost 败场数
@@ -61,19 +61,19 @@ generic.accuracy 命中率
 player.waiting 等待更多玩家加入
 player.died 你死了
 player.killed 被此玩家击杀
-player.killstreak {0} on a {1} Kill Streak
+player.killstreak {0} 在 {1} 连杀
 player.inactive 由于你的空闲时间过长，你已被踢出此服务器
 player.disconnect 连接已断开
 timer.end 下一场将在 {0} 后开始
 leaderboard.empty 这里没有任何玩家
 popup.checkpoint 检查点！
 app.play 点击开始游戏
-app.spectate 点击开始观战
+app.spectate 点击屏幕开始观战
 app.play.mobile 点击屏幕开始游戏
 app.spectate.mobile 点击屏幕开始观战
 app.play.controller 按下开始键开始游戏
 app.spectate.controller 按下开始键开始观战
-purchase.error 出错了
+purchase.error 购买出错
 purchase.error.click 点此</a> 重试！
 purchase.error.limit 你可能已超出每日交易限额
 settings.reset 重置
@@ -91,7 +91,7 @@ settings.local.region 默认地区
 settings.local.lang 语言
 settings.network.header 网络
 settings.network.netRerouting 动态路由（影响网络延时）
-settings.network.netRate 网络刷新率 (Hz)
+settings.network.netRate 网络刷新率 (赫兹）
 settings.network.lagComp 延迟补偿
 settings.network.optNet 网络最优化
 settings.network.quickplay 强制快速游玩
@@ -117,7 +117,7 @@ settings.client.colorProfile 色彩配置文件
 settings.client.resourcePacks 资源包
 settings.dev.header 开发者
 settings.dev.forceUpdate 强制刷新皮肤
-settings.dev.forceRegen 总是重生玩家
+settings.dev.forceRegen 强制重生玩家
 settings.dev.extraBan 更多封禁信息
 settings.chat.header 聊天
 settings.chat.chat 显示聊天窗口
@@ -300,7 +300,7 @@ settings.serverb.header 服务器浏览器
 settings.serverb.oldBrowser 旧版浏览器
 settings.serverb.defaultRegionOnly 仅显示默认地区的服务器
 settings.gameprivacy.header 游戏隐私
-settings.gameprivacy.streamer 主播模式
+settings.gameprivacy.streamer 直播模式
 settings.gameprivacy.anon 匿名模式
 settings.gameprivacy.hideGameTitle 隐藏游戏名称
 settings.gameprivacy.showRegion 显示地区信息
@@ -477,7 +477,7 @@ windows.loadout.back 背部
 windows.loadout.waist 腰部
 windows.loadout.shoe 鞋子
 windows.loadout.face 表情
-windows.loadout.spray 涂鸦
+windows.loadout.spray 喷漆
 windows.loadout.color.skin 皮肤颜色
 windows.loadout.color.chat 聊天框内显示名称颜色
 windows.loadout.color.hair 头发颜色
@@ -509,8 +509,8 @@ windows.controls.reload 换弹
 windows.controls.aim1 瞄准
 windows.controls.shoot1 射击
 windows.controls.inspect 检视武器
-windows.controls.spray 涂鸦
-windows.controls.sprayWheel 涂鸦轮盘（按住）
+windows.controls.spray 喷漆
+windows.controls.sprayWheel 喷漆轮盘（按住）
 windows.controls.jump 跳跃
 windows.controls.crouch 下蹲
 windows.controls.prim 主武器
@@ -569,9 +569,9 @@ windows.host.preset.load 加载默认设置中…
 windows.host.preset.name 默认设置名称
 windows.host.start 开始游戏
 windows.host.rehost 开始游戏（邀请玩家）
-windows.spray.header 选择涂鸦
-windows.spray.default 免费涂鸦
-windows.spray.spin 涂鸦
+windows.spray.header 选择喷漆
+windows.spray.default 免费喷漆
+windows.spray.spin 喷漆
 windows.maps.header 自定义地图
 windows.maps.none 没有找到任何地图！
 windows.maps.name 地图名称
@@ -586,16 +586,16 @@ windows.publish.map.login 登录以创建并上传地图！
 windows.theatre.header 影院模式
 windows.theatre.record 启用录制
 windows.theatre.key 录制键
-windows.clans.header 公会
-windows.clans.members {0} 个公会成员
-windows.clans.requests 申请
+windows.clans.header 兵团
+windows.clans.members {0} 个兵团成员
+windows.clans.requests 兵团申请
 windows.clans.requests.none 没有申请
-windows.clans.page [{0}] 公会页面
-windows.clans.create 创建公会
-windows.clans.name 公会名称
-windows.clans.view 浏览公会
-windows.clans.join 加入公会
-windows.clans.login 登录以创建或加入公会！
+windows.clans.page [{0}] 兵团页面
+windows.clans.create 创建兵团
+windows.clans.name 兵团名称
+windows.clans.view 浏览兵团
+windows.clans.join 加入兵团
+windows.clans.login 登录以创建或加入兵团！
 windows.store.header 商店
 windows.store.spin {0} 转盘
 windows.store.agree 确认购买即表示你同意{0}条款及细则
@@ -619,7 +619,7 @@ windows.trade.header 交易
 windows.scope.header 选择狙击镜
 windows.premium.header 会员
 windows.skin.header 选择皮肤
-windows.hat.header 选择帽子
+windows.hat.header 选择头部饰品
 windows.back.header 选择背部饰品
 windows.waist.header 选择腰部饰品
 windows.face.header 选择表情
@@ -647,7 +647,7 @@ windows.publish.mod.login 登录以创建并上传模组！
 windows.secondary.header 选择副武器
 windows.secondary.unlocked 已解锁
 windows.secondary.customOnly 仅限自定义服务器
-windows.secondary.premiumOnly 会员专属
+windows.secondary.premiumOnly 仅限会员
 windows.secondary.req 需要 {0} 级
 windows.skins.unlocked 已解锁
 windows.skins.customOnly 仅限自定义服务器
@@ -677,13 +677,13 @@ mod.extracting 提取中 {0}/{1}
 mod.disabled 模组已禁用
 mod.error 模组错误！
 mod.loading 加载模组中…
-mod.invalid 模组文件不可用！
+mod.invalid 模组文件错误！
 matchmaker.full 已满
 matchmaker.GameFull 此服务器人数已满。
-matchmaker.NoServersMatchQuery 游戏更新中
+matchmaker.NoServersMatchQuery 游戏更新中。
 matchmaker.InvalidGameId 此服务器已关闭或不存在。
-matchmaker.NoAvailableServers 当前没有任何空闲的服务器
-matchmaker.GameIssue 加入时出现未知问题
+matchmaker.NoAvailableServers 当前没有任何的服务器
+matchmaker.GameIssue 加入时出现未知问题。
 adblocker 禁用广告拦截器以获得免费 KR 转盘。
 ad-failed 广告加载失败，请稍后重试。
 streamers.views {0} 个观众
@@ -740,7 +740,7 @@ server.config.kCams 死亡视角
 server.config.aAnon 允许匿名玩家
 server.config.noReload 无需换弹
 server.config.private 私服
-server.config.krRewards KR 奖励
+server.config.krRewards KR奖励
 server.config.forceDefault 强制使用默认设置
 server.config.warmupTime 热身时间（分钟）
 server.config.gamRounds 局数
