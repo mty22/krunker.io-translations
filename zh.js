@@ -68,12 +68,12 @@ timer.end 下一场将在 {0} 后开始
 leaderboard.empty 这里没有任何玩家
 popup.checkpoint 检查点！
 app.play 点击开始游戏
-app.spectate 点击屏幕开始观战
+app.spectate 点击开始观战
 app.play.mobile 点击屏幕开始游戏
 app.spectate.mobile 点击屏幕开始观战
 app.play.controller 按下开始键开始游戏
 app.spectate.controller 按下开始键开始观战
-purchase.error 购买出错
+purchase.error 错误
 purchase.error.click 点此</a> 重试！
 purchase.error.limit 你可能已超出每日交易限额
 settings.reset 重置
@@ -116,8 +116,8 @@ settings.client.angleBackend 几乎原生图型抽象层引擎后端
 settings.client.colorProfile 色彩配置文件
 settings.client.resourcePacks 资源包
 settings.dev.header 开发者
-settings.dev.forceUpdate 强制刷新皮肤
-settings.dev.forceRegen 强制重生玩家
+settings.dev.forceUpdate 总是刷新皮肤
+settings.dev.forceRegen 总是重生玩家
 settings.dev.extraBan 更多封禁信息
 settings.chat.header 聊天
 settings.chat.chat 显示聊天窗口
@@ -677,13 +677,13 @@ mod.extracting 提取中 {0}/{1}
 mod.disabled 模组已禁用
 mod.error 模组错误！
 mod.loading 加载模组中…
-mod.invalid 模组文件错误！
+mod.invalid 无效的模组文件！
 matchmaker.full 已满
 matchmaker.GameFull 此服务器人数已满。
 matchmaker.NoServersMatchQuery 游戏更新中。
 matchmaker.InvalidGameId 此服务器已关闭或不存在。
-matchmaker.NoAvailableServers 当前没有任何的服务器
-matchmaker.GameIssue 加入时出现未知问题。
+matchmaker.NoAvailableServers 没有任何空闲的服务器
+matchmaker.GameIssue 加入时出现未知问题
 adblocker 禁用广告拦截器以获得免费 KR 转盘。
 ad-failed 广告加载失败，请稍后重试。
 streamers.views {0} 个观众
@@ -796,7 +796,7 @@ social.market.shoe 鞋子
 social.market.pet 宠物
 social.market.wrist 手腕物品
 social.market.melee 近战武器
-social.market.spray 涂鸦
+social.market.spray 喷漆
 social.market.dye 衣服染色
 social.market.collectible 可收集物品
 social.market.none 没有找到任何物品
@@ -844,7 +844,7 @@ stats.thrownkills 投掷击杀数
 stats.headshots 爆头数
 stats.wallbangs 穿墙击杀数
 stats.crouches 下蹲次数
-stats.sprays 涂鸦数
+stats.sprays  喷漆数
 stats.kpd 有效举报数
 windows.host.default.settings 启用地图默认设置以允许玩家保存他们的进度及最高分数
 windows.host.default.commands * 房主命令 (/noclip, /god, /smite 等) 在此模式中将会被禁用。
@@ -855,21 +855,21 @@ windows.store.creator 购买 KR 时，考虑使用创作者代码以支持你喜
 windows.chall.customs 自定义服务器内无法完成挑战任务。
 twitch.link 你确定要链接你的 Twitch 账户吗？
 twitch.unlink 你确定要取消链接你的 Twitch 账户吗？
-windows.clan.leave 你确定要离开此公会吗？
-windows.clan.delete 你确定要解散此公会吗？
-windows.clan.kick 你确定要从此公会踢出 {0} 吗？
+windows.clan.leave 你确定要离开此兵团吗？
+windows.clan.delete 你确定要解散此兵团吗？
+windows.clan.kick 你确定要从此兵团踢出 {0} 吗？
 windows.store.premium.purchase 你确定要购买 {0} 天的会员吗？
 windows.store.premium.gift 你确定要赠送 '{0}' {1} 天的会员吗？
 windows.playerlist.ban 你确定要从此服务器封禁并踢出 {0} 吗？
-windows.playerlist.flag 你确定要标记 {0} 吗？
-windows.playerlist.unflag 你确定要取消标记 {0} 吗？
+windows.playerlist.flag 你确定要封禁 {0} 吗？
+windows.playerlist.unflag 你确定要取消封禁 {0} 吗？
 windows.playerlist.punish 你确定要对 {0} 采取措施吗？
 item.view.open 打开模型查看器
 item.view.more 更多信息
 item.sell.cant 此物品不能被出售。
 item.sell.cant.krunker 此物品不能在 Krunker 内被出售。
 item.sell.quick 你确定要快速出售 {0} 吗？
-item.sell.destroy 你确定要分解 {0} 吗？
+item.sell.destroy 你确定要摧毁 {0} 吗？
 social.profile.stats 综合战绩
 social.profile.class 职业战绩
 social.profile.sales 出售记录
@@ -941,7 +941,7 @@ modes.prophunt.rotation.off ［物品猎杀］已禁用物品旋转
 modes.prophunt.rotation.reset ［物品猎杀］已重置物品旋转。
 commands.login 登录以使用此命令
 commands.connected {0} 个玩家已连接，{1} 个玩家在标题画面
-commands.host {0} 是当前服主。
+commands.host {0} 是当前房主。
 commands.noclip.on 飞天模式 - 已启用
 commands.noclip.off 飞天模式 - 已禁用
 commands.god.on 无敌模式 - 已启用
@@ -958,10 +958,10 @@ commands.unlimited.on 无限子弹 - 已启用
 commands.unlimited.off 无限子弹 - 已禁用
 commands.unlimited.on.other 无限子弹 - 已为 {0} 启用
 commands.unlimited.off.other 无限子弹 - 已为 {0} 禁用
-commands.spraybypass.on 无限涂鸦 - 已启用
-commands.spraybypass.off 无限涂鸦 - 已禁用
-commands.spraybypass.on.other 无限涂鸦 - 已为 {0} 启用
-commands.spraybypass.off.other 无限涂鸦 - 已为 {0} 禁用
+commands.spraybypass.on 无限喷漆 - 已启用
+commands.spraybypass.off 无限喷漆 - 已禁用
+commands.spraybypass.on.other 无限喷漆 - 已为 {0} 启用
+commands.spraybypass.off.other 无限喷漆 - 已为 {0} 禁用
 commands.suspect.invalid 无效的嫌疑玩家信息
 commands.suspect.menu 嫌疑玩家在标题画面
 commands.suspect.left 嫌疑玩家已离开
