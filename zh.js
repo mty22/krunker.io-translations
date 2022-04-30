@@ -20,7 +20,7 @@ generic.delete 删除
 generic.save 保存
 generic.load 加载
 generic.search 搜索
-generic.leave 退出
+generic.leave 离开
 generic.default 默认
 generic.submit 提交
 generic.create 创建
@@ -37,12 +37,12 @@ generic.matchover 比赛结束
 generic.matchaband 比赛被迫终止
 generic.follow 关注
 generic.unfollow 取消关注
-generic.followers 个关注者
+generic.followers 个粉丝
 generic.following 个关注中
 generic.games 游玩场数
 generic.wins 胜场数
 generic.lose 败场数
-generic.clan 兵团
+generic.clan 战队
 generic.games.played 游玩场数
 generic.games.won 胜场数
 generic.games.lost 败场数
@@ -73,7 +73,7 @@ app.play.mobile 点击屏幕开始游戏
 app.spectate.mobile 点击屏幕开始观战
 app.play.controller 按下开始键开始游戏
 app.spectate.controller 按下开始键开始观战
-purchase.error 错误
+purchase.error 购买出错
 purchase.error.click 点此</a> 重试！
 purchase.error.limit 你可能已超出每日交易限额
 settings.reset 重置
@@ -116,8 +116,8 @@ settings.client.angleBackend 几乎原生图型抽象层引擎后端
 settings.client.colorProfile 色彩配置文件
 settings.client.resourcePacks 资源包
 settings.dev.header 开发者
-settings.dev.forceUpdate 总是刷新皮肤
-settings.dev.forceRegen 总是重生玩家
+settings.dev.forceUpdate 强制刷新皮肤
+settings.dev.forceRegen 强制重生玩家
 settings.dev.extraBan 更多封禁信息
 settings.chat.header 聊天
 settings.chat.chat 显示聊天窗口
@@ -586,16 +586,16 @@ windows.publish.map.login 登录以创建并上传地图！
 windows.theatre.header 影院模式
 windows.theatre.record 启用录制
 windows.theatre.key 录制键
-windows.clans.header 兵团
-windows.clans.members {0} 个兵团成员
-windows.clans.requests 兵团申请
-windows.clans.requests.none 没有申请
-windows.clans.page [{0}] 兵团页面
-windows.clans.create 创建兵团
-windows.clans.name 兵团名称
-windows.clans.view 浏览兵团
-windows.clans.join 加入兵团
-windows.clans.login 登录以创建或加入兵团！
+windows.clans.header 战队
+windows.clans.members {0} 个战队成员
+windows.clans.requests 战队申请
+windows.clans.requests.none 没有战队申请
+windows.clans.page [{0}] 战队页面
+windows.clans.create 创建战队
+windows.clans.name 战队名称
+windows.clans.view 浏览战队
+windows.clans.join 加入战队
+windows.clans.login 登录以创建或加入战队！
 windows.store.header 商店
 windows.store.spin {0} 转盘
 windows.store.agree 确认购买即表示你同意{0}条款及细则
@@ -844,7 +844,7 @@ stats.thrownkills 投掷击杀数
 stats.headshots 爆头数
 stats.wallbangs 穿墙击杀数
 stats.crouches 下蹲次数
-stats.sprays  喷漆数
+stats.sprays 喷漆数
 stats.kpd 有效举报数
 windows.host.default.settings 启用地图默认设置以允许玩家保存他们的进度及最高分数
 windows.host.default.commands * 房主命令 (/noclip, /god, /smite 等) 在此模式中将会被禁用。
@@ -855,9 +855,9 @@ windows.store.creator 购买 KR 时，考虑使用创作者代码以支持你喜
 windows.chall.customs 自定义服务器内无法完成挑战任务。
 twitch.link 你确定要链接你的 Twitch 账户吗？
 twitch.unlink 你确定要取消链接你的 Twitch 账户吗？
-windows.clan.leave 你确定要离开此兵团吗？
-windows.clan.delete 你确定要解散此兵团吗？
-windows.clan.kick 你确定要从此兵团踢出 {0} 吗？
+windows.clan.leave 你确定要离开此战队吗？
+windows.clan.delete 你确定要解散此战队吗？
+windows.clan.kick 你确定要从此战队踢出 {0} 吗？
 windows.store.premium.purchase 你确定要购买 {0} 天的会员吗？
 windows.store.premium.gift 你确定要赠送 '{0}' {1} 天的会员吗？
 windows.playerlist.ban 你确定要从此服务器封禁并踢出 {0} 吗？
@@ -869,7 +869,7 @@ item.view.more 更多信息
 item.sell.cant 此物品不能被出售。
 item.sell.cant.krunker 此物品不能在 Krunker 内被出售。
 item.sell.quick 你确定要快速出售 {0} 吗？
-item.sell.destroy 你确定要摧毁 {0} 吗？
+item.sell.destroy 你确定要分解 {0} 吗？
 social.profile.stats 综合战绩
 social.profile.class 职业战绩
 social.profile.sales 出售记录
