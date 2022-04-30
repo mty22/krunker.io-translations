@@ -61,7 +61,7 @@ generic.accuracy 命中率
 player.waiting 等待更多玩家加入
 player.died 你死了
 player.killed 被此玩家击杀
-player.killstreak {0} is on {1} streak
+player.killstreak {0} on a {1} Kill Streak
 player.inactive 由于你的空闲时间过长，你已被踢出此服务器
 player.disconnect 连接已断开
 timer.end 下一场将在 {0} 后开始
