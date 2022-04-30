@@ -7,7 +7,7 @@ menu.btn.mods 模组
 menu.btn.settings 设置
 menu.btn.customize 自定义
 menu.btn.invite 邀请
-menu.btn.invite.clicked 已复制到剪贴板
+menu.btn.invite.clicked 已复制
 menu.btn.join 加入服务器
 menu.btn.host 创建服务器
 menu.btn.browser 浏览服务器
