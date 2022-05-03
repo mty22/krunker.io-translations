@@ -171,7 +171,7 @@ settings.post.ssao 屏幕空间环境光屏蔽
 settings.post.ssaoRadius 屏幕空间环境光屏蔽半径
 settings.interface.hitInd 显示伤害来源指示器
 settings.interface.hitColor 伤害来源指示器颜色
-settings.interface.dmg 显示伤害值
+settings.interface.dmg 显示伤害
 settings.interface.dmgCol 普通伤害值颜色
 settings.interface.critCol 爆头伤害值颜色
 settings.interface.header 界面
