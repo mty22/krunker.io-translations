@@ -674,7 +674,7 @@ thumbnail.upload.limit 上传失败，缩略图大小上限为 {0}kb
 image.upload.limit 上传失败，图片大小上限为 {0}kb
 thumbnail.upload.error 缩略图错误
 mod.extracting 提取中 {0}/{1}
-mod.disabled 模组已禁用
+mod.disabled 禁用模组
 mod.error 模组错误！
 mod.loading 加载模组中…
 mod.invalid 模组文件不可用！
