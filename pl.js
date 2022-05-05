@@ -362,7 +362,7 @@ settings.viewmodel.show.primary Wyświetlaj główną broń
 settings.viewmodel.show.secondary Wyświetlaj drugą broń
 settings.viewmodel.roundArms Okrągłe ramiona
 settings.viewmodel.show.melee Pokazuj broń białą
-settings.viewmodel.show.ads Ukryj broń przy celowaniu
+settings.viewmodel.show.ads Ukryj broń podczas celowania
 settings.viewmodel.toggleAim Przełącz celowanie
 settings.viewmodel.show.hands Wyświetlaj dłonie
 settings.viewmodel.leftHand Tryb leworęczny
@@ -371,11 +371,11 @@ settings.viewmodel.rot Obrócenie broni
 settings.viewmodel.xOff Przesunięcie broni w osi X
 settings.viewmodel.yOff Przesunięcie broni w osi Y
 settings.viewmodel.zOff Przesunięcie broni w osi Z
-settings.viewmodel.weapSwapY Zmiana broni Y
-settings.viewmodel.weapReloadY Przeładowanie broni Y
-settings.viewmodel.yOffADS Presunięcie Y przy celowaniu
-settings.viewmodel.adsFovMlt Siła FOV celowania
-settings.viewmodel.toggleADS Zmień siłę FOV celowania
+settings.viewmodel.weapSwapY Przesunięcie Y podczas zmiany broni
+settings.viewmodel.weapReloadY Przesunięcie Y podczas przeładowywania
+settings.viewmodel.yOffADS Przesunięcie Y podczas celowania
+settings.viewmodel.adsFovMlt Powiększenie podczas celowania
+settings.viewmodel.toggleADS Przełączanie celowania
 settings.editing.header Edycja
 settings.editing.health.high Wysokie HP w HUD
 settings.editing.health.low Niskie HP w HUD
@@ -754,7 +754,7 @@ server.config.logTim Zapisywanie czasu (Race, Parkour)
 server.config.hitBoxPad Hitbox Padding
 server.config.hpRegen Regeneracja życia
 server.config.disableB Wyłącz granice map
-server.config.throwMel Rzucanie broni białych
+server.config.throwMel Rzucanie nożem
 server.config.noCosm Wyłącz elementy kosmetyczne
 server.config.tstCmp Tryb testowy
 server.config.limitClasses Limit klas
@@ -795,7 +795,7 @@ social.market.face Przedmiot na twarz
 social.market.shoe Przedmiot butów
 social.market.pet Przedmiot zwierzaka
 social.market.wrist Przedmiot nadgarstka
-social.market.melee Przedmiot broni białej
+social.market.melee Przedmiot noża
 social.market.spray Przedmiot sprayu
 social.market.dye Przedmiot barwnika
 social.market.collectible Przedmiot kolekcjonerski
@@ -824,7 +824,7 @@ limited.purchase.success Dodano {0} do Twojego ekwipunku
 pretend.exit wciśnij [{0}] aby wyjść
 settings.loaded Załadowano ustawienia
 settings.loaded.none Nie znaleziono ustawień
-account.login.required Wymagane jest bycie zalogowanym
+account.login.required Musisz być zalogowany
 account.banned.hack To konto zostało zbanowane za używanie cheatów
 account.banned.appeal Jeśli chcesz odwołać się od bana, skontaktuj się z:
 account.delete Możesz zgłosić żądanie usunięcia Twojego konta, jeśli nie cofniesz tego żądania w ciągu 14 dni od wysłania go, Twoje konto zostanie trwale usunięte.
@@ -838,9 +838,9 @@ mod.reset.1 Obiekty na mapie nie ulegają resetowi
 windows.profile.picture Zmień zdjęcie profilowe
 stats.assists Asysty
 stats.nukes Zrzucone bomby
-stats.melee Zabójstwa przy użyciu broni białej
+stats.melee Zabójstwa nożem
 stats.fistkills Zabójstwa w wyniku pobicia
-stats.thrownkills Zabójstwa przez rzucenie bronią białą
+stats.thrownkills Zabójstwa przez rzut nożem
 stats.headshots Trafienia w głowę
 stats.wallbangs Trafienia przez ściany
 stats.crouches Przykucnięcia
@@ -896,8 +896,8 @@ social.trades.decline Odrzuć wszystkie
 social.trades.message WŁĄCZ WIADOMOŚCI O HANDLU W USTAWIENIACH
 social.trades.warning Nie dostaniesz żadnych przedmiotów z tej wymiany!
 social.trades.accept Czy na pewno chcesz przyjąć tę ofertę?
-stats.airdrops Paczki KR
-stats.airdrops.stolen Skradzione paczki KR
+stats.airdrops Zrzuty KR
+stats.airdrops.stolen Skradzione zrzuty KR
 settings.quality.flapAnim Animacja klapy do snajperki 
 chall.name.hs Zdobądź {0} zabójstw przez strzał w głowę {1}
 chall.name.ns Zdobądź {0} zabójstw bez przybliżania snajperką {1}
@@ -932,8 +932,8 @@ ranked.team.spawn Dołącz do drużyny, aby dołączyć do rozgrywki
 ranked.class.spawn Wybierz klasę, aby dołączyć do rozgrywki
 modes.round.win Twoja drużyna zabezpieczyła tę rundę
 modes.round.loss Tej rundy nie da się już wygrać
-modes.round.switch Zamiana stron. Przygotuj się na następną rundę
-modes.trade.success Wymiana zakończona sukcesem
+modes.round.switch Zmiana stron. Przygotuj się na następną rundę
+modes.trade.success Handel zakończony sukcesem
 modes.prophunt.limit [Chowany] Skończyły Ci się zmiany przykrywek
 modes.prophunt.left [Chowany] Pozostało Ci {0} zmian
 modes.prophunt.rotation.on [Chowany] Rotacja włączona
