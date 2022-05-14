@@ -303,7 +303,7 @@ settings.gameprivacy.header GamePlay Privada
 settings.gameprivacy.streamer Modo Streamer
 settings.gameprivacy.anon Modo Anónimo
 settings.gameprivacy.hideGameTitle Título do Jogo Escondido
-settings.gameprivacy.showRegion Mostar Informação da Região
+settings.gameprivacy.showRegion Mostrar Informação da Região
 settings.gameprivacy.verified Mostrar Emblema de Verificação
 settings.gameprivacy.premium Mostrar Emblema de Premium
 settings.gameprivacy.partner Mostrar Emblema de Partner
