@@ -41,7 +41,7 @@ generic.followers Seguidores
 generic.following Seguindo
 generic.games Jogos Da Comunidade
 generic.wins Vitórias
-generic.lose Derrotras
+generic.lose Derrotas
 generic.clan Clã
 generic.games.played Partidas Jogadas
 generic.games.won Partidas Ganhas
@@ -55,7 +55,7 @@ generic.logout Sair da Conta
 generic.logout.sessions Sair de Todas as Contas
 generic.username Nome de Usuário
 generic.password Senha
-generic.register Registar-se
+generic.register Registrar-se
 generic.login Entrar
 generic.accuracy Precisão
 player.waiting Esperando Por Jogadores
@@ -106,7 +106,7 @@ settings.experimental.tbInterp TB Interpolation
 settings.client.header Cliente
 settings.client.unlimitedFrames FPS Ilimitado
 settings.client.gameCap Captura de Jogo
-settings.client.experimental Funções Experimental
+settings.client.experimental Funções Experimentais
 settings.client.discordRPC RPC de Discord
 settings.client.resourceSwapper Trocador de Recursos
 settings.client.clearCache Limpar Cache
@@ -115,7 +115,7 @@ settings.client.acceleratedCanvas Canvas Acelerado
 settings.client.angleBackend Gráficos angulares de Backend
 settings.client.colorProfile Perfil de Cor
 settings.client.resourcePacks Pasta de Recursos
-settings.dev.header Desenvolvidor
+settings.dev.header Desenvolvedor
 settings.dev.forceUpdate Forçar atualização de skins
 settings.dev.forceRegen Regenerar Players
 settings.dev.extraBan Informação De Ban Extra
@@ -130,7 +130,7 @@ settings.chat.chatBGOp Opacidade do Fundo do Chat
 settings.chat.chatHeight Altura do Chat
 settings.chat.chatTimer Tempo do Chat (s)
 settings.chat.chatTextOutline Contorno de Texto do Chat
-settings.chat.chatFilter Fitro de Palavrões
+settings.chat.chatFilter Filtro de Palavrões
 settings.quality.header Qualidade
 settings.quality.updRate Limitação de Frames
 settings.quality.rendDst Distância de Renderização
@@ -138,7 +138,7 @@ settings.quality.res Resolução
 settings.quality.part Partículas
 settings.quality.mapDet Detalhes de Mapas
 settings.quality.noTex Sem Texturas
-settings.quality.partdist Distãncia de Partículas
+settings.quality.partdist Distância de Partículas
 settings.quality.renderdist Distância de Renderização
 settings.quality.reflection Qualidade de Reflexo
 settings.quality.antiAlias Anti-Serrilhamento
@@ -303,7 +303,7 @@ settings.gameprivacy.header GamePlay Privada
 settings.gameprivacy.streamer Modo Streamer
 settings.gameprivacy.anon Modo Anónimo
 settings.gameprivacy.hideGameTitle Título do Jogo Escondido
-settings.gameprivacy.showRegion Mostar Informaçºao da Região
+settings.gameprivacy.showRegion Mostar Informação da Região
 settings.gameprivacy.verified Mostrar Emblema de Verificação
 settings.gameprivacy.premium Mostrar Emblema de Premium
 settings.gameprivacy.partner Mostrar Emblema de Partner
@@ -607,11 +607,11 @@ windows.store.market2 Mercado Do Krunker
 windows.store.premium Comprar Premium
 windows.store.premium2 Krunker Premium
 windows.store.buyP Escolha uma exibição com Nome & mais
-windows.store.buy Compre e Venda Items no Mercado
+windows.store.buy Compre e Venda Itens no Mercado
 windows.store.wheels Roletas de Prêmio
-windows.store.unlock Desbloqueie Novas Skins de Armas e Items
+windows.store.unlock Desbloqueie Novas Skins de Armas e Itens
 windows.store.amount {0} KR na conta
-windows.store.login Faça login</a> Para Comprar e Desbloquear Items da Loja!
+windows.store.login Faça login</a> Para Comprar e Desbloquear Itens da Loja!
 windows.store.purchasing Comprando...
 windows.store.unboxed {0}{1} Unboxing
 windows.store.found {0}{1} encontrado
@@ -728,7 +728,7 @@ server.config.allowSpect Espectando
 server.config.killRewards Recompensas por Abate
 server.config.headshotOnly Apenas Tiros na Cabeça
 server.config.noSecondary Desativar Secundárias
-server.config.noStreaks Disativar Sequências de Abates
+server.config.noStreaks Desativar Sequências de Abates
 server.config.canSlide Deslizando
 server.config.wallJP Poder de Pulo na Parede
 server.config.autoJump Pulo Automático
@@ -754,7 +754,7 @@ server.config.logTim Tempo de Login (Corridas & Parkour)
 server.config.hitBoxPad Preenchimento de HitBox
 server.config.hpRegen Regeneração de Vida
 server.config.disableB Desativar Bordas
-server.config.throwMel Jogamento de Faca
+server.config.throwMel Arremesso de Faca
 server.config.noCosm Desativar Cosméticos
 server.config.tstCmp Modo de Teste
 server.config.limitClasses Limite de Classes
@@ -831,8 +831,8 @@ account.delete Você pode solicitar a exclusão de sua conta, se a solicitação
 account.delete.request Você tem certeza que quer pedir uma solicitação de apagamento de conta?
 account.delete.cancel Você tem certeza que deseja cancelar a deletação de sua conta?
 spin.free.available KR GRÁTIS DISPONÍVEL!
-spin.free.claim Este roleta está disponível para ser reivindicado uma vez por hora após a conclusão de uma partida.
-spin.free.disable Esse Pop-Up pode ser Desativo nas Configurações Gerais
+spin.free.claim Esta roleta está disponível para ser reivindicada uma vez por hora após a conclusão de uma partida.
+spin.free.disable Esse Pop-Up pode ser Desativado nas Configurações Gerais
 mod.reset.0 Terá efeito após o renascimento.
 mod.reset.1 Objetivo do mapa não terá Reset
 windows.profile.picture Mude a Imagem
@@ -866,7 +866,7 @@ windows.playerlist.unflag Tem certeza que deseja Desmarcar {0}?
 windows.playerlist.punish Tem certeza de que deseja tomar medidas em relação a {0}?
 item.view.open Abrir Visualizador de Modelo
 item.view.more Mais Informações
-item.sell.cant Item Impossível ser Vendido.
+item.sell.cant Item Impossível de ser Vendido.
 item.sell.cant.krunker Impossível ser Vendido no Krunker.
 item.sell.quick Você tem certeza que quer Fazer a Venda Rápida {0}?
 item.sell.destroy Tem certeza que quer destruir {0}?
@@ -875,13 +875,13 @@ social.profile.class Estatísticas da Classe
 social.profile.sales Vendas
 social.profile.sales.market Vendas no Mercado
 social.profile.skins Skins [{0}]
-social.profile.skins.none Nenhuma Skin Públicada por esse Usuário
+social.profile.skins.none Nenhuma Skin Publicada por esse Usuário
 social.profile.games Jogos [{0}]
-social.profile.games.none Nenhum Jogo Públicado por esse Usuário
+social.profile.games.none Nenhum Jogo Publicado por esse Usuário
 social.profile.assets Tópico [{0}]
 social.profile.assets.none Nenhum Tópico Publicado por esse Usuário
 social.profile.mods Modificações [{0}]
-social.profile.mods.none Nenhuma Modificação Públicada por esse Usuário
+social.profile.mods.none Nenhuma Modificação Publicada por esse Usuário
 social.search Procurar Resultados
 social.market.stats.rare Item Mais Raro
 social.market.stats.circulation Em Circulação
@@ -897,7 +897,7 @@ social.trades.message Habilitar Mensagens de Troca Nas Configurações
 social.trades.warning Você não Ganhará Nenhum Item Nessa Troca
 social.trades.accept Você tem Certeza que Deseja Aceitar essa Oferta?
 stats.airdrops Pacote de KR
-stats.airdrops.stolen Pacote de KR Robados
+stats.airdrops.stolen Pacote de KR Roubados
 settings.quality.flapAnim Animação de Flap
 chall.name.hs Matar {0} com tiros na cabeça {1}
 chall.name.ns Matar {0} sem mira {1}
