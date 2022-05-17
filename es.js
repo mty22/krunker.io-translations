@@ -254,7 +254,7 @@ settings.crosshair.gap Separación
 settings.crosshair.dot Punto
 settings.crosshair.opacity.use Usar opacidad personalizada
 settings.crosshair.opacity.custom Opacidad personalizada
-settings.crosshairm.header Retiícula (Throwing)
+settings.crosshairm.header Retícula (Throwing)
 settings.crosshairm.type Tipo
 settings.crosshairm.type.1 Formas
 settings.crosshairm.type.2 Imagen
@@ -845,7 +845,7 @@ stats.headshots Tiros en la Cabeza
 stats.wallbangs Bajas a través de Paredes
 stats.crouches Agachamientos
 stats.sprays Sprays Colocados
-stats.kpd Helpful Reportes
+stats.kpd Reportes útiles
 windows.host.default.settings Habilitar las configuraciones predeterminadas permite guardar el progreso del jugador y puntajes más altos
 windows.host.default.commands *Los comandos de hosteo están deshabilitados para este modo : /noclip /god /smite etc
 windows.host.rewards Activando Recompensas de KR forza al servidor a usar configuraciones por defecto y permite a los jugadores ganar recompenzas de los fondos del mapa:
@@ -898,7 +898,7 @@ social.trades.warning No obtienes objetos de este intercambio!
 social.trades.accept Estás seguro de qué quieres aceptar esta oferta?
 stats.airdrops Paquetes de KR
 stats.airdrops.stolen Paquetes de KR Robados
-settings.quality.flap Animación de Mirilla de Francotirador
+settings.quality.flapAnim Animación de Mirilla de Francotirador
 chall.name.hs Obtén {0} Disparos a la Cabeza {1}
 chall.name.ns Obtén {0} no-scope {1}
 chall.name.ls Obtén {0} Disparos desde la Cadera {1}
