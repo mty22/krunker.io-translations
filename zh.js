@@ -64,7 +64,7 @@ player.killed 被此玩家击杀
 player.killstreak {0} on a {1} Kill Streak
 player.inactive 由于你的空闲时间过长，你已被踢出此服务器
 player.disconnect 连接已断开
-timer.end 下一场将在 {0} 后开始
+timer.end 下一场将在{0}后开始
 leaderboard.empty 这里没有任何玩家
 popup.checkpoint 检查点！
 app.play 点击开始游戏
@@ -73,8 +73,8 @@ app.play.mobile 点击屏幕开始游戏
 app.spectate.mobile 点击屏幕开始观战
 app.play.controller 按下开始键开始游戏
 app.spectate.controller 按下开始键开始观战
-purchase.error 购买出错
-purchase.error.click 点此</a> 重试！
+purchase.error 出错了
+purchase.error.click 点此</a>重试！
 purchase.error.limit 你可能已超出每日交易限额
 settings.reset 重置
 settings.reset.confirm 你确定要重置所有设置吗？
@@ -91,7 +91,7 @@ settings.local.region 默认地区
 settings.local.lang 语言
 settings.network.header 网络
 settings.network.netRerouting 动态路由（影响网络延时）
-settings.network.netRate 网络刷新率 (赫兹）
+settings.network.netRate 网络刷新率 (Hz)
 settings.network.lagComp 延迟补偿
 settings.network.optNet 网络最优化
 settings.network.quickplay 强制快速游玩
@@ -102,12 +102,12 @@ settings.experimental.aimFreezeFix 瞄准冻结修正（射击时限制帧率）
 settings.experimental.mouseFlickFix 鼠标无故跳动修正（限制轮询率）
 settings.experimental.shaderRendering 实例化渲染
 settings.experimental.mouseAccel 鼠标加速
-settings.experimental.tbInterp TB 样条插值
+settings.experimental.tbInterp TB样条插值
 settings.client.header 客户端
 settings.client.unlimitedFrames 禁用垂直同步
 settings.client.gameCap 游戏捕获
 settings.client.experimental 实验性功能
-settings.client.discordRPC Discord 丰富状态
+settings.client.discordRPC Discord丰富状态
 settings.client.resourceSwapper 资源转换器
 settings.client.clearCache 清除缓存
 settings.client.resetSettings 重置客户端设置
@@ -117,12 +117,12 @@ settings.client.colorProfile 色彩配置文件
 settings.client.resourcePacks 资源包
 settings.dev.header 开发者
 settings.dev.forceUpdate 强制刷新皮肤
-settings.dev.forceRegen 强制重生玩家
+settings.dev.forceRegen 总是重生玩家
 settings.dev.extraBan 更多封禁信息
 settings.chat.header 聊天
 settings.chat.chat 显示聊天窗口
 settings.chat.chat.all 总是
-settings.chat.chat.focus 聚焦到 [Enter Message] 字段时
+settings.chat.chat.focus 聚焦到[Enter Message]字段时
 settings.chat.messages 显示玩家信息
 settings.chat.unboxings 显示玩家开箱信息
 settings.chat.chatOp 聊天窗口不透明度
@@ -300,7 +300,7 @@ settings.serverb.header 服务器浏览器
 settings.serverb.oldBrowser 旧版浏览器
 settings.serverb.defaultRegionOnly 仅显示默认地区的服务器
 settings.gameprivacy.header 游戏隐私
-settings.gameprivacy.streamer 直播模式
+settings.gameprivacy.streamer 主播模式
 settings.gameprivacy.anon 匿名模式
 settings.gameprivacy.hideGameTitle 隐藏游戏名称
 settings.gameprivacy.showRegion 显示地区信息
@@ -454,15 +454,15 @@ settings.social.region 地区统计
 settings.social.bg 社区界面背景图片
 settings.social.bg.paste 社区界面背景图片网址
 windows.settings.header 游戏设置
-windows.mail.header Krunker 邮箱
+windows.mail.header Krunker邮箱
 windows.servers.header 服务器
 windows.servers.none 没有可加入的服务器…
 windows.servers.host + 创建服务器
 windows.servers.hide 隐藏已满的服务器
 windows.servers.priority 默认地区优先
-windows.servers.online {0} 个玩家在游戏中
-windows.servers.social {0} 个玩家在社区中
-windows.servers.editor {0} 个玩家在地图编辑器中
+windows.servers.online {0}个玩家在游戏中
+windows.servers.social {0}个玩家在社区中
+windows.servers.editor {0}个玩家在地图编辑器中
 windows.loadout.header 更换武器搭配
 windows.loadout.class 职业
 windows.loadout.primary 主武器
@@ -498,7 +498,7 @@ windows.mods.load.header 加载模组
 windows.mods.publish 发布模组
 windows.mods.viewer 查看器
 windows.account.header 账户
-windows.account.recover 联系 <a>recovery@yendis.ch</a> 找回你的账户。
+windows.account.recover 联系<a>recovery@yendis.ch</a>找回你的账户。
 windows.class.header 选择职业
 windows.controls.header 更改控制
 windows.controls.forward 前
@@ -528,8 +528,8 @@ windows.controls.drop 丢弃
 windows.controls.wepVis 武器可见度切换键
 windows.controls.kickVoteY 投票踢出玩家［是］
 windows.controls.kickVoteN 投票踢出玩家［否］
-windows.controls.kpdVoteY KPD 投票［是］
-windows.controls.kpdVoteN KPD 投票［否］
+windows.controls.kpdVoteY KPD投票［是］
+windows.controls.kpdVoteN KPD投票［否］
 windows.controls.specFree 自由视角
 windows.controls.specObj 目标点视角
 windows.controls.specFirst 第一人称视角
@@ -555,7 +555,7 @@ windows.controls.premium0 飞天模式
 windows.controls.premium1 无敌模式
 windows.controls.premium2 自杀
 windows.controls.premium3 瞬间击杀
-windows.controls.reset 重置进度并回到起点（跑酷等）
+windows.controls.reset 重置进度并回到起点（速通、跑酷模式）
 windows.controls.pretend 隐藏游戏
 windows.host.header 创建自定义服务器
 windows.host.maps 服务器设置
@@ -587,10 +587,10 @@ windows.theatre.header 影院模式
 windows.theatre.record 启用录制
 windows.theatre.key 录制键
 windows.clans.header 战队
-windows.clans.members {0} 个战队成员
+windows.clans.members {0}个战队成员
 windows.clans.requests 战队申请
 windows.clans.requests.none 没有战队申请
-windows.clans.page [{0}] 战队页面
+windows.clans.page [{0}]战队页面
 windows.clans.create 创建战队
 windows.clans.name 战队名称
 windows.clans.view 浏览战队
@@ -610,24 +610,24 @@ windows.store.buyP 购买会员后，你将可以自定义你的显示名称和�
 windows.store.buy 买卖物品尽在
 windows.store.wheels 转盘
 windows.store.unlock 解锁新武器和物品
-windows.store.amount 你的账户还剩余 {0} KR
+windows.store.amount 你的账户还剩余{0}KR
 windows.store.login 登录以在商店中购买物品！
 windows.store.purchasing 购买中…
-windows.store.unboxed {0} 开箱获得了 {1}
-windows.store.found {0} 找到了 {1}
+windows.store.unboxed {0}开箱获得了{1}
+windows.store.found {0}找到了{1}
 windows.trade.header 交易
 windows.scope.header 选择狙击镜
 windows.premium.header 会员
 windows.skin.header 选择皮肤
-windows.hat.header 选择头部饰品
+windows.hat.header 选择帽子
 windows.back.header 选择背部饰品
 windows.waist.header 选择腰部饰品
 windows.face.header 选择表情
 windows.melee.header 选择近战武器
 windows.attach.header 选择附件
 windows.reticle.header 选择准星
-windows.reticle.unlocked 于 {0} 级解锁
-windows.reticle.req 需要 {0} 级
+windows.reticle.unlocked 于{0}级解锁
+windows.reticle.req 需要{0}级
 windows.dye.header 选择衣服染色
 windows.dye.default 默认衣服染色
 windows.dye.spin 衣服染色
@@ -648,12 +648,12 @@ windows.secondary.header 选择副武器
 windows.secondary.unlocked 已解锁
 windows.secondary.customOnly 仅限自定义服务器
 windows.secondary.premiumOnly 仅限会员
-windows.secondary.req 需要 {0} 级
+windows.secondary.req 需要{0}级
 windows.skins.unlocked 已解锁
 windows.skins.customOnly 仅限自定义服务器
 windows.skins.premiumOnly 会员专属
-windows.skins.classOnly 需要 {0}
-windows.skins.req 需要 {0} 级
+windows.skins.classOnly 需要{0}
+windows.skins.req 需要{0}级
 windows.skins.default 默认皮肤
 windows.advertise.header 广告
 windows.support.header 支援
@@ -667,11 +667,11 @@ windows.client.mac macOS 安装程序
 windows.client.linux Linux 安装程序
 windows.ranked.header 排位赛
 windows.ranked.login 登录以进行排位赛！
-windows.ranked.level 你至少需要 <span color="black">{0} 级</span> 以进行排位赛！当前你处于 <span color="black">{1} 级</span>。
+windows.ranked.level 你至少需要<span color="black">{0}级</span>以进行排位赛！当前你处于<span color="black">{1}级</span>。
 windows.chall.header 挑战任务
 windows.chall.login 登录以完成挑战任务！
-thumbnail.upload.limit 上传失败，缩略图大小上限为 {0}kb
-image.upload.limit 上传失败，图片大小上限为 {0}kb
+thumbnail.upload.limit 上传失败，缩略图大小上限为{0}kb
+image.upload.limit 上传失败，图片大小上限为{0}kb
 thumbnail.upload.error 缩略图错误
 mod.extracting 提取中 {0}/{1}
 mod.disabled 模组已禁用
@@ -680,17 +680,17 @@ mod.loading 加载模组中…
 mod.invalid 无效的模组文件！
 matchmaker.full 已满
 matchmaker.GameFull 此服务器人数已满。
-matchmaker.NoServersMatchQuery 游戏更新中。
+matchmaker.NoServersMatchQuery 游戏更新中
 matchmaker.InvalidGameId 此服务器已关闭或不存在。
-matchmaker.NoAvailableServers 没有任何空闲的服务器
+matchmaker.NoAvailableServers 当前没有任何空闲的服务器
 matchmaker.GameIssue 加入时出现未知问题
-adblocker 禁用广告拦截器以获得免费 KR 转盘。
+adblocker 禁用广告拦截器以获得免费KR转盘。
 ad-failed 广告加载失败，请稍后重试。
-streamers.views {0} 个观众
-streamers.none 当前没有任何 Twitch 直播！
+streamers.views {0}个观众
+streamers.none 当前没有任何Twitch直播！
 error.extentions 如果你有任何浏览器插件，请禁用它们
 error.seek 点此搜索新的游戏
-custom.map.upload.limit 上传失败，地图数据大小上限为五十万个字符
+custom.map.upload.limit 上传失败，地图数据大小上限为500kb
 custom.map.missing 请选择至少一种地图
 custom.mode.missing 请选择至少一种游戏模式
 custom.class.missing 请选择至少一种职业
@@ -700,7 +700,7 @@ server.config.lives 玩家生命数
 server.config.gameTime 每局时间（分钟）
 server.config.gravMlt 重力
 server.config.tickRI 高性能服务器
-server.config.maxPS 40 名玩家服务器
+server.config.maxPS 40名玩家服务器
 server.config.promServ 推广服务器
 server.config.jumpMlt 跳跃力量
 server.config.airStrf 空中转向
@@ -713,16 +713,16 @@ server.config.fixMov 移动机制修正（使跳跃高度和加速不被帧率�
 server.config.slidSpd 滑铲速度
 server.config.healthMlt 血量倍数
 server.config.impulseMlt 武器后坐力
-server.config.nameTeam1 队伍 1 名称
-server.config.nameTeam2 队伍 2 名称
-server.config.nameTeam3 队伍 3 名称
-server.config.nameTeam4 队伍 4 名称
-server.config.nameTeam5 队伍 5 名称
-server.config.t1Dmg 队伍 1 伤害倍数
-server.config.t2Dmg 队伍 2 伤害倍数
-server.config.t3Dmg 队伍 3 伤害倍数
-server.config.t4Dmg 队伍 4 伤害倍数
-server.config.t5Dmg 队伍 5 伤害倍数
+server.config.nameTeam1 队伍1名称
+server.config.nameTeam2 队伍2名称
+server.config.nameTeam3 队伍3名称
+server.config.nameTeam4 队伍4名称
+server.config.nameTeam5 队伍5名称
+server.config.t1Dmg 队伍1伤害倍数
+server.config.t2Dmg 队伍2伤害倍数
+server.config.t3Dmg 队伍3伤害倍数
+server.config.t4Dmg 队伍4伤害倍数
+server.config.t5Dmg 队伍5伤害倍数
 server.config.selTeam 可自由选择队伍
 server.config.allowSpect 允许观战
 server.config.killRewards 击杀奖励
@@ -778,13 +778,13 @@ social.mods.none 没有找到任何模组…
 social.market.price.low 最低价格
 social.market.price.list 输入价格
 social.market.searching 搜索中
-social.market.listed {0} 前上架
+social.market.listed {0}前上架
 social.market.list 上架物品
 social.market.unlist 下架物品
 social.market.unlisting 下架物品中…
 social.market.posting 上架物品中…
-social.market.req 需要 {0} 级
-social.market.cant KR 不足
+social.market.req 需要{0}级
+social.market.cant KR不足
 social.market.purchase 购买
 social.market.fee 无上架费用
 social.market.failed 失败，请稍后重试
@@ -801,7 +801,7 @@ social.market.dye 衣服染色
 social.market.collectible 可收集物品
 social.market.none 没有找到任何物品
 social.market.login 你必须先登录。
-social.market.grace {0} 后上架
+social.market.grace {0}后上架
 social.market.sort 筛选或排序
 social.market.filter 搜索
 social.market.sort2 排序
@@ -809,19 +809,19 @@ social.market.price.high 最高价格
 social.trading.submitting 发送交易请求中…
 social.market.gift.amount 赠送金额
 social.market.fee.gift 无费用
-social.market.gift 赠送 KR
+social.market.gift 赠送KR
 social.market.gift.msg 说点什么呢…
-respawn.auto 你将会在 {0} 秒后重生
+respawn.auto 你将会在{0}秒后重生
 custom.host.ranked 排位赛中无法创建自定义服务器。
 funds.insufficient 资金余额不足
 funds.out 你似乎没有 KR 了
 custom.passcode.long 密码过长
 custom.passcode.input 请输入此服务器密码以加入游戏
 custom.tryagain 请重试。
-purchase.kr.success 已添加 {0} KR 到你的账户
-limited.purchase.ask 你确定要以 {1} KR 购买 [{0}] 吗？
-limited.purchase.success 已添加 {0} 到你的库存
-pretend.exit 再次点击 [{0}] 退出
+purchase.kr.success 已添加{0}KR到你的账户
+limited.purchase.ask 你确定要以{1}KR购买[{0}]吗？
+limited.purchase.success 已添加{0}到你的库存
+pretend.exit 再次点击[{0}]退出
 settings.loaded 设置已加载
 settings.loaded.none 没有找到任何设置
 account.login.required 你必须先登录
@@ -830,9 +830,9 @@ account.banned.appeal 如果你想提出上诉，请联系：
 account.delete 你可以在此申请删除你的账户。请注意！如果此申请在14天内没有被取消，此账户的所有数据将会被永久抹除。
 account.delete.request 你确定要申请删除此账户吗？
 account.delete.cancel 你确定要取消申请删除此账户吗？
-spin.free.available 立即领取免费 KR！
+spin.free.available 立即领取免费KR！
 spin.free.claim 你必须在每小时内完成一场游戏才能领取此转盘。
-spin.free.disable 你可以在设置的 [General] 选项卡里禁用此弹窗。
+spin.free.disable 你可以在设置的[General]选项卡里禁用此弹窗。
 mod.reset.0 重生后此设置将会生效。
 mod.reset.1 地图物品不会被重置。
 windows.profile.picture 更改头像
@@ -847,79 +847,79 @@ stats.crouches 下蹲次数
 stats.sprays 喷漆数
 stats.kpd 有效举报数
 windows.host.default.settings 启用地图默认设置以允许玩家保存他们的进度及最高分数
-windows.host.default.commands * 房主命令 (/noclip, /god, /smite 等) 在此模式中将会被禁用。
-windows.host.rewards 启用 KR 奖励将强制服务器使用地图默认设置，以允许玩家从此地图获得 KR：
+windows.host.default.commands * 房主命令（/noclip, /god, /smite 等）在此模式中将会被禁用。
+windows.host.rewards 启用KR奖励将强制服务器使用地图默认设置，以允许玩家从此地图获得KR：
 windows.store.wheels.sub 试试你的运气，转动奖盘来赢得全新皮肤！
 windows.store.currency * 美元和你当地货币之间的汇率由支付服务提供商或银行决定。
-windows.store.creator 购买 KR 时，考虑使用创作者代码以支持你喜爱的内容创作者
+windows.store.creator 购买KR时，考虑使用创作者代码以支持你喜爱的内容创作者
 windows.chall.customs 自定义服务器内无法完成挑战任务。
-twitch.link 你确定要链接你的 Twitch 账户吗？
-twitch.unlink 你确定要取消链接你的 Twitch 账户吗？
+twitch.link 你确定要链接你的Twitch账户吗？
+twitch.unlink 你确定要取消链接你的Twitch账户吗？
 windows.clan.leave 你确定要离开此战队吗？
 windows.clan.delete 你确定要解散此战队吗？
-windows.clan.kick 你确定要从此战队踢出 {0} 吗？
-windows.store.premium.purchase 你确定要购买 {0} 天的会员吗？
-windows.store.premium.gift 你确定要赠送 '{0}' {1} 天的会员吗？
-windows.playerlist.ban 你确定要从此服务器封禁并踢出 {0} 吗？
-windows.playerlist.flag 你确定要封禁 {0} 吗？
-windows.playerlist.unflag 你确定要取消封禁 {0} 吗？
-windows.playerlist.punish 你确定要对 {0} 采取措施吗？
+windows.clan.kick 你确定要从此战队踢出{0}吗？
+windows.store.premium.purchase 你确定要购买{0}天的会员吗？
+windows.store.premium.gift 你确定要赠送'{0}'{1}天的会员吗？
+windows.playerlist.ban 你确定要从此服务器封禁并踢出{0}吗？
+windows.playerlist.flag 你确定要封禁{0}吗？
+windows.playerlist.unflag 你确定要取消封禁{0}吗？
+windows.playerlist.punish 你确定要对{0}采取措施吗？
 item.view.open 打开模型查看器
 item.view.more 更多信息
 item.sell.cant 此物品不能被出售。
-item.sell.cant.krunker 此物品不能在 Krunker 内被出售。
-item.sell.quick 你确定要快速出售 {0} 吗？
-item.sell.destroy 你确定要分解 {0} 吗？
+item.sell.cant.krunker 此物品不能在Krunker内被出售。
+item.sell.quick 你确定要快速出售{0}吗？
+item.sell.destroy 你确定要分解{0}吗？
 social.profile.stats 综合战绩
 social.profile.class 职业战绩
 social.profile.sales 出售记录
 social.profile.sales.market 市场出售额
-social.profile.skins [{0}] 个皮肤
+social.profile.skins [{0}]个皮肤
 social.profile.skins.none 此玩家没有已发布的皮肤
-social.profile.games [{0}] 个地图
+social.profile.games [{0}]个地图
 social.profile.games.none 此玩家没有已发布的地图
-social.profile.assets [{0}] 个地图组件
+social.profile.assets [{0}]个地图组件
 social.profile.assets.none 此玩家没有已发布的地图组件
-social.profile.mods [{0}] 个模组
+social.profile.mods [{0}]个模组
 social.profile.mods.none 此玩家没有已发布的模组
 social.search 搜索结果
 social.market.stats.rare 最稀有物品
 social.market.stats.circulation 流通中
 social.market.stats.units 全球持有数量
 social.trades.in 收到的交易请求
-social.trades.in.head 收到 ({0}) 个交易请求
+social.trades.in.head 收到({0})个交易请求
 social.trades.out 已发送的交易请求
-social.trades.out.head 发送 ({0}) 个交易请求
+social.trades.out.head 发送({0})个交易请求
 social.trades.history 交易记录
-social.trades.history.head ({0}) 个交易记录
+social.trades.history.head ({0})个交易记录
 social.trades.decline 全部拒绝
 social.trades.message 在市场设置中启用「显示交易信息」选项
 social.trades.warning 你将不会在此交易中得到任何物品！
 social.trades.accept 你确定要接受此交易请求吗？
-stats.airdrops KR 空投
+stats.airdrops 空投
 stats.airdrops.stolen 偷取空投次数
 settings.quality.flapAnim 狙击镜保护盖动画
-chall.name.hs 在 {1} 取得 {0} 个爆头
-chall.name.ns 在 {1} 取得 {0} 个盲狙
-chall.name.ls 在 {1} 取得 {0} 个腿部击杀
-chall.name.tmk 在 {1} 取得 {0} 个投掷击杀
-chall.name.fb 在 {1} 取得 {0} 个第一滴血
-chall.name.mk 在 {1} 取得 {0} 个近战击杀
-chall.name.fk 在 {1} 取得 {0} 个空手击杀
-chall.name.qs 在 {1} 取得 {0} 个瞬狙
-chall.name.wb 在 {1} 取得 {0} 个穿墙击杀
-chall.name.airk 在 {1} 取得 {0} 个空中击杀
-chall.name.lns 在 {1} 取得 {0} 个远射击杀
-chall.name.tk 在 {1} 取得 {0} 个高速击杀
-chall.name.drk 在 {1} 取得 {0} 个滑铲击杀
-chall.name.kstk 在 {1} 取得 {0} 连杀
-chall.name.w 取得 {0} 场胜利
-chall.name.d 死亡 {0} 次
-chall.name.score 取得 {0} 分
-chall.name.dmg 在 {1} 造成 {0} 点伤害
-chall.name.bzk 在 {1} 取得 {0} 连杀终止击杀
-chall.name.cc 在 {1} 取得 {0} 残血击杀
-chall.name.rk 在 {1} 取得 {0} 复仇击杀
+chall.name.hs 在{1}取得{0}个爆头
+chall.name.ns 在{1}取得{0}个盲狙
+chall.name.ls 在{1}取得{0}个腿部击杀
+chall.name.tmk 在{1}取得{0}个投掷击杀
+chall.name.fb 在{1}取得{0}个第一滴血
+chall.name.mk 在{1}取得{0}个近战击杀
+chall.name.fk 在{1}取得{0}个空手击杀
+chall.name.qs 在{1}取得{0}个瞬狙
+chall.name.wb 在{1}取得{0}个穿墙击杀
+chall.name.airk 在{1}取得{0}个空中击杀
+chall.name.lns 在{1}取得{0}个远射击杀
+chall.name.tk 在{1}取得{0}个高速击杀
+chall.name.drk 在{1}取得{0}个滑铲击杀
+chall.name.kstk 在{1}取得{0}连杀
+chall.name.w 取得{0}场胜利
+chall.name.d 死亡{0}次
+chall.name.score 取得{0}分
+chall.name.dmg 在{1}造成{0}点伤害
+chall.name.bzk 在{1}取得{0}连杀终止击杀
+chall.name.cc 在{1}取得{0}残血击杀
+chall.name.rk 在{1}取得{0}复仇击杀
 event.doubleXP 已为此场比赛启用双倍职业经验
 ranked.join 已加入排位赛。罢赛将会受到暂时性禁赛惩罚
 ranked.progress 比赛进行中
@@ -935,33 +935,33 @@ modes.round.loss 此回合不再可胜
 modes.round.switch 已交换双方的初始位置。请做好下一回合的准备
 modes.trade.success 交易成功
 modes.prophunt.limit ［物品猎杀］你已用尽所有物品切换次数
-modes.prophunt.left ［物品猎杀］你还剩余 {0} 个物品切换次数
+modes.prophunt.left ［物品猎杀］你还剩余{0}个物品切换次数
 modes.prophunt.rotation.on ［物品猎杀］已启用物品旋转
 modes.prophunt.rotation.off ［物品猎杀］已禁用物品旋转
-modes.prophunt.rotation.reset ［物品猎杀］已重置物品旋转。
+modes.prophunt.rotation.reset ［物品猎杀］已重置物品旋转
 commands.login 登录以使用此命令
-commands.connected {0} 个玩家已连接，{1} 个玩家在标题画面
-commands.host {0} 是当前房主。
+commands.connected {0}个玩家已连接，{1}个玩家在标题画面
+commands.host {0} 是当前服主。
 commands.noclip.on 飞天模式 - 已启用
 commands.noclip.off 飞天模式 - 已禁用
 commands.god.on 无敌模式 - 已启用
 commands.god.off 无敌模式 - 已禁用
-commands.god.on.other 无敌模式 - 已为 {0} 启用
-commands.god.off.other 无敌模式 - 已为 {0} 禁用
+commands.god.on.other 无敌模式 - 已为{0}启用
+commands.god.off.other 无敌模式 - 已为{0}禁用
 commands.smite.on 瞬间击杀 - 已启用
 commands.smite.off 瞬间击杀 - 已禁用
-commands.smite.on.other 瞬间击杀 - 已为 {0} 启用
-commands.smite.off.other 瞬间击杀 - 已为 {0} 禁用
-commands.perk 已给予 {0} {1}
-commands.maxperk 已给予 {0} 最高等级的 {1}
+commands.smite.on.other 瞬间击杀 - 已为{0}启用
+commands.smite.off.other 瞬间击杀 - 已为{0}禁用
+commands.perk 已给予{0} {1}
+commands.maxperk 已给予{0}最高等级的{1}
 commands.unlimited.on 无限子弹 - 已启用
 commands.unlimited.off 无限子弹 - 已禁用
-commands.unlimited.on.other 无限子弹 - 已为 {0} 启用
-commands.unlimited.off.other 无限子弹 - 已为 {0} 禁用
+commands.unlimited.on.other 无限子弹 - 已为{0}启用
+commands.unlimited.off.other 无限子弹 - 已为{0}禁用
 commands.spraybypass.on 无限喷漆 - 已启用
 commands.spraybypass.off 无限喷漆 - 已禁用
-commands.spraybypass.on.other 无限喷漆 - 已为 {0} 启用
-commands.spraybypass.off.other 无限喷漆 - 已为 {0} 禁用
+commands.spraybypass.on.other 无限喷漆 - 已为{0}启用
+commands.spraybypass.off.other 无限喷漆 - 已为{0}禁用
 commands.suspect.invalid 无效的嫌疑玩家信息
 commands.suspect.menu 嫌疑玩家在标题画面
 commands.suspect.left 嫌疑玩家已离开
@@ -969,14 +969,14 @@ commands.suspect.found 已找到嫌疑玩家。是否在旁观：{0}，是否在
 commands.forfeit.next 必须先完成一个回合
 commands.forfeit.wait 等待至回合开始后才能发起投降
 commands.forfeit.later 请等待数秒后再重试
-commands.forfeit.voted 你已经投过票了。
+commands.forfeit.voted 你已经投过票了
 commands.forfeit.limit 你只能发起一次投降
 commands.forfeit.ended 投降中
 commands.forfeit.ended.other 敌方队伍已投降
-server.message.join {0} 已加入此服务器
-server.message.left {0} 已离开此服务器
-server.message.kicked {0} 已被踢出
-server.message.banned {0} 已被封禁
-server.message.votekicked {0} 已被投票踢出
-server.message.arrested {0} 已被 K.P.D 逮捕
+server.message.join {0}已加入此服务器
+server.message.left {0}已离开此服务器
+server.message.kicked {0}已被踢出
+server.message.banned {0}已被封禁
+server.message.votekicked {0}已被投票踢出
+server.message.arrested {0}已被K.P.D逮捕
 `;
