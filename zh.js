@@ -536,11 +536,11 @@ windows.controls.specFirst 第一人称视角
 windows.controls.specNames 强制显示玩家名称
 windows.controls.specFocus 聚焦玩家
 windows.controls.hidePlayers 隐藏玩家
-windows.controls.streak0 连杀奖励 1
-windows.controls.streak1 连杀奖励 2
-windows.controls.streak2 连杀奖励 3
-windows.controls.streak3 连杀奖励 4
-windows.controls.streak4 连杀奖励 5
+windows.controls.streak0 连杀奖励1
+windows.controls.streak1 连杀奖励2
+windows.controls.streak2 连杀奖励3
+windows.controls.streak3 连杀奖励4
+windows.controls.streak4 连杀奖励5
 windows.controls.taunt0 嘲讽（噗嗤声）
 windows.controls.taunt1 嘲讽（口哨声）
 windows.controls.taunt2 嘲讽（放屁声）
@@ -599,13 +599,13 @@ windows.clans.login 登录以创建或加入战队！
 windows.store.header 商店
 windows.store.spin {0} 转盘
 windows.store.agree 确认购买即表示你同意{0}条款及细则
-windows.store.purchase 购买 KR
+windows.store.purchase 购买KR
 windows.store.voucher 兑换代金券
 windows.store.voucherinfo 从指定主播和游戏活动获取代金券
 windows.store.market 市场
-windows.store.market2 Krunker 市场
+windows.store.market2 Krunker市场
 windows.store.premium 购买会员
-windows.store.premium2 Krunker 会员
+windows.store.premium2 Krunker会员
 windows.store.buyP 购买会员后，你将可以自定义你的显示名称和体验更多专属功能！
 windows.store.buy 买卖物品尽在
 windows.store.wheels 转盘
@@ -651,7 +651,7 @@ windows.secondary.premiumOnly 仅限会员
 windows.secondary.req 需要{0}级
 windows.skins.unlocked 已解锁
 windows.skins.customOnly 仅限自定义服务器
-windows.skins.premiumOnly 会员专属
+windows.skins.premiumOnly 仅限会员
 windows.skins.classOnly 需要{0}
 windows.skins.req 需要{0}级
 windows.skins.default 默认皮肤
@@ -662,9 +662,9 @@ windows.players.none 当前没有任何在线玩家…
 windows.join.header 加入
 windows.join.code 输入服务器网址或代码
 windows.client.header 客户端
-windows.client.windows Windows 安装程序
-windows.client.mac macOS 安装程序
-windows.client.linux Linux 安装程序
+windows.client.windows Windows安装程序
+windows.client.mac macOS安装程序
+windows.client.linux Linux安装程序
 windows.ranked.header 排位赛
 windows.ranked.login 登录以进行排位赛！
 windows.ranked.level 你至少需要<span color="black">{0}级</span>以进行排位赛！当前你处于<span color="black">{1}级</span>。
