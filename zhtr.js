@@ -64,7 +64,7 @@ player.killed 被此玩家擊殺
 player.killstreak {0} on a {1} Kill Streak
 player.inactive 由於你的閒置時間過長，你已被踢出此伺服器
 player.disconnect 連線已中斷
-timer.end 下一場將在 {0} 後開始
+timer.end 下一場將在{0}後開始
 leaderboard.empty 這裡沒有任何玩家
 popup.checkpoint 存檔點！
 app.play 點擊開始遊戲
@@ -74,7 +74,7 @@ app.spectate.mobile 輕觸開始觀戰
 app.play.controller 按下開始鍵開始遊戲
 app.spectate.controller 按下開始鍵開始觀戰
 purchase.error 發生錯誤
-purchase.error.click 點此</a> 重試！
+purchase.error.click 點此</a>重試！
 purchase.error.limit 你可能已超出每日交易額度
 settings.reset 重設
 settings.reset.confirm 你確定要重設所有設定嗎？
@@ -102,12 +102,12 @@ settings.experimental.aimFreezeFix 瞄準凍結修正（射擊時限制幀率）
 settings.experimental.mouseFlickFix 滑鼠無故跳動修正（限制輪詢率）
 settings.experimental.shaderRendering 實例化渲染
 settings.experimental.mouseAccel 滑鼠加速
-settings.experimental.tbInterp TB 樣條插值
+settings.experimental.tbInterp TB樣條插值
 settings.client.header 用戶端
 settings.client.unlimitedFrames 停用垂直同步
 settings.client.gameCap 遊戲擷取
 settings.client.experimental 實驗性功能
-settings.client.discordRPC Discord 豐富狀態
+settings.client.discordRPC Discord豐富狀態
 settings.client.resourceSwapper 資源交換器
 settings.client.clearCache 清除快取
 settings.client.resetSettings 重設用戶端設定
@@ -122,7 +122,7 @@ settings.dev.extraBan 額外封禁資訊
 settings.chat.header 聊天
 settings.chat.chat 顯示聊天欄
 settings.chat.chat.all 總是
-settings.chat.chat.focus 聚焦到 [Enter Message] 欄位時
+settings.chat.chat.focus 聚焦到[Enter Message]欄位時
 settings.chat.messages 顯示玩家訊息
 settings.chat.unboxings 顯示玩家開箱訊息
 settings.chat.chatOp 聊天欄不透明度
@@ -454,15 +454,15 @@ settings.social.region 地區統計
 settings.social.bg 社群介面背景圖片
 settings.social.bg.paste 社群介面背景圖片網址
 windows.settings.header 遊戲設定
-windows.mail.header Krunker 信箱
+windows.mail.header Krunker信箱
 windows.servers.header 伺服器
 windows.servers.none 沒有可加入的伺服器…
 windows.servers.host + 建立伺服器
 windows.servers.hide 隱藏已滿的伺服器
 windows.servers.priority 預設地區優先
-windows.servers.online {0} 個玩家在遊戲中
-windows.servers.social {0} 個玩家在社群中
-windows.servers.editor {0} 個玩家在地圖編輯器中
+windows.servers.online {0}個玩家在遊戲中
+windows.servers.social {0}個玩家在社群中
+windows.servers.editor {0}個玩家在地圖編輯器中
 windows.loadout.header 更換武器搭配
 windows.loadout.class 職業
 windows.loadout.primary 主要武器
@@ -477,7 +477,7 @@ windows.loadout.back 背部
 windows.loadout.waist 腰部
 windows.loadout.shoe 鞋子
 windows.loadout.face 表情
-windows.loadout.spray 塗鴉
+windows.loadout.spray 噴漆
 windows.loadout.color.skin 皮膚顏色
 windows.loadout.color.chat 聊天欄內顯示名稱顏色
 windows.loadout.color.hair 頭髮顏色
@@ -498,7 +498,7 @@ windows.mods.load.header 載入模組
 windows.mods.publish 發佈模組
 windows.mods.viewer 檢視器
 windows.account.header 帳戶
-windows.account.recover 聯繫 <a>recovery@yendis.ch</a> 找回你的帳戶。
+windows.account.recover 聯繫<a>recovery@yendis.ch</a>找回你的帳戶。
 windows.class.header 選擇職業
 windows.controls.header 更改控制
 windows.controls.forward 前
@@ -509,8 +509,8 @@ windows.controls.reload 換彈
 windows.controls.aim1 瞄準
 windows.controls.shoot1 射擊
 windows.controls.inspect 檢視武器
-windows.controls.spray 塗鴉
-windows.controls.sprayWheel 塗鴉輪盤（長按）
+windows.controls.spray 噴漆
+windows.controls.sprayWheel 噴漆輪盤（長按）
 windows.controls.jump 跳躍
 windows.controls.crouch 蹲下
 windows.controls.prim 主要武器
@@ -528,19 +528,19 @@ windows.controls.drop 丟棄
 windows.controls.wepVis 武器可見度切換鍵
 windows.controls.kickVoteY 投票踢出玩家［是］
 windows.controls.kickVoteN 投票踢出玩家［否］
-windows.controls.kpdVoteY KPD 投票［是］
-windows.controls.kpdVoteN KPD 投票［否］
+windows.controls.kpdVoteY KPD投票［是］
+windows.controls.kpdVoteN KPD投票［否］
 windows.controls.specFree 自由視角
 windows.controls.specObj 目標點視角
 windows.controls.specFirst 第一人稱視角
 windows.controls.specNames 強制顯示玩家名稱
 windows.controls.specFocus 聚焦玩家
 windows.controls.hidePlayers 隱藏玩家
-windows.controls.streak0 連殺獎勵 1
-windows.controls.streak1 連殺獎勵 2
-windows.controls.streak2 連殺獎勵 3
-windows.controls.streak3 連殺獎勵 4
-windows.controls.streak4 連殺獎勵 5
+windows.controls.streak0 連殺獎勵1
+windows.controls.streak1 連殺獎勵2
+windows.controls.streak2 連殺獎勵3
+windows.controls.streak3 連殺獎勵4
+windows.controls.streak4 連殺獎勵5
 windows.controls.taunt0 挑釁（噗嗤聲）
 windows.controls.taunt1 挑釁（口哨聲）
 windows.controls.taunt2 挑釁（放屁聲）
@@ -569,9 +569,9 @@ windows.host.preset.load 載入預設檔中…
 windows.host.preset.name 預設檔名稱
 windows.host.start 開始遊戲
 windows.host.rehost 開始遊戲（邀請玩家）
-windows.spray.header 選擇塗鴉
-windows.spray.default 免費塗鴉
-windows.spray.spin 塗鴉
+windows.spray.header 選擇噴漆
+windows.spray.default 免費噴漆
+windows.spray.spin 噴漆
 windows.maps.header 客製化地圖
 windows.maps.none 沒有找到任何地圖！
 windows.maps.name 地圖名稱
@@ -587,34 +587,34 @@ windows.theatre.header 影院模式
 windows.theatre.record 啟用錄製
 windows.theatre.key 錄製鍵
 windows.clans.header 戰隊
-windows.clans.members {0} 個戰隊成員
+windows.clans.members {0}個戰隊成員
 windows.clans.requests 申請
 windows.clans.requests.none 無申請
-windows.clans.page [{0}] 戰隊頁面
+windows.clans.page [{0}]戰隊頁面
 windows.clans.create 建立戰隊
 windows.clans.name 戰隊名稱
 windows.clans.view 瀏覽戰隊
 windows.clans.join 加入戰隊
 windows.clans.login 登入以建立或加入戰隊！
 windows.store.header 商店
-windows.store.spin {0} 輪盤
+windows.store.spin {0}輪盤
 windows.store.agree 確認購買即表示你同意{0}條款及細則
-windows.store.purchase 購買 KR
+windows.store.purchase 購買KR
 windows.store.voucher 兌換代金券
 windows.store.voucherinfo 從指定實況主和遊戲活動獲取代金券
 windows.store.market 市場
-windows.store.market2 Krunker 市場
+windows.store.market2 Krunker市場
 windows.store.premium 購買會員
-windows.store.premium2 Krunker 會員
+windows.store.premium2 Krunker會員
 windows.store.buyP 自訂顯示名稱以及更多會員專屬功能
 windows.store.buy 買賣物品盡在
 windows.store.wheels 輪盤
 windows.store.unlock 解鎖新武器和物品
-windows.store.amount 你的帳戶還剩餘 {0} KR
+windows.store.amount 你的帳戶還剩餘{0}KR
 windows.store.login 登入以在商店中購買物品！
 windows.store.purchasing 購買中…
-windows.store.unboxed {0} 開箱獲得了 {1}
-windows.store.found {0} 找到了 {1}
+windows.store.unboxed {0}開箱獲得了{1}
+windows.store.found {0}找到了{1}
 windows.trade.header 交易
 windows.scope.header 選擇狙擊鏡
 windows.premium.header 會員
@@ -626,8 +626,8 @@ windows.face.header 選擇表情
 windows.melee.header 選擇近戰武器
 windows.attach.header 選擇附件
 windows.reticle.header 選擇準星
-windows.reticle.unlocked 於 {0} 級解鎖
-windows.reticle.req 需要 {0} 級
+windows.reticle.unlocked 於{0}級解鎖
+windows.reticle.req 需要{0}級
 windows.dye.header 選擇衣服染色
 windows.dye.default 預設衣服染色
 windows.dye.spin 衣服染色
@@ -648,12 +648,12 @@ windows.secondary.header 選擇次要武器
 windows.secondary.unlocked 已解鎖
 windows.secondary.customOnly 僅限客製化伺服器
 windows.secondary.premiumOnly 會員專屬
-windows.secondary.req 需要 {0} 級
+windows.secondary.req 需要{0}級
 windows.skins.unlocked 已解鎖
 windows.skins.customOnly 僅限客製化伺服器
 windows.skins.premiumOnly 會員專屬
-windows.skins.classOnly 需要 {0}
-windows.skins.req 需要 {0} 級
+windows.skins.classOnly 需要{0}
+windows.skins.req 需要{0}級
 windows.skins.default 預設造型
 windows.advertise.header 廣告
 windows.support.header 支援
@@ -662,16 +662,16 @@ windows.players.none 目前線上沒有任何玩家…
 windows.join.header 加入
 windows.join.code 輸入伺服器網址或代碼
 windows.client.header 用戶端
-windows.client.windows Windows 安裝程式
-windows.client.mac macOS 安裝程式
-windows.client.linux Linux 安裝程式
+windows.client.windows Windows安裝程式
+windows.client.mac macOS安裝程式
+windows.client.linux Linux安裝程式
 windows.ranked.header 排位賽
 windows.ranked.login 登入以進行排位賽！
-windows.ranked.level 你至少需要 <span color="black">{0} 級</span> 以進行排位賽！目前你的等級是 <span color="black">{1} 級</span>。
+windows.ranked.level 你至少需要<span color="black">{0}級</span>以進行排位賽！目前你的等級是<span color="black">{1}級</span>。
 windows.chall.header 挑戰任務
 windows.chall.login 登入以完成挑戰任務！
-thumbnail.upload.limit 上傳失敗，縮圖大小上限為 {0}kb
-image.upload.limit 上傳失敗，圖像大小上限為 {0}kb
+thumbnail.upload.limit 上傳失敗，縮圖大小上限為{0}kb
+image.upload.limit 上傳失敗，圖像大小上限為{0}kb
 thumbnail.upload.error 縮圖錯誤
 mod.extracting 提取中 {0}/{1}
 mod.disabled 模組已停用
@@ -684,13 +684,13 @@ matchmaker.NoServersMatchQuery 遊戲更新中
 matchmaker.InvalidGameId 此伺服器已關閉或不存在。
 matchmaker.NoAvailableServers 目前沒有任何空閒的伺服器
 matchmaker.GameIssue 加入時出現未知問題
-adblocker 停用廣告攔截器以獲得免費 KR 輪盤。
+adblocker 停用廣告攔截器以獲得免費KR輪盤。
 ad-failed 廣告載入失敗，請稍後重試。
-streamers.views {0} 個觀眾
-streamers.none 目前沒有任何 Twitch 直播！
+streamers.views {0}個觀眾
+streamers.none 目前沒有任何Twitch直播！
 error.extentions 如果你有任何瀏覽器擴充功能，請停用它們
 error.seek 點此搜尋新的遊戲
-custom.map.upload.limit 上傳失敗，地圖資料大小上限為五十萬個字元
+custom.map.upload.limit 上傳失敗，地圖資料大小上限為500kb
 custom.map.missing 請選擇至少一種地圖
 custom.mode.missing 請選擇至少一種遊戲模式
 custom.class.missing 請選擇至少一種職業
@@ -700,7 +700,7 @@ server.config.lives 玩家生命數
 server.config.gameTime 每局時間（分鐘）
 server.config.gravMlt 重力
 server.config.tickRI 高配伺服器
-server.config.maxPS 40 名玩家伺服器
+server.config.maxPS 40名玩家伺服器
 server.config.promServ 推廣伺服器
 server.config.jumpMlt 跳躍力量
 server.config.airStrf 空中轉向
@@ -713,16 +713,16 @@ server.config.fixMov 移動機制修正（使跳躍高度和加速不被幀率�
 server.config.slidSpd 滑行速度
 server.config.healthMlt 血量倍數
 server.config.impulseMlt 武器後坐力
-server.config.nameTeam1 隊伍 1 名稱
-server.config.nameTeam2 隊伍 2 名稱
-server.config.nameTeam3 隊伍 3 名稱
-server.config.nameTeam4 隊伍 4 名稱
-server.config.nameTeam5 隊伍 5 名稱
-server.config.t1Dmg 隊伍 1 傷害倍數
-server.config.t2Dmg 隊伍 2 傷害倍數
-server.config.t3Dmg 隊伍 3 傷害倍數
-server.config.t4Dmg 隊伍 4 傷害倍數
-server.config.t5Dmg 隊伍 5 傷害倍數
+server.config.nameTeam1 隊伍1名稱
+server.config.nameTeam2 隊伍2名稱
+server.config.nameTeam3 隊伍3名稱
+server.config.nameTeam4 隊伍4名稱
+server.config.nameTeam5 隊伍5名稱
+server.config.t1Dmg 隊伍1傷害倍數
+server.config.t2Dmg 隊伍2傷害倍數
+server.config.t3Dmg 隊伍3傷害倍數
+server.config.t4Dmg 隊伍4傷害倍數
+server.config.t5Dmg 隊伍5傷害倍數
 server.config.selTeam 可自由選擇隊伍
 server.config.allowSpect 允許觀戰
 server.config.killRewards 擊殺獎勵
@@ -740,7 +740,7 @@ server.config.kCams 死亡視角
 server.config.aAnon 允許匿名玩家
 server.config.noReload 無需換彈
 server.config.private 私服
-server.config.krRewards KR 獎勵
+server.config.krRewardsKR獎勵
 server.config.forceDefault 強制使用預設設定
 server.config.warmupTime 熱身時間（分鐘）
 server.config.gamRounds 遊戲局數
@@ -756,7 +756,7 @@ server.config.hpRegen 血量回復
 server.config.disableB 停用地圖邊界
 server.config.throwMel 近戰武器投擲
 server.config.noCosm 停用服飾
-server.config.tstCmp Faceit 測試模式
+server.config.tstCmp Faceit測試模式
 server.config.limitClasses 每個職業限一人
 server.config.tmSize 團隊大小
 server.config.fallDmg 掉落傷害
@@ -778,13 +778,13 @@ social.mods.none 沒有找到任何模組…
 social.market.price.low 最低價格
 social.market.price.list 輸入價格
 social.market.searching 搜尋中
-social.market.listed {0} 前上架
+social.market.listed {0}前上架
 social.market.list 上架物品
 social.market.unlist 下架物品
 social.market.unlisting 下架物品中…
 social.market.posting 上架物品中…
-social.market.req 需要 {0} 級
-social.market.cant KR 不足
+social.market.req 需要{0}級
+social.market.cant KR不足
 social.market.purchase 購買
 social.market.fee 無上架費用
 social.market.failed 失敗，請稍後重試
@@ -796,12 +796,12 @@ social.market.shoe 鞋子
 social.market.pet 寵物
 social.market.wrist 手腕物品
 social.market.melee 近戰武器
-social.market.spray 塗鴉
+social.market.spray 噴漆
 social.market.dye 衣服染色
 social.market.collectible 可收集物品
 social.market.none 沒有找到任何物品
 social.market.login 你必須先登入。
-social.market.grace {0} 後上架
+social.market.grace {0}後上架
 social.market.sort 篩選或排序
 social.market.filter 搜尋
 social.market.sort2 排序
@@ -809,19 +809,19 @@ social.market.price.high 最高價格
 social.trading.submitting 發送交易請求中…
 social.market.gift.amount 贈送金額
 social.market.fee.gift 無費用
-social.market.gift 贈送 KR
+social.market.gift 贈送KR
 social.market.gift.msg 講點什麼呢…
-respawn.auto 你將會在 {0} 秒後自動復活
+respawn.auto 你將會在{0}秒後自動復活
 custom.host.ranked 排位賽中無法建立客製化伺服器。
 funds.insufficient 資金餘額不足
-funds.out 你似乎沒有 KR 了
+funds.out 你似乎沒有KR了
 custom.passcode.long 密碼過長
 custom.passcode.input 請輸入此伺服器密碼以加入遊戲
 custom.tryagain 請重試。
-purchase.kr.success 已添加 {0} KR 到你的帳戶
-limited.purchase.ask 你確定要以 {1} KR 購買 [{0}] 嗎？
-limited.purchase.success 已添加 {0} 到你的存貨
-pretend.exit 再次點擊 [{0}] 退出
+purchase.kr.success 已添加{0}KR到你的帳戶
+limited.purchase.ask 你確定要以{1}KR購買[{0}]嗎？
+limited.purchase.success 已添加{0}到你的存貨
+pretend.exit 再次點擊[{0}]退出
 settings.loaded 設定已載入
 settings.loaded.none 沒有找到任何設定
 account.login.required 你必須先登入
@@ -830,9 +830,9 @@ account.banned.appeal 如果你想提出上訴，請聯絡：
 account.delete 你可以在此申請刪除你的帳戶。請注意！如果此申請沒有在14天內被取消，此帳戶的所有資料將會被永久清除。
 account.delete.request 你確定要申請刪除此帳戶嗎？
 account.delete.cancel 你確定要取消申請刪除此帳戶嗎？
-spin.free.available 立即領取免費 KR！
+spin.free.available 立即領取免費KR！
 spin.free.claim 你必須在每小時內完成一場遊戲才能領取此輪盤。
-spin.free.disable 你可以在設定的 [General] 欄標裡關閉此彈出視窗。
+spin.free.disable 你可以在設定的[General]欄標裡關閉此彈出視窗。
 mod.reset.0 復活後此設定將會生效。
 mod.reset.1 地圖物品不會被重設。
 windows.profile.picture 更改頭像
@@ -844,82 +844,82 @@ stats.thrownkills 投擲擊殺數
 stats.headshots 爆頭數
 stats.wallbangs 穿牆擊殺數
 stats.crouches 蹲下次數
-stats.sprays 塗鴉數
+stats.sprays 噴漆數
 stats.kpd 有效檢舉數
 windows.host.default.settings 啟用地圖預設設定以允許玩家儲存他們的進度及最高分數
-windows.host.default.commands * 房主指令 (/noclip, /god, /smite 等) 在此模式中將會被停用。
-windows.host.rewards 啟用 KR 獎勵將會強制伺服器使用地圖預設設定，以允許玩家從此地圖獲得 KR：
+windows.host.default.commands * 服主指令（/noclip, /god, /smite 等）在此模式中將會被停用。
+windows.host.rewards 啟用KR獎勵將會強制伺服器使用地圖預設設定，以允許玩家從此地圖獲得KR：
 windows.store.wheels.sub 試試你的運氣，轉動輪盤來贏取新造型！
 windows.store.currency * 美元和你當地貨幣之間的匯率由支付服務提供商或銀行決定。
-windows.store.creator 購買 KR 時，考慮使用創作者代碼來支持你最喜歡的內容創作者
+windows.store.creator 購買KR時，考慮使用創作者代碼來支持你最喜歡的內容創作者
 windows.chall.customs 客製化伺服器內無法完成挑戰任務。
-twitch.link 你確定要連結你的 Twitch 帳戶嗎？
-twitch.unlink 你確定要取消連結你的 Twitch 帳戶嗎？
+twitch.link 你確定要連結你的Twitch帳戶嗎？
+twitch.unlink 你確定要取消連結你的Twitch帳戶嗎？
 windows.clan.leave 你確定要離開此戰隊嗎？
 windows.clan.delete 你確定要解散此戰隊嗎？
-windows.clan.kick 你確定要從此戰隊踢出 {0} 嗎？
-windows.store.premium.purchase 你確定要購買 {0} 天的會員嗎？
-windows.store.premium.gift 你確定要贈送 '{0}' {1} 天的會員嗎？
-windows.playerlist.ban 你確定要從此伺服器封禁並踢出 {0} 嗎？
-windows.playerlist.flag 你確定要標記 {0} 嗎？
-windows.playerlist.unflag 你確定要取消標記 {0} 嗎？
-windows.playerlist.punish 你確定要對 {0} 採取行動嗎？
+windows.clan.kick 你確定要從此戰隊踢出{0}嗎？
+windows.store.premium.purchase 你確定要購買{0}天的會員嗎？
+windows.store.premium.gift 你確定要贈送'{0}'{1}天的會員嗎？
+windows.playerlist.ban 你確定要從此伺服器封禁並踢出{0}嗎？
+windows.playerlist.flag 你確定要標記{0}為外掛玩家嗎？
+windows.playerlist.unflag 你確定要取消標記{0}為外掛玩家嗎？
+windows.playerlist.punish 你確定要對{0}採取行動嗎？
 item.view.open 打開模型檢視器
 item.view.more 更多資訊
 item.sell.cant 此物品不能被出售。
-item.sell.cant.krunker 此物品不能在 Krunker 內被出售。
-item.sell.quick 你確定要快速出售 {0} 嗎？
-item.sell.destroy 你確定要分解 {0} 嗎？
+item.sell.cant.krunker 此物品不能在Krunker內被出售。
+item.sell.quick 你確定要快速出售{0}嗎？
+item.sell.destroy 你確定要分解{0}嗎？
 social.profile.stats 綜合戰績
 social.profile.class 職業戰績
 social.profile.sales 出售記錄
 social.profile.sales.market 市場出售額
-social.profile.skins [{0}] 個造型
+social.profile.skins [{0}]個造型
 social.profile.skins.none 此玩家沒有已發行的造型
-social.profile.games [{0}] 個地圖
+social.profile.games [{0}]個地圖
 social.profile.games.none 此玩家沒有已發行的地圖
-social.profile.assets [{0}] 個地圖元件
+social.profile.assets [{0}]個地圖元件
 social.profile.assets.none 此玩家沒有已發行的地圖元件
-social.profile.mods [{0}] 個模組
+social.profile.mods [{0}]個模組
 social.profile.mods.none 此玩家沒有已發行的模組
 social.search 搜尋結果
 social.market.stats.rare 最稀有物品
 social.market.stats.circulation 流通中
 social.market.stats.units 全球持有數量
 social.trades.in 收到的交易請求
-social.trades.in.head 收到 ({0}) 個交易請求
+social.trades.in.head 收到({0})個交易請求
 social.trades.out 已發送的交易請求
-social.trades.out.head 已發送 ({0}) 個交易請求
+social.trades.out.head 已發送({0})個交易請求
 social.trades.history 交易記錄
-social.trades.history.head ({0}) 個交易記錄
+social.trades.history.head ({0})個交易記錄
 social.trades.decline 全部拒絕
 social.trades.message 在市場設定裡啟用「顯示交易訊息」選項
 social.trades.warning 你將不會在此交易中得到任何物品！
 social.trades.accept 你確定要接受此交易請求嗎？
-stats.airdrops KR 空投
+stats.airdrops 空投
 stats.airdrops.stolen 偷取空投次數
 settings.quality.flapAnim 狙擊鏡保護蓋動畫
-chall.name.hs 在 {1} 取得 {0} 個爆頭
-chall.name.ns 在 {1} 取得 {0} 個盲狙
-chall.name.ls 在 {1} 取得 {0} 個腿部擊殺
-chall.name.tmk 在 {1} 取得 {0} 個投擲擊殺
-chall.name.fb 在 {1} 取得 {0} 個第一滴血
-chall.name.mk 在 {1} 取得 {0} 個近戰擊殺
-chall.name.fk 在 {1} 取得 {0} 個空手擊殺
-chall.name.qs 在 {1} 取得 {0} 個瞬狙
-chall.name.wb 在 {1} 取得 {0} 個穿牆擊殺
-chall.name.airk 在 {1} 取得 {0} 個空中擊殺
-chall.name.lns 在 {1} 取得 {0} 個遠射擊殺
-chall.name.tk 在 {1} 取得 {0} 個渦輪擊殺
-chall.name.drk 在 {1} 取得 {0} 個滑行擊殺
-chall.name.kstk 在 {1} 取得 {0} 連殺
-chall.name.w 取得 {0} 場勝利
-chall.name.d 死亡 {0} 次
-chall.name.score 取得 {0} 分
-chall.name.dmg 在 {1} 造成 {0} 點傷害
-chall.name.bzk 在 {1} 取得 {0} 連殺終止擊殺
-chall.name.cc 在 {1} 取得 {0} 殘血擊殺
-chall.name.rk 在 {1} 取得 {0} 復仇擊殺
+chall.name.hs 在{1}取得{0}個爆頭
+chall.name.ns 在{1}取得{0}個盲狙
+chall.name.ls 在{1}取得{0}個腿部擊殺
+chall.name.tmk 在{1}取得{0}個投擲擊殺
+chall.name.fb 在{1}取得{0}個第一滴血
+chall.name.mk 在{1}取得{0}個近戰擊殺
+chall.name.fk 在{1}取得{0}個空手擊殺
+chall.name.qs 在{1}取得{0}個瞬狙
+chall.name.wb 在{1}取得{0}個穿牆擊殺
+chall.name.airk 在{1}取得{0}個空中擊殺
+chall.name.lns 在{1}取得{0}個遠射擊殺
+chall.name.tk 在{1}取得{0}個渦輪擊殺
+chall.name.drk 在{1}取得{0}個滑行擊殺
+chall.name.kstk 在{1}取得{0}連殺
+chall.name.w 取得{0}場勝利
+chall.name.d 死亡{0}次
+chall.name.score 取得{0}分
+chall.name.dmg 在{1}造成{0}點傷害
+chall.name.bzk 在{1}取得{0}連殺終止擊殺
+chall.name.cc 在{1}取得{0}殘血擊殺
+chall.name.rk 在{1}取得{0}復仇擊殺
 event.doubleXP 已為此場比賽啟用雙倍職業經驗
 ranked.join 已加入排位賽。罷賽將受到暫時性禁賽懲罰
 ranked.progress 比賽進行中
@@ -935,33 +935,33 @@ modes.round.loss 此回合不再可勝
 modes.round.switch 已交換雙方的初始位置。請做好下一回合的準備
 modes.trade.success 交易成功
 modes.prophunt.limit ［物品獵殺］你已用盡所有物品切換次數
-modes.prophunt.left ［物品獵殺］你還剩餘 {0} 個物品切換次數
+modes.prophunt.left ［物品獵殺］你還剩餘{0}個物品切換次數
 modes.prophunt.rotation.on ［物品獵殺］已啟用物品旋轉
 modes.prophunt.rotation.off ［物品獵殺］已停用物品旋轉
-modes.prophunt.rotation.reset ［物品獵殺］已重設物品旋轉。
+modes.prophunt.rotation.reset ［物品獵殺］已重設物品旋轉
 commands.login 登入以使用此指令
-commands.connected {0} 個玩家已連線，{1} 個玩家在標題畫面
-commands.host {0} 是目前服主。
+commands.connected {0}個玩家已連線，{1}個玩家在標題畫面
+commands.host {0}是目前服主。
 commands.noclip.on 飛天模式 - 已啟用
 commands.noclip.off 飛天模式 - 已停用
 commands.god.on 無敵模式 - 已啟用
 commands.god.off 無敵模式 - 已停用
-commands.god.on.other 無敵模式 - 已為 {0} 啟用
-commands.god.off.other 無敵模式 - 已為 {0} 停用
+commands.god.on.other 無敵模式 - 已為{0}啟用
+commands.god.off.other 無敵模式 - 已為{0}停用
 commands.smite.on 瞬間擊殺 - 已啟用
 commands.smite.off 瞬間擊殺 - 已停用
-commands.smite.on.other 瞬間擊殺 - 已為 {0} 啟用
-commands.smite.off.other 瞬間擊殺 - 已為 {0} 停用
-commands.perk 已給予 {0} {1}
-commands.maxperk 已給予 {0} 最高等級的 {1}
+commands.smite.on.other 瞬間擊殺 - 已為{0}啟用
+commands.smite.off.other 瞬間擊殺 - 已為{0}停用
+commands.perk 已給予{0} {1}
+commands.maxperk 已給予{0}最高等級的{1}
 commands.unlimited.on 無限子彈 - 已啟用
 commands.unlimited.off 無限子彈 - 已停用
-commands.unlimited.on.other 無限子彈 - 已為 {0} 啟用
-commands.unlimited.off.other 無限子彈 - 已為 {0} 停用
-commands.spraybypass.on 無限塗鴉 - 已啟用
-commands.spraybypass.off 無限塗鴉 - 已停用
-commands.spraybypass.on.other 無限塗鴉 - 已為 {0} 啟用
-commands.spraybypass.off.other 無限塗鴉 - 已為 {0} 停用
+commands.unlimited.on.other 無限子彈 - 已為{0}啟用
+commands.unlimited.off.other 無限子彈 - 已為{0}停用
+commands.spraybypass.on 無限噴漆 - 已啟用
+commands.spraybypass.off 無限噴漆 - 已停用
+commands.spraybypass.on.other 無限噴漆 - 已為{0}啟用
+commands.spraybypass.off.other 無限噴漆 - 已為{0}停用
 commands.suspect.invalid 無效的嫌疑玩家資訊
 commands.suspect.menu 嫌疑玩家在標題畫面
 commands.suspect.left 嫌疑玩家已離開
@@ -969,14 +969,14 @@ commands.suspect.found 已找到嫌疑玩家。是否在旁觀：{0}，是否在
 commands.forfeit.next 必須先完成一個回合
 commands.forfeit.wait 等待至回合開始後才能發起投降
 commands.forfeit.later 請等待數秒後再重試
-commands.forfeit.voted 你已經投過票了。
+commands.forfeit.voted 你已經投過票了
 commands.forfeit.limit 你只能發起一次投降
 commands.forfeit.ended 投降中
 commands.forfeit.ended.other 敵方隊伍已投降
-server.message.join {0} 已加入此伺服器
-server.message.left {0} 已離開此伺服器
-server.message.kicked {0} 已被踢出
-server.message.banned {0} 已被封禁
-server.message.votekicked {0} 已被投票踢出
-server.message.arrested {0} 已被 K.P.D 逮捕
+server.message.join {0}已加入此伺服器
+server.message.left {0}已離開此伺服器
+server.message.kicked {0}已被踢出
+server.message.banned {0}已被封禁並踢出
+server.message.votekicked {0}已被投票踢出
+server.message.arrested {0}已被K.P.D逮捕
 `;

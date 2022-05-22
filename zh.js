@@ -597,7 +597,7 @@ windows.clans.view 浏览战队
 windows.clans.join 加入战队
 windows.clans.login 登录以创建或加入战队！
 windows.store.header 商店
-windows.store.spin {0} 转盘
+windows.store.spin {0}转盘
 windows.store.agree 确认购买即表示你同意{0}条款及细则
 windows.store.purchase 购买KR
 windows.store.voucher 兑换代金券
@@ -756,7 +756,7 @@ server.config.hpRegen 回血
 server.config.disableB 禁用地图边界
 server.config.throwMel 近战武器投掷
 server.config.noCosm 禁用服饰
-server.config.tstCmp Faceit 测试模式
+server.config.tstCmp Faceit测试模式
 server.config.limitClasses 每个职业限一人
 server.config.tmSize 团队大小
 server.config.fallDmg 摔落伤害
@@ -814,7 +814,7 @@ social.market.gift.msg 说点什么呢…
 respawn.auto 你将会在{0}秒后重生
 custom.host.ranked 排位赛中无法创建自定义服务器。
 funds.insufficient 资金余额不足
-funds.out 你似乎没有 KR 了
+funds.out 你似乎没有KR了
 custom.passcode.long 密码过长
 custom.passcode.input 请输入此服务器密码以加入游戏
 custom.tryagain 请重试。
@@ -847,7 +847,7 @@ stats.crouches 下蹲次数
 stats.sprays 喷漆数
 stats.kpd 有效举报数
 windows.host.default.settings 启用地图默认设置以允许玩家保存他们的进度及最高分数
-windows.host.default.commands * 房主命令（/noclip, /god, /smite 等）在此模式中将会被禁用。
+windows.host.default.commands * 服主命令（/noclip, /god, /smite 等）在此模式中将会被禁用。
 windows.host.rewards 启用KR奖励将强制服务器使用地图默认设置，以允许玩家从此地图获得KR：
 windows.store.wheels.sub 试试你的运气，转动奖盘来赢得全新皮肤！
 windows.store.currency * 美元和你当地货币之间的汇率由支付服务提供商或银行决定。
@@ -861,8 +861,8 @@ windows.clan.kick 你确定要从此战队踢出{0}吗？
 windows.store.premium.purchase 你确定要购买{0}天的会员吗？
 windows.store.premium.gift 你确定要赠送'{0}'{1}天的会员吗？
 windows.playerlist.ban 你确定要从此服务器封禁并踢出{0}吗？
-windows.playerlist.flag 你确定要封禁{0}吗？
-windows.playerlist.unflag 你确定要取消封禁{0}吗？
+windows.playerlist.flag 你确定要标记{0}为外挂玩家吗？
+windows.playerlist.unflag 你确定要取消标记{0}为外挂玩家吗？
 windows.playerlist.punish 你确定要对{0}采取措施吗？
 item.view.open 打开模型查看器
 item.view.more 更多信息
@@ -976,7 +976,7 @@ commands.forfeit.ended.other 敌方队伍已投降
 server.message.join {0}已加入此服务器
 server.message.left {0}已离开此服务器
 server.message.kicked {0}已被踢出
-server.message.banned {0}已被封禁
+server.message.banned {0}已被封禁並踢出
 server.message.votekicked {0}已被投票踢出
 server.message.arrested {0}已被K.P.D逮捕
 `;
