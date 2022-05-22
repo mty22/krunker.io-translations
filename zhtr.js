@@ -647,11 +647,11 @@ windows.publish.mod.login 登入以建立並上傳模組！
 windows.secondary.header 選擇次要武器
 windows.secondary.unlocked 已解鎖
 windows.secondary.customOnly 僅限客製化伺服器
-windows.secondary.premiumOnly 會員專屬
+windows.secondary.premiumOnly 僅限會員
 windows.secondary.req 需要{0}級
 windows.skins.unlocked 已解鎖
 windows.skins.customOnly 僅限客製化伺服器
-windows.skins.premiumOnly 會員專屬
+windows.skins.premiumOnly 僅限會員
 windows.skins.classOnly 需要{0}
 windows.skins.req 需要{0}級
 windows.skins.default 預設造型
