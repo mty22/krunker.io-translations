@@ -920,63 +920,63 @@ chall.name.dmg Faire {0} dégâts {1}
 chall.name.bzk Get {0} buzz kills {1}
 chall.name.cc Obtenez {0} échappées-belles {1}
 chall.name.rk Faire {0} éliminations de vengeance {1}
-event.doubleXP 2x Class XP enabled for this match
-ranked.join Joined Ranked Match. Abandoning a match will result in a temporary ban
-ranked.progress Game in Progress
-ranked.team Please join a Team
-ranked.switch Can't switch while in-game
-ranked.spectate Spectating Disabled in Ranked
-ranked.login Login to Spawn
-ranked.sync Missing Sync Data
-ranked.team.spawn Please join a Team to Spawn
-ranked.class.spawn Please select a Class to Spawn
-modes.round.win Your Team has secured this round
-modes.round.loss This round is no longer winnable
-modes.round.switch Switching Sides. Prepare for the next Round
-modes.trade.success Trade Successful
-modes.prophunt.limit [Prop Hunt] You are out of prop switches
-modes.prophunt.left [Prop Hunt] You have {0} switches remaining
-modes.prophunt.rotation.on [Prop Hunt] Rotation Enabled
-modes.prophunt.rotation.off [Prop Hunt] Rotation Disabled
-modes.prophunt.rotation.reset [Prop Hunt] Rotation reset.
-commands.login Login to use this command
-commands.connected {0} connected, {1} in menu
-commands.host {0} is the current Host.
-commands.noclip.on Noclip - Enabled
-commands.noclip.off Noclip - Disabled
-commands.god.on God mode - Enabled
-commands.god.off God mode - Disabled
-commands.god.on.other God mode - Enabled for {0}
-commands.god.off.other God mode - Disabled for {0}
-commands.smite.on Smite - Enabled
-commands.smite.off Smite - Disabled
-commands.smite.on.other Smite - Enabled for {0}
-commands.smite.off.other Smite - Disabled for {0}
-commands.perk Gave {0} {1}
-commands.maxperk Gave {0} MAX {1}
-commands.unlimited.on Unlimited Ammo - Enabled
-commands.unlimited.off Unlimited Ammo - Disabled
-commands.unlimited.on.other Unlimited Ammo - Enabled for {0}
-commands.unlimited.off.other Unlimited Ammo - Disabled for {0}
-commands.spraybypass.on Unlimited Ammo - Enabled
-commands.spraybypass.off Unlimited Ammo - Disabled
-commands.spraybypass.on.other Unlimited Ammo - Enabled for {0}
-commands.spraybypass.off.other Unlimited Ammo - Disabled for {0}
-commands.suspect.invalid Invalid suspect info
-commands.suspect.menu Suspect in menu
-commands.suspect.left Suspect has left
-commands.suspect.found Suspect Found. Spectating: {0}, Spawned: {1}, Name: {2}
-commands.forfeit.next Must play atleast 1 round
-commands.forfeit.wait Wait till match starts to forfeit
-commands.forfeit.later Please try again in a few seconds
-commands.forfeit.voted You already voted.
-commands.forfeit.limit You can only start one vote per game
-commands.forfeit.ended Forfeiting Game
-commands.forfeit.ended.other Other Team Forfeited
-server.message.join {0} joined the game
-server.message.left {0} left the game
-server.message.kicked {0} was kicked
-server.message.banned {0} was banned
-server.message.votekicked {0} was vote kicked
-server.message.arrested {0} was arrested by the K.P.D
+event.doubleXP 2x Class XP activé pour ce match
+ranked.join Rejoindre le match classé. Abandonner un match entraînera une interdiction temporaire
+ranked.progress Jeu en cours
+ranked.team Veuillez rejoindre une équipe
+ranked.switch Impossible de changer pendant le jeu
+ranked.spectate Mode spéctateur arrêter pour le mode compétitif
+ranked.login Connectez-vous à Spawn
+ranked.sync Données de synchronisation manquantes
+ranked.team.spawn Veuillez rejoindre une équipe pour apparaître
+ranked.class.spawn Veuillez sélectionner une classe à faire apparaître
+modes.round.win Votre équipe a sécurisé ce tour
+modes.round.loss Ce tour n'est plus gagnable
+modes.round.switch Changer de camp. Préparez-vous pour le prochain tour
+modes.trade.success Échange réussi
+modes.prophunt.limit [Prop Hunt] Vous n'avez plus de commutateurs d'accessoires
+modes.prophunt.left [Prop Hunt] Il vous reste {0} interrupteurs
+modes.prophunt.rotation.on [Prop Hunt] Rotation activée
+modes.prophunt.rotation.off [Prop Hunt] Rotation désactivée
+modes.prophunt.rotation.reset [Prop Hunt] Réinitialisation de la rotation.
+commands.login Connectez-vous pour utiliser cette commande
+commands.connected {0} connecté, {1} dans le menu
+commands.host {0} est l'hôte actuel.
+commands.noclip.on Noclip - Activé
+commands.noclip.off Noclip - Désactivé
+commands.god.on God mode - Activé
+commands.god.off God mode - Désactivé
+commands.god.on.other God mode - Activé pour {0}
+commands.god.off.other God mode - Désactivé pour {0}
+commands.smite.on Smite - Activé
+commands.smite.off Smite - Désactivé
+commands.smite.on.other Smite - Activé pour {0}
+commands.smite.off.other Smite - Désactivé pour {0}
+commands.perk Donné {0} {1}
+commands.maxperk Donné {0} MAX {1}
+commands.unlimited.on Munitions illimitées - Activé
+commands.unlimited.off Munitions illimitées - Désactivé
+commands.unlimited.on.other Munitions illimitées - Activé pour {0}
+commands.unlimited.off.other Munitions illimitées - Désactivé pour {0}
+commands.spraybypass.on Munitions illimitées - Activé
+commands.spraybypass.off Munitions illimitées - Désactivé
+commands.spraybypass.on.other  Munitions illimitées - Activé pour {0}
+commands.spraybypass.off.other Munitions illimitées - Désactivé pour {0}
+commands.suspect.invalid Informations suspectes non valides
+commands.suspect.menu Suspect dans le menu
+commands.suspect.left Le suspect est parti
+commands.suspect.found Suspect retrouvé. Spectateur : {0}, généré : {1}, nom : {2}
+commands.forfeit.next Doit jouer au moins 1 tour
+commands.forfeit.wait Attendez que le match commence à déclarer forfait
+commands.forfeit.later Veuillez réessayer dans quelques secondes
+commands.forfeit.voted Vous avez déjà voté.
+commands.forfeit.limit Vous ne pouvez commencer qu'un seul vote par partie
+commands.forfeit.ended Jeu de forfait
+commands.forfeit.ended.other Autre équipe forfait
+server.message.join {0} rejoint le jeu
+server.message.left {0} à quitté le jeu
+server.message.kicked {0} à été exclu(e)
+server.message.banned {0} à été bannis
+server.message.votekicked {0} à été voté pour être exclu
+server.message.arrested {0} a été arrêté par le K.P.D
 `;
