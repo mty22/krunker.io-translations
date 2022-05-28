@@ -43,16 +43,16 @@ generic.games 游玩场数
 generic.wins 胜场数
 generic.lose 败场数
 generic.clan 公会
-generic.games.played 游玩场数
+generic.games.played 总游戏数
 generic.games.won 胜场数
 generic.games.lost 败场数
-generic.timep 游玩时间
+generic.timep 总游玩时间
 generic.kills 击杀数
 generic.deaths 死亡数
 generic.kdr 战损率
 generic.time 时间
-generic.logout 注销
-generic.logout.sessions 为所有设备注销
+generic.logout 登出
+generic.logout.sessions 在所有设备登出
 generic.username 输入用户名
 generic.password 输入密码
 generic.register 注册
@@ -62,7 +62,7 @@ player.waiting 等待更多玩家加入
 player.died 你死了
 player.killed 被此玩家击杀
 player.killstreak {0} on a {1} Kill Streak
-player.inactive 由于你的空闲时间过长，你已被踢出此服务器
+player.inactive 由于你长时间没有活动，你已被踢出此服务器
 player.disconnect 连接已断开
 timer.end 下一场将在 {0} 后开始
 leaderboard.empty 这里没有任何玩家
@@ -93,9 +93,9 @@ settings.network.header 网络
 settings.network.netRerouting 动态路由（影响网络延时）
 settings.network.netRate 网络刷新率 (Hz)
 settings.network.lagComp 延迟补偿
-settings.network.optNet 网络最优化
+settings.network.optNet 网络优化
 settings.network.quickplay 强制快速游玩
-settings.popup.header 弹窗
+settings.popup.header 广告弹窗
 settings.experimental.header 实验性
 settings.experimental.holiday 节日效果
 settings.experimental.aimFreezeFix 瞄准冻结修正（射击时限制帧率）
@@ -115,7 +115,7 @@ settings.client.acceleratedCanvas 画布元素硬件加速
 settings.client.angleBackend 几乎原生图型抽象层引擎后端
 settings.client.colorProfile 色彩配置文件
 settings.client.resourcePacks 资源包
-settings.dev.header 开发者
+settings.dev.header 主开发者
 settings.dev.forceUpdate 强制刷新皮肤
 settings.dev.forceRegen 总是重生玩家
 settings.dev.extraBan 更多封禁信息
@@ -132,7 +132,7 @@ settings.chat.chatTimer 聊天文本显示时间
 settings.chat.chatTextOutline 聊天文本轮廓
 settings.chat.chatFilter 脏话过滤（仅限英文）
 settings.quality.header 游戏性能
-settings.quality.updRate 帧率上限
+settings.quality.updRate 帧率限制
 settings.quality.rendDst 渲染距离
 settings.quality.res 分辨率
 settings.quality.part 粒子特效
@@ -187,11 +187,11 @@ settings.interface.hideNonTrade 隐藏不可交易的皮肤
 settings.interface.hp 动态血条
 settings.interface.dmgScale 伤害值显示比例
 settings.interface.killf 显示击杀信息
-settings.interface.ping 显示网络延时
+settings.interface.ping 显示网络延迟
 settings.interface.net-stats 显示网络统计数据
 settings.interface.fps 显示帧数
 settings.interface.deaths 显示死亡数
-settings.interface.kd 显示战损率
+settings.interface.kd 击杀死亡率
 settings.interface.kills 显示击杀数
 settings.interface.streak 显示连杀数
 settings.interface.score 显示得分
@@ -407,7 +407,7 @@ settings.editing.menuSaturation 用户界面饱和度
 settings.editing.hue 游戏环境色相
 settings.editing.menuHue 用户界面色相
 settings.editing.vignette 晕影强度
-settings.editing.feedLimit 击杀信息列表长度限制
+settings.editing.feedLimit 击杀信息列表高度限制
 settings.editing.depth 深度图模式
 settings.editing.green 绿幕模式
 settings.editing.trailcol 曳光踪迹颜色
@@ -966,10 +966,10 @@ commands.suspect.invalid 无效的嫌疑玩家信息
 commands.suspect.menu 嫌疑玩家在标题画面
 commands.suspect.left 嫌疑玩家已离开
 commands.suspect.found 已找到嫌疑玩家。是否在旁观：{0}，是否在地图内：{1}，名称：{2}
-commands.forfeit.next 必须先完成一个回合
+commands.forfeit.next 必须先完成一个回合才能发起投降
 commands.forfeit.wait 等待至回合开始后才能发起投降
 commands.forfeit.later 请等待数秒后再重试
-commands.forfeit.voted 你已经投过票了。
+commands.forfeit.voted 你已经投过票了
 commands.forfeit.limit 你只能发起一次投降
 commands.forfeit.ended 投降中
 commands.forfeit.ended.other 敌方队伍已投降
@@ -978,5 +978,5 @@ server.message.left {0} 已离开此服务器
 server.message.kicked {0} 已被踢出
 server.message.banned {0} 已被封禁
 server.message.votekicked {0} 已被投票踢出
-server.message.arrested {0} 已被 K.P.D 逮捕
+server.message.arrested {0} 已被 Krunker 警察局 逮捕
 `;
