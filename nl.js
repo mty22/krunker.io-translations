@@ -139,7 +139,7 @@ settings.quality.part Particles
 settings.quality.mapDet Map Details
 settings.quality.noTex Geen Texturen
 settings.quality.partdist Particle Afstand
-settings.quality.renderdist Render Afstand
+settings.quality.renderdist Render Weergaveafstand
 settings.quality.reflection Reflectie Kwaliteit
 settings.quality.antiAlias Antialiasing
 settings.quality.shadows Schaduwen
@@ -160,7 +160,7 @@ settings.quality.weaponShine Wapen Glans
 settings.quality.rendGamma Gamma
 settings.quality.lighting Belichting
 settings.quality.showExplo Toon Explosies
-settings.quality.aspectRatio Aspect Ratio
+settings.quality.aspectRatio Hoogte-Breedteverhouding
 settings.post.header Nabewerking
 settings.post.post Nabewerking
 settings.post.bloom Bloom
@@ -203,7 +203,7 @@ settings.interface.speedOpacity Snelheids Ondoorzichtigheid
 settings.interface.speedScale Snelheids Grootte
 settings.interface.speedColor Snelheids Kleur (Actueel)
 settings.interface.speedColorMax Snelheids Kleur (Max)
-settings.interface.hideNames Naam Display
+settings.interface.hideNames Naam Weergave
 settings.interface.hideNames.team Alleen Team
 settings.interface.hideNames.enemy Alleen Tegenstanders
 settings.interface.hideNames.all Iedereen
@@ -297,7 +297,7 @@ settings.onKillS.style.1 Verminder Resolutie
 settings.onKillS.style.2 Verminder FOV
 settings.onKillS.style.3 Neem FOV toe
 settings.serverb.header Server Browser
-settings.serverb.oldBrowser Legacy Browser
+settings.serverb.oldBrowser Verouderde Browser
 settings.serverb.defaultRegionOnly Alleen Standaard Regio
 settings.gameprivacy.header Gameplay Privacy
 settings.gameprivacy.streamer Streamer Modus
@@ -340,7 +340,7 @@ settings.mobile.vibration Vibratie
 settings.mobile.gradSpeed Geleidelijke Snelheid
 settings.mobile.invert Keer Y-Axis om
 settings.audio.header Audio
-settings.audio.sound Meester Volume
+settings.audio.sound Hoofdvolume
 settings.audio.ambient Omringende Volume
 settings.audio.voice Stem Volume
 settings.audio.input Audio/Mic Invoer
