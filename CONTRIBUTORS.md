@@ -34,6 +34,8 @@ If you contributed in the past and can't find your name below (or simply wish to
 * [Atzelord](https://krunker.io/social.html?p=profile&q=Atzelord) (atzelord#0712)
 * [enygmate](https://krunker.io/social.html?p=profile&q=enygmate) (Eny#2222)
 * [nerdyboyobob](https://krunker.io/social.html?p=profile&q=nerdyboyobob) (nerdy#5827)
+* [Kason19](https://krunker.io/social.html?p=profile&q=---Pro)
+* [Jake34](https://krunker.io/social.html?p=profile&q=Jake34) (Jake34#3678)
 
 # [Korean](https://github.com/mty22/krunker.io-translations/blob/main/kr.js) (한국어)
 * [GoonMandu](https://krunker.io/social.html?p=profile&q=GoonMandu) (goonmandu#4897)
