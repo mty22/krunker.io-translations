@@ -1,24 +1,24 @@
 module.exports = `
-menu.btn.ranked Mecz rankowany
+menu.btn.ranked Mecz rankingowy
 menu.btn.shop Sklep
 menu.btn.social Centrum
 menu.btn.maps Gry
 menu.btn.mods Modyfikacje
 menu.btn.settings Ustawienia
 menu.btn.customize Dostosuj
-menu.btn.invite Zaproś innnych
+menu.btn.invite Zaproś innych
 menu.btn.invite.clicked Skopiowano
 menu.btn.join Dołącz
-menu.btn.host Hostuj grę
+menu.btn.host Utwórz grę
 menu.btn.browser Serwery
 generic.wait Proszę czekać...
 generic.loading ŁADOWANIE...
-generic.none Nic
+generic.none Brak
 generic.connecting ŁĄCZENIE...
 generic.select Wybierz
 generic.delete Usuń
 generic.save Zapisz
-generic.load Załaduj
+generic.load Wczytaj
 generic.search Szukaj
 generic.leave Wyjdź
 generic.default Domyślne
@@ -51,12 +51,12 @@ generic.kills Zabójstwa
 generic.deaths Śmierci
 generic.kdr KDR
 generic.time Czas
-generic.logout Wyloguj
-generic.logout.sessions Wyloguj wszędzie
-generic.username Wpisz Login
-generic.password Wpisz Hasło
-generic.register Zarejestruj
-generic.login Zaloguj
+generic.logout Wyloguj się
+generic.logout.sessions Wyloguj się wszędzie
+generic.username Wpisz nazwę użytkownika
+generic.password Wpisz hasło
+generic.register Zarejestruj się
+generic.login Zaloguj się
 generic.accuracy Precyzja
 player.waiting oczekiwanie na graczy
 player.died Zginąłeś
@@ -67,12 +67,12 @@ player.disconnect ROZŁĄCZONO
 timer.end Następna runda za {0}
 leaderboard.empty Puste lobby
 popup.checkpoint Punkt zapisu!
-app.play KLIKNIJ BY GRAĆ
-app.spectate KLIKNIJ BY OBSERWOWAĆ
-app.play.mobile DOTKNIJ BY GRAĆ
-app.spectate.mobile DOTKNIJ BY OBSERWOWAĆ
+app.play KLIKNIJ, ABY GRAĆ
+app.spectate KLIKNIJ, ABY OGLĄDAĆ
+app.play.mobile NACIŚNIJ, ABY GRAĆ
+app.spectate.mobile NACIŚNIJ, ABY OGLĄDAĆ
 app.play.controller NACIŚNIJ START
-app.spectate.controller NACIŚNIJ START aby OBSERWOWAĆ
+app.spectate.controller NACIŚNIJ START, aby OGLĄDAĆ
 purchase.error Wystąpił błąd
 purchase.error.click naciśnij tutaj</a> i spróbuj ponownie!
 purchase.error.limit Prawdopodobnie przekroczyłeś dzienny limit transakcji
@@ -81,20 +81,20 @@ settings.reset.confirm Czy na pewno chcesz zresetować wszystkie ustawienia?
 settings.import Importuj
 settings.export Eksportuj
 settings.none Nie znaleziono ustawień
-settings.backup Ustawienia przywracania
+settings.backup Ustawienia kopii zapasowej
 settings.controls.change Ustawienia klawiszy
-settings.controls.press Naciśnij jakikolwiek klawisz
+settings.controls.press Naciśnij dowolny klawisz
 settings.controls.leaderboard Typ przełącznika tabeli wyników
 settings.controls.voicechat Typ przełącznika czatu głosowego
 settings.local.header Lokalizacja <span id="requiresRestart"><span style="color: #eb5656">*</span> wymaga restartu</span>
-settings.local.region Domyślny Region
+settings.local.region Domyślny region
 settings.local.lang Język
 settings.network.header Sieć
 settings.network.netRerouting Auto Routowanie (Wpływa na ping)
 settings.network.netRate Częstotliwość sieci (Hz)
 settings.network.lagComp Kompensacja lagów
 settings.network.optNet Optymalizacja sieci
-settings.network.quickplay Wymuś szybką grę
+settings.network.quickplay Wymuś szybką rozgrywkę
 settings.popup.header Wyskakujące okienka
 settings.experimental.header Eksperymentalne
 settings.experimental.holiday Efekty Świąteczne
@@ -102,7 +102,7 @@ settings.experimental.aimFreezeFix Napraw zamrożenie przy celowaniu
 settings.experimental.mouseFlickFix Napraw mouse-flicki
 settings.experimental.shaderRendering Renderowanie przez instancje
 settings.experimental.mouseAccel Przyspieszanie myszy (Zwiększ precyzję wskaźnika)
-settings.experimental.tbInterp TB Interpolation
+settings.experimental.tbInterp Interpolacja TB
 settings.client.header Klient
 settings.client.unlimitedFrames Nielimitowane FPS
 settings.client.gameCap Game Capture
@@ -115,12 +115,12 @@ settings.client.acceleratedCanvas Wspomagane sprzętowo renderowanie canvas
 settings.client.angleBackend Grafika ANGLE
 settings.client.colorProfile Profil kolorów
 settings.client.resourcePacks Paczki zasobów
-settings.dev.header Programista
-settings.dev.forceUpdate Wymuś aktualizację skinów
+settings.dev.header Deweloper
+settings.dev.forceUpdate Wymuś aktualizację skórek
 settings.dev.forceRegen Zawsze regeneruj graczy
 settings.dev.extraBan Dodatkowe informacje o banie
 settings.chat.header Czat
-settings.chat.chat Wyświetl czat
+settings.chat.chat Wyświetlaj czat
 settings.chat.chat.all Zawsze
 settings.chat.chat.focus Gdy skupiony
 settings.chat.messages Wyświetlaj wiadomości graczy
@@ -132,7 +132,7 @@ settings.chat.chatTimer Miernik czasu w czacie (s)
 settings.chat.chatTextOutline Kontur tekstu w czacie
 settings.chat.chatFilter Filter przekleństw
 settings.quality.header Wydajność
-settings.quality.updRate Zablokuj FPS
+settings.quality.updRate Ogranicz FPS
 settings.quality.rendDst Odległość renderowania
 settings.quality.res Rozdzielczość
 settings.quality.part Cząstki
@@ -149,63 +149,63 @@ settings.quality.shadowsDynamic Dynamiczne cienie
 settings.quality.trails Ślady pocisków
 settings.quality.yourTrails Ślady własnych pocisków
 settings.quality.mflash Błysk lufy
-settings.quality.flap Klapka do snajperki
+settings.quality.flap Klapa do snajperki
 settings.quality.lowSpec Tryb dla słabego sprzętu
 settings.quality.ambient Cieniowanie otoczenia
 settings.quality.ambientOld Stare cieniowanie (Gdy możliwe)
 settings.quality.textureAnim Animacje tekstur
 settings.quality.objectAnim Animacje obiektów
-settings.quality.screenShake Potrząsanie ekranem
+settings.quality.screenShake Trzęsienie ekranu
 settings.quality.weaponShine Połysk broni
 settings.quality.rendGamma Gamma
 settings.quality.lighting Oświetlenie
-settings.quality.showExplo Pokaż wybuchy
+settings.quality.showExplo Pokazuj wybuchy
 settings.quality.aspectRatio Proporcje ekranu
 settings.post.header Post-processing
-settings.post.post Post-processing
+settings.post.post Włącz post-processing
 settings.post.bloom Bloom
 settings.post.bloomThreshold Próg bloomu
 settings.post.bloomStrength Siła bloomu
 settings.post.bloomRadius Promień bloomu
 settings.post.ssao SSAO
 settings.post.ssaoRadius Promień SSAO
-settings.interface.hitInd Wyświetl wskaźniki trafień
+settings.interface.hitInd Wyświetlaj wskaźniki trafień
 settings.interface.hitColor Kolor wskaźników trafień
-settings.interface.dmg Wyświetl obrażenia
+settings.interface.dmg Wyświetlaj obrażenia
 settings.interface.dmgCol Kolor obrażeń
 settings.interface.critCol Kolor obrażeń krytycznych
 settings.interface.header Interfejs
-settings.interface.scale Skala interfejsu
+settings.interface.scale Rozmiar interfejsu
 settings.interface.theme Motyw gry
-settings.interface.ui Pokaż interfejs
-settings.interface.scoreboard Użyj starej tablicy wyników
-settings.interface.oldBrowser Użyj starej przeglądarki
+settings.interface.ui Pokazuj interfejs
+settings.interface.scoreboard Używaj starej tablicy wyników
+settings.interface.oldBrowser Używaj starej przeglądarki
 settings.interface.rarityanim Wyłącz animacje rzadkości
 settings.interface.showPfp Wyświetlaj zdjęcia profilowe
 settings.interface.showTradeMsg Wyświetlaj wiadomości o handlu
 settings.interface.hideNonTrade Ukryj skórki, którymi nie można handlować
 settings.interface.hp Dynamiczne paski HP
-settings.interface.dmgScale Skalowanie obrażeń
-settings.interface.killf Pokaż śmierci
-settings.interface.ping Pokaż ping
-settings.interface.net-stats Pokaż statystyki sieci
-settings.interface.fps Pokaż FPS
-settings.interface.deaths Pokaż licznik śmierci
-settings.interface.kd Pokaż licznik K/D
-settings.interface.kills Pokaż licznik zabójstw
-settings.interface.streak Pokaż licznik serii zabójstw
-settings.interface.score Pokaż licznik wyników
-settings.interface.spectators Pokaż licznik obserwatorów
-settings.interface.speed Pokaż licznik prędkośći ruchu
+settings.interface.dmgScale Rozmiar obrażeń
+settings.interface.killf Pokazuj śmierci
+settings.interface.ping Pokazuj ping
+settings.interface.net-stats Pokazuj statystyki sieci
+settings.interface.fps Pokazuj FPS
+settings.interface.deaths Pokazuj licznik śmierci
+settings.interface.kd Pokazuj licznik K/D
+settings.interface.kills Pokazuj licznik zabójstw
+settings.interface.streak Pokazuj licznik serii zabójstw
+settings.interface.score Pokazuj licznik wyniku
+settings.interface.spectators Pokazuj licznik oglądających
+settings.interface.speed Pokazuj licznik prędkości ruchu
 settings.interface.speedOffX Przesunięcie licznika prędkości w osi X
 settings.interface.speedOffY Przesunięcie licznika prędkości w osi Y
 settings.interface.speedOpacity Przezroczystość licznika prędkości
-settings.interface.speedScale Skala licznika prędkośći
-settings.interface.speedColor Kolor licznika prędkości (Teraźniejszej)
-settings.interface.speedColorMax Kolor licznika prędkości (Największej)
-settings.interface.hideNames Pokaż nazwy nad graczami
-settings.interface.hideNames.team Tylko dla drużyny
-settings.interface.hideNames.enemy Tylko dla przeciwników
+settings.interface.speedScale Rozmiar licznika prędkości
+settings.interface.speedColor Kolor licznika prędkości (Obecnej)
+settings.interface.speedColorMax Kolor licznika prędkości (Maksymalnej)
+settings.interface.hideNames Pokazuj nazwy nad graczami
+settings.interface.hideNames.team Tylko sojusznicy
+settings.interface.hideNames.enemy Tylko przeciwnicy
 settings.interface.hideNames.all Dla wszystkich
 settings.interface.nametagStyle Styl nazw
 settings.interface.nametagOpac Przezroczystość nazw
@@ -244,7 +244,7 @@ settings.crosshair.image Obraz
 settings.crosshair.image.paste Obraz celownika
 settings.crosshair.image.width Szerokość obrazu
 settings.crosshair.image.height Wysokość obrazu
-settings.crosshair.always Zawsze wyświelaj
+settings.crosshair.always Zawsze wyświetlaj
 settings.crosshair.color Kolor
 settings.crosshair.shadow.color Kolor cienia
 settings.crosshair.shadow.thickness Grubość cienia
@@ -252,7 +252,7 @@ settings.crosshair.size Wielkość
 settings.crosshair.thickness Grubość
 settings.crosshair.gap Odstęp
 settings.crosshair.dot Kropka
-settings.crosshair.opacity.use Użyj własnej przezroczystości
+settings.crosshair.opacity.use Używaj własnej przezroczystości
 settings.crosshair.opacity.custom Własna przezroczystość
 settings.crosshairm.header Celownik (Rzucanie nożem)
 settings.crosshairm.type Typ
@@ -277,9 +277,9 @@ settings.crosshairm.size Rozmiar
 settings.crosshairm.thickness Grubość
 settings.crosshairm.gap Odstęp
 settings.crosshairm.dot Kropka
-settings.crosshairm.opacity.use Użyj własnej przezroczystości
+settings.crosshairm.opacity.use Używaj własnej przezroczystości
 settings.crosshairm.opacity.custom Własna przezroczystość
-settings.hitmarker.header Hitmarker
+settings.hitmarker.header Znacznik trafienia
 settings.hitmarker.color Kolor
 settings.hitmarker.kcolor Kolor przy zabiciu
 settings.hitmarker.thickness Grubość
@@ -288,10 +288,10 @@ settings.hitmarker.leng Długość
 settings.hitmarker.spacing Odstęp
 settings.hitmarker.animD Wielkość animacji
 settings.hitmarker.animS Długość trwania animacji
-settings.hitmarker.hitm Pokaż
+settings.hitmarker.hitm Pokazuj
 settings.hitmarker.hitmFad Prędkość wygasania
-settings.hitmarker.custom Zdjęcie hitmarkera
-settings.hitmarker.custom.paste URL zdjęcia hitmarkera
+settings.hitmarker.custom Zdjęcie znacznika trafienia
+settings.hitmarker.custom.paste URL zdjęcia znacznika trafienia
 settings.onKillS.style.0 Domyślne
 settings.onKillS.style.1 Zmniejsz rozdzielczość
 settings.onKillS.style.2 Zmniejsz FOV
@@ -304,10 +304,10 @@ settings.gameprivacy.streamer Tryb streamera
 settings.gameprivacy.anon Tryb anonimowy
 settings.gameprivacy.hideGameTitle Ukryj tytuł gry
 settings.gameprivacy.showRegion Pokazuj informacje o regionie
-settings.gameprivacy.verified Wyświetlaj oznaczenie konta zweryfikowanego
-settings.gameprivacy.premium Wyświetlaj oznaczenie konta Premium
-settings.gameprivacy.partner Wyświetlaj oznaczenie konta partnerskiego
-settings.gameprivacy.rank Wyświetlaj oznaczenie rangi w trybie rankowanym
+settings.gameprivacy.verified Wyświetlaj odznakę konta zweryfikowanego
+settings.gameprivacy.premium Wyświetlaj odznakę konta Premium
+settings.gameprivacy.partner Wyświetlaj odznakę konta partnerskiego
+settings.gameprivacy.rank Wyświetlaj odznakę rangi w trybie rankingowym
 settings.gameprivacy.custom Pokazuj niestandardową odznakę
 settings.gameplay.header Gra
 settings.gameplay.gpSetts Ustawienia rozgrywki
@@ -340,7 +340,7 @@ settings.mobile.vibration Wibracje
 settings.mobile.gradSpeed Wzrastająca prędkość
 settings.mobile.invert Odwróć oś Y
 settings.audio.header Audio
-settings.audio.sound Uniwersalna głośność
+settings.audio.sound Głośność główna
 settings.audio.ambient Głośność otoczenia
 settings.audio.voice Głośność głosu
 settings.audio.input Wejście audio/mikrofonu
@@ -352,44 +352,44 @@ settings.audio.skin Głośność elementów kosmetycznych
 settings.audio.ui Głośność interfejsu
 settings.audio.asset Głośność zasobów
 settings.audio.dialogue Głośność akcji
-settings.viewmodel.header Wyświetl model
+settings.viewmodel.header Wyświetlaj model
 settings.viewmodel.vmSetts Ustawienia wyświetlania modelu
 settings.viewmodel.fov Pole widzenia (FOV)
 settings.viewmodel.fps Pole widzenia broni
 settings.viewmodel.bobbing Ruchliwość broni
 settings.viewmodel.leaning Pochylenie broni
-settings.viewmodel.show.primary Wyświetl główną broń
-settings.viewmodel.show.secondary Wyświetl drugą broń
+settings.viewmodel.show.primary Wyświetlaj główną broń
+settings.viewmodel.show.secondary Wyświetlaj drugą broń
 settings.viewmodel.roundArms Okrągłe ramiona
-settings.viewmodel.show.melee Pokaż broń białą
-settings.viewmodel.show.ads Ukryj broń przy celowaniu
+settings.viewmodel.show.melee Pokazuj broń białą
+settings.viewmodel.show.ads Ukryj broń podczas celowania
 settings.viewmodel.toggleAim Przełącz celowanie
-settings.viewmodel.show.hands Wyświetl dłonie
+settings.viewmodel.show.hands Wyświetlaj dłonie
 settings.viewmodel.leftHand Tryb leworęczny
 settings.viewmodel.aimAnim Animacja celowania
 settings.viewmodel.rot Obrócenie broni
 settings.viewmodel.xOff Przesunięcie broni w osi X
 settings.viewmodel.yOff Przesunięcie broni w osi Y
 settings.viewmodel.zOff Przesunięcie broni w osi Z
-settings.viewmodel.weapSwapY Zmiana broni Y
-settings.viewmodel.weapReloadY Przeładowanie broni Y
-settings.viewmodel.yOffADS Presunięcie Y przy celowaniu
-settings.viewmodel.adsFovMlt Siła FOV celowania
-settings.viewmodel.toggleADS Zmień siłę FOV celowania
+settings.viewmodel.weapSwapY Przesunięcie Y podczas zmiany broni
+settings.viewmodel.weapReloadY Przesunięcie Y podczas przeładowywania
+settings.viewmodel.yOffADS Przesunięcie Y podczas celowania
+settings.viewmodel.adsFovMlt Powiększenie podczas celowania
+settings.viewmodel.toggleADS Przełączanie celowania
 settings.editing.header Edycja
 settings.editing.health.high Wysokie HP w HUD
 settings.editing.health.low Niskie HP w HUD
 settings.editing.speedLines Linie prędkości
 settings.editing.spdLinesCol Kolor linii prędkości
 settings.editing.score.color Kolor wyskakującego wyniku
-settings.editing.score.show Pokaż wyskakujący wynik
-settings.editing.score.scale Skala wyskakującego wyniku
+settings.editing.score.show Pokazuj wyskakujący wynik
+settings.editing.score.scale Rozmiar wyskakującego wyniku
 settings.editing.score.shadow Cień wyskakującego wyniku
 settings.editing.scoreOffX Przesunięcie wyskakującego wyniku w osi X
 settings.editing.scoreOffY Przesunięcie wyskakującego wyniku w osi Y
 settings.editing.prog.color Kolor paska postępu
 settings.editing.prog.opacity Przezroczystość paska postępu
-settings.editing.prog.scale Skala paska postępu
+settings.editing.prog.scale Rozmiar paska postępu
 settings.editing.prog.shadow Cień paska postępu
 settings.editing.progOffX Przesunięcie paska postępu w osi X
 settings.editing.progOffY Przesunięcie paska postępu w osi Y
@@ -397,17 +397,17 @@ settings.editing.progRot Obrócenie paska postępu
 settings.editing.progm.color Kolor paska ładowania
 settings.editing.progmo.color Kolor przeciążenia
 settings.editing.progm.opacity Przezroczystość paska ładowania
-settings.editing.progm.scale Skala paska ładowania
+settings.editing.progm.scale Rozmiar paska ładowania
 settings.editing.progm.shadow Cień paska ładowania
-settings.editing.progmOffX Przesunięcie baska ładowania w osi X
-settings.editing.progmOffY Przesunięcie baska ładowania w osi Y
+settings.editing.progmOffX Przesunięcie paska ładowania w osi X
+settings.editing.progmOffY Przesunięcie paska ładowania w osi Y
 settings.editing.progmRot Obrócenie paska ładowania
-settings.editing.saturation Saturacja (W grze)
-settings.editing.menuSaturation Saturacja (Interfejs)
+settings.editing.saturation Nasycenie (W grze)
+settings.editing.menuSaturation Nasycenie (Interfejs)
 settings.editing.hue Odcień koloru (W grze)
 settings.editing.menuHue Odcień koloru (Interfejs)
 settings.editing.vignette Winieta
-settings.editing.feedLimit Limit wyświelanych zabójstw
+settings.editing.feedLimit Limit wyświetlanych zabójstw
 settings.editing.depth Mapa głębokości
 settings.editing.green Green Screen
 settings.editing.trailcol Kolor śladów pocisków
@@ -417,10 +417,10 @@ settings.editing.tracer Ślady pocisków
 settings.editing.tracer.offset Przesunięcie śladów
 settings.shaders.header Wejścia do shaderów
 settings.mods.header Konfiguracja
-settings.mods.load Załaduj mody
+settings.mods.load Wczytaj modyfikacje
 settings.mods.logo Zezwól na zmianę logo
-settings.mods.auto Automatycznie ładuj mody
-settings.mods.borders Granice celownika
+settings.mods.auto Automatycznie wczytuj modyfikacje
+settings.mods.borders Obramowanie lunety
 settings.mods.borderCol Obramowanie lunety
 settings.mods.borderOpac Przezroczystość obramowania lunety
 settings.mods.scope Obraz lunety
@@ -432,8 +432,8 @@ settings.mods.dot Obraz celownika
 settings.mods.dot.width Szerokość obrazu celownika
 settings.mods.dot.height Wysokość obrazu celownika
 settings.mods.dot.paste URL obrazu celownika
-settings.mods.endmessage Końcowa wiadomośc
-settings.mods.profile Zjęcie profilowe
+settings.mods.endmessage Końcowa wiadomość
+settings.mods.profile Zdjęcie profilowe
 settings.mods.profile.paste URL zdjęcia profilowego
 settings.mods.ammo Ikona amunicji
 settings.mods.ammo.paste URL ikony amunicji
@@ -442,27 +442,27 @@ settings.mods.kills.paste URL ikony liczby zabójstw
 settings.mods.deaths Ikona liczby śmierci
 settings.mods.deaths.paste URL ikony liczby śmierci
 settings.mods.streak Ikona licznika serii zabójstw
-settings.mods.streak.paste URL Ikony licznika serii zabójstw
+settings.mods.streak.paste URL ikony licznika serii zabójstw
 settings.mods.timer Ikona czasomierza
 settings.mods.timer.paste URL ikony czasomierza
-settings.mods.usedamage Użyj nakładki obrażeń
+settings.mods.usedamage Używaj nakładki obrażeń
 settings.mods.damage Obraz nakładki obrażeń
 settings.mods.damage.paste URL obrazu nakładki obrażeń
 settings.mods.overlay Obraz nakładki gry
 settings.mods.overlay.paste URL obrazu nakładki gry
 settings.social.region Statystyki regionu
-settings.social.bg Obraz w tle
-settings.social.bg.paste URL obrazu w tle
+settings.social.bg Obraz tła
+settings.social.bg.paste URL obrazu tła
 windows.settings.header Ustawienia gry
 windows.mail.header Krunker Mail
 windows.servers.header Serwery
 windows.servers.none Nie znaleziono dołączalnych gier...
-windows.servers.host + Hostuj grę
+windows.servers.host + Utwórz grę
 windows.servers.hide Ukryj pełne
 windows.servers.priority Priorytet regionu
 windows.servers.online {0} w grze
-windows.servers.social {0} w Hubie
-windows.servers.editor {0} w Edytorze
+windows.servers.social {0} w hubie
+windows.servers.editor {0} w edytorze
 windows.loadout.header Zmień wyposażenie
 windows.loadout.class Klasa
 windows.loadout.primary Broń główna
@@ -477,7 +477,7 @@ windows.loadout.back Ciało
 windows.loadout.waist Talia
 windows.loadout.shoe Buty
 windows.loadout.face Twarz
-windows.loadout.spray Sprej
+windows.loadout.spray Spray
 windows.loadout.color.skin Kolor skóry
 windows.loadout.color.chat Kolor nazwy w czacie
 windows.loadout.color.hair Kolor włosów
@@ -489,16 +489,16 @@ windows.loadout.flag Flaga kraju
 windows.loadout.badge Niestandardowa odznaka
 windows.mods.drop upuść tu plik modyfikacji lub naciśnij
 windows.mods.paste Wklej URL modyfikacji
-windows.mods.load Załaduj modyfikacje
+windows.mods.load Wczytaj
 windows.mods.none Nie znaleziono modyfikacji
 windows.mods.header Menedżer modyfikacji
 windows.mods.guide Poradnik tworzenia modyfikacji
 windows.mods.list Lista modyfikacji
-windows.mods.load.header Załaduj modyfikacje
+windows.mods.load.header Wczytaj modyfikacje
 windows.mods.publish Opublikuj modyfikacje
 windows.mods.viewer Widz
 windows.account.header Konto
-windows.account.recover Aby przywrócic konto, skontaktuj się z <a>recovery@yendis.ch</a>
+windows.account.recover Aby przywrócić konto, skontaktuj się z <a>recovery@yendis.ch</a>
 windows.class.header Wybierz klasę
 windows.controls.header Zmień ustawienia kontroli
 windows.controls.forward Naprzód
@@ -509,8 +509,8 @@ windows.controls.reload Przeładuj
 windows.controls.aim1 Celuj
 windows.controls.shoot1 Strzelaj
 windows.controls.inspect Pokaż broń
-windows.controls.spray Użyj spreju
-windows.controls.sprayWheel Kółko sprejów (Przytrzymaj)
+windows.controls.spray Użyj sprayu
+windows.controls.sprayWheel Kółko sprayów (Przytrzymaj)
 windows.controls.jump Skocz
 windows.controls.crouch Przyklęknij
 windows.controls.prim Główna broń
@@ -518,7 +518,7 @@ windows.controls.swap Druga broń
 windows.controls.melee Broń biała
 windows.controls.equip Wyposażenie
 windows.controls.chat Czat
-windows.controls.voice Głos
+windows.controls.voice Czat głosowy
 windows.controls.list Lista graczy
 windows.controls.board Tabela wyników
 windows.controls.interact Działanie
@@ -526,15 +526,15 @@ windows.controls.interactSec Drugie działanie
 windows.controls.confirm Potwierdź działanie
 windows.controls.drop Upuść
 windows.controls.wepVis Przełącz widoczność broni
-windows.controls.kickVoteY Zagłosuj nad wyrzuceniem gracza z rozgrywki [Tak]
-windows.controls.kickVoteN Zagłosuj nad wyrzuceniem gracza z rozgrywki [Nie]
+windows.controls.kickVoteY Głosowanie nad wyrzuceniem gracza z gry [Tak]
+windows.controls.kickVoteN Głosowanie nad wyrzuceniem gracza z gry [Nie]
 windows.controls.kpdVoteY Głosowanie KPD [Tak]
 windows.controls.kpdVoteN Głosowanie KPD [Nie]
 windows.controls.specFree Przełącz tryb wolnej kamery
 windows.controls.specObj Przełącz tryb kamery celu
 windows.controls.specFirst Przełącz tryb kamery pierwszoosobowej
 windows.controls.specNames Przełącz wymuszone wyświetlanie nicków
-windows.controls.specFocus Zmień gracza, z którego perspektywy oglądasz rozgrywkę
+windows.controls.specFocus Skup się na oglądanym graczu
 windows.controls.hidePlayers Ukryj graczy
 windows.controls.streak0 Seria 1
 windows.controls.streak1 Seria 2
@@ -546,18 +546,18 @@ windows.controls.taunt1 Przynęta/drwina (Gwizdanie)
 windows.controls.taunt2 Przynęta/drwina (Pierdnięcie)
 windows.controls.taunt3 Przynęta/drwina (Meme)
 windows.controls.taunt4 Przynęta/drwina (WTF is This?)
-windows.controls.taunt5 Przynęta/drwina (Teraz!)
+windows.controls.taunt5 Przynęta/drwina (Right Now!)
 windows.controls.prop Wybierz przykrywę (przytrzymaj)
 windows.controls.propRand Wybierz losową przykrywę
 windows.controls.propRot Przełącz rotację
 windows.controls.propRotR Zresetuj rotację
 windows.controls.premium0 Noclip
-windows.controls.premium1 Tryb boga
-windows.controls.premium2 Zabij
-windows.controls.premium3 Poraź
-windows.controls.reset Resetuj pozycję (Parkour, etc.)
+windows.controls.premium1 Godmode
+windows.controls.premium2 Kill
+windows.controls.premium3 Smite
+windows.controls.reset Resetuj pozycję (Parkour, itd.)
 windows.controls.pretend Ukryj grę
-windows.host.header Hostuj niestandardową grę
+windows.host.header Utwórz niestandardową grę
 windows.host.maps Ustaw serwer
 windows.host.cmaps Gra społeczności
 windows.host.raw Surowe dane gry
@@ -568,16 +568,16 @@ windows.host.preset Zapisane ustawienia
 windows.host.preset.load Ładowanie zapisanego ustawienia...
 windows.host.preset.name Nazwa zapisanego ustawienia
 windows.host.start Rozpocznij grę
-windows.host.rehost Rozpocznij grę (Przybierz graczy)
-windows.spray.header Wybierz sprej
-windows.spray.default Darmowy sprej
-windows.spray.spin Sprej
+windows.host.rehost Rozpocznij grę (Przenieś graczy)
+windows.spray.header Wybierz spray
+windows.spray.default Darmowy spray
+windows.spray.spin Spray
 windows.maps.header Niestandardowe gry
 windows.maps.none Nie znaleziono gier!
 windows.maps.name Nazwa gry
 windows.maps.editor Edytor gier
 windows.maps.publish Opublikuj grę
-windows.maps.community Społeczność Deweloperska
+windows.maps.community Społeczność deweloperska
 windows.publish.map.header Opublikuj lub zaktualizuj grę
 windows.publish.map.thumbnail Brak miniaturki
 windows.publish.map.paste Wklej dane gry
@@ -593,23 +593,23 @@ windows.clans.requests.none Brak próśb dołączenia
 windows.clans.page [{0}] strona klanu
 windows.clans.create Stwórz klan
 windows.clans.name Nazwa klanu
-windows.clans.view Pokaż klany
+windows.clans.view Pokazuj klany
 windows.clans.join Dołącz do klanu
 windows.clans.login aby tworzyć lub dołączyć do klanu!
 windows.store.header Sklep
-windows.store.spin Zakręć {0}
+windows.store.spin Koło {0}
 windows.store.agree Kupując zgadzasz się z {0}Warunkami
 windows.store.purchase Kup KR
-windows.store.voucher Wykorzystaj Bon
+windows.store.voucher Wykorzystaj bon
 windows.store.voucherinfo Zdobądź bony od streamerów lub w wydarzeniach
 windows.store.market Market
 windows.store.market2 Krunker Market
 windows.store.premium Kup Premium
 windows.store.premium2 Krunker Premium
-windows.store.buyP Wybierz wyświetlaną nazwę i więcej z
+windows.store.buyP Zmień swoją wyświetlaną nazwę oraz wiele więcej z
 windows.store.buy Kupuj i sprzedawaj przedmioty w
 windows.store.wheels Koła nagród
-windows.store.unlock Odblokuj nowe skiny i przedmioty
+windows.store.unlock Odblokuj nowe skórki i przedmioty
 windows.store.amount {0} KR na koncie
 windows.store.login aby kupować i odblokowywać nowe przedmioty w sklepie!
 windows.store.purchasing Kupowanie...
@@ -618,7 +618,7 @@ windows.store.found {0}{1} found
 windows.trade.header Handel
 windows.scope.header Wybierz lunetę
 windows.premium.header Premium
-windows.skin.header Wybierz skin
+windows.skin.header Wybierz skórkę
 windows.hat.header Wybierz kapelusz
 windows.back.header Wybierz tył
 windows.waist.header Wybierz talię
@@ -646,7 +646,7 @@ windows.publish.mod.update Opublikuj/Zaktualizuj
 windows.publish.mod.login aby tworzyć i udostępniać modyfikacje!
 windows.secondary.header Wybierz drugą broń
 windows.secondary.unlocked Odblokowane
-windows.secondary.customOnly Dostępne tylko w rozgrywkach niestandardowych
+windows.secondary.customOnly Dostępne tylko w grach niestandardowych
 windows.secondary.premiumOnly Dostępne tylko dla użytkowników Premium
 windows.secondary.req Wymaga poziomu {0}
 windows.skins.unlocked Odblokowane
@@ -665,15 +665,15 @@ windows.client.header Klient
 windows.client.windows Instalator Windows
 windows.client.mac Instalator macOS
 windows.client.linux Instalator Linux
-windows.ranked.header Rankowane
-windows.ranked.login by grać rankowane gry!
-windows.ranked.level Musisz mieć co najmniej <span color="black">{0} poziom</span> aby grać rankowane gry! Aktualnie masz <span color="black">{1} poziom</span>.
+windows.ranked.header Mecz rankingowy
+windows.ranked.login by grać rankingowe gry!
+windows.ranked.level Musisz mieć co najmniej <span color="black">{0} poziom</span> aby grać rankingowe gry! Aktualnie masz <span color="black">{1} poziom</span>.
 windows.chall.header Wyzwania
 windows.chall.login by wykonywać wyzwania!
 thumbnail.upload.limit Niepowodzenie. Limit rozmiaru miniaturki to {0}kb
 image.upload.limit Niepowodzenie. Limit rozmiaru obrazu to {0}kb
 thumbnail.upload.error Błąd miniaturki
-mod.extracting wypakowywanie {0}/{1}
+mod.extracting rozpakowywanie {0}/{1}
 mod.disabled modyfikacje wyłączone
 mod.error błąd modyfikacji!
 mod.loading ładowanie modyfikacji...
@@ -701,7 +701,7 @@ server.config.gameTime Minuty
 server.config.gravMlt Grawitacja
 server.config.tickRI Wysoki tickrate
 server.config.maxPS Serwer na 40 graczy
-server.config.promServ Promuj serwer
+server.config.promServ Reklamuj serwer
 server.config.jumpMlt Siła skoku
 server.config.airStrf Air Strafing
 server.config.deltaMlt Skalowanie czasu
@@ -709,7 +709,7 @@ server.config.strafeSpd Prędkość strafingu
 server.config.fiRat Prędkość strzelania
 server.config.reSpd Prędkość przeładowania
 server.config.slidTime Długość ślizgu
-server.config.fixMov Ustalony ruch
+server.config.fixMov Ruch niezmienny
 server.config.slidSpd Prędkość ślizgu
 server.config.healthMlt Mnożnik HP
 server.config.impulseMlt Impuls broni
@@ -723,8 +723,8 @@ server.config.t2Dmg Obrażenia drużyny 2
 server.config.t3Dmg Obrażenia drużyny 3
 server.config.t4Dmg Obrażenia drużyny 4
 server.config.t5Dmg Obrażenia drużyny 5
-server.config.selTeam Wybierz drużynę
-server.config.allowSpect Obserwowanie
+server.config.selTeam Wybieranie drużyn
+server.config.allowSpect Zezwalaj na oglądanie
 server.config.killRewards Nagrody za zabójstwa
 server.config.headshotOnly Tylko strzały w głowę
 server.config.noSecondary Wyłącz drugą broń
@@ -739,36 +739,36 @@ server.config.nameTags Ukryj nazwy nad graczami
 server.config.kCams Kamery zabójstw
 server.config.aAnon Zezwalaj na korzystanie z trybu anonimowego
 server.config.noReload Bez przeładowywania
-server.config.private Prywatna gra
+server.config.private Gra prywatna
 server.config.krRewards Nagrody KR
 server.config.forceDefault Wymuś używanie domyślnych ustawień
 server.config.warmupTime Czas rozgrzewki
 server.config.gamRounds Rundy
-server.config.objtvTime Czas miejsca celu
+server.config.objtvTime Czas obiektów konkurencyjnych
 server.config.forceSpawn Czas automatycznego odrodzenia
 server.config.intermTmr Przerwa (s)
 server.config.scoreLimit Limit wyniku
-server.config.keepTScore Zatrzymaj wynik zespołu
+server.config.keepTScore Zachowaj wynik zespołu
 server.config.forceC Wymuś klasy trybu
-server.config.logTim Czas logów (Wyścig, Parkour)
+server.config.logTim Zapisywanie czasu (Race, Parkour)
 server.config.hitBoxPad Hitbox Padding
 server.config.hpRegen Regeneracja życia
-server.config.disableB Wyłącz obramowanie
-server.config.throwMel Rzucanie broni białych
+server.config.disableB Wyłącz granice map
+server.config.throwMel Rzucanie nożem
 server.config.noCosm Wyłącz elementy kosmetyczne
 server.config.tstCmp Tryb testowy
 server.config.limitClasses Limit klas
 server.config.tmSize Rozmiar drużyny
-server.config.fallDmg Obrażenia od updaku
-server.config.fallDmgThr Próg obrażeń od updaku
+server.config.fallDmg Obrażenia od upadku
+server.config.fallDmgThr Próg obrażeń od upadku
 server.config.noDraws Bez remisów
 server.config.bstOfR Najlepszy z
 server.config.chrgWeps Bronie wykorzystujące mechanikę ładowania
-social.login Zaloguj/Zarejestruj
-social.login.failed Logowanie nie powiodło się
-social.login.buy Zaloguj się by kupować
-social.login.sell Zaloguj się by sprzedawać
-social.login.gift Zaloguj się by darować
+social.login Zaloguj/Zarejestruj się
+social.login.failed Logowanie się nie powiodło
+social.login.buy Zaloguj się, aby kupować
+social.login.sell Zaloguj się, aby sprzedawać
+social.login.gift Zaloguj się, aby darować
 social.login.proccessing Logowanie...
 social.since Od
 social.user.maps Gry użytkowników
@@ -776,13 +776,13 @@ social.user.mods Modyfikacje użytkowników
 social.maps.none Nie znaleziono gier...
 social.mods.none Nie znaleziono modyfikacji...
 social.market.price.low Najniższa cena
-social.market.price.list Pokaż cenę w
+social.market.price.list Pokazuj cenę w
 social.market.searching Wyszukiwanie
 social.market.listed wystawione {0} temu
 social.market.list Wystaw przedmiot
 social.market.unlist Zdejmij przedmiot
 social.market.unlisting Zdejmowanie przedmiotu...
-social.market.posting Postowanie przedmiotu...
+social.market.posting Wystawianie przedmiotu...
 social.market.req poziom {0} wymagany
 social.market.cant Nie stać cię na to
 social.market.purchase Kup
@@ -795,8 +795,8 @@ social.market.face Przedmiot na twarz
 social.market.shoe Przedmiot butów
 social.market.pet Przedmiot zwierzaka
 social.market.wrist Przedmiot nadgarstka
-social.market.melee Przedmiot broni białej
-social.market.spray Przedmiot spreju
+social.market.melee Przedmiot noża
+social.market.spray Przedmiot sprayu
 social.market.dye Przedmiot barwnika
 social.market.collectible Przedmiot kolekcjonerski
 social.market.none Nie znaleziono przedmiotów
@@ -812,7 +812,7 @@ social.market.fee.gift Brak podatku
 social.market.gift Wyślij KR
 social.market.gift.msg Zostaw wiadomość
 respawn.auto Automatyczne odrodzenie za {0}
-custom.host.ranked Nie możesz hostować gier, gdy grasz w trybie rankowanym.
+custom.host.ranked Nie możesz utworzyć gry niestandardowej, gdy grasz w trybie rankingowym.
 funds.insufficient Niewystarczające fundusze
 funds.out Wygląda na to, że skończyło Ci się KR.
 custom.passcode.long Zbyt długie hasło
@@ -824,7 +824,7 @@ limited.purchase.success Dodano {0} do Twojego ekwipunku
 pretend.exit wciśnij [{0}] aby wyjść
 settings.loaded Załadowano ustawienia
 settings.loaded.none Nie znaleziono ustawień
-account.login.required Wymagane jest bycie zalogowanym
+account.login.required Musisz być zalogowany
 account.banned.hack To konto zostało zbanowane za używanie cheatów
 account.banned.appeal Jeśli chcesz odwołać się od bana, skontaktuj się z:
 account.delete Możesz zgłosić żądanie usunięcia Twojego konta, jeśli nie cofniesz tego żądania w ciągu 14 dni od wysłania go, Twoje konto zostanie trwale usunięte.
@@ -837,22 +837,22 @@ mod.reset.0 Zmiana zacznie obowiązywać po odrodzeniu.
 mod.reset.1 Obiekty na mapie nie ulegają resetowi
 windows.profile.picture Zmień zdjęcie profilowe
 stats.assists Asysty
-stats.nukes Bomby atomowe
-stats.melee Zabójstwa przy użyciu broni białej
+stats.nukes Zrzucone bomby
+stats.melee Zabójstwa nożem
 stats.fistkills Zabójstwa w wyniku pobicia
-stats.thrownkills Zabójstwa w wyniku rzutu bronią białą
+stats.thrownkills Zabójstwa przez rzut nożem
 stats.headshots Trafienia w głowę
 stats.wallbangs Trafienia przez ściany
 stats.crouches Przykucnięcia
-stats.sprays Użycia sprejów
-stats.kpd Helpful Raporty
-windows.host.default.settings Włączenie domyślnych ustwaień pozwala na przechowywanie postępu graczy oraz najwyższych wyników
+stats.sprays Użycia sprayów
+stats.kpd Pomocne reporty
+windows.host.default.settings Włączenie domyślnych ustawień pozwala na przechowywanie postępu graczy oraz najwyższych wyników
 windows.host.default.commands Komendy hosta są wyłączone w tym trybie: /noclip /god /smite itp
 windows.host.rewards Włączenie nagród KR zmusza serwer do używania domyślnych ustawień i pozwala graczom zdobywać KR z funduszy mapy:
-windows.store.wheels.sub Wypróbuj swoje swoje szczęście i zakręć kołem, aby móc wygrać nowe skiny!
-windows.store.currency * Ceny w USD mogą być przeilczone na Twoją lokalną walutę po wartości wymiany ustalonej przez dostawcę płatności lub bank
-windows.store.creator Wesprzyj swoich ulubionych twórców treści gry (CC), używając ich kodu
-windows.chall.customs Nie można zdobywać wyzwań w niestandardowych meczach
+windows.store.wheels.sub Spróbuj szczęścia i zakręć kołem, aby wygrać nowe skórki!
+windows.store.currency * Ceny w USD mogą zostać przeliczone na lokalną walutę po kursie wymiany określonym przez dostawców płatności lub bank
+windows.store.creator Wesprzyj swojego ulubionego twórcę treści, używając ich kodu
+windows.chall.customs Nie można robić wyzwań w niestandardowych meczach
 twitch.link Czy jesteś pewien, że chcesz połączyć konto gry z kontem na Twitchu?
 twitch.unlink Czy jesteś pewien, że chcesz rozłączyć konto gry z kontem na Twitchu?
 windows.clan.leave Czy jesteś pewien, że chcesz opuścić ten klan?
@@ -863,19 +863,19 @@ windows.store.premium.gift Czy jesteś pewien, że chcesz podarować '{0}' {1} d
 windows.playerlist.ban Czy jesteś pewien, że chcesz wyrzucić {0} z tej gry?
 windows.playerlist.flag Czy jesteś pewien, że chcesz oflagować {0}?
 windows.playerlist.unflag Czy jesteś pewien, że chcesz odflagować {0}?
-windows.playerlist.punish Czy jesteś pewien, że chesz podjąć akcję dotyczącą {0}?
+windows.playerlist.punish Czy jesteś pewien, że chcesz podjąć akcję dotyczącą {0}?
 item.view.open Otwórz przeglądarkę modeli
 item.view.more Więcej informacji
 item.sell.cant Przedmiot nie może zostać sprzedany.
-item.sell.cant.krunker Przedmiot nie może być sprzedany w krunker.
+item.sell.cant.krunker Przedmiot nie może zostać sprzedany w krunkerze.
 item.sell.quick Czy na pewno chcesz szybko sprzedać {0}?
 item.sell.destroy Czy na pewno chcesz zniszczyć {0}?
 social.profile.stats Statystyki ogólne
 social.profile.class Statystyki klas
 social.profile.sales Sprzedaż
 social.profile.sales.market Sprzedaż rynkowa
-social.profile.skins Skiny [{0}]
-social.profile.skins.none Ten gracz nie opublikował żadnych skinów
+social.profile.skins Skórki [{0}]
+social.profile.skins.none Ten gracz nie opublikował żadnych skórek
 social.profile.games Gry [{0}]
 social.profile.games.none Ten gracz nie opublikował żadnych gier
 social.profile.assets Zasoby [{0}]
@@ -883,7 +883,7 @@ social.profile.assets.none Ten gracz nie opublikował żadnych zasobów
 social.profile.mods Modyfikacje [{0}]
 social.profile.mods.none Ten gracz nie opublikował żadnych modyfikacji
 social.search Wyniki wyszukiwania
-social.market.stats.rare Najrzadzsze przedmioty
+social.market.stats.rare Najrzadsze przedmioty
 social.market.stats.circulation W obiegu
 social.market.stats.units na całym świecie
 social.trades.in Przychodzące
@@ -893,12 +893,12 @@ social.trades.out.head Wychodzące oferty ({0})
 social.trades.history Historia
 social.trades.history.head Historia handlu ({0})
 social.trades.decline Odrzuć wszystkie
-social.trades.message WŁĄCZ WIADOMOŚĆI O HANDLU W USTAWIENIACH
+social.trades.message WŁĄCZ WIADOMOŚCI O HANDLU W USTAWIENIACH
 social.trades.warning Nie dostaniesz żadnych przedmiotów z tej wymiany!
 social.trades.accept Czy na pewno chcesz przyjąć tę ofertę?
-stats.airdrops Paczki KR
-stats.airdrops.stolen Skradzione paczki KR
-settings.quality.flapAnim Animowana klapka snajperska
+stats.airdrops Zrzuty KR
+stats.airdrops.stolen Skradzione zrzuty KR
+settings.quality.flapAnim Animacja klapy do snajperki 
 chall.name.hs Zdobądź {0} zabójstw przez strzał w głowę {1}
 chall.name.ns Zdobądź {0} zabójstw bez przybliżania snajperką {1}
 chall.name.ls Zdobądź {0} zabójstw przez strzał w nogę {1}
@@ -912,7 +912,7 @@ chall.name.airk Zdobądź {0} zabójstw w powietrzu {1}
 chall.name.lns Zdobądź {0} zabójstw z daleka {1}
 chall.name.tk Zdobądź {0} zabójstw, poruszając się z wysoką szybkością {1}
 chall.name.drk Zdobądź {0} zabójstw podczas poślizgu {1}
-chall.name.kstk Zdobądź serię {0} zabóstw {1}
+chall.name.kstk Zdobądź serię {0} zabójstw {1}
 chall.name.w Wygraj {0} meczów
 chall.name.d Zgiń {0} razy
 chall.name.score Zdobądź {0} punktów
@@ -920,63 +920,63 @@ chall.name.dmg Zadaj {0} obrażeń {1}
 chall.name.bzk Zakończ {0} serii zabójstw innych graczy {1}
 chall.name.cc Zdobądź {0} zabójstw, prawie samemu ginąc {1}
 chall.name.rk Zdobądź {0} zabójstw w odwecie {1}
-event.doubleXP Podwójne doświadczenie klas w tej grze
-ranked.join Dołączono do rozgrywki rankowanej. Opuszczenie rozgrywki będzie skutkować tymczasowym banem
-ranked.progress Rozgrywka w trakcie
+event.doubleXP Podwójne doświadczenie klasy w tej grze
+ranked.join Dołączono do gry rankingowej. Opuszczenie jej skutkuje tymczasowym banem
+ranked.progress Gra w toku
 ranked.team Dołącz do drużyny
 ranked.switch Nie można zmieniać w trakcie rozgrywki
-ranked.spectate Obserwowanie jest wyłączone w rozgrywkach rankowanych
+ranked.spectate Oglądanie jest wyłączone w grach rankingowych
 ranked.login Zaloguj się, aby dołączyć do rozgrywki
 ranked.sync Brak danych synchronizacji
 ranked.team.spawn Dołącz do drużyny, aby dołączyć do rozgrywki
 ranked.class.spawn Wybierz klasę, aby dołączyć do rozgrywki
-modes.round.win Twoja drużyna zabezpieczyła sobie tę rundę
-modes.round.loss Nie jest możliwe wygranie tej rundy przez Twoją drużynę
-modes.round.switch Zamiana stron. Przygotuj się na następną rundę
-modes.trade.success Wymiana zakończona sukcesem
+modes.round.win Twoja drużyna zabezpieczyła tę rundę
+modes.round.loss Tej rundy nie da się już wygrać
+modes.round.switch Zmiana stron. Przygotuj się na następną rundę
+modes.trade.success Handel zakończony sukcesem
 modes.prophunt.limit [Chowany] Skończyły Ci się zmiany przykrywek
-modes.prophunt.left [Chowany] You have {0} switches remaining
+modes.prophunt.left [Chowany] Pozostało Ci {0} zmian
 modes.prophunt.rotation.on [Chowany] Rotacja włączona
 modes.prophunt.rotation.off [Chowany] Rotacja wyłączona
 modes.prophunt.rotation.reset [Chowany] Rotacja zresetowana.
 commands.login Zaloguj się, aby skorzystać z tej komendy
-commands.connected {0} connected, {1} in menu
+commands.connected {0} podłączonych, {1} w menu
 commands.host {0} jest obecnym hostem.
 commands.noclip.on Noclip - włączony
 commands.noclip.off Noclip - wyłączony
-commands.god.on Tryb Boga - włączony
-commands.god.off Tryb Boga - wyłączony
-commands.god.on.other Tryb Boga - włączony dla {0}
-commands.god.off.other Tryb Boga - wyłączony dla {0}
+commands.god.on Godmode - włączony
+commands.god.off Godmode - wyłączony
+commands.god.on.other Godmode - włączony dla {0}
+commands.god.off.other Godmode - wyłączony dla {0}
 commands.smite.on Smite - włączony
 commands.smite.off Smite - wyłączony
 commands.smite.on.other Smite - włączony dla {0}
 commands.smite.off.other Smite - wyłączony dla {0}
 commands.perk Dano {0} {1}
 commands.maxperk Dano {0} MAX {1}
-commands.unlimited.on Nielimitowana amunicja Ammo - włączona
+commands.unlimited.on Nielimitowana amunicja - włączona
 commands.unlimited.off Nielimitowana amunicja - wyłączona
 commands.unlimited.on.other Nielimitowana amunicja - włączona dla {0}
 commands.unlimited.off.other Nielimitowana amunicja - wyłączona dla {0}
-commands.spraybypass.on Nielimitowana amunicja - włączona
-commands.spraybypass.off Nielimitowana amunicja - wyłączona
-commands.spraybypass.on.other Nielimitowana amunicja - włączona dla {0}
-commands.spraybypass.off.other Nielimitowana amunicja - wyłączona dla {0}
+commands.spraybypass.on Nielimitowane spraye - włączona
+commands.spraybypass.off Nielimitowane spraye - wyłączona
+commands.spraybypass.on.other Nielimitowane spraye - włączona dla {0}
+commands.spraybypass.off.other Nielimitowane spraye - wyłączona dla {0}
 commands.suspect.invalid Niepoprawne dane podejrzanego
 commands.suspect.menu Podejrzany jest w menu
 commands.suspect.left Podejrzany opuścił grę
-commands.suspect.found Podejrzany znaleziony. Obserwujący: {0}, W grze: {1}, Imię: {2}
-commands.forfeit.next Należy rozegrać przynajmniej jedną rozgrywkę
-commands.forfeit.wait Należy zaczekać na początek rozgrywki, aby się wycofać
+commands.suspect.found Podejrzany znaleziony. Oglądający: {0}, W grze: {1}, Nazwa: {2}
+commands.forfeit.next Należy rozegrać przynajmniej jedną rundę
+commands.forfeit.wait Należy zaczekać na rozpoczęcie się gry, aby się wycofać
 commands.forfeit.later Spróbuj ponownie za kilka sekund
 commands.forfeit.voted Już zagłosowałeś.
-commands.forfeit.limit Możesz rozpocząć tylko jedno głosowanie w ciągu jednej rozgrywki
+commands.forfeit.limit Możesz rozpocząć tylko jedno głosowanie w ciągu jednej gry
 commands.forfeit.ended Wycofywanie się z gry
-commands.forfeit.ended.other Druga drużyna się wycofała
+commands.forfeit.ended.other Przeciwnicy się wycofali
 server.message.join {0} dołączył do gry
 server.message.left {0} opuścił grę
 server.message.kicked {0} został wyrzucony
 server.message.banned {0} został zbanowany
-server.message.votekicked {0} został wyrzucony w drodze głosowania
+server.message.votekicked {0} został wyrzucony przez głosowanie
 server.message.arrested {0} został aresztowany przez K.P.D.
 `;

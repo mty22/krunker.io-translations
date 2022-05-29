@@ -121,5 +121,6 @@ If you contributed in the past and can't find your name below (or simply wish to
 * [pamglint](https://krunker.io/social.html?p=profile&q=pamglint)
 * [-isori](https://krunker.io/social.html?p=profile&q=-Isori)
 * [JestemKaktus](https://krunker.io/social.html?p=profile&q=JestemKaktus) (KaktusDev#3612)
+* [Ectryliz](https://krunker.io/social.html?p=profile&q=Ectryliz) (Ectryliz#1840)
 * Chonker1337
 * stdavious
