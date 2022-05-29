@@ -97,6 +97,7 @@ If you contributed in the past and can't find your name below (or simply wish to
 * [NickAuthentic](https://krunker.io/social.html?p=profile&q=NickAuthentic) (nickauthentic#9999)
 * [Gluzly](https://krunker.io/social.html?p=profile&q=Gluzly) (gluzly#9999)
 * [AdoreMe](https://krunker.io/social.html?p=profile&q=AdoreMe) (AdoreMe#0082)
+* [MLKEDX](https://krunker.io/social.html?p=profile&q=MLKEDX) (MLKEDX#3011)
 
 # [Russian](https://github.com/mty22/krunker.io-translations/blob/main/ru.js) (Русский)
 * [coeg](https://krunker.io/social.html?p=profile&q=coeg%E2%A0%80%E2%A0%80) (coeg#0523)
