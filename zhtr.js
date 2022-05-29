@@ -740,7 +740,7 @@ server.config.kCams 死亡視角
 server.config.aAnon 允許匿名玩家
 server.config.noReload 無需換彈
 server.config.private 私服
-server.config.krRewardsKR獎勵
+server.config.krRewards KR獎勵
 server.config.forceDefault 強制使用預設設定
 server.config.warmupTime 熱身時間（分鐘）
 server.config.gamRounds 遊戲局數
