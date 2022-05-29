@@ -27,6 +27,7 @@ If you contributed in the past and can't find your name below (or simply wish to
 * [peyang-Celeron](https://krunker.io/social.html?p=profile&q=peyang) (Peyang#0001)
 * [Hassich](https://krunker.io/social.html?p=profile&q=hassich) (hassich#6226)
 * [Kuriimu](https://krunker.io/social.html?p=profile&q=Kuriimu) (Kuriimu#0001)
+* [VoidSequence](https://krunker.io/social.html?p=profile&q=VoidSequence) (VoidSequencx#3697)
 
 # [French](https://github.com/mty22/krunker.io-translations/blob/main/fr.js) (Français)
 * [Chwoubaka](https://krunker.io/social.html?p=profile&q=Chwoubaka) (Chwoubaka#3009)
