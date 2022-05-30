@@ -91,7 +91,7 @@ settings.local.region Región por defecto
 settings.local.lang Idioma
 settings.network.header Conexión
 settings.network.netRerouting Enrutamiento automático (Afecta el ping)
-settings.network.netRate Network Rate (Hz)
+settings.network.netRate Velocidad de Red (Hz)
 settings.network.lagComp Compensación de lag
 settings.network.optNet Red Optimizada
 settings.network.quickplay Forzar Partida Rapida
@@ -111,7 +111,7 @@ settings.client.discordRPC RPC de Discord
 settings.client.resourceSwapper Intercambiador de Recursos
 settings.client.clearCache Limpiar Caché
 settings.client.resetSettings Reiniciar Configuraciones del Cliente
-settings.client.acceleratedCanvas Canvas Acelerados
+settings.client.acceleratedCanvas Canvas Acelerado
 settings.client.angleBackend Respaldo de Gráficos Angulares
 settings.client.colorProfile Perfil de Color
 settings.client.resourcePacks Paquetes de Recursos
@@ -130,7 +130,7 @@ settings.chat.chatBGOp Opacidad del fondo del chat
 settings.chat.chatHeight Altura del chat
 settings.chat.chatTimer Temporizador del chat(s)
 settings.chat.chatTextOutline Contorno del chat de texto
-settings.chat.chatFilter Filtro de profanidad
+settings.chat.chatFilter Filtro de Lenguaje inapropiado
 settings.quality.header Rendimiento
 settings.quality.updRate Limíte de FPS
 settings.quality.rendDst Distancia de renderizado
@@ -140,14 +140,14 @@ settings.quality.mapDet Detalles de mapas
 settings.quality.noTex Sin texturas
 settings.quality.partdist Distancia de partículas
 settings.quality.renderdist Distancia de Renderizado
-settings.quality.reflection Calidad De Reflexiones
+settings.quality.reflection Calidad De Reflejos
 settings.quality.antiAlias Suavizado de bordes
 settings.quality.shadows Sombras
 settings.quality.softShad Sombras suaves
-settings.quality.highResShad Sombras sofisticadas 
+settings.quality.highResShad Sombras de alta definición  
 settings.quality.shadowsDynamic Sombras dinámicas
-settings.quality.trails Estela de balas
-settings.quality.yourTrails Tus estelas
+settings.quality.trails Rastro de balas
+settings.quality.yourTrails Tus rastros de balas
 settings.quality.mflash Fogonazo de arma
 settings.quality.flap Solapa de francotirador
 settings.quality.lowSpec Bajo rendimiento
@@ -157,7 +157,7 @@ settings.quality.textureAnim Animaciones de texturas
 settings.quality.objectAnim Animaciones de objetos
 settings.quality.screenShake Temblor de pantalla
 settings.quality.weaponShine Brillo de armas
-settings.quality.rendGamma Gama
+settings.quality.rendGamma Gamma
 settings.quality.lighting Iluminación de ambiente
 settings.quality.showExplo Mostrar Explosiones
 settings.quality.aspectRatio Relación de aspecto
@@ -174,16 +174,16 @@ settings.interface.hitColor Color de Hitmarker
 settings.interface.dmg Mostrar daño
 settings.interface.dmgCol Color de daño
 settings.interface.critCol Color de daño crítico
-settings.interface.header Interface
+settings.interface.header Interfaz
 settings.interface.scale Escala de interfaz
 settings.interface.theme Tema de la Interfaz
 settings.interface.ui Mostrar Interfaz
-settings.interface.scoreboard Usar el viejo tablero de puntaciones
+settings.interface.scoreboard Usar el antiguo tablero de puntaciones
 settings.interface.oldBrowser Usar el navegador antiguo
 settings.interface.rarityanim Desactivar animaciones de rareza
 settings.interface.showPfp Mostrar fotos de perfil
 settings.interface.showTradeMsg Mostrar mensajes de Intercambios
-settings.interface.hideNonTrade Esconder skins No-Tradeables
+settings.interface.hideNonTrade Ocultar skins No-Tradeables
 settings.interface.hp Barras de salud dinámicas
 settings.interface.dmgScale Escala de daño
 settings.interface.killf Mostrar bajas de jugadores
@@ -218,7 +218,7 @@ settings.interface.healthNum Número de salud
 settings.interface.healthColT Color de la barra de salud del equipo
 settings.interface.healthColE Color de la barra de salud del enemigo
 settings.interface.xpBarCol Color de la barra de experiencia
-settings.interface.xpBarCol2 XP Bar Color 2
+settings.interface.xpBarCol2 Color de la barra de experiencia 2
 settings.interface.xpBarOpac Opacidad de la barra de experiencia
 settings.medals.header Medallas
 settings.medals.show Mostrar Medallas
@@ -348,7 +348,7 @@ settings.audio.mic Mic Volumen
 settings.audio.micquality Calidad del Micrófono
 settings.audio.weps Volumen de Armas
 settings.audio.player Volumen de Jugadores
-settings.audio.skin Volumen de Cosmeticos
+settings.audio.skin Volumen de Cosméticos
 settings.audio.ui Volumen de la Interfaz
 settings.audio.asset Volumen de Assets
 settings.audio.dialogue Volumen de Acción
@@ -456,12 +456,12 @@ settings.social.bg.paste Background Image URL
 windows.settings.header Ajustes de juego
 windows.mail.header Correo de krunker
 windows.servers.header Servidores
-windows.servers.none No se ha encontrado partidas a la que unirse...
+windows.servers.none No se han encontrado partidas a la que unirse...
 windows.servers.host + Crear partida
 windows.servers.hide Ocultar partidas llenas
 windows.servers.priority Prioridad de región
-windows.servers.online {0} en partida
-windows.servers.social {0} en social
+windows.servers.online {0} en Partida
+windows.servers.social {0} en Social
 windows.servers.editor {0} en Editor
 windows.loadout.header Cambiar equipamiento
 windows.loadout.class Clase
@@ -699,7 +699,7 @@ server.config.minPlayers Jugadores mínimos
 server.config.lives Vidas
 server.config.gameTime Minutos
 server.config.gravMlt Gravedad
-server.config.tickRI Alto Tickrate
+server.config.tickRI Tickrate Alto
 server.config.maxPS Servidor de 40 jugadores
 server.config.promServ Promover Servidor
 server.config.jumpMlt Intensidad de salto
@@ -763,7 +763,7 @@ server.config.fallDmg Daño de Caida
 server.config.fallDmgThr Desgranado de Daño de Caida
 server.config.noDraws No Empates
 server.config.bstOfR Mejor de
-server.config.chrgWeps Chargable Weapons
+server.config.chrgWeps Armas cargables
 social.login Iniciar Sesión/Registrarse
 social.login.failed Error al iniciar sesión
 social.login.buy Inicia sesión para comprar
@@ -799,7 +799,7 @@ social.market.melee Arma cuerpo-a-cuerpo
 social.market.spray Grafitis
 social.market.dye Trajes
 social.market.collectible Objeto Coleccionable
-social.market.none No se han encontrado objetos'
+social.market.none No se han encontrado objetos
 social.market.login Tienes que iniciar sesión.
 social.market.grace Listo en {0}
 social.market.sort Filtrar/ordenar
@@ -808,7 +808,7 @@ social.market.sort2 Ordenar
 social.market.price.high Precio más alto
 social.trading.submitting Enviando oferta...
 social.market.gift.amount Cantidad de KR a Regalar
-social.market.fee.gift Sin cuota
+social.market.fee.gift Sin coste
 social.market.gift Regalar KR
 social.market.gift.msg Dejar un mensaje
 respawn.auto Auto Reaparición en {0}
@@ -828,8 +828,8 @@ account.login.required Necesitas iniciar Sesión
 account.banned.hack Esta cuenta ha sido suspendida permanentemente por Trampas.
 account.banned.appeal Si quieres apelar la suspensión de tu cuenta , Contacta:
 account.delete Puedes solicitar la eliminación de su cuenta, si la solicitud no se cancela dentro de los 14 días, la cuenta y todos los datos asociados se eliminarán permanentemente.
-account.delete.request Está seguro que desea solicitar la eliminación de la cuenta?
-account.delete.cancel Está seguro que desea cancelar la eliminación de la cuenta?
+account.delete.request Está seguro de que desea solicitar la eliminación de la cuenta?
+account.delete.cancel Está seguro de que desea cancelar la eliminación de la cuenta?
 spin.free.available KR GRATIS DISPONIBLE!
 spin.free.claim  Este spin esta disponible para canjear una hora después de cada partida.
 spin.free.disable Estos anuncios pueden ser desactivados en las configuraciones generales.
@@ -846,7 +846,7 @@ stats.wallbangs Bajas a través de Paredes
 stats.crouches Agachamientos
 stats.sprays Sprays Colocados
 stats.kpd Reportes Útiles  
-windows.host.default.settings Habilitar las configuraciones predeterminadas permite guardar el progreso del jugador y puntajes más altos
+windows.host.default.settings Habilitar las configuraciones predeterminadas te permite guardar tu progreso y tus mejores puntuaciones
 windows.host.default.commands *Los comandos de hosteo están deshabilitados para este modo : /noclip /god /smite etc
 windows.host.rewards Al activar las Recompensas de KR fuerza al servidor a usar configuraciones por defecto y permite a los jugadores ganar recompensas de los fondos del mapa:
 windows.store.wheels.sub Prueba tu suerte y gira para ganar nuevas Skins!
@@ -885,7 +885,7 @@ social.profile.mods.none No hay Mods publicados por este Usuario
 social.search Resultados de búsqueda
 social.market.stats.rare Objetos más raros
 social.market.stats.circulation En circulación
-social.market.stats.units Unidades a escala mundial.
+social.market.stats.units Unidades a escala global.
 social.trades.in Entrante
 social.trades.in.head Ofertas entrantes ({0})
 social.trades.out Saliente
@@ -921,7 +921,7 @@ chall.name.bzk Obtén {0} Bajas Múltiples {1}
 chall.name.cc Obtén {0} Muertes Cercanas {1}
 chall.name.rk Haz {0} Asesinatos por Venganzas {1}
 event.doubleXP Experiencia X2 Activada para esta Partida
-ranked.join Unido a partida Competitiva. El abandono de partidas competitivas resultara en una suspensión temporal.
+ranked.join Se ha unido a partida Competitiva. El abandono de partidas competitivas resultara en una suspensión temporal.
 ranked.progress Partida en progreso.
 ranked.team Por favor únete a un equipo
 ranked.switch Cambio desactivado durante Partida
