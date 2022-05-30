@@ -11,7 +11,7 @@ menu.btn.invite.clicked Copiado
 menu.btn.join Unirse
 menu.btn.host Crear partida
 menu.btn.browser Servidores
-generic.wait Porfavor espere...
+generic.wait Por favor espere...
 generic.loading CARGANDO...
 generic.none Nada
 generic.connecting CONECTANDO...
@@ -61,7 +61,7 @@ generic.accuracy Precisión
 player.waiting Esperando jugadores
 player.died Has muerto
 player.killed Eliminado por
-player.killstreak {0} on a {1} Kill Streak
+player.killstreak {0} Está en una racha de {1} bajas
 player.inactive Desconectado por inactividad
 player.disconnect DESCONECTADO
 timer.end Siguiente ronda en {0}
@@ -84,8 +84,8 @@ settings.none No se han encontrado configuraciones
 settings.backup Respaldar configuraciones
 settings.controls.change Ajustar controles
 settings.controls.press Presione cualquier tecla
-settings.controls.leaderboard Tipo de Trigger de Tabla
-settings.controls.voicechat Tipo de Trigger de Chat de Voz
+settings.controls.leaderboard Tipo de Activación de la Tabla
+settings.controls.voicechat Tipo de Activación del Chat de Voz
 settings.local.header Localización <span id="requiresRestart"><span style="color: #eb5656">*</span> requiere reiniciar </span>
 settings.local.region Región por defecto
 settings.local.lang Idioma
@@ -95,13 +95,13 @@ settings.network.netRate Network Rate (Hz)
 settings.network.lagComp Compensación de lag
 settings.network.optNet Red Optimizada
 settings.network.quickplay Forzar Partida Rapida
-settings.popup.header Popups
+settings.popup.header Ventanas emergentes
 settings.experimental.header Experimental
 settings.experimental.holiday Efectos Festivos
-settings.experimental.aimFreezeFix Arreglo de congelamiento al apuntar
-settings.experimental.mouseFlickFix Arreglo de Mouse Flick
+settings.experimental.aimFreezeFix Arreglo del congelamiento al apuntar
+settings.experimental.mouseFlickFix Arreglo del Mouse Flick
 settings.experimental.shaderRendering Renderización de Instancias
-settings.experimental.mouseAccel Aceleración de Mouse
+settings.experimental.mouseAccel Aceleración del Ratón
 settings.experimental.tbInterp Interpolación
 settings.client.header Cliente
 settings.client.unlimitedFrames FPS Ilimitados
@@ -109,10 +109,10 @@ settings.client.gameCap Captura de Juego
 settings.client.experimental Funciones Experimentales
 settings.client.discordRPC RPC de Discord
 settings.client.resourceSwapper Intercambiador de Recursos
-settings.client.clearCache Limpiar Cache
+settings.client.clearCache Limpiar Caché
 settings.client.resetSettings Reiniciar Configuraciones del Cliente
 settings.client.acceleratedCanvas Canvas Acelerados
-settings.client.angleBackend Gráficos Backend Angulares
+settings.client.angleBackend Respaldo de Gráficos Angulares
 settings.client.colorProfile Perfil de Color
 settings.client.resourcePacks Paquetes de Recursos
 settings.dev.header Desarrollador
@@ -254,14 +254,14 @@ settings.crosshair.gap Separación
 settings.crosshair.dot Punto
 settings.crosshair.opacity.use Usar opacidad personalizada
 settings.crosshair.opacity.custom Opacidad personalizada
-settings.crosshairm.header Crosshair (Throwing)
+settings.crosshairm.header Retícula (Al lanzar)
 settings.crosshairm.type Tipo
 settings.crosshairm.type.1 Formas
 settings.crosshairm.type.2 Imagen
 settings.crosshairm.type.3 Precision
 settings.crosshairm.style Estilo
 settings.crosshairm.style.0 Cruz
-settings.crosshairm.style.1 Circulo Vacio
+settings.crosshairm.style.1 Circulo Vacío
 settings.crosshairm.style.2 Circulo Sólido
 settings.crosshairm.style.3 Cuadrado Vacío
 settings.crosshairm.style.4 Cuadrado Sólido
@@ -304,9 +304,9 @@ settings.gameprivacy.streamer Modo Streamer
 settings.gameprivacy.anon Modo Anónimo
 settings.gameprivacy.hideGameTitle Esconder Título del Juego
 settings.gameprivacy.showRegion Mostrar Información de la Región
-settings.gameprivacy.verified Show Verified Badge
-settings.gameprivacy.premium Show Premium Badge
-settings.gameprivacy.partner Show Partner Badge
+settings.gameprivacy.verified Mostrar insignia de verificado
+settings.gameprivacy.premium Mostrar insignia de premium
+settings.gameprivacy.partner Mostrar insignia de partner
 settings.gameprivacy.rank Mostrar Insignia de Competitivo
 settings.gameprivacy.custom Mostrar Insignia Personalizada
 settings.gameplay.header Jugabilidad
@@ -342,10 +342,10 @@ settings.mobile.invert Invertir Eje-Y
 settings.audio.header Audio
 settings.audio.sound Volumen Principal
 settings.audio.ambient Volumen de Ambientación
-settings.audio.voice Volumen de Chat de voz
+settings.audio.voice Volumen del Chat de voz
 settings.audio.input Entrada de Micrófono/Audio
 settings.audio.mic Mic Volumen
-settings.audio.micquality Calidad de Microfófono
+settings.audio.micquality Calidad del Micrófono
 settings.audio.weps Volumen de Armas
 settings.audio.player Volumen de Jugadores
 settings.audio.skin Volumen de Cosmeticos
@@ -366,16 +366,16 @@ settings.viewmodel.show.ads Ocultar arma al Apuntar
 settings.viewmodel.toggleAim Alternar Apuntado
 settings.viewmodel.show.hands Mostrar Manos
 settings.viewmodel.leftHand Modo Zurdo
-settings.viewmodel.aimAnim Animación al apuntar Arma
+settings.viewmodel.aimAnim Animación al apuntar el arma
 settings.viewmodel.rot Rotación de Arma
 settings.viewmodel.xOff Ubicación de Arma en X
 settings.viewmodel.yOff Ubicación de Arma en Y
 settings.viewmodel.zOff Ubicación de Arma en Z
-settings.viewmodel.weapSwapY Weapon Swap Y
+settings.viewmodel.weapSwapY Cambio de arma en Y
 settings.viewmodel.weapReloadY Recarga de Arma en Y
 settings.viewmodel.yOffADS Ubicación de arma al Apuntar en Y
 settings.viewmodel.adsFovMlt Intensidad del campo de visión al Apuntar
-settings.viewmodel.toggleADS Toggle Weapon ADS
+settings.viewmodel.toggleADS Alternar mira en primera persona
 settings.editing.header Edición de Interfaz
 settings.editing.health.high Salud de HUD Alta
 settings.editing.health.low Salud de HUD Baja
@@ -395,7 +395,7 @@ settings.editing.progOffX Ubicación X de la Barra de Progreso
 settings.editing.progOffY Ubicación Y de la Barra de Progreso
 settings.editing.progRot Rotación de Barra de Progreso
 settings.editing.progm.color Cambiar Color de la Barra
-settings.editing.progmo.color Overcharge Color
+settings.editing.progmo.color Color de la Barra sobrecargada
 settings.editing.progm.opacity Cambiar Opacidad de la Barra
 settings.editing.progm.scale Cambiar Escala de la Barra
 settings.editing.progm.shadow Cambiar Sombra de La Barra
@@ -411,10 +411,10 @@ settings.editing.feedLimit Límite de Killfeed
 settings.editing.depth Profundidad de Mapa
 settings.editing.green Pantalla Verde
 settings.editing.trailcol Color de Rastros de Bala
-settings.editing.ropecol Color de Arma de Grapple
+settings.editing.ropecol Color de Arma de Gancho
 settings.editing.tracercol Color de rastros de Balas
 settings.editing.tracer Rastros de Balas
-settings.editing.tracer.offset Offset de Rastros de Balas
+settings.editing.tracer.offset Offset de los Rastros de Balas
 settings.shaders.header Entradas de shaders
 settings.mods.header Mods
 settings.mods.load Cargar mods
@@ -477,11 +477,11 @@ windows.loadout.back Accesorios de Cuerpo
 windows.loadout.waist Accesorios de Cintura
 windows.loadout.shoe Zapatos
 windows.loadout.face Caras
-windows.loadout.spray Grafitti
+windows.loadout.spray Grafiti
 windows.loadout.color.skin Color de piel
 windows.loadout.color.chat Color de nombres en el chat
 windows.loadout.color.hair Color de cabello
-windows.loadout.dye Dye
+windows.loadout.dye Trajes
 windows.loadout.pet Mascota
 windows.loadout.wrist Muñeca
 windows.loadout.stat Estadística en tarjeta
@@ -509,7 +509,7 @@ windows.controls.reload Recargar
 windows.controls.aim1 Apuntar
 windows.controls.shoot1 Disparar
 windows.controls.inspect Inspeccionar
-windows.controls.spray Usar Grafitti
+windows.controls.spray Usar Grafiti
 windows.controls.sprayWheel Ruleta de Sprays (Mantener Pulsado)
 windows.controls.jump Saltar
 windows.controls.crouch Agacharse,
@@ -526,16 +526,16 @@ windows.controls.interactSec Interacción secundaria
 windows.controls.confirm Confirmar Interacción
 windows.controls.drop Soltar
 windows.controls.wepVis Alternar visibilidad de arma
-windows.controls.kickVoteY Vote Kick [Si]
-windows.controls.kickVoteN Vote Kick [No]
+windows.controls.kickVoteY Votar para expulsar [Si]
+windows.controls.kickVoteN Votar para expulsar [No]
 windows.controls.kpdVoteY Voto de KPD [Si]
 windows.controls.kpdVoteN Voto de KPD [No]
 windows.controls.specFree Alternar Camara Libre
 windows.controls.specObj Alterar Camara Objetiva
 windows.controls.specFirst Alternar Primera Persona
 windows.controls.specNames Alternar Nombres Forzados
-windows.controls.specFocus Toggle Focus Player
-windows.controls.hidePlayers Hide Players
+windows.controls.specFocus Alternar Enfoque en el Jugador
+windows.controls.hidePlayers Ocultar jugadores
 windows.controls.streak0 Racha 1
 windows.controls.streak1 Racha 2
 windows.controls.streak2 Racha 3
@@ -552,10 +552,10 @@ windows.controls.propRand Seleccionar Prop Aleatorio
 windows.controls.propRot Alternar Rotación
 windows.controls.propRotR Reiniciar Rotación
 windows.controls.premium0 Noclip
-windows.controls.premium1 Godmode
+windows.controls.premium1 Modo inmortal
 windows.controls.premium2 Kill
 windows.controls.premium3 Smite
-windows.controls.reset Reiniciar Posición (Race & Parkour)
+windows.controls.reset Reiniciar Posición (Carreras y Parkour)
 windows.controls.pretend Esconder Juego
 windows.host.header Crear partida personalizada
 windows.host.maps Configurar partida
@@ -569,9 +569,9 @@ windows.host.preset.load Cargando pre-ajuste...
 windows.host.preset.name Nombre de pre-ajuste
 windows.host.start Iniciar juego
 windows.host.rehost Iniciar juego (Trae jugadores)
-windows.spray.header Seleccionar Grafitti
-windows.spray.default Grafitti por defecto
-windows.spray.spin Grafitti
+windows.spray.header Seleccionar Grafiti
+windows.spray.default Grafiti por defecto
+windows.spray.spin Grafiti
 windows.maps.header Mapas personalizados
 windows.maps.none No se han encontrado mapas!
 windows.maps.name Nombre del mapa
@@ -600,7 +600,7 @@ windows.store.header Tienda
 windows.store.spin {0} Spins
 windows.store.agree Al comprar estás de acuerdo con los {0} términos
 windows.store.purchase Comprar KR
-windows.store.voucher Redimir cupón
+windows.store.voucher Canjear cupón
 windows.store.voucherinfo Obtén cupónes de ciertos streamers y eventos
 windows.store.market Mercado
 windows.store.market2 Mercado de krunker
@@ -628,9 +628,9 @@ windows.attach.header Seleccione accesorio
 windows.reticle.header Seleccione retícula
 windows.reticle.unlocked Desbloqueado al nivel {0}
 windows.reticle.req Requiere nivel {0}
-windows.dye.header Seleccionar Dye
-windows.dye.default Dye por defecto
-windows.dye.spin Ruleta de Dye
+windows.dye.header Seleccionar Traje
+windows.dye.default Traje por defecto
+windows.dye.spin Ruleta de Traje
 windows.changelog.header Notas de actualización
 windows.mods.community.header Mods de la comunidad
 windows.mods.community.fav Tus favoritos
@@ -680,7 +680,7 @@ mod.loading cargando mod...
 mod.invalid archivo de mod inválido!
 matchmaker.full LLENO
 matchmaker.GameFull Partida Llena.
-matchmaker.NoServersMatchQuery JUEGO ACTUALIZANDOSE
+matchmaker.NoServersMatchQuery EL JUEGO SE ESTÁ ACTUALIZANDO
 matchmaker.InvalidGameId Partida no Encontrada.
 matchmaker.NoAvailableServers Los servidores estan al Máximo de Capacidad
 matchmaker.GameIssue Problema de Conexión Desconocido.
@@ -737,7 +737,7 @@ server.config.thirdPerson Tercera persona
 server.config.requireCaptcha Requiere captcha
 server.config.nameTags Ocultar nombres
 server.config.kCams Cámara de Muertes
-server.config.aAnon Permitir modo Anonimo
+server.config.aAnon Permitir modo Anónimo
 server.config.noReload No recargar
 server.config.private Privado
 server.config.krRewards Recompensas de KR
@@ -746,7 +746,7 @@ server.config.warmupTime Tiempo de calentamiento
 server.config.gamRounds Rondas
 server.config.objtvTime Tiempo de Objetivo
 server.config.forceSpawn Tiempo de reaparición automática
-server.config.intermTmr Intermision (s)
+server.config.intermTmr Descanso (s)
 server.config.scoreLimit Límite de puntos
 server.config.keepTScore Mantener Puntaje de Equipo
 server.config.forceC Forzar Clases
@@ -796,8 +796,8 @@ social.market.shoe Zapatos
 social.market.pet Mascotas
 social.market.wrist Objeto de Muñeca
 social.market.melee Arma cuerpo-a-cuerpo
-social.market.spray Grafittis
-social.market.dye Dyes
+social.market.spray Grafitis
+social.market.dye Trajes
 social.market.collectible Objeto Coleccionable
 social.market.none No se han encontrado objetos'
 social.market.login Tienes que iniciar sesión.
@@ -812,18 +812,18 @@ social.market.fee.gift Sin cuota
 social.market.gift Regalar KR
 social.market.gift.msg Dejar un mensaje
 respawn.auto Auto Reaparición en {0}
-custom.host.ranked No se puede crear una partida mientras estas en Competitivo
+custom.host.ranked No se puede crear una partida mientras estás en Competitivo
 funds.insufficient Fondos Insuficientes
 funds.out Vaya, parece que no tienes Krunkies.
 custom.passcode.long Contraseña demasiado Larga.
 custom.passcode.input Ingresa la contraseña del servidor.
-custom.tryagain Por favor intenta de nuevo.
+custom.tryagain Por favor intentalo de nuevo.
 purchase.kr.success Añadidos {0} KR A tu Cuenta.
 limited.purchase.ask Estás seguro de comprar [{0}] por {1} KR?
 limited.purchase.success Añadido {0} KR A tu Inventario.
 pretend.exit Presiona {0} De nuevo para Salir.
 settings.loaded Configuraciones Cargadas
-settings.loaded.none No se encontro ninguna configuracion
+settings.loaded.none No se encontro ninguna configuración
 account.login.required Necesitas iniciar Sesión
 account.banned.hack Esta cuenta ha sido suspendida permanentemente por Trampas.
 account.banned.appeal Si quieres apelar tu suspención, Contacta:
@@ -834,7 +834,7 @@ spin.free.available KR GRATIS DISPONIBLE!
 spin.free.claim  Este spin esta disponible para canjear una hora después de cada partida.
 spin.free.disable Estos anuncios pueden ser desactivados en las configuraciones generales.
 mod.reset.0 Tomará efecto después de Reaparecer.
-mod.reset.1 Map Los objetos de mapas no se Resetean.
+mod.reset.1 Map Los objetos de mapas no se reinician.
 windows.profile.picture Cambiar Imagen
 stats.assists Asistencias
 stats.nukes Nucleares
@@ -845,27 +845,27 @@ stats.headshots Tiros en la Cabeza
 stats.wallbangs Bajas a través de Paredes
 stats.crouches Agachamientos
 stats.sprays Sprays Colocados
-stats.kpd Helpful Reportes
-windows.host.default.settings Habilitar las configuraciones predeterminadas permite guardar el progreso del jugador y puntajes mas altos
+stats.kpd Reportes Útiles  
+windows.host.default.settings Habilitar las configuraciones predeterminadas permite guardar el progreso del jugador y puntajes más altos
 windows.host.default.commands *Los comandos de hosteo están deshabilitados para este modo : /noclip /god /smite etc
-windows.host.rewards Activando Recompensas de KR forza al servidor a usar configuraciones por defecto y permite a los jugadores ganar recompenzas de los fondos del mapa:
+windows.host.rewards Al activar las Recompensas de KR fuerza al servidor a usar configuraciones por defecto y permite a los jugadores ganar recompensas de los fondos del mapa:
 windows.store.wheels.sub Prueba tu suerte y gira para ganar nuevas Skins!
 windows.store.currency *Los Precios en USD pueden ser convertidos a tu moneda local en una tasa de cambio definida por tu Banco o Proveedor de pago.
 windows.store.creator Considera Apoyar a tu Creador de Contenido Favorito usando su Código de Creador
-windows.chall.customs Los desafiós no se pueden completar en partidas personalizadas.
+windows.chall.customs Los desafios no se pueden completar en partidas personalizadas.
 twitch.link Estás seguro de que quieres vincular esta cuenta de twitch?
 twitch.unlink Estás seguro de que quieres desvincular tu cuenta de twitch?
 windows.clan.leave Estás seguro de que Quieres Abandonar el Clan?
 windows.clan.delete Estás seguro de que Quieres Borrar el Clan?
 windows.clan.kick Estás seguro de que quieres expulsar a {0} del clan?
 windows.store.premium.purchase Estás seguro de que quieres Comprar {0} días de Premium?
-windows.store.premium.gift Estas seguro de que quieres Regalar '{0}' {1} días de Premium?
-windows.playerlist.ban Estás seguro que quieres banear a {0} de esta partida?
+windows.store.premium.gift Estás seguro de que quieres Regalar '{0}' {1} días de Premium?
+windows.playerlist.ban Estás seguro de que quieres banear a {0} de esta partida?
 windows.playerlist.flag Estás seguro de que quieres Suspender a {0} ? 
-windows.playerlist.unflag Estás seguro de que quieres remover la suspención de {0}?
+windows.playerlist.unflag Estás seguro de que quieres remover la suspensión de {0}?
 windows.playerlist.punish Estás seguro de que quieres tomar acciones en {0}?
 item.view.open Abrir Visualizador de Modelos
-item.view.more Mas Información
+item.view.more Más Información
 item.sell.cant El objeto no se puede Vender
 item.sell.cant.krunker El item no se puede vender en Krunker.
 item.sell.quick Estás seguro de que quieres vender rápidamente {0}?
@@ -882,20 +882,20 @@ social.profile.assets Assets [{0}]
 social.profile.assets.none No hay Assets publicados por este Usuario
 social.profile.mods Mods [{0}]
 social.profile.mods.none No hay Mods publicados por este Usuario
-social.search Resultados de Búsqueda
-social.market.stats.rare Objetos mas Raros
-social.market.stats.circulation En Circulación
-social.market.stats.units Unidades a escala Mundial.
+social.search Resultados de búsqueda
+social.market.stats.rare Objetos más raros
+social.market.stats.circulation En circulación
+social.market.stats.units Unidades a escala mundial.
 social.trades.in Entrante
-social.trades.in.head Ofertas Entrantes ({0})
+social.trades.in.head Ofertas entrantes ({0})
 social.trades.out Saliente
-social.trades.out.head Ofertas Salientes ({0})
+social.trades.out.head Ofertas salientes ({0})
 social.trades.history Historial
 social.trades.history.head Historial de Intercambios ({0})
 social.trades.decline Rechazar Todo
 social.trades.message ACTIVA LOS MENSAJES DE INTERCAMBIO EN LAS CONFIGURACIONES
 social.trades.warning No obtienes objetos de este intercambio!
-social.trades.accept Estás seguro de qué quieres aceptar esta oferta?
+social.trades.accept Estás seguro de que quieres aceptar esta oferta?
 stats.airdrops Paquetes de KR
 stats.airdrops.stolen Paquetes de KR Robados
 settings.quality.flapAnim Animación de Mirilla de Francotirador
@@ -917,11 +917,11 @@ chall.name.w Gana {0} Partidas
 chall.name.d Die {0} Tiempos
 chall.name.score Obtén {0} Puntuaciones
 chall.name.dmg Haz {0} Daño {1}
-chall.name.bzk Obtén {0} Multi Muerte {1}
-chall.name.cc Obtén {0} Muerte Cercana {1}
-chall.name.rk Haz {0} Asesinato por Venganza {1}
+chall.name.bzk Obtén {0} Bajas Múltiples {1}
+chall.name.cc Obtén {0} Muertes Cercanas {1}
+chall.name.rk Haz {0} Asesinatos por Venganzas {1}
 event.doubleXP Experiencia X2 Activada para esta Partida
-ranked.join Unido a partida Competitiva. El abandono de partidas competitivas resultara en una suspención temporal.
+ranked.join Unido a partida Competitiva. El abandono de partidas competitivas resultara en una suspensión temporal.
 ranked.progress Partida en progreso.
 ranked.team Por favor únete a un equipo
 ranked.switch Cambio desactivado durante Partida
@@ -931,7 +931,7 @@ ranked.sync Faltan datos de Sincronización
 ranked.team.spawn Porfavor únete a un equipo para Spawnear.
 ranked.class.spawn Selecciona una clase para Spawnear
 modes.round.win Tu equipo ha asegurado esta Ronda.
-modes.round.loss Esta ronda ya no es Ganable.
+modes.round.loss Esta ronda ya no es ganable.
 modes.round.switch Cambiando lados. Prepárate para la siguiente ronda.
 modes.trade.success Intercambio Exitoso
 modes.prophunt.limit [Prop Hunt] No tienes mas cambios de Prop.
@@ -944,27 +944,27 @@ commands.connected {0} Conectados, {1} en el Menú.
 commands.host {0} es el Host.
 commands.noclip.on Noclip - Activado
 commands.noclip.off Noclip - Desactivado
-commands.god.on God mode - Activado
-commands.god.off God mode - Desactivado
-commands.god.on.other God mode - Activado por {0}
-commands.god.off.other God mode - Desactivado por {0}
+commands.god.on Modo inmortal - Activado
+commands.god.off Modo inmortal - Desactivado
+commands.god.on.other Modo inmortal - Activado por {0}
+commands.god.off.other Modo inmortal - Desactivado por {0}
 commands.smite.on Smite - Activado
 commands.smite.off Smite - Desactivado
 commands.smite.on.other Smite - Activado por {0}
 commands.smite.off.other Smite - Desactivado por {0}
 commands.perk Dió {0} {1}
-commands.maxperk Gave {0} MAX {1}
-commands.unlimited.on Unlimited Ammo - Activado
-commands.unlimited.off Unlimited Ammo - Desactivado
-commands.unlimited.on.other Unlimited Ammo - Activado por {0}
-commands.unlimited.off.other Unlimited Ammo - Desactivado por {0}
-commands.spraybypass.on Unlimited Ammo - Activado
-commands.spraybypass.off Unlimited Ammo - Desactivado
-commands.spraybypass.on.other Unlimited Ammo - Activado por {0}
-commands.spraybypass.off.other Unlimited Ammo - Desactivado por {0}
-commands.suspect.invalid Información Invalida
-commands.suspect.menu Sospechoso en el Menú
-commands.suspect.left Sospechoso abandonó la Partida.
+commands.maxperk Dió {0} MAX {1}
+commands.unlimited.on Munición infinita - Activado
+commands.unlimited.off Munición infinita - Desactivado
+commands.unlimited.on.other Munición infinita - Activado por {0}
+commands.unlimited.off.other Munición infinita - Desactivado por {0}
+commands.spraybypass.on Munición infinita - Activado
+commands.spraybypass.off Munición infinita - Desactivado
+commands.spraybypass.on.other Munición infinita - Activado por {0}
+commands.spraybypass.off.other Munición infinita - Desactivado por {0}
+commands.suspect.invalid Información inválida
+commands.suspect.menu Sospechoso en el menú
+commands.suspect.left El Sospechoso abandonó la partida.
 commands.suspect.found Sospechoso encontrado, Espectando: {0}, Spawneo: {1}, Nombre: {2}
 commands.forfeit.next Se tiene que jugar al menos una ronda.
 commands.forfeit.wait Espera a que la partida Inicie para Rendirte.
