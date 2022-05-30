@@ -84,7 +84,7 @@ settings.none No se han encontrado configuraciones
 settings.backup Respaldar configuraciones
 settings.controls.change Ajustar controles
 settings.controls.press Presione cualquier tecla
-settings.controls.leaderboard Tipo de Activación de la Tabla
+settings.controls.leaderboard Tipo de Activación de la Tabla de puntuación
 settings.controls.voicechat Tipo de Activación del Chat de Voz
 settings.local.header Localización <span id="requiresRestart"><span style="color: #eb5656">*</span> requiere reiniciar </span>
 settings.local.region Región por defecto
@@ -258,7 +258,7 @@ settings.crosshairm.header Retícula (Al lanzar)
 settings.crosshairm.type Tipo
 settings.crosshairm.type.1 Formas
 settings.crosshairm.type.2 Imagen
-settings.crosshairm.type.3 Precision
+settings.crosshairm.type.3 Precisión
 settings.crosshairm.style Estilo
 settings.crosshairm.style.0 Cruz
 settings.crosshairm.style.1 Circulo Vacío
@@ -528,7 +528,7 @@ windows.controls.drop Soltar
 windows.controls.wepVis Alternar visibilidad de arma
 windows.controls.kickVoteY Votar para expulsar [Si]
 windows.controls.kickVoteN Votar para expulsar [No]
-windows.controls.kpdVoteY Voto de KPD [Si]
+windows.controls.kpdVoteY Voto de KPD [Sí]
 windows.controls.kpdVoteN Voto de KPD [No]
 windows.controls.specFree Alternar Camara Libre
 windows.controls.specObj Alterar Camara Objetiva
@@ -630,7 +630,7 @@ windows.reticle.unlocked Desbloqueado al nivel {0}
 windows.reticle.req Requiere nivel {0}
 windows.dye.header Seleccionar Traje
 windows.dye.default Traje por defecto
-windows.dye.spin Ruleta de Traje
+windows.dye.spin Ruleta de Trajes
 windows.changelog.header Notas de actualización
 windows.mods.community.header Mods de la comunidad
 windows.mods.community.fav Tus favoritos
@@ -826,7 +826,7 @@ settings.loaded Configuraciones Cargadas
 settings.loaded.none No se encontro ninguna configuración
 account.login.required Necesitas iniciar Sesión
 account.banned.hack Esta cuenta ha sido suspendida permanentemente por Trampas.
-account.banned.appeal Si quieres apelar tu suspención, Contacta:
+account.banned.appeal Si quieres apelar la suspensión de tu cuenta , Contacta:
 account.delete Puedes solicitar la eliminación de su cuenta, si la solicitud no se cancela dentro de los 14 días, la cuenta y todos los datos asociados se eliminarán permanentemente.
 account.delete.request Está seguro que desea solicitar la eliminación de la cuenta?
 account.delete.cancel Está seguro que desea cancelar la eliminación de la cuenta?
@@ -914,7 +914,7 @@ chall.name.tk Obtén {0} Turbo Bajas {1}
 chall.name.drk Obten {0} Bajas Derrapando {1}
 chall.name.kstk Obtén una {0} Racha de Bajas {1}
 chall.name.w Gana {0} Partidas
-chall.name.d Die {0} Tiempos
+chall.name.d Die {0} Veces
 chall.name.score Obtén {0} Puntuaciones
 chall.name.dmg Haz {0} Daño {1}
 chall.name.bzk Obtén {0} Bajas Múltiples {1}
@@ -966,7 +966,7 @@ commands.suspect.invalid Información inválida
 commands.suspect.menu Sospechoso en el menú
 commands.suspect.left El Sospechoso abandonó la partida.
 commands.suspect.found Sospechoso encontrado, Espectando: {0}, Spawneo: {1}, Nombre: {2}
-commands.forfeit.next Se tiene que jugar al menos una ronda.
+commands.forfeit.next Se debe jugar al menos una ronda.
 commands.forfeit.wait Espera a que la partida Inicie para Rendirte.
 commands.forfeit.later Por favor intenta de nuevo en unos segundos
 commands.forfeit.voted Ya has votado.
