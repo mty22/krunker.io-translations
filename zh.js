@@ -23,7 +23,7 @@ generic.search 搜索
 generic.leave 离开
 generic.default 默认
 generic.submit 提交
-generic.create 创造
+generic.create 创建
 generic.random 随机
 generic.failed 失败
 generic.success 成功！
@@ -105,7 +105,7 @@ settings.experimental.mouseAccel 鼠标加速
 settings.experimental.tbInterp TB样条插值
 settings.client.header 客户端
 settings.client.unlimitedFrames 禁用垂直同步
-settings.client.gameCap 游戏捕获
+settings.client.gameCap 游戏录制
 settings.client.experimental 实验性功能
 settings.client.discordRPC Discord丰富状态
 settings.client.resourceSwapper 资源转换器
@@ -179,7 +179,7 @@ settings.interface.scale 用户界面显示比例
 settings.interface.theme 游戏主题
 settings.interface.ui 显示状态栏
 settings.interface.scoreboard 使用旧版记分板
-settings.interface.oldBrowser 使用旧版服务器浏览器
+settings.interface.oldBrowser 使用旧版浏览器
 settings.interface.rarityanim 禁用稀有度动画
 settings.interface.showPfp 显示玩家头像
 settings.interface.showTradeMsg 显示交易信息
@@ -454,7 +454,7 @@ settings.social.region 地区统计
 settings.social.bg 社区界面背景图片
 settings.social.bg.paste 社区界面背景图片网址
 windows.settings.header 游戏设置
-windows.mail.header Krunker邮箱
+windows.mail.header 邮箱
 windows.servers.header 服务器
 windows.servers.none 没有可加入的服务器…
 windows.servers.host + 创建服务器
@@ -595,7 +595,7 @@ windows.clans.create 创建战队
 windows.clans.name 战队名称
 windows.clans.view 浏览战队
 windows.clans.join 加入战队
-windows.clans.login 登录后创建或加入战队！
+windows.clans.login 登录后可创建或加入战队！
 windows.store.header 商店
 windows.store.spin {0}转盘
 windows.store.agree 确认购买即表示你同意{0}条款及细则
@@ -689,7 +689,7 @@ ad-failed 广告加载失败，请稍后重试。
 streamers.views {0}个观众
 streamers.none 当前没有任何Twitch直播！
 error.extentions 如果你有任何浏览器插件，请禁用它们
-error.seek 点此搜索新的游戏
+error.seek 点此寻找新的游戏
 custom.map.upload.limit 上传失败，地图数据大小上限为500kb
 custom.map.missing 请选择至少一种地图
 custom.mode.missing 请选择至少一种游戏模式
@@ -786,7 +786,7 @@ social.market.posting 上架物品中…
 social.market.req 需要{0}级
 social.market.cant KR不足
 social.market.purchase 购买
-social.market.fee 无上架费用
+social.market.fee 无上架税
 social.market.failed 失败，请稍后重试
 social.market.head 头部饰品
 social.market.back 背部饰品
@@ -867,7 +867,7 @@ windows.playerlist.punish 你确定要对{0}采取措施吗？
 item.view.open 打开模型查看器
 item.view.more 更多信息
 item.sell.cant 此物品不能被出售。
-item.sell.cant.krunker 此物品不能在Krunker内被出售。
+item.sell.cant.krunker 此物品不能被出售。
 item.sell.quick 你确定要快速出售{0}吗？
 item.sell.destroy 你确定要分解{0}吗？
 social.profile.stats 综合战绩
@@ -896,7 +896,7 @@ social.trades.decline 全部拒绝
 social.trades.message 在市场设置中启用「显示交易信息」选项
 social.trades.warning 你将不会在此交易中得到任何物品！
 social.trades.accept 你确定要接受此交易请求吗？
-stats.airdrops 空投
+stats.airdrops 召唤空投次数
 stats.airdrops.stolen 偷取空投次数
 settings.quality.flapAnim 狙击镜保护盖动画
 chall.name.hs 在{1}取得{0}个爆头
