@@ -510,7 +510,7 @@ windows.controls.aim1 Apuntar
 windows.controls.shoot1 Disparar
 windows.controls.inspect Inspeccionar
 windows.controls.spray Usar Grafitti
-windows.controls.sprayWheel Ruleta de Sprays (Mantener Pulsado)
+windows.controls.sprayWheel Ruleta de Grafitis (Mantener Pulsado)
 windows.controls.jump Saltar
 windows.controls.crouch Agacharse,
 windows.controls.prim Arma Primaria
@@ -844,7 +844,7 @@ stats.thrownkills Bajas con Cuchillo Arrojadizo
 stats.headshots Tiros en la Cabeza
 stats.wallbangs Bajas a través de Paredes
 stats.crouches Agachamientos
-stats.sprays Sprays Colocados
+stats.sprays Grafitis Colocados
 stats.kpd Reportes útiles
 windows.host.default.settings Habilitar las configuraciones predeterminadas permite guardar el progreso del jugador y puntajes más altos
 windows.host.default.commands *Los comandos de hosteo están deshabilitados para este modo : /noclip /god /smite etc
