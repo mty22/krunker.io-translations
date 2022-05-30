@@ -597,7 +597,7 @@ windows.clans.view Ver clanes
 windows.clans.join Unirse a clan
 windows.clans.login para crear y unirse a clanes!
 windows.store.header Tienda
-windows.store.spin {0} Spins
+windows.store.spin {0} Ruletas
 windows.store.agree Al comprar estás de acuerdo con los {0} términos
 windows.store.purchase Comprar KR
 windows.store.voucher Canjear cupón
@@ -608,7 +608,7 @@ windows.store.premium Comprar premium
 windows.store.premium2 Krunker Premium
 windows.store.buyP Escoge un nombre para mostrar y más con
 windows.store.buy Compra y vende objetos en la
-windows.store.wheels Spins
+windows.store.wheels Ruletas
 windows.store.unlock Desbloquea nuevas skins de armas y objetos
 windows.store.amount {0} KR en tu cuenta
 windows.store.login para comprar y desbloquear objetos de la tienda!
