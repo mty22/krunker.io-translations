@@ -61,7 +61,7 @@ generic.accuracy Precisión
 player.waiting Esperando jugadores
 player.died Has muerto
 player.killed Eliminado por
-player.killstreak {0} es en {1} Racha
+player.killstreak {0} está en Racha de {1} bajas.
 player.inactive Expulsado por inactividad
 player.disconnect DESCONECTADO
 timer.end Siguiente ronda en {0}
@@ -152,7 +152,7 @@ settings.quality.mflash Fogonazo de arma
 settings.quality.flap Solapa de francotirador
 settings.quality.lowSpec Bajo rendimiento
 settings.quality.ambient Sombreado Ambiental
-settings.quality.ambientOld Sombreado Antiguo (Cuandó sea Posible)
+settings.quality.ambientOld Sombreado Antiguo (Cuando sea Posible)
 settings.quality.textureAnim Animaciones de texturas
 settings.quality.objectAnim Animaciones de objetos
 settings.quality.screenShake Temblor de pantalla
@@ -261,7 +261,7 @@ settings.crosshairm.type.2 Imagen
 settings.crosshairm.type.3 Precision
 settings.crosshairm.style Estilo
 settings.crosshairm.style.0 Cruz
-settings.crosshairm.style.1 Circulo Vacio
+settings.crosshairm.style.1 Circulo Vacío
 settings.crosshairm.style.2 Circulo Sólido
 settings.crosshairm.style.3 Cuadrado Vacío
 settings.crosshairm.style.4 Cuadrado Sólido
@@ -312,7 +312,7 @@ settings.gameprivacy.custom Mostrar Insignia Personalizada
 settings.gameplay.header Jugabilidad
 settings.gameplay.gpSetts Ajustes de Gameplay
 settings.gameplay.sensitivityX Sensibilidad X
-settings.gameplay.sensitivityY Sensiblidad Y
+settings.gameplay.sensitivityY Sensibilidad Y
 settings.gameplay.aimsensX Sensibilidad de Apuntado X
 settings.gameplay.aimsensY Sensibilidad de Apuntado Y
 settings.gameplay.challenge Modo Desafío
@@ -371,7 +371,7 @@ settings.viewmodel.rot Rotación de Arma
 settings.viewmodel.xOff Ubicación de Arma en X
 settings.viewmodel.yOff Ubicación de Arma en Y
 settings.viewmodel.zOff Ubicación de Arma en Z
-settings.viewmodel.weapSwapY Weapon Swap Y
+settings.viewmodel.weapSwapY Cambio de Arma en Y
 settings.viewmodel.weapReloadY Recarga de Arma en Y
 settings.viewmodel.yOffADS Ubicación de arma al Apuntar en Y
 settings.viewmodel.adsFovMlt Intensidad del campo de visión al Apuntar
@@ -395,7 +395,7 @@ settings.editing.progOffX Ubicación X de la Barra de Progreso
 settings.editing.progOffY Ubicación Y de la Barra de Progreso
 settings.editing.progRot Rotación de Barra de Progreso
 settings.editing.progm.color Cambiar Color de la Barra
-settings.editing.progmo.color Overcharge Color
+settings.editing.progmo.color Sobrecarga de Color
 settings.editing.progm.opacity Cambiar Opacidad de la Barra
 settings.editing.progm.scale Cambiar Escala de la Barra
 settings.editing.progm.shadow Cambiar Sombra de La Barra
@@ -451,8 +451,8 @@ settings.mods.damage.paste URL de capa de daño
 settings.mods.overlay Imagen de capa del juego
 settings.mods.overlay.paste URL de capa del juego
 settings.social.region Estadisticas de Región
-settings.social.bg Background Image
-settings.social.bg.paste Background Image URL
+settings.social.bg Imagen de Fondo
+settings.social.bg.paste Imagen de Fondo (URL)
 windows.settings.header Ajustes de juego
 windows.mail.header Correo de krunker
 windows.servers.header Servidores
@@ -481,7 +481,7 @@ windows.loadout.spray Grafitti
 windows.loadout.color.skin Color de piel
 windows.loadout.color.chat Color de nombres en el chat
 windows.loadout.color.hair Color de cabello
-windows.loadout.dye Dye
+windows.loadout.dye Tinte 
 windows.loadout.pet Mascota
 windows.loadout.wrist Muñeca
 windows.loadout.stat Estadística en tarjeta
