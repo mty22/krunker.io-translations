@@ -11,7 +11,7 @@ menu.btn.invite.clicked Copiado
 menu.btn.join Unirse
 menu.btn.host Crear partida
 menu.btn.browser Servidores
-generic.wait Porfavor espere...
+generic.wait Por favor espere...
 generic.loading CARGANDO...
 generic.none Nada
 generic.connecting CONECTANDO...
@@ -95,7 +95,7 @@ settings.network.netRate Network Rate (Hz)
 settings.network.lagComp Compensación de lag
 settings.network.optNet Red Optimizada
 settings.network.quickplay Forzar Partida Rapida
-settings.popup.header Popups
+settings.popup.header 
 settings.experimental.header Experimental
 settings.experimental.holiday Efectos Festivos
 settings.experimental.aimFreezeFix Arreglo de congelamiento al apuntar
@@ -258,7 +258,7 @@ settings.crosshairm.header Retícula (Throwing)
 settings.crosshairm.type Tipo
 settings.crosshairm.type.1 Formas
 settings.crosshairm.type.2 Imagen
-settings.crosshairm.type.3 Precision
+settings.crosshairm.type.3 Precisión
 settings.crosshairm.style Estilo
 settings.crosshairm.style.0 Cruz
 settings.crosshairm.style.1 Circulo Vacío
@@ -304,9 +304,9 @@ settings.gameprivacy.streamer Modo Streamer
 settings.gameprivacy.anon Modo Anónimo
 settings.gameprivacy.hideGameTitle Esconder Título del Juego
 settings.gameprivacy.showRegion Mostrar Información de la Región
-settings.gameprivacy.verified Show Verified Badge
-settings.gameprivacy.premium Show Premium Badge
-settings.gameprivacy.partner Show Partner Badge
+settings.gameprivacy.verified Mostrar Insignia de Verificado
+settings.gameprivacy.premium Mostrar Insignia Premium
+settings.gameprivacy.partner Mostrar Insignia Partner
 settings.gameprivacy.rank Mostrar Insignia de Competitivo
 settings.gameprivacy.custom Mostrar Insignia Personalizada
 settings.gameplay.header Jugabilidad
@@ -411,7 +411,7 @@ settings.editing.feedLimit Límite de Killfeed
 settings.editing.depth Profundidad de Mapa
 settings.editing.green Pantalla Verde
 settings.editing.trailcol Color de Rastros de Bala
-settings.editing.ropecol Color de Arma de Grapple
+settings.editing.ropecol Color de Arma de Gancho
 settings.editing.tracercol Color de rastros de Balas
 settings.editing.tracer Rastros de Balas
 settings.editing.tracer.offset Offset de Rastros de Balas
@@ -477,7 +477,7 @@ windows.loadout.back Accesorios de Cuerpo
 windows.loadout.waist Accesorios de Cintura
 windows.loadout.shoe Zapatos
 windows.loadout.face Caras
-windows.loadout.spray Grafitti
+windows.loadout.spray Grafiti
 windows.loadout.color.skin Color de piel
 windows.loadout.color.chat Color de nombres en el chat
 windows.loadout.color.hair Color de cabello
@@ -487,7 +487,7 @@ windows.loadout.wrist Muñeca
 windows.loadout.stat Estadística en tarjeta
 windows.loadout.flag Bandera de país
 windows.loadout.badge Insignia Personalizada
-windows.mods.drop arrastra el archivo de mod .zip aquí o haz click
+windows.mods.drop arrastra el archivo de mod .zip aquí o haz clic
 windows.mods.paste Pega la url del mod
 windows.mods.load Cargar mod
 windows.mods.none No se ha encontrado mods
@@ -555,7 +555,7 @@ windows.controls.premium0 Noclip
 windows.controls.premium1 Modo invencible
 windows.controls.premium2 Kill
 windows.controls.premium3 Smite
-windows.controls.reset Reiniciar Posición (Race & Parkour)
+windows.controls.reset Reiniciar Posición (Carrera & Parkour)
 windows.controls.pretend Esconder Juego
 windows.host.header Crear partida personalizada
 windows.host.maps Configurar partida
@@ -597,7 +597,7 @@ windows.clans.view Ver clanes
 windows.clans.join Unirse a clan
 windows.clans.login para crear y unirse a clanes!
 windows.store.header Tienda
-windows.store.spin {0} Spins
+windows.store.spin {0} Ruleta
 windows.store.agree Al comprar estás de acuerdo con los {0} términos
 windows.store.purchase Comprar KR
 windows.store.voucher Redimir cupón
@@ -608,7 +608,7 @@ windows.store.premium Comprar premium
 windows.store.premium2 Krunker Premium
 windows.store.buyP Escoge un nombre para mostrar y más con
 windows.store.buy Compra y vende objetos en la
-windows.store.wheels Spins
+windows.store.wheels Ruletas
 windows.store.unlock Desbloquea nuevas skins de armas y objetos
 windows.store.amount {0} KR en tu cuenta
 windows.store.login para comprar y desbloquear objetos de la tienda!
@@ -628,9 +628,9 @@ windows.attach.header Seleccione accesorio
 windows.reticle.header Seleccione retícula
 windows.reticle.unlocked Desbloqueado al nivel {0}
 windows.reticle.req Requiere nivel {0}
-windows.dye.header Seleccionar Dye
-windows.dye.default Dye por defecto
-windows.dye.spin Ruleta de Dye
+windows.dye.header Seleccionar Tinte 
+windows.dye.default Tinte por defecto
+windows.dye.spin Ruleta de Tintes
 windows.changelog.header Notas de actualización
 windows.mods.community.header Mods de la comunidad
 windows.mods.community.fav Tus favoritos
@@ -703,9 +703,9 @@ server.config.tickRI Alto Tickrate
 server.config.maxPS Servidor de 40 jugadores
 server.config.promServ Promover Servidor
 server.config.jumpMlt Intensidad de salto
-server.config.airStrf Strafing en el aire
+server.config.airStrf Disparo en el aire
 server.config.deltaMlt Velocidad de tiempo
-server.config.strafeSpd Velocidad de strafe
+server.config.strafeSpd Velocidad de disparos
 server.config.fiRat Cadencia de fuego
 server.config.reSpd Velocidad de recarga
 server.config.slidTime Tiempo de deslizamiento
@@ -763,7 +763,7 @@ server.config.fallDmg Daño de Caida
 server.config.fallDmgThr Desgranado de Daño de Caida
 server.config.noDraws No Empates
 server.config.bstOfR Mejor de
-server.config.chrgWeps Chargable Weapons
+server.config.chrgWeps Armas recargables
 social.login Iniciar Sesión/Registrarse
 social.login.failed Error al iniciar sesión
 social.login.buy Inicia sesión para comprar
@@ -914,7 +914,7 @@ chall.name.tk Obtén {0} Turbo Bajas {1}
 chall.name.drk Obten {0} Bajas Derrapando {1}
 chall.name.kstk Obtén una {0} Racha de Bajas {1}
 chall.name.w Gana {0} Partidas
-chall.name.d Die {0} Tiempos
+chall.name.d Muere {0} Veces
 chall.name.score Obtén {0} Puntuaciones
 chall.name.dmg Haz {0} Daño {1}
 chall.name.bzk Obtén {0} Multi Muerte {1}
@@ -928,7 +928,7 @@ ranked.switch Cambio desactivado durante Partida
 ranked.spectate Modo espectador deshabilitado en competitivo
 ranked.login Iniciar Sesión para Spawnear
 ranked.sync Faltan datos de Sincronización
-ranked.team.spawn Porfavor únete a un equipo para Spawnear.
+ranked.team.spawn Por favor únete a un equipo para Spawnear.
 ranked.class.spawn Selecciona una clase para Spawnear
 modes.round.win Tu equipo ha asegurado esta ronda.
 modes.round.loss Esta ronda ya no es ganable.
