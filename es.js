@@ -95,7 +95,7 @@ settings.network.netRate Network Rate (Hz)
 settings.network.lagComp Compensación de lag
 settings.network.optNet Red Optimizada
 settings.network.quickplay Forzar Partida Rapida
-settings.popup.header 
+settings.popup.header Ventanas emergentes
 settings.experimental.header Experimental
 settings.experimental.holiday Efectos Festivos
 settings.experimental.aimFreezeFix Arreglo de congelamiento al apuntar
@@ -204,15 +204,15 @@ settings.interface.speedScale Escala de velocidad
 settings.interface.speedColor Color de velocidad (Actual)
 settings.interface.speedColorMax Color de velocidad (Máxima)
 settings.interface.hideNames Mostrar nombres
-settings.interface.hideNames.team Sólo del equipo
-settings.interface.hideNames.enemy Sólo del enemigo
+settings.interface.hideNames.team Solo del equipo
+settings.interface.hideNames.enemy Solo del enemigo
 settings.interface.hideNames.all Todos
 settings.interface.nametagStyle Estilo del nombre
 settings.interface.nametagOpac Opacidad de nombre
 settings.interface.nametagScale Escala de Nombres
-settings.interface.nametagStyle.health Sólo salud
-settings.interface.nametagStyle.name Sólo nombre
-settings.interface.nametagStyle.nameLvl Sólo el nombre y el nivel
+settings.interface.nametagStyle.health Solo salud
+settings.interface.nametagStyle.name Solo nombre
+settings.interface.nametagStyle.nameLvl Solo el nombre y el nivel
 settings.interface.nametagStyle.all Todo
 settings.interface.healthNum Número de salud
 settings.interface.healthColT Color de la barra de salud del equipo
@@ -375,7 +375,7 @@ settings.viewmodel.weapSwapY Cambio de Arma en Y
 settings.viewmodel.weapReloadY Recarga de Arma en Y
 settings.viewmodel.yOffADS Ubicación de arma al Apuntar en Y
 settings.viewmodel.adsFovMlt Intensidad del campo de visión al Apuntar
-settings.viewmodel.toggleADS Toggle Weapon ADS
+settings.viewmodel.toggleADS Alternar mira en primera persona
 settings.editing.header Edición de Interfaz
 settings.editing.health.high Salud de HUD Alta
 settings.editing.health.low Salud de HUD Baja
@@ -509,10 +509,10 @@ windows.controls.reload Recargar
 windows.controls.aim1 Apuntar
 windows.controls.shoot1 Disparar
 windows.controls.inspect Inspeccionar
-windows.controls.spray Usar Grafitti
+windows.controls.spray Usar Grafiti
 windows.controls.sprayWheel Ruleta de Grafitis (Mantener Pulsado)
 windows.controls.jump Saltar
-windows.controls.crouch Agacharse,
+windows.controls.crouch Agacharse
 windows.controls.prim Arma Primaria
 windows.controls.swap Arma Secundaria
 windows.controls.melee Arma Cuerpo-a-cuerpo
@@ -569,9 +569,9 @@ windows.host.preset.load Cargando pre-ajuste...
 windows.host.preset.name Nombre de pre-ajuste
 windows.host.start Iniciar juego
 windows.host.rehost Iniciar juego (Trae jugadores)
-windows.spray.header Seleccionar Grafitti
-windows.spray.default Grafitti por defecto
-windows.spray.spin Grafitti
+windows.spray.header Seleccionar Grafiti
+windows.spray.default Grafiti por defecto
+windows.spray.spin Grafiti
 windows.maps.header Mapas personalizados
 windows.maps.none No se han encontrado mapas!
 windows.maps.name Nombre del mapa
@@ -726,7 +726,7 @@ server.config.t5Dmg Daño del Equipo 5
 server.config.selTeam Seleccionar equipos
 server.config.allowSpect Permitir espectadores
 server.config.killRewards Recompensas de bajas
-server.config.headshotOnly Sólo disparos a la cabeza
+server.config.headshotOnly Solo disparos a la cabeza
 server.config.noSecondary Deshabilitar secundarias
 server.config.noStreaks Deshabilitar rachas
 server.config.canSlide Deslizarse
@@ -796,7 +796,7 @@ social.market.shoe Zapatos
 social.market.pet Mascotas
 social.market.wrist Objeto de Muñeca
 social.market.melee Arma cuerpo-a-cuerpo
-social.market.spray Grafittis
+social.market.spray Grafitis
 social.market.dye Tintes
 social.market.collectible Objeto Coleccionable
 social.market.none No se han encontrado objetos'
@@ -917,7 +917,7 @@ chall.name.w Gana {0} Partidas
 chall.name.d Muere {0} Veces
 chall.name.score Obtén {0} Puntuaciones
 chall.name.dmg Haz {0} Daño {1}
-chall.name.bzk Obtén {0} Multi Muerte {1}
+chall.name.bzk Obtén {0} Multi Asesinato {1}
 chall.name.cc Obtén {0} Muerte Cercana {1}
 chall.name.rk Haz {0} Asesinato por Venganza {1}
 event.doubleXP Experiencia X2 Activada para esta Partida
