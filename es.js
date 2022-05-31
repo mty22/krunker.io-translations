@@ -60,7 +60,7 @@ generic.login Iniciar Sesión
 generic.accuracy Precisión
 player.waiting Esperando jugadores
 player.died Has muerto
-player.killed Eliminado por
+player.killed te eliminó
 player.killstreak {0} Está en una racha de {1} bajas
 player.inactive Desconectado por inactividad
 player.disconnect DESCONECTADO
@@ -607,7 +607,7 @@ windows.store.market2 Mercado de krunker
 windows.store.premium Comprar premium
 windows.store.premium2 Krunker Premium
 windows.store.buyP Escoge un nombre para mostrar y más con
-windows.store.buy Compra y vende objetos en la
+windows.store.buy Compra y vende objetos en la tienda
 windows.store.wheels Ruletas
 windows.store.unlock Desbloquea nuevas skins de armas y objetos
 windows.store.amount {0} KR en tu cuenta
@@ -826,12 +826,12 @@ settings.loaded Configuraciones Cargadas
 settings.loaded.none No se encontro ninguna configuración
 account.login.required Necesitas iniciar Sesión
 account.banned.hack Esta cuenta ha sido suspendida permanentemente por Trampas.
-account.banned.appeal Si quieres apelar la suspensión de tu cuenta , Contacta:
+account.banned.appeal Si quieres apelar la suspención de tu cuenta , Contacta:
 account.delete Puedes solicitar la eliminación de su cuenta, si la solicitud no se cancela dentro de los 14 días, la cuenta y todos los datos asociados se eliminarán permanentemente.
 account.delete.request Está seguro de que desea solicitar la eliminación de la cuenta?
 account.delete.cancel Está seguro de que desea cancelar la eliminación de la cuenta?
 spin.free.available KR GRATIS DISPONIBLE!
-spin.free.claim  Este spin esta disponible para canjear una hora después de cada partida.
+spin.free.claim  Este spin está disponible para canjear una hora después de cada partida.
 spin.free.disable Estos anuncios pueden ser desactivados en las configuraciones generales.
 mod.reset.0 Tomará efecto después de Reaparecer.
 mod.reset.1 Map Los objetos de mapas no se reinician.
