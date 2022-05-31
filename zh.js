@@ -660,7 +660,7 @@ windows.support.header 支援
 windows.players.header 玩家列表
 windows.players.none 当前没有任何在线玩家…
 windows.join.header 加入
-windows.join.code 输入服务器网址或代码
+windows.join.code 输入房间网址或代码
 windows.client.header 客户端
 windows.client.windows Windows安装程序
 windows.client.mac macOS安装程序
@@ -679,12 +679,12 @@ mod.error 模组错误！
 mod.loading 加载模组中…
 mod.invalid 无效的模组文件！
 matchmaker.full 已满
-matchmaker.GameFull 此服务器人数已满。
+matchmaker.GameFull 此房间人数已满。
 matchmaker.NoServersMatchQuery 游戏更新中
-matchmaker.InvalidGameId 此服务器已关闭或不存在。
-matchmaker.NoAvailableServers 当前没有任何空闲的服务器
+matchmaker.InvalidGameId 此房间已关闭或不存在。
+matchmaker.NoAvailableServers 当前没有任何空闲的房间
 matchmaker.GameIssue 加入时出现未知问题
-adblocker 禁用广告拦截器以获得免费KR转盘。
+adblocker 禁用广告拦截插件以获得免费KR转盘。
 ad-failed 广告加载失败，请稍后重试。
 streamers.views {0}个观众
 streamers.none 当前没有任何Twitch直播！
@@ -699,9 +699,9 @@ server.config.minPlayers 最少玩家数
 server.config.lives 玩家生命数
 server.config.gameTime 每局时间（分钟）
 server.config.gravMlt 重力
-server.config.tickRI 高性能服务器
-server.config.maxPS 40名玩家服务器
-server.config.promServ 推广服务器
+server.config.tickRI 高性能房间
+server.config.maxPS 40名玩家房间
+server.config.promServ 推广房间
 server.config.jumpMlt 跳跃力量
 server.config.airStrf 空中转向
 server.config.deltaMlt 时间倍数
@@ -812,11 +812,11 @@ social.market.fee.gift 无费用
 social.market.gift 赠送KR
 social.market.gift.msg 说点什么呢…
 respawn.auto 你将会在{0}秒后重生
-custom.host.ranked 排位赛中无法创建自定义服务器。
+custom.host.ranked 排位赛中无法创建自定义房间。
 funds.insufficient 资金余额不足
 funds.out 你似乎没有KR了
 custom.passcode.long 密码过长
-custom.passcode.input 请输入此服务器密码以加入游戏
+custom.passcode.input 请输入此房间密码以加入游戏
 custom.tryagain 请重试。
 purchase.kr.success 已添加{0}KR到你的账户
 limited.purchase.ask 你确定要以{1}KR购买[{0}]吗？
@@ -848,11 +848,11 @@ stats.sprays 喷漆数
 stats.kpd 有效举报数
 windows.host.default.settings 启用地图默认设置以允许玩家保存他们的进度及最高分数
 windows.host.default.commands * 服主命令（/noclip, /god, /smite 等）在此模式中将会被禁用。
-windows.host.rewards 启用KR奖励将强制服务器使用地图默认设置，以允许玩家从此地图获得KR：
+windows.host.rewards 启用KR奖励将强制房间使用地图默认设置，以允许玩家从此地图获得KR：
 windows.store.wheels.sub 试试你的运气，转动奖盘来赢得全新皮肤！
 windows.store.currency * 美元和你当地货币之间的汇率由支付服务提供商或银行决定。
 windows.store.creator 购买KR时，考虑使用创作者代码以支持你喜爱的内容创作者
-windows.chall.customs 自定义服务器内无法完成挑战任务。
+windows.chall.customs 自定义房间内无法完成挑战任务。
 twitch.link 你确定要链接你的Twitch账户吗？
 twitch.unlink 你确定要取消链接你的Twitch账户吗？
 windows.clan.leave 你确定要离开此战队吗？
@@ -860,7 +860,7 @@ windows.clan.delete 你确定要解散此战队吗？
 windows.clan.kick 你确定要从此战队踢出{0}吗？
 windows.store.premium.purchase 你确定要购买{0}天的会员吗？
 windows.store.premium.gift 你确定要赠送'{0}'{1}天的会员吗？
-windows.playerlist.ban 你确定要从此服务器封禁并踢出{0}吗？
+windows.playerlist.ban 你确定要从此房间封禁并踢出{0}吗？
 windows.playerlist.flag 你确定要标记{0}为外挂玩家吗？
 windows.playerlist.unflag 你确定要取消标记{0}为外挂玩家吗？
 windows.playerlist.punish 你确定要对{0}采取措施吗？
@@ -973,8 +973,8 @@ commands.forfeit.voted 你已经投过票了
 commands.forfeit.limit 你只能发起一次投降
 commands.forfeit.ended 投降中
 commands.forfeit.ended.other 敌方队伍已投降
-server.message.join {0}已加入此服务器
-server.message.left {0}已离开此服务器
+server.message.join {0}已加入此伺服器
+server.message.left {0}已离开伺服器
 server.message.kicked {0}已被踢出
 server.message.banned {0}已被封禁並踢出
 server.message.votekicked {0}已被投票踢出
