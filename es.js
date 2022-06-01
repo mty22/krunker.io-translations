@@ -456,7 +456,7 @@ settings.social.bg.paste Background Image URL
 windows.settings.header Ajustes de juego
 windows.mail.header Correo de krunker
 windows.servers.header Servidores
-windows.servers.none No se han encontrado partidas a la que unirse...
+windows.servers.none No se han encontrado partidas a las que unirse...
 windows.servers.host + Crear partida
 windows.servers.hide Ocultar partidas llenas
 windows.servers.priority Prioridad de región
@@ -594,7 +594,7 @@ windows.clans.page [{0}] Página del clan
 windows.clans.create Crear clan
 windows.clans.name Nombre del clan
 windows.clans.view Ver clanes
-windows.clans.join Unirse a clan
+windows.clans.join Unirse al clan
 windows.clans.login para crear y unirse a clanes!
 windows.store.header Tienda
 windows.store.spin {0} Ruletas
@@ -826,12 +826,12 @@ settings.loaded Configuraciones Cargadas
 settings.loaded.none No se encontro ninguna configuración
 account.login.required Necesitas iniciar Sesión
 account.banned.hack Esta cuenta ha sido suspendida permanentemente por Trampas.
-account.banned.appeal Si quieres apelar la suspención de tu cuenta , Contacta:
+account.banned.appeal Si quieres apelar la suspensión de su cuenta, Contacta:
 account.delete Puedes solicitar la eliminación de su cuenta, si la solicitud no se cancela dentro de los 14 días, la cuenta y todos los datos asociados se eliminarán permanentemente.
 account.delete.request Está seguro de que desea solicitar la eliminación de la cuenta?
 account.delete.cancel Está seguro de que desea cancelar la eliminación de la cuenta?
 spin.free.available KR GRATIS DISPONIBLE!
-spin.free.claim  Este spin está disponible para canjear una hora después de cada partida.
+spin.free.claim  Esta ruleta está disponible para canjear una hora después de cada partida.
 spin.free.disable Estos anuncios pueden ser desactivados en las configuraciones generales.
 mod.reset.0 Tomará efecto después de Reaparecer.
 mod.reset.1 Map Los objetos de mapas no se reinician.
@@ -914,7 +914,7 @@ chall.name.tk Obtén {0} Turbo Bajas {1}
 chall.name.drk Obten {0} Bajas Derrapando {1}
 chall.name.kstk Obtén una {0} Racha de Bajas {1}
 chall.name.w Gana {0} Partidas
-chall.name.d Die {0} Veces
+chall.name.d Muere {0} Veces
 chall.name.score Obtén {0} Puntuaciones
 chall.name.dmg Haz {0} Daño {1}
 chall.name.bzk Obtén {0} Bajas Múltiples {1}
