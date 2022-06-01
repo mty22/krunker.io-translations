@@ -826,7 +826,7 @@ settings.loaded Configuraciones Cargadas
 settings.loaded.none No se encontro ninguna configuración
 account.login.required Necesitas iniciar Sesión
 account.banned.hack Esta cuenta ha sido suspendida permanentemente por Trampas.
-account.banned.appeal Si quieres apelar la suspensión de su cuenta, Contacta:
+account.banned.appeal Si quiere apelar la suspensión de su cuenta, Contacta:
 account.delete Puedes solicitar la eliminación de su cuenta, si la solicitud no se cancela dentro de los 14 días, la cuenta y todos los datos asociados se eliminarán permanentemente.
 account.delete.request Está seguro de que desea solicitar la eliminación de la cuenta?
 account.delete.cancel Está seguro de que desea cancelar la eliminación de la cuenta?
@@ -834,7 +834,7 @@ spin.free.available KR GRATIS DISPONIBLE!
 spin.free.claim  Esta ruleta está disponible para canjear una hora después de cada partida.
 spin.free.disable Estos anuncios pueden ser desactivados en las configuraciones generales.
 mod.reset.0 Tomará efecto después de Reaparecer.
-mod.reset.1 Map Los objetos de mapas no se reinician.
+mod.reset.1 Los objetos de los mapas no se reinician.
 windows.profile.picture Cambiar Imagen
 stats.assists Asistencias
 stats.nukes Nucleares
