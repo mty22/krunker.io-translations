@@ -847,7 +847,7 @@ stats.crouches Agachamientos
 stats.sprays Sprays Colocados
 stats.kpd Reportes Útiles  
 windows.host.default.settings Habilitar las configuraciones predeterminadas te permite guardar tu progreso y tus mejores puntuaciones
-windows.host.default.commands *Los comandos de hosteo están deshabilitados para este modo : /noclip /god /smite etc
+windows.host.default.commands Los comandos de hosteo están deshabilitados para este modo : /noclip /god /smite etc
 windows.host.rewards Al activar las Recompensas de KR fuerza al servidor a usar configuraciones por defecto y permite a los jugadores ganar recompensas de los fondos del mapa:
 windows.store.wheels.sub Prueba tu suerte y gira para ganar nuevas Skins!
 windows.store.currency *Los Precios en USD pueden ser convertidos a tu moneda local en una tasa de cambio definida por tu Banco o Proveedor de pago.
