@@ -38,12 +38,12 @@ generic.matchaband 比赛被迫终止
 generic.follow 订阅
 generic.unfollow 取消订阅
 generic.followers 个粉丝
-generic.following 个关注中
+generic.following 个订阅中
 generic.games 游玩场数
 generic.wins 胜场数
 generic.lose 败场数
 generic.clan 战队
-generic.games.played 总游玩场数
+generic.games.played 游玩场数
 generic.games.won 胜场数
 generic.games.lost 败场数
 generic.timep 游玩时间
@@ -65,7 +65,7 @@ player.killstreak {0} on a {1} Kill Streak
 player.inactive 由于你长时间没有活动，你已被踢出此服务器
 player.disconnect 连接已断开
 timer.end 下一场将在{0}后开始
-leaderboard.empty 这里没有任何玩家
+leaderboard.empty 伺服器里没有任何玩家
 popup.checkpoint 检查点！
 app.play 点击开始游戏
 app.spectate 点击开始观战
@@ -86,7 +86,7 @@ settings.controls.change 按键设置
 settings.controls.press 按任意键
 settings.controls.leaderboard 游戏内记分板触发类型
 settings.controls.voicechat 语音聊天触发类型
-settings.local.header 本地化 <span id="requiresRestart"><span style="color: #eb5656">*</span> 需要重启游戏</span>
+settings.local.header 本地化 <span id="requiresRestart"><span style="color: #eb5656">*</span> 需重启游戏</span>
 settings.local.region 默认地区
 settings.local.lang 语言
 settings.network.header 网络
@@ -96,7 +96,7 @@ settings.network.lagComp 延迟补偿
 settings.network.optNet 网络最优化
 settings.network.quickplay 强制快速游玩
 settings.popup.header 弹窗
-settings.experimental.header 实验性
+settings.experimental.header 新
 settings.experimental.holiday 节日效果
 settings.experimental.aimFreezeFix 瞄准冻结修正（射击时限制帧率）
 settings.experimental.mouseFlickFix 鼠标无故跳动修正（限制轮询率）
@@ -123,7 +123,7 @@ settings.chat.header 聊天
 settings.chat.chat 显示聊天窗口
 settings.chat.chat.all 总是
 settings.chat.chat.focus 聚焦到[Enter Message]字段时
-settings.chat.messages 显示玩家信息
+settings.chat.messages 显示玩家讯息
 settings.chat.unboxings 显示玩家开箱信息
 settings.chat.chatOp 聊天窗口不透明度
 settings.chat.chatBGOp 聊天窗口背景不透明度
@@ -178,16 +178,16 @@ settings.interface.header 界面
 settings.interface.scale 用户界面显示比例
 settings.interface.theme 游戏主题
 settings.interface.ui 显示状态栏
-settings.interface.scoreboard 使用旧版记分板
-settings.interface.oldBrowser 使用旧版浏览器
+settings.interface.scoreboard 使用记分板
+settings.interface.oldBrowser 使用浏览器
 settings.interface.rarityanim 禁用稀有度动画
 settings.interface.showPfp 显示玩家头像
-settings.interface.showTradeMsg 显示交易信息
+settings.interface.showTradeMsg 显示交易讯息
 settings.interface.hideNonTrade 隐藏不可交易的皮肤
 settings.interface.hp 动态血条
 settings.interface.dmgScale 伤害值显示比例
 settings.interface.killf 显示击杀信息
-settings.interface.ping 显示网络延时
+settings.interface.ping 显示网络延迟
 settings.interface.net-stats 显示网络统计数据
 settings.interface.fps 显示帧数
 settings.interface.deaths 显示死亡数
@@ -431,18 +431,18 @@ settings.mods.scope.height 狙击镜分划板高度
 settings.mods.dot 瞄准镜标线图片
 settings.mods.dot.width 瞄准镜标线图片宽度
 settings.mods.dot.height 瞄准镜标线图片高度
-settings.mods.dot.paste 瞄准镜标线图片来源网址
-settings.mods.endmessage 比赛结束后自动信息
+settings.mods.dot.paste 瞄准镜标线图片网址
+settings.mods.endmessage 比赛自动结束讯息
 settings.mods.profile 头像图片
-settings.mods.profile.paste 头像图片来源网址
+settings.mods.profile.paste 头像图片网址
 settings.mods.ammo 弹药图标
-settings.mods.ammo.paste 弹药图标来源网址
+settings.mods.ammo.paste 弹药图标网址
 settings.mods.kills 击杀图标
-settings.mods.kills.paste 击杀图标来源网址
+settings.mods.kills.paste 击杀图标网址
 settings.mods.deaths 死亡图标
-settings.mods.deaths.paste 死亡图标来源网址
+settings.mods.deaths.paste 死亡图标网址
 settings.mods.streak 连杀图标
-settings.mods.streak.paste 连杀图标来源网址
+settings.mods.streak.paste 连杀图标网址
 settings.mods.timer 计时器图标
 settings.mods.timer.paste 计时器图标网址
 settings.mods.usedamage 受伤叠层
@@ -458,7 +458,7 @@ windows.mail.header 邮箱
 windows.servers.header 服务器
 windows.servers.none 没有可加入的服务器…
 windows.servers.host + 创建服务器
-windows.servers.hide 隐藏已满的服务器
+windows.servers.hide 隐藏已满的伺服器
 windows.servers.priority 默认地区优先
 windows.servers.online {0}个玩家在游戏中
 windows.servers.social {0}个玩家在社区中
@@ -521,9 +521,9 @@ windows.controls.chat 文字聊天
 windows.controls.voice 语音聊天
 windows.controls.list 玩家列表
 windows.controls.board 排行榜
-windows.controls.interact 交互
-windows.controls.interactSec 次要交互
-windows.controls.confirm 确认交互
+windows.controls.interact 互动
+windows.controls.interactSec 次要互动
+windows.controls.confirm 确认互动
 windows.controls.drop 丢弃
 windows.controls.wepVis 武器可见度切换键
 windows.controls.kickVoteY 投票踢出玩家［是］
@@ -544,7 +544,7 @@ windows.controls.streak4 连杀奖励5
 windows.controls.taunt0 嘲讽（噗嗤声）
 windows.controls.taunt1 嘲讽（口哨声）
 windows.controls.taunt2 嘲讽（放屁声）
-windows.controls.taunt3 嘲讽（模因声）
+windows.controls.taunt3 嘲讽（迷因声）
 windows.controls.taunt4 嘲讽（这到底是什么鬼？）
 windows.controls.taunt5 嘲讽（就是现在！）
 windows.controls.prop 选择物品（长按）
