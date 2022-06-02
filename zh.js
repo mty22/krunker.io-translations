@@ -424,7 +424,7 @@ settings.mods.borders 狙击镜边界
 settings.mods.borderCol 狙击镜边界颜色
 settings.mods.borderOpac 狙击镜边界不透明度
 settings.mods.scope 狙击镜分划板图片
-settings.mods.scope.paste 狙击镜分划板图片来源网址
+settings.mods.scope.paste 狙击镜分划板图片网址
 settings.mods.scope.opacity 狙击镜分划板不透明度
 settings.mods.scope.width 狙击镜分划板宽度
 settings.mods.scope.height 狙击镜分划板高度
@@ -551,7 +551,7 @@ windows.controls.prop 选择物品（长按）
 windows.controls.propRand 选择任意物品
 windows.controls.propRot 物品旋转切换键
 windows.controls.propRotR 重置物品旋转
-windows.controls.premium0 飞天模式
+windows.controls.premium0 无后座力模式
 windows.controls.premium1 无敌模式
 windows.controls.premium2 自杀
 windows.controls.premium3 瞬间击杀
@@ -595,7 +595,7 @@ windows.clans.create 创建战队
 windows.clans.name 战队名称
 windows.clans.view 浏览战队
 windows.clans.join 加入战队
-windows.clans.login 登录后可创建或加入战队！
+windows.clans.login 登录后可创建或加入战队!
 windows.store.header 商店
 windows.store.spin {0}转盘
 windows.store.agree 确认购买即表示你同意{0}条款及细则
@@ -606,12 +606,12 @@ windows.store.market 市场
 windows.store.market2 Krunker市场
 windows.store.premium 购买会员
 windows.store.premium2 Krunker会员
-windows.store.buyP 购买会员后，你将可以自定义你的显示名称和体验更多专属功能！
+windows.store.buyP 购买会员后，你将可以自定义你的显示名称和体验更多专属功能!
 windows.store.buy 买卖物品尽在
 windows.store.wheels 转盘
 windows.store.unlock 解锁新武器和物品
 windows.store.amount 你的账户还剩余{0}KR
-windows.store.login 登录以在商店中购买物品！
+windows.store.login 登录以在商店中购买物品!
 windows.store.purchasing 购买中…
 windows.store.unboxed {0}开箱获得了{1}
 windows.store.found {0}找到了{1}
