@@ -96,7 +96,7 @@ settings.network.lagComp 延迟补偿
 settings.network.optNet 网络最优化
 settings.network.quickplay 强制快速游玩
 settings.popup.header 弹窗
-settings.experimental.header 新
+settings.experimental.header 测试
 settings.experimental.holiday 节日效果
 settings.experimental.aimFreezeFix 瞄准冻结修正（射击时限制帧率）
 settings.experimental.mouseFlickFix 鼠标无故跳动修正（限制轮询率）
@@ -433,7 +433,7 @@ settings.mods.dot.width 瞄准镜标线图片宽度
 settings.mods.dot.height 瞄准镜标线图片高度
 settings.mods.dot.paste 瞄准镜标线图片网址
 settings.mods.endmessage 比赛自动结束讯息
-settings.mods.profile 头像图片
+settings.mods.profile 头像
 settings.mods.profile.paste 头像图片网址
 settings.mods.ammo 弹药图标
 settings.mods.ammo.paste 弹药图标网址
@@ -973,7 +973,7 @@ commands.forfeit.voted 你已经投过票了
 commands.forfeit.limit 你只能发起一次投降
 commands.forfeit.ended 投降中
 commands.forfeit.ended.other 敌方队伍已投降
-server.message.join {0}已加入此伺服器
+server.message.join {0}已进入此伺服器
 server.message.left {0}已离开伺服器
 server.message.kicked {0}已被踢出
 server.message.banned {0}已被封禁並踢出
