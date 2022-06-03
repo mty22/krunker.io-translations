@@ -84,6 +84,8 @@ If you contributed in the past and can't find your name below (or simply wish to
 * [Inspire-24](https://krunker.io/social.html?p=profile&q=DADDY_AWM)
 * [BluZed](https://krunker.io/social.html?p=profile&q=BluZed)
 * [akshutcoder](https://krunker.io/social.html?p=profile&q=akshutcoder) (Thomas Shelby#6969)
+* [TheDuce](https://krunker.io/social.html?p=profile&q=vpngaming_69) (TheDuce#2964)
+* [DEVILisOP](https://krunker.io/social.html?p=profile&q=DEVILisOP) (-devil#0001)
 
 # [Turkish](https://github.com/mty22/krunker.io-translations/blob/main/tr.js) (Türkçe)
 * [Secret](https://krunker.io/social.html?p=profile&q=Secret) (SecretMember#0333)
