@@ -26,7 +26,7 @@ generic.submit 提交
 generic.create 创建
 generic.random 随机
 generic.failed 失败
-generic.success 成功！
+generic.success 成功!
 generic.name 用户名
 generic.level 等级
 generic.score 总得分
@@ -66,7 +66,7 @@ player.inactive 由于你长时间没有活动，你已被踢出此服务器
 player.disconnect 连接已断开
 timer.end 下一场将在{0}后开始
 leaderboard.empty 伺服器里没有任何玩家
-popup.checkpoint 检查点！
+popup.checkpoint 检查点!
 app.play 点击开始游戏
 app.spectate 点击开始观战
 app.play.mobile 点击屏幕开始游戏
@@ -74,7 +74,7 @@ app.spectate.mobile 点击屏幕开始观战
 app.play.controller 按下开始键开始游戏
 app.spectate.controller 按下开始键开始观战
 purchase.error 出错了
-purchase.error.click 点此</a>重试！
+purchase.error.click 点此</a>重试!
 purchase.error.limit 你可能已超出每日交易限额
 settings.reset 重置
 settings.reset.confirm 你确定要重置所有设置吗？
@@ -546,7 +546,7 @@ windows.controls.taunt1 嘲讽（口哨声）
 windows.controls.taunt2 嘲讽（放屁声）
 windows.controls.taunt3 嘲讽（迷因声）
 windows.controls.taunt4 嘲讽（这到底是什么鬼？）
-windows.controls.taunt5 嘲讽（就是现在！）
+windows.controls.taunt5 嘲讽（就是现在）
 windows.controls.prop 选择物品（长按）
 windows.controls.propRand 选择任意物品
 windows.controls.propRot 物品旋转切换键
@@ -573,7 +573,7 @@ windows.spray.header 选择喷漆
 windows.spray.default 默认喷漆
 windows.spray.spin 喷漆
 windows.maps.header 自定义地图
-windows.maps.none 没有找到任何地图！
+windows.maps.none 没有找到任何地图!
 windows.maps.name 地图名称
 windows.maps.editor 地图编辑器
 windows.maps.publish 发布地图
@@ -582,7 +582,7 @@ windows.publish.map.header 发布或更新地图
 windows.publish.map.thumbnail 无缩略图
 windows.publish.map.paste 粘贴地图数据
 windows.publish.map.update 发布或更新
-windows.publish.map.login 登录以创建并上传地图！
+windows.publish.map.login 登录以创建并上传地图!
 windows.theatre.header 影院模式
 windows.theatre.record 启用录制
 windows.theatre.key 录制键
@@ -643,7 +643,7 @@ windows.publish.mod.thumbnail 无缩略图
 windows.publish.mod.name 模组名称
 windows.publish.mod.paste 模组网址
 windows.publish.mod.update 发布或更新
-windows.publish.mod.login 登录以创建并上传模组！
+windows.publish.mod.login 登录以创建并上传模组!
 windows.secondary.header 选择副武器
 windows.secondary.unlocked 已解锁
 windows.secondary.customOnly 仅限自定义服务器
@@ -666,18 +666,18 @@ windows.client.windows Windows安装程序
 windows.client.mac macOS安装程序
 windows.client.linux Linux安装程序
 windows.ranked.header 排位赛
-windows.ranked.login 登录以进行排位赛！
-windows.ranked.level 你至少需要<span color="black">{0}级</span>以进行排位赛！当前你处于<span color="black">{1}级</span>。
+windows.ranked.login 登录以进行排位赛!
+windows.ranked.level 你至少需要<span color="black">{0}级</span>以进行排位赛!当前你处于<span color="black">{1}级</span>。
 windows.chall.header 挑战任务
-windows.chall.login 登录以完成挑战任务！
+windows.chall.login 登录以完成挑战任务!
 thumbnail.upload.limit 上传失败，缩略图大小上限为{0}kb
 image.upload.limit 上传失败，图片大小上限为{0}kb
 thumbnail.upload.error 缩略图错误
 mod.extracting 提取中 {0}/{1}
 mod.disabled 模组已禁用
-mod.error 模组错误！
+mod.error 模组错误!
 mod.loading 加载模组中…
-mod.invalid 无效的模组文件！
+mod.invalid 无效的模组文件!
 matchmaker.full 已满
 matchmaker.GameFull 此房间人数已满。
 matchmaker.NoServersMatchQuery 游戏更新中
@@ -687,7 +687,7 @@ matchmaker.GameIssue 加入时出现未知问题
 adblocker 禁用广告拦截插件以获得免费KR转盘。
 ad-failed 广告加载失败，请稍后重试。
 streamers.views {0}个观众
-streamers.none 当前没有任何Twitch直播！
+streamers.none 当前没有任何Twitch直播!
 error.extentions 如果你有任何浏览器插件，请禁用它们
 error.seek 点此寻找新的游戏
 custom.map.upload.limit 上传失败，地图数据大小上限为500kb
@@ -827,10 +827,10 @@ settings.loaded.none 没有找到任何设置
 account.login.required 你必须先登录
 account.banned.hack 此账户因作弊而被封禁
 account.banned.appeal 如果你想提出上诉，请联系：
-account.delete 你可以在此申请删除你的账户。请注意！如果此申请在14天内没有被取消，此账户的所有数据将会被永久抹除。
+account.delete 你可以在此申请删除你的账户。请注意!如果此申请在14天内没有被取消，此账户的所有数据将会被永久抹除。
 account.delete.request 你确定要申请删除此账户吗？
 account.delete.cancel 你确定要取消申请删除此账户吗？
-spin.free.available 立即领取免费KR！
+spin.free.available 立即领取免费KR!
 spin.free.claim 你必须在每小时内完成一场游戏才能领取此转盘。
 spin.free.disable 你可以在设置的[General]选项卡里禁用此弹窗。
 mod.reset.0 重生后此设置将会生效。
@@ -849,7 +849,7 @@ stats.kpd 有效举报数
 windows.host.default.settings 启用地图默认设置以允许玩家保存他们的进度及最高分数
 windows.host.default.commands * 服主命令（/noclip, /god, /smite 等）在此模式中将会被禁用。
 windows.host.rewards 启用KR奖励将强制房间使用地图默认设置，以允许玩家从此地图获得KR：
-windows.store.wheels.sub 试试你的运气，转动奖盘来赢得全新皮肤！
+windows.store.wheels.sub 试试你的运气，转动奖盘来赢得全新皮肤!
 windows.store.currency * 美元和你当地货币之间的汇率由支付服务提供商或银行决定。
 windows.store.creator 购买KR时，考虑使用创作者代码以支持你喜爱的内容创作者
 windows.chall.customs 自定义房间内无法完成挑战任务。
@@ -894,7 +894,7 @@ social.trades.history 交易记录
 social.trades.history.head ({0})个交易记录
 social.trades.decline 全部拒绝
 social.trades.message 在市场设置中启用「显示交易信息」选项
-social.trades.warning 你将不会在此交易中得到任何物品！
+social.trades.warning 你将不会在此交易中得到任何物品!
 social.trades.accept 你确定要接受此交易请求吗？
 stats.airdrops 召唤空投次数
 stats.airdrops.stolen 偷取空投次数
