@@ -962,7 +962,7 @@ commands.spraybypass.on अनलिमिटेड Ammo - इनेबल्ड
 commands.spraybypass.off अनलिमिटेड Ammo - डिसेबल्ड
 commands.spraybypass.on.other अनलिमिटेड Ammo - {0} के लिए इनेबल्ड
 commands.spraybypass.off.other अनलिमिटेड Ammo - {0} के लिए डिसेबल्ड
-commands.suspect.invalid संदिग्ध व्यक्ति की अमान्य खबर
+commands.suspect.invalid संदिग्ध की अमान्य जानकारी
 commands.suspect.menu ससपेक्ट मेन्यू में है
 commands.suspect.left ससपेक्ट ने मैच छोड़ दिया
 commands.suspect.found संदिग्ध व्यक्ति मिला। Spectating: {0}, Spawned: {1}, Name: {2}
