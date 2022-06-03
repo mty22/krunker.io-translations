@@ -903,14 +903,14 @@ chall.name.hs Get {0} हैडशॉट्स {1}
 chall.name.ns Get {0} नो-स्कोप्स {1}
 chall.name.ls Get {0} लेगशॉट्स {1}
 chall.name.tmk Get {0} चाक़ू फेंकने से किल्स {1}
-chall.name.fb Get {0} पहला खून {1}
+chall.name.fb Get {0} पहला किल {1}
 chall.name.mk Get {0} मिली किलज़ {1}
 chall.name.fk Get {0} हाँथों द्वारा किये गए किल {1}
 chall.name.qs Get {0} क्विक-स्कोप्स {1}
 chall.name.wb Get {0} वालबैंग्स {1}
 chall.name.airk Get {0} हवा में किल्स {1}
 chall.name.lns Get {0} दूर के किल्स {1}
-chall.name.tk Get {0} तेज़ किल्स {1}
+chall.name.tk Get {0} टर्बो किल्स {1}
 chall.name.drk Get {0} drift kills {1}
 chall.name.kstk Get a {0} killstreak {1}
 chall.name.w Win {0} मैचेस
