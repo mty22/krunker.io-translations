@@ -925,7 +925,7 @@ ranked.join Joined Ranked Match. Abandoning a match will result in a temporary b
 ranked.progress खेल चल रहा है
 ranked.team कृपया एक टीम जॉइन करें
 ranked.switch खेल के बीच मे नहीं बदल सकते
-ranked.spectate Disabled in Ranked
+ranked.spectate Spectating Disabled in Ranked
 ranked.login स्पॉन करने के लिए लॉगिन करें
 ranked.sync Missing Sync Data
 ranked.team.spawn कृपया स्पॉन करने के लिए एक टीम जॉइन करें
