@@ -902,15 +902,15 @@ settings.quality.flapAnim स्नाइपर फ्लैप एनीमे�
 chall.name.hs Get {0} हैडशॉट्स {1}
 chall.name.ns Get {0} नो-स्कोप्स {1}
 chall.name.ls Get {0} लेगशॉट्स {1}
-chall.name.tmk Get {0} throwing knife kills {1}
-chall.name.fb Get {0} first bloods {1}
+chall.name.tmk Get {0} चाक़ू फेंकने से किल्स {1}
+chall.name.fb Get {0} पहला खून {1}
 chall.name.mk Get {0} मिली किलज़ {1}
 chall.name.fk Get {0} हाँथों द्वारा किये गए किल {1}
 chall.name.qs Get {0} क्विक-स्कोप्स {1}
-chall.name.wb Get {0} wallbangs {1}
-chall.name.airk Get {0} mid-air kills {1}
-chall.name.lns Get {0} longshots {1}
-chall.name.tk Get {0} turbo kills {1}
+chall.name.wb Get {0} वालबैंग्स {1}
+chall.name.airk Get {0} हवा में किल्स {1}
+chall.name.lns Get {0} दूर के किल्स {1}
+chall.name.tk Get {0} तेज़ किल्स {1}
 chall.name.drk Get {0} drift kills {1}
 chall.name.kstk Get a {0} killstreak {1}
 chall.name.w Win {0} मैचेस
@@ -925,14 +925,14 @@ ranked.join Joined Ranked Match. Abandoning a match will result in a temporary b
 ranked.progress खेल चल रहा है
 ranked.team कृपया एक टीम जॉइन करें
 ranked.switch खेल के बीच मे नहीं बदल सकते
-ranked.spectate Spectating Disabled in Ranked
+ranked.spectate Disabled in Ranked
 ranked.login स्पॉन करने के लिए लॉगिन करें
 ranked.sync Missing Sync Data
 ranked.team.spawn कृपया स्पॉन करने के लिए एक टीम जॉइन करें
 ranked.class.spawn कृपया स्पॉन करने के लिए एक क्लास सेलेक्ट करें
 modes.round.win आपकी टीम ने यह राउंड जीत लिया है
 modes.round.loss यह राउंड अब जीता नहीं जा सकता
-modes.round.switch Switching Sides. Prepare for the next Round
+modes.round.switch पक्ष बदला जा रहा है। अगले राउंड के लिए तैयारी करें
 modes.trade.success ट्रेड सफल रहा
 modes.prophunt.limit [Prop Hunt] You are out of prop switches
 modes.prophunt.left [Prop Hunt] You have {0} switches remaining
@@ -962,10 +962,10 @@ commands.spraybypass.on अनलिमिटेड Ammo - इनेबल्ड
 commands.spraybypass.off अनलिमिटेड Ammo - डिसेबल्ड
 commands.spraybypass.on.other अनलिमिटेड Ammo - {0} के लिए इनेबल्ड
 commands.spraybypass.off.other अनलिमिटेड Ammo - {0} के लिए डिसेबल्ड
-commands.suspect.invalid Invalid suspect info
+commands.suspect.invalid संदिग्ध व्यक्ति की अमान्य खबर
 commands.suspect.menu ससपेक्ट मेन्यू में है
 commands.suspect.left ससपेक्ट ने मैच छोड़ दिया
-commands.suspect.found Suspect Found. Spectating: {0}, Spawned: {1}, Name: {2}
+commands.suspect.found संदिग्ध व्यक्ति मिला। Spectating: {0}, Spawned: {1}, Name: {2}
 commands.forfeit.next 1 राउंड खेलना ज़रूरी है
 commands.forfeit.wait forfeit करने के लिए मैच शुरू होने दें
 commands.forfeit.later कृपया कुछ देर बाद कोशिश करें
@@ -977,6 +977,6 @@ server.message.join {0} ने गेम जॉइन किया
 server.message.left {0} ने गेम छोड़ दिया
 server.message.kicked {0} को किक किया गया
 server.message.banned {0} को बैन किया गया
-server.message.votekicked {0} was vote kicked
+server.message.votekicked {0} को मतदान से किक किया गया
 server.message.arrested {0} को K.P.D ने गिरफ्तार कर लिया
 `;
