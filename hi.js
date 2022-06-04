@@ -86,7 +86,7 @@ settings.controls.change Keybinds
 settings.controls.press किसी भी Key को दबाएं
 settings.controls.leaderboard InGame Leaderboard Trigger Type
 settings.controls.voicechat Voicechat Trigger Type
-settings.local.header Localization <span id="requiresRestart"><span style="color: #eb5656">*</span> requires restart</span>
+settings.local.header Localization <span id="requiresRestart"><span style="color: #eb5656">*</span> रिस्टार्ट आवश्यक </span>
 settings.local.region डिफ़ॉल्ट क्षेत्र
 settings.local.lang भाषा
 settings.network.header नेटवर्क
@@ -176,7 +176,7 @@ settings.interface.dmgCol डैमेज संकेतों का रंग
 settings.interface.critCol घातक डैमेज संकेतों का रंग
 settings.interface.header इंटरफ़ेस
 settings.interface.scale UI का माप
-settings.interface.theme Game Theme
+settings.interface.theme गेम थीम
 settings.interface.ui UI दिखाएँ
 settings.interface.scoreboard पुराने स्कोरबोर्ड का उपयोग करें
 settings.interface.oldBrowser पुराने ब्राउज़र का उपयोग करें
@@ -510,7 +510,7 @@ windows.controls.aim1 एम्
 windows.controls.shoot1 गोली चलाना
 windows.controls.inspect इंस्पेक्ट
 windows.controls.spray स्प्रे
-windows.controls.sprayWheel Spray Wheel (Hold)
+windows.controls.sprayWheel स्प्रे पाइयाँ (दबाएं)
 windows.controls.jump कूदना
 windows.controls.crouch झुकना
 windows.controls.prim प्राइमरी हथियार
@@ -535,7 +535,7 @@ windows.controls.specObj Toggle Objective Cam
 windows.controls.specFirst Toggle First Person
 windows.controls.specNames Toggle Forced Names
 windows.controls.specFocus Toggle Focus Player
-windows.controls.hidePlayers Hide Players
+windows.controls.hidePlayers प्लायर्स को हाइड करें
 windows.controls.streak0 स्ट्रीक 1
 windows.controls.streak1 स्ट्रीक 2
 windows.controls.streak2 स्ट्रीक 3
@@ -912,14 +912,14 @@ chall.name.airk Get {0} mid-air kills {1}
 chall.name.lns Get {0} longshots {1}
 chall.name.tk Get {0} turbo kills {1}
 chall.name.drk Get {0} drift kills {1}
-chall.name.kstk Get a {0} killstreak {1}
+chall.name.kstk Get a {0} किल स्ट्रीक {1}
 chall.name.w Win {0} मैचेस
 chall.name.d Die {0} समय
 chall.name.score Get {0} अंक
 chall.name.dmg Deal {0} डैमेज {1}
 chall.name.bzk Get {0} बज़ किलज़ {1}
 chall.name.cc Get {0} close-calls {1}
-chall.name.rk Deal {0} revenge kills {1}
+chall.name.rk Deal {0} बदले वाली किल {1}
 event.doubleXP 2x Class XP enabled for this match
 ranked.join Joined Ranked Match. Abandoning a match will result in a temporary ban
 ranked.progress खेल चल रहा है
@@ -972,7 +972,7 @@ commands.forfeit.later कृपया कुछ देर बाद कोश�
 commands.forfeit.voted आप पहले वोट कर चुके हैं
 commands.forfeit.limit आप एक गेम मे एक ही बार वोट शुरू कर सकते हैं
 commands.forfeit.ended Forfeiting गेम
-commands.forfeit.ended.other Other Team Forfeited
+commands.forfeit.ended.other दूसरी टीम ने हार मान ली
 server.message.join {0} ने गेम जॉइन किया
 server.message.left {0} ने गेम छोड़ दिया
 server.message.kicked {0} को किक किया गया
