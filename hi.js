@@ -86,7 +86,7 @@ settings.controls.change Keybinds
 settings.controls.press किसी भी Key को दबाएं
 settings.controls.leaderboard InGame Leaderboard Trigger Type
 settings.controls.voicechat Voicechat Trigger Type
-settings.local.header Localization <span id="requiresRestart"><span style="color: #eb5656">*</span> रिस्टार्ट आवश्यक </span>
+settings.local.header Localization <span id="requiresRestart"><span style="color: #eb5656">*</span> requires restart</span>
 settings.local.region डिफ़ॉल्ट क्षेत्र
 settings.local.lang भाषा
 settings.network.header नेटवर्क
@@ -510,7 +510,7 @@ windows.controls.aim1 एम्
 windows.controls.shoot1 गोली चलाना
 windows.controls.inspect इंस्पेक्ट
 windows.controls.spray स्प्रे
-windows.controls.sprayWheel स्प्रे पाइयाँ (दबाएं)
+windows.controls.sprayWheel स्प्रे पाइयाँ (Hold)
 windows.controls.jump कूदना
 windows.controls.crouch झुकना
 windows.controls.prim प्राइमरी हथियार
