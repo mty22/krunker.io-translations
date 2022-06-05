@@ -96,7 +96,7 @@ settings.network.lagComp 延迟补偿
 settings.network.optNet 网络最优化
 settings.network.quickplay 强制快速游玩
 settings.popup.header 弹窗
-settings.experimental.header 测试
+settings.experimental.header 实验性功能
 settings.experimental.holiday 节日效果
 settings.experimental.aimFreezeFix 瞄准冻结修正（射击时限制帧率）
 settings.experimental.mouseFlickFix 鼠标无故跳动修正（限制轮询率）
@@ -105,7 +105,7 @@ settings.experimental.mouseAccel 鼠标加速
 settings.experimental.tbInterp TB样条插值
 settings.client.header 客户端
 settings.client.unlimitedFrames 禁用垂直同步
-settings.client.gameCap 游戏录制
+settings.client.gameCap 游戏捕获
 settings.client.experimental 实验性功能
 settings.client.discordRPC Discord丰富状态
 settings.client.resourceSwapper 资源转换器
@@ -117,13 +117,13 @@ settings.client.colorProfile 色彩配置文件
 settings.client.resourcePacks 资源包
 settings.dev.header 开发者
 settings.dev.forceUpdate 强制刷新皮肤
-settings.dev.forceRegen 强制重生玩家
+settings.dev.forceRegen 总是重生玩家
 settings.dev.extraBan 更多封禁信息
 settings.chat.header 聊天
 settings.chat.chat 显示聊天窗口
 settings.chat.chat.all 总是
 settings.chat.chat.focus 聚焦到[Enter Message]字段时
-settings.chat.messages 显示玩家讯息
+settings.chat.messages 显示玩家信息
 settings.chat.unboxings 显示玩家开箱信息
 settings.chat.chatOp 聊天窗口不透明度
 settings.chat.chatBGOp 聊天窗口背景不透明度
@@ -178,11 +178,11 @@ settings.interface.header 界面
 settings.interface.scale 用户界面显示比例
 settings.interface.theme 游戏主题
 settings.interface.ui 显示状态栏
-settings.interface.scoreboard 使用记分板
-settings.interface.oldBrowser 使用浏览器
+settings.interface.scoreboard 使用旧版记分板
+settings.interface.oldBrowser 使用旧版服务器浏览器
 settings.interface.rarityanim 禁用稀有度动画
 settings.interface.showPfp 显示玩家头像
-settings.interface.showTradeMsg 显示交易讯息
+settings.interface.showTradeMsg 显示交易信息
 settings.interface.hideNonTrade 隐藏不可交易的皮肤
 settings.interface.hp 动态血条
 settings.interface.dmgScale 伤害值显示比例
@@ -361,7 +361,7 @@ settings.viewmodel.leaning 转动时武器偏航幅度
 settings.viewmodel.show.primary 显示主武器
 settings.viewmodel.show.secondary 显示副武器
 settings.viewmodel.roundArms 圆柱体手臂
-settings.viewmodel.show.melee 显示匕首
+settings.viewmodel.show.melee 显示近战武器
 settings.viewmodel.show.ads 瞄准时隐藏武器
 settings.viewmodel.toggleAim 切换瞄准
 settings.viewmodel.show.hands 显示手部
@@ -432,7 +432,7 @@ settings.mods.dot 瞄准镜标线图片
 settings.mods.dot.width 瞄准镜标线图片宽度
 settings.mods.dot.height 瞄准镜标线图片高度
 settings.mods.dot.paste 瞄准镜标线图片网址
-settings.mods.endmessage 比赛自动结束讯息
+settings.mods.endmessage 比赛自动结束信息
 settings.mods.profile 头像
 settings.mods.profile.paste 头像图片网址
 settings.mods.ammo 弹药图标
@@ -454,11 +454,11 @@ settings.social.region 地区统计
 settings.social.bg 社区界面背景图片
 settings.social.bg.paste 社区界面背景图片网址
 windows.settings.header 游戏设置
-windows.mail.header 邮箱
+windows.mail.header Krunker邮箱
 windows.servers.header 服务器
 windows.servers.none 没有可加入的服务器…
 windows.servers.host + 创建服务器
-windows.servers.hide 隐藏已满的伺服器
+windows.servers.hide 隐藏已满的服务器
 windows.servers.priority 默认地区优先
 windows.servers.online {0}个玩家在游戏中
 windows.servers.social {0}个玩家在社区中
@@ -471,7 +471,7 @@ windows.loadout.primary.reticle 瞄准镜标线
 windows.loadout.primary.scope 狙击镜分划板
 windows.loadout.secondary 副武器
 windows.loadout.secondary.skin 副武器皮肤
-windows.loadout.melee 匕首
+windows.loadout.melee 近战武器
 windows.loadout.hat 帽子
 windows.loadout.back 背部
 windows.loadout.waist 腰部
@@ -515,7 +515,7 @@ windows.controls.jump 跳跃
 windows.controls.crouch 下蹲
 windows.controls.prim 主武器
 windows.controls.swap 副武器
-windows.controls.melee 匕首
+windows.controls.melee 近战武器
 windows.controls.equip 拾取
 windows.controls.chat 文字聊天
 windows.controls.voice 语音聊天
@@ -546,12 +546,12 @@ windows.controls.taunt1 嘲讽（口哨声）
 windows.controls.taunt2 嘲讽（放屁声）
 windows.controls.taunt3 嘲讽（迷因声）
 windows.controls.taunt4 嘲讽（这到底是什么鬼？）
-windows.controls.taunt5 嘲讽（就是现在）
+windows.controls.taunt5 嘲讽（就是现在！）
 windows.controls.prop 选择物品（长按）
 windows.controls.propRand 选择任意物品
 windows.controls.propRot 物品旋转切换键
 windows.controls.propRotR 重置物品旋转
-windows.controls.premium0 无后座力模式
+windows.controls.premium0 飞天模式
 windows.controls.premium1 无敌模式
 windows.controls.premium2 自杀
 windows.controls.premium3 瞬间击杀
@@ -623,7 +623,7 @@ windows.hat.header 选择帽子
 windows.back.header 选择背部饰品
 windows.waist.header 选择腰部饰品
 windows.face.header 选择表情
-windows.melee.header 选择匕首
+windows.melee.header 选择近战武器
 windows.attach.header 选择附件
 windows.reticle.header 选择准星
 windows.reticle.unlocked 于{0}级解锁
@@ -694,8 +694,8 @@ custom.map.upload.limit 上传失败，地图数据大小上限为500kb
 custom.map.missing 请选择至少一种地图
 custom.mode.missing 请选择至少一种游戏模式
 custom.class.missing 请选择至少一种职业
-server.config.maxPlayers 最多玩家数
-server.config.minPlayers 最少玩家数
+server.config.maxPlayers 最大玩家数
+server.config.minPlayers 最小玩家数
 server.config.lives 玩家生命数
 server.config.gameTime 每局时间（分钟）
 server.config.gravMlt 重力
@@ -795,7 +795,7 @@ social.market.face 表情
 social.market.shoe 鞋子
 social.market.pet 宠物
 social.market.wrist 手腕物品
-social.market.melee 匕首
+social.market.melee 近战武器
 social.market.spray 喷漆
 social.market.dye 衣服染色
 social.market.collectible 收藏品
@@ -838,7 +838,7 @@ mod.reset.1 地图物品不会被重置。
 windows.profile.picture 更改头像
 stats.assists 助攻数
 stats.nukes 核弹数
-stats.melee 匕首击杀数
+stats.melee 近战武器击杀数
 stats.fistkills 空手击杀数
 stats.thrownkills 投掷击杀数
 stats.headshots 爆头数
@@ -867,7 +867,7 @@ windows.playerlist.punish 你确定要对{0}采取措施吗？
 item.view.open 打开模型查看器
 item.view.more 更多信息
 item.sell.cant 此物品不能被出售。
-item.sell.cant.krunker 此物品不能被出售。
+item.sell.cant.krunker 此物品不能在Krunker内被出售。
 item.sell.quick 你确定要快速出售{0}吗？
 item.sell.destroy 你确定要分解{0}吗？
 social.profile.stats 综合战绩
@@ -973,8 +973,8 @@ commands.forfeit.voted 你已经投过票了
 commands.forfeit.limit 你只能发起一次投降
 commands.forfeit.ended 投降中
 commands.forfeit.ended.other 敌方队伍已投降
-server.message.join {0}已进入此伺服器
-server.message.left {0}已离开伺服器
+server.message.join {0}已进入此服务器
+server.message.left {0}已离开服务器
 server.message.kicked {0}已被踢出
 server.message.banned {0}已被封禁並踢出
 server.message.votekicked {0}已被投票踢出
