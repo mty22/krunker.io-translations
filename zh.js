@@ -8,9 +8,9 @@ menu.btn.settings 设置
 menu.btn.customize 自定义
 menu.btn.invite 邀请
 menu.btn.invite.clicked 已复制
-menu.btn.join 加入服务器
+menu.btn.join 加入
 menu.btn.host 创建服务器
-menu.btn.browser 搜索服务器
+menu.btn.browser 服务器
 generic.wait 请稍等…
 generic.loading 加载中…
 generic.none 无
@@ -65,7 +65,7 @@ player.killstreak {0} on a {1} Kill Streak
 player.inactive 由于你长时间没有活动，你已被踢出此服务器
 player.disconnect 连接已断开
 timer.end 下一场将在{0}后开始
-leaderboard.empty 伺服器里没有任何玩家
+leaderboard.empty 服务器里没有任何玩家
 popup.checkpoint 检查点！
 app.play 点击开始游戏
 app.spectate 点击开始观战
@@ -86,17 +86,17 @@ settings.controls.change 按键设置
 settings.controls.press 按任意键
 settings.controls.leaderboard 游戏内记分板触发类型
 settings.controls.voicechat 语音聊天触发类型
-settings.local.header 本地化 <span id="requiresRestart"><span style="color: #eb5656">*</span> 需重启游戏</span>
+settings.local.header 本地化 <span id="requiresRestart"><span style="color: #eb5656">*</span> 需要重启游戏</span>
 settings.local.region 默认地区
 settings.local.lang 语言
 settings.network.header 网络
 settings.network.netRerouting 动态路由（影响网络延时）
 settings.network.netRate 网络刷新率 (Hz)
 settings.network.lagComp 延迟补偿
-settings.network.optNet 网络最优化
+settings.network.optNet 网络优化
 settings.network.quickplay 强制快速游玩
 settings.popup.header 弹窗
-settings.experimental.header 实验性功能
+settings.experimental.header 实验性
 settings.experimental.holiday 节日效果
 settings.experimental.aimFreezeFix 瞄准冻结修正（射击时限制帧率）
 settings.experimental.mouseFlickFix 鼠标无故跳动修正（限制轮询率）
@@ -112,7 +112,7 @@ settings.client.resourceSwapper 资源转换器
 settings.client.clearCache 清除缓存
 settings.client.resetSettings 重置客户端设置
 settings.client.acceleratedCanvas 画布元素硬件加速
-settings.client.angleBackend 几乎原生图型抽象层引擎后端
+settings.client.angleBackend ANGLE后端
 settings.client.colorProfile 色彩配置文件
 settings.client.resourcePacks 资源包
 settings.dev.header 开发者
@@ -132,7 +132,7 @@ settings.chat.chatTimer 聊天文本显示时间
 settings.chat.chatTextOutline 聊天文本轮廓
 settings.chat.chatFilter 脏话过滤（仅限英文）
 settings.quality.header 游戏性能
-settings.quality.updRate 限制帧率
+settings.quality.updRate 帧率上限
 settings.quality.rendDst 渲染距离
 settings.quality.res 分辨率
 settings.quality.part 粒子特效
@@ -432,7 +432,7 @@ settings.mods.dot 瞄准镜标线图片
 settings.mods.dot.width 瞄准镜标线图片宽度
 settings.mods.dot.height 瞄准镜标线图片高度
 settings.mods.dot.paste 瞄准镜标线图片网址
-settings.mods.endmessage 比赛自动结束信息
+settings.mods.endmessage 比赛结束后自动信息
 settings.mods.profile 头像
 settings.mods.profile.paste 头像图片网址
 settings.mods.ammo 弹药图标
@@ -521,9 +521,9 @@ windows.controls.chat 文字聊天
 windows.controls.voice 语音聊天
 windows.controls.list 玩家列表
 windows.controls.board 排行榜
-windows.controls.interact 互动
-windows.controls.interactSec 次要互动
-windows.controls.confirm 确认互动
+windows.controls.interact 交互
+windows.controls.interactSec 次要交互
+windows.controls.confirm 确认交互
 windows.controls.drop 丢弃
 windows.controls.wepVis 武器可见度切换键
 windows.controls.kickVoteY 投票踢出玩家［是］
@@ -570,7 +570,7 @@ windows.host.preset.name 默认设置名称
 windows.host.start 开始游戏
 windows.host.rehost 开始游戏（邀请玩家）
 windows.spray.header 选择喷漆
-windows.spray.default 默认喷漆
+windows.spray.default 免费喷漆
 windows.spray.spin 喷漆
 windows.maps.header 自定义地图
 windows.maps.none 没有找到任何地图！
@@ -616,7 +616,7 @@ windows.store.purchasing 购买中…
 windows.store.unboxed {0}开箱获得了{1}
 windows.store.found {0}找到了{1}
 windows.trade.header 交易
-windows.scope.header 选择瞄准镜
+windows.scope.header 选择狙击镜
 windows.premium.header 会员
 windows.skin.header 选择皮肤
 windows.hat.header 选择帽子
@@ -660,7 +660,7 @@ windows.support.header 支援
 windows.players.header 玩家列表
 windows.players.none 当前没有任何在线玩家…
 windows.join.header 加入
-windows.join.code 输入房间网址或代码
+windows.join.code 输入服务器网址或代码
 windows.client.header 客户端
 windows.client.windows Windows安装程序
 windows.client.mac macOS安装程序
@@ -679,10 +679,10 @@ mod.error 模组错误！
 mod.loading 加载模组中…
 mod.invalid 无效的模组文件！
 matchmaker.full 已满
-matchmaker.GameFull 此房间人数已满。
+matchmaker.GameFull 此服务器人数已满。
 matchmaker.NoServersMatchQuery 游戏更新中
-matchmaker.InvalidGameId 此房间已关闭或不存在。
-matchmaker.NoAvailableServers 当前没有任何空闲的房间
+matchmaker.InvalidGameId 此服务器已关闭或不存在。
+matchmaker.NoAvailableServers 当前没有任何空闲的服务器
 matchmaker.GameIssue 加入时出现未知问题
 adblocker 禁用广告拦截插件以获得免费KR转盘。
 ad-failed 广告加载失败，请稍后重试。
@@ -699,9 +699,9 @@ server.config.minPlayers 最小玩家数
 server.config.lives 玩家生命数
 server.config.gameTime 每局时间（分钟）
 server.config.gravMlt 重力
-server.config.tickRI 高性能房间
-server.config.maxPS 40名玩家房间
-server.config.promServ 推广房间
+server.config.tickRI 高性能服务器
+server.config.maxPS 40名玩家服务器
+server.config.promServ 推广服务器
 server.config.jumpMlt 跳跃力量
 server.config.airStrf 空中转向
 server.config.deltaMlt 时间倍数
@@ -786,7 +786,7 @@ social.market.posting 上架物品中…
 social.market.req 需要{0}级
 social.market.cant KR不足
 social.market.purchase 购买
-social.market.fee 无上架税
+social.market.fee 无上架费用
 social.market.failed 失败，请稍后重试
 social.market.head 头部饰品
 social.market.back 背部饰品
@@ -812,11 +812,11 @@ social.market.fee.gift 无费用
 social.market.gift 赠送KR
 social.market.gift.msg 说点什么呢…
 respawn.auto 你将会在{0}秒后重生
-custom.host.ranked 排位赛中无法创建自定义房间。
+custom.host.ranked 排位赛中无法创建自定义服务器。
 funds.insufficient 资金余额不足
 funds.out 你似乎没有KR了
 custom.passcode.long 密码过长
-custom.passcode.input 请输入此房间密码以加入游戏
+custom.passcode.input 请输入此服务器密码以加入游戏
 custom.tryagain 请重试。
 purchase.kr.success 已添加{0}KR到你的账户
 limited.purchase.ask 你确定要以{1}KR购买[{0}]吗？
@@ -848,11 +848,11 @@ stats.sprays 喷漆数
 stats.kpd 有效举报数
 windows.host.default.settings 启用地图默认设置以允许玩家保存他们的进度及最高分数
 windows.host.default.commands * 服主命令（/noclip, /god, /smite 等）在此模式中将会被禁用。
-windows.host.rewards 启用KR奖励将强制房间使用地图默认设置，以允许玩家从此地图获得KR：
-windows.store.wheels.sub 试试你的运气，转动奖盘来赢得全新皮肤!
+windows.host.rewards 启用KR奖励将强制服务器使用地图默认设置，以允许玩家从此地图获得KR：
+windows.store.wheels.sub 试试你的运气，转动奖盘来赢得全新皮肤！
 windows.store.currency * 美元和你当地货币之间的汇率由支付服务提供商或银行决定。
 windows.store.creator 购买KR时，考虑使用创作者代码以支持你喜爱的内容创作者
-windows.chall.customs 自定义房间内无法完成挑战任务。
+windows.chall.customs 自定义服务器内无法完成挑战任务。
 twitch.link 你确定要链接你的Twitch账户吗？
 twitch.unlink 你确定要取消链接你的Twitch账户吗？
 windows.clan.leave 你确定要离开此战队吗？
@@ -860,7 +860,7 @@ windows.clan.delete 你确定要解散此战队吗？
 windows.clan.kick 你确定要从此战队踢出{0}吗？
 windows.store.premium.purchase 你确定要购买{0}天的会员吗？
 windows.store.premium.gift 你确定要赠送'{0}'{1}天的会员吗？
-windows.playerlist.ban 你确定要从此房间封禁并踢出{0}吗？
+windows.playerlist.ban 你确定要从此服务器封禁并踢出{0}吗？
 windows.playerlist.flag 你确定要标记{0}为外挂玩家吗？
 windows.playerlist.unflag 你确定要取消标记{0}为外挂玩家吗？
 windows.playerlist.punish 你确定要对{0}采取措施吗？
@@ -973,8 +973,8 @@ commands.forfeit.voted 你已经投过票了
 commands.forfeit.limit 你只能发起一次投降
 commands.forfeit.ended 投降中
 commands.forfeit.ended.other 敌方队伍已投降
-server.message.join {0}已进入此服务器
-server.message.left {0}已离开服务器
+server.message.join {0}已加入此服务器
+server.message.left {0}已离开此服务器
 server.message.kicked {0}已被踢出
 server.message.banned {0}已被封禁並踢出
 server.message.votekicked {0}已被投票踢出
