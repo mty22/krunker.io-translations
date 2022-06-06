@@ -816,7 +816,7 @@ custom.host.ranked 排位赛中无法创建自定义服务器。
 funds.insufficient 资金余额不足
 funds.out 你似乎没有KR了
 custom.passcode.long 密码过长
-custom.passcode.input 请输入此服务器密码以加入游戏
+custom.passcode.input 请输入服务器密码以加入
 custom.tryagain 请重试。
 purchase.kr.success 已添加{0}KR到你的账户
 limited.purchase.ask 你确定要以{1}KR购买[{0}]吗？
@@ -921,25 +921,25 @@ chall.name.bzk 在{1}取得{0}连杀终止击杀
 chall.name.cc 在{1}取得{0}残血击杀
 chall.name.rk 在{1}取得{0}复仇击杀
 event.doubleXP 已为此场比赛启用双倍职业经验
-ranked.join 已加入排位赛。罢赛将会受到暂时性禁赛惩罚
+ranked.join 已加入排位赛。放弃将会受到暂时性禁赛惩罚
 ranked.progress 比赛进行中
-ranked.team 请加入队伍
+ranked.team 请加入一个队伍
 ranked.switch 回合开始后无法换枪
 ranked.spectate 排位赛中禁止观战
 ranked.login 登录以进入比赛
 ranked.sync 缺失同步数据
 ranked.team.spawn 请先加入队伍再进入比赛
 ranked.class.spawn 请先选择职业再进入比赛
-modes.round.win 你的队伍已赢下此回合
-modes.round.loss 此回合不再可胜
-modes.round.switch 已交换双方的初始位置。请做好下一回合的准备
+modes.round.win 你的队伍已赢下此轮
+modes.round.loss 此轮不再可胜
+modes.round.switch 已交换双方的初始位置。请做好下一轮的准备
 modes.trade.success 交易成功
 modes.prophunt.limit ［物品猎杀］你已用尽所有物品切换次数
 modes.prophunt.left ［物品猎杀］你还剩余{0}个物品切换次数
 modes.prophunt.rotation.on ［物品猎杀］已启用物品旋转
 modes.prophunt.rotation.off ［物品猎杀］已禁用物品旋转
 modes.prophunt.rotation.reset ［物品猎杀］已重置物品旋转
-commands.login 登录以使用此命令
+commands.login 登录以使用此指令
 commands.connected {0}个玩家已连接，{1}个玩家在标题画面
 commands.host {0} 是当前服主。
 commands.noclip.on 飞天模式 - 已启用
