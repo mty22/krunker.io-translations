@@ -348,9 +348,9 @@ settings.audio.mic 麦克风音量
 settings.audio.micquality 麦克风音质
 settings.audio.weps 武器音量
 settings.audio.player 玩家音量
-settings.audio.skin 服饰音量
+settings.audio.skin 皮肤音量
 settings.audio.ui 用户界面音量
-settings.audio.asset 地图组件音量
+settings.audio.asset 地图物品音量
 settings.audio.dialogue 交互音量
 settings.viewmodel.header 模型
 settings.viewmodel.vmSetts 配置类型
@@ -360,7 +360,7 @@ settings.viewmodel.bobbing 武器晃动幅度
 settings.viewmodel.leaning 转动时武器偏航幅度
 settings.viewmodel.show.primary 显示主武器
 settings.viewmodel.show.secondary 显示副武器
-settings.viewmodel.roundArms 圆柱体手臂
+settings.viewmodel.roundArms 圆柱形手臂
 settings.viewmodel.show.melee 显示近战武器
 settings.viewmodel.show.ads 瞄准时隐藏武器
 settings.viewmodel.toggleAim 切换瞄准
@@ -450,7 +450,7 @@ settings.mods.damage 受伤叠层图片
 settings.mods.damage.paste 受伤叠层图片网址
 settings.mods.overlay 状态栏叠层图片
 settings.mods.overlay.paste 状态栏叠层图片网址
-settings.social.region 地区统计
+settings.social.region 地区数据
 settings.social.bg 社区界面背景图片
 settings.social.bg.paste 社区界面背景图片网址
 windows.settings.header 游戏设置
@@ -508,7 +508,7 @@ windows.controls.right 右
 windows.controls.reload 换弹
 windows.controls.aim1 瞄准
 windows.controls.shoot1 射击
-windows.controls.inspect 检视武器
+windows.controls.inspect 考察武器
 windows.controls.spray 喷漆
 windows.controls.sprayWheel 喷漆轮盘（按住）
 windows.controls.jump 跳跃
@@ -517,7 +517,7 @@ windows.controls.prim 主武器
 windows.controls.swap 副武器
 windows.controls.melee 近战武器
 windows.controls.equip 拾取
-windows.controls.chat 文字聊天
+windows.controls.chat 聊天
 windows.controls.voice 语音聊天
 windows.controls.list 玩家列表
 windows.controls.board 排行榜
@@ -544,7 +544,7 @@ windows.controls.streak4 连杀奖励5
 windows.controls.taunt0 嘲讽（噗嗤声）
 windows.controls.taunt1 嘲讽（口哨声）
 windows.controls.taunt2 嘲讽（放屁声）
-windows.controls.taunt3 嘲讽（迷因声）
+windows.controls.taunt3 嘲讽（模因声）
 windows.controls.taunt4 嘲讽（这到底是什么鬼？）
 windows.controls.taunt5 嘲讽（就是现在！）
 windows.controls.prop 选择物品（长按）
