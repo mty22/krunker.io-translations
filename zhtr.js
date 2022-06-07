@@ -433,8 +433,8 @@ settings.mods.dot.width 瞄準鏡標線圖片寬度
 settings.mods.dot.height 瞄準鏡標線圖片高度
 settings.mods.dot.paste 瞄準鏡標線圖片網址
 settings.mods.endmessage 比賽結束後自動訊息
-settings.mods.profile 頭像圖片
-settings.mods.profile.paste 頭像圖片網址
+settings.mods.profile 頭像
+settings.mods.profile.paste 頭像網址
 settings.mods.ammo 彈藥圖示
 settings.mods.ammo.paste 彈藥圖示網址
 settings.mods.kills 擊殺圖示
