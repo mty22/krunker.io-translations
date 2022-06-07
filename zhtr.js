@@ -10,7 +10,7 @@ menu.btn.invite 邀請
 menu.btn.invite.clicked 已複製
 menu.btn.join 加入伺服器
 menu.btn.host 建立伺服器
-menu.btn.browser 瀏覽伺服器
+menu.btn.browser 伺服器
 generic.wait 請稍等…
 generic.loading 載入中…
 generic.none 無
@@ -27,7 +27,7 @@ generic.create 建立
 generic.random 隨機
 generic.failed 失敗
 generic.success 成功！
-generic.name 使用者名稱
+generic.name 玩家名稱
 generic.level 等級
 generic.score 總得分
 generic.off 關
@@ -35,10 +35,10 @@ generic.defeat 失敗
 generic.victory 勝利
 generic.matchover 比賽結束
 generic.matchaband 比賽被迫終止
-generic.follow 追隨
-generic.unfollow 取消追隨
-generic.followers 個追隨者
-generic.following 個追隨中
+generic.follow 訂閱
+generic.unfollow 取消訂閱
+generic.followers 個訂閱
+generic.following 個訂閱中
 generic.games 遊玩場數
 generic.wins 勝場數
 generic.lose 敗場數
@@ -52,8 +52,8 @@ generic.deaths 死亡數
 generic.kdr 戰損比
 generic.time 時間
 generic.logout 登出
-generic.logout.sessions 從所有裝置登出
-generic.username 輸入使用者名稱
+generic.logout.sessions 從所有設備上登出
+generic.username 輸入玩家名稱
 generic.password 輸入密碼
 generic.register 註冊
 generic.login 登入
