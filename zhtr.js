@@ -798,7 +798,7 @@ social.market.wrist 手腕物品
 social.market.melee 近戰武器
 social.market.spray 噴漆
 social.market.dye 衣服染色
-social.market.collectible 可收集物品
+social.market.collectible 原材料
 social.market.none 沒有找到任何物品
 social.market.login 你必須先登入。
 social.market.grace {0}後上架
