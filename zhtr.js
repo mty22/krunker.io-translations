@@ -465,7 +465,7 @@ windows.servers.social {0}個玩家在社群中
 windows.servers.editor {0}個玩家在地圖編輯器中
 windows.loadout.header 更換武器搭配
 windows.loadout.class 職業
-windows.loadout.primary 主要武器
+windows.loadout.primary 主武器
 windows.loadout.primary.attach 配件
 windows.loadout.primary.reticle 瞄準鏡標線
 windows.loadout.primary.scope 狙擊鏡分劃版
@@ -663,7 +663,7 @@ windows.join.header 加入
 windows.join.code 輸入伺服器網址或代碼
 windows.client.header 用戶端
 windows.client.windows Windows安裝程式
-windows.client.mac macOS安裝程式
+windows.client.mac MacOS安裝程式
 windows.client.linux Linux安裝程式
 windows.ranked.header 排位賽
 windows.ranked.login 登入以進行排位賽！
@@ -843,7 +843,7 @@ stats.fistkills 空手擊殺數
 stats.thrownkills 投擲擊殺數
 stats.headshots 爆頭數
 stats.wallbangs 穿牆擊殺數
-stats.crouches 蹲下次數
+stats.crouches 下蹲次數
 stats.sprays 噴漆數
 stats.kpd 有效檢舉數
 windows.host.default.settings 啟用地圖預設設定以允許玩家儲存他們的進度及最高分數
