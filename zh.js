@@ -931,7 +931,7 @@ ranked.sync 缺失同步数据
 ranked.team.spawn 请先加入队伍再进入比赛
 ranked.class.spawn 请先选择职业再进入比赛
 modes.round.win 你的队伍已赢下此回合
-modes.round.loss 此轮不再回合
+modes.round.loss 此回合不再可胜
 modes.round.switch 已交换双方的初始位置。请做好下一回合的准备
 modes.trade.success 交易成功
 modes.prophunt.limit ［物品猎杀］你已用尽所有物品切换次数
