@@ -348,9 +348,9 @@ settings.audio.mic 麦克风音量
 settings.audio.micquality 麦克风音质
 settings.audio.weps 武器音量
 settings.audio.player 玩家音量
-settings.audio.skin 皮肤音量
+settings.audio.skin 服饰音量
 settings.audio.ui 用户界面音量
-settings.audio.asset 地图物品音量
+settings.audio.asset 地图组件音量
 settings.audio.dialogue 交互音量
 settings.viewmodel.header 模型
 settings.viewmodel.vmSetts 配置类型
@@ -360,7 +360,7 @@ settings.viewmodel.bobbing 武器晃动幅度
 settings.viewmodel.leaning 转动时武器偏航幅度
 settings.viewmodel.show.primary 显示主武器
 settings.viewmodel.show.secondary 显示副武器
-settings.viewmodel.roundArms 圆柱形手臂
+settings.viewmodel.roundArms 圆柱体手臂
 settings.viewmodel.show.melee 显示近战武器
 settings.viewmodel.show.ads 瞄准时隐藏武器
 settings.viewmodel.toggleAim 切换瞄准
@@ -450,7 +450,7 @@ settings.mods.damage 受伤叠层图片
 settings.mods.damage.paste 受伤叠层图片网址
 settings.mods.overlay 状态栏叠层图片
 settings.mods.overlay.paste 状态栏叠层图片网址
-settings.social.region 地区数据
+settings.social.region 地区统计
 settings.social.bg 社区界面背景图片
 settings.social.bg.paste 社区界面背景图片网址
 windows.settings.header 游戏设置
@@ -484,7 +484,7 @@ windows.loadout.color.hair 头发颜色
 windows.loadout.dye 衣服染色
 windows.loadout.pet 宠物
 windows.loadout.wrist 手腕
-windows.loadout.stat 击杀战绩
+windows.loadout.stat 击杀卡片战绩
 windows.loadout.flag 国家和地区旗帜
 windows.loadout.badge 特殊徽章
 windows.mods.drop 将模组文件放在此处或点击
@@ -508,7 +508,7 @@ windows.controls.right 右
 windows.controls.reload 换弹
 windows.controls.aim1 瞄准
 windows.controls.shoot1 射击
-windows.controls.inspect 考察武器
+windows.controls.inspect 展示武器全貌
 windows.controls.spray 喷漆
 windows.controls.sprayWheel 喷漆轮盘（按住）
 windows.controls.jump 跳跃
@@ -595,7 +595,7 @@ windows.clans.create 创建战队
 windows.clans.name 战队名称
 windows.clans.view 浏览战队
 windows.clans.join 加入战队
-windows.clans.login 登录后可创建或加入战队！
+windows.clans.login 登录以创建或加入战队！
 windows.store.header 商店
 windows.store.spin {0}转盘
 windows.store.agree 确认购买即表示你同意{0}条款及细则
@@ -921,7 +921,7 @@ chall.name.bzk 在{1}取得{0}连杀终止击杀
 chall.name.cc 在{1}取得{0}残血击杀
 chall.name.rk 在{1}取得{0}复仇击杀
 event.doubleXP 已为此场比赛启用双倍职业经验
-ranked.join 已加入排位赛。放弃将会受到暂时性禁赛惩罚
+ranked.join 已加入排位赛。罢赛将会受到暂时性禁赛惩罚
 ranked.progress 比赛进行中
 ranked.team 请加入一个队伍
 ranked.switch 回合开始后无法换枪
@@ -939,7 +939,7 @@ modes.prophunt.left ［物品猎杀］你还剩余{0}个物品切换次数
 modes.prophunt.rotation.on ［物品猎杀］已启用物品旋转
 modes.prophunt.rotation.off ［物品猎杀］已禁用物品旋转
 modes.prophunt.rotation.reset ［物品猎杀］已重置物品旋转
-commands.login 登录以使用此指令
+commands.login 登录以使用此命令
 commands.connected {0}个玩家已连接，{1}个玩家在标题画面
 commands.host {0} 是当前服主。
 commands.noclip.on 飞天模式 - 已启用
