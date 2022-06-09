@@ -65,7 +65,7 @@ player.killstreak {0} on a {1} Kill Streak
 player.inactive 由于你长时间没有活动，你已被踢出此服务器
 player.disconnect 连接已断开
 timer.end 下一场将在{0}后开始
-leaderboard.empty 服务器里没有任何玩家
+leaderboard.empty 这里没有任何玩家
 popup.checkpoint 检查点！
 app.play 点击开始游戏
 app.spectate 点击开始观战
@@ -508,7 +508,7 @@ windows.controls.right 右
 windows.controls.reload 换弹
 windows.controls.aim1 瞄准
 windows.controls.shoot1 射击
-windows.controls.inspect 展示武器全貌
+windows.controls.inspect 检视武器
 windows.controls.spray 喷漆
 windows.controls.sprayWheel 喷漆轮盘（按住）
 windows.controls.jump 跳跃
