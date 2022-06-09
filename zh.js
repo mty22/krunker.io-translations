@@ -976,7 +976,7 @@ commands.forfeit.ended.other 敌方队伍已投降
 server.message.join {0}已加入此服务器
 server.message.left {0}已离开此服务器
 server.message.kicked {0}已被踢出
-server.message.banned {0}已被封禁並踢出
+server.message.banned {0}已被封禁并踢出
 server.message.votekicked {0}已被投票踢出
 server.message.arrested {0}已被K.P.D逮捕
 `;
