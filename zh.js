@@ -434,7 +434,7 @@ settings.mods.dot.height 瞄准镜标线图片高度
 settings.mods.dot.paste 瞄准镜标线图片网址
 settings.mods.endmessage 比赛结束后自动信息
 settings.mods.profile 头像
-settings.mods.profile.paste 头像图片网址
+settings.mods.profile.paste 头像网址
 settings.mods.ammo 弹药图标
 settings.mods.ammo.paste 弹药图标网址
 settings.mods.kills 击杀图标
@@ -684,7 +684,7 @@ matchmaker.NoServersMatchQuery 游戏更新中
 matchmaker.InvalidGameId 此服务器已关闭或不存在。
 matchmaker.NoAvailableServers 当前没有任何空闲的服务器
 matchmaker.GameIssue 加入时出现未知问题
-adblocker 禁用广告拦截插件以获得免费KR转盘。
+adblocker 禁用广告拦截器以获得免费KR转盘。
 ad-failed 广告加载失败，请稍后重试。
 streamers.views {0}个观众
 streamers.none 当前没有任何Twitch直播！
