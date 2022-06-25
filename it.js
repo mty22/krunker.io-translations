@@ -910,73 +910,73 @@ chall.name.qs Fai {0} quickscopes {1}
 chall.name.wb Fai {0} wallbangs {1}
 chall.name.airk Fai {0} uccisioni a mezz'aria {1}
 chall.name.lns Fai {0} longshots {1}
-chall.name.tk Fai {0} turbo kills {1}
-chall.name.drk Fai {0} drift kills {1}
-chall.name.kstk Fai a {0} killstreak {1}
-chall.name.w Vinci {0} partite
+chall.name.tk Fai {0} il turbo uccide {1}
+chall.name.drk Fai {0} la deriva uccide {1}
+chall.name.kstk Fai a {0} serie di uccisioni {1}
+chall.name.w Vinci {0} festa
 chall.name.d Muori {0} volte
-chall.name.score Fai {0} punti
-chall.name.dmg Infliggi {0} danni {1}
-chall.name.bzk Fai {0} buzz kills {1}
-chall.name.cc Fai {0} close-calls {1}
-chall.name.rk Infliggi {0} vendette {1}
-event.doubleXP 2x Class XP enabled for this match
-ranked.join Joined Ranked Match. Abandoning a match will result in a temporary ban
-ranked.progress Game in Progress
+chall.name.score Fai {0} punto
+chall.name.dmg Infliggi {0} quindi io {1}
+chall.name.bzk Fai {0} il brusio uccide {1}
+chall.name.cc Fai {0} chiudere le chiamate {1}
+chall.name.rk Infliggi {0} vendetta {1}
+event.doubleXP 2x XP di classe abilitati per questa partita
+ranked.join Partecipazione alla partita classificata. L'abbandono di una partita comporterà una squalifica temporanea
+ranked.progress partita in corso
 ranked.team Please join a Team
-ranked.switch Can't switch while in-game
-ranked.spectate Spectating Disabled in Ranked
-ranked.login Login to Spawn
-ranked.sync Missing Sync Data
-ranked.team.spawn Please join a Team to Spawn
-ranked.class.spawn Please select a Class to Spawn
-modes.round.win Your Team has secured this round
-modes.round.loss This round is no longer winnable
-modes.round.switch Switching Sides. Prepare for the next Round
-modes.trade.success Trade Successful
-modes.prophunt.limit [Prop Hunt] You are out of prop switches
-modes.prophunt.left [Prop Hunt] You have {0} switches remaining
-modes.prophunt.rotation.on [Prop Hunt] Rotation Enabled
-modes.prophunt.rotation.off [Prop Hunt] Rotation Disabled
-modes.prophunt.rotation.reset [Prop Hunt] Rotation reset.
-commands.login Login to use this command
-commands.connected {0} connected, {1} in menu
+ranked.switch Impossibile cambiare durante il gioco
+ranked.spectate Osservare disabilitato in classifica
+ranked.login Accedi per spawnare
+ranked.sync Dati di sincronizzazione mancanti
+ranked.team.spawn Per favore, unisciti a una squadra per spawnare
+ranked.class.spawn Seleziona una classe da generare
+modes.round.win La tua squadra si è assicurata questo round
+modes.round.loss Questo round non è più vincibile
+modes.round.switch cambiare lato. Preparati per il prossimo round
+modes.trade.success Commercio riuscito
+modes.prophunt.limit [Prop Hunt] Hai esaurito gli interruttori di prop
+modes.prophunt.left [Prop Hunt] Hai {0} interruttori rimanenti
+modes.prophunt.rotation.on [Prop Hunt] Rotazione abilitata
+modes.prophunt.rotation.off [Prop Hunt] Rotazione disabilitata
+modes.prophunt.rotation.reset [Prop Hunt] Ripristino della rotazione.
+commands.login Accedi per utilizzare questo comando
+commands.connected {0} connesso, {1} nel menu
 commands.host {0} is the current Host.
-commands.noclip.on Noclip - Enabled
-commands.noclip.off Noclip - Disabled
-commands.god.on God mode - Enabled
-commands.god.off God mode - Disabled
-commands.god.on.other God mode - Enabled for {0}
-commands.god.off.other God mode - Disabled for {0}
-commands.smite.on Smite - Enabled
-commands.smite.off Smite - Disabled
-commands.smite.on.other Smite - Enabled for {0}
-commands.smite.off.other Smite - Disabled for {0}
-commands.perk Gave {0} {1}
-commands.maxperk Gave {0} MAX {1}
-commands.unlimited.on Unlimited Ammo - Enabled
-commands.unlimited.off Unlimited Ammo - Disabled
-commands.unlimited.on.other Unlimited Ammo - Enabled for {0}
-commands.unlimited.off.other Unlimited Ammo - Disabled for {0}
-commands.spraybypass.on Unlimited Ammo - Enabled
-commands.spraybypass.off Unlimited Ammo - Disabled
-commands.spraybypass.on.other Unlimited Ammo - Enabled for {0}
-commands.spraybypass.off.other Unlimited Ammo - Disabled for {0}
-commands.suspect.invalid Invalid suspect info
-commands.suspect.menu Suspect in menu
-commands.suspect.left Suspect has left
-commands.suspect.found Suspect Found. Spectating: {0}, Spawned: {1}, Name: {2}
-commands.forfeit.next Must play atleast 1 round
-commands.forfeit.wait Wait till match starts to forfeit
-commands.forfeit.later Please try again in a few seconds
-commands.forfeit.voted You already voted.
-commands.forfeit.limit You can only start one vote per game
-commands.forfeit.ended Forfeiting Game
-commands.forfeit.ended.other Other Team Forfeited
-server.message.join {0} joined the game
-server.message.left {0} left the game
-server.message.kicked {0} was kicked
-server.message.banned {0} was banned
-server.message.votekicked {0} was vote kicked
-server.message.arrested {0} was arrested by the K.P.D
+commands.noclip.on Noclip - Abilitato
+commands.noclip.off Noclip - Disabilitato
+commands.god.on God modalità - Abilitato
+commands.god.off God modalità - Disabilitato
+commands.god.on.other Modalità Dio - Abilitata per {0}
+commands.god.off.other Modalità Dio: disabilitata per {0}
+commands.smite.on Punire - Abilitato
+commands.smite.off Punire - Disabilitato
+commands.smite.on.other Smite - Abilitato per {0}
+commands.smite.off.other Smite - Disabilitato per {0}
+commands.perk Ha dato {0} {1}
+commands.maxperk Ha dato {0} MASSIMO {1}
+commands.unlimited.on Munizioni illimitate - Abilitato
+commands.unlimited.off Munizioni illimitate - Disabilitato
+commands.unlimited.on.other Munizioni illimitate - Abilitato per {0}
+commands.unlimited.off.other Munizioni illimitate - Disabilitato per {0}
+commands.spraybypass.on Munizioni illimitate - Abilitato
+commands.spraybypass.off Munizioni illimitate - Disabilitato
+commands.spraybypass.on.other Munizioni illimitate - Abilitato per {0}
+commands.spraybypass.off.other Munizioni illimitate - Disabilitato per {0}
+commands.suspect.invalid Informazioni sospette non valide
+commands.suspect.menu Sospetto nel menu
+commands.suspect.left Il sospetto se n'è andato
+commands.suspect.found Sospetto trovato. Spettatore: {0}, Generato: {1}, Nome: {2}
+commands.forfeit.next Deve giocare almeno 1 round
+commands.forfeit.wait Aspetta che la partita inizi a perdere
+commands.forfeit.later Si prega di riprovare tra alcuni
+commands.forfeit.voted Hai già votato.
+commands.forfeit.limit Puoi iniziare solo una votazione per partita
+commands.forfeit.ended Gioco perdente
+commands.forfeit.ended.other Altra squadra persa
+server.message.join {0} si unì al gioco
+server.message.left {0} ha abbandonato la partita
+server.message.kicked {0} è stato preso a calci
+server.message.banned {0} è stato bandito
+server.message.votekicked {0} è stato votato a calci
+server.message.arrested {0} è stato arrestato dal KPD
 `;
