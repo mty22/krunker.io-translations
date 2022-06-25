@@ -1,15 +1,15 @@
 module.exports = `
-menu.btn.ranked Ranked
+menu.btn.ranked Gerangschikt
 menu.btn.shop Winkel
 menu.btn.social Hub
-menu.btn.maps Games
+menu.btn.maps Spelletjes
 menu.btn.mods Mods
 menu.btn.settings Instellingen
 menu.btn.customize Aanpassen
 menu.btn.invite Uitnodigen
 menu.btn.invite.clicked Gekopieerd
-menu.btn.join Join
-menu.btn.host Game hosten
+menu.btn.join Word lid van
+menu.btn.host Gastheer Spel
 menu.btn.browser Servers
 generic.wait Een moment geduld...
 generic.loading LADEN...
@@ -39,7 +39,7 @@ generic.follow Volgen
 generic.unfollow Ontvolgen
 generic.followers Volgers
 generic.following Volgend
-generic.games Games
+generic.games Spelletjes
 generic.wins Aantal Gewonnen
 generic.lose Aantal Verloren
 generic.clan Clan
@@ -61,12 +61,12 @@ generic.accuracy Nauwkeurigheid
 player.waiting wachten op spelers
 player.died Je stierf
 player.killed Gedood door
-player.killstreak {0} on a {1} Kill Streak
+player.killstreak {0} is op een {1} Killstreak.
 player.inactive Gekicked voor inactiviteit
 player.disconnect VERBINDING VERBROKEN
 timer.end Volgende ronde in {0}
 leaderboard.empty Lege Lobby
-popup.checkpoint Checkpoint!
+popup.checkpoint Controlepunt!
 app.play KLIK OM TE SPELEN
 app.spectate KLIK OM TOE TE KIJKEN
 app.play.mobile TAP OM TE SPELEN
@@ -76,7 +76,7 @@ app.spectate.controller START MET TOEKIJKEN
 purchase.error Fout opgetreden
 purchase.error.click klik hier</a> en probeer opnieuw!
 purchase.error.limit Je hebt mogelijk je dagelijkse transactielimiet overschreden
-settings.reset Reset
+settings.reset Resetten
 settings.reset.confirm Weet je zeker dat je al je instellingen wilt resetten?
 settings.import Importeren
 settings.export Exporteren
@@ -106,11 +106,11 @@ settings.experimental.tbInterp TB Interpolatie
 settings.client.header Client
 settings.client.unlimitedFrames Unlimited FPS
 settings.client.gameCap Game Capture
-settings.client.experimental Experimental Features
+settings.client.experimental Experimentele Functies
 settings.client.discordRPC Discord RPC
 settings.client.resourceSwapper Resource Swapper
-settings.client.clearCache Clear Cache
-settings.client.resetSettings Reset Client Settings
+settings.client.clearCache Cache Wissen
+settings.client.resetSettings Client Instellingen resetten
 settings.client.acceleratedCanvas Accelerated Canvas
 settings.client.angleBackend ANGLE Graphics Backend
 settings.client.colorProfile Color Profile
@@ -135,8 +135,8 @@ settings.quality.header Prestatie
 settings.quality.updRate Frame Limiet
 settings.quality.rendDst Render Afstand
 settings.quality.res Resolutie
-settings.quality.part Particles
-settings.quality.mapDet Map Details
+settings.quality.part Partikels
+settings.quality.mapDet Kaartgegevens
 settings.quality.noTex Geen Texturen
 settings.quality.partdist Particle Afstand
 settings.quality.renderdist Render Weergaveafstand
@@ -225,8 +225,8 @@ settings.medals.show Weergeef Medailles
 settings.medals.classic Klassieke Medailles
 settings.medals.sound Speel Medaille Geluid
 settings.medals.scale Medaille Grootte
-settings.medals.xOff Medaille X Offset
-settings.medals.yOff Medaille Y Offset
+settings.medals.xOff Medaille X Compensatie
+settings.medals.yOff Medaille Y Compensatie
 settings.crosshair.header Crosshair
 settings.crosshair.type Soort
 settings.crosshair.type.1 Dynamisch
@@ -285,7 +285,7 @@ settings.hitmarker.kcolor Killkleur
 settings.hitmarker.thickness Dikte
 settings.hitmarker.opacity Ondoorzichtigheid
 settings.hitmarker.leng Lengte
-settings.hitmarker.spacing Spacing
+settings.hitmarker.spacing Afstand
 settings.hitmarker.animD Animatie Grootte
 settings.hitmarker.animS Animatie Snelheid
 settings.hitmarker.hitm Laat zien
@@ -460,7 +460,7 @@ windows.servers.none Geen Beschikbare Games Gevonden...
 windows.servers.host + Host spel
 windows.servers.hide Verberg Volle
 windows.servers.priority Regio Prioriteit
-windows.servers.online {0} In game
+windows.servers.online {0} in het Spel
 windows.servers.social {0} op Sociaal
 windows.servers.editor {0} in Editor
 windows.loadout.header Loadout wijzigen
