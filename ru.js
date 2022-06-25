@@ -921,62 +921,62 @@ chall.name.bzk Сделано {0} обрывов серий убийств {1}
 chall.name.cc Сделано {0} убийств при смерти {1}
 chall.name.rk Сделано {0} отмщений {1}
 event.doubleXP 2x Class XP enabled for this match
-ranked.join Joined Ranked Match. Abandoning a match will result in a temporary ban
-ranked.progress Game in Progress
-ranked.team Please join a Team
-ranked.switch Can't switch while in-game
-ranked.spectate Spectating Disabled in Ranked
-ranked.login Login to Spawn
+ranked.join Присоединился к рейтинговому матчу. Отказ от матча приведет к временной блокировке
+ranked.progress Игра в процессе
+ranked.team Пожалуйста, присоединяйтесь к команде
+ranked.switch Не могу переключиться во время игры
+ranked.spectate Зрители отключены в рейтинговых играх
+ranked.login Войти в спавн
 ranked.sync Missing Sync Data
-ranked.team.spawn Please join a Team to Spawn
-ranked.class.spawn Please select a Class to Spawn
-modes.round.win Your Team has secured this round
-modes.round.loss This round is no longer winnable
-modes.round.switch Switching Sides. Prepare for the next Round
-modes.trade.success Trade Successful
-modes.prophunt.limit [Prop Hunt] You are out of prop switches
-modes.prophunt.left [Prop Hunt] You have {0} switches remaining
-modes.prophunt.rotation.on [Prop Hunt] Rotation Enabled
-modes.prophunt.rotation.off [Prop Hunt] Rotation Disabled
-modes.prophunt.rotation.reset [Prop Hunt] Rotation reset.
-commands.login Login to use this command
-commands.connected {0} connected, {1} in menu
-commands.host {0} is the current Host.
-commands.noclip.on Noclip - Enabled
-commands.noclip.off Noclip - Disabled
-commands.god.on God mode - Enabled
-commands.god.off God mode - Disabled
-commands.god.on.other God mode - Enabled for {0}
-commands.god.off.other God mode - Disabled for {0}
-commands.smite.on Smite - Enabled
-commands.smite.off Smite - Disabled
-commands.smite.on.other Smite - Enabled for {0}
-commands.smite.off.other Smite - Disabled for {0}
-commands.perk Gave {0} {1}
-commands.maxperk Gave {0} MAX {1}
-commands.unlimited.on Unlimited Ammo - Enabled
-commands.unlimited.off Unlimited Ammo - Disabled
-commands.unlimited.on.other Unlimited Ammo - Enabled for {0}
-commands.unlimited.off.other Unlimited Ammo - Disabled for {0}
-commands.spraybypass.on Unlimited Ammo - Enabled
-commands.spraybypass.off Unlimited Ammo - Disabled
-commands.spraybypass.on.other Unlimited Ammo - Enabled for {0}
-commands.spraybypass.off.other Unlimited Ammo - Disabled for {0}
-commands.suspect.invalid Invalid suspect info
-commands.suspect.menu Suspect in menu
-commands.suspect.left Suspect has left
-commands.suspect.found Suspect Found. Spectating: {0}, Spawned: {1}, Name: {2}
-commands.forfeit.next Must play atleast 1 round
-commands.forfeit.wait Wait till match starts to forfeit
-commands.forfeit.later Please try again in a few seconds
-commands.forfeit.voted You already voted.
-commands.forfeit.limit You can only start one vote per game
-commands.forfeit.ended Forfeiting Game
-commands.forfeit.ended.other Other Team Forfeited
-server.message.join {0} joined the game
-server.message.left {0} left the game
-server.message.kicked {0} was kicked
-server.message.banned {0} was banned
-server.message.votekicked {0} was vote kicked
-server.message.arrested {0} was arrested by the K.P.D
+ranked.team.spawn Пожалуйста, присоединяйтесь к команде, чтобы создать
+ranked.class.spawn Пожалуйста, выберите класс для появления
+modes.round.win Your Команда выиграла этот раунд
+modes.round.loss В этом раунде больше нельзя выиграть
+modes.round.switch Переключение сторон. Подготовьтесь к следующему раунду
+modes.trade.success Торговля успешна
+modes.prophunt.limit [Охота за реквизитом] У вас закончились переключатели реквизита
+modes.prophunt.left [Охота за реквизитом] У вас осталось {0} переключателей
+modes.prophunt.rotation.on [Охота за реквизитом] Вращение включено
+modes.prophunt.rotation.off [Охота за реквизитом] Вращение отключено
+modes.prophunt.rotation.reset [Охота за предметами] Сброс вращения.
+commands.login Войдите, чтобы использовать эту команду
+commands.connected {0} подключено, {1} в меню
+commands.host {0} — текущий хост.
+commands.noclip.on Ноклип — включен
+commands.noclip.off Ноклип - отключен
+commands.god.on Режим бога - включен
+commands.god.off Режим бога - отключен
+commands.god.on.other Режим бога — включен для {0}
+commands.god.off.other Режим бога – отключен для {0}
+commands.smite.on Поразить — включено
+commands.smite.off Поразить — отключено
+commands.smite.on.other Порази — включено для {0}
+commands.smite.off.other Порази - Disabled for {0}
+commands.perk Дал {0} {1}
+commands.maxperk Дано {0} МАКС. {1}
+commands.unlimited.on Неограниченные боеприпасы — включено
+commands.unlimited.off Неограниченные боеприпасы — отключено
+commands.unlimited.on.other Неограниченные боеприпасы — включено для {0}
+commands.unlimited.off.other Неограниченные боеприпасы — отключено для {0}
+commands.spraybypass.on Неограниченные боеприпасы — включено
+commands.spraybypass.off Неограниченные боеприпасы — отключено
+commands.spraybypass.on.other Неограниченные боеприпасы — включено для {0}
+commands.spraybypass.off.other Неограниченные боеприпасы — отключено для {0}
+commands.suspect.invalid Неверная информация о подозреваемом
+commands.suspect.menu Подозреваемый в меню
+commands.suspect.left Подозреваемый ушел
+commands.suspect.found Подозреваемый найден. Наблюдение: {0}, Создано: {1}, Имя: {2}
+commands.forfeit.next Должен сыграть хотя бы 1 раунд
+commands.forfeit.wait Подождите, пока матч не начнет проигрывать
+commands.forfeit.later Повторите попытку через несколько секунд.
+commands.forfeit.voted Вы уже проголосовали.
+commands.forfeit.limit Вы можете начать только одно голосование за игру
+commands.forfeit.ended Игра с форфейтингом
+commands.forfeit.ended.other Другая команда лишилась права
+server.message.join {0} присоединился к игре
+server.message.left {0} покинул игру
+server.message.kicked {0} был выгнан
+server.message.banned {0} был забанен
+server.message.votekicked {0} голосование было исключено
+server.message.arrested {0} был арестован КПД
 `;
