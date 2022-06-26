@@ -398,205 +398,205 @@ settings.editing.progm.color Barva polnilne vrstice
 settings.editing.progmo.color Barva prekomernega polnjenja
 settings.editing.progm.opacity Nepreglednost polnilne vrstice
 settings.editing.progm.scale Lestvica bara za polnjenje
-settings.editing.progm.shadow Charge Bar Shadow
-settings.editing.progmOffX Charge Bar X Offset
-settings.editing.progmOffY Charge Bar Y Offset
-settings.editing.progmRot Charge Bar Rotation
-settings.editing.saturation Saturation (In-game)
-settings.editing.menuSaturation Saturation (UI)
-settings.editing.hue Color Hue (In-game)
-settings.editing.menuHue Color Hue (UI)
-settings.editing.vignette Vignette
-settings.editing.feedLimit Killfeed Limit
-settings.editing.depth Depth Map
-settings.editing.green Green Screen
-settings.editing.trailcol Bullet Trail Color
-settings.editing.ropecol Grapple Rope Color
-settings.editing.tracercol Bullet Tracers
-settings.editing.tracer Bullet Tracers
-settings.editing.tracer.offset Tracer Offset
-settings.shaders.header Shader Inputs
-settings.mods.header Customization
-settings.mods.load Load Mods
-settings.mods.logo Allow Logo Changes
-settings.mods.auto Auto-Load Mod
-settings.mods.borders Scope Borders
-settings.mods.borderCol Scope Borders
-settings.mods.borderOpac Scope Borders Opacity
-settings.mods.scope Scope Image
-settings.mods.scope.paste Scope Image URL
-settings.mods.scope.opacity Scope Opacity
-settings.mods.scope.width Scope Image Width
-settings.mods.scope.height Scope Image Height
-settings.mods.dot Reticle Image
-settings.mods.dot.width Reticle Image Width
-settings.mods.dot.height Reticle Image Height
-settings.mods.dot.paste Reticle URL
-settings.mods.endmessage Match End Message
-settings.mods.profile Profile Image
-settings.mods.profile.paste Profile Image URL
-settings.mods.ammo Ammo Icon Image
-settings.mods.ammo.paste Ammo Icon Image URL
-settings.mods.kills Kills Icon Image
-settings.mods.kills.paste Kills Icon Image URL
-settings.mods.deaths Deaths Icon Image
-settings.mods.deaths.paste Deaths Icon Image URL
-settings.mods.streak Streak Counter Icon Image
-settings.mods.streak.paste Streak Counter Icon Image URL
-settings.mods.timer Timer Icon Image
-settings.mods.timer.paste Timer Icon Image URL
-settings.mods.usedamage Use Damage Overlay
-settings.mods.damage Damage Overlay Image
-settings.mods.damage.paste Damage Overlay Image URL
-settings.mods.overlay Game Overlay Image
-settings.mods.overlay.paste Game Overlay Image URL
-settings.social.region Region Stats
-settings.social.bg Background Image
-settings.social.bg.paste Background Image URL
-windows.settings.header Game Settings
-windows.mail.header Krunker Mail
-windows.servers.header Servers
-windows.servers.none No Joinable Games Found...
-windows.servers.host + Host Game
-windows.servers.hide Hide Full
-windows.servers.priority Region Priority
-windows.servers.online {0} In Game
-windows.servers.social {0} on Social
-windows.servers.editor {0} in Editor
-windows.loadout.header Change Loadout
-windows.loadout.class Class
-windows.loadout.primary Primary
-windows.loadout.primary.attach Attachment
-windows.loadout.primary.reticle Reticle
-windows.loadout.primary.scope Scope
-windows.loadout.secondary Secondary
-windows.loadout.secondary.skin Secondary Skin
+settings.editing.progm.shadow Senca polnilne vrstice
+settings.editing.progmOffX Odmik polnilne vrstice X
+settings.editing.progmOffY Odmik Y polnilne vrstice
+settings.editing.progmRot Vrtenje polnilne palice
+settings.editing.saturation Nasičenost (v igri)
+settings.editing.menuSaturation Nasičenost (UI)
+settings.editing.hue Barvni odtenek (v igri)
+settings.editing.menuHue Barvni odtenek (uporabniški vmesnik)
+settings.editing.vignette Vinjeta
+settings.editing.feedLimit Omejitev za ubijanje
+settings.editing.depth Zemljevid globine
+settings.editing.green Zeleni zaslon
+settings.editing.trailcol Bullet Trail Barva
+settings.editing.ropecol Barva vrvi Grapple Rope
+settings.editing.tracercol Sledilniki krogel
+settings.editing.tracer Sledilniki krogel
+settings.editing.tracer.offset Odmik sledilnika
+settings.shaders.header Vhodi shaderja
+settings.mods.header Prilagajanje
+settings.mods.load Modusi za nalaganje
+settings.mods.logo Omogočanje sprememb logotipa
+settings.mods.auto Modus samodejnega nalaganja
+settings.mods.borders Meje področja uporabe
+settings.mods.borderCol Meje področja uporabe
+settings.mods.borderOpac Področje uporabe Meje nepreglednosti
+settings.mods.scope Področje uporabe Slika
+settings.mods.scope.paste Področje uporabe URL slike
+settings.mods.scope.opacity Nepreglednost področja uporabe
+settings.mods.scope.width Širina slike obsega
+settings.mods.scope.height Višina slike obsega
+settings.mods.dot Slika iskala
+settings.mods.dot.width Širina slike iskala
+settings.mods.dot.height Višina slike iskala
+settings.mods.dot.paste URL naslov iskala
+settings.mods.endmessage Sporočilo o koncu tekme
+settings.mods.profile Slika profila
+settings.mods.profile.paste URL profilne slike
+settings.mods.ammo Ikona streliva Slika
+settings.mods.ammo.paste URL naslov slike ikone streliva
+settings.mods.kills Ubije Ikona slike
+settings.mods.kills.paste Ubije naslov URL slike ikone
+settings.mods.deaths Slika ikone smrti
+settings.mods.deaths.paste Smrtni primeri Ikona URL slike
+settings.mods.streak Streak Counter Icon Slika
+settings.mods.streak.paste Ikona števca prog Slika URL
+settings.mods.timer Časovnik Ikona Slika
+settings.mods.timer.paste Časovnik Ikona Slika URL
+settings.mods.usedamage Uporaba prekrivanja poškodb
+settings.mods.damage Slika prekrivanja poškodb
+settings.mods.damage.paste URL naslov prekrivne slike poškodbe
+settings.mods.overlay Slika prekrivanja igre
+settings.mods.overlay.paste URL naslov prekrivne slike igre
+settings.social.region Statistike regije
+settings.social.bg Slika v ozadju
+settings.social.bg.paste URL naslov slike v ozadju
+windows.settings.header Nastavitve igre
+windows.mail.header Krunker Pošta
+windows.servers.header Strežniki
+windows.servers.none Ni bilo najdenih iger, ki bi se jim bilo mogoče pridružiti...
+windows.servers.host + Gostiteljska igra
+windows.servers.hide Skrij v celoti
+windows.servers.priority Prednostna naloga regije
+windows.servers.online {0} V igri
+windows.servers.social {0} na socialnem omrežju
+windows.servers.editor {0} v uredništvu
+windows.loadout.header Sprememba obremenitve
+windows.loadout.class Razred
+windows.loadout.primary Primarno
+windows.loadout.primary.attach Priponka
+windows.loadout.primary.reticle Mreža
+windows.loadout.primary.scope Področje uporabe
+windows.loadout.secondary Sekundarno
+windows.loadout.secondary.skin Sekundarna koža
 windows.loadout.melee Melee
-windows.loadout.hat Hat
-windows.loadout.back Body
-windows.loadout.waist Waist
-windows.loadout.shoe Shoes
-windows.loadout.face Face
-windows.loadout.spray Spray
-windows.loadout.color.skin Skin Color
-windows.loadout.color.chat Chat Name Color
-windows.loadout.color.hair Hair Color
-windows.loadout.dye Dye
-windows.loadout.pet Pet
-windows.loadout.wrist Wrist
-windows.loadout.stat Killcard Stat
-windows.loadout.flag Country Flag
-windows.loadout.badge Custom Badge
-windows.mods.drop drop mod file here or click
-windows.mods.paste Paste Mod Url
-windows.mods.load Load Mod
-windows.mods.none No Mods found
-windows.mods.header Mod Manager
-windows.mods.guide Mod Guide
-windows.mods.list Mods List
-windows.mods.load.header Load Mods
+windows.loadout.hat Klobuk
+windows.loadout.back Telo
+windows.loadout.waist Pas
+windows.loadout.shoe Čevlji
+windows.loadout.face Obraz
+windows.loadout.spray Razpršilo
+windows.loadout.color.skin Barva kože
+windows.loadout.color.chat Ime klepeta Barva
+windows.loadout.color.hair Barva Las
+windows.loadout.dye Barvilo
+windows.loadout.pet Hišni ljubljenček
+windows.loadout.wrist Zapestje
+windows.loadout.stat Statistika kartice Killcard
+windows.loadout.flag Zastava države
+windows.loadout.badge Značka po meri
+windows.mods.drop spustite mod datoteko tukaj ali kliknite
+windows.mods.paste Prilepi Mod Url
+windows.mods.load Način nalaganja Mod
+windows.mods.none Modi niso bili najdeni
+windows.mods.header Upravitelj modifikacij
+windows.mods.guide Vodnik za modifikacije
+windows.mods.list Seznam modusov
+windows.mods.load.header Modusi za nalaganje
 windows.mods.publish Publish Mod
-windows.mods.viewer Viewer
-windows.account.header Account
-windows.account.recover To recover an account contact <a>recovery@yendis.ch</a>
-windows.class.header Select Class
-windows.controls.header Change Controls
-windows.controls.forward Forward
-windows.controls.backward Backward
-windows.controls.left Left
-windows.controls.right Right
-windows.controls.reload Reload
-windows.controls.aim1 Aim
-windows.controls.shoot1 Shoot
-windows.controls.inspect Inspect
-windows.controls.spray Spray
-windows.controls.sprayWheel Spray Wheel (Hold)
-windows.controls.jump Jump
+windows.mods.viewer Pregledovalnik
+windows.account.header Račun
+windows.account.recover Za povrnitev računa se obrnite na <a>recovery@yendis.ch</a>
+windows.class.header Izberite Razred
+windows.controls.header Nadzor sprememb
+windows.controls.forward Naprej
+windows.controls.backward Nazaj
+windows.controls.left Leva stran
+windows.controls.right Desno
+windows.controls.reload Ponovno polnjenje
+windows.controls.aim1 Cilj
+windows.controls.shoot1 Ustrelite
+windows.controls.inspect Preglejte spletno stran .
+windows.controls.spray Razpršilo
+windows.controls.sprayWheel Razpršilno kolo (držanje)
+windows.controls.jump Skok
 windows.controls.crouch Crouch
-windows.controls.prim Primary Weapon
-windows.controls.swap Secondary Weapon
-windows.controls.melee Melee Weapon
-windows.controls.equip Equipment
-windows.controls.chat Chat
-windows.controls.voice Voice
-windows.controls.list Player List
-windows.controls.board Leaderboard
-windows.controls.interact Interact
-windows.controls.interactSec Secondary Interact
-windows.controls.confirm Confirm Interact
+windows.controls.prim prim Osnovno orožje
+windows.controls.swap Sekundarno orožje
+windows.controls.melee Orožje za bližnji boj
+windows.controls.equip Oprema
+windows.controls.chat Klepet
+windows.controls.voice Glas
+windows.controls.list Seznam igralcev
+windows.controls.board Vodilna plošča
+windows.controls.interact Vzajemno delovanje
+windows.controls.interactSec Sekundarna interakcija
+windows.controls.confirm Potrdite interakcijo
 windows.controls.drop Drop
-windows.controls.wepVis Toggle Weapon Visibility
-windows.controls.kickVoteY Vote Kick [Yes]
-windows.controls.kickVoteN Vote Kick [No]
-windows.controls.kpdVoteY KPD Vote [Yes]
-windows.controls.kpdVoteN KPD Vote [No]
-windows.controls.specFree Toggle Free Cam
+windows.controls.wepVis Preklapljanje vidljivosti orožja
+windows.controls.kickVoteY Glasovati Kick [Da]
+windows.controls.kickVoteN Glasovati Kick [Ne]
+windows.controls.kpdVoteY KPD Glasovanje [Da]
+windows.controls.kpdVoteN KPD Glasovanje [Ne]
+windows.controls.specFree Toggle Brezplačna kamera
 windows.controls.specObj Toggle Objective Cam
-windows.controls.specFirst Toggle First Person
-windows.controls.specNames Toggle Forced Names
-windows.controls.specFocus Toggle Focus Player
-windows.controls.hidePlayers Hide Players
+windows.controls.specFirst Toggle Prva oseba
+windows.controls.specNames Toggle Prisilna imena
+windows.controls.specFocus Toggle Focus predvajalnik
+windows.controls.hidePlayers Skrijte igralce
 windows.controls.streak0 Streak 1
 windows.controls.streak1 Streak 2
 windows.controls.streak2 Streak 3
 windows.controls.streak3 Streak 4
 windows.controls.streak4 Streak 5
 windows.controls.taunt0 Taunt (Psst)
-windows.controls.taunt1 Taunt (Whistle)
-windows.controls.taunt2 Taunt (Fart)
+windows.controls.taunt1 Taunt (Piščalka)
+windows.controls.taunt2 Taunt (Prd)
 windows.controls.taunt3 Taunt (Meme)
-windows.controls.taunt4 Taunt (WTF is This?)
-windows.controls.taunt5 Taunt (Right Now!)
-windows.controls.prop Select Prop (Hold)
-windows.controls.propRand Select Random Prop
-windows.controls.propRot Toggle Rotation
-windows.controls.propRotR Reset Rotation
+windows.controls.taunt4 Taunt (WTF je To?)
+windows.controls.taunt5 Izsiljevanje (Prav Zdaj!)
+windows.controls.prop Izberite Rekvizit (držanje)
+windows.controls.propRand Izberite Naključni rekvizit
+windows.controls.propRot Preklapljanje Vrtenja
+windows.controls.propRotR Ponastavitev Vrtenja
 windows.controls.premium0 Noclip
 windows.controls.premium1 Godmode
-windows.controls.premium2 Kill
+windows.controls.premium2 Ubij
 windows.controls.premium3 Smite
-windows.controls.reset Reset Position (Race & Parkour)
-windows.controls.pretend Hide Game
-windows.host.header Host Custom Game
-windows.host.maps Server Setup
-windows.host.cmaps Community Game
-windows.host.raw Raw Game Data
-windows.host.modes Select Modes
-windows.host.classes Select Classes
-windows.host.settings Server Settings
-windows.host.preset Host Presets
-windows.host.preset.load Loading Preset...
-windows.host.preset.name Preset name
-windows.host.start Start Game
-windows.host.rehost Start Game (Bring Players)
-windows.spray.header Select Spray
-windows.spray.default Free Spray
-windows.spray.spin Spray
-windows.maps.header Custom Games
-windows.maps.none No Games found!
-windows.maps.name Game Name
-windows.maps.editor Game Maker
-windows.maps.publish Publish Game
-windows.maps.community Dev Community
-windows.publish.map.header Publish or Update Game
-windows.publish.map.thumbnail No Thumbnail
-windows.publish.map.paste Paste Game Data
-windows.publish.map.update Publish/Update
-windows.publish.map.login to create and upload Games!
-windows.theatre.header Theatre Mode
-windows.theatre.record Enable Recording
-windows.theatre.key Record Key
-windows.clans.header Clans
-windows.clans.members Members ({0})
-windows.clans.requests Requests
-windows.clans.requests.none No Requests
-windows.clans.page [{0}] Clan Page
-windows.clans.create Create Clan
-windows.clans.name Clan Name
-windows.clans.view View Clans
-windows.clans.join Join Clan
-windows.clans.login to create and join a clan!
-windows.store.header Store
+windows.controls.reset Ponastavitev položaja (dirka in parkour)
+windows.controls.pretend Skrij igro
+windows.host.header Gostiteljska igra po meri
+windows.host.maps Nastavitev strežnika
+windows.host.cmaps Igra skupnosti
+windows.host.raw Neobdelani podatki o igri
+windows.host.modes Izberite načine
+windows.host.classes Izberite razrede
+windows.host.settings Nastavitve strežnika
+windows.host.preset Prednastavitve gostitelja
+windows.host.preset.load Nalaganje prednastavitev...
+windows.host.preset.name Ime prednastavitve
+windows.host.start Začetek igre
+windows.host.rehost Začetek igre (pripeljite igralce)
+windows.spray.header Izberite Razpršilo
+windows.spray.default Brezplačno pršenje
+windows.spray.spin Razpršilo
+windows.maps.header Igre po meri
+windows.maps.none Ni bilo najdenih iger!
+windows.maps.name Ime igre
+windows.maps.editor Ustvarjalnik iger
+windows.maps.publish Objava igre
+windows.maps.community Dev Skupnost
+windows.publish.map.header Objava ali posodobitev igre
+windows.publish.map.thumbnail Brez sličic
+windows.publish.map.paste Prilepi podatke o igri
+windows.publish.map.update Objavljanje/posodabljanje
+windows.publish.map.login za ustvarjanje in nalaganje iger!
+windows.theatre.header Gledališki način
+windows.theatre.record Omogoči snemanje
+windows.theatre.key Ključ za zapisovanje
+windows.clans.header Klani
+windows.clans.members Člani ({0})
+windows.clans.requests Zahteve
+windows.clans.requests.none Brez zahtev
+windows.clans.page [{0}] Stran klana
+windows.clans.create Ustvari klan
+windows.clans.name Ime klana
+windows.clans.view Oglejte si klane
+windows.clans.join Pridružite se klanu
+windows.clans.login ustvarite klan in se mu pridružite!
+windows.store.header Trgovina
 windows.store.spin {0} Spin
 windows.store.agree Z nakupom se strinjate s {0}Pogoji
 windows.store.purchase Nakup KR
