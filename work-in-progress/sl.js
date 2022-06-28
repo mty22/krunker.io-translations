@@ -864,36 +864,36 @@ windows.playerlist.ban Si prepričan, da hočeš odstraniti {0} iz te igre?
 windows.playerlist.flag Si prepričan, da hočeš označiti {0}?
 windows.playerlist.unflag Si prepričan, da hočeš preklicati oznako {0}?
 windows.playerlist.punish Si prepričan, da hočeš ukrepati glede {0}?
-item.view.open Open Model Viewer
-item.view.more More Information
-item.sell.cant Item cant be sold.
-item.sell.cant.krunker Item cant be sold on krunker.
-item.sell.quick Are you sure you want to Quick Sell {0}?
-item.sell.destroy Are you sure you want to Destroy {0}?
-social.profile.stats Overall Stats
-social.profile.class Class Stats
-social.profile.sales Sales
-social.profile.sales.market Market Sales
-social.profile.skins Skins [{0}]
-social.profile.skins.none No published Skins from this user
-social.profile.games Games [{0}]
-social.profile.games.none No published Games from this user
-social.profile.assets Assets [{0}]
-social.profile.assets.none No published Assets from this user
-social.profile.mods Mods [{0}]
-social.profile.mods.none No published Mods from this user
-social.search Search Results
-social.market.stats.rare Rarest Items
-social.market.stats.circulation In Circulation
-social.market.stats.units units Worldwide
-social.trades.in Incoming
-social.trades.in.head Incoming Offers ({0})
-social.trades.out Outgoing
-social.trades.out.head Outgoing Offers ({0})
-social.trades.history History
-social.trades.history.head Trade History ({0})
-social.trades.decline Decline All
-social.trades.message ENABLE TRADE MESSAGES IN SETTINGS
+item.view.open odprti pregledovalnik modelov
+item.view.more Več informacij
+item.sell.cant Predmeta ni mogoče prodati.
+item.sell.cant.krunker Predmeta ni mogoče prodati na krunkerju.
+item.sell.quick Ali ste prepričani, da želite hitro prodajo {0}?
+item.sell.destroy Ste prepričani, da želite uničiti {0}?
+social.profile.stats Splošni statistični podatki
+social.profile.class Statistike razreda
+social.profile.sales Prodaja
+social.profile.sales.market Prodaja na trgu
+social.profile.skins Kože [{0}]
+social.profile.skins.none Ni objavljenih kož od tega uporabnika
+social.profile.games Igre [{0}]
+social.profile.games.none Ni objavljenih iger tega uporabnika
+social.profile.assets Sredstva [{0}]
+social.profile.assets.none Ni objavljenih sredstev tega uporabnika
+social.profile.mods Modusi [{0}]
+social.profile.mods.none Ni objavljenih modusov tega uporabnika
+social.search Rezultati iskanja
+social.market.stats.rare Redki predmeti
+social.market.stats.circulation V obtoku
+social.market.stats.units enote po vsem svetu
+social.trades.in Prihajajoči
+social.trades.in.head Prihajajoče ponudbe ({0})
+social.trades.out Odhajajoči
+social.trades.out.head Odhodne ponudbe ({0})
+social.trades.history Zgodovina
+social.trades.history.head Zgodovina trgovine ({0})
+social.trades.decline Zavrnitev Vse
+social.trades.message OMOGOČANJE TRGOVINSKIH SPOROČIL V NASTAVITVAH
 social.trades.warning You get no items from this trade!
 social.trades.accept Are you sure you want to accept this offer?
 stats.airdrops KR-Packages
