@@ -894,24 +894,24 @@ social.trades.history Zgodovina
 social.trades.history.head Zgodovina trgovine ({0})
 social.trades.decline Zavrnitev Vse
 social.trades.message OMOGOČANJE TRGOVINSKIH SPOROČIL V NASTAVITVAH
-social.trades.warning You get no items from this trade!
-social.trades.accept Are you sure you want to accept this offer?
-stats.airdrops KR-Packages
-stats.airdrops.stolen Airdrops Stolen
-settings.quality.flapAnim Sniper Flap Animation
-chall.name.hs Get {0} headshots {1}
+social.trades.warning Pri tej izmenjavi ne prejmete nobenih predmetov.!
+social.trades.accept Ste prepričani, da želite sprejeti to ponudbo??
+stats.airdrops KR-Paketki
+stats.airdrops.stolen Ukradena zračna letala
+settings.quality.flapAnim Sniper Flap Animacija
+chall.name.hs Get {0} posnetki glave {1}
 chall.name.ns Get {0} no-scopes {1}
-chall.name.ls Get {0} legshots {1}
-chall.name.tmk Get {0} throwing knife kills {1}
-chall.name.fb Get {0} first bloods {1}
-chall.name.mk Get {0} melee kills {1}
-chall.name.fk Get {0} fist kills {1}
+chall.name.ls Get {0} posnetki nog {1}
+chall.name.tmk Get {0} ubije nož za metanje {1}
+chall.name.fb Get {0} prve krvi {1}
+chall.name.mk Get {0} ubijanje z bližnjim orožjem {1}
+chall.name.fk Get {0} pest ubija {1}
 chall.name.qs Get {0} quickscopes {1}
 chall.name.wb Get {0} wallbangs {1}
-chall.name.airk Get {0} mid-air kills {1}
+chall.name.airk Get {0} ubijanje v zraku {1}
 chall.name.lns Get {0} longshots {1}
-chall.name.tk Get {0} turbo kills {1}
-chall.name.drk Get {0} drift kills {1}
+chall.name.tk Get {0} turbo ubije {1}
+chall.name.drk Get {0} ubijanje zaradi drifta {1}
 chall.name.kstk Get a {0} killstreak {1}
 chall.name.w Win {0} matches
 chall.name.d Die {0} times
