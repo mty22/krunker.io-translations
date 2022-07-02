@@ -35,7 +35,7 @@ generic.defeat DERROTA
 generic.victory VICTORIA
 generic.matchover PARTIDA TERMINADA
 generic.matchaband PARTIDA ABANDONADA
-generic.follow Seguir
+generic.follow Sigue
 generic.unfollow Dejar de seguir
 generic.followers Seguidores
 generic.following Siguiendo
@@ -52,7 +52,7 @@ generic.deaths Muertes
 generic.kdr KDR
 generic.time Tiempo
 generic.logout Cerrar Sesión
-generic.logout.sessions Cerrar todas las Sesiones Abiertas
+generic.logout.sessions Cerrar todas las Sesiones
 generic.username Introduzca su Usuario
 generic.password Introduzca su Contraseña
 generic.register Registrarse
@@ -172,7 +172,7 @@ settings.post.ssaoRadius Radio de SSAO
 settings.interface.hitInd Mostrar Hitmarker
 settings.interface.hitColor Color de Hitmarker
 settings.interface.dmg Mostrar daño
-settings.interface.dmgType Show Damage
+settings.interface.dmgType Mostra Daño
 settings.interface.dmgType.default Rounded
 settings.interface.dmgType.float Float
 settings.interface.dmgCol Color de daño
@@ -220,11 +220,11 @@ settings.interface.nametagStyle.all Todo
 settings.interface.healthNum Número de salud
 settings.interface.healthColT Color de la barra de salud del equipo
 settings.interface.healthColE Color de la barra de salud del enemigo
-settings.interface.xpBarType XP Bar Type
+settings.interface.xpBarType XP Barra Typo
 settings.interface.xpBarCol Color de la barra de experiencia
 settings.interface.xpBarCol2 Color de la barra de experiencia 2
 settings.interface.xpBarOpac Opacidad de la barra de experiencia
-settings.interface.adsObjOpac ADS Objective Opacity
+settings.interface.adsObjOpac ADS Objectivo Opacidad 
 settings.medals.header Medallas
 settings.medals.show Mostrar Medallas
 settings.medals.classic Medallas Clásicas
@@ -494,7 +494,7 @@ windows.loadout.wrist Muñeca
 windows.loadout.stat Estadística en tarjeta
 windows.loadout.flag Bandera de país
 windows.loadout.badge Insignia Personalizada
-windows.loadout.streaks Streaks
+windows.loadout.streaks Rachas
 windows.mods.drop arrastra el archivo de mod .zip aquí o haz clic
 windows.mods.paste Pega la url del mod
 windows.mods.load Cargar mod
@@ -567,7 +567,7 @@ windows.controls.reset Reiniciar Posición (Carreras y Parkour)
 windows.controls.resetLast Reset To Last Checkpoint (Parkour etc)
 windows.controls.pretend Esconder Juego
 windows.controls.noclipSB Noclip
-windows.controls.godModeSB Godmode
+windows.controls.godModeSB Invencible
 windows.controls.killSB Kill
 windows.host.header Crear partida personalizada
 windows.host.maps Configurar partida
@@ -682,7 +682,7 @@ windows.ranked.login para jugar en partidas competitivas!
 windows.ranked.level Tienes qué ser mínimo <span color="black">nivel {0}</span> para jugar en partidas competitivas! Ahora mismo estás en el <span color="black">nivel {1}</span>.
 windows.chall.header Desafíos
 windows.chall.login para completar desafíos!
-windows.spin.header Prize Wheel
+windows.spin.header Rueda De Premios
 thumbnail.upload.limit Error. {0}kb Límite de miniatura
 image.upload.limit Error. {0}kb Límite de imagen
 thumbnail.upload.error Error de miniatura
@@ -696,7 +696,7 @@ matchmaker.GameFull Partida Llena.
 matchmaker.NoServersMatchQuery EL JUEGO SE ESTÁ ACTUALIZANDO
 matchmaker.InvalidGameId Partida no Encontrada.
 matchmaker.NoAvailableServers Los servidores estan al Máximo de Capacidad
-matchmaker.NoMatchingServers No Games Found<br><small>Try changing Quickplay options</small>
+matchmaker.NoMatchingServers No Partidas Encontrado<br><small>Prueba Cambiando Quickplay opciones</small>
 matchmaker.GameIssue Problema de Conexión Desconocido.
 adblocker Desactiva tu adblocker para recibir krunkies gratis.
 ad-failed El anuncio falló en cargar. Intentalo de nuevo más tarde.
@@ -751,7 +751,7 @@ server.config.bDrop Caída de bala
 server.config.thirdPerson Tercera persona
 server.config.requireCaptcha Requiere captcha
 server.config.nameTags Ocultar nombres
-server.config.nameTagsFR Hide Nametags (Allies)
+server.config.nameTagsFR Esconde Nombres (Allies)
 server.config.kCams Cámara de Muertes
 server.config.aAnon Permitir modo Anónimo
 server.config.noReload No recargar
