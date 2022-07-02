@@ -172,6 +172,9 @@ settings.post.ssaoRadius SSAO रेडियस
 settings.interface.hitInd निशान लगने पर संकेत दिखाएँ
 settings.interface.hitColor निशान संकेतों का रंग
 settings.interface.dmg निशान लगने पर डैमेज दिखाएँ
+settings.interface.dmgType Show Damage
+settings.interface.dmgType.default Rounded
+settings.interface.dmgType.float Float
 settings.interface.dmgCol डैमेज संकेतों का रंग
 settings.interface.critCol घातक डैमेज संकेतों का रंग
 settings.interface.header इंटरफ़ेस
@@ -217,9 +220,11 @@ settings.interface.nametagStyle.all सब कुछ
 settings.interface.healthNum नैम-टैग HP संख्या
 settings.interface.healthColT नैम-टैग अपनी टीम के HP का रंग
 settings.interface.healthColE नैम-टैग दुश्मन के HP का रंग
+settings.interface.xpBarType XP Bar Type
 settings.interface.xpBarCol XP बार का रंग
 settings.interface.xpBarCol2 XP Bar Color 2
 settings.interface.xpBarOpac XP बार की पारदर्शकता
+settings.interface.adsObjOpac ADS Objective Opacity
 settings.medals.header मेडल्स
 settings.medals.show मेडल्स दिखाएँ
 settings.medals.classic Classic Medals
@@ -376,6 +381,8 @@ settings.viewmodel.weapReloadY हथियार रीलोड Y
 settings.viewmodel.yOffADS हथियार ADS Y-ऑफसेट
 settings.viewmodel.adsFovMlt ADS FOV की शक्ति
 settings.viewmodel.toggleADS Toggle Weapon ADS
+settings.viewmodel.wallLean Wall Slide/Jump Lean
+settings.viewmodel.wallLeanMlt Wall Slide/Jump Lean
 settings.editing.header एडिटिंग
 settings.editing.health.high HUD उच्च हेल्थ
 settings.editing.health.low HUD कम हेल्थ
@@ -487,6 +494,7 @@ windows.loadout.wrist हाँथ
 windows.loadout.stat किलकार्ड स्टैटक
 windows.loadout.flag देश का झंडा
 windows.loadout.badge Custom बैज
+windows.loadout.streaks Streaks
 windows.mods.drop यहाँ मॉड फ़ाइल ड्रॉप या क्लिक करें
 windows.mods.paste पेस्ट मॉड URL
 windows.mods.load मॉड लोड करें
@@ -556,7 +564,11 @@ windows.controls.premium1 गाड मोड
 windows.controls.premium2 खुद को नष्ट करे
 windows.controls.premium3 स्माइट
 windows.controls.reset स्थान रिसेट करे (रेस & पार्कोर)
+windows.controls.resetLast Reset To Last Checkpoint (Parkour etc)
 windows.controls.pretend खेल छुपाए
+windows.controls.noclipSB Noclip
+windows.controls.godModeSB Godmode
+windows.controls.killSB Kill
 windows.host.header कस्टम खेल होस्ट करें
 windows.host.maps सर्वर सेटअप
 windows.host.cmaps सामुदायिक खेल
@@ -670,6 +682,7 @@ windows.ranked.login रैन्क्ड खेल खेलने के ल�
 windows.ranked.level आपको कम से कम  <span color="black">लेवल  {0}</span> का होना जरूरी है रंकड खेल खेलने के लिए! आपका अभी यह  <span color="black">level {1}</span>.
 windows.chall.header चुनौती
 windows.chall.login चुनौतियों को ख़तम  करने के लिए
+windows.spin.header Prize Wheel
 thumbnail.upload.limit Failed. {0}kb थंबनेल  सीमा
 image.upload.limit Failed. {0}kb इमेज  सीमा
 thumbnail.upload.error थंबनेल एरर
@@ -683,6 +696,7 @@ matchmaker.GameFull खेल भरा हुआ है
 matchmaker.NoServersMatchQuery खेल अपडेट हो रहा हे
 matchmaker.InvalidGameId खेल नहीं मिला.
 matchmaker.NoAvailableServers सारे सर्वर फुल् हैं
+matchmaker.NoMatchingServers No Games Found<br><small>Try changing Quickplay options</small>
 matchmaker.GameIssue Unknown Join Issue
 adblocker KR प्राप्त करने के लिए, अपना adblocker बंद करें
 ad-failed विज्ञापन लोड होने में असफल हुआ । कृपया पुन: प्रयास करें
@@ -724,6 +738,7 @@ server.config.t3Dmg दल 3 डैमेज
 server.config.t4Dmg दल 4 डैमेज
 server.config.t5Dmg दल 5 डैमेज
 server.config.selTeam दल चुनो
+server.config.frFire Friendly Fire
 server.config.allowSpect स्पेक्टेटिंग
 server.config.killRewards मारने का पुरस्कार
 server.config.headshotOnly केवल हेडशॉट्स
@@ -736,6 +751,7 @@ server.config.bDrop बुलेट ड्रॉप
 server.config.thirdPerson थर्ड पर्सन
 server.config.requireCaptcha कैप्चा की आवश्यकता
 server.config.nameTags नाम के टैग छुपाए
+server.config.nameTagsFR Hide Nametags (Allies)
 server.config.kCams किल केम्स
 server.config.aAnon Allow Anonymous
 server.config.noReload रीलोड ऑफ
@@ -751,6 +767,7 @@ server.config.scoreLimit स्कोर सीमा
 server.config.keepTScore दल का स्कोर रखे
 server.config.forceC Force Mode Classes
 server.config.logTim समय का पता (दौड़,पारकोर)
+server.config.lstChkT Last Checkpoint Time Rewind (Race/Bhop)
 server.config.hitBoxPad हिटबॉक्स पैडिंग
 server.config.hpRegen स्वास्थ्य पुनर्जन्म
 server.config.disableB सीमाओं को निष्क्रिय करें
@@ -813,6 +830,7 @@ social.market.gift KR भेट करे
 social.market.gift.msg आपका कोई सन्देश?
 respawn.auto {0} सेकंड के बाद, आप रेस्पॉन करेंगे
 custom.host.ranked आप एक रैंक मैच के दौरान, कोई और खेल होस्ट नहीं कर सकते
+custom.host.wager Can't host match while in Wager.
 funds.insufficient ना-काफी पूंजी
 funds.out ऐसा लगता है की आपके पास कम KR है
 custom.passcode.long पासवर्ड बहुत लंबा है
@@ -838,6 +856,11 @@ mod.reset.1 मैप के चीज़ो को बदला नहीं ज�
 windows.profile.picture प्रोफाइल पिक्चर बदले
 stats.assists असिस्ट
 stats.nukes न्यूक
+stats.slimers Slimers
+stats.juggernauts Juggernauts
+stats.juggernauts.kills Juggernaut Kills
+stats.juggernauts.killed Juggernauts Killed
+stats.warmachines War Machines
 stats.melee चाकू किल
 stats.fistkills हाँथों द्वारा किये गए किल
 stats.thrownkills फेंके गए चाक़ू द्वारा किल
@@ -846,6 +869,10 @@ stats.wallbangs वॉल बैंग
 stats.crouches Crouches
 stats.sprays स्प्रे काउन्ट
 stats.kpd मददगार रिपोर्टस
+stats.shots Shots
+stats.hits Hits
+stats.misses Misses
+stats.legshots Legshots
 windows.host.default.settings मैप के सेटिंग्स को सक्षम करने से प्लेयर्स के डाटा (हाइ स्कॉर्ज़) को सेव किया जा सकता है
 windows.host.default.commands *होस्ट कमांड (/ noclip, /god, /smite, आदि) इस मोड में काम नहीं करेंगे
 windows.host.rewards यदि आप KR रिवार्ड्स को सक्षम करते है, तो सारे खिलाड़ियों को डिफ़ॉल्ट सेटिंग्स पर खेलना पड़ेगा और वे आपके मैप के खाते से KR भी जीत सकते है:
@@ -979,4 +1006,8 @@ server.message.kicked {0} को किक किया गया
 server.message.banned {0} को बैन किया गया
 server.message.votekicked {0} was vote kicked
 server.message.arrested {0} को K.P.D ने गिरफ्तार कर लिया
-`;
+event.easter.golden.spawn A Golden egg is near
+event.easter.golden.despawn A Golden egg has gone
+event.easter.found.new {0} found {1}/{2} Eggs
+event.easter.found.old You already discovered this egg!
+event.easter.completed {0} completed the Egg hunt!
