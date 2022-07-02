@@ -897,20 +897,20 @@ social.trades.message कृपया सेटिंग से व्याप�
 social.trades.warning आपको इस व्यापार से कोइ वस्तु नही मिलेगा!
 social.trades.accept क्या आप वास्तव में इस ट्रेड को स्वीकार करना चाहते हैं?
 stats.airdrops KR पैकेज
-stats.airdrops.stolen Airdrops Stolen
+stats.airdrops.stolen चुराए हुई KR एयरड्रॉप्स 
 settings.quality.flapAnim स्नाइपर फ्लैप एनीमेशन
 chall.name.hs Get {0} हैडशॉट्स {1}
 chall.name.ns Get {0} नो-स्कोप्स {1}
 chall.name.ls Get {0} लेगशॉट्स {1}
-chall.name.tmk Get {0} throwing knife kills {1}
-chall.name.fb Get {0} first bloods {1}
+chall.name.tmk Get {0}  चाक़ू फेंकने से किल्स  {1}
+chall.name.fb Get {0} पहले किलज़ {1}
 chall.name.mk Get {0} मिली किलज़ {1}
 chall.name.fk Get {0} हाँथों द्वारा किये गए किल {1}
 chall.name.qs Get {0} क्विक-स्कोप्स {1}
-chall.name.wb Get {0} wallbangs {1}
-chall.name.airk Get {0} mid-air kills {1}
-chall.name.lns Get {0} longshots {1}
-chall.name.tk Get {0} turbo kills {1}
+chall.name.wb Get {0} वालबैंग्स {1}
+chall.name.airk Get {0} हवा में किल्स {1}
+chall.name.lns Get {0} दूर के किल्स  {1}
+chall.name.tk Get {0} टर्बो किल्स {1}
 chall.name.drk Get {0} drift kills {1}
 chall.name.kstk Get a {0} killstreak {1}
 chall.name.w Win {0} मैचेस
@@ -925,14 +925,14 @@ ranked.join Joined Ranked Match. Abandoning a match will result in a temporary b
 ranked.progress खेल चल रहा है
 ranked.team कृपया एक टीम जॉइन करें
 ranked.switch खेल के बीच मे नहीं बदल सकते
-ranked.spectate Spectating Disabled in Ranked
+ranked.spectate  रैंक मैच मे स्पैक्टेट नहीं कर सक्ते
 ranked.login स्पॉन करने के लिए लॉगिन करें
 ranked.sync Missing Sync Data
 ranked.team.spawn कृपया स्पॉन करने के लिए एक टीम जॉइन करें
 ranked.class.spawn कृपया स्पॉन करने के लिए एक क्लास सेलेक्ट करें
 modes.round.win आपकी टीम ने यह राउंड जीत लिया है
 modes.round.loss यह राउंड अब जीता नहीं जा सकता
-modes.round.switch Switching Sides. Prepare for the next Round
+modes.round.switch टीम बदली जा रही है। अगले राउंड के लिए तैयारी करें
 modes.trade.success ट्रेड सफल रहा
 modes.prophunt.limit [Prop Hunt] You are out of prop switches
 modes.prophunt.left [Prop Hunt] You have {0} switches remaining
@@ -972,7 +972,7 @@ commands.forfeit.later कृपया कुछ देर बाद कोश�
 commands.forfeit.voted आप पहले वोट कर चुके हैं
 commands.forfeit.limit आप एक गेम मे एक ही बार वोट शुरू कर सकते हैं
 commands.forfeit.ended Forfeiting गेम
-commands.forfeit.ended.other Other Team Forfeited
+commands.forfeit.ended.दूसरी टीम ने हार मान ली
 server.message.join {0} ने गेम जॉइन किया
 server.message.left {0} ने गेम छोड़ दिया
 server.message.kicked {0} को किक किया गया

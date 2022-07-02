@@ -921,39 +921,39 @@ chall.name.bzk Get {0} buzz kills {1}
 chall.name.cc Get {0} close-calls {1}
 chall.name.rk Deal {0} revenge kills {1}
 event.doubleXP Za to tekmo je omogočen 2x razred XP
-ranked.join Joined Ranked Match. Abandoning a match will result in a temporary ban
+ranked.join Pridružite se tekmi za uvrstitev. Opustitev tekme bo imela za posledico začasno prepoved.
 ranked.progress Igra v teku
 ranked.team Pridružite se ekipi
 ranked.switch Med igro ne morete preklopiti
 ranked.spectate Gledanje za invalide v kategoriji Ranked
 ranked.login Prijava v Spawn
 ranked.sync Manjkajoči podatki o sinhronizaciji
-ranked.team.spawn Pridružite se ekipi za Spawn
+ranked.team.spawn Pridružite se ekipi Spawn
 ranked.class.spawn Prosimo, izberite razred za Spawn
 modes.round.win Vaša ekipa je zagotovila ta krog.
 modes.round.loss V tem krogu ni več mogoče zmagati.
 modes.round.switch Zamenjava strani. Priprava na naslednji krog
 modes.trade.success Uspešna trgovina
-modes.prophunt.limit [Prop Hunt] Stikala za rekvizite so iztrošena
-modes.prophunt.left [Prop Hunt] Ostalo vam je {0} stikal.
+modes.prophunt.limit [Lov na rekvizite] Končali ste s stikali za rekvizite
+modes.prophunt.left [Lov na rekvizite] Ostalo vam je {0} stikal.
 modes.prophunt.rotation.on [Prop Hunt] Omogočeno vrtenje
 modes.prophunt.rotation.off [Prop Hunt] Onemogočeno vrtenje
 modes.prophunt.rotation.reset [Prop Hunt] Ponastavitev vrtenja.
-commands.login Login za uporabo tega ukaza
-commands.connected {0} povezano, {1} v meniju
+commands.login Prijava za uporabo tega ukaza
+commands.connected {0} povezan, {1} v meniju
 commands.host {0} je trenutni gostitelj.
 commands.noclip.on Noclip - Omogočeno
 commands.noclip.off Noclip - Onemogočeno
 commands.god.on Božanski način - Omogočeno
-commands.god.off Božanski način - Onemogočen
-commands.god.on.other Božanski način - Onemogočen za {0}
+commands.god.off Božanski način - Onemogočeno
+commands.god.on.other Božanski način - Omogočeno za {0}
 commands.god.off.other Božanski način - Onemogočen za {0}
 commands.smite.on Smite - Omogočeno
 commands.smite.off Smite - Onemogočeno
 commands.smite.on.other Smite - Omogočeno za {0}
-commands.smite.off.other Smite - Onemogočeno za {0}
-commands.perk Gave {0} {1}
-commands.maxperk Gave {0} MAX {1}
+commands.smite.off.other Smite - onemogočen za {0}
+commands.perk Dalo {0} {1}
+commands.maxperk Dal {0} MAX {1}
 commands.unlimited.on Neomejeno strelivo - omogočeno
 commands.unlimited.off Neomejeno strelivo - Onemogočeno
 commands.unlimited.on.other Neomejeno strelivo - omogočeno za {0}
@@ -961,22 +961,21 @@ commands.unlimited.off.other Neomejeno strelivo - onemogočeno za {0}
 commands.spraybypass.on Neomejeno pršenje - omogočeno
 commands.spraybypass.off Neomejeno pršenje - Onemogočeno
 commands.spraybypass.on.other Neomejeno pršenje - omogočeno za {0}
-commands.spraybypass.off.other Neomejeno pršenje - Onemogočeno za {0}
+commands.spraybypass.off.other Neomejeno pršenje - onemogočeno za {0}
 commands.suspect.invalid Neveljavne informacije o osumljencu
 commands.suspect.menu Osumljenec v meniju
 commands.suspect.left Osumljenec je odšel
-commands.suspect.found Suspect Found. Spectating: {0}, Spawned: {1}, Name: {2}
-commands.forfeit.next Must play atleast 1 round
-commands.forfeit.wait Wait till match starts to forfeit
+commands.suspect.found Najden osumljenec. Ogledovanje: {0}, Spawned: {1}, Name: {2}
+commands.forfeit.next Odigrati moraš vsaj 1 krog.
+commands.forfeit.wait Počakaj, da se tekma začne, in se odpovej.
 commands.forfeit.later Poskusite znova čez nekaj sekund
-commands.forfeit.voted Glasovali ste že.
+commands.forfeit.voted Že ste glasovali.
 commands.forfeit.limit V vsaki igri lahko začnete glasovati samo enkrat.
-commands.forfeit.ended Forfeiting Game
-commands.forfeit.ended.other Other Team Forfeited
+commands.forfeit.ended Izguba igre
+commands.forfeit.ended.other Druga ekipa se je odpovedala
 server.message.join {0} se je pridružil igri
 server.message.left {0} zapustil igro
-server.message.kicked {0} was kicked
+server.message.kicked {0} je bil izločen
 server.message.banned {0} je bila prepovedana
 server.message.votekicked {0} je bilo glasovanje kicked
 server.message.arrested {0} je aretirala policija K.P.D.
-`;
