@@ -172,6 +172,9 @@ settings.post.ssaoRadius SSAO Radius
 settings.interface.hitInd Toon Hit Indicatie
 settings.interface.hitColor Hit Indicatie Kleur
 settings.interface.dmg Toon Schade
+settings.interface.dmgType Show Damage
+settings.interface.dmgType.default Rounded
+settings.interface.dmgType.float Float
 settings.interface.dmgCol Schade Kleur
 settings.interface.critCol Crit Kleur
 settings.interface.header Interface
@@ -217,9 +220,11 @@ settings.interface.nametagStyle.all Alles
 settings.interface.healthNum Naam Gezondheid Nummer
 settings.interface.healthColT Naam Gezondheid Kleur Team
 settings.interface.healthColE Naam Gezondheid Kleur Tegenstanders
+settings.interface.xpBarType XP Bar Type
 settings.interface.xpBarCol XP Bar Kleur
 settings.interface.xpBarCol2 XP Bar Kleur 2
 settings.interface.xpBarOpac XP Bar Doorzichtigheid
+settings.interface.adsObjOpac ADS Objective Opacity
 settings.medals.header Medailles
 settings.medals.show Weergeef Medailles
 settings.medals.classic Klassieke Medailles
@@ -376,6 +381,8 @@ settings.viewmodel.weapReloadY Wapen Herlaad Y
 settings.viewmodel.yOffADS Wapen ADS Y Compensatie
 settings.viewmodel.adsFovMlt ADS FOV Kracht
 settings.viewmodel.toggleADS Schakel Wapen ADS
+settings.viewmodel.wallLean Wall Slide/Jump Lean
+settings.viewmodel.wallLeanMlt Wall Slide/Jump Lean
 settings.editing.header Bewerken
 settings.editing.health.high HUD Gezondheid Hoog
 settings.editing.health.low HUD Gezondheid Laag
@@ -487,6 +494,7 @@ windows.loadout.wrist Pols
 windows.loadout.stat Killkaart Stat
 windows.loadout.flag Landvlag
 windows.loadout.badge Custom Badge
+windows.loadout.streaks Streaks
 windows.mods.drop zet het mod-bestand hier neer of klik op
 windows.mods.paste Plak Mod Url
 windows.mods.load Laad Mod
@@ -556,7 +564,11 @@ windows.controls.premium1 Godmode
 windows.controls.premium2 Dood
 windows.controls.premium3 Smite
 windows.controls.reset Positie resetten (Race & Parkour)
+windows.controls.resetLast Reset To Last Checkpoint (Parkour etc)
 windows.controls.pretend Spel verbergen
+windows.controls.noclipSB Noclip
+windows.controls.godModeSB Godmode
+windows.controls.killSB Kill
 windows.host.header Host Aangepast spel
 windows.host.maps Serverinstellingen
 windows.host.cmaps Gemeenschappelijk Spel
@@ -670,6 +682,7 @@ windows.ranked.login om te spelen in ranked games!
 windows.ranked.level Je moet tenminste level <span color="black">level {0}</span> om te spelen in Ranked games! Op dit moment ben je <span color="black">level {1}</span>.
 windows.chall.header Challenges
 windows.chall.login om challenges te voltooien!
+windows.spin.header Prize Wheel
 thumbnail.upload.limit Gefaald. {0}kb Thumbnail Limiet
 image.upload.limit Gefaald. {0}kb Foto Limiet
 thumbnail.upload.error Thumbnail Error
@@ -683,6 +696,7 @@ matchmaker.GameFull Game is vol.
 matchmaker.NoServersMatchQuery GAME AAN HET UPDATEN
 matchmaker.InvalidGameId Game niet gevonden.
 matchmaker.NoAvailableServers Servers zijn op maximale capaciteit
+matchmaker.NoMatchingServers No Games Found<br><small>Try changing Quickplay options</small>
 matchmaker.GameIssue Unknown Join Issue
 adblocker Zet je ad blocker uit om gratis Krunkies te krijgen.
 ad-failed Ad Mislukt om te laden. Probeer Opnieuw!
@@ -724,6 +738,7 @@ server.config.t3Dmg Team 3 Schade
 server.config.t4Dmg Team 4 Schade
 server.config.t5Dmg Team 5 Schade
 server.config.selTeam Selecteer Team
+server.config.frFire Friendly Fire
 server.config.allowSpect Toeschouwers
 server.config.killRewards Kill Beloningen
 server.config.headshotOnly Alleen Headshots
@@ -736,6 +751,7 @@ server.config.bDrop Kogel Drop
 server.config.thirdPerson 3e Persoon
 server.config.requireCaptcha Captcha Vereist
 server.config.nameTags Verstop Naamplaatjes
+server.config.nameTagsFR Hide Nametags (Allies)
 server.config.kCams Kill Camera
 server.config.aAnon Anoniem Toestaan
 server.config.noReload Niet Herladen
@@ -751,6 +767,7 @@ server.config.scoreLimit Score Limiet
 server.config.keepTScore Houd Team Score
 server.config.forceC Dwing Modus Classes
 server.config.logTim Log Tijd (Racen, Parkour)
+server.config.lstChkT Last Checkpoint Time Rewind (Race/Bhop)
 server.config.hitBoxPad Hitbox Opvulling
 server.config.hpRegen Gezondheid Regen
 server.config.disableB Borders Uitzetten
@@ -813,6 +830,7 @@ social.market.gift Gift KR
 social.market.gift.msg Laat een bericht achter
 respawn.auto Auto Respawnen in {0}
 custom.host.ranked Kan geen match hosten in ranked.
+custom.host.wager Can't host match while in Wager.
 funds.insufficient Onvoldoende Middelen
 funds.out Het lijkt erop dat je geen Krunkies meer hebt.
 custom.passcode.long Wachtwoord te lang
@@ -838,6 +856,11 @@ mod.reset.1 Map Objecten worden niet gereset
 windows.profile.picture Verander Profielfoto
 stats.assists Assisten
 stats.nukes Nukes
+stats.slimers Slimers
+stats.juggernauts Juggernauts
+stats.juggernauts.kills Juggernaut Kills
+stats.juggernauts.killed Juggernauts Killed
+stats.warmachines War Machines
 stats.melee Melee
 stats.fistkills Beatdowns
 stats.thrownkills Bullseyes
@@ -846,6 +869,10 @@ stats.wallbangs Wallbangs
 stats.crouches Crouches
 stats.sprays Sprays Geplaatst
 stats.kpd Helpful Reports
+stats.shots Shots
+stats.hits Hits
+stats.misses Misses
+stats.legshots Legshots
 windows.host.default.settings Door standaardinstellingen in te schakelen, kan de voortgang van de speler en de highscores worden opgeslagen
 windows.host.default.commands *Host Commands zijn uitgeschakeld in deze modus: /noclip /god /smite etc.
 windows.host.rewards Door KR Beloningen in te schakelen, wordt de server gedwongen om standaardinstellingen te gebruiken en kunnen spelers KR verdienen van de map funds:
@@ -979,4 +1006,8 @@ server.message.kicked {0} werd eruit gegooid
 server.message.banned {0} werd gebanned
 server.message.votekicked {0} werd weggestemd
 server.message.arrested {0} werd gearresteerd door de KPD
-`;
+event.easter.golden.spawn A Golden egg is near
+event.easter.golden.despawn A Golden egg has gone
+event.easter.found.new {0} found {1}/{2} Eggs
+event.easter.found.old You already discovered this egg!
+event.easter.completed {0} completed the Egg hunt!
