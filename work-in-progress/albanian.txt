@@ -1,2 +1,4 @@
 PR https://github.com/mty22/krunker.io-translations/issues/92
 file: sq.js
+
+PR2: https://github.com/mty22/krunker.io-translations/pull/463
