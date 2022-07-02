@@ -230,8 +230,8 @@ settings.medals.show Zeige Medallien
 settings.medals.classic Klassische Medallien
 settings.medals.sound Spiele Medallien Ton
 settings.medals.scale Medallien Skalierung
-settings.medals.xOff Medallien X Offset
-settings.medals.yOff Medallien Y Offset
+settings.medals.xOff Medallien X Versetung
+settings.medals.yOff Medallien Y Versetzung
 settings.crosshair.header Fadenkreuz
 settings.crosshair.type Typ
 settings.crosshair.type.1 Dynamisch
@@ -378,7 +378,7 @@ settings.viewmodel.yOff Waffen Y Versetzung
 settings.viewmodel.zOff Waffen Z Versetzung
 settings.viewmodel.weapSwapY Waffenwechsel Y
 settings.viewmodel.weapReloadY Waffen-Nachlade Y
-settings.viewmodel.yOffADS Waffen Zielen Y Offset
+settings.viewmodel.yOffADS Waffen Zielen Y Versetzung
 settings.viewmodel.adsFovMlt Zielen FOV Power
 settings.viewmodel.toggleADS Toggle Weapon ADS
 settings.viewmodel.wallLean Wall Slide/Jump Neigung
@@ -414,7 +414,7 @@ settings.editing.menuSaturation Farbsättigung (Benutzeroberfläche)
 settings.editing.hue Farbton (Im Spiel)
 settings.editing.menuHue Farbton (Benutzeroberfläche)
 settings.editing.vignette Vignette
-settings.editing.feedLimit Tötungs feed Limit
+settings.editing.feedLimit Abschuss feed Limit
 settings.editing.depth Todeskarte
 settings.editing.green Grüner Bildschirm
 settings.editing.trailcol Schussflugbahn Farbe
@@ -803,7 +803,7 @@ social.market.posting Gegenstand wird gepostet...
 social.market.req Level {0} erforderlich
 social.market.cant Kannst Du Dir nicht leisten
 social.market.purchase Kaufen
-social.market.fee Keine Gebühr fürs Listen
+social.market.fee Keine Gebühr fürs auf den Markt stellen
 social.market.failed Fehlgeschlagen. Versuche es erneut.
 social.market.head Kopf-Gegenstand
 social.market.back Rücken-Gegenstand
