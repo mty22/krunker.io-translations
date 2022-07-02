@@ -172,6 +172,9 @@ settings.post.ssaoRadius Lawak ng SSAO
 settings.interface.hitInd Ipakita Ang Mga Indikator ng Hit
 settings.interface.hitColor Kulay ng Indikator ng Hit
 settings.interface.dmg Ipakita Ang Damage sa Manlalaro
+settings.interface.dmgType Show Damage
+settings.interface.dmgType.default Rounded
+settings.interface.dmgType.float Float
 settings.interface.dmgCol Kulay ng Damage sa Manlalaro
 settings.interface.critCol Kulay ng Kritikal
 settings.interface.header Itsura ng Interface
@@ -217,9 +220,11 @@ settings.interface.nametagStyle.all Lahat ng Impormasyon
 settings.interface.healthNum Bilang ng Health
 settings.interface.healthColT Kulay ng Health
 settings.interface.healthColE Nametag Health Color Enemy
+settings.interface.xpBarType XP Bar Type
 settings.interface.xpBarCol Kulay ng XP Bar
 settings.interface.xpBarCol2 XP Bar Color 2
 settings.interface.xpBarOpac Diin ng XP Bar
+settings.interface.adsObjOpac ADS Objective Opacity
 settings.medals.header Medalya
 settings.medals.show Ipakita Ang Mga Medalya
 settings.medals.classic Mga Klasikong Medalya
@@ -376,6 +381,8 @@ settings.viewmodel.weapReloadY Pag-reload sa Y axis
 settings.viewmodel.yOffADS Y Offset ng Armas
 settings.viewmodel.adsFovMlt Lakas ng ADS FOV
 settings.viewmodel.toggleADS Toggle Weapon ADS
+settings.viewmodel.wallLean Wall Slide/Jump Lean
+settings.viewmodel.wallLeanMlt Wall Slide/Jump Lean
 settings.editing.header Pag-edit
 settings.editing.health.high HUD Kapag Maraming Health
 settings.editing.health.low HUD Kapag Konti ang Health
@@ -487,6 +494,7 @@ windows.loadout.wrist Pulsuhan
 windows.loadout.stat Stat sa Killcard
 windows.loadout.flag Bandilang Pambansa
 windows.loadout.badge Custom Badge
+windows.loadout.streaks Streaks
 windows.mods.drop Ilagay ang file ng mod dito o i-click
 windows.mods.paste Ipaste Ang Mod URL
 windows.mods.load Mag-load ng Mod
@@ -556,7 +564,11 @@ windows.controls.premium1 Naka godmode
 windows.controls.premium2 Patayin
 windows.controls.premium3 Smite
 windows.controls.reset Balik sa simula (Paligsahan at Parkour)
+windows.controls.resetLast Reset To Last Checkpoint (Parkour etc)
 windows.controls.pretend Itago ang Laro
+windows.controls.noclipSB Noclip
+windows.controls.godModeSB Godmode
+windows.controls.killSB Kill
 windows.host.header Host ng Custom na Laro
 windows.host.maps Pag-setup ng Server
 windows.host.cmaps Laro mula sa Komunidad
@@ -670,6 +682,7 @@ windows.ranked.login Login upang magpataasan ng inyong rango!
 windows.ranked.level Hindi ka bababa sa Antas na <span color = "black"> level {0} </span> upang maglaro sa may ranggo. Ikaw ay kasalukuyang nasa Antas <span color = "black"> level {1} ​​</span>.
 windows.chall.header Mga Challenge
 windows.chall.login upang makumpleto ang mga challenge!
+windows.spin.header Prize Wheel
 thumbnail.upload.limit Failed. {0}kb Thumbnail Limit
 image.upload.limit Failed. {0}kb ang Limitasyon ng Larawan
 thumbnail.upload.error Nag-error ang Thumbnail
@@ -683,6 +696,7 @@ matchmaker.GameFull Puno na ang laro.
 matchmaker.NoServersMatchQuery NAG-UUPDATE ANG LARO!
 matchmaker.InvalidGameId Hindi mahanap ang laro
 matchmaker.NoAvailableServers Puno na ang mga servers
+matchmaker.NoMatchingServers No Games Found<br><small>Try changing Quickplay options</small>
 matchmaker.GameIssue Hindi matukoy ang isyu
 adblocker Tanggalin ang iyong ad-blocker upang makatanggap ng mga libreng KR.
 ad-failed Hindi Nag-load ang Ad. Subukang muli.
@@ -724,6 +738,7 @@ server.config.t3Dmg Damage ng Pangkat 3
 server.config.t4Dmg Damage ng Pangkat 4
 server.config.t5Dmg Damage ng Pangkat 5
 server.config.selTeam Piliin Ang Pangkat 
+server.config.frFire Friendly Fire
 server.config.allowSpect Panonood ng Laro
 server.config.killRewards Gantimpala kapag nakapatay
 server.config.headshotOnly Mga headshot Lamang
@@ -736,6 +751,7 @@ server.config.bDrop Mga Bullet Drops
 server.config.thirdPerson Tingin ng 3rd Person View
 server.config.requireCaptcha Kailangan ng CAPTCHA
 server.config.nameTags Itago Ang Mga Nametag
+server.config.nameTagsFR Hide Nametags (Allies)
 server.config.kCams Mga Kill Cams
 server.config.aAnon Payagan Ang Mga Anonymous
 server.config.noReload Walang Reload
@@ -751,6 +767,7 @@ server.config.scoreLimit Limitasyon ng Kalidad
 server.config.keepTScore Panatilihin Ang Marka ng Koponan
 server.config.forceC Pilitin Ang mga Klase ng Mode Lamang
 server.config.logTim Oras ng Pag-log (Paligsahan, Parkour)
+server.config.lstChkT Last Checkpoint Time Rewind (Race/Bhop)
 server.config.hitBoxPad Hitbox Padding
 server.config.hpRegen Health Regen
 server.config.disableB Huwag Paganahin ang Mga Hangganan
@@ -813,6 +830,7 @@ social.market.gift Magregalo ng KR
 social.market.gift.msg Mag-iwan ng mensahe
 respawn.auto Auto Respawning sa {0}
 custom.host.ranked Hindi ma-host habang naglalaro sa 'Ranked'
+custom.host.wager Can't host match while in Wager.
 funds.insufficient Hindi sapat na KR
 funds.out Ubos ang KR
 custom.passcode.long Masyadong mahaba ang password 
@@ -838,6 +856,11 @@ mod.reset.1 Mga Bagay sa Mapa hindi ma-reset
 windows.profile.picture Palitan ang Larawan
 stats.assists Mga Assist
 stats.nukes Mga Nuke
+stats.slimers Slimers
+stats.juggernauts Juggernauts
+stats.juggernauts.kills Juggernaut Kills
+stats.juggernauts.killed Juggernauts Killed
+stats.warmachines War Machines
 stats.melee Nasaksak
 stats.fistkills Pagbugbog
 stats.thrownkills Nabatuhan ng talim
@@ -846,6 +869,10 @@ stats.wallbangs Mga wallbang
 stats.crouches Mga pagyuko
 stats.sprays Mga pag-spray
 stats.kpd Matulunging KPD report
+stats.shots Shots
+stats.hits Hits
+stats.misses Misses
+stats.legshots Legshots
 windows.host.default.settings Ang pagpapagana ng Default na Mga Setting ay nagbibigay-daan para sa pagtatago ng Player Progress at Highscores
 windows.host.default.commands * Ang Mga Command ng Host ay Hindi Pinapagana sa mode na ito: / noclip / god / smite atbp
 windows.host.rewards Pinipilit ng pagpapagana ng KR Rewards ang Server na gumamit ng Default na Mga Setting
@@ -979,4 +1006,8 @@ server.message.kicked si {0} ay natanggal sa laro
 server.message.banned si {0} ay na-ban
 server.message.votekicked na vote-kick si {0} 
 server.message.arrested si {0} ay nahuli ng K.P.D
-`;
+event.easter.golden.spawn A Golden egg is near
+event.easter.golden.despawn A Golden egg has gone
+event.easter.found.new {0} found {1}/{2} Eggs
+event.easter.found.old You already discovered this egg!
+event.easter.completed {0} completed the Egg hunt!
