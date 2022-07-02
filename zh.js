@@ -8,9 +8,9 @@ menu.btn.settings 设置
 menu.btn.customize 自定义
 menu.btn.invite 邀请
 menu.btn.invite.clicked 已复制
-menu.btn.join 加入服务器
+menu.btn.join 加入
 menu.btn.host 创建服务器
-menu.btn.browser 浏览服务器
+menu.btn.browser 服务器
 generic.wait 请稍等…
 generic.loading 加载中…
 generic.none 无
@@ -51,8 +51,8 @@ generic.kills 击杀数
 generic.deaths 死亡数
 generic.kdr 战损率
 generic.time 时间
-generic.logout 注销
-generic.logout.sessions 为所有设备注销
+generic.logout 登出
+generic.logout.sessions 在所有设备上登出
 generic.username 输入用户名
 generic.password 输入密码
 generic.register 注册
@@ -62,7 +62,7 @@ player.waiting 等待更多玩家加入
 player.died 你死了
 player.killed 被此玩家击杀
 player.killstreak {0} on a {1} Kill Streak
-player.inactive 由于你的空闲时间过长，你已被踢出此服务器
+player.inactive 由于你长时间没有活动，你已被踢出此服务器
 player.disconnect 连接已断开
 timer.end 下一场将在{0}后开始
 leaderboard.empty 这里没有任何玩家
@@ -93,7 +93,7 @@ settings.network.header 网络
 settings.network.netRerouting 动态路由（影响网络延时）
 settings.network.netRate 网络刷新率 (Hz)
 settings.network.lagComp 延迟补偿
-settings.network.optNet 网络最优化
+settings.network.optNet 网络优化
 settings.network.quickplay 强制快速游玩
 settings.popup.header 弹窗
 settings.experimental.header 实验性
@@ -112,7 +112,7 @@ settings.client.resourceSwapper 资源转换器
 settings.client.clearCache 清除缓存
 settings.client.resetSettings 重置客户端设置
 settings.client.acceleratedCanvas 画布元素硬件加速
-settings.client.angleBackend 几乎原生图型抽象层引擎后端
+settings.client.angleBackend ANGLE后端
 settings.client.colorProfile 色彩配置文件
 settings.client.resourcePacks 资源包
 settings.dev.header 开发者
@@ -187,7 +187,7 @@ settings.interface.hideNonTrade 隐藏不可交易的皮肤
 settings.interface.hp 动态血条
 settings.interface.dmgScale 伤害值显示比例
 settings.interface.killf 显示击杀信息
-settings.interface.ping 显示网络延时
+settings.interface.ping 显示网络延迟
 settings.interface.net-stats 显示网络统计数据
 settings.interface.fps 显示帧数
 settings.interface.deaths 显示死亡数
@@ -433,8 +433,8 @@ settings.mods.dot.width 瞄准镜标线图片宽度
 settings.mods.dot.height 瞄准镜标线图片高度
 settings.mods.dot.paste 瞄准镜标线图片网址
 settings.mods.endmessage 比赛结束后自动信息
-settings.mods.profile 头像图片
-settings.mods.profile.paste 头像图片网址
+settings.mods.profile 头像
+settings.mods.profile.paste 头像网址
 settings.mods.ammo 弹药图标
 settings.mods.ammo.paste 弹药图标网址
 settings.mods.kills 击杀图标
@@ -484,7 +484,7 @@ windows.loadout.color.hair 头发颜色
 windows.loadout.dye 衣服染色
 windows.loadout.pet 宠物
 windows.loadout.wrist 手腕
-windows.loadout.stat 击杀战绩卡
+windows.loadout.stat 击杀卡片战绩
 windows.loadout.flag 国家和地区旗帜
 windows.loadout.badge 特殊徽章
 windows.mods.drop 将模组文件放在此处或点击
@@ -689,13 +689,13 @@ ad-failed 广告加载失败，请稍后重试。
 streamers.views {0}个观众
 streamers.none 当前没有任何Twitch直播！
 error.extentions 如果你有任何浏览器插件，请禁用它们
-error.seek 点此搜索新的游戏
+error.seek 点此寻找新的游戏
 custom.map.upload.limit 上传失败，地图数据大小上限为500kb
 custom.map.missing 请选择至少一种地图
 custom.mode.missing 请选择至少一种游戏模式
 custom.class.missing 请选择至少一种职业
 server.config.maxPlayers 最大玩家数
-server.config.minPlayers 最少玩家数
+server.config.minPlayers 最小玩家数
 server.config.lives 玩家生命数
 server.config.gameTime 每局时间（分钟）
 server.config.gravMlt 重力
@@ -798,7 +798,7 @@ social.market.wrist 手腕物品
 social.market.melee 近战武器
 social.market.spray 喷漆
 social.market.dye 衣服染色
-social.market.collectible 可收集物品
+social.market.collectible 原材料
 social.market.none 没有找到任何物品
 social.market.login 你必须先登录。
 social.market.grace {0}后上架
@@ -816,7 +816,7 @@ custom.host.ranked 排位赛中无法创建自定义服务器。
 funds.insufficient 资金余额不足
 funds.out 你似乎没有KR了
 custom.passcode.long 密码过长
-custom.passcode.input 请输入此服务器密码以加入游戏
+custom.passcode.input 请输入服务器密码以加入
 custom.tryagain 请重试。
 purchase.kr.success 已添加{0}KR到你的账户
 limited.purchase.ask 你确定要以{1}KR购买[{0}]吗？
@@ -838,7 +838,7 @@ mod.reset.1 地图物品不会被重置。
 windows.profile.picture 更改头像
 stats.assists 助攻数
 stats.nukes 核弹数
-stats.melee 近战击杀数
+stats.melee 近战武器击杀数
 stats.fistkills 空手击杀数
 stats.thrownkills 投掷击杀数
 stats.headshots 爆头数
@@ -896,7 +896,7 @@ social.trades.decline 全部拒绝
 social.trades.message 在市场设置中启用「显示交易信息」选项
 social.trades.warning 你将不会在此交易中得到任何物品！
 social.trades.accept 你确定要接受此交易请求吗？
-stats.airdrops 空投
+stats.airdrops 召唤空投次数
 stats.airdrops.stolen 偷取空投次数
 settings.quality.flapAnim 狙击镜保护盖动画
 chall.name.hs 在{1}取得{0}个爆头
@@ -965,7 +965,7 @@ commands.spraybypass.off.other 无限喷漆 - 已为{0}禁用
 commands.suspect.invalid 无效的嫌疑玩家信息
 commands.suspect.menu 嫌疑玩家在标题画面
 commands.suspect.left 嫌疑玩家已离开
-commands.suspect.found 已找到嫌疑玩家。是否在旁观：{0}，是否在地图内：{1}，名称：{2}
+commands.suspect.found 已找到嫌疑玩家。是否在观战：{0}，是否在地图内：{1}，名称：{2}
 commands.forfeit.next 必须先完成一个回合
 commands.forfeit.wait 等待至回合开始后才能发起投降
 commands.forfeit.later 请等待数秒后再重试
@@ -976,7 +976,7 @@ commands.forfeit.ended.other 敌方队伍已投降
 server.message.join {0}已加入此服务器
 server.message.left {0}已离开此服务器
 server.message.kicked {0}已被踢出
-server.message.banned {0}已被封禁並踢出
+server.message.banned {0}已被封禁并踢出
 server.message.votekicked {0}已被投票踢出
 server.message.arrested {0}已被K.P.D逮捕
 `;
