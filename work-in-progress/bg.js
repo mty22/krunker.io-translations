@@ -172,6 +172,9 @@ settings.post.ssaoRadius Радиус на ССАО
 settings.interface.hitInd Показвай индикатора при удар
 settings.interface.hitColor Цвят на индикатора при удар
 settings.interface.dmg Показвай щетите
+settings.interface.dmgType Show Damage
+settings.interface.dmgType.default Rounded
+settings.interface.dmgType.float Float
 settings.interface.dmgCol Цвят на щетите
 settings.interface.critCol цвят на Критични удари
 settings.interface.header Интерфейс
@@ -217,9 +220,11 @@ settings.interface.nametagStyle.all Всичко
 settings.interface.healthNum Числа за табелка за здраве
 settings.interface.healthColT Цвят на съотборниковата табелка за здраве
 settings.interface.healthColE Цвят на противниковата табелка за здраве
+settings.interface.xpBarType XP Bar Type
 settings.interface.xpBarCol Цвят на лентата с XP
 settings.interface.xpBarCol2 Цвят на лентата с XP 2
 settings.interface.xpBarOpac Прозрачност на лентата с XP
+settings.interface.adsObjOpac ADS Objective Opacity
 settings.medals.header Медали
 settings.medals.show Покажи медалите
 settings.medals.classic Класически медали
@@ -376,6 +381,8 @@ settings.viewmodel.weapReloadY Презареждане на оръжието Y
 settings.viewmodel.yOffADS Насочени надолу мерници Y Изместване на оръжието
 settings.viewmodel.adsFovMlt Сила на насочени надолу мерници на полезрението
 settings.viewmodel.toggleADS Превключване на насочени надолу мерници за оръжие
+settings.viewmodel.wallLean Wall Slide/Jump Lean
+settings.viewmodel.wallLeanMlt Wall Slide/Jump Lean
 settings.editing.header Редактиране
 settings.editing.health.high HUD Високо Здраве
 settings.editing.health.low HUD Ниско здраве
@@ -487,6 +494,7 @@ windows.loadout.wrist Вещ за китката
 windows.loadout.stat Статистика на картата за убийство
 windows.loadout.flag Флаг на държавата
 windows.loadout.badge Персонализирана значка
+windows.loadout.streaks Streaks
 windows.mods.drop сложете файла с мода тук
 windows.mods.paste Сложете URL на мода
 windows.mods.load зареди мод
@@ -556,7 +564,11 @@ windows.controls.premium1 Режим бог
 windows.controls.premium2 Убий
 windows.controls.premium3 Порази
 windows.controls.reset Рестартиране
+windows.controls.resetLast Reset To Last Checkpoint (Parkour etc)
 windows.controls.pretend Скрий играта
+windows.controls.noclipSB Noclip
+windows.controls.godModeSB Godmode
+windows.controls.killSB Kill
 windows.host.header Хостнете персонализирана игра
 windows.host.maps Настройка на сървъра
 windows.host.cmaps Общностна игра
@@ -670,6 +682,7 @@ windows.ranked.login Логин да играете в класирани игр
 windows.ranked.level Трябва да си поне <span color="black">ниво {0}</span> да играете в класирани игри! Точно сега сте в<span color="black">ниво {1}</span>.
 windows.chall.header Предизвикателства
 windows.chall.login Логин за да завършите предизвикателствата!
+windows.spin.header Prize Wheel
 thumbnail.upload.limit Се провали. {0}kb ограничение за намалената версия на снимката
 image.upload.limit Се провали. {0}kb ограничение на снимката
 thumbnail.upload.error Грешка в намалената версия на снимката
@@ -683,6 +696,7 @@ matchmaker.GameFull Играта е пълна.
 matchmaker.NoServersMatchQuery АКТУАЛИЗИРАНЕ НА ИГРАТА
 matchmaker.InvalidGameId Играта не е намерена.
 matchmaker.NoAvailableServers Сървърите са с максимален капацитет
+matchmaker.NoMatchingServers No Games Found<br><small>Try changing Quickplay options</small>
 matchmaker.GameIssue Неизвестен проблем с присъединяването
 adblocker Деактивирайте вашия рекламен блокер, за да получите безплатни Krunkies.
 ad-failed Рекламата не се зареди. Опитай пак.
@@ -724,6 +738,7 @@ server.config.t3Dmg Щети на отбор 3
 server.config.t4Dmg Щети на отбор 4
 server.config.t5Dmg Щети на отбор 5
 server.config.selTeam Избиране на отбор
+server.config.frFire Friendly Fire
 server.config.allowSpect Наблюдение
 server.config.killRewards Награди на убийство
 server.config.headshotOnly Изстрели в главата само
@@ -736,6 +751,7 @@ server.config.bDrop Забавяне на куршум
 server.config.thirdPerson 3-то лице
 server.config.requireCaptcha Изискване на Капча
 server.config.nameTags Скриване на имената
+server.config.nameTagsFR Hide Nametags (Allies)
 server.config.kCams Кам на убийство
 server.config.aAnon Разрешаване на анонимни 
 server.config.noReload Без презареждане
@@ -751,6 +767,7 @@ server.config.scoreLimit Лимит на точките
 server.config.keepTScore Запазете отборния резултат
 server.config.forceC Класове в силов режим
 server.config.logTim Регистрирано време (състезание, паркур)
+server.config.lstChkT Last Checkpoint Time Rewind (Race/Bhop)
 server.config.hitBoxPad Подплънка на хитбокс
 server.config.hpRegen Регенериране на живот 
 server.config.disableB Деактивирайте границите
@@ -813,6 +830,7 @@ social.market.gift Подари KR
 social.market.gift.msg Остави съобщение
 respawn.auto Автоматично възстановяване в {0}
 custom.host.ranked Не може да създадете мач, докато сте в класиране.
+custom.host.wager Can't host match while in Wager.
 funds.insufficient Недостатъчни средства
 funds.out Изглежда, че сте нямате повече Krunkies.
 custom.passcode.long Паролата е твърде дълга
@@ -838,6 +856,11 @@ mod.reset.1 Обектите на играта не се нулират
 windows.profile.picture Промяна на картината
 stats.assists Асистенции
 stats.nukes Бомби
+stats.slimers Slimers
+stats.juggernauts Juggernauts
+stats.juggernauts.kills Juggernaut Kills
+stats.juggernauts.killed Juggernauts Killed
+stats.warmachines War Machines
 stats.melee Убийство с острие
 stats.fistkills Разбивания
 stats.thrownkills Убийство с хвърляне на острие
@@ -846,6 +869,10 @@ stats.wallbangs Удар през стена
 stats.crouches Свиване
 stats.sprays Поставени спрейове
 stats.kpd Полезни доклади
+stats.shots Shots
+stats.hits Hits
+stats.misses Misses
+stats.legshots Legshots
 windows.host.default.settings Активирането на настройките по подразбиране позволява съхраняване на напредъка на играча и най-високите резултати
 windows.host.default.commands *Командите на домакин са деактивирани в този режим: /Без клип /Режим бог /Порази и т.н
 windows.host.rewards Активирането на KR Награди принуждава сървъра да използва настройки по подразбиране и позволява на играчите да печелят KR от средствата на играта:
@@ -979,4 +1006,8 @@ server.message.kicked {0} was kicked
 server.message.banned {0} was banned
 server.message.votekicked {0} was vote kicked
 server.message.arrested {0} was arrested by the K.P.D
-`;
+event.easter.golden.spawn A Golden egg is near
+event.easter.golden.despawn A Golden egg has gone
+event.easter.found.new {0} found {1}/{2} Eggs
+event.easter.found.old You already discovered this egg!
+event.easter.completed {0} completed the Egg hunt!
