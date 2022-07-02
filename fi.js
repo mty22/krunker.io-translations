@@ -172,6 +172,9 @@ settings.post.ssaoRadius SSAO Säde
 settings.interface.hitInd Näytä Osumien Ilmoitukset
 settings.interface.hitColor Osuman Ilmoituksen Väri
 settings.interface.dmg Näytä Vahinko
+settings.interface.dmgType Show Damage
+settings.interface.dmgType.default Rounded
+settings.interface.dmgType.float Float
 settings.interface.dmgCol Vahingon Väri
 settings.interface.critCol Kriittisen Vahingon Väri
 settings.interface.header Käyttöliittymä
@@ -217,9 +220,11 @@ settings.interface.nametagStyle.all Kaikki
 settings.interface.healthNum HP-Pisteet Nimimerkissä
 settings.interface.healthColT Oman Tiimin Nimimerkkien Väri
 settings.interface.healthColE Vihollistiimin Nimierkkien Väri
+settings.interface.xpBarType XP Bar Type
 settings.interface.xpBarCol XP-palkin Väri
 settings.interface.xpBarCol2 XP-palkin Väri 2
 settings.interface.xpBarOpac XP-palkin Läpinäkyvyys
+settings.interface.adsObjOpac ADS Objective Opacity
 settings.medals.header Mitalit
 settings.medals.show Näytä Mitalit
 settings.medals.classic Vanhat Mitalit
@@ -376,6 +381,8 @@ settings.viewmodel.weapReloadY Aseen Lataus (Y)
 settings.viewmodel.yOffADS Aseen Sijainti Tähdätessä (Y)
 settings.viewmodel.adsFovMlt FOVin Voimakkuus Tähdätessä
 settings.viewmodel.toggleADS Vaihda Aseen Tähtäysasento
+settings.viewmodel.wallLean Wall Slide/Jump Lean
+settings.viewmodel.wallLeanMlt Wall Slide/Jump Lean
 settings.editing.header Editoi
 settings.editing.health.high HUD Elämiä Paljon
 settings.editing.health.low HUD Elämiä Vähän
@@ -487,6 +494,7 @@ windows.loadout.wrist Ranne
 windows.loadout.stat Tappokortin Tilastot
 windows.loadout.flag Maan Lippu
 windows.loadout.badge Kustomoitu Merkki
+windows.loadout.streaks Streaks
 windows.mods.drop tiputa mod-tiedosto tähän tai klikkaa
 windows.mods.paste Liitä Modin URL
 windows.mods.load Lataa Modi
@@ -556,7 +564,11 @@ windows.controls.premium1 Jumala-tila
 windows.controls.premium2 Tappo
 windows.controls.premium3 Smite
 windows.controls.reset Nollaa Sijainti (Race & Parkour)
+windows.controls.resetLast Reset To Last Checkpoint (Parkour etc)
 windows.controls.pretend Piilota Peli
+windows.controls.noclipSB Noclip
+windows.controls.godModeSB Godmode
+windows.controls.killSB Kill
 windows.host.header Luo Kustomoitu Peli
 windows.host.maps Palvelinasetukset
 windows.host.cmaps Yhteisöpelit
@@ -670,6 +682,7 @@ windows.ranked.login pelataksesi kilpailullisia pelejä!
 windows.ranked.level Sinun pitää olla vähintään <span color="black">taso {0}</span> pelataksesi kilpailullisia pelejä! Tällä hetkellä olet <span color="black">taso {1}</span>.
 windows.chall.header Haasteet
 windows.chall.login aloittaaksesi haasteet!
+windows.spin.header Prize Wheel
 thumbnail.upload.limit Epäonnistui. Pikkukuvan minimi tiedostokoko {0}kb
 image.upload.limit Epäonnistui. Kuvan minimi tiedostokoko on {0}kb
 thumbnail.upload.error Pikkukuva - Virhe
@@ -683,6 +696,7 @@ matchmaker.GameFull Peli on täysi.
 matchmaker.NoServersMatchQuery PELI PÄIVITTYY
 matchmaker.InvalidGameId Peliä ei löytynyt.
 matchmaker.NoAvailableServers Serverit ovat Maksimikapasiteetilla
+matchmaker.NoMatchingServers No Games Found<br><small>Try changing Quickplay options</small>
 matchmaker.GameIssue Tuntematon Liittymisongelma
 adblocker Poista adblock käytöstä saadaksesi ilmaisia Krunkieita.
 ad-failed Mainoksen Lataaminen Epäonnistui. Yritä Uudelleen.
@@ -724,6 +738,7 @@ server.config.t3Dmg Tiimin 3 Vahinko
 server.config.t4Dmg Tiimin 4 Vahinko
 server.config.t5Dmg Tiimin 5 Vahinko
 server.config.selTeam Valitse Tiimi
+server.config.frFire Friendly Fire
 server.config.allowSpect Katsotaan
 server.config.killRewards Tappopalkinnot
 server.config.headshotOnly Ainoastaan Pääosumat
@@ -736,6 +751,7 @@ server.config.bDrop Luotien Putoaminen
 server.config.thirdPerson Kolmas Persoona
 server.config.requireCaptcha Vaadi Captchaa
 server.config.nameTags Piilota Pelinimet
+server.config.nameTagsFR Hide Nametags (Allies)
 server.config.kCams Tappokamerat
 server.config.aAnon Salli Anonyymiys
 server.config.noReload Ei Aseen Lataamista
@@ -751,6 +767,7 @@ server.config.scoreLimit Pisteraja
 server.config.keepTScore Pidä Tiimin Pisteet
 server.config.forceC Pakota Pelimuodon Hahmot
 server.config.logTim Lokiaika (Race, Parkour)
+server.config.lstChkT Last Checkpoint Time Rewind (Race/Bhop)
 server.config.hitBoxPad Osumalaatikoiden Pehmennys
 server.config.hpRegen HP:n Regenerointi
 server.config.disableB Poista Reunat
@@ -813,6 +830,7 @@ social.market.gift Lahjoita KR:ää
 social.market.gift.msg Jätä viesti
 respawn.auto Uudelleensynnytään {0} sekunnin kuluttua
 custom.host.ranked Et voi luoda peliä ollessasi kilpailullisessa
+custom.host.wager Can't host match while in Wager.
 funds.insufficient Ei ole varaa
 funds.out Sinulla ei ole tarpeeksi Krunkieita.
 custom.passcode.long Salasana liian pitkä
@@ -838,6 +856,11 @@ mod.reset.1 Kartan Objektit eivät nollaudu
 windows.profile.picture Vaihta profiilikuva
 stats.assists Avustukset
 stats.nukes Ydinpommit
+stats.slimers Slimers
+stats.juggernauts Juggernauts
+stats.juggernauts.kills Juggernaut Kills
+stats.juggernauts.killed Juggernauts Killed
+stats.warmachines War Machines
 stats.melee Melee-tapot
 stats.fistkills Nyrkkitapot
 stats.thrownkills Heittotapot
@@ -846,6 +869,10 @@ stats.wallbangs Wallbangit
 stats.crouches Kyykyt
 stats.sprays Sprayta Maalattu
 stats.kpd Hyödylliset Ilmiannot
+stats.shots Shots
+stats.hits Hits
+stats.misses Misses
+stats.legshots Legshots
 windows.host.default.settings Oletusasetusten ottaminen käyttöön mahdollistaa pelaajan edistymisen ja huipputulosten tallentamisen
 windows.host.default.commands *Palvelinomistajan komennot ovat pois päältä tällä modella: /noclip /god /smite etc
 windows.host.rewards Ottaessasi käyttöön KR-Palkinnot peli pakottaa palvelimen käyttämään Default-asetuksia & antaa pelaajien saada KR:ää kartan rahastosta.
@@ -979,4 +1006,8 @@ server.message.kicked {0} potkaistiin ulos
 server.message.banned {0}:lle annettiin porttikielto
 server.message.votekicked {0} äänestettiin ulos
 server.message.arrested K.P.D pidätti pelaajan {0}
-`;
+event.easter.golden.spawn A Golden egg is near
+event.easter.golden.despawn A Golden egg has gone
+event.easter.found.new {0} found {1}/{2} Eggs
+event.easter.found.old You already discovered this egg!
+event.easter.completed {0} completed the Egg hunt!
