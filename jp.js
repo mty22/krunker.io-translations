@@ -1009,5 +1009,5 @@ server.message.arrested {0}がK.P.Dにより逮捕されました
 event.easter.golden.spawn 金色の卵が近い
 event.easter.golden.despawn 金色の卵が消失した
 event.easter.found.new {0} found {1}/{2} Eggs
-event.easter.found.old 発見済みです！
+event.easter.found.old この卵は発見済みです！
 event.easter.completed {0} エッグハントを完了しました！
