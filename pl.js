@@ -172,6 +172,9 @@ settings.post.ssaoRadius Promień SSAO
 settings.interface.hitInd Wyświetlaj wskaźniki trafień
 settings.interface.hitColor Kolor wskaźników trafień
 settings.interface.dmg Wyświetlaj obrażenia
+settings.interface.dmgType Show Damage
+settings.interface.dmgType.default Rounded
+settings.interface.dmgType.float Float
 settings.interface.dmgCol Kolor obrażeń
 settings.interface.critCol Kolor obrażeń krytycznych
 settings.interface.header Interfejs
@@ -217,9 +220,11 @@ settings.interface.nametagStyle.all Wszystko
 settings.interface.healthNum Liczba HP w nazwie
 settings.interface.healthColT Kolor HP drużyny
 settings.interface.healthColE Kolor HP przeciwników
+settings.interface.xpBarType XP Bar Type
 settings.interface.xpBarCol Kolor paska XP
 settings.interface.xpBarCol2 Kolor paska XP 2
 settings.interface.xpBarOpac Przezroczystość paska XP
+settings.interface.adsObjOpac ADS Objective Opacity
 settings.medals.header Medale
 settings.medals.show Pokazuj medale
 settings.medals.classic Medale klasyczne
@@ -376,6 +381,8 @@ settings.viewmodel.weapReloadY Przesunięcie Y podczas przeładowywania
 settings.viewmodel.yOffADS Przesunięcie Y podczas celowania
 settings.viewmodel.adsFovMlt Powiększenie podczas celowania
 settings.viewmodel.toggleADS Przełączanie celowania
+settings.viewmodel.wallLean Wall Slide/Jump Lean
+settings.viewmodel.wallLeanMlt Wall Slide/Jump Lean
 settings.editing.header Edycja
 settings.editing.health.high Wysokie HP w HUD
 settings.editing.health.low Niskie HP w HUD
@@ -487,6 +494,7 @@ windows.loadout.wrist Nadgarstek
 windows.loadout.stat Statystyki przy zabiciu
 windows.loadout.flag Flaga kraju
 windows.loadout.badge Niestandardowa odznaka
+windows.loadout.streaks Streaks
 windows.mods.drop upuść tu plik modyfikacji lub naciśnij
 windows.mods.paste Wklej URL modyfikacji
 windows.mods.load Wczytaj
@@ -556,7 +564,11 @@ windows.controls.premium1 Godmode
 windows.controls.premium2 Kill
 windows.controls.premium3 Smite
 windows.controls.reset Resetuj pozycję (Parkour, itd.)
+windows.controls.resetLast Reset To Last Checkpoint (Parkour etc)
 windows.controls.pretend Ukryj grę
+windows.controls.noclipSB Noclip
+windows.controls.godModeSB Godmode
+windows.controls.killSB Kill
 windows.host.header Utwórz niestandardową grę
 windows.host.maps Ustaw serwer
 windows.host.cmaps Gra społeczności
@@ -670,6 +682,7 @@ windows.ranked.login by grać rankingowe gry!
 windows.ranked.level Musisz mieć co najmniej <span color="black">{0} poziom</span> aby grać rankingowe gry! Aktualnie masz <span color="black">{1} poziom</span>.
 windows.chall.header Wyzwania
 windows.chall.login by wykonywać wyzwania!
+windows.spin.header Prize Wheel
 thumbnail.upload.limit Niepowodzenie. Limit rozmiaru miniaturki to {0}kb
 image.upload.limit Niepowodzenie. Limit rozmiaru obrazu to {0}kb
 thumbnail.upload.error Błąd miniaturki
@@ -683,6 +696,7 @@ matchmaker.GameFull Gra pełna.
 matchmaker.NoServersMatchQuery GRA AKTUALIZUJE SIĘ
 matchmaker.InvalidGameId Gry nie znaleziono.
 matchmaker.NoAvailableServers Serwery są pełne
+matchmaker.NoMatchingServers No Games Found<br><small>Try changing Quickplay options</small>
 matchmaker.GameIssue Nieznany błąd dołączania
 adblocker Wyłącz adblock aby otrzymywać darmowe KR.
 ad-failed Nie udało się załadować reklamy. Spróbuj ponownie.
@@ -724,6 +738,7 @@ server.config.t3Dmg Obrażenia drużyny 3
 server.config.t4Dmg Obrażenia drużyny 4
 server.config.t5Dmg Obrażenia drużyny 5
 server.config.selTeam Wybieranie drużyn
+server.config.frFire Friendly Fire
 server.config.allowSpect Zezwalaj na oglądanie
 server.config.killRewards Nagrody za zabójstwa
 server.config.headshotOnly Tylko strzały w głowę
@@ -736,6 +751,7 @@ server.config.bDrop Upadek pocisków
 server.config.thirdPerson Tryb trzecioosobowy
 server.config.requireCaptcha Wymagaj captchy
 server.config.nameTags Ukryj nazwy nad graczami
+server.config.nameTagsFR Hide Nametags (Allies)
 server.config.kCams Kamery zabójstw
 server.config.aAnon Zezwalaj na korzystanie z trybu anonimowego
 server.config.noReload Bez przeładowywania
@@ -751,6 +767,7 @@ server.config.scoreLimit Limit wyniku
 server.config.keepTScore Zachowaj wynik zespołu
 server.config.forceC Wymuś klasy trybu
 server.config.logTim Zapisywanie czasu (Race, Parkour)
+server.config.lstChkT Last Checkpoint Time Rewind (Race/Bhop)
 server.config.hitBoxPad Hitbox Padding
 server.config.hpRegen Regeneracja życia
 server.config.disableB Wyłącz granice map
@@ -813,6 +830,7 @@ social.market.gift Wyślij KR
 social.market.gift.msg Zostaw wiadomość
 respawn.auto Automatyczne odrodzenie za {0}
 custom.host.ranked Nie możesz utworzyć gry niestandardowej, gdy grasz w trybie rankingowym.
+custom.host.wager Can't host match while in Wager.
 funds.insufficient Niewystarczające fundusze
 funds.out Wygląda na to, że skończyło Ci się KR.
 custom.passcode.long Zbyt długie hasło
@@ -838,6 +856,11 @@ mod.reset.1 Obiekty na mapie nie ulegają resetowi
 windows.profile.picture Zmień zdjęcie profilowe
 stats.assists Asysty
 stats.nukes Zrzucone bomby
+stats.slimers Slimers
+stats.juggernauts Juggernauts
+stats.juggernauts.kills Juggernaut Kills
+stats.juggernauts.killed Juggernauts Killed
+stats.warmachines War Machines
 stats.melee Zabójstwa nożem
 stats.fistkills Zabójstwa w wyniku pobicia
 stats.thrownkills Zabójstwa przez rzut nożem
@@ -846,6 +869,10 @@ stats.wallbangs Trafienia przez ściany
 stats.crouches Przykucnięcia
 stats.sprays Użycia sprayów
 stats.kpd Pomocne reporty
+stats.shots Shots
+stats.hits Hits
+stats.misses Misses
+stats.legshots Legshots
 windows.host.default.settings Włączenie domyślnych ustawień pozwala na przechowywanie postępu graczy oraz najwyższych wyników
 windows.host.default.commands Komendy hosta są wyłączone w tym trybie: /noclip /god /smite itp
 windows.host.rewards Włączenie nagród KR zmusza serwer do używania domyślnych ustawień i pozwala graczom zdobywać KR z funduszy mapy:
@@ -979,4 +1006,8 @@ server.message.kicked {0} został wyrzucony
 server.message.banned {0} został zbanowany
 server.message.votekicked {0} został wyrzucony przez głosowanie
 server.message.arrested {0} został aresztowany przez K.P.D.
-`;
+event.easter.golden.spawn A Golden egg is near
+event.easter.golden.despawn A Golden egg has gone
+event.easter.found.new {0} found {1}/{2} Eggs
+event.easter.found.old You already discovered this egg!
+event.easter.completed {0} completed the Egg hunt!
