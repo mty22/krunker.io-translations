@@ -360,9 +360,9 @@ settings.audio.dialogue অ্যাকশন ভলিউম
 settings.viewmodel.header মডেল দেখুন
 settings.viewmodel.vmSetts মডেল সেটিংস দেখুন
 settings.viewmodel.fov Field of View (FOV)
-settings.viewmodel.fps Weapon FOV
-settings.viewmodel.bobbing Weapon Bobbing
-settings.viewmodel.leaning Weapon Leaning
+settings.viewmodel.fps অস্ত্র FOV
+settings.viewmodel.bobbing অস্ Bobbing
+settings.viewmodel.leaning অস্ Leaning
 settings.viewmodel.show.primary প্রথম অস্ত্র দেখাব
 settings.viewmodel.show.secondary দ্বিতীয় অস্ত্র দেখাব
 settings.viewmodel.roundArms Rounded Arms
@@ -373,559 +373,559 @@ settings.viewmodel.show.hands হাত দেখাব
 settings.viewmodel.leftHand বাঁ হাতী
 settings.viewmodel.aimAnim Weapon Aim Animation
 settings.viewmodel.rot অস্ত্রের ঘূর্ণন
-settings.viewmodel.xOff Weapon X Offset
-settings.viewmodel.yOff Weapon Y Offset
-settings.viewmodel.zOff Weapon Z Offset
-settings.viewmodel.weapSwapY Weapon Swap Y
-settings.viewmodel.weapReloadY Weapon Reload Y
-settings.viewmodel.yOffADS Weapon ADS Y Offset
-settings.viewmodel.adsFovMlt Weapon ADS FOV Power
+settings.viewmodel.xOff অস্ X Offset
+settings.viewmodel.yOff অস্ Y Offset
+settings.viewmodel.zOff অস্ Z Offset
+settings.viewmodel.weapSwapY অস্ Swap Y
+settings.viewmodel.weapReloadY অস্ Reload Y
+settings.viewmodel.yOffADS অস্ ADS Y Offset
+settings.viewmodel.adsFovMlt অস্ ADS FOV Power
 settings.viewmodel.toggleADS Toggle Weapon ADS
 settings.viewmodel.wallLean Wall Slide/Jump Lean
 settings.viewmodel.wallLeanMlt Wall Slide/Jump Lean
 settings.editing.header Editing
 settings.editing.health.high HUD Health High
 settings.editing.health.low HUD Health Low
-settings.editing.speedLines Speed Lines
-settings.editing.spdLinesCol Speed Lines Color
-settings.editing.score.color Popup Score Color
-settings.editing.score.show Show Popup Score
-settings.editing.score.scale Popup Score Scale
-settings.editing.score.shadow Popup Score Shadow
-settings.editing.scoreOffX Popup Score X Offset
-settings.editing.scoreOffY Popup Score Y Offset
-settings.editing.prog.color Progress Bar Color
-settings.editing.prog.opacity Progress Bar Opacity
-settings.editing.prog.scale Progress Bar Scale
-settings.editing.prog.shadow Progress Bar Shadow
-settings.editing.progOffX Progress Bar X Offset
-settings.editing.progOffY Progress Bar Y Offset
-settings.editing.progRot Progress Bar Rotation
-settings.editing.progm.color Charge Bar Color
-settings.editing.progmo.color Overcharge Color
-settings.editing.progm.opacity Charge Bar Opacity
-settings.editing.progm.scale Charge Bar Scale
-settings.editing.progm.shadow Charge Bar Shadow
-settings.editing.progmOffX Charge Bar X Offset
-settings.editing.progmOffY Charge Bar Y Offset
-settings.editing.progmRot Charge Bar Rotation
-settings.editing.saturation Saturation (In-game)
-settings.editing.menuSaturation Saturation (UI)
-settings.editing.hue Color Hue (In-game)
-settings.editing.menuHue Color Hue (UI)
-settings.editing.vignette Vignette
-settings.editing.feedLimit Killfeed Limit
-settings.editing.depth Depth Map
-settings.editing.green Green Screen
-settings.editing.trailcol Bullet Trail Color
-settings.editing.ropecol Grapple Rope Color
+settings.editing.speedLines দ্রুততা Lines
+settings.editing.spdLinesCol দ্রুততা Lines রঙ
+settings.editing.score.color পপআপ স্কোর রঙ
+settings.editing.score.show দেখান পপআপ স্কোর
+settings.editing.score.scale পপআপ স্কোর স্কেল
+settings.editing.score.shadow পপআপ স্কোর ছায়া
+settings.editing.scoreOffX পপআপ স্কোর X অফসেট
+settings.editing.scoreOffY পপআপ স্কোর Y অফসেট
+settings.editing.prog.color অগ্রগতি বার রঙ
+settings.editing.prog.opacity অগ্রগতি বার অস্বচ্ছতা
+settings.editing.prog.scale অগ্রগতি বার স্কেল
+settings.editing.prog.shadow Progress বার ছায়া
+settings.editing.progOffX অগ্রগতি বার X অফসেট
+settings.editing.progOffY অগ্রগতি বার Y অফসেট
+settings.editing.progRot অগ্রগতি বার ঘূর্ণন
+settings.editing.progm.color চার্জ বার রঙ
+settings.editing.progmo.color ওভারচার্জ রঙ
+settings.editing.progm.opacity চার্জ বার অস্বচ্ছতা
+settings.editing.progm.scale চার্জ বার স্কেল
+settings.editing.progm.shadow চার্জ বার ছায়া
+settings.editing.progmOffX চার্জ বার X অফসেট
+settings.editing.progmOffY চার্জ বার Y অফসেট
+settings.editing.progmRot চার্জ বার ঘূর্ণন
+settings.editing.saturation স্যাচুরেশন (In-game)
+settings.editing.menuSaturation স্যাচুরেশন (UI)
+settings.editing.hue রঙ Hue (In-game)
+settings.editing.menuHue রঙ Hue (UI)
+settings.editing.vignette ভিগনেট
+settings.editing.feedLimit Killfeed সীমা
+settings.editing.depth গভীরতা মানচিত্র
+settings.editing.green সবুজ Screen
+settings.editing.trailcol Bullet ট্রেইল রঙ
+settings.editing.ropecol গ্র্যাপল Rope রঙ
 settings.editing.tracercol Bullet Tracers
 settings.editing.tracer Bullet Tracers
-settings.editing.tracer.offset Tracer Offset
-settings.shaders.header Shader Inputs
-settings.mods.header Customization
-settings.mods.load Load Mods
-settings.mods.logo Allow Logo Changes
-settings.mods.auto Auto-Load Mod
-settings.mods.borders Scope Borders
-settings.mods.borderCol Scope Borders
-settings.mods.borderOpac Scope Borders Opacity
-settings.mods.scope Scope Image
-settings.mods.scope.paste Scope Image URL
-settings.mods.scope.opacity Scope Opacity
-settings.mods.scope.width Scope Image Width
-settings.mods.scope.height Scope Image Height
+settings.editing.tracer.offset Tracer অফসেট
+settings.shaders.header শেডর ইনপুট
+settings.mods.header কাস্টমাইজেশন
+settings.mods.load ভার মোডস
+settings.mods.logo অনুমতি দিন লোগো Changes
+settings.mods.auto অটো-ভার Mod
+settings.mods.borders ব্যাপ্তি Borders
+settings.mods.borderCol ব্যাপ্তি Borders
+settings.mods.borderOpac ব্যাপ্তি Borders অস্বচ্ছতা
+settings.mods.scope ব্যাপ্তি Image
+settings.mods.scope.paste ব্যাপ্তি Image URL
+settings.mods.scope.opacity ব্যাপ্তি অস্বচ্ছতা
+settings.mods.scope.width ব্যাপ্তি Image প্রস্থ
+settings.mods.scope.height ব্যাপ্তি Image উচ্চতা
 settings.mods.dot Reticle Image
-settings.mods.dot.width Reticle Image Width
-settings.mods.dot.height Reticle Image Height
+settings.mods.dot.width Reticle Image প্রস্থ
+settings.mods.dot.height Reticle Image উচ্চতা
 settings.mods.dot.paste Reticle URL
-settings.mods.endmessage Match End Message
-settings.mods.profile Profile Image
-settings.mods.profile.paste Profile Image URL
-settings.mods.ammo Ammo Icon Image
-settings.mods.ammo.paste Ammo Icon Image URL
-settings.mods.kills Kills Icon Image
-settings.mods.kills.paste Kills Icon Image URL
-settings.mods.deaths Deaths Icon Image
-settings.mods.deaths.paste Deaths Icon Image URL
-settings.mods.streak Streak Counter Icon Image
-settings.mods.streak.paste Streak Counter Icon Image URL
-settings.mods.timer Timer Icon Image
-settings.mods.timer.paste Timer Icon Image URL
-settings.mods.usedamage Use Damage Overlay
-settings.mods.damage Damage Overlay Image
-settings.mods.damage.paste Damage Overlay Image URL
-settings.mods.overlay Game Overlay Image
-settings.mods.overlay.paste Game Overlay Image URL
-settings.social.region Region Stats
-settings.social.bg Background Image
-settings.social.bg.paste Background Image URL
-windows.settings.header Game Settings
-windows.mail.header Krunker Mail
-windows.servers.header Servers
-windows.servers.none No Joinable Games Found...
-windows.servers.host + Host Game
-windows.servers.hide Hide Full
-windows.servers.priority Region Priority
-windows.servers.online {0} In Game
-windows.servers.social {0} on Social
-windows.servers.editor {0} in Editor
-windows.loadout.header Change Loadout
-windows.loadout.class Class
-windows.loadout.primary Primary
-windows.loadout.primary.attach Attachment
+settings.mods.endmessage ম্যাচ End বার্তা
+settings.mods.profile প্রোফাইল Image
+settings.mods.profile.paste প্রোফাইল Image URL
+settings.mods.ammo Ammo আইকন Image
+settings.mods.ammo.paste Ammo আইকন Image URL
+settings.mods.kills হত্যা করে আইকন Image
+settings.mods.kills.paste হত্যা করে আইকন Image URL
+settings.mods.deaths Deaths আইকন Image
+settings.mods.deaths.paste Deaths আইকন Image URL
+settings.mods.streak স্ট্রিক কাউন্টার আইকন Image
+settings.mods.streak.paste স্ট্রিক কাউন্টার আইকন Image URL
+settings.mods.timer টাইমার আইকন Image
+settings.mods.timer.paste টাইমার আইকন Image URL
+settings.mods.usedamage ব্যবহার করুন Damage ওভারলে
+settings.mods.damage Damage ওভারলে Image
+settings.mods.damage.paste Damage ওভারলে Image URL
+settings.mods.overlay খেলা ওভারলে Image
+settings.mods.overlay.paste খেলা ওভারলে Image URL
+settings.social.region অঞ্চল Stats
+settings.social.bg পটভূমি Image
+settings.social.bg.paste পটভূমি Image URL
+windows.settings.header খেলা সেটিংস
+windows.mail.header Krunker মেইল
+windows.servers.header সার্ভার
+windows.servers.none No যোগদানযোগ্য গেমস পাওয়া গেছে...
+windows.servers.host + হোস্ট খেলা
+windows.servers.hide লুকান Full
+windows.servers.priority অঞ্চল অগ্রাধিকার
+windows.servers.online {0} In খেলা
+windows.servers.social {0} on সামাজিক
+windows.servers.editor {0} in সম্পাদক
+windows.loadout.header Change লোডআউট
+windows.loadout.class ক্লাস
+windows.loadout.primary প্রাথমিক
+windows.loadout.primary.attach সংযুক্তি
 windows.loadout.primary.reticle Reticle
-windows.loadout.primary.scope Scope
-windows.loadout.secondary Secondary
-windows.loadout.secondary.skin Secondary Skin
+windows.loadout.primary.scope ব্যাপ্তি
+windows.loadout.secondary মাধ্যমিক
+windows.loadout.secondary.skin মাধ্যমিক Skin
 windows.loadout.melee Melee
 windows.loadout.hat Hat
-windows.loadout.back Body
-windows.loadout.waist Waist
-windows.loadout.shoe Shoes
-windows.loadout.face Face
-windows.loadout.spray Spray
-windows.loadout.color.skin Skin Color
-windows.loadout.color.chat Chat Name Color
-windows.loadout.color.hair Hair Color
-windows.loadout.dye Dye
+windows.loadout.back শরীর
+windows.loadout.waist কোমর
+windows.loadout.shoe জুতা
+windows.loadout.face মুখ
+windows.loadout.spray স্প্রে
+windows.loadout.color.skin Skin রঙ
+windows.loadout.color.chat চ্যাট নাম রঙ
+windows.loadout.color.hair চুল রঙ
+windows.loadout.dye ডাই
 windows.loadout.pet Pet
-windows.loadout.wrist Wrist
-windows.loadout.stat Killcard Stat
-windows.loadout.flag Country Flag
-windows.loadout.badge Custom Badge
-windows.loadout.streaks Streaks
+windows.loadout.wrist কব্জি
+windows.loadout.stat কিলকার্ড স্ট্যাট
+windows.loadout.flag দেশ Flag
+windows.loadout.badge কাস্টম ব্যাজ
+windows.loadout.streaks স্ট্রিকস
 windows.mods.drop drop mod file here or click
-windows.mods.paste Paste Mod Url
-windows.mods.load Load Mod
-windows.mods.none No Mods found
-windows.mods.header Mod Manager
-windows.mods.guide Mod Guide
-windows.mods.list Mods List
-windows.mods.load.header Load Mods
-windows.mods.publish Publish Mod
+windows.mods.paste পেস্ট করুন Mod Url
+windows.mods.load ভার Mod
+windows.mods.none No মোডস found
+windows.mods.header Mod ম্যানেজার
+windows.mods.guide Mod গাইড
+windows.mods.list Mods তালিকা
+windows.mods.load.header ভার মোডস
+windows.mods.publish প্রকাশ করুন Mod
 windows.mods.viewer Viewer
 windows.account.header Account
 windows.account.recover To recover an account contact <a>recovery@yendis.ch</a>
-windows.class.header Select Class
-windows.controls.header Change Controls
-windows.controls.forward Forward
-windows.controls.backward Backward
-windows.controls.left Left
+windows.class.header নির্বাচন করুন ক্লাস
+windows.controls.header Change নিয়ন্ত্রণ করে
+windows.controls.forward ফরোয়ার্ড
+windows.controls.backward পশ্চাৎপদ
+windows.controls.left বাম
 windows.controls.right Right
 windows.controls.reload Reload
 windows.controls.aim1 Aim
-windows.controls.shoot1 Shoot
+windows.controls.shoot1 অঙ্কুর
 windows.controls.inspect Inspect
-windows.controls.spray Spray
-windows.controls.sprayWheel Spray Wheel (Hold)
+windows.controls.spray স্প্রে
+windows.controls.sprayWheel স্প্রে Wheel (Hold)
 windows.controls.jump Jump
-windows.controls.crouch Crouch
-windows.controls.prim Primary Weapon
-windows.controls.swap Secondary Weapon
+windows.controls.crouch ক্রাউচ
+windows.controls.prim প্রাথমিক Weapon
+windows.controls.swap মাধ্যমিক Weapon
 windows.controls.melee Melee Weapon
 windows.controls.equip Equipment
-windows.controls.chat Chat
-windows.controls.voice Voice
-windows.controls.list Player List
-windows.controls.board Leaderboard
-windows.controls.interact Interact
-windows.controls.interactSec Secondary Interact
-windows.controls.confirm Confirm Interact
-windows.controls.drop Drop
-windows.controls.wepVis Toggle Weapon Visibility
-windows.controls.kickVoteY Vote Kick [Yes]
-windows.controls.kickVoteN Vote Kick [No]
-windows.controls.kpdVoteY KPD Vote [Yes]
-windows.controls.kpdVoteN KPD Vote [No]
-windows.controls.specFree Toggle Free Cam
-windows.controls.specObj Toggle Objective Cam
-windows.controls.specFirst Toggle First Person
-windows.controls.specNames Toggle Forced Names
-windows.controls.specFocus Toggle Focus Player
-windows.controls.hidePlayers Hide Players
-windows.controls.streak0 Streak 1
-windows.controls.streak1 Streak 2
-windows.controls.streak2 Streak 3
-windows.controls.streak3 Streak 4
-windows.controls.streak4 Streak 5
+windows.controls.chat চ্যাট
+windows.controls.voice ভয়েস
+windows.controls.list প্লেয়ার তালিকা
+windows.controls.board লিডারবোর্ড
+windows.controls.interact ইন্টারঅ্যাক্ট
+windows.controls.interactSec মাধ্যমিক ইন্টারঅ্যাক্ট
+windows.controls.confirm Confirm ইন্টারঅ্যাক্ট
+windows.controls.drop ড্রপ
+windows.controls.wepVis টগল Weapon দৃশ্যমানতা
+windows.controls.kickVoteY ভোট লাথি [হ্যাঁ]
+windows.controls.kickVoteN ভোট লাথি [No]
+windows.controls.kpdVoteY KPD ভোট [হ্যাঁ]
+windows.controls.kpdVoteN KPD ভোট [No]
+windows.controls.specFree টগল বিনামূল্যে ক্যাম
+windows.controls.specObj টগল Objective ক্যাম
+windows.controls.specFirst টগল প্রথম ব্যক্তি
+windows.controls.specNames টগল Forced Names
+windows.controls.specFocus টগল ফোকাস প্লেয়ার
+windows.controls.hidePlayers লুকান খেলোয়াড়
+windows.controls.streak0 স্ট্রিক 1
+windows.controls.streak1 স্ট্রিক 2
+windows.controls.streak2 স্ট্রিক 3
+windows.controls.streak3 স্ট্রিক 4
+windows.controls.streak4 স্ট্রিক 5
 windows.controls.taunt0 Taunt (Psst)
 windows.controls.taunt1 Taunt (Whistle)
-windows.controls.taunt2 Taunt (Fart)
+windows.controls.taunt2 Taunt (ফার্ট)
 windows.controls.taunt3 Taunt (Meme)
-windows.controls.taunt4 Taunt (WTF is This?)
-windows.controls.taunt5 Taunt (Right Now!)
-windows.controls.prop Open Prop Selection (Hold)
-windows.controls.propRand Select Random Prop
-windows.controls.propRot Toggle Rotation
-windows.controls.propRotR Reset Rotation
+windows.controls.taunt4 Taunt (WTF is এই?)
+windows.controls.taunt5 Taunt (Right এখন!)
+windows.controls.prop খোলা প্রপ নির্বাচন (Hold)
+windows.controls.propRand নির্বাচন করুন এলোমেলো প্রপ
+windows.controls.propRot টগল ঘূর্ণন
+windows.controls.propRotR রিসেট ঘূর্ণন
 windows.controls.premium0 Noclip
 windows.controls.premium1 Godmode
 windows.controls.premium2 Kill
 windows.controls.premium3 Smite
-windows.controls.reset Reset Position (Parkour etc)
-windows.controls.resetLast Reset To Last Checkpoint (Parkour etc)
-windows.controls.pretend Hide Game
+windows.controls.reset রিসেট Position (Parkour etc)
+windows.controls.resetLast রিসেট To Last চেকপয়েন্ট (Parkour etc)
+windows.controls.pretend লুকান খেলা
 windows.controls.noclipSB Noclip
 windows.controls.godModeSB Godmode
 windows.controls.killSB Kill
-windows.host.header Host Custom Game
-windows.host.maps Server Setup
-windows.host.cmaps Community Game
-windows.host.raw Raw Game Data
-windows.host.modes Select Modes
-windows.host.classes Select Classes
-windows.host.settings Server Settings
-windows.host.preset Host Presets
-windows.host.preset.load Loading Preset...
+windows.host.header হোস্ট কাস্টম খেলা
+windows.host.maps সার্ভার সেটআপ
+windows.host.cmaps সম্প্রদায় খেলা
+windows.host.raw কাঁচা খেলা ডেটা
+windows.host.modes নির্বাচন করুন Modes
+windows.host.classes নির্বাচন করুন Classes
+windows.host.settings সার্ভার সেটিংস
+windows.host.preset হোস্ট Presets
+windows.host.preset.load লোড হচ্ছে Preset...
 windows.host.preset.name Preset name
-windows.host.start Start Game
-windows.host.rehost Start Game (Bring Players)
-windows.spray.header Select Spray
-windows.spray.default Free Spray
-windows.spray.spin Spray
-windows.maps.header Custom Games
-windows.maps.none No Games found!
-windows.maps.name Game Name
-windows.maps.editor Game Maker
-windows.maps.publish Publish Game
-windows.maps.community Dev Community
-windows.publish.map.header Publish or Update Game
+windows.host.start Start খেলা
+windows.host.rehost Start খেলা (আনুন খেলোয়াড়)
+windows.spray.header নির্বাচন করুন স্প্রে
+windows.spray.default বিনামূল্যে স্প্রে
+windows.spray.spin স্প্রে
+windows.maps.header কাস্টম গেমস
+windows.maps.none No গেম পাওয়া গেছে!
+windows.maps.name খেলা নাম
+windows.maps.editor খেলা মেকার
+windows.maps.publish প্রকাশ করুন খেলা
+windows.maps.community Dev সম্প্রদায়
+windows.publish.map.header প্রকাশ করুন or হালনাগাদ খেলা
 windows.publish.map.thumbnail No Thumbnail
-windows.publish.map.paste Paste Game Data
-windows.publish.map.update Publish/Update
-windows.publish.map.login to create and upload Games!
-windows.theatre.header Theatre Mode
-windows.theatre.record Enable Recording
-windows.theatre.key Record Key
+windows.publish.map.paste পেস্ট করুন খেলা ডেটা
+windows.publish.map.update প্রকাশ করুন/হালনাগাদ
+windows.publish.map.login to create and upload গেমস!
+windows.theatre.header Theatre মোড
+windows.theatre.record সক্ষম করুন রেকর্ডিং
+windows.theatre.key রেকর্ড Key
 windows.clans.header Clans
-windows.clans.members Members ({0})
-windows.clans.requests Requests
-windows.clans.requests.none No Requests
+windows.clans.members সদস্যরা ({0})
+windows.clans.requests অনুরোধ
+windows.clans.requests.none No অনুরোধ
 windows.clans.page [{0}] Clan Page
 windows.clans.create Create Clan
-windows.clans.name Clan Name
+windows.clans.name Clan নাম
 windows.clans.view View Clans
-windows.clans.join Join Clan
+windows.clans.join যোগদান করুন Clan
 windows.clans.login to create and join a clan!
 windows.store.header Store
-windows.store.spin {0} Spin
-windows.store.agree By purchasing you agree to the {0}Terms & Conditions
-windows.store.purchase Purchase KR
+windows.store.spin {0} স্পিন
+windows.store.agree By purchasing you agree to the {0}শর্তাবলী & Conditions
+windows.store.purchase ক্রয় KR
 windows.store.voucher Redeem Voucher
-windows.store.voucherinfo Redeem Vouchers from certain Streams & Game Events
-windows.store.market Marketplace
-windows.store.market2 Krunker Market
-windows.store.premium Purchase Premium
+windows.store.voucherinfo Redeem Vouchers from certain Streams & খেলা ঘটনা
+windows.store.market মার্কেটপ্লেস
+windows.store.market2 Krunker বাজার
+windows.store.premium ক্রয় প্রিমিয়াম
 windows.store.premium2 Krunker Premium
-windows.store.buyP Choose a Display name & more with
-windows.store.buy Buy and Sell Items on the
+windows.store.buyP Choose a প্রদর্শন name & more with
+windows.store.buy Buy and Sell আইটেম on the
 windows.store.wheels Prize Wheels
-windows.store.unlock Unlock new weapon skins and items
+windows.store.unlock আনলক new weapon skins and items
 windows.store.amount {0} KR in account
 windows.store.login to buy and unlock items from the store!
 windows.store.purchasing Purchasing...
 windows.store.unboxed {0}{1} unboxed
 windows.store.found {0}{1} found
 windows.trade.header Trading
-windows.scope.header Select Scope
+windows.scope.header নির্বাচন করুন ব্যাপ্তি
 windows.premium.header Premium
-windows.skin.header Select Skin
-windows.hat.header Select Hat
-windows.back.header Select Back
-windows.waist.header Select Waist
-windows.face.header Select Face
-windows.melee.header Select Melee
-windows.attach.header Select Attachment
-windows.reticle.header Select Reticle
-windows.reticle.unlocked Unlocked at lvl {0}
+windows.skin.header নির্বাচন করুন Skin
+windows.hat.header নির্বাচন করুন Hat
+windows.back.header নির্বাচন করুন Back
+windows.waist.header নির্বাচন করুন কোমর
+windows.face.header নির্বাচন করুন Face
+windows.melee.header নির্বাচন করুন Melee
+windows.attach.header নির্বাচন করুন সংযুক্তি
+windows.reticle.header নির্বাচন করুন Reticle
+windows.reticle.unlocked আনলক করা হয়েছে at lvl {0}
 windows.reticle.req Req lvl {0}
-windows.dye.header Select Dye
-windows.dye.default Default Dye
-windows.dye.spin Dye
-windows.changelog.header Changelog
-windows.mods.community.header Community Mods
+windows.dye.header নির্বাচন করুন ডাই
+windows.dye.default ডিফল্ট ডাই
+windows.dye.spin ডাই
+windows.changelog.header চেঞ্জলগ
+windows.mods.community.header সম্প্রদায় মোডস
 windows.mods.community.fav Your Favorites
-windows.mods.community.new New Mods
-windows.mods.community.hot Hot
+windows.mods.community.new নতুন মোডস
+windows.mods.community.hot গরম
 windows.mods.community.name Mod Name
-windows.mods.community.none No Mods found
-windows.publish.mod.header Publish Mod
+windows.mods.community.none No মোডস found
+windows.publish.mod.header প্রকাশ করুন Mod
 windows.publish.mod.thumbnail No Thumbnail
-windows.publish.mod.name Mod Name
+windows.publish.mod.name Mod নাম
 windows.publish.mod.paste Mod Url
-windows.publish.mod.update Publish/Update
+windows.publish.mod.update প্রকাশ করুন/হালনাগাদ
 windows.publish.mod.login to create and upload mods!
-windows.secondary.header Select Secondary
-windows.secondary.unlocked Unlocked
-windows.secondary.customOnly Customs Only
-windows.secondary.premiumOnly Premium Only
+windows.secondary.header নির্বাচন করুন মাধ্যমিক
+windows.secondary.unlocked আনলক করা হয়েছে
+windows.secondary.customOnly কাস্টমস কেবল
+windows.secondary.premiumOnly প্রিমিয়াম কেবল
 windows.secondary.req Req lvl {0}
-windows.skins.unlocked Unlocked
-windows.skins.customOnly Customs Only
-windows.skins.premiumOnly Premium Only
+windows.skins.unlocked আনলক করা হয়েছে
+windows.skins.customOnly কাস্টমস কেবল
+windows.skins.premiumOnly প্রিমিয়াম কেবল
 windows.skins.classOnly Req {0}
 windows.skins.req Req lvl {0}
-windows.skins.default Default Skin
-windows.advertise.header Advertise
-windows.support.header Support
-windows.players.header Player List
+windows.skins.default ডিফল্ট Skin
+windows.advertise.header বিজ্ঞাপন দিন
+windows.support.header সমর্থন
+windows.players.header প্লেয়ার তালিকা
 windows.players.none No players currently...
-windows.join.header Join
-windows.join.code Enter Game URL/Code
-windows.client.header Client
-windows.client.windows Windows Installer
-windows.client.mac macOS Installer
-windows.client.linux Linux Installer
+windows.join.header যোগদান করুন
+windows.join.code প্রবেশ করুন খেলা URL/Code
+windows.client.header ক্লায়েন্ট
+windows.client.windows উইন্ডোজ ইনস্টলার
+windows.client.mac macOS ইনস্টলার
+windows.client.linux Linux ইনস্টলার
 windows.ranked.header Ranked
 windows.ranked.login to play in ranked games!
-windows.ranked.level You must be at least <span color="black">level {0}</span> to play in ranked games! Right now you are at <span color="black">level {1}</span>.
+windows.ranked.level আপনি must be at least <span color="black">level {0}</span> to play in ranked games! Right now you are at <span color="black">level {1}</span>.
 windows.chall.header Challenges
 windows.chall.login to complete challenges!
 windows.spin.header Prize Wheel
-thumbnail.upload.limit Failed. {0}kb Thumbnail Limit
-image.upload.limit Failed. {0}kb Image Limit
-thumbnail.upload.error Thumbnail Error
+thumbnail.upload.limit Failed. {0}kb Thumbnail সীমা
+image.upload.limit Failed. {0}kb Image সীমা
+thumbnail.upload.error Thumbnail ত্রুটি
 mod.extracting extracting {0}/{1}
 mod.disabled mods disabled
 mod.error mod error!
 mod.loading loading mod...
 mod.invalid invalid mod file!
 matchmaker.full FULL
-matchmaker.GameFull Game is full.
+matchmaker.GameFull খেলা is full.
 matchmaker.NoServersMatchQuery GAME UPDATING
-matchmaker.InvalidGameId Game not found.
+matchmaker.InvalidGameId খেলা পাওয়া যায়নি.
 matchmaker.NoAvailableServers Servers are at Max Capacity
-matchmaker.NoMatchingServers No Games Found<br><small>Try changing Quickplay options</small>
-matchmaker.GameIssue Unknown Join Issue
-adblocker Disable your ad blocker to receive free Krunkies.
-ad-failed Ad Failed to Load. Try again.
+matchmaker.NoMatchingServers No গেমস Found<br><small>Try changing Quickplay options</small>
+matchmaker.GameIssue অজানা যোগদান করুন Issue
+adblocker নিষ্ক্রিয় করুন your ad blocker to receive free Krunkies.
+ad-failed Ad ব্যর্থ হয়েছে to ভার. চেষ্টা করুন again.
 streamers.views {0} viewers
 streamers.none No active streams!
 error.extentions If you have any extensions, disable them
-error.seek Try seeking a new game by clicking
-custom.map.upload.limit Failed. 500k Character Game Data Limit
-custom.map.missing Select at least one Game or Map
-custom.mode.missing Select at least one Mode
-custom.class.missing Select at least one Class
-server.config.maxPlayers Players
-server.config.minPlayers Min Players
-server.config.lives Lives
-server.config.gameTime Minutes
-server.config.gravMlt Gravity
-server.config.tickRI High Tickrate
-server.config.maxPS 40 Player Server
-server.config.promServ Promote Server
+error.seek চেষ্টা করুন seeking a new game by clicking
+custom.map.upload.limit ব্যর্থ হয়েছে. 500k চরিত্র খেলা ডেটা সীমা
+custom.map.missing নির্বাচন করুন at least one খেলা or Map
+custom.mode.missing নির্বাচন করুন at least one মোড
+custom.class.missing নির্বাচন করুন at least one Class
+server.config.maxPlayers খেলোয়াড়
+server.config.minPlayers Min খেলোয়াড়
+server.config.lives বাস করে
+server.config.gameTime মিনিট
+server.config.gravMlt মহাকর্ষ
+server.config.tickRI উচ্চ Tickrate
+server.config.maxPS 40 প্লেয়ার সার্ভার
+server.config.promServ প্রচার করুন সার্ভার
 server.config.jumpMlt Jump Force
 server.config.airStrf Air Strafing
-server.config.deltaMlt Time Scale
-server.config.strafeSpd Strafe Speed
-server.config.fiRat Fire Rate
-server.config.reSpd Reload Speed
-server.config.slidTime Slide Time
-server.config.fixMov Fixed Movement
-server.config.slidSpd Slide Speed
-server.config.healthMlt Health Multiplier
+server.config.deltaMlt সময় স্কেল
+server.config.strafeSpd Strafe দ্রুততা
+server.config.fiRat আগুন হার
+server.config.reSpd Reload দ্রুততা
+server.config.slidTime স্লাইড সময়
+server.config.fixMov স্থির আন্দোলন
+server.config.slidSpd Slide দ্রুততা
+server.config.healthMlt স্বাস্থ্য Multiplier
 server.config.impulseMlt Weapon Impulse
-server.config.nameTeam1 Team 1 Name
-server.config.nameTeam2 Team 2 Name
-server.config.nameTeam3 Team 3 Name
-server.config.nameTeam4 Team 4 Name
-server.config.nameTeam5 Team 5 Name
-server.config.t1Dmg Team 1 Damage
-server.config.t2Dmg Team 2 Damage
-server.config.t3Dmg Team 3 Damage
-server.config.t4Dmg Team 4 Damage
-server.config.t5Dmg Team 5 Damage
-server.config.selTeam Select Team
-server.config.frFire Friendly Fire
+server.config.nameTeam1 টীম 1 নাম
+server.config.nameTeam2 টীম 2 নাম
+server.config.nameTeam3 টীম 3 নাম
+server.config.nameTeam4 টীম 4 নাম
+server.config.nameTeam5 টীম 5 নাম
+server.config.t1Dmg টীম 1 Damage
+server.config.t2Dmg টীম 2 Damage
+server.config.t3Dmg টীম 3 Damage
+server.config.t4Dmg টীম 4 Damage
+server.config.t5Dmg টীম 5 Damage
+server.config.selTeam নির্বাচন করুন টীম
+server.config.frFire বন্ধুত্বপূর্ণ আগুন
 server.config.allowSpect Spectating
-server.config.killRewards Kill Rewards
-server.config.headshotOnly Headshots Only
-server.config.noSecondary Disable Secondaries
-server.config.noStreaks Disable Streaks
+server.config.killRewards Kill পুরস্কার
+server.config.headshotOnly Headshots কেবল
+server.config.noSecondary নিষ্ক্রিয় করুন Secondaries
+server.config.noStreaks নিষ্ক্রিয় করুন স্ট্রিকস
 server.config.canSlide Sliding
-server.config.wallJP Wall Jumping Power
-server.config.autoJump Auto Jump
-server.config.bDrop Bullet Drop
-server.config.thirdPerson 3rd Person
+server.config.wallJP Wall জাম্পিং শক্তি
+server.config.autoJump অটো Jump
+server.config.bDrop Bullet ড্রপ
+server.config.thirdPerson 3rd ব্যক্তি
 server.config.requireCaptcha Require Captcha
-server.config.nameTags Hide Nametags
-server.config.nameTagsFR Hide Nametags (Allies)
-server.config.kCams Kill Cams
-server.config.aAnon Allow Anonymous
-server.config.noReload No Reload
-server.config.private Private
-server.config.krRewards KR Rewards
-server.config.forceDefault Force Default Settings
-server.config.warmupTime Warmup Time
-server.config.gamRounds Rounds
-server.config.objtvTime Objective Time
-server.config.forceSpawn Auto Respawn Time
-server.config.intermTmr Intermission (s)
-server.config.scoreLimit Score Limit
-server.config.keepTScore Keep Team Score
-server.config.forceC Force Mode Classes
-server.config.logTim Log Time (Race, Parkour)
-server.config.lstChkT Last Checkpoint Time Rewind (Race/Bhop)
-server.config.hitBoxPad Hitbox Padding
-server.config.hpRegen Health Regen
-server.config.disableB Disable Borders
-server.config.throwMel Throwable Melees
-server.config.noCosm Disable Cosmetics
-server.config.tstCmp Test Mode
-server.config.limitClasses Limit Classes
-server.config.tmSize Team Size
+server.config.nameTags লুকান Nametags
+server.config.nameTagsFR লুকান Nametags (Allies)
+server.config.kCams Kill ক্যামস
+server.config.aAnon অনুমতি দিন বেনামী
+server.config.noReload No পুনরায় লোড করুন
+server.config.private ব্যক্তিগত
+server.config.krRewards KR পুরস্কার
+server.config.forceDefault Force ডিফল্ট সেটিংস
+server.config.warmupTime Warmup সময়
+server.config.gamRounds রাউন্ড
+server.config.objtvTime Objective সময়
+server.config.forceSpawn অটো Respawn সময়
+server.config.intermTmr ইন্টারমিশন (s)
+server.config.scoreLimit স্কোর সীমা
+server.config.keepTScore রাখা টীম স্কোর
+server.config.forceC Force মোড Classes
+server.config.logTim লগ সময় (জাতি, Parkour)
+server.config.lstChkT Last চেকপয়েন্ট সময় রিওয়াইন্ড (জাতি/Bhop)
+server.config.hitBoxPad হিটবক্স প্যাডিং
+server.config.hpRegen স্বাস্থ্য Regen
+server.config.disableB নিষ্ক্রিয় করুন Borders
+server.config.throwMel নিক্ষেপযোগ্য Melees
+server.config.noCosm নিষ্ক্রিয় করুনn প্রসাধনী
+server.config.tstCmp পরীক্ষা মোড
+server.config.limitClasses সীমা Classes
+server.config.tmSize টীম আকার
 server.config.fallDmg Fall Damage
 server.config.fallDmgThr Fall Damage Thresh
 server.config.noDraws No Draws
 server.config.bstOfR Best of
-server.config.chrgWeps Chargable Weapons
+server.config.chrgWeps চার্জযোগ্য অস্ত্র
 social.login Login/Register
-social.login.failed Login Failed
+social.login.failed Login ব্যর্থ হয়েছে
 social.login.buy Login to Buy
 social.login.sell Login to Sell
 social.login.gift Login to Gift
-social.login.proccessing Logging in...
+social.login.proccessing লগিং in...
 social.since Since
-social.user.maps User Games
-social.user.mods User Mods
-social.maps.none No Games found...
-social.mods.none No Mods found...
-social.market.price.low Lowest Price
-social.market.price.list List Price in
-social.market.searching Searching
+social.user.maps ব্যবহারকারী গেমস
+social.user.mods ব্যবহারকারী মোডস
+social.maps.none No গেম পাওয়া গেছে...
+social.mods.none No মোডস found...
+social.market.price.low Lowest দাম
+social.market.price.list তালিকা দাম in
+social.market.searching অনুসন্ধান করা হচ্ছে
 social.market.listed listed {0} ago
-social.market.list List Item
-social.market.unlist Unlist
-social.market.unlisting Unlisting Item...
-social.market.posting Posting Item...
+social.market.list তালিকা আইটেম
+social.market.unlist তালিকামুক্ত করুন
+social.market.unlisting তালিকাভুক্ত আইটেম...
+social.market.posting পোস্টিং Item...
 social.market.req lvl {0} required
-social.market.cant Can't Afford
-social.market.purchase Purchase
-social.market.fee No List Fee
-social.market.failed Failed. Try Again
-social.market.head Head Item
-social.market.back Back Item
-social.market.waist Waist Item
-social.market.face Face Item
-social.market.shoe Shoe Item
-social.market.pet Pet Item
-social.market.wrist Wrist Item
-social.market.melee Melee Item
-social.market.spray Spray Item
-social.market.dye Dye Item
-social.market.collectible Collectible Item
-social.market.none No Items Found
-social.market.login You must be logged in.
+social.market.cant পারে না Afford
+social.market.purchase ক্রয়
+social.market.fee No তালিকা Fee
+social.market.failed ব্যর্থ হয়েছে. চেষ্টা করুন আবার
+social.market.head মাথা আইটেম
+social.market.back Back আইটেম
+social.market.waist কোমর আইটেম
+social.market.face মুখ আইটেম
+social.market.shoe Shoe আইটেম
+social.market.pet Pet আইটেম
+social.market.wrist কব্জি আইটেম
+social.market.melee Melee আইটেম
+social.market.spray স্প্রে আইটেম
+social.market.dye ডাই আইটেম
+social.market.collectible সংগ্রহযোগ্য আইটেম
+social.market.none No Items পাওয়া গেছে
+social.market.login আপনি must be logged in.
 social.market.grace ready in {0}
-social.market.sort Filter/Sort
-social.market.filter Search
+social.market.sort ছাঁকনি/Sort
+social.market.filter অনুসন্ধান করুন
 social.market.sort2 Sort
-social.market.price.high Highest Price
-social.trading.submitting Submitting Offer...
-social.market.gift.amount Gift Amount in
+social.market.price.high Highest দাম
+social.trading.submitting জমা দেওয়া হচ্ছে অফার...
+social.market.gift.amount Gift পরিমাণ in
 social.market.fee.gift No Fee
 social.market.gift Gift KR
-social.market.gift.msg Leave a message
-respawn.auto Auto Respawning in {0}
-custom.host.ranked Can't host match while in ranked.
-custom.host.wager Can't host match while in Wager.
-funds.insufficient Insufficient Funds
+social.market.gift.msg ছেড়ে দিন a message
+respawn.auto অটো Respawning in {0}
+custom.host.ranked পারে না host match while in ranked.
+custom.host.wager পারে না host match while in Wager.
+funds.insufficient অপর্যাপ্ত Funds
 funds.out It appears you have run out of Krunkies.
-custom.passcode.long Password too long
-custom.passcode.input Enter Server Password to join
-custom.tryagain Please try again.
-purchase.kr.success Added {0} KR to your account
+custom.passcode.long পাসওয়ার্ড too long
+custom.passcode.input প্রবেশ করুন সার্ভার পাসওয়ার্ড to join
+custom.tryagain অনুগ্রহ try again.
+purchase.kr.success যোগ করা হয়েছে {0} KR to your account
 limited.purchase.ask Are you sure you want to purchase [{0}] for {1} KR?
-limited.purchase.success Added {0} to your inventory
+limited.purchase.success যোগ করা হয়েছে {0} to your inventory
 pretend.exit press [{0}] again to exit
-settings.loaded Settings Loaded
-settings.loaded.none No settings found
+settings.loaded সেটিংস লোড করা হয়েছে
+settings.loaded.none কোনো সেটিংস পাওয়া যায়নি
 account.login.required Must be logged in
-account.banned.hack This account has been banned for Hacking.
-account.banned.appeal If you want to appeal your ban, contact:
-account.delete You may request to delete your account, if the request is not cancelled within 14 days the account and all associated data will be permanently removed.
-account.delete.request Are you sure you want to request an account deletion?
-account.delete.cancel Are you sure you want to cancel account deletion?
+account.banned.hack হ্যাকিংয়ের জন্য এই অ্যাকাউন্টটি নিষিদ্ধ করা হয়েছে।
+account.banned.appeal যদি you want to appeal your ban, contact:
+account.delete আপনি may request to delete your account, if the request is not cancelled within 14 days the account and all associated data will be permanently removed.
+account.delete.request আপনি কি নিশ্চিত যে আপনি একটি অ্যাকাউন্ট মুছে ফেলার অনুরোধ করতে চান?
+account.delete.cancel আপনি কি নিশ্চিত আপনি অ্যাকাউন্ট মুছে ফেলা বাতিল করতে চান?
 spin.free.available FREE KR AVAILABLE!
-spin.free.claim This spin is available to claim once per Hour after completing a match.
-spin.free.disable These Popups can be disabled in General Settings
+spin.free.claim এই spin is available to claim once per Hour after completing a match.
+spin.free.disable এইগুলো Popups can be disabled in সাধারণ সেটিংস
 mod.reset.0 Will take effect after respawning.
-mod.reset.1 Map Objects dont get reset
+mod.reset.1 মানচিত্র বস্তু dont get reset
 windows.profile.picture Change Picture
 stats.assists Assists
 stats.nukes Nukes
 stats.slimers Slimers
 stats.juggernauts Juggernauts
 stats.juggernauts.kills Juggernaut Kills
-stats.juggernauts.killed Juggernauts Killed
-stats.warmachines War Machines
+stats.juggernauts.killed Juggernauts নিহত
+stats.warmachines যুদ্ধ Machines
 stats.melee Melee
-stats.fistkills Beatdowns
+stats.fistkills বীটডাউনস
 stats.thrownkills Bullseyes
 stats.headshots Headshots
 stats.wallbangs Wallbangs
 stats.crouches Crouches
-stats.sprays Sprays Placed
-stats.kpd Helpful Reports
+stats.sprays স্প্রে করে Placed
+stats.kpd সহায়ক Reports
 stats.shots Shots
 stats.hits Hits
 stats.misses Misses
 stats.legshots Legshots
-windows.host.default.settings Enabling Default Settings allows for storing Player Progress and Highscores
-windows.host.default.commands Host Commands are Disabled in this mode: /noclip /god /smite etc
-windows.host.rewards Enabling KR Rewards forces the Server to use Default Settings & allows players to earn KR from the map funds:
-windows.store.wheels.sub Try your luck and spin for a chance to win some new skins!
+windows.host.default.settings Enabling ডিফল্ট সেটিংস allows for storing প্লেয়ার অগ্রগতি and Highscores
+windows.host.default.commands হোস্ট Commands are অক্ষম in this mode: /noclip /god /smite etc
+windows.host.rewards Enabling KR পুরস্কার forces the সার্ভার to use ডিফল্ট সেটিংস & allows players to earn KR from the map funds:
+windows.store.wheels.sub আপনার ভাগ্য চেষ্টা করুন এবং কিছু নতুন স্কিন জেতার সুযোগের জন্য স্পিন করুন!
 windows.store.currency * Prices in USD can be converted to your local currency at an exchange rate defined by the payment provider or bank
-windows.store.creator Support your favorite Content Creator by using a Creator Code
-windows.chall.customs Challenges can't be completed in Custom Matches
+windows.store.creator সমর্থন your favorite বিষয়বস্তু সৃষ্টিকর্তা by using a সৃষ্টিকর্তা কোড
+windows.chall.customs Challenges can't be completed in কাস্টম Matches
 twitch.link Are you sure you want to link a twitch account?
 twitch.unlink Are you sure you want to unlink your twitch account?
-windows.clan.leave Are you sure you want to leave the clan?
+windows.clan.leave আপনি কি নিশ্চিত আপনি বংশ ছেড়ে যেতে চান?
 windows.clan.delete Are you sure you want to delete the clan?
 windows.clan.kick Are you sure you want kick {0} from the clan?
-windows.store.premium.purchase Are you sure you want to purchase {0} days of Premium?
-windows.store.premium.gift Are you sure you want to Gift '{0}' {1} days of Premium?
+windows.store.premium.purchase Are you sure you want to purchase {0} days of প্রিমিয়াম?
+windows.store.premium.gift Are you sure you want to Gift '{0}' {1} days of প্রিমিয়াম?
 windows.playerlist.ban Are you sure you want ban {0} from this game?
 windows.playerlist.flag Are you sure you want to Flag {0}?
 windows.playerlist.unflag Are you sure you want to Unflag {0}?
 windows.playerlist.punish Are you sure you want to take action on {0}?
-item.view.open Open Model Viewer
-item.view.more More Information
-item.sell.cant Item cant be sold.
-item.sell.cant.krunker Item cant be sold on krunker.
+item.view.open খোলা মডেল Viewer
+item.view.more আরও তথ্য
+item.sell.cant আইটেম cant be sold.
+item.sell.cant.krunker আইটেম cant be sold on krunker.
 item.sell.quick Are you sure you want to Quick Sell {0}?
 item.sell.destroy Are you sure you want to Destroy {0}?
-social.profile.stats Overall Stats
-social.profile.class Class Stats
-social.profile.sales Sales
-social.profile.sales.market Market Sales
+social.profile.stats সামগ্রিকভাবে Stats
+social.profile.class ক্লাস Stats
+social.profile.sales বিক্রয়
+social.profile.sales.market বাজার বিক্রয়
 social.profile.skins Skins [{0}]
-social.profile.skins.none No published Skins from this user
+social.profile.skins.none No published স্কিনস from this user
 social.profile.games Games [{0}]
-social.profile.games.none No published Games from this user
+social.profile.games.none No published গেমস from this user
 social.profile.assets Assets [{0}]
 social.profile.assets.none No published Assets from this user
 social.profile.mods Mods [{0}]
-social.profile.mods.none No published Mods from this user
-social.search Search Results
+social.profile.mods.none No published মোডস from this user
+social.search অনুসন্ধান করুন Results
 social.market.stats.rare Rarest Items
-social.market.stats.circulation In Circulation
-social.market.stats.units units Worldwide
-social.trades.in Incoming
-social.trades.in.head Incoming Offers ({0})
+social.market.stats.circulation In প্রচলন
+social.market.stats.units units বিশ্বব্যাপী
+social.trades.in ইনকামিং
+social.trades.in.head ইনকামিং Offers ({0})
 social.trades.out Outgoing
 social.trades.out.head Outgoing Offers ({0})
-social.trades.history History
-social.trades.history.head Trade History ({0})
-social.trades.decline Decline All
+social.trades.history ইতিহাস
+social.trades.history.head বাণিজ্য ইতিহাস ({0})
+social.trades.decline Decline সব
 social.trades.message ENABLE TRADE MESSAGES IN SETTINGS
-social.trades.warning You get no items from this trade!
-social.trades.accept Are you sure you want to accept this offer?
-stats.airdrops Airdrops
-stats.airdrops.stolen Airdrops Stolen
-settings.quality.flapAnim Sniper Flap Animation
+social.trades.warning আপনি get no items from this trade!
+social.trades.accept আপনি কি নিশ্চিত আপনি এই প্রস্তাব গ্রহণ করতে চান?
+stats.airdrops এয়ারড্রপস
+stats.airdrops.stolen এয়ারড্রপস Stolen
+settings.quality.flapAnim স্নাইপার ফ্ল্যাপ অ্যানিমেশন
 chall.name.hs Get {0} headshots {1}
 chall.name.ns Get {0} no-scopes {1}
 chall.name.ls Get {0} legshots {1}
@@ -940,55 +940,55 @@ chall.name.lns Get {0} longshots {1}
 chall.name.tk Get {0} turbo kills {1}
 chall.name.drk Get {0} drift kills {1}
 chall.name.kstk Get a {0} killstreak {1}
-chall.name.w Win {0} matches
-chall.name.d Die {0} times
+chall.name.w জয় {0} matches
+chall.name.d মরা {0} times
 chall.name.score Get {0} score
-chall.name.dmg Deal {0} damage {1}
+chall.name.dmg ডিল {0} damage {1}
 chall.name.bzk Get {0} buzz kills {1}
 chall.name.cc Get {0} close-calls {1}
-chall.name.rk Deal {0} revenge kills {1}
-event.doubleXP 2x Class XP enabled for this match
-ranked.join Joined Ranked Match. Abandoning a match will result in a temporary ban
-ranked.progress Game in Progress
-ranked.team Please join a Team
-ranked.switch Can't switch while in-game
-ranked.spectate Spectating Disabled in Ranked
-ranked.login Login to Spawn
-ranked.sync Missing Sync Data
-ranked.team.spawn Please join a Team to Spawn
+chall.name.rk ডিল {0} revenge kills {1}
+event.doubleXP 2x ক্লাস XP enabled for this match
+ranked.join যোগদান করেছেন Ranked ম্যাচ. Abandoning a match will result in a temporary ban
+ranked.progress খেলা in অগ্রগতি
+ranked.team অনুগ্রহ join a টীম
+ranked.switch পারে না switch while in-game
+ranked.spectate Spectating অক্ষম in Ranked
+ranked.login Login to স্পন
+ranked.sync অনুপস্থিত Sync ডেটা
+ranked.team.spawn অনুগ্রহ join a টীম to স্পন
 ranked.class.spawn Please select a Class to Spawn
-modes.round.win Your Team has secured this round
-modes.round.loss This round is no longer winnable
-modes.round.switch Switching Sides. Prepare for the next Round
-modes.trade.success Trade Successful
-modes.prophunt.limit [Prop Hunt] You are out of prop switches
-modes.prophunt.left [Prop Hunt] You have {0} switches remaining
-modes.prophunt.rotation.on [Prop Hunt] Rotation Enabled
-modes.prophunt.rotation.off [Prop Hunt] Rotation Disabled
-modes.prophunt.rotation.reset [Prop Hunt] Rotation reset.
-commands.login Login to use this command
+modes.round.win Your টীম has secured this round
+modes.round.loss এই round is no longer winnable
+modes.round.switch সুইচিং Sides. Prepare for the next Round
+modes.trade.success বাণিজ্য Successful
+modes.prophunt.limit [প্রপ Hunt] আপনি are out of prop switches
+modes.prophunt.left [প্রপ Hunt] আপনি have {0} switches remaining
+modes.prophunt.rotation.on [প্রপ Hunt] ঘূর্ণন Enabled
+modes.prophunt.rotation.off [প্রপ Hunt] ঘূর্ণন অক্ষম
+modes.prophunt.rotation.reset [প্রপ Hunt] ঘূর্ণন রিসেট।
+commands.login এই কমান্ড ব্যবহার করতে লগইন করুন
 commands.connected {0} connected, {1} in menu
-commands.host {0} is the current Host.
+commands.host {0} is the current হোস্ট.
 commands.noclip.on Noclip - Enabled
-commands.noclip.off Noclip - Disabled
+commands.noclip.off Noclip - অক্ষম
 commands.god.on God mode - Enabled
-commands.god.off God mode - Disabled
+commands.god.off God mode - অক্ষম
 commands.god.on.other God mode - Enabled for {0}
-commands.god.off.other God mode - Disabled for {0}
+commands.god.off.other God mode - অক্ষম for {0}
 commands.smite.on Smite - Enabled
-commands.smite.off Smite - Disabled
+commands.smite.off Smite - অক্ষম
 commands.smite.on.other Smite - Enabled for {0}
-commands.smite.off.other Smite - Disabled for {0}
+commands.smite.off.other Smite - অক্ষম for {0}
 commands.perk Gave {0} {1}
 commands.maxperk Gave {0} MAX {1}
-commands.unlimited.on Unlimited Ammo - Enabled
-commands.unlimited.off Unlimited Ammo - Disabled
-commands.unlimited.on.other Unlimited Ammo - Enabled for {0}
-commands.unlimited.off.other Unlimited Ammo - Disabled for {0}
-commands.spraybypass.on Unlimited Sprays - Enabled
-commands.spraybypass.off Unlimited Sprays - Disabled
-commands.spraybypass.on.other Unlimited Sprays - Enabled for {0}
-commands.spraybypass.off.other Unlimited Sprays - Disabled for {0}
+commands.unlimited.on আনলিমিটেড Ammo - Enabled
+commands.unlimited.off আনলিমিটেড Ammo - অক্ষম
+commands.unlimited.on.other আনলিমিটেড Ammo - Enabled for {0}
+commands.unlimited.off.other আনলিমিটেড Ammo - অক্ষম for {0}
+commands.spraybypass.on আনলিমিটেড স্প্রে করে - Enabled
+commands.spraybypass.off আনলিমিটেড স্প্রে করে - অক্ষম
+commands.spraybypass.on.other আনলিমিটেড স্প্রে করে - Enabled for {0}
+commands.spraybypass.off.other আনলিমিটেড স্প্রে করে - অক্ষম for {0}
 commands.suspect.invalid Invalid suspect info
 commands.suspect.menu Suspect in menu
 commands.suspect.left Suspect has left
@@ -998,16 +998,16 @@ commands.forfeit.wait Wait till match starts to forfeit
 commands.forfeit.later Please try again in a few seconds
 commands.forfeit.voted You already voted.
 commands.forfeit.limit You can only start one vote per game
-commands.forfeit.ended Forfeiting Game
-commands.forfeit.ended.other Other Team Forfeited
+commands.forfeit.ended Forfeiting খেলা
+commands.forfeit.ended.other অন্যান্য টীম Forfeited
 server.message.join {0} joined the game
 server.message.left {0} left the game
 server.message.kicked {0} was kicked
 server.message.banned {0} was banned
 server.message.votekicked {0} was vote kicked
 server.message.arrested {0} was arrested by the K.P.D
-event.easter.golden.spawn A Golden egg is near
-event.easter.golden.despawn A Golden egg has gone
-event.easter.found.new {0} found {1}/{2} Eggs
+event.easter.golden.spawn A সোনালী egg is near
+event.easter.golden.despawn A সোনালী egg has gone
+event.easter.found.new {0} found {1}/{2} ডিম
 event.easter.found.old You already discovered this egg!
 event.easter.completed {0} completed the Egg hunt!
