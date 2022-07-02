@@ -172,6 +172,9 @@ settings.post.ssaoRadius SSAO Radius
 settings.interface.hitInd Pokaži indikatore pogodka
 settings.interface.hitColor Boja indikatora pogodka
 settings.interface.dmg Prikaži štetu
+settings.interface.dmgType Show Damage
+settings.interface.dmgType.default Rounded
+settings.interface.dmgType.float Float
 settings.interface.dmgCol Boja prikaza štete
 settings.interface.critCol Crit boja
 settings.interface.header Sučelje
@@ -217,9 +220,11 @@ settings.interface.nametagStyle.all Sve
 settings.interface.healthNum Nametag Broj HP
 settings.interface.healthColT Nametag Health boja tima
 settings.interface.healthColE Nametag Health boja neprijatelja
+settings.interface.xpBarType XP Bar Type
 settings.interface.xpBarCol Boja XP Bar-a
 settings.interface.xpBarCol2 XP Bar Color 2
 settings.interface.xpBarOpac Prozirnost XP Bar-a
+settings.interface.adsObjOpac ADS Objective Opacity
 settings.medals.header Medals
 settings.medals.show Show Medals
 settings.medals.classic Classic Medals
@@ -376,6 +381,8 @@ settings.viewmodel.weapReloadY Ponovno punjenje oružja Y
 settings.viewmodel.yOffADS ADS Y Pomak Oružja
 settings.viewmodel.adsFovMlt ADS FOV Snaga
 settings.viewmodel.toggleADS Toggle Weapon ADS
+settings.viewmodel.wallLean Wall Slide/Jump Lean
+settings.viewmodel.wallLeanMlt Wall Slide/Jump Lean
 settings.editing.header Uređivanje
 settings.editing.health.high HUD HP Visok
 settings.editing.health.low HUD HP Nizak
@@ -487,6 +494,7 @@ windows.loadout.wrist Wrist
 windows.loadout.stat Killcard Stat
 windows.loadout.flag Zastava
 windows.loadout.badge Custom Badge
+windows.loadout.streaks Streaks
 windows.mods.drop prebacite mod file ili kliknite
 windows.mods.paste Zalijepi URL mod-a
 windows.mods.load Učitaj Mod
@@ -556,7 +564,11 @@ windows.controls.premium1 Godmode
 windows.controls.premium2 Kill
 windows.controls.premium3 Smite
 windows.controls.reset Resetuj Poziciju (Trka & Parkour)
+windows.controls.resetLast Reset To Last Checkpoint (Parkour etc)
 windows.controls.pretend Sakrij Igru
+windows.controls.noclipSB Noclip
+windows.controls.godModeSB Godmode
+windows.controls.killSB Kill
 windows.host.header Započni Sopstveni Meč
 windows.host.maps Postavke Meča
 windows.host.cmaps Community Game
@@ -670,6 +682,7 @@ windows.ranked.login da igraš rangirane mečeve!
 windows.ranked.level Morate biti barem <span color="black">razina {0}</span> da igrate rangirane igre! Trenutno ste <span color="black">razina {1}</span>.
 windows.chall.header Izazovi
 windows.chall.login da radite izazove!
+windows.spin.header Prize Wheel
 thumbnail.upload.limit Neuspjeh. {0}kb limit minijature
 image.upload.limit Neuspjeh. {0}kb limit slike
 thumbnail.upload.error Greška sa minijaturom
@@ -683,6 +696,7 @@ matchmaker.GameFull Game is full.
 matchmaker.NoServersMatchQuery GAME UPDATING
 matchmaker.InvalidGameId Game not found.
 matchmaker.NoAvailableServers Servers are at Max Capacity
+matchmaker.NoMatchingServers No Games Found<br><small>Try changing Quickplay options</small>
 matchmaker.GameIssue Unknown Join Issue
 adblocker Isključite vaš AD Blocker da dobijete besplatan KR!
 ad-failed Reklama nije uspjela da se učita. Pokušajte ponovo.
@@ -724,6 +738,7 @@ server.config.t3Dmg Tim 3 Damage
 server.config.t4Dmg Tim 4 Damage
 server.config.t5Dmg Tim 5 Damage
 server.config.selTeam Odaberi Tim
+server.config.frFire Friendly Fire
 server.config.allowSpect Posmatranje
 server.config.killRewards Kill Nagrade
 server.config.headshotOnly Samo Headshots
@@ -736,6 +751,7 @@ server.config.bDrop Pad metaka
 server.config.thirdPerson Treće lice
 server.config.requireCaptcha Zahtjevaj Captcha
 server.config.nameTags Sakrij Imena
+server.config.nameTagsFR Hide Nametags (Allies)
 server.config.kCams Kill Cams
 server.config.aAnon Allow Anonymous
 server.config.noReload No Reload
@@ -751,6 +767,7 @@ server.config.scoreLimit Limit Poena
 server.config.keepTScore Tim Zadrži poene
 server.config.forceC Prisili Klase Određene Igre
 server.config.logTim Log Vrijeme (Race, Parkour)
+server.config.lstChkT Last Checkpoint Time Rewind (Race/Bhop)
 server.config.hitBoxPad Hitbox Padding
 server.config.hpRegen HP Regeneracija
 server.config.disableB Onemogući Granice
@@ -813,6 +830,7 @@ social.market.gift Pokloni KR
 social.market.gift.msg Ostavite poruku
 respawn.auto Auto Respawn za {0}
 custom.host.ranked Ne možete hostati meč dok ste u rangiranoj igri.
+custom.host.wager Can't host match while in Wager.
 funds.insufficient Nedovoljni KR
 funds.out Izgleda da vam je ponestalo KR.
 custom.passcode.long Zaporka preduga.
@@ -838,6 +856,11 @@ mod.reset.1 Objekti na mapi se ne resetuju.
 windows.profile.picture Promijeni sliku
 stats.assists Assits
 stats.nukes Nukes
+stats.slimers Slimers
+stats.juggernauts Juggernauts
+stats.juggernauts.kills Juggernaut Kills
+stats.juggernauts.killed Juggernauts Killed
+stats.warmachines War Machines
 stats.melee Melee
 stats.fistkills Beatdowns
 stats.thrownkills Bullseyes
@@ -846,6 +869,10 @@ stats.wallbangs Wallbangs
 stats.crouches Crouches
 stats.sprays Sprejova postavljeno
 stats.kpd Helpful Reports
+stats.shots Shots
+stats.hits Hits
+stats.misses Misses
+stats.legshots Legshots
 windows.host.default.settings Omogućavanje zadanih postavki omogućuje pohranu napretka igrača i najboljih rezultata
 windows.host.default.commands *Host komande su onemogućene u ovoj igri: /noclip /god /smite etc
 windows.host.rewards Omogućavanje KR nagrada prisiljava igrače da koriste zadane postavke i omogućuje igračima da zarade KR od sredstava pohranjenih u mapi:
@@ -979,4 +1006,8 @@ server.message.kicked {0} was kicked
 server.message.banned {0} was banned
 server.message.votekicked {0} was vote kicked
 server.message.arrested {0} was arrested by the K.P.D
-`;
+event.easter.golden.spawn A Golden egg is near
+event.easter.golden.despawn A Golden egg has gone
+event.easter.found.new {0} found {1}/{2} Eggs
+event.easter.found.old You already discovered this egg!
+event.easter.completed {0} completed the Egg hunt!

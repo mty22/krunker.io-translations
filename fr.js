@@ -172,6 +172,9 @@ settings.post.ssaoRadius Rayon d'occlusion ambiante
 settings.interface.hitInd Afficher
 settings.interface.hitColor Couleur
 settings.interface.dmg Afficher les dégâts
+settings.interface.dmgType Show Damage
+settings.interface.dmgType.default Rounded
+settings.interface.dmgType.float Float
 settings.interface.dmgCol Couleur des dégâts
 settings.interface.critCol Couleur des critiques
 settings.interface.header Interface
@@ -217,9 +220,11 @@ settings.interface.nametagStyle.all Tout
 settings.interface.healthNum Afficher la vie
 settings.interface.healthColT Couleur de vie des alliés
 settings.interface.healthColE Couleur de vie des ennemis
+settings.interface.xpBarType XP Bar Type
 settings.interface.xpBarCol Couleur de la barre d'xp
 settings.interface.xpBarCol2 Couleur 2 de la barre d'xp
 settings.interface.xpBarOpac Opacité de la barre d'xp
+settings.interface.adsObjOpac ADS Objective Opacity
 settings.medals.header Médailles
 settings.medals.show Montrer les médailles
 settings.medals.classic Médailles classiques
@@ -376,6 +381,8 @@ settings.viewmodel.weapReloadY Rechargement de l'arme Y
 settings.viewmodel.yOffADS Décalage Y arme visée
 settings.viewmodel.adsFovMlt Zoom de la visée
 settings.viewmodel.toggleADS Activer la visée
+settings.viewmodel.wallLean Wall Slide/Jump Lean
+settings.viewmodel.wallLeanMlt Wall Slide/Jump Lean
 settings.editing.header Édition
 settings.editing.health.high HUD Vie haute
 settings.editing.health.low HUD Vie faible
@@ -487,6 +494,7 @@ windows.loadout.wrist Poignet
 windows.loadout.stat Stat de la carte d’élimination
 windows.loadout.flag Drapeau
 windows.loadout.badge Badge personnalisé
+windows.loadout.streaks Streaks
 windows.mods.drop Glissez un dossier de mod ici ou cliquez
 windows.mods.paste Lien URL du mod
 windows.mods.load Charger un mod
@@ -556,7 +564,11 @@ windows.controls.premium1 Invincibilité
 windows.controls.premium2 Suicide
 windows.controls.premium3 Dégats augmentés
 windows.controls.reset Réinitialiser la position (Race & Parkour)
+windows.controls.resetLast Reset To Last Checkpoint (Parkour etc)
 windows.controls.pretend Cacher le jeu
+windows.controls.noclipSB Noclip
+windows.controls.godModeSB Godmode
+windows.controls.killSB Kill
 windows.host.header Héberger une partie personnalisée
 windows.host.maps Réglages du serveur
 windows.host.cmaps Mini-jeux de la communauté
@@ -670,6 +682,7 @@ windows.ranked.login pour jouer en partie classée !
 windows.ranked.level Vous devez être au moins <span color="black">niveau {0}</span> pour jouer en partie classée ! Vous êtes actuellement <span color="black">niveau {1}</span>.
 windows.chall.header Défis
 windows.chall.login pour compléter les défis !
+windows.spin.header Prize Wheel
 thumbnail.upload.limit Échec. {0}kb Limite d’aperçu atteinte
 image.upload.limit Échec. {0}kb Limite d’image atteinte
 thumbnail.upload.error Erreur d’image d’aperçu
@@ -683,6 +696,7 @@ matchmaker.GameFull La partie est pleine.
 matchmaker.NoServersMatchQuery LE JEU EST EN TRAIN DE SE METTRE A JOUR.
 matchmaker.InvalidGameId Partie pas trouvée.
 matchmaker.NoAvailableServers Les serveurs sont à la capacité maximale.
+matchmaker.NoMatchingServers No Games Found<br><small>Try changing Quickplay options</small>
 matchmaker.GameIssue Problème de rejoignement inconnu
 adblocker Désactivez votre bloqueur de publicités pour obtenir des KR gratuits.
 ad-failed La publicité n’a pas pu être chargée. Réessayez plus tard.
@@ -724,6 +738,7 @@ server.config.t3Dmg Dégats de l'équipe 3
 server.config.t4Dmg Dégats de l'équipe 4
 server.config.t5Dmg Dégats de l'équipe 5
 server.config.selTeam Sélection d’équipe
+server.config.frFire Friendly Fire
 server.config.allowSpect Mode Spectateur
 server.config.killRewards Récompense d’élimination
 server.config.headshotOnly Tir dans la tête uniquement
@@ -736,6 +751,7 @@ server.config.bDrop Gravité des projectiles
 server.config.thirdPerson Troisième personne
 server.config.requireCaptcha Captcha requis
 server.config.nameTags Cacher les pseudos
+server.config.nameTagsFR Hide Nametags (Allies)
 server.config.kCams Caméra des éliminations
 server.config.aAnon Autoriser les anonymes
 server.config.noReload Munitions illimitées
@@ -751,6 +767,7 @@ server.config.scoreLimit Limite de score
 server.config.keepTScore Garder le score de l'équipe
 server.config.forceC Forcer les classes du mode
 server.config.logTim Conserver les temps (Race, Parkour)
+server.config.lstChkT Last Checkpoint Time Rewind (Race/Bhop)
 server.config.hitBoxPad Taille de la Hitbox
 server.config.hpRegen Régénération de la santé
 server.config.disableB Désactiver les bordures
@@ -813,6 +830,7 @@ social.market.gift Offrir des KR
 social.market.gift.msg Laisser un message
 respawn.auto Réapparition automatique dans {0}
 custom.host.ranked Vous ne pouvez pas héberger de match pendant une partie classée.
+custom.host.wager Can't host match while in Wager.
 funds.insufficient Fonds insuffisants
 funds.out On dirait que vous êtes arrivé à court de KR.
 custom.passcode.long Mot de passe trop long
@@ -838,6 +856,11 @@ mod.reset.1 Les objets de la map ne sont pas réinitialisés.
 windows.profile.picture Changer l'image
 stats.assists Aides
 stats.nukes Nukes
+stats.slimers Slimers
+stats.juggernauts Juggernauts
+stats.juggernauts.kills Juggernaut Kills
+stats.juggernauts.killed Juggernauts Killed
+stats.warmachines War Machines
 stats.melee Mêlées
 stats.fistkills Kills aux points
 stats.thrownkills Kills aux lancers de mêlée
@@ -846,6 +869,10 @@ stats.wallbangs Tirs à travers les murs
 stats.crouches Accroupissements
 stats.sprays Tags placés
 stats.kpd Plaintes utiles
+stats.shots Shots
+stats.hits Hits
+stats.misses Misses
+stats.legshots Legshots
 windows.host.default.settings Activer les paramètres par défaut permet le stockage du progrès des joueurs et des meilleurs scores.
 windows.host.default.commands *Les commandes d'host sont désactivées dans ce mode: /noclip /god /smite etc
 windows.host.rewards Activer les récompenses KR force le serveur à utiliser les paramètres par défaut et permet aux joueurs de gagner des KR depuis les fonds de la map:
@@ -979,4 +1006,8 @@ server.message.kicked {0} a été expulsé
 server.message.banned {0} a été banni
 server.message.votekicked {0} a été expulsé par vote
 server.message.arrested {0} a été arrêté par le K.P.D
-`;
+event.easter.golden.spawn A Golden egg is near
+event.easter.golden.despawn A Golden egg has gone
+event.easter.found.new {0} found {1}/{2} Eggs
+event.easter.found.old You already discovered this egg!
+event.easter.completed {0} completed the Egg hunt!

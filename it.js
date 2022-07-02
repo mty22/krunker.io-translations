@@ -172,6 +172,9 @@ settings.post.ssaoRadius Raggio SSAO
 settings.interface.hitInd Mostra Hitmarker
 settings.interface.hitColor Colore Hitmarker
 settings.interface.dmg Mostra danni
+settings.interface.dmgType Show Damage
+settings.interface.dmgType.default Rounded
+settings.interface.dmgType.float Float
 settings.interface.dmgCol Colore danni
 settings.interface.critCol Colore danno critico
 settings.interface.header Interfaccia
@@ -217,9 +220,11 @@ settings.interface.nametagStyle.all Tutto
 settings.interface.healthNum Numero punti vita
 settings.interface.healthColT Colore barra PV della squadra
 settings.interface.healthColE Colore barra PV del nemico
+settings.interface.xpBarType XP Bar Type
 settings.interface.xpBarCol Colore barra ESP.
 settings.interface.xpBarCol2 Colore barra ESP 2
 settings.interface.xpBarOpac Opacità barra ESP.
+settings.interface.adsObjOpac ADS Objective Opacity
 settings.medals.header Medaglie
 settings.medals.show Mostra Medaglie
 settings.medals.classic Medaglie Classice
@@ -376,6 +381,8 @@ settings.viewmodel.weapReloadY Posizione Y in ricarica
 settings.viewmodel.yOffADS Posizione Y arma quando miri
 settings.viewmodel.adsFovMlt Intensità FOV quando miri
 settings.viewmodel.toggleADS Attiva/Disattiva zoom mira
+settings.viewmodel.wallLean Wall Slide/Jump Lean
+settings.viewmodel.wallLeanMlt Wall Slide/Jump Lean
 settings.editing.header Editing
 settings.editing.health.high HUD Vita alta
 settings.editing.health.low HUD Vita bassa
@@ -487,6 +494,7 @@ windows.loadout.wrist Polso
 windows.loadout.stat Statistica Killcard
 windows.loadout.flag Bandiera
 windows.loadout.badge Badge Personalizzato
+windows.loadout.streaks Streaks
 windows.mods.drop rilascia file Mod qui o clicca
 windows.mods.paste Incolla URL Mod
 windows.mods.load Carica Mod
@@ -556,7 +564,11 @@ windows.controls.premium1 Godmode
 windows.controls.premium2 Kill
 windows.controls.premium3 Smite
 windows.controls.reset Ripristina posizione (Gara & Parkour)
+windows.controls.resetLast Reset To Last Checkpoint (Parkour etc)
 windows.controls.pretend Nascondi gioco
+windows.controls.noclipSB Noclip
+windows.controls.godModeSB Godmode
+windows.controls.killSB Kill
 windows.host.header Crea partita personalizzata
 windows.host.maps Impostazioni Server
 windows.host.cmaps Mappe della comunità
@@ -670,6 +682,7 @@ windows.ranked.login per giocare partite classificate!
 windows.ranked.level Devi essere al <span color="black">livello {0}</span> per giocare una partita classificata! Ora sei al <span color="black">livello {1}</span>.
 windows.chall.header Sfide
 windows.chall.login per completare le sfide!
+windows.spin.header Prize Wheel
 thumbnail.upload.limit Fallito. Limite di {0}kb per la copertina
 image.upload.limit Fallito. Limite di {0}kb per l'immagine
 thumbnail.upload.error Errore Copertina
@@ -683,6 +696,7 @@ matchmaker.GameFull La partita è piena.
 matchmaker.NoServersMatchQuery AGGIORNAMENTO DEL GIOCO
 matchmaker.InvalidGameId Partita non trovata.
 matchmaker.NoAvailableServers I server hanno raggiunto la capacità massima
+matchmaker.NoMatchingServers No Games Found<br><small>Try changing Quickplay options</small>
 matchmaker.GameIssue Problema Sconosciuto
 adblocker Disabilita l'ad blocker per ricevere krunkies gratis.
 ad-failed Pubblicità non caricata. Riprova.
@@ -724,6 +738,7 @@ server.config.t3Dmg Danni squadra 3
 server.config.t4Dmg Danni squadra 4
 server.config.t5Dmg Danni squadra 5
 server.config.selTeam Scelta squadra
+server.config.frFire Friendly Fire
 server.config.allowSpect Spettatori
 server.config.killRewards Premi uccisioni
 server.config.headshotOnly Solo headshot
@@ -736,6 +751,7 @@ server.config.bDrop Cadenza proiettili
 server.config.thirdPerson 3a persona
 server.config.requireCaptcha Richiedi Captcha
 server.config.nameTags Nascondi Nametags
+server.config.nameTagsFR Hide Nametags (Allies)
 server.config.kCams Camera uccisione
 server.config.aAnon Consenti anonimo
 server.config.noReload Niente ricarica
@@ -751,6 +767,7 @@ server.config.scoreLimit Limite punteggio
 server.config.keepTScore Tieni punti squadra
 server.config.forceC Forza la classe
 server.config.logTim Tempo (Gara, Parkour)
+server.config.lstChkT Last Checkpoint Time Rewind (Race/Bhop)
 server.config.hitBoxPad Dimensione Hitbox
 server.config.hpRegen Rigenerazione vita
 server.config.disableB Disabilita bordi
@@ -813,6 +830,7 @@ social.market.gift Regala KR
 social.market.gift.msg Aggiungi un messaggio
 respawn.auto Rinascita automatica in {0}
 custom.host.ranked Non puoi creare una partita durante una Classificata.
+custom.host.wager Can't host match while in Wager.
 funds.insufficient Fondi insufficienti
 funds.out Sembra che tu abbia finito i Krunkies.
 custom.passcode.long Password troppo lunga
@@ -838,6 +856,11 @@ mod.reset.1 Gli oggetti della mappa non sono reimpostati
 windows.profile.picture Cambia immagine profilo
 stats.assists Assist
 stats.nukes Nukes
+stats.slimers Slimers
+stats.juggernauts Juggernauts
+stats.juggernauts.kills Juggernaut Kills
+stats.juggernauts.killed Juggernauts Killed
+stats.warmachines War Machines
 stats.melee Corpo a corpo
 stats.fistkills Pestaggi
 stats.thrownkills Bullseyes
@@ -846,6 +869,10 @@ stats.wallbangs Wallbangs
 stats.crouches Accovacciamenti
 stats.sprays Graffiti fatti
 stats.kpd Segnalazioni utili
+stats.shots Shots
+stats.hits Hits
+stats.misses Misses
+stats.legshots Legshots
 windows.host.default.settings Abilitare le impostazioni predefinite permette ai giocatori di mantenere il progresso del giocatore e i suoi punteggi migliori.
 windows.host.default.commands *I comandi dell'Host sono disabilitati in questa modalità: /noclip /god /smite etc
 windows.host.rewards Abilitare i premi in KR obbliga il Server all'utilizzo delle impostazioni predefinite e permette ai giocatori di guadagnare KR dai fondi della mappa:
@@ -979,4 +1006,8 @@ server.message.kicked {0} was kicked
 server.message.banned {0} was banned
 server.message.votekicked {0} was vote kicked
 server.message.arrested {0} was arrested by the K.P.D
-`;
+event.easter.golden.spawn A Golden egg is near
+event.easter.golden.despawn A Golden egg has gone
+event.easter.found.new {0} found {1}/{2} Eggs
+event.easter.found.old You already discovered this egg!
+event.easter.completed {0} completed the Egg hunt!

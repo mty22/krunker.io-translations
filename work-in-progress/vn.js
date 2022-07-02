@@ -172,6 +172,9 @@ settings.post.ssaoRadius SSAO Radius
 settings.interface.hitInd Show Hit Indicators
 settings.interface.hitColor Hit Indicator Color
 settings.interface.dmg Hiển thị Damege
+settings.interface.dmgType Show Damage
+settings.interface.dmgType.default Rounded
+settings.interface.dmgType.float Float
 settings.interface.dmgCol Màu Damege
 settings.interface.critCol Crit Color
 settings.interface.header Interface
@@ -217,9 +220,11 @@ settings.interface.nametagStyle.all Hiển thị tất cả
 settings.interface.healthNum Hiển thị số máu
 settings.interface.healthColT Màu HP đồng đội
 settings.interface.healthColE Màu HP địch
+settings.interface.xpBarType XP Bar Type
 settings.interface.xpBarCol Màu thanh XP 
 settings.interface.xpBarCol2 XP Bar Color 2
 settings.interface.xpBarOpac Độ trong suốt thanh XP
+settings.interface.adsObjOpac ADS Objective Opacity
 settings.medals.header Medals
 settings.medals.show Show Medals
 settings.medals.classic Classic Medals
@@ -376,6 +381,8 @@ settings.viewmodel.weapReloadY Weapon Reload Y
 settings.viewmodel.yOffADS Weapon ADS Y Offset
 settings.viewmodel.adsFovMlt ADS FOV Power
 settings.viewmodel.toggleADS Toggle Weapon ADS
+settings.viewmodel.wallLean Wall Slide/Jump Lean
+settings.viewmodel.wallLeanMlt Wall Slide/Jump Lean
 settings.editing.header Chỉnh Sửa
 settings.editing.health.high HUD Health High
 settings.editing.health.low HUD Health Low
@@ -487,6 +494,7 @@ windows.loadout.wrist Wrist
 windows.loadout.stat Killcard stat
 windows.loadout.flag Cờ/quốc gia
 windows.loadout.badge Custom Badge
+windows.loadout.streaks Streaks
 windows.mods.drop thả file mod vào đây hoặc nhấp vào
 windows.mods.paste Dán URL mod
 windows.mods.load Tải mod
@@ -556,7 +564,11 @@ windows.controls.premium1 Godmode
 windows.controls.premium2 Kill
 windows.controls.premium3 Smite
 windows.controls.reset Reset Position (Race & Parkour)
+windows.controls.resetLast Reset To Last Checkpoint (Parkour etc)
 windows.controls.pretend Ân Game 
+windows.controls.noclipSB Noclip
+windows.controls.godModeSB Godmode
+windows.controls.killSB Kill
 windows.host.header Tạo phòng 
 windows.host.maps Server Setup
 windows.host.cmaps Trò chơi khác 
@@ -670,6 +682,7 @@ windows.ranked.login Đăng nhập để chơi Rank
 windows.ranked.level You must be at least <span color="black">level {0}</span> to play in ranked games! Right now you are at <span color="black">level {1}</span>.
 windows.chall.header Thử thách
 windows.chall.login Đăng nhập để hoàn thành thử thách!
+windows.spin.header Prize Wheel
 thumbnail.upload.limit Failed. {0}kb Thumbnail Limit
 image.upload.limit Failed. {0}kb Image Limit
 thumbnail.upload.error Thumbnail Error
@@ -683,6 +696,7 @@ matchmaker.GameFull Game is full.
 matchmaker.NoServersMatchQuery GAME UPDATING
 matchmaker.InvalidGameId Game not found.
 matchmaker.NoAvailableServers Servers are at Max Capacity
+matchmaker.NoMatchingServers No Games Found<br><small>Try changing Quickplay options</small>
 matchmaker.GameIssue Unknown Join Issue
 adblocker Disable your ad blocker to receive free Krunkies.
 ad-failed ko tải được quảng cáo. Vui lòng thử lại. 
@@ -724,6 +738,7 @@ server.config.t3Dmg Team 3 Damage
 server.config.t4Dmg Team 4 Damage
 server.config.t5Dmg Team 5 Damage
 server.config.selTeam Chọn team
+server.config.frFire Friendly Fire
 server.config.allowSpect Spectating
 server.config.killRewards Kill Rewards
 server.config.headshotOnly Chỉ trúng đầu
@@ -736,6 +751,7 @@ server.config.bDrop Bullet Drop
 server.config.thirdPerson Góc nhìn thứ 3 
 server.config.requireCaptcha Require Captcha
 server.config.nameTags Ân tên
+server.config.nameTagsFR Hide Nametags (Allies)
 server.config.kCams Kill Cams
 server.config.aAnon Allow Anonymous
 server.config.noReload Ko nạp đạn
@@ -751,6 +767,7 @@ server.config.scoreLimit giới hạn số điểm
 server.config.keepTScore Keep Team Score
 server.config.forceC Force Mode Classes
 server.config.logTim Log Time (Race, Parkour)
+server.config.lstChkT Last Checkpoint Time Rewind (Race/Bhop)
 server.config.hitBoxPad Hitbox Padding
 server.config.hpRegen Health Regen
 server.config.disableB Vô hiệu hóa biên giới 
@@ -813,6 +830,7 @@ social.market.gift Tặng KR
 social.market.gift.msg Để lại lời nhắn
 respawn.auto Tự động respawn trong {0}
 custom.host.ranked Không thể tổ chức trận đấu khi đang đấu hạng
+custom.host.wager Can't host match while in Wager.
 funds.insufficient Insufficient Funds
 funds.out Có vẻ như bạn đã hết Krunkies
 custom.passcode.long Mật khẩu quá dài
@@ -838,6 +856,11 @@ mod.reset.1 Map Objects dont get reset
 windows.profile.picture Đổi hình ảnh
 stats.assists Assists
 stats.nukes Nukes
+stats.slimers Slimers
+stats.juggernauts Juggernauts
+stats.juggernauts.kills Juggernaut Kills
+stats.juggernauts.killed Juggernauts Killed
+stats.warmachines War Machines
 stats.melee Melee
 stats.fistkills Beatdowns
 stats.thrownkills Bullseyes
@@ -846,6 +869,10 @@ stats.wallbangs Xuyên tường
 stats.crouches Crouches
 stats.sprays Sprays Placed
 stats.kpd Helpful Reports
+stats.shots Shots
+stats.hits Hits
+stats.misses Misses
+stats.legshots Legshots
 windows.host.default.settings Bật Cài đặt mặc định cho phép lưu trữ Tiến trình của người chơi và Điểm cao
 windows.host.default.commands *Host Commands are Disabled in this mode: /noclip /god /smite etc
 windows.host.rewards Việc bật Phần thưởng KR buộc Máy chủ sử dụng Cài đặt mặc định & cho phép người chơi kiếm KR từ quỹ bản đồ:
@@ -979,4 +1006,8 @@ server.message.kicked {0} was kicked
 server.message.banned {0} was banned
 server.message.votekicked {0} was vote kicked
 server.message.arrested {0} was arrested by the K.P.D
-`;
+event.easter.golden.spawn A Golden egg is near
+event.easter.golden.despawn A Golden egg has gone
+event.easter.found.new {0} found {1}/{2} Eggs
+event.easter.found.old You already discovered this egg!
+event.easter.completed {0} completed the Egg hunt!

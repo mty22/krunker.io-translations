@@ -172,6 +172,9 @@ settings.post.ssaoRadius Largesia e SSAO's
 settings.interface.hitInd Trgo 
 settings.interface.hitColor Pritisnite Barva indikatorja
 settings.interface.dmg Pokaži škodo
+settings.interface.dmgType Show Damage
+settings.interface.dmgType.default Rounded
+settings.interface.dmgType.float Float
 settings.interface.dmgCol Barva poškodb
 settings.interface.critCol Crit Barva
 settings.interface.header vmesnik
@@ -217,9 +220,11 @@ settings.interface.nametagStyle.all Vse
 settings.interface.healthNum Oznake z imenom Zdravstvena številka
 settings.interface.healthColT Imenica Zdravje Barva Ekipa
 settings.interface.healthColE Imenica Zdravje Barva Sovražnik
+settings.interface.xpBarType XP Bar Type
 settings.interface.xpBarCol Barva vrstice XP
 settings.interface.xpBarCol2 Barva vrstice XP 2
 settings.interface.xpBarOpac Nepreglednost vrstice XP
+settings.interface.adsObjOpac ADS Objective Opacity
 settings.medals.header Medalje
 settings.medals.show Prikaži medalje
 settings.medals.classic Klasične medalje
@@ -376,6 +381,8 @@ settings.viewmodel.weapReloadY Ponovno polnjenje orožja Y
 settings.viewmodel.yOffADS Odmik orožja ADS Y
 settings.viewmodel.adsFovMlt ADS FOV Moč
 settings.viewmodel.toggleADS Preklapljanje ADS orožja
+settings.viewmodel.wallLean Wall Slide/Jump Lean
+settings.viewmodel.wallLeanMlt Wall Slide/Jump Lean
 settings.editing.header Urejanje
 settings.editing.health.high HUD Zdravje Visoka
 settings.editing.health.low HUD Zdravje Nizka
@@ -487,6 +494,7 @@ windows.loadout.wrist Zapestje
 windows.loadout.stat Statistika kartice Killcard
 windows.loadout.flag Zastava države
 windows.loadout.badge Značka po meri
+windows.loadout.streaks Streaks
 windows.mods.drop spustite mod datoteko tukaj ali kliknite
 windows.mods.paste Prilepi Mod Url
 windows.mods.load Način nalaganja Mod
@@ -556,7 +564,11 @@ windows.controls.premium1 Godmode
 windows.controls.premium2 Ubij
 windows.controls.premium3 Smite
 windows.controls.reset Ponastavitev položaja (dirka in parkour)
+windows.controls.resetLast Reset To Last Checkpoint (Parkour etc)
 windows.controls.pretend Skrij igro
+windows.controls.noclipSB Noclip
+windows.controls.godModeSB Godmode
+windows.controls.killSB Kill
 windows.host.header Gostiteljska igra po meri
 windows.host.maps Nastavitev strežnika
 windows.host.cmaps Igra skupnosti
@@ -670,6 +682,7 @@ windows.ranked.login za igranje v uvrščenih igrah!
 windows.ranked.level Biti morate vsaj <span color="black">level {0}</span> za igranje v uvrščenih igrah! Trenutno ste na <span color="black">level {1}</span>.
 windows.chall.header Izzivi
 windows.chall.login za izpolnjevanje izzivov!
+windows.spin.header Prize Wheel
 thumbnail.upload.limit Neuspešno. {0}kb Omejitev sličic
 image.upload.limit Neuspešno. {0}kb Omejitev slike
 thumbnail.upload.error Napaka pri sličicah
@@ -683,6 +696,7 @@ matchmaker.GameFull Igra je polna.
 matchmaker.NoServersMatchQuery POSODABLJANJE IGRE
 matchmaker.InvalidGameId Igra ni bila najdena.
 matchmaker.NoAvailableServers Strežniki imajo največjo zmogljivost
+matchmaker.NoMatchingServers No Games Found<br><small>Try changing Quickplay options</small>
 matchmaker.GameIssue Neznana težava s pridružitvijo
 adblocker Če želite prejemati brezplačne Krunkies, onemogočite blokator oglasov.
 ad-failed Oglas se ni uspel naložiti. Poskusite znova.
@@ -724,6 +738,7 @@ server.config.t3Dmg Ekipa 3 Škoda
 server.config.t4Dmg Ekipa 4 Škoda
 server.config.t5Dmg Ekipa 5 Škoda
 server.config.selTeam Izberite ekipo
+server.config.frFire Friendly Fire
 server.config.allowSpect Spectating
 server.config.killRewards Nagrade za ubijanje
 server.config.headshotOnly Samo posnetki glave
@@ -736,6 +751,7 @@ server.config.bDrop Padec krogle
 server.config.thirdPerson Tretja oseba
 server.config.requireCaptcha Zahtevajte Captcha
 server.config.nameTags Skrijte oznake z imeni
+server.config.nameTagsFR Hide Nametags (Allies)
 server.config.kCams Kamere za ubijanje
 server.config.aAnon Dovolite anonimno
 server.config.noReload Brez ponovnega polnjenja
@@ -751,6 +767,7 @@ server.config.scoreLimit Omejitev števila točk
 server.config.keepTScore Vodenje ekipnega rezultata
 server.config.forceC Razredi načina sile
 server.config.logTim Dnevniški čas (dirka, parkour)
+server.config.lstChkT Last Checkpoint Time Rewind (Race/Bhop)
 server.config.hitBoxPad Podloga udarnega polja
 server.config.hpRegen Regeneracija zdravja
 server.config.disableB Onemogočite meje
@@ -813,6 +830,7 @@ social.market.gift Darilo KR
 social.market.gift.msg Pustite sporočilo
 respawn.auto Samodejno obnavljanje v {0}
 custom.host.ranked Med razvrščanjem ne morete gostiti tekme.
+custom.host.wager Can't host match while in Wager.
 funds.insufficient Nezadostna sredstva
 funds.out Zdi se, da vam je zmanjkalo Krunkies.
 custom.passcode.long Predolgo geslo
@@ -838,6 +856,11 @@ mod.reset.1 Predmeti zemljevida se ne ponastavijo
 windows.profile.picture Sprememba slike
 stats.assists Asistence
 stats.nukes Jedrske bombe
+stats.slimers Slimers
+stats.juggernauts Juggernauts
+stats.juggernauts.kills Juggernaut Kills
+stats.juggernauts.killed Juggernauts Killed
+stats.warmachines War Machines
 stats.melee Melee
 stats.fistkills Beatdowns
 stats.thrownkills Bullseyes
@@ -846,6 +869,10 @@ stats.wallbangs Wallbangs
 stats.crouches Prikloni se
 stats.sprays Razpršila, ki so bila nameščena
 stats.kpd Koristna poročila
+stats.shots Shots
+stats.hits Hits
+stats.misses Misses
+stats.legshots Legshots
 windows.host.default.settings Omogočanje privzetih nastavitev omogoča shranjevanje napredka in visokih točk igralca.
 windows.host.default.commands *Gostiteljski ukazi so v tem načinu onemogočeni: /noclip /god /smite itd.
 windows.host.rewards Omogočanje nagrad KR prisili strežnik, da uporabi privzete nastavitve, in igralcem omogoči, da zaslužijo KR iz sredstev na zemljevidu:
@@ -979,4 +1006,8 @@ server.message.kicked {0} je bil izločen
 server.message.banned {0} je bila prepovedana
 server.message.votekicked {0} je bilo glasovanje kicked
 server.message.arrested {0} je aretirala policija K.P.D.
-`;
+event.easter.golden.spawn A Golden egg is near
+event.easter.golden.despawn A Golden egg has gone
+event.easter.found.new {0} found {1}/{2} Eggs
+event.easter.found.old You already discovered this egg!
+event.easter.completed {0} completed the Egg hunt!
