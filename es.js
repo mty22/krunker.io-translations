@@ -72,12 +72,12 @@ app.spectate CLICK PARA ESPECTEAR
 app.play.mobile PRESIONE PARA JUGAR
 app.spectate.mobile PRESIONA PARA ESPECTEAR
 app.play.controller PRESIONE INICIO
-app.spectate.controller PRESIONA START PARA ESPECTEAR
+app.spectate.controller PRESIONA INICIAR PARA ESPECTEAR
 purchase.error HA OCURRIDO UN ERROR
 purchase.error.click Haz click aquí </a> y prueba de nuevo!
 purchase.error.limit Has superado tu límite de transacciones diarias
 settings.reset Reiniciar
-settings.reset.confirm Estás seguro de que quieres reiniciar todas tus configuraciones?
+settings.reset.confirm Estás seguro de qué quieres reiniciar todas tus configuraciones?
 settings.import Importar
 settings.export Exportar
 settings.none No se han encontrado configuraciones
@@ -204,15 +204,15 @@ settings.interface.speedScale Escala de velocidad
 settings.interface.speedColor Color de velocidad (Actual)
 settings.interface.speedColorMax Color de velocidad (Máxima)
 settings.interface.hideNames Mostrar nombres
-settings.interface.hideNames.team Sólo del equipo
-settings.interface.hideNames.enemy Sólo del enemigo
+settings.interface.hideNames.team Solo del equipo
+settings.interface.hideNames.enemy Solo del enemigo
 settings.interface.hideNames.all Todos
 settings.interface.nametagStyle Estilo del nombre
 settings.interface.nametagOpac Opacidad de nombre
 settings.interface.nametagScale Escala de Nombres
-settings.interface.nametagStyle.health Sólo salud
-settings.interface.nametagStyle.name Sólo nombre
-settings.interface.nametagStyle.nameLvl Sólo el nombre y el nivel
+settings.interface.nametagStyle.health Solo salud
+settings.interface.nametagStyle.name Solo nombre
+settings.interface.nametagStyle.nameLvl Solo el nombre y el nivel
 settings.interface.nametagStyle.all Todo
 settings.interface.healthNum Número de salud
 settings.interface.healthColT Color de la barra de salud del equipo
@@ -227,7 +227,7 @@ settings.medals.sound Reproducir Sonidos de Medalla
 settings.medals.scale Escala de Medallas
 settings.medals.xOff Ubicación de Medalla en  X
 settings.medals.yOff Ubicación de Medalla en  Y
-settings.crosshair.header Retícula
+settings.crosshair.header Punto de mira
 settings.crosshair.type Tipo
 settings.crosshair.type.1 Dinámica
 settings.crosshair.type.2 Personalizado
@@ -312,7 +312,7 @@ settings.gameprivacy.custom Mostrar Insignia Personalizada
 settings.gameplay.header Jugabilidad
 settings.gameplay.gpSetts Ajustes de Gameplay
 settings.gameplay.sensitivityX Sensibilidad X
-settings.gameplay.sensitivityY Sensiblidad Y
+settings.gameplay.sensitivityY Sensibilidad Y
 settings.gameplay.aimsensX Sensibilidad de Apuntado X
 settings.gameplay.aimsensY Sensibilidad de Apuntado Y
 settings.gameplay.challenge Modo Desafío
@@ -451,8 +451,8 @@ settings.mods.damage.paste URL de capa de daño
 settings.mods.overlay Imagen de capa del juego
 settings.mods.overlay.paste URL de capa del juego
 settings.social.region Estadisticas de Región
-settings.social.bg Background Image
-settings.social.bg.paste Background Image URL
+settings.social.bg Imagen de Fondo
+settings.social.bg.paste Imagen de Fondo (URL)
 windows.settings.header Ajustes de juego
 windows.mail.header Correo de krunker
 windows.servers.header Servidores
@@ -487,7 +487,7 @@ windows.loadout.wrist Muñeca
 windows.loadout.stat Estadística en tarjeta
 windows.loadout.flag Bandera de país
 windows.loadout.badge Insignia Personalizada
-windows.mods.drop arrastra el archivo de mod .zip aquí o haz click
+windows.mods.drop arrastra el archivo de mod .zip aquí o haz clic
 windows.mods.paste Pega la url del mod
 windows.mods.load Cargar mod
 windows.mods.none No se ha encontrado mods
@@ -512,7 +512,7 @@ windows.controls.inspect Inspeccionar
 windows.controls.spray Usar Grafiti
 windows.controls.sprayWheel Ruleta de Sprays (Mantener Pulsado)
 windows.controls.jump Saltar
-windows.controls.crouch Agacharse,
+windows.controls.crouch Agacharse
 windows.controls.prim Arma Primaria
 windows.controls.swap Arma Secundaria
 windows.controls.melee Arma Cuerpo-a-cuerpo
@@ -667,7 +667,7 @@ windows.client.mac Instalador de MacOS
 windows.client.linux Instalador de Linux
 windows.ranked.header Competitivo
 windows.ranked.login para jugar en partidas competitivas!
-windows.ranked.level Tienes que ser mínimo <span color="black">nivel {0}</span> para jugar en partidas competitivas! Ahora mismo estás en el <span color="black">nivel {1}</span>.
+windows.ranked.level Tienes qué ser mínimo <span color="black">nivel {0}</span> para jugar en partidas competitivas! Ahora mismo estás en el <span color="black">nivel {1}</span>.
 windows.chall.header Desafíos
 windows.chall.login para completar desafíos!
 thumbnail.upload.limit Error. {0}kb Límite de miniatura
@@ -703,9 +703,9 @@ server.config.tickRI Tickrate Alto
 server.config.maxPS Servidor de 40 jugadores
 server.config.promServ Promover Servidor
 server.config.jumpMlt Intensidad de salto
-server.config.airStrf Strafing en el aire
+server.config.airStrf Disparo en el aire
 server.config.deltaMlt Velocidad de tiempo
-server.config.strafeSpd Velocidad de strafe
+server.config.strafeSpd Velocidad de disparos
 server.config.fiRat Cadencia de fuego
 server.config.reSpd Velocidad de recarga
 server.config.slidTime Tiempo de deslizamiento
@@ -726,7 +726,7 @@ server.config.t5Dmg Daño del Equipo 5
 server.config.selTeam Seleccionar equipos
 server.config.allowSpect Permitir espectadores
 server.config.killRewards Recompensas de bajas
-server.config.headshotOnly Sólo disparos a la cabeza
+server.config.headshotOnly Solo disparos a la cabeza
 server.config.noSecondary Deshabilitar secundarias
 server.config.noStreaks Deshabilitar rachas
 server.config.canSlide Deslizarse
@@ -814,7 +814,7 @@ social.market.gift.msg Dejar un mensaje
 respawn.auto Auto Reaparición en {0}
 custom.host.ranked No se puede crear una partida mientras estás en Competitivo
 funds.insufficient Fondos Insuficientes
-funds.out Vaya, parece que no tienes Krunkies.
+funds.out Vaya, parece qué no tienes Krunkies.
 custom.passcode.long Contraseña demasiado Larga.
 custom.passcode.input Ingresa la contraseña del servidor.
 custom.tryagain Por favor intentalo de nuevo.
@@ -868,8 +868,8 @@ item.view.open Abrir Visualizador de Modelos
 item.view.more Más Información
 item.sell.cant El objeto no se puede Vender
 item.sell.cant.krunker El item no se puede vender en Krunker.
-item.sell.quick Estás seguro de que quieres vender rápidamente {0}?
-item.sell.destroy Estás seguro de que quieres destruir? {0}?
+item.sell.quick Estás seguro de qué quieres vender rápidamente {0}?
+item.sell.destroy Estás seguro de qué quieres destruir? {0}?
 social.profile.stats Estadísticas Generales
 social.profile.class Estadísticas de Clases
 social.profile.sales Ventas
@@ -891,8 +891,8 @@ social.trades.in.head Ofertas entrantes ({0})
 social.trades.out Saliente
 social.trades.out.head Ofertas salientes ({0})
 social.trades.history Historial
-social.trades.history.head Historial de Intercambios ({0})
-social.trades.decline Rechazar Todo
+social.trades.history.head Historial de intercambios ({0})
+social.trades.decline Rechazar todo
 social.trades.message ACTIVA LOS MENSAJES DE INTERCAMBIO EN LAS CONFIGURACIONES
 social.trades.warning No obtienes objetos de este intercambio!
 social.trades.accept Estás seguro de que quieres aceptar esta oferta?
@@ -928,13 +928,13 @@ ranked.switch Cambio desactivado durante Partida
 ranked.spectate Modo espectador deshabilitado en competitivo
 ranked.login Iniciar Sesión para Spawnear
 ranked.sync Faltan datos de Sincronización
-ranked.team.spawn Porfavor únete a un equipo para Spawnear.
+ranked.team.spawn Por favor únete a un equipo para Spawnear.
 ranked.class.spawn Selecciona una clase para Spawnear
 modes.round.win Tu equipo ha asegurado esta Ronda.
 modes.round.loss Esta ronda ya no es ganable.
 modes.round.switch Cambiando lados. Prepárate para la siguiente ronda.
 modes.trade.success Intercambio Exitoso
-modes.prophunt.limit [Prop Hunt] No tienes mas cambios de Prop.
+modes.prophunt.limit [Prop Hunt] No tienes más cambios de Prop.
 modes.prophunt.left [Prop Hunt] Tienes {0} cambios Restantes.
 modes.prophunt.rotation.on [Prop Hunt] Rotación Activada
 modes.prophunt.rotation.off [Prop Hunt] Rotación Desactivada
