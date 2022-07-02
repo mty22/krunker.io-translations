@@ -717,7 +717,7 @@ server.config.tickRI Hohe Tickrate
 server.config.maxPS 40 Spieler Server
 server.config.promServ Server bewerben
 server.config.jumpMlt Sprungkraft
-server.config.airStrf Air Strafing
+server.config.airStrf Luft Strafing
 server.config.deltaMlt Zeitskala
 server.config.strafeSpd Strafe-Geschwindigkeit
 server.config.fiRat Schuss-Rate
@@ -738,9 +738,9 @@ server.config.t3Dmg Team 3 Schaden
 server.config.t4Dmg Team 4 Schaden
 server.config.t5Dmg Team 5 Schaden
 server.config.selTeam Team auswählen
-server.config.frFire freundlicher Feuer
+server.config.frFire freundliches Feuer
 server.config.allowSpect Zuschauen
-server.config.killRewards Abschuss-Belohnung
+server.config.killRewards Abschuss-Belohnungen
 server.config.headshotOnly Nur Kopfschüsse
 server.config.noSecondary Sekundärwaffen deaktivieren
 server.config.noStreaks Abschussserie deaktivieren
@@ -760,14 +760,14 @@ server.config.krRewards KR Belohnung
 server.config.forceDefault Erzwinge die Standardeinstellungen
 server.config.warmupTime Aufwärm-Zeit
 server.config.gamRounds Runden
-server.config.objtvTime Objective-Zeit
+server.config.objtvTime Objekt-Zeit
 server.config.forceSpawn Automatische Respawn-Zeit
-server.config.intermTmr Intermission (s)
-server.config.scoreLimit Punkte Limit
+server.config.intermTmr Pause (n)
+server.config.scoreLimit Punkte Limitierung
 server.config.keepTScore Team Punktestand beibehalten
 server.config.forceC Modus-Klassen erzwingen
 server.config.logTim Zeiten protokollieren (Rennen, Parkour)
-server.config.lstChkT Last Checkpoint Time Rewind (Race/Bhop)
+server.config.lstChkT Letze Speicherpunktzeit zurückspulen (Race/Bhop)
 server.config.hitBoxPad Hitbox Polsterung
 server.config.hpRegen Lebens-Regeneration
 server.config.disableB Grenzen deaktivieren
@@ -788,9 +788,9 @@ social.login.sell Zum Verkaufen anmelden
 social.login.gift Zum Verschenken anmelden
 social.login.proccessing Anmeldung läuft...
 social.since Seit
-social.user.maps Benutzer Maps
+social.user.maps Benutzer Karten
 social.user.mods Benutzer Mods
-social.maps.none Keine Maps gefunden...
+social.maps.none Keine Karten gefunden...
 social.mods.none Keine Mods gefunden...
 social.market.price.low Niedrigster Preis
 social.market.price.list Preis anzeigen in
@@ -854,13 +854,13 @@ spin.free.disable Diese Popups können in den generellen Einstellungen ausgescha
 mod.reset.0 Respawne um den Effekt zu erhalten
 mod.reset.1 Map Objekte werden nicht zurückgesetzt
 windows.profile.picture Bild ändern
-stats.assists Assists
+stats.assists Beihilfen
 stats.nukes Nukes
-stats.slimers Slimers
+stats.slimers Schleimer
 stats.juggernauts Juggernauts
-stats.juggernauts.kills Juggernaut Kills
+stats.juggernauts.kills Juggernaut Eleminierungen
 stats.juggernauts.killed Juggernauts Killed
-stats.warmachines War Machines
+stats.warmachines Kriegsmaschine
 stats.melee Messer-Abschüsse
 stats.fistkills Faust-Abschüsse
 stats.thrownkills Wurfmesser-Abschüsse
@@ -869,10 +869,10 @@ stats.wallbangs Wallbangs
 stats.crouches Hocken
 stats.sprays Platzierte Graffitis
 stats.kpd Nützliche Reports
-stats.shots Shots
-stats.hits Hits
-stats.misses Misses
-stats.legshots Legshots
+stats.shots Schüsse
+stats.hits Treffer
+stats.misses Fehlschüsse
+stats.legshots Beinschüsse
 windows.host.default.settings Durch aktivieren der Standardeinstellungen, können Spielerfortschritte und Höchstwerte gespeichert werden.
 windows.host.default.commands *Host Befehle sind in diesem Modus deaktiviert: /noclip /god /smite etc
 windows.host.rewards KR Belohnungen einzuschalten zwingt den Server Standard-Einstellungen zu verwenden und erlaubt Spielern KR von der Map Kasse zu verdienen
@@ -947,7 +947,7 @@ chall.name.dmg {0} Schaden zufügen {1}
 chall.name.bzk Erziele {0} Spielverderber-Abschüsse {1}
 chall.name.cc Erziele {0} hauchnahe Abschüsse {1}
 chall.name.rk Erziele {0} Vergeltungs-Abschüsse {1}
-event.doubleXP 2x Klassen XP in diesem Spiel aktiv
+event.doubleXP 2x Klassen EP in diesem Spiel aktiv
 ranked.join Ranked Spiel beigetreten. Das Verlassen eines Ranked Spiels wird mit einem temporären Bann bestraft
 ranked.progress Spiel in Gange
 ranked.team Tritt einem Team bei
@@ -971,10 +971,10 @@ commands.connected {0} Verbunden, {1} im Menü
 commands.host {0} ist der aktuelle Host.
 commands.noclip.on Noclip - Ein
 commands.noclip.off Noclip - Aus
-commands.god.on God mode - Ein
-commands.god.off God mode - Aus
-commands.god.on.other God mode - Ein für {0}
-commands.god.off.other God mode - Aus für {0}
+commands.god.on Gottmodus - Ein
+commands.god.off Gottmodus - Aus
+commands.god.on.other Gottmodus - Ein für {0}
+commands.god.off.other Gottmodus - Aus für {0}
 commands.smite.on Smite - Ein
 commands.smite.off Smite - Aus
 commands.smite.on.other Smite - Ein für {0}
@@ -1009,5 +1009,5 @@ server.message.arrested {0} wurde vom K.P.D verhaftet
 event.easter.golden.spawn Ein goldenes Ei ist nahe!
 event.easter.golden.despawn Ein goldenes Ei ist weg!
 event.easter.found.new {0} fand {1}/{2} Eier
-event.easter.found.old You already discovered this egg!
+event.easter.found.old Du hast dieses Ei schon gefunden.
 event.easter.completed {0} Schloss die Eiersuche ab!
