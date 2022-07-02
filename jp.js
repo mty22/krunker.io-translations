@@ -172,9 +172,9 @@ settings.post.ssaoRadius SSAOの半径
 settings.interface.hitInd ヒットマーカーを表示
 settings.interface.hitColor ヒットマーカーの色
 settings.interface.dmg ダメージを表示
-settings.interface.dmgType Show Damage
+settings.interface.dmgType ダメージを表示
 settings.interface.dmgType.default 切り上げ
-settings.interface.dmgType.float 
+settings.interface.dmgType.float 実数
 settings.interface.dmgCol ダメージの色
 settings.interface.critCol クリティカルヒットの色
 settings.interface.header インターフェイス
@@ -696,7 +696,7 @@ matchmaker.GameFull ゲームが満員です。
 matchmaker.NoServersMatchQuery ゲーム更新中
 matchmaker.InvalidGameId ゲームが見つかりません。
 matchmaker.NoAvailableServers サーバーが満員です
-matchmaker.NoMatchingServers ゲームが見つかりませんでした。<br><small>クイックプレイオプションを変更してもう一度試してください。</small>
+matchmaker.NoMatchingServers ゲームが見つかりませんでした<br><small>クイックプレイオプションを変更してもう一度試してください</small>
 matchmaker.GameIssue ゲーム参加時の不明な問題
 adblocker 無料KRを受け取るには、広告ブロッカーを無効にしてください。
 ad-failed 広告の読み込みに失敗しました。後でもう一度試してください。
@@ -767,7 +767,7 @@ server.config.scoreLimit スコア制限
 server.config.keepTScore チームのスコアを維持
 server.config.forceC クラスを強制的に指定
 server.config.logTim タイムを記録する (レース、パルクール)
-server.config.lstChkT タイムを巻き戻して直近のチェックポイント (レース、Bhop)
+server.config.lstChkT タイムを巻き戻して直近のチェックポイントに戻る (レース、Bhop)
 server.config.hitBoxPad ヒットボックスの大きさ
 server.config.hpRegen HP回復
 server.config.disableB ボーダー無効
@@ -830,7 +830,7 @@ social.market.gift KRをギフトする
 social.market.gift.msg メッセージを残す
 respawn.auto {0}秒後に自動リスポーンします
 custom.host.ranked ランクマッチ中にゲームをホストすることは出来ません。
-custom.host.wager 賭けてる間にゲームをホストすることは出来ません。
+custom.host.wager 賭けに参加している間にゲームをホストすることは出来ません。
 funds.insufficient 資金不足です
 funds.out KRを使い切りました。
 custom.passcode.long パスワードが長すぎます
@@ -1007,7 +1007,7 @@ server.message.banned {0}がBANされました
 server.message.votekicked {0}が投票によりキックされました
 server.message.arrested {0}がK.P.Dにより逮捕されました
 event.easter.golden.spawn 金色の卵が近い
-event.easter.golden.despawn 金色の卵が焼失した
+event.easter.golden.despawn 金色の卵が消失した
 event.easter.found.new {0} found {1}/{2} Eggs
-event.easter.found.old この卵はもう見つけてる！
-event.easter.completed {0} エッグハントを完了した！
+event.easter.found.old 発見済みです！
+event.easter.completed {0} エッグハントを完了しました！
