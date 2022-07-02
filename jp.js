@@ -1006,7 +1006,7 @@ server.message.kicked {0}がキックされました
 server.message.banned {0}がBANされました
 server.message.votekicked {0}が投票によりキックされました
 server.message.arrested {0}がK.P.Dにより逮捕されました
-event.easter.golden.spawn 金色の卵が近いです
+event.easter.golden.spawn 金色の卵が近くにあります
 event.easter.golden.despawn 金色の卵が消失しました
 event.easter.found.new {0} found {1}/{2} Eggs
 event.easter.found.old この卵は発見済みです！
