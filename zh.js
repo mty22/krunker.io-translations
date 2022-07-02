@@ -172,6 +172,9 @@ settings.post.ssaoRadius 屏幕空间环境光屏蔽半径
 settings.interface.hitInd 显示伤害来源指示器
 settings.interface.hitColor 伤害来源指示器颜色
 settings.interface.dmg 显示伤害值
+settings.interface.dmgType Show Damage
+settings.interface.dmgType.default Rounded
+settings.interface.dmgType.float Float
 settings.interface.dmgCol 普通伤害值颜色
 settings.interface.critCol 爆头伤害值颜色
 settings.interface.header 界面
@@ -217,9 +220,11 @@ settings.interface.nametagStyle.all 全部
 settings.interface.healthNum 血量
 settings.interface.healthColT 队友血条颜色
 settings.interface.healthColE 敌人血条颜色
+settings.interface.xpBarType XP Bar Type
 settings.interface.xpBarCol 经验条第一颜色
 settings.interface.xpBarCol2 经验条第二颜色
 settings.interface.xpBarOpac 经验条不透明度
+settings.interface.adsObjOpac ADS Objective Opacity
 settings.medals.header 击杀奖牌
 settings.medals.show 显示击杀奖牌
 settings.medals.classic 经典击杀奖牌
@@ -376,6 +381,8 @@ settings.viewmodel.weapReloadY 换弹时武器的垂直移动幅度
 settings.viewmodel.yOffADS 瞄准时武器相对于准星的垂直位移
 settings.viewmodel.adsFovMlt 瞄准时视场缩放乘比
 settings.viewmodel.toggleADS 切换瞄准
+settings.viewmodel.wallLean Wall Slide/Jump Lean
+settings.viewmodel.wallLeanMlt Wall Slide/Jump Lean
 settings.editing.header 编辑
 settings.editing.health.high 高血量颜色
 settings.editing.health.low 低血量颜色
@@ -487,6 +494,7 @@ windows.loadout.wrist 手腕
 windows.loadout.stat 击杀卡片战绩
 windows.loadout.flag 国家和地区旗帜
 windows.loadout.badge 特殊徽章
+windows.loadout.streaks Streaks
 windows.mods.drop 将模组文件放在此处或点击
 windows.mods.paste 粘贴模组网址
 windows.mods.load 加载模组
@@ -556,7 +564,11 @@ windows.controls.premium1 无敌模式
 windows.controls.premium2 自杀
 windows.controls.premium3 瞬间击杀
 windows.controls.reset 重置进度并回到起点（速通、跑酷模式）
+windows.controls.resetLast Reset To Last Checkpoint (Parkour etc)
 windows.controls.pretend 隐藏游戏
+windows.controls.noclipSB Noclip
+windows.controls.godModeSB Godmode
+windows.controls.killSB Kill
 windows.host.header 创建自定义服务器
 windows.host.maps 服务器设置
 windows.host.cmaps 社区地图
@@ -670,6 +682,7 @@ windows.ranked.login 登录以进行排位赛！
 windows.ranked.level 你至少需要<span color="black">{0}级</span>以进行排位赛！当前你处于<span color="black">{1}级</span>。
 windows.chall.header 挑战任务
 windows.chall.login 登录以完成挑战任务！
+windows.spin.header Prize Wheel
 thumbnail.upload.limit 上传失败，缩略图大小上限为{0}kb
 image.upload.limit 上传失败，图片大小上限为{0}kb
 thumbnail.upload.error 缩略图错误
@@ -683,6 +696,7 @@ matchmaker.GameFull 此服务器人数已满。
 matchmaker.NoServersMatchQuery 游戏更新中
 matchmaker.InvalidGameId 此服务器已关闭或不存在。
 matchmaker.NoAvailableServers 当前没有任何空闲的服务器
+matchmaker.NoMatchingServers No Games Found<br><small>Try changing Quickplay options</small>
 matchmaker.GameIssue 加入时出现未知问题
 adblocker 禁用广告拦截器以获得免费KR转盘。
 ad-failed 广告加载失败，请稍后重试。
@@ -724,6 +738,7 @@ server.config.t3Dmg 队伍3伤害倍数
 server.config.t4Dmg 队伍4伤害倍数
 server.config.t5Dmg 队伍5伤害倍数
 server.config.selTeam 可自由选择队伍
+server.config.frFire Friendly Fire
 server.config.allowSpect 允许观战
 server.config.killRewards 击杀奖励
 server.config.headshotOnly 仅限爆头
@@ -736,6 +751,7 @@ server.config.bDrop 子弹下坠
 server.config.thirdPerson 第三人称
 server.config.requireCaptcha 需要人机验证
 server.config.nameTags 隐藏名牌
+server.config.nameTagsFR Hide Nametags (Allies)
 server.config.kCams 死亡视角
 server.config.aAnon 允许匿名玩家
 server.config.noReload 无需换弹
@@ -751,6 +767,7 @@ server.config.scoreLimit 得分上限
 server.config.keepTScore 保持团队得分
 server.config.forceC 强制使用特定职业
 server.config.logTim 通关计时（速通、跑酷）
+server.config.lstChkT Last Checkpoint Time Rewind (Race/Bhop)
 server.config.hitBoxPad 玩家判定框大小
 server.config.hpRegen 回血
 server.config.disableB 禁用地图边界
@@ -813,6 +830,7 @@ social.market.gift 赠送KR
 social.market.gift.msg 说点什么呢…
 respawn.auto 你将会在{0}秒后重生
 custom.host.ranked 排位赛中无法创建自定义服务器。
+custom.host.wager Can't host match while in Wager.
 funds.insufficient 资金余额不足
 funds.out 你似乎没有KR了
 custom.passcode.long 密码过长
@@ -838,6 +856,11 @@ mod.reset.1 地图物品不会被重置。
 windows.profile.picture 更改头像
 stats.assists 助攻数
 stats.nukes 核弹数
+stats.slimers Slimers
+stats.juggernauts Juggernauts
+stats.juggernauts.kills Juggernaut Kills
+stats.juggernauts.killed Juggernauts Killed
+stats.warmachines War Machines
 stats.melee 近战武器击杀数
 stats.fistkills 空手击杀数
 stats.thrownkills 投掷击杀数
@@ -846,6 +869,10 @@ stats.wallbangs 穿墙击杀数
 stats.crouches 下蹲次数
 stats.sprays 喷漆数
 stats.kpd 有效举报数
+stats.shots Shots
+stats.hits Hits
+stats.misses Misses
+stats.legshots Legshots
 windows.host.default.settings 启用地图默认设置以允许玩家保存他们的进度及最高分数
 windows.host.default.commands * 服主命令（/noclip, /god, /smite 等）在此模式中将会被禁用。
 windows.host.rewards 启用KR奖励将强制服务器使用地图默认设置，以允许玩家从此地图获得KR：
@@ -979,4 +1006,8 @@ server.message.kicked {0}已被踢出
 server.message.banned {0}已被封禁并踢出
 server.message.votekicked {0}已被投票踢出
 server.message.arrested {0}已被K.P.D逮捕
-`;
+event.easter.golden.spawn A Golden egg is near
+event.easter.golden.despawn A Golden egg has gone
+event.easter.found.new {0} found {1}/{2} Eggs
+event.easter.found.old You already discovered this egg!
+event.easter.completed {0} completed the Egg hunt!
