@@ -172,6 +172,9 @@ settings.post.ssaoRadius SSAOの半径
 settings.interface.hitInd ヒットマーカーを表示
 settings.interface.hitColor ヒットマーカーの色
 settings.interface.dmg ダメージを表示
+settings.interface.dmgType Show Damage
+settings.interface.dmgType.default Rounded
+settings.interface.dmgType.float Float
 settings.interface.dmgCol ダメージの色
 settings.interface.critCol クリティカルヒットの色
 settings.interface.header インターフェイス
@@ -217,9 +220,11 @@ settings.interface.nametagStyle.all 全て
 settings.interface.healthNum ネームタグ HP数
 settings.interface.healthColT ネームタグ HP色(チーム)
 settings.interface.healthColE ネームタグ HP色(敵)
+settings.interface.xpBarType XP Bar Type
 settings.interface.xpBarCol XPバーの色
 settings.interface.xpBarCol2 XPバーカラーの色2
 settings.interface.xpBarOpac XPバーの不透明度
+settings.interface.adsObjOpac ADS Objective Opacity
 settings.medals.header メダル
 settings.medals.show メダルを表示
 settings.medals.classic 古いメダル
@@ -376,6 +381,8 @@ settings.viewmodel.weapReloadY リロード動作のY座標
 settings.viewmodel.yOffADS ADS時のY座標
 settings.viewmodel.adsFovMlt ADS時のFOV倍率
 settings.viewmodel.toggleADS ADS切り替え
+settings.viewmodel.wallLean Wall Slide/Jump Lean
+settings.viewmodel.wallLeanMlt Wall Slide/Jump Lean
 settings.editing.header 編集
 settings.editing.health.high HUD高HP
 settings.editing.health.low HUD低HP
@@ -487,6 +494,7 @@ windows.loadout.wrist 腕
 windows.loadout.stat キルカードの統計
 windows.loadout.flag 国旗
 windows.loadout.badge カスタムバッジ
+windows.loadout.streaks Streaks
 windows.mods.drop ここにMODファイルをドロップするか、クリックしてください
 windows.mods.paste MOD URLを貼り付け
 windows.mods.load MODをロード
@@ -556,7 +564,11 @@ windows.controls.premium1 ゴッドモード
 windows.controls.premium2 キル
 windows.controls.premium3 スマイト
 windows.controls.reset 位置をリセットする (レースとパルクール)
+windows.controls.resetLast Reset To Last Checkpoint (Parkour etc)
 windows.controls.pretend ゲームを非表示にする
+windows.controls.noclipSB Noclip
+windows.controls.godModeSB Godmode
+windows.controls.killSB Kill
 windows.host.header カスタムゲームを作る
 windows.host.maps サーバー設定
 windows.host.cmaps コミュニティーゲーム
@@ -670,6 +682,7 @@ windows.ranked.login してランクマッチをプレイする!
 windows.ranked.level ランクマッチに参加するには<span color="black">レベル{0}</span>以上でなければなりません。現在のあなたのレベルは<span color="black">レベル{1}</span>です。
 windows.chall.header チャレンジ
 windows.chall.login してチャレンジを完了させよう!
+windows.spin.header Prize Wheel
 thumbnail.upload.limit 失敗しました。サムネイルサイズ制限は{0}kbです
 image.upload.limit 失敗しました。画像サイズ制限は{0}kbです
 thumbnail.upload.error サムネイルエラー
@@ -683,6 +696,7 @@ matchmaker.GameFull ゲームが満員です。
 matchmaker.NoServersMatchQuery ゲーム更新中
 matchmaker.InvalidGameId ゲームが見つかりません。
 matchmaker.NoAvailableServers サーバーが満員です
+matchmaker.NoMatchingServers No Games Found<br><small>Try changing Quickplay options</small>
 matchmaker.GameIssue ゲーム参加時の不明な問題
 adblocker 無料KRを受け取るには、広告ブロッカーを無効にしてください。
 ad-failed 広告の読み込みに失敗しました。後でもう一度試してください。
@@ -724,6 +738,7 @@ server.config.t3Dmg チーム3のダメージ
 server.config.t4Dmg チーム4のダメージ
 server.config.t5Dmg チーム5のダメージ
 server.config.selTeam チームを選択
+server.config.frFire Friendly Fire
 server.config.allowSpect 観戦モード
 server.config.killRewards キル報酬
 server.config.headshotOnly ヘッドショットのみ
@@ -736,6 +751,7 @@ server.config.bDrop 弾道落下
 server.config.thirdPerson 三人称視点
 server.config.requireCaptcha Captchaが必要
 server.config.nameTags ネームタグを非表示
+server.config.nameTagsFR Hide Nametags (Allies)
 server.config.kCams キルカメラ
 server.config.aAnon Anonymousモードを許可
 server.config.noReload リロード禁止
@@ -751,6 +767,7 @@ server.config.scoreLimit スコア制限
 server.config.keepTScore チームのスコアを維持
 server.config.forceC クラスを強制的に指定
 server.config.logTim タイムを記録する (レース、パルクール)
+server.config.lstChkT Last Checkpoint Time Rewind (Race/Bhop)
 server.config.hitBoxPad ヒットボックスの大きさ
 server.config.hpRegen HP回復
 server.config.disableB ボーダー無効
@@ -813,6 +830,7 @@ social.market.gift KRをギフトする
 social.market.gift.msg メッセージを残す
 respawn.auto {0}秒後に自動リスポーンします
 custom.host.ranked ランクマッチ中にゲームをホストすることは出来ません。
+custom.host.wager Can't host match while in Wager.
 funds.insufficient 資金不足です
 funds.out KRを使い切りました。
 custom.passcode.long パスワードが長すぎます
@@ -838,6 +856,11 @@ mod.reset.1 マップのオブジェクトはリセットされません
 windows.profile.picture 写真を変更
 stats.assists アシスト
 stats.nukes ニューク
+stats.slimers Slimers
+stats.juggernauts Juggernauts
+stats.juggernauts.kills Juggernaut Kills
+stats.juggernauts.killed Juggernauts Killed
+stats.warmachines War Machines
 stats.melee 近接武器キル
 stats.fistkills 拳キル
 stats.thrownkills 投げナイフキル
@@ -846,6 +869,10 @@ stats.wallbangs 壁抜きキル
 stats.crouches しゃがみ回数
 stats.sprays スプレー回数
 stats.kpd 有用なレポート
+stats.shots Shots
+stats.hits Hits
+stats.misses Misses
+stats.legshots Legshots
 windows.host.default.settings デフォルト設定を有効にすることでプレイヤーの進捗とハイスコアを保存することができます
 windows.host.default.commands *ホストコマンド(/noclip /god /smite 等)はこのモードでは無効化されています
 windows.host.rewards KR報酬を有効にした場合デフォルト設定の使用が強制され、プレイヤーがこのマップの資産からKR報酬を入手することができるようになります:
@@ -979,4 +1006,8 @@ server.message.kicked {0}がキックされました
 server.message.banned {0}がBANされました
 server.message.votekicked {0}が投票によりキックされました
 server.message.arrested {0}がK.P.Dにより逮捕されました
-`;
+event.easter.golden.spawn A Golden egg is near
+event.easter.golden.despawn A Golden egg has gone
+event.easter.found.new {0} found {1}/{2} Eggs
+event.easter.found.old You already discovered this egg!
+event.easter.completed {0} completed the Egg hunt!
