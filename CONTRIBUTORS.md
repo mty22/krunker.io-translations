@@ -66,6 +66,7 @@ If you contributed in the past and can't find your name below (or simply wish to
 * [Bodeneinheit](https://krunker.io/social.html?p=profile&q=Bodeneinheit) (bodeneinheit#5830)
 * [Fuderal](https://krunker.io/social.html?p=profile&q=zzzrobinzzz) (Fuderal#7252)
 * [CrackZ](https://krunker.io/social.html?p=profile&q=CrackZ) (CrackZ#6144)
+* [traconixx](https://krunker.io/social.html?p=profile&q=GM_Senpai)
 
 # [Finnish](https://github.com/mty22/krunker.io-translations/blob/main/fi.js) (Suomen kieli)
 * [Jypa](https://krunker.io/social.html?p=profile&q=Jypa) (Jypa#0001)
