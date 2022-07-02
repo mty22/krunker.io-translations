@@ -1,3 +1,5 @@
 file: sl.js
 pull request: https://github.com/mty22/krunker.io-translations/pull/94
+pr2: https://github.com/mty22/krunker.io-translations/pull/464
+
 note: at it's current state, it's good to merge into master without checking.
