@@ -1010,4 +1010,4 @@ event.easter.golden.spawn A Golden egg is near
 event.easter.golden.despawn A Golden egg has gone
 event.easter.found.new {0} found {1}/{2} Eggs
 event.easter.found.old You already discovered this egg!
-event.easter.completed {0} completed the Egg hunt!
+event.easter.completed {0} Busqueda de huevos completada!
