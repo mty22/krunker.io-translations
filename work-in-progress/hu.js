@@ -172,6 +172,9 @@ settings.post.ssaoRadius SSAO Méret
 settings.interface.hitInd Találat jelzők mutatása
 settings.interface.hitColor Találat jelzők színe
 settings.interface.dmg Sebzés mutatása
+settings.interface.dmgType Show Damage
+settings.interface.dmgType.default Rounded
+settings.interface.dmgType.float Float
 settings.interface.dmgCol Sebzés színe
 settings.interface.critCol Kritikális sebzés színe
 settings.interface.header Felület
@@ -217,9 +220,11 @@ settings.interface.nametagStyle.all Minden
 settings.interface.healthNum Az élet számának mutatása
 settings.interface.healthColT A saját csapat életének színe
 settings.interface.healthColE Az ellenséges csapat életének színe
+settings.interface.xpBarType XP Bar Type
 settings.interface.xpBarCol Szint sáv színe
 settings.interface.xpBarCol2 XP csík szín 2
 settings.interface.xpBarOpac Szint sáv átlátszósága
+settings.interface.adsObjOpac ADS Objective Opacity
 settings.medals.header Medálok
 settings.medals.show Medálok megjelenítése
 settings.medals.classic Klasszikus medálok
@@ -376,6 +381,8 @@ settings.viewmodel.weapReloadY Fegyver újratöltés Y
 settings.viewmodel.yOffADS Fegyver célzás Y eltolása
 settings.viewmodel.adsFovMlt Látótér változása célzáskor
 settings.viewmodel.toggleADS Lefelé célzás kapcsolása
+settings.viewmodel.wallLean Wall Slide/Jump Lean
+settings.viewmodel.wallLeanMlt Wall Slide/Jump Lean
 settings.editing.header Szerkesztés
 settings.editing.health.high HUD Magas élet
 settings.editing.health.low HUD Alacsony élet
@@ -487,6 +494,7 @@ windows.loadout.wrist Csukló
 windows.loadout.stat Ölési kártya statisztika
 windows.loadout.flag Zászló
 windows.loadout.badge Egyedi kitűző
+windows.loadout.streaks Streaks
 windows.mods.drop dobd ide a mod fájlt vagy klikkelj
 windows.mods.paste Másold be a mod URL-t
 windows.mods.load Mod betöltése
@@ -556,7 +564,11 @@ windows.controls.premium1 Isten mód
 windows.controls.premium2 Ölés
 windows.controls.premium3 Sújtás
 windows.controls.reset Pozíció visszaállítása (Verseny és Parkour)
+windows.controls.resetLast Reset To Last Checkpoint (Parkour etc)
 windows.controls.pretend Játék elrejtése
+windows.controls.noclipSB Noclip
+windows.controls.godModeSB Godmode
+windows.controls.killSB Kill
 windows.host.header Saját játék hosztolása
 windows.host.maps Szerver beállítása
 windows.host.cmaps Közösségi játék
@@ -670,6 +682,7 @@ windows.ranked.login hogy részt vehess kompetitív játékokban!
 windows.ranked.level Szükséges szint hogy játszhass kompetitívet: <span color="black">{0}</span>! Most a/az <span color="black">{1}.</span> szinten vagy.
 windows.chall.header Kihívások
 windows.chall.login a kihívások feloldásáért!
+windows.spin.header Prize Wheel
 thumbnail.upload.limit Sikertelen. {0}kb indexkép feltöltési korlát
 image.upload.limit Sikertelen. {0}kb kép feltöltési korlát
 thumbnail.upload.error Indexkép hiba
@@ -683,6 +696,7 @@ matchmaker.GameFull A játék tele
 matchmaker.NoServersMatchQuery JÁTÉK FRISSÍTÉS ALATT
 matchmaker.InvalidGameId Nem található játék
 matchmaker.NoAvailableServers A szerverek maximális kapacitással rendelkeznek
+matchmaker.NoMatchingServers No Games Found<br><small>Try changing Quickplay options</small>
 matchmaker.GameIssue Ismeretlen csatlakozási hiba
 adblocker Kapcsold ki az ad blockert hogy tudj szerezni ingyen KR-t.
 ad-failed A reklámot nem tudtuk betölteni. Próbáld újra.
@@ -724,6 +738,7 @@ server.config.t3Dmg Csapat 3 sebzése
 server.config.t4Dmg Csapat 4 sebzése
 server.config.t5Dmg Csapat 5 sebzése
 server.config.selTeam Csapat választás
+server.config.frFire Friendly Fire
 server.config.allowSpect Megfigyelők
 server.config.killRewards Ölési jutalmak
 server.config.headshotOnly Csak fejbelövés
@@ -736,6 +751,7 @@ server.config.bDrop Lövedék esése
 server.config.thirdPerson Külső nézet
 server.config.requireCaptcha Kell captcha
 server.config.nameTags Nevek elrejtése
+server.config.nameTagsFR Hide Nametags (Allies)
 server.config.kCams Ölés kamera
 server.config.aAnon Névtelen engedélyezése
 server.config.noReload Nincs újratöltés
@@ -751,6 +767,7 @@ server.config.scoreLimit Pontszám határ
 server.config.keepTScore Csapat pontszám megtartása
 server.config.forceC Módspecifikus kasztok kényszerítése
 server.config.logTim Idő (Verseny, Parkour)
+server.config.lstChkT Last Checkpoint Time Rewind (Race/Bhop)
 server.config.hitBoxPad Hitbox méret
 server.config.hpRegen Regenerálódás
 server.config.disableB Határok kikapcsolása
@@ -813,6 +830,7 @@ social.market.gift KR ajándékozása
 social.market.gift.msg Adj hozzá egy üzenetet
 respawn.auto Automatikus újraéledés: {0}
 custom.host.ranked Nem tudsz meccset hosztolni amíg kompetitívezel.
+custom.host.wager Can't host match while in Wager.
 funds.insufficient Fedezethiány
 funds.out Úgy látszik elfogyott a KR-ed.
 custom.passcode.long tÚL Túl hosszú a jelszó
@@ -838,6 +856,11 @@ mod.reset.1 A tárgyak a pályán nem állítódnak vissza
 windows.profile.picture Kép változtatása
 stats.assists Hozzájárulás
 stats.nukes Bombák
+stats.slimers Slimers
+stats.juggernauts Juggernauts
+stats.juggernauts.kills Juggernaut Kills
+stats.juggernauts.killed Juggernauts Killed
+stats.warmachines War Machines
 stats.melee Kés
 stats.fistkills Elverések
 stats.thrownkills Bullseye-ok
@@ -846,6 +869,10 @@ stats.wallbangs Fal lövések
 stats.crouches Gugolás
 stats.sprays Elhelyezett sprék
 stats.kpd Hasznos jelentések
+stats.shots Shots
+stats.hits Hits
+stats.misses Misses
+stats.legshots Legshots
 windows.host.default.settings Az alapméretezett beállítások engedélyezése megengedi hogy tároljuk a játékos fejlődését, és pontszámait
 windows.host.default.commands *A hoszt parancsok ki vannak kapcsolva ebben a módban: /noclip /god /smite stb.
 windows.host.rewards A KR jutalmak engedélyezése kényszeríti a szervert az alap beállítások használatára és megengedi a játékosoknak hogy KR-t nyerjenek a pálya tőkéjéből.
@@ -979,4 +1006,8 @@ server.message.kicked {0} ki lett rúgva
 server.message.banned {0} ki lett tiltva
 server.message.votekicked {0} ki lett szavazva
 server.message.arrested {0} le lett tartóztatva a K.P.D által.
-`;
+event.easter.golden.spawn A Golden egg is near
+event.easter.golden.despawn A Golden egg has gone
+event.easter.found.new {0} found {1}/{2} Eggs
+event.easter.found.old You already discovered this egg!
+event.easter.completed {0} completed the Egg hunt!
