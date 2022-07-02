@@ -172,6 +172,9 @@ settings.post.ssaoRadius Área de Intencificação da Iluminação
 settings.interface.hitInd Mostrar Indicador de Hit
 settings.interface.hitColor Cor do Indicador de Hit
 settings.interface.dmg Mostrar Dano
+settings.interface.dmgType Show Damage
+settings.interface.dmgType.default Rounded
+settings.interface.dmgType.float Float
 settings.interface.dmgCol Cor do dano
 settings.interface.critCol Cor do Dano Crítico
 settings.interface.header Interface
@@ -217,9 +220,11 @@ settings.interface.nametagStyle.all Tudo
 settings.interface.healthNum Número da Barra de Vida
 settings.interface.healthColT Cor da Barra de Vida do Time
 settings.interface.healthColE Cor da Barra de Vida Inimiga
+settings.interface.xpBarType XP Bar Type
 settings.interface.xpBarCol Cor da Barra de XP
 settings.interface.xpBarCol2 XP Bar Color 2
 settings.interface.xpBarOpac Opacidade da Barra de XP
+settings.interface.adsObjOpac ADS Objective Opacity
 settings.medals.header Medalhas
 settings.medals.show Mostrar Medalhas
 settings.medals.classic Medalhas Clássicas
@@ -376,6 +381,8 @@ settings.viewmodel.weapReloadY Recarga de Arma Y Posição
 settings.viewmodel.yOffADS Mira da Arma Y Posição
 settings.viewmodel.adsFovMlt Campo de visão da Mira da Arma
 settings.viewmodel.toggleADS Mostrar Arma Enquanto Mira
+settings.viewmodel.wallLean Wall Slide/Jump Lean
+settings.viewmodel.wallLeanMlt Wall Slide/Jump Lean
 settings.editing.header Edição
 settings.editing.health.high Hud de vida Alta
 settings.editing.health.low Hud de Vida Baixa
@@ -487,6 +494,7 @@ windows.loadout.wrist Pulso
 windows.loadout.stat Cartão de Abate
 windows.loadout.flag Bandeira do País
 windows.loadout.badge Custom Badge
+windows.loadout.streaks Streaks
 windows.mods.drop Solte um Arquivo de Modificação Aqui
 windows.mods.paste Colar Url da Modificação
 windows.mods.load Carregar Modificação
@@ -556,7 +564,11 @@ windows.controls.premium1 Modo Deus
 windows.controls.premium2 Abate
 windows.controls.premium3 Ferir
 windows.controls.reset Resetar Posição (Corrida & Parkour)
+windows.controls.resetLast Reset To Last Checkpoint (Parkour etc)
 windows.controls.pretend Esconder Jogo
+windows.controls.noclipSB Noclip
+windows.controls.godModeSB Godmode
+windows.controls.killSB Kill
 windows.host.header Hospedar Jogo Personalizado
 windows.host.maps Selecionar Mapas
 windows.host.cmaps Mapas da Comunidade
@@ -670,6 +682,7 @@ windows.ranked.login Para jogar jogos Rankeados!
 windows.ranked.level Você precisa ser ao menos <span color="black">level {0}</span> para jogar jogos Rankeados! Agora você está no <span color="black">level {1}</span>.
 windows.chall.header Desafios
 windows.chall.login Faça Login para Completar esse Desafio
+windows.spin.header Prize Wheel
 thumbnail.upload.limit Falha. Limite de Miniaturas de 40kb
 image.upload.limit Falhou. {0}kb Limite de Imagem
 thumbnail.upload.error Erro de Miniatura
@@ -683,6 +696,7 @@ matchmaker.GameFull Jogo está cheio.
 matchmaker.NoServersMatchQuery JOGO ATUALIZANDO
 matchmaker.InvalidGameId Jogo não encontrado.
 matchmaker.NoAvailableServers Servidores em capacidade máxima.
+matchmaker.NoMatchingServers No Games Found<br><small>Try changing Quickplay options</small>
 matchmaker.GameIssue Erro de entrada desconhecido
 adblocker Desative seu Bloqueador de Anúncios para Receber KR gratuito.
 ad-failed Falha ao Carregar anúncio! Tente Novamente
@@ -724,6 +738,7 @@ server.config.t3Dmg Dano do time 3
 server.config.t4Dmg Dano do time 4
 server.config.t5Dmg Dano do time 5
 server.config.selTeam Selecionar o Time
+server.config.frFire Friendly Fire
 server.config.allowSpect Espectando
 server.config.killRewards Recompensas por Abate
 server.config.headshotOnly Apenas Tiros na Cabeça
@@ -736,6 +751,7 @@ server.config.bDrop Cair Balas
 server.config.thirdPerson Modo em 3a Pessoa
 server.config.requireCaptcha Requer Captcha
 server.config.nameTags Ocultar Nomes
+server.config.nameTagsFR Hide Nametags (Allies)
 server.config.kCams Visão de Morte
 server.config.aAnon Permitir anónimos 
 server.config.noReload Sem Recarregar
@@ -751,6 +767,7 @@ server.config.scoreLimit Limite de Pontos
 server.config.keepTScore Manter a Pontução do Time
 server.config.forceC Forçar Modo de Classe
 server.config.logTim Tempo de Login (Corridas & Parkour)
+server.config.lstChkT Last Checkpoint Time Rewind (Race/Bhop)
 server.config.hitBoxPad Preenchimento de HitBox
 server.config.hpRegen Regeneração de Vida
 server.config.disableB Desativar Bordas
@@ -813,6 +830,7 @@ social.market.gift Dar KR
 social.market.gift.msg Deixe uma Mensagem
 respawn.auto Auto Renascimento em {0}
 custom.host.ranked Não Pode Hostear Partidas Enquando Estiver em Uma Rankeada
+custom.host.wager Can't host match while in Wager.
 funds.insufficient Fundos Insuficientes
 funds.out Parece que você está sem KR
 custom.passcode.long Senha muito Longa
@@ -838,6 +856,11 @@ mod.reset.1 Objetivo do mapa não terá Reset
 windows.profile.picture Mude a Imagem
 stats.assists Assistência
 stats.nukes Nukes
+stats.slimers Slimers
+stats.juggernauts Juggernauts
+stats.juggernauts.kills Juggernaut Kills
+stats.juggernauts.killed Juggernauts Killed
+stats.warmachines War Machines
 stats.melee Abates com Faca
 stats.fistkills Abates com os punhos
 stats.thrownkills Abates Jogando a Faca
@@ -846,6 +869,10 @@ stats.wallbangs Tiros Através da Parede
 stats.crouches Agachamentos
 stats.sprays Sprays Colocados
 stats.kpd Reportes Positivos
+stats.shots Shots
+stats.hits Hits
+stats.misses Misses
+stats.legshots Legshots
 windows.host.default.settings Habilitar as configurações padrão permite armazenar o progresso e os recordes do jogador
 windows.host.default.commands Os comandos do Dono de Sala são desabilitados neste modo: /noclip /god /smite /kill
 windows.host.rewards Habilitar Recompensas de KR força o servidor a usar as configurações padrão e permite que os jogadores ganhem KR com os fundos do mapa:
@@ -979,4 +1006,8 @@ server.message.kicked {0} foi expluso
 server.message.banned {0} foi banido
 server.message.votekicked {0} foi expulso por voto
 server.message.arrested {0} foi detido pela K.P.D
-`;
+event.easter.golden.spawn A Golden egg is near
+event.easter.golden.despawn A Golden egg has gone
+event.easter.found.new {0} found {1}/{2} Eggs
+event.easter.found.old You already discovered this egg!
+event.easter.completed {0} completed the Egg hunt!
