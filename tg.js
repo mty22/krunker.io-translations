@@ -1006,8 +1006,8 @@ server.message.kicked si {0} ay natanggal sa laro
 server.message.banned si {0} ay na-ban
 server.message.votekicked na vote-kick si {0} 
 server.message.arrested si {0} ay nahuli ng K.P.D
-event.easter.golden.spawn A Golden egg is near
-event.easter.golden.despawn A Golden egg has gone
-event.easter.found.new {0} found {1}/{2} Eggs
-event.easter.found.old You already discovered this egg!
-event.easter.completed {0} completed the Egg hunt!
+event.easter.golden.spawn Nagkaroon ng Gintong Itlog
+event.easter.golden.despawn Nawala ang Gintong Itlog
+event.easter.found.new Si {0} aynakahanap ng {1}/{2} na Gintong Itlog
+event.easter.found.old Nahanap mo na ang Itlog na ito!
+event.easter.completed Nakumpleto ni {0} ang Egg Hunt!
