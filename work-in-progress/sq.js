@@ -161,8 +161,8 @@ settings.quality.rendGamma Gama
 settings.quality.lighting Ndicimi
 settings.quality.showExplo Trego shperthimet
 settings.quality.aspectRatio Forma e ekranit
-settings.post.header Post Processing
-settings.post.post Post Processing
+settings.post.header Naknadna obdelava
+settings.post.post Naknadna obdelava
 settings.post.bloom Lulezimi
 settings.post.bloomThreshold Threshholdi i Lulezimit
 settings.post.bloomStrength Forca e lulezimit
@@ -170,161 +170,161 @@ settings.post.bloomRadius Largesia e lulezimit
 settings.post.ssao SSAO
 settings.post.ssaoRadius Largesia e SSAO's
 settings.interface.hitInd Trgo 
-settings.interface.hitColor Hit Indicator Color
-settings.interface.dmg Show Damage
-settings.interface.dmgCol Damage Color
-settings.interface.critCol Crit Color
-settings.interface.header Interface
-settings.interface.scale UI Scale
-settings.interface.theme Game Theme
-settings.interface.ui Show UI
-settings.interface.scoreboard Use Old Scoreboard
-settings.interface.oldBrowser Use Old Browser
-settings.interface.rarityanim Disable Rarity Animations
-settings.interface.showPfp Show Profile Pictures
-settings.interface.showTradeMsg Show Trade Messages
-settings.interface.hideNonTrade Hide Non-Tradable Skins
-settings.interface.hp Dynamic HP Bars
-settings.interface.dmgScale Damage Scale
-settings.interface.killf Show Kill Feed
-settings.interface.ping Show Ping
-settings.interface.net-stats Show Network Stats
-settings.interface.fps Show FPS
-settings.interface.deaths Show Death Counter
-settings.interface.kd Show K/D Counter
-settings.interface.kills Show Kill Counter
-settings.interface.streak Show Streak Counter
-settings.interface.score Show Score Counter
-settings.interface.spectators Show Spectator Counter
-settings.interface.speed Show Movement Speed
-settings.interface.speedOffX Speed X Offset
-settings.interface.speedOffY Speed Y Offset
-settings.interface.speedOpacity Speed Opacity
-settings.interface.speedScale Speed Scale
-settings.interface.speedColor Speed Color (Current)
-settings.interface.speedColorMax Speed Color (Max)
-settings.interface.hideNames Nametag Display
-settings.interface.hideNames.team Team Only
-settings.interface.hideNames.enemy Enemy Only
-settings.interface.hideNames.all Everyone
-settings.interface.nametagStyle Nametag Style
-settings.interface.nametagOpac Nametag Opacity
-settings.interface.nametagScale Nametag Scale
-settings.interface.nametagStyle.health Health Only
-settings.interface.nametagStyle.name Name Only
-settings.interface.nametagStyle.nameLvl Name & Level Only
-settings.interface.nametagStyle.all Everything
-settings.interface.healthNum Nametag Health Number
-settings.interface.healthColT Nametag Health Color Team
-settings.interface.healthColE Nametag Health Color Enemy
-settings.interface.xpBarCol XP Bar Color
-settings.interface.xpBarCol2 XP Bar Color 2
-settings.interface.xpBarOpac XP Bar Opacity
-settings.medals.header Medals
-settings.medals.show Show Medals
-settings.medals.classic Classic Medals
-settings.medals.sound Play Medal Sounds
-settings.medals.scale Medal Scale
-settings.medals.xOff Medal X Offset
-settings.medals.yOff Medal Y Offset
-settings.crosshair.header Crosshair
-settings.crosshair.type Type
-settings.crosshair.type.1 Dynamic
-settings.crosshair.type.2 Custom
-settings.crosshair.type.3 Layered
-settings.crosshair.type.4 Image
-settings.crosshair.type.5 Precision
-settings.crosshair.style Style
-settings.crosshair.style.0 Cross
-settings.crosshair.style.1 Hollow Circle
-settings.crosshair.style.2 Solid Circle
-settings.crosshair.style.3 Hollow Square
-settings.crosshair.style.4 Solid Square
-settings.crosshair.image Image
-settings.crosshair.image.paste Crosshair Image
-settings.crosshair.image.width Image Width
-settings.crosshair.image.height Image Height
-settings.crosshair.always Always Show
-settings.crosshair.color Color
-settings.crosshair.shadow.color Shadow Color
-settings.crosshair.shadow.thickness Shadow Thickness
-settings.crosshair.size Size
-settings.crosshair.thickness Thickness
-settings.crosshair.gap Gap
+settings.interface.hitColor Pritisnite Barva indikatorja
+settings.interface.dmg Pokaži škodo
+settings.interface.dmgCol Barva poškodb
+settings.interface.critCol Crit Barva
+settings.interface.header vmesnik
+settings.interface.scale ui Lestvica
+settings.interface.theme Tema igre
+settings.interface.ui Pokaži uporabniški vmesnik
+settings.interface.scoreboard Prikaži tablo z rezultati
+settings.interface.oldBrowser Uporabite stari brskalnik
+settings.interface.rarityanim Onemogoči redkost animacije
+settings.interface.showPfp Prikaži slike profila
+settings.interface.showTradeMsg Prikaži trgovinska sporočila
+settings.interface.hideNonTrade Skrij preobleke, s katerimi se ne trguje
+settings.interface.hp Dinamične palice HP
+settings.interface.dmgScale Lestvica poškodb
+settings.interface.killf Prikaži krmo za ubijanje
+settings.interface.ping Prikaži Ping
+settings.interface.net-stats Prikaži statistike omrežja
+settings.interface.fps Prikaži FPS
+settings.interface.deaths Prikaži števec smrti
+settings.interface.kd Prikaži števec K/D
+settings.interface.kills Prikaži števec za ubijanje
+settings.interface.streak Prikaži števec prog
+settings.interface.score Prikaži števec točk
+settings.interface.spectators Prikaži števec gledalcev
+settings.interface.speed Prikaži hitrost gibanja
+settings.interface.speedOffX Hitrost X Odmik
+settings.interface.speedOffY Odmik hitrosti Y
+settings.interface.speedOpacity Hitrost Motnost
+settings.interface.speedScale Lestvica hitrosti
+settings.interface.speedColor Barva hitrosti (trenutna)
+settings.interface.speedColorMax Hitrost Barva (največja)
+settings.interface.hideNames Prikaz imenikov
+settings.interface.hideNames.team Samo za ekipo
+settings.interface.hideNames.enemy Samo sovražnik
+settings.interface.hideNames.all Vsi
+settings.interface.nametagStyle Slog imenika
+settings.interface.nametagOpac Nepreglednost oznake z imenom
+settings.interface.nametagScale Lestvica z imenom
+settings.interface.nametagStyle.health Samo zdravje
+settings.interface.nametagStyle.name Samo ime
+settings.interface.nametagStyle.nameLvl Samo ime in raven
+settings.interface.nametagStyle.all Vse
+settings.interface.healthNum Oznake z imenom Zdravstvena številka
+settings.interface.healthColT Imenica Zdravje Barva Ekipa
+settings.interface.healthColE Imenica Zdravje Barva Sovražnik
+settings.interface.xpBarCol Barva vrstice XP
+settings.interface.xpBarCol2 Barva vrstice XP 2
+settings.interface.xpBarOpac Nepreglednost vrstice XP
+settings.medals.header Medalje
+settings.medals.show Prikaži medalje
+settings.medals.classic Klasične medalje
+settings.medals.sound Predvajajte zvoke medalj
+settings.medals.scale Lestvica medalj
+settings.medals.xOff Odmik medalje X
+settings.medals.yOff Medalja Y Offset
+settings.crosshair.header Križanec
+settings.crosshair.type Tip
+settings.crosshair.type.1 Dinamični
+settings.crosshair.type.2 Po meri
+settings.crosshair.type.3 Večplastni
+settings.crosshair.type.4 Slika
+settings.crosshair.type.5 Natančnost
+settings.crosshair.style Slog
+settings.crosshair.style.0 Križ
+settings.crosshair.style.1 votli krog
+settings.crosshair.style.2 Trdni krog
+settings.crosshair.style.3 Votli kvadrat
+settings.crosshair.style.4 Trdni kvadrat
+settings.crosshair.image Slika
+settings.crosshair.image.paste Slika križa
+settings.crosshair.image.width Širina slike
+settings.crosshair.image.height Višina slike
+settings.crosshair.always Vedno prikaži
+settings.crosshair.color Barva
+settings.crosshair.shadow.color Barva sence
+settings.crosshair.shadow.thickness Debelina sence
+settings.crosshair.size Velikost
+settings.crosshair.thickness Debelina
+settings.crosshair.gap Vrzel
 settings.crosshair.dot Dot
-settings.crosshair.opacity.use Use Custom Opacity
-settings.crosshair.opacity.custom Custom Opacity
-settings.crosshairm.header Crosshair (Throwing)
-settings.crosshairm.type Type
-settings.crosshairm.type.1 Shapes
-settings.crosshairm.type.2 Image
-settings.crosshairm.type.3 Precision
-settings.crosshairm.style Style
-settings.crosshairm.style.0 Cross
-settings.crosshairm.style.1 Hollow Circle
-settings.crosshairm.style.2 Solid Circle
-settings.crosshairm.style.3 Hollow Square
-settings.crosshairm.style.4 Solid Square
-settings.crosshairm.image Image
-settings.crosshairm.image.paste Crosshair Image
+settings.crosshair.opacity.use Uporaba neprozornosti po meri
+settings.crosshair.opacity.custom Motnost po meri
+settings.crosshairm.header Križišče (metanje)
+settings.crosshairm.type Tip
+settings.crosshairm.type.1 Oblike
+settings.crosshairm.type.2 Slika
+settings.crosshairm.type.3 Natančnost
+settings.crosshairm.style Slog
+settings.crosshairm.style.0 Križ
+settings.crosshairm.style.1 votli krog
+settings.crosshairm.style.2 Trdni krog
+settings.crosshairm.style.3 Votli kvadrat
+settings.crosshairm.style.4 Trdni kvadrat
+settings.crosshairm.image Slika
+settings.crosshairm.image.paste Slika križa
 settings.crosshairm.image.width Image Width
-settings.crosshairm.image.height Image Height
-settings.crosshairm.always Always Show
-settings.crosshairm.color Color
-settings.crosshairm.shadow.color Shadow Color
-settings.crosshairm.shadow.thickness Shadow Thickness
-settings.crosshairm.size Size
-settings.crosshairm.thickness Thickness
-settings.crosshairm.gap Gap
-settings.crosshairm.dot Dot
-settings.crosshairm.opacity.use Use Custom Opacity
-settings.crosshairm.opacity.custom Custom Opacity
+settings.crosshairm.image.height Višina slike
+settings.crosshairm.always Vedno prikaži
+settings.crosshairm.color Barva
+settings.crosshairm.shadow.color Barva sence
+settings.crosshairm.shadow.thickness Debelina sence
+settings.crosshairm.size Velikost
+settings.crosshairm.thickness Debelina
+settings.crosshairm.gap Vrzel
+settings.crosshairm.dot pika
+settings.crosshairm.opacity.use Uporaba neprozornosti po meri
+settings.crosshairm.opacity.custom Pokrovnost po meri
 settings.hitmarker.header Hitmarker
-settings.hitmarker.color Color
-settings.hitmarker.kcolor Kill Color
-settings.hitmarker.thickness Thickness
-settings.hitmarker.opacity Opacity
-settings.hitmarker.leng Length
-settings.hitmarker.spacing Spacing
-settings.hitmarker.animD Anim Size
-settings.hitmarker.animS Anim Speed
-settings.hitmarker.hitm Show
-settings.hitmarker.hitmFad Fade Speed
-settings.hitmarker.custom Hitmarker Image
-settings.hitmarker.custom.paste Hitmarker Image URL
-settings.onKillS.style.0 Default
-settings.onKillS.style.1 Reduce Resolution
-settings.onKillS.style.2 Reduce FOV
-settings.onKillS.style.3 Increase FOV
-settings.serverb.header Server Browser
-settings.serverb.oldBrowser Legacy Browser
-settings.serverb.defaultRegionOnly Default Region Only
-settings.gameprivacy.header Gameplay Privacy
-settings.gameprivacy.streamer Streamer Mode
-settings.gameprivacy.anon Anonymous Mode
-settings.gameprivacy.hideGameTitle Hide Game Title
-settings.gameprivacy.showRegion Show Region Info
-settings.gameprivacy.verified Show Verified Badge
-settings.gameprivacy.premium Show Premium Badge
-settings.gameprivacy.partner Show Partner Badge
-settings.gameprivacy.rank Show Ranked Badge
-settings.gameprivacy.custom Show Custom Badge
-settings.gameplay.header Gameplay
-settings.gameplay.gpSetts Gameplay Settings
-settings.gameplay.sensitivityX X Sensitivity
-settings.gameplay.sensitivityY Y Sensitivity
-settings.gameplay.aimsensX Aim X Sensitivity
-settings.gameplay.aimsensY Aim Y Sensitivity
-settings.gameplay.challenge Challenge Mode
-settings.gameplay.invert Invert Y-Axis
-settings.gameplay.onkillS On Kill
-settings.gameplay.scrollDir Scroll Direction
-settings.controller.header Controller
-settings.controller.sensitivityX X Sensitivity
-settings.controller.disableCons Disable Controllers
-settings.controller.sensitivityY Y Sensitivity
-settings.controller.aimsensX Aim X Sensitivity
-settings.controller.aimsensY Aim Y Sensitivity
+settings.hitmarker.color Barva
+settings.hitmarker.kcolor Barva ubijanja
+settings.hitmarker.thickness Debelina
+settings.hitmarker.opacity Motnost
+settings.hitmarker.leng Dolžina
+settings.hitmarker.spacing Razmik
+settings.hitmarker.animD Velikost Anim
+settings.hitmarker.animS Hitrost animacije
+settings.hitmarker.hitm Prikaži
+settings.hitmarker.hitmFad Hitrost izginjanja
+settings.hitmarker.custom Hitmarker Slika
+settings.hitmarker.custom.paste URL naslov slike Hitmarkerja
+settings.onKillS.style.0 Privzeto
+settings.onKillS.style.1 Zmanjšanje ločljivosti
+settings.onKillS.style.2 Zmanjšanje FOV
+settings.onKillS.style.3 Povečanje FOV
+settings.serverb.header Brskalnik strežnika
+settings.serverb.oldBrowser Zapuščeni brskalnik
+settings.serverb.defaultRegionOnly Samo privzeta regija
+settings.gameprivacy.header Zasebnost pri igranju
+settings.gameprivacy.streamer Način streamerja
+settings.gameprivacy.anon Anonimni način
+settings.gameprivacy.hideGameTitle Skrij naslov igre
+settings.gameprivacy.showRegion Prikaži informacije o regiji
+settings.gameprivacy.verified Prikaži preverjeno značko
+settings.gameprivacy.premium Prikaži značko Premium
+settings.gameprivacy.partner Prikaži značko partnerja
+settings.gameprivacy.rank Prikaži rangirano značko
+settings.gameprivacy.custom Prikaži značko po meri
+settings.gameplay.header Igranje
+settings.gameplay.gpSetts Nastavitve igranja
+settings.gameplay.sensitivityX X Občutljivost
+settings.gameplay.sensitivityY Občutljivost Y
+settings.gameplay.aimsensX Aim X Občutljivost
+settings.gameplay.aimsensY Aim Občutljivost Y
+settings.gameplay.challenge Način izziva
+settings.gameplay.invert Invertiranje osi Y
+settings.gameplay.onkillS O ubijanju
+settings.gameplay.scrollDir Smer pomikanja
+settings.controller.header Krmilnik
+settings.controller.sensitivityX X Občutljivost
+settings.controller.disableCons Onemogočite krmilnike
+settings.controller.sensitivityY Y Občutljivost
+settings.controller.aimsensX Cilj X Občutljivost
+settings.controller.aimsensY Cilj Y Občutljivost
 settings.controller.deadZoneL Dead Zone (Left)
 settings.controller.deadZoneR Dead Zone (Right)
 settings.controller.triggerThres Trigger Threshold
@@ -336,647 +336,647 @@ settings.mobile.sensitivityX X Sensitivity
 settings.mobile.sensitivityY Y Sensitivity
 settings.mobile.aimsensX Aim X Sensitivity
 settings.mobile.aimsensY Aim Y Sensitivity
-settings.mobile.vibration Vibration
-settings.mobile.gradSpeed Gradual Speed
-settings.mobile.invert Invert Y-Axis
+settings.mobile.vibration Vibracije
+settings.mobile.gradSpeed Postopna hitrost
+settings.mobile.invert Invertiranje osi Y
 settings.audio.header Audio
-settings.audio.sound Master Volume
-settings.audio.ambient Ambient Volume
-settings.audio.voice Voice Volume
-settings.audio.input Audio/Mic Input
-settings.audio.mic Mic Volume
-settings.audio.micquality Mic Quality
-settings.audio.weps Weapon Volume
-settings.audio.player Player Volume
-settings.audio.skin Cosmetics Volume
-settings.audio.ui UI Volume
-settings.audio.asset Asset Volume
-settings.audio.dialogue Action Volume
-settings.viewmodel.header View Model
-settings.viewmodel.vmSetts View Model Settings
-settings.viewmodel.fov Field of View
-settings.viewmodel.fps Weapon FOV
-settings.viewmodel.bobbing Weapon Bobbing
-settings.viewmodel.leaning Weapon Leaning
-settings.viewmodel.show.primary Show Primary
-settings.viewmodel.show.secondary Show Secondary
-settings.viewmodel.roundArms Rounded Arms
-settings.viewmodel.show.melee Show Melee
-settings.viewmodel.show.ads Hide Weapon on ADS
-settings.viewmodel.toggleAim Toggle Aim
-settings.viewmodel.show.hands Show Hands
-settings.viewmodel.leftHand Left Handed
-settings.viewmodel.aimAnim Weapon Aim Animation
-settings.viewmodel.rot Weapon Rotation
-settings.viewmodel.xOff Weapon X Offset
-settings.viewmodel.yOff Weapon Y Offset
-settings.viewmodel.zOff Weapon Z Offset
-settings.viewmodel.weapSwapY Weapon Swap Y
-settings.viewmodel.weapReloadY Weapon Reload Y
-settings.viewmodel.yOffADS Weapon ADS Y Offset
-settings.viewmodel.adsFovMlt ADS FOV Power
-settings.viewmodel.toggleADS Toggle Weapon ADS
-settings.editing.header Editing
-settings.editing.health.high HUD Health High
-settings.editing.health.low HUD Health Low
-settings.editing.speedLines Speed Lines
-settings.editing.spdLinesCol Speed Lines Color
-settings.editing.score.color Popup Score Color
-settings.editing.score.show Show Popup Score
-settings.editing.score.scale Popup Score Scale
+settings.audio.sound Glavna glasnost
+settings.audio.ambient Volumen okolja
+settings.audio.voice Glasnost glasu
+settings.audio.input Vhod za zvok/mikrofon
+settings.audio.mic Glasnost mikrofona
+settings.audio.micquality Kakovost mikrofona
+settings.audio.weps Obseg orožja
+settings.audio.player Glasnost predvajalnika
+settings.audio.skin Obseg kozmetike
+settings.audio.ui Obseg uporabniškega vmesnika
+settings.audio.asset Obseg sredstev
+settings.audio.dialogue Obseg akcije
+settings.viewmodel.header Ogled modela
+settings.viewmodel.vmSetts Prikaži nastavitve modela
+settings.viewmodel.fov Vidno polje
+settings.viewmodel.fps FOV orožja
+settings.viewmodel.bobbing Bobanje z orožjem
+settings.viewmodel.leaning Nagibanje orožja
+settings.viewmodel.show.primary Prikaži primarno
+settings.viewmodel.show.secondary Prikaži sekundarno
+settings.viewmodel.roundArms Zaobljene roke
+settings.viewmodel.show.melee Prikaži bližnji spopad
+settings.viewmodel.show.ads Skrivanje orožja v sistemu ADS
+settings.viewmodel.toggleAim Toggle Cilj
+settings.viewmodel.show.hands Pokaži roke
+settings.viewmodel.leftHand Levičar
+settings.viewmodel.aimAnim Animacija premikanja orožja
+settings.viewmodel.rot Rotacija orožja
+settings.viewmodel.xOff Odmik orožja X
+settings.viewmodel.yOff Odmik orožja Y
+settings.viewmodel.zOff Odmik orožja Z
+settings.viewmodel.weapSwapY Zamenjava orožja Y
+settings.viewmodel.weapReloadY Ponovno polnjenje orožja Y
+settings.viewmodel.yOffADS Odmik orožja ADS Y
+settings.viewmodel.adsFovMlt ADS FOV Moč
+settings.viewmodel.toggleADS Preklapljanje ADS orožja
+settings.editing.header Urejanje
+settings.editing.health.high HUD Zdravje Visoka
+settings.editing.health.low HUD Zdravje Nizka
+settings.editing.speedLines Hitrostne črte
+settings.editing.spdLinesCol Hitrost Črte Barva
+settings.editing.score.color Barva pojavnega okna Rezultat
+settings.editing.score.show Prikaži rezultate v pojavnem oknu
+settings.editing.score.scale Lestvica za ocenjevanje v pojavnem oknu
 settings.editing.score.shadow Popup Score Shadow
-settings.editing.scoreOffX Popup Score X Offset
-settings.editing.scoreOffY Popup Score Y Offset
-settings.editing.prog.color Progress Bar Color
-settings.editing.prog.opacity Progress Bar Opacity
-settings.editing.prog.scale Progress Bar Scale
-settings.editing.prog.shadow Progress Bar Shadow
-settings.editing.progOffX Progress Bar X Offset
-settings.editing.progOffY Progress Bar Y Offset
-settings.editing.progRot Progress Bar Rotation
-settings.editing.progm.color Charge Bar Color
-settings.editing.progmo.color Overcharge Color
-settings.editing.progm.opacity Charge Bar Opacity
-settings.editing.progm.scale Charge Bar Scale
-settings.editing.progm.shadow Charge Bar Shadow
-settings.editing.progmOffX Charge Bar X Offset
-settings.editing.progmOffY Charge Bar Y Offset
-settings.editing.progmRot Charge Bar Rotation
-settings.editing.saturation Saturation (In-game)
-settings.editing.menuSaturation Saturation (UI)
-settings.editing.hue Color Hue (In-game)
-settings.editing.menuHue Color Hue (UI)
-settings.editing.vignette Vignette
-settings.editing.feedLimit Killfeed Limit
-settings.editing.depth Depth Map
-settings.editing.green Green Screen
-settings.editing.trailcol Bullet Trail Color
-settings.editing.ropecol Grapple Rope Color
-settings.editing.tracercol Bullet Tracers
-settings.editing.tracer Bullet Tracers
-settings.editing.tracer.offset Tracer Offset
-settings.shaders.header Shader Inputs
-settings.mods.header Customization
-settings.mods.load Load Mods
-settings.mods.logo Allow Logo Changes
-settings.mods.auto Auto-Load Mod
-settings.mods.borders Scope Borders
-settings.mods.borderCol Scope Borders
-settings.mods.borderOpac Scope Borders Opacity
-settings.mods.scope Scope Image
-settings.mods.scope.paste Scope Image URL
-settings.mods.scope.opacity Scope Opacity
-settings.mods.scope.width Scope Image Width
-settings.mods.scope.height Scope Image Height
-settings.mods.dot Reticle Image
-settings.mods.dot.width Reticle Image Width
-settings.mods.dot.height Reticle Image Height
-settings.mods.dot.paste Reticle URL
-settings.mods.endmessage Match End Message
-settings.mods.profile Profile Image
-settings.mods.profile.paste Profile Image URL
-settings.mods.ammo Ammo Icon Image
-settings.mods.ammo.paste Ammo Icon Image URL
-settings.mods.kills Kills Icon Image
-settings.mods.kills.paste Kills Icon Image URL
-settings.mods.deaths Deaths Icon Image
-settings.mods.deaths.paste Deaths Icon Image URL
-settings.mods.streak Streak Counter Icon Image
-settings.mods.streak.paste Streak Counter Icon Image URL
-settings.mods.timer Timer Icon Image
-settings.mods.timer.paste Timer Icon Image URL
-settings.mods.usedamage Use Damage Overlay
-settings.mods.damage Damage Overlay Image
-settings.mods.damage.paste Damage Overlay Image URL
-settings.mods.overlay Game Overlay Image
-settings.mods.overlay.paste Game Overlay Image URL
-settings.social.region Region Stats
-settings.social.bg Background Image
-settings.social.bg.paste Background Image URL
-windows.settings.header Game Settings
-windows.mail.header Krunker Mail
-windows.servers.header Servers
-windows.servers.none No Joinable Games Found...
-windows.servers.host + Host Game
-windows.servers.hide Hide Full
-windows.servers.priority Region Priority
-windows.servers.online {0} In Game
-windows.servers.social {0} on Social
-windows.servers.editor {0} in Editor
-windows.loadout.header Change Loadout
-windows.loadout.class Class
-windows.loadout.primary Primary
-windows.loadout.primary.attach Attachment
-windows.loadout.primary.reticle Reticle
-windows.loadout.primary.scope Scope
-windows.loadout.secondary Secondary
-windows.loadout.secondary.skin Secondary Skin
+settings.editing.scoreOffX Izskočno okno Rezultat X Odmik
+settings.editing.scoreOffY Izskočno okno Rezultat Y Odmik
+settings.editing.prog.color Barva vrstice napredka
+settings.editing.prog.opacity Nepreglednost vrstice napredka
+settings.editing.prog.scale Lestvica napredka
+settings.editing.prog.shadow Senca vrstice napredka
+settings.editing.progOffX Odmik vrstice napredka X
+settings.editing.progOffY Odmik vrstice napredka Y
+settings.editing.progRot Vrtenje vrstice napredka
+settings.editing.progm.color Barva polnilne vrstice
+settings.editing.progmo.color Barva prekomernega polnjenja
+settings.editing.progm.opacity Nepreglednost polnilne vrstice
+settings.editing.progm.scale Lestvica bara za polnjenje
+settings.editing.progm.shadow Senca polnilne vrstice
+settings.editing.progmOffX Odmik polnilne vrstice X
+settings.editing.progmOffY Odmik Y polnilne vrstice
+settings.editing.progmRot Vrtenje polnilne palice
+settings.editing.saturation Nasičenost (v igri)
+settings.editing.menuSaturation Nasičenost (UI)
+settings.editing.hue Barvni odtenek (v igri)
+settings.editing.menuHue Barvni odtenek (uporabniški vmesnik)
+settings.editing.vignette Vinjeta
+settings.editing.feedLimit Omejitev za ubijanje
+settings.editing.depth Zemljevid globine
+settings.editing.green Zeleni zaslon
+settings.editing.trailcol Bullet Trail Barva
+settings.editing.ropecol Barva vrvi Grapple Rope
+settings.editing.tracercol Sledilniki krogel
+settings.editing.tracer Sledilniki krogel
+settings.editing.tracer.offset Odmik sledilnika
+settings.shaders.header Vhodi shaderja
+settings.mods.header Prilagajanje
+settings.mods.load Modusi za nalaganje
+settings.mods.logo Omogočanje sprememb logotipa
+settings.mods.auto Modus samodejnega nalaganja
+settings.mods.borders Meje področja uporabe
+settings.mods.borderCol Meje področja uporabe
+settings.mods.borderOpac Področje uporabe Meje nepreglednosti
+settings.mods.scope Področje uporabe Slika
+settings.mods.scope.paste Področje uporabe URL slike
+settings.mods.scope.opacity Nepreglednost področja uporabe
+settings.mods.scope.width Širina slike obsega
+settings.mods.scope.height Višina slike obsega
+settings.mods.dot Slika iskala
+settings.mods.dot.width Širina slike iskala
+settings.mods.dot.height Višina slike iskala
+settings.mods.dot.paste URL naslov iskala
+settings.mods.endmessage Sporočilo o koncu tekme
+settings.mods.profile Slika profila
+settings.mods.profile.paste URL profilne slike
+settings.mods.ammo Ikona streliva Slika
+settings.mods.ammo.paste URL naslov slike ikone streliva
+settings.mods.kills Ubije Ikona slike
+settings.mods.kills.paste Ubije naslov URL slike ikone
+settings.mods.deaths Slika ikone smrti
+settings.mods.deaths.paste Smrtni primeri Ikona URL slike
+settings.mods.streak Streak Counter Icon Slika
+settings.mods.streak.paste Ikona števca prog Slika URL
+settings.mods.timer Časovnik Ikona Slika
+settings.mods.timer.paste Časovnik Ikona Slika URL
+settings.mods.usedamage Uporaba prekrivanja poškodb
+settings.mods.damage Slika prekrivanja poškodb
+settings.mods.damage.paste URL naslov prekrivne slike poškodbe
+settings.mods.overlay Slika prekrivanja igre
+settings.mods.overlay.paste URL naslov prekrivne slike igre
+settings.social.region Statistike regije
+settings.social.bg Slika v ozadju
+settings.social.bg.paste URL naslov slike v ozadju
+windows.settings.header Nastavitve igre
+windows.mail.header Krunker Pošta
+windows.servers.header Strežniki
+windows.servers.none Ni bilo najdenih iger, ki bi se jim bilo mogoče pridružiti...
+windows.servers.host + Gostiteljska igra
+windows.servers.hide Skrij v celoti
+windows.servers.priority Prednostna naloga regije
+windows.servers.online {0} V igri
+windows.servers.social {0} na socialnem omrežju
+windows.servers.editor {0} v uredništvu
+windows.loadout.header Sprememba obremenitve
+windows.loadout.class Razred
+windows.loadout.primary Primarno
+windows.loadout.primary.attach Priponka
+windows.loadout.primary.reticle Mreža
+windows.loadout.primary.scope Področje uporabe
+windows.loadout.secondary Sekundarno
+windows.loadout.secondary.skin Sekundarna koža
 windows.loadout.melee Melee
-windows.loadout.hat Hat
-windows.loadout.back Body
-windows.loadout.waist Waist
-windows.loadout.shoe Shoes
-windows.loadout.face Face
-windows.loadout.spray Spray
-windows.loadout.color.skin Skin Color
-windows.loadout.color.chat Chat Name Color
-windows.loadout.color.hair Hair Color
-windows.loadout.dye Dye
-windows.loadout.pet Pet
-windows.loadout.wrist Wrist
-windows.loadout.stat Killcard Stat
-windows.loadout.flag Country Flag
-windows.loadout.badge Custom Badge
-windows.mods.drop drop mod file here or click
-windows.mods.paste Paste Mod Url
-windows.mods.load Load Mod
-windows.mods.none No Mods found
-windows.mods.header Mod Manager
-windows.mods.guide Mod Guide
-windows.mods.list Mods List
-windows.mods.load.header Load Mods
+windows.loadout.hat Klobuk
+windows.loadout.back Telo
+windows.loadout.waist Pas
+windows.loadout.shoe Čevlji
+windows.loadout.face Obraz
+windows.loadout.spray Razpršilo
+windows.loadout.color.skin Barva kože
+windows.loadout.color.chat Ime klepeta Barva
+windows.loadout.color.hair Barva Las
+windows.loadout.dye Barvilo
+windows.loadout.pet Hišni ljubljenček
+windows.loadout.wrist Zapestje
+windows.loadout.stat Statistika kartice Killcard
+windows.loadout.flag Zastava države
+windows.loadout.badge Značka po meri
+windows.mods.drop spustite mod datoteko tukaj ali kliknite
+windows.mods.paste Prilepi Mod Url
+windows.mods.load Način nalaganja Mod
+windows.mods.none Modi niso bili najdeni
+windows.mods.header Upravitelj modifikacij
+windows.mods.guide Vodnik za modifikacije
+windows.mods.list Seznam modusov
+windows.mods.load.header Modusi za nalaganje
 windows.mods.publish Publish Mod
-windows.mods.viewer Viewer
-windows.account.header Account
-windows.account.recover To recover an account contact <a>recovery@yendis.ch</a>
-windows.class.header Select Class
-windows.controls.header Change Controls
-windows.controls.forward Forward
-windows.controls.backward Backward
-windows.controls.left Left
-windows.controls.right Right
-windows.controls.reload Reload
-windows.controls.aim1 Aim
-windows.controls.shoot1 Shoot
-windows.controls.inspect Inspect
-windows.controls.spray Spray
-windows.controls.sprayWheel Spray Wheel (Hold)
-windows.controls.jump Jump
+windows.mods.viewer Pregledovalnik
+windows.account.header Račun
+windows.account.recover Za povrnitev računa se obrnite na <a>recovery@yendis.ch</a>
+windows.class.header Izberite Razred
+windows.controls.header Nadzor sprememb
+windows.controls.forward Naprej
+windows.controls.backward Nazaj
+windows.controls.left Leva stran
+windows.controls.right Desno
+windows.controls.reload Ponovno polnjenje
+windows.controls.aim1 Cilj
+windows.controls.shoot1 Ustrelite
+windows.controls.inspect Preglejte spletno stran .
+windows.controls.spray Razpršilo
+windows.controls.sprayWheel Razpršilno kolo (držanje)
+windows.controls.jump Skok
 windows.controls.crouch Crouch
-windows.controls.prim Primary Weapon
-windows.controls.swap Secondary Weapon
-windows.controls.melee Melee Weapon
-windows.controls.equip Equipment
-windows.controls.chat Chat
-windows.controls.voice Voice
-windows.controls.list Player List
-windows.controls.board Leaderboard
-windows.controls.interact Interact
-windows.controls.interactSec Secondary Interact
-windows.controls.confirm Confirm Interact
+windows.controls.prim prim Osnovno orožje
+windows.controls.swap Sekundarno orožje
+windows.controls.melee Orožje za bližnji boj
+windows.controls.equip Oprema
+windows.controls.chat Klepet
+windows.controls.voice Glas
+windows.controls.list Seznam igralcev
+windows.controls.board Vodilna plošča
+windows.controls.interact Vzajemno delovanje
+windows.controls.interactSec Sekundarna interakcija
+windows.controls.confirm Potrdite interakcijo
 windows.controls.drop Drop
-windows.controls.wepVis Toggle Weapon Visibility
-windows.controls.kickVoteY Vote Kick [Yes]
-windows.controls.kickVoteN Vote Kick [No]
-windows.controls.kpdVoteY KPD Vote [Yes]
-windows.controls.kpdVoteN KPD Vote [No]
-windows.controls.specFree Toggle Free Cam
+windows.controls.wepVis Preklapljanje vidljivosti orožja
+windows.controls.kickVoteY Glasovati Kick [Da]
+windows.controls.kickVoteN Glasovati Kick [Ne]
+windows.controls.kpdVoteY KPD Glasovanje [Da]
+windows.controls.kpdVoteN KPD Glasovanje [Ne]
+windows.controls.specFree Toggle Brezplačna kamera
 windows.controls.specObj Toggle Objective Cam
-windows.controls.specFirst Toggle First Person
-windows.controls.specNames Toggle Forced Names
-windows.controls.specFocus Toggle Focus Player
-windows.controls.hidePlayers Hide Players
+windows.controls.specFirst Toggle Prva oseba
+windows.controls.specNames Toggle Prisilna imena
+windows.controls.specFocus Toggle Focus predvajalnik
+windows.controls.hidePlayers Skrijte igralce
 windows.controls.streak0 Streak 1
 windows.controls.streak1 Streak 2
 windows.controls.streak2 Streak 3
 windows.controls.streak3 Streak 4
 windows.controls.streak4 Streak 5
 windows.controls.taunt0 Taunt (Psst)
-windows.controls.taunt1 Taunt (Whistle)
-windows.controls.taunt2 Taunt (Fart)
+windows.controls.taunt1 Taunt (Piščalka)
+windows.controls.taunt2 Taunt (Prd)
 windows.controls.taunt3 Taunt (Meme)
-windows.controls.taunt4 Taunt (WTF is This?)
-windows.controls.taunt5 Taunt (Right Now!)
-windows.controls.prop Select Prop (Hold)
-windows.controls.propRand Select Random Prop
-windows.controls.propRot Toggle Rotation
-windows.controls.propRotR Reset Rotation
+windows.controls.taunt4 Taunt (WTF je To?)
+windows.controls.taunt5 Izsiljevanje (Prav Zdaj!)
+windows.controls.prop Izberite Rekvizit (držanje)
+windows.controls.propRand Izberite Naključni rekvizit
+windows.controls.propRot Preklapljanje Vrtenja
+windows.controls.propRotR Ponastavitev Vrtenja
 windows.controls.premium0 Noclip
 windows.controls.premium1 Godmode
-windows.controls.premium2 Kill
+windows.controls.premium2 Ubij
 windows.controls.premium3 Smite
-windows.controls.reset Reset Position (Race & Parkour)
-windows.controls.pretend Hide Game
-windows.host.header Host Custom Game
-windows.host.maps Server Setup
-windows.host.cmaps Community Game
-windows.host.raw Raw Game Data
-windows.host.modes Select Modes
-windows.host.classes Select Classes
-windows.host.settings Server Settings
-windows.host.preset Host Presets
-windows.host.preset.load Loading Preset...
-windows.host.preset.name Preset name
-windows.host.start Start Game
-windows.host.rehost Start Game (Bring Players)
-windows.spray.header Select Spray
-windows.spray.default Free Spray
-windows.spray.spin Spray
-windows.maps.header Custom Games
-windows.maps.none No Games found!
-windows.maps.name Game Name
-windows.maps.editor Game Maker
-windows.maps.publish Publish Game
-windows.maps.community Dev Community
-windows.publish.map.header Publish or Update Game
-windows.publish.map.thumbnail No Thumbnail
-windows.publish.map.paste Paste Game Data
-windows.publish.map.update Publish/Update
-windows.publish.map.login to create and upload Games!
-windows.theatre.header Theatre Mode
-windows.theatre.record Enable Recording
-windows.theatre.key Record Key
-windows.clans.header Clans
-windows.clans.members Members ({0})
-windows.clans.requests Requests
-windows.clans.requests.none No Requests
-windows.clans.page [{0}] Clan Page
-windows.clans.create Create Clan
-windows.clans.name Clan Name
-windows.clans.view View Clans
-windows.clans.join Join Clan
-windows.clans.login to create and join a clan!
-windows.store.header Store
+windows.controls.reset Ponastavitev položaja (dirka in parkour)
+windows.controls.pretend Skrij igro
+windows.host.header Gostiteljska igra po meri
+windows.host.maps Nastavitev strežnika
+windows.host.cmaps Igra skupnosti
+windows.host.raw Neobdelani podatki o igri
+windows.host.modes Izberite načine
+windows.host.classes Izberite razrede
+windows.host.settings Nastavitve strežnika
+windows.host.preset Prednastavitve gostitelja
+windows.host.preset.load Nalaganje prednastavitev...
+windows.host.preset.name Ime prednastavitve
+windows.host.start Začetek igre
+windows.host.rehost Začetek igre (pripeljite igralce)
+windows.spray.header Izberite Razpršilo
+windows.spray.default Brezplačno pršenje
+windows.spray.spin Razpršilo
+windows.maps.header Igre po meri
+windows.maps.none Ni bilo najdenih iger!
+windows.maps.name Ime igre
+windows.maps.editor Ustvarjalnik iger
+windows.maps.publish Objava igre
+windows.maps.community Dev Skupnost
+windows.publish.map.header Objava ali posodobitev igre
+windows.publish.map.thumbnail Brez sličic
+windows.publish.map.paste Prilepi podatke o igri
+windows.publish.map.update Objavljanje/posodabljanje
+windows.publish.map.login za ustvarjanje in nalaganje iger!
+windows.theatre.header Gledališki način
+windows.theatre.record Omogoči snemanje
+windows.theatre.key Ključ za zapisovanje
+windows.clans.header Klani
+windows.clans.members Člani ({0})
+windows.clans.requests Zahteve
+windows.clans.requests.none Brez zahtev
+windows.clans.page [{0}] Stran klana
+windows.clans.create Ustvari klan
+windows.clans.name Ime klana
+windows.clans.view Oglejte si klane
+windows.clans.join Pridružite se klanu
+windows.clans.login ustvarite klan in se mu pridružite!
+windows.store.header Trgovina
 windows.store.spin {0} Spin
-windows.store.agree By purchasing you agree to the {0}Terms
-windows.store.purchase Purchase KR
-windows.store.voucher Redeem Voucher
-windows.store.voucherinfo Get Vouchers from certain Streamers & Events
-windows.store.market Marketplace
-windows.store.market2 Krunker Market
-windows.store.premium Purchase Premium
-windows.store.premium2 Krunker Premium
-windows.store.buyP Choose a Display name & more with
-windows.store.buy Buy and Sell Items on the
-windows.store.wheels Prize Wheels
-windows.store.unlock Unlock new weapon skins and items
-windows.store.amount {0} KR in account
-windows.store.login to buy and unlock items from the store!
-windows.store.purchasing Purchasing...
-windows.store.unboxed {0}{1} unboxed
-windows.store.found {0}{1} found
-windows.trade.header Trading
-windows.scope.header Select Scope
+windows.store.agree Z nakupom se strinjate s {0}Pogoji
+windows.store.purchase Nakup KR
+windows.store.voucher Izkoristi kupon
+windows.store.voucherinfo Pridobite kupone iz določenih Streamers & Events
+windows.store.market Tržnica
+windows.store.market2 Trg Krunker
+windows.store.premium Nakupna Premija
+windows.store.premium2 Krunker Premija
+windows.store.buyP Izberite prikazno ime in več z
+windows.store.buy Nakup in prodaja predmetov v
+windows.store.wheels Nagradna kolesa
+windows.store.unlock Odklepanje novih kož za orožje in predmetov
+windows.store.amount {0} KR na računu
+windows.store.login za nakup in odklepanje predmetov v trgovini!
+windows.store.purchasing Nakup...
+windows.store.unboxed {0}{1} razpakirano
+windows.store.found {0}{1} najdeno
+windows.trade.header Trgovanje
+windows.scope.header Izberite področje uporabe
 windows.premium.header Premium
-windows.skin.header Select Skin
-windows.hat.header Select Hat
-windows.back.header Select Back
-windows.waist.header Select Waist
-windows.face.header Select Face
-windows.melee.header Select Melee
-windows.attach.header Select Attachment
-windows.reticle.header Select Reticle
-windows.reticle.unlocked Unlocked at lvl {0}
-windows.reticle.req Req lvl {0}
-windows.dye.header Select Dye
-windows.dye.default Default Dye
-windows.dye.spin Dye
-windows.changelog.header Changelog
-windows.mods.community.header Community Mods
-windows.mods.community.fav Your Favorites
-windows.mods.community.new New Mods
-windows.mods.community.hot Hot
-windows.mods.community.name Mod Name
-windows.mods.community.none No Mods found
+windows.skin.header Izberite kožo
+windows.hat.header Izberite klobuk
+windows.back.header Izberite Nazaj
+windows.waist.header Izberite pas
+windows.face.header Izberite obraz
+windows.melee.header Izberite Melee
+windows.attach.header Izberite prilogo
+windows.reticle.header Izberite cilinder
+windows.reticle.unlocked Odklenjeno na lvl {0}
+windows.reticle.req Zahtevani lvl {0}
+windows.dye.header Izberite barvilo
+windows.dye.default Privzeto barvilo
+windows.dye.spin Barvanje
+windows.changelog.header Seznam sprememb
+windows.mods.community.header Modusi skupnosti
+windows.mods.community.fav Vaše priljubljene
+windows.mods.community.new Novi modusi
+windows.mods.community.hot Vroče
+windows.mods.community.name Ime modula
+windows.mods.community.none Modi niso bili najdeni
 windows.publish.mod.header Publish Mod
-windows.publish.mod.thumbnail No Thumbnail
-windows.publish.mod.name Mod Name
+windows.publish.mod.thumbnail Brez sličic
+windows.publish.mod.name Ime modula
 windows.publish.mod.paste Mod Url
-windows.publish.mod.update Publish/Update
-windows.publish.mod.login to create and upload mods!
-windows.secondary.header Select Secondary
-windows.secondary.unlocked Unlocked
-windows.secondary.customOnly Customs Only
-windows.secondary.premiumOnly Premium Only
-windows.secondary.req Req lvl {0}
-windows.skins.unlocked Unlocked
-windows.skins.customOnly Customs Only
-windows.skins.premiumOnly Premium Only
-windows.skins.classOnly Req {0}
-windows.skins.req Req lvl {0}
-windows.skins.default Default Skin
-windows.advertise.header Advertise
-windows.support.header Support
-windows.players.header Player List
-windows.players.none No players currently...
-windows.join.header Join
-windows.join.code Enter Game URL/Code
-windows.client.header Client
-windows.client.windows Windows Installer
-windows.client.mac macOS Installer
-windows.client.linux Linux Installer
-windows.ranked.header Ranked
-windows.ranked.login to play in ranked games!
-windows.ranked.level You must be at least <span color="black">level {0}</span> to play in ranked games! Right now you are at <span color="black">level {1}</span>.
-windows.chall.header Challenges
-windows.chall.login to complete challenges!
-thumbnail.upload.limit Failed. {0}kb Thumbnail Limit
-image.upload.limit Failed. {0}kb Image Limit
-thumbnail.upload.error Thumbnail Error
-mod.extracting extracting {0}/{1}
-mod.disabled mods disabled
-mod.error mod error!
-mod.loading loading mod...
-mod.invalid invalid mod file!
-matchmaker.full FULL
-matchmaker.GameFull Game is full.
-matchmaker.NoServersMatchQuery GAME UPDATING
-matchmaker.InvalidGameId Game not found.
-matchmaker.NoAvailableServers Servers are at Max Capacity
-matchmaker.GameIssue Unknown Join Issue
-adblocker Disable your ad blocker to receive free Krunkies.
-ad-failed Ad Failed to Load. Try again.
-streamers.views {0} viewers
-streamers.none No active streams!
-error.extentions If you have any extensions, disable them
-error.seek Try seeking a new game by clicking
-custom.map.upload.limit Failed. 500k Character Game Data Limit
-custom.map.missing Select at least one Game or Map
-custom.mode.missing Select at least one Mode
-custom.class.missing Select at least one Class
-server.config.maxPlayers Players
-server.config.minPlayers Min Players
-server.config.lives Lives
-server.config.gameTime Minutes
-server.config.gravMlt Gravity
-server.config.tickRI High Tickrate
-server.config.maxPS 40 Player Server
-server.config.promServ Promote Server
-server.config.jumpMlt Jump Force
-server.config.airStrf Air Strafing
-server.config.deltaMlt Time Scale
-server.config.strafeSpd Strafe Speed
-server.config.fiRat Fire Rate
-server.config.reSpd Reload Speed
-server.config.slidTime Slide Time
-server.config.fixMov Fixed Movement
-server.config.slidSpd Slide Speed
-server.config.healthMlt Health Multiplier
-server.config.impulseMlt Weapon Impulse
-server.config.nameTeam1 Team 1 Name
-server.config.nameTeam2 Team 2 Name
-server.config.nameTeam3 Team 3 Name
-server.config.nameTeam4 Team 4 Name
-server.config.nameTeam5 Team 5 Name
-server.config.t1Dmg Team 1 Damage
-server.config.t2Dmg Team 2 Damage
-server.config.t3Dmg Team 3 Damage
-server.config.t4Dmg Team 4 Damage
-server.config.t5Dmg Team 5 Damage
-server.config.selTeam Select Team
+windows.publish.mod.update Objavljanje/posodabljanje
+windows.publish.mod.login za ustvarjanje in nalaganje modov!
+windows.secondary.header Izberite sekundarni
+windows.secondary.unlocked Odklepanje
+windows.secondary.customOnly Samo carina
+windows.secondary.premiumOnly Samo Premium
+windows.secondary.req Zahtevani lvl {0}
+windows.skins.unlocked Odklepanje
+windows.skins.customOnly Samo carina
+windows.skins.premiumOnly Samo Premium
+windows.skins.classOnly Zahteva se {0}
+windows.skins.req Zahtevani lvl {0}
+windows.skins.default Privzeta koža
+windows.advertise.header Oglaševanje
+windows.support.header Podpora
+windows.players.header Seznam igralcev
+windows.players.none Trenutno ni igralcev...
+windows.join.header Pridružite se
+windows.join.code Vnesite naslov URL/kodo igre
+windows.client.header Stranka
+windows.client.windows Namestitveni program sistema Windows
+windows.client.mac Namestitveni program za macOS
+windows.client.linux Namestitveni program za Linux
+windows.ranked.header Razvrstitev
+windows.ranked.login za igranje v uvrščenih igrah!
+windows.ranked.level Biti morate vsaj <span color="black">level {0}</span> za igranje v uvrščenih igrah! Trenutno ste na <span color="black">level {1}</span>.
+windows.chall.header Izzivi
+windows.chall.login za izpolnjevanje izzivov!
+thumbnail.upload.limit Neuspešno. {0}kb Omejitev sličic
+image.upload.limit Neuspešno. {0}kb Omejitev slike
+thumbnail.upload.error Napaka pri sličicah
+mod.extracting pridobivanje {0}/{1}
+mod.disabled modi onemogočeni
+mod.error mod napaka!
+mod.loading nalaganje mod...
+mod.invalid Neveljavna datoteka mod!
+matchmaker.full POPOLNA
+matchmaker.GameFull Igra je polna.
+matchmaker.NoServersMatchQuery POSODABLJANJE IGRE
+matchmaker.InvalidGameId Igra ni bila najdena.
+matchmaker.NoAvailableServers Strežniki imajo največjo zmogljivost
+matchmaker.GameIssue Neznana težava s pridružitvijo
+adblocker Če želite prejemati brezplačne Krunkies, onemogočite blokator oglasov.
+ad-failed Oglas se ni uspel naložiti. Poskusite znova.
+streamers.views {0} gledalcev
+streamers.none Ni aktivnih tokov!
+error.extentions Če imate kakšne razširitve, jih onemogočite
+error.seek Poskusite poiskati novo igro s klikom na
+custom.map.upload.limit Neuspešno. Omejitev podatkov v igri na 500k znakov
+custom.map.missing Izberite vsaj eno igro ali zemljevid
+custom.mode.missing Izberite vsaj en način
+custom.class.missing Izberite vsaj en razred
+server.config.maxPlayers Igralci
+server.config.minPlayers Igralci Min
+server.config.lives Življenja
+server.config.gameTime Zapisnik
+server.config.gravMlt Gravitacija
+server.config.tickRI Visoka stopnja vstopnic
+server.config.maxPS Strežnik za 40 igralcev
+server.config.promServ Spodbujanje strežnika
+server.config.jumpMlt Sila skoka
+server.config.airStrf Napadanje iz zraka
+server.config.deltaMlt Časovna lestvica
+server.config.strafeSpd Hitrost napada
+server.config.fiRat Hitrost streljanja
+server.config.reSpd Hitrost ponovnega polnjenja
+server.config.slidTime Čas diapozitivov
+server.config.fixMov Fiksno gibanje
+server.config.slidSpd Hitrost drsenja
+server.config.healthMlt Multiplikator zdravja
+server.config.impulseMlt Impulz orožja
+server.config.nameTeam1 Ime ekipe 1
+server.config.nameTeam2 Ime ekipe 2
+server.config.nameTeam3 Ime ekipe 3
+server.config.nameTeam4 Ime ekipe 4
+server.config.nameTeam5 Ime ekipe 5
+server.config.t1Dmg Ekipa 1 Škoda
+server.config.t2Dmg Ekipa 2 Škoda
+server.config.t3Dmg Ekipa 3 Škoda
+server.config.t4Dmg Ekipa 4 Škoda
+server.config.t5Dmg Ekipa 5 Škoda
+server.config.selTeam Izberite ekipo
 server.config.allowSpect Spectating
-server.config.killRewards Kill Rewards
-server.config.headshotOnly Headshots Only
-server.config.noSecondary Disable Secondaries
-server.config.noStreaks Disable Streaks
-server.config.canSlide Sliding
-server.config.wallJP Wall Jumping Power
-server.config.autoJump Auto Jump
-server.config.bDrop Bullet Drop
-server.config.thirdPerson 3rd Person
-server.config.requireCaptcha Require Captcha
-server.config.nameTags Hide Nametags
-server.config.kCams Kill Cams
-server.config.aAnon Allow Anonymous
-server.config.noReload No Reload
-server.config.private Private
-server.config.krRewards KR Rewards
-server.config.forceDefault Force Default Settings
-server.config.warmupTime Warmup Time
-server.config.gamRounds Rounds
-server.config.objtvTime Objective Time
-server.config.forceSpawn Auto Respawn Time
-server.config.intermTmr Intermission (s)
-server.config.scoreLimit Score Limit
-server.config.keepTScore Keep Team Score
-server.config.forceC Force Mode Classes
-server.config.logTim Log Time (Race, Parkour)
-server.config.hitBoxPad Hitbox Padding
-server.config.hpRegen Health Regen
-server.config.disableB Disable Borders
-server.config.throwMel Throwable Melees
-server.config.noCosm Disable Cosmetics
-server.config.tstCmp Test Mode
-server.config.limitClasses Limit Classes
-server.config.tmSize Team Size
-server.config.fallDmg Fall Damage
-server.config.fallDmgThr Fall Damage Thresh
-server.config.noDraws No Draws
-server.config.bstOfR Best of
-server.config.chrgWeps Chargable Weapons
-social.login Login/Register
-social.login.failed Login Failed
-social.login.buy Login to Buy
-social.login.sell Login to Sell
-social.login.gift Login to Gift
-social.login.proccessing Logging in...
-social.since Since
-social.user.maps User Games
-social.user.mods User Mods
-social.maps.none No Games found...
-social.mods.none No Mods found...
-social.market.price.low Lowest Price
-social.market.price.list List Price in
-social.market.searching Searching
-social.market.listed listed {0} ago
-social.market.list List Item
-social.market.unlist Unlist
-social.market.unlisting Unlisting Item...
-social.market.posting Posting Item...
-social.market.req lvl {0} required
-social.market.cant Can't Afford
-social.market.purchase Purchase
-social.market.fee No List Fee
-social.market.failed Failed. Try Again
-social.market.head Head Item
-social.market.back Back Item
-social.market.waist Waist Item
-social.market.face Face Item
-social.market.shoe Shoe Item
-social.market.pet Pet Item
-social.market.wrist Wrist Item
-social.market.melee Melee Item
-social.market.spray Spray Item
-social.market.dye Dye Item
-social.market.collectible Collectible Item
-social.market.none No Items Found
-social.market.login You must be logged in.
-social.market.grace ready in {0}
-social.market.sort Filter/Sort
-social.market.filter Search
-social.market.sort2 Sort
-social.market.price.high Highest Price
-social.trading.submitting Submitting Offer...
-social.market.gift.amount Gift Amount in
-social.market.fee.gift No Fee
-social.market.gift Gift KR
-social.market.gift.msg Leave a message
-respawn.auto Auto Respawning in {0}
-custom.host.ranked Can't host match while in ranked.
-funds.insufficient Insufficient Funds
-funds.out It appears you have run out of Krunkies.
-custom.passcode.long Password too long
-custom.passcode.input Enter Server Password to join
-custom.tryagain Please try again.
-purchase.kr.success Added {0} KR to your account
-limited.purchase.ask Are you sure you want to purchase [{0}] for {1} KR?
-limited.purchase.success Added {0} to your inventory
-pretend.exit press [{0}] again to exit
-settings.loaded Settings Loaded
-settings.loaded.none No settings found
-account.login.required Must be logged in
-account.banned.hack This account has been banned for Hacking.
-account.banned.appeal If you want to appeal your ban, contact:
-account.delete You may request to delete your account, if the request is not cancelled within 14 days the account and all associated data will be permanently removed.
-account.delete.request Are you sure you want to request an account deletion?
-account.delete.cancel Are you sure you want to cancel account deletion?
-spin.free.available FREE KR AVAILABLE!
-spin.free.claim This spin is available to claim once per Hour after completing a match.
-spin.free.disable These Popups can be disabled in General Settings
-mod.reset.0 Will take effect after respawning.
-mod.reset.1 Map Objects dont get reset
-windows.profile.picture Change Picture
-stats.assists Assists
-stats.nukes Nukes
+server.config.killRewards Nagrade za ubijanje
+server.config.headshotOnly Samo posnetki glave
+server.config.noSecondary Onemogočite sekundarne naprave
+server.config.noStreaks Onemogočite proge
+server.config.canSlide Drsni
+server.config.wallJP Moč skakanja po steni
+server.config.autoJump Samodejni skok
+server.config.bDrop Padec krogle
+server.config.thirdPerson Tretja oseba
+server.config.requireCaptcha Zahtevajte Captcha
+server.config.nameTags Skrijte oznake z imeni
+server.config.kCams Kamere za ubijanje
+server.config.aAnon Dovolite anonimno
+server.config.noReload Brez ponovnega polnjenja
+server.config.private Zasebno
+server.config.krRewards Nagrade KR
+server.config.forceDefault Vsili privzete nastavitve
+server.config.warmupTime Čas ogrevanja
+server.config.gamRounds Krogi
+server.config.objtvTime Ciljni čas
+server.config.forceSpawn Čas samodejnega ponovnega zagona
+server.config.intermTmr Odmor (s)
+server.config.scoreLimit Omejitev števila točk
+server.config.keepTScore Vodenje ekipnega rezultata
+server.config.forceC Razredi načina sile
+server.config.logTim Dnevniški čas (dirka, parkour)
+server.config.hitBoxPad Podloga udarnega polja
+server.config.hpRegen Regeneracija zdravja
+server.config.disableB Onemogočite meje
+server.config.throwMel Meli, ki jih je mogoče metati
+server.config.noCosm Onemogočite kozmetiko
+server.config.tstCmp Testni način
+server.config.limitClasses Omejitev razredov
+server.config.tmSize Velikost ekipe
+server.config.fallDmg Poškodbe zaradi padca
+server.config.fallDmgThr Prag poškodbe zaradi padca
+server.config.noDraws Brez neodločenih izidov
+server.config.bstOfR Najboljše iz
+server.config.chrgWeps Polnilna orožja
+social.login Prijava/registracija
+social.login.failed Prijava ni uspela
+social.login.buy Prijava za nakup
+social.login.sell Prijava za prodajo
+social.login.gift Prijava za darilo
+social.login.proccessing Prijava v sistem...
+social.since Ker
+social.user.maps Igre za uporabnike
+social.user.mods Uporabniški modusi
+social.maps.none Ni bilo najdenih iger...
+social.mods.none Modi niso bili najdeni...
+social.market.price.low Najnižja cena
+social.market.price.list Cena po ceniku v
+social.market.searching Iskanje
+social.market.listed navedeno {0} pred
+social.market.list Postavka s seznama
+social.market.unlist Odstranitev seznama
+social.market.unlisting Odstranitev predmeta iz seznama...
+social.market.posting Objava Postavka...
+social.market.req potrebna je stopnja lvl {0}
+social.market.cant Ne morem si privoščiti
+social.market.purchase Nakup
+social.market.fee Brez pristojbine za seznam
+social.market.failed Neuspešno. Poskusite znova
+social.market.head Glavna postavka
+social.market.back Nazaj Postavka
+social.market.waist Postavka za pas
+social.market.face Element obraza
+social.market.shoe Postavka za čevlje
+social.market.pet Postavka za hišne ljubljenčke
+social.market.wrist Zapestje Postavka za zapestje
+social.market.melee Predmet za bližnji boj
+social.market.spray Spray element
+social.market.dye Postavka za barvanje
+social.market.collectible Zbirateljski predmet
+social.market.none Ni najdenih elementov
+social.market.login Morate biti prijavljeni.
+social.market.grace pripravljen v {0}
+social.market.sort Filtriranje/razvrščanje
+social.market.filter Iskanje
+social.market.sort2 Razvrsti
+social.market.price.high Najvišja cena
+social.trading.submitting Oddaja ponudbe...
+social.market.gift.amount Znesek darila v
+social.market.fee.gift Brez pristojbine
+social.market.gift Darilo KR
+social.market.gift.msg Pustite sporočilo
+respawn.auto Samodejno obnavljanje v {0}
+custom.host.ranked Med razvrščanjem ne morete gostiti tekme.
+funds.insufficient Nezadostna sredstva
+funds.out Zdi se, da vam je zmanjkalo Krunkies.
+custom.passcode.long Predolgo geslo
+custom.passcode.input Za pridružitev vnesite geslo strežnika
+custom.tryagain Poskusite znova.
+purchase.kr.success Dodan {0} KR na vaš račun
+limited.purchase.ask Ste prepričani, da želite kupiti [{0}] za {1} KR?
+limited.purchase.success V svoj inventar ste dodali {0}
+pretend.exit ponovno pritisnite [{0}] za izhod
+settings.loaded Naložene nastavitve
+settings.loaded.none Ni bilo najdenih nobenih nastavitev
+account.login.required Morate biti prijavljeni
+account.banned.hack Ta račun je bil prepovedan zaradi vdora.
+account.banned.appeal Če se želite pritožiti na prepoved, se obrnite na:
+account.delete Zahtevate lahko izbris svojega računa; če zahteve ne prekličete v 14 dneh, bodo račun in vsi povezani podatki trajno odstranjeni.
+account.delete.request Ste prepričani, da želite zahtevati izbris računa?
+account.delete.cancel Ste prepričani, da želite preklicati brisanje računa?
+spin.free.available BREZPLAČNO KR NA VOLJO!
+spin.free.claim To vrtenje je na voljo enkrat na uro po končani tekmi.
+spin.free.disable Ta pojavna okna lahko onemogočite v splošnih nastavitvah
+mod.reset.0 začne veljati po ponovnem rojstvu.
+mod.reset.1 Predmeti zemljevida se ne ponastavijo 
+windows.profile.picture Sprememba slike
+stats.assists Asistence
+stats.nukes Jedrske bombe
 stats.melee Melee
 stats.fistkills Beatdowns
 stats.thrownkills Bullseyes
-stats.headshots Headshots
+stats.headshots Posnetki glave
 stats.wallbangs Wallbangs
-stats.crouches Crouches
-stats.sprays Sprays Placed
-stats.kpd Helpful Reports
-windows.host.default.settings Enabling Default Settings allows for storing Player Progress and Highscores
-windows.host.default.commands *Host Commands are Disabled in this mode: /noclip /god /smite etc
-windows.host.rewards Enabling KR Rewards forces the Server to use Default Settings & allows players to earn KR from the map funds:
-windows.store.wheels.sub Try your luck and spin for a chance to win some new skins!
-windows.store.currency * Prices in USD can be converted to your local currency at an exchange rate defined by the payment provider or bank
-windows.store.creator Consider Support your favorite Content Creator by using a Creator Code
-windows.chall.customs Challenges can't be completed in Custom Matches
-twitch.link Are you sure you want to link a twitch account?
-twitch.unlink Are you sure you want to unlink your twitch account?
-windows.clan.leave Are you sure you want to leave the clan?
-windows.clan.delete Are you sure you want to delete the clan?
-windows.clan.kick Are you sure you want kick {0} from the clan?
-windows.store.premium.purchase Are you sure you want to purchase {0} days of Premium?
-windows.store.premium.gift Are you sure you want to Gift '{0}' {1} days of Premium?
-windows.playerlist.ban Are you sure you want ban {0} from this game?
-windows.playerlist.flag Are you sure you want to Flag {0}?
-windows.playerlist.unflag Are you sure you want to Unflag {0}?
-windows.playerlist.punish Are you sure you want to take action on {0}?
-item.view.open Open Model Viewer
-item.view.more More Information
-item.sell.cant Item cant be sold.
-item.sell.cant.krunker Item cant be sold on krunker.
-item.sell.quick Are you sure you want to Quick Sell {0}?
-item.sell.destroy Are you sure you want to Destroy {0}?
-social.profile.stats Overall Stats
-social.profile.class Class Stats
-social.profile.sales Sales
-social.profile.sales.market Market Sales
-social.profile.skins Skins [{0}]
-social.profile.skins.none No published Skins from this user
-social.profile.games Games [{0}]
-social.profile.games.none No published Games from this user
-social.profile.assets Assets [{0}]
-social.profile.assets.none No published Assets from this user
-social.profile.mods Mods [{0}]
-social.profile.mods.none No published Mods from this user
-social.search Search Results
-social.market.stats.rare Rarest Items
-social.market.stats.circulation In Circulation
-social.market.stats.units units Worldwide
-social.trades.in Incoming
-social.trades.in.head Incoming Offers ({0})
-social.trades.out Outgoing
-social.trades.out.head Outgoing Offers ({0})
-social.trades.history History
-social.trades.history.head Trade History ({0})
-social.trades.decline Decline All
-social.trades.message ENABLE TRADE MESSAGES IN SETTINGS
-social.trades.warning You get no items from this trade!
-social.trades.accept Are you sure you want to accept this offer?
-stats.airdrops KR-Packages
-stats.airdrops.stolen Airdrops Stolen
-settings.quality.flapAnim Sniper Flap Animation
-chall.name.hs Get {0} headshots {1}
+stats.crouches Prikloni se
+stats.sprays Razpršila, ki so bila nameščena
+stats.kpd Koristna poročila
+windows.host.default.settings Omogočanje privzetih nastavitev omogoča shranjevanje napredka in visokih točk igralca.
+windows.host.default.commands *Gostiteljski ukazi so v tem načinu onemogočeni: /noclip /god /smite itd.
+windows.host.rewards Omogočanje nagrad KR prisili strežnik, da uporabi privzete nastavitve, in igralcem omogoči, da zaslužijo KR iz sredstev na zemljevidu:
+windows.store.wheels.sub Preizkusite svojo srečo in se zavrtite za priložnost, da osvojite nekaj novih kož!
+windows.store.currency * Cene v ameriških dolarjih je mogoče pretvoriti v lokalno valuto po menjalnem tečaju, ki ga določi ponudnik plačila ali banka.
+windows.store.creator Podprite svojega najljubšega ustvarjalca vsebin z uporabo kode ustvarjalca
+windows.chall.customs Izzivov ni mogoče opraviti v tekmah po meri
+twitch.link Ste prepričani, da želite povezati račun twitch?
+twitch.unlink Ste prepričani, da želite odstraniti povezavo z računom twitch?
+windows.clan.leave Ste prepričani, da želite zapustiti klan?
+windows.clan.delete Ste prepričani, da želite izbrisati klan?
+windows.clan.kick Ste prepričani, da želite izločiti {0} iz klana?
+windows.store.premium.purchase Ste prepričani, da želite kupiti {0} dni programa Premium?
+windows.store.premium.gift Ali ste prepričani, da želite podariti '{0}' {1} dni premije?
+windows.playerlist.ban Ali ste prepričani, da želite prepovedati vstop {0} v to igro?
+windows.playerlist.flag Ste prepričani, da želite označiti z zastavico {0}?
+windows.playerlist.unflag Ste prepričani, da želite razveljaviti oznako {0}?
+windows.playerlist.punish Ste prepričani, da želite ukrepati v primeru {0}?
+item.view.open Odprite pregledovalnik modelov
+item.view.more Več informacij
+item.sell.cant Predmeta ni mogoče prodati.
+item.sell.cant. Elementa ni mogoče prodati v Krunker.
+item.sell.quick Ste prepriča on krunker.ni, da želite hitro prodajo {0}?
+item.sell.destroy Ste prepričani, da želite uničiti {0}?
+social.profile.stats Splošni statistični podatki
+social.profile.class Statistike razreda
+social.profile.sales Prodaja
+social.profile.sales.market Prodaja na trgu
+social.profile.skins Kože [{0}]
+social.profile.skins.none Ni objavljenih kož od tega uporabnika
+social.profile.games Igre [{0}]
+social.profile.games.none Ni objavljenih iger tega uporabnika
+social.profile.assets Sredstva [{0}]
+social.profile.assets.none Ni objavljenih sredstev tega uporabnika
+social.profile.mods Modusi [{0}]
+social.profile.mods.none Ni objavljenih modusov tega uporabnika
+social.search Search Rezultati
+social.market.stats.rare Redki predmeti
+social.market.stats.circulation V obtoku
+social.market.stats.units enote po vsem svetu
+social.trades.in Prihajajoči
+social.trades.in.head Prejete ponudbe ({0})
+social.trades.out Odhajajoči
+social.trades.out.head Odhodne ponudbe ({0})
+social.trades.history Zgodovina
+social.trades.history.head Zgodovina trgovanja ({0})
+social.trades.decline Zavrnitev Vse
+social.trades.message OMOGOČANJE TRGOVINSKIH SPOROČIL V NASTAVITVAH
+social.trades.warning Od te izmenjave ne dobite nobenih predmetov!
+social.trades.accept Ste prepričani, da želite sprejeti to ponudbo?
+stats.airdrops KR-Paketki
+stats.airdrops.stolen Ukradena zračna letala
+settings.quality.flapAnim Animacija sniperjevega zaklopa
+chall.name.hs Get {0} posnetki glav {1}
 chall.name.ns Get {0} no-scopes {1}
-chall.name.ls Get {0} legshots {1}
+chall.name.ls Get {0} posnetki nog {1}
 chall.name.tmk Get {0} throwing knife kills {1}
-chall.name.fb Get {0} first bloods {1}
-chall.name.mk Get {0} melee kills {1}
-chall.name.fk Get {0} fist kills {1}
-chall.name.qs Get {0} quickscopes {1}
+chall.name.fb Get {0} prve krvi {1}
+chall.name.mk Get {0} bližnji spopad z orožjem {1}
+chall.name.fk Get {0} pest ubija {1}
+chall.name.qs Get {0} hitriskopi {1}
 chall.name.wb Get {0} wallbangs {1}
-chall.name.airk Get {0} mid-air kills {1}
+chall.name.airk Pridobi {0} ubojev v zraku {1}
 chall.name.lns Get {0} longshots {1}
-chall.name.tk Get {0} turbo kills {1}
-chall.name.drk Get {0} drift kills {1}
-chall.name.kstk Get a {0} killstreak {1}
-chall.name.w Win {0} matches
-chall.name.d Die {0} times
-chall.name.score Get {0} score
-chall.name.dmg Deal {0} damage {1}
-chall.name.bzk Get {0} buzz kills {1}
-chall.name.cc Get {0} close-calls {1}
-chall.name.rk Deal {0} revenge kills {1}
-event.doubleXP 2x Class XP enabled for this match
-ranked.join Joined Ranked Match. Abandoning a match will result in a temporary ban
-ranked.progress Game in Progress
-ranked.team Please join a Team
-ranked.switch Can't switch while in-game
-ranked.spectate Spectating Disabled in Ranked
-ranked.login Login to Spawn
-ranked.sync Missing Sync Data
-ranked.team.spawn Please join a Team to Spawn
-ranked.class.spawn Please select a Class to Spawn
-modes.round.win Your Team has secured this round
-modes.round.loss This round is no longer winnable
-modes.round.switch Switching Sides. Prepare for the next Round
-modes.trade.success Trade Successful
-modes.prophunt.limit [Prop Hunt] You are out of prop switches
-modes.prophunt.left [Prop Hunt] You have {0} switches remaining
-modes.prophunt.rotation.on [Prop Hunt] Rotation Enabled
-modes.prophunt.rotation.off [Prop Hunt] Rotation Disabled
-modes.prophunt.rotation.reset [Prop Hunt] Rotation reset.
-commands.login Login to use this command
-commands.connected {0} connected, {1} in menu
-commands.host {0} is the current Host.
-commands.noclip.on Noclip - Enabled
-commands.noclip.off Noclip - Disabled
-commands.god.on God mode - Enabled
-commands.god.off God mode - Disabled
-commands.god.on.other God mode - Enabled for {0}
-commands.god.off.other God mode - Disabled for {0}
-commands.smite.on Smite - Enabled
-commands.smite.off Smite - Disabled
-commands.smite.on.other Smite - Enabled for {0}
-commands.smite.off.other Smite - Disabled for {0}
-commands.perk Gave {0} {1}
-commands.maxperk Gave {0} MAX {1}
-commands.unlimited.on Unlimited Ammo - Enabled
-commands.unlimited.off Unlimited Ammo - Disabled
-commands.unlimited.on.other Unlimited Ammo - Enabled for {0}
-commands.unlimited.off.other Unlimited Ammo - Disabled for {0}
-commands.spraybypass.on Unlimited Sprays - Enabled
-commands.spraybypass.off Unlimited Sprays - Disabled
-commands.spraybypass.on.other Unlimited Sprays - Enabled for {0}
-commands.spraybypass.off.other Unlimited Sprays - Disabled for {0}
-commands.suspect.invalid Invalid suspect info
-commands.suspect.menu Suspect in menu
-commands.suspect.left Suspect has left
-commands.suspect.found Suspect Found. Spectating: {0}, Spawned: {1}, Name: {2}
-commands.forfeit.next Must play atleast 1 round
-commands.forfeit.wait Wait till match starts to forfeit
-commands.forfeit.later Please try again in a few seconds
-commands.forfeit.voted You already voted.
-commands.forfeit.limit You can only start one vote per game
-commands.forfeit.ended Forfeiting Game
-commands.forfeit.ended.other Other Team Forfeited
-server.message.join {0} joined the game
-server.message.left {0} left the game
-server.message.kicked {0} was kicked
-server.message.banned {0} was banned
-server.message.votekicked {0} was vote kicked
-server.message.arrested {0} was arrested by the K.P.D
+chall.name.tk Get {0} turbo ubije {1}
+chall.name.drk Get {0} drift ubije {1}
+chall.name.kstk Pridobi {0} udarca za ubijanje {1}
+chall.name.w Zmagati {0} tekem
+chall.name.d Umri {0}-krat
+chall.name.score Pridobite rezultat {0}
+chall.name.dmg Naredite {0} poškodbe {1}
+chall.name.bzk Pridobi {0} brenčanje, ki ubije {1}
+chall.name.cc Pridobi {0} bližnjih klicev {1}
+chall.name.rk Poskrbi za {0} maščevanje, ki ubije {1}
+event.doubleXP Za to tekmo je omogočen 2x razred XP
+ranked.join Pridružite se tekmi za uvrstitev. Opustitev tekme bo imela za posledico začasno prepoved.
+ranked.progress Igra v teku
+ranked.team Pridružite se ekipi
+ranked.switch Med igro ne morete preklopiti
+ranked.spectate Gledanje za invalide v kategoriji Ranked
+ranked.login Prijava v Spawn
+ranked.sync Manjkajoči podatki o sinhronizaciji
+ranked.team.spawn Pridružite se ekipi Spawn
+ranked.class.spawn Prosimo, izberite razred za Spawn
+modes.round.win Vaša ekipa je zagotovila ta krog.
+modes.round.loss V tem krogu ni več mogoče zmagati.
+modes.round.switch Zamenjava strani. Priprava na naslednji krog
+modes.trade.success Uspešna trgovina
+modes.prophunt.limit [Lov na rekvizite] Končali ste s stikali za rekvizite
+modes.prophunt.left [Lov na rekvizite] Ostalo vam je {0} stikal.
+modes.prophunt.rotation.on [Prop Hunt] Omogočeno vrtenje
+modes.prophunt.rotation.off [Prop Hunt] Onemogočeno vrtenje
+modes.prophunt.rotation.reset [Prop Hunt] Ponastavitev vrtenja.
+commands.login Prijava za uporabo tega ukaza
+commands.connected {0} povezan, {1} v meniju
+commands.host {0} je trenutni gostitelj.
+commands.noclip.on Noclip - Omogočeno
+commands.noclip.off Noclip - Onemogočeno
+commands.god.on Božanski način - Omogočeno
+commands.god.off Božanski način - Onemogočeno
+commands.god.on.other Božanski način - Omogočeno za {0}
+commands.god.off.other Božanski način - Onemogočen za {0}
+commands.smite.on Smite - Omogočeno
+commands.smite.off Smite - Onemogočeno
+commands.smite.on.other Smite - Omogočeno za {0}
+commands.smite.off.other Smite - onemogočen za {0}
+commands.perk Dalo {0} {1}
+commands.maxperk Dal {0} MAX {1}
+commands.unlimited.on Neomejeno strelivo - omogočeno
+commands.unlimited.off Neomejeno strelivo - Onemogočeno
+commands.unlimited.on.other Neomejeno strelivo - omogočeno za {0}
+commands.unlimited.off.other Neomejeno strelivo - onemogočeno za {0}
+commands.spraybypass.on Neomejeno pršenje - omogočeno
+commands.spraybypass.off Neomejeno pršenje - Onemogočeno
+commands.spraybypass.on.other Neomejeno pršenje - omogočeno za {0}
+commands.spraybypass.off.other Neomejeno pršenje - onemogočeno za {0}
+commands.suspect.invalid Neveljavne informacije o osumljencu
+commands.suspect.menu Osumljenec v meniju
+commands.suspect.left Osumljenec je odšel
+commands.suspect.found Najden osumljenec. Ogledovanje: {0}, Spawned: {1}, Name: {2}
+commands.forfeit.next Odigrati moraš vsaj 1 krog.
+commands.forfeit.wait Počakaj, da se tekma začne, in se odpovej.
+commands.forfeit.later Poskusite znova čez nekaj sekund
+commands.forfeit.voted Že ste glasovali.
+commands.forfeit.limit V vsaki igri lahko začnete glasovati samo enkrat.
+commands.forfeit.ended Izguba igre
+commands.forfeit.ended.other Druga ekipa se je odpovedala
+server.message.join {0} se je pridružil igri
+server.message.left {0} zapustil igro
+server.message.kicked {0} je bil izločen
+server.message.banned {0} je bila prepovedana
+server.message.votekicked {0} je bilo glasovanje kicked
+server.message.arrested {0} je aretirala policija K.P.D.
 `;
