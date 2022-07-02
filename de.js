@@ -62,7 +62,7 @@ player.waiting Warten auf Spieler
 player.died Du bist gestorben
 player.killed Getötet von
 player.killstreak {0} auf einer {1} Abschussserie
-player.inactive Wegen Abwesenheit rausgeworfen
+player.inactive Wegen Abwesenheit entfernt
 player.disconnect VERBINDUNG UNTERBROCHEN
 timer.end Nächste Runde startet in {0}
 leaderboard.empty Leerer Warteraum
@@ -100,7 +100,7 @@ settings.experimental.header Experimentell
 settings.experimental.holiday Feiertags-Effekte
 settings.experimental.aimFreezeFix Aim einfrierungs Fix
 settings.experimental.mouseFlickFix Maus Flick Fix
-settings.experimental.shaderRendering Instanz Laden
+settings.experimental.shaderRendering Instanz Rendern
 settings.experimental.mouseAccel Mausbeschleunigung
 settings.experimental.tbInterp TB Interpolation
 settings.client.header Client
@@ -147,7 +147,7 @@ settings.quality.softShad Weiche Schatten
 settings.quality.highResShad Hochauflösende Schatten
 settings.quality.shadowsDynamic Dynamische Schatten
 settings.quality.trails Schusslinie
-settings.quality.yourTrails Deine Schusslinie
+settings.quality.yourTrails Deine Schusslinien
 settings.quality.mflash Mündungsfeuer
 settings.quality.flap Sniper Klappe
 settings.quality.lowSpec Niedrige Auflösung
@@ -189,7 +189,7 @@ settings.interface.showTradeMsg Handels-Nachrichten anzeigen
 settings.interface.hideNonTrade Verstecke nicht handelbare Skins
 settings.interface.hp Dynamische Lebens Balken
 settings.interface.dmgScale Schadens Größe
-settings.interface.killf Tötungs Feed anzeigen
+settings.interface.killf Abschuss Feed anzeigen
 settings.interface.ping Verbindung anzeigen
 settings.interface.net-stats Netzwerkstatistiken anzeigen
 settings.interface.fps FPS-Rate anzeigen
@@ -212,7 +212,7 @@ settings.interface.hideNames.enemy Nur Gegner
 settings.interface.hideNames.all Jeder
 settings.interface.nametagStyle Namensanzeige-Style
 settings.interface.nametagOpac Namensanzeige Dreckkraft
-settings.interface.nametagScale Nameanzeige Skalierung
+settings.interface.nametagScale Namensanzeige Skalierung
 settings.interface.nametagStyle.health Nur Leben
 settings.interface.nametagStyle.name Nur Name
 settings.interface.nametagStyle.nameLvl Nur Name und Level
@@ -567,7 +567,7 @@ windows.controls.reset Position zurücksetzen (Rennen & Parkour)
 windows.controls.resetLast Zurücksetzen zum letzen Speicherpunkt (Parkour etc)
 windows.controls.pretend Spiel verstecken
 windows.controls.noclipSB Noclip
-windows.controls.godModeSB Gottmode
+windows.controls.godModeSB Gottmodus
 windows.controls.killSB Kill
 windows.host.header Individuelles Gastgeber-Spiel
 windows.host.maps Maps auswählen
@@ -668,7 +668,7 @@ windows.skins.classOnly Req {0}
 windows.skins.req Req lvl {0}
 windows.skins.default Ursprünglicher Skin
 windows.advertise.header Bewerben
-windows.support.header Hilfe
+windows.support.header Supoort
 windows.players.header Spieler Liste
 windows.players.none Keine Spieler im Moment...
 windows.join.header Beitreten
@@ -698,7 +698,7 @@ matchmaker.InvalidGameId Spiel wurde nicht gefunden.
 matchmaker.NoAvailableServers Server sind ausgelastet
 matchmaker.NoMatchingServers Kein Spiel gefunden<br><small>Propiere veränderung der Quickplay Option</small>
 matchmaker.GameIssue Unbekannter Beitrittsfehler
-adblocker Deaktiviere deinen Werbungblockierer um gratis Krunkies zu erhalten.
+adblocker Deaktiviere deinen Werbungsblockierer um gratis Krunkies zu erhalten.
 ad-failed Werbung konnte nicht geladen werden. Versuch es noch einmal.
 streamers.views {0} Betrachter
 streamers.none Keine aktiven Streams!
@@ -744,7 +744,7 @@ server.config.killRewards Abschuss-Belohnungen
 server.config.headshotOnly Nur Kopfschüsse
 server.config.noSecondary Sekundärwaffen deaktivieren
 server.config.noStreaks Abschussserie deaktivieren
-server.config.canSlide Ruschen
+server.config.canSlide Rutschen
 server.config.wallJP Wand-Sprung Kraft
 server.config.autoJump Automatisch Springen
 server.config.bDrop Geschoss-Drop
