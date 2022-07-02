@@ -1009,5 +1009,5 @@ server.message.arrested {0} Fue arrestado por la K.P.D
 event.easter.golden.spawn A Golden egg is near
 event.easter.golden.despawn A Golden egg has gone
 event.easter.found.new {0} found {1}/{2} Eggs
-event.easter.found.old You already discovered this egg!
+event.easter.found.old Ya has descubierto este huevo!
 event.easter.completed {0} Busqueda de huevos completada!
