@@ -867,7 +867,7 @@ windows.playerlist.punish Ste prepričani, da želite ukrepati v primeru {0}?
 item.view.open Odprite pregledovalnik modelov
 item.view.more Več informacij
 item.sell.cant Predmeta ni mogoče prodati.
-item.sell.cant. Elementa ni mogoče prodati v Krunker.
+item.sell.cant.krunker Item cant be sold on krunker.
 item.sell.quick Ste prepriča on krunker.ni, da želite hitro prodajo {0}?
 item.sell.destroy Ste prepričani, da želite uničiti {0}?
 social.profile.stats Splošni statistični podatki

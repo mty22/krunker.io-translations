@@ -979,3 +979,4 @@ server.message.kicked {0} je bil izločen
 server.message.banned {0} je bila prepovedana
 server.message.votekicked {0} je bilo glasovanje kicked
 server.message.arrested {0} je aretirala policija K.P.D.
+`;
