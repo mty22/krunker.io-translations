@@ -169,12 +169,12 @@ settings.post.bloomStrength 블룸 강도
 settings.post.bloomRadius 블룸 반경
 settings.post.ssao 화면 공간 반사
 settings.post.ssaoRadius 화면 공간 반사 반경
-settings.interface.hitInd 피해 방향 표시
-settings.interface.hitColor 피해 방향 색상
+settings.interface.hitInd 피격 방향 표시
+settings.interface.hitColor 피격 방향 색상
 settings.interface.dmg 피해량 표시
-settings.interface.dmgType Show Damage
-settings.interface.dmgType.default Rounded
-settings.interface.dmgType.float Float
+settings.interface.dmgType 대미지 표시
+settings.interface.dmgType.default 반올림
+settings.interface.dmgType.float 소수점
 settings.interface.dmgCol 피해량 색상
 settings.interface.critCol 치명타 색상
 settings.interface.header 인터페이스
@@ -224,7 +224,7 @@ settings.interface.xpBarType XP Bar Type
 settings.interface.xpBarCol XP 막대 색상
 settings.interface.xpBarCol2 XP 막대 색상 2
 settings.interface.xpBarOpac XP 막대 불투명도
-settings.interface.adsObjOpac ADS Objective Opacity
+settings.interface.adsObjOpac 조준 시 거점 불투명도
 settings.medals.header 메달
 settings.medals.show 메달 표시
 settings.medals.classic 클래식 메달
@@ -381,8 +381,8 @@ settings.viewmodel.weapReloadY 무기 재장전 상하 위치
 settings.viewmodel.yOffADS 무기 조준 상하 위치
 settings.viewmodel.adsFovMlt 무기 조준 배율
 settings.viewmodel.toggleADS 무기 조준 전환
-settings.viewmodel.wallLean Wall Slide/Jump Lean
-settings.viewmodel.wallLeanMlt Wall Slide/Jump Lean
+settings.viewmodel.wallLean 벽 슬라이드/점프 기울기
+settings.viewmodel.wallLeanMlt 벽 슬라이드/점프 기울기 배수
 settings.editing.header 인터페이스 효과
 settings.editing.health.high HUD HP 정상 색상
 settings.editing.health.low HUD HP 낮음 색상
@@ -494,7 +494,7 @@ windows.loadout.wrist 손목
 windows.loadout.stat 상대 처치 시 보일 스탯
 windows.loadout.flag 국기
 windows.loadout.badge 사용자 지정 배지
-windows.loadout.streaks Streaks
+windows.loadout.streaks 연속 처치
 windows.mods.drop Mod 파일을 여기에 드래그 또는 클릭
 windows.mods.paste Mod URL 붙여넣기
 windows.mods.load Mod 적용
@@ -564,11 +564,11 @@ windows.controls.premium1 무적 모드
 windows.controls.premium2 자살
 windows.controls.premium3 즉사 모드
 windows.controls.reset 위치 초기화 (Race, Parkour 모드 전용)
-windows.controls.resetLast Reset To Last Checkpoint (Parkour etc)
+windows.controls.resetLast 마지막 체크포인트로 되돌아가기 (Parkour 등 모드)
 windows.controls.pretend 게임 숨기기
-windows.controls.noclipSB Noclip
-windows.controls.godModeSB Godmode
-windows.controls.killSB Kill
+windows.controls.noclipSB 벽 무시
+windows.controls.godModeSB 무적 모드
+windows.controls.killSB 죽이기
 windows.host.header 사용자 지정 게임 만들기
 windows.host.maps 서버 설정
 windows.host.cmaps 커뮤니티 게임
@@ -682,7 +682,7 @@ windows.ranked.login 로그인해서 랭크 게임에 참가하세요!
 windows.ranked.level 랭크 게임을 하려면 최소<span color="black">{0}레벨</span>이어야 합니다! 지금 당신은 <span color="black">{1}레벨</span>입니다.
 windows.chall.header 챌린지
 windows.chall.login 로그인해서 챌린지에 도전하세요!
-windows.spin.header Prize Wheel
+windows.spin.header 경품 스핀
 thumbnail.upload.limit 섬네일 업로드 실패. 최대 {0}KB까지 가능합니다.
 image.upload.limit 이미지 업로드 실패. 최대 {0}KB까지 가능합니다.
 thumbnail.upload.error 섬네일 오류
@@ -696,7 +696,7 @@ matchmaker.GameFull 게임이 가득 찼습니다
 matchmaker.NoServersMatchQuery 게임이 업데이트 중입니다
 matchmaker.InvalidGameId 게임을 찾을 수 없습니다
 matchmaker.NoAvailableServers 서버 수용량이 가득 찼습니다
-matchmaker.NoMatchingServers No Games Found<br><small>Try changing Quickplay options</small>
+matchmaker.NoMatchingServers 게임을 찾을 수 없습니다<br><small>빠른 참가 옵션을 바꿔보십시오</small>
 matchmaker.GameIssue 알 수 없는 참가 문제가 발생했습니다
 adblocker 무료 KR을 받으려면 광고 차단기를 끄세요.
 ad-failed 광고를 불러오지 못하였습니다. 나중에 다시 시도하세요.
@@ -738,7 +738,7 @@ server.config.t3Dmg 3팀 피해량 배수
 server.config.t4Dmg 4팀 피해량 배수
 server.config.t5Dmg 5팀 피해량 배수
 server.config.selTeam 참가 시 팀 선택
-server.config.frFire Friendly Fire
+server.config.frFire 아군 사격
 server.config.allowSpect 관전 중
 server.config.killRewards 처치 점수
 server.config.headshotOnly 헤드샷만 허용
@@ -751,7 +751,7 @@ server.config.bDrop 탄 낙차
 server.config.thirdPerson 3인칭
 server.config.requireCaptcha Captcha 요구하기
 server.config.nameTags 이름표 숨기기
-server.config.nameTagsFR Hide Nametags (Allies)
+server.config.nameTagsFR 아군 이름표 숨기기
 server.config.kCams 사망 화면
 server.config.aAnon 익명 모드 허용
 server.config.noReload 재장전 없음
@@ -767,7 +767,7 @@ server.config.scoreLimit 점수 제한
 server.config.keepTScore 팀 점수 유지
 server.config.forceC 게임 모드 클래스 강제 적용
 server.config.logTim 시간 기록 (Race, Parkour 전용)
-server.config.lstChkT Last Checkpoint Time Rewind (Race/Bhop)
+server.config.lstChkT 마지막 체크포인트 시간 기록으로 되돌리기 (Race, Parkour 전용)
 server.config.hitBoxPad 히트박스 크기
 server.config.hpRegen HP 재생
 server.config.disableB 경계 비활성화
@@ -830,7 +830,7 @@ social.market.gift KR 선물하기
 social.market.gift.msg 메시지 남기기
 respawn.auto {0}초 후 자동 리스폰
 custom.host.ranked 랭크전 준비 중 게임 만들기 불가
-custom.host.wager Can't host match while in Wager.
+custom.host.wager 내기 중 게임 만들기 불가
 funds.insufficient 돈이 부족합니다
 funds.out KR이 부족합니다
 custom.passcode.long 너무 긴 비밀번호
@@ -856,11 +856,11 @@ mod.reset.1 맵 물체는 새로고침의 영향을 받지 않음
 windows.profile.picture 프로필 사진 변경
 stats.assists 어시스트
 stats.nukes 뉴크
-stats.slimers Slimers
-stats.juggernauts Juggernauts
-stats.juggernauts.kills Juggernaut Kills
-stats.juggernauts.killed Juggernauts Killed
-stats.warmachines War Machines
+stats.slimers 슬라이머
+stats.juggernauts 저거넛
+stats.juggernauts.kills 저거넛 중 처치
+stats.juggernauts.killed 저거넛 상대 처치
+stats.warmachines 워 머신
 stats.melee 근접 처치
 stats.fistkills 격투 처치
 stats.thrownkills 투척 처치
@@ -869,10 +869,10 @@ stats.wallbangs 벽 관통 처치
 stats.crouches 웅크리기
 stats.sprays 스프레이 수
 stats.kpd 유용한 신고 수
-stats.shots Shots
-stats.hits Hits
-stats.misses Misses
-stats.legshots Legshots
+stats.shots 총탄 총합
+stats.hits 명중
+stats.misses 빗나감
+stats.legshots 다리를 맞춤
 windows.host.default.settings 기본 설정을 사용하면 플레이어 진행률과 최고 점수를 저장할 수 있습니다
 windows.host.default.commands /noclip, /god, /smite와 같은 호스트 명령어는 비활성화됩니다
 windows.host.rewards KR 보상을 허용하면 서버 내에서 기본 설정을 강제하고 플레이어들이 맵에서 KR을 받을 수 있습니다
@@ -1006,8 +1006,8 @@ server.message.kicked {0}님이 퇴장되었습니다
 server.message.banned {0}님이 영구 퇴장되었습니다
 server.message.votekicked {0}님이 투표 퇴장되었습니다
 server.message.arrested KPD가 {0}님을 체포했습니다
-event.easter.golden.spawn A Golden egg is near
-event.easter.golden.despawn A Golden egg has gone
-event.easter.found.new {0} found {1}/{2} Eggs
-event.easter.found.old You already discovered this egg!
-event.easter.completed {0} completed the Egg hunt!
+event.easter.golden.spawn 황금알이 근처에 있습니다
+event.easter.golden.despawn 황금알이 사라졌습니다
+event.easter.found.new {0}님이 달걀 {1}/{2}개를 찾았습니다!
+event.easter.found.old 이미 찾은 달걀입니다!
+event.easter.completed {0}님이 달걀 찾기 챌린지를 완료했습니다!
