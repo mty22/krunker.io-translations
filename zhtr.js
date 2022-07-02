@@ -9,7 +9,7 @@ menu.btn.customize 自訂
 menu.btn.invite 邀請
 menu.btn.invite.clicked 已複製
 menu.btn.join 加入伺服器
-menu.btn.host 創建伺服器
+menu.btn.host 建立伺服器
 menu.btn.browser 伺服器
 generic.wait 請稍等…
 generic.loading 載入中…
@@ -17,7 +17,7 @@ generic.none 無
 generic.connecting 連線中…
 generic.select 選擇
 generic.delete 刪除
-generic.save 保存
+generic.save 儲存
 generic.load 載入
 generic.search 搜尋
 generic.leave 離開
@@ -27,7 +27,7 @@ generic.create 建立
 generic.random 隨機
 generic.failed 失敗
 generic.success 成功！
-generic.name 玩家名稱
+generic.name 使用者名稱
 generic.level 等級
 generic.score 總得分
 generic.off 關
@@ -35,10 +35,10 @@ generic.defeat 失敗
 generic.victory 勝利
 generic.matchover 比賽結束
 generic.matchaband 比賽被迫終止
-generic.follow 訂閱
-generic.unfollow 取消訂閱
-generic.followers 個訂閱
-generic.following 個訂閱中
+generic.follow 追隨
+generic.unfollow 取消追隨
+generic.followers 個追隨者
+generic.following 個追隨中
 generic.games 遊玩場數
 generic.wins 勝場數
 generic.lose 敗場數
@@ -49,11 +49,11 @@ generic.games.lost 敗場數
 generic.timep 遊玩時間
 generic.kills 擊殺數
 generic.deaths 死亡數
-generic.kdr 戰損率
+generic.kdr 戰損比
 generic.time 時間
 generic.logout 登出
-generic.logout.sessions 從所有設備上登出
-generic.username 輸入玩家名稱
+generic.logout.sessions 從所有裝置上登出
+generic.username 輸入使用者名稱
 generic.password 輸入密碼
 generic.register 註冊
 generic.login 登入
@@ -93,7 +93,7 @@ settings.network.header 網路
 settings.network.netRerouting 動態路由（影響網路時延）
 settings.network.netRate 網路更新率 (Hz)
 settings.network.lagComp 延遲補償
-settings.network.optNet 網路優化
+settings.network.optNet 網路最佳化
 settings.network.quickplay 強制快速遊玩
 settings.popup.header 彈出視窗
 settings.experimental.header 實驗性
@@ -117,11 +117,11 @@ settings.client.colorProfile 色彩設定檔
 settings.client.resourcePacks 資源包
 settings.dev.header 開發者
 settings.dev.forceUpdate 強制更新造型
-settings.dev.forceRegen 永遠復活玩家
+settings.dev.forceRegen 總是復活玩家
 settings.dev.extraBan 額外封禁資訊
 settings.chat.header 聊天
 settings.chat.chat 顯示聊天欄
-settings.chat.chat.all 永遠
+settings.chat.chat.all 總是
 settings.chat.chat.focus 聚焦到[Enter Message]欄位時
 settings.chat.messages 顯示玩家訊息
 settings.chat.unboxings 顯示玩家開箱訊息
@@ -465,7 +465,7 @@ windows.servers.social {0}個玩家在社群中
 windows.servers.editor {0}個玩家在地圖編輯器中
 windows.loadout.header 更換武器搭配
 windows.loadout.class 職業
-windows.loadout.primary 主武器
+windows.loadout.primary 主要武器
 windows.loadout.primary.attach 配件
 windows.loadout.primary.reticle 瞄準鏡標線
 windows.loadout.primary.scope 狙擊鏡分劃版
@@ -684,11 +684,11 @@ matchmaker.NoServersMatchQuery 遊戲更新中
 matchmaker.InvalidGameId 此伺服器已關閉或不存在。
 matchmaker.NoAvailableServers 目前沒有任何空閒的伺服器
 matchmaker.GameIssue 加入時出現未知問題
-adblocker 禁用廣告攔截插件以獲得免費KR輪盤。
+adblocker 停用廣告攔截器以獲得免費KR輪盤。
 ad-failed 廣告載入失敗，請稍後重試。
 streamers.views {0}個觀眾
 streamers.none 目前沒有任何Twitch直播！
-error.extentions 如果你有任何瀏覽器插件，請停用它們
+error.extentions 如果你有任何擴充功能，請停用它們
 error.seek 點此搜尋新的遊戲
 custom.map.upload.limit 上傳失敗，地圖資料大小上限為500kb
 custom.map.missing 請選擇至少一種地圖
@@ -843,7 +843,7 @@ stats.fistkills 空手擊殺數
 stats.thrownkills 投擲擊殺數
 stats.headshots 爆頭數
 stats.wallbangs 穿牆擊殺數
-stats.crouches 下蹲次數
+stats.crouches 蹲下次數
 stats.sprays 噴漆數
 stats.kpd 有效檢舉數
 windows.host.default.settings 啟用地圖預設設定以允許玩家儲存他們的進度及最高分數
