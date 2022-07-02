@@ -891,123 +891,123 @@ windows.playerlist.ban Jeste li sigurni da želite banovati {0} iz ove igre?
 windows.playerlist.flag Jeste li sigurni da želite banovati {0}?
 windows.playerlist.unflag Jeste li sigurni da želite unboanovati {0}?
 windows.playerlist.punish Jeste li sigurni da želite poduzeti akciju na {0}?
-item.view.open Open Model Viewer
-item.view.more More Information
-item.sell.cant Item cant be sold.
-item.sell.cant.krunker Item cant be sold on krunker.
-item.sell.quick Are you sure you want to Quick Sell {0}?
-item.sell.destroy Are you sure you want to Destroy {0}?
-social.profile.stats Overall Stats
-social.profile.class Class Stats
-social.profile.sales Sales
-social.profile.sales.market Market Sales
-social.profile.skins Skins [{0}]
-social.profile.skins.none No published Skins from this user
-social.profile.games Games [{0}]
-social.profile.games.none No published Games from this user
-social.profile.assets Assets [{0}]
-social.profile.assets.none No published Assets from this user
-social.profile.mods Mods [{0}]
-social.profile.mods.none No published Mods from this user
-social.search Search Results
-social.market.stats.rare Rarest Items
-social.market.stats.circulation In Circulation
-social.market.stats.units units Worldwide
-social.trades.in Incoming
-social.trades.in.head Incoming Offers ({0})
-social.trades.out Outgoing
-social.trades.out.head Outgoing Offers ({0})
-social.trades.history History
-social.trades.history.head Trade History ({0})
-social.trades.decline Decline All
-social.trades.message ENABLE TRADE MESSAGES IN SETTINGS
-social.trades.warning You get no items from this trade!
-social.trades.accept Are you sure you want to accept this offer?
-stats.airdrops KR-Packages
+item.view.open Otvorite preglednik modela
+item.view.more Više informacija
+item.sell.cant Stavka se ne može prodati.
+item.sell.cant.krunker Predmet se ne može prodati na krunkeru.
+item.sell.quick Jeste li sigurni da želite brzo prodati {0}?
+item.sell.destroy Jeste li sigurni da želite uništiti {0}?
+social.profile.stats Ukupna statistika
+social.profile.class Statistika razreda
+social.profile.sales Prodajni
+social.profile.sales.market Tržišna prodaja
+social.profile.skins Skinovi [{0}]
+social.profile.skins.none Nema objavljenih skinova ovog korisnika
+social.profile.games Igre [{0}]
+social.profile.games.none Nema objavljenih igara ovog korisnika
+social.profile.assets Sredstva [{0}]
+social.profile.assets.none Nema objavljenih sredstava ovog korisnika
+social.profile.mods Modovi [{0}]
+social.profile.mods.none Nema objavljenih modova ovog korisnika
+social.search Search Rezultati
+social.market.stats.rare Najrjeđi predmeti
+social.market.stats.circulation U opticaju
+social.market.stats.units jedinice širom svijeta
+social.trades.in Dolazni
+social.trades.in.head Dolazne ponude ({0})
+social.trades.out Odlazni
+social.trades.out.head Odlazne ponude ({0})
+social.trades.history Povijest
+social.trades.history.head Povijest trgovine ({0})
+social.trades.decline Odbij sve
+social.trades.message OMOGUĆITE TRGOVINSKE PORUKE U POSTAVKAMA
+social.trades.warning Ne dobivate artikle iz ove trgovine!
+social.trades.accept Jeste li sigurni da želite prihvatiti ovu ponudu?
+stats.airdrops KR-paketi
 stats.airdrops.stolen Airdrops Stolen
-settings.quality.flapAnim Sniper Flap Animation
-chall.name.hs Get {0} headshots {1}
-chall.name.ns Get {0} no-scopes {1}
-chall.name.ls Get {0} legshots {1}
-chall.name.tmk Get {0} throwing knife kills {1}
-chall.name.fb Get {0} first bloods {1}
-chall.name.mk Get {0} melee kills {1}
-chall.name.fk Get {0} fist kills {1}
-chall.name.qs Get {0} quickscopes {1}
-chall.name.wb Get {0} wallbangs {1}
-chall.name.airk Get {0} mid-air kills {1}
-chall.name.lns Get {0} longshots {1}
-chall.name.tk Get {0} turbo kills {1}
-chall.name.drk Get {0} drift kills {1}
-chall.name.kstk Get a {0} killstreak {1}
-chall.name.w Win {0} matches
-chall.name.d Die {0} times
-chall.name.score Get {0} score
-chall.name.dmg Deal {0} damage {1}
-chall.name.bzk Get {0} buzz kills {1}
-chall.name.cc Get {0} close-calls {1}
-chall.name.rk Deal {0} revenge kills {1}
-event.doubleXP 2x Class XP enabled for this match
-ranked.join Joined Ranked Match. Abandoning a match will result in a temporary ban
-ranked.progress Game in Progress
-ranked.team Please join a Team
-ranked.switch Can't switch while in-game
-ranked.spectate Spectating Disabled in Ranked
-ranked.login Login to Spawn
-ranked.sync Missing Sync Data
-ranked.team.spawn Please join a Team to Spawn
-ranked.class.spawn Please select a Class to Spawn
-modes.round.win Your Team has secured this round
-modes.round.loss This round is no longer winnable
-modes.round.switch Switching Sides. Prepare for the next Round
-modes.trade.success Trade Successful
-modes.prophunt.limit [Prop Hunt] You are out of prop switches
+settings.quality.flapAnim Snajper Flap Animacija
+chall.name.hs Dobiti {0} snimke glave {1}
+chall.name.ns Dobiti {0} bez dometa {1}
+chall.name.ls Dobiti {0} legshots {1}
+chall.name.tmk Dobiti {0} bacanje noža ubija {1}
+chall.name.fb Dobiti {0} prva krv {1}
+chall.name.mk Dobiti {0} gužva ubija {1}
+chall.name.fk Dobiti {0} šaka ubija {1}
+chall.name.qs Dobiti {0} brzi optici {1}
+chall.name.wb Dobiti {0} zidne šiške {1}
+chall.name.airk Dobiti {0} ubojstva u zraku {1}
+chall.name.lns Dobiti {0} dugi udarci {1}
+chall.name.tk Dobiti {0} turbo ubija {1}
+chall.name.drk Dobiti {0} drift ubija {1}
+chall.name.kstk Dobiti a {0} killstreak {1}
+chall.name.w Pobijediti {0} šibice
+chall.name.d Umrijeti {0} puta
+chall.name.score Dobijte rezultat {0}
+chall.name.dmg Nanesite {0} štete {1}
+chall.name.bzk Dobijte {0} buzz kills {1}
+chall.name.cc Dobijte {0} bliske pozive {1}
+chall.name.rk Dogovor {0} osveta ubija {1}
+event.doubleXP 2x XP klase omogućeno za ovu utakmicu
+ranked.join Pridružio se rangiranom meču. Prekid meča rezultirat će privremenom zabranom
+ranked.progress Igra u tijeku
+ranked.team Molimo pridružite se timu
+ranked.switch Ne može se prebaciti dok je u igri
+ranked.spectate Promatranje onemogućeno u rangiranom
+ranked.login Prijavite se na Spawn
+ranked.sync Nedostaju podaci za sinkronizaciju
+ranked.team.spawn Pridružite se timu za stvaranje
+ranked.class.spawn Odaberite klasu za stvaranje
+modes.round.win Vaš tim je osigurao ovu rundu
+modes.round.loss Ova runda se više ne može dobiti
+modes.round.switch Promjena strana. Pripremite se za sljedeći krug
+modes.trade.success Trgovina uspješna
+modes.prophunt.limit [Potraga za rekvizitima] Nemate više prekidača za rekvizite
 modes.prophunt.left [Prop Hunt] You have {0} switches remaining
-modes.prophunt.rotation.on [Prop Hunt] Rotation Enabled
-modes.prophunt.rotation.off [Prop Hunt] Rotation Disabled
-modes.prophunt.rotation.reset [Prop Hunt] Rotation reset.
-commands.login Login to use this command
-commands.connected {0} connected, {1} in menu
-commands.host {0} is the current Host.
-commands.noclip.on Noclip - Enabled
-commands.noclip.off Noclip - Disabled
-commands.god.on God mode - Enabled
-commands.god.off God mode - Disabled
-commands.god.on.other God mode - Enabled for {0}
-commands.god.off.other God mode - Disabled for {0}
-commands.smite.on Smite - Enabled
-commands.smite.off Smite - Disabled
-commands.smite.on.other Smite - Enabled for {0}
-commands.smite.off.other Smite - Disabled for {0}
+modes.prophunt.rotation.on [Prop Hunt] Okretanje omogućeno
+modes.prophunt.rotation.off [Prop Hunt] Rotacija onemogućena
+modes.prophunt.rotation.reset [Prop Hunt] Ponovno postavljanje rotacije.
+commands.login Prijavite se za korištenje ove naredbe
+commands.connected {0} povezan, {1} u izborniku
+commands.host {0} je trenutni domaćin.
+commands.noclip.on Noclip - Omogućeno
+commands.noclip.off Noclip - Onemogućeno
+commands.god.on God način rada - Omogućeno
+commands.god.off God način rada - Onemogućeno
+commands.god.on.other Način Boga - Omogućeno za {0}
+commands.god.off.other Način Boga - onemogućeno za {0}
+commands.smite.on Smite - Omogućeno
+commands.smite.off Smite - onemogućeno
+commands.smite.on.other Smite - Omogućeno za {0}
+commands.smite.off.other Smite - onemogućeno za {0}
 commands.perk Gave {0} {1}
 commands.maxperk Gave {0} MAX {1}
-commands.unlimited.on Unlimited Ammo - Enabled
-commands.unlimited.off Unlimited Ammo - Disabled
-commands.unlimited.on.other Unlimited Ammo - Enabled for {0}
-commands.unlimited.off.other Unlimited Ammo - Disabled for {0}
-commands.spraybypass.on Unlimited Sprays - Enabled
-commands.spraybypass.off Unlimited Sprays - Disabled
-commands.spraybypass.on.other Unlimited Sprays - Enabled for {0}
-commands.spraybypass.off.other Unlimited Sprays - Disabled for {0}
-commands.suspect.invalid Invalid suspect info
-commands.suspect.menu Suspect in menu
-commands.suspect.left Suspect has left
-commands.suspect.found Suspect Found. Spectating: {0}, Spawned: {1}, Name: {2}
-commands.forfeit.next Must play atleast 1 round
-commands.forfeit.wait Wait till match starts to forfeit
-commands.forfeit.later Please try again in a few seconds
-commands.forfeit.voted You already voted.
-commands.forfeit.limit You can only start one vote per game
-commands.forfeit.ended Forfeiting Game
-commands.forfeit.ended.other Other Team Forfeited
-server.message.join {0} joined the game
-server.message.left {0} left the game
-server.message.kicked {0} was kicked
-server.message.banned {0} was banned
-server.message.votekicked {0} was vote kicked
-server.message.arrested {0} was arrested by the K.P.D
-event.easter.golden.spawn A Golden egg is near
-event.easter.golden.despawn A Golden egg has gone
-event.easter.found.new {0} found {1}/{2} Eggs
-event.easter.found.old You already discovered this egg!
-event.easter.completed {0} completed the Egg hunt!
+commands.unlimited.on Neograničeno streljivo - omogućeno
+commands.unlimited.off Neograničeno streljivo - onemogućeno
+commands.unlimited.on.other Neograničeno streljivo - omogućeno za {0}
+commands.unlimited.off.other Neograničeno streljivo - onemogućeno za {0}
+commands.spraybypass.on Neograničeno prskanje - omogućeno
+commands.spraybypass.off Neograničeno prskanje - onemogućeno
+commands.spraybypass.on.other Neograničeno prskanje - omogućeno za {0}
+commands.spraybypass.off.other Neograničeno prskanje - onemogućeno za {0}
+commands.suspect.invalid Nevažeći podaci o osumnjičenom
+commands.suspect.menu Sumnjivac u jelovniku
+commands.suspect.left Osumnjičeni je otišao
+commands.suspect.found Osumnjičeni pronađen. Promatranje: {0}, Iznjedreno: {1}, Ime: {2}
+commands.forfeit.next Morate odigrati najmanje 1 rundu
+commands.forfeit.wait Pričekajte da meč počne gubiti
+commands.forfeit.later Please pokušajte ponovno za nekoliko sekundi
+commands.forfeit.voted Već ste glasali.
+commands.forfeit.limit Možete pokrenuti samo jedno glasanje po igri
+commands.forfeit.ended Igra poraza
+commands.forfeit.ended.other Drugi tim odbačen
+server.message.join {0} se pridružio igri
+server.message.left {0} napustio igru
+server.message.kicked {0} bio udaren nogom
+server.message.banned {0} bio zabranjen
+server.message.votekicked {0} je glasovanje izbačeno
+server.message.arrested {0} je uhitila K.P.D
+event.easter.golden.spawn Zlatno jaje je blizu
+event.easter.golden.despawn Zlatno jaje je otišlo
+event.easter.found.new {0} je pronašao {1}/{2} jaja
+event.easter.found.old Već ste otkrili ovo jaje!
+event.easter.completed {0} je završio lov na jaja!
