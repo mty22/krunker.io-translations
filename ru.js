@@ -172,6 +172,9 @@ settings.post.ssaoRadius Радиус трехмерного освещения
 settings.interface.hitInd Показывать индикатор попаданий
 settings.interface.hitColor Цвет индикатора попадания
 settings.interface.dmg Показывать урон
+settings.interface.dmgType Show Damage
+settings.interface.dmgType.default Rounded
+settings.interface.dmgType.float Float
 settings.interface.dmgCol Цвет урона
 settings.interface.critCol Цвет критического урона
 settings.interface.header Интерфейс
@@ -217,9 +220,11 @@ settings.interface.nametagStyle.all Все
 settings.interface.healthNum Счетчик количества здоровья
 settings.interface.healthColT Цвет уровня здоровья члена команды
 settings.interface.healthColE Цвет уровня здоровья противника
+settings.interface.xpBarType XP Bar Type
 settings.interface.xpBarCol Цвет панели опыта
 settings.interface.xpBarCol2 Цвет второй панели опыта
 settings.interface.xpBarOpac Непрозрачность панели опыта
+settings.interface.adsObjOpac ADS Objective Opacity
 settings.medals.header Медали
 settings.medals.show Отображать медали
 settings.medals.classic Стандартные медали
@@ -376,6 +381,8 @@ settings.viewmodel.weapReloadY Уровень перезарядки оружи�
 settings.viewmodel.yOffADS Смещение оружия по вертикали при прицеливании
 settings.viewmodel.adsFovMlt Степень глубины прицеливания
 settings.viewmodel.toggleADS Оружие всегда в прицеле
+settings.viewmodel.wallLean Wall Slide/Jump Lean
+settings.viewmodel.wallLeanMlt Wall Slide/Jump Lean
 settings.editing.header Редактирование
 settings.editing.health.high Цвет большого количества здоровья
 settings.editing.health.low Цвет малого количества здоровья
@@ -487,6 +494,7 @@ windows.loadout.wrist Запястье
 windows.loadout.stat Статистика количества убийств
 windows.loadout.flag Флаг Страны
 windows.loadout.badge Кастомный значок
+windows.loadout.streaks Streaks
 windows.mods.drop перетащите файл мода сюда или нажмите
 windows.mods.paste Вставить URL мода
 windows.mods.load Загрузить Мод
@@ -556,7 +564,11 @@ windows.controls.premium1 Режим Бога
 windows.controls.premium2 Убить
 windows.controls.premium3 Поражение
 windows.controls.reset Сбросить Стартовую Позицию (Гонки & Паркур)
+windows.controls.resetLast Reset To Last Checkpoint (Parkour etc)
 windows.controls.pretend Скрыть Игру
+windows.controls.noclipSB Noclip
+windows.controls.godModeSB Godmode
+windows.controls.killSB Kill
 windows.host.header Создание Пользовательской Игры
 windows.host.maps Настройка Сервера
 windows.host.cmaps Карты Сообщества
@@ -670,6 +682,7 @@ windows.ranked.login чтобы играть в рейтинговые матч�
 windows.ranked.level Вы должны быть как минимум <span color="black">level {0}</span> чтобы играть в рейтинговые матчи! Прямо сейчас Вы на <span color="black">level {1}</span>.
 windows.chall.header Испытания
 windows.chall.login чтобы выполнять испытания!
+windows.spin.header Prize Wheel
 thumbnail.upload.limit Ошибка. Ограничение для превью: {0} КБ
 image.upload.limit Ошибка. Ограничение изображения {0} КБ
 thumbnail.upload.error Ошибка превью
@@ -683,6 +696,7 @@ matchmaker.GameFull Игра полная.
 matchmaker.NoServersMatchQuery Игра обновляется
 matchmaker.InvalidGameId Игра не найдена.
 matchmaker.NoAvailableServers Сервера переполнены
+matchmaker.NoMatchingServers No Games Found<br><small>Try changing Quickplay options</small>
 matchmaker.GameIssue Неизвестная ошибка соединения
 adblocker Отключите свой блокировщик рекламы, чтобы получить бесплатную игровую валюту
 ad-failed Объявление не удалось загрузить. Попробуйте еще раз.
@@ -724,6 +738,7 @@ server.config.t3Dmg Урон Команды 3
 server.config.t4Dmg Урон Команды 4
 server.config.t5Dmg Урон Команды 5
 server.config.selTeam Выбор команды
+server.config.frFire Friendly Fire
 server.config.allowSpect Наблюдение
 server.config.killRewards Награды за убийства
 server.config.headshotOnly Только Выстрелы в голову
@@ -736,6 +751,7 @@ server.config.bDrop Падение Пули
 server.config.thirdPerson Вид от третьего лица
 server.config.requireCaptcha Необходимо пройти капчу
 server.config.nameTags Скрыть Ники
+server.config.nameTagsFR Hide Nametags (Allies)
 server.config.kCams Камеры убийств
 server.config.aAnon Позволить анонимность
 server.config.noReload Без перезарядки
@@ -751,6 +767,7 @@ server.config.scoreLimit Предел очков
 server.config.keepTScore Сохранить счет команды
 server.config.forceC Принудительные классы режима
 server.config.logTim Журнал времени (гонки, паркур)
+server.config.lstChkT Last Checkpoint Time Rewind (Race/Bhop)
 server.config.hitBoxPad Размер Хитбоксов
 server.config.hpRegen Восстановление здоровья
 server.config.disableB Отключить барьеры
@@ -813,6 +830,7 @@ social.market.gift Подарить KR
 social.market.gift.msg Оставить сообщение
 respawn.auto Авто возрождение через {0}
 custom.host.ranked Вы не можете создать игру, пока вы находитесь в рейтинговом матче.
+custom.host.wager Can't host match while in Wager.
 funds.insufficient Недостаточно средств
 funds.out Похоже, у вас закончилась игровая валюта
 custom.passcode.long Пароль слишком длинный
@@ -838,6 +856,11 @@ mod.reset.1 Объекты карты не сбрасываются
 windows.profile.picture Изменить картинку
 stats.assists Содействия
 stats.nukes Атомные бомбы
+stats.slimers Slimers
+stats.juggernauts Juggernauts
+stats.juggernauts.kills Juggernaut Kills
+stats.juggernauts.killed Juggernauts Killed
+stats.warmachines War Machines
 stats.melee Убийства ножом
 stats.fistkills Убийства кулаками
 stats.thrownkills Броски ножа
@@ -846,6 +869,10 @@ stats.wallbangs Убийства прострелом
 stats.crouches Приседания
 stats.sprays Граффити размещено
 stats.kpd Helpful Полезные жалобы
+stats.shots Shots
+stats.hits Hits
+stats.misses Misses
+stats.legshots Legshots
 windows.host.default.settings Включение настроек по умолчанию позволяет сохранять прогресс игрока и его баллы.
 windows.host.default.commands *Команды хоста отключены в этом режиме: /noclip /god /smite и т.д.
 windows.host.rewards Включение вознаграждений KR заставляет сервер использовать настройки по умолчанию и позволяет игрокам зарабатывать KR из средств карты:
@@ -979,4 +1006,8 @@ server.message.kicked {0} was kicked
 server.message.banned {0} was banned
 server.message.votekicked {0} was vote kicked
 server.message.arrested {0} was arrested by the K.P.D
-`;
+event.easter.golden.spawn A Golden egg is near
+event.easter.golden.despawn A Golden egg has gone
+event.easter.found.new {0} found {1}/{2} Eggs
+event.easter.found.old You already discovered this egg!
+event.easter.completed {0} completed the Egg hunt!
