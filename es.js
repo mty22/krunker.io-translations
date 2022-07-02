@@ -860,7 +860,7 @@ stats.slimers Pegajosos
 stats.juggernauts Juggernauts
 stats.juggernauts.kills Bajas con Juggernaut
 stats.juggernauts.killed Juggernauts asesinados
-stats.warmachines Maquinas de Guerra
+stats.warmachines Máquinas de Guerra
 stats.melee Bajas con Cuchillo
 stats.fistkills Bajas con Puños
 stats.thrownkills Bajas con Cuchillo Arrojadizo
