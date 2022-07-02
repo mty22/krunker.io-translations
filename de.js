@@ -362,7 +362,7 @@ settings.viewmodel.vmSetts Ansichtseinstellungen
 settings.viewmodel.fov Sichtfeld
 settings.viewmodel.fps Waffen Sichtfeld
 settings.viewmodel.bobbing Waffen Bewegung
-settings.viewmodel.leaning Waffen Lehnen
+settings.viewmodel.leaning Waffen Neigung
 settings.viewmodel.show.primary Primärwaffe anzeigen
 settings.viewmodel.show.secondary Sekundärwaffe anzeigen
 settings.viewmodel.roundArms Runde Arme
