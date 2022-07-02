@@ -53,6 +53,7 @@ If you contributed in the past and can't find your name below (or simply wish to
 * [cesar](https://krunker.io/social.html?p=profile&q=AMOLAPIJA) (cesar#9999)
 * [Aby3](https://krunker.io/social.html?p=profile&q=Aby3) (Aby3#7380)
 * [Sonicglass](https://krunker.io/social.html?p=profile&q=Sonicglass) (Sonicglass#1532)
+* [ivanzoo](https://krunker.io/social.html?p=profile&q=ivanzoo) (ivanzoo#2103)
 
 # [Portuguese](https://github.com/mty22/krunker.io-translations/blob/main/pr.js) (Português)
 * Initial translator is [Unknown](https://site.idle.host/sadpepe.png)
