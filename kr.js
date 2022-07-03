@@ -172,7 +172,7 @@ settings.post.ssaoRadius 화면 공간 반사 반경
 settings.interface.hitInd 피격 방향 표시
 settings.interface.hitColor 피격 방향 색상
 settings.interface.dmg 피해량 표시
-settings.interface.dmgType 대미지 표시
+settings.interface.dmgType 피해량 표시
 settings.interface.dmgType.default 반올림
 settings.interface.dmgType.float 소수점
 settings.interface.dmgCol 피해량 색상
@@ -559,7 +559,7 @@ windows.controls.prop 사물 선택 (홀드)
 windows.controls.propRand 무작위 사물 선택
 windows.controls.propRot 회전 전환
 windows.controls.propRotR 회전 초기화
-windows.controls.premium0 벽 통과
+windows.controls.premium0 벽 무시
 windows.controls.premium1 무적 모드
 windows.controls.premium2 자살
 windows.controls.premium3 즉사 모드
@@ -568,7 +568,7 @@ windows.controls.resetLast 마지막 체크포인트로 되돌아가기 (Parkour
 windows.controls.pretend 게임 숨기기
 windows.controls.noclipSB 벽 무시
 windows.controls.godModeSB 무적 모드
-windows.controls.killSB 죽이기
+windows.controls.killSB 자살
 windows.host.header 사용자 지정 게임 만들기
 windows.host.maps 서버 설정
 windows.host.cmaps 커뮤니티 게임
@@ -750,7 +750,7 @@ server.config.autoJump 자동 점프
 server.config.bDrop 탄 낙차
 server.config.thirdPerson 3인칭
 server.config.requireCaptcha Captcha 요구하기
-server.config.nameTags 이름표 숨기기
+server.config.nameTags 적군 이름표 숨기기
 server.config.nameTagsFR 아군 이름표 숨기기
 server.config.kCams 사망 화면
 server.config.aAnon 익명 모드 허용
