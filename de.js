@@ -22,7 +22,7 @@ generic.load Laden
 generic.search Suchen
 generic.leave Verlassen
 generic.default Voreinstellung
-generic.submit einreichen
+generic.submit Einreichen
 generic.create Erstellen
 generic.random Zufällig
 generic.failed Fehlgeschlagen
