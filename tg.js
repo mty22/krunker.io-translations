@@ -563,12 +563,12 @@ windows.controls.premium0 Naka noclip
 windows.controls.premium1 Naka godmode
 windows.controls.premium2 Patayin
 windows.controls.premium3 Smite
-windows.controls.reset Balik sa simula (Paligsahan at Parkour)
-windows.controls.resetLast Reset To Last Checkpoint (Parkour etc)
+windows.controls.reset Balik sa simula (Parkour, atbp)
+windows.controls.resetLast Bumalik sa huling checkpoint (Parkour, atbp)
 windows.controls.pretend Itago ang Laro
-windows.controls.noclipSB Noclip
+windows.controls.noclipSB Mag-Noclip
 windows.controls.godModeSB Godmode
-windows.controls.killSB Kill
+windows.controls.killSB Patayin
 windows.host.header Host ng Custom na Laro
 windows.host.maps Pag-setup ng Server
 windows.host.cmaps Laro mula sa Komunidad
@@ -682,7 +682,7 @@ windows.ranked.login Login upang magpataasan ng inyong rango!
 windows.ranked.level Hindi ka bababa sa Antas na <span color = "black"> level {0} </span> upang maglaro sa may ranggo. Ikaw ay kasalukuyang nasa Antas <span color = "black"> level {1} ​​</span>.
 windows.chall.header Mga Challenge
 windows.chall.login upang makumpleto ang mga challenge!
-windows.spin.header Prize Wheel
+windows.spin.header Mga Papremyo
 thumbnail.upload.limit Failed. {0}kb Thumbnail Limit
 image.upload.limit Failed. {0}kb ang Limitasyon ng Larawan
 thumbnail.upload.error Nag-error ang Thumbnail
@@ -696,7 +696,7 @@ matchmaker.GameFull Puno na ang laro.
 matchmaker.NoServersMatchQuery NAG-UUPDATE ANG LARO!
 matchmaker.InvalidGameId Hindi mahanap ang laro
 matchmaker.NoAvailableServers Puno na ang mga servers
-matchmaker.NoMatchingServers No Games Found<br><small>Try changing Quickplay options</small>
+matchmaker.NoMatchingServers Walang nahanap na laro<br><small>Subukang palitan ang Quickplay options</small>
 matchmaker.GameIssue Hindi matukoy ang isyu
 adblocker Tanggalin ang iyong ad-blocker upang makatanggap ng mga libreng KR.
 ad-failed Hindi Nag-load ang Ad. Subukang muli.
@@ -751,7 +751,7 @@ server.config.bDrop Mga Bullet Drops
 server.config.thirdPerson Tingin ng 3rd Person View
 server.config.requireCaptcha Kailangan ng CAPTCHA
 server.config.nameTags Itago Ang Mga Nametag
-server.config.nameTagsFR Hide Nametags (Allies)
+server.config.nameTagsFR Itago Mga Pangalan (Kakampi)
 server.config.kCams Mga Kill Cams
 server.config.aAnon Payagan Ang Mga Anonymous
 server.config.noReload Walang Reload
