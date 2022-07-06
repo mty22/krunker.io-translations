@@ -6,7 +6,7 @@ menu.btn.maps Laro at Mapa
 menu.btn.mods Mods
 menu.btn.settings Settings
 menu.btn.customize Kustomisasyon
-menu.btn.invite Mag-anyaya
+menu.btn.invite Mag-imbita
 menu.btn.invite.clicked Nakopya
 menu.btn.join Sumali
 menu.btn.host Mag-host
@@ -31,7 +31,7 @@ generic.name Pangalan
 generic.level Antas
 generic.score Iskor
 generic.off Off
-generic.defeat PAGKATALO!
+generic.defeat NATALO!
 generic.victory TAGUMPAY! 
 generic.matchover Pagtatapos ng laro
 generic.matchaband Inabandonang paglaro
@@ -40,9 +40,9 @@ generic.unfollow I-Unfollow
 generic.followers Mga Tagahanga
 generic.following Mga Hinahangaan
 generic.games Mga laro
-generic.wins Panalo
+generic.wins Mga Panalo
 generic.lose Pagkatalo 
-generic.clan Samahan
+generic.clan Angkan
 generic.games.played Blg. ng nalaro
 generic.games.won Mga panalo
 generic.games.lost  Mga pagtalo
@@ -55,17 +55,17 @@ generic.logout Mag-Logout
 generic.logout.sessions Mag-logout sa lahat ng sesyon
 generic.username Username/Pangalan
 generic.password  Illagay ang password
-generic.register Magparehistro
+generic.register Gumawa ng Account
 generic.login Mag log-in
 generic.accuracy Accuracy
 player.waiting Naghihintay ng mga manlalaro
 player.died Ika'y namatay
 player.killed Pinatay ni {0} si {1}
-player.killstreak {0} on a {1} Kill Streak
+player.killstreak Si {0} ay nasa {1} Kill Streak
 player.inactive Tinanggal sa laro dahil inaktibo
 player.disconnect HINDI MAKAKONEKTA
 timer.end Susunod na laro sa {0}
-leaderboard.empty Walang tao sa lobby
+leaderboard.empty Walang manlalaro sa lobby
 popup.checkpoint Checkpoint!
 app.play PINDUTIN UPANG MAGLARO
 app.spectate PINDUTIN PARA MAPANOOD
@@ -74,13 +74,13 @@ app.spectate.mobile I-TAP PARA MAPANOOD
 app.play.controller PINDUTIN ang SIMULA
 app.spectate.controller MAGSIMULANG MANOOD
 purchase.error May naganap na error
-purchase.error.click dito</a> subukan muli!
+purchase.error.click dito</a> upang subukan muli!
 purchase.error.limit Maaaring lumagpas ka sa iyong pang-araw-araw na limitasyon sa transaksyon. 
 settings.reset Mag-reset
-settings.reset.confirm Sigurado ka bang mag-reset ng inyong settings?
+settings.reset.confirm Sigurado ka ba na i-reset ang inyong settings?
 settings.import iangkat
 settings.export iluwas
-settings.none Walang Nahanap na Mga settings
+settings.none Hindi Matagpuan ang settings
 settings.backup Mga Back-up Settings
 settings.controls.change Palitan ang Keybinds
 settings.controls.press Pindutin ang Anumang Key
@@ -105,13 +105,13 @@ settings.experimental.mouseAccel Akselerasyon ng Mouse
 settings.experimental.tbInterp TB Interpolasyon
 settings.client.header Kliyente
 settings.client.unlimitedFrames Unlimited na FPS
-settings.client.gameCap Record ng Laro
-settings.client.experimental Experimental Features
+settings.client.gameCap Rekord ng Laro
+settings.client.experimental Mga Eksperimental na Katangian
 settings.client.discordRPC RPC sa Discord
 settings.client.resourceSwapper Pagpalit ng Resources
 settings.client.clearCache I-clear Ang Cache
 settings.client.resetSettings I-reset Ang Settings ng Kliyent
-settings.client.acceleratedCanvas Accelerated Ang Canvas
+settings.client.acceleratedCanvas Pabilisin Ang Canvas
 settings.client.angleBackend ANGLE Graphics Ang Backend
 settings.client.colorProfile Profile ng Kulay
 settings.client.resourcePacks Resource Packs
@@ -130,7 +130,7 @@ settings.chat.chatBGOp Chat BG Opacity
 settings.chat.chatHeight Tangkad ng Chat
 settings.chat.chatTimer Orasan ng Pag-chat
 settings.chat.chatTextOutline Chat Text Outline
-settings.chat.chatFilter Pagtakip ng Kabastusan at Bulgar na Salita
+settings.chat.chatFilter Pagtakip ng bastus at Bulgar na Salita
 settings.quality.header Kalidad 
 settings.quality.updRate Limitasyon sa Frame Rate
 settings.quality.rendDst Distansya ng Pag-render
@@ -169,17 +169,17 @@ settings.post.bloomStrength Lakas ng Pagningning
 settings.post.bloomRadius  Lawak ng Pagningning
 settings.post.ssao SSAO
 settings.post.ssaoRadius Lawak ng SSAO
-settings.interface.hitInd Ipakita Ang Mga Indikator ng Hit
-settings.interface.hitColor Kulay ng Indikator ng Hit
+settings.interface.hitInd Ipakita Ang Mga Indikasyon ng Pagtama
+settings.interface.hitColor Kulay ng Indikasyon ng Pagtama
 settings.interface.dmg Ipakita Ang Damage sa Manlalaro
-settings.interface.dmgType Show Damage
+settings.interface.dmgType Ipakita ang Damage
 settings.interface.dmgType.default Rounded
-settings.interface.dmgType.float Float
+settings.interface.dmgType.float Palutang
 settings.interface.dmgCol Kulay ng Damage sa Manlalaro
 settings.interface.critCol Kulay ng Kritikal
 settings.interface.header Itsura ng Interface
 settings.interface.scale  Sukat ng UI
-settings.interface.theme Game Theme
+settings.interface.theme Tema ng Laro
 settings.interface.ui Ipakita Ang UI
 settings.interface.scoreboard Gumamit ng Lumang Scoreboard
 settings.interface.oldBrowser Gumamit ng Lumang Browser
@@ -279,7 +279,7 @@ settings.crosshairm.color Kulay
 settings.crosshairm.shadow.color Shadow Color
 settings.crosshairm.shadow.thickness Shadow Thickness
 settings.crosshairm.size Laki
-settings.crosshairm.thickness Thickness
+settings.crosshairm.thickness Gaano Kakapal
 settings.crosshairm.gap Gap
 settings.crosshairm.dot Tuldok
 settings.crosshairm.opacity.use Gumamit ng Custom Opacity
@@ -993,11 +993,11 @@ commands.suspect.invalid walang valid na inpormasyon ang suspek
 commands.suspect.menu Ang suspek ay nasa menu
 commands.suspect.left Ang suspek ay umalis
 commands.suspect.found Nahanap na ang suspek. nanonood: {0}, spawned: {1}, pangalan: {2}
-commands.forfeit.next Kailangan maglaro muna ng 1 laban
+commands.forfeit.next Kailangan maglaro muna ng Isang laban
 commands.forfeit.wait Hintayin munang magsimula ang laro upang maka-forfeit 
 commands.forfeit.later Ulitin nalang muli mamaya
 commands.forfeit.voted Ikaw ay bumoto na.
-commands.forfeit.limit Isang beses kalang makababoto sa isang laro
+commands.forfeit.limit Isang beses kalang makaboboto sa isang laro
 commands.forfeit.ended Iniwan na ang laro
 commands.forfeit.ended.other Umalis na ang kabilang grupo
 server.message.join si {0} ay sumali sa laro
@@ -1005,7 +1005,7 @@ server.message.left si {0} ay umalis sa laro
 server.message.kicked si {0} ay natanggal sa laro
 server.message.banned si {0} ay na-ban
 server.message.votekicked na vote-kick si {0} 
-server.message.arrested si {0} ay nahuli ng K.P.D
+server.message.arrested si {0} ay naaresto ng K.P.D
 event.easter.golden.spawn A Golden egg is near
 event.easter.golden.despawn A Golden egg has gone
 event.easter.found.new {0} found {1}/{2} Eggs
