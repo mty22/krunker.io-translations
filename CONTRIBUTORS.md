@@ -30,6 +30,7 @@ If you contributed in the past and can't find your name below (or simply wish to
 * [Hassich](https://krunker.io/social.html?p=profile&q=hassich) (hassich#6226)
 * [Kuriimu](https://krunker.io/social.html?p=profile&q=Kuriimu) (Kuriimu#0001)
 * [VoidSequence](https://krunker.io/social.html?p=profile&q=VoidSequence) (VoidSequencx#3697)
+* [jin](https://krunker.io/social.html?p=profile&q=jinshirato) (jin#0117)
 
 # [French](https://github.com/mty22/krunker.io-translations/blob/main/fr.js) (Français)
 * [Chwoubaka](https://krunker.io/social.html?p=profile&q=Chwoubaka) (Chwoubaka#3009)
