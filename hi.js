@@ -224,7 +224,7 @@ settings.interface.xpBarType XP बार का टाइप
 settings.interface.xpBarCol XP बार का रंग
 settings.interface.xpBarCol2 XP Bar Color 2
 settings.interface.xpBarOpac XP बार की पारदर्शकता
-settings.interface.adsObjOpac ADS ऑब्जेक्टिव अपारदर्शिता
+settings.interface.adsObjOpac ADS ऑब्जेक्टिव Opacity
 settings.medals.header मेडल्स
 settings.medals.show मेडल्स दिखाएँ
 settings.medals.classic Classic Medals
@@ -560,11 +560,11 @@ windows.controls.propRand Select Random Prop
 windows.controls.propRot Toggle Rotation
 windows.controls.propRotR Reset Rotation
 windows.controls.premium0 नोक्लिप
-windows.controls.premium1 गाड मोड
+windows.controls.premium1 गॉड मोड
 windows.controls.premium2 खुद को नष्ट करे
 windows.controls.premium3 स्माइट
 windows.controls.reset स्थान रिसेट करे (रेस & पार्कोर)
-windows.controls.resetLast रिसेट टू लास्ट चेकपॉइंट (Parkour etc)
+windows.controls.resetLast Reset to Last Checkpoint (Parkour etc)
 windows.controls.pretend खेल छुपाए
 windows.controls.noclipSB Noclip
 windows.controls.godModeSB Godmode
@@ -858,21 +858,21 @@ stats.assists असिस्ट
 stats.nukes न्यूक
 stats.slimers Slimers
 stats.juggernauts Juggernauts
-stats.juggernauts.kills Juggernaut किल्स 
-stats.juggernauts.killed Juggernauts किल्ड 
+stats.juggernauts.kills Juggernaut Kills 
+stats.juggernauts.killed Juggernauts Killed 
 stats.warmachines War Machines
 stats.melee चाकू किल
 stats.fistkills हाँथों द्वारा किये गए किल
 stats.thrownkills फेंके गए चाक़ू द्वारा किल
 stats.headshots हेड शाट
 stats.wallbangs वॉल बैंग
-stats.crouches क्रोचेस 
+stats.crouches क्राउचेस 
 stats.sprays स्प्रे काउन्ट
 stats.kpd मददगार रिपोर्टस
 stats.shots शॉट्स 
 stats.hits हिट्स 
 stats.misses मिसेस 
-stats.legshots लेग्शॉट्स 
+stats.legshots लेगशाट्स
 windows.host.default.settings मैप के सेटिंग्स को सक्षम करने से प्लेयर्स के डाटा (हाइ स्कॉर्ज़) को सेव किया जा सकता है
 windows.host.default.commands *होस्ट कमांड (/ noclip, /god, /smite, आदि) इस मोड में काम नहीं करेंगे
 windows.host.rewards यदि आप KR रिवार्ड्स को सक्षम करते है, तो सारे खिलाड़ियों को डिफ़ॉल्ट सेटिंग्स पर खेलना पड़ेगा और वे आपके मैप के खाते से KR भी जीत सकते है:
