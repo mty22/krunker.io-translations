@@ -564,7 +564,7 @@ windows.controls.premium1 Modo inmortal
 windows.controls.premium2 Kill
 windows.controls.premium3 Smite
 windows.controls.reset Reiniciar Posición (Carreras y Parkour)
-windows.controls.resetLast Reiniciar al ultimo punto de control (Parkour etc)
+windows.controls.resetLast Reiniciar al último punto de control (Parkour etc)
 windows.controls.pretend Esconder Juego
 windows.controls.noclipSB Noclip
 windows.controls.godModeSB Modo Invencible
@@ -767,7 +767,7 @@ server.config.scoreLimit Límite de puntos
 server.config.keepTScore Mantener Puntaje de Equipo
 server.config.forceC Forzar Clases
 server.config.logTim Tiempo (Carrera, Parkour)
-server.config.lstChkT Tiempo del ultimo punto de control (Carrera/Bhop)
+server.config.lstChkT Tiempo del último punto de control (Carrera/Bhop)
 server.config.hitBoxPad Escala de hitbox
 server.config.hpRegen Regeneración de salud
 server.config.disableB Deshabilitar bordes
@@ -1006,7 +1006,7 @@ server.message.kicked {0} fue Expulsado
 server.message.banned {0} fue Baneado
 server.message.votekicked {0} fue Expulsado por Voto
 server.message.arrested {0} Fue arrestado por la K.P.D
-event.easter.golden.spawn Un huevo dorado esta cerca
+event.easter.golden.spawn Un huevo dorado está cerca
 event.easter.golden.despawn Un huevo dorado ha desaparecido
 event.easter.found.new {0} Has encontrado {1}/{2} Huevos
 event.easter.found.old Ya has descubierto este huevo antes!
