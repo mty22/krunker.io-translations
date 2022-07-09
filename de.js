@@ -47,7 +47,7 @@ generic.games.played gespielte Spiele
 generic.games.won gewonnene Spiele
 generic.games.lost verlorene Spiele
 generic.timep Spielzeit
-generic.kills Getötete
+generic.kills Abschüsse
 generic.deaths Tode
 generic.kdr KDR
 generic.time Zeit
@@ -82,7 +82,7 @@ settings.import Importieren
 settings.export Exportieren
 settings.none Keine Einstellungen gefunden
 settings.backup Reserve Einstellungen
-settings.controls.change Tastenkombinationen ändern
+settings.controls.change Tastenbelegungen ändern
 settings.controls.press Gewünschte Taste drücken
 settings.controls.leaderboard InGame Leaderboard Trigger Type
 settings.controls.voicechat Voicechat Trigger Type
