@@ -47,7 +47,7 @@ generic.games.played gespielte Spiele
 generic.games.won gewonnene Spiele
 generic.games.lost verlorene Spiele
 generic.timep Spielzeit
-generic.kills Abschüsse
+generic.kills Getötete
 generic.deaths Tode
 generic.kdr KDR
 generic.time Zeit
@@ -56,7 +56,7 @@ generic.logout.sessions Aus allen Sitzungen abmelden
 generic.username Benutzername eingeben
 generic.password Passwort eingeben
 generic.register Registrieren
-generic.login Einloggen
+generic.login Anmelden
 generic.accuracy Genauigkeit
 player.waiting Warten auf Spieler
 player.died Du bist gestorben
@@ -67,9 +67,9 @@ player.disconnect VERBINDUNG UNTERBROCHEN
 timer.end Nächste Runde startet in {0}
 leaderboard.empty Leerer Warteraum
 popup.checkpoint Checkpoint!
-app.play BERÜHRE ZUM SPIELEN
+app.play KLICKE ZUM SPIELEN
 app.spectate KLICKE ZUM ZUSCHAUEN
-app.play.mobile KLICKE ZUM SPIELEN
+app.play.mobile BERÜHRE ZUM SPIELEN
 app.spectate.mobile BERÜHRE ZUM ZUSCHAUEN
 app.play.controller START DRÜCKEN
 app.spectate.controller START zum ZUSCHAUEN
@@ -82,8 +82,8 @@ settings.import Importieren
 settings.export Exportieren
 settings.none Keine Einstellungen gefunden
 settings.backup Reserve Einstellungen
-settings.controls.change Keybinds ändern
-settings.controls.press Beliebige Taste drücken
+settings.controls.change Tastenkombinationen ändern
+settings.controls.press Gewünschte Taste drücken
 settings.controls.leaderboard InGame Leaderboard Trigger Type
 settings.controls.voicechat Voicechat Trigger Type
 settings.local.header Sprachänderung <span id="requiresRestart"><span style="color: #eb5656">*</span> erfordert Neustart</span>
@@ -98,7 +98,7 @@ settings.network.quickplay Force Quickplay
 settings.popup.header Popups
 settings.experimental.header Experimentell
 settings.experimental.holiday Feiertags-Effekte
-settings.experimental.aimFreezeFix Aim Freeze Fix
+settings.experimental.aimFreezeFix Ziel Freeze Fix
 settings.experimental.mouseFlickFix Maus Flick Fix
 settings.experimental.shaderRendering Instanz Rendern
 settings.experimental.mouseAccel Mausbeschleunigung
@@ -161,8 +161,8 @@ settings.quality.rendGamma Gamma
 settings.quality.lighting Beleuchtung
 settings.quality.showExplo Explosionen anzeigen
 settings.quality.aspectRatio Seitenverhältnis
-settings.post.header Post Processing
-settings.post.post Post Processing
+settings.post.header Nachbearbeitung
+settings.post.post Nachbearbeitung
 settings.post.bloom Bloom
 settings.post.bloomThreshold Bloom Schwelle
 settings.post.bloomStrength Bloom Stärke
@@ -172,9 +172,9 @@ settings.post.ssaoRadius SSAO Radius
 settings.interface.hitInd Hitmarker anzeigen
 settings.interface.hitColor Hitmarker Farbe
 settings.interface.dmg Schaden anzeigen
-settings.interface.dmgType Show Damage
-settings.interface.dmgType.default Rounded
-settings.interface.dmgType.float Float
+settings.interface.dmgType Schaden anzeigen
+settings.interface.dmgType.default Abgerundet
+settings.interface.dmgType.float Fliegen
 settings.interface.dmgCol Schadens-Farbe
 settings.interface.critCol Kritischer Treffer Farbe
 settings.interface.header Schnittstelle
@@ -187,8 +187,8 @@ settings.interface.rarityanim Seltenheits-Animationen ausschalten
 settings.interface.showPfp Profilbilder anzeigen
 settings.interface.showTradeMsg Trade-Nachrichten anzeigen
 settings.interface.hideNonTrade Verstecke nicht handelbare Skins
-settings.interface.hp Dynamische HP Balken
-settings.interface.dmgScale Schadens Größe
+settings.interface.hp Dynamischer Gesundheitsbalken
+settings.interface.dmgScale Schaden Größe
 settings.interface.killf Kill Feed anzeigen
 settings.interface.ping Ping anzeigen
 settings.interface.net-stats Netzwerkstatistiken anzeigen
@@ -217,18 +217,18 @@ settings.interface.nametagStyle.health Nur HP
 settings.interface.nametagStyle.name Nur Name
 settings.interface.nametagStyle.nameLvl Nur Name und Level
 settings.interface.nametagStyle.all Alles
-settings.interface.healthNum Nametag Lebens-Nummer
+settings.interface.healthNum Nametag Gesundheits-Nummer
 settings.interface.healthColT Nametag Team-HP-Farbe
 settings.interface.healthColE Nametag Gegner-HP-Farbe
-settings.interface.xpBarType XP Bar Type
-settings.interface.xpBarCol XP Leisten-Farbe
-settings.interface.xpBarCol2 XP Bar Color 2
+settings.interface.xpBarType XP Leisten Typ
+settings.interface.xpBarCol XP Leisten Farbe
+settings.interface.xpBarCol2 XP Leisten Farbe 2
 settings.interface.xpBarOpac XP Leisten-Deckkraft
-settings.interface.adsObjOpac ADS Objective Opacity
+settings.interface.adsObjOpac Ziel Objektiv Deckkraft
 settings.medals.header Medallien
 settings.medals.show Zeige Medallien
 settings.medals.classic Klassische Medallien
-settings.medals.sound Spiele Medallien Ton
+settings.medals.sound Medallien Ton
 settings.medals.scale Medallien Skalierung
 settings.medals.xOff Medallien X Offset
 settings.medals.yOff Medallien Y Offset
