@@ -47,8 +47,8 @@ generic.games.played 遊玩場數
 generic.games.won 勝場數
 generic.games.lost 敗場數
 generic.timep 遊玩時間
-generic.kills 擊殺數
-generic.deaths 死亡數
+generic.kills 擊殺次數
+generic.deaths 死亡次數
 generic.kdr 戰損比
 generic.time 時間
 generic.logout 登出
