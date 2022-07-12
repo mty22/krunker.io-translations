@@ -1006,8 +1006,8 @@ server.message.kicked {0}已被踢出
 server.message.banned {0}已被封禁并踢出
 server.message.votekicked {0}已被投票踢出
 server.message.arrested {0}已被K.P.D逮捕
-event.easter.golden.spawn A Golden egg is near
-event.easter.golden.despawn A Golden egg has gone
-event.easter.found.new {0} found {1}/{2} Eggs
-event.easter.found.old You already discovered this egg!
-event.easter.completed {0} completed the Egg hunt!
+event.easter.golden.spawn 一个金蛋就在附近
+event.easter.golden.despawn 一个金蛋走了
+event.easter.found.new {0} found {1}/{2} 蛋
+event.easter.found.old 你已经发现了这个彩蛋!
+event.easter.completed {0} 完成了寻蛋任务!
