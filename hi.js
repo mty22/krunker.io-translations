@@ -1006,8 +1006,8 @@ server.message.kicked {0} को किक किया गया
 server.message.banned {0} को बैन किया गया
 server.message.votekicked {0} was vote kicked
 server.message.arrested {0} को K.P.D ने गिरफ्तार कर लिया
-event.easter.golden.spawn A गोल्डन एग is near
-event.easter.golden.despawn A गोल्डन एग has gone
+event.easter.golden.spawn गोल्डन एग पास मए है
+event.easter.golden.despawn गोल्डन एग चला गया
 event.easter.found.new {0} found {1}/{2} Eggs
-event.easter.found.old You already discovered this एग!
-event.easter.completed {0} completed the एग हंट!
+event.easter.found.old आपने पहले ही इस एग की खोज कर ली है!
+event.easter.completed {0} ने एग हंट समाप्त किया!
