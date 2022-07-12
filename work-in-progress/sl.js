@@ -947,67 +947,63 @@ chall.name.dmg Deal {0} damage {1}
 chall.name.bzk Get {0} buzz kills {1}
 chall.name.cc Get {0} close-calls {1}
 chall.name.rk Deal {0} revenge kills {1}
-event.doubleXP Za to tekmo je omogočen 2x razred XP
-ranked.join Pridružite se tekmi za uvrstitev. Opustitev tekme bo imela za posledico začasno prepoved.
-ranked.progress Igra v teku
-ranked.team Pridružite se ekipi
-ranked.switch Med igro ne morete preklopiti
-ranked.spectate Gledanje za invalide v kategoriji Ranked
-ranked.login Prijava v Spawn
-ranked.sync Manjkajoči podatki o sinhronizaciji
-ranked.team.spawn Pridružite se ekipi Spawn
-ranked.class.spawn Prosimo, izberite razred za Spawn
-modes.round.win Vaša ekipa je zagotovila ta krog.
-modes.round.loss V tem krogu ni več mogoče zmagati.
-modes.round.switch Zamenjava strani. Priprava na naslednji krog
-modes.trade.success Uspešna trgovina
-modes.prophunt.limit [Lov na rekvizite] Končali ste s stikali za rekvizite
-modes.prophunt.left [Lov na rekvizite] Ostalo vam je {0} stikal.
-modes.prophunt.rotation.on [Prop Hunt] Omogočeno vrtenje
-modes.prophunt.rotation.off [Prop Hunt] Onemogočeno vrtenje
-modes.prophunt.rotation.reset [Prop Hunt] Ponastavitev vrtenja.
-commands.login Prijava za uporabo tega ukaza
-commands.connected {0} povezan, {1} v meniju
-commands.host {0} je trenutni gostitelj.
-commands.noclip.on Noclip - Omogočeno
-commands.noclip.off Noclip - Onemogočeno
-commands.god.on Božanski način - Omogočeno
-commands.god.off Božanski način - Onemogočeno
-commands.god.on.other Božanski način - Omogočeno za {0}
-commands.god.off.other Božanski način - Onemogočen za {0}
-commands.smite.on Smite - Omogočeno
-commands.smite.off Smite - Onemogočeno
-commands.smite.on.other Smite - Omogočeno za {0}
-commands.smite.off.other Smite - onemogočen za {0}
-commands.perk Dalo {0} {1}
-commands.maxperk Dal {0} MAX {1}
-commands.unlimited.on Neomejeno strelivo - omogočeno
-commands.unlimited.off Neomejeno strelivo - Onemogočeno
-commands.unlimited.on.other Neomejeno strelivo - omogočeno za {0}
-commands.unlimited.off.other Neomejeno strelivo - onemogočeno za {0}
-commands.spraybypass.on Neomejeno pršenje - omogočeno
-commands.spraybypass.off Neomejeno pršenje - Onemogočeno
-commands.spraybypass.on.other Neomejeno pršenje - omogočeno za {0}
-commands.spraybypass.off.other Neomejeno pršenje - onemogočeno za {0}
-commands.suspect.invalid Neveljavne informacije o osumljencu
-commands.suspect.menu Osumljenec v meniju
-commands.suspect.left Osumljenec je odšel
-commands.suspect.found Najden osumljenec. Ogledovanje: {0}, Spawned: {1}, Name: {2}
-commands.forfeit.next Odigrati moraš vsaj 1 krog.
-commands.forfeit.wait Počakaj, da se tekma začne, in se odpovej.
-commands.forfeit.later Poskusite znova čez nekaj sekund
-commands.forfeit.voted Že ste glasovali.
-commands.forfeit.limit V vsaki igri lahko začnete glasovati samo enkrat.
-commands.forfeit.ended Izguba igre
-commands.forfeit.ended.other Druga ekipa se je odpovedala
-server.message.join {0} se je pridružil igri
-server.message.left {0} zapustil igro
-server.message.kicked {0} je bil izločen
-server.message.banned {0} je bila prepovedana
-server.message.votekicked {0} je bilo glasovanje kicked
-server.message.arrested {0} je aretirala policija K.P.D.
-event.easter.golden.spawn A Golden egg is near
-event.easter.golden.despawn A Golden egg has gone
-event.easter.found.new {0} found {1}/{2} Eggs
-event.easter.found.old You already discovered this egg!
-event.easter.completed {0} completed the Egg hunt!
+event.doubleXP 2x Class XP enabled for this match
+ranked.join Joined Ranked Match. Abandoning a match will result in a temporary ban
+ranked.progress Game in Progress
+ranked.team Please join a Team
+ranked.switch Can't switch while in-game
+ranked.spectate Spectating Disabled in Ranked
+ranked.login Login to Spawn
+ranked.sync Missing Sync Data
+ranked.team.spawn Please join a Team to Spawn
+ranked.class.spawn Please select a Class to Spawn
+modes.round.win Your Team has secured this round
+modes.round.loss This round is no longer winnable
+modes.round.switch Switching Sides. Prepare for the next Round
+modes.trade.success Trade Successful
+modes.prophunt.limit [Prop Hunt] You are out of prop switches
+modes.prophunt.left [Prop Hunt] You have {0} switches remaining
+modes.prophunt.rotation.on [Prop Hunt] Rotation Enabled
+modes.prophunt.rotation.off [Prop Hunt] Rotation Disabled
+modes.prophunt.rotation.reset [Prop Hunt] Rotation reset.
+commands.login Login to use this command
+commands.connected {0} connected, {1} in menu
+commands.host {0} is the current Host.
+commands.noclip.on Noclip - Enabled
+commands.noclip.off Noclip - Disabled
+commands.god.on God mode - Enabled
+commands.god.off God mode - Disabled
+commands.god.on.other God mode - Enabled for {0}
+commands.god.off.other God mode - Disabled for {0}
+commands.smite.on Smite - Enabled
+commands.smite.off Smite - Disabled
+commands.smite.on.other Smite - Enabled for {0}
+commands.smite.off.other Smite - Disabled for {0}
+commands.perk Gave {0} {1}
+commands.maxperk Gave {0} MAX {1}
+commands.unlimited.on Unlimited Ammo - Enabled
+commands.unlimited.off Unlimited Ammo - Disabled
+commands.unlimited.on.other Unlimited Ammo - Enabled for {0}
+commands.unlimited.off.other Unlimited Ammo - Disabled for {0}
+commands.spraybypass.on Unlimited Sprays - Enabled
+commands.spraybypass.off Unlimited Sprays - Disabled
+commands.spraybypass.on.other Unlimited Sprays - Enabled for {0}
+commands.spraybypass.off.other Unlimited Sprays - Disabled for {0}
+commands.suspect.invalid Invalid suspect info
+commands.suspect.menu Suspect in menu
+commands.suspect.left Suspect has left
+commands.suspect.found Suspect Found. Spectating: {0}, Spawned: {1}, Name: {2}
+commands.forfeit.next Must play atleast 1 round
+commands.forfeit.wait Wait till match starts to forfeit
+commands.forfeit.later Please try again in a few seconds
+commands.forfeit.voted You already voted.
+commands.forfeit.limit You can only start one vote per game
+commands.forfeit.ended Forfeiting Game
+commands.forfeit.ended.other Other Team Forfeited
+server.message.join {0} joined the game
+server.message.left {0} left the game
+server.message.kicked {0} was kicked
+server.message.banned {0} was banned
+server.message.votekicked {0} was vote kicked
+server.message.arrested {0} was arrested by the K.P.D
+`;
