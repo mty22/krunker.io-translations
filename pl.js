@@ -381,8 +381,8 @@ settings.viewmodel.weapReloadY Przesunięcie Y podczas przeładowywania
 settings.viewmodel.yOffADS Przesunięcie Y podczas celowania
 settings.viewmodel.adsFovMlt Powiększenie podczas celowania
 settings.viewmodel.toggleADS Przełączanie celowania
-settings.viewmodel.wallLean Przechylanie podczas ślizg/skoków u po ścianie
-settings.viewmodel.wallLeanMlt Przechylanie podczas ślizgu/skoków po ścianie
+settings.viewmodel.wallLean Przechylanie podczas ślizgów/skoków po ścianie
+settings.viewmodel.wallLeanMlt Przechylanie podczas ślizgów/skoków po ścianie
 settings.editing.header Edycja
 settings.editing.health.high Wysokie HP w HUD
 settings.editing.health.low Niskie HP w HUD
@@ -1007,7 +1007,7 @@ server.message.banned {0} został zbanowany
 server.message.votekicked {0} został wyrzucony przez głosowanie
 server.message.arrested {0} został aresztowany przez K.P.D.
 event.easter.golden.spawn Złote jajo jest blisko
-event.easter.golden.despawn Złote jajko zniknęło
+event.easter.golden.despawn Złote jajo zniknęło
 event.easter.found.new {0} found {1}/{2} Eggs
 event.easter.found.old Odkryłeś już to jajo!
 event.easter.completed {0} completed the Egg hunt!
