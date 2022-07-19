@@ -54,7 +54,7 @@ generic.time Oras
 generic.logout Mag-Logout
 generic.logout.sessions Mag-logout sa lahat ng sesyon
 generic.username Username/Pangalan
-generic.password  Illagay ang password
+generic.password  Ilagay ang password
 generic.register Magrehistro
 generic.login Mag log-in
 generic.accuracy Accuracy
@@ -680,8 +680,8 @@ windows.client.linux Installer sa Linux
 windows.ranked.header Rango
 windows.ranked.login Login upang magpataasan ng inyong rango!
 windows.ranked.level Hindi ka bababa sa Antas na <span color = "black"> level {0} </span> upang maglaro sa may ranggo. Ikaw ay kasalukuyang nasa Antas <span color = "black"> level {1} ​​</span>.
-windows.chall.header Mga Challenge
-windows.chall.login upang makumpleto ang mga challenge!
+windows.chall.header Mga Hamon
+windows.chall.login maglog-in upang makumpleto ang mga hamon!
 windows.spin.header Mga Papremyo
 thumbnail.upload.limit Failed. {0}kb Thumbnail Limit
 image.upload.limit Failed. {0}kb ang Limitasyon ng Larawan
