@@ -11,7 +11,7 @@ else
 fi
 langfile="$1"
 newlangfile="new_${langfile}"
-changes="0"
+changes="1"
 
 # Check that we're doing things right.
 if [ -z "$langfile" ]; then
@@ -49,12 +49,12 @@ while read -r line; do
 	else
 		# Add in missing key:value
 		grep -ER "(^|\s)$key($|\s)" $basefile | dos2unix >> $newlangfile
-		changes="1"
+		changes="0"
 	fi
-done < $basefile
+done < "$basefile"
 
 # Clean up.
-if [ "$changes" == "1" ]; then
+if [ "$changes" -eq "0" ]; then
 	cat $newlangfile > $langfile
 	echo "Changes were made, see diff: git diff $langfile"
 	echo "To abort: git checkout $langfile"
