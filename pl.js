@@ -34,7 +34,7 @@ generic.off Wyłączone
 generic.defeat PRZEGRANA
 generic.victory WYGRANA
 generic.matchover KONIEC MECZU
-generic.matchaband MECZ OPUSZCZONY
+generic.matchaband MECZ ODWOŁANY
 generic.follow Obserwuj
 generic.unfollow Przestań obserwować
 generic.followers Obserwujący
@@ -92,7 +92,7 @@ settings.local.lang Język
 settings.network.header Sieć
 settings.network.netRerouting Auto Routowanie (Wpływa na ping)
 settings.network.netRate Częstotliwość sieci (Hz)
-settings.network.lagComp Kompensacja lagów
+settings.network.lagComp Kompensacja opóźnienia
 settings.network.optNet Optymalizacja sieci
 settings.network.quickplay Wymuś szybką rozgrywkę
 settings.popup.header Wyskakujące okienka
@@ -105,7 +105,7 @@ settings.experimental.mouseAccel Przyspieszanie myszy (Zwiększ precyzję wskaź
 settings.experimental.tbInterp Interpolacja TB
 settings.client.header Klient
 settings.client.unlimitedFrames Nielimitowane FPS
-settings.client.gameCap Game Capture
+settings.client.gameCap Przechwytywanie gry
 settings.client.experimental Funkcje eksperymentalne
 settings.client.discordRPC Discord RPC
 settings.client.resourceSwapper Podmieniacz zasobów
@@ -128,9 +128,9 @@ settings.chat.unboxings Wyświetlaj wiadomości o unboxingach
 settings.chat.chatOp Przezroczystość czatu
 settings.chat.chatBGOp Przezroczystość tła czatu
 settings.chat.chatHeight Wysokość czatu
-settings.chat.chatTimer Miernik czasu w czacie (s)
+settings.chat.chatTimer Ukryj wiadomość w czacie po (s)
 settings.chat.chatTextOutline Kontur tekstu w czacie
-settings.chat.chatFilter Filter przekleństw
+settings.chat.chatFilter Filtrowanie przekleństw
 settings.quality.header Wydajność
 settings.quality.updRate Ogranicz FPS
 settings.quality.rendDst Odległość renderowania
@@ -330,8 +330,8 @@ settings.controller.disableCons Wyłącz kontrolery
 settings.controller.sensitivityY Czułość Y
 settings.controller.aimsensX Czułość celowania X
 settings.controller.aimsensY Czułość celowania Y
-settings.controller.deadZoneL Lewy koniec
-settings.controller.deadZoneR Prawy koniec
+settings.controller.deadZoneL Martwa strefa (Lewa)
+settings.controller.deadZoneR Martwa strefa (Prawa)
 settings.controller.triggerThres Próg spustu
 settings.controller.vibration Wibracje
 settings.controller.gradSpeed Wzrastająca prędkość
@@ -610,7 +610,7 @@ windows.clans.join Dołącz do klanu
 windows.clans.login aby tworzyć lub dołączyć do klanu!
 windows.store.header Sklep
 windows.store.spin Koło {0}
-windows.store.agree Kupując zgadzasz się z {0}Warunkami
+windows.store.agree Kupując, zgadzasz się z {0}Warunkami
 windows.store.purchase Kup KR
 windows.store.voucher Wykorzystaj bon
 windows.store.voucherinfo Zdobądź bony od streamerów lub w wydarzeniach
@@ -679,7 +679,7 @@ windows.client.mac Instalator macOS
 windows.client.linux Instalator Linux
 windows.ranked.header Mecz rankingowy
 windows.ranked.login by grać rankingowe gry!
-windows.ranked.level Musisz mieć co najmniej <span color="black">{0} poziom</span> aby grać rankingowe gry! Aktualnie masz <span color="black">{1} poziom</span>.
+windows.ranked.level Musisz mieć co najmniej <span color="black">{0} poziom</span>, aby grać rankingowe gry! Aktualnie masz <span color="black">{1} poziom</span>.
 windows.chall.header Wyzwania
 windows.chall.login by wykonywać wyzwania!
 windows.spin.header Koło nagród
@@ -698,13 +698,13 @@ matchmaker.InvalidGameId Gry nie znaleziono.
 matchmaker.NoAvailableServers Serwery są pełne
 matchmaker.NoMatchingServers Nie znaleziono żadnych gier<br><small>Spróbuj zmienić opcje Quickplay</small>
 matchmaker.GameIssue Nieznany błąd dołączania
-adblocker Wyłącz adblock aby otrzymywać darmowe KR.
+adblocker Wyłącz adblocka, aby otrzymywać darmowe KR.
 ad-failed Nie udało się załadować reklamy. Spróbuj ponownie.
 streamers.views {0} oglądających
 streamers.none Brak aktywnych streamów!
 error.extentions Jeśli masz jakiekolwiek rozszerzenia, wyłącz je
 error.seek Spróbuj znaleźć nową grę naciskając
-custom.map.upload.limit Niepowodzenie. Limit wielkości gry to 500k znaków
+custom.map.upload.limit Niepowodzenie. Limit wielkości gry to 500 tys. znaków
 custom.map.missing Wybierz co najmniej jedną grę lub mapę
 custom.mode.missing Wybierz co najmniej jeden tryb
 custom.class.missing Wybierz co najmniej jedną klasę
@@ -818,7 +818,7 @@ social.market.dye Przedmiot barwnika
 social.market.collectible Przedmiot kolekcjonerski
 social.market.none Nie znaleziono przedmiotów
 social.market.login Musisz być zalogowany.
-social.market.grace gotowy w {0}
+social.market.grace gotowy za {0}
 social.market.sort Filtruj/Sortuj
 social.market.filter Wyszukaj
 social.market.sort2 Sortuj
