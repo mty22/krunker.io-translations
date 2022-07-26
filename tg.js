@@ -308,12 +308,12 @@ settings.gameprivacy.header Pagkapribado ng Laro
 settings.gameprivacy.streamer Mode ng Streamer
 settings.gameprivacy.anon Anonymous Mode
 settings.gameprivacy.hideGameTitle Itago ang Pamagat ng Laro
-settings.gameprivacy.showRegion Show Region Info
+settings.gameprivacy.showRegion Ipakita ang Detalye ng Rehiyon
 settings.gameprivacy.verified Ipakita: Verification Badge
 settings.gameprivacy.premium Ipakita: Premium Badge
 settings.gameprivacy.partner Ipakita: Partnered Badge
 settings.gameprivacy.rank Ipakita: Ranked Badge
-settings.gameprivacy.custom Ipakita: Custom Badge
+settings.gameprivacy.custom Ipakita: Kustom Badge
 settings.gameplay.header Sa Laro
 settings.gameplay.gpSetts Settings sa Gameplay
 settings.gameplay.sensitivityX X Sensitivity
@@ -349,8 +349,8 @@ settings.audio.sound Bolyum o Tunog Pangkalahatan
 settings.audio.ambient Bolyum ng Ambiyansa
 settings.audio.voice Bolyum ng Boses
 settings.audio.input Audio/Mic Input
-settings.audio.mic Mic Volume
-settings.audio.micquality Mic Quality
+settings.audio.mic Bolyum ng Mic
+settings.audio.micquality Kalidad ng Mic
 settings.audio.weps Bolyum ng Tunog ng Armas
 settings.audio.player Bolyum ng Player
 settings.audio.skin Bolyum ng Manlalaro
@@ -738,7 +738,7 @@ server.config.t3Dmg Damage ng Pangkat 3
 server.config.t4Dmg Damage ng Pangkat 4
 server.config.t5Dmg Damage ng Pangkat 5
 server.config.selTeam Piliin Ang Pangkat 
-server.config.frFire Friendly Fire
+server.config.frFire Pwedeng Barilin ang Kakampi
 server.config.allowSpect Panonood ng Laro
 server.config.killRewards Gantimpala kapag nakapatay
 server.config.headshotOnly Mga headshot Lamang
@@ -830,8 +830,8 @@ social.market.gift Magregalo ng KR
 social.market.gift.msg Mag-iwan ng mensahe
 respawn.auto Auto Respawning sa {0}
 custom.host.ranked Hindi ma-host habang naglalaro sa 'Ranked'
-custom.host.wager Can't host match while in Wager.
-funds.insufficient Hindi sapat na KR
+custom.host.wager Hindi pwede mag-host habang mayroong wager
+funds.insufficient Hindi sapat ang KR
 funds.out Ubos ang KR
 custom.passcode.long Masyadong mahaba ang password 
 custom.passcode.input Ipasok ang password ng server upang sumali
@@ -854,13 +854,13 @@ spin.free.disable Ang mga Popup na ito ay maaaring hindi paganahin sa Mga Pangka
 mod.reset.0 Lumabas ang mga 'Effects' pagkatapos mag-respawn
 mod.reset.1 Mga Bagay sa Mapa hindi ma-reset
 windows.profile.picture Palitan ang Larawan
-stats.assists Mga Assist
-stats.nukes Mga Nuke
-stats.slimers Slimers
-stats.juggernauts Juggernauts
-stats.juggernauts.kills Juggernaut Kills
-stats.juggernauts.killed Juggernauts Killed
-stats.warmachines War Machines
+stats.assists Mga Pagtulong
+stats.nukes Mga Nukes
+stats.slimers Mga Slimers
+stats.juggernauts Mga Juggernauts
+stats.juggernauts.kills Mga Pinatay ng Juggernaut
+stats.juggernauts.killed Mga Juggernaut na Pinatay
+stats.warmachines Mga War Machines
 stats.melee Nasaksak
 stats.fistkills Pagbugbog
 stats.thrownkills Nabatuhan ng talim
@@ -869,10 +869,10 @@ stats.wallbangs Mga wallbang
 stats.crouches Mga pagyuko
 stats.sprays Mga pag-spray
 stats.kpd Matulunging KPD report
-stats.shots Shots
-stats.hits Hits
-stats.misses Misses
-stats.legshots Legshots
+stats.shots Mga Shot
+stats.hits Mga Tama
+stats.misses Mga Hindi Tumama
+stats.legshots Mga Tama sa Paa
 windows.host.default.settings Ang pagpapagana ng Default na Mga Setting ay nagbibigay-daan para sa pagtatago ng Player Progress at Highscores
 windows.host.default.commands * Ang Mga Command ng Host ay Hindi Pinapagana sa mode na ito: / noclip / god / smite atbp
 windows.host.rewards Pinipilit ng pagpapagana ng KR Rewards ang Server na gumamit ng Default na Mga Setting
