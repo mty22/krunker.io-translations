@@ -78,9 +78,9 @@ purchase.error.click dito</a> subukan muli!
 purchase.error.limit Maaaring lumagpas ka sa iyong pang-araw-araw na limitasyon sa transaksyon. 
 settings.reset Mag-reset
 settings.reset.confirm Sigurado ka ba na i-reset ang inyong settings?
-settings.import iangkat
-settings.export iluwas
-settings.none Hindi matagpuan ang settings
+settings.import i-import
+settings.export iexport
+settings.none Hindi mahanap ang settings
 settings.backup Mga Back-up Settings
 settings.controls.change Palitan ang Keybinds
 settings.controls.press Pindutin ang Anumang Key
@@ -128,8 +128,8 @@ settings.chat.unboxings Ipakita Ang Mga Unboxing
 settings.chat.chatOp Opacity ng Chat
 settings.chat.chatBGOp Chat BG Opacity
 settings.chat.chatHeight Tangkad ng Chat
-settings.chat.chatTimer Orasan ng Pag-chat
-settings.chat.chatTextOutline Chat Text Outline
+settings.chat.chatTimer Pagitan ng Pag-chat
+settings.chat.chatTextOutline Outline ng Chat Text
 settings.chat.chatFilter Pagtakip ng bastos at bulgar na Salita
 settings.quality.header Kalidad 
 settings.quality.updRate Limitasyon sa Frame Rate
@@ -279,8 +279,8 @@ settings.crosshairm.color Kulay
 settings.crosshairm.shadow.color Shadow Color
 settings.crosshairm.shadow.thickness Shadow Thickness
 settings.crosshairm.size Laki
-settings.crosshairm.thickness Gaano Kakapal
-settings.crosshairm.gap Gap
+settings.crosshairm.thickness Kakapalan
+settings.crosshairm.gap Pagitan
 settings.crosshairm.dot Tuldok
 settings.crosshairm.opacity.use Gumamit ng Custom Opacity
 settings.crosshairm.opacity.custom Ang Custom Opacity
@@ -305,7 +305,7 @@ settings.serverb.header Server Browser
 settings.serverb.oldBrowser Legacy Browser
 settings.serverb.defaultRegionOnly Default na Rehiyon Lamang
 settings.gameprivacy.header Pagkapribado ng Laro
-settings.gameprivacy.streamer Mode ng Streamer
+settings.gameprivacy.streamer Streamer Mode
 settings.gameprivacy.anon Anonymous Mode
 settings.gameprivacy.hideGameTitle Itago ang Pamagat ng Laro
 settings.gameprivacy.showRegion Ipakita ang Detalye ng Rehiyon
@@ -313,7 +313,7 @@ settings.gameprivacy.verified Ipakita: Verification Badge
 settings.gameprivacy.premium Ipakita: Premium Badge
 settings.gameprivacy.partner Ipakita: Partnered Badge
 settings.gameprivacy.rank Ipakita: Ranked Badge
-settings.gameprivacy.custom Ipakita: Kustom Badge
+settings.gameprivacy.custom Ipakita: Custom Badge
 settings.gameplay.header Sa Laro
 settings.gameplay.gpSetts Settings sa Gameplay
 settings.gameplay.sensitivityX X Sensitivity
@@ -351,7 +351,7 @@ settings.audio.voice Bolyum ng Boses
 settings.audio.input Audio/Mic Input
 settings.audio.mic Bolyum ng Mic
 settings.audio.micquality Kalidad ng Mic
-settings.audio.weps Bolyum ng Tunog ng Armas
+settings.audio.weps Bolyum ng mga Armas
 settings.audio.player Bolyum ng Player
 settings.audio.skin Bolyum ng Manlalaro
 settings.audio.ui UI Bolyum ng UI
@@ -683,8 +683,8 @@ windows.ranked.level Hindi ka bababa sa Antas na <span color = "black"> level {0
 windows.chall.header Mga Hamon
 windows.chall.login maglog-in upang makumpleto ang mga hamon!
 windows.spin.header Mga Papremyo
-thumbnail.upload.limit Failed. {0}kb Thumbnail Limit
-image.upload.limit Failed. {0}kb ang Limitasyon ng Larawan
+thumbnail.upload.limit Failed. {0}kb Limitasyon sa mga Thumbnail```
+image.upload.limit Failed. {0}kb ang Limitasyon sa mga Larawan
 thumbnail.upload.error Nag-error ang Thumbnail
 mod.extracting Kumukuha ng {0} / {1}
 mod.disabled Hindi pinagana ang mga mod
@@ -737,11 +737,11 @@ server.config.t2Dmg Damage ng Pangkat 2
 server.config.t3Dmg Damage ng Pangkat 3
 server.config.t4Dmg Damage ng Pangkat 4
 server.config.t5Dmg Damage ng Pangkat 5
-server.config.selTeam Piliin Ang Pangkat 
+server.config.selTeam Pumili ng Pangkat 
 server.config.frFire Pwedeng Barilin ang Kakampi
 server.config.allowSpect Panonood ng Laro
-server.config.killRewards Gantimpala kapag nakapatay
-server.config.headshotOnly Mga headshot Lamang
+server.config.killRewards Gantimpala kapag may napatay
+server.config.headshotOnly Mga Headshot Lamang
 server.config.noSecondary Bawal Ang Mga Sekundarya
 server.config.noStreaks Bawal Ang killstreaks
 server.config.canSlide Pagdududulas
@@ -828,11 +828,11 @@ social.market.gift.amount Halaga sa Regalo
 social.market.fee.gift Walang Bayad
 social.market.gift Magregalo ng KR
 social.market.gift.msg Mag-iwan ng mensahe
-respawn.auto Auto Respawning sa {0}
+respawn.auto Kusang Magrerespawn sa {0}
 custom.host.ranked Hindi ma-host habang naglalaro sa 'Ranked'
 custom.host.wager Hindi pwede mag-host habang mayroong wager
 funds.insufficient Hindi sapat ang KR
-funds.out Ubos ang KR
+funds.out Ubos na ang iyong KR.
 custom.passcode.long Masyadong mahaba ang password 
 custom.passcode.input Ipasok ang password ng server upang sumali
 custom.tryagain subukan muli
@@ -996,18 +996,18 @@ commands.suspect.found Nahanap na ang suspek. nanonood: {0}, spawned: {1}, panga
 commands.forfeit.next Kailangan maglaro muna ng isang beses
 commands.forfeit.wait Hintayin munang magsimula ang laro upang maka-forfeit 
 commands.forfeit.later Ulitin nalang muli mamaya
-commands.forfeit.voted Ikaw ay bumoto na.
+commands.forfeit.voted Nakaboto ka na.
 commands.forfeit.limit Isang beses kalang makaboboto sa isang laro
-commands.forfeit.ended Iniwan na ang laro
-commands.forfeit.ended.other Umalis na ang kabilang grupo
-server.message.join si {0} ay sumali sa laro
-server.message.left si {0} ay umalis sa laro
-server.message.kicked si {0} ay natanggal sa laro
-server.message.banned si {0} ay na-ban
-server.message.votekicked na vote-kick si {0} 
-server.message.arrested si {0} ay naaresto ng K.P.D
+commands.forfeit.ended Sumuko na sa laro
+commands.forfeit.ended.other Sumuko na ang kalaban
+server.message.join Si {0} ay sumali sa laro
+server.message.left Si {0} ay umalis sa laro
+server.message.kicked Si {0} ay natanggal sa laro
+server.message.banned Si {0} ay na-ban
+server.message.votekicked Na-vote kick si {0} 
+server.message.arrested Si {0} ay naaresto ng K.P.D
 event.easter.golden.spawn Nagkaroon ng Gintong Itlog
 event.easter.golden.despawn Nawala ang Gintong Itlog
-event.easter.found.new Si {0} aynakahanap ng {1}/{2} na Gintong Itlog
+event.easter.found.new Nakahanap si {0} ng {1}/{2} na Gintong Itlog
 event.easter.found.old Nahanap mo na ang Itlog na ito!
 event.easter.completed Nakumpleto ni {0} ang Egg Hunt!
