@@ -63,7 +63,7 @@ player.died Вы умерли
 player.killed Убит
 player.killstreak {0} сделал серию из {1} убийств
 player.inactive Удалён за бездействие
-player.disconnect Отключен от сервера
+player.disconnect Отключён от сервера
 timer.end Следующий раунд через {0}
 leaderboard.empty Пустое лобби
 popup.checkpoint Контрольная точка!
