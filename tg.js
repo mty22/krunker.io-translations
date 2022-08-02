@@ -79,7 +79,7 @@ purchase.error.limit Maaaring lumagpas ka sa iyong pang-araw-araw na limitasyon 
 settings.reset Mag-reset
 settings.reset.confirm Sigurado ka ba na i-reset ang inyong settings?
 settings.import i-import
-settings.export iexport
+settings.export i-export
 settings.none Hindi mahanap ang settings
 settings.backup Mga Back-up Settings
 settings.controls.change Palitan ang Keybinds
@@ -212,7 +212,7 @@ settings.interface.hideNames.enemy Kalaban Lamang
 settings.interface.hideNames.all Lahat ng Pangalan
 settings.interface.nametagStyle Estilo ng Pangalan
 settings.interface.nametagOpac Diin ng Pangalan
-settings.interface.nametagScale Nametag Scale
+settings.interface.nametagScale Scale ng Nametag
 settings.interface.nametagStyle.health Health Lamang
 settings.interface.nametagStyle.name Pangalan Lamang
 settings.interface.nametagStyle.nameLvl Pangalan at Antas Lamang
@@ -365,7 +365,7 @@ settings.viewmodel.bobbing Pagtalbog ng Armas
 settings.viewmodel.leaning Pagsandal ang Armas
 settings.viewmodel.show.primary Ipakita ang Pangunahing Armas
 settings.viewmodel.show.secondary Ipakita ang Sekundarya
-settings.viewmodel.roundArms Pa-silindro na Braso
+settings.viewmodel.roundArms Silindrong Braso
 settings.viewmodel.show.melee Ipakita Ang Patalim
 settings.viewmodel.show.ads Itago Ang Armas Kapag naka-ADS
 settings.viewmodel.toggleAim I-toggle Ang Pag-aim
@@ -651,22 +651,22 @@ windows.mods.community.hot Sikat!
 windows.mods.community.name Pangalan ng Mod
 windows.mods.community.none Walang nahanap na Mod
 windows.publish.mod.header Akda ang Mod
-windows.publish.mod.thumbnail No Thumbnail
+windows.publish.mod.thumbnail Walang Thumbnail
 windows.publish.mod.name Pangalan ng Mod
 windows.publish.mod.paste URL ng Mod
-windows.publish.mod.update Publish/Update
-windows.publish.mod.login upang lumikha at mag-upload ng mga mod!
+windows.publish.mod.update I-publish/I-update
+windows.publish.mod.login Log-in upang lumikha at mag-upload ng mga mod!
 windows.secondary.header Piliin ang Sekundarya
 windows.secondary.unlocked na-unlock
 windows.secondary.customOnly Customs Lamang
 windows.secondary.premiumOnly Premium Lamang
 windows.secondary.req Antas dapat ay {0}
 windows.skins.unlocked Unlocked
-windows.skins.customOnly Customs Only
-windows.skins.premiumOnly Premium Only
-windows.skins.classOnly Req {0}
-windows.skins.req Req lvl {0}
-windows.skins.default Default Skin
+windows.skins.customOnly Customs Lamang
+windows.skins.premiumOnly Premium Lamang
+windows.skins.classOnly Kinakailangang {0}
+windows.skins.req Kinakailangang lvl {0}
+windows.skins.default Default na Disenyo
 windows.advertise.header I-advertise
 windows.support.header Suporta
 windows.players.header Listahan ng manlalaro
@@ -863,11 +863,11 @@ stats.juggernauts.killed Mga Juggernaut na Pinatay
 stats.warmachines Mga War Machines
 stats.melee Nasaksak
 stats.fistkills Pagbugbog
-stats.thrownkills Nabatuhan ng talim
-stats.headshots Mga headshot
-stats.wallbangs Mga wallbang
+stats.thrownkills Binatuhan ng Talim
+stats.headshots Mga Headshot
+stats.wallbangs Mga Wallbang
 stats.crouches Mga pagyuko
-stats.sprays Mga pag-spray
+stats.sprays Mga Pag-spray
 stats.kpd Matulunging KPD report
 stats.shots Mga Shot
 stats.hits Mga Tama
