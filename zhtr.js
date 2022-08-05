@@ -544,11 +544,11 @@ windows.controls.specFirst 第一人稱視角
 windows.controls.specNames 強制顯示玩家名稱
 windows.controls.specFocus 聚焦玩家
 windows.controls.hidePlayers 隱藏玩家
-windows.controls.streak0 連殺獎勵觸發鍵位1
-windows.controls.streak1 連殺獎勵觸發鍵位2
-windows.controls.streak2 連殺獎勵觸發鍵位3
-windows.controls.streak3 連殺獎勵觸發鍵位4
-windows.controls.streak4 連殺獎勵觸發鍵位5
+windows.controls.streak0 連殺技能1
+windows.controls.streak1 連殺技能2
+windows.controls.streak2 連殺技能3
+windows.controls.streak3 連殺技能4
+windows.controls.streak4 連殺技能5
 windows.controls.taunt0 挑釁（噗嗤聲）
 windows.controls.taunt1 挑釁（口哨聲）
 windows.controls.taunt2 挑釁（放屁聲）
@@ -896,7 +896,7 @@ item.view.more 更多資訊
 item.sell.cant 此物品不能被出售。
 item.sell.cant.krunker 此物品不能在Krunker內被出售。
 item.sell.quick 你確定要快速出售{0}嗎？
-item.sell.destroy 你確定要分解{0}嗎？
+item.sell.destroy 你確定要摧毁{0}嗎？
 social.profile.stats 綜合戰績
 social.profile.class 職業戰績
 social.profile.sales 出售記錄
