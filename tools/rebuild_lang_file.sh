@@ -11,7 +11,7 @@ else
 fi
 langfile="$1"
 newlangfile="new_${langfile}"
-changes="0"
+changes="1"
 
 # Check that we're doing things right.
 if [ -z "$langfile" ]; then
@@ -29,15 +29,15 @@ if [ "$langfile" == "$basefile" ]; then
 	exit 1
 fi
 
-# Confirmation before moving forward..
-#read -p "Please note that if changes are detected, $langfile will be re-built, meaning any changes you've made will be lost (unless committed). Happy to proceed? [y/n] " verify
-#if [[ "$verify" != [yY] ]]; then
-#	echo "Aborting.."
-#        exit 1
-#fi
-
 # Temp work space..
 cat /dev/null > $newlangfile
+
+# Check for new values between the 5th most recent commit and the current HEAD on en.js
+# Remove the lines from the langfile in question (we will treat them as missing so it'll be replaced automatically).
+for key in $(git diff $(git log --oneline $basefile | head -n5 | tail -n1 | awk '{print$1}')..HEAD $basefile | grep '^-' | egrep -v 'en.js|;' | sed -e 's/^-//g' | awk '{print$1}' | sort | uniq); do
+        sed -i "/$key /d" $langfile
+        changes="1"
+done
 
 # Loop through the base file line by line.
 echo "Looping through: $basefile ..this will take a moment.."
@@ -49,12 +49,12 @@ while read -r line; do
 	else
 		# Add in missing key:value
 		grep -ER "(^|\s)$key($|\s)" $basefile | dos2unix >> $newlangfile
-		changes="1"
+		changes="0"
 	fi
-done < $basefile
+done < "$basefile"
 
 # Clean up.
-if [ "$changes" == "1" ]; then
+if [ "$changes" -eq "0" ]; then
 	cat $newlangfile > $langfile
 	echo "Changes were made, see diff: git diff $langfile"
 	echo "To abort: git checkout $langfile"
