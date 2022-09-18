@@ -8,9 +8,9 @@ menu.btn.settings 設定
 menu.btn.customize 自訂
 menu.btn.invite 邀請
 menu.btn.invite.clicked 已複製
-menu.btn.join 加入伺服器
+menu.btn.join 加入
 menu.btn.host 建立伺服器
-menu.btn.browser 瀏覽伺服器
+menu.btn.browser 伺服器
 generic.wait 請稍等…
 generic.loading 載入中…
 generic.none 無
@@ -47,12 +47,12 @@ generic.games.played 遊玩場數
 generic.games.won 勝場數
 generic.games.lost 敗場數
 generic.timep 遊玩時間
-generic.kills 擊殺數
-generic.deaths 死亡數
+generic.kills 擊殺次數
+generic.deaths 死亡次數
 generic.kdr 戰損比
 generic.time 時間
 generic.logout 登出
-generic.logout.sessions 從所有裝置登出
+generic.logout.sessions 從所有裝置上登出
 generic.username 輸入使用者名稱
 generic.password 輸入密碼
 generic.register 註冊
@@ -62,7 +62,7 @@ player.waiting 等待更多玩家加入
 player.died 你死了
 player.killed 被此玩家擊殺
 player.killstreak {0} on a {1} Kill Streak
-player.inactive 由於你的閒置時間過長，你已被踢出此伺服器
+player.inactive 由於你長時間沒有活動，你已被踢出此伺服器
 player.disconnect 連線已中斷
 timer.end 下一場將在{0}後開始
 leaderboard.empty 這裡沒有任何玩家
@@ -90,7 +90,7 @@ settings.local.header 在地化 <span id="requiresRestart"><span style="color: #
 settings.local.region 預設地區
 settings.local.lang 語言
 settings.network.header 網路
-settings.network.netRerouting 動態路由（影響網路時延）
+settings.network.netRerouting 動態路由（影響網路延遲）
 settings.network.netRate 網路更新率 (Hz)
 settings.network.lagComp 延遲補償
 settings.network.optNet 網路最佳化
@@ -112,7 +112,7 @@ settings.client.resourceSwapper 資源交換器
 settings.client.clearCache 清除快取
 settings.client.resetSettings 重設用戶端設定
 settings.client.acceleratedCanvas 畫布元素硬體加速
-settings.client.angleBackend 幾乎原生圖型抽象層引擎後端
+settings.client.angleBackend ANGLE後端
 settings.client.colorProfile 色彩設定檔
 settings.client.resourcePacks 資源包
 settings.dev.header 開發者
@@ -172,9 +172,9 @@ settings.post.ssaoRadius 螢幕空間環境光遮蔽半徑
 settings.interface.hitInd 顯示傷害來源指示器
 settings.interface.hitColor 傷害來源指示器顏色
 settings.interface.dmg 顯示傷害值
-settings.interface.dmgType Show Damage
-settings.interface.dmgType.default Rounded
-settings.interface.dmgType.float Float
+settings.interface.dmgType 顯示傷害值
+settings.interface.dmgType.default 向上取整
+settings.interface.dmgType.float 浮點
 settings.interface.dmgCol 普通傷害值顏色
 settings.interface.critCol 爆頭傷害值顏色
 settings.interface.header 介面
@@ -190,13 +190,13 @@ settings.interface.hideNonTrade 隱藏不可交易的造型
 settings.interface.hp 動態血條
 settings.interface.dmgScale 傷害值顯示比例
 settings.interface.killf 顯示擊殺訊息
-settings.interface.ping 顯示網路時延
+settings.interface.ping 顯示網路延遲
 settings.interface.net-stats 顯示網路統計資料
 settings.interface.fps 顯示幀率
-settings.interface.deaths 顯示死亡數
+settings.interface.deaths 顯示死亡次數
 settings.interface.kd 顯示戰損比
-settings.interface.kills 顯示擊殺數
-settings.interface.streak 顯示連殺數
+settings.interface.kills 顯示擊殺次數
+settings.interface.streak 顯示連殺
 settings.interface.score 顯示得分
 settings.interface.spectators 顯示觀戰人數
 settings.interface.speed 顯示移動速度
@@ -220,11 +220,11 @@ settings.interface.nametagStyle.all 全部
 settings.interface.healthNum 血量
 settings.interface.healthColT 隊友血條顏色
 settings.interface.healthColE 敵人血條顏色
-settings.interface.xpBarType XP Bar Type
+settings.interface.xpBarType 經驗條種類
 settings.interface.xpBarCol 經驗條第一顏色
 settings.interface.xpBarCol2 經驗條第二顏色
 settings.interface.xpBarOpac 經驗條不透明度
-settings.interface.adsObjOpac ADS Objective Opacity
+settings.interface.adsObjOpac 瞄準時目標點不透明度
 settings.medals.header 擊殺獎牌
 settings.medals.show 顯示擊殺獎牌
 settings.medals.classic 經典擊殺獎牌
@@ -381,8 +381,8 @@ settings.viewmodel.weapReloadY 換彈時武器的垂直移動幅度
 settings.viewmodel.yOffADS 瞄準時武器相對於準星的垂直位移
 settings.viewmodel.adsFovMlt 瞄準時視角縮放乘比
 settings.viewmodel.toggleADS 切換瞄準
-settings.viewmodel.wallLean Wall Slide/Jump Lean
-settings.viewmodel.wallLeanMlt Wall Slide/Jump Lean
+settings.viewmodel.wallLean 牆上滑行/跳躍視野傾斜幅度
+settings.viewmodel.wallLeanMlt 牆上滑行/跳躍視野傾斜幅度
 settings.editing.header 編輯
 settings.editing.health.high 高血量顏色
 settings.editing.health.low 低血量顏色
@@ -440,8 +440,8 @@ settings.mods.dot.width 瞄準鏡標線圖片寬度
 settings.mods.dot.height 瞄準鏡標線圖片高度
 settings.mods.dot.paste 瞄準鏡標線圖片網址
 settings.mods.endmessage 比賽結束後自動訊息
-settings.mods.profile 頭像圖片
-settings.mods.profile.paste 頭像圖片網址
+settings.mods.profile 頭像
+settings.mods.profile.paste 頭像網址
 settings.mods.ammo 彈藥圖示
 settings.mods.ammo.paste 彈藥圖示網址
 settings.mods.kills 擊殺圖示
@@ -491,10 +491,10 @@ windows.loadout.color.hair 頭髮顏色
 windows.loadout.dye 衣服染色
 windows.loadout.pet 寵物
 windows.loadout.wrist 手腕
-windows.loadout.stat 擊殺戰績卡
+windows.loadout.stat 擊殺卡片戰績
 windows.loadout.flag 國家和地區旗幟
 windows.loadout.badge 特殊徽章
-windows.loadout.streaks Streaks
+windows.loadout.streaks 連殺獎勵
 windows.mods.drop 將模組檔案放在此處或點擊
 windows.mods.paste 貼上模組網址
 windows.mods.load 載入模組
@@ -544,11 +544,11 @@ windows.controls.specFirst 第一人稱視角
 windows.controls.specNames 強制顯示玩家名稱
 windows.controls.specFocus 聚焦玩家
 windows.controls.hidePlayers 隱藏玩家
-windows.controls.streak0 連殺獎勵1
-windows.controls.streak1 連殺獎勵2
-windows.controls.streak2 連殺獎勵3
-windows.controls.streak3 連殺獎勵4
-windows.controls.streak4 連殺獎勵5
+windows.controls.streak0 連殺技能1
+windows.controls.streak1 連殺技能2
+windows.controls.streak2 連殺技能3
+windows.controls.streak3 連殺技能4
+windows.controls.streak4 連殺技能5
 windows.controls.taunt0 挑釁（噗嗤聲）
 windows.controls.taunt1 挑釁（口哨聲）
 windows.controls.taunt2 挑釁（放屁聲）
@@ -564,11 +564,11 @@ windows.controls.premium1 無敵模式
 windows.controls.premium2 自殺
 windows.controls.premium3 瞬間擊殺
 windows.controls.reset 重設進度並回到起點（跑酷等）
-windows.controls.resetLast Reset To Last Checkpoint (Parkour etc)
+windows.controls.resetLast 重設進度並回到上一個存檔點（跑酷等）
 windows.controls.pretend 隱藏遊戲
-windows.controls.noclipSB Noclip
-windows.controls.godModeSB Godmode
-windows.controls.killSB Kill
+windows.controls.noclipSB 飛天模式
+windows.controls.godModeSB 無敵模式
+windows.controls.killSB 自殺
 windows.host.header 建立客製化伺服器
 windows.host.maps 伺服器設定
 windows.host.cmaps 社群地圖
@@ -682,7 +682,7 @@ windows.ranked.login 登入以進行排位賽！
 windows.ranked.level 你至少需要<span color="black">{0}級</span>以進行排位賽！目前你的等級是<span color="black">{1}級</span>。
 windows.chall.header 挑戰任務
 windows.chall.login 登入以完成挑戰任務！
-windows.spin.header Prize Wheel
+windows.spin.header 獎勵輪盤
 thumbnail.upload.limit 上傳失敗，縮圖大小上限為{0}kb
 image.upload.limit 上傳失敗，圖像大小上限為{0}kb
 thumbnail.upload.error 縮圖錯誤
@@ -696,20 +696,20 @@ matchmaker.GameFull 此伺服器人數已滿。
 matchmaker.NoServersMatchQuery 遊戲更新中
 matchmaker.InvalidGameId 此伺服器已關閉或不存在。
 matchmaker.NoAvailableServers 目前沒有任何空閒的伺服器
-matchmaker.NoMatchingServers No Games Found<br><small>Try changing Quickplay options</small>
+matchmaker.NoMatchingServers 沒有找到任何伺服器<br><small>請嘗試更改快速遊玩設定</small>
 matchmaker.GameIssue 加入時出現未知問題
 adblocker 停用廣告攔截器以獲得免費KR輪盤。
 ad-failed 廣告載入失敗，請稍後重試。
 streamers.views {0}個觀眾
 streamers.none 目前沒有任何Twitch直播！
-error.extentions 如果你有任何瀏覽器擴充功能，請停用它們
-error.seek 點此搜尋新的遊戲
+error.extentions 如果你有任何擴充功能，請停用它們
+error.seek 點此尋找新的遊戲
 custom.map.upload.limit 上傳失敗，地圖資料大小上限為500kb
 custom.map.missing 請選擇至少一種地圖
 custom.mode.missing 請選擇至少一種遊戲模式
 custom.class.missing 請選擇至少一種職業
 server.config.maxPlayers 最大玩家數
-server.config.minPlayers 最少玩家數
+server.config.minPlayers 最小玩家數
 server.config.lives 玩家生命數
 server.config.gameTime 每局時間（分鐘）
 server.config.gravMlt 重力
@@ -738,7 +738,7 @@ server.config.t3Dmg 隊伍3傷害倍數
 server.config.t4Dmg 隊伍4傷害倍數
 server.config.t5Dmg 隊伍5傷害倍數
 server.config.selTeam 可自由選擇隊伍
-server.config.frFire Friendly Fire
+server.config.frFire 隊友誤傷
 server.config.allowSpect 允許觀戰
 server.config.killRewards 擊殺獎勵
 server.config.headshotOnly 僅限爆頭
@@ -750,8 +750,8 @@ server.config.autoJump 自動跳躍
 server.config.bDrop 子彈下墜
 server.config.thirdPerson 第三人稱
 server.config.requireCaptcha 需要人機驗證
-server.config.nameTags 隱藏名牌
-server.config.nameTagsFR Hide Nametags (Allies)
+server.config.nameTags 隱藏名牌（敵人）
+server.config.nameTagsFR 隱藏名牌（隊友）
 server.config.kCams 死亡視角
 server.config.aAnon 允許匿名玩家
 server.config.noReload 無需換彈
@@ -767,7 +767,7 @@ server.config.scoreLimit 得分上限
 server.config.keepTScore 保持團隊得分
 server.config.forceC 強制使用特定職業
 server.config.logTim 通關計時（速通、跑酷）
-server.config.lstChkT Last Checkpoint Time Rewind (Race/Bhop)
+server.config.lstChkT 上一個存檔點時間倒帶（速通、跑酷）
 server.config.hitBoxPad 玩家判定框大小
 server.config.hpRegen 血量回復
 server.config.disableB 停用地圖邊界
@@ -815,7 +815,7 @@ social.market.wrist 手腕物品
 social.market.melee 近戰武器
 social.market.spray 噴漆
 social.market.dye 衣服染色
-social.market.collectible 可收集物品
+social.market.collectible 原材料
 social.market.none 沒有找到任何物品
 social.market.login 你必須先登入。
 social.market.grace {0}後上架
@@ -830,11 +830,11 @@ social.market.gift 贈送KR
 social.market.gift.msg 講點什麼呢…
 respawn.auto 你將會在{0}秒後自動復活
 custom.host.ranked 排位賽中無法建立客製化伺服器。
-custom.host.wager Can't host match while in Wager.
+custom.host.wager 賭注中無法建立客製化伺服器。
 funds.insufficient 資金餘額不足
 funds.out 你似乎沒有KR了
 custom.passcode.long 密碼過長
-custom.passcode.input 請輸入此伺服器密碼以加入遊戲
+custom.passcode.input 請輸入此伺服器密碼以加入
 custom.tryagain 請重試。
 purchase.kr.success 已添加{0}KR到你的帳戶
 limited.purchase.ask 你確定要以{1}KR購買[{0}]嗎？
@@ -854,25 +854,25 @@ spin.free.disable 你可以在設定的[General]欄標裡關閉此彈出視窗�
 mod.reset.0 復活後此設定將會生效。
 mod.reset.1 地圖物品不會被重設。
 windows.profile.picture 更改頭像
-stats.assists 助攻數
-stats.nukes 核彈數
-stats.slimers Slimers
-stats.juggernauts Juggernauts
-stats.juggernauts.kills Juggernaut Kills
-stats.juggernauts.killed Juggernauts Killed
-stats.warmachines War Machines
-stats.melee 近戰擊殺數
-stats.fistkills 空手擊殺數
-stats.thrownkills 投擲擊殺數
-stats.headshots 爆頭數
-stats.wallbangs 穿牆擊殺數
+stats.assists 助攻次數
+stats.nukes 投下核彈次數
+stats.slimers 使用黏液槍次數
+stats.juggernauts 使用重機槍次數
+stats.juggernauts.kills 重機槍擊殺次數
+stats.juggernauts.killed 被重機槍擊殺次數
+stats.warmachines 使用榴彈發射器次數
+stats.melee 近戰武器擊殺次數
+stats.fistkills 空手擊殺次數
+stats.thrownkills 投擲擊殺次數
+stats.headshots 爆頭次數
+stats.wallbangs 穿牆擊殺次數
 stats.crouches 蹲下次數
-stats.sprays 噴漆數
-stats.kpd 有效檢舉數
-stats.shots Shots
-stats.hits Hits
-stats.misses Misses
-stats.legshots Legshots
+stats.sprays 使用噴漆次數
+stats.kpd 有效檢舉次數
+stats.shots 發射次數
+stats.hits 擊中次數
+stats.misses 打偏次數
+stats.legshots 擊中腿部次數
 windows.host.default.settings 啟用地圖預設設定以允許玩家儲存他們的進度及最高分數
 windows.host.default.commands * 服主指令（/noclip, /god, /smite 等）在此模式中將會被停用。
 windows.host.rewards 啟用KR獎勵將會強制伺服器使用地圖預設設定，以允許玩家從此地圖獲得KR：
@@ -896,7 +896,7 @@ item.view.more 更多資訊
 item.sell.cant 此物品不能被出售。
 item.sell.cant.krunker 此物品不能在Krunker內被出售。
 item.sell.quick 你確定要快速出售{0}嗎？
-item.sell.destroy 你確定要分解{0}嗎？
+item.sell.destroy 你確定要摧毁{0}嗎？
 social.profile.stats 綜合戰績
 social.profile.class 職業戰績
 social.profile.sales 出售記錄
@@ -923,7 +923,7 @@ social.trades.decline 全部拒絕
 social.trades.message 在市場設定裡啟用「顯示交易訊息」選項
 social.trades.warning 你將不會在此交易中得到任何物品！
 social.trades.accept 你確定要接受此交易請求嗎？
-stats.airdrops 空投
+stats.airdrops 召喚空投次數
 stats.airdrops.stolen 偷取空投次數
 settings.quality.flapAnim 狙擊鏡保護蓋動畫
 chall.name.hs 在{1}取得{0}個爆頭
@@ -931,7 +931,7 @@ chall.name.ns 在{1}取得{0}個盲狙
 chall.name.ls 在{1}取得{0}個腿部擊殺
 chall.name.tmk 在{1}取得{0}個投擲擊殺
 chall.name.fb 在{1}取得{0}個第一滴血
-chall.name.mk 在{1}取得{0}個近戰擊殺
+chall.name.mk 在{1}取得{0}個近戰武器擊殺
 chall.name.fk 在{1}取得{0}個空手擊殺
 chall.name.qs 在{1}取得{0}個瞬狙
 chall.name.wb 在{1}取得{0}個穿牆擊殺
@@ -1006,8 +1006,9 @@ server.message.kicked {0}已被踢出
 server.message.banned {0}已被封禁並踢出
 server.message.votekicked {0}已被投票踢出
 server.message.arrested {0}已被K.P.D逮捕
-event.easter.golden.spawn A Golden egg is near
-event.easter.golden.despawn A Golden egg has gone
-event.easter.found.new {0} found {1}/{2} Eggs
-event.easter.found.old You already discovered this egg!
-event.easter.completed {0} completed the Egg hunt!
+event.easter.golden.spawn 一顆金蛋就在附近
+event.easter.golden.despawn 一顆金蛋消失了
+event.easter.found.new {0}找到了{1}/{2}顆蛋
+event.easter.found.old 你已經找過這顆蛋了！
+event.easter.completed {0}完成了彩蛋尋寶！
+`;
