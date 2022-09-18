@@ -126,6 +126,7 @@ If you contributed in the past and can't find your name below (or simply wish to
 * [KrunkerMarkzt](https://krunker.io/social.html?p=profile&q=KrunkerMarkzt) (Markzt#4121)
 * [Dreamcatcher_](https://krunker.io/social.html?p=profile&q=Dreamcatcher_) (Dreamcatcher#0001)
 * [Jaehnvnct](https://krunker.io/social.html?p=profile&q=Jaehnout) (Jaehn#1577) 
+* [Kebbs](https://krunker.io/social.html?p=profile&q=imjustpalying) (BuckDewey#1565)
 
 # [Polish](https://github.com/mty22/krunker.io-translations/blob/main/pl.js) (Polish)
 * [xhg4](https://krunker.io/social.html?p=profile&q=xhg4) (DescriptionIcy#5231)
