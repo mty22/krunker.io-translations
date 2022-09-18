@@ -34,7 +34,7 @@ generic.off Wyłączone
 generic.defeat PRZEGRANA
 generic.victory WYGRANA
 generic.matchover KONIEC MECZU
-generic.matchaband MECZ OPUSZCZONY
+generic.matchaband MECZ ODWOŁANY
 generic.follow Obserwuj
 generic.unfollow Przestań obserwować
 generic.followers Obserwujący
@@ -92,7 +92,7 @@ settings.local.lang Język
 settings.network.header Sieć
 settings.network.netRerouting Auto Routowanie (Wpływa na ping)
 settings.network.netRate Częstotliwość sieci (Hz)
-settings.network.lagComp Kompensacja lagów
+settings.network.lagComp Kompensacja opóźnienia
 settings.network.optNet Optymalizacja sieci
 settings.network.quickplay Wymuś szybką rozgrywkę
 settings.popup.header Wyskakujące okienka
@@ -105,7 +105,7 @@ settings.experimental.mouseAccel Przyspieszanie myszy (Zwiększ precyzję wskaź
 settings.experimental.tbInterp Interpolacja TB
 settings.client.header Klient
 settings.client.unlimitedFrames Nielimitowane FPS
-settings.client.gameCap Game Capture
+settings.client.gameCap Przechwytywanie gry
 settings.client.experimental Funkcje eksperymentalne
 settings.client.discordRPC Discord RPC
 settings.client.resourceSwapper Podmieniacz zasobów
@@ -128,9 +128,9 @@ settings.chat.unboxings Wyświetlaj wiadomości o unboxingach
 settings.chat.chatOp Przezroczystość czatu
 settings.chat.chatBGOp Przezroczystość tła czatu
 settings.chat.chatHeight Wysokość czatu
-settings.chat.chatTimer Miernik czasu w czacie (s)
+settings.chat.chatTimer Ukryj wiadomość w czacie po (s)
 settings.chat.chatTextOutline Kontur tekstu w czacie
-settings.chat.chatFilter Filter przekleństw
+settings.chat.chatFilter Filtrowanie przekleństw
 settings.quality.header Wydajność
 settings.quality.updRate Ogranicz FPS
 settings.quality.rendDst Odległość renderowania
@@ -172,9 +172,9 @@ settings.post.ssaoRadius Promień SSAO
 settings.interface.hitInd Wyświetlaj wskaźniki trafień
 settings.interface.hitColor Kolor wskaźników trafień
 settings.interface.dmg Wyświetlaj obrażenia
-settings.interface.dmgType Show Damage
-settings.interface.dmgType.default Rounded
-settings.interface.dmgType.float Float
+settings.interface.dmgType Wyświetlaj obrażenia
+settings.interface.dmgType.default Zaokrąglone
+settings.interface.dmgType.float Zmiennoprzecinkowe
 settings.interface.dmgCol Kolor obrażeń
 settings.interface.critCol Kolor obrażeń krytycznych
 settings.interface.header Interfejs
@@ -220,11 +220,11 @@ settings.interface.nametagStyle.all Wszystko
 settings.interface.healthNum Liczba HP w nazwie
 settings.interface.healthColT Kolor HP drużyny
 settings.interface.healthColE Kolor HP przeciwników
-settings.interface.xpBarType XP Bar Type
+settings.interface.xpBarType Typ paska XP
 settings.interface.xpBarCol Kolor paska XP
 settings.interface.xpBarCol2 Kolor paska XP 2
 settings.interface.xpBarOpac Przezroczystość paska XP
-settings.interface.adsObjOpac ADS Objective Opacity
+settings.interface.adsObjOpac Przezroczystość obiektów konkurencyjnych podczas celowania
 settings.medals.header Medale
 settings.medals.show Pokazuj medale
 settings.medals.classic Medale klasyczne
@@ -330,8 +330,8 @@ settings.controller.disableCons Wyłącz kontrolery
 settings.controller.sensitivityY Czułość Y
 settings.controller.aimsensX Czułość celowania X
 settings.controller.aimsensY Czułość celowania Y
-settings.controller.deadZoneL Lewy koniec
-settings.controller.deadZoneR Prawy koniec
+settings.controller.deadZoneL Martwa strefa (Lewa)
+settings.controller.deadZoneR Martwa strefa (Prawa)
 settings.controller.triggerThres Próg spustu
 settings.controller.vibration Wibracje
 settings.controller.gradSpeed Wzrastająca prędkość
@@ -381,8 +381,8 @@ settings.viewmodel.weapReloadY Przesunięcie Y podczas przeładowywania
 settings.viewmodel.yOffADS Przesunięcie Y podczas celowania
 settings.viewmodel.adsFovMlt Powiększenie podczas celowania
 settings.viewmodel.toggleADS Przełączanie celowania
-settings.viewmodel.wallLean Wall Slide/Jump Lean
-settings.viewmodel.wallLeanMlt Wall Slide/Jump Lean
+settings.viewmodel.wallLean Przechylanie podczas ślizgów/skoków po ścianie
+settings.viewmodel.wallLeanMlt Przechylanie podczas ślizgów/skoków po ścianie
 settings.editing.header Edycja
 settings.editing.health.high Wysokie HP w HUD
 settings.editing.health.low Niskie HP w HUD
@@ -494,7 +494,7 @@ windows.loadout.wrist Nadgarstek
 windows.loadout.stat Statystyki przy zabiciu
 windows.loadout.flag Flaga kraju
 windows.loadout.badge Niestandardowa odznaka
-windows.loadout.streaks Streaks
+windows.loadout.streaks Serie
 windows.mods.drop upuść tu plik modyfikacji lub naciśnij
 windows.mods.paste Wklej URL modyfikacji
 windows.mods.load Wczytaj
@@ -564,7 +564,7 @@ windows.controls.premium1 Godmode
 windows.controls.premium2 Kill
 windows.controls.premium3 Smite
 windows.controls.reset Resetuj pozycję (Parkour, itd.)
-windows.controls.resetLast Reset To Last Checkpoint (Parkour etc)
+windows.controls.resetLast Resetuj do ostatniego punktu zapisu (Parkour, itd.)
 windows.controls.pretend Ukryj grę
 windows.controls.noclipSB Noclip
 windows.controls.godModeSB Godmode
@@ -610,7 +610,7 @@ windows.clans.join Dołącz do klanu
 windows.clans.login aby tworzyć lub dołączyć do klanu!
 windows.store.header Sklep
 windows.store.spin Koło {0}
-windows.store.agree Kupując zgadzasz się z {0}Warunkami
+windows.store.agree Kupując, zgadzasz się z {0}Warunkami
 windows.store.purchase Kup KR
 windows.store.voucher Wykorzystaj bon
 windows.store.voucherinfo Zdobądź bony od streamerów lub w wydarzeniach
@@ -679,10 +679,10 @@ windows.client.mac Instalator macOS
 windows.client.linux Instalator Linux
 windows.ranked.header Mecz rankingowy
 windows.ranked.login by grać rankingowe gry!
-windows.ranked.level Musisz mieć co najmniej <span color="black">{0} poziom</span> aby grać rankingowe gry! Aktualnie masz <span color="black">{1} poziom</span>.
+windows.ranked.level Musisz mieć co najmniej <span color="black">{0} poziom</span>, aby grać rankingowe gry! Aktualnie masz <span color="black">{1} poziom</span>.
 windows.chall.header Wyzwania
 windows.chall.login by wykonywać wyzwania!
-windows.spin.header Prize Wheel
+windows.spin.header Koło nagród
 thumbnail.upload.limit Niepowodzenie. Limit rozmiaru miniaturki to {0}kb
 image.upload.limit Niepowodzenie. Limit rozmiaru obrazu to {0}kb
 thumbnail.upload.error Błąd miniaturki
@@ -696,15 +696,15 @@ matchmaker.GameFull Gra pełna.
 matchmaker.NoServersMatchQuery GRA AKTUALIZUJE SIĘ
 matchmaker.InvalidGameId Gry nie znaleziono.
 matchmaker.NoAvailableServers Serwery są pełne
-matchmaker.NoMatchingServers No Games Found<br><small>Try changing Quickplay options</small>
+matchmaker.NoMatchingServers Nie znaleziono żadnych gier<br><small>Spróbuj zmienić opcje Quickplay</small>
 matchmaker.GameIssue Nieznany błąd dołączania
-adblocker Wyłącz adblock aby otrzymywać darmowe KR.
+adblocker Wyłącz adblocka, aby otrzymywać darmowe KR.
 ad-failed Nie udało się załadować reklamy. Spróbuj ponownie.
 streamers.views {0} oglądających
 streamers.none Brak aktywnych streamów!
 error.extentions Jeśli masz jakiekolwiek rozszerzenia, wyłącz je
 error.seek Spróbuj znaleźć nową grę naciskając
-custom.map.upload.limit Niepowodzenie. Limit wielkości gry to 500k znaków
+custom.map.upload.limit Niepowodzenie. Limit wielkości gry to 500 tys. znaków
 custom.map.missing Wybierz co najmniej jedną grę lub mapę
 custom.mode.missing Wybierz co najmniej jeden tryb
 custom.class.missing Wybierz co najmniej jedną klasę
@@ -750,8 +750,8 @@ server.config.autoJump Automatyczne skakanie
 server.config.bDrop Upadek pocisków
 server.config.thirdPerson Tryb trzecioosobowy
 server.config.requireCaptcha Wymagaj captchy
-server.config.nameTags Ukryj nazwy nad graczami
-server.config.nameTagsFR Hide Nametags (Allies)
+server.config.nameTags Ukryj nazwy przeciwników
+server.config.nameTagsFR Ukryj nazwy sojuszników
 server.config.kCams Kamery zabójstw
 server.config.aAnon Zezwalaj na korzystanie z trybu anonimowego
 server.config.noReload Bez przeładowywania
@@ -767,7 +767,7 @@ server.config.scoreLimit Limit wyniku
 server.config.keepTScore Zachowaj wynik zespołu
 server.config.forceC Wymuś klasy trybu
 server.config.logTim Zapisywanie czasu (Race, Parkour)
-server.config.lstChkT Last Checkpoint Time Rewind (Race/Bhop)
+server.config.lstChkT Cofnięcie czasu przy resecie do ostatniego punktu zapisu (Race/Bhop)
 server.config.hitBoxPad Hitbox Padding
 server.config.hpRegen Regeneracja życia
 server.config.disableB Wyłącz granice map
@@ -818,7 +818,7 @@ social.market.dye Przedmiot barwnika
 social.market.collectible Przedmiot kolekcjonerski
 social.market.none Nie znaleziono przedmiotów
 social.market.login Musisz być zalogowany.
-social.market.grace gotowy w {0}
+social.market.grace gotowy za {0}
 social.market.sort Filtruj/Sortuj
 social.market.filter Wyszukaj
 social.market.sort2 Sortuj
@@ -830,7 +830,7 @@ social.market.gift Wyślij KR
 social.market.gift.msg Zostaw wiadomość
 respawn.auto Automatyczne odrodzenie za {0}
 custom.host.ranked Nie możesz utworzyć gry niestandardowej, gdy grasz w trybie rankingowym.
-custom.host.wager Can't host match while in Wager.
+custom.host.wager Nie możesz utworzyć gry niestandardowej podczas zakładu.
 funds.insufficient Niewystarczające fundusze
 funds.out Wygląda na to, że skończyło Ci się KR.
 custom.passcode.long Zbyt długie hasło
@@ -856,11 +856,11 @@ mod.reset.1 Obiekty na mapie nie ulegają resetowi
 windows.profile.picture Zmień zdjęcie profilowe
 stats.assists Asysty
 stats.nukes Zrzucone bomby
-stats.slimers Slimers
-stats.juggernauts Juggernauts
-stats.juggernauts.kills Juggernaut Kills
-stats.juggernauts.killed Juggernauts Killed
-stats.warmachines War Machines
+stats.slimers Slimery
+stats.juggernauts Juggernauty
+stats.juggernauts.kills Zabójstwa przy użyciu Juggernauta
+stats.juggernauts.killed Zabitych Juggernautów
+stats.warmachines Machiny Wojenne
 stats.melee Zabójstwa nożem
 stats.fistkills Zabójstwa w wyniku pobicia
 stats.thrownkills Zabójstwa przez rzut nożem
@@ -869,10 +869,10 @@ stats.wallbangs Trafienia przez ściany
 stats.crouches Przykucnięcia
 stats.sprays Użycia sprayów
 stats.kpd Pomocne reporty
-stats.shots Shots
-stats.hits Hits
-stats.misses Misses
-stats.legshots Legshots
+stats.shots Strzały
+stats.hits Trafienia
+stats.misses Chybienia
+stats.legshots Trafienia w nogę
 windows.host.default.settings Włączenie domyślnych ustawień pozwala na przechowywanie postępu graczy oraz najwyższych wyników
 windows.host.default.commands Komendy hosta są wyłączone w tym trybie: /noclip /god /smite itp
 windows.host.rewards Włączenie nagród KR zmusza serwer do używania domyślnych ustawień i pozwala graczom zdobywać KR z funduszy mapy:
@@ -1006,8 +1006,8 @@ server.message.kicked {0} został wyrzucony
 server.message.banned {0} został zbanowany
 server.message.votekicked {0} został wyrzucony przez głosowanie
 server.message.arrested {0} został aresztowany przez K.P.D.
-event.easter.golden.spawn A Golden egg is near
-event.easter.golden.despawn A Golden egg has gone
+event.easter.golden.spawn Złote jajo jest blisko
+event.easter.golden.despawn Złote jajo zniknęło
 event.easter.found.new {0} found {1}/{2} Eggs
-event.easter.found.old You already discovered this egg!
+event.easter.found.old Odkryłeś już to jajo!
 event.easter.completed {0} completed the Egg hunt!
