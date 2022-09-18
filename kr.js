@@ -750,7 +750,7 @@ server.config.autoJump 자동 점프
 server.config.bDrop 탄 낙차
 server.config.thirdPerson 3인칭
 server.config.requireCaptcha Captcha 요구하기
-server.config.nameTags 적군 이름표 숨기기
+server.config.nameTags 적군 이름표 숨기기(Enemies)
 server.config.nameTagsFR 아군 이름표 숨기기
 server.config.kCams 사망 화면
 server.config.aAnon 익명 모드 허용
