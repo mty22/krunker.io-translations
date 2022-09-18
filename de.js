@@ -172,9 +172,9 @@ settings.post.ssaoRadius SSAO Radius
 settings.interface.hitInd Hitmarker anzeigen
 settings.interface.hitColor Hitmarker Farbe
 settings.interface.dmg Schaden anzeigen
-settings.interface.dmgType Show Damage
-settings.interface.dmgType.default Rounded
-settings.interface.dmgType.float Float
+settings.interface.dmgType Schaden anzeigen
+settings.interface.dmgType.default Gerundete Zahlen
+settings.interface.dmgType.float Genaue Zahlen
 settings.interface.dmgCol Schadens-Farbe
 settings.interface.critCol Kritischer Treffer Farbe
 settings.interface.header Schnittstelle
@@ -220,11 +220,11 @@ settings.interface.nametagStyle.all Alles
 settings.interface.healthNum Nametag Lebens-Nummer
 settings.interface.healthColT Nametag Team-HP-Farbe
 settings.interface.healthColE Nametag Gegner-HP-Farbe
-settings.interface.xpBarType XP Bar Type
+settings.interface.xpBarType XP Leisten-Typ
 settings.interface.xpBarCol XP Leisten-Farbe
-settings.interface.xpBarCol2 XP Bar Color 2
+settings.interface.xpBarCol2 XP Leisten-Farbe 2
 settings.interface.xpBarOpac XP Leisten-Deckkraft
-settings.interface.adsObjOpac ADS Objective Opacity
+settings.interface.adsObjOpac Zielen Objective Deckkraft
 settings.medals.header Medallien
 settings.medals.show Zeige Medallien
 settings.medals.classic Klassische Medallien
@@ -381,8 +381,8 @@ settings.viewmodel.weapReloadY Waffen-Nachlade Y
 settings.viewmodel.yOffADS Waffen Zielen Y Offset
 settings.viewmodel.adsFovMlt Zielen FOV Power
 settings.viewmodel.toggleADS Toggle Weapon ADS
-settings.viewmodel.wallLean Wall Slide/Jump Lean
-settings.viewmodel.wallLeanMlt Wall Slide/Jump Lean
+settings.viewmodel.wallLean Wand-Sprung/-Slide Lehnen
+settings.viewmodel.wallLeanMlt Wand-Sprung/-Slide Lehnmultiplikator
 settings.editing.header Bearbeiten
 settings.editing.health.high HUD HP Hoch
 settings.editing.health.low HUD HP Niedrig
@@ -494,7 +494,7 @@ windows.loadout.wrist Handgelenk
 windows.loadout.stat Killcard Statistiken
 windows.loadout.flag Länderflagge
 windows.loadout.badge Benutzerdefiniertes Abzeichen
-windows.loadout.streaks Streaks
+windows.loadout.streaks Abschussserien
 windows.mods.drop Mods hier hinziehen oder klicken
 windows.mods.paste Mod-Url einfügen
 windows.mods.load Mods laden
@@ -563,8 +563,8 @@ windows.controls.premium0 Noclip
 windows.controls.premium1 Godmode
 windows.controls.premium2 Kill
 windows.controls.premium3 Smite
-windows.controls.reset Position zurücksetzen (Rennen & Parkour)
-windows.controls.resetLast Reset To Last Checkpoint (Parkour etc)
+windows.controls.reset Position zurücksetzen (Parkour etc)
+windows.controls.resetLast Zum letzten Checkpoint zurücksetzen (Parkour etc)
 windows.controls.pretend Spiel verstecken
 windows.controls.noclipSB Noclip
 windows.controls.godModeSB Godmode
@@ -682,7 +682,7 @@ windows.ranked.login um Ranked zu spielen!
 windows.ranked.level Du musst mindestens <span color="black">level {0}</span> um Ranked spielen zu können! Jetzt bist du <span color="black">level {1}</span>.
 windows.chall.header Herausforderungen
 windows.chall.login um Herausforderungen zu anzunehmen !
-windows.spin.header Prize Wheel
+windows.spin.header Glücksrad
 thumbnail.upload.limit Fehlgeschlagen. 40kb Limit für Vorschauansicht
 image.upload.limit Fehlgeschlagen. {0}kb Bild Limit
 thumbnail.upload.error Fehler Vorschauansicht
@@ -696,10 +696,10 @@ matchmaker.GameFull Das Spiel ist voll.
 matchmaker.NoServersMatchQuery SPIEL WIRD AKTUALISIERT
 matchmaker.InvalidGameId Spiel wurde nicht gefunden.
 matchmaker.NoAvailableServers Server sind ausgelastet
-matchmaker.NoMatchingServers No Games Found<br><small>Try changing Quickplay options</small>
+matchmaker.NoMatchingServers Keine Spiele gefunden<br><small>Versuche die Quickplay-Optionen zu ändern</small>
 matchmaker.GameIssue Unbekannter Beitrittsfehler
 adblocker Deaktiviere deinen AdBlocker um gratis Krunkies zu erhalten.
-ad-failed Werbung konnte nicht geladen werden. Versuch es noch einmal.
+ad-failed Werbung konnte nicht geladen werden. Versuche es noch einmal.
 streamers.views {0} Betrachter
 streamers.none Keine aktiven Streams!
 error.extentions Deaktiviere Erweiterungen, falls Du welche hast.
@@ -738,7 +738,7 @@ server.config.t3Dmg Team 3 Schaden
 server.config.t4Dmg Team 4 Schaden
 server.config.t5Dmg Team 5 Schaden
 server.config.selTeam Team auswählen
-server.config.frFire Friendly Fire
+server.config.frFire Eigenbeschuss
 server.config.allowSpect Zuschauen
 server.config.killRewards Abschuss-Belohnung
 server.config.headshotOnly Nur Kopfschüsse
@@ -751,7 +751,7 @@ server.config.bDrop Geschoss-Drop
 server.config.thirdPerson Dritte Person
 server.config.requireCaptcha Benötigt Captcha
 server.config.nameTags Namen ausblenden
-server.config.nameTagsFR Hide Nametags (Allies)
+server.config.nameTagsFR Team Namen ausblenden
 server.config.kCams Kill Cams
 server.config.aAnon Anonymen Modus erlauben
 server.config.noReload Kein Nachladen
@@ -767,7 +767,7 @@ server.config.scoreLimit Punkte Limit
 server.config.keepTScore Team Punktestand beibehalten
 server.config.forceC Modus-Klassen erzwingen
 server.config.logTim Zeiten protokollieren (Rennen, Parkour)
-server.config.lstChkT Last Checkpoint Time Rewind (Race/Bhop)
+server.config.lstChkT Zurückspulen zum letzten Checkpoint (Rennen, Parkour)
 server.config.hitBoxPad Hitbox Polsterung
 server.config.hpRegen Lebens-Regeneration
 server.config.disableB Grenzen deaktivieren
@@ -856,11 +856,11 @@ mod.reset.1 Map Objekte werden nicht zurückgesetzt
 windows.profile.picture Bild ändern
 stats.assists Assists
 stats.nukes Nukes
-stats.slimers Slimers
-stats.juggernauts Juggernauts
-stats.juggernauts.kills Juggernaut Kills
-stats.juggernauts.killed Juggernauts Killed
-stats.warmachines War Machines
+stats.slimers Schleimkanone
+stats.juggernauts Juggernauten
+stats.juggernauts.kills Juggernauten-Abschüsse
+stats.juggernauts.killed Juggernauten getötet
+stats.warmachines Kriegsmaschine
 stats.melee Messer-Abschüsse
 stats.fistkills Faust-Abschüsse
 stats.thrownkills Wurfmesser-Abschüsse
@@ -869,10 +869,10 @@ stats.wallbangs Wallbangs
 stats.crouches Hocken
 stats.sprays Platzierte Graffitis
 stats.kpd Nützliche Reports
-stats.shots Shots
-stats.hits Hits
-stats.misses Misses
-stats.legshots Legshots
+stats.shots Schüsse
+stats.hits Treffer
+stats.misses Verfehlte Schüsse
+stats.legshots Beinschüsse
 windows.host.default.settings Durch aktivieren der Standardeinstellungen, können Spielerfortschritte und Höchstwerte gespeichert werden.
 windows.host.default.commands *Host Befehle sind in diesem Modus deaktiviert: /noclip /god /smite etc
 windows.host.rewards KR Belohnungen einzuschalten zwingt den Server Standard-Einstellungen zu verwenden und erlaubt Spielern KR von der Map Kasse zu verdienen
@@ -1006,8 +1006,8 @@ server.message.kicked {0} wurde gekickt
 server.message.banned {0} wurde gebannt
 server.message.votekicked {0} wurde per vote gekickt
 server.message.arrested {0} wurde vom K.P.D verhaftet
-event.easter.golden.spawn A Golden egg is near
-event.easter.golden.despawn A Golden egg has gone
-event.easter.found.new {0} found {1}/{2} Eggs
-event.easter.found.old You already discovered this egg!
-event.easter.completed {0} completed the Egg hunt!
+event.easter.golden.spawn Ein goldenes Ei ist nah
+event.easter.golden.despawn Ein goldenes Ei ist verschwunden
+event.easter.found.new {0} fand {1}/{2} Eier
+event.easter.found.old Du hast dieses Ei bereits gefunden!
+event.easter.completed {0} hat die Eiersuche abgeschlossen!

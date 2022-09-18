@@ -6,7 +6,7 @@ menu.btn.maps Laro at Mapa
 menu.btn.mods Mods
 menu.btn.settings Settings
 menu.btn.customize Kustomisasyon
-menu.btn.invite Mag-anyaya
+menu.btn.invite Mag-imbita
 menu.btn.invite.clicked Nakopya
 menu.btn.join Sumali
 menu.btn.host Mag-host
@@ -31,7 +31,7 @@ generic.name Pangalan
 generic.level Antas
 generic.score Iskor
 generic.off Off
-generic.defeat PAGKATALO!
+generic.defeat NATALO!
 generic.victory TAGUMPAY! 
 generic.matchover Pagtatapos ng laro
 generic.matchaband Inabandonang paglaro
@@ -40,8 +40,8 @@ generic.unfollow I-Unfollow
 generic.followers Mga Tagahanga
 generic.following Mga Hinahangaan
 generic.games Mga laro
-generic.wins Panalo
-generic.lose Pagkatalo 
+generic.wins Mga Panalo
+generic.lose Mga Pagkatalo 
 generic.clan Samahan
 generic.games.played Blg. ng nalaro
 generic.games.won Mga panalo
@@ -54,8 +54,8 @@ generic.time Oras
 generic.logout Mag-Logout
 generic.logout.sessions Mag-logout sa lahat ng sesyon
 generic.username Username/Pangalan
-generic.password  Illagay ang password
-generic.register Magparehistro
+generic.password  Ilagay ang password
+generic.register Magrehistro
 generic.login Mag log-in
 generic.accuracy Accuracy
 player.waiting Naghihintay ng mga manlalaro
@@ -65,7 +65,7 @@ player.killstreak {0} on a {1} Kill Streak
 player.inactive Tinanggal sa laro dahil inaktibo
 player.disconnect HINDI MAKAKONEKTA
 timer.end Susunod na laro sa {0}
-leaderboard.empty Walang tao sa lobby
+leaderboard.empty Walang naglalaro sa lobby
 popup.checkpoint Checkpoint!
 app.play PINDUTIN UPANG MAGLARO
 app.spectate PINDUTIN PARA MAPANOOD
@@ -77,10 +77,10 @@ purchase.error May naganap na error
 purchase.error.click dito</a> subukan muli!
 purchase.error.limit Maaaring lumagpas ka sa iyong pang-araw-araw na limitasyon sa transaksyon. 
 settings.reset Mag-reset
-settings.reset.confirm Sigurado ka bang mag-reset ng inyong settings?
-settings.import iangkat
-settings.export iluwas
-settings.none Walang Nahanap na Mga settings
+settings.reset.confirm Sigurado ka ba na i-reset ang inyong settings?
+settings.import i-import
+settings.export i-export
+settings.none Hindi mahanap ang settings
 settings.backup Mga Back-up Settings
 settings.controls.change Palitan ang Keybinds
 settings.controls.press Pindutin ang Anumang Key
@@ -105,8 +105,8 @@ settings.experimental.mouseAccel Akselerasyon ng Mouse
 settings.experimental.tbInterp TB Interpolasyon
 settings.client.header Kliyente
 settings.client.unlimitedFrames Unlimited na FPS
-settings.client.gameCap Record ng Laro
-settings.client.experimental Experimental Features
+settings.client.gameCap Pagrekord ng Laro
+settings.client.experimental Eksperimental
 settings.client.discordRPC RPC sa Discord
 settings.client.resourceSwapper Pagpalit ng Resources
 settings.client.clearCache I-clear Ang Cache
@@ -128,9 +128,9 @@ settings.chat.unboxings Ipakita Ang Mga Unboxing
 settings.chat.chatOp Opacity ng Chat
 settings.chat.chatBGOp Chat BG Opacity
 settings.chat.chatHeight Tangkad ng Chat
-settings.chat.chatTimer Orasan ng Pag-chat
-settings.chat.chatTextOutline Chat Text Outline
-settings.chat.chatFilter Pagtakip ng Kabastusan at Bulgar na Salita
+settings.chat.chatTimer Pagitan ng Pag-chat
+settings.chat.chatTextOutline Outline ng Chat Text
+settings.chat.chatFilter Pagtakip ng bastos at bulgar na Salita
 settings.quality.header Kalidad 
 settings.quality.updRate Limitasyon sa Frame Rate
 settings.quality.rendDst Distansya ng Pag-render
@@ -169,17 +169,17 @@ settings.post.bloomStrength Lakas ng Pagningning
 settings.post.bloomRadius  Lawak ng Pagningning
 settings.post.ssao SSAO
 settings.post.ssaoRadius Lawak ng SSAO
-settings.interface.hitInd Ipakita Ang Mga Indikator ng Hit
-settings.interface.hitColor Kulay ng Indikator ng Hit
+settings.interface.hitInd Ipakita Ang Mga Indikasyon ng Pagtama
+settings.interface.hitColor Kulay ng Indikasyon ng Pagtama
 settings.interface.dmg Ipakita Ang Damage sa Manlalaro
-settings.interface.dmgType Show Damage
+settings.interface.dmgType Ipakita ang Damage
 settings.interface.dmgType.default Rounded
-settings.interface.dmgType.float Float
+settings.interface.dmgType.float Palutang
 settings.interface.dmgCol Kulay ng Damage sa Manlalaro
 settings.interface.critCol Kulay ng Kritikal
 settings.interface.header Itsura ng Interface
 settings.interface.scale  Sukat ng UI
-settings.interface.theme Game Theme
+settings.interface.theme Tema ng Laro
 settings.interface.ui Ipakita Ang UI
 settings.interface.scoreboard Gumamit ng Lumang Scoreboard
 settings.interface.oldBrowser Gumamit ng Lumang Browser
@@ -212,7 +212,7 @@ settings.interface.hideNames.enemy Kalaban Lamang
 settings.interface.hideNames.all Lahat ng Pangalan
 settings.interface.nametagStyle Estilo ng Pangalan
 settings.interface.nametagOpac Diin ng Pangalan
-settings.interface.nametagScale Nametag Scale
+settings.interface.nametagScale Scale ng Nametag
 settings.interface.nametagStyle.health Health Lamang
 settings.interface.nametagStyle.name Pangalan Lamang
 settings.interface.nametagStyle.nameLvl Pangalan at Antas Lamang
@@ -279,8 +279,8 @@ settings.crosshairm.color Kulay
 settings.crosshairm.shadow.color Shadow Color
 settings.crosshairm.shadow.thickness Shadow Thickness
 settings.crosshairm.size Laki
-settings.crosshairm.thickness Thickness
-settings.crosshairm.gap Gap
+settings.crosshairm.thickness Kakapalan
+settings.crosshairm.gap Pagitan
 settings.crosshairm.dot Tuldok
 settings.crosshairm.opacity.use Gumamit ng Custom Opacity
 settings.crosshairm.opacity.custom Ang Custom Opacity
@@ -305,10 +305,10 @@ settings.serverb.header Server Browser
 settings.serverb.oldBrowser Legacy Browser
 settings.serverb.defaultRegionOnly Default na Rehiyon Lamang
 settings.gameprivacy.header Pagkapribado ng Laro
-settings.gameprivacy.streamer Mode ng Streamer
+settings.gameprivacy.streamer Streamer Mode
 settings.gameprivacy.anon Anonymous Mode
 settings.gameprivacy.hideGameTitle Itago ang Pamagat ng Laro
-settings.gameprivacy.showRegion Show Region Info
+settings.gameprivacy.showRegion Ipakita ang Detalye ng Rehiyon
 settings.gameprivacy.verified Ipakita: Verification Badge
 settings.gameprivacy.premium Ipakita: Premium Badge
 settings.gameprivacy.partner Ipakita: Partnered Badge
@@ -349,9 +349,9 @@ settings.audio.sound Bolyum o Tunog Pangkalahatan
 settings.audio.ambient Bolyum ng Ambiyansa
 settings.audio.voice Bolyum ng Boses
 settings.audio.input Audio/Mic Input
-settings.audio.mic Mic Volume
-settings.audio.micquality Mic Quality
-settings.audio.weps Bolyum ng Tunog ng Armas
+settings.audio.mic Bolyum ng Mic
+settings.audio.micquality Kalidad ng Mic
+settings.audio.weps Bolyum ng mga Armas
 settings.audio.player Bolyum ng Player
 settings.audio.skin Bolyum ng Manlalaro
 settings.audio.ui UI Bolyum ng UI
@@ -365,7 +365,7 @@ settings.viewmodel.bobbing Pagtalbog ng Armas
 settings.viewmodel.leaning Pagsandal ang Armas
 settings.viewmodel.show.primary Ipakita ang Pangunahing Armas
 settings.viewmodel.show.secondary Ipakita ang Sekundarya
-settings.viewmodel.roundArms Pa-silindro na Braso
+settings.viewmodel.roundArms Silindrong Braso
 settings.viewmodel.show.melee Ipakita Ang Patalim
 settings.viewmodel.show.ads Itago Ang Armas Kapag naka-ADS
 settings.viewmodel.toggleAim I-toggle Ang Pag-aim
@@ -563,12 +563,12 @@ windows.controls.premium0 Naka noclip
 windows.controls.premium1 Naka godmode
 windows.controls.premium2 Patayin
 windows.controls.premium3 Smite
-windows.controls.reset Balik sa simula (Paligsahan at Parkour)
-windows.controls.resetLast Reset To Last Checkpoint (Parkour etc)
+windows.controls.reset Balik sa simula (Parkour, atbp)
+windows.controls.resetLast Bumalik sa huling checkpoint (Parkour, atbp)
 windows.controls.pretend Itago ang Laro
-windows.controls.noclipSB Noclip
+windows.controls.noclipSB Mag-Noclip
 windows.controls.godModeSB Godmode
-windows.controls.killSB Kill
+windows.controls.killSB Patayin
 windows.host.header Host ng Custom na Laro
 windows.host.maps Pag-setup ng Server
 windows.host.cmaps Laro mula sa Komunidad
@@ -651,22 +651,22 @@ windows.mods.community.hot Sikat!
 windows.mods.community.name Pangalan ng Mod
 windows.mods.community.none Walang nahanap na Mod
 windows.publish.mod.header Akda ang Mod
-windows.publish.mod.thumbnail No Thumbnail
+windows.publish.mod.thumbnail Walang Thumbnail
 windows.publish.mod.name Pangalan ng Mod
 windows.publish.mod.paste URL ng Mod
-windows.publish.mod.update Publish/Update
-windows.publish.mod.login upang lumikha at mag-upload ng mga mod!
+windows.publish.mod.update I-publish/I-update
+windows.publish.mod.login Log-in upang lumikha at mag-upload ng mga mod!
 windows.secondary.header Piliin ang Sekundarya
 windows.secondary.unlocked na-unlock
 windows.secondary.customOnly Customs Lamang
 windows.secondary.premiumOnly Premium Lamang
 windows.secondary.req Antas dapat ay {0}
 windows.skins.unlocked Unlocked
-windows.skins.customOnly Customs Only
-windows.skins.premiumOnly Premium Only
-windows.skins.classOnly Req {0}
-windows.skins.req Req lvl {0}
-windows.skins.default Default Skin
+windows.skins.customOnly Customs Lamang
+windows.skins.premiumOnly Premium Lamang
+windows.skins.classOnly Kinakailangang {0}
+windows.skins.req Kinakailangang lvl {0}
+windows.skins.default Default na Disenyo
 windows.advertise.header I-advertise
 windows.support.header Suporta
 windows.players.header Listahan ng manlalaro
@@ -680,11 +680,11 @@ windows.client.linux Installer sa Linux
 windows.ranked.header Rango
 windows.ranked.login Login upang magpataasan ng inyong rango!
 windows.ranked.level Hindi ka bababa sa Antas na <span color = "black"> level {0} </span> upang maglaro sa may ranggo. Ikaw ay kasalukuyang nasa Antas <span color = "black"> level {1} ​​</span>.
-windows.chall.header Mga Challenge
-windows.chall.login upang makumpleto ang mga challenge!
-windows.spin.header Prize Wheel
-thumbnail.upload.limit Failed. {0}kb Thumbnail Limit
-image.upload.limit Failed. {0}kb ang Limitasyon ng Larawan
+windows.chall.header Mga Hamon
+windows.chall.login maglog-in upang makumpleto ang mga hamon!
+windows.spin.header Mga Papremyo
+thumbnail.upload.limit Failed. {0}kb Limitasyon sa mga Thumbnail```
+image.upload.limit Failed. {0}kb ang Limitasyon sa mga Larawan
 thumbnail.upload.error Nag-error ang Thumbnail
 mod.extracting Kumukuha ng {0} / {1}
 mod.disabled Hindi pinagana ang mga mod
@@ -696,7 +696,7 @@ matchmaker.GameFull Puno na ang laro.
 matchmaker.NoServersMatchQuery NAG-UUPDATE ANG LARO!
 matchmaker.InvalidGameId Hindi mahanap ang laro
 matchmaker.NoAvailableServers Puno na ang mga servers
-matchmaker.NoMatchingServers No Games Found<br><small>Try changing Quickplay options</small>
+matchmaker.NoMatchingServers Walang nahanap na laro<br><small>Subukang palitan ang Quickplay options</small>
 matchmaker.GameIssue Hindi matukoy ang isyu
 adblocker Tanggalin ang iyong ad-blocker upang makatanggap ng mga libreng KR.
 ad-failed Hindi Nag-load ang Ad. Subukang muli.
@@ -737,11 +737,11 @@ server.config.t2Dmg Damage ng Pangkat 2
 server.config.t3Dmg Damage ng Pangkat 3
 server.config.t4Dmg Damage ng Pangkat 4
 server.config.t5Dmg Damage ng Pangkat 5
-server.config.selTeam Piliin Ang Pangkat 
-server.config.frFire Friendly Fire
+server.config.selTeam Pumili ng Pangkat 
+server.config.frFire Pwedeng Barilin ang Kakampi
 server.config.allowSpect Panonood ng Laro
-server.config.killRewards Gantimpala kapag nakapatay
-server.config.headshotOnly Mga headshot Lamang
+server.config.killRewards Gantimpala kapag may napatay
+server.config.headshotOnly Mga Headshot Lamang
 server.config.noSecondary Bawal Ang Mga Sekundarya
 server.config.noStreaks Bawal Ang killstreaks
 server.config.canSlide Pagdududulas
@@ -751,7 +751,7 @@ server.config.bDrop Mga Bullet Drops
 server.config.thirdPerson Tingin ng 3rd Person View
 server.config.requireCaptcha Kailangan ng CAPTCHA
 server.config.nameTags Itago Ang Mga Nametag
-server.config.nameTagsFR Hide Nametags (Allies)
+server.config.nameTagsFR Itago Mga Pangalan (Kakampi)
 server.config.kCams Mga Kill Cams
 server.config.aAnon Payagan Ang Mga Anonymous
 server.config.noReload Walang Reload
@@ -828,11 +828,11 @@ social.market.gift.amount Halaga sa Regalo
 social.market.fee.gift Walang Bayad
 social.market.gift Magregalo ng KR
 social.market.gift.msg Mag-iwan ng mensahe
-respawn.auto Auto Respawning sa {0}
+respawn.auto Kusang Magrerespawn sa {0}
 custom.host.ranked Hindi ma-host habang naglalaro sa 'Ranked'
-custom.host.wager Can't host match while in Wager.
-funds.insufficient Hindi sapat na KR
-funds.out Ubos ang KR
+custom.host.wager Hindi pwede mag-host habang mayroong wager
+funds.insufficient Hindi sapat ang KR
+funds.out Ubos na ang iyong KR.
 custom.passcode.long Masyadong mahaba ang password 
 custom.passcode.input Ipasok ang password ng server upang sumali
 custom.tryagain subukan muli
@@ -854,25 +854,25 @@ spin.free.disable Ang mga Popup na ito ay maaaring hindi paganahin sa Mga Pangka
 mod.reset.0 Lumabas ang mga 'Effects' pagkatapos mag-respawn
 mod.reset.1 Mga Bagay sa Mapa hindi ma-reset
 windows.profile.picture Palitan ang Larawan
-stats.assists Mga Assist
-stats.nukes Mga Nuke
-stats.slimers Slimers
-stats.juggernauts Juggernauts
-stats.juggernauts.kills Juggernaut Kills
-stats.juggernauts.killed Juggernauts Killed
-stats.warmachines War Machines
+stats.assists Mga Pagtulong
+stats.nukes Mga Nukes
+stats.slimers Mga Slimers
+stats.juggernauts Mga Juggernauts
+stats.juggernauts.kills Mga Pinatay ng Juggernaut
+stats.juggernauts.killed Mga Juggernaut na Pinatay
+stats.warmachines Mga War Machines
 stats.melee Nasaksak
 stats.fistkills Pagbugbog
-stats.thrownkills Nabatuhan ng talim
-stats.headshots Mga headshot
-stats.wallbangs Mga wallbang
+stats.thrownkills Binatuhan ng Talim
+stats.headshots Mga Headshot
+stats.wallbangs Mga Wallbang
 stats.crouches Mga pagyuko
-stats.sprays Mga pag-spray
+stats.sprays Mga Pag-spray
 stats.kpd Matulunging KPD report
-stats.shots Shots
-stats.hits Hits
-stats.misses Misses
-stats.legshots Legshots
+stats.shots Mga Shot
+stats.hits Mga Tama
+stats.misses Mga Hindi Tumama
+stats.legshots Mga Tama sa Paa
 windows.host.default.settings Ang pagpapagana ng Default na Mga Setting ay nagbibigay-daan para sa pagtatago ng Player Progress at Highscores
 windows.host.default.commands * Ang Mga Command ng Host ay Hindi Pinapagana sa mode na ito: / noclip / god / smite atbp
 windows.host.rewards Pinipilit ng pagpapagana ng KR Rewards ang Server na gumamit ng Default na Mga Setting
@@ -993,21 +993,21 @@ commands.suspect.invalid walang valid na inpormasyon ang suspek
 commands.suspect.menu Ang suspek ay nasa menu
 commands.suspect.left Ang suspek ay umalis
 commands.suspect.found Nahanap na ang suspek. nanonood: {0}, spawned: {1}, pangalan: {2}
-commands.forfeit.next Kailangan maglaro muna ng 1 laban
+commands.forfeit.next Kailangan maglaro muna ng isang beses
 commands.forfeit.wait Hintayin munang magsimula ang laro upang maka-forfeit 
 commands.forfeit.later Ulitin nalang muli mamaya
-commands.forfeit.voted Ikaw ay bumoto na.
-commands.forfeit.limit Isang beses kalang makababoto sa isang laro
-commands.forfeit.ended Iniwan na ang laro
-commands.forfeit.ended.other Umalis na ang kabilang grupo
-server.message.join si {0} ay sumali sa laro
-server.message.left si {0} ay umalis sa laro
-server.message.kicked si {0} ay natanggal sa laro
-server.message.banned si {0} ay na-ban
-server.message.votekicked na vote-kick si {0} 
-server.message.arrested si {0} ay nahuli ng K.P.D
-event.easter.golden.spawn A Golden egg is near
-event.easter.golden.despawn A Golden egg has gone
-event.easter.found.new {0} found {1}/{2} Eggs
-event.easter.found.old You already discovered this egg!
-event.easter.completed {0} completed the Egg hunt!
+commands.forfeit.voted Nakaboto ka na.
+commands.forfeit.limit Isang beses kalang makaboboto sa isang laro
+commands.forfeit.ended Sumuko na sa laro
+commands.forfeit.ended.other Sumuko na ang kalaban
+server.message.join Si {0} ay sumali sa laro
+server.message.left Si {0} ay umalis sa laro
+server.message.kicked Si {0} ay natanggal sa laro
+server.message.banned Si {0} ay na-ban
+server.message.votekicked Na-vote kick si {0} 
+server.message.arrested Si {0} ay naaresto ng K.P.D
+event.easter.golden.spawn Nagkaroon ng Gintong Itlog
+event.easter.golden.despawn Nawala ang Gintong Itlog
+event.easter.found.new Nakahanap si {0} ng {1}/{2} na Gintong Itlog
+event.easter.found.old Nahanap mo na ang Itlog na ito!
+event.easter.completed Nakumpleto ni {0} ang Egg Hunt!
