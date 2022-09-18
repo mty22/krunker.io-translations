@@ -750,7 +750,7 @@ server.config.autoJump Automatisch Springen
 server.config.bDrop Geschoss-Drop
 server.config.thirdPerson Dritte Person
 server.config.requireCaptcha Benötigt Captcha
-server.config.nameTags Namen ausblenden
+server.config.nameTags Namen ausblenden (Enemies)
 server.config.nameTagsFR Team Namen ausblenden
 server.config.kCams Kill Cams
 server.config.aAnon Anonymen Modus erlauben

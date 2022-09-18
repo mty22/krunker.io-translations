@@ -528,7 +528,7 @@ windows.controls.equip Gamitin
 windows.controls.chat Pag-Uusap
 windows.controls.voice Boses
 windows.controls.list Listahan Ng Mga Manlalaro
-windows.controls.board Leaderboard
+windows.controls.board InGame Leaderboard
 windows.controls.interact Interaksyon
 windows.controls.interactSec Pangalawang Interaksyon
 windows.controls.confirm Kumpirmahin Ang Interaksyon
