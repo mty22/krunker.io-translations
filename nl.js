@@ -58,7 +58,7 @@ generic.password Wachtwoord Invoeren
 generic.register Registreren
 generic.login Inloggen
 generic.accuracy Nauwkeurigheid
-player.waiting Wachten op spelers
+player.waiting wachten op spelers
 player.died Je stierf
 player.killed Gedood door
 player.killstreak {0} on a {1} Kill Streak
@@ -528,7 +528,7 @@ windows.controls.equip Uitrusting
 windows.controls.chat Chat
 windows.controls.voice Stem
 windows.controls.list Spelerlijst
-windows.controls.board Scorebord
+windows.controls.board InGame Leaderboard
 windows.controls.interact Interactie
 windows.controls.interactSec Secundaire interactie
 windows.controls.confirm Bevestig Interactie
@@ -750,7 +750,7 @@ server.config.autoJump Auto Springen
 server.config.bDrop Kogel Drop
 server.config.thirdPerson 3e Persoon
 server.config.requireCaptcha Captcha Vereist
-server.config.nameTags Verstop Naamplaatjes
+server.config.nameTags Verstop Naamplaatjes (Enemies)
 server.config.nameTagsFR Hide Nametags (Allies)
 server.config.kCams Kill Camera
 server.config.aAnon Anoniem Toestaan
