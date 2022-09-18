@@ -2,7 +2,7 @@
 # More on CODEOWNERS files: https://help.github.com/en/github/creating-cloning-and-archiving-repositories/about-code-owners
 
 # German
-de.js @bodeneinheit @AndoKPD
+de.js @AndoKPD
 
 # Dutch
 nl.js @nickauthentic @gluzly @AdoreMe-GitHub
