@@ -1,10 +1,11 @@
-29/MAY/2022 update
+18/SEP/2022 update
 
 Current statuses of languages in-game (these are prioritised).
 
 Read as "Language,live patch level". For example "Japanese,v4.2.2" means Japanese language is currently at v4.2.2 -- visible here: https://github.com/mty22/krunker.io-translations/commits/main/en.js
 
-Hindi - https://github.com/mty22/krunker.io-translations/pull/444
-Spanish - https://github.com/mty22/krunker.io-translations/pull/440
-Russian - https://github.com/mty22/krunker.io-translations/pull/422
-Korean - https://github.com/mty22/krunker.io-translations/pull/417
+REVIEWERS NEEDED:
+
+Russian - https://github.com/mty22/krunker.io-translations/pull/493
+Spanish - https://github.com/mty22/krunker.io-translations/pull/473
+Dutch - https://github.com/mty22/krunker.io-translations/pull/497
