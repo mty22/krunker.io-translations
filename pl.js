@@ -750,7 +750,7 @@ server.config.autoJump Automatyczne skakanie
 server.config.bDrop Upadek pocisków
 server.config.thirdPerson Tryb trzecioosobowy
 server.config.requireCaptcha Wymagaj captchy
-server.config.nameTags Ukryj nazwy przeciwników
+server.config.nameTags Ukryj nazwy przeciwników (Enemies)
 server.config.nameTagsFR Ukryj nazwy sojuszników
 server.config.kCams Kamery zabójstw
 server.config.aAnon Zezwalaj na korzystanie z trybu anonimowego
