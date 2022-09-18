@@ -23,8 +23,8 @@ generic.search Zoeken
 generic.leave Verlaat
 generic.default Standaard
 generic.submit Versturen
-generic.create Creëren
-generic.random Willekeurig 
+generic.create Maken
+generic.random Willekeurig(e) 
 generic.failed Gefaald
 generic.success Sucess!
 generic.name Naam
@@ -47,8 +47,8 @@ generic.games.played Spellen Gespeeld
 generic.games.won Spellen Gewonnen
 generic.games.lost Spellen Verloren
 generic.timep Tijd Gespeeld
-generic.kills Vermoord
-generic.deaths Doden
+generic.kills Kills
+generic.deaths Keer dood gegaan
 generic.kdr KDR
 generic.time Tijd
 generic.logout Uitloggen
@@ -58,7 +58,7 @@ generic.password Wachtwoord Invoeren
 generic.register Registreren
 generic.login Inloggen
 generic.accuracy Nauwkeurigheid
-player.waiting wachten op spelers
+player.waiting Wachten op spelers
 player.died Je stierf
 player.killed Gedood door
 player.killstreak {0} on a {1} Kill Streak
@@ -70,7 +70,7 @@ popup.checkpoint Checkpoint!
 app.play KLIK OM TE SPELEN
 app.spectate KLIK OM TOE TE KIJKEN
 app.play.mobile TAP OM TE SPELEN
-app.spectate.mobile TAP OM TE SPECTATEN
+app.spectate.mobile TAP OM TOE TE KIJKEN
 app.play.controller KLIK START
 app.spectate.controller START MET TOEKIJKEN
 purchase.error Fout opgetreden
@@ -120,7 +120,7 @@ settings.dev.forceUpdate Forceer Update Skins
 settings.dev.forceRegen Altijd Speler Regenereren
 settings.dev.extraBan Extra Ban Info
 settings.chat.header Chat
-settings.chat.chat Toon Chat Box
+settings.chat.chat Toon Chat
 settings.chat.chat.all Altijd
 settings.chat.chat.focus Terwijl Gefocused 
 settings.chat.messages Toon Speler Berichten
@@ -826,19 +826,19 @@ social.market.price.high Hoogste Prijs
 social.trading.submitting Bieding Inzenden...
 social.market.gift.amount Gift Bedrag in
 social.market.fee.gift Geen Extra Kosten
-social.market.gift Gift KR
+social.market.gift Geef KR
 social.market.gift.msg Laat een bericht achter
 respawn.auto Auto Respawnen in {0}
 custom.host.ranked Kan geen match hosten in ranked.
-custom.host.wager Can't host match while in Wager.
+custom.host.wager Kan geen match hosten in Wager.
 funds.insufficient Onvoldoende Middelen
 funds.out Het lijkt erop dat je geen Krunkies meer hebt.
 custom.passcode.long Wachtwoord te lang
 custom.passcode.input Voer je Server Wachtwoord in om toe te treden
 custom.tryagain Probeer het A.U.B. opnieuw
-purchase.kr.success {0} KR toegevoegd aan je account
+purchase.kr.success Succesvol {0} KR toegevoegd aan je account
 limited.purchase.ask Weet je zeker dat je [{0}] wilt kopen voor {1} KR?
-limited.purchase.success {0} Toegevoegd aan je inventaris
+limited.purchase.success {0} Is succesvol toegevoegd aan je inventaris
 pretend.exit Klik nog een keer op [{0}] om weg te gaan
 settings.loaded Instellingen Geladen
 settings.loaded.none Geen instelling gevonden
@@ -884,19 +884,19 @@ twitch.link Weet je zeker dat je een Twitch account wilt linken?
 twitch.unlink Weet je zeker dat je jouw Twitch account with unlinken?
 windows.clan.leave Weet je zeker dat je de clan wilt verlaten?
 windows.clan.delete Weet je zeker dat je de clan wilt verwijderen?
-windows.clan.kick Weet je zeker dat je {0} wilt kicken van de clan?
-windows.store.premium.purchase Weet je zeker dat je {0} dagen Premium wilt kopen?
-windows.store.premium.gift Weet Je Zeker Dat Je'{0}' {1} Dagen Van Premium Cadeu Wilt Doen?
+windows.clan.kick Weet je zeker dat je {0} uit de clan wilt kicken?
+windows.store.premium.purchase Weet je zeker dat je Premium wilt kopen voor {0} dagen?
+windows.store.premium.gift Weet je zeker dat je '{0}' {1} dag(en) Premium cadeu wilt doen?
 windows.playerlist.ban Weet je zeker dat je {0} wilt verbannen van deze game?
 windows.playerlist.flag Weet je zeker dat je {0} wilt markeren?
 windows.playerlist.unflag Weet je zeker dat je {0} wilt onmarkeren?
 windows.playerlist.punish Weet je zeker dat je actie wilt ondernemen op {0}?
 item.view.open Open Model Viewer
 item.view.more Meer Informatie
-item.sell.cant Dit Item Kan Niet Verkocht Worden.
-item.sell.cant.krunker Item cant be sold on krunker.
-item.sell.quick Weet Je Zeker Dat Je Dit Snel Wilt Verkopen {0}?
-item.sell.destroy Are you sure you want to Destroy {0}?
+item.sell.cant Dit item kan niet verkocht worden.
+item.sell.cant.krunker Dit item kan niet verkocht worden op Krunker.
+item.sell.quick Weet je zeker dat je dit snel wilt verkopen {0}?
+item.sell.destroy Weet je zeker dat je {0} wilt vernietigen?
 social.profile.stats Algemene Statistieken
 social.profile.class Class Statistieken
 social.profile.sales Verkopen
@@ -909,7 +909,7 @@ social.profile.assets Assets [{0}]
 social.profile.assets.none Geen Gepubliceerde Middelen Van Deze Gebruiker
 social.profile.mods Mods [{0}]
 social.profile.mods.none Geen Gepubliceerde Mods Van Deze Gebruiker
-social.search Zoek Resultaten
+social.search Zoeken
 social.market.stats.rare Zeldzaamste Items
 social.market.stats.circulation In Circulatie
 social.market.stats.units Hoeveelheid Wereldwijd
@@ -926,27 +926,27 @@ social.trades.accept Weet Je Zeker Dat Je Deze Trade Wilt Accepteren?
 stats.airdrops KR-Packages
 stats.airdrops.stolen Airdrops Gestolen
 settings.quality.flapAnim Sniper Flap Animatie
-chall.name.hs Get {0} headshots {1}
-chall.name.ns Get {0} no-scopes {1}
-chall.name.ls Get {0} beenschoten {1}
-chall.name.tmk Get {0} mes werp kills {1}
-chall.name.fb Get {0} eerste kills {1}
-chall.name.mk Get {0} melee kills {1}
-chall.name.fk Get {0} vuist kills {1}
-chall.name.qs Get {0} quickscopes {1}
-chall.name.wb Get {0} muurschoten {1}
-chall.name.airk Get {0} mid-lucht kills {1}
-chall.name.lns Get {0} longshots {1}
-chall.name.tk Get {0} turbo kills {1}
-chall.name.drk Get {0} drift kills {1}
-chall.name.kstk Get a {0} killstreak {1}
+chall.name.hs Krijg {0} headshots {1}
+chall.name.ns Krijg {0} no-scopes {1}
+chall.name.ls Krijg {0} beenschoten {1}
+chall.name.tmk Krijg {0} mes werp kills {1}
+chall.name.fb Krijg {0} eerste kills {1}
+chall.name.mk Krijg {0} melee kills {1}
+chall.name.fk Krijg {0} vuist kills {1}
+chall.name.qs Krijg {0} quickscopes {1}
+chall.name.wb Krijg {0} muurschoten {1}
+chall.name.airk Krijg {0} mid-lucht kills {1}
+chall.name.lns Krijg {0} longshots {1}
+chall.name.tk Krijg {0} turbo kills {1}
+chall.name.drk Krijg {0} drift kills {1}
+chall.name.kstk Krijg een {0} killstreak {1}
 chall.name.w Win {0} games
 chall.name.d Die {0} keer
-chall.name.score Get {0} score
-chall.name.dmg Deal {0} schade {1}
-chall.name.bzk Get {0} buzz kills {1}
-chall.name.cc Get {0} close-calls {1}
-chall.name.rk Deal {0} wraak kills {1}
+chall.name.score Krijg {0} score
+chall.name.dmg Dien {0} schade {1} toe
+chall.name.bzk Krijg {0} buzz kills {1}
+chall.name.cc Krijg {0} close-calls {1}
+chall.name.rk Dien {0} wraak kills {1} toe
 event.doubleXP 2x Class XP ingeschakeld voor deze match
 ranked.join Joined Ranked Match. Het verlaten van een match resulteert in een tijdelijke verbanning.
 ranked.progress Spel Bezig
@@ -1006,8 +1006,8 @@ server.message.kicked {0} werd eruit gegooid
 server.message.banned {0} werd gebanned
 server.message.votekicked {0} werd weggestemd
 server.message.arrested {0} werd gearresteerd door de KPD
-event.easter.golden.spawn A Golden egg is near
-event.easter.golden.despawn A Golden egg has gone
-event.easter.found.new {0} found {1}/{2} Eggs
-event.easter.found.old You already discovered this egg!
-event.easter.completed {0} completed the Egg hunt!
+event.easter.golden.spawn Er is een gouden ei in de buurt
+event.easter.golden.despawn Er is een Gouden ei weg
+event.easter.found.new {0} Heeft {1}/{2} eieren gevonden
+event.easter.found.old Je hebt dit ei al gevonden!
+event.easter.completed {0} heeft de eierjacht voltooid!
