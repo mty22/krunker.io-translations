@@ -1,4 +1,4 @@
-module.exports = `
+module.exports = `exportieren
 menu.btn.ranked Ranked
 menu.btn.shop Markt
 menu.btn.social Soziales
@@ -968,7 +968,7 @@ modes.prophunt.rotation.off [Prop Hunt] Rotation aus
 modes.prophunt.rotation.reset [Prop Hunt] Rotation zurückgesetzt.
 commands.login Melde dich an um diesen Befehl zu verwenden
 commands.connected {0} Verbunden, {1} im Menü
-commands.host {0} ist der aktuelle Host.
+commands.host {0} ist der aktuelle Gastgeber.
 commands.noclip.on Noclip - Ein
 commands.noclip.off Noclip - Aus
 commands.god.on God mode - Ein
@@ -995,7 +995,7 @@ commands.suspect.left Verdächtiger hat das Spiel verlassen
 commands.suspect.found Verdächtigter Gefunden. Schaut zu: {0}, Spielt: {1}, Name: {2}
 commands.forfeit.next Du musst mindestens eine Runde spielen
 commands.forfeit.wait Warte bis das Spiel startet um aufzugeben
-commands.forfeit.later Versuche es in ein paar Sekunden nochmal
+commands.forfeit.later Versuche es nach ein paar Sekunden
 commands.forfeit.voted Du hast schon abgestimmt
 commands.forfeit.limit Du kannst nur eine Abstimmung pro Spiel starten
 commands.forfeit.ended Spiel wird aufgegeben
@@ -1009,5 +1009,5 @@ server.message.arrested {0} wurde vom K.P.D verhaftet
 event.easter.golden.spawn Ein goldenes Ei ist nah
 event.easter.golden.despawn Ein goldenes Ei ist verschwunden
 event.easter.found.new {0} fand {1}/{2} Eier
-event.easter.found.old Du hast dieses Ei bereits gefunden!
+event.easter.found.old Du hast schon diesen Ei bereits gefunden!
 event.easter.completed {0} hat die Eiersuche abgeschlossen!
