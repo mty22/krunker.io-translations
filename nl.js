@@ -661,7 +661,7 @@ windows.secondary.unlocked Ontgrendeld
 windows.secondary.customOnly Alleen Customs
 windows.secondary.premiumOnly Alleen Premium
 windows.secondary.req Req lvl {0}
-windows.skins.unlocked Unlocked
+windows.skins.unlocked Ontgrendeld
 windows.skins.customOnly Alleen Customs
 windows.skins.premiumOnly Alleen Premium
 windows.skins.classOnly Req {0}
@@ -680,9 +680,9 @@ windows.client.linux Linux Installateur
 windows.ranked.header Ranked
 windows.ranked.login om te spelen in ranked games!
 windows.ranked.level Je moet tenminste level <span color="black">level {0}</span> om te spelen in Ranked games! Op dit moment ben je <span color="black">level {1}</span>.
-windows.chall.header Challenges
-windows.chall.login om challenges te voltooien!
-windows.spin.header Prize Wheel
+windows.chall.header Uitdagingen
+windows.chall.login om uitdagingen te voltooien!
+windows.spin.header Prijzenrad
 thumbnail.upload.limit Gefaald. {0}kb Thumbnail Limiet
 image.upload.limit Gefaald. {0}kb Foto Limiet
 thumbnail.upload.error Thumbnail Error
@@ -696,7 +696,7 @@ matchmaker.GameFull Game is vol.
 matchmaker.NoServersMatchQuery GAME AAN HET UPDATEN
 matchmaker.InvalidGameId Game niet gevonden.
 matchmaker.NoAvailableServers Servers zijn op maximale capaciteit
-matchmaker.NoMatchingServers No Games Found<br><small>Try changing Quickplay options</small>
+matchmaker.NoMatchingServers Geen games gevonden<br><small>Probeer de Quickplay opties te wijzigen</small>
 matchmaker.GameIssue Unknown Join Issue
 adblocker Zet je ad blocker uit om gratis Krunkies te krijgen.
 ad-failed Ad Mislukt om te laden. Probeer Opnieuw!
@@ -1003,7 +1003,7 @@ commands.forfeit.ended.other Andere Team heeft het Opgegeven
 server.message.join {0} doet mee aan het spel
 server.message.left {0} heeft het spel verlaten
 server.message.kicked {0} werd eruit gegooid
-server.message.banned {0} werd gebanned
+server.message.banned {0} werd verbannen
 server.message.votekicked {0} werd weggestemd
 server.message.arrested {0} werd gearresteerd door de KPD
 event.easter.golden.spawn Er is een gouden ei in de buurt
