@@ -1,5 +1,5 @@
 module.exports = `
-menu.btn.ranked Ranked
+menu.btn.ranked Competitief
 menu.btn.shop Winkel
 menu.btn.social Hub
 menu.btn.maps Games
@@ -8,7 +8,7 @@ menu.btn.settings Instellingen
 menu.btn.customize Aanpassen
 menu.btn.invite Uitnodigen
 menu.btn.invite.clicked Gekopieerd
-menu.btn.join Join
+menu.btn.join Deelnemen
 menu.btn.host Game hosten
 menu.btn.browser Servers
 generic.wait Een moment geduld...
@@ -48,7 +48,7 @@ generic.games.won Spellen Gewonnen
 generic.games.lost Spellen Verloren
 generic.timep Tijd Gespeeld
 generic.kills Kills
-generic.deaths Keer dood gegaan
+generic.deaths Aantal keren dood gegaan
 generic.kdr KDR
 generic.time Tijd
 generic.logout Uitloggen
@@ -69,8 +69,8 @@ leaderboard.empty Lege Lobby
 popup.checkpoint Checkpoint!
 app.play KLIK OM TE SPELEN
 app.spectate KLIK OM TOE TE KIJKEN
-app.play.mobile TAP OM TE SPELEN
-app.spectate.mobile TAP OM TOE TE KIJKEN
+app.play.mobile KLIK OM TE SPELEN
+app.spectate.mobile KLIK OM TOE TE KIJKEN
 app.play.controller KLIK START
 app.spectate.controller START MET TOEKIJKEN
 purchase.error Fout opgetreden
@@ -82,7 +82,7 @@ settings.import Importeren
 settings.export Exporteren
 settings.none Geen instellingen gevonden
 settings.backup Backup Instellingen
-settings.controls.change Keybinds
+settings.controls.change Sneltoetsen
 settings.controls.press Klik op een Willekeurige toets 
 settings.controls.leaderboard InGame Leaderboard Trigger Type
 settings.controls.voicechat Voicechat Trigger Type
@@ -135,10 +135,10 @@ settings.quality.header Prestatie
 settings.quality.updRate Frame Limiet
 settings.quality.rendDst Render Afstand
 settings.quality.res Resolutie
-settings.quality.part Particles
+settings.quality.part Deeltjes
 settings.quality.mapDet Map Details
 settings.quality.noTex Geen Texturen
-settings.quality.partdist Particle Afstand
+settings.quality.partdist Deeltjes Afstand
 settings.quality.renderdist Render Weergaveafstand
 settings.quality.reflection Reflectie Kwaliteit
 settings.quality.antiAlias Antialiasing
