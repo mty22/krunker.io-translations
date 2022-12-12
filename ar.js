@@ -309,7 +309,7 @@ settings.gameprivacy.streamer وضع البث او ستريمر
 settings.gameprivacy.anon وضع مجهول
 settings.gameprivacy.hideGameTitle اخفاء عنوان اللعبة
 settings.gameprivacy.showRegion اظهار معلومات المنطقة
-settings.gameprivacy.verified اظهار شاشة التوثيق
+settings.gameprivacy.verified اظهار شارة التوثيق
 settings.gameprivacy.premium اظهار شارة العضوية المميزة
 settings.gameprivacy.partner اظهار شارة الشراكة
 settings.gameprivacy.rank اظهار شارة المصنفة
@@ -506,7 +506,7 @@ windows.mods.load.header رفع الاوضاع
 windows.mods.publish نشر وضع
 windows.mods.viewer مشاهد
 windows.account.header حساب
-windows.account.recover لاستعادة جهة تواصل مع الايميل <a>recovery@yendis.ch</a>
+windows.account.recover لاستعادة جهة الحساب تواصل مع الايميل <a>recovery@yendis.ch</a>
 windows.class.header اختار صف
 windows.controls.header تغيير التحكمات
 windows.controls.forward الى الامام
@@ -523,8 +523,8 @@ windows.controls.jump قفز
 windows.controls.crouch انحناء
 windows.controls.prim السلاح الاول
 windows.controls.swap السلاح الثانوي
-windows.controls.melee Melee Weapon
-windows.controls.equip Equipment
+windows.controls.melee السلاح الابيض
+windows.controls.equip ارتداء
 windows.controls.chat دردشة
 windows.controls.voice صوت
 windows.controls.list لائحة اللاعبين
@@ -713,7 +713,7 @@ server.config.minPlayers اقل لاعبين
 server.config.lives فرص الحياة
 server.config.gameTime دقائق
 server.config.gravMlt جاذبية
-server.config.tickRI معدل عالٍ
+server.config.tickRI معدل عال
 server.config.maxPS 40 خادم لاعب
 server.config.promServ ترقية الخادم
 server.config.jumpMlt قوة القفز
@@ -829,7 +829,7 @@ social.market.fee.gift بدون رسوم
 social.market.gift هدية كر
 social.market.gift.msg اترك رسالة
 respawn.auto Auto اعادة احياء في {0}
-custom.host.ranked Can't host match while in ranked.
+custom.host.ranked لا يمكن استضافة المباراة أثناء الوضع المصنف.
 custom.host.wager لا يمكن استضافة المباراة أثناء الرهان.
 funds.insufficient رصيد غير كاف
 funds.out يبدو أنك نفدت من كرنكيز.
