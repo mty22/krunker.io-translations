@@ -67,10 +67,10 @@ player.disconnect ÜHENDUS KATKES
 timer.end Järgmine round algab {0}
 leaderboard.empty Tühi ooteruum
 popup.checkpoint Checkpoint!
-app.play BERÜHRE ZUM SPIELEN
-app.spectate KLICKE ZUM ZUSCHAUEN
-app.play.mobile KLICKE ZUM SPIELEN
-app.spectate.mobile BERÜHRE ZUM ZUSCHAUEN
+app.play MÄNGIMISEKS VAJUTAGE 
+app.spectate VAATAMISEKS VAJUTAGE
+app.play.mobile MÄNGIMISEKS VAJUTAGE
+app.spectate.mobile VAATAMISEKS VAJUTAGE
 app.play.controller START DRÜCKEN
 app.spectate.controller START zum ZUSCHAUEN
 purchase.error Ein Fehler ist aufgetreten
