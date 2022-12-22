@@ -1,5 +1,5 @@
 module.exports = `
-menu.btn.ranked 랭크전
+menu.btn.ranked 랭킹전
 menu.btn.shop 상점
 menu.btn.social 허브
 menu.btn.maps 사용자 지정 게임
@@ -34,9 +34,9 @@ generic.off 끄기
 generic.defeat 패배
 generic.victory 승리
 generic.matchover 매치 종료
-generic.matchaband 상대가 게임을 나갔습니다
+generic.matchaband 상대방이 매치를 떠났습니다
 generic.follow 팔로우
-generic.unfollow 언팔로우
+generic.unfollow 팔로우 취소
 generic.followers 팔로워
 generic.following 팔로잉
 generic.games 게임 수
@@ -62,7 +62,7 @@ player.waiting 플레이어 기다리는 중
 player.died 죽었습니다
 player.killed 나를 죽인 플레이어
 player.killstreak {0} on a {1} Kill Streak
-player.inactive 장시간 활동하지 않아 게임에서 퇴장되었습니다
+player.inactive 장시간 활동하지 않아 게임에서 퇴장당했습니다
 player.disconnect 연결 끊김
 timer.end {0}초 후 다음 라운드가 시작합니다
 leaderboard.empty 빈 로비
@@ -96,9 +96,9 @@ settings.network.lagComp 지연 시간 보정
 settings.network.optNet 네트워크 최적화
 settings.network.quickplay 빠른 플레이 강제
 settings.popup.header 팝업
-settings.experimental.header 실험적 설정
+settings.experimental.header 실험 기능 설정
 settings.experimental.holiday 기념일 효과
-settings.experimental.aimFreezeFix 에임 멈춤 현상 해결
+settings.experimental.aimFreezeFix 조준 멈춤 현상 해결
 settings.experimental.mouseFlickFix 마우스 순간이동 문제 해결
 settings.experimental.shaderRendering 인스턴스 렌더링
 settings.experimental.mouseAccel 마우스 가속
@@ -106,7 +106,7 @@ settings.experimental.tbInterp 움직임 보간
 settings.client.header 클라이언트
 settings.client.unlimitedFrames 무제한 FPS
 settings.client.gameCap 게임 캡처
-settings.client.experimental 시험 기능
+settings.client.experimental 실험적 기능
 settings.client.discordRPC Discord 연동
 settings.client.resourceSwapper 리소스 교체 활성화
 settings.client.clearCache 캐시 삭제하기
@@ -309,7 +309,7 @@ settings.gameprivacy.streamer 스트리머 모드
 settings.gameprivacy.anon 익명 모드
 settings.gameprivacy.hideGameTitle 게임 제목 숨기기
 settings.gameprivacy.showRegion 지역 정보 표시
-settings.gameprivacy.verified 베리파이 배지 표시
+settings.gameprivacy.verified 인증 배지 표시
 settings.gameprivacy.premium 프리미엄 배지 표시
 settings.gameprivacy.partner 파트너 배지 표시
 settings.gameprivacy.rank 랭크전 배지 표시
@@ -506,7 +506,7 @@ windows.mods.load.header Mod 적용
 windows.mods.publish Mod 업로드
 windows.mods.viewer 뷰어
 windows.account.header 계정
-windows.account.recover 계정 복구는 <a>recovery@yendis.ch</a>로 이메일을 보내십시오
+windows.account.recover 계정 복구를 위해서는 <a>recovery@yendis.ch</a>로 이메일을 보내십시오
 windows.class.header 클래스 선택
 windows.controls.header 조작키 변경
 windows.controls.forward 앞
@@ -627,7 +627,7 @@ windows.store.login 로그인해서 마켓에서 아이템을 거래하세요!
 windows.store.purchasing 구매 중...
 windows.store.unboxed {0}{1}님이 아이템을 뽑음:
 windows.store.found {0}{1}님이 아이템을 찾음:
-windows.trade.header 트레이드 중
+windows.trade.header 거래 중
 windows.scope.header 스코프 선택
 windows.premium.header 프리미엄
 windows.skin.header 스킨 선택
@@ -704,7 +704,7 @@ streamers.views 시청자 {0}명
 streamers.none 생방송이 없습니다!
 error.extentions 확장 프로그램을 사용하고 있다면 비활성화 해주십시오.
 error.seek 다른 게임을 찾아보려면 here를 클릭하세요.
-custom.map.upload.limit 실패했습니다. 맵 데이터는 500KB 이내여야 합니다.
+custom.map.upload.limit 실패했습니다. 맵 데이터의 크기는 500KB 이하여야 합니다.
 custom.map.missing 최소 하나의 맵을 선택하세요.
 custom.mode.missing 최소 하나의 게임 모드를 선택하세요.
 custom.class.missing 최소 하나의 클래스를 선택하세요.
@@ -785,7 +785,7 @@ social.login 로그인/회원가입
 social.login.failed 로그인 실패
 social.login.buy 구매하려면 로그인하세요
 social.login.sell 판매하려면 로그인하세요
-social.login.gift KR을 주려면 로그인하세요
+social.login.gift KR을 선물하려면 로그인하세요
 social.login.proccessing 로그인 중...
 social.since 시작일
 social.user.maps 이 유저의 게임
@@ -844,7 +844,7 @@ settings.loaded 설정 로딩 완료
 settings.loaded.none 설정 입력 존재하지 않음
 account.login.required 로그인 필요
 account.banned.hack 이 계정은 핵 사용으로 인해 정지되었습니다.
-account.banned.appeal 계정 정지에 이의제기를 하려면, 여기에 연락을 취하세요.
+account.banned.appeal 계정 정지에 대해 이의제기를 하려면, 여기에 연락을 취하세요.
 account.delete 계정의 완전 삭제를 요청할 수 있고, 14일 내에 취소하지 않으면 모든 정보가 영구적으로 삭제됩니다.
 account.delete.request 계정 삭제를 요청하시겠습니까?
 account.delete.cancel 계정 삭제 요청을 취소하시겠습니까?
@@ -1002,9 +1002,9 @@ commands.forfeit.ended 항복 처리 중...
 commands.forfeit.ended.other 상대 팀이 항복했습니다
 server.message.join {0}님이 게임에 참가했습니다
 server.message.left {0}님이 게임을 떠났습니다
-server.message.kicked {0}님이 퇴장되었습니다
-server.message.banned {0}님이 영구 퇴장되었습니다
-server.message.votekicked {0}님이 투표 퇴장되었습니다
+server.message.kicked {0}님이 퇴장당했습니다
+server.message.banned {0}님이 영구 퇴장당헀습니다
+server.message.votekicked {0}님이 투표 퇴장당했습니다
 server.message.arrested KPD가 {0}님을 체포했습니다
 event.easter.golden.spawn 황금알이 근처에 있습니다
 event.easter.golden.despawn 황금알이 사라졌습니다
