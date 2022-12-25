@@ -11,18 +11,18 @@ menu.btn.invite.clicked Copiado
 menu.btn.join Unirse
 menu.btn.host Crear partida
 menu.btn.browser Servidores
-generic.wait Por favor espere...
+generic.wait Espere por favor...
 generic.loading CARGANDO...
-generic.none Nada
+generic.none Ninguno
 generic.connecting CONECTANDO...
 generic.select Seleccionar
-generic.delete Eliminar
+generic.delete Borrar
 generic.save Guardar
 generic.load Cargar
 generic.search Buscar
 generic.leave Salir
 generic.default Por defecto
-generic.submit Subir
+generic.submit Enviar
 generic.create Crear
 generic.random Aleatorio
 generic.failed Error
@@ -53,28 +53,28 @@ generic.kdr KDR
 generic.time Tiempo
 generic.logout Cerrar Sesión
 generic.logout.sessions Cerrar todas las Sesiones Abiertas
-generic.username Introduzca su Usuario
-generic.password Introduzca su Contraseña
+generic.username Ingresar nombre de usuario
+generic.password Ingresar contraseña
 generic.register Registrarse
 generic.login Iniciar Sesión
 generic.accuracy Precisión
-player.waiting Esperando jugadores
+player.waiting Esperando a los jugadores
 player.died Has muerto
-player.killed te eliminó
+player.killed Matado por
 player.killstreak {0} Está en una racha de {1} bajas
 player.inactive Desconectado por inactividad
 player.disconnect DESCONECTADO
 timer.end Siguiente ronda en {0}
 leaderboard.empty Sala vacía
 popup.checkpoint Punto de control!
-app.play CLICK PARA JUGAR
-app.spectate CLICK PARA ESPECTEAR
+app.play HAGA CLIC PARA JUGAR
+app.spectate CLIC PARA ESPECTEAR
 app.play.mobile PRESIONE PARA JUGAR
 app.spectate.mobile PRESIONA PARA ESPECTEAR
 app.play.controller PRESIONE INICIO
 app.spectate.controller PRESIONA INICIAR PARA ESPECTEAR
-purchase.error HA OCURRIDO UN ERROR
-purchase.error.click Haz click aquí </a> y prueba de nuevo!
+purchase.error Se ha producido un error
+purchase.error.click Haz clic aquí </a> y prueba de nuevo!
 purchase.error.limit Has superado tu límite de transacciones diarias
 settings.reset Reiniciar
 settings.reset.confirm Estás seguro de qué quieres reiniciar todas tus configuraciones?
@@ -87,7 +87,7 @@ settings.controls.press Presione cualquier tecla
 settings.controls.leaderboard Tipo de Activación de la Tabla de puntuación
 settings.controls.voicechat Tipo de Activación del Chat de Voz
 settings.local.header Localización <span id="requiresRestart"><span style="color: #eb5656">*</span> requiere reiniciar </span>
-settings.local.region Región por defecto
+settings.local.region Región predeterminada
 settings.local.lang Idioma
 settings.network.header Conexión
 settings.network.netRerouting Enrutamiento automático (Afecta el ping)
@@ -104,7 +104,7 @@ settings.experimental.shaderRendering Renderización de Instancias
 settings.experimental.mouseAccel Aceleración del Ratón
 settings.experimental.tbInterp Interpolación
 settings.client.header Cliente
-settings.client.unlimitedFrames FPS Ilimitados
+settings.client.unlimitedFrames FPS ilimitados
 settings.client.gameCap Captura de Juego
 settings.client.experimental Funciones Experimentales
 settings.client.discordRPC RPC de Discord
@@ -137,10 +137,10 @@ settings.quality.rendDst Distancia de renderizado
 settings.quality.res Resolución
 settings.quality.part Partículas
 settings.quality.mapDet Detalles de mapas
-settings.quality.noTex Sin texturas
+settings.quality.noTex Deshabilitar texturas
 settings.quality.partdist Distancia de partículas
-settings.quality.renderdist Distancia de Renderizado
-settings.quality.reflection Calidad De Reflejos
+settings.quality.renderdist Distancia de renderizado
+settings.quality.reflection Calidad de reflejos
 settings.quality.antiAlias Suavizado de bordes
 settings.quality.shadows Sombras
 settings.quality.softShad Sombras suaves
@@ -172,9 +172,9 @@ settings.post.ssaoRadius Radio de SSAO
 settings.interface.hitInd Mostrar Hitmarker
 settings.interface.hitColor Color de Hitmarker
 settings.interface.dmg Mostrar daño
-settings.interface.dmgType Show Damage
-settings.interface.dmgType.default Rounded
-settings.interface.dmgType.float Float
+settings.interface.dmgType Mostrar daño
+settings.interface.dmgType.default Números redondeados
+settings.interface.dmgType.float Números decimales
 settings.interface.dmgCol Color de daño
 settings.interface.critCol Color de daño crítico
 settings.interface.header Interfaz
@@ -235,7 +235,7 @@ settings.medals.yOff Ubicación de Medalla en  Y
 settings.crosshair.header Punto de mira
 settings.crosshair.type Tipo
 settings.crosshair.type.1 Dinámica
-settings.crosshair.type.2 Personalizado
+settings.crosshair.type.2 Formas
 settings.crosshair.type.3 En capas
 settings.crosshair.type.4 Imagen
 settings.crosshair.type.5 Precisión
@@ -255,7 +255,7 @@ settings.crosshair.shadow.color Color de Sombra
 settings.crosshair.shadow.thickness Grosor de Sombra
 settings.crosshair.size Tamaño
 settings.crosshair.thickness Grosor
-settings.crosshair.gap Separación
+settings.crosshair.gap Espacio
 settings.crosshair.dot Punto
 settings.crosshair.opacity.use Usar opacidad personalizada
 settings.crosshair.opacity.custom Opacidad personalizada
@@ -303,7 +303,7 @@ settings.onKillS.style.2 Reducir campo de visión
 settings.onKillS.style.3 Aumentar campo de visión
 settings.serverb.header Navegador de Servidores
 settings.serverb.oldBrowser Navegador Antiguo
-settings.serverb.defaultRegionOnly Solo región por Defecto
+settings.serverb.defaultRegionOnly Solo región predeterminada
 settings.gameprivacy.header Privacidad de Jugabilidad
 settings.gameprivacy.streamer Modo Streamer
 settings.gameprivacy.anon Modo Anónimo
@@ -561,14 +561,14 @@ windows.controls.propRot Alternar Rotación
 windows.controls.propRotR Reiniciar Rotación
 windows.controls.premium0 Noclip
 windows.controls.premium1 Modo inmortal
-windows.controls.premium2 Kill
+windows.controls.premium2 Eliminacion
 windows.controls.premium3 Smite
 windows.controls.reset Reiniciar Posición (Carreras y Parkour)
-windows.controls.resetLast Reset To Last Checkpoint (Parkour etc)
+windows.controls.resetLast Reiniciar al ultimo checkpoint (Parkour etc.)
 windows.controls.pretend Esconder Juego
 windows.controls.noclipSB Noclip
 windows.controls.godModeSB Godmode
-windows.controls.killSB Kill
+windows.controls.killSB Eliminacion
 windows.host.header Crear partida personalizada
 windows.host.maps Configurar partida
 windows.host.cmaps Mapas de la comunidad
@@ -576,7 +576,7 @@ windows.host.raw Archivos de mapa
 windows.host.modes Seleccionar modos
 windows.host.classes Seleccionar clases
 windows.host.settings Ajustes del servidor
-windows.host.preset Preajustes para servidor
+windows.host.preset Preajustes para encargado
 windows.host.preset.load Cargando pre-ajuste...
 windows.host.preset.name Nombre de pre-ajuste
 windows.host.start Iniciar juego
@@ -740,7 +740,7 @@ server.config.t5Dmg Daño del Equipo 5
 server.config.selTeam Seleccionar equipos
 server.config.frFire Friendly Fire
 server.config.allowSpect Permitir espectadores
-server.config.killRewards Recompensas de bajas
+server.config.killRewards Recompensas de eliminaciones
 server.config.headshotOnly Solo disparos a la cabeza
 server.config.noSecondary Deshabilitar secundarias
 server.config.noStreaks Deshabilitar rachas
@@ -860,7 +860,7 @@ stats.slimers Slimers
 stats.juggernauts Juggernauts
 stats.juggernauts.kills Juggernaut Kills
 stats.juggernauts.killed Juggernauts Killed
-stats.warmachines War Machines
+stats.warmachines Maquinas de guerra
 stats.melee Bajas con Cuchillo
 stats.fistkills Bajas con Puños
 stats.thrownkills Bajas con Cuchillo Arrojadizo
@@ -869,10 +869,10 @@ stats.wallbangs Bajas a través de Paredes
 stats.crouches Agachamientos
 stats.sprays Sprays Colocados
 stats.kpd Reportes Útiles  
-stats.shots Shots
-stats.hits Hits
-stats.misses Misses
-stats.legshots Legshots
+stats.shots Disparos
+stats.hits Disparos impactaron
+stats.misses Disparos no impactaron
+stats.legshots Tiros a piernas
 windows.host.default.settings Habilitar las configuraciones predeterminadas te permite guardar tu progreso y tus mejores puntuaciones
 windows.host.default.commands Los comandos de hosteo están deshabilitados para este modo : /noclip /god /smite etc
 windows.host.rewards Al activar las Recompensas de KR fuerza al servidor a usar configuraciones por defecto y permite a los jugadores ganar recompensas de los fondos del mapa:
@@ -1000,14 +1000,14 @@ commands.forfeit.voted Ya has votado.
 commands.forfeit.limit Solo puedes iniciar un voto por partida.
 commands.forfeit.ended Tu equipo se ha rendido.
 commands.forfeit.ended.other El equipo enemigo se rindió.
-server.message.join {0} Se ha unido a la partida.
-server.message.left {0} Ha abandonado la partida.
-server.message.kicked {0} fue Expulsado
-server.message.banned {0} fue Baneado
-server.message.votekicked {0} fue Expulsado por Voto
-server.message.arrested {0} Fue arrestado por la K.P.D
-event.easter.golden.spawn A Golden egg is near
-event.easter.golden.despawn A Golden egg has gone
-event.easter.found.new {0} found {1}/{2} Eggs
-event.easter.found.old You already discovered this egg!
-event.easter.completed {0} completed the Egg hunt!
+server.message.join {0} se unió al juego.
+server.message.left {0} abandonó el juego.
+server.message.kicked {0} fue expulsado.
+server.message.banned {0} fue baneado.
+server.message.votekicked {0} fue expulsado por votación.
+server.message.arrested {0} fue arrestado por la K.P.D.
+event.easter.golden.spawn Un huevo de oro esta cerca
+event.easter.golden.despawn Un huevo de oro se fue.
+event.easter.found.new {0} encontro {1}/{2} huevos
+event.easter.found.old Ya descubriste este huevo!
+event.easter.completed  {0} has completado la busqueda de huevos!
