@@ -1,5 +1,5 @@
 module.exports = `
-menu.btn.ranked 랭킹전
+menu.btn.ranked 랭크전
 menu.btn.shop 상점
 menu.btn.social 허브
 menu.btn.maps 사용자 지정 게임
@@ -96,7 +96,7 @@ settings.network.lagComp 지연 시간 보정
 settings.network.optNet 네트워크 최적화
 settings.network.quickplay 빠른 플레이 강제
 settings.popup.header 팝업
-settings.experimental.header 실험 기능 설정
+settings.experimental.header 실험적 기능 설정
 settings.experimental.holiday 기념일 효과
 settings.experimental.aimFreezeFix 조준 멈춤 현상 해결
 settings.experimental.mouseFlickFix 마우스 순간이동 문제 해결
@@ -309,7 +309,7 @@ settings.gameprivacy.streamer 스트리머 모드
 settings.gameprivacy.anon 익명 모드
 settings.gameprivacy.hideGameTitle 게임 제목 숨기기
 settings.gameprivacy.showRegion 지역 정보 표시
-settings.gameprivacy.verified 인증 배지 표시
+settings.gameprivacy.verified 베리파이 배지 표시
 settings.gameprivacy.premium 프리미엄 배지 표시
 settings.gameprivacy.partner 파트너 배지 표시
 settings.gameprivacy.rank 랭크전 배지 표시
@@ -619,15 +619,15 @@ windows.store.market2 Krunker 마켓
 windows.store.premium 프리미엄 구독
 windows.store.premium2 Krunker 프리미엄
 windows.store.buyP Krunker 프리미엄으로 표시 이름을 바꾸고 더 많은 혜택을 누리세요!
-windows.store.buy 아이템을 거래할 때는
+windows.store.buy 아이템을 트레이드할 때는
 windows.store.wheels 경품 뽑기
 windows.store.unlock 새 무기 스킨과 아이템을 얻으세요!
 windows.store.amount {0} KR 보유
-windows.store.login 로그인해서 마켓에서 아이템을 거래하세요!
+windows.store.login 로그인해서 마켓에서 아이템을 트레이드하세요!
 windows.store.purchasing 구매 중...
 windows.store.unboxed {0}{1}님이 아이템을 뽑음:
 windows.store.found {0}{1}님이 아이템을 찾음:
-windows.trade.header 거래 중
+windows.trade.header 트레이드 중
 windows.scope.header 스코프 선택
 windows.premium.header 프리미엄
 windows.skin.header 스킨 선택
