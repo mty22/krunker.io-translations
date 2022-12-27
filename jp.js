@@ -753,7 +753,7 @@ server.config.requireCaptcha Captchaが必要
 server.config.nameTags ネームタグを非表示 (敵)
 server.config.nameTagsFR ネームタグを非表示 (味方)
 server.config.kCams キルカメラ
-server.config.aAnon Anonymousモードを許可
+server.config.aAnon 匿名モードを許可
 server.config.noReload リロード禁止
 server.config.private プライベート
 server.config.krRewards KR報酬
@@ -769,7 +769,7 @@ server.config.forceC クラスを強制的に指定
 server.config.logTim タイムを記録する (レース、パルクール)
 server.config.lstChkT タイムを巻き戻して直近のチェックポイントに戻る (レース、Bhop)
 server.config.hitBoxPad ヒットボックスの大きさ
-server.config.hpRegen HP回復
+server.config.hpRegen 体力回復
 server.config.disableB ボーダー無効
 server.config.throwMel 投げナイフ
 server.config.noCosm 装飾品を無効化
