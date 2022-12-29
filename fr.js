@@ -1006,8 +1006,8 @@ server.message.kicked {0} a été expulsé
 server.message.banned {0} a été banni
 server.message.votekicked {0} a été expulsé par vote
 server.message.arrested {0} a été arrêté par le K.P.D
-event.easter.golden.spawn A Golden egg is near
-event.easter.golden.despawn A Golden egg has gone
-event.easter.found.new {0} found {1}/{2} Eggs
-event.easter.found.old You already discovered this egg!
-event.easter.completed {0} completed the Egg hunt!
+event.easter.golden.spawn A Golden egg is near Un œuf doré est proche
+event.easter.golden.despawn A Golden egg has gone Un œuf doré est parti
+event.easter.found.new {0} found {1}/{2} Eggs trouvé {1}/{2} œufs
+event.easter.found.old You already discovered this egg! Vous avez déjà découvert cet œuf!
+event.easter.completed {0} completed the Egg hunt! complété la chasse à l'œuf!
