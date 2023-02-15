@@ -3,6 +3,11 @@
 <br>
 </div>
 
+# Important Notification
+
+As of 2023-02-15, this repository has entered into a read-only state. The purpose of this is to migrate the Krunker Translation project over to [Crowdin](https://crowdin.com/) which will allow for the community to continue contributing!
+
+Once the migration has been complete, more information will be available both here and in [Krunker Bunker](https://discord.gg/krunker) Discord.
 
 ## Info
 
@@ -11,11 +16,13 @@ This repo contains all the language files for [krunker.io](https://krunker.io)
 Project information and discussion on Discord can be found in [Krunker Bunker](https://discord.gg/krunker) channels **#krunker-translation** and **#krunker-translators**. In order to participate, you will need to react to respective 'Translator Notif' role to gain access.
 
 ## I want to contribute, how can I help?
+
 *New here? Want to know what you can help with?* First, have a look at the current [status.txt](https://github.com/mty22/krunker.io-translations/blob/main/status.txt) file which gives you a quick overview of what's going on!
 
 Happy to continue and not sure on how to use GitHub? Have a look at this [Introduction to GitHub](https://lab.github.com/githubtraining/introduction-to-github) tutorial as it may answer many common questions! Some users also use Git clients such as [Sourcetree](https://www.sourcetreeapp.com/) in order to make things easier!
 
-## First step towards contributing..
+## First step towards contributing
+
 After you've had a look at [status.txt](https://raw.githubusercontent.com/mty22/krunker.io-translations/main/status.txt), and **before translating Krunker into another language**, please search for an [existing issue](https://github.com/mty22/krunker.io-translations/issues) to see if another person is working on it, or if there's previously answered questions that may help you here!
 
 Here's an example of searching for issues related to "Spanish":
@@ -35,12 +42,13 @@ In the scenario where an issue was created and closed, please comment on the ori
 
 It should also be known without saying that use of tools such as Google Translator or DeepL is **not permitted**. If you are found to be using it, you will not be eligible to participate in this project. Remember, your work will be seen by thousands of Krunker players, so accuracy is really a important fact with translation work!
 
-## I've made changes and ready to share them!
+## I've made changes and ready to share them
+
 Once you've completed your changes, please submit a [Pull Request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork):
 
 Already done the first 3 steps and you need to resync your GitHub repository? Check out this guide on [syncing a forked repository](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork).
 
-1. Go to the GitHub repository: https://github.com/mty22/krunker.io-translations
+1. Go to the GitHub repository: <https://github.com/mty22/krunker.io-translations>
 2. In the top right corner, click **Fork**. See [this article](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo) for more information.
 3. This will fork (copy) the GitHub repository into your own GitHub repository which allows you to work on it.
 4. You have to add the translation file(s) into **your GitHub repository** (main branch).
@@ -64,6 +72,7 @@ You're also welcome to modify [CODEOWNERS](https://github.com/mty22/krunker.io-t
 Please click [here](https://github.com/mty22/krunker.io-translations/blob/main/CONTRIBUTORS.md) to view the full list of contributors!
 
 ## Rewards?
+
 KR rewards, Discord Translator Contributor role, Krunker translator badge and Krunker account verification are typically awarded based on contribution levels and long term translation support.
 
 If you are curious, have a look at both [Payouts/reward guide](https://github.com/mty22/krunker.io-translations/blob/main/kr_payment_guide.txt) and [Payouts sent](https://github.com/mty22/krunker.io-translations/blob/main/kr_payouts.csv).
@@ -82,7 +91,7 @@ If you need any assistance, please reach out to Translator Contributors in [Krun
 
 ## Current Krunker language support
 
-As of Krunker version [v5.7.4](https://krunker.io/docs/versions.txt), the following languages have been added to the game:
+As of Krunker version [v6.0.5](https://krunker.io/docs/versions.txt), the following languages have been added to the game:
 
 - [English](https://github.com/mty22/krunker.io-translations/blob/main/en.js)
 - [Spanish](https://github.com/mty22/krunker.io-translations/blob/main/es.js)
@@ -101,4 +110,3 @@ As of Krunker version [v5.7.4](https://krunker.io/docs/versions.txt), the follow
 - [Italian](https://github.com/mty22/krunker.io-translations/blob/main/it.js)
 - [Tagalog](https://github.com/mty22/krunker.io-translations/blob/main/tg.js)
 - [Turkish](https://github.com/mty22/krunker.io-translations/blob/main/tr.js)
-
